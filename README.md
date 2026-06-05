@@ -2,7 +2,7 @@
 
 Data and content foundation for a practice-exam website for the **CIRO Supervisor Exam** (Canadian Investment Regulatory Organization, proficiency model effective January 1, 2026). Research, content model, and question bank built and QA'd June 4, 2026.
 
-**State at handoff: the data layer is build-ready.** 493 reviewed questions covering all 9 syllabus elements, 446 reviewed crash-course flashcards (the study-notes layer), a verified content model, and exam-form metadata. Not yet built: the website itself, French content.
+**State at handoff: the data layer is build-ready.** 643 reviewed questions covering all 9 syllabus elements, 446 reviewed crash-course flashcards (the study-notes layer), a verified content model, and exam-form metadata. Not yet built: the website itself, French content.
 
 ## Folder map
 
@@ -62,7 +62,7 @@ Guaranteed fields per item:
 
 Optional fields: `item_set_id` + `scenario` (item_set items only — scenario text is denormalized onto every item of the set; group by `item_set_id`, render scenario once); `source_quote` (verbatim supporting quote + source locator — present on 448 of 493 items; show in an expandable "source" affordance if desired); `qa_note`.
 
-Current composition: 493 items · per element 1:55, 2:55, 3:54, 4:60, 5:58, 6:53, 7:52, 8:54, 9:52 · 426 standard + 67 item-set (17 sets: 16×4 + 1×3) · keys A:123 B:139 C:124 D:107 · 448 of 493 carry `source_quote`.
+Current composition: 643 items · per element 1:55, 2:55, 3:54, 4:110, 5:108, 6:103, 7:52, 8:54, 9:52 · 548 standard + 95 item-set (15%) · keys A:161 B:177 C:163 D:142 · 598 of 643 carry `source_quote`. Supports 5 fully distinct 90-question mock forms (binding constraint: E4 at 110 vs 20/form).
 
 ### `study-material/flashcards/cards.json` — crash-course study layer
 
