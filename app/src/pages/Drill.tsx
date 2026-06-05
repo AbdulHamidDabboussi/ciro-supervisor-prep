@@ -28,6 +28,7 @@ export default function Drill() {
   const [difficulty, setDifficulty] = useState<string>('all')
   const [taxonomy, setTaxonomy] = useState<string>('all')
   const [nonce, setNonce] = useState(0)
+  const [sessionSize, setSessionSize] = useState<number | 'all'>('all')
 
   const pool = useMemo(() => {
     return reviewedQuestions.filter((q) => {
@@ -39,7 +40,10 @@ export default function Drill() {
     })
   }, [reviewedQuestions, element, outcome, difficulty, taxonomy])
 
-  const queue = useMemo<Question[]>(() => shuffle(pool), [pool, nonce])
+  const queue = useMemo<Question[]>(() => {
+    const shuffled = shuffle(pool)
+    return sessionSize === 'all' ? shuffled : shuffled.slice(0, sessionSize)
+  }, [pool, nonce, sessionSize])
 
   // Reviewed-question count per outcome — shown in the dropdown so it's clear each
   // outcome is populated (currently every outcome has at least one question).
@@ -65,6 +69,32 @@ export default function Drill() {
   const current = queue[pointer]
   const outcomeOptions = element !== 'all' ? (outcomesByElement.get(Number(element)) ?? []) : []
 
+  // Keyboard: A–D / 1–4 to answer; Enter or → to advance.
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return
+      const tag = (e.target as HTMLElement | null)?.tagName
+      if (tag === 'SELECT' || tag === 'INPUT' || tag === 'TEXTAREA') return
+      if (!current) return
+      if (!revealed) {
+        const map: Record<string, OptionKey> = {
+          '1': 'A', '2': 'B', '3': 'C', '4': 'D', a: 'A', b: 'B', c: 'C', d: 'D',
+        }
+        const k = map[e.key.toLowerCase()]
+        if (k) {
+          e.preventDefault()
+          pick(k)
+        }
+      } else if (e.key === 'ArrowRight' || (e.key === 'Enter' && tag !== 'BUTTON')) {
+        e.preventDefault()
+        next()
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [current, revealed])
+
   function pick(key: OptionKey) {
     if (revealed || !current) return
     const isCorrect = key === current.answer
@@ -89,7 +119,7 @@ export default function Drill() {
         subtitle="Filter the bank, answer one question at a time, and see the rationale and rule references immediately."
       />
 
-      <div className="card mb-6 grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="card mb-6 grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-5">
         <Field label="Element">
           <select
             className="field w-full"
@@ -147,6 +177,18 @@ export default function Drill() {
             ))}
           </select>
         </Field>
+        <Field label="Session">
+          <select
+            className="field w-full"
+            value={String(sessionSize)}
+            onChange={(e) => setSessionSize(e.target.value === 'all' ? 'all' : Number(e.target.value))}
+          >
+            <option value="10">10 questions</option>
+            <option value="25">25 questions</option>
+            <option value="50">50 questions</option>
+            <option value="all">All ({pool.length})</option>
+          </select>
+        </Field>
       </div>
 
       {pool.length === 0 ? (
@@ -180,7 +222,9 @@ export default function Drill() {
 
             <div className="mt-6 flex items-center justify-between">
               <p className="text-xs text-slate-400">
-                {revealed ? 'Review the explanation, then continue.' : 'Select the best answer.'}
+                {revealed
+                  ? 'Review the explanation, then continue (Enter).'
+                  : 'Select the best answer (keys A–D or 1–4).'}
               </p>
               <button className="btn-primary" disabled={!revealed} onClick={next}>
                 {pointer + 1 === queue.length ? 'Finish' : 'Next question →'}

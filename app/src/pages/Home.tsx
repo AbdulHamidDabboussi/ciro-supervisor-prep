@@ -1,8 +1,10 @@
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useData } from '../data/DataContext'
 import { useProgress } from '../store/progress'
-import { Badge } from '../components/ui'
-import { formatDate } from '../lib/format'
+import { useMock } from '../store/mock'
+import { Badge, Modal } from '../components/ui'
+import { formatDate, formatClock } from '../lib/format'
 
 const MODES = [
   {
@@ -35,12 +37,35 @@ export default function Home() {
   const { reviewedQuestions, deck, examMeta } = useData()
   const drill = useProgress((s) => s.drill)
   const mockHistory = useProgress((s) => s.mockHistory)
+  const resetAll = useProgress((s) => s.resetAll)
+
+  const mockStatus = useMock((s) => s.status)
+  const mockAnswered = useMock((s) => Object.keys(s.answers).length)
+  const mockTotal = useMock((s) => s.questions.length)
+  const mockRemaining = useMock((s) => s.remainingAt(Date.now()))
+  const mockInProgress = mockStatus === 'running' || mockStatus === 'paused'
 
   const attempted = Object.keys(drill).length
   const lastMock = mockHistory[0]
+  const [confirmReset, setConfirmReset] = useState(false)
 
   return (
     <div className="space-y-10">
+      {mockInProgress && (
+        <section className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700/60 dark:bg-amber-900/20">
+          <div className="text-sm">
+            <p className="font-semibold text-amber-900 dark:text-amber-200">Mock exam in progress</p>
+            <p className="text-amber-800/80 dark:text-amber-300/80">
+              {mockAnswered}/{mockTotal} answered · {formatClock(mockRemaining)} left
+              {mockStatus === 'paused' ? ' (paused)' : ''}
+            </p>
+          </div>
+          <Link to="/mock" className="btn-primary">
+            Resume exam
+          </Link>
+        </section>
+      )}
+
       <section className="rounded-2xl bg-gradient-to-br from-brand-600 to-brand-800 p-8 text-white shadow-lg">
         <p className="text-sm font-medium uppercase tracking-wider text-brand-100">
           {examMeta.exam}
@@ -64,14 +89,24 @@ export default function Home() {
       </section>
 
       {(attempted > 0 || lastMock) && (
-        <section className="card grid gap-4 p-5 sm:grid-cols-3">
-          <Stat label="Questions attempted" value={`${attempted}`} sub={`of ${reviewedQuestions.length}`} />
-          <Stat
-            label="Last mock score"
-            value={lastMock ? `${lastMock.overallPct}%` : '—'}
-            sub={lastMock ? formatDate(lastMock.finishedAt) : 'no attempts yet'}
-          />
-          <Stat label="Mock exams taken" value={`${mockHistory.length}`} sub="saved on this device" />
+        <section className="card p-5">
+          <div className="grid gap-4 sm:grid-cols-3">
+            <Stat label="Questions attempted" value={`${attempted}`} sub={`of ${reviewedQuestions.length}`} />
+            <Stat
+              label="Last mock score"
+              value={lastMock ? `${lastMock.overallPct}%` : '—'}
+              sub={lastMock ? formatDate(lastMock.finishedAt) : 'no attempts yet'}
+            />
+            <Stat label="Mock exams taken" value={`${mockHistory.length}`} sub="saved on this device" />
+          </div>
+          <div className="mt-4 border-t border-slate-200 pt-3 text-right dark:border-slate-800">
+            <button
+              onClick={() => setConfirmReset(true)}
+              className="text-xs font-medium text-slate-500 transition hover:text-red-600 dark:text-slate-400 dark:hover:text-red-400"
+            >
+              Reset progress
+            </button>
+          </div>
         </section>
       )}
 
@@ -106,6 +141,30 @@ export default function Home() {
         per-form. This site never shows an “official pass threshold.” Mock results give you a
         percentage and a breakdown by element and skill so you can see where to focus.
       </section>
+
+      {confirmReset && (
+        <Modal onClose={() => setConfirmReset(false)}>
+          <p className="text-lg font-semibold">Reset all progress?</p>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+            This clears your drill history, flashcard marks, and saved mock scores on this device. It
+            can’t be undone.
+          </p>
+          <div className="mt-5 flex justify-center gap-3">
+            <button className="btn-secondary" onClick={() => setConfirmReset(false)}>
+              Cancel
+            </button>
+            <button
+              className="btn bg-red-600 text-white hover:bg-red-700"
+              onClick={() => {
+                resetAll()
+                setConfirmReset(false)
+              }}
+            >
+              Reset everything
+            </button>
+          </div>
+        </Modal>
+      )}
     </div>
   )
 }
