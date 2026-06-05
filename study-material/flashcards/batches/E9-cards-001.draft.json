@@ -1,0 +1,430 @@
+{
+  "meta": {
+    "batch": "E9-CARDS-001 (PILOT)",
+    "element": 9,
+    "drafted": 31,
+    "date": "2026-06-04",
+    "purpose": "Format pilot for user sign-off. Facts drawn only from content already verbatim-verified this project (official English syllabus 9.1–9.3, IDPC corpus passages confirmed during question-bank gates).",
+    "corpus": [
+      "syllabus-raw.txt (Element 9)",
+      "idpc-rules.txt (2026-01-08)",
+      "gn-3900-20-001.txt"
+    ],
+    "patch_note": "Gap patches 2026-06-04 per open-cards solve — see qa-log.md"
+  },
+  "cards": [
+    {
+      "id": "FC-E9-0001",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "list",
+      "front": "What are the five components of business location supervision guidelines?",
+      "back": "Scope; planning; business location audit program and related training; risk identification; audit report and follow-up.",
+      "rule_refs": [
+        "Syllabus 9.1",
+        "GN-3900-21-002"
+      ],
+      "source_quote": "\"Understand the guidelines for business location supervision, including: • Scope • Planning • Business location audit program and training • Risk identification • Audit report and follow up\" — syllabus-raw.txt ~line 1612",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0002",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "process",
+      "front": "An audit finds deficiencies at a branch. What must happen after the audit report?",
+      "back": "Documented follow-up: findings tracked to corrective action — unresolved findings escalate; they are never withheld from Executives.",
+      "rule_refs": [
+        "Syllabus 9.1",
+        "Syllabus 9.3"
+      ],
+      "source_quote": "\"Inadequate follow-up procedures to ensure that compliance audit findings are properly tracked and corrective action is taken by a business location\" — syllabus-raw.txt ~line 1652",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0003",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "threshold",
+      "front": "How long must supervision records (e.g., records of branch reviews) be retained?",
+      "back": "Minimum 7 years from the date the record is created, in durable and accessible form.",
+      "rule_refs": [
+        "IDPC 3908"
+      ],
+      "source_quote": "\"in durable and accessible form, for a minimum of seven years from the date the\" — idpc-rules.txt ~line 6721",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0004",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "process",
+      "front": "Who oversees the Supervisors at a dealer's business locations?",
+      "back": "Head office: the dealer must supervise its Supervisors (IDPC 3905 head-office oversight), supported by a location audit program.",
+      "rule_refs": [
+        "IDPC 3905",
+        "GN-3900-21-002"
+      ],
+      "source_quote": "\"A Dealer Member must have procedures in place that ensure that Supervisors are properly performing their supervisory functions.\" — idpc-rules.txt ~line 7935",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0005",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "list",
+      "front": "Name the five business-location risk-factor categories in syllabus 9.2.",
+      "back": "Internal; reputational; business-activity; location size; client-base.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "source_quote": "\"Internal risk factors, including: - Adequacy of resources - Key person reliance - Principal-agent • Reputational risk, including: - Community-specific marketing strategy and sales practices - Number of outside activities - Any internal disciplinary action - Number of complaints\" — syllabus-raw.txt ~line 1621",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0006",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "list",
+      "front": "Internal risk factors of a business location include which three items?",
+      "back": "Adequacy of resources; key-person reliance; principal-agent relationship.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "source_quote": "\"Internal risk factors, including: - Adequacy of resources - Key person reliance - Principal-agent\" — syllabus-raw.txt ~line 1621",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0007",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "list",
+      "front": "Reputational risk factors of a business location include which four items?",
+      "back": "Community-specific marketing strategy and sales practices; number of outside activities; internal disciplinary actions; number of complaints.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "source_quote": "\"Reputational risk, including: - Community-specific marketing strategy and sales practices - Number of outside activities - Any internal disciplinary action - Number of complaints\" — syllabus-raw.txt ~line 1625",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0008",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "list",
+      "front": "Business-activity risk at a location is driven by which factors?",
+      "back": "Exposure inherent to a product/service offered there; the location's lines of business and aggregate portfolio risk; number of trade errors.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "source_quote": "\"Business location’s business activity risk, including: - Exposure inherent to providing a particular product or service at a business location - Business location’s lines of business and the aggregate risk present in its overall portfolio - Number of trading errors\" — syllabus-raw.txt ~line 1630",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0009",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "list",
+      "front": "Business location SIZE risk includes which pair of considerations?",
+      "back": "Risk-weighting; risk assessment and control practices (plus registrant count context).",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "source_quote": "\"Business location size risk, including: - Risk-weighting - Risk assessment and control practices\" — syllabus-raw.txt lines 1663-1665",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0010",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "definition",
+      "front": "What is client-base risk at a business location?",
+      "back": "The risk the location assumes that clients may use it for inappropriate purposes.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "source_quote": "\"Client base risk, business location assumes the risk that clients may use it for inappropriate actions\" — syllabus-raw.txt ~line 1638",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0011",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "trap",
+      "front": "TRAP: 'Number of complaints' belongs to which 9.2 risk category — internal or reputational?",
+      "back": "Reputational. Internal is resources/key-person/principal-agent. Exam distractors swap items across the five categories.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "source_quote": "\"Reputational risk, including: - Community-specific marketing strategy and sales practices - Number of outside activities - Any internal disciplinary action - Number of complaints\" — syllabus-raw.txt ~line 1625",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0012",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "trap",
+      "front": "TRAP: 'Number of trade errors' belongs to which 9.2 risk category?",
+      "back": "Business-activity risk — not size risk. Size risk is risk-weighting and risk assessment/control practices.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "source_quote": "\"Business location’s business activity risk, including: - Exposure inherent to providing a particular product or service at a business location - Business location’s lines of business and the aggregate risk present in its overall portfolio - Number of trading errors\" — syllabus-raw.txt ~line 1630",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0013",
+      "element": 9,
+      "outcome": "9.3",
+      "type": "list",
+      "front": "Syllabus 9.3 retail distribution risks — name the product-related ones.",
+      "back": "Sale of complex or opaque products (incl. illiquid/alternative); new or complex products retail investors don't understand.",
+      "rule_refs": [
+        "Syllabus 9.3"
+      ],
+      "source_quote": "\"The sale of complex or opaque products by individual registrants, including illiquid or alternative products\" — syllabus-raw.txt ~line 1643",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0014",
+      "element": 9,
+      "outcome": "9.3",
+      "type": "trap",
+      "front": "Which books-and-records failure does 9.3 single out for particular attention?",
+      "back": "Inadequate control over books and records, with particular attention to poor control of client address changes.",
+      "rule_refs": [
+        "Syllabus 9.3"
+      ],
+      "status": "draft",
+      "source_quote": "\"Inadequate control over books and records, with particular attention to poor control of client address changes\" — syllabus-raw.txt (Element 9, 9.3 parameters)"
+    },
+    {
+      "id": "FC-E9-0015",
+      "element": 9,
+      "outcome": "9.3",
+      "type": "list",
+      "front": "Which supervision-and-control failures does 9.3 flag for retail distribution?",
+      "back": "Inadequate control/review of advertising and sales literature; lack of documented evidence of overall supervision.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3602"
+      ],
+      "source_quote": "\"Failure to meet regulatory standards for supervision and control, including inadequate control and review of advertising and sales literature and the lack of documented evidence of overall supervision\" — syllabus-raw.txt ~line 1647",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0016",
+      "element": 9,
+      "outcome": "9.3",
+      "type": "list",
+      "front": "Beyond products and supervision controls, list four more 9.3 retail distribution risks.",
+      "back": "Client margin management failures; weak follow-up on compliance audit findings; improper reassignment of terminated registrants' accounts; commission-based compensation conflicts.",
+      "rule_refs": [
+        "Syllabus 9.3"
+      ],
+      "source_quote": "\"Failure to meet requirements for managing the margin activities of clients • Inadequate follow-up procedures to ensure that compliance audit findings are properly tracked and corrective action is taken by a business location\" — syllabus-raw.txt ~line 1650",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0017",
+      "element": 9,
+      "outcome": "9.3",
+      "type": "process",
+      "front": "A branch repeatedly ignores compliance audit findings. What does 9.3 require?",
+      "back": "Adequate follow-up procedures: findings tracked and corrective action taken by the business location — non-remediation is itself the named risk.",
+      "rule_refs": [
+        "Syllabus 9.3"
+      ],
+      "source_quote": "\"Inadequate follow-up procedures to ensure that compliance audit findings are properly tracked and corrective action is taken by a business location\" — syllabus-raw.txt ~line 1652",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0018",
+      "element": 9,
+      "outcome": "9.3",
+      "type": "trap",
+      "front": "TRAP: an AP fails 'regulatory, contractual and legal obligations and the duty of integrity.' Which element/outcome tests this?",
+      "back": "9.3 (retail distribution risk framing) — distinct from Element 1 ethics outcomes, which test the conduct standards themselves.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "Syllabus 1.17"
+      ],
+      "source_quote": "\"Approved Person’s failure to meet regulatory, contractual and legal obligations and to apply high levels of integrity\" — syllabus-raw.txt ~line 1656",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0019",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "list",
+      "front": "Which factors make up a business location's risk profile for supervision purposes?",
+      "back": "Supervisor experience; personnel tenure/turnover; disciplinary/regulatory history; revenue sources; number of client accounts; share of revenue from higher-risk investments; prior compliance audit findings.",
+      "rule_refs": [
+        "Appendix 16 C3-VIII"
+      ],
+      "status": "draft",
+      "source_quote": "\"consider the risk profile(s) of relevant business locations (Supervisor experience level; tenure/turnover of personnel; internal/external disciplinary history or regulatory actions; revenue sources; number of client accounts; percentage of revenue from higher-risk investments\" — research/02 Part 4, Appendix 16 C3-VIII"
+    },
+    {
+      "id": "FC-E9-0020",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "process",
+      "front": "Who must manage and control the specific risks identified at business locations?",
+      "back": "Qualified individuals with sufficient resources, assigned to those risks — with red flags identified, followed up and escalated.",
+      "rule_refs": [
+        "Appendix 16 C3-VIII"
+      ],
+      "source_quote": "\"ensure management and control of specific risks are assigned to qualified individuals with sufficient resources; identify red flags, follow up and escalate\" — 02-syllabus-study-guide-competency-profile.md ~line 349",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0021",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "definition",
+      "front": "Key-person reliance as a location risk means what?",
+      "back": "The location's supervision or operations depend on one individual — their absence or departure breaks controls.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "qa_note": "Killed 2026-06-04: bare term 'key person reliance' has no definitional support in any local source; no-quote-no-card policy.",
+      "status": "killed"
+    },
+    {
+      "id": "FC-E9-0022",
+      "element": 9,
+      "outcome": "9.2",
+      "type": "trap",
+      "front": "TRAP: does a principal-agent arrangement reduce the dealer's supervisory obligations at that location?",
+      "back": "No — obligations are unchanged; the arrangement is itself an internal risk factor to supervise (see also Rule 2300).",
+      "rule_refs": [
+        "Syllabus 9.2",
+        "IDPC 2300"
+      ],
+      "source_quote": "\"The Dealer Member must treat each of its agents as employees with respect to:\" — idpc-rules.txt ~line 1727",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0023",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "list",
+      "front": "What belongs in the business location audit program besides the audits themselves?",
+      "back": "Related training for those conducting audits, defined scope, and planning.",
+      "rule_refs": [
+        "Syllabus 9.1"
+      ],
+      "source_quote": "\"Scope • Planning • Business location audit program and training • Risk identification • Audit report and follow up\" — syllabus-raw.txt ~line 1613",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0024",
+      "element": 9,
+      "outcome": "9.3",
+      "type": "distinction",
+      "front": "Advisory services vs fully discretionary managed products under 9.3 — why are both named?",
+      "back": "Both are retail distribution channels whose risks (books/records control, supervision standards, margin, documentation) the Supervisor must apply requirements to.",
+      "rule_refs": [
+        "Syllabus 9.3"
+      ],
+      "source_quote": "\"Apply supervisory requirements to retail distribution risks, including advisory services and fully discretionary managed products to specific situations relevant to a Supervisor.\" — syllabus-raw.txt ~line 1640",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0025",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "definition",
+      "front": "IDPC 1201: when does a RESIDENCE count as a 'business location'?",
+      "back": "When regular and ongoing activity requiring registration or approval is carried out from it — or when records relating to such activity are kept there.",
+      "rule_refs": [
+        "IDPC 1201 \"business location\""
+      ],
+      "source_quote": "\"an activity that requires registration or Corporation approval is carried out by or on behalf of a Dealer Member, and includes a residence if regular and ongoing activity that requires registration or approval is carried out from the residence\" — idpc-rules.txt ~line 232",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0026",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "process",
+      "front": "IDPC 2202: what must a dealer do when it opens or closes a business location?",
+      "back": "Notify the Corporation of the opening or closing, under sub-clause 2803(2)(i)(g) — an NRD submission within the time period prescribed by NI 33-109.",
+      "rule_refs": [
+        "IDPC 2202(1)",
+        "IDPC 2803(2)(i)(g)"
+      ],
+      "source_quote": "\"Under sub-clause 2803(2)(i)(g), a Dealer Member must notify the Corporation of the opening or closing of a business location.\" — idpc-rules.txt ~line 1305",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0027",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "process",
+      "front": "Which NRD form notifies a change of address, type of location, or supervision of a business location?",
+      "back": "Form 33-109F3 — Business locations other than head office (same form used for opening/closing notifications under section 2202).",
+      "rule_refs": [
+        "IDPC 2803(2)(i)(h)",
+        "IDPC 2803(2)(i)(g)"
+      ],
+      "source_quote": "\"a notification of change of address, type of Form 33-109F3 - Business locations other than location or supervision of any business head office location\" — idpc-rules.txt ~line 3784 (two-column table row, flattened)",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0028",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "definition",
+      "front": "Rule 2200 Part D: what makes a business location a branch office MEMBER of a CIRO Region?",
+      "back": "Being in a Region with a Supervisor who is normally present at that business location — every such location is a branch office member of the Region.",
+      "rule_refs": [
+        "IDPC 2266(1)",
+        "IDPC 2265"
+      ],
+      "source_quote": "\"Every Dealer Member’s business location in a Region with a Supervisor, who is normally present at the business location, is a branch office member of the Region.\" — idpc-rules.txt ~line 1612",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0029",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "process",
+      "front": "GN-3900-20-001: what is the stated DESIGN purpose of second-tier supervision?",
+      "back": "Ensure no serious account issues were missed by first-tier supervision, and ensure first-tier supervision is conducted adequately. (First tier: resident Supervisors at their location; second tier: normally head office.)",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2",
+        "GN-3900-20-001 s.2.1"
+      ],
+      "source_quote": "\"Dealers should design their second-tier supervision to: ensure no serious account issues were missed by ﬁrst-tier supervision, and ensure ﬁrst-tier supervision is conducted adequately.\" — gn-3900-20-001.txt ~line 263",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0030",
+      "element": 9,
+      "outcome": "9.1",
+      "type": "process",
+      "front": "GN-3900-20-001: second-tier reviewers spot issues they have no authority to resolve. What must exist?",
+      "back": "Procedures for referring those issues to a Supervisor who has the appropriate authority.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2"
+      ],
+      "source_quote": "\"Where the second-tier reviews are conducted by personnel who do not have the authority to resolve the issues they identify, the Dealer should have procedures for referring these issues to a Supervisor who has the appropriate authority.\" — gn-3900-20-001.txt ~line 269",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E9-0031",
+      "element": 9,
+      "outcome": "9.3",
+      "type": "process",
+      "front": "IDPC 3219(3): who must control and investigate returned retail-client mail?",
+      "back": "A person independent of the sales function (may sit within a business location); a record of all investigations and results must be maintained.",
+      "rule_refs": [
+        "IDPC 3219(3)"
+      ],
+      "source_quote": "\"A Dealer Member’s returned mail procedures for retail clients must at a minimum include the following provisions: (i) a rule requiring the control and investigation by a person independent of the sales function\" — idpc-rules.txt ~line 4895",
+      "status": "draft"
+    }
+  ]
+}

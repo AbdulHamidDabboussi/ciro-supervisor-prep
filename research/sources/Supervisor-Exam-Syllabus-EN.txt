@@ -1,0 +1,813 @@
+Supervisor Exam
+Syllabus
+Last updated May 29, 2025
+Supported by
+Supervisor Exam Overview
+
+ Exam parameters                                     Question weighting
+ Exams                       1 paper                 Element                                  Indicative Qs
+ Exam format                 Proctored               1 General regulatory framework                     10
+                             (remote or in person)
+                                                     2 Supervisory structure: Investment Dealer
+ Exam duration               3 hours                   responsibilities                                 10
+ Question format             Multiple choice:        3 Business and operations                           9
+                             • 60 Standard           4 Account approvals                                20
+                             • 30 Item set
+                                                     5 Account activity                                 15
+ Questions per exam          90
+                                                     6 Activities of Approved Persons                    8
+ Attempts allowed per exam   3
+                                                     7 Trading and market rules                          6
+                                                     8 Advertisements, sales literature and
+                                                       communications and research reports               7
+                                                     9 Risks associated with Investment Dealer
+                                                       activity and registered locations                 5
+
+
+
+
+                                                                                                              Supervisor Exam Syllabus | 2
+Syllabus key
+The syllabus is divided into a series of learning outcomes. Each learning outcome expects the candidate to remember, understand, apply or analyze information.
+These expectations are set out below.
+
+
+
+
+Remember requires the candidate                            Understand requires the                                     Apply requires the candidate                 Analyze requires the candidate to review information and draw
+to recall information such as                              candidate to demonstrate                                    to use information in specific               conclusions or make connections. Associated terms include compare,
+facts, rules and principles.                               comprehension of an issue, fact,                            situations. Associated terms                 contrast, differentiate and examine.
+Associated terms include describe,                         rule or principle. Associated                               include calculate, demonstrate,              For example:
+identify, recognize and state.                             terms include describe, explain,                            implement and use.                           • An Investment Dealer has appointed more than one Supervisor to be responsible for
+For example:
+                                                           interpret, recognize and select.                            For example:                                   reviewing and approving research reports. The policies and procedures set out a prohibition
+                                                                                                                                                                      on the Investment Dealer expressing an opinion on its own securities but allows opinions on
+• Which of the following is an enforcement                 For example:                                                • Which of the following demonstrates
+                                                                                                                                                                      its holding company. They also state the minimum disclosures that will be made and the
+  power of the Canadian Securities                         • Which of the following best describes the                   compliance with the know-your-client
+                                                                                                                                                                      standards of conduct for the analysts. Which of the following is true of these policies and
+  Administrators?                                            role of the Supervisor in an Investment                     (KYC) rule for retail investors?
+                                                                                                                                                                      procedures?
+• What is the objective of the Canadian                      Dealer?                                                   • A Registered Representative has reported
+                                                                                                                                                                    • A Supervisor is reviewing the information collected by a Registered Representative from
+  Investor Protection Fund?                                • Why might a person grant powers of                          to their Supervisor a trading pattern
+                                                                                                                                                                      their client. The information has indicated that the client is seeking long-term growth with
+• Who is responsible for the management                      attorney for their financial affairs?                       that looks unusual for the client they
+                                                                                                                                                                      minimal risk. The account to be opened is a cash account and the client is concerned about
+  of fiscal policy in Canada?                                                                                            are representing. What should the
+                                                           • Which of the following procedures is                                                                     the tax implications. Based on this information alone, which of the following indicates the
+                                                                                                                         Supervisor do next?
+                                                             required to ensure adequate supervision                                                                  product and explanation that best meets the client’s needs?
+                                                             of managed accounts?                                      • When supervising a client’s derivatives
+                                                                                                                                                                    • A client chooses an order execution only (OEO) account at an Investment Dealer. What impact
+                                                                                                                         trading, which of the following measures
+                                                                                                                                                                      will this choice have on a Supervisor’s interaction compared to choosing a managed account?
+                                                                                                                         can be used in the last 10 days before
+                                                                                                                         expiry to minimize risk of the client
+                                                                                                                         defaulting on their obligations?
+
+
+
+
+Note: The syllabus terms are cumulative. For example, learning outcomes using the Apply verb can also test on the levels of Understand and Remember.                                                                                     Supervisor Exam Syllabus | 3
+Element 1: General regulatory framework
+Summary: This element begins with an understanding of the regulators in the Canadian investment services and the protections offered to consumers by way of legislation, such
+as the Criminal Code and the Proceeds of Crime (Money Laundering) and Terrorism Financing Act. Element 1 also requires the Supervisor to apply procedures to client complaints
+handling and critically analyze conduct that could breach the Canadian Investment Regulatory Organization (CIRO) standards of conduct and conflicts of interest rules.
+
+1.1 Understand the role and authority of the Canadian Securities                 1.3 Understand the requirement for Investment Dealer registration and               • Ombudsman for Banking Services and Investments (OBSI)
+    Administrators (CSA) and provincial/territorial securities and derivatives       individual approval requirements and the role of CSA and CIRO in this           • US and other foreign securities and derivatives regulatory authorities
+    regulators. Consider the:                                                        process.
+                                                                                                                                                                        - US: Securities Exchange Commission (SEC), Financial Industry
+     • Jurisdiction of the CSA                                                   1.4 Understand the role and authority of exchanges and other marketplaces.               Regulatory Authority (FINRA), Commodity Futures Trading
+     • Mandate and objectives of the CSA                                             Consider:                                                                            Commission (CFTC), National Futures Association (NFA)
+     • Purpose and implication of different forms of legislation:                    • Exchanges                                                                 1.8 Understand the purpose and implications on the investment industry of
+        - National Instruments (NI)                                                  • Alternative Trading Systems (ATS)                                             the following federal statutes:
+        - Multilateral Instruments (MI)                                              • Crypto-Asset Trading Platforms (CTPs)                                         • Bank Act
+        - National policies                                                          • Foreign Organized Regulated Markets (FORM)                                       - Ensure stability and integrity
+        - Staff Notices                                                          1.5 Understand the role and authority of clearing agencies. Consider:                  - Protect consumers
+        - Companion Policies (CP)                                                    • Canadian Depository for Securities Limited (CDS)                                 - Promote competition
+     • Investment Dealer and individual registration requirements                    • Canadian Derivatives Clearing Corporation (CDCC)                              • Bankruptcy and Insolvency Act, Part XII – Bankruptcy of a Securities
+     • Enforcement powers                                                                                                                                              Firm
+                                                                                 1.6 Understand the role of the Canadian Investor Protection Fund (CIPF):
+1.2 Understand the role and authority of CIRO. Consider the:                                                                                                     1.9 Understand the purpose and implications of the Criminal Code and its
+                                                                                     • Purpose and objective
+                                                                                                                                                                     application to financial crimes. Consider:
+     • Jurisdiction of CIRO                                                          • Funding requirements by Investment Dealers
+                                                                                                                                                                     • Fraud
+     • Purpose of recognition orders and delegated authorities                       • Governance structure
+                                                                                                                                                                     • Theft
+     • Mandate and objectives of CIRO                                                • Role of CIPF in an Investment Dealer’s bankruptcy/insolvency, including
+                                                                                                                                                                     • Theft by person holding power of attorney
+     • Investment Dealer and individual registration requirements                      pooling of client assets
+                                                                                                                                                                     • Misappropriation of money under direction
+     • Investment Dealer and Partially Consolidated (IDPC) Rules                 1.7 Understand the function and purpose of other financial regulators and
+                                                                                                                                                                     • False statement or false pretenses
+     • Universal Market Integrity Rules (UMIR)                                       agencies. Consider:
+                                                                                                                                                                     • Obtaining execution of security by fraud
+     • Role and implications of rules, guidance notes, forms and supporting          • Financial Services Regulatory Authority of Ontario (FSRA)
+       schedules, including:                                                                                                                                         • Forgery
+                                                                                     • Bank of Canada
+        - Standards of conduct                                                                                                                                       • Uttering a forged document
+                                                                                     • RCMP Integrated Market Enforcement Teams (IMET)
+        - Sales practices                                                                                                                                            • False prospectus
+                                                                                     • Financial Transactions and Reports Analysis Centre of Canada (FINTRAC)
+        - External communications                                                                                                                                    • Organized crime offences
+                                                                                     • Office of the Superintendent of Financial Institutions (OSFI)
+     • Enforcement powers of CIRO                                                                                                                                    • Illegal insider trading
+                                                                                     • Federal and provincial privacy commissioners
+
+
+
+
+                                                                                                                                                                                                                       Supervisor Exam Syllabus | 4
+1.10 Understand the purpose and implications of the Proceeds of Crime (Money   1.13 Apply the client complaint requirements to specific situations relevant to
+     Laundering) and Terrorism Financing Act (PCMLTFA) and Regulations              Supervisors. Consider:
+     (PCMLTFA Regulations), including:                                              • Reporting requirements and failure to report
+    • Stages of money laundering                                                    • Requirement to commence an internal investigation
+    • Compliance program requirements                                               • Settlement agreements
+    • Anti-money laundering policies and procedures                                 • Complaints policies and procedures (client-related or otherwise)
+    • Client information and due diligence requirements                             • Role and requirements of CIRO, OBSI and provincial/territorial regulators
+    • Enterprise risk assessment and indicators                                     • Role of a designated complaints officer for client complaints
+    • Employee training                                                             • Alternative complaint resolution processes
+    • Business relationship record-keeping
+                                                                               1.14 Understand the recourse available to dissatisfied clients, including OBSI,
+1.11 Understand the purpose and implications of other applicable laws.              CIRO arbitration and litigation.
+     Consider:
+                                                                               1.15 Understand situations that may require CIRO whistleblower service for
+    • Canadian Anti-Spam Legislation (CASL)                                         non-client account matters, including:
+        - Reducing spam                                                             • Misconduct or illegal activity within an organization
+        - Enhancing privacy                                                         • Potential systemic wrongdoing
+        - Promoting electronic commerce                                             • Potential securities frauds
+        - Deterring malicious activities
+                                                                               1.16 Understand the consequences and liabilities for settlement agreements
+        - Encouraging compliance and accountability                                 with clients without Investment Dealer approval and the penalties that can
+    • Confidentiality agreements/non-disclosure agreements (NDAs)                   be applied by regulators.
+        - Protecting proprietary information                                   1.17 Analyze situations for Supervisors that involve the role of ethics and
+        - Legal recourse                                                            personal integrity in the securities industry. Consider:
+        - Facilitating business relationships                                       • How ethical behaviour relates to compliance with rules
+        - Maintaining competitive advantage                                            - Proper care
+    • Personal Information Protection and Electronic Documents Act (PIPEDA)            - Independent professional judgment
+        - Protecting personal information                                              - Trustworthiness and integrity
+        - Fair information principles                                                  - Honesty and fairness
+    • Rules for public company disclosure and the statutory rights of                  - Professionalism
+      shareholders                                                                  • CIRO standards of conduct
+1.12 Understand the Investment Dealer’s obligations to clients and others.             - High standards of ethics and conduct
+     Consider:                                                                         - Acting openly and fairly
+    • Legislative                                                                      - Not acting in a way that would be considered
+    • Contractual                                                                        unbecoming or detrimental to public interest
+    • Organizational                                                                   - Acting in accordance with the just and equitable principles of trade
+                                                                                       - Conduct that may contravene the standards of conduct
+
+
+                                                                                                                                                                  Supervisor Exam Syllabus | 5
+1.18 Analyze situations for Supervisors that involve the role of ethics and        1.22 Apply to specific situations the prohibition and exemptions regarding
+     integrity in corporate governance. Consider:                                       personal financial dealings with clients. Consider:
+     • Transparency                                                                     • Accepting any consideration
+     • Dealing with compensation conflicts                                              • Settlement agreements
+     • Oversight and accountability                                                     • Borrowing from clients
+     • Training and awareness                                                           • Lending to clients
+1.19 Understand the consequences and risks of unethical behaviour. Consider:            • Control or authority
+     • Legal consequences                                                          1.23 Understand the processes used for the containment of confidential or
+     • Reputational damage                                                              material non-public information, including:
+     • Regulatory scrutiny                                                              • Those exposed to receiving confidential information
+     • Employee morale and turnover                                                        - Investment banking and corporate finance staff
+     • Client confidence and turnover                                                      - Other staff exposed to confidential information through, for
+                                                                                             example:
+1.20 Apply to specific situations CIRO requirements relating to conflicts of
+                                                                                              • Trading by issuers
+     interest. Consider:
+                                                                                              • Research departments
+     • Obligations to avoid, disclose, manage and resolve material conflicts
+                                                                                              • Relationships with corporate insiders
+     • Applicable standards of care, ethics and independent supervision
+       requirements for producing Supervisors                                           • Information barriers and firewalls
+     • Identification of potential and existing conflicts, including:                   • Grey and restricted list
+        - Compensatory                                                                  • Cybersecurity
+        - Managerial
+        - Ownership
+     • Protection and proper use of corporate assets and opportunities
+     • Confidentiality of corporate, client and third-party information
+     • Fair dealing with securities holders, clients, suppliers, competitors and
+       employees
+1.21 Analyze situations that may lead to the prohibition, approval, disclosure
+     and action requirements regarding outside activities and positions of
+     influence, including:
+     • Existing and reasonably foreseeable material conflicts of interest
+     • Written disclosure, where applicable
+     • Reporting obligations, where applicable
+
+
+
+
+                                                                                                                                                                Supervisor Exam Syllabus | 6
+Element 2: Supervisory structure: Investment Dealer responsibilities
+Summary: Element 2 requires the Supervisor to understand the obligations of an Investment Dealer when providing
+products and services to clients, including the role of Executives and the compliance department. Supervisors will also
+be required to analyze and apply to specific situations their general responsibilities, including the role of delegation and
+automation in supervision.
+
+2.1 Understand the requirement for an Investment Dealer to establish a              • Ensure an annual supervisory review of financial and operational
+    supervisory system to supervise the activities of all its employees and           policies and procedures
+    Approved Persons to ensure compliance with CIRO Rules and securities            • Ensure Supervisors understand the Investment Dealer’s books and
+    laws. The supervisory system, at a minimum, must:                                 records obligation
+    • Have policies and procedures designed to address supervision of its
+                                                                               2.2 Understand the product, due diligence obligations and exemptions,
+      employees and Approved Persons
+                                                                                   including:
+    • Have policies and procedures that provide a reasonable assurance of
+                                                                                    • Applicable policies and procedures
+      compliance with CIRO requirements, securities laws and applicable laws
+                                                                                    • Assessment of relevant aspects of products the Investment Dealer
+    • Ensure all supervisory policies and procedures are in writing and
+                                                                                      makes available
+      amended within a reasonable time after changes to CIRO rules or
+      securities laws are made                                                      • Approval of products to be made available to clients
+
+    • Communicate its policies and procedures to all relevant employees and         • Monitoring the products made available
+      Approved Persons and must:                                                    • Exemptions for accounts held by carrying brokers, trade execution,
+        - Provide sales practices policies and procedures relevant to their           clearing, settlement or custody service only Investment Dealers
+          functions                                                            2.3 Understand the responsibility of Executives in the oversight of an
+        - Obtain acknowledgements that such policies have been read and            Investment Dealer’s activities. Consider:
+          understood                                                                • CIRO requirements to designate appropriate Executives
+        - Provide introductory and continuing education on the Investment           • Oversight of relevant policies and procedures
+          Dealers’ policies and procedures and any relevant changes                 • Supervision and direction of the Investment Dealer’s activities, its
+        - Communicate information relating to CIRO rules and applicable laws          employees and Approved Persons to provide reasonable assurance of
+          to all sales employees and other Approved Persons                           compliance with CIRO requirements and securities laws
+        - Have policies and procedures to address method and timing of the          • Accountability to Directors for establishing a supervisory system
+          distribution of compliance related notices                                • Reporting requirements for the Chief Compliance Officer (CCO)
+        - Promptly communicate changes to all relevant employees and                  and Chief Financial Officer (CFO) to the Board
+          Approved Persons
+        - Have procedures to provide reasonable assurance that each
+          employee and Approved Person understands their responsibilities
+          under the policies and procedures
+
+
+
+                                                                                                                                                             Supervisor Exam Syllabus | 7
+2.4 Understand an Executive’s responsibility for significant areas of risk.           • Oversight of employees and Approved Persons in accordance with                  • Regular reports from the delegate to the delegator
+    Consider:                                                                             - Assigned supervisory responsibilities, including:                           • Regular (at minimum annual) reviews of the delegation process, with
+     • Financial                                                                            • Operation of account types                                                  revisions to policies and procedures as necessary
+     • Operational                                                                          • Oversight of shared office premises                                   2.11 Understand the role of automation. Consider:
+     • Corporate finance                                                                    • Oversight of sales practices                                              • How the automation process works
+     • Trading                                                                              • Method, timing and distribution of compliance-related notices             • The Supervisor’s role and responsibilities
+     • Wealth management                                                                  - The Investment Dealers policies and procedures                              • What tasks and activities can and cannot be automated
+     • Research                                                                       • Requirement for authority of Supervisors                                    2.12 Understand the Investment Dealer’s controls, policies and procedures for
+2.5 Understand the implications of internal and external audits on the                • Situations when client records may be amended and controls for                   automation processes. Consider:
+    Investment Dealer.                                                                  accessing and amending client records                                           • Factors that may trigger a manual review
+2.6 Analyze situations that reflect common areas of regulatory action             2.9 Apply the supervisory record-keeping requirements and record retentions               - Applicant not being an individual
+    (including enforcement action) by CIRO against one or more of an                  periods to specific situations relevant to a Supervisor. Consider:                    - Applicant not reaching an age of majority
+    Investment Dealer’s Approved Persons. Consider:                                   • List of Supervisors, applicable qualifications, specific responsibilities           - Trading authorization being used
+     • Violating securities and derivatives laws, regulations or CIRO                   and dates of designation
+                                                                                                                                                                            - Applicant applying to use derivatives trading strategies and not
+       requirements                                                                   • Supervisory reports                                                                   having an appropriate level of knowledge and trading experience
+     • Aiding and abetting another in such violations                                 • Identification of compliance issues                                                 - Applicant being an insider
+     • Failing to satisfy applicable supervisory obligations                          • Terms of delegation and authority for Supervisors                                   - Applicant being a Politically Exposed Person (PEP)
+2.7 Understand the role of the compliance department, including:                  2.10 Understand documented controls for delegation and apply those controls           • Appropriate periodic testing and auditing to ensure automated process
+     • Setting policies and procedures to ensure compliance with applicable            to specific situations relevant to a Supervisor. Consider:                         is functioning as designed
+       requirements                                                                   • Detailed policies and procedures which lay out how the delegation
+     • Identifying, assessing, advising on, acting on, communicating,                   works and to whom the tasks and activities have been delegated
+       monitoring, escalating and reporting on the Investment Dealer’s                • Maintain records of delegated tasks
+       compliance with regulatory requirements and the Investment Dealer’s
+                                                                                      • Restrictions on delegation:
+       own policies and procedures
+                                                                                          - Proficiency of the delegate
+     • CIRO expectations of the compliance functions at an Investment Dealer
+       and the role, responsibility and accountability of all Investment Dealer           - Prohibitions on delegation
+       personnel                                                                          - Retention of responsibility by the delegator
+     • Escalation responsibility                                                      • Processes for escalating any significant issues to the delegator
+
+2.8 Analyze the scope of the supervision requirements and the Supervisor’s            • A list of factors that trigger a review by the delegator
+    authority to act on the Investment Dealer’s behalf. Consider:                     • Examination of the delegate’s reviews to ensure they are following
+     • Providing reasonable assurance of compliance with CIRO requirements,             applicable policies and procedures and to ensure that they are
+       securities and derivatives laws, regulations and other applicable laws           recommending items for approval that would have been approved by
+                                                                                        the delegator
+
+
+
+
+                                                                                                                                                                                                                           Supervisor Exam Syllabus | 8
+Element 3: Specific supervision responsibilities in relation to the Investment Dealer business and operations
+Summary: In this section, the Supervisor needs to understand how an Investment Dealer’s supervisory structure can change depending on its business model. Element 3 also requires
+the Supervisor to analyze supervisory risks associated with different account, products and compensation structures.
+
+3.1 Understand the Investment Dealer’s responsibility to implement a                     • Managed account model, including role and responsibilities for Portfolio   3.6 Analyze the supervisory risks associated with each of the following basic
+    supervisory system relevant to the scope and complexity of the business.               Managers and Associate Portfolio Managers                                      types of securities:
+    Consider:                                                                            • Online advice, including:                                                      • Equities
+    • Policies and procedures specific to Investment Dealer’s supervision                   - Operations, regulatory obligations and product limitations                  • Mutual funds and ETFs
+      systems
+                                                                                            - Product limits such as exchange-traded funds (ETFs)                         • Fixed income products
+        - The Supervisor’s responsibility to consider the effectiveness of these
+                                                                                            - Role and responsibility of Approved Persons                             3.7 Analyze the supervisory risks associated with each of the following
+    • Responsibility to appoint as many Supervisors as needed to properly
+                                                                                         • Order Execution Only (OEO) account model, including:                           complex types of securities/products:
+      supervise the activities of its employees and Approved Persons:
+                                                                                            - Role and responsibilities of Approved Persons                               • Leveraged and inverse ETFs
+        - The need for Supervisors to escalate concerns that could lead to:
+                                                                                            - Tools utilized at the Investment Dealer and available to clients            • Structured products
+          • Non-compliance
+                                                                                            - Direct Electronic Access (DEA)                                              • Asset-backed securities
+          • The inability to properly supervise
+                                                                                            - Contracts for Difference (CFDs)                                             • Specialized (e.g. cryptocurrency)
+    • Investment Dealer’s business model, including:
+        - Types of products traded and offered                                      3.4 Understand the supervisory risks associated with each of the following        3.8 Analyze the supervisory risks associated with each of the following types
+                                                                                        client types:                                                                     of derivatives:
+        - Type of trading the Investment Dealer and its Approved Persons
+          engage in                                                                      • Retail                                                                         • Options
+
+        - Procedures to conduct due diligence on new products and services               • Institutional                                                                  • Futures contract options
+          and the ongoing risk assessment of existing products and services         3.5 Analyze the supervisory risks associated with each of the following               • Futures
+        - Location of the Investment Dealer’s Supervisors and other Approved            accounts for both retail and institutional clients as applicable. Consider:       • Forwards
+          Persons                                                                        • Advisory accounts                                                              • Swaps
+        - Different types of Supervisors and their functions and responsibilities        • In-house managed accounts                                                      • CFDs
+3.2 Understand the relationship between an Investment Dealer’s supervisory               • Third-party managed accounts                                                   • Other similar derivatives as described by CIRO
+    system and its internal controls.                                                    • Discretionary accounts                                                     3.9 Analyze the supervisory risks associated with each of the following
+3.3 Understand the risks, opportunities and requirements for the Investment              • Fee-based (non-managed)/wrap accounts                                          compensation structures. Consider:
+    Dealer associated with each of the following business models:                        • Tax deferred accounts                                                          • Commission-based
+    • Advisory, including:                                                               • Margin accounts                                                                • Fee-based
+        - Role and responsibilities of Approved Persons                                  • Direct Electronic Access (DEA)                                             3.10 Understand the supervisory risks associated with negotiated flat fees and
+        - Employment arrangements                                                        • Delivery Against Payment (DAP)                                                  referral fees.
+        - Principal Agent versus Employer/Employee                                       • Cash on Delivery (COD)
+    • Portfolio management                                                               • Receipt Against Payment (RAP) settlement options
+
+
+                                                                                                                                                                                                                             Supervisor Exam Syllabus | 9
+Element 4: Specific supervision responsibilities in relation to account approvals
+Summary: Element 4 requires the Supervisor to understand the requirements for account approvals for a range of
+accounts, including order execution only (OEO) accounts, discretionary accounts, managed accounts and derivatives
+accounts. Supervisors will need to apply many of these requirements to specific situations relating to account opening.
+
+4.1 Understand account approval requirements. Consider:                          4.5 Understand the purpose and content of the Relationship Disclosure,
+    • Collection of client account records                                           including:
+    • Prescribed timelines                                                           • Products, services and account types that the client can access at the
+                                                                                       Investment Dealer, including fee-based, leverage and margin accounts
+    • Business day approval requirements
+                                                                                     • Limitations of products, services and account types offered at the
+    • Updates and changes
+                                                                                       Investment Dealer, where applicable
+    • Addressing conflicts of interest
+                                                                                     • Fees and guidelines for compensation and relevant costs
+    • Non-client account requirements
+                                                                                     • Conditions under which the client’s account will be maintained
+4.2 Understand the considerations relating to account approvals for                  • Wealth management process and its impact on investment decisions
+    institutional client:
+                                                                                     • Investment performance benchmarks
+    • Definition of institutional client
+                                                                                     • Impact of fees, turnover and taxes on managed product returns
+    • Circumstances where a qualifying hedger can be classified as an
+                                                                                     • Client relationship model
+      institutional client
+                                                                                     • Systematic approaches to investment management
+    • Determination undertaken to classify an institutional client as a hedger
+    • Ensure client qualifies as an institutional client                         4.6 Understand the leverage risk disclosure statement. Consider:
+    • Supervisory requirements for institutional clients who are not exempt          • When it is required
+      from suitability obligations                                                   • Its purpose
+4.3 Understand the account appropriateness requirements, including:                  • Its content
+    • Putting prospective client’s interests first                               4.7 Understand the purpose and content of the margin account agreement.
+    • Appropriate scope and selection of products, services and account              Consider:
+      relationships to which the client has access                                   • Client’s obligation to pay their indebtedness to the Investment Dealer
+                                                                                       and to maintain adequate margin
+4.4 Understand the client account records requirements, including:
+                                                                                     • Client’s obligation to pay interest on debit balances in their account
+    • Documentation supporting the conclusion that the client’s identity has
+      been verified                                                                  • Investment Dealer’s right to raise money on and pledge assets held in
+                                                                                       the client’s account
+    • Documentation supporting the account appropriateness assessment
+                                                                                     • Extent to which the Investment Dealer has the right to use free credit
+    • Know-your-client (KYC) information collected in accordance with CIRO
+                                                                                       balances in the client’s account for its own business or to cover debits
+      requirements
+                                                                                       in the same or other accounts
+    • Client’s account application
+
+
+
+                                                                                                                                                                  Supervisor Exam Syllabus | 10
+    • Investment Dealer’s right to sell assets in the client’s account and make                - Address situations when errors and omissions occur                              • Statement indicating that the Investment Dealer requires the client to
+      purchases to cover short sales                                                        • If discretionary authority is given to the Investment Dealer, discretionary          maintain minimum margin that is the greater of:
+    • Nature of prior notice, where applicable and the client’s obligations to                authority must be:                                                                    - The amount the derivatives marketplace or clearing house prescribes
+      remedy any deficiency                                                                    - Clearly explained                                                                  - CIRO’s requirements or
+    • Extent of the Investment Dealer’s right, if any, to use a security in the                - Specifically confirmed by the client, unless such discretionary                    - The Investment Dealer’s requirements
+      client’s account for delivery against a short sale                                         authority is provided in another document that is consistent with
+                                                                                                                                                                            4.11 Understand the client’s cumulative loss limits:
+    • Extent to which the Investment Dealer has the right, if any, to use a security             applicable requirements
+      in the client’s account for delivery against a short sale in an account owned                                                                                              • Applies to an account where the transactions involve futures contracts,
+                                                                                       4.9 Understand the disclosures in relation to the client in the derivatives                 forward contracts, Contracts for Difference (CFDs), futures contract
+      or controlled by the Investment Dealer, a Partner or Director
+                                                                                           trading agreement. Consider:                                                            options or similar derivatives or highly leveraged securities or derivatives
+    • Extent of the Investment Dealer’s right to use assets in the client’s
+                                                                                            • Client’s obligation to:                                                            • Applies to an account, other than a hedging account, whether the
+      account and to hold them as collateral for the client’s debt
+                                                                                               - Comply with CIRO requirements and the requirements of any entity                  account is an advisory account, a discretionary account, a managed
+    • Investment Dealer’s obligation to carry out all transactions in accordance
+                                                                                                 through which the derivative is traded, cleared or issued— including,             account or an OEO account
+      with CIRO requirements and, where applicable, the requirements of the
+                                                                                                 without limitation, reporting position and exercise limits                      • Must be determined on:
+      marketplace on which the transaction has been executed
+                                                                                               - Maintain adequate margin collateral and to pay any debts owed to                   - A lifetime basis and validated with the client on an annual basis or
+4.8 Understand the disclosures in relation to the Investment Dealer in the                       the Investment Dealer
+    derivatives trading agreement. Consider:                                                                                                                                        - An annual basis and updated annually
+                                                                                               - Pay commission or other compensation, if any
+    • Time periods during which the Investment Dealer accepts orders for                                                                                                    4.12 Understand the purpose and content of a Letter of Undertaking as an
+                                                                                               - Pay interest, if any, on account debit balances
+      execution                                                                                                                                                                  alternative to trading agreement for institutional clients only.
+                                                                                            • Client’s acknowledgment of:
+    • Investment Dealer’s rights to:                                                                                                                                        4.13 Understand the requirements for the supervision of managed accounts.
+                                                                                               - Receiving the most recent derivatives risk disclosure statement
+        - Exercise discretion in accepting orders                                                                                                                                Consider the need to:
+                                                                                               - Their obligation to inform and update the Investment Dealer of any
+        - Impose trading or position limits or closeout positions under                                                                                                          • Designate a Supervisor to be responsible for managed accounts
+                                                                                                 circumstances under which they would be considered an insider of
+          specified conditions                                                                                                                                                   • Establish policies and procedures that specifically address supervision
+                                                                                                 a reporting issuer or any other issuer whose securities are publicly
+        - Use client free credit balances within its own business or to cover                    traded                                                                            and operation of managed accounts in accordance with applicable
+          debits in the same or other accounts                                                                                                                                     requirements
+                                                                                       4.10 Understand other matters required by a derivatives trading, clearing or
+        - Use client account assets as collateral for the client’s debit and                                                                                                     • Enter into a managed account agreement with the client prior to
+                                                                                            issuing entity. Consider:
+          position obligations                                                                                                                                                     opening a managed account
+                                                                                            • Investment Dealer’s deadlines for a client to submit an exercise notice:
+        - Raise money on and pledge assets held in the client’s account                                                                                                          • Approve each managed account in writing
+                                                                                               - Method used to distribute assignment notices
+    • Conditions under which the Investment Dealer may apply the client’s                                                                                                        • Retain a record of the approval
+      funds, securities or other property in the account for any other accounts             • Written notice that:
+                                                                                                                                                                                 • Provide the client with a copy of its policy ensuring fair allocation of
+      of the client to satisfy outstanding debts or margin calls                               - The Investment Dealer may set maximum limits on short positions                   investment opportunities
+    • Investment Dealer’s obligation to:                                                       - The Investment Dealer may apply cash-only terms during the last
+                                                                                                                                                                            4.14 Understand the purpose and content of the managed account agreement.
+        - Provide information to regulators regarding position limit, exercise                   10 days before expiry
+                                                                                                                                                                                 Consider:
+          limit requirements and reporting derivatives positions or derivative                 - CIRO may impose other rules affecting existing or subsequent
+                                                                                                                                                                                 • Description or reference to the client’s:
+          transactions related data                                                              transactions
+                                                                                                                                                                                    - Financial circumstance
+        - Obtain client consent before the Investment Dealer may take the                      - The client’s obligation to instruct the Investment Dealer to close out
+                                                                                                 positions before expiry                                                            - Investment knowledge
+          other side to the client’s transaction and document whether the
+          client provides such consent                                                                                                                                              - Risk profile
+
+
+                                                                                                                                                                                                                                     Supervisor Exam Syllabus | 11
+        - Investment objectives                                                          • Unfairly allocating investment opportunities among its managed                  • Terms of termination in accordance with applicable requirements
+        - Time horizon                                                                     accounts                                                                        • Requirement for termination by written notice only by the client or
+     • Description of any investment restrictions imposed by the client, where       4.16 Understand the fees and remuneration rules and prohibitions on certain             Investment Dealer:
+       permitted by the Investment Dealer                                                 types of fees and compensation, including:                                           - Client, effective on receipt by the dealer, except for transactions
+     • Terms of termination in accordance with applicable requirements                   • Investment Dealer must not compensate a person based on the value                     entered prior to receipt of the notice
+     • Requirements for termination upon written notice by:                                or volume of transactions in the account                                            - Dealer, effective not less than 30 days from the date the dealer
+                                                                                         • Investment Dealer may not charge a client directly, without a written                 delivered the notice to the client
+        - Client, effective on receipt by the Investment Dealer, except for
+          transactions entered prior to receipt of the notice                              agreement, for services rendered to the managed account, that is:               • Specific conflicts of interest rules for discretionary accounts, including
+                                                                                             - Based on the volume or value of transactions in the account                   that a discretionary account must not hold any publicly traded
+        - Investment Dealer, effective not less than 30 days from the date the
+                                                                                                                                                                             securities of the Investment Dealer or its affiliates
+          Investment Dealer delivered the notice to the client                               - Contingent upon profit or performance of the client’s account
+                                                                                                                                                                           • Restrictions on the responsible person or Investment Dealer:
+4.15 Apply conflicts of interest rules for managed accounts to specific              4.17 Understand the prohibition on a designated Supervisor for discretionary
+                                                                                                                                                                               - Own account trading
+     situations relevant to a Supervisor, including restrictions against:                 accounts to delegate the performance of reviews.
+                                                                                                                                                                               - Provision of guarantees
+     • Investment Dealer trades on own account or knowingly permitting               4.18 Understand the requirements for the supervision of discretionary accounts.
+       or arranging any associate or affiliate to trade, in reliance upon                                                                                                      - Trades by interested parties
+                                                                                          Consider the need to:
+       information relating to trades made or to be made, in a managed                                                                                                 4.20 Apply account appropriateness assessment to specific situations relevant
+                                                                                         • Designate one or more Supervisors, who meet applicable proficiency
+       account                                                                                                                                                              to a Supervisor in relation to:
+                                                                                           requirements to be responsible for the discretionary accounts
+     • Knowingly allowing, without the prior written consent of the client, a                                                                                              • Advisory accounts
+                                                                                         • Establish policies and procedures that specifically address the
+       managed account to invest:
+                                                                                           supervision and operation of discretionary accounts in accordance with          • Managed accounts
+        - A security or derivative of a security of an issuer:                             applicable requirements                                                         • Discretionary accounts
+           • Related or connected to a responsible person or to the Investment           • Identify discretionary accounts on its books and records to allow               • Leveraged accounts
+             Dealer                                                                        supervision of the discretionary accounts in accordance with applicable
+                                                                                                                                                                           • Margin accounts
+           • If the individual specifically authorized to deal with managed                requirements
+             accounts is an officer or Director of the issuer, unless the position                                                                                         • Derivatives accounts, including use of derivatives trading strategies
+                                                                                         • Enter into a discretionary account agreement with the client prior to
+             with the issuer is disclosed to the client                                    accepting the account as a discretionary account                            4.21 Apply account appropriateness assessment to OEO accounts in specific
+        - New issues or secondary offerings underwritten by the Investment               • Designate a Supervisor who must approve the account as a                         situations relevant to a Supervisor. Consider:
+          Dealer                                                                           discretionary account and approve the discretionary account agreement           • If a person would be incapable of conducting online activities (e.g. clear
+     • Knowingly causing any managed account to:                                           signed by the client                                                              and persistent difficulties in completing the OEO Investment Dealer’s
+        - Purchase or sell a security or derivative of a security of an issuer           • Maintain a record of the designated Supervisor’s approval in                      online new-account application form)
+          from or to:                                                                      accordance with the applicable record retention requirements                    • If investor is looking for advice
+           • The account of a Portfolio Manager, an Associate Portfolio              4.19 Understand the purpose and content of a discretionary account                    • Restrictions related to derivative account approvals for OEO Investment
+             Manager or an associate of a Portfolio Manager or an associate               agreement, required disclosures, rights and obligations where permitted            Dealers, including:
+             of an Associate Portfolio Manager                                            by the Investment Dealer, including:                                                 - Trading in CFDs
+           • An investment fund for which a responsible person acts as an                • Defining the extent of the discretionary authority given to the                     - Over-the-Counter (OTC) derivatives
+             advisor                                                                       Investment Dealer by the client                                                     - Futures or similar derivative trading strategies
+        - Provide a guarantee or loan to a responsible person or an associate            • Restrictions on the discretionary authority                                         - Options trading strategies other than low-risk strategies based on
+          of a responsible person                                                                                                                                                long calls, long puts, covered calls or protective (long) puts
+                                                                                         • Maximum term of no longer than 12 months (non-renewable)
+
+
+                                                                                                                                                                                                                               Supervisor Exam Syllabus | 12
+Element 5: Specific supervision responsibilities in relation to account activity
+Summary: Element 5 continues the theme of Element 4 but now requires an understanding of the ongoing risks of
+different accounts. It requires the Supervisor to analyze situations to identify what risks may be present and apply
+appropriate procedures to mitigate or respond to those risks.
+
+5.1 Understand different approaches to supervision, including:                       • Monthly supervision of trading activity in retail client accounts,
+     • Tiered approach                                                                 including review of specified account types
+     • Single centralized approach                                                   • Detection of concerning and suspicious account practices, such as:
+     • Considerations with remote supervision approach                                  - Unsuitable trading
+                                                                                        - Undue concentration of securities, derivatives or precious metal
+5.2 Apply the account supervision requirements to specific situations relevant
+                                                                                          bullion in a single account or across accounts
+    to a Supervisor. Consider:
+                                                                                        - Excessive trading
+     • Identification of clients that present a high risk to the Investment Dealer
+                                                                                        - Trading in restricted securities or transacting in derivatives whose
+     • Identification of clients that present a high risk of conducting improper
+                                                                                          underlying interest is a restricted security
+       activities in the securities markets
+                                                                                        - Conflict of interest between client-facing Approved Person and
+     • Compliance with all Anti-Money Laundering and Terrorist Financing
+                                                                                          client’s trading activity
+       requirements under applicable laws and regulations
+                                                                                        - Excessive transaction transfers and trade cancellation indicating
+     • Inclusion of controls for accessing and amending client records
+                                                                                          possible unauthorized trading
+5.3 Understand the enhanced supervisory measures applicable to Approved                 - Inappropriate or high-risk trading strategies
+    Persons with a history of regulatory infractions or questionable conduct:
+                                                                                        - Deterioration of the quality of client holdings in an account
+    • Pre-approval of orders by Supervisor
+                                                                                        - Excessive or improper crosses of securities, derivatives or precious
+     • Daily and monthly review of all client accounts                                    metals bullion between clients
+5.4 Understand the risks associated with the method of order entry and the              - Improper or excessive employee trading
+    absence of intermediation by employees of the Investment Dealer (where              - Front running
+    approved for order execution only (OEO) accounts).
+                                                                                        - Account number changes
+5.5 Understand the requirements and conditions for applying temporary holds             - Late payment
+    to prevent financial exploitation of vulnerable clients.
+                                                                                        - Outstanding margin calls
+5.6 Analyze situations relevant to a Supervisor regarding retail account                - Undisclosed short sales
+    supervision. Consider:
+                                                                                        - Manipulative and deceptive activities
+     • Daily supervision of trading activity in retail client account, including
+                                                                                        - Insider trading
+       review of red flags and trades that may not comply with CIRO
+       requirements and applicable policies and procedures                           • Transactional information required for retail client instructions, including
+                                                                                       direct, indirect and subsequent client charges or commissions
+
+
+
+
+                                                                                                                                                                      Supervisor Exam Syllabus | 13
+5.7 Understand the requirements regarding cross supervision.                         5.12 Understand CIRO requirements for handling derivatives accounts, including          • Addressing handling of futures contracts, forward contracts and similar
+                                                                                          the need to appoint one or more alternate Supervisors where continuous               derivatives with pending delivery months
+5.8 Understand the client hold mail account procedures for retail clients.
+                                                                                          supervision of derivatives trading activity is required                            • Addressing derivatives trading by a client who is an insider of a
+    Consider:
+                                                                                     5.13 Apply to specific situations relevant to a Supervisor the requirements               reporting issuer or any other issuer whose securities are publicly traded
+     • Authorization from client
+                                                                                          specific to retail clients holding a derivative account to detect:                   to avoid insider trading restrictions
+     • Time limits
+                                                                                          • Excessive intra-day and short-term transactions                                  • Preventing a retail client from holding Contracts for Difference (CFDs)
+     • Control and regular review                                                                                                                                              or similar derivatives positions representing more than 0.5% of the float
+                                                                                          • Transacting while under-margined
+5.9 Apply to specific situations relevant to a Supervisor the requirements for                                                                                                 of a reporting issuer or any other issuer whose securities are publicly
+                                                                                          • Transacting beyond margin or credit limits                                         traded on an intra-day or short-term basis
+    policies and procedures that specifically address:
+                                                                                          • Exceeding approved loss limits                                                   • Prohibiting the offering of CFDs or similar derivatives to a retail client
+     • Supervision and review of trading activity in institutional client accounts
+                                                                                          • Exceeding derivative position or exercise limits                                   that confer the right or obligation to acquire or deliver the underlying
+     • Actions to deal with problems or issues identified through supervisory
+       review                                                                             • Speculative transaction in hedging accounts                                        interest or confer any other rights of shareholdings, such as voting
+                                                                                          • Transactions in derivatives whose underlying interest is on the                    rights
+     • Detecting improper or suspicious account activity, including:
+                                                                                            Investment Dealer’s restricted list                                              • Addressing or requiring clients to have access, during normal business
+         - Manipulative and deceptive activities
+                                                                                          • Transactions in derivatives whose underlying interest has restrictions on          hours, to qualified Approved Persons
+         - Trading in securities on the Investment Dealer’s restricted list
+                                                                                            its transfer                                                                5.15 Apply the policies and procedures that specifically address the supervision
+         - Transacting in derivatives whose underlying interest is on the
+                                                                                          • Transacting in derivatives to avoid insider trading restrictions                 of individuals responsible for handling managed accounts to specific
+           Investment Dealer’s restricted list
+                                                                                          • Exposures arising out of uncovered option positions                              situations relevant to a Supervisor. Consider:
+         - Front-running by employee or proprietary accounts
+                                                                                          • Exposures to delivery obligations through the holding of futures                 • Managed account conflict of interest related requirements
+         - Trading in securities that have restrictions on their transfer
+                                                                                            contracts, forward contracts and similar derivatives into the delivery           • Fairness in the allocation of investment opportunities
+         - Transacting in derivatives whose underlying interest has restrictions            month                                                                            • Provide reasonable assurance of compliance with CIRO requirements,
+           on their transfer
+                                                                                     5.14 Apply the use of policies and procedures to specific situations relevant to          securities and derivatives laws, regulations and other applicable laws
+         - Exceeding derivative position or exercise limits on derivative
+                                                                                          a Supervisor. Consider:                                                            • Direct supervision of Associated Portfolio Managers, including
+           products
+                                                                                          • Notifying clients of:                                                              applicable conditions and exceptions
+         - Trading activity around margin/reduced margin rates and price
+                                                                                             - Approaching expiry dates                                                      • Requirements and responsibilities of a managed account committee
+           thresholds
+                                                                                             - Significant changes in derivatives which result from changes in the      5.16 Understand the importance for Approved Persons, including Supervisors,
+5.10 Understand the direct market access (DMA) account and supervision
+                                                                                               underlying interest                                                           to prepare and retain relevant documentation and assessments of clients
+     requirements for institutional clients, including algorithmic trading.
+                                                                                             - Changes in the Investment Dealer’s business policy                            and client activities in relation to the above activities.
+5.11 Understand the OEO account services exemptions and requirements.
+                                                                                             - New developments in the trading or regulation of derivatives that
+     Consider:
+                                                                                               may impact clients
+     • Policies and procedures for reviewing client trading
+                                                                                          • Requiring approval to solicit clients to use derivatives
+     • Ongoing supervisory requirements for automated OEO account
+                                                                                          • Requiring Supervisor approval to solicit clients to use derivative
+       approvals
+                                                                                            programs and use of derivatives
+     • Risks associated with the direct method of order entry (e.g. no
+                                                                                          • Preventing a client from transacting in derivatives without an executed
+       Approved Person intermediary)
+                                                                                            derivatives trading agreement
+     •   Applicable CFD Undertakings
+
+
+
+                                                                                                                                                                                                                                 Supervisor Exam Syllabus | 14
+Element 6: Specific supervision responsibilities in relation to activities of Approved Persons
+Summary: Element 6 requires the Supervisor to analyze specific situations and risks that they may encounter during account opening and ongoing account activities. It also requires
+them to apply the requirements relating to product due diligence, know-your-client (KYC) and suitability determination to specific situations and understand the importance of client
+education and information.
+
+6.1 Analyze specific situations the Supervisor’s responsibility relating to        6.5 Understand the product due diligence and KYC obligations on:               • The content of the Client Relationship Document including fees and
+    permitted and prohibited activities of Approved Persons. Consider:                 • The Investment Dealer                                                      commissions
+     • Investment Representatives                                                      • The Approved Person                                                      • Application of the situations above to institutional clients
+     • Registered Representatives                                                                                                                                 • Exemptions for Institutional client suitability determinations
+                                                                                   6.6 Understand the role of the Supervisor in ensuring Approved Persons
+     • Associate Portfolio Managers                                                    educate clients in the purpose of:                                         • Requirements for partnerships, trusts and corporate accounts
+     • Portfolio Managers                                                              • KYC information and new accounts-related documentation, including:   6.7 Understand the responsibility of the Supervisor to ensure Approved
+6.2 Analyze specific supervisory responsibilities relating to account opening.             - Client’s financial circumstances                                     Persons under their supervision have the necessary qualifications to
+    Consider:                                                                                                                                                     perform their activities.
+                                                                                           - Investment knowledge
+     • Order execution only (OEO) accounts                                                 - Risk profile                                                     6.8 Understand the responsibility of the Supervisor to ensure information,
+     • Advisory accounts                                                                                                                                          disclosures and agreements are sent to clients and, where relevant, have
+                                                                                           - Investment needs and objectives
+                                                                                                                                                                  been acknowledged.
+     • Managed accounts                                                                    - Time horizon
+     • Discretionary accounts                                                          • Significance of the KYC obligation and its relationship to
+     • Derivatives accounts                                                              recommendations
+     • Margin accounts                                                                 • Relationship between objectives, risk tolerance, risk capacity and
+     • Use of leverage in accounts                                                       performance
+                                                                                       • Requirements for full, transparent disclosure of all the client’s
+6.3 Apply to specific situations the Supervisor’s responsibility relating to the
+                                                                                         information, including:
+    suitability determination for retail and institutional clients.
+                                                                                           - Debts and liabilities
+6.4 Analyze specific supervisory responsibilities relating to account activity
+                                                                                           - Future goals
+    once opened. Consider:
+                                                                                           - All current cash flow/commitments
+     • OEO accounts
+                                                                                       • Fluid nature of a client’s circumstances that may impact their:
+     • Leveraged accounts
+                                                                                           - Finances
+     • Advisory accounts
+                                                                                           - Investment knowledge
+     • Managed accounts
+                                                                                           - Risk profile
+     • Discretionary accounts
+                                                                                           - Investment needs and objectives
+     • Derivatives accounts
+                                                                                           - Time horizon
+
+
+
+
+                                                                                                                                                                                                                     Supervisor Exam Syllabus | 15
+Element 7: Specific supervision responsibilities in relation to trading and market rules
+Summary: A Supervisor is expected to understand and be able to apply the obligations under the Universal Market Integrity Rules (UMIR) in Element 7.
+They are also required to apply the appropriate regulatory standards to the supervision of order placement and gatekeeping responsibilities.
+
+7.1   Understand the market rules, including UMIR, Consider:                            • Long and short margin accounts and special margin situations                    • Client priority
+      • Best execution                                                                  • Need for specialized trading authorizations at the Investment Dealer            • Best execution
+      • Specific unacceptable activities                                          7.2   Apply the applicable regulatory standards with respect to the review,             • Order exposure requirements
+      • Manipulative and deceptive practices                                            acceptance and approval of orders to specific situations relevant to a            • Time synchronization requirements
+      • Frontrunning                                                                    Supervisor.
+                                                                                                                                                                    7.5   Understand the obligations on the Investment Dealer regarding its
+      • Placement of orders, settlement and delivery process                      7.3   Understand the obligations on the Investment Dealer regarding its trading         risk-based supervision system, which reflects:
+      • Processes for handling order errors and changes                                 supervisory systems. Consider:                                                    • Participant’s size (considering factors such as revenue, market share,
+      • Restriction process on overdue cash accounts                                    • Identification of relevant requirements                                           market exposure and volume of trades)
+      • Requirements to confirm orders with clients, including fees and                 • Documentation of the supervision system                                         • Participant’s organizational structure
+        commissions                                                                     • Training and proficiency                                                        • Number and location of the Participant’s offices
+      • Investment Dealer requirements, guidelines and best practices for trade         • Delegation of supervisory and compliance personnel                              • Nature and complexity of the products and services offered by the
+        confirmations sent to clients                                                   • Procedures for dealing with violations                                            Participant
+      • Types of buy, sell and short sell orders                                        • Reviewing supervision systems                                                   • Number of registrants assigned to a location
+         - Basis order                                                                  • Documenting results of compliance reviews                                       • Disciplinary history of registered representatives or associated persons
+         - Bundled order                                                                • Retaining results of reviews                                                    • Risk profile of the Participant’s business and any indicators of
+         - Bypass order                                                                                                                                                     irregularities or misconduct (e.g. red flags)
+                                                                                        • Reports to Board of Directors
+         - Call market order                                                                                                                                        7.6   Apply the gatekeeping responsibilities and applicable regulatory
+                                                                                  7.4   Understand the obligations on the Investment Dealer regarding its regular
+         - Closing price order                                                                                                                                            requirements to specific situations relevant to a Supervisor, including:
+                                                                                        review of compliance with respect to the following provisions for trading
+         - Dark order                                                                   on a marketplace, where applicable to their lines of business:                    • Client’s typical financial activity and patterns to identify suspicious
+                                                                                                                                                                            transactions
+         - Jitney order                                                                 • Audit trail requirements
+                                                                                                                                                                          • Applicable regulatory frameworks on whistleblowers
+         - Limit order                                                                  • Electronic access to marketplaces
+                                                                                                                                                                          • Applicable reporting obligations to Investment Dealers and regulators
+         - Market-on-close order                                                        • Specific unacceptable activities
+         - Market order                                                                 • Manipulative and deceptive activities
+         - Multiple client order                                                        • Trading in restricted securities
+         - Opening order                                                                • Trading of grey list securities
+         - Program trade                                                                • Disclosure requirements
+         - Special terms order                                                          • Frontrunning
+         - Volume-weighted average price order                                          • Client/principal trading
+
+
+
+                                                                                                                                                                                                                             Supervisor Exam Syllabus | 16
+Element 8: Specific supervision responsibilities in relation to advertisements, sales literature and communications
+and research
+Summary: This element requires a Supervisor to understand the requirements when an Investment Dealer or Approved Person communicates with a client, advertises products and
+services or produces research documentation. It also requires the Supervisor to apply these requirements to specific situations relevant to a Supervisor.
+
+8.1 Understand the requirements that specifically address the review and           8.3 Apply the requirements relating to research report disclosures to specific    8.4 Analyze specific situations relating to the supervision of conduct of
+    supervision of advertisements, sales literature and client correspondence          situations relevant to a Supervisor. Consider the following disclosures:          Investment Dealers and relevant individuals when producing research
+    relating to its business. Consider:                                                 • Policies and procedures for dissemination of research                          reports. Consider:
+     • Awareness of obligations and best practices                                      • Disclosure of potential conflicts of interest                                  • Designating one or more Supervisors to be responsible for reviewing
+     • The appropriate use of professional titles and trade names                                                                                                          and approving research reports
+                                                                                           - Beneficial ownership of 1% or more of issuers equity shares
+     • Misleading communications                                                                                                                                             - Cross-supervision
+                                                                                           - Analyst or associate hold or short issuer’s securities or derivatives
+     • Restrictions and guidelines regarding social media and other                                                                                                      • Controls regarding advance dissemination of any part of a research
+                                                                                           - Prior paid for services other than normal course investment advisory
+       communications with the public                                                                                                                                      report prior to publication
+                                                                                             or trades execution services
+     • Use of Advisor ranking/contest lists                                                                                                                              • Prohibitions on issuing research reports
+                                                                                           - Investment Dealer provided investment banking services in the
+     • Legislative requirements, including Canadian Anti-spam Legislation                    preceding 12 months                                                             - Investment Dealer’s own securities or those of its holding company
+     • Off-channel communication issues                                                    - Analyst compensated in the previous 12 months based on                          - Where relevant individuals have a relationship with the issuer
+     • Post-use review and sampling                                                          Investment Dealer’s banking revenues                                            - Investment banking provisions
+     • Reasonable assurance that employees and Approved Persons are                        - Positions of influence                                                          - Quiet periods
+       familiar with related policies and procedures                                       - Market making                                                                   - Placed on Restricted List
+     • Document retention and supervisory record-keeping requirements                   • Disclosure required when visiting the issuer and if expenses were              • Prohibited inducements
+                                                                                          reimbursed by the issuer                                                       • Controls for wall-crossing an Analyst
+8.2 Apply to specific situations, relevant to a Supervisor, the requirements for
+    an Investment Dealer to ensure that the following items are approved by a           • System for rating investment opportunities and where each                      • Trading
+    designated Supervisor before use or publication:                                      recommendation fits
+                                                                                                                                                                             - Policies and procedures on detecting and restricting trades
+     • Research reports                                                                 • Quality of disclosure
+                                                                                                                                                                             - Restrictions on relevant individuals
+     • Market letters                                                                   • Application to third-party research
+                                                                                                                                                                             - Approval by designated Executive
+     • Telemarketing scripts                                                            • Setting price targets and valuation methods
+                                                                                                                                                                         • Conduct of analysts, including personal trading and outside activities
+     • Promotional seminar materials                                                    • Public appearance requirements
+     • Investment fund practices                                                        • Discontinuing coverage
+     • Original advertisements or original template advertisements
+     • Material containing performance reports or summaries that are used
+       to solicit clients
+
+
+
+
+                                                                                                                                                                                                                           Supervisor Exam Syllabus | 17
+Element 9: Specific supervision responsibilities in relation to risks
+associated with Investment Dealer activity and registered locations
+Summary: Element 9 requires a Supervisor to analyze a variety of risk factors relevant to the Investment Dealer and
+apply supervisory requirements to a variety of retail distribution risks.
+
+9.1 Understand the guidelines for business location supervision, including:              - Number of registrants
+     • Scope                                                                             - Client base risk, business location assumes the risk that clients may
+     • Planning                                                                            use it for inappropriate actions
+     • Business location audit program and training                              9.3 Apply supervisory requirements to retail distribution risks, including
+     • Risk identification                                                           advisory services and fully discretionary managed products to specific
+                                                                                     situations relevant to a Supervisor. Consider:
+     • Audit report and follow up
+                                                                                     • The sale of complex or opaque products by individual registrants,
+9.2 Understand additional risk factors and the potential impact on the                 including illiquid or alternative products
+    Investment Dealers and its clients of using different business locations.
+                                                                                     • Inadequate control over books and records, with particular attention to
+    Consider:
+                                                                                       poor control of client address changes
+     • Internal risk factors, including:
+                                                                                     • Failure to meet regulatory standards for supervision and control,
+        - Adequacy of resources                                                        including inadequate control and review of advertising and sales
+        - Key person reliance                                                          literature and the lack of documented evidence of overall supervision
+        - Principal-agent                                                            • Failure to meet requirements for managing the margin activities of
+     • Reputational risk, including:                                                   clients
+        - Community-specific marketing strategy and sales practices                  • Inadequate follow-up procedures to ensure that compliance audit
+        - Number of outside activities                                                 findings are properly tracked and corrective action is taken by a
+                                                                                       business location
+        - Any internal disciplinary action
+                                                                                     • New or complex products that are not understood by retail investors
+        - Number of complaints
+                                                                                     • Approved Person’s failure to meet regulatory, contractual and legal
+     • Business location’s business activity risk, including:
+                                                                                       obligations and to apply high levels of integrity
+        - Exposure inherent to providing a particular product or service at a
+                                                                                     • Improper reassignment terminated registrants’ accounts
+          business location
+                                                                                     • Commission-based compensation programs that may present
+        - Business location’s lines of business and the aggregate risk present
+                                                                                       conflicts of interest between the economic interests of the
+          in its overall portfolio
+                                                                                       clients and an Approved Person
+        - Number of trading errors
+     • Business location size risk, including:
+        - Risk-weighting
+        - Risk assessment and control practices
+
+
+                                                                                                                                                                   Supervisor Exam Syllabus | 18
+Copyright © 2025 CIRO   DC-18822
+

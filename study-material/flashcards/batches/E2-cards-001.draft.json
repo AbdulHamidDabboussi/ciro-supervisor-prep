@@ -1,0 +1,412 @@
+{
+  "meta": {
+    "batch": "E2-CARDS-001",
+    "element": 2,
+    "drafted": 50,
+    "date": "2026-06-04",
+    "purpose": "Crash-course flashcards for Element 2 (Supervisory structure: Investment Dealer responsibilities), drafted as a fast refresher before question-bank drilling. Every fact quoted verbatim from local sources at drafting time; coverage keyed to E2-batch-001 question rationales/source_quotes and seed-tested facts (supervision-system minimums, CCO+CFO Board reporting, delegation controls, automation manual-review triggers, compliance vs Supervisor authority).",
+    "corpus": ["syllabus-raw.txt (Element 2)", "idpc-rules.txt (2026-01-08)", "gn-3900-20-001.txt"]
+  },
+  "cards": [
+    {
+      "id": "FC-E2-0001", "element": 2, "outcome": "2.1", "type": "definition",
+      "front": "What compliance standard must a dealer's supervisory system deliver — and over whom?",
+      "back": "Reasonable assurance that ALL employees and Approved Persons comply with Corporation requirements and securities laws — not a guarantee, not retail-only.",
+      "rule_refs": ["IDPC 3904(1)"],
+      "source_quote": "\"establish a supervisory system to supervise the activities of all its employees and Approved Persons that provides reasonable assurance they comply with Corporation requirements and securities laws.\" — idpc-rules.txt ~line 7883",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0002", "element": 2, "outcome": "2.1", "type": "trap",
+      "front": "TRAP: supervision is whose fundamental responsibility, and WHO ensures an appropriate supervision system is in place?",
+      "back": "Supervision of all aspects of business and operations is the Dealer Member's fundamental responsibility; the board of directors — not the CFO or CIRO — ensures the system exists.",
+      "rule_refs": ["IDPC 3901(2)", "IDPC 3901(3)"],
+      "source_quote": "\"The Dealer Member’s board of directors is responsible for ensuring that an appropriate supervision system is in place.\" — idpc-rules.txt ~line 7877",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0003", "element": 2, "outcome": "2.1", "type": "list",
+      "front": "At a minimum, supervisory policies and procedures must satisfy which four 3904(2) requirements?",
+      "back": "Specifically address supervision of employees/APs; provide reasonable assurance of compliance; be in writing; be amended within a reasonable time after rule/law changes.",
+      "rule_refs": ["IDPC 3904(2)"],
+      "source_quote": "\"amend its policies and procedures relating to supervision within a reasonable time after changes in Corporation requirements, or securities laws are made.\" — idpc-rules.txt ~line 7900",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0004", "element": 2, "outcome": "2.1", "type": "list",
+      "front": "Name four 3904(3) communication duties owed to employees and Approved Persons.",
+      "back": "Obtain and record read-and-understood acknowledgements; introductory and continuing education on P&Ps; P&Ps on method/timing of compliance-notice distribution; promptly communicate P&P changes.",
+      "rule_refs": ["IDPC 3904(3)"],
+      "source_quote": "\"obtain and record acknowledgements from all sales and supervisory employees and Approved Persons that they have read and understood the policies and procedures relevant\" — idpc-rules.txt ~line 7906",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0005", "element": 2, "outcome": "2.1", "type": "threshold",
+      "front": "How often must the dealer's financial and operational P&Ps undergo a supervisory review?",
+      "back": "At least annually — and any deficiencies must be identified and corrected.",
+      "rule_refs": ["IDPC 3917(1)", "Syllabus 2.1"],
+      "source_quote": "\"a supervisory review of its financial and operational policies and procedures is completed at least annually and that any deficiencies are identified and corrected.\" — idpc-rules.txt ~line 8058",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0006", "element": 2, "outcome": "2.1", "type": "definition",
+      "front": "Why must Supervisors understand the dealer's books-and-records obligation (2.1 parameter)?",
+      "back": "The dealer's records provide an audit trail to support the Dealer Member's supervision of its business.",
+      "rule_refs": ["IDPC 3801(1)", "Syllabus 2.1"],
+      "source_quote": "\"A Dealer Member’s records provide an audit trail to support the Dealer Member’s supervision of its business\" — idpc-rules.txt ~line 6526",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0007", "element": 2, "outcome": "2.1", "type": "definition",
+      "front": "What must the written P&Ps required under 1404(2) establish, firm-wide?",
+      "back": "A system of controls and supervision sufficient to provide reasonable assurance the dealer, its employees and Approved Persons comply with Corporation requirements and securities laws.",
+      "rule_refs": ["IDPC 1404(2)"],
+      "source_quote": "\"establish a system of controls and supervision sufficient to provide reasonable assurance the Dealer Member, its employees and Approved Persons comply with Corporation requirements and\" — idpc-rules.txt ~line 937",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0008", "element": 2, "outcome": "2.2", "type": "process",
+      "front": "Before making a security or derivative available to clients, what three reasonable steps must the dealer take?",
+      "back": "Assess relevant aspects (structure, features, risks, initial/ongoing costs and their impact); approve it for availability; monitor it for significant changes.",
+      "rule_refs": ["IDPC 3301(1)"],
+      "source_quote": "\"assess the relevant aspects of the securities or derivatives, including the securities’ or derivatives’ structure, features, risks, initial and ongoing costs and the impact of those costs,\" — idpc-rules.txt ~line 5494",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0009", "element": 2, "outcome": "2.2", "type": "threshold",
+      "front": "Which accounts are exempt from the dealer's product due diligence obligation (3301)?",
+      "back": "Accounts maintained at a dealer that is a carrying broker for the account, or that only provides trade execution, clearing, settlement or custody services.",
+      "rule_refs": ["IDPC 3303(1)"],
+      "source_quote": "\"Section 3301 does not apply in respect to an account maintained at a Dealer Member who is a carrying broker for that account or who only provides trade execution, clearing, settlement or custody services\" — idpc-rules.txt ~line 5510",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0010", "element": 2, "outcome": "2.2", "type": "distinction",
+      "front": "Product due diligence (3301) vs Know-Your-Product (3302) — who owes which duty?",
+      "back": "Dealer: assess/approve/monitor products made available. Approved Person: separately take steps to understand the product before transacting in or recommending it.",
+      "rule_refs": ["IDPC 3301", "IDPC 3302(1)"],
+      "source_quote": "\"recommend securities or derivatives to, a client unless the Approved Person takes steps to understand the securities or derivatives,\" — idpc-rules.txt ~line 5503",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0011", "element": 2, "outcome": "2.3", "type": "definition",
+      "front": "Who is responsible TO THE CORPORATION for the dealer's conduct and the supervision of its employees and Approved Persons?",
+      "back": "The Ultimate Designated Person (UDP).",
+      "rule_refs": ["IDPC 3910(1)"],
+      "source_quote": "\"The Ultimate Designated Person is responsible to the Corporation for the conduct of the Dealer Member and the supervision of its employees and Approved Persons.\" — idpc-rules.txt ~line 7979",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0012", "element": 2, "outcome": "2.3", "type": "threshold",
+      "front": "What written reports must the CCO and CFO each provide, how often, and to whom?",
+      "back": "Each, at least annually, a written report to the board of directors: CCO on compliance generally; CFO on compliance with the financial Corporation requirements.",
+      "rule_refs": ["IDPC 3915(1)", "IDPC 3915(2)"],
+      "source_quote": "\"At least annually, the Chief Financial Officer must provide a written report to the Dealer Member’s board of directors for the purpose of assessing compliance\" — idpc-rules.txt ~line 8041",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0013", "element": 2, "outcome": "2.3", "type": "process",
+      "front": "The board receives the CCO/CFO section 3915 reports. What two things must it then do?",
+      "back": "Review them to determine appropriate action to remedy identified compliance deficiencies, and ensure that action is taken (plus keep records of actions and monitoring).",
+      "rule_refs": ["IDPC 3915(3)", "IDPC 3915(4)"],
+      "source_quote": "\"to determine the appropriate action to be taken to remedy any compliance deficiencies that are identified and must ensure that such action is taken.\" — idpc-rules.txt ~line 8046",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0014", "element": 2, "outcome": "2.4", "type": "definition",
+      "front": "Under Rule 1500, what must the dealer do — and document — for each significant area of risk?",
+      "back": "Assign responsibility for the risk area to an appropriate Executive, and document and maintain a list of Executives and the risk areas each manages.",
+      "rule_refs": ["IDPC 1502(1)", "IDPC 1502(2)"],
+      "source_quote": "\"For each significant area of risk within a Dealer Member, the Dealer Member must assign responsibility to an appropriate Executive.\" — idpc-rules.txt ~line 979",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0015", "element": 2, "outcome": "2.4", "type": "process",
+      "front": "Who reviews and approves the policies and procedures for a given significant area of risk?",
+      "back": "The Executive responsible for that risk area — Executives are responsible for review and approval of P&Ps relating to their own significant area of risk.",
+      "rule_refs": ["IDPC 1502(3)"],
+      "source_quote": "\"Executives are responsible for the review and approval of any policies and procedures relating to their significant area of risk.\" — idpc-rules.txt ~line 984",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0016", "element": 2, "outcome": "2.5", "type": "list",
+      "front": "An external auditor must report a material breach of Corporation requirements to CIRO in which three areas?",
+      "back": "Calculating the dealer's financial position; handling and custody of securities and precious metals bullion; maintaining adequate records.",
+      "rule_refs": ["IDPC 4192(1)"],
+      "source_quote": "\"If during the regular conduct of an audit, the Dealer Member's auditor observes any material breach of Corporation requirements related to:\" — idpc-rules.txt ~line 9121",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0017", "element": 2, "outcome": "2.5", "type": "process",
+      "front": "How do audits intersect with internal controls — what does the audit review, and who owns the controls?",
+      "back": "The substantive audit must review the accounting system and asset-safeguarding internal controls; Executives ensure adequate internal controls, review at least annually, and approve in writing.",
+      "rule_refs": ["IDPC 4175(1)", "IDPC 4222(2)", "IDPC 4225(1)"],
+      "source_quote": "\"The audit of a Dealer Member requires a substantive approach and must include a review of the accounting system and the internal controls for safeguarding assets.\" — idpc-rules.txt ~line 8932",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0018", "element": 2, "outcome": "2.6", "type": "list",
+      "front": "Name the three common areas of CIRO regulatory action against Approved Persons (syllabus 2.6).",
+      "back": "Violating securities and derivatives laws, regulations or CIRO requirements; aiding and abetting another in such violations; failing to satisfy applicable supervisory obligations.",
+      "rule_refs": ["Syllabus 2.6"],
+      "source_quote": "\"Violating securities and derivatives laws, regulations or CIRO requirements\" — syllabus-raw.txt ~line 578",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0019", "element": 2, "outcome": "2.6", "type": "trap",
+      "front": "TRAP: a Supervisor who personally placed no improper trade argues only the RR can be disciplined. Why does this fail?",
+      "back": "Failing to satisfy applicable supervisory obligations is itself a common area of CIRO action — the supervision failure is independently sanctionable.",
+      "rule_refs": ["Syllabus 2.6"],
+      "source_quote": "\"Failing to satisfy applicable supervisory obligations\" — syllabus-raw.txt ~line 593",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0020", "element": 2, "outcome": "2.6", "type": "threshold",
+      "front": "An Approved Person resigns. For how long does CIRO's Rule 8100 investigative jurisdiction continue?",
+      "back": "Six years following the date they cease to hold the relevant capacities (e.g., employee or representative of a Dealer Member).",
+      "rule_refs": ["IDPC 8107(1)"],
+      "source_quote": "\"A Regulated Person remains subject to Rule 8100 for six years following the date on which they cease to be:\" — idpc-rules.txt ~line 18099",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0021", "element": 2, "outcome": "2.7", "type": "list",
+      "front": "Per syllabus 2.7, the compliance department's role spans which eight verbs?",
+      "back": "Identifying, assessing, advising on, acting on, communicating, monitoring, escalating and reporting on the dealer's compliance with regulatory requirements and its own P&Ps.",
+      "rule_refs": ["Syllabus 2.7"],
+      "source_quote": "\"Identifying, assessing, advising on, acting on, communicating, monitoring, escalating and reporting on the Investment Dealer’s compliance with regulatory requirements\" — syllabus-raw.txt ~line 604",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0022", "element": 2, "outcome": "2.7", "type": "process",
+      "front": "The CCO finds non-compliance creating a reasonable risk of harm to a client. Escalate to whom, and when?",
+      "back": "Report to the Ultimate Designated Person as soon as possible — same trigger for risk of harm to capital markets or a pattern of non-compliance.",
+      "rule_refs": ["IDPC 3912(1)(iii)"],
+      "source_quote": "\"report to the Ultimate Designated Person as soon as possible if there is any indication that the Dealer Member or any individual acting on its behalf may be in non-compliance\" — idpc-rules.txt ~line 8003",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0023", "element": 2, "outcome": "2.7", "type": "distinction",
+      "front": "How do the CCO and CFO split the policies-and-procedures landscape?",
+      "back": "CFO: P&Ps relating to financial Corporation requirements. CCO: P&Ps assessing compliance other than those financial requirements.",
+      "rule_refs": ["IDPC 3913(1)(i)", "IDPC 3912(1)(i)"],
+      "source_quote": "\"establish and maintain policies and procedures for the Dealer Member relating to financial Corporation requirements,\" — idpc-rules.txt ~line 8014",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0024", "element": 2, "outcome": "2.7", "type": "definition",
+      "front": "What must the section 1405 compliance monitoring system specifically address?",
+      "back": "Preventing and detecting violations, and procedures for reporting compliance-monitoring results to management.",
+      "rule_refs": ["IDPC 1405(1)"],
+      "source_quote": "\"The compliance monitoring systems must specifically address preventing and detecting violations and include procedures for reporting the results of compliance monitoring to management.\" — idpc-rules.txt ~line 950",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0025", "element": 2, "outcome": "2.7", "type": "trap",
+      "front": "TRAP: compliance monitors and flags — so is it primarily responsible for business conduct? Whose responsibility is it, and what do Rule 3900 standards give Supervisors?",
+      "back": "No — Registered Individuals are primarily responsible for compliance; Rule 3900's standards give Supervisors guidelines to monitor how those Registered Individuals handle their responsibilities.",
+      "rule_refs": ["GN-3900-20-001", "IDPC 3906"],
+      "source_quote": "\"Registered Individuals1 are primarily responsible for compliance with business conduct\" — gn-3900-20-001.txt ~line 31",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0026", "element": 2, "outcome": "2.8", "type": "definition",
+      "front": "The IDPC definition of 'Supervisor' pairs which two attributes, granted by whom?",
+      "back": "Responsibility AND authority, given by the Dealer Member (and approved by the Corporation), to manage activities providing reasonable assurance of compliance.",
+      "rule_refs": ["IDPC 1201 definition of Supervisor"],
+      "source_quote": "\"An individual given responsibility and authority by a Dealer Member, and approved by the Corporation, to manage the activities of the Dealer Member or the Dealer Member’s Approved Persons\" — idpc-rules.txt ~line 826",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0027", "element": 2, "outcome": "2.8", "type": "trap",
+      "front": "TRAP: a dealer names a Supervisor who can observe but not intervene. What requirement does this design break?",
+      "back": "Designated Supervisors and Executives must have the qualifications AND authority necessary to fully carry out the responsibilities assigned to them.",
+      "rule_refs": ["IDPC 3905(4)"],
+      "source_quote": "\"A Dealer Member must designate Supervisors and Executives, with the qualifications and authority necessary to fully carry out the responsibilities assigned to them.\" — idpc-rules.txt ~line 7929",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0028", "element": 2, "outcome": "2.8", "type": "process",
+      "front": "A Supervisor detects activity outside proper conduct but lacks system permissions to act. Per the GN, what is an acceptable action?",
+      "back": "Escalating to a more senior Supervisor or Executive — Supervisors should have authority to take effective and timely remedial action.",
+      "rule_refs": ["GN-3900-20-001 s.1.1.1"],
+      "source_quote": "\"We consider escalating to a more senior Supervisor or Executive an acceptable action.\" — gn-3900-20-001.txt ~line 125",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0029", "element": 2, "outcome": "2.8", "type": "definition",
+      "front": "What product proficiency must the dealer ensure in its Supervisors and Executives (3905(5))?",
+      "back": "Reasonable steps to ensure they are fully proficient and understand the products and services of those they supervise, to the degree necessary to properly supervise them.",
+      "rule_refs": ["IDPC 3905(5)"],
+      "source_quote": "\"A Dealer Member must take reasonable steps to ensure all of its Supervisors and Executives are fully proficient and understand the products that employees and Approved Persons under their supervision trade in\" — idpc-rules.txt ~line 7931",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0030", "element": 2, "outcome": "2.8", "type": "process",
+      "front": "Who supervises the Supervisors? What does 3905(6) require?",
+      "back": "The dealer must have procedures in place that ensure Supervisors are properly performing their supervisory functions.",
+      "rule_refs": ["IDPC 3905(6)"],
+      "source_quote": "\"A Dealer Member must have procedures in place that ensure that Supervisors are properly performing their supervisory functions.\" — idpc-rules.txt ~line 7935",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0031", "element": 2, "outcome": "2.8", "type": "definition",
+      "front": "Shared office premises P&Ps must give reasonable assurance of compliance — plus what client-facing outcome?",
+      "back": "That the client has a clear understanding of which entity they are dealing with.",
+      "rule_refs": ["IDPC 3918(1)"],
+      "source_quote": "\"the client has a clear understanding of which entity they are dealing with.\" — idpc-rules.txt ~line 8065",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0032", "element": 2, "outcome": "2.8", "type": "process",
+      "front": "The sole account-approval Supervisor goes on leave. What does Part B of Rule 3900 require instead of pausing approvals?",
+      "back": "Appoint one or more alternate Supervisors, as required, to assume the designated Supervisor's responsibility in their absence.",
+      "rule_refs": ["IDPC 3925(4)"],
+      "source_quote": "\"A Dealer Member must appoint one or more alternate Supervisors as required, to the Supervisors designated in subsection 3925(2), to supervise the Dealer Member’s business\" — idpc-rules.txt ~line 8091",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0033", "element": 2, "outcome": "2.8", "type": "list",
+      "front": "Account supervision P&Ps: which three client-risk obligations and which record control must they specifically address?",
+      "back": "Identify clients high-risk to the dealer; clients high-risk for improper market activities; AML/ATF compliance; plus controls for accessing and amending client records.",
+      "rule_refs": ["IDPC 3926(2)", "IDPC 3926(5)"],
+      "source_quote": "\"identify clients that present a high risk of conducting improper activities in the securities markets,\" — idpc-rules.txt ~line 8100",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0034", "element": 2, "outcome": "2.8", "type": "list",
+      "front": "Per syllabus 2.8, a Supervisor's assigned supervisory responsibilities include which areas?",
+      "back": "Operation of account types; oversight of shared office premises; oversight of sales practices; method, timing and distribution of compliance-related notices.",
+      "rule_refs": ["Syllabus 2.8"],
+      "source_quote": "\"Operation of account types\" — syllabus-raw.txt ~line 528",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0035", "element": 2, "outcome": "2.9", "type": "list",
+      "front": "The Supervisor register (3908(1)) must record which three data points?",
+      "back": "Names of Supervisors; their supervisory responsibilities; the date each Supervisor was designated.",
+      "rule_refs": ["IDPC 3908(1)"],
+      "source_quote": "\"A Dealer Member must maintain a record of the names of Supervisors, their supervisory responsibilities and the date each Supervisor was designated.\" — idpc-rules.txt ~line 7965",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0036", "element": 2, "outcome": "2.9", "type": "threshold",
+      "front": "Default retention period and form for dealer records, including supervision records?",
+      "back": "Minimum seven years from the date the record is created, in durable and accessible form — unless a different period is prescribed for that record type.",
+      "rule_refs": ["IDPC 3803(1)", "IDPC 3908(5)"],
+      "source_quote": "\"in durable and accessible form, for a minimum of seven years from the date the record is created unless Corporation requirements or securities laws relating to the specific type\" — idpc-rules.txt ~line 6721",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0037", "element": 2, "outcome": "2.9", "type": "trap",
+      "front": "TRAP: supervision records are kept only at branch offices. What extra step does this trigger?",
+      "back": "The dealer must conduct periodic on-site reviews of branch office supervision and record keeping — branch storage does not relax head-office oversight.",
+      "rule_refs": ["IDPC 3908(4)"],
+      "source_quote": "\"Where supervision records are kept at a branch office, the Dealer Member must conduct periodic on-site reviews of branch office supervision and record keeping.\" — idpc-rules.txt ~line 7971",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0038", "element": 2, "outcome": "2.9", "type": "process",
+      "front": "What evidence of supervisory reviews must the dealer keep, and for how long (3927(2))?",
+      "back": "Evidence of completed supervisory reviews, including details of inquiries about issues and their resolution, for the section 3803 period (seven-year minimum).",
+      "rule_refs": ["IDPC 3927(2)", "IDPC 3803(1)"],
+      "source_quote": "\"A Dealer Member must record and keep evidence of completed supervisory reviews, including details of inquiries about issues and their resolution, for the period required in section 3803.\" — idpc-rules.txt ~line 8129",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0039", "element": 2, "outcome": "2.10", "type": "trap",
+      "front": "TRAP: what may a Supervisor delegate — and what can they never delegate?",
+      "back": "May delegate supervisory tasks and procedures; may NOT delegate the responsibility for their performance. The delegator retains responsibility.",
+      "rule_refs": ["IDPC 3907(1)", "Syllabus 2.10"],
+      "source_quote": "\"A Supervisor may delegate supervisory tasks and procedures, but not the responsibility for their performance.\" — idpc-rules.txt ~line 7950",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0040", "element": 2, "outcome": "2.10", "type": "threshold",
+      "front": "By which three routes can a delegate be qualified to perform assigned supervisory tasks?",
+      "back": "Registration, training or experience — the delegate need not be a designated Supervisor.",
+      "rule_refs": ["IDPC 3907(3)"],
+      "source_quote": "\"A delegate must be qualified to perform the assigned tasks by virtue of registration, training or experience.\" — idpc-rules.txt ~line 7954",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0041", "element": 2, "outcome": "2.10", "type": "list",
+      "front": "When delegating, the Supervisor must take which three steps (3907(4))?",
+      "back": "Inform the delegate of tasks and expectations IN WRITING; ensure the delegate adequately performs them; establish reporting mechanisms for issues arising from the delegated tasks.",
+      "rule_refs": ["IDPC 3907(4)"],
+      "source_quote": "\"inform the delegate of the tasks delegated to them and what is expected of them in the performance of the delegated tasks, in writing,\" — idpc-rules.txt ~line 7957",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0042", "element": 2, "outcome": "2.10", "type": "process",
+      "front": "What delegation record must the DEALER maintain, and what must the dealer tell the Supervisor up front?",
+      "back": "A record of the delegation terms plus the Supervisor's follow-up and review of delegated tasks; and inform the Supervisor of the specific functions that cannot be delegated.",
+      "rule_refs": ["IDPC 3907(5)", "IDPC 3907(6)"],
+      "source_quote": "\"The Dealer Member must maintain a record of the terms of the delegation, as well as the Supervisor’s follow up and review of the delegated tasks.\" — idpc-rules.txt ~line 7961",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0043", "element": 2, "outcome": "2.10", "type": "threshold",
+      "front": "Minimum review frequency for the delegation process itself (syllabus 2.10)?",
+      "back": "Regular reviews — at minimum annual — with revisions to policies and procedures as necessary; plus regular reports from the delegate to the delegator.",
+      "rule_refs": ["Syllabus 2.10", "IDPC 3907(5)"],
+      "source_quote": "\"Regular (at minimum annual) reviews of the delegation process, with revisions to policies and procedures as necessary\" — syllabus-raw.txt ~line 523",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0044", "element": 2, "outcome": "2.10", "type": "distinction",
+      "front": "Examining a delegate's reviews tests two things — process compliance and what substantive standard?",
+      "back": "That the delegate follows applicable P&Ps AND recommends for approval only items that would have been approved by the delegator.",
+      "rule_refs": ["Syllabus 2.10"],
+      "source_quote": "\"Examination of the delegate’s reviews to ensure they are following applicable policies and procedures and to ensure that they are recommending items for approval that would have been approved by the delegator\" — syllabus-raw.txt ~line 632",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0045", "element": 2, "outcome": "2.10", "type": "process",
+      "front": "Besides examining delegate reviews, what escalation and trigger controls do the 2.10 delegation parameters require?",
+      "back": "Processes for escalating any significant issues to the delegator, and a list of factors that trigger a review by the delegator.",
+      "rule_refs": ["Syllabus 2.10"],
+      "source_quote": "\"Processes for escalating any significant issues to the delegator\" — syllabus-raw.txt ~line 630",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0046", "element": 2, "outcome": "2.11", "type": "definition",
+      "front": "What is CIRO's published stance on automating supervisory tasks?",
+      "back": "Supervisory requirements are generally technology neutral; CIRO supports Dealers using automation to assist them with supervisory tasks.",
+      "rule_refs": ["GN-3900-20-001", "Syllabus 2.11"],
+      "source_quote": "\"Generally, our supervisory requirements are technology neutral and we support Dealers using automation to assist them with supervisory tasks.\" — gn-3900-20-001.txt ~line 50",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0047", "element": 2, "outcome": "2.11", "type": "trap",
+      "front": "TRAP: an automated system flags trades. Must the dealer investigate every flagged item — and what human role remains?",
+      "back": "No — exercise reasonable judgment in selecting items for further investigation. Automation screens; the Supervisor's role and responsibilities remain (some tasks cannot be automated).",
+      "rule_refs": ["GN-3900-20-001", "Syllabus 2.11"],
+      "source_quote": "\"A Dealer is not required to enquire into or investigate every trade that meets the criteria in Rule 3900 or this Guidance, but should exercise reasonable judgment in selecting items\" — gn-3900-20-001.txt ~line 38",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0048", "element": 2, "outcome": "2.11", "type": "trap",
+      "front": "TRAP: continuous automated surveillance lets the dealer drop its designated account-approval Supervisor. True?",
+      "back": "False — the dealer must designate one or more Supervisors responsible for approving new accounts and for account-supervision procedures; automation cannot replace the designation.",
+      "rule_refs": ["IDPC 3925(2)", "Syllabus 2.11"],
+      "source_quote": "\"A Dealer Member must designate one or more Supervisors to be responsible for approving the opening of new accounts and for establishing and maintaining procedures relating to account supervision\" — idpc-rules.txt ~line 8086",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0049", "element": 2, "outcome": "2.12", "type": "list",
+      "front": "List the six syllabus 2.12 factors that may trigger a MANUAL review of an automated application.",
+      "back": "Applicant not an individual; trading authorization being used; applicant under the age of majority; derivatives strategies without appropriate knowledge/experience; insider; Politically Exposed Person (PEP).",
+      "rule_refs": ["Syllabus 2.12"],
+      "source_quote": "\"Applicant applying to use derivatives trading strategies and not having an appropriate level of knowledge and trading experience\" — syllabus-raw.txt ~line 588",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E2-0050", "element": 2, "outcome": "2.12", "type": "definition",
+      "front": "Besides manual-review triggers, what ongoing control do the 2.12 automation parameters require?",
+      "back": "Appropriate periodic testing and auditing to ensure the automated process is functioning as designed.",
+      "rule_refs": ["Syllabus 2.12"],
+      "source_quote": "\"Appropriate periodic testing and auditing to ensure automated process is functioning as designed\" — syllabus-raw.txt ~line 620",
+      "status": "draft"
+    }
+  ]
+}

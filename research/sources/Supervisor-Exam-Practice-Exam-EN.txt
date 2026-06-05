@@ -1,0 +1,2053 @@
+Supervisor Exam
+Practice Exam – Questions
+
+
+
+
+Supported by
+ITEM ID: SPRV_E_000007
+
+1.   In regard to anti-money laundering programs, Investment Dealers must do which of the following?
+      A. Establish and maintain a risk-based compliance program
+      B. Initiate monitoring after identifying unusual client activity
+      C. Share client information with foreign regulators when requested
+      D. Apply a consistent due diligence process to all clients
+
+ITEM ID: SPRV_E_000008
+
+2.   Upon receiving a complaint that a Registered Representative (RR) misrepresented a product’s
+     risk level, what is the Supervisor’s first responsibility under CIRO rules?
+      A. Document the complaint, along with the RR’s response
+      B. Refer the complaint to the Ombudsman for Banking Services and Investments (OBSI)
+      C. Direct the complaint to CIRO as it involves an external product
+      D. Log the complaint and escalate it to the designated complaints officer within two business days
+
+
+
+     Quarter-end approaches and an Investment Dealer launches an audit of new accounts opened
+     during the past quarter.
+     The Supervisor leading supervisory audit team A carries out an audit of retail files. Team A
+     compares approval timestamps with first-trade dates to confirm sign-off by the next business
+     day, checks that each file contains the application, know-your-client (KYC) form, identity-
+     verification record and acknowledgement of the relationship-disclosure package and reviews
+     conflict-of-interest escalations. They also verify that the disclosure booklet outlines every product
+     and service offered—advisory, managed, margin and fee-based—together with limitations,
+     benchmarks and plain-language explanations of fees, turnover and tax effects on returns.
+     The Supervisor leading supervisory audit team B carries out an audit of institutional accounts.
+     Team B retraces how several energy companies were classified as qualifying hedgers, ensuring
+     files include hedging policies, volume data and written acknowledgements that speculative
+     trades remain subject to suitability reviews. Other institutional files are tested for documentation
+     showing why each client meets size and sophistication thresholds and how leverage or margin
+     facilities align with the client-interest-first standard. System logs confirm that any change
+     to beneficial ownership or trading authority triggered automatic reapproval and refreshed
+     appropriateness controls.
+     The final report produced from the work of both teams will provide Directors with evidence that
+     account approval, documentation, classification and disclosure obligations under CIRO rules are
+     fully met.
+
+
+
+
+                                                                                 Practice Exam - Questions | 1
+ITEM ID: SPRV_E_000428
+
+3.   Under CIRO’s account-approval rules and the review described, which missing item would
+     constitute the clearest record-keeping breach?
+      A. The account lacks the electronic timestamp showing next-day Supervisor approval of the
+         application
+      B. The file lacks the client-signed initial acknowledgement page from the relationship
+         disclosure package
+      C. The audit notes no business location certificate confirming conflicts were escalated during
+         the onboarding
+      D. The folder lacks the system log proving appropriateness checks ran before first trades
+
+ITEM ID: SPRV_E_000429
+
+4.   Under CIRO’s hedger-classification standard, which evidence would best support the Investment
+     Dealer’s determination that the audited energy companies qualify as institutional hedgers?
+      A. Letter from the Investment Dealer’s risk committee stating the client intends to hedge
+         projected output with futures during the year for price risks
+      B. Footnote in the client’s annual report showing derivative gains and losses recognized as
+         trading revenue against energy price movements during last year
+      C. Signed hedging policy and production schedule confirming futures volumes not exceeding
+         forecast output and prohibiting speculative trades at all times by contract
+      D. Spreadsheet of last quarter’s swap confirmations detailing settlement prices and
+         counterparties for each commodity derivative executed during that review period
+
+ITEM ID: SPRV_E_000430
+
+5.   During the quarter-end audit, which piece of evidence would best confirm that the account-
+     appropriateness review put each prospective client’s interests first?
+      A. The Registered Representative (RR) maintained a log of features, benefits and costs for each
+         new applicant’s KYC, and Supervisor granted approval
+      B. Revenue worksheet projecting commissions if applicants adopt margin and contract for
+         difference (CFD) features, demonstrating achievement of quarterly profitability targets
+      C. System dashboard showing the percentage of short-dated-option requests the
+         appropriateness engine accepted after clients acknowledged the leverage-risk disclosure
+         statement
+      D. Marketing brochure listing platform products, fee tiers and tax examples, accompanied by a
+         disclaimer stating that investment choices remain the client’s responsibility
+
+
+
+
+                                                                              Practice Exam - Questions | 2
+ITEM ID: SPRV_E_000431
+
+6.   In team A’s quarter-end audit, which record best satisfies CIRO’s requirement to document that
+     a new client’s identity has been verified?
+      A. Informal email from the RR stating they met the client in person and viewed a driver’s licence
+         while completing the application
+      B. System screenshot showing the appropriateness engine approved the account after the client
+         clicked through the disclosure screens during online sign-up
+      C. Business location spreadsheet listing account numbers, projected commissions and margin
+         limits for new clients opened last quarter, signed by sales management
+      D. Recorded ID verification number and RR stated they have met the client in person and viewed
+         a physical driver’s licence on the completed application
+
+ITEM ID: SPRV_E_000432
+
+7.   During team A’s audit, reviewers must confirm that every relationship-disclosure document
+     contains which required element under CIRO content rules?
+      A. Concise notice explaining the firm’s privacy safeguards and how personal data are shared
+         with external third-party service vendors
+      B. Plain-language outlining every account type offered by the firm, compensation structure and
+         performance reporting for each service offered
+      C. Annual marketing summary describing upcoming webinars, promotional offers and
+         educational campaigns for the new digital wealth platform online
+      D. Archived board minutes outlining supervisory findings, internal audit observations and
+         management responses during the previous fiscal year report
+
+ITEM ID: SPRV_E_000009
+
+8.   What procedural failure by a designated complaints officer could expose an Investment Dealer
+     to regulatory penalties under CIRO Rules or Ombudsman for Banking Services and Investments
+     (OBSI) guidelines?
+      A. Providing OBSI with details of client correspondence related to the complaint
+      B. Delaying a response to the client beyond 90 calendar days without explanation
+      C. Allowing Registered Representatives to reply to complaints directly
+      D. Delegating internal investigations to business location-level staff
+
+
+
+
+                                                                               Practice Exam - Questions | 3
+ITEM ID: SPRV_E_000022
+
+9.    A Supervisor finds that an experienced Registered Representative (RR) has not updated written
+      know-your-client (KYC) forms for most of their clients in several years, even though they say they
+      confirmed the information verbally. What should the Supervisor do?
+       A. Accept and document the verbal confirmation from clients supplied by the RR
+       B. Ensure that the RR updates KYC records during the next meeting held with the RR’s clients
+       C. Ensure the RR regularly makes their best effort to contact clients to review and update their
+          KYC information as appropriate
+       D. Require resolution by the next scheduled compliance review that the Supervisor holds with
+          the RR
+
+ITEM ID: SPRV_E_000023
+
+10.   While managing multiple desks, a Supervisor delegates email surveillance to a qualified team
+      lead. Assuming that proper records are kept, what else should the Supervisor do to ensure
+      regulatory obligations are met?
+       A. Schedule monthly check-ins with the team lead
+       B. Ensure compliance reviews and monitor the team’s work
+       C. Maintain formal documentation as evidence of ongoing Supervisor oversight
+       D. Ensure the team is properly credentialed, then delegate full discretion
+
+ITEM ID: SPRV_E_000037
+
+11.   An institutional client shows a recent pattern of sending large aggressive orders at market open,
+      which has created noticeable market disruptions. The client explains this is their usual strategy.
+      What action should the Supervisor take?
+       A. Allow the practice since institutional clients accept the trading risks
+       B. Review the activity for market integrity concerns
+       C. Advise the client regarding alternative execution approaches
+       D. No action, as surveillance has not expressed any concerns
+
+
+
+
+                                                                                    Practice Exam - Questions | 4
+ITEM ID: SPRV_E_000054
+
+12.   A Registered Representative (RR) makes a report to their Supervisor regarding a client seeking
+      to make an unsolicited purchase of shares in an issuer for which they are recorded as an insider.
+      The issuer appears on the Investment Dealer’s restricted list. The RR states the restriction was
+      likely related to corporate actions that have since concluded. What is the best course of action
+      for the Supervisor to take?
+       A. Permit the trade as the corporate action has concluded
+       B. Allow the trade and mark the trade as unsolicited
+       C. Delay the trade until it is removed from the restricted list
+       D. Confirm the current restricted status and consult compliance
+
+ITEM ID: SPRV_E_000059
+
+13.   A new Supervisor has been appointed to a business location and has identified deficiencies in
+      the record-keeping practices that have been followed previously. Which of the following records
+      must be available for the purpose of auditing the supervision process?
+       A. Delegations made to business location support staff
+       B. Sales performance reports
+       C. Product due diligence records
+       D. Annual compensation summaries
+
+ITEM ID: SPRV_E_000060
+
+14.   A responsible Supervisor reviews the documentation for a product presentation approved by a
+      delegate Supervisor. The responsible Supervisor notices that the documentation provided for the
+      product presentation was incomplete. What should the Supervisor do next?
+       A. Ensure training is arranged for the delegate afterwards on the appropriate information to
+          include in presentations and the correct sign-off process
+       B. Add review notes to the product presentation documentation that cover the additional detail
+          and ensure these are mentioned in the presentation
+       C. Conduct a full review of the documentation to identify and address any incomplete
+          requirements and re-approve the documentation once complete
+       D. Suggest the delegate Supervisor review the policies and procedures related to product
+          presentation requirements and apply them in future
+
+
+
+
+                                                                                Practice Exam - Questions | 5
+ITEM ID: SPRV_E_000063
+
+15.   When must an Investment Dealer provide a leverage risk disclosure statement to a client?
+       A. After a margin call is triggered on the client’s investment account
+       B. When a client deposits an amount above a prescribed threshold
+       C. When a client borrowing funds to invest is identified
+       D. When the client opens a registered account at the firm
+
+ITEM ID: SPRV_E_000072
+
+16.   Which of the following best describes an Investment Dealer’s authority under a standard
+      derivatives trading agreement?
+       A. The right to delay settlement of client trades to manage firm liquidity risks
+       B. The right to reject client orders or liquidate positions due to market risk conditions
+       C. The right to allocate trade executions unevenly among clients to optimize fees
+       D. The right to restructure client margin accounts as permitted under the terms of the agreement
+
+ITEM ID: SPRV_E_000086
+
+17.   Which of the following best reflects an Investment Dealer’s supervisory responsibility when
+      Approved Persons use interactive social media platforms?
+       A. Restrict the use of interactive social media to marketing teams
+       B. Establish real-time reviews and pre-approvals of every post
+       C. Supervise real-time use and maintain records of supervision
+       D. Prohibit employees from using blogs for business purposes
+
+
+
+
+                                                                                 Practice Exam - Questions | 6
+      During an internal compliance review at a full-service Investment Dealer, the head office
+      supervision team examined the process for approving communications intended for client
+      distribution. The review covered the previous six months of promotional campaigns and sales
+      outreach across three regional business locations.
+      At the West Region business location, a senior Registered Representative (RR) distributed a
+      market commentary letter that referenced performance of individual stocks across several
+      client portfolios. No formal approval was obtained before the letter was sent to over 200 high-
+      net-worth clients. The Supervisor believed internal data sources did not require preapproval for
+      external distribution.
+      Elsewhere, a junior team member used a telemarketing script to promote a new high-yield
+      product. The script included comparative yield references and phrases such as “one of the safest
+      ways to grow your income.” The Supervisor was unaware the script was being used, as it had
+      been adapted from an earlier internal training call.
+      A third review involved a promotional seminar hosted by the business location’s retirement
+      planning team. The seminar materials included product-specific performance summaries and
+      screenshots of individual account projections. The Supervisor reviewed the deck but did not flag
+      the performance content, assuming that no prior approval was required because the session was
+      “educational in nature.”
+      The head office supervision team has now advised the Investment Dealer’s management to
+      update its procedures to clarify when approval is required before use, and to reinforce the
+      Supervisor’s role in reviewing original and adapted materials that reference performance,
+      product advantages or are used in solicitations.
+
+ITEM ID: SPRV_E_000386
+
+18.   To strengthen the process around materials used in promotional campaigns, what should the
+      Supervisor ensure before any distribution occurs?
+       A. All general market commentary must be pre-approved by a responsible Supervisor before
+          being issued to clients
+       B. Materials for all content that are created using standard templates are not required to be
+          pre-approved
+       C. Only senior team members distribute externally facing promotional seminar content
+          containing performance outcomes
+       D. Any promotional seminar content referencing performance outcomes must receive approval
+          prior to use
+
+
+
+
+                                                                                Practice Exam - Questions | 7
+ITEM ID: SPRV_E_000387
+
+19.   Which detail from the communication practices reviewed would most likely require approval
+      before being used?
+       A. It included a generic market commentary and disclosed the RR’s name and address
+       B. It adapted wording from a prior internal update sent to staff last quarter
+       C. It promoted a financial strategy using comparative and forward-looking statements
+       D. It was shared verbally by an RR in a one-on-one consultation with a client
+
+ITEM ID: SPRV_E_000388
+
+20.   What should the Supervisor evaluate before approving materials used in group client sessions?
+       A. The accuracy of outcomes or performance data and the relevance of disclaimers
+       B. The material omits product references in all visuals and reserves them for footnotes only
+       C. The number of clients that are likely to attend the session and their level of experience
+       D. The clear disclosure of education-related disclaimers in the headers of each section
+
+ITEM ID: SPRV_E_000389
+
+21.   When would additional supervisory involvement be required for the distribution of communication?
+       A. When the content was shared through a client relationship management (CRM) system and
+          archived
+       B. When the content included language describing portfolio outcomes sent to clients
+       C. When the content mentioned internal client retention metrics in a training deck
+       D. When the content referenced a past webinar hosted internally but approved for external use
+
+ITEM ID: SPRV_E_000390
+
+22.   What should the Supervisor do to avoid approval gaps when teams adapt previously used
+      materials?
+       A. Review the materials and validate with compliance that content can be widely distributed
+       B. Delegate all review responsibilities to the marketing team members to ensure consistency
+       C. Approve circulation when materials are modified by licensed personnel
+       D. Classify revised content as internal reference material if reused from templates
+
+
+
+
+                                                                                Practice Exam - Questions | 8
+ITEM ID: SPRV_E_000098
+
+23.   A regional business location of an Investment Dealer launches a new promotional campaign
+      tailored to a local community, emphasizing exclusivity and high returns. What is the most
+      significant risk the firm should evaluate?
+       A. The risk that promotional messages may inadvertently promise guaranteed investment
+          performance
+       B. The exposure to reputational harm if the campaign misaligns with regulatory standards
+       C. The likelihood that clients may misinterpret the intent of targeted campaign messaging
+       D. The potential for unapproved marketing content to be distributed by local representatives
+
+ITEM ID: SPRV_E_000106
+
+24.   An internal compliance review reveals that several audit findings from the previous year have not
+      been addressed by a business location. What is the Supervisor’s most appropriate response?
+       A. Notify senior management and develop a corrective action plan with clear timeline
+       B. Document the oversight and wait for the next scheduled audit
+       C. Investigate the unaddressed findings directly before taking further action
+       D. Delegate the responsibility of follow-up to the compliance department
+
+ITEM ID: SPRV_E_000120
+
+25.   An Investment Dealer plans to deploy an automated onboarding tool for new online accounts
+      and the Supervisor must select the configuration that complies with CIRO rules while retaining
+      their own non-delegable supervisory accountability. Which configuration should they choose?
+       A. Enable automated ID-and-sanctions screening, but have the Supervisor approve any account
+          flagged as an insider, vulnerable client or other exception
+       B. Outsource all identity and insider checks to a third-party vendor but retain any regulatory
+          liability for errors
+       C. Let the algorithm auto-open accounts and require the Supervisor to sign one monthly
+          certificate attesting CIRO compliance
+       D. Disable all automation features as the supervisory task identified in CIRO rules requires
+          manual execution by the Supervisor
+
+
+
+
+                                                                               Practice Exam - Questions | 9
+ITEM ID: SPRV_E_000124
+
+26.   A Supervisor is reviewing four proposed retail derivative trades to decide whether they can
+      proceed through the firm’s automated approval system or must be escalated for manual review
+      under CIRO’s derivative-risk guidance:
+      1.   a fully margined two-week long position in an exchange-traded gold futures contract used
+           to hedge the client’s physical bullion;
+      2.   a fifteen-to-one leveraged equity contract for difference (CFD) on a junior mining stock
+           executed on an offshore platform;
+      3.   a five-year uncleared interest-rate swap with no initial or variation margin posted; and
+      4.   a short uncovered call option on a thin-volume biotech-index futures contract.
+      Which trade is most likely to qualify for standard automated approval without further
+      supervisory escalation?
+       A. The short-dated hedging long gold future on a regulated exchange
+       B. The highly leveraged offshore equity CFD on the junior mining stock
+       C. The five-year uncleared interest-rate swap with zero margin
+       D. The uncovered short call on the thin-volume biotech-index future
+
+ITEM ID: SPRV_E_000129
+
+27.   Before any orders are placed in a new managed account, which step is expressly required by
+      CIRO rules?
+       A. The Supervisor completes and files the first post-trade suitability review once an order has
+          executed
+       B. The client receives a written copy of its policy that guarantees fair allocation of investments
+          among all managed accounts
+       C. The Portfolio Manager secures written permission to depart from the model strategy
+          whenever market conditions shift abruptly
+       D. The Investment Dealer posts additional risk-weighted capital with CIRO equal to 1% of the
+          managed assets
+
+
+
+
+                                                                                Practice Exam - Questions | 10
+ITEM ID: SPRV_E_000137
+
+28.   Which statement accurately reflects an exemption that applies to Order Execution Only (OEO)
+      accounts under CIRO’s OEO guidance?
+       A. Suitability checks are unnecessary and post-trade surveillance may be skipped if clients sign
+          the risk disclosure form
+       B. The account is exempt from suitability reviews but Investment Dealers must still monitor
+          trades for market-abuse red flags
+       C. Daily manipulative-activity reviews are waived provided the platform blocks trades in
+          restricted securities automatically
+       D. Registered Representatives may give occasional general advice without triggering suitability
+          so long as no specific security is named
+
+ITEM ID: SPRV_E_000141
+
+29.   A retail client opens and closes eighty contracts for difference (CFDs) in one hour across three
+      linked accounts, causing identical price spikes. Under CIRO supervision rules, which immediate
+      action must the Supervisor take?
+       A. Allow trading to continue and direct staff to draft a wash-trade memorandum for compliance
+          review on the next business day
+       B. Raise margin requirements on all three accounts at the next settlement cycle while monitoring
+          the client’s order flow for further spikes
+       C. Freeze all further trading at once, escalate the suspected activity to senior compliance and
+          open a written investigation file
+       D. Internally offset the positions and record a note in the daily blotter attributing the unusual
+          activity to market-data latency
+
+
+
+
+                                                                                Practice Exam - Questions | 11
+      An Investment Dealer offers managed account services to its clients. Recently, the Investment
+      Dealer’s compliance department initiated a review of its managed account operations to ensure
+      adherence to conflicts of interest regulations. During the review, several situations were identified:
+      1.   A Portfolio Manager (PM) executed trades in a managed account in a security which
+           affected the price favourably for a subsequent trade in the same security by the Investment
+           Dealer for its proprietary account.
+      2.   Shares were allocated to a managed account from an Initial Public Offering (IPO) that
+           was underwritten by the Investment Dealer. The client had been notified of the Investment
+           Dealer’s involvement but had not provided prior written consent.
+      3.   A PM purchased on a discretionary basis securities direct from an investment fund advised
+           by the same PM.
+      4.   A PM directed several client managed accounts to purchase securities from an investment
+           fund. The fund is sub-advised by the PM’s spouse, who is also registered as a PM at the
+           same Investment Dealer. No disclosure was made to clients, and no exemption was obtained.
+      5.   Shares from an IPO were allocated to managed accounts with no documented policy about
+           fair distribution among clients. A commission was charged on the purchase.
+      The Investment Dealer’s Supervisors are responsible for evaluating these situations and
+      ensuring that appropriate steps are taken to address any conflicts of interest in compliance with
+      regulatory requirements.
+
+ITEM ID: SPRV_E_000476
+
+30.   What is the primary concern regarding the timing of trades between the managed account and
+      the Investment Dealer’s proprietary account?
+       A. The managed account received preferential pricing over the Investment Dealer’s account
+       B. The Investment Dealer may have used information from the managed account’s trade to its
+          benefit
+       C. The Investment Dealer’s PM failed to disclose information about the timing of the trade to
+          the client
+       D. The Investment Dealer’s trade volume during the short period will have exceeded regulatory
+          limits
+
+ITEM ID: SPRV_E_000477
+
+31.   Under what condition can a managed account invest in the new issue?
+       A. If the client is notified after the investment has been made
+       B. If the investment makes up less than 5% of the client’s portfolio
+       C. If the investment is recommended by an independent analyst
+       D. If the PM receives the client’s prior written consent
+
+
+                                                                                  Practice Exam - Questions | 12
+ITEM ID: SPRV_E_000478
+
+32.   What conflict arises from the transaction between the managed account and the investment
+      fund?
+       A. The purchase by the PM takes advantage of confidential information
+       B. The PM has not provided written disclosure of the related fund to the client
+       C. The investment fund has not been discussed with the client before purchase
+       D. The transaction was not executed through a public exchange
+
+ITEM ID: SPRV_E_000479
+
+33.   Which of the following best describes the regulatory concern with the PM’s spouse?
+       A. The transaction involved a PM that purchased securities from a fund managed by a related
+          party of the PM
+       B. The PM should have disclosed to clients if their spouse received direct compensation from the
+          sale
+       C. The PM was required to pre-clear the transaction with the firm’s investment committee to
+          ensure fair treatment
+       D. The transaction was done on a discretionary basis without the PM receiving confirmation
+          from the client
+
+ITEM ID: SPRV_E_000480
+
+34.   What is the primary issue with the allocation of IPO shares among managed accounts?
+       A. The Investment Dealer should not have charged a commission
+       B. The managed account should not invest in new issues or secondary offerings
+       C. There was no documented policy to ensure fair allocation among clients
+       D. There is no evidence that the PM was connected to the issuer
+
+
+
+
+                                                                              Practice Exam - Questions | 13
+ITEM ID: SPRV_E_000147
+
+35.   An Investment Dealer is managing an Initial Public Offering (IPO), which is expected to
+      open 30% higher than issue price. Minutes after the market closes on the day before issue, a
+      Supervisor learns that a Portfolio Manager (PM) has diverted the entire retail tranche of the
+      IPO to a managed account controlled by the manager’s sibling. Meanwhile, four other eligible
+      managed accounts received nothing. According to CIRO’s managed-account conflict-of-interest
+      procedures, what is the Supervisor’s first mandatory step?
+       A. Escalate to compliance for an urgent conflict review and place the allocation of IPO shares
+          on hold
+       B. Freeze the allocated IPO shares and draft an overnight re-allocation plan for consideration
+          by compliance
+       C. Deliver a written reprimand to the PM and record the incident in the supervision log, pending
+          the quarterly audit
+       D. Cancel the firm’s participation in the IPO and notify the underwriting syndicate that the
+          shares will be declined
+
+ITEM ID: SPRV_E_000158
+
+36.   A Supervisor reviews four activities carried out by different Approved Persons. Based on
+      Approved Person definitions, which activity requires immediate supervisory escalation?
+       A. An Investment Representative emails a compliance-approved research summary to existing
+          clients
+       B. A Registered Representative accepts an unsolicited order to buy a foreign-listed exchange-
+          traded funds (ETF) after the market is closed
+       C. An Associate Portfolio Manager rebalances a managed account within parameters pre-set by
+          the Portfolio Manager
+       D. An Investment Representative recommends and enters an order for a listed security for a
+          retail client
+
+
+
+
+                                                                              Practice Exam - Questions | 14
+ITEM ID: SPRV_E_000543
+
+37.   A Supervisor is reviewing a Registered Representative’s (RR’s) onboarding documentation for
+      a new institutional client opening a direct electronic access (DEA) account. While the client’s
+      overall financial sophistication is evident, the know-your-client (KYC) documents reveal that the
+      institution’s designated trading personnel have limited specific experience with DEA systems,
+      and their internal trading oversight procedures for a DEA model are not clearly defined.
+      What is the Supervisor’s most appropriate action before trading activity commences?
+       A. Require the RR to have a supplemental interview with the institutional client, confirming their
+          investment objectives and internal governance
+       B. Escalate the issue directly to the Chief Compliance Officer (CCO) for a formal review of the
+          RR’s onboarding process for DEA accounts
+       C. Ask the RR to contact the institutional client to clarify the limitations and risks of a DEA
+          account, ensuring documented understanding
+       D. Document the trading personnel’s limited knowledge, flagging the account for enhanced
+          supervisory review once initial trading in the account begins
+
+ITEM ID: SPRV_E_000165
+
+38.   An internal compliance alert shows that a prospectus amendment has been filed for a mutual
+      fund. The amendment describes a shift from an “income” style to an “income and growth” style.
+      When applying CIRO’s know-your-product (KYP) monitoring rules, what must the Investment
+      Dealer’s Supervisor ensure the Registered Representative does first?
+       A. Freeze new purchases and instruct product due-diligence staff to complete a suitability
+          reassessment the next business day
+       B. Permit trading only after each client signs a change-of-objective acknowledgement and the
+          fund is highlighted in that client’s monthly statement
+       C. Ensure they assess the fund’s new objectives promptly and verify and document that the new
+          style continues to be appropriate for each client invested in the fund
+       D. Rely on the order-entry KYP filter to block mismatched trades today and schedule a team
+          review of the change at the next morning meeting
+
+
+
+
+                                                                                 Practice Exam - Questions | 15
+ITEM ID: SPRV_E_000171
+
+39.   A supervisory report for an integrated Investment Dealer reveals three problems with the
+      accounts of a Registered Representative’s (RR’s) clients:
+      •   A margin account is two days past a call.
+      •   An advisory client has written uncovered index calls outside stated risk limits.
+      •   An account for an employee of a different Investment Dealer began trading without
+          necessary supervisory approvals.
+      Which response of the Supervisor best meets CIRO’s post-opening supervision standards?
+       A. Contact the RR to contact each client and propose self-correction within a 48 hour period,
+          leave positions open meanwhile and note the exceptions for escalation only if breaches
+          remain on the third day
+       B. Suspend trading in all three accounts, and ensure the RR addresses the overdue margin,
+          approaches the advisory client to conduct a suitability review and obtains authorization from
+          the employer of the third client
+       C. Enhance monitoring of the margin and advisory account, raise house margin on the margin
+          account, email derivatives risk disclosures to the advisory client and plan the non-client
+          account discussion for the next supervisory meeting
+       D. Maintain all three accounts unchanged, but add all three accounts to a daily watch list while
+          summarizing the open exceptions for inclusion in the routine month-end compliance reporting
+          package
+
+ITEM ID: SPRV_E_000173
+
+40.   Which Universal Market Integrity Rules (UMIR) order type lets a participant satisfy the best-
+      price obligation while skipping hidden liquidity?
+       A. Market-on-close order that executes at the consolidated closing price of the primary market
+       B. Special terms order requiring negotiated settlement outside normal marketplace clearing
+          cycles
+       C. Volume-weighted average price (VWAP) order pegged to the day’s calculated VWAP
+          benchmark
+       D. Bypass order entered solely to meet best-price rules against displayed volume
+
+
+
+
+                                                                               Practice Exam - Questions | 16
+      The Investment Dealer’s compliance department has recently identified several issues across
+      various account types:
+      1.   Clients with advisory accounts have been instructing trades that deviate significantly from
+           their documented investment objectives.
+      2.   The in-house managed accounts team has been allocating lucrative investment
+           opportunities predominantly to high-net-worth clients.
+      3.   An internal audit revealed some concerns about the improper execution of trades within
+           discretionary (non-managed) accounts.
+      4.   The Investment Dealer has observed that certain margin accounts are consistently
+           operating near or at their margin limits.
+      5.   A retired Registered Representative (RR) sold their book to a colleague, another RR at the
+           firm. The retired RR was found to be continuing to provide advice and gathering know-your-
+           client (KYC) information for several of their former clients. The clients only hold tax-deferred
+           Registered Retirement Income Fund (RRIF) accounts, but it raises concerns about the
+           integrity of the suitability determinations.
+      The Investment Dealer’s Supervisor is tasked with addressing some of these issues to ensure
+      regulatory compliance for each account type while maintaining an integrated, overall view of
+      each client’s situation and activity. The Supervisor must ensure that policies, procedures and
+      risk-management tools are effectively implemented.
+
+ITEM ID: SPRV_E_000452
+
+41.   Which of the accounts described in the scenario carry the greatest risk of conflict of interest?
+       A. Managed accounts
+       B. Tax-deferred accounts
+       C. Discretionary accounts
+       D. Advisory accounts
+
+ITEM ID: SPRV_E_000453
+
+42.   What is the primary supervisory obligation with respect to the Investment Dealer’s advisory
+      accounts?
+       A. Allow clients autonomy in their trading decisions, as they are responsible for their own choices
+       B. Place temporary restrictions on the client’s trading capabilities until a full review is conducted
+       C. Escalate the deviations for further investigation and consult with legal counsel
+       D. Conduct a suitability assessment for each trade, discussing any deviations with the RR
+
+
+
+
+                                                                                 Practice Exam - Questions | 17
+ITEM ID: SPRV_E_000454
+
+43.   Which supervisory risk is most significant in the managed accounts?
+       A. The risk that internal compliance may overlook small, client-initiated orders that accumulate
+          to significant exposures
+       B. The risk that the account decisions may deviate from documented investment objectives and
+          risk profile
+       C. The risk of excessive trade volume due to automated trading algorithms that reduce the need
+          for human oversight
+       D. The risk of clients becoming uninformed once managed authority is granted, reducing overall
+          transparency
+
+ITEM ID: SPRV_E_000455
+
+44.   Which of the following is the most appropriate supervisory response to address the concerns in
+      the tax-deferred accounts?
+       A. Immediately initiate a client contact campaign to re-verify KYC information and assess
+          suitability of past transactions
+       B. Suspend the RR’s trading authority until the clients agree to sign a waiver of responsibility
+       C. Replace the RR on affected accounts and instruct clients to resubmit KYC forms before
+          making further transactions
+       D. File a report with CIRO’s Enforcement Division and await formal instructions before taking
+          any further internal action
+
+ITEM ID: SPRV_E_000456
+
+45.   Which account type carries the most significant supervisory risk related to client exposure to
+      losses?
+       A. Discretionary accounts
+       B. Advisory accounts
+       C. Margin accounts
+       D. Tax-deferred accounts
+
+
+
+
+                                                                               Practice Exam - Questions | 18
+ITEM ID: SPRV_E_000186
+
+46.   Late in a monthly desk review, the surveillance team notes that all afternoon a block of client
+      limit orders was smart-routed only to one thin marketplace, even though better displayed
+      prices were available elsewhere. Under CIRO’s periodic compliance-testing obligations, which
+      marketplace rule must the dealer review to address this routing concern?
+       A. Examine the audit-trail records to ensure every routing decision is timestamped against
+          market data and that the feed latency did not distort price comparisons
+       B. Reassess the best-execution policy and router logic to confirm they compare real-time prices
+          on every protected marketplace and document why the selected marketplace was chosen
+       C. Test electronic-access controls to verify the router’s marketplace filters, connectivity
+          thresholds and default settings are correctly calibrated for current liquidity conditions across
+          markets
+       D. Review manipulative-trading surveillance to determine whether concentrating orders on the
+          quieter marketplace created artificial volume patterns that could advantage proprietary or
+          affiliated accounts
+
+ITEM ID: SPRV_E_000201
+
+47.   Which of the following statements best describes the purpose of National Instruments (NI) and
+      Multilateral Instruments (MI) issued by the Canadian Securities Administrators (CSA)?
+       A. NIs are legally binding rules adopted across Canada, while MIs apply only in some
+          jurisdictions
+       B. Both NIs and MIs are non-binding policy statements meant to provide general guidance
+       C. NIs are internal memoranda written and issued by CSA staff, while MIs are advisory opinions
+       D. NIs are instruments only applicable to individual investors, while MIs apply to institutions
+
+ITEM ID: SPRV_E_000202
+
+48.   Which of the following statements best describes the mandate and jurisdiction of the Canadian
+      Investment Regulatory Organization (CIRO)?
+       A. A federal government agency that regulates all financial institutions across Canadian
+          provinces and territories
+       B. The administrator of Investment Dealers that provide trading activity on Canada’s securities
+          marketplace
+       C. The regulator responsible for overseeing Investment Dealers and their activities across Canada
+       D. A policy advisory group setting guidance and standards without any investigation or
+          enforcement authority
+
+
+
+
+                                                                                Practice Exam - Questions | 19
+ITEM ID: SPRV_E_000203
+
+49.   Which of the following correctly outlines the regulatory framework the Canadian Investment
+      Regulatory Organization (CIRO) applies to Investment Dealers and how it enforces compliance?
+       A. CIRO identifies violations of securities laws and imposes appropriate sanctions, supporting
+          investor confidence
+       B. CIRO applies the Investment Dealer and Partially Consolidated (IDPC) Rules to Investment
+          Dealers, supported by guidance notes, forms and standards
+       C. CIRO provides coverage to eligible clients to refund losses suffered in the event of the
+          insolvency of an Investment Dealer
+       D. CIRO has an enforcement framework that applies to Investment Dealers’ internal operations,
+          though not to client-facing activities
+
+ITEM ID: SPRV_E_000205
+
+50.   A Supervisor at a CIRO-regulated Investment Dealer has questions in relation to protection for
+      clients of the firm in the event of the firm’s insolvency. What is the primary purpose and objective
+      of the Canadian Investor Protection Fund (CIPF)?
+       A. To safeguard the financial viability, ongoing profitability and solvency of registered
+          Investment Dealers
+       B. To protect eligible customers of insolvent Investment Dealers with compensation for losses,
+          within limits
+       C. To ensure clients are protected from financial loss in relation to money laundering and
+          terrorist financing
+       D. To provide financial assistance to Investment Dealers facing temporary liquidity or insolvency
+          challenges
+
+ITEM ID: SPRV_E_000206
+
+51.   An Investment Dealer that is partially compliant with regulatory capital requirements is facing
+      severe financial distress. While the firm has not yet declared insolvency, regulators anticipate
+      a collapse and are evaluating potential investor protection measures. Which of the following
+      statements best describes the role of the Canadian Investor Protection Fund (CIPF) in this
+      situation?
+       A. Preemptively transfer client assets to a more stable investment firm to prevent losses before
+          insolvency
+       B. Assess the firm’s financial condition and only intervene if client assets are deemed at risk
+          under its coverage rules
+       C. Ensure that all client accounts are fully reimbursed, regardless of their classification or firm
+          registration status
+       D. Coordinate with the Canadian Securities Administrators (CSA) to restructure the firm and
+          prevent insolvency
+                                                                                 Practice Exam - Questions | 20
+ITEM ID: SPRV_E_000207
+
+52.   Which of the following best describes the primary function and purpose of the Financial
+      Transactions and Reports Analysis Centre of Canada (FINTRAC)?
+       A. To directly investigate and prosecute individuals or entities suspected of money laundering
+          and terrorist financing activities in Canada
+       B. To establish and enforce rules and regulations that Investment Dealers must follow to prevent
+          money laundering and terrorist financing
+       C. To analyze and disclose details related to suspected money laundering and terrorist financing
+          to law enforcement and intelligence agencies
+       D. To provide financial support and resources to Investment Dealers for anti-money laundering
+          and counter-terrorist financing compliance
+
+ITEM ID: SPRV_E_000210
+
+53.   Which of the following statements best describes the fundamental relationship between an
+      Investment Dealer’s supervisory system and its internal controls?
+       A. The supervisory system is a subset of the internal controls, primarily focused on monitoring
+          employee activities, while internal controls encompass all policies and procedures
+       B. Internal controls are the Investment Dealer’s established policies and procedures, while the
+          supervisory system is the framework and processes for ensuring these controls are working
+          as intended
+       C. The supervisory system and internal controls are distinct, with the supervisory system focusing
+          on regulatory compliance and the internal controls focusing on financial reporting accuracy
+       D. Internal controls are primarily preventative measures designed to avoid errors and non-
+          compliance, while the supervisory system acts as a detective control to identify issues after
+          they have occurred
+
+ITEM ID: SPRV_E_000212
+
+54.   Which statement is true in relation to Associate Portfolio Managers (APMs) providing advice to
+      clients?
+       A. They are obliged to obtain preapproval for their advice from their Portfolio Manager
+       B. They may provide advice independently as long as they are audited quarterly
+       C. They must check that they have preapproval for their advice from their Supervisor
+       D. They can provide advice under direct supervision if in the role for at least one year
+
+
+
+
+                                                                               Practice Exam - Questions | 21
+ITEM ID: SPRV_E_000220
+
+55.   What is the Investment Dealer’s obligation if a client imposes investment restrictions in their
+      managed account?
+       A. Incorporate the restrictions after they’ve been reviewed and approved by the compliance
+          department
+       B. Decline to open the account unless the restrictions are consistent with internal asset
+          allocation models
+       C. Document the restrictions in the managed account agreement, if the Investment Dealer
+          permits them
+       D. Accept the restrictions if they are also reviewed and approved by the client’s registered
+          Financial Planner
+
+ITEM ID: SPRV_E_000226
+
+56.   Under a two-tier supervision framework, what is the primary distinction between Tier 1 and
+      Tier 2 supervision?
+       A. Tier 1 supervision is performed by internal compliance officers, while Tier 2 supervision is
+          conducted by external auditors
+       B. Tier 1 supervision focuses on strategic oversight at the head office, whereas Tier 2
+          supervision handles day-to-day operations at business locations
+       C. Tier 1 supervision involves the primary oversight of daily and monthly trade reviews, while
+          Tier 2 supervision is broader oversight
+       D. Tier 1 supervision pertains to client interactions and Tier 2 supervision relates to product
+          development and marketing strategies
+
+ITEM ID: SPRV_E_000228
+
+57.   A new client wishes to open an account with an Investment Dealer. During the know-your-client
+      (KYC) process, the Registered Representative discovers that the client is a Politically Exposed
+      Person (PEP) from a jurisdiction with high levels of corruption. As a Supervisor, what is the most
+      appropriate course of action?
+       A. Proceed with account opening, as the client has provided all required documentation
+       B. Flag the client for appropriate review and approval by senior management
+       C. Decline the account opening on the basis of the client’s PEP status and advise the client in
+          writing
+       D. Treat the client as any other, since PEP status does not influence their entitlement to opening
+          accounts
+
+
+
+
+                                                                                Practice Exam - Questions | 22
+ITEM ID: SPRV_E_000229
+
+58.   A client frequently places large orders in listed low-volume securities, which are then quickly
+      cancelled or modified. This pattern has been observed across multiple trading days. What should
+      the Supervisor do in response to this activity?
+       A. Allow the activity, as order cancellations are common in trading, but send a written notice
+       B. Report the suspicious activity to the compliance department for further investigation
+       C. Continue to monitor client trading behaviour to detect any wrongdoing in the future
+       D. Suspend the client’s trading privileges and ask the exchange to conduct an investigation
+
+ITEM ID: SPRV_E_000234
+
+59.   A Supervisor detects that a Registered Representative has executed a series of frequent buy
+      and sell orders in a client’s account over the past month, with little overall change in the
+      account’s holdings but generating significant commissions. What type of activity does this
+      raise a red flag for?
+       A. Insider trading
+       B. Churning
+       C. Undue concentration
+       D. Front running
+
+ITEM ID: SPRV_E_000241
+
+60.   Which of the following is a key element for compliance staff conducting business location audits?
+       A. Being physically present at the business location for an extended period to observe day-to-
+          day operations
+       B. Being trained in marketing and advertising policies to assess business location compliance
+       C. Following a risk-based approach that covers all regulatory areas relevant to the business
+          location
+       D. Reviewing findings with the business location manager for review and comment before
+          escalation
+
+
+
+
+                                                                              Practice Exam - Questions | 23
+ITEM ID: SPRV_E_000245
+
+61.   An Investment Dealer operates a very busy business location in a remote part of the country,
+      which focuses on complex derivatives trading. All Registered Representatives (RRs) have the
+      necessary proficiency requirements for derivatives and are supervised by appropriately qualified
+      Supervisors. The business location Supervisor has a lengthy history of trading in derivatives and
+      has spent more than a decade supervising this business location. RRs and Supervisors across the
+      Investment Dealer are encouraged to consult the business location Supervisor as the in-house
+      derivatives expert.
+      What is the most significant internal risk factor that head office should proactively address
+      regarding this location?
+       A. The lack of autonomy given to the Registered Representatives due to supervision
+       B. The risk of relying on one person’s knowledge and expertise for a complex business line
+       C. The potential risk of manipulation of client accounts due to a centralized decision point
+       D. The tenure and remoteness of the Supervisor risks lack of proper oversight
+
+ITEM ID: SPRV_E_000249
+
+62.   When evaluating the overall risk profile of its network of business locations, what is a
+      fundamental principle that the head office should adhere to?
+       A. Applying a uniform supervisory approach across all business locations to ensure consistency
+          and fairness
+       B. Focusing supervisory resources on the largest business locations due to their higher revenue
+          and risk contribution
+       C. Completing formal compliance training and ensuring audits cover all relevant regulatory areas
+       D. Tailoring supervisory oversight and resource allocation to the specific risks of each business
+          location
+
+ITEM ID: SPRV_E_000252
+
+63.   A Supervisor is reviewing their Investment Dealer’s activity involving a series of customized over-
+      the-counter (OTC) swap agreements, carried out for a range of different clients. The firm has
+      limited internal documentation supporting the trades. What is the most significant supervisory
+      risk this creates?
+       A. The swaps may expose the firm to margin shortfalls due to incorrect collateral treatment
+       B. The firm may lack sufficient records to assess suitability, pricing and counterparty exposure
+       C. The swaps may require preapproval by a clearing agency before trade execution
+       D. The client may trigger transaction reporting thresholds under public disclosure rules
+
+
+
+
+                                                                                Practice Exam - Questions | 24
+      A Supervisor at a national Investment Dealer is completing a mid-year compliance sweep.
+      They must:
+      •    review recent enforcement files involving Approved Persons (APs);
+      •    confirm the compliance department’s escalation logs;
+      •    test that delegated business location reviews followed head office parameters;
+      •    verify that all exception reports and supporting records met the required retention periods; and
+      •    document if Supervisor approval was evidenced when client updates were performed.
+      The file will be provided to Directors with evidence that each CIRO requirement for supervision,
+      record-keeping and delegation controls has been met.
+
+ITEM ID: SPRV_E_000416
+
+64.   During the mid-year sweep, which activity most directly demonstrates the compliance
+      department’s duty to identify and escalate regulatory concerns?
+       A. Verifying that exception reports and supporting records met required CIRO retention timelines
+       B. Testing whether delegated business location reviews adhered to the parameters set by head
+          office compliance
+       C. Confirming that the escalation log showed timely reporting and resolution of outstanding
+          supervision issues
+       D. Documenting how supervision authority was exercised when client records were amended in
+          business location systems
+
+ITEM ID: SPRV_E_000417
+
+65.   Which step in the mid-year sweep most clearly shows compliance monitoring that current
+      business location practices followed the Investment Dealer’s policies?
+       A. Ensuring that enforcement files on APs addressed emerging conduct trends and systemic
+          policy gaps
+       B. Testing that delegated business location reviews followed the parameters set by head office
+          compliance guidelines
+       C. Verifying that retention periods for exception reports satisfied head office record-keeping and
+          audit standards
+       D. Documenting supervisory sign-offs each time client information was modified in the account
+          management system
+
+
+
+
+                                                                                 Practice Exam - Questions | 25
+ITEM ID: SPRV_E_000418
+
+66.   Which action in the mid-year compliance sweep best demonstrates the compliance department
+      met the obligation to monitor and enforce the firm’s supervisory policies?
+       A. Testing completed business location reviews against head office parameters to verify that the
+          written policies were applied consistently
+       B. Reconciling recent enforcement outcomes with escalation matrices to confirm alignment with
+          the firm’s disciplinary policy framework
+       C. Sampling retained exception reports to ensure their data conformed to the statutory record-
+          keeping format and retention timetable
+       D. Reviewing amended client files to confirm supervisory notes documented timely risk
+          assessment under the account-change policy
+
+ITEM ID: SPRV_E_000419
+
+67.   In the mid-year compliance sweep, which task best fulfils the compliance department’s duty to
+      demonstrate the exercise of supervision to senior management?
+       A. Preparing a narrative that shows how supervision was applied when client records were
+          amended across business locations
+       B. Testing whether archived exception reports and back-up data satisfied every statutory and
+          CIRO record-retention requirement
+       C. Matching each recent enforcement outcome to the firm’s disciplinary grid to confirm
+          consistency with escalation protocols
+       D. Confirming that every delegated business location review used the sampling ratios prescribed
+          in the head office supervision manual
+
+ITEM ID: SPRV_E_000420
+
+68.   During the sweep, which task best shows the compliance department’s duty to advise and
+      inform personnel about regulatory obligations?
+       A. Reviewing enforcement files and issuing guidance memos to staff on recurring rule breaches
+          uncovered this quarter
+       B. Preparing a memo for dissemination to all staff impacted by recent rule changes and sharing
+          updated policies and procedures
+       C. Confirming escalation logs include timestamps and recipient names for every incident
+          reported since the last inspection
+       D. Verifying archived exception reports include supporting documents and are stored in
+          accordance with statutory schedules
+
+
+
+
+                                                                             Practice Exam - Questions | 26
+ITEM ID: SPRV_E_000260
+
+69.   What action should be taken if a designated Supervisor does not approve an account within 24
+      hours of the client’s initial trade?
+       A. Notify the client in writing and request an updated application
+       B. Cancel any pending transactions and close the account
+       C. Document the reason for the delay and escalate
+       D. Restrict the account to performing liquidating transactions
+
+ITEM ID: SPRV_E_000263
+
+70.   Under CIRO rules applicable to Investment Dealers, which of the following conditions must be
+      satisfied for a client to be classified as an institutional client, assuming that they request and
+      consent to the status?
+       A. The client is an individual with securities and precious metal bullion totaling at least $10 million
+       B. The client is registered with a securities commission and maintains an active margin account
+       C. The client is a corporation or partnership with a formal investment committee and advisory
+          registration
+       D. The client is interviewed in person by the Investment Dealer and approved by the Risk
+          Committee
+
+ITEM ID: SPRV_E_000270
+
+71.   How often must an Investment Dealer reassess know-your-client (KYC) information for a
+      managed or discretionary account?
+       A. Once every 36 months
+       B. Once every 24 months
+       C. Once every 12 months
+       D. Only if there is a material change in KYC circumstances
+
+ITEM ID: SPRV_E_000279
+
+72.   Which of the following best describes an Investment Dealer’s responsibility regarding the
+      retention of client account records?
+       A. Keep client account documents in a central archive for at least three years after account closure
+       B. Keep client records and approvals for at least five years after account closure
+       C. Maintain client records and approvals for at least seven years after account closure
+       D. Maintain client records and approvals for at least ten years after account closure
+
+
+
+                                                                                  Practice Exam - Questions | 27
+ITEM ID: SPRV_E_000283
+
+73.   When must an Investment Dealer provide an updated relationship disclosure document to a client?
+       A. At least every 24 months
+       B. When the client switches to a new advisor or business location
+       C. If there is a material change from the last disclosure
+       D. At least every 36 months
+
+ITEM ID: SPRV_E_000286
+
+74.   Which of the following is a requirement under the Universal Market Integrity Rules (UMIR) for
+      maintaining an effective audit trail for trading activity?
+       A. Recording each client’s margin utilization at the time of order entry
+       B. Timestamping each order event in accordance with the firm’s internal system logs
+       C. Timestamping each order event in accordance with synchronized clocks
+       D. A record of the client’s trade date and settlement date cash balances
+
+ITEM ID: SPRV_E_000287
+
+75.   When trading on behalf of a client, which of the following would most likely be considered a
+      manipulative or deceptive trading practice under the Universal Market Integrity Rules (UMIR)?
+       A. Placing a buy order on one marketplace and later placing a sell order on another marketplace
+       B. Publicly displaying only part of a large volume order to reduce visible liquidity
+       C. Entering off-market bid orders to make it look like there is more demand or liquidity
+       D. Routing a large order using an algorithm that breaks it into smaller trades
+
+ITEM ID: SPRV_E_000291
+
+76.   Under the Universal Market Integrity Rules (UMIR), an investment Dealer should review trading
+      activity under a risk-based approach using the appropriate tests or technological support. Which
+      of the following is a valid consideration for a Supervisor when determining how frequently these
+      reviews should occur?
+       A. Whether the Investment Dealer’s clients use margin or cash accounts
+       B. The disciplinary history of the Investment Dealer’s Approved Persons
+       C. If the Investment Dealer employs algorithmic order routing systems
+       D. The value of assets held by the Investment Dealer in client accounts
+
+
+
+
+                                                                                  Practice Exam - Questions | 28
+ITEM ID: SPRV_E_000293
+
+77.   A new Supervisor is appointed to oversee a high-risk advisory team. Which of the following
+      actions must the firm take to ensure the Supervisor fulfils their gatekeeping responsibilities?
+       A. Assign the Supervisor a compliance officer for additional support
+       B. Provide documented training on regulatory reporting and misconduct detection
+       C. Require the Supervisor to complete weekly trade reviews for all registrants
+       D. Direct the Supervisor to conduct random interviews with clients each quarter
+
+ITEM ID: SPRV_E_000296
+
+78.   A Supervisor is reviewing a set of promotional materials submitted by different Registered
+      Representatives. Which of the following items is most likely to be prohibited?
+       A. An invitation to a seminar stating that a structured note offers guaranteed gains in most
+          market conditions
+       B. A quarterly newsletter comparing a fund’s five-year performance to its benchmark
+       C. A market blog post attributing a fund’s strong returns to proprietary strategies not available
+          elsewhere
+       D. A social media post quoting a fund’s average annual return with a reference and link to the
+          prospectus
+
+ITEM ID: SPRV_E_000541
+
+79.   A client wants to open a margin account and indicates that their initial deposit will come from
+      a personal line of credit although they have available funds in their cash accounts. The client’s
+      Registered Representative believes the client has sufficient income to manage both interest
+      payments.
+      What is the Supervisor’s obligation in this case?
+       A. Approve the margin account once the client acknowledges the debt source and risk in writing
+       B. Require confirmation that the client understands leverage risks and verify the available cash
+       C. Defer the account opening until the client demonstrates the ability to repay the line of credit
+       D. Ensure the use of leverage is disclosed and a leverage risk disclosure document is signed
+
+
+
+
+                                                                                Practice Exam - Questions | 29
+ITEM ID: SPRV_E_000544
+
+80.   A Supervisor reviewing system-generated alerts notices that a client with an Order Execution Only
+      (OEO) account has been placing frequent, small intraday trades in junior mining stocks. The trading
+      activity is consistent with patterns typically associated with high-frequency speculative trading.
+      What is the Supervisor’s most appropriate course of action?
+       A. Escalate for a suitability review, as OEO clients must align trades with risk profiles
+       B. Allow the account to proceed, as clients are permitted to trade actively in OEO accounts
+       C. Suspend the account and request justification for the trading frequency
+       D. Contact the client to review their investment objectives and risk profile
+
+ITEM ID: SPRV_E_000547
+
+81.   A Supervisor’s monthly review of a client’s leveraged advisory account shows a 30% drop in
+      market value since the last review. The client has previously used borrowed funds to invest in
+      high-yield products. The Registered Representative confirms that the know-your-client (KYC)
+      information was updated three years ago when the account was opened.
+      What is the Supervisor’s most appropriate action?
+       A. Initiate a KYC update and reassess suitability of the leveraged strategy
+       B. Place the client’s account on an internal watch list for daily performance review
+       C. Request the client provide written acknowledgement of the losses as within their stated KYC
+       D. Recommend an internal policy requiring dual approval for leveraged account transactions
+
+ITEM ID: SPRV_E_000550
+
+82.   A group of experienced capital markets professionals plans to establish a new Investment Dealer
+      in Alberta that will engage in underwriting and distributing securities to the public, as well as
+      providing investment advice.
+      To lawfully operate as an Investment Dealer and commence these activities in Alberta, which
+      core registration and membership requirements must the potential Investment Dealer satisfy?
+       A. It must register as a federal corporation with Corporations Canada and obtain membership
+          with the Canadian Investment Regulatory Organization (CIRO)
+       B. It must become a member of the Alberta Securities Commission (ASC) and secure a listing on
+          the Toronto Stock Exchange (TSX)
+       C. It must secure a listing on the TSX and become a participant in the Canadian Depository for
+          Securities (CDS)
+       D. It must register with the ASC and obtain membership with CIRO
+
+
+
+
+                                                                                Practice Exam - Questions | 30
+ITEM ID: SPRV_E_000553
+
+83.   A Supervisor at an Investment Dealer discovers that a Portfolio Manager (PM) placed shares of a
+      microcap company into several managed accounts. The Supervisor later learns the PM’s spouse
+      owns a company that recently received shares in the same issuer under a consulting agreement.
+      This relationship was not disclosed to the Investment Dealer or to the clients in writing.
+      The PM says the agreement wasn’t disclosed because the shares were never paid for, and the
+      clients were told verbally that the spouse was connected to the issuer.
+      What is the Supervisor’s most appropriate action?
+       A. Require the PM to immediately provide written disclosure of the relationship to all affected
+          clients and obtain their written consent to hold the shares
+       B. Instruct the PM to reverse all trades of the microcap company shares, update their conflict of
+          interest disclosure and provide the PM with a written warning
+       C. Escalate the PM’s conduct for a compliance investigation, suspend further trading in the
+          issuer in managed accounts and issue a formal written warning
+       D. Implement an immediate block on the PM’s ability to place any new trades in microcap
+          companies, pending a review of the conflict of interest policy
+
+ITEM ID: SPRV_E_000556
+
+84.   A Supervisor is reviewing the transaction activity of a high-risk Politically Exposed Person (PEP)
+      client. The review identifies multiple, large, round-sum deposits into the account, followed by
+      immediate outward transfers to third-party accounts in jurisdictions known for higher money
+      laundering risk.
+      What is the Supervisor’s most appropriate action regarding this transaction pattern?
+       A. Inform the client that all future transfers to third parties will be subject to a 72-hour hold
+          period and enhanced due diligence scrutiny
+       B. Require the client’s Registered Representative to obtain detailed written explanations for
+          each transaction from the client
+       C. Recommend to compliance that the client’s account be closed due to the transactions and
+          the inherent risk of the PEP designation
+       D. Increase the frequency and depth of ongoing monitoring for the account, and assess if a
+          suspicious transaction report is required
+
+
+
+
+                                                                                 Practice Exam - Questions | 31
+ITEM ID: SPRV_E_000559
+
+85.   A Supervisor identifies that a Registered Representative (RR) has advised several retired clients,
+      all with conservative risk profiles, to heavily concentrate their portfolios (over 50%) in a single
+      sector-specific exchange-traded fund (ETF). The ETF invests in emerging market debt, and the
+      RR cites its high yield as the rationale. The know-your-client (KYC) information for these clients
+      reflects moderate income and a reliance on fixed income.
+      What is the Supervisor’s most appropriate action concerning the suitability of these client portfolios?
+       A. Instruct the RR to have the clients sign a specific risk acknowledgement form regarding the
+          concentration risk
+       B. Conduct an internal review of the ETF to confirm its listed risk rating aligns with the
+          Investment Dealer’s product shelf guidelines
+       C. Place a temporary hold on the RR’s ability to recommend or trade the specific emerging
+          markets debt ETF products
+       D. Review the affected clients’ KYC and portfolio, requiring the RR to justify the suitability, and
+          require remediation if unsuitable
+
+
+
+      The daily trade supervision system flagged several accounts under a Registered Representative
+      (RR) of a Canadian Investment Dealer. The alerts included:
+      •    high-frequency trading in small-cap securities;
+      •    multiple same-day buy and sell transactions (“in-and-out” trading);
+      •    significant commissions generated relative to account sizes; and
+      •    trading in securities under regulatory investigation.
+      Upon review, the Supervisor noted that these accounts belonged to elderly clients with low to
+      moderate risk tolerances.
+
+ITEM ID: SPRV_E_000482
+
+86.   What is the primary concern with the trading pattern observed in the client accounts?
+       A. Potential insider trading
+       B. Excessive trading
+       C. Lack of diversification
+       D. Trading in foreign securities
+
+
+
+
+                                                                                  Practice Exam - Questions | 32
+ITEM ID: SPRV_E_000483
+
+87.   What potential compliance concern arises when high-frequency trading generates significant
+      commissions in accounts with conservative investment profiles?
+       A. It may reduce client engagement with the RR, affecting suitability
+       B. It indicates the RR is placing client returns ahead of risk management
+       C. It shows inefficiency in trading procedures by the RR
+       D. It could be interpreted as churning, violating suitability obligations
+
+ITEM ID: SPRV_E_000484
+
+88.   What action should the Supervisor take upon identifying these trading patterns?
+       A. Utilize monthly reviews to assess the situation
+       B. Immediately suspend the RR’s trading privileges
+       C. Conduct a prompt review of impacted accounts and document findings
+       D. Monitor the alerts and keep track of any client complaints
+
+ITEM ID: SPRV_E_000485
+
+89.   If the Supervisor fails to act on these red flags, what potential consequences could arise?
+       A. No consequences, if clients are not financially impacted
+       B. The Investment Dealer will receive a warning letter from CIRO
+       C. The RR would be held wholly accountable with fines
+       D. Regulatory sanctions against the RR, the firm and the Supervisor
+
+ITEM ID: SPRV_E_000486
+
+90.   What is the most appropriate supervisory action to ensure ongoing suitability is maintained?
+       A. Escalate the account activity for compliance review and initiate a periodic suitability
+          reassessment schedule for the affected accounts
+       B. Direct the RR to cease all trading in flagged accounts until the clients submit updated know-
+          your-client documentation
+       C. Require the RR to provide and document an explanation of their trading strategy for each
+          flagged transaction
+       D. Recommend that the accounts be reviewed for potential reassignment pending the outcome
+          of a suitability investigation
+
+
+
+
+                                                                                   Practice Exam - Questions | 33
+Supervisor Exam
+Practice Exam – Answers
+
+
+
+
+Supported by
+1.
+
+ITEM ID: SPRV_E_000007
+
+KEY: A
+
+
+
+2.
+
+ITEM ID: SPRV_E_000008
+
+KEY: D
+
+
+
+3.
+
+ITEM ID: SPRV_E_000428
+
+KEY: B
+
+
+
+4.
+
+ITEM ID: SPRV_E_000429
+
+KEY: C
+
+
+
+5.
+
+ITEM ID: SPRV_E_000430
+
+KEY: A
+
+
+
+6.
+
+ITEM ID: SPRV_E_000431
+
+KEY: D
+
+
+
+
+                         Practice Exam - Answers | 1
+7.
+
+ITEM ID: SPRV_E_000432
+
+KEY: B
+
+
+
+8.
+
+ITEM ID: SPRV_E_000009
+
+KEY: B
+
+
+
+9.
+
+ITEM ID: SPRV_E_000022
+
+KEY: C
+
+
+
+10.
+
+ITEM ID: SPRV_E_000023
+
+KEY: C
+
+
+
+11.
+
+ITEM ID: SPRV_E_000037
+
+KEY: B
+
+
+
+12.
+
+ITEM ID: SPRV_E_000054
+
+KEY: D
+
+
+
+
+                         Practice Exam - Answers | 2
+13.
+
+ITEM ID: SPRV_E_000059
+
+KEY: A
+
+
+
+14.
+
+ITEM ID: SPRV_E_000060
+
+KEY: C
+
+
+
+15.
+
+ITEM ID: SPRV_E_000063
+
+KEY: C
+
+
+
+16.
+
+ITEM ID: SPRV_E_000072
+
+KEY: B
+
+
+
+17.
+
+ITEM ID: SPRV_E_000086
+
+KEY: C
+
+
+
+18.
+
+ITEM ID: SPRV_E_000386
+
+KEY: D
+
+
+
+
+                         Practice Exam - Answers | 3
+19.
+
+ITEM ID: SPRV_E_000387
+
+KEY: C
+
+
+
+20.
+
+ITEM ID: SPRV_E_000388
+
+KEY: A
+
+
+
+21.
+
+ITEM ID: SPRV_E_000389
+
+KEY: B
+
+
+
+22.
+
+ITEM ID: SPRV_E_000390
+
+KEY: A
+
+
+
+23.
+
+ITEM ID: SPRV_E_000098
+
+KEY: B
+
+
+
+24.
+
+ITEM ID: SPRV_E_000106
+
+KEY: A
+
+
+
+
+                         Practice Exam - Answers | 4
+25.
+
+ITEM ID: SPRV_E_000120
+
+KEY: A
+
+
+
+26.
+
+ITEM ID: SPRV_E_000124
+
+KEY: A
+
+
+
+27.
+
+ITEM ID: SPRV_E_000129
+
+KEY: B
+
+
+
+28.
+
+ITEM ID: SPRV_E_000137
+
+KEY: B
+
+
+
+29.
+
+ITEM ID: SPRV_E_000141
+
+KEY: C
+
+
+
+30.
+
+ITEM ID: SPRV_E_000476
+
+KEY: B
+
+
+
+
+                         Practice Exam - Answers | 5
+31.
+
+ITEM ID: SPRV_E_000477
+
+KEY: D
+
+
+
+32.
+
+ITEM ID: SPRV_E_000478
+
+KEY: B
+
+
+
+33.
+
+ITEM ID: SPRV_E_000479
+
+KEY: A
+
+
+
+34.
+
+ITEM ID: SPRV_E_000480
+
+KEY: C
+
+
+
+35.
+
+ITEM ID: SPRV_E_000147
+
+KEY: A
+
+
+
+36.
+
+ITEM ID: SPRV_E_000158
+
+KEY: D
+
+
+
+
+                         Practice Exam - Answers | 6
+37.
+
+ITEM ID: SPRV_E_000543
+
+KEY: C
+
+
+
+38.
+
+ITEM ID: SPRV_E_000165
+
+KEY: C
+
+
+
+39.
+
+ITEM ID: SPRV_E_000171
+
+KEY: B
+
+
+
+40.
+
+ITEM ID: SPRV_E_000173
+
+KEY: D
+
+
+
+41.
+
+ITEM ID: SPRV_E_000452
+
+KEY: C
+
+
+
+42.
+
+ITEM ID: SPRV_E_000453
+
+KEY: D
+
+
+
+
+                         Practice Exam - Answers | 7
+43.
+
+ITEM ID: SPRV_E_000454
+
+KEY: B
+
+
+
+44.
+
+ITEM ID: SPRV_E_000455
+
+KEY: A
+
+
+
+45.
+
+ITEM ID: SPRV_E_000456
+
+KEY: C
+
+
+
+46.
+
+ITEM ID: SPRV_E_000186
+
+KEY: B
+
+
+
+47.
+
+ITEM ID: SPRV_E_000201
+
+KEY: A
+
+
+
+48.
+
+ITEM ID: SPRV_E_000202
+
+KEY: C
+
+
+
+
+                         Practice Exam - Answers | 8
+49.
+
+ITEM ID: SPRV_E_000203
+
+KEY: B
+
+
+
+50.
+
+ITEM ID: SPRV_E_000205
+
+KEY: B
+
+
+
+51.
+
+ITEM ID: SPRV_E_000206
+
+KEY: B
+
+
+
+52.
+
+ITEM ID: SPRV_E_000207
+
+KEY: C
+
+
+
+53.
+
+ITEM ID: SPRV_E_000210
+
+KEY: B
+
+
+
+54.
+
+ITEM ID: SPRV_E_000212
+
+KEY: A
+
+
+
+
+                         Practice Exam - Answers | 9
+55.
+
+ITEM ID: SPRV_E_000220
+
+KEY: C
+
+
+
+56.
+
+ITEM ID: SPRV_E_000226
+
+KEY: C
+
+
+
+57.
+
+ITEM ID: SPRV_E_000228
+
+KEY: B
+
+
+
+58.
+
+ITEM ID: SPRV_E_000229
+
+KEY: B
+
+
+
+59.
+
+ITEM ID: SPRV_E_000234
+
+KEY: B
+
+
+
+60.
+
+ITEM ID: SPRV_E_000241
+
+KEY: C
+
+
+
+
+                         Practice Exam - Answers | 10
+61.
+
+ITEM ID: SPRV_E_000245
+
+KEY: B
+
+
+
+62.
+
+ITEM ID: SPRV_E_000249
+
+KEY: D
+
+
+
+63.
+
+ITEM ID: SPRV_E_000252
+
+KEY: B
+
+
+
+64.
+
+ITEM ID: SPRV_E_000416
+
+KEY: C
+
+
+
+65.
+
+ITEM ID: SPRV_E_000417
+
+KEY: B
+
+
+
+66.
+
+ITEM ID: SPRV_E_000418
+
+KEY: A
+
+
+
+
+                         Practice Exam - Answers | 11
+67.
+
+ITEM ID: SPRV_E_000419
+
+KEY: A
+
+
+
+68.
+
+ITEM ID: SPRV_E_000420
+
+KEY: B
+
+
+
+69.
+
+ITEM ID: SPRV_E_000260
+
+KEY: D
+
+
+
+70.
+
+ITEM ID: SPRV_E_000263
+
+KEY: A
+
+
+
+71.
+
+ITEM ID: SPRV_E_000270
+
+KEY: C
+
+
+
+72.
+
+ITEM ID: SPRV_E_000279
+
+KEY: C
+
+
+
+
+                         Practice Exam - Answers | 12
+73.
+
+ITEM ID: SPRV_E_000283
+
+KEY: C
+
+
+
+74.
+
+ITEM ID: SPRV_E_000286
+
+KEY: C
+
+
+
+75.
+
+ITEM ID: SPRV_E_000287
+
+KEY: C
+
+
+
+76.
+
+ITEM ID: SPRV_E_000291
+
+KEY: B
+
+
+
+77.
+
+ITEM ID: SPRV_E_000293
+
+KEY: B
+
+
+
+78.
+
+ITEM ID: SPRV_E_000296
+
+KEY: A
+
+
+
+
+                         Practice Exam - Answers | 13
+79.
+
+ITEM ID: SPRV_E_000541
+
+KEY: D
+
+
+
+80.
+
+ITEM ID: SPRV_E_000544
+
+KEY: B
+
+
+
+81.
+
+ITEM ID: SPRV_E_000547
+
+KEY: A
+
+
+
+82.
+
+ITEM ID: SPRV_E_000550
+
+KEY: D
+
+
+
+83.
+
+ITEM ID: SPRV_E_000553
+
+KEY: C
+
+
+
+84.
+
+ITEM ID: SPRV_E_000556
+
+KEY: D
+
+
+
+
+                         Practice Exam - Answers | 14
+85.
+
+ITEM ID: SPRV_E_000559
+
+KEY: D
+
+
+
+86.
+
+ITEM ID: SPRV_E_000482
+
+KEY: B
+
+
+
+87.
+
+ITEM ID: SPRV_E_000483
+
+KEY: D
+
+
+
+88.
+
+ITEM ID: SPRV_E_000484
+
+KEY: C
+
+
+
+89.
+
+ITEM ID: SPRV_E_000485
+
+KEY: D
+
+
+
+90.
+
+ITEM ID: SPRV_E_000486
+
+KEY: A
+
+
+
+
+                         Practice Exam - Answers | 15
+

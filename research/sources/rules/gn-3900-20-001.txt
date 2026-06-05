@@ -1,0 +1,368 @@
+ Alert:       For more information on the cybersecurity incident, please visit the cybersecurity incident page.                                                                   MORE INFO 
+
+
+
+
+                                                                                                                             Français         Questions/Complaints       Careers          
+
+
+
+
+  About CIRO       ODce of the Investor          Markets      Rules and Enforcement           For Firms       For Registered Individuals      Newsroom
+
+
+
+HOME
+  / NEWSROOM / PUBLICATIONS / ACCOUNT SUPERVISION GUIDANCE
+
+
+
+
+     Account Supervision Guidance
+
+                                                                                                                                     October 14, 2021
+     Executive Summary
+                                                                                                                                     GN-3900-20-001
+     E(ective Date: December 31, 2021
+                                                                                                                                     Type: Guidance Note
+     In this Guidance Note, we set out IIROC’s expectations for Dealer Member (Dealer)                                               Distribute internally to:
+     supervision of client account activity.                                                                                         Institutional, Legal and Compliance, Operations,
+                                                                                                                                     Research, Retail, Senior Management, Training
+     Registered Individuals1 are primarily responsible for compliance with business conduct                                          Rulebook connection: IIROC Rules
+     requirements. However, Rule 3900 requires Dealer supervision of account activity to ensure
+     compliance with IIROC requirements, securities laws and other applicable laws. The
+     standards in Rule 3900 provide Supervisors with guidelines to monitor the handling of these                                     Contact
+     responsibilities by Registered Individuals.
+                                                                                                                                     Member Regulation Policy
+     Dealers’ supervisory structures should include policies and procedures that address                                             memberpolicymailbox@ciro.ca
+     screening of trading activity to detect issues for further enquiry or investigation. A Dealer is
+     not required to enquire into or investigate every trade that meets the criteria in Rule 3900 or
+     this Guidance, but should exercise reasonable judgment in selecting items for further
+     investigation.
+
+     This Guidance focuses on the requirements in Rule 3900 of the IIROC Rules2 - Supervision.
+     Guidance on IIROC’s Universal Market Integrity Rules’ (UMIR) trading supervision
+     requirements can be found in Notice 17-0190.
+
+     Related Projects
+
+     In IIROC’s Three Year Strategic Plan and Priorities for Fiscal 20203, we discuss modernizing
+     our approach to supervision. Generally, our supervisory requirements are technology neutral
+     and we support Dealers using automation to assist them with supervisory tasks. It is
+     reasonable to think that as Dealers’ technological capabilities improve, they will be able to
+     supervise accounts on a more comprehensive basis. However, we have received requests
+     from industry participants for more clarity about how our rules are to be applied to evolving
+     business models and processes (e.g. the use of algorithm logic). Consequently, we are
+     working on a number of separate projects to modernize our approach to supervision and
+     provide the clarity industry is seeking. This work will result in, among other things, new
+     guidance and updates to this Guidance. In the meantime, we encourage you to contact us if
+     you have any questions relating to this topic.
+
+
+
+        1      In this guidance, “Registered Individual” refers to Registered Representatives, Investment
+               Representatives, Portfolio Managers and Associate Portfolio Managers.
+
+        2      In this guidance, all rule references are to the IIROC Rules unless otherwise speciﬁed.
+
+        3      See IIROC Notice 19-0099 – IIROC’S Three Year Strategic Plan and Priorities for Fiscal 2020
+
+
+
+
+     Table of contents
+
+     — Supervisory structure
+     — General considerations
+     — Considerations when appointing Supervisors
+     — Considerations speciﬁc to retail business outside head oDce
+     — Retail account activity supervision policies and procedures
+     — First-tier reviews
+     — Daily reviews
+     — Monthly reviews
+     — Second-tier reviews
+     — Daily reviews
+     — Monthly reviews
+
+
+
+
+     1. Supervision of client accounts
+     Part B of Rule 3900 sets out the general requirement for Dealers to establish and maintain
+     written policies and procedures for supervising accounts, which includes its supervision
+     standards and account activity review steps. Parts C through G of Rule 3900 contain more
+     speciﬁc supervision requirements for dicerent account types4. For example, Part C contains
+     the requirements for supervision of retail client accounts, and Part G contains those for
+     managed and discretionary accounts.
+
+
+
+
+     1.1 Supervisory structure
+
+     1.1.1 General considerations
+            An ecective supervisory structure considers the Dealer’s business model, which
+            includes the following factors:
+                  types of products traded and securities ocered,
+                  type of trading the Dealer and its Registered Individuals engage in,
+                  location of the Dealer’s Supervisory personnel and its Registered Individuals, and
+                  the dicerent functions their Supervisors may be responsible for.
+
+            The Dealer’s supervisory system should enable Supervisors to properly fulﬁll their
+            functions.
+
+            Supervisors should have access to the information necessary to properly conduct their
+            supervision. To review client accounts, this includes readily accessible client and
+            account activity information, including:
+                 receipts,
+                  deposits,
+                  withdrawals, and
+                  journal entries.
+
+            Supervisors should have the authority to take ecective and timely remedial action
+            when they detect activity that falls or appears to fall outside the bounds of proper
+            conduct, just and equitable principles of trade or good business practice. We consider
+            escalating to a more senior Supervisor or Executive an acceptable action.
+
+
+
+     1.1.2 Considerations when appointing Supervisors
+     When appointing Supervisors, Dealers should consider the following:
+
+     Supervisors must be qualiﬁed to supervise trading activity in all products traded by those
+     under their supervision.5 If a Supervisor is unqualiﬁed to supervise trading activity in certain
+     products by those under their supervision, a Dealer may divide the supervision between two
+     or more Supervisors, provided:
+          there are appropriate mechanisms for them to communicate with one another,
+            the system ensures the Dealer maintains an overall view of the client’s situation and
+            activity, and
+            the assignment of responsibilities is clear and complete.
+
+            Dealers can also appointment a primary Supervisor that other Supervisor(s) advise on
+            the activity the primary Supervisor is unqualiﬁed to supervise.
+
+     Dealers must provide back-up during Supervisors’ absences.6 For any prolonged Supervisor
+     absences, the back-up Supervisor(s) should be aware of any speciﬁc ongoing issues they
+     need to monitor.
+
+     Dealers should ensure that where a Supervisors is dually-registered and also advises or
+     trades for their own clients, another Supervisor reviews that Supervisor’s advice to and
+     trades for clients.
+
+
+
+     1.1.3 Considerations speciﬁc to retail business
+     outside head oSce
+     Dealers conducting retail business outside their head oDce should consider the following:
+
+            Resident Supervisors7 are best positioned to know the Registered Individuals in their
+            oDce, meet clients, understand local conditions and needs, facilitate timely approval
+            of new accounts and respond immediately to issues. However, Dealers can determine
+            the necessity of a resident Supervisor based on:
+
+            the number of Registered Individuals in the location,
+                 Registered Individuals’ experience in the location,
+                  the business conducted in the location,
+                  Supervisor availability in nearby locations, and
+                  other systems and controls mitigating remote supervision risk.
+
+            Business locations without Resident Supervisors should have an assigned outside
+            Supervisor. The outside Supervisor should visit the location periodically to review
+            business conduct and compliance with applicable laws. Dealers’ policies and
+            procedures should speciﬁcally address these outside Supervisor visits.
+
+
+
+
+     1.2 Retail account activity supervision
+     policies and procedures
+     The following should be considered when developing policies and procedures addressing the
+     supervision of retail client accounts, as required by Part C of Rule 3900:
+
+            Dealers may conduct their reviews on a pre-trade or post-trade basis. A robust pre-
+            trade review process may lessen or remove the need for post-trade reviews.
+
+            Review procedures should cover all retail account types. For example, a Dealer who
+            ocers commission and fee-based accounts cannot select accounts for review solely
+            based on commission levels, they should also have a procedure for selecting fee-
+            based accounts.
+
+            Patterns of activity may not be apparent by reviewing single trades. If a Dealer
+            reviews trades over a longer period, they may detect issues with the overall account
+            activity even if each trade is suitable for the client.
+
+            Dealers should review non-trade issues such as late payment, margin problems, trade
+            cancellations or suspicious transfers and ﬂows of funds or securities.
+
+            Dealers may use a risk-based approach to select the activity for post-trade review,
+            provided the reviewer has all relevant information they need to assess the risk. They
+            can also use this approach to determine the review period. A Dealer may determine
+            some clients present a higher risk of improper market activity, such as those who
+            have access to material non-public information about issuers, holders of control
+            blocks of public issuers and market professionals.
+
+            Dealers should include employee and agent account activity in their review.
+
+            Dealers should review accounts on a timely basis. Their timing should be designed to
+            identify matters requiring attention as quickly as possible.
+
+            During a review, Supervisors should have access to and consider information about
+            clients that may present a higher risk of improper market activity.
+
+            Dealers can use technology to select speciﬁc activity for review.
+
+
+
+     2. Two-tier reviews
+     Based on their business model, Dealers may choose to use a two-tiered trade review system
+     as described in this Guidance. We traditionally considered a two-tier system of post-trade
+     activity review acceptable for Dealers with multiple business locations conducting retail
+     account activity. However, other supervisory systems can be used based on the Dealer’s
+     business model provided they meet our daily and monthly trade supervision requirements8.
+     We invite any Dealer considering a dicerent supervisory system to speak with us.
+
+
+
+
+     2.1 First-tier reviews
+     Resident Supervisors will normally conduct the ﬁrst-tier review at their respective business
+     location. Dealers can conduct these reviews in a central location (head oDce or regional
+     oDce) provided:
+
+            there are resources available to conduct the review at that location, and
+            the Dealer has adequate procedures for dealing with any issues identiﬁed.
+
+
+
+     2.1.1 Daily reviews
+     Dealers should design their ﬁrst-tier daily review of the previous day's trading to detect the
+     issues in section 3945. They should complete this review one business day after the trading
+     activity occurs, unless precluded by unusual circumstances.
+
+
+
+     2.1.2 Monthly reviews
+     A ﬁrst-tier monthly review should cover the same areas as daily activity reviews. Dealers
+     may not be able to review every retail account statement produced. A ﬁrst-tier monthly
+     review starts with the selection of retail client accounts. Dealers should design this selection
+     to detect improper account activity. For example, a Dealer could review the activity of all
+     clients charged gross commissions of $1,500 or more for that month.
+
+     A ﬁrst-tier monthly review should include all non-client accounts with any activity other
+     than dividend and interest payments.
+
+     Dealers should complete this review within 21 days of the review period, unless precluded
+     by unusual circumstances.
+
+
+
+
+     2.2 Second-tier reviews
+     While a Dealer’s head oDce will normally conduct the second-tier review, a regional oDce
+     could also conduct it. Second-tier supervision has a dicerent purpose and is generally not
+     at the same depth as ﬁrst-tier supervision. Dealers should design their second-tier
+     supervision to:
+
+            ensure no serious account issues were missed by ﬁrst-tier supervision, and
+            ensure ﬁrst-tier supervision is conducted adequately.
+
+     Where the second-tier reviews are conducted by personnel who do not have the authority to
+     resolve the issues they identify, the Dealer should have procedures for referring these issues
+     to a Supervisor who has the appropriate authority.
+
+
+
+     2.2.1 Daily reviews
+     Dealers should include criteria for trading activity subject to second-tier daily reviews in
+     their policies and procedures. For example, the following criteria would satisfy Rule 3900:
+
+            stock trades with a value over $5,000 and a price under $5.00 per share,
+            stock trades with value over $20,000 and a price at or over $5.00 per share,
+            bond trades over $100,000 value per trade,
+            non-client trading,
+            producing branch managers’ client accounts,
+            all client accounts not reviewed by a branch manager,
+            trade cancellations,
+            restricted account trading,
+            suspense account trading,
+            account number changes,
+            late payments, and
+            outstanding margin calls.
+
+     Dealers should complete this review one business day after the activity occurs, unless
+     precluded by unusual circumstances.
+
+
+
+     2.2.2 Monthly reviews
+     Dealers should select accounts for second-tier review based on criteria in their policies and
+     procedures. For example, the following review criteria would satisfy Rule 3900:
+
+            accounts of clients charged more than $3,000 in commission during the month, and
+            accounts of all clients and non-clients charged more than $1,500 in commissions
+            during the month not subject to a ﬁrst-tier level review, including producing ﬁrst level
+            Supervisors’ client accounts.
+
+     Dealers should complete this review within 21 days of the review period, unless precluded
+     by unusual circumstances.
+
+
+
+     3. Other activity
+     Dealers must have policies and procedures that address identifying, dealing with and
+     keeping ﬁrst level Supervisors informed about other client related matters such as:
+
+            client complaints,
+            cash account violations,
+            transfers of funds and securities between unrelated accounts or between non-client
+            and client accounts or deposits from non-client to client accounts, and
+            trading while under-margined.9
+
+
+
+     4. Applicable rules
+     IIROC Rules this Guidance Note relates to:
+
+            Rule 3900.
+
+
+
+     5. Related notices
+     This Guidance relates to:
+
+            Notice 19-0201 – AML Compliance Guidance.
+
+     This Guidance Note was published under Notice 20-0007 – Notice of
+     Approval/Implementation – Guidance Review Project – Group 1.
+
+
+
+
+        4      Part C – Supervision of retail client accounts, Part D – Supervision of institutional client
+               accounts, Part E – Supervision of order execution only accounts, Part F - Supervision of
+               options, futures contracts and futures contract options trading accounts and Part G -
+               Supervision of discretionary accounts and managed accounts.
+
+        5      See subsections 2602(2) and 3905(5).
+
+        6      See subsection 3925(4).
+
+        7      “Resident Supervisors” are Supervisors who work in a speciﬁc Dealer branch oDce.
+
+        8      See subsection 3945(1).
+
+        9      See subsection 3946(1).
+
+
+
+
+                                                                               Other CIRO sites:
+                                                                               Corporate and Government Debt         CIRO Services
+                                                                               Trade Information
+                                                                               Members Only Website                  Notice of Basis Order                                            
+
+
+
+
+Website Terms of Use     Privacy   Accessibility (PDF)   Contact Us
+

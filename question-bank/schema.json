@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CIRO Supervisor Exam practice question",
+  "description": "Schema for question-bank items. Mirrors the official exam: 4-option MCQ, standard or item-set, tagged to syllabus element/outcome and taxonomy level.",
+  "type": "object",
+  "required": ["id", "element", "outcome", "taxonomy", "type", "stem", "options", "answer", "rationale"],
+  "properties": {
+    "id": {"type": "string", "description": "Unique ID, e.g. SUP-E4-0007"},
+    "element": {"type": "integer", "minimum": 1, "maximum": 9, "description": "Syllabus element 1-9"},
+    "outcome": {"type": "string", "description": "Learning outcome ID from syllabus.json, e.g. '4.19'"},
+    "taxonomy": {"type": "string", "enum": ["Remember", "Understand", "Apply", "Analyze"]},
+    "type": {"type": "string", "enum": ["standard", "item_set"], "description": "Real exam: 60 standard + 30 item-set of 90"},
+    "item_set_id": {"type": ["string", "null"], "description": "Groups item_set questions sharing one scenario"},
+    "scenario": {"type": ["string", "null"], "description": "Shared scenario text (item_set only; store once per set or denormalized)"},
+    "stem": {"type": "string"},
+    "options": {
+      "type": "object",
+      "required": ["A", "B", "C", "D"],
+      "properties": {"A": {"type": "string"}, "B": {"type": "string"}, "C": {"type": "string"}, "D": {"type": "string"}}
+    },
+    "answer": {"type": "string", "enum": ["A", "B", "C", "D"]},
+    "rationale": {"type": "string", "description": "Why the answer is correct and distractors wrong"},
+    "rule_refs": {"type": "array", "items": {"type": "string"}, "description": "e.g. ['IDPC 3900', 'UMIR 7.1', 'GN-3900-20-001']"},
+    "difficulty": {"type": "string", "enum": ["easy", "medium", "hard"]},
+    "status": {"type": "string", "enum": ["draft", "reviewed", "published"], "default": "draft"}
+  }
+}

@@ -1,0 +1,1341 @@
+{
+  "meta": {
+    "batch": "E7-001",
+    "drafted": 50,
+    "date": "2026-06-04",
+    "corpus": [
+      "research/sources/rules/umir.txt (ANNOTATED UMIR, January 13, 2026)",
+      "research/sources/rules/idpc-rules.txt (IDPC Rules)",
+      "research/sources/syllabus-raw.txt (Element 7 verbatim parameters)"
+    ],
+    "qa": "Gate 1 blind solve 2026-06-04: 50/50 agreement. Gate 2: 50/50 quotes verified. Gate 3 lint clean. See qa-log.md."
+  },
+  "questions": [
+    {
+      "id": "SUP-E7-0004",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A trader at Lakeview Securities, a CIRO Participant, enters an order on a marketplace on behalf of Birchwood Capital, another Participant that does not have its own access to that marketplace. Under UMIR definitions, the order Lakeview enters is best described as a:",
+      "options": {
+        "A": "Bundled order, because it combines the interests of two dealers",
+        "B": "Jitney order, because it is entered by a Participant acting for or on behalf of another Participant",
+        "C": "Bypass order, because it bypasses Birchwood's own systems",
+        "D": "Multiple client order, because more than one firm is involved"
+      },
+      "answer": "B",
+      "rationale": "UMIR 1.1 defines a jitney order as an order entered on a marketplace by a Participant acting for or on behalf of another Participant — exactly this fact pattern. A bundled order (A) combines a client order with a non-client or principal order, not two dealers' access arrangements. A bypass order (C) relates to designated trades executing against disclosed volume. A multiple client order (D) combines orders from more than one client, not orders routed for another Participant.",
+      "source_quote": "“jitney order” means an order entered on a marketplace by a Participant acting for or on behalf of another Participant.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 1215,
+      "rule_refs": [
+        "UMIR 1.1 \"jitney order\""
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0005",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retail client of Dorset Investments instructs her advisor to sell 500 shares but only if she can receive at least $14.25 per share. Under UMIR definitions, this instruction creates a:",
+      "options": {
+        "A": "Market order, since the client wants the sale executed",
+        "B": "Special Terms Order, since a condition is attached",
+        "C": "Limit order, since the sale is to be executed at a specified minimum price",
+        "D": "Closing Price Order, since the client has set the price"
+      },
+      "answer": "C",
+      "rationale": "UMIR 1.1 defines a limit order to include an order to sell a security to be executed at a specified minimum price — the $14.25 floor. A market order (A) executes upon entry at the best bid with no price condition. A price condition does not make an order a Special Terms Order (B); the Special Terms Order definition expressly excludes conditions as to price. A Closing Price Order (D) trades at the marketplace's closing sale price, not at a client-specified minimum.",
+      "source_quote": "“limit order” means an order to: (a)     buy a security or derivative to be executed at a specified maximum price; or (b)     sell a security or derivative to be executed at a specified minimum price.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 1306,
+      "rule_refs": [
+        "UMIR 1.1 \"limit order\""
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0006",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A pension fund client of Trillium Securities wants its purchase of an illiquid listed security to execute at the closing price established for the day, with the order entered during the trading day for the purpose of calculating and executing at that closing price. Under UMIR definitions this is a:",
+      "options": {
+        "A": "Closing Price Order, because it references the close",
+        "B": "Volume-Weighted Average Price Order",
+        "C": "Market-on-Close Order",
+        "D": "Last-sale-price order"
+      },
+      "answer": "C",
+      "rationale": "UMIR 1.1 defines a Market-on-Close Order as an order entered on a marketplace on a trading day for the purpose of calculating and executing at the closing price of the security on that marketplace on that trading day — it participates in setting the close. A Closing Price Order (A) is the closest distractor, but it trades at the already-established closing price and is executed subsequent to the establishment of the closing price; it does not participate in calculating it. A VWAP order (B) executes at an average price over the day. \"Last sale price\" (D) is a defined price concept in UMIR 1.1, not an order type entered to set the close.",
+      "source_quote": "“Market-on-Close Order” means an order for the purchase or sale of a security entered on a marketplace on a trading day for the purpose of calculating and executing at the closing price of the security on that marketplace on that trading day.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 1364,
+      "rule_refs": [
+        "UMIR 1.1 \"Market-on-Close Order\"",
+        "UMIR 1.1 \"Closing Price Order\""
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0007",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An institutional client asks Northgate Securities to work an order over the day so it executes at an average price of the security traded that day on a known combination of marketplaces. Under UMIR definitions, the order entered for this purpose is a:",
+      "options": {
+        "A": "Basis Order",
+        "B": "Call Market Order",
+        "C": "Special Terms Order",
+        "D": "Volume-Weighted Average Price Order"
+      },
+      "answer": "D",
+      "rationale": "UMIR 1.1 defines a Volume-Weighted Average Price Order as an order entered on a marketplace on a trading day for the purpose of executing trades at an average price of the security traded on that trading day. A Basis Order (A) prices off executions in a related derivative or Exempt Exchange-traded Fund, not an average of the security's own trades. A Call Market Order (B) trades at particular times established by the marketplace. A Special Terms Order (C) is defined by odd-lot size, non-price conditions or unusual settlement, and its definition expressly excludes a VWAP order.",
+      "source_quote": "“Volume-Weighted Average Price Order” means an order for the purchase or sale of a security entered on a marketplace on a trading day for the purpose of executing trades at an average price of the security traded on that trading day on that marketplace",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 2390,
+      "rule_refs": [
+        "UMIR 1.1 \"Volume-Weighted Average Price Order\""
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0008",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The arbitrage desk at Helix Capital wants to enter a Basis Order to buy a basket of listed securities priced off the day's executions in an index derivative. Before entering the order, what does the UMIR definition of \"Basis Order\" require the Participant to do?",
+      "options": {
+        "A": "Obtain the written consent of every client holding the component securities",
+        "B": "Report to a Market Regulator its intention to enter the order and the details of the related transactions, in the form and manner required by the Market Regulator",
+        "C": "Display the full size of the order in a consolidated market display",
+        "D": "Confirm the order qualifies as a Program Trade with the Exchange"
+      },
+      "answer": "B",
+      "rationale": "The UMIR 1.1 definition of Basis Order applies only provided that prior to the entry of the order the Participant or Access Person reports to a Market Regulator its intention to enter the order and the details of the related transactions. Client consent (A) is not an element of the definition. Display (C) is not required — a Basis Order is among the exclusions from the Dark Order definition precisely because of its special pricing. A Program Trade (D) is a separate defined term and not a precondition.",
+      "source_quote": "provided that prior to the entry of the order the Participant or Access Person reports to a Market Regulator its intention to enter the order and the details of the related transactions, in the form and manner required by the Market Regulator.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 199,
+      "rule_refs": [
+        "UMIR 1.1 \"Basis Order\""
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0009",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under the UMIR 1.1 definition, an \"Opening Order\" ceases to be an Opening Order if:",
+      "options": {
+        "A": "It is for more than 50 standard trading units",
+        "B": "The order does not trade at the opening of trading of that security on that marketplace on that trading day",
+        "C": "It is entered by an institutional client",
+        "D": "The security also trades on another marketplace"
+      },
+      "answer": "B",
+      "rationale": "UMIR 1.1 defines an Opening Order as one entered prior to the opening for the purpose of calculating and executing at the opening price, provided an order shall cease to be an Opening Order if the order does not trade at the opening of trading of that security on that marketplace on that trading day. Order size (A), client type (C) and multi-marketplace listing (D) have no bearing on the definition's sunset condition.",
+      "source_quote": "provided an order shall cease to be an Opening Order if the order does not trade at the opening of trading of that security on that marketplace on that trading day.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 1636,
+      "rule_refs": [
+        "UMIR 1.1 \"Opening Order\""
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0010",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retail client of Pembroke Securities tells his Registered Representative: \"You can always trade ahead of me — consider this permanent permission for all my future orders.\" Under Policy 5.3, how should the firm treat this consent?",
+      "options": {
+        "A": "It is invalid — consent must be specific to a particular order and noted on the order ticket; a client cannot give a blanket consent for future orders",
+        "B": "It is valid if confirmed in writing and renewed annually",
+        "C": "It is valid for orders of 50 standard trading units or less only",
+        "D": "It is valid provided the head of trading countersigns it"
+      },
+      "answer": "A",
+      "rationale": "Policy 5.3 Part 4 requires that the consent of the client must be specific to a particular order with details noted on the order ticket, and states that a client cannot give a blanket form of consent to permit the Participant to trade alongside or ahead of any future orders. Annual written renewal (B) does not cure a blanket consent. The 50-standard-trading-unit threshold (C) belongs to Rule 8.1 client-principal trading, not client priority consent. Head-of-trading countersignature (D) has no role in the client priority consent regime.",
+      "source_quote": "A client cannot give a blanket form of consent to permit the Participant to trade alongside or ahead of any future orders the client may give the Participant.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 5190,
+      "rule_refs": [
+        "UMIR 5.3(2)(a)",
+        "UMIR Policy 5.3 Part 4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0011",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "After a trade executes on a marketplace, the buying and selling Participants discover the settlement date was entered incorrectly and agree to correct it before settlement. Under UMIR 7.11, the variation of the trade may be made by the marketplace at the request of a party:",
+      "options": {
+        "A": "With the consent of each Participant and Access Person that is a party to the trade, and with notice to the Market Regulator immediately following the variation",
+        "B": "Without any notice, since both parties agree",
+        "C": "Only if the trade is first cancelled and re-executed at the original price",
+        "D": "Only with the prior written approval of the clearing agency's board"
+      },
+      "answer": "A",
+      "rationale": "UMIR 7.11 prohibits post-execution cancellation, variation or correction as to price, volume or settlement date except, among other routes, with notice to the Market Regulator immediately following the variation where, prior to settlement, the marketplace acts at the request of a party with the consent of each Participant and Access Person that is a party. Mutual agreement alone without notice (B) does not satisfy the rule. Cancel-and-re-execute (C) is not the prescribed mechanism. Clearing agency board approval (D) is not required; the clearing agency is simply an alternative channel for pre-settlement changes.",
+      "source_quote": "the marketplace on which the trade was executed at the request of a party to the trade and with the consent of each Participant and Access Person that is a party to the trade, or",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 8738,
+      "rule_refs": [
+        "UMIR 7.11"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0012",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under UMIR 4.1, a Participant with knowledge of a client order that on entry could reasonably be expected to affect the market price of a security is prohibited, prior to entry of that client order, from doing all of the following EXCEPT:",
+      "options": {
+        "A": "Entering a principal order for the security on a foreign organized regulated market",
+        "B": "Soliciting an order from another person for a related derivative",
+        "C": "Informing another person of the client order other than in the necessary course of business",
+        "D": "Entering an order for an arbitrage account"
+      },
+      "answer": "D",
+      "rationale": "UMIR 4.1(2)(f) provides that a Participant does not contravene the frontrunning prohibition if the order is entered for an arbitrage account. Each of the other choices is squarely caught: 4.1(1)(a) covers principal or non-client orders on a marketplace, foreign organized regulated market or other market; 4.1(1)(b) covers soliciting orders for the security or any related derivative; and 4.1(1)(c) covers informing any other person other than in the necessary course of business.",
+      "source_quote": "(f)     the order is entered for an arbitrage account.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 4642,
+      "rule_refs": [
+        "UMIR 4.1(1)",
+        "UMIR 4.1(2)(f)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0013",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client of Penrose Securities mentions to her advisor that she is thinking about accumulating a large position in a particular small-cap security over the coming weeks but has not yet placed an order. The firm's proprietary desk then begins a pattern of trading in that security. Under UMIR 2.1(2), the proprietary trading is:",
+      "options": {
+        "A": "Permitted because no client order yet exists",
+        "B": "Prohibited — a Participant shall not make a pattern of trading in a particular security with knowledge of an expression of interest by a client in that security",
+        "C": "Permitted if each individual trade is below 50 standard trading units",
+        "D": "Prohibited only if the security is on the firm's restricted list"
+      },
+      "answer": "B",
+      "rationale": "UMIR 2.1(2)(b) provides that a Participant shall not make a pattern of trading in a particular security with knowledge of an expression of interest by a client in that particular security — the prohibition does not require an entered or even a placed client order, so (A) fails even though Rule 4.1 frontrunning would. Trade size (C) is irrelevant to the prohibition. Restricted-list status (D) engages Rule 7.7, a separate regime.",
+      "source_quote": "make a pattern of trading in a particular security with knowledge of an expression of interest by a client in that particular security; or",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 2883,
+      "rule_refs": [
+        "UMIR 2.1(2)(b)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0014",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under IDPC Rule 3247, before opening a margin account for a client, a Dealer Member must:",
+      "options": {
+        "A": "Obtain approval from the Corporation for the credit limit",
+        "B": "Require the client to maintain a minimum equity of $25,000",
+        "C": "Restrict the account to liquidating trades for the first 30 days",
+        "D": "Deliver a margin account agreement to the client and obtain a copy of the agreement signed by the client"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3247(1) requires that prior to opening a margin account the Dealer Member deliver a margin account agreement to the client and obtain a copy of the margin account agreement signed by the client. Corporation approval of individual credit limits (A) is not required; margin is governed by prescribed Corporation margin rates. A $25,000 minimum equity (B) is not an IDPC requirement for margin accounts. Restricting to liquidating trades (C) is the remedy under IDPC 3214(5) when a designated Supervisor does not approve a new account, not a standard opening step.",
+      "source_quote": "Prior to opening a margin account, a Dealer Member must: (i) deliver a margin account agreement to the client, and (ii) obtain a copy of the margin account agreement signed by the client.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7125,
+      "rule_refs": [
+        "IDPC 3247"
+      ],
+      "difficulty": "easy",
+      "status": "killed",
+      "qa_note": "Killed 2026-06-04 at Gate 3: near-duplicate of SUP-E4-0025 (same IDPC 3247 fact, same keyed answer). Cross-element collision from parallel drafting; E4 version retained (4.7 is the core outcome for margin agreements)."
+    },
+    {
+      "id": "SUP-E7-0015",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under IDPC Rule 5113, if the total loan value in a client margin account results in a net negative loan value, what is required for the account to be in good standing?",
+      "options": {
+        "A": "The cash balance in the margin account must be a credit equal to or larger than the net negative loan value",
+        "B": "The client must convert the account to a cash account",
+        "C": "The Dealer Member must liquidate all short positions within one business day",
+        "D": "The account must hold only securities with a margin rate of 50% or less"
+      },
+      "answer": "A",
+      "rationale": "IDPC 5113(4)(iii) provides that where the total loan value is a net negative loan value, the cash balance in the margin account must be a credit equal to or larger than the net negative loan value for the account to be in good standing. Conversion to a cash account (B) is not the prescribed remedy. Forced liquidation within one day (C) is not mandated by 5113 — if the client fails to deposit required margin, subsection 5111(2) requires the Dealer Member to provide margin against the shortfall. A cap on margin rates of holdings (D) is not part of the good-standing test.",
+      "source_quote": "If the total loan value in a client account results in a net negative loan value, the cash balance in the margin account must be a credit equal to or larger than the net negative loan value for the account to be in good standing.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 12078,
+      "rule_refs": [
+        "IDPC 5113(4)",
+        "IDPC 5111(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0016",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A long-time client of Brockton Securities is going on a six-month sailing trip and asks that her Registered Representative be given written authority to trade her account in her absence; the firm did not solicit the arrangement. Under IDPC Rule 3274, the discretionary account agreement must:",
+      "options": {
+        "A": "Be renewable annually for as long as the client remains away",
+        "B": "Have a maximum term of no longer than 12 months and not be renewable",
+        "C": "Have no fixed term provided it is reviewed quarterly",
+        "D": "Have a maximum term of 24 months with one permitted renewal"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3274(1) requires that a discretionary account agreement have a maximum term of no longer than 12 months and not be renewable. Annual renewability (A) directly contradicts the non-renewal requirement and is the closest distractor because many client agreements do renew annually. Quarterly review with no fixed term (C) and a 24-month term with one renewal (D) both exceed what the rule permits.",
+      "source_quote": "(iii)   have a maximum term of no longer than 12 months, (iv)    not be renewable, and",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 5373,
+      "rule_refs": [
+        "IDPC 3274(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0017",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The trading desk at Selwyn Securities receives a branch order to sell a security at $3 when the stock is trading at $20. Under Policy 6.3, the desk's appropriate action before entering the order is to:",
+      "options": {
+        "A": "Enter the order immediately as received, since order exposure is mandatory",
+        "B": "Convert the order to a market order to protect the client",
+        "C": "Cancel the order without contacting the branch",
+        "D": "Withhold entry and return the order to the branch for confirmation of its terms, since it is likely that either the price or the stock symbol is wrong"
+      },
+      "answer": "D",
+      "rationale": "Policy 6.3 Part 2 gives precisely this example: a Participant who receives an order to sell a security at $3 in a stock trading at $20 may return the order to the branch, as it is likely that either the price or the stock symbol is wrong; Rule 6.3(1)(c) permits withholding to return the order for confirmation of its terms. Immediate entry (A) ignores the available exception and risks executing an erroneous order. Converting to a market order (B) alters the client's instruction without authority. Cancelling without inquiry (C) abandons the order instead of confirming its terms.",
+      "source_quote": "For example, a Participant who receives an order to sell a security at $3 in a stock trading at $20 may return the order to the branch, as it is likely that either the price or the stock symbol is wrong.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 5959,
+      "rule_refs": [
+        "UMIR 6.3(1)(c)",
+        "UMIR Policy 6.3 Part 2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0018",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Registered Representative at Coral Securities determines, based on market conditions, that immediately entering a retail client's order for 40 standard trading units would not be in the client's best interests and withholds it under UMIR 6.3(1)(e). If the firm later executes the client order against a principal order, the client must receive:",
+      "options": {
+        "A": "A better price than the price the client would have received if the client order had been executed on receipt by the Participant",
+        "B": "The same price the client would have received on receipt",
+        "C": "The volume-weighted average price for the day",
+        "D": "The closing price for the day"
+      },
+      "answer": "A",
+      "rationale": "UMIR 6.3(2)(b) requires that if the Participant executes the withheld client order against a principal order or non-client order, the client must receive a better price than the price the client would have received if the order had been executed on receipt. The same price (B) is the guarantee that applies under 6.3(2)(a) when the order is not executed against principal or non-client interests — it is the closest distractor but is insufficient where the firm is on the other side. VWAP (C) and the closing price (D) are unrelated benchmarks.",
+      "source_quote": "if the Participant executes the client order against a principal order or non- client order, a better price than the price the client would have received if the client order had been executed on receipt by the Participant.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 5937,
+      "rule_refs": [
+        "UMIR 6.3(1)(e)",
+        "UMIR 6.3(2)(b)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0019",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A new retail client of Tamarack Investments places an initial trade before the designated Supervisor has reviewed the account. The Supervisor subsequently declines to approve the account. Under IDPC Rule 3214, the Dealer Member must:",
+      "options": {
+        "A": "Reverse the initial trade and refund all commissions",
+        "B": "Restrict the account to only liquidating trades, transfers out, paying out funds or delivering securities to the client until final approval is provided",
+        "C": "Continue normal trading while the dispute is escalated to the Corporation",
+        "D": "Transfer the account to another Registered Representative for fresh approval"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3214(5) provides that if a designated Supervisor does not approve a new account after the initial trade, the Dealer Member must restrict the account to only liquidating trades, transfers out, paying out funds or delivering securities to the client, with restrictions remaining until the designated Supervisor has provided final approval. Reversing the trade (A) is not the prescribed remedy. Continuing normal trading (C) defeats the restriction. Moving the account to another RR (D) does not address the missing supervisory approval.",
+      "source_quote": "Member must restrict the account to only liquidating trades, transfers out, paying out funds or delivering securities to the client. These account restrictions must remain in place until the designated Supervisor has provided final approval of the account.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 4649,
+      "rule_refs": [
+        "IDPC 3214(5)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0020",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client of Fairmile Securities instructs his Registered Representative to buy 1,000 shares of a specific issuer \"sometime today at whatever price looks good.\" The account is an ordinary advisory account, not a discretionary or managed account. Under IDPC Rule 3221, the Registered Representative:",
+      "options": {
+        "A": "Must refuse the order entirely because any element of discretion is prohibited",
+        "B": "May exercise full discretion because the client initiated the instruction",
+        "C": "May exercise time and price discretion in fulfilling the Dealer Member's best execution obligation relating to a client order for a specific amount of a specific security",
+        "D": "Must obtain a power of attorney before accepting the order"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3221(1) prohibits discretionary trading, including time and price discretion, outside a discretionary or managed account — but 3221(2) provides that this does not apply to time and price discretion exercised in fulfilling the Dealer Member's best execution obligation relating to a client order for a specific amount or a specific security. Here the client fixed the amount and security. Refusing the order (A) ignores the 3221(2) carve-out. Full discretion (B) would extend beyond time and price to security and quantity, which only a discretionary or managed account permits. A power of attorney (D) is not required for time and price discretion within the carve-out.",
+      "source_quote": "Subsection 3221(1) does not apply to time and price discretion exercised in fulfilling the Dealer Member’s best execution obligation relating to a client order for a specific amount or a specific security.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 4921,
+      "rule_refs": [
+        "IDPC 3221"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0021",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under UMIR 7.1(3), each Participant must appoint:",
+      "options": {
+        "A": "A Chief Risk Officer responsible for marketplace technology",
+        "B": "An independent monitor reporting to the Market Regulator",
+        "C": "A head of trading who shall be responsible to supervise the trading activities of the Participant in a marketplace",
+        "D": "A trading ombudsperson to resolve client execution complaints"
+      },
+      "answer": "C",
+      "rationale": "UMIR 7.1(3) requires that each Participant appoint a head of trading who shall be responsible to supervise the trading activities of the Participant in a marketplace. A Chief Risk Officer (A) and an independent monitor (B) are not UMIR 7.1 appointments. An ombudsperson (D) addresses complaints, not the supervision of trading activities that 7.1(3) mandates.",
+      "source_quote": "Each Participant shall appoint a head of trading who shall be responsible to supervise the trading activities of the Participant in a marketplace.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6537,
+      "rule_refs": [
+        "UMIR 7.1(3)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0022",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 2, which statement correctly describes the required separation between supervision and compliance at a Participant?",
+      "options": {
+        "A": "The compliance function must be conducted by persons other than those who supervise the trading activity",
+        "B": "The head of trading must also serve as the chief compliance officer",
+        "C": "Compliance staff must report exclusively to the head of trading",
+        "D": "Supervision and compliance may be performed by the same person at firms with fewer than 10 traders"
+      },
+      "answer": "A",
+      "rationale": "Policy 7.1 Part 2, element 4, requires the Participant to designate individuals responsible for supervision and compliance and states that the compliance function must be conducted by persons other than those who supervise the trading activity. Combining the head of trading and CCO roles (B) or having compliance report exclusively to the head of trading (C) would defeat that separation. There is no small-firm exemption (D) in the Policy from this requirement.",
+      "source_quote": "Designate individuals responsible for supervision and compliance. The compliance function must be conducted by persons other than those who supervise the trading activity.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6750,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0023",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 2, how must a Participant document its trading supervision system?",
+      "options": {
+        "A": "In quarterly memoranda from the compliance department to the Market Regulator",
+        "B": "By preparing a written policies and procedures manual that must be accessible to all relevant employees and kept current",
+        "C": "Only through the written agreement with any third-party risk-control provider",
+        "D": "In the audited annual financial statements"
+      },
+      "answer": "B",
+      "rationale": "Policy 7.1 Part 2, element 2, requires the Participant to document the supervision system by preparing a written policies and procedures manual which must be accessible to all relevant employees and kept current (with an historical copy advised). Quarterly memoranda to the regulator (A) are not the documentation mechanism. Third-party agreements (C) cover the outsourcing of specific risk controls under Rule 7.1(7)-(8), not the supervision system itself. Financial statements (D) have nothing to do with the supervision manual.",
+      "source_quote": "Document the supervision system by preparing a written policies and procedures manual. The manual must be accessible to all relevant employees. The manual must be kept current and Participants are advised to maintain an historical copy.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6739,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0024",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 2, how often must a Participant review its trading supervision system to ensure it continues to be reasonably designed to prevent and detect violations of Requirements?",
+      "options": {
+        "A": "At least monthly",
+        "B": "At least quarterly",
+        "C": "At least annually, with more frequent reviews possibly required if past reviews have detected problems with supervision and compliance",
+        "D": "Only when the Market Regulator requests a review"
+      },
+      "answer": "C",
+      "rationale": "Policy 7.1 Part 2, element 7, requires review of the supervision system at least annually and notes that more frequent reviews may be required if past reviews have detected problems with supervision and compliance. Monthly (A) and quarterly (B) are review frequencies that apply to specific compliance tests (e.g., trade-through testing monthly; manipulative and deceptive sampling quarterly), not the system review. Waiting for a regulator request (D) ignores the affirmative annual obligation.",
+      "source_quote": "Review the supervision system at least annually to ensure it continues to be reasonably designed to prevent and detect violations of Requirements. More frequent reviews may be required if past reviews have detected problems with supervision and compliance.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6772,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0025",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 2, for how long must a Participant maintain the results of all compliance reviews of its trading supervision system?",
+      "options": {
+        "A": "At least two years",
+        "B": "At least five years",
+        "C": "At least seven years",
+        "D": "At least ten years"
+      },
+      "answer": "B",
+      "rationale": "Policy 7.1 Part 2, element 9, requires the Participant to maintain results of all reviews for at least five years. Seven years (C) is the closest distractor because it is the UMIR retention period for gatekeeper records under Rule 10.16(5) and for client withholding instructions under Policy 5.3 and Policy 6.3 — but the compliance review results requirement in Policy 7.1 is five years. Two years (A) is only the readily-accessible window for certain client consents, and ten years (D) appears nowhere in these provisions.",
+      "source_quote": "Maintain results of all reviews for at least five years.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6789,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0026",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 2, what must a Participant report to its board of directors regarding trading supervision, and how often?",
+      "options": {
+        "A": "Every gatekeeper report filed with the Market Regulator, monthly",
+        "B": "Each trader's order error rate, quarterly",
+        "C": "Detailed trade blotters, daily",
+        "D": "A summary of the compliance reviews conducted and the results of the supervision system review, at least annually — with the board advised immediately if significant issues are identified"
+      },
+      "answer": "D",
+      "rationale": "Policy 7.1 Part 2, element 10, requires reporting to the board of directors (or partners) a summary of the compliance reviews conducted and the results of the supervision system review at least annually, and requires the board to be advised immediately if the Market Regulator or the Participant identifies significant issues concerning the supervision system or compliance procedures. Individual gatekeeper reports (A), trader error rates (B) and daily blotters (C) are not the prescribed board reporting content or cadence.",
+      "source_quote": "Report to the board of directors of the Participant or, if applicable, the partners, a summary of the compliance reviews conducted and the results of the supervision system review. These reports must be made at least annually.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6790,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0027",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A desk Supervisor at Otterburn Securities skips several monthly reviews prescribed by the firm's trading supervision procedures; no trading violations occur during the period. Under Policy 7.1 Part 1, the Supervisor:",
+      "options": {
+        "A": "Has not breached any obligation because no underlying trading violation occurred",
+        "B": "Has breached Rule 10.16 by failing to file a gatekeeper report",
+        "C": "Will have failed to comply with their supervisory obligations under Rule 7.1(4), because a supervisor who has not followed the supervision procedures adopted by the Participant fails their supervisory obligations",
+        "D": "Is excused if the compliance department also reviews the same trading"
+      },
+      "answer": "C",
+      "rationale": "Policy 7.1 Part 1 states that if a supervisor has not followed the supervision procedures adopted by the Participant, the supervisor will have failed to comply with their supervisory obligations under Rule 7.1(4) — the failure is independent of whether a trading violation occurred, so (A) is wrong. Rule 10.16 (B) is triggered by awareness of potentially violative account activity, which is not this fact pattern. Compliance department monitoring (D) is a separate detection function; it does not substitute for the supervisor following the firm's procedures.",
+      "source_quote": "If a supervisor has not followed the supervision procedures adopted by the Participant, the supervisor will have failed to comply with their supervisory obligations under Rule 7.1(4).",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6656,
+      "rule_refs": [
+        "UMIR 7.1(4)",
+        "UMIR Policy 7.1 Part 1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0028",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 1, the Participant's obligation to supervise trading applies to an order entered on a marketplace:",
+      "options": {
+        "A": "Only when entered by a trader employed by the Participant",
+        "B": "Only when the order exceeds 50 standard trading units",
+        "C": "Whether entered by a trader employed by the Participant, by an employee through an order routing system, directly by a client and routed through the Participant's trading system, or by any other means",
+        "D": "Only when the order is for a retail client account"
+      },
+      "answer": "C",
+      "rationale": "Policy 7.1 Part 1 states the obligation to supervise applies whether the order is entered by a trader employed by the Participant, by an employee through an order routing system, directly by a client and routed to a marketplace through the trading system of the Participant, or by any other means — and that in performing trading supervision the Participant acts as a gatekeeper. Limiting supervision to staff-entered orders (A), large orders (B) or retail orders (D) all contradict the Policy's comprehensive scope.",
+      "source_quote": "directly by a client and routed to a marketplace through the trading system of the Participant, or •    by any other means.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6678,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 1",
+        "UMIR 7.1(4)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0029",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 3, a Participant's supervision system must at a minimum include the regular review of compliance with a list of marketplace trading provisions. Which of the following correctly pairs a provision with the rule the Policy cites for it?",
+      "options": {
+        "A": "Client Priority — Rule 8.1",
+        "B": "Frontrunning — Rule 4.1",
+        "C": "Order Exposure requirements — Rule 10.14",
+        "D": "Audit Trail requirements — Rule 6.3"
+      },
+      "answer": "B",
+      "rationale": "Policy 7.1 Part 3 lists Frontrunning (Rule 4.1). The other pairings are scrambled: Client Priority is Rule 5.3, while Rule 8.1 is Client/Principal Trading (A); Order Exposure requirements are Rule 6.3, while Rule 10.14 is time synchronization (C); and Audit Trail requirements are Rule 10.11, not Rule 6.3 (D).",
+      "source_quote": "Frontrunning (Rule 4.1) •    Client/Principal Trading (Rule 8.1) •    Client Priority (Rule 5.3)",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6827,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 3",
+        "UMIR 4.1",
+        "UMIR 5.3",
+        "UMIR 8.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0030",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 12, how often must a Participant review trading in securities on its Grey or Watch list and its Restricted list?",
+      "options": {
+        "A": "On a daily basis",
+        "B": "On a weekly basis",
+        "C": "On a quarterly basis",
+        "D": "On an annual basis"
+      },
+      "answer": "A",
+      "rationale": "Policy 7.1 Part 12 requires the Participant to maintain a supervision system to review securities about which it may have non-public information (Grey or Watch list) and securities subject to trading restrictions (Restricted list), and states that each Participant must review the trading described above on a daily basis. Quarterly (C) applies to manipulative-and-deceptive sampling, audit trail, trade confirmation and order-handling reviews — the heightened sensitivity of inside-information lists demands daily review. Weekly (B) and annual (D) frequencies are not prescribed for these lists.",
+      "source_quote": "Each Participant must review the trading described above on a daily basis.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 7146,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 12",
+        "UMIR 7.7"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0031",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 10, the minimum policies and procedures regarding audit trail requirements must ensure the accurate recording of certain information for each order and trade. Which item is on that minimum list?",
+      "options": {
+        "A": "The client's investment objectives and risk profile",
+        "B": "The Registered Representative's commission split",
+        "C": "The issuer's most recent financial statements",
+        "D": "Date and time of entry, amendment, cancellation, execution and expiration"
+      },
+      "answer": "D",
+      "rationale": "Policy 7.1 Part 10 requires accurate recording of, among other items, the date and time of entry, amendment, cancellation, execution and expiration, the quantity, buy/sell/short-sale marker, market or limit order marker, price (if limit order), security name or symbol, identity of order recipient or trader, client name or account number and special instructions, client consent, and applicable Rule 6.2 designations. Investment objectives (A) belong to KYC records, commission splits (B) to compensation records, and issuer financials (C) to research files — none is an audit trail element.",
+      "source_quote": "date and time of entry, amendment, cancellation, execution and expiration",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 7095,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 10",
+        "UMIR 10.11"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0032",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under UMIR 10.14, each Participant must synchronize the clocks it uses for recording the time and date of any event that must be recorded pursuant to UMIR to:",
+      "options": {
+        "A": "The clock of the Toronto Stock Exchange only",
+        "B": "Coordinated Universal Time as published by the National Research Council",
+        "C": "The clock used by the Market Regulator for this purpose",
+        "D": "The clock of the clearing agency that settles its trades"
+      },
+      "answer": "C",
+      "rationale": "UMIR 10.14 requires each marketplace and each Participant to synchronize the clocks used for recording the time and date of any event that must be recorded pursuant to UMIR to the clock used by the Market Regulator for this purpose. The TSX clock (A), a national time standard (B) and the clearing agency's clock (D) are plausible-sounding references, but the rule fixes the benchmark as the Market Regulator's clock.",
+      "source_quote": "Each marketplace and each Participant shall synchronize the clocks used for recording the time and date of any event that must be recorded pursuant to UMIR to the clock used by the Market Regulator for this purpose.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 10443,
+      "rule_refs": [
+        "UMIR 10.14"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0033",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 7, the risk management and supervisory controls for electronic access to marketplaces must include automated controls to examine each order before entry to prevent the entry of an order that would result in:",
+      "options": {
+        "A": "The Participant or a client exceeding pre-determined credit, capital or other limits, including limits on the value or volume of unexecuted orders",
+        "B": "Any change in the best bid or best ask price",
+        "C": "Execution on more than one marketplace",
+        "D": "A commission lower than the firm's standard schedule"
+      },
+      "answer": "A",
+      "rationale": "Policy 7.1 Part 7 requires automated pre-entry controls to prevent the Participant or Access Person exceeding pre-determined credit or capital thresholds, a client exceeding pre-determined credit or other limits, and exceeding pre-determined limits on the value or volume of unexecuted orders for a particular security or class. Orders that move the best bid or ask (B) are normal market activity, not what the controls must block. Multi-marketplace execution (C) is routine routing. Commission levels (D) are a business matter, not a Part 7 risk control.",
+      "source_quote": "automated controls to examine each order before entry on a marketplace to prevent the entry of an order which would result in: o    the Participant or Access Person exceeding pre-determined credit or capital thresholds",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6944,
+      "rule_refs": [
+        "UMIR 7.1(6)",
+        "UMIR Policy 7.1 Part 7"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0034",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 3, the frequency of review and sample size used in a Participant's compliance reviews must be commensurate with, among other things:",
+      "options": {
+        "A": "The Participant's size, considering factors such as revenue, market share, market exposure and volume of trades",
+        "B": "The Market Regulator's annual budget",
+        "C": "The average tenure of the Participant's board members",
+        "D": "The number of marketplaces operating in Canada"
+      },
+      "answer": "A",
+      "rationale": "Policy 7.1 Part 3 lists the Participant's size (considering factors such as revenue, market share, market exposure and volume of trades) first among the factors with which review frequency and sample size must be commensurate, alongside organizational structure, number and location of offices, product and service complexity, registrants per location, disciplinary history, and the risk profile including red flags. The regulator's budget (B), board tenure (C) and the count of Canadian marketplaces (D) are external or governance facts that are not on the Policy's list.",
+      "source_quote": "the Participant’s size (considering factors such as revenue, market share, market exposure and volume of trades)",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6840,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0035",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Stonebriar Securities offers retail advisory business in one office and also provides direct electronic access to several active institutional clients. Under Policy 7.1 Part 1, how should the firm's compliance sampling treat orders entered by clients under direct electronic access?",
+      "options": {
+        "A": "Exempt them from sampling because the clients are sophisticated",
+        "B": "Sample them at the same rate as orders handled directly by staff",
+        "C": "It may be appropriate to sample for compliance testing a higher percentage of these orders than the percentage sampled in other circumstances, because they are not directly handled by staff of the Participant",
+        "D": "Sample only the first order each client enters after onboarding"
+      },
+      "answer": "C",
+      "rationale": "Policy 7.1 Part 1 states that the Participant retains responsibility for orders entered by direct electronic access, routing arrangements or order execution services, that supervision should address the additional risk exposure for orders not directly handled by staff, and gives the example that it may be appropriate to sample for compliance testing a higher percentage of such orders. Exempting them (A) reverses the Policy's logic. Equal sampling (B) ignores the heightened risk the Policy identifies. Sampling only the first order (D) is not a recognized approach.",
+      "source_quote": "it may be appropriate for the Participant to sample for compliance testing a higher percentage of orders that have been entered by a client under direct electronic access",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6687,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 1",
+        "UMIR 7.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0036",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 2, which circumstance may warrant a Participant implementing more frequent supervision or compliance testing and more detailed supervision or compliance procedures than the minimum elements of the Policy?",
+      "options": {
+        "A": "A decline in the firm's quarterly trading revenue",
+        "B": "A request from a client for faster executions",
+        "C": "The appointment of a new head of trading",
+        "D": "Previous disciplinary proceedings, warning and caution letters from the Market Regulator, or the identification of problems with the supervision system or procedures"
+      },
+      "answer": "D",
+      "rationale": "Policy 7.1 Part 2 states that Participants must develop supervision and compliance procedures that exceed the Policy's identified elements where circumstances warrant — for example, previous disciplinary proceedings, warning and caution letters from the Market Regulator or the identification of problems with the supervision system or procedures by the Participant or the Market Regulator. Falling revenue (A) might reduce the size factor, not trigger enhancement. Client service requests (B) and routine leadership changes (C) are not the escalation triggers the Policy identifies.",
+      "source_quote": "previous disciplinary proceedings, warning and caution letters from the Market Regulator or the identification of problems with the supervision system or procedures by the Participant or the Market Regulator may warrant the implementation of more frequent supervision or compliance testing",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6731,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0037",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 9, when screening applicants for direct electronic access, the Market Regulator expects that non-institutional investors will be:",
+      "options": {
+        "A": "Automatically approved if they sign an enhanced risk disclosure",
+        "B": "Precluded from qualifying except in exceptional circumstances, generally limited to sophisticated former traders and floor brokers or persons with assets under administration approaching that of an institutional investor",
+        "C": "Approved on the same standards as institutional investors",
+        "D": "Referred to the marketplace for direct membership instead"
+      },
+      "answer": "B",
+      "rationale": "Policy 7.1 Part 9 states that as part of the initial screening process, non-institutional investors will be precluded from qualifying for direct electronic access except in exceptional circumstances generally limited to sophisticated former traders and floor brokers or a person or company having assets under administration approaching that of an institutional investor with the necessary technology access and knowledge. Disclosure-based automatic approval (A) contradicts the preclusion. Equal standards (C) is wrong — for non-institutional clients the standards must be set higher than for institutional investors. Referral for marketplace membership (D) is not the Policy's screening outcome.",
+      "source_quote": "non-institutional investors will be precluded from qualifying for direct electronic access except in exceptional circumstances generally limited to sophisticated former traders and floor brokers",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 7031,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 9",
+        "UMIR 7.13"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0038",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Why does Policy 7.1 Part 2 NOT mandate one particular type or method of supervision of trading activity for all Participants?",
+      "options": {
+        "A": "Because supervision is optional for Participants below a revenue threshold",
+        "B": "Because the Market Regulator conducts all trading supervision itself",
+        "C": "Because of differences among firms in size, nature of business, locations or jurisdictions, and employee experience and training, and because effective compliance can be achieved in a variety of ways",
+        "D": "Because UMIR applies only to marketplaces, not to Participants"
+      },
+      "answer": "C",
+      "rationale": "Policy 7.1 Part 2 recognizes that there is no one supervision system appropriate for all Participants, given differences in size, the nature of their business, whether they operate in more than one location or jurisdiction, the experience and training of their employees, and the fact that effective compliance can be achieved in a variety of ways. Supervision is never optional (A) — Rule 7.1(1) applies to each Participant. The Market Regulator reviews supervision systems but does not perform firms' supervision (B). UMIR binds Participants and Access Persons directly (D).",
+      "source_quote": "The Market Regulator recognizes that there is no one supervision system that will be appropriate for all Participants.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6717,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 2",
+        "UMIR 7.1(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0039",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Which of the following is among the factors listed in Policy 7.1 Part 3 with which the frequency of review and sample size of a Participant's risk-based compliance reviews must be commensurate?",
+      "options": {
+        "A": "The number of marketplaces on which the Participant's securities are cross-listed",
+        "B": "The age of the Participant's order management system",
+        "C": "The Market Regulator's enforcement statistics for the prior year",
+        "D": "The disciplinary history of registered representatives or associated persons"
+      },
+      "answer": "D",
+      "rationale": "Policy 7.1 Part 3 lists the disciplinary history of registered representatives or associated persons among the factors, together with the Participant's size, organizational structure, number and location of offices, the nature and complexity of products and services, the number of registrants assigned to a location, and the risk profile of the business including red flags. Cross-listing venues (A), system age (B) and industry-wide enforcement statistics (C) are not on the Policy's list.",
+      "source_quote": "the disciplinary history of registered representatives or associated persons",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6847,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0040",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An operations employee at Drumlin Securities notices activity in a non-client account of the firm that she believes may be a wash trade violating UMIR 2.2. Under UMIR 10.16(1), she must:",
+      "options": {
+        "A": "Forthwith report the activity to her supervisor or the compliance department of the Participant",
+        "B": "Report directly to the Market Regulator within 30 days",
+        "C": "Confront the account holder and demand an explanation before telling anyone",
+        "D": "Document the activity privately and report it only if it recurs"
+      },
+      "answer": "A",
+      "rationale": "UMIR 10.16(1) requires an officer, director, partner or employee of a Participant to forthwith report to their supervisor or the compliance department upon becoming aware of activity in a principal, non-client or client account that they believe may be a violation of enumerated provisions, including Rule 2.2 manipulative and deceptive activities. Direct reporting to the Market Regulator (B) is the firm's obligation later under 10.16(4)(d) after investigation, not the employee's first step. Confronting the account holder (C) risks tipping and is not the rule. Waiting for recurrence (D) violates the forthwith requirement.",
+      "source_quote": "An officer, director, partner or employee of a Participant shall forthwith report to their supervisor or the compliance department of the Participant upon becoming aware of activity in a principal account, non-client account or client account",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 10552,
+      "rule_refs": [
+        "UMIR 10.16(1)",
+        "UMIR 2.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0041",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A compliance officer at Verlane Capital receives an internal report under UMIR 10.16, conducts the required review, and concludes there may be a violation. After diligently investigating, the investigation finds that a violation of an applicable provision of UMIR has occurred. By when must the findings be reported to the Market Regulator?",
+      "options": {
+        "A": "Within 24 hours of the finding",
+        "B": "Not later than the 15th day of the month following the month in which the findings are made",
+        "C": "Within 90 days of the original internal report",
+        "D": "Only at the next scheduled annual filing"
+      },
+      "answer": "B",
+      "rationale": "UMIR 10.16(4)(d) requires the supervisor or compliance department to report the findings of the investigation to the Market Regulator if the finding is that a violation of an applicable provision of UMIR has occurred, and such report shall be made not later than the 15th day of the month following the month in which the findings are made. A 24-hour deadline (A) and a 90-day window measured from the internal report (C) are not the rule's timing. Deferring to an annual filing (D) ignores the monthly reporting deadline.",
+      "source_quote": "such report shall be made not later than the 15th day of the month following the month in which the findings are made.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 10601,
+      "rule_refs": [
+        "UMIR 10.16(4)(d)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0042",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Following a gatekeeper investigation under UMIR 10.16, Halcyon Securities created written records of the employee's report, the review and the investigation findings. Under UMIR 10.16(5), the firm must:",
+      "options": {
+        "A": "Destroy the records once the matter is reported to the Market Regulator",
+        "B": "Retain the records for two years and then archive them offsite",
+        "C": "Retain the records for a period of not less than seven years from the creation of the record and allow the Market Regulator to inspect and copy them during that period",
+        "D": "Retain the records for five years from the close of the investigation"
+      },
+      "answer": "C",
+      "rationale": "UMIR 10.16(5) requires the Participant to retain the records of the report, the review and the findings for a period of not less than seven years from the creation of the record, and to allow the Market Regulator to inspect and make copies at any time during ordinary business hours within that period. Destruction after reporting (A) would breach the retention obligation. Two years (B) is the readily-accessible window concept from other provisions, not the gatekeeper retention period. Five years (D) is the Policy 7.1 retention period for compliance review results — the closest distractor, but gatekeeper records carry the longer seven-year requirement.",
+      "source_quote": "retain the records for a period of not less than seven years from the creation of the record; and",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 10609,
+      "rule_refs": [
+        "UMIR 10.16(5)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0043",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "After reporting gatekeeper investigation findings to the Market Regulator under UMIR 10.16(4), the compliance team at Westhaven Securities asks whether any other reporting is still required for the same conduct. Under UMIR 10.16(6), the obligation to report findings under subsection (4) is:",
+      "options": {
+        "A": "Exclusive — it replaces all other reporting obligations for the same conduct",
+        "B": "Discharged once the Market Regulator acknowledges receipt",
+        "C": "Suspended while any related civil litigation is outstanding",
+        "D": "In addition to any reporting obligation under applicable securities legislation, the requirements of any self-regulatory entity and any applicable Marketplace Rules"
+      },
+      "answer": "D",
+      "rationale": "UMIR 10.16(6) provides that the obligation to report findings under subsection (4) is in addition to any reporting obligation that may exist in accordance with applicable securities legislation, the requirements of any self-regulatory entity and any applicable Marketplace Rules. The gatekeeper report does not displace those parallel obligations (A), is not extinguished by an acknowledgment (B), and is not suspended for litigation (C).",
+      "source_quote": "The obligation of a Participant or an Access Person to report findings of an investigation under subsection (4) is in addition to any reporting obligation that may exist in accordance with applicable securities legislation, the requirements of any self-regulatory entity and any applicable Marketplace Rules.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 10616,
+      "rule_refs": [
+        "UMIR 10.16(6)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0044",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Compliance staff at Roxborough Securities are designing monitoring under Policy 7.1 Part 5 for manipulative and deceptive activities. According to the Policy, orders intended to affect an artificial price are more likely to appear:",
+      "options": {
+        "A": "On the first trading day of each week",
+        "B": "Immediately after a regulatory halt is lifted",
+        "C": "At the end of a month, quarter or year or on the date of the expiry of options where the underlying interest is a listed security",
+        "D": "During the marketplace opening auction only"
+      },
+      "answer": "C",
+      "rationale": "Policy 7.1 Part 5 requires policies and procedures to address the fact that orders which are intended to or which affect an artificial price are more likely to appear at the end of a month, quarter or year or on the date of the expiry of options where the underlying interest is a listed security — and are more likely to involve securities or derivatives with limited liquidity. Week-start timing (A), post-halt trading (B) and opening auctions (D) are not the risk windows the Policy identifies.",
+      "source_quote": "the fact that orders which are intended to or which affect an artificial price are more likely to appear at the end of a month, quarter or year or on the date of the expiry of options where the underlying interest is a listed security, and",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6890,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 5",
+        "UMIR 2.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0045",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Which of the following is among the provisions enumerated in UMIR 10.16(1) for which an employee of a Participant must forthwith report potentially violative account activity to their supervisor or the compliance department?",
+      "options": {
+        "A": "Rule 5.3 respecting client priority",
+        "B": "Rule 10.14 respecting synchronization of clocks",
+        "C": "Rule 7.11 respecting variation and cancellation of trades",
+        "D": "Rule 10.15 respecting assignment of identifiers and symbols"
+      },
+      "answer": "A",
+      "rationale": "UMIR 10.16(1)(f) enumerates Rule 5.3 respecting client priority among the provisions triggering the employee reporting obligation, along with Rule 2.1(1), Rule 2.2, Rule 2.3, Rule 3.3(1), Rule 4.1, Part C of Corporation Rule 3100 best execution, Rule 6.4 and designated Requirements. Clock synchronization (B), trade variation procedures (C) and identifier assignment (D) are compliance and administrative provisions not on the 10.16(1) list.",
+      "source_quote": "(f)    Rule 5.3 respecting client priority;",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 10565,
+      "rule_refs": [
+        "UMIR 10.16(1)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0046",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-01",
+      "scenario": "Meredith Lau is the trading desk Supervisor at Foxhall Securities, a CIRO Participant. On a Tuesday morning, the firm's surveillance system flags activity in the accounts of a retail client, Daniel Crowe. Crowe holds two accounts at Foxhall and has trading authorization over his brother's account at the firm. Over the past three weeks, near the end of each trading day, Crowe has entered small buy orders in Vexler Minerals Corp., a thinly traded listed security, at successively higher prices, several of which executed in the final minutes and set the closing price. On two occasions, sell orders of substantially the same size, at substantially the same time and at substantially the same price were entered from the brother's account. A junior trader on the desk noticed the pattern the prior week but said nothing because he was not certain a violation had occurred.",
+      "stem": "Before accepting any further orders from Crowe in Vexler Minerals, what does UMIR 7.1(2) require of Foxhall with respect to each order?",
+      "options": {
+        "A": "Nothing further, since surveillance flags are only advisory",
+        "B": "Entry of the orders within one minute of receipt to satisfy order exposure",
+        "C": "Compliance with applicable regulatory standards with respect to the review, acceptance and approval of orders, with the firm's Rule 7.1(1) policies and procedures, and with all applicable requirements of UMIR and each Policy — prior to entry on a marketplace",
+        "D": "Approval of each order by the Market Regulator before entry"
+      },
+      "answer": "C",
+      "rationale": "UMIR 7.1(2) requires that prior to the entry of an order on a marketplace the Participant comply with applicable regulatory standards with respect to the review, acceptance and approval of orders, with the policies and procedures adopted under subsection (1), and with all applicable requirements of UMIR and each Policy — heightened scrutiny is exactly what those standards demand on these facts. Treating flags as advisory (A) ignores the pre-entry obligation. Order exposure under Rule 6.3 (B) does not override the review obligation and contains its own exceptions. Market Regulator pre-approval of each order (D) is required only for certain pre-arranged trades and crosses under Rule 2.1(3), not generally.",
+      "source_quote": "(a)    applicable regulatory standards with respect to the review, acceptance and approval of orders; (b)    the policies and procedures adopted in accordance with subsection (1); and (c)    all applicable requirements of UMIR and each Policy.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6531,
+      "rule_refs": [
+        "UMIR 7.1(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0047",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E7-SET-01",
+      "scenario": "Meredith Lau is the trading desk Supervisor at Foxhall Securities, a CIRO Participant. On a Tuesday morning, the firm's surveillance system flags activity in the accounts of a retail client, Daniel Crowe. Crowe holds two accounts at Foxhall and has trading authorization over his brother's account at the firm. Over the past three weeks, near the end of each trading day, Crowe has entered small buy orders in Vexler Minerals Corp., a thinly traded listed security, at successively higher prices, several of which executed in the final minutes and set the closing price. On two occasions, sell orders of substantially the same size, at substantially the same time and at substantially the same price were entered from the brother's account. A junior trader on the desk noticed the pattern the prior week but said nothing because he was not certain a violation had occurred.",
+      "stem": "Crowe's pattern of buy orders at successively higher prices in a thinly traded security, matched on two occasions by offsetting sell orders of substantially the same size, time and price from his brother's account, most directly engages which UMIR provision?",
+      "options": {
+        "A": "Rule 4.1 — frontrunning of a client order",
+        "B": "Rule 2.2 and Policy 2.2 Part 2 — entering orders that create or could reasonably be expected to create a false or misleading appearance of trading activity or an artificial price",
+        "C": "Rule 6.3 — failure to expose small client orders",
+        "D": "Rule 7.11 — improper variation of executed trades"
+      },
+      "answer": "B",
+      "rationale": "Policy 2.2 Part 2 enumerates entering buy orders with knowledge that sell orders of substantially the same size, at substantially the same time and at substantially the same price have been or will be entered (paragraphs (a)-(b)), and making purchases at successively higher prices (paragraph (c)) — both present here — as activities violating Rule 2.2(2). Frontrunning (A) requires knowledge of an unentered client order that could move the market, which is not this pattern. Order exposure (C) concerns the firm's handling of small client orders, not the client's manipulative entries. Rule 7.11 (D) governs post-execution trade amendments, not order entry conduct.",
+      "source_quote": "entering an order or orders for the purchase of a security or derivative with the knowledge that an order or orders of substantially the same size, at substantially the same time and at substantially the same price for the sale of that security",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 3451,
+      "rule_refs": [
+        "UMIR 2.2(2)",
+        "UMIR Policy 2.2 Part 2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0048",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-01",
+      "scenario": "Meredith Lau is the trading desk Supervisor at Foxhall Securities, a CIRO Participant. On a Tuesday morning, the firm's surveillance system flags activity in the accounts of a retail client, Daniel Crowe. Crowe holds two accounts at Foxhall and has trading authorization over his brother's account at the firm. Over the past three weeks, near the end of each trading day, Crowe has entered small buy orders in Vexler Minerals Corp., a thinly traded listed security, at successively higher prices, several of which executed in the final minutes and set the closing price. On two occasions, sell orders of substantially the same size, at substantially the same time and at substantially the same price were entered from the brother's account. A junior trader on the desk noticed the pattern the prior week but said nothing because he was not certain a violation had occurred.",
+      "stem": "The junior trader noticed the pattern a week earlier but stayed silent because he was not certain a violation had occurred. Under UMIR 10.16(1), his obligation arose:",
+      "options": {
+        "A": "Only once a violation was proven by the compliance department",
+        "B": "Only if the Market Regulator first contacted the firm",
+        "C": "Only because he works on the trading desk; back-office staff have no such obligation",
+        "D": "Upon becoming aware of account activity he believes may be a violation of an enumerated provision such as Rule 2.2 — he was required to forthwith report it to his supervisor or the compliance department"
+      },
+      "answer": "D",
+      "rationale": "UMIR 10.16(1) obliges an officer, director, partner or employee to forthwith report to their supervisor or the compliance department upon becoming aware of activity in a principal, non-client or client account that they believe may be a violation of enumerated provisions including Rule 2.2 — \"may be\" sets the threshold at belief in a possible violation, not certainty or proof (A). Regulator contact (B) is irrelevant to the internal trigger. The duty applies to every officer, director, partner or employee of the Participant, not just desk staff (C).",
+      "source_quote": "upon becoming aware of activity in a principal account, non-client account or client account of the Participant or a related entity that the officer, director, partner or employee believes may be a violation of:",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 10554,
+      "rule_refs": [
+        "UMIR 10.16(1)",
+        "UMIR 2.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0049",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-01",
+      "scenario": "Meredith Lau is the trading desk Supervisor at Foxhall Securities, a CIRO Participant. On a Tuesday morning, the firm's surveillance system flags activity in the accounts of a retail client, Daniel Crowe. Crowe holds two accounts at Foxhall and has trading authorization over his brother's account at the firm. Over the past three weeks, near the end of each trading day, Crowe has entered small buy orders in Vexler Minerals Corp., a thinly traded listed security, at successively higher prices, several of which executed in the final minutes and set the closing price. On two occasions, sell orders of substantially the same size, at substantially the same time and at substantially the same price were entered from the brother's account. A junior trader on the desk noticed the pattern the prior week but said nothing because he was not certain a violation had occurred.",
+      "stem": "Lau's review concludes there may be a violation of Rule 2.2. Under UMIR 10.16(4), what is the complete set of steps she or the compliance department must then take?",
+      "options": {
+        "A": "Make a written record of the report and review, diligently investigate the activity, make a written record of the investigation findings, and report the findings to the Market Regulator if the finding is that a violation of an applicable UMIR provision occurred",
+        "B": "Close Crowe's accounts and journal the positions to his brother",
+        "C": "Refer the matter to the issuer, Vexler Minerals, for its own inquiry",
+        "D": "Notify all other clients who traded Vexler Minerals during the period"
+      },
+      "answer": "A",
+      "rationale": "UMIR 10.16(4) requires, where the review concludes there may be a violation: (a) a written record of the report and the review; (b) diligent investigation of the activity; (c) a written record of the investigation findings; and (d) a report of the findings to the Market Regulator if the finding is that a violation of an applicable provision of UMIR has occurred, by the 15th day of the following month. Closing accounts (B) may be a business decision but is not the rule's mandate. Referring to the issuer (C) and notifying other clients (D) are not gatekeeper steps and could compromise the investigation.",
+      "source_quote": "(b)     diligently investigate the activity that is the subject of the report and review; (c)     make a written record of the findings of the investigation; and",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 10599,
+      "rule_refs": [
+        "UMIR 10.16(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0050",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E7-SET-02",
+      "scenario": "Priya Raman supervises the retail order desk at Almont Securities, a CIRO Participant. Late one afternoon she reviews three items: (1) a retail client order to buy 30 standard trading units of a liquid listed security, worth about $45,000, which a desk trader has held unentered for twenty minutes while the firm's inventory desk works a principal buy order in the same security at the same price; (2) a different retail client's order to sell 20 standard trading units, worth $30,000, which the desk proposes to fill from firm inventory; and (3) a client's request that her order be withheld from the market so she can complete a tax-related transfer trade with her spouse. None of the clients has given any special instructions or consents other than as described.",
+      "stem": "Regarding item (1), the desk trader withheld the 30-unit client buy order while the inventory desk worked a competing principal order at the same price. Under Policy 5.3 Part 2, this conduct is an example of:",
+      "options": {
+        "A": "Permissible order handling, because the delay was under thirty minutes",
+        "B": "An intentional trade ahead of a client order — withholding a client order from entry on a marketplace to permit the entry of a competing principal order ahead of it — which a Participant can never do except under an exemption such as specific client consent",
+        "C": "A valid Special Terms Order arrangement",
+        "D": "Conduct permitted because the principal order was entered first in time"
+      },
+      "answer": "B",
+      "rationale": "Policy 5.3 Part 2 states a Participant can never intentionally trade ahead of a client market or tradeable limit order received prior to entry of the principal order except under a Rule 5.3 exemption (including specific client consent), and lists withholding a client order from entry on a marketplace to permit the entry of a competing principal order ahead of the client order as an example of an intentional trade. No time threshold legitimizes the conduct (A). No special term exists on the client order (C). Sequencing the principal order first is precisely the abuse (D), since the client order was received prior to the principal order's entry.",
+      "source_quote": "withholding a client order from entry on a marketplace (or removing an order already entered on a marketplace) to permit the entry of a competing principal order or non- client order ahead of the client order;",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 5150,
+      "rule_refs": [
+        "UMIR 5.3(1)",
+        "UMIR Policy 5.3 Part 2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0051",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-02",
+      "scenario": "Priya Raman supervises the retail order desk at Almont Securities, a CIRO Participant. Late one afternoon she reviews three items: (1) a retail client order to buy 30 standard trading units of a liquid listed security, worth about $45,000, which a desk trader has held unentered for twenty minutes while the firm's inventory desk works a principal buy order in the same security at the same price; (2) a different retail client's order to sell 20 standard trading units, worth $30,000, which the desk proposes to fill from firm inventory; and (3) a client's request that her order be withheld from the market so she can complete a tax-related transfer trade with her spouse. None of the clients has given any special instructions or consents other than as described.",
+      "stem": "Regarding item (2), the desk proposes to fill the client's 20-unit, $30,000 sell order from firm inventory. Under UMIR 8.1(1), Almont may do so only if:",
+      "options": {
+        "A": "The execution is at a better price and the firm has taken reasonable steps to ensure the price is the best available price for the client under prevailing market conditions",
+        "B": "The client pays a reduced commission to offset the principal fill",
+        "C": "The fill matches the best bid displayed at the time of receipt",
+        "D": "The inventory desk holds the position for at least 30 days afterward"
+      },
+      "answer": "A",
+      "rationale": "The order is within the UMIR 8.1(1) thresholds (50 standard trading units or less and $100,000 or less), so the firm may execute against a principal order only at a better price, having taken reasonable steps to ensure the price is the best available price for the client under prevailing market conditions. A commission discount (B) does not substitute for price improvement. Matching the best bid (C) fails — Policy 8.1 requires that when the Participant is buying from the client, the client receive a higher price than the best bid price. A post-trade holding period (D) is not an 8.1 condition, though Policy 8.1 notes quick unwinds make the trade harder to justify.",
+      "source_quote": "may execute the client order against a principal order or non-client order at a better price provided the Participant has taken reasonable steps to ensure that the price is the best available price for the client under prevailing market conditions.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 9030,
+      "rule_refs": [
+        "UMIR 8.1(1)",
+        "UMIR Policy 8.1 Part 1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0052",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-02",
+      "scenario": "Priya Raman supervises the retail order desk at Almont Securities, a CIRO Participant. Late one afternoon she reviews three items: (1) a retail client order to buy 30 standard trading units of a liquid listed security, worth about $45,000, which a desk trader has held unentered for twenty minutes while the firm's inventory desk works a principal buy order in the same security at the same price; (2) a different retail client's order to sell 20 standard trading units, worth $30,000, which the desk proposes to fill from firm inventory; and (3) a client's request that her order be withheld from the market so she can complete a tax-related transfer trade with her spouse. None of the clients has given any special instructions or consents other than as described.",
+      "stem": "Regarding item (3), the client asked Almont to withhold her order so she can complete a tax-related trade with her spouse. Under Rule 6.3 and Policy 6.3, Almont may honour the request because:",
+      "options": {
+        "A": "Any order can be withheld at the desk's discretion for up to one hour",
+        "B": "Spousal trades are exempt from all UMIR requirements",
+        "C": "The order automatically becomes a Dark Order",
+        "D": "Rule 6.3(1)(a) excepts an order from immediate entry where the client has specifically instructed the Participant to deal otherwise with the particular order — and Policy 6.3 uses exactly this tax-related spousal trade as its example of a client request to withhold"
+      },
+      "answer": "D",
+      "rationale": "Rule 6.3(1)(a) excepts a small client order from the immediate-display requirement where the client has specifically instructed the Participant to deal otherwise with the particular order, and Policy 6.3 Part 3 illustrates the exception with a client who does not want the order executed in the open market but wishes to do a tax-related trade with their spouse — noting the request must be order-specific, unsolicited and recorded for seven years. Desk discretion to delay (A) is not an exception. There is no spousal exemption from UMIR (B). The order does not become a Dark Order (C); that is a defined display status, not a withholding mechanism.",
+      "source_quote": "the client does not want the order executed in the open market but wishes to do a tax-related trade with their spouse",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 5966,
+      "rule_refs": [
+        "UMIR 6.3(1)(a)",
+        "UMIR Policy 6.3 Part 3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0053",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E7-SET-02",
+      "scenario": "Priya Raman supervises the retail order desk at Almont Securities, a CIRO Participant. Late one afternoon she reviews three items: (1) a retail client order to buy 30 standard trading units of a liquid listed security, worth about $45,000, which a desk trader has held unentered for twenty minutes while the firm's inventory desk works a principal buy order in the same security at the same price; (2) a different retail client's order to sell 20 standard trading units, worth $30,000, which the desk proposes to fill from firm inventory; and (3) a client's request that her order be withheld from the market so she can complete a tax-related transfer trade with her spouse. None of the clients has given any special instructions or consents other than as described.",
+      "stem": "To detect situations like items (1) and (2) going forward, what does Policy 7.1 Part 4 require Almont's supervision system to ensure with respect to client priority?",
+      "options": {
+        "A": "That all client orders are executed within five seconds of receipt",
+        "B": "That inventory or non-client orders are not knowingly traded ahead of client orders, addressing situations where a client order is withheld and a person with knowledge of it enters another order that will trade ahead of it",
+        "C": "That clients are charged identical commissions regardless of order size",
+        "D": "That principal trading is prohibited entirely at the firm"
+      },
+      "answer": "B",
+      "rationale": "Policy 7.1 Part 4 requires each Participant to maintain a supervision system ensuring its trading does not violate Rule 5.3, explaining that the compliance review's purpose is to ensure inventory or non-client orders are not knowingly traded ahead of client orders — which would occur if a client order is withheld from entry and a person with knowledge of it enters another order that trades ahead, taking a trading opportunity from the client. A five-second execution standard (A) is invented; withholding for normal review and order handling is allowed under Rule 5.3 and Part C of Corporation Rule 3100. Uniform commissions (C) are unrelated. Banning principal trading (D) goes far beyond the rule, which regulates rather than prohibits it.",
+      "source_quote": "The purpose of the Participant’s compliance review is to ensure that inventory or non- client orders are not knowingly traded ahead of client orders.",
+      "source_file": "research/sources/rules/umir.txt",
+      "source_line": 6860,
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 4",
+        "UMIR 5.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    }
+  ]
+}

@@ -1,0 +1,1248 @@
+{
+  "meta": {
+    "batch": "E9-001",
+    "drafted": 50,
+    "date": "2026-06-04",
+    "corpus": [
+      "syllabus-raw.txt — Element 9 verbatim parameters (lines ~1608-1666): 9.1 business-location supervision guidelines; 9.2 internal/reputational/business-activity/size/client-base risk factor lists; 9.3 retail distribution risk list",
+      "idpc-rules.txt (IDPC Jan 2026) — Rule 1201 'business location' definition; Rule 2200 Part A.1 (2202) and Part D (2265-2268); Rule 2800 submission table (2803(2)(i)(g)/(h), Form 33-109F3); Rule 3219; Rule 3602; Rule 3803; Rule 3818; Rule 3900 (3905, 3908, 3925, 3926, 3927, 3945, 3946, 3947)",
+      "gn-3900-20-001.txt — Account Supervision Guidance GN-3900-20-001 (resident/outside Supervisor considerations, two-tier reviews, second-tier purpose and referral procedures)"
+    ],
+    "qa": "Gate 1 blind solve 2026-06-04: 50/50 agreement. Gate 2: 50/50 quotes verified. Gate 3 lint clean. See qa-log.md."
+  },
+  "questions": [
+    {
+      "id": "SUP-E9-0003",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under the IDPC Rules, what is a Dealer Member required to do when supervision records are kept at a branch office rather than at head office?",
+      "options": {
+        "A": "Transfer all supervision records to head office within 30 days of their creation",
+        "B": "Appoint a second Chief Compliance Officer resident at that branch office",
+        "C": "Obtain CIRO approval before any supervision record may be stored outside head office",
+        "D": "Conduct periodic on-site reviews of branch office supervision and record keeping"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3908(4) requires that where supervision records are kept at a branch office, the dealer must conduct periodic on-site reviews of branch office supervision and record keeping. This is the structural anchor for the head-office business location audit program covered by syllabus 9.1. Option A invents a transfer obligation — the rule permits branch storage subject to on-site review. Option C is wrong because no CIRO pre-approval is required for storing supervision records at a branch. Option B is wrong because the rules require one CCO function, not a CCO per branch; branch oversight is achieved through on-site reviews, not duplicated Executive roles.",
+      "rule_refs": [
+        "IDPC 3908(4)",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Where supervision records are kept at a branch office, the Dealer Member must conduct periodic on-site reviews of branch office supervision and record keeping.\" — idpc-rules.txt ~lines 7971-7972"
+    },
+    {
+      "id": "SUP-E9-0004",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Northgate Securities is designing its head-office program for supervising its 22 business locations. According to the syllabus guidelines for business location supervision, which set of components should the program cover?",
+      "options": {
+        "A": "Scope; planning; business location audit program and training; risk identification; audit report and follow up",
+        "B": "Capital adequacy testing; CIPF coverage verification; insurance reviews; segregation counts; pricing audits",
+        "C": "Underwriting due diligence; research dissemination controls; grey-list maintenance; firewall testing",
+        "D": "Order-routing best-execution sampling; algorithm testing; marketplace audit-trail synchronization"
+      },
+      "answer": "A",
+      "rationale": "Syllabus 9.1 lists the guidelines for business location supervision as scope, planning, business location audit program and training, risk identification, and audit report and follow up. Option B describes financial-operations and prudential controls that belong to the CFO's domain, not the business-location supervision guidelines. Option C lists information-barrier and research controls from other elements. Option D lists UMIR trading-supervision tasks, not location supervision components.",
+      "rule_refs": [
+        "Syllabus 9.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"9.1 Understand the guidelines for business location supervision, including:\" — syllabus-raw.txt ~line 1612"
+    },
+    {
+      "id": "SUP-E9-0005",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "In the business location supervision guidelines, which component most directly determines how often and how deeply a particular branch will be audited?",
+      "options": {
+        "A": "Audit report and follow up",
+        "B": "Training of audit staff",
+        "C": "Risk identification",
+        "D": "The branch's vote at Regional Council meetings"
+      },
+      "answer": "C",
+      "rationale": "Risk identification is the syllabus 9.1 component that feeds planning: locations identified as higher risk warrant more frequent and deeper audits. Option A, audit report and follow up, occurs after an audit and documents findings and corrective action rather than setting frequency. Option B, training, equips the auditors but does not rank locations. Option D confuses Rule 2200 Part D branch-office governance participation with supervision; Regional representation has nothing to do with audit scheduling.",
+      "rule_refs": [
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"• Risk identification\" — syllabus-raw.txt ~line 1616"
+    },
+    {
+      "id": "SUP-E9-0006",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under the IDPC Rules definition, which of the following is a \"business location\" of Cardero Capital Inc., an Investment Dealer?",
+      "options": {
+        "A": "A hotel meeting room rented once for the firm's annual general meeting",
+        "B": "A Registered Representative's residence from which regular and ongoing registrable activity is carried out",
+        "C": "A coffee shop where an RR occasionally meets a friend who is not a client",
+        "D": "A storage unit holding only obsolete office furniture"
+      },
+      "answer": "B",
+      "rationale": "The Rule 1201 definition of business location captures a location where an activity that requires registration or Corporation approval is carried out by or on behalf of a Dealer Member, and expressly includes a residence if regular and ongoing activity requiring registration or approval is carried out from it or if related records are kept there. Option A fails the test because a one-off AGM is not regular and ongoing registrable activity. Option C involves no registrable activity at all. Option D holds neither registrable activity nor records relating to it.",
+      "rule_refs": [
+        "IDPC 1201",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"includes a residence if regular and ongoing activity that requires registration or approval is carried out from the residence\" — idpc-rules.txt ~lines 234-235"
+    },
+    {
+      "id": "SUP-E9-0007",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Tannery Hill Investments is opening a new sub-branch in Moncton. Under section 2202 of the IDPC Rules, what must the dealer do with respect to CIRO?",
+      "options": {
+        "A": "Obtain CIRO's prior written approval of the lease and floor plan",
+        "B": "Notify the Corporation of the opening of the business location",
+        "C": "Post a capital deposit proportional to the number of registrants at the location",
+        "D": "Nothing, provided the location has fewer than five Approved Persons"
+      },
+      "answer": "B",
+      "rationale": "Section 2202(1) provides that under sub-clause 2803(2)(i)(g), a Dealer Member must notify the Corporation of the opening or closing of a business location. The regime is notification-based, not approval-based, which defeats option A. Option C invents a per-location capital deposit that does not exist. Option D is wrong because the notification requirement applies regardless of headcount; there is no small-location exemption.",
+      "rule_refs": [
+        "IDPC 2202(1)",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"a Dealer Member must notify the Corporation of the opening or closing of a business location.\" — idpc-rules.txt ~lines 1305-1306"
+    },
+    {
+      "id": "SUP-E9-0008",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Which form does an Investment Dealer use to notify CIRO of a change of address, type of location or supervision of any business location?",
+      "options": {
+        "A": "Form 33-109F1",
+        "B": "Form 33-109F7",
+        "C": "Form 33-109F3",
+        "D": "An \"Apply for an Exemption\" submission on the National Registration Database"
+      },
+      "answer": "C",
+      "rationale": "The Rule 2800 submission table pairs a notification of change of address, type of location or supervision of any business location with Form 33-109F3 - Business locations other than head office; the same form is used for opening or closing notifications under section 2202. Option A, Form 33-109F1, is the notice of end of individual registration. Option B, Form 33-109F7, is for reinstatement of registered individuals. Option D is the proficiency-exemption pathway, unrelated to location filings.",
+      "rule_refs": [
+        "IDPC 2803(2)(i)(h)",
+        "IDPC 2202",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"a notification of change of address, type of         Form 33-109F3 - Business locations other than\" — idpc-rules.txt ~line 3784"
+    },
+    {
+      "id": "SUP-E9-0009",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Part D of Rule 2200, which of an Investment Dealer's business locations qualifies as a branch office member of a CIRO Region?",
+      "options": {
+        "A": "Any location listed on Form 33-109F3, whether or not it is staffed",
+        "B": "A business location in a Region with a Supervisor who is normally present at the business location",
+        "C": "Only the dealer's head office",
+        "D": "Any location with at least ten Registered Representatives, regardless of supervision"
+      },
+      "answer": "B",
+      "rationale": "Section 2266(1) states that every Dealer Member's business location in a Region with a Supervisor, who is normally present at the business location, is a branch office member of the Region. The defining feature is the normally present Supervisor, not the filing (option A), not head-office status (option C — head office is treated separately from branch office members), and not a registrant headcount threshold (option D), which appears nowhere in Part D.",
+      "rule_refs": [
+        "IDPC 2266(1)",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Every Dealer Member’s business location in a Region with a Supervisor, who is normally present at the business location, is a branch office member of the Region.\" — idpc-rules.txt ~lines 1612-1613"
+    },
+    {
+      "id": "SUP-E9-0010",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Pemberton Wealth has a three-RR business location in Kamloops with no resident Supervisor. According to CIRO's account supervision guidance, how should supervision of business conduct at this location be handled?",
+      "options": {
+        "A": "The location must be closed until a resident Supervisor is hired",
+        "B": "The most senior RR at the location automatically assumes supervisory duties",
+        "C": "CIRO staff assume direct supervision of the location's registrants",
+        "D": "An assigned outside Supervisor should visit the location periodically to review business conduct and compliance with applicable laws"
+      },
+      "answer": "D",
+      "rationale": "The guidance states that business locations without Resident Supervisors should have an assigned outside Supervisor, and the outside Supervisor should visit the location periodically to review business conduct and compliance with applicable laws, with the dealer's policies and procedures specifically addressing those visits. Option A is wrong because a resident Supervisor is not mandatory; the guidance lets dealers determine necessity based on listed factors. Option B is wrong because supervisory responsibility requires designation and qualification, not seniority by default. Option C is wrong because supervision is the dealer's obligation; CIRO does not supervise registrants directly.",
+      "rule_refs": [
+        "GN-3900-20-001",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Business locations without Resident Supervisors should have an assigned outside\" — gn-3900-20-001.txt ~line 169"
+    },
+    {
+      "id": "SUP-E9-0011",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Section 3908 of the IDPC Rules requires a Dealer Member to maintain adequate records of supervisory activity. Which item does the rule expressly include among those records?",
+      "options": {
+        "A": "On-site branch reviews, compliance issues identified and the resolution of such issues",
+        "B": "Minutes of every client meeting held at a branch",
+        "C": "The personal tax returns of branch Supervisors",
+        "D": "Recordings of all telephone calls placed from each business location"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3908(3) requires the dealer to maintain adequate records of supervisory activity, including on-site branch reviews, compliance issues identified and the resolution of such issues — the documentary backbone of the location audit report and follow-up. Option B overreaches: client-meeting minutes are not a prescribed supervisory record. Option C is privacy-invasive and unfounded. Option D describes a blanket taping obligation that section 3908 does not impose.",
+      "rule_refs": [
+        "IDPC 3908(3)",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must maintain adequate records of supervisory activity, including on-site branch reviews, compliance issues identified and the resolution of such issues.\" — idpc-rules.txt ~lines 7969-7970"
+    },
+    {
+      "id": "SUP-E9-0012",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "For how long, at a minimum, must the supervision records described in section 3908 — including records of on-site branch reviews — generally be retained under the IDPC Rules?",
+      "options": {
+        "A": "Two years from the date the record is created",
+        "B": "Five years from the close of the branch audit",
+        "C": "Seven years from the date the record is created",
+        "D": "Indefinitely, with no permitted destruction date"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3908(5) directs that section 3908 records be kept for the period set out in section 3803, and subsection 3803(1) requires records to be retained in durable and accessible form for a minimum of seven years from the date the record is created unless a different period applies to the specific record type. Options A and B understate the general minimum, and option D overstates it — seven years is a minimum, not a prohibition on eventual destruction.",
+      "rule_refs": [
+        "IDPC 3908(5)",
+        "IDPC 3803(1)",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"in durable and accessible form, for a minimum of seven years from the date the\" — idpc-rules.txt ~line 6721"
+    },
+    {
+      "id": "SUP-E9-0013",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "In CIRO's two-tier review framework for dealers with multiple business locations, what is the stated design purpose of second-tier supervision?",
+      "options": {
+        "A": "To replace first-tier reviews at small branches",
+        "B": "To ensure no serious account issues were missed by first-tier supervision and to ensure first-tier supervision is conducted adequately",
+        "C": "To approve new accounts faster than the branch can",
+        "D": "To duplicate first-tier reviews at the same depth daily"
+      },
+      "answer": "B",
+      "rationale": "The guidance says dealers should design their second-tier supervision to ensure no serious account issues were missed by first-tier supervision and to ensure first-tier supervision is conducted adequately — an oversight-of-the-overseers function that head office (or a regional office) performs over business locations. Option A is wrong because the second tier supplements rather than replaces the first. Option C confuses account approval with activity review. Option D contradicts the guidance, which says second-tier supervision is generally not at the same depth as first-tier.",
+      "rule_refs": [
+        "GN-3900-20-001",
+        "IDPC 3945",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"ensure ﬁrst-tier supervision is conducted adequately.\" — gn-3900-20-001.txt ~line 267"
+    },
+    {
+      "id": "SUP-E9-0014",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Where second-tier reviewers of business-location activity lack authority to resolve the issues they identify, what does CIRO's guidance say the dealer should have?",
+      "options": {
+        "A": "Procedures for referring these issues to a Supervisor who has the appropriate authority",
+        "B": "A standing exemption from second-tier reviews",
+        "C": "A rule deleting unresolved items after 90 days",
+        "D": "Permission for the reviewers to impose fines on branch staff directly"
+      },
+      "answer": "A",
+      "rationale": "The guidance states that where second-tier reviews are conducted by personnel who do not have the authority to resolve the issues they identify, the dealer should have procedures for referring these issues to a Supervisor who has the appropriate authority. This mirrors the broader expectation that supervisors can take effective and timely remedial action, with escalation to a more senior Supervisor or Executive acceptable. Option B turns a staffing gap into an exemption, which the guidance does not allow. Option C destroys the audit trail of unresolved findings. Option D gives reviewers a disciplinary power they do not possess.",
+      "rule_refs": [
+        "GN-3900-20-001",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"to a Supervisor who has the appropriate authority.\" — gn-3900-20-001.txt ~line 271"
+    },
+    {
+      "id": "SUP-E9-0015",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "According to the syllabus risk-factor framework for business locations, which three items make up the internal risk factors?",
+      "options": {
+        "A": "Number of complaints; trading errors; community marketing",
+        "B": "Outside activities; internal disciplinary action; number of registrants",
+        "C": "Risk-weighting; lines of business; client base risk",
+        "D": "Adequacy of resources; key person reliance; principal-agent"
+      },
+      "answer": "D",
+      "rationale": "Syllabus 9.2 lists the internal risk factors as adequacy of resources, key person reliance, and principal-agent. Option A mixes two reputational factors (complaints, community marketing) with a business-activity factor (trading errors). Option C mixes a size factor (risk-weighting), a business-activity factor (lines of business) and client base risk. Option B pairs two reputational factors with the size-related registrant count.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"• Internal risk factors, including:\" — syllabus-raw.txt ~line 1621"
+    },
+    {
+      "id": "SUP-E9-0016",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Mireille Fortin runs the only branch of Castellan Securities in a small Quebec town. She is the branch's sole Supervisor, its top producer, and the only person who understands its back-office workflows. Under the syllabus 9.2 framework, this concentration of functions in one individual is best classified as which risk factor?",
+      "options": {
+        "A": "Key person reliance, an internal risk factor",
+        "B": "Community-specific marketing strategy, a reputational risk factor",
+        "C": "Number of trading errors, a business activity risk factor",
+        "D": "Client base risk"
+      },
+      "answer": "A",
+      "rationale": "Syllabus 9.2 lists key person reliance under internal risk factors: when one individual carries the branch's supervision, production and operations, the location is exposed if that person departs, is absent, or conceals problems. Option B is a reputational factor about how the branch markets to its community, not about staffing concentration. Option C is a business activity factor about errors, not dependence. Option D concerns clients using the location for inappropriate actions, which is not what the scenario describes.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"- Key person reliance\" — syllabus-raw.txt ~line 1623"
+    },
+    {
+      "id": "SUP-E9-0017",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Within the syllabus 9.2 internal risk factors, the principal-agent item refers most directly to risk arising from:",
+      "options": {
+        "A": "The dealer conducting business through agents rather than employees at a business location",
+        "B": "An agency cross between two client accounts at the same branch",
+        "C": "Appointment of a transfer agent for a new issue distributed at the branch",
+        "D": "Granting a power of attorney over a client account to a family member"
+      },
+      "answer": "A",
+      "rationale": "Principal-agent appears in syllabus 9.2 as an internal risk factor of business locations: where registrants operate as agents of the dealer rather than employees, the dealer's direct control over premises, staff and records can be attenuated, raising supervision risk. Option B describes a trade type, not a structural relationship risk. Option C concerns issuer servicing, unrelated to location risk. Option D is a client-account authorization matter, not an internal structural factor of the location.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"- Principal-agent\" — syllabus-raw.txt ~line 1624"
+    },
+    {
+      "id": "SUP-E9-0018",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "According to syllabus 9.2, which of the following belongs to the reputational risk factors of a business location?",
+      "options": {
+        "A": "Adequacy of resources",
+        "B": "Number of trading errors",
+        "C": "Community-specific marketing strategy and sales practices",
+        "D": "Risk-weighting"
+      },
+      "answer": "C",
+      "rationale": "Syllabus 9.2 lists reputational risk as including community-specific marketing strategy and sales practices, number of outside activities, any internal disciplinary action, and number of complaints. Option A is an internal risk factor. Option B is a business activity risk factor. Option D is a business location size risk factor. Each distractor is a real 9.2 factor placed in the wrong category.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"- Community-specific marketing strategy and sales practices\" — syllabus-raw.txt ~line 1626"
+    },
+    {
+      "id": "SUP-E9-0019",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Why does the number of complaints at a business location appear under reputational risk in the syllabus 9.2 framework rather than under business activity risk?",
+      "options": {
+        "A": "Complaints can only arise from advertising, which is a reputational function",
+        "B": "Complaint volume signals how the location's conduct is perceived by its clients and community, which can damage the dealer's standing beyond the underlying transactions",
+        "C": "Complaints have no connection to the products or services sold at the location",
+        "D": "CIRO rules prohibit counting complaints when measuring trading risk"
+      },
+      "answer": "B",
+      "rationale": "Syllabus 9.2 places number of complaints among reputational risk factors because a pattern of complaints reflects on the location's sales conduct and the dealer's public standing, independent of any single product exposure. Option A is false — complaints arise from many sources, not only advertising. Option C overstates the separation; complaints often relate to products, but the framework classifies their volume as a reputational indicator. Option D invents a prohibition that does not exist.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"- Number of complaints\" — syllabus-raw.txt ~line 1629"
+    },
+    {
+      "id": "SUP-E9-0020",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Head office notices that one branch of Quillback Investments generated 40% of the firm's trade corrections last quarter despite holding only 8% of its accounts. In the syllabus 9.2 framework, this metric is an indicator within which risk category?",
+      "options": {
+        "A": "Reputational risk",
+        "B": "Internal risk factors",
+        "C": "Client base risk",
+        "D": "Business activity risk"
+      },
+      "answer": "D",
+      "rationale": "Syllabus 9.2 lists the number of trading errors within the business location's business activity risk. A disproportionate error count flags weaknesses in how the location conducts its trading activity. Option A would apply to complaints, discipline, outside activities or community marketing. Option B would apply to resources, key persons or principal-agent structure. Option C would apply if clients were exploiting the location for inappropriate actions, which an internal error rate does not indicate.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"- Number of trading errors\" — syllabus-raw.txt ~line 1635"
+    },
+    {
+      "id": "SUP-E9-0021",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "In the syllabus 9.2 framework, client base risk for a business location refers to:",
+      "options": {
+        "A": "The risk that the branch's marketing campaign offends a community group",
+        "B": "The risk that key staff leave and take their clients with them",
+        "C": "The risk that too few clients makes the branch unprofitable",
+        "D": "The risk that clients may use the business location for inappropriate actions"
+      },
+      "answer": "D",
+      "rationale": "Syllabus 9.2 describes client base risk as the business location assuming the risk that clients may use it for inappropriate actions — for example, exploiting local account access to launder funds or conduct improper market activity. Option A is the community-specific marketing item under reputational risk. Option C is a commercial-viability concern, related at most to adequacy of resources, and is not the listed meaning. Option B is key person reliance, an internal risk factor.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"- Client base risk, business location assumes the risk that clients may\" — syllabus-raw.txt ~line 1638"
+    },
+    {
+      "id": "SUP-E9-0022",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "According to syllabus 9.2, business location size risk includes which pair of considerations?",
+      "options": {
+        "A": "Number of complaints and number of outside activities",
+        "B": "Adequacy of resources and key person reliance",
+        "C": "Risk-weighting and risk assessment and control practices",
+        "D": "Lines of business and number of trading errors"
+      },
+      "answer": "C",
+      "rationale": "Syllabus 9.2 lists business location size risk as including risk-weighting and risk assessment and control practices — larger or more complex locations are weighted higher and their control practices must scale, and the number of registrants is part of sizing a location. Option A pairs two reputational factors. Option B pairs two internal risk factors. Option D pairs two business activity factors. Every distractor is a real 9.2 factor in the wrong category.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Business location size risk, including: - Risk-weighting - Risk assessment and control practices\" — syllabus-raw.txt lines 1663-1665"
+    },
+    {
+      "id": "SUP-E9-0023",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "When sizing a business location for risk purposes under the syllabus 9.2 framework, which headcount measure is a listed consideration?",
+      "options": {
+        "A": "Number of CIRO examiners assigned to the Region",
+        "B": "Number of unionized administrative staff",
+        "C": "Number of clients holding registered plans",
+        "D": "Number of registrants"
+      },
+      "answer": "D",
+      "rationale": "The syllabus 9.2 parameter list includes the number of registrants as a sizing consideration for a business location — more registrants generally means more activity to supervise and a higher weighting. Option B concerns non-registered staff, who do not drive registrable-activity risk in the framework. Option C is an account-type attribute, not a location-size measure. Option A describes regulator staffing, which is outside the dealer's risk model entirely.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"- Number of registrants\" — syllabus-raw.txt ~line 1637"
+    },
+    {
+      "id": "SUP-E9-0024",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The Lethbridge branch of Coppermine Securities operates with one part-time administrator, shares a compliance assistant with another branch three hours away, and routinely delays account-document filing because of workload. In the syllabus 9.2 framework, the underlying risk factor is best described as:",
+      "options": {
+        "A": "Adequacy of resources, an internal risk factor",
+        "B": "Number of complaints, a reputational risk factor",
+        "C": "Client base risk",
+        "D": "Exposure inherent to a particular product, a business activity risk factor"
+      },
+      "answer": "A",
+      "rationale": "Syllabus 9.2 lists adequacy of resources as an internal risk factor: a location with insufficient administrative and compliance support cannot reliably execute its supervisory and record-keeping duties, as the filing delays show. Option B does not fit — no complaints are described, and complaint volume is an output indicator rather than the structural cause here. Option C requires clients exploiting the location, which is absent. Option D concerns product exposure, but the deficiency described is staffing, not products.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"- Adequacy of resources\" — syllabus-raw.txt ~line 1622"
+    },
+    {
+      "id": "SUP-E9-0025",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An RR at the Fernwood branch of Tideline Capital sits on the boards of four local businesses and runs a tax-preparation service each spring. Setting aside the approval and disclosure analysis, under the syllabus 9.2 location risk framework this volume of activity primarily elevates which category for the branch?",
+      "options": {
+        "A": "Business location size risk",
+        "B": "Reputational risk, through the number of outside activities",
+        "C": "Client base risk",
+        "D": "Internal risk, through principal-agent structure"
+      },
+      "answer": "B",
+      "rationale": "Syllabus 9.2 lists the number of outside activities as a reputational risk indicator for a business location: extensive outside involvements multiply conflict and confusion possibilities that can taint the dealer's local reputation. Option A is wrong — outside activities do not change the location's size metrics such as registrant count or risk-weighting. Option C is wrong because the risk source is the registrant, not clients exploiting the location. Option D is wrong because outside activities do not alter whether the registrant is an agent or employee.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"- Number of outside activities\" — syllabus-raw.txt ~line 1627"
+    },
+    {
+      "id": "SUP-E9-0026",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Two branches of Glenrowan Securities are identical in headcount, but Branch X recently disciplined two RRs internally for sales-practice breaches while Branch Y has a clean record. In a syllabus 9.2 risk scoring, the disciplinary history at Branch X raises its score in which category?",
+      "options": {
+        "A": "Business activity risk",
+        "B": "Business location size risk",
+        "C": "Reputational risk",
+        "D": "Internal risk through adequacy of resources"
+      },
+      "answer": "C",
+      "rationale": "Syllabus 9.2 lists any internal disciplinary action among the reputational risk indicators of a business location: a discipline history signals conduct problems that can recur and harm the dealer's standing. Option A would fit if the differentiator were trading errors or product exposure. Option B is unchanged because both branches are the same size. Option D mislabels the issue — the branches' resources are not described as deficient; the differentiator is past misconduct.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"- Any internal disciplinary action\" — syllabus-raw.txt ~line 1628"
+    },
+    {
+      "id": "SUP-E9-0027",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A coastal branch of Marrow Point Securities serves a port community with high cash-intensive seasonal income, and head office has flagged several accounts there for unusual third-party deposits and rapid pass-through transfers. In the syllabus 9.2 framework, what kind of location risk is materializing?",
+      "options": {
+        "A": "Client base risk — clients may be using the location for inappropriate actions",
+        "B": "Key person reliance",
+        "C": "Number of trading errors",
+        "D": "Risk-weighting"
+      },
+      "answer": "A",
+      "rationale": "Syllabus 9.2 describes client base risk as the business location assuming the risk that clients may use it for inappropriate actions; pass-through transfers and unusual third-party deposits are classic indicators of clients exploiting a location, engaging the dealer's AML obligations. Option B concerns dependence on one individual, which is not described. Option C concerns the branch's own execution errors, not client conduct. Option D is a sizing input, not a description of client misuse.",
+      "rule_refs": [
+        "Syllabus 9.2",
+        "IDPC 3926(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"use it for inappropriate actions\" — syllabus-raw.txt ~line 1639"
+    },
+    {
+      "id": "SUP-E9-0028",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Ridley & Mar Securities operates one branch through agents who own their premises and equipment under a principal-agent contract, and another branch staffed by employees in dealer-leased space. From a syllabus 9.2 internal risk perspective, why might the agent branch warrant closer location oversight?",
+      "options": {
+        "A": "Agents are exempt from CIRO conduct rules, so the dealer has no recourse",
+        "B": "The principal-agent structure can weaken the dealer's direct control over the location's premises, records and day-to-day practices, so supervision must compensate",
+        "C": "Agent branches cannot be designated as business locations",
+        "D": "Employee branches are legally riskier in every respect"
+      },
+      "answer": "B",
+      "rationale": "Principal-agent is a listed internal risk factor in syllabus 9.2: when the location's people and infrastructure are not directly employed and owned by the dealer, the dealer's everyday control levers are weaker and supervisory design must close that gap. Option A is false — Approved Persons under agency arrangements remain fully subject to CIRO requirements and dealer supervision. Option C is false — the business-location definition turns on registrable activity, not employment form. Option D overcorrects; the framework flags a structural factor, not a blanket ranking.",
+      "rule_refs": [
+        "Syllabus 9.2",
+        "IDPC 1201"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"- Principal-agent\" — syllabus-raw.txt ~line 1624"
+    },
+    {
+      "id": "SUP-E9-0029",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Which statement correctly distinguishes internal risk factors from reputational risk in the syllabus 9.2 location framework?",
+      "options": {
+        "A": "Internal factors concern the location's structure and capacity — resources, key persons, principal-agent — while reputational factors concern conduct signals visible to clients and community, such as complaints, discipline, outside activities and local marketing",
+        "B": "Internal factors are only financial; reputational factors are only legal",
+        "C": "Internal factors apply to head office; reputational factors apply only to branches",
+        "D": "The two categories are interchangeable labels for the same items"
+      },
+      "answer": "A",
+      "rationale": "Syllabus 9.2 lists internal risk factors as adequacy of resources, key person reliance and principal-agent — structural and capacity attributes — while reputational risk lists community-specific marketing strategy and sales practices, number of outside activities, any internal disciplinary action and number of complaints — conduct signals affecting how the location is perceived. Option B imposes a financial/legal split found nowhere in the lists. Option C invents a head-office/branch divide. Option D is wrong because the categories contain different, non-overlapping items.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"• Reputational risk, including:\" — syllabus-raw.txt ~line 1625"
+    },
+    {
+      "id": "SUP-E9-0030",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A location risk dashboard at Tellico Securities tracks four indicators per branch: (1) unresolved complaint count, (2) approved outside activities per registrant, (3) compliance-flagged internal discipline events, (4) gross commission per quarter. Which indicator does NOT belong to the syllabus 9.2 reputational risk list?",
+      "options": {
+        "A": "Indicator (1)",
+        "B": "Indicator (2)",
+        "C": "Indicator (3)",
+        "D": "Indicator (4)"
+      },
+      "answer": "D",
+      "rationale": "Syllabus 9.2's reputational risk list comprises community-specific marketing strategy and sales practices, number of outside activities, any internal disciplinary action, and number of complaints — covering indicators (1), (2) and (3). Gross commission is a revenue measure; at most it feeds size or business-activity analysis, and it is the only indicator absent from the reputational list, making option D correct and options A through C incorrect because each names a listed reputational item.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"- Any internal disciplinary action\" — syllabus-raw.txt ~line 1628"
+    },
+    {
+      "id": "SUP-E9-0031",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Wexford Private Wealth discovers that one branch RR has concentrated 60% of his retail book in a private real-estate debenture that trades rarely, has no published pricing, and was marketed as an \"alternative income solution.\" Applying syllabus 9.3, which retail distribution risk does this most directly engage?",
+      "options": {
+        "A": "Improper reassignment of terminated registrants' accounts",
+        "B": "Inadequate follow-up on compliance audit findings",
+        "C": "Failure to meet requirements for managing the margin activities of clients",
+        "D": "The sale of complex or opaque products by individual registrants, including illiquid or alternative products"
+      },
+      "answer": "D",
+      "rationale": "Syllabus 9.3 lists the sale of complex or opaque products by individual registrants, including illiquid or alternative products, among the retail distribution risks — a thinly traded, unpriced private debenture concentrated in retail accounts fits squarely. Option A requires a departed registrant's book being moved, which is absent. Option C requires margin activity, and none is described. Option B requires a prior audit finding left untracked, which the facts do not mention.",
+      "rule_refs": [
+        "Syllabus 9.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"• The sale of complex or opaque products by individual registrants,\" — syllabus-raw.txt ~line 1643"
+    },
+    {
+      "id": "SUP-E9-0032",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "During a branch visit, the Supervisor of Kestrel Securities' Barrie office finds that client address changes are processed by any sales assistant on a verbal request from the RR, with no independent verification or client confirmation. No misconduct has yet been detected. What should the Supervisor conclude and do first?",
+      "options": {
+        "A": "Conclude there is no issue because no client has complained",
+        "B": "Conclude this is a books-and-records control weakness flagged in the retail distribution risks, and require a documented, independently verified address-change process with client confirmation",
+        "C": "Conclude the practice is acceptable if each RR signs an annual ethics attestation",
+        "D": "Conclude the only required action is to increase the branch's advertising review sampling"
+      },
+      "answer": "B",
+      "rationale": "Syllabus 9.3 names inadequate control over books and records, with particular attention to poor control of client address changes, as a retail distribution risk; address-change control failures enable diversion of client mail and concealment of unauthorized activity, so remediation cannot wait for harm. Option A confuses absence of detected harm with absence of risk. Option C substitutes an attestation for a control. Option D addresses a different 9.3 risk — advertising review — that is not the weakness found.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3926(5)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"• Inadequate control over books and records, with particular attention to\" — syllabus-raw.txt ~line 1645"
+    },
+    {
+      "id": "SUP-E9-0033",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Which IDPC requirement most directly supports a Supervisor remediating weak branch controls over who may change client account information?",
+      "options": {
+        "A": "Policies and procedures must include controls for accessing and amending client records",
+        "B": "A branch office member has one vote at a Region meeting",
+        "C": "A dealer need not pay an entrance fee for branch office members",
+        "D": "Research reports must be approved before publication"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3926(5) requires that a dealer's policies and procedures include controls for accessing and amending client records — the rule hook for the syllabus 9.3 concern with poor control of client address changes. Option B and option C are Rule 2200 Part D governance and fee provisions with no supervisory content. Option D is a Rule 3600 communications control, relevant to advertising review but not to client-record amendment.",
+      "rule_refs": [
+        "IDPC 3926(5)",
+        "Syllabus 9.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member’s policies and procedures must include controls for accessing and amending client records.\" — idpc-rules.txt ~lines 8111-8112"
+    },
+    {
+      "id": "SUP-E9-0034",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A head-office reviewer asks the Supervisor of Bellrock Capital's Windsor branch for the past year's evidence of daily and monthly account-activity supervision. The Supervisor replies that reviews \"were done on screen\" but nothing was recorded. Applying syllabus 9.3, which retail distribution risk has crystallized?",
+      "options": {
+        "A": "Commission-based compensation conflicts",
+        "B": "The sale of complex or opaque products",
+        "C": "Failure to meet regulatory standards for supervision and control, including the lack of documented evidence of overall supervision",
+        "D": "Client base risk"
+      },
+      "answer": "C",
+      "rationale": "Syllabus 9.3 lists failure to meet regulatory standards for supervision and control, including inadequate control and review of advertising and sales literature and the lack of documented evidence of overall supervision; under subsection 3927(2) the dealer must record and keep evidence of completed supervisory reviews. Undocumented reviews are, for regulatory purposes, indistinguishable from no reviews. Option A concerns compensation incentives, not record-keeping. Option B concerns product type. Option D is a 9.2 location factor about client misuse, not a supervision-evidence failure.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3927(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"literature and the lack of documented evidence of overall supervision\" — syllabus-raw.txt ~line 1649"
+    },
+    {
+      "id": "SUP-E9-0035",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A monthly exception report shows that several retail clients of Foxglove Securities' Halifax branch have been buying speculative positions while their margin calls from prior weeks remain unmet, and the branch has taken no collection or restriction steps. Applying syllabus 9.3, this is best characterized as:",
+      "options": {
+        "A": "A failure to meet requirements for managing the margin activities of clients",
+        "B": "An improper reassignment of terminated registrants' accounts",
+        "C": "Inadequate control and review of advertising",
+        "D": "The sale of opaque products"
+      },
+      "answer": "A",
+      "rationale": "Syllabus 9.3 lists failure to meet requirements for managing the margin activities of clients as a retail distribution risk; section 3946 also requires policies and procedures addressing trading while the account is under margined, and section 3945 lists outstanding margin calls among detection items. Trading on unmet calls without restriction is precisely that failure. Option B requires a departed registrant, option C requires a communications deficiency, and option D requires a complex product — none of which are in the facts.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3946(1)",
+        "IDPC 3945(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"• Failure to meet requirements for managing the margin activities of\" — syllabus-raw.txt ~line 1650"
+    },
+    {
+      "id": "SUP-E9-0036",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Last year's internal compliance audit of Stonebriar Investments' Regina branch cited weak trade-blotter reviews and required remediation within 90 days. This year's audit finds the identical deficiency, and no one at head office can locate any record of follow-up. Applying syllabus 9.3, the dealer's exposure stems primarily from:",
+      "options": {
+        "A": "Inadequate follow-up procedures to ensure that compliance audit findings are properly tracked and corrective action is taken by a business location",
+        "B": "New or complex products that are not understood by retail investors",
+        "C": "Commission-based compensation conflicts",
+        "D": "Poor control of client address changes"
+      },
+      "answer": "A",
+      "rationale": "Syllabus 9.3 lists inadequate follow-up procedures to ensure that compliance audit findings are properly tracked and corrective action is taken by a business location; a repeated, unremediated finding with no follow-up record is the textbook case, and it also implicates 3908(3)'s requirement to record compliance issues identified and their resolution. Options B, C and D are other 9.3 risks that the facts do not raise — there is no product, compensation or address-change element described.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3908(3)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"• Inadequate follow-up procedures to ensure that compliance audit\" — syllabus-raw.txt ~line 1652"
+    },
+    {
+      "id": "SUP-E9-0037",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "After terminating RR Daniel Okafor for unauthorized trading, the Calgary branch manager of Penhall Securities moves Okafor's entire 240-account book to a newly licensed RR with four months' experience, with no review of account complexity, no client notification plan, and no enhanced oversight of the accounts Okafor traded improperly. Applying syllabus 9.3, the principal risk realized is:",
+      "options": {
+        "A": "The sale of complex or opaque products",
+        "B": "Client base risk",
+        "C": "Inadequate control and review of advertising",
+        "D": "Improper reassignment of terminated registrants' accounts"
+      },
+      "answer": "D",
+      "rationale": "Syllabus 9.3 lists improper reassignment of terminated registrants' accounts as a retail distribution risk: dumping a disciplined registrant's full book on an inexperienced RR without triage, client communication or heightened review compounds the harm the termination was meant to stop — and new RRs are themselves subject to close supervision under section 3947. Option A concerns product type, option B concerns clients exploiting the location, and option C concerns communications review; none match the reassignment facts.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3947(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"• Improper reassignment terminated registrants’ accounts\" — syllabus-raw.txt ~line 1658"
+    },
+    {
+      "id": "SUP-E9-0038",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor reviewing Larchwood Securities' Sudbury branch finds that locally produced client seminar handouts containing performance summaries used to solicit clients have been distributed for months on the branch manager's say-so alone. To remediate the 9.3 risk of inadequate control and review of advertising and sales literature, what must the Supervisor enforce under Rule 3600?",
+      "options": {
+        "A": "Approval by a designated Supervisor before use or publication of material containing performance reports or summaries used to solicit clients",
+        "B": "Filing of each handout with CIRO ten days before use",
+        "C": "A disclaimer stating that past performance guarantees future results",
+        "D": "Post-use sampling only, since seminar materials never require pre-use approval"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3602(3) requires designated-Supervisor approval before use or publication for listed items, including any material containing performance reports or summaries that is used to solicit clients; branch-manager say-so does not satisfy the designated-Supervisor approval requirement. Option B invents a CIRO pre-filing regime. Option C states a prohibited promise — guarantees of results are barred by 3602(1). Option D misapplies 3602(4): the post-use review and sampling options apply only to material not listed in 3602(3), and performance-solicitation material is listed.",
+      "rule_refs": [
+        "IDPC 3602(3)",
+        "Syllabus 9.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"any material containing performance reports or summaries that is used to solicit clients.\" — idpc-rules.txt ~line 5873"
+    },
+    {
+      "id": "SUP-E9-0039",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Returned client mail at Brightcliffe Securities' Oshawa branch is currently re-mailed by the sending RR's own assistant to whatever new address the RR supplies. To meet the IDPC minimum for returned mail procedures and close the related books-and-records distribution risk, the Supervisor should require that returned retail client mail be:",
+      "options": {
+        "A": "Destroyed after 30 days to protect client privacy",
+        "B": "Controlled and investigated by a person independent of the sales function, with a record of all investigations and their results maintained",
+        "C": "Re-mailed by the RR personally rather than the assistant",
+        "D": "Forwarded to CIRO for address verification"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3219(3) sets the minimum: returned mail procedures must include a rule requiring control and investigation by a person independent of the sales function — who may be located within a business location — and a rule requiring that a record of all investigations and their results be maintained. Letting the RR's team control returned mail destroys the independence that detects fictitious addresses, the same exposure syllabus 9.3 flags via poor control of client address changes. Option A destroys evidence, option C worsens the independence failure, and option D invents a CIRO role.",
+      "rule_refs": [
+        "IDPC 3219(3)",
+        "Syllabus 9.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"a rule requiring the control and investigation by a person independent of the sales function,\" — idpc-rules.txt ~line 4897"
+    },
+    {
+      "id": "SUP-E9-0040",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An anonymous tip alleges that an RR at Greywater Capital's Kelowna branch has been selling clients an illiquid mortgage-pool product while branch supervision files show no record of any review of his accounts for six months. Applying syllabus 9.3, which combination of retail distribution risks should drive the Supervisor's investigation plan?",
+      "options": {
+        "A": "Margin-management failure plus advertising deficiencies",
+        "B": "Improper account reassignment plus client base risk",
+        "C": "Sale of complex or opaque products, including illiquid products, plus the lack of documented evidence of overall supervision",
+        "D": "Commission conflicts plus trade-error volume"
+      },
+      "answer": "C",
+      "rationale": "Two listed 9.3 risks intersect: the sale of complex or opaque products by individual registrants, including illiquid or alternative products, and failure to meet regulatory standards for supervision and control through the lack of documented evidence of overall supervision. The illiquid mortgage pool engages the first; the six-month documentation void engages the second and breaches 3927(2). Option A misreads the facts — no margin or advertising element is present. Option B requires a terminated registrant or client misuse, neither present. Option D requires compensation-cycle or error evidence, also absent.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3927(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"including illiquid or alternative products\" — syllabus-raw.txt ~line 1644"
+    },
+    {
+      "id": "SUP-E9-0041",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An RR at Dunbarton Securities tells his Supervisor that a retiree client \"basically gets\" the leveraged ETF pair he has been day-trading in her account, though her notes say she wanted \"savings that don't jump around.\" The product passed firm-level due diligence. Applying syllabus 9.3, the Supervisor's best characterization is:",
+      "options": {
+        "A": "No risk — firm-level product approval covers individual sales",
+        "B": "Client base risk — the client is misusing the branch",
+        "C": "A retail distribution risk: a complex product not understood by the retail investor, sold by an individual registrant, requiring suitability scrutiny of the activity",
+        "D": "A trade-name violation"
+      },
+      "answer": "C",
+      "rationale": "Syllabus 9.3 separately flags new or complex products that are not understood by retail investors and the sale of complex products by individual registrants — distribution risk lives at the point of sale even when the product itself passed firm due diligence, and the mismatch with the client's stated wishes demands suitability scrutiny. Option A repeats the error 9.3 is designed to prevent: approval at the shelf level does not validate each sale. Option B blames the client for the registrant's conduct. Option D is irrelevant to the facts.",
+      "rule_refs": [
+        "Syllabus 9.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"New or complex products that are not understood by retail investors\" — syllabus-raw.txt ~line 1655"
+    },
+    {
+      "id": "SUP-E9-0042",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Velden Securities' compensation committee proposes paying branch RRs a 25% bonus on commissions from a new in-house alternative fund during its launch quarter. As the Supervisor consulted on distribution controls, which response best applies syllabus 9.3?",
+      "options": {
+        "A": "Approve without conditions, since bonuses are a management prerogative",
+        "B": "Flag that the program layers a commission-based compensation conflict onto the sale of a complex or alternative product, and require enhanced supervision of the fund's sales before launch",
+        "C": "Refuse because RRs may never be paid commissions",
+        "D": "Require only that the bonus be disclosed to CIRO after the quarter ends"
+      },
+      "answer": "B",
+      "rationale": "Two 9.3 risks compound: commission-based compensation programs that may present conflicts of interest between the economic interests of the clients and an Approved Person, and the sale of complex or opaque products including alternative products. A launch bonus on an in-house alternative fund stacks the incentive precisely where product risk is highest, so supervision of those sales must be enhanced pre-launch. Option A ignores the Supervisor's control role. Option C overshoots — commissions are permitted; the issue is managing the conflict. Option D substitutes after-the-fact disclosure for supervision, and no such CIRO filing is prescribed.",
+      "rule_refs": [
+        "Syllabus 9.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"conflicts of interest between the economic interests of the\" — syllabus-raw.txt ~line 1660"
+    },
+    {
+      "id": "SUP-E9-0043",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "After RR Priya Shenoy resigns from Almer Ridge Securities, her accounts must be reassigned. To avoid the 9.3 risk of improper reassignment of terminated registrants' accounts, which approach should the branch Supervisor take?",
+      "options": {
+        "A": "Distribute accounts based solely on which remaining RR asks first",
+        "B": "Assign the entire book to the branch's newest IR to build their experience",
+        "C": "Freeze every account for one year",
+        "D": "Reassign with regard to the receiving RRs' qualifications and capacity, review the book for issues before transfer, and ensure clients are appropriately informed of the change"
+      },
+      "answer": "D",
+      "rationale": "Improper reassignment terminated registrants' accounts appears on the syllabus 9.3 risk list; a proper reassignment matches accounts to qualified, available registrants, screens the departing book for problems, and keeps clients informed — which also serves the 3905(5) proficiency principle for those now handling the accounts. Option A ignores qualification and capacity entirely. Option C punishes clients with a needless freeze that no rule requires. Option B repeats the classic failure: loading an inexperienced registrant with a complex book.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3905(5)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Improper reassignment terminated registrants’ accounts\" — syllabus-raw.txt ~line 1658"
+    },
+    {
+      "id": "SUP-E9-0044",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retiring couple at Glaston Securities' Thunder Bay branch holds a margin account their RR has been using to leverage dividend stocks. Their statements show the account drifting near margin limits monthly, and the RR resolves each shortfall by selling small positions without discussing the leverage with the clients. Which supervisory application best addresses the syllabus 9.3 margin-management risk here?",
+      "options": {
+        "A": "No action — shortfalls are being cured, so the requirement is met",
+        "B": "Instruct the RR to stop sending margin calls to avoid alarming the clients",
+        "C": "Convert the account to institutional status to remove margin rules",
+        "D": "Review whether the ongoing leverage remains appropriate for the clients and whether the branch is identifying and escalating the recurring near-limit activity as its policies and procedures require"
+      },
+      "answer": "D",
+      "rationale": "Failure to meet requirements for managing the margin activities of clients is a listed 9.3 risk, and section 3946 requires policies and procedures for identifying, dealing with and informing the appropriate Supervisors of trading while the account is under margined; a chronic near-limit pattern in a retirement context demands review of the strategy's continued appropriateness, not just mechanical cures. Option A mistakes symptom management for supervision. Option C is impossible — client classification follows the definition, not convenience. Option B suppresses required client communication and worsens the control failure.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3946(1)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"• Failure to meet requirements for managing the margin activities of\" — syllabus-raw.txt ~line 1650"
+    },
+    {
+      "id": "SUP-E9-0045",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E9-SET-01",
+      "scenario": "Aurora Crest Securities, an Investment Dealer headquartered in Winnipeg, operates 17 business locations across the Prairies, including the home office of RR Tomas Reyes in Brandon, from which he carries on regular and ongoing advising activity and keeps client files. Head office is building its annual business-location oversight cycle. The compliance team has drafted: (i) a statement of which locations and activities the program covers; (ii) an audit work program with training modules for the three head-office staff who will visit locations; (iii) a risk-scoring model that weights each location using registrant counts, product lines sold there, complaint and discipline history, staffing depth, agent-versus-employee structure, and client-base AML flags; and (iv) a reporting template that records findings, assigns owners and tracks corrective action to closure. The Brandon location has no resident Supervisor; an outside Supervisor in Winnipeg is assigned to it. Last cycle's audit of the Regina branch found stale trade-blotter reviews, and the new cycle must confirm what happened to that finding.",
+      "stem": "Reyes argues his Brandon home office is \"just a home office\" and should fall outside item (i)'s coverage statement. Under the IDPC Rules and the 9.1 scope component, is he correct?",
+      "options": {
+        "A": "Yes — residences can never be business locations",
+        "B": "Yes — only locations with a resident Supervisor are business locations",
+        "C": "No — a residence is a business location where regular and ongoing activity requiring registration or approval is carried out from it or related records are kept there, so it belongs within the program's scope",
+        "D": "No — but only because Reyes is an RR rather than an IR"
+      },
+      "answer": "C",
+      "rationale": "The Rule 1201 definition includes a residence if regular and ongoing activity that requires registration or approval is carried out from the residence or if records relating to such activity are kept at the residence — Reyes does both, so the 9.1 scope component must capture his home office. Option A states the opposite of the definition. Option B confuses the branch-office-member concept in Rule 2200 Part D (Supervisor normally present) with the business-location definition. Option D invents a category distinction; the definition turns on activity and records, not approval category.",
+      "rule_refs": [
+        "IDPC 1201",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"relating to an activity that requires registration or approval are kept\" — idpc-rules.txt ~line 236"
+    },
+    {
+      "id": "SUP-E9-0046",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E9-SET-01",
+      "scenario": "Aurora Crest Securities, an Investment Dealer headquartered in Winnipeg, operates 17 business locations across the Prairies, including the home office of RR Tomas Reyes in Brandon, from which he carries on regular and ongoing advising activity and keeps client files. Head office is building its annual business-location oversight cycle. The compliance team has drafted: (i) a statement of which locations and activities the program covers; (ii) an audit work program with training modules for the three head-office staff who will visit locations; (iii) a risk-scoring model that weights each location using registrant counts, product lines sold there, complaint and discipline history, staffing depth, agent-versus-employee structure, and client-base AML flags; and (iv) a reporting template that records findings, assigns owners and tracks corrective action to closure. The Brandon location has no resident Supervisor; an outside Supervisor in Winnipeg is assigned to it. Last cycle's audit of the Regina branch found stale trade-blotter reviews, and the new cycle must confirm what happened to that finding.",
+      "stem": "Mapping Aurora Crest's drafted items (i) through (iv) to the syllabus 9.1 components, which single guideline component is NOT yet represented by a drafted item, considering that the risk-scoring model in item (iii) covers risk identification?",
+      "options": {
+        "A": "Scope",
+        "B": "Planning",
+        "C": "Business location audit program and training",
+        "D": "Audit report and follow up"
+      },
+      "answer": "B",
+      "rationale": "Syllabus 9.1 lists five components: scope, planning, business location audit program and training, risk identification, and audit report and follow up. Item (i) is scope, item (ii) is the audit program and training, item (iii) is risk identification, and item (iv) is the audit report and follow up. No drafted item yet sets the schedule, sequencing and resource allocation for the cycle — that is planning. Options A, C and D each name a component already covered by a drafted item.",
+      "rule_refs": [
+        "Syllabus 9.1"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"• Audit report and follow up\" — syllabus-raw.txt ~line 1617"
+    },
+    {
+      "id": "SUP-E9-0047",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E9-SET-01",
+      "scenario": "Aurora Crest Securities, an Investment Dealer headquartered in Winnipeg, operates 17 business locations across the Prairies, including the home office of RR Tomas Reyes in Brandon, from which he carries on regular and ongoing advising activity and keeps client files. Head office is building its annual business-location oversight cycle. The compliance team has drafted: (i) a statement of which locations and activities the program covers; (ii) an audit work program with training modules for the three head-office staff who will visit locations; (iii) a risk-scoring model that weights each location using registrant counts, product lines sold there, complaint and discipline history, staffing depth, agent-versus-employee structure, and client-base AML flags; and (iv) a reporting template that records findings, assigns owners and tracks corrective action to closure. The Brandon location has no resident Supervisor; an outside Supervisor in Winnipeg is assigned to it. Last cycle's audit of the Regina branch found stale trade-blotter reviews, and the new cycle must confirm what happened to that finding.",
+      "stem": "Within item (iii)'s risk-scoring model, how do the inputs \"staffing depth\" and \"agent-versus-employee structure\" map onto the syllabus 9.2 categories?",
+      "options": {
+        "A": "Both are internal risk factors — adequacy of resources and principal-agent respectively",
+        "B": "Both are reputational risk factors",
+        "C": "Staffing depth is client base risk; agent structure is size risk",
+        "D": "Staffing depth is business activity risk; agent structure is reputational risk"
+      },
+      "answer": "A",
+      "rationale": "Syllabus 9.2's internal risk factors are adequacy of resources, key person reliance, and principal-agent. Staffing depth measures whether the location's resources are adequate; agent-versus-employee structure is the principal-agent factor. Option B is wrong — reputational risk covers community marketing, outside activities, discipline and complaints, none of which these inputs measure. Option C misplaces both: thin staffing is not about client misuse and structure is not a sizing metric. Option D misplaces both as well — neither input concerns products sold or conduct signals.",
+      "rule_refs": [
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"- Adequacy of resources\" — syllabus-raw.txt ~line 1622"
+    },
+    {
+      "id": "SUP-E9-0048",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E9-SET-01",
+      "scenario": "Aurora Crest Securities, an Investment Dealer headquartered in Winnipeg, operates 17 business locations across the Prairies, including the home office of RR Tomas Reyes in Brandon, from which he carries on regular and ongoing advising activity and keeps client files. Head office is building its annual business-location oversight cycle. The compliance team has drafted: (i) a statement of which locations and activities the program covers; (ii) an audit work program with training modules for the three head-office staff who will visit locations; (iii) a risk-scoring model that weights each location using registrant counts, product lines sold there, complaint and discipline history, staffing depth, agent-versus-employee structure, and client-base AML flags; and (iv) a reporting template that records findings, assigns owners and tracks corrective action to closure. The Brandon location has no resident Supervisor; an outside Supervisor in Winnipeg is assigned to it. Last cycle's audit of the Regina branch found stale trade-blotter reviews, and the new cycle must confirm what happened to that finding.",
+      "stem": "For the Brandon location with its assigned outside Supervisor in Winnipeg, what does CIRO's guidance expect of that supervisory arrangement?",
+      "options": {
+        "A": "The outside Supervisor may rely entirely on Reyes's self-attestations",
+        "B": "The location must convert to employee status before any supervision applies",
+        "C": "The outside Supervisor's only duty is approving Reyes's vacation requests",
+        "D": "The outside Supervisor should visit the location periodically to review business conduct and compliance with applicable laws, and the dealer's policies and procedures should specifically address those visits"
+      },
+      "answer": "D",
+      "rationale": "The guidance states that business locations without Resident Supervisors should have an assigned outside Supervisor who should visit the location periodically to review business conduct and compliance with applicable laws, with the dealer's policies and procedures specifically addressing these outside Supervisor visits. Option A guts the requirement — self-attestation is not periodic on-site review of business conduct. Option C trivializes the supervisory function. Option B invents a conversion condition; supervision obligations apply regardless of the registrant's employment or agency arrangement.",
+      "rule_refs": [
+        "GN-3900-20-001",
+        "Syllabus 9.2",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Supervisor. The outside Supervisor should visit the location periodically to review\" — gn-3900-20-001.txt ~line 170"
+    },
+    {
+      "id": "SUP-E9-0049",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E9-SET-02",
+      "scenario": "Saint-Laurent Capitale Inc., an Investment Dealer based in Montreal, runs a retail branch in Trois-Rivières with nine RRs and a producing branch manager, Chantal Aubin, who is the location's designated Supervisor. A head-office distribution-risk review of the branch surfaces four findings: (1) RR Marc Belisle has placed 35 retail households into a non-prospectus flow-through limited partnership with no secondary market, and his quarterly commissions doubled during the campaign; (2) the branch's client-file sample shows seven address changes processed on Belisle's emailed instructions alone, with no client verification, three of which redirected statements away from spouses on joint accounts; (3) the branch's supervision binder shows daily blotter reviews initialled only sporadically, with whole weeks blank, and last year's head-office audit letter directing fixes to this exact gap sits unanswered in the file; (4) Aubin approves her own client trades and no other Supervisor reviews her producing activity.",
+      "stem": "Finding (1) — concentrated placement of an illiquid non-prospectus partnership alongside doubled commissions — engages which pair of syllabus 9.3 retail distribution risks?",
+      "options": {
+        "A": "Improper reassignment of terminated registrants' accounts, and margin-management failure",
+        "B": "The sale of complex or opaque products including illiquid or alternative products, and commission-based compensation conflicts between client and Approved Person economic interests",
+        "C": "Poor control of client address changes, and lack of documented supervision",
+        "D": "Client base risk and risk-weighting"
+      },
+      "answer": "B",
+      "rationale": "Two 9.3 risks combine in finding (1): the sale of complex or opaque products by individual registrants, including illiquid or alternative products — a non-prospectus flow-through LP with no secondary market is exactly that — and commission-based compensation programs that may present conflicts of interest between the economic interests of the clients and an Approved Person, evidenced by the doubled payout during the campaign. Option A names risks absent from these facts. Option C describes findings (2) and (3), not (1). Option D imports 9.2 location factors instead of 9.3 distribution risks.",
+      "rule_refs": [
+        "Syllabus 9.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"including illiquid or alternative products\" — syllabus-raw.txt ~line 1644"
+    },
+    {
+      "id": "SUP-E9-0050",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E9-SET-02",
+      "scenario": "Saint-Laurent Capitale Inc., an Investment Dealer based in Montreal, runs a retail branch in Trois-Rivières with nine RRs and a producing branch manager, Chantal Aubin, who is the location's designated Supervisor. A head-office distribution-risk review of the branch surfaces four findings: (1) RR Marc Belisle has placed 35 retail households into a non-prospectus flow-through limited partnership with no secondary market, and his quarterly commissions doubled during the campaign; (2) the branch's client-file sample shows seven address changes processed on Belisle's emailed instructions alone, with no client verification, three of which redirected statements away from spouses on joint accounts; (3) the branch's supervision binder shows daily blotter reviews initialled only sporadically, with whole weeks blank, and last year's head-office audit letter directing fixes to this exact gap sits unanswered in the file; (4) Aubin approves her own client trades and no other Supervisor reviews her producing activity.",
+      "stem": "Regarding finding (2), what is the most defensible immediate supervisory response, applying syllabus 9.3 and the related IDPC control requirements?",
+      "options": {
+        "A": "Wait for the next annual audit to re-test the sample",
+        "B": "Accept the practice if Belisle certifies the emails were genuine",
+        "C": "Treat it as the flagged books-and-records risk: suspend RR-initiated address changes pending client verification, confirm each redirected address directly with the affected clients, and enforce controls for accessing and amending client records",
+        "D": "Reclassify the three joint accounts as institutional to simplify review"
+      },
+      "answer": "C",
+      "rationale": "Syllabus 9.3 directs particular attention to poor control of client address changes, and subsection 3926(5) requires policies and procedures to include controls for accessing and amending client records. Address changes on a registrant's sole say-so — especially ones diverting statements from joint holders — are a concealment red flag demanding immediate verification with the clients themselves and a control fix, not deferral. Option A leaves a live diversion channel open for a year. Option B lets the conflicted party validate his own changes. Option D is impossible — retail joint households cannot be reclassified institutional to dodge review.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3926(5)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"poor control of client address changes\" — syllabus-raw.txt ~line 1646"
+    },
+    {
+      "id": "SUP-E9-0051",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E9-SET-02",
+      "scenario": "Saint-Laurent Capitale Inc., an Investment Dealer based in Montreal, runs a retail branch in Trois-Rivières with nine RRs and a producing branch manager, Chantal Aubin, who is the location's designated Supervisor. A head-office distribution-risk review of the branch surfaces four findings: (1) RR Marc Belisle has placed 35 retail households into a non-prospectus flow-through limited partnership with no secondary market, and his quarterly commissions doubled during the campaign; (2) the branch's client-file sample shows seven address changes processed on Belisle's emailed instructions alone, with no client verification, three of which redirected statements away from spouses on joint accounts; (3) the branch's supervision binder shows daily blotter reviews initialled only sporadically, with whole weeks blank, and last year's head-office audit letter directing fixes to this exact gap sits unanswered in the file; (4) Aubin approves her own client trades and no other Supervisor reviews her producing activity.",
+      "stem": "Finding (3) — sporadic review evidence plus last year's unanswered audit letter on the same gap — combines which two syllabus 9.3 retail distribution risks?",
+      "options": {
+        "A": "Margin-management failure and improper account reassignment",
+        "B": "Complex-product sales and client base risk",
+        "C": "Lack of documented evidence of overall supervision, and inadequate follow-up procedures to ensure compliance audit findings are properly tracked and corrective action is taken by a business location",
+        "D": "Commission conflicts and community-specific marketing"
+      },
+      "answer": "C",
+      "rationale": "Syllabus 9.3 lists failure to meet regulatory standards for supervision and control including the lack of documented evidence of overall supervision, and separately lists inadequate follow-up procedures to ensure that compliance audit findings are properly tracked and corrective action is taken by a business location. The blank weeks evidence the first; the unanswered audit letter on the identical gap evidences the second, compounding it — under 3927(2) completed reviews must be evidenced. Option A names risks not in the facts. Option B mixes a 9.3 risk with a 9.2 factor, neither matching finding (3). Option D names finding (1)'s conflict and a 9.2 reputational factor.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3927(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"findings are properly tracked and corrective action is taken by a\" — syllabus-raw.txt ~line 1653"
+    },
+    {
+      "id": "SUP-E9-0052",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E9-SET-02",
+      "scenario": "Saint-Laurent Capitale Inc., an Investment Dealer based in Montreal, runs a retail branch in Trois-Rivières with nine RRs and a producing branch manager, Chantal Aubin, who is the location's designated Supervisor. A head-office distribution-risk review of the branch surfaces four findings: (1) RR Marc Belisle has placed 35 retail households into a non-prospectus flow-through limited partnership with no secondary market, and his quarterly commissions doubled during the campaign; (2) the branch's client-file sample shows seven address changes processed on Belisle's emailed instructions alone, with no client verification, three of which redirected statements away from spouses on joint accounts; (3) the branch's supervision binder shows daily blotter reviews initialled only sporadically, with whole weeks blank, and last year's head-office audit letter directing fixes to this exact gap sits unanswered in the file; (4) Aubin approves her own client trades and no other Supervisor reviews her producing activity.",
+      "stem": "To remediate finding (4) — Aubin approving her own client trades with no other review — what does CIRO's guidance indicate the dealer should ensure?",
+      "options": {
+        "A": "Nothing; producing Supervisors are exempt from review of their own client activity",
+        "B": "That Aubin forfeit her clients to head office permanently",
+        "C": "That Aubin's trades be reviewed only by her own sales assistant",
+        "D": "That where a Supervisor is dually-registered and also advises or trades for their own clients, another Supervisor reviews that Supervisor's advice to and trades for clients"
+      },
+      "answer": "D",
+      "rationale": "The guidance states dealers should ensure that where a Supervisor is dually-registered and also advises or trades for their own clients, another Supervisor reviews that Supervisor's advice to and trades for clients — self-review is no review, and second-tier criteria in the guidance similarly capture producing branch managers' client accounts. Option A asserts an exemption that does not exist. Option C assigns review to a subordinate non-Supervisor, failing the independent-Supervisor expectation. Option B is an extreme remedy nothing in the guidance requires; the fix is independent review, not confiscation of the book.",
+      "rule_refs": [
+        "GN-3900-20-001",
+        "Syllabus 9.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"trades for their own clients, another Supervisor reviews that Supervisor’s advice to and\" — gn-3900-20-001.txt ~line 149"
+    }
+  ]
+}

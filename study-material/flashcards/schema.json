@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CIRO Supervisor Exam flashcard",
+  "description": "Atomic crash-course flashcards keyed to the syllabus, designed to be consumed before drilling the question bank. One fact per card; back ≤ ~30 words.",
+  "type": "object",
+  "required": ["id", "element", "outcome", "type", "front", "back", "rule_refs", "status"],
+  "properties": {
+    "id": {"type": "string", "description": "Unique, e.g. FC-E9-0001"},
+    "element": {"type": "integer", "minimum": 1, "maximum": 9},
+    "outcome": {"type": "string", "description": "Learning outcome id in syllabus.json, e.g. '9.2'"},
+    "type": {
+      "type": "string",
+      "enum": ["definition", "threshold", "list", "distinction", "process", "trap"],
+      "description": "definition = term meaning; threshold = number/timeline; list = enumeration; distinction = X vs Y; process = who does what when; trap = commonly confused point the exam exploits"
+    },
+    "front": {"type": "string", "description": "Retrieval prompt — a direct question or cloze"},
+    "back": {"type": "string", "description": "Minimal complete answer, ≤ ~30 words; lists allowed as semicolon strings or arrays rendered by the site"},
+    "rule_refs": {"type": "array", "items": {"type": "string"}, "description": "e.g. ['IDPC 3908', 'Syllabus 9.1']"},
+    "source_quote": {"type": "string", "description": "Contiguous verbatim supporting quote + file + locator (QA provenance; not rendered)"},
+    "related_questions": {"type": "array", "items": {"type": "string"}, "description": "Optional bank.json IDs this card underpins (generated at gate time)"},
+    "status": {"type": "string", "enum": ["draft", "reviewed", "published"], "default": "draft"},
+    "qa_note": {"type": "string"}
+  }
+}

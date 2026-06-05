@@ -1,0 +1,12 @@
+# Dependencies & build output
+node_modules/
+dist/
+
+# Generated at build time from the source-of-truth data folders (see app/scripts/copy-data.mjs)
+app/public/data/
+
+# OS cruft
+.DS_Store
+
+# CIRO copyright documents — "may be linked, not republished" (excluded from this public repo)
+*.pdf

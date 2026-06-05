@@ -1,0 +1,9 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+
+# Generated at build time by scripts/copy-data.mjs — the source of truth lives in
+# ../question-bank and ../study-material. Never commit copies (and never copy batches/).
+public/data

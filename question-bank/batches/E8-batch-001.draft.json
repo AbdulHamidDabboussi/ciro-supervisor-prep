@@ -1,0 +1,1267 @@
+{
+  "meta": {
+    "batch": "E8-001",
+    "drafted": 50,
+    "date": "2026-06-04",
+    "corpus": [
+      "idpc-rules.txt (2026-01-08) — Rule 3600 Parts A/B/C (3601-3640), Rule 3800 (3803), Rule 1201 definitions",
+      "syllabus-raw.txt — Element 8 verbatim parameters (8.1 social media / ranking lists / CASL / off-channel)",
+      "Supervisor-Exam-Syllabus-EN.txt — Element 8 column-layout cross-check"
+    ],
+    "qa": "Gate 1 blind solve 2026-06-04: see qa-log.md. Gate 2: independent contiguous-quote verification 50/50. Gate 3 lint clean."
+  },
+  "questions": [
+    {
+      "id": "SUP-E8-0005",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Beaupré Valeurs Mobilières is drafting its compliance manual chapter on public communications. Under IDPC Rule 3600, what two things must the dealer's framework for communications with the public include?",
+      "options": {
+        "A": "Policies and procedures that specifically address communication with the public, and monitoring of compliance with those policies and procedures",
+        "B": "CIRO pre-clearance of all advertising, and an annual attestation filed with the Corporation",
+        "C": "A designated Executive's signature on every client letter, and quarterly reporting to the board",
+        "D": "Outsourcing of all advertising review to an external law firm, and a standing media-relations committee"
+      },
+      "answer": "A",
+      "rationale": "Section 3601(1) requires the dealer's policies and procedures to specifically address communication with the public and requires the dealer to monitor compliance with those policies and procedures to provide reasonable assurance of compliance by the dealer, its employees and Approved Persons. Option B is wrong because CIRO does not pre-clear dealer advertising; review and approval are internal obligations. Option C overstates the requirement — pre-use approval by a designated Supervisor applies only to the materials listed in 3602(3), not every client letter, and no Executive signature is prescribed. Option D invents an outsourcing requirement found nowhere in the rule.",
+      "rule_refs": [
+        "IDPC 3601(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member’s policies and procedures must specifically address communication with the public and the Dealer Member must monitor compliance with these policies and procedures\" — idpc-rules.txt ~lines 5839-5841"
+    },
+    {
+      "id": "SUP-E8-0006",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A draft brochure at Carmichael Investments states that 'clients who followed our balanced strategy averaged 11% annually' based on a hand-picked subset of accounts, without explaining how the subset was chosen. Why does this violate the advertising standards in IDPC section 3602?",
+      "options": {
+        "A": "It uses unrepresentative statistics to suggest unwarranted or exaggerated conclusions and fails to identify the material assumptions made in arriving at those conclusions",
+        "B": "Performance figures may never appear in a brochure under any circumstances",
+        "C": "All statistics in sales literature must be audited by an external accounting firm before use",
+        "D": "Brochures may only quote index returns, never account returns"
+      },
+      "answer": "A",
+      "rationale": "Clause 3602(1)(iii) prohibits advertisements, sales literature or correspondence that uses unrepresentative statistics to suggest unwarranted or exaggerated conclusions, or fails to identify the material assumptions made in arriving at those conclusions — a cherry-picked account subset with no methodology disclosure does both. Option B is wrong: performance content is not banned; it triggers heightened controls (material containing performance reports used to solicit clients requires designated-Supervisor pre-approval under 3602(3)(vi)). Options C and D invent audit and index-only requirements that do not exist in the rule.",
+      "rule_refs": [
+        "IDPC 3602(1)(iii)",
+        "IDPC 3602(3)(vi)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"uses unrepresentative statistics to suggest unwarranted or exaggerated conclusions, or fails to identify the material assumptions made in arriving at these conclusions,\" — idpc-rules.txt ~lines 5858-5859"
+    },
+    {
+      "id": "SUP-E8-0007",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A market commentary email drafted by a Registered Representative at Halverson Securities says 'the Bank of Canada will cut rates twice this year, so bond prices are heading up.' The statement is presented as fact. Under IDPC 3602(1), what is the deficiency?",
+      "options": {
+        "A": "Rate predictions may only be made by the dealer's chief economist",
+        "B": "Commentary on interest rates is prohibited in client emails",
+        "C": "It contains an opinion or forecast of future events that is not clearly labeled as such",
+        "D": "It is acceptable as long as the prediction later proves accurate"
+      },
+      "answer": "C",
+      "rationale": "Clause 3602(1)(iv) prohibits communications containing any opinion or forecast of future events which is not clearly labeled as such. The rate-cut prediction is a forecast presented as fact, so it must be clearly labeled as opinion or forecast. Option D is the closest trap — accuracy after the fact does not cure the labeling failure, because the prohibition attaches at the time the communication is issued. Options A and B invent restrictions on who may comment and on subject matter that do not exist in the rule.",
+      "rule_refs": [
+        "IDPC 3602(1)(iv)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"contains any opinion or forecast of future events which is not clearly labeled as such,\" — idpc-rules.txt ~line 5860"
+    },
+    {
+      "id": "SUP-E8-0008",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Drummond Capital prepares a one-page flyer on a covered-call ETF that describes the income features in detail but says nothing about the strategy's capped upside or market risk. Every statement in the flyer is factually accurate. Which standard in IDPC 3602(1) does the flyer still breach?",
+      "options": {
+        "A": "It contains an untrue statement of material fact",
+        "B": "It uses an unapproved professional title",
+        "C": "It promises specific results",
+        "D": "It fails to fairly present the potential risks to the client"
+      },
+      "answer": "D",
+      "rationale": "Clause 3602(1)(v) prohibits issuing material that fails to fairly present the potential risks to the client — accuracy of what is said does not cure a one-sided presentation that omits the risk side. Option A is the closest distractor: the related prohibition in 3602(1)(i) covers untrue statements or omissions of material fact, but the question specifies all statements are accurate, and the distinct, squarely applicable standard is the fair presentation of risks. Options B and C describe different prohibitions (misleading titles under 3640; unjustified promises of specific results under 3602(1)(ii)) not engaged by these facts.",
+      "rule_refs": [
+        "IDPC 3602(1)(v)",
+        "IDPC 3602(1)(i)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"fails to fairly present the potential risks to the client,\" — idpc-rules.txt ~line 5861"
+    },
+    {
+      "id": "SUP-E8-0009",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Registered Representative at Okafor Wealth wants to add 'Chairman's Club Top Producer 2025' to her email signature. The award is granted by the dealer to its highest-revenue advisors. Under IDPC 3640, may the Supervisor permit this?",
+      "options": {
+        "A": "Yes, because the award is genuine and internally verifiable",
+        "B": "No, because email signatures may not contain any awards of any kind",
+        "C": "Yes, provided the dealer's logo appears next to the award name",
+        "D": "No — an Approved Person who interacts with clients must not use a title, designation, award, or recognition that is based partly or entirely on their sales activity or revenue generation"
+      },
+      "answer": "D",
+      "rationale": "Clause 3640(2)(i) prohibits a client-facing Approved Person from using a title, designation, award, or recognition if it is based partly or entirely on that Approved Person's sales activity or revenue generation — a 'top producer' award is the paradigm case. Option A is the closest distractor: genuineness is irrelevant because the prohibition targets the revenue basis of the recognition, not its accuracy. Option C's logo does not change the analysis. Option B overshoots — awards not based on sales activity or revenue generation (for example, a bona fide professional designation) are not caught by this clause.",
+      "rule_refs": [
+        "IDPC 3640(2)(i)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"if based partly or entirely on that Approved Person’s sales activity or revenue generation, a title, designation, award, or recognition,\" — idpc-rules.txt ~lines 6109-6110"
+    },
+    {
+      "id": "SUP-E8-0010",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client-facing Registered Representative at Pelletier Securities prints business cards calling himself 'Vice-President, Private Clients.' The dealer has never appointed him to any corporate office. Under IDPC 3640(2), this use of the title is:",
+      "options": {
+        "A": "Acceptable, since 'Vice-President' is a common courtesy title in the industry",
+        "B": "Acceptable if his branch manager verbally agrees",
+        "C": "Prohibited — a corporate officer title may not be used unless the dealer has appointed the Approved Person to that corporate office pursuant to applicable corporate law",
+        "D": "Prohibited only if a client actually complains of being misled"
+      },
+      "answer": "C",
+      "rationale": "Clause 3640(2)(ii) prohibits a client-facing Approved Person from using a corporate officer title unless their dealer has appointed that Approved Person to that corporate office pursuant to applicable corporate law. Option A is the trap — industry custom does not override the express prohibition. Option B fails because the clause requires an appointment to the office under corporate law, not informal managerial consent. Option D is wrong because the prohibition operates regardless of whether anyone was actually misled; 3640(1) is framed around what 'could reasonably be expected to deceive or mislead.'",
+      "rule_refs": [
+        "IDPC 3640(2)(ii)",
+        "IDPC 3640(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"a corporate officer title, unless their Dealer Member has appointed that Approved Person to that corporate office pursuant to applicable corporate law,\" — idpc-rules.txt ~lines 6111-6112"
+    },
+    {
+      "id": "SUP-E8-0011",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A team of Registered Representatives at Whitfield Securities markets itself under the trade name 'Whitfield Pension Guardians,' although the team offers no pension administration services and is not affiliated with any pension plan. Which aspect of IDPC 3640(1) is engaged?",
+      "options": {
+        "A": "Trade names are entirely prohibited; only the dealer's legal name may appear in marketing",
+        "B": "Holding themselves out through a trade name in a manner that could reasonably be expected to mislead as to the products or services provided, or to be provided",
+        "C": "Trade names need only be registered with the local chamber of commerce",
+        "D": "The trade name is acceptable because no specific performance is promised"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3640(1) prohibits an Approved Person from holding themselves out, including through the use of a trade name, in a manner that could reasonably be expected to deceive or mislead as to (among other things) the products or services provided, or to be provided. 'Pension Guardians' implies a pension service the team does not offer. Option A is wrong — trade names are not banned outright; the rule regulates misleading use. Option D confuses this with the separate 3602(1)(ii) prohibition on promises of specific results; a communication can mislead about services without promising performance. Option C invents an irrelevant registration test.",
+      "rule_refs": [
+        "IDPC 3640(1)(iii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"a Dealer Member must not hold itself or its Approved Persons out, including through the use of a trade name, in a manner that could reasonably be expected to deceive or mislead any person or company\" — idpc-rules.txt ~lines 6097-6099"
+    },
+    {
+      "id": "SUP-E8-0012",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The compliance department at Sherbrooke Investments asks how long it must keep copies of past advertisements and the related records of supervisory review, and in what state of accessibility. Under IDPC 3602(6) and section 3803, the answer is:",
+      "options": {
+        "A": "Two years, in any format, available within 30 days of a CIRO request",
+        "B": "Five years, but only for advertisements that generated client complaints",
+        "C": "A minimum of seven years from the date the record is created, in durable and accessible form, and readily available for inspection by the Corporation",
+        "D": "Indefinitely, in original paper form only"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3602(6) requires the dealer to retain copies of all advertisements, sales literature and correspondence and all records of supervision for the period set out in section 3803, and those items must be readily available for inspection by the Corporation. Section 3803(1) sets that period at a minimum of seven years from the date the record is created, in durable and accessible form, unless a different period is prescribed. Option A understates both the period and the availability standard. Option B is wrong — retention applies to all such records, not only complaint-linked ones. Option D overstates the period and the rule does not require paper originals.",
+      "rule_refs": [
+        "IDPC 3602(6)",
+        "IDPC 3803(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"for a minimum of seven years from the date the record is created unless Corporation requirements or securities laws relating to the specific type of record require a different retention period.\" — idpc-rules.txt ~lines 6721-6723"
+    },
+    {
+      "id": "SUP-E8-0013",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Lachapelle Securities is updating the firm's marketing policies and procedures and lists the legal regimes the review program must take into account. According to the Supervisor Exam syllabus parameters for outcome 8.1, which piece of legislation is specifically identified as a legislative requirement relevant to supervising client communications?",
+      "options": {
+        "A": "The Bank Act",
+        "B": "The Bankruptcy and Insolvency Act",
+        "C": "The Canada Business Corporations Act",
+        "D": "Canadian Anti-spam Legislation"
+      },
+      "answer": "D",
+      "rationale": "The syllabus parameter for outcome 8.1 expressly lists 'Legislative requirements, including Canadian Anti-spam Legislation' among the matters a Supervisor must understand when reviewing and supervising advertisements, sales literature and client correspondence — commercial electronic messages to clients and prospects engage CASL. This also aligns with clause 3602(1)(vii), which prohibits communications that fail to comply with Corporation requirements or any applicable laws. The Bank Act, BIA and CBCA (options A, B, C) are real statutes but are not the legislation the syllabus singles out for communications supervision.",
+      "rule_refs": [
+        "Syllabus 8.1",
+        "IDPC 3602(1)(vii)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Legislative requirements, including Canadian Anti-spam Legislation\" — syllabus-raw.txt ~line 1531"
+    },
+    {
+      "id": "SUP-E8-0014",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Verdun Capital discovers that a Registered Representative has been discussing trade ideas with clients through a personal encrypted messaging app instead of the dealer's approved email and chat systems. Why is this 'off-channel' communication a supervisory problem under the IDPC framework?",
+      "options": {
+        "A": "Encrypted apps are illegal in Canada for any business use",
+        "B": "Business correspondence sent outside firm systems escapes the dealer's required review and supervision and cannot be retained with the records of supervision the dealer must keep and make readily available for inspection",
+        "C": "It is only a problem if a client suffers a loss on a recommended trade",
+        "D": "Personal devices may be used freely as long as the Representative summarizes the conversations monthly"
+      },
+      "answer": "B",
+      "rationale": "Off-channel communication issues are an express syllabus parameter under outcome 8.1, and the underlying rule obligations explain why: 3602(2) requires policies and procedures specifically addressing the review and supervision of correspondence relating to the dealer's business, and 3602(6) requires the dealer to retain copies of all correspondence and all records of supervision, readily available for inspection by the Corporation. Correspondence on a personal app defeats both review and retention. Option C is wrong because the obligations are not loss-contingent. Option D's monthly summaries do not satisfy retention of the correspondence itself. Option A is a false legal claim.",
+      "rule_refs": [
+        "Syllabus 8.1",
+        "IDPC 3602(2)",
+        "IDPC 3602(6)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must retain copies of all advertisements, sales literature and correspondence and all records of supervision for the period set out in section 3803.\" — idpc-rules.txt ~lines 5889-5890"
+    },
+    {
+      "id": "SUP-E8-0015",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "For advertising, sales literature or correspondence that is NOT on the list of items requiring designated-Supervisor approval before use, IDPC 3602(4) requires the Investment Dealer to ensure the material is reviewed in a manner appropriate to its type through which of the following methods?",
+      "options": {
+        "A": "Pre-use approval, post-use review, or post-use sampling",
+        "B": "Post-use sampling only; pre-use approval is prohibited for unlisted material",
+        "C": "External legal review followed by CIRO filing",
+        "D": "No review of any kind, since only the 3602(3) items are regulated"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3602(4) requires that all advertising, sales literature or correspondence not listed in subsection 3602(3) is reviewed in a manner appropriate to the type of material through pre-use approval, post-use review, or post-use sampling. Option B inverts the rule — pre-use approval remains an available (often the most cautious) method for unlisted material; it is mandatory only for the 3602(3) items. Option D is wrong because unlisted material is still subject to review, just with flexibility on method. Option C invents external review and CIRO filing obligations.",
+      "rule_refs": [
+        "IDPC 3602(4)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"is reviewed in a manner appropriate to the type of material through: (i) pre-use approval, (ii) post-use review, or (iii) post-use sampling.\" — idpc-rules.txt ~lines 5880-5883"
+    },
+    {
+      "id": "SUP-E8-0016",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client-facing Approved Person at Moreau Wealth begins using the designation 'Certified Retirement Income Architect' on LinkedIn. The designation comes from a legitimate course she completed, but Moreau Wealth has not approved her use of it. Under IDPC 3640(2), the use of the designation is:",
+      "options": {
+        "A": "Permitted, since the designation was legitimately earned",
+        "B": "Prohibited, because if the Approved Person's Dealer Member has not approved the use of a title or designation by that Approved Person, that title or designation must not be used",
+        "C": "Permitted on social media but not on business cards",
+        "D": "Prohibited only if the designation relates to insurance products"
+      },
+      "answer": "B",
+      "rationale": "Clause 3640(2)(iii) prohibits a client-facing Approved Person from using a title or designation if the Approved Person's Dealer Member has not approved its use by that Approved Person. Option A is the closest distractor — legitimately earning a designation does not substitute for the dealer's approval of its use; the clause makes dealer approval the gate. Option C has no basis: the prohibition is not medium-specific, and social media posts are communications with the public. Option D invents a product-line carve-out.",
+      "rule_refs": [
+        "IDPC 3640(2)(iii)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"if the Approved Person’s Dealer Member has not approved the use by that Approved Person of a title or designation, that title or designation.\" — idpc-rules.txt ~lines 6113-6114"
+    },
+    {
+      "id": "SUP-E8-0017",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A national newspaper invites Arbour Hill Securities to nominate advisors for its 'Top 50 Wealth Advisors' ranking, which scores nominees primarily on assets gathered and revenue produced. A Supervisor reviewing whether nominated Approved Persons may promote their inclusion to clients should be most concerned that:",
+      "options": {
+        "A": "Newspaper rankings are automatically exempt from the dealer's communications policies",
+        "B": "Promoting a recognition that is based partly or entirely on the Approved Person's sales activity or revenue generation is prohibited for client-facing Approved Persons, and the use of advisor ranking/contest lists is a specific supervision concern under the syllabus",
+        "C": "The only requirement is that the dealer pay the newspaper's licensing fee",
+        "D": "Rankings may be promoted freely as long as the methodology is published by the newspaper"
+      },
+      "answer": "B",
+      "rationale": "The syllabus parameter for 8.1 flags 'Use of Advisor ranking/contest lists' as a supervision topic, and clause 3640(2)(i) prohibits a client-facing Approved Person from using a title, designation, award, or recognition based partly or entirely on that Approved Person's sales activity or revenue generation — a ranking scored on assets and revenue is such a recognition. Option D is the closest distractor: third-party publication of the methodology does not change the revenue basis of the recognition. Options A and C have no foundation; external origin does not exempt the material from the firm's communications supervision.",
+      "rule_refs": [
+        "Syllabus 8.1",
+        "IDPC 3640(2)(i)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Use of Advisor ranking/contest lists\" — syllabus-raw.txt ~line 1526"
+    },
+    {
+      "id": "SUP-E8-0018",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Tanaka Securities is launching an evening cold-calling campaign for its new fee-based program. The branch manager drafts a calling script and tells the team to start dialing that night, planning to 'tidy up the wording later.' What does IDPC 3602(3) require before the campaign begins?",
+      "options": {
+        "A": "Nothing — scripts are internal documents outside the communications rules",
+        "B": "Post-use sampling of recorded calls within 30 days of the campaign",
+        "C": "Approval of the telemarketing script by a designated Supervisor before use",
+        "D": "Filing of the script with CIRO five business days before first use"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3602(3) lists telemarketing scripts among the items a Dealer Member must ensure are approved by a designated Supervisor before use or publication. Calling before approval breaches the rule regardless of later 'tidying up.' Option B is the closest distractor — post-use sampling is a permissible method only for material not listed in 3602(3); scripts are listed, so pre-use approval is mandatory. Option A mischaracterizes a script read to the public as internal. Option D invents a CIRO filing; the approval obligation is internal, by a designated Supervisor.",
+      "rule_refs": [
+        "IDPC 3602(3)(iii)",
+        "IDPC 3602(4)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must ensure that the following items are approved by a designated Supervisor before use or publication: (i) research reports, (ii) market letters, (iii) telemarketing scripts,\" — idpc-rules.txt ~lines 5866-5870"
+    },
+    {
+      "id": "SUP-E8-0019",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Rocheleau Investments will host two client events next month: (1) a 'Wealth Strategies Showcase' presenting the firm's new structured-note offering, and (2) a plain financial-literacy session on how registered plans are taxed, with no firm products mentioned. Applying IDPC 3602(3)(iv), which seminar texts require designated-Supervisor approval before use?",
+      "options": {
+        "A": "The showcase text, because promotional seminar texts require pre-use approval while educational seminar texts are excluded from the pre-approval list",
+        "B": "Both texts, because all seminar materials require pre-use approval",
+        "C": "Neither text, because spoken-event materials are not 'publications'",
+        "D": "The literacy session text, because tax content is higher risk than product content"
+      },
+      "answer": "A",
+      "rationale": "Clause 3602(3)(iv) requires designated-Supervisor approval before use or publication of promotional seminar texts and expressly excludes educational seminar texts from that pre-approval list. The product showcase is promotional; the literacy session as described is educational. Option B is the trap — it ignores the parenthetical exclusion. Note the educational text is still subject to review under 3602(4) by an appropriate method, but not mandatory pre-approval. Option C wrongly treats seminar texts as outside the rule when they are expressly listed. Option D inverts the rule's promotional/educational distinction with an invented risk ranking.",
+      "rule_refs": [
+        "IDPC 3602(3)(iv)",
+        "IDPC 3602(4)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"promotional seminar texts (excluding educational seminar texts),\" — idpc-rules.txt ~line 5871"
+    },
+    {
+      "id": "SUP-E8-0020",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Marketing staff at Delorme Capital design a brand-new template advertisement for digital banners, with placeholders for branch phone numbers. Six branches will populate the placeholders and run the banners locally. How should the designated Supervisor's pre-approval obligation under IDPC 3602(3) be applied?",
+      "options": {
+        "A": "Each of the six populated banners is a separate original advertisement requiring six separate pre-approvals",
+        "B": "No approval is needed because digital banners are not 'publications'",
+        "C": "Approval may occur after the first week of the campaign as a post-use review",
+        "D": "The original template advertisement must be approved by a designated Supervisor before use; the rule's pre-approval list targets original advertisements or original template advertisements"
+      },
+      "answer": "D",
+      "rationale": "Clause 3602(3)(v) requires designated-Supervisor approval before use or publication of 'original advertisements or original template advertisements.' The new template is the original item requiring approval; the rule's inclusion of 'original template advertisements' addresses exactly this design-once, populate-many pattern. Option A is the closest distractor — it would require re-approval of each routine population of an approved template, which is the inefficiency the 'original template' wording avoids (branch-populated copies remain reviewable under the dealer's 3602(4) methods). Option C is wrong because listed items cannot be left to post-use review. Option B mischaracterizes digital advertising as outside the rule.",
+      "rule_refs": [
+        "IDPC 3602(3)(v)",
+        "IDPC 3602(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"original advertisements or original template advertisements, and\" — idpc-rules.txt ~line 5872"
+    },
+    {
+      "id": "SUP-E8-0021",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Registered Representative at Fontaine Securities prepares a one-page leave-behind for prospect meetings showing the five-year performance summary of her model portfolios. She argues it is 'just a meeting handout, not an advertisement.' Under IDPC 3602(3), the handout:",
+      "options": {
+        "A": "Requires approval by a designated Supervisor before use, because it is material containing performance reports or summaries that is used to solicit clients",
+        "B": "Requires no review because it is given only to people she meets in person",
+        "C": "May be used immediately and sampled afterwards under the firm's post-use program",
+        "D": "Requires approval only if the performance shown is negative"
+      },
+      "answer": "A",
+      "rationale": "Clause 3602(3)(vi) requires designated-Supervisor approval before use or publication of 'any material containing performance reports or summaries that is used to solicit clients' — a prospect leave-behind with model-portfolio performance is squarely that. The label the Representative gives the document is irrelevant; the trigger is the performance content plus the solicitation use. Option C is the closest distractor: post-use sampling under 3602(4) is reserved for material not listed in 3602(3). Option B confuses distribution channel with regulatory character. Option D invents a sign-of-returns condition.",
+      "rule_refs": [
+        "IDPC 3602(3)(vi)",
+        "IDPC 3602(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"any material containing performance reports or summaries that is used to solicit clients.\" — idpc-rules.txt ~line 5873"
+    },
+    {
+      "id": "SUP-E8-0022",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The fixed-income desk at Bouchard & Associates wants to email all retail clients a weekly 'Bond Market Pulse' letter commenting on rate moves and recommending sector positioning. The desk head proposes sending each issue immediately and having compliance read it the next morning. What must the Supervisor insist on under IDPC 3602(3)?",
+      "options": {
+        "A": "The proposal is fine because the letter goes only to existing clients",
+        "B": "Each issue is a market letter and must be approved by a designated Supervisor before use or publication",
+        "C": "Only the first issue needs approval; subsequent issues are automatically covered",
+        "D": "The letter needs no approval if it is shorter than 500 words"
+      },
+      "answer": "B",
+      "rationale": "Market letters appear in the 3602(3) pre-approval list, so a designated Supervisor must approve each issue before use or publication — next-morning review is post-use review, which 3602(4) reserves for material not listed in 3602(3). Option C is the closest distractor: unlike an approved original template that branches later populate, each weekly market letter contains new substantive commentary and recommendations, so the pre-use approval obligation attaches to the material actually being published. Option A is irrelevant — the rule does not exempt client-only distribution. Option D invents a length threshold.",
+      "rule_refs": [
+        "IDPC 3602(3)(ii)",
+        "IDPC 3602(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must ensure that the following items are approved by a designated Supervisor before use or publication: (i) research reports, (ii) market letters,\" — idpc-rules.txt ~lines 5866-5869"
+    },
+    {
+      "id": "SUP-E8-0023",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "At Stellan Securities, the head of marketing — who is not an Approved Person in any supervisory capacity — signs off on a new original print advertisement, and it runs in a weekend paper. The firm's designated Supervisor for advertising sees it on Monday and finds it compliant in content. What is the supervisory failure?",
+      "options": {
+        "A": "None — the content was compliant, so the process is irrelevant",
+        "B": "The advertisement should have been filed with the provincial securities commission",
+        "C": "The approval must come from a designated Supervisor before use or publication; sign-off by a non-designated marketing head followed by Monday review does not satisfy 3602(3)",
+        "D": "The only failure is that the advertisement ran on a weekend"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3602(3) requires that listed items, including original advertisements, be 'approved by a designated Supervisor before use or publication.' Two elements failed here: the approver was not a designated Supervisor (the IDPC definition of designated Supervisor includes a Supervisor responsible for the pre-approval of advertising, sales literature and correspondence under Part A of Rule 3600), and the review occurred after publication. Option A is the trap — compliant content does not cure the absent pre-use approval; the rule regulates process as well as content. Options B and D invent a filing requirement and a timing taboo that do not exist.",
+      "rule_refs": [
+        "IDPC 3602(3)(v)",
+        "IDPC 1201 'designated Supervisor'"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“the pre-approval of advertising, sales literature and correspondence under Part A of Rule 3600, and” — idpc-rules.txt ~lines 329-330"
+    },
+    {
+      "id": "SUP-E8-0024",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An equity analyst at Calloway Securities finishes a 30-page initiation-of-coverage report at 6 p.m. and wants it emailed to clients before the market opens, ahead of the designated research Supervisor's morning review. The analyst notes the report 'only repeats consensus views.' May the report go out overnight?",
+      "options": {
+        "A": "Yes, because initiation reports reflecting consensus carry no price impact",
+        "B": "No — research reports must be approved by a designated Supervisor before use or publication, with no exception for consensus views",
+        "C": "Yes, if the head of investment banking signs off instead",
+        "D": "Yes, provided the disclosures page is attached"
+      },
+      "answer": "B",
+      "rationale": "Research reports are the first item in the 3602(3) list of materials a Dealer Member must ensure are approved by a designated Supervisor before use or publication; the dealer must also designate one or more Supervisors responsible for reviewing and approving research reports under 3607(2). There is no consensus-view exception. Option C is doubly wrong — beyond not being the designated Supervisor, the investment banking department is expressly prohibited from approving research reports under 3621(2)(i). Options A and D substitute price-impact and disclosure-attachment tests the rule does not recognize for the approval requirement.",
+      "rule_refs": [
+        "IDPC 3602(3)(i)",
+        "IDPC 3607(2)",
+        "IDPC 3621(2)(i)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must designate one or more Supervisors to be responsible for reviewing and approving research reports.\" — idpc-rules.txt ~lines 5915-5916"
+    },
+    {
+      "id": "SUP-E8-0025",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Ferland Capital's wholesaling team prepares a glossy piece promoting an in-house investment fund to prospective purchasers, featuring the fund's since-inception return summary. The team lead says fund pieces 'follow fund rules, not dealer rules.' Within the IDPC framework, before this piece is used the dealer must ensure:",
+      "options": {
+        "A": "Nothing — investment fund material is governed exclusively by the fund manager",
+        "B": "A designated Supervisor approves it before use, since it is material containing performance reports or summaries used to solicit clients, and dealer communications must also comply with Corporation requirements and any applicable laws",
+        "C": "Only that the piece is reviewed within 10 business days after first use",
+        "D": "Only that the fund's auditor confirms the return calculation"
+      },
+      "answer": "B",
+      "rationale": "Investment fund practices are an express syllabus parameter under outcome 8.2, and on the rule text this piece is caught by 3602(3)(vi) as material containing performance reports or summaries used to solicit clients, requiring designated-Supervisor approval before use. Clause 3602(1)(vii) further prohibits material that fails to comply with Corporation requirements or any applicable laws — securities-law sales communication rules apply in addition to, not instead of, the dealer's obligations. Option C describes post-use review, unavailable for listed items. Options A and D wrongly outsource the dealer's own approval obligation to the fund manager or auditor.",
+      "rule_refs": [
+        "IDPC 3602(3)(vi)",
+        "IDPC 3602(1)(vii)",
+        "Syllabus 8.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"fails to comply with Corporation requirements or any applicable laws.\" — idpc-rules.txt ~line 5863"
+    },
+    {
+      "id": "SUP-E8-0026",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The designated Supervisor for advertising at Coteau Securities is reviewing a proposed seminar invitation flyer. The flyer promotes a 'Retirement Income Masterclass' hosted by a Registered Representative and includes a table of the Representative's model portfolio returns since 2020, with a sign-up form for prospective clients. How many independent grounds in IDPC 3602(3) require pre-use approval of this flyer?",
+      "options": {
+        "A": "None — invitations are exempt correspondence",
+        "B": "One — only because it mentions retirement products",
+        "C": "Three — every flyer triggers three approvals",
+        "D": "Two — it is material containing performance reports or summaries used to solicit clients, and the promotional seminar text it supports is itself on the pre-approval list"
+      },
+      "answer": "D",
+      "rationale": "The flyer is caught by 3602(3)(vi) as material containing performance reports or summaries that is used to solicit clients — the returns table plus the prospect sign-up form satisfy both elements — and the promotional seminar it advertises engages 3602(3)(iv), under which promotional seminar texts (excluding educational seminar texts) must be approved before use. Option A wrongly treats solicitation material as exempt correspondence. Option B substitutes a product-category trigger that does not exist. Option C garbles the analysis — the rule requires approval of listed items before use, not a fixed number of approvals per document.",
+      "rule_refs": [
+        "IDPC 3602(3)(vi)",
+        "IDPC 3602(3)(iv)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"(iv)     promotional seminar texts (excluding educational seminar texts), (v)      original advertisements or original template advertisements, and (vi)     any material containing performance reports or summaries that is used to solicit clients.\" — idpc-rules.txt ~lines 5871-5873"
+    },
+    {
+      "id": "SUP-E8-0027",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Crestbrook Securities will issue a research report on Tundra Minerals Corp. on April 6. As of March 31, Crestbrook and its affiliates beneficially owned 1.2% of Tundra's common shares. Under IDPC 3608(2)(i), which measurement date governs whether the ownership disclosure threshold is met, and is disclosure required?",
+      "options": {
+        "A": "The end of the second most recent month (February 28), because the April 6 issuance is less than 10 days after the end of the prior month",
+        "B": "March 31, the end of the month prior to issuance; since 10 days have not yet elapsed in April that prior month-end cannot be used",
+        "C": "The issuance date itself (April 6); no disclosure since intraday positions fluctuate",
+        "D": "No measurement is needed because the threshold is 5%"
+      },
+      "answer": "A",
+      "rationale": "Clause 3608(2)(i) measures the 1% beneficial ownership as of the end of the month prior to the issuance date, or — where the report issuance date is less than 10 days after the end of the prior month — as of the end of the second most recent month. April 6 is less than 10 days after March 31, so the operative date is the end of February; the dealer must determine its February month-end position and disclose if it was 1% or more. Option B states the general rule but misapplies the sub-10-day branch, which exists precisely because month-end data may not yet be compiled. Option C uses a date the rule does not recognize. Option D misstates the threshold, which is one percent or more of any class of the issuer's equity securities.",
+      "rule_refs": [
+        "IDPC 3608(2)(i)(a)",
+        "IDPC 3608(2)(i)(b)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"as of the end of the second most recent month if the report issuance date is less than 10 days after the end of the prior month,\" — idpc-rules.txt ~lines 5932-5933"
+    },
+    {
+      "id": "SUP-E8-0028",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An analyst at Marigold Capital is finalizing a report on Boreal Foods Inc. The analyst owns no Boreal securities, but her spouse holds Boreal call options in his own account, and the editorial assistant who fact-checked the report is short Boreal shares. Under IDPC 3608(2)(ii), what must the report disclose?",
+      "options": {
+        "A": "Nothing, because the analyst herself holds no Boreal securities",
+        "B": "Only the assistant's short position, because options are not securities",
+        "C": "Only the spouse's position, because assistants are not Approved Persons",
+        "D": "Both — the holdings of an associate of the analyst and of any person directly involved in the preparation of the report, where they hold or are short any of the issuer's securities directly or indirectly"
+      },
+      "answer": "D",
+      "rationale": "Clause 3608(2)(ii) requires disclosure if the analyst, an associate of the analyst, or any person directly involved in the preparation of the report holds or is short any of the issuer's securities directly or indirectly. The spouse is an associate; the fact-checking assistant is a person directly involved in the preparation of the report; both positions are caught (the 'directly or indirectly' language reaches the spouse's account, and the syllabus parameter expressly extends to the issuer's securities or derivatives). Option A stops at the analyst personally, ignoring the two further categories. Options B and C each capture only one limb and add false premises about options and Approved Person status — the clause turns on involvement in preparation, not registration category.",
+      "rule_refs": [
+        "IDPC 3608(2)(ii)",
+        "Syllabus 8.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(b)     an associate of the analyst, or (c)     any person directly involved in the preparation of the report, holds or is short any of the issuer’s securities directly or indirectly,\" — idpc-rules.txt ~lines 5936-5938"
+    },
+    {
+      "id": "SUP-E8-0029",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Nine months before Aldercrest Securities issues a research report on Pinnacle Logistics, a Director of Aldercrest personally provided paid strategic-restructuring consulting to Pinnacle. The firm's normal-course trade execution desk also executed routine trades for Pinnacle's treasury throughout the year. Under IDPC 3608(2)(iii), what must the research report disclose?",
+      "options": {
+        "A": "The Director's paid consulting services, because services provided for remuneration during the preceding 12 months are disclosable, other than services provided in the normal course investment advisory or trade execution services",
+        "B": "Both the consulting and the routine trade execution services",
+        "C": "Neither, because the Director was not the analyst",
+        "D": "Only services provided within the preceding 6 months"
+      },
+      "answer": "A",
+      "rationale": "Clause 3608(2)(iii) requires disclosure of any services provided by any partner, Director or officer of the Dealer Member or analyst involved in the preparation of a report — other than normal course investment advisory or trade execution services — to the issuer for remuneration during the 12 months immediately preceding the report. The restructuring consulting at nine months is disclosable; routine trade execution falls within the express carve-out, so option B over-discloses. Option C misreads the clause, which reaches partners, Directors and officers of the dealer, not only the analyst. Option D shortens the 12-month look-back.",
+      "rule_refs": [
+        "IDPC 3608(2)(iii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"other than services provided in the normal course investment advisory or trade execution services to the issuer for remuneration, during the 12 months immediately preceding the date a research report or recommendation was issued,\" — idpc-rules.txt ~lines 5940-5943"
+    },
+    {
+      "id": "SUP-E8-0030",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Hollis & Mercer Securities is publishing research on Cobalt Ridge Resources. The dealer's Chief Operating Officer sits on Cobalt Ridge's board of directors. Applying IDPC 3608(2)(v), what does the research report have to include about this relationship?",
+      "options": {
+        "A": "A general statement that 'conflicts may exist' without identifying anyone",
+        "B": "Nothing, because board service is a personal matter",
+        "C": "Nothing, provided the COO recuses herself from the research department",
+        "D": "The name of the partner, Director, officer, employee or agent of the dealer who is a partner, director, officer or employee of the issuer"
+      },
+      "answer": "D",
+      "rationale": "Clause 3608(2)(v) requires the research report to disclose the name of any partner, Director, officer, employee or agent of the Dealer Member who is a partner, director, officer or employee of the issuer, or who serves in an equivalent advisory capacity to the issuer — the COO's board seat at the covered issuer (a position of influence) must be disclosed by name. Option A is the closest distractor: 3610 requires disclosures to be clear, meaningful, comprehensive and prominent, and prohibits standard statements where specific, customized disclosure is more appropriate — an anonymous boilerplate fails that standard and the express naming requirement. Options B and C treat disclosure as avoidable through characterization or recusal; the clause mandates disclosure of the relationship itself.",
+      "rule_refs": [
+        "IDPC 3608(2)(v)",
+        "IDPC 3610"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the name of any partner, Director, officer, employee or agent of the Dealer Member who is a partner, director, officer or employee of the issuer, or who serves in an equivalent advisory capacity to the issuer, and\" — idpc-rules.txt ~lines 5947-5949"
+    },
+    {
+      "id": "SUP-E8-0031",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Trillium Gate Securities maintains continuous two-sided quotes in the convertible debentures of Saxon Apparel, the subject of an upcoming research report. The research Supervisor asks whether the market-making activity must be disclosed in the report. Under IDPC 3608(2)(vi):",
+      "options": {
+        "A": "No, because debentures are debt rather than equity",
+        "B": "Yes — the report must disclose if the dealer is making a market in any equity security or equity related security of the subject issuer, and convertible securities are within 'equity related security'",
+        "C": "No, because market making is disclosed only to CIRO, not to readers",
+        "D": "Yes, but only if the market-making desk is profitable in the security"
+      },
+      "answer": "B",
+      "rationale": "Clause 3608(2)(vi) requires disclosure if the dealer is making a market in any equity security or equity related security of the subject issuer, and the 3606 definition of 'equity related security' expressly includes derivatives, convertible securities and income trust units — convertible debentures qualify. Option A is the closest distractor because it relies on the formal debt classification while the definition pulls convertibles in by their performance link to the underlying equity. Option C misdescribes the disclosure as regulatory-facing when 3608 disclosures appear in the research report itself. Option D adds a profitability condition the rule does not contain.",
+      "rule_refs": [
+        "IDPC 3608(2)(vi)",
+        "IDPC 3606(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A security whose performance is based on the performance of an underlying equity security or a basket of income producing assets, including derivatives, convertible securities and income trust units.\" — idpc-rules.txt ~lines 5901-5903"
+    },
+    {
+      "id": "SUP-E8-0032",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Argent Bay Securities rates covered stocks 'Accumulate,' 'Hold' or 'Reduce.' A client complains that the firm's research never explains what 'Accumulate' means relative to the other ratings, and the firm has never published how its recommendations are distributed. Under IDPC 3609, identify the dealer's obligations.",
+      "options": {
+        "A": "Ratings systems are proprietary and need not be explained to readers",
+        "B": "The firm must abandon word ratings and adopt CIRO's standardized buy/sell scale",
+        "C": "Each report must disclose (or indicate where the reader can find) the dealer's system for rating investment opportunities and how each recommendation fits within it, and the dealer must disclose quarterly the percentage of its recommendations in each category",
+        "D": "Only the quarterly percentage disclosure is required; explaining the rating scale is optional"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3609(1)(i) requires a research report to disclose, or indicate where it is otherwise available, the dealer's system for rating investment opportunities and how each recommendation fits within the system; 3609(2) separately requires the dealer to disclose, on a quarterly basis, the percentage of its recommendations that fall into each category of its recommendation system. Option D is the closest distractor — it keeps the quarterly piece but drops the per-report rating-system disclosure, which is equally mandatory. Option B is wrong because CIRO prescribes disclosure of the dealer's own system, not a standardized scale. Option A treats the system as confidential when the rule makes it disclosable.",
+      "rule_refs": [
+        "IDPC 3609(1)(i)",
+        "IDPC 3609(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must, on a quarterly basis, disclose the percentage of its recommendations that fall into each category of its recommendation system.\" — idpc-rules.txt ~lines 5958-5959"
+    },
+    {
+      "id": "SUP-E8-0033",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Compliance at Driftwood Securities proposes inserting one identical two-line 'conflicts may exist from time to time' paragraph into every research report, regardless of the issuer or the dealer's actual relationships, to simplify production. How does IDPC 3610 treat this approach?",
+      "options": {
+        "A": "It is acceptable because uniform language reduces error risk",
+        "B": "It fails — disclosures required by 3608 and 3609 must be made in a clear, meaningful, comprehensive and prominent manner, and the dealer must not use standard disclosure statements when it is more appropriate to use specific information and customized disclosures",
+        "C": "It is acceptable if the paragraph appears on the front page",
+        "D": "It fails only for reports covering more than six issuers"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3610(1) requires that the research report disclosures required in sections 3608 and 3609 be made in a clear, meaningful, comprehensive and prominent manner, and 3610(2) prohibits using standard disclosure statements when it is more appropriate to use specific information and customized disclosures. A boilerplate paragraph that ignores the dealer's actual relationships defeats both. Option C is the closest distractor — prominence alone cannot rescue a statement that is not meaningful or comprehensive about real conflicts. Option D garbles 3612, which is about where disclosures may be located for multi-issuer reports, not a boilerplate license. Option A elevates convenience over the express prohibition.",
+      "rule_refs": [
+        "IDPC 3610(1)",
+        "IDPC 3610(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"The Dealer Member must not use standard disclosure statements when it is more appropriate to use specific information and customized disclosures\" — idpc-rules.txt ~lines 5967-5968"
+    },
+    {
+      "id": "SUP-E8-0034",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Lighthouse Securities distributes, under the third party's own name, equity research prepared by an independent U.S. firm that is a FINRA member. Lighthouse discloses to clients that the reports were not prepared in accordance with Canadian disclosure requirements relating to research reports. Are the IDPC 3608/3609 disclosures required in these reports?",
+      "options": {
+        "A": "Yes — distribution under any name always imports the full 3608 and 3609 disclosure obligations with no exceptions",
+        "B": "No, because third-party research is entirely outside Part B of Rule 3600",
+        "C": "No — the 3608/3609 disclosures are not required for independent third party reports issued by FINRA members, where the dealer discloses the reports were not prepared in accordance with Canadian research disclosure requirements",
+        "D": "Yes, but only the rating-system disclosure, not the conflict disclosures"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3611(1) generally applies the 3608/3609 disclosures to independent third party research a dealer distributes under the third party's name, but 3611(2) removes the requirement where the reports are issued by members of the Financial Industry Regulatory Authority (or persons governed by other regulators approved by the Corporation), or where the dealer is only giving access or supplying at a client's request — and the dealer discloses that the report was not prepared in accordance with Canadian disclosure requirements relating to research reports. Lighthouse fits the FINRA branch plus the required disclosure. Option A states the general rule while ignoring the express exceptions. Option B overshoots — 3611(1) shows third-party research is within the regime by default. Option D splits the disclosures in a way the rule does not.",
+      "rule_refs": [
+        "IDPC 3611(1)",
+        "IDPC 3611(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"in the case of independent third party research reports that are issued by members of the Financial Industry Regulatory Authority or persons governed by other regulators approved by the Corporation, or\" — idpc-rules.txt ~lines 5975-5977"
+    },
+    {
+      "id": "SUP-E8-0035",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Owing to an analyst departure, Halton Ridge Securities will stop covering four issuers it has followed for years via emailed reports to its retail research subscribers. For one of the four, coverage is being suspended solely because the issuer was just placed on Halton Ridge's restricted list. Applying IDPC 3615, what notice is required?",
+      "options": {
+        "A": "No notice for any of the issuers, since dropping coverage is a business decision",
+        "B": "Notice to CIRO only, within 10 days of the decision",
+        "C": "Notice of intention to suspend or discontinue coverage for the three ordinary discontinuations, issued to the same audience who received the coverage and in the same manner it was distributed; no notice is required for the issuer suspended solely because it was placed on the restricted list",
+        "D": "Identical public press releases for all four issuers"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3615(1) requires the dealer to issue notice of its intention to suspend or discontinue coverage to the same audience who received the coverage and in the same manner the coverage was distributed — here, emailed to the research subscribers. Subsection 3615(2) provides that notice is not required if the sole reason for the suspension is that the issuer has been placed on the dealer's restricted list, which fits the fourth issuer (announcing it could itself signal the restricted-list addition). Option D is the closest distractor — it forces public press releases where the rule requires same-audience/same-manner notice, and ignores the restricted-list exception. Options A and B deny or misdirect the client-facing notice obligation.",
+      "rule_refs": [
+        "IDPC 3615(1)",
+        "IDPC 3615(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"Notice of discontinuance of coverage is not required if the sole reason for the suspension is that the issuer has been placed on a Dealer Member’s restricted list.\" — idpc-rules.txt ~lines 6010-6011"
+    },
+    {
+      "id": "SUP-E8-0036",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The analyst writing Copperline Securities' report on Atlas Freight received a bonus eight months ago that was calculated in part from Copperline's overall investment banking revenues. Under IDPC 3620(1), how does this affect the Atlas Freight report?",
+      "options": {
+        "A": "The report must disclose that the analyst responsible for the report received compensation within the prior 12 months that was based upon the dealer's investment banking revenues",
+        "B": "The bonus is irrelevant unless it derived specifically from an Atlas Freight mandate",
+        "C": "The analyst must repay the bonus before publishing",
+        "D": "The report must be reassigned to a different analyst"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3620(1) requires a research report to disclose if the analyst responsible for the report received compensation within the prior 12 months that was based upon the Dealer Member's investment banking revenues — the eight-month-old bonus is within the look-back and the revenue link triggers disclosure even though it is not issuer-specific. Option B is the closest distractor: it confuses this disclosure with the separate 3620(2) prohibition, under which the dealer must not pay an analyst any bonus, salary or other compensation directly based upon a specific investment banking transaction. Options C and D invent repayment and reassignment remedies; the rule's response to general banking-revenue-based compensation is disclosure.",
+      "rule_refs": [
+        "IDPC 3620(1)",
+        "IDPC 3620(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A research report must disclose if the analyst responsible for the report received compensation within the prior 12 months that was based upon the Dealer Member’s investment banking revenues.\" — idpc-rules.txt ~lines 6053-6055"
+    },
+    {
+      "id": "SUP-E8-0037",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client asks Westgate Securities how she can learn the firm's rules for who gets its research and when. Under IDPC 3609(1), what must each Westgate research report do with respect to dissemination?",
+      "options": {
+        "A": "Attach the complete compliance manual as an appendix",
+        "B": "Provide each client with a personalized distribution schedule",
+        "C": "Nothing — dissemination practices are internal and confidential",
+        "D": "Disclose, or indicate where the information is otherwise available, the dealer's policies and procedures that specifically address the dissemination of its research reports"
+      },
+      "answer": "D",
+      "rationale": "Clause 3609(1)(ii) requires a research report to disclose, or indicate where the following information is otherwise available, the dealer's policies and procedures that specifically address the dissemination of its research reports — the syllabus lists 'Policies and procedures for dissemination of research' as the first 8.3 disclosure parameter. Option C is the closest distractor because firms often regard distribution mechanics as internal, but the rule makes the dissemination P&Ps a disclosure item. Option A confuses disclosing (or pointing to) the dissemination policies with publishing the entire manual, and option B invents a personalized schedule the rule does not require.",
+      "rule_refs": [
+        "IDPC 3609(1)(ii)",
+        "Syllabus 8.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"the Dealer Member’s policies and procedures that specifically address the dissemination of its research reports.\" — idpc-rules.txt ~lines 5956-5957"
+    },
+    {
+      "id": "SUP-E8-0038",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Three research situations arise at Kessler Securities: (1) analyst Mira Voss is drafting on Trent Pharma, where her brother — her associate — is Trent's Vice-President of Finance; (2) analyst Dale Chu is drafting on Orix Tools, to which the designated research Supervisor provides paid advisory services; (3) analyst Lena Brandt is drafting on Calder Mills, whose CFO is her former university classmate with no ongoing connection. Which reports may Kessler issue under IDPC 3614?",
+      "options": {
+        "A": "All three, with appropriate conflict disclosure in each report",
+        "B": "Only the Trent Pharma report, because family relationships are exempt",
+        "C": "Only the Calder Mills report — the dealer must not issue a report prepared by an analyst on any issuer for which the analyst, an associate of the analyst or the designated Supervisor serves as an officer, director or employee, or in any advisory capacity",
+        "D": "None of the three reports"
+      },
+      "answer": "C",
+      "rationale": "Section 3614 prohibits issuing a research report prepared by an analyst on any issuer for which the analyst, an associate of the analyst, or the designated Supervisor serves as an officer, director or employee of the issuer, or in any advisory capacity to the issuer. Situation 1 is barred (associate is an officer); situation 2 is barred (designated Supervisor serves in an advisory capacity); situation 3 involves a past social connection that creates no officer/director/employee/advisory role, so it is not caught by 3614. Option A is the central trap — 3614 is a prohibition on issuing, not a disclosure obligation that drafting around 3608 could satisfy. Options B and D respectively invent a family exemption and over-extend the prohibition to non-covered relationships.",
+      "rule_refs": [
+        "IDPC 3614(1)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must not issue a research report prepared by an analyst on any issuer for which the analyst, an associate of the analyst or the designated Supervisor: (i) serves as an officer, director or employee of the issuer, or\" — idpc-rules.txt ~lines 5996-5998"
+    },
+    {
+      "id": "SUP-E8-0039",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Provost Securities acted as co-manager of Marin Hydro's initial public offering of equity securities, which priced on May 1. The research department wants to launch coverage with a favourable report on May 7. Separately, the syndicate desk notes the firm was only a junior co-manager. Under IDPC 3622, may the report be issued on May 7?",
+      "options": {
+        "A": "Yes, because quiet periods bind only the lead manager, not co-managers",
+        "B": "No — the quiet period for an IPO is 40 days for all syndicate members",
+        "C": "Yes, if the report carries enhanced conflict disclosure",
+        "D": "No — having acted as manager or co-manager, the dealer must not issue a research report on the issuer's equity securities for 10 days after the date of the offering of an initial public offering"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3622(1) prohibits a dealer that has acted as manager or co-manager from issuing a research report on equity securities of the subject issuer for 10 days after the date of the offering of an initial public offering — May 7 is within 10 days of May 1, and the rule expressly captures co-managers, so junior syndicate status does not help. Option A misreads the express 'manager or co-manager' language. Option C wrongly converts a timing prohibition into a disclosure cure. Option B invents a 40-day period; the rule's periods are 10 days for an IPO and three days for a secondary offering.",
+      "rule_refs": [
+        "IDPC 3622(1)(i)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"for 10 days after the date of the offering of an initial public offering of equity securities of the subject issuer,\" — idpc-rules.txt ~lines 6074-6075"
+    },
+    {
+      "id": "SUP-E8-0040",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Birchmount Securities is pitching for the financing mandate of Solara Grid. To win the business, the head of equity research proposes telling Solara that if Birchmount is hired, the firm will hold its current 'Hold' rating unchanged for six months instead of moving to the planned downgrade. Analyze this proposal under IDPC 3617.",
+      "options": {
+        "A": "It is acceptable because no favourable rating is being promised, only the status quo",
+        "B": "It is acceptable if the research department documents independent reasons for the delay",
+        "C": "It is prohibited only if Solara initiates the request",
+        "D": "It is prohibited — as consideration or inducement for the receipt of business from an issuer, the dealer must not offer to delay the changing of a rating or price target or any other research report element"
+      },
+      "answer": "D",
+      "rationale": "Clause 3617(1)(iii) prohibits a dealer, as consideration or inducement for the receipt of business or compensation from an issuer, from offering to delay the changing of a rating or price target on the issuer's securities or the changing of any other research report element, including offering to delay the issue date of the research report. Option A is the central trap — the prohibition covers delaying changes, not merely promising favourable ratings (which clause (ii) addresses separately), so freezing a planned downgrade to win a mandate is squarely caught. Option B cannot launder an offer made as an inducement, and option C is wrong because the clause prohibits the dealer's offer regardless of who first raises it; clause (iv) likewise bars threats to change a rating.",
+      "rule_refs": [
+        "IDPC 3617(1)(iii)",
+        "IDPC 3617(1)(ii)",
+        "IDPC 3617(1)(iv)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"offer to delay the changing of a rating or price target on one or more of the issuer’s securities or the changing of any other research report element, including offering to delay the issue date of the research report, or\" — idpc-rules.txt ~lines 6020-6022"
+    },
+    {
+      "id": "SUP-E8-0041",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Analyst Rohan Patel of Glenmore Securities accepts a paid weekend engagement preparing investor materials for a private mining company, without telling anyone at Glenmore, reasoning that the company is private and outside his coverage. When the arrangement surfaces, what rule has been breached and why does it matter for research supervision?",
+      "options": {
+        "A": "A breach of IDPC 3623, which requires the dealer to pre-approve an analyst's outside activities; unvetted engagements can create relationships and conflicts the research supervision framework is designed to detect",
+        "B": "No breach — outside activities involving private companies are unregulated",
+        "C": "A breach only if the mining company later goes public",
+        "D": "A breach of the quiet period rules in 3622"
+      },
+      "answer": "A",
+      "rationale": "Section 3623(1) requires a Dealer Member to pre-approve an analyst's outside activities — the obligation attaches before the activity begins and is not limited to public issuers or covered names, because undisclosed engagements are precisely how issuer relationships, compensation conflicts and advisory roles (which can trigger the 3614 issuing prohibition and 3608 disclosures) escape the supervision framework; the syllabus pairs analyst conduct with personal trading and outside activities. Option C is the closest distractor — a later IPO might intensify the conflict, but the breach is the absence of pre-approval, complete at the outset. Option B is contradicted by the rule's unqualified text, and option D cites an unrelated provision about post-offering report timing.",
+      "rule_refs": [
+        "IDPC 3623(1)",
+        "Syllabus 8.4"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must pre-approve an analyst’s outside activities.\" — idpc-rules.txt ~line 6085"
+    },
+    {
+      "id": "SUP-E8-0042",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "At Stratton Hill Securities, an institutional sales trader notices an unusual cluster of buying in Voltan Circuits by an employee account two days before the research department publishes a Voltan upgrade that moves the stock 8%. Compliance finds the firm has no process to look for this pattern. Which IDPC 3619 requirement has the dealer failed to implement?",
+      "options": {
+        "A": "The requirement to publish all upgrades after market close",
+        "B": "The requirement that all employee accounts be held at another dealer",
+        "C": "The requirement to have policies and procedures that specifically address detecting and restricting trading in the subject issuer's securities done with knowledge of or in anticipation of the issuance of a research report, a new recommendation, or a change in a recommendation that could reasonably be expected to affect the price",
+        "D": "The requirement to delay all employee trades by 48 hours"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3619(1) requires a dealer who issues or distributes research reports to have policies and procedures that specifically address detecting and restricting any trading in equity securities or equity related securities of a subject issuer done with knowledge of or in anticipation of the issuance of a research report, a new recommendation, or a change in a recommendation that could reasonably be expected to have an effect on the price of the subject securities. Having no detection process at all is a direct failure of this requirement — the syllabus frames it as policies and procedures on detecting and restricting trades. Options A, B and D invent mechanical controls (after-hours publishing, external custody, fixed delays) that the rule does not mandate; the obligation is a detection-and-restriction framework, which is why its complete absence, not a missing gadget, is the breach.",
+      "rule_refs": [
+        "IDPC 3619(1)",
+        "Syllabus 8.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"policies and procedures that specifically address detecting and restricting any trading in equity securities or equity related securities of a subject issuer that is done with knowledge of or in anticipation of:\" — idpc-rules.txt ~lines 6030-6032"
+    },
+    {
+      "id": "SUP-E8-0043",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Hollis Lake Securities' research policies state that the firm's P&Ps cover 'the publishing of research reports' but are silent on how analysts behave day-to-day and on how recommendations get made. A CIRO examination flags the policies as incomplete under IDPC 3607(1). What must the policies specifically address?",
+      "options": {
+        "A": "Only the publishing of research reports, which the firm already covers",
+        "B": "The conduct of analysts, the publishing of research reports, and the making of recommendations by analysts",
+        "C": "Only the compensation arrangements of analysts",
+        "D": "Only the marketing distribution lists for research products"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3607(1) requires a Dealer Member's policies and procedures to specifically address three things: the conduct of analysts, the publishing of research reports, and the making of recommendations by analysts. Covering only publication leaves two mandatory subjects unaddressed — which matters because analyst conduct (including personal trading under 3619 and outside activities under 3623) and recommendation-making (including independence from banking under 3621) are where the supervision risks concentrate. Option A repeats the firm's incomplete position. Options C and D each name a topic that may belong inside the framework but substitute it for the three subjects the rule enumerates.",
+      "rule_refs": [
+        "IDPC 3607(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"(i)     the conduct of analysts, (ii)    the publishing of research reports, and (iii)   the making of recommendations by analysts.\" — idpc-rules.txt ~lines 5912-5914"
+    },
+    {
+      "id": "SUP-E8-0044",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Confidential drafts of a pending rating change at Beauport Securities keep reaching favoured institutional clients hours before publication, giving them a trading head start. The research Supervisor is asked to identify the control failure within the Element 8 framework. The failure is best described as:",
+      "options": {
+        "A": "Inadequate controls regarding advance dissemination of any part of a research report prior to publication, undermining the trading detection-and-restriction policies required by 3619(1)",
+        "B": "A breach of the 3613 site-visit disclosure rule",
+        "C": "A failure to publish the quarterly rating-distribution percentages",
+        "D": "A failure to obtain CIRO approval of the rating methodology"
+      },
+      "answer": "A",
+      "rationale": "The syllabus parameter for outcome 8.4 requires controls regarding advance dissemination of any part of a research report prior to publication, and the rule anchor is 3619(1), which requires policies and procedures specifically addressing detecting and restricting trading done with knowledge of or in anticipation of the issuance of a research report, a new recommendation or a change in a recommendation that could reasonably be expected to affect the price — selective pre-release is the canonical way such anticipatory trading happens. Option C is the closest rule-based distractor but the 3609(2) quarterly distribution disclosure has nothing to do with leak control. Options B and D point to site-visit disclosure and an invented CIRO methodology approval, neither of which addresses pre-publication leakage.",
+      "rule_refs": [
+        "IDPC 3619(1)",
+        "Syllabus 8.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Controls regarding advance dissemination of any part of a research\nreport prior to publication\" — syllabus-raw.txt ~lines 1547-1548"
+    },
+    {
+      "id": "SUP-E8-0045",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Corporate finance at Selwyn Securities wants to bring analyst Ines Faria 'over the wall' to assist confidentially on a take-private bid for an issuer she covers. According to the syllabus parameters for outcome 8.4, which combination of controls applies to wall-crossing an analyst?",
+      "options": {
+        "A": "No controls — wall-crossing is prohibited in all circumstances",
+        "B": "Disclosure of the wall-crossing in the analyst's next published report on the issuer",
+        "C": "Only a verbal reminder of confidentiality from the deal captain",
+        "D": "Policies and procedures on detecting and restricting trades, restrictions on relevant individuals, and approval by designated Executive"
+      },
+      "answer": "D",
+      "rationale": "The syllabus parameter for 8.4 lists 'Controls for wall-crossing an Analyst' with three sub-elements: policies and procedures on detecting and restricting trades, restrictions on relevant individuals, and approval by designated Executive. This maps onto the rule fabric — 3619(1) requires the trade detection-and-restriction P&Ps, 3619(2) restricts individuals involved in research, and 3619(3) reserves trade approvals to a designated Executive. Option A overstates: the framework is one of controls, not blanket prohibition. Option C is plainly inadequate against the controls the syllabus enumerates, and option B would itself be a problem — publicly disclosing the analyst's involvement in a confidential bid would compromise the very information the wall protects.",
+      "rule_refs": [
+        "Syllabus 8.4",
+        "IDPC 3619(1)",
+        "IDPC 3619(3)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"Controls for wall-crossing an Analyst\n- Policies and procedures on detecting and restricting trades\n- Restrictions on relevant individuals\n- Approval by designated Executive\" — syllabus-raw.txt ~lines 1596-1599"
+    },
+    {
+      "id": "SUP-E8-0046",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Compliance at Mont-Tremblant Securities just added Cardinal Robotics to the firm's restricted list because the dealer is advising on Cardinal's pending merger. The research department has a Cardinal report in final edit and plans to suspend coverage quietly. Considering the syllabus 8.4 prohibition parameters together with IDPC 3615(2), which course of action is correct?",
+      "options": {
+        "A": "Publish the completed report since the work predates the listing, then suspend",
+        "B": "Do not issue the report while Cardinal is on the restricted list; suspend coverage, and no notice of discontinuance is required where the sole reason for the suspension is that the issuer has been placed on the dealer's restricted list",
+        "C": "Publish the report but delete the rating to neutralize it",
+        "D": "Suspend coverage and send all research clients a notice explaining that Cardinal is now on the restricted list"
+      },
+      "answer": "B",
+      "rationale": "The syllabus 8.4 parameters place 'Placed on Restricted List' among the prohibitions on issuing research reports, so the in-edit Cardinal report must not be issued while the restriction stands — work-in-progress status (option A) and rating deletion (option C) do not cure an issuing prohibition. On the notice side, 3615(2) provides that notice of discontinuance of coverage is not required if the sole reason for the suspension is that the issuer has been placed on the dealer's restricted list. Option D is the closest distractor: it correctly suspends but then broadcasts the restricted-list placement, signalling the confidential mandate the restriction protects — the very outcome the 3615(2) exception avoids.",
+      "rule_refs": [
+        "Syllabus 8.4",
+        "IDPC 3615(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"Notice of discontinuance of coverage is not required if the sole reason for the suspension is that the issuer has been placed on a Dealer Member’s restricted list.\" — idpc-rules.txt ~lines 6010-6011"
+    },
+    {
+      "id": "SUP-E8-0047",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E8-SET-01",
+      "scenario": "Harrowgate Securities, an Investment Dealer headquartered in Calgary, publishes equity research through a six-analyst team. Analyst Camille Roy covers Dunmore Lithium Corp. Three facts are on file as her new Dunmore report heads to the designated research Supervisor, Olivier Banks, for approval: (1) Harrowgate's affiliate held 2.3% of Dunmore's common shares at the most recent measurable month-end under section 3608; (2) five months ago Harrowgate acted as placement agent on Dunmore's private placement, earning a fee; and (3) Camille toured Dunmore's pilot plant in Chile last quarter, with Dunmore reimbursing her airfare. The draft report sets a $19 price target. Separately, Camille's research associate, Devon Park, asks to sell his small personal position in Dunmore shares one week before the planned publication date, and the head of investment banking emails Olivier asking to 'see the Dunmore piece before it goes out, in case the tone needs adjusting.'",
+      "stem": "Which conflict-of-interest disclosures must Camille's Dunmore report contain in respect of facts (1) and (2)?",
+      "options": {
+        "A": "Neither fact — affiliate holdings and placement-agent work are not disclosable matters",
+        "B": "Only fact (1), because placement-agent fees are not investment banking remuneration",
+        "C": "Both — the affiliate's beneficial ownership of one percent or more of a class of Dunmore's equity securities, and the investment banking services (serving as a placement agent is within the 3606 definition) provided for remuneration within the preceding 12 months",
+        "D": "Only fact (2), because ownership disclosure starts at 5%"
+      },
+      "answer": "C",
+      "rationale": "Clause 3608(2)(i) requires disclosure where the Dealer Member or its affiliates has beneficial ownership of one percent or more of any class of the issuer's equity securities, measured at the prescribed month-end — 2.3% qualifies. Clause 3608(2)(iv) requires disclosure of investment banking services provided to the issuer for remuneration during the preceding 12 months, and the 3606 definition of investment banking expressly includes serving as a placement agent for an issuer, so the five-month-old mandate is disclosable. Option B's premise fails on the definition; option D misstates the ownership threshold; option A denies both express disclosure items.",
+      "rule_refs": [
+        "IDPC 3608(2)(i)",
+        "IDPC 3608(2)(iv)",
+        "IDPC 3606(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"(iii) providing venture capital, lines of credit or serving as a placement agent for an issuer.\" — idpc-rules.txt ~lines 5907-5908"
+    },
+    {
+      "id": "SUP-E8-0048",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E8-SET-01",
+      "scenario": "Harrowgate Securities, an Investment Dealer headquartered in Calgary, publishes equity research through a six-analyst team. Analyst Camille Roy covers Dunmore Lithium Corp. Three facts are on file as her new Dunmore report heads to the designated research Supervisor, Olivier Banks, for approval: (1) Harrowgate's affiliate held 2.3% of Dunmore's common shares at the most recent measurable month-end under section 3608; (2) five months ago Harrowgate acted as placement agent on Dunmore's private placement, earning a fee; and (3) Camille toured Dunmore's pilot plant in Chile last quarter, with Dunmore reimbursing her airfare. The draft report sets a $19 price target. Separately, Camille's research associate, Devon Park, asks to sell his small personal position in Dunmore shares one week before the planned publication date, and the head of investment banking emails Olivier asking to 'see the Dunmore piece before it goes out, in case the tone needs adjusting.'",
+      "stem": "Regarding fact (3) — the Chile plant tour — and the $19 price target, what must the Dunmore report disclose?",
+      "options": {
+        "A": "Whether, and to what extent, Camille visited the issuer's material operations; that Dunmore reimbursed her travel expenses with respect to the visit; and the valuation method used to set the price target",
+        "B": "Only the price-target valuation method; site visits are not disclosable",
+        "C": "Only that a visit occurred; reimbursement and valuation method are internal matters",
+        "D": "Nothing, because the visit and target both predate publication"
+      },
+      "answer": "A",
+      "rationale": "Section 3613 requires the dealer to disclose in its research reports whether, and to what extent, an analyst has visited the issuer's material operations, and if the issuer has paid or reimbursed any of the analyst's travel expenses with respect to the visit — both apply to the reimbursed Chile tour. Section 3616 separately requires that where a price target is set, the report disclose the valuation method used. Option C is the closest distractor, keeping the visit but suppressing the reimbursement and valuation-method limbs, both of which are express. Option B inverts 3613, and option D's timing argument is meaningless — the disclosures exist precisely because these events precede publication.",
+      "rule_refs": [
+        "IDPC 3613(1)",
+        "IDPC 3616(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"whether, and to what extent, an analyst has visited the issuer’s material operations, and\" — idpc-rules.txt ~line 5992"
+    },
+    {
+      "id": "SUP-E8-0049",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E8-SET-01",
+      "scenario": "Harrowgate Securities, an Investment Dealer headquartered in Calgary, publishes equity research through a six-analyst team. Analyst Camille Roy covers Dunmore Lithium Corp. Three facts are on file as her new Dunmore report heads to the designated research Supervisor, Olivier Banks, for approval: (1) Harrowgate's affiliate held 2.3% of Dunmore's common shares at the most recent measurable month-end under section 3608; (2) five months ago Harrowgate acted as placement agent on Dunmore's private placement, earning a fee; and (3) Camille toured Dunmore's pilot plant in Chile last quarter, with Dunmore reimbursing her airfare. The draft report sets a $19 price target. Separately, Camille's research associate, Devon Park, asks to sell his small personal position in Dunmore shares one week before the planned publication date, and the head of investment banking emails Olivier asking to 'see the Dunmore piece before it goes out, in case the tone needs adjusting.'",
+      "stem": "Devon Park, who is directly involved in preparing the Dunmore report, wants to sell his Dunmore shares one week before publication. Analyze the request under IDPC 3619.",
+      "options": {
+        "A": "The sale falls within the period beginning 30 days prior to and ending five days after issuance, so it is prohibited unless Devon obtains the prior written approval of a designated Executive — and if the report carries a positive recommendation, approval of a contrary sale may not be granted unless special circumstances exist",
+        "B": "Devon may sell freely because the position is small and he is not the named analyst",
+        "C": "Devon may sell if he waits until the morning of publication",
+        "D": "Devon may sell with Camille's verbal consent as lead analyst"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3619(2) prohibits an individual directly involved in the preparation or approval of a research report from trading the subject issuer's equity or equity related securities from 30 days before until five days after issuance — one week before publication is inside the window, and position size and job title are irrelevant since the rule turns on direct involvement in preparation. Subsection 3619(3) allows trading only with the prior written approval of a designated Executive, and 3619(4) provides that approval may not be granted for trades contrary to the analyst's current recommendation unless special circumstances exist — a sale against a positive call is contrary. Option C still lands inside the blackout, and options B and D substitute size thresholds and analyst consent for the Executive-approval mechanism.",
+      "rule_refs": [
+        "IDPC 3619(2)",
+        "IDPC 3619(3)",
+        "IDPC 3619(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Approval under subsection 3619(3) may not be granted for trades that are contrary to the analyst’s current recommendation, unless special circumstances exist.\" — idpc-rules.txt ~lines 6043-6044"
+    },
+    {
+      "id": "SUP-E8-0050",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E8-SET-01",
+      "scenario": "Harrowgate Securities, an Investment Dealer headquartered in Calgary, publishes equity research through a six-analyst team. Analyst Camille Roy covers Dunmore Lithium Corp. Three facts are on file as her new Dunmore report heads to the designated research Supervisor, Olivier Banks, for approval: (1) Harrowgate's affiliate held 2.3% of Dunmore's common shares at the most recent measurable month-end under section 3608; (2) five months ago Harrowgate acted as placement agent on Dunmore's private placement, earning a fee; and (3) Camille toured Dunmore's pilot plant in Chile last quarter, with Dunmore reimbursing her airfare. The draft report sets a $19 price target. Separately, Camille's research associate, Devon Park, asks to sell his small personal position in Dunmore shares one week before the planned publication date, and the head of investment banking emails Olivier asking to 'see the Dunmore piece before it goes out, in case the tone needs adjusting.'",
+      "stem": "How should Olivier Banks respond to the head of investment banking's request to review the Dunmore report 'in case the tone needs adjusting' before publication?",
+      "options": {
+        "A": "Forward the full draft — internal colleagues may always read pending research",
+        "B": "Forward the draft but ask banking to suggest only stylistic edits",
+        "C": "Refuse — the dealer's policies must prohibit approval of research reports by the investment banking department and limit banking's involvement in the production of research reports solely to the correction of factual errors; 'adjusting the tone' exceeds that limit",
+        "D": "Forward the draft on condition the banker signs a confidentiality undertaking"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3621(2) requires policies and procedures that, at minimum, prohibit the approval of research reports by the investment banking department and limit the investment banking department's involvement in the production of research reports solely to the correction of factual errors — tone adjustment is editorial influence, not factual correction, and is precisely the influence 3621(1) requires the dealer to prevent. Clause 3621(2)(iv) further requires systems to control and record the flow of information between analysts and banking staff regarding covered issuers. Option B is the closest distractor: stylistic edits are still beyond factual-error correction. Options A and D treat the restriction as an access or confidentiality issue when it is a substantive independence control.",
+      "rule_refs": [
+        "IDPC 3621(1)",
+        "IDPC 3621(2)(i)",
+        "IDPC 3621(2)(ii)",
+        "IDPC 3621(2)(iv)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"establishing systems to control and record the flow of information between analysts and investment banking department staff, regarding issuers that are the subject of current or prospective research reports.\" — idpc-rules.txt ~lines 6068-6070"
+    },
+    {
+      "id": "SUP-E8-0051",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E8-SET-02",
+      "scenario": "Brightlea Securities operates a retail wealth division in Halifax. During a routine sweep, designated advertising Supervisor Nadia Osei finds four items associated with Registered Representative Marcus Webb: (a) a public social-media profile describing Marcus as 'Senior Vice-President & Award-Winning #1 Advisor — President's Council 2025,' although Brightlea has never appointed him to any corporate office and the President's Council recognizes the firm's top revenue producers; (b) a 'Quarterly Income Letter' that Marcus has been emailing to clients and prospects for a year, containing sector recommendations, sent without anyone's prior approval; (c) a prospect handout showing his model portfolio's annualized returns; and (d) a string of business-related text messages with clients on Marcus's personal phone, none of which appear in Brightlea's archives. Nadia must determine the rule basis for remediating each item and the records the firm must be able to produce.",
+      "stem": "Item (a): which two clauses of IDPC 3640(2) does Marcus's social-media profile description breach?",
+      "options": {
+        "A": "The prohibition on using a corporate officer title without appointment to that corporate office pursuant to applicable corporate law, and the prohibition on using a title, designation, award, or recognition based partly or entirely on sales activity or revenue generation",
+        "B": "The quiet-period rule and the price-target rule",
+        "C": "Only a best-practice guideline; 3640 does not reach social media",
+        "D": "The third-party research exemption and the hyperlink rule"
+      },
+      "answer": "A",
+      "rationale": "Two limbs of 3640(2) are engaged: clause (ii) prohibits a client-facing Approved Person from using a corporate officer title unless the dealer has appointed them to that corporate office pursuant to applicable corporate law — Brightlea never appointed Marcus 'Senior Vice-President' — and clause (i) prohibits using a title, designation, award, or recognition based partly or entirely on the Approved Person's sales activity or revenue generation, which captures the revenue-based 'President's Council' and '#1 Advisor' claims. Option C fails because 3640(1) targets any holding out that could reasonably be expected to deceive or mislead, regardless of medium, and the 8.1 syllabus expressly covers social media. Options B and D cite research-report provisions (3622, 3616, 3611, 3612) irrelevant to a profile description.",
+      "rule_refs": [
+        "IDPC 3640(2)(i)",
+        "IDPC 3640(2)(ii)",
+        "Syllabus 8.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"an Approved Person who interacts with clients must not use any of the following:\" — idpc-rules.txt ~lines 6107-6108"
+    },
+    {
+      "id": "SUP-E8-0052",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E8-SET-02",
+      "scenario": "Brightlea Securities operates a retail wealth division in Halifax. During a routine sweep, designated advertising Supervisor Nadia Osei finds four items associated with Registered Representative Marcus Webb: (a) a public social-media profile describing Marcus as 'Senior Vice-President & Award-Winning #1 Advisor — President's Council 2025,' although Brightlea has never appointed him to any corporate office and the President's Council recognizes the firm's top revenue producers; (b) a 'Quarterly Income Letter' that Marcus has been emailing to clients and prospects for a year, containing sector recommendations, sent without anyone's prior approval; (c) a prospect handout showing his model portfolio's annualized returns; and (d) a string of business-related text messages with clients on Marcus's personal phone, none of which appear in Brightlea's archives. Nadia must determine the rule basis for remediating each item and the records the firm must be able to produce.",
+      "stem": "Items (b) and (c): applying IDPC 3602(3), what approval treatment did the Quarterly Income Letter and the model-portfolio handout each require before Marcus used them?",
+      "options": {
+        "A": "Neither required any approval because Marcus authored them personally",
+        "B": "Both required approval by a designated Supervisor before use or publication — the letter as a market letter and the handout as material containing performance reports or summaries used to solicit clients",
+        "C": "Only the handout, because letters to existing clients are always exempt",
+        "D": "Only the letter, because performance handouts merely need post-use sampling"
+      },
+      "answer": "B",
+      "rationale": "The Quarterly Income Letter — recurring market commentary with sector recommendations — is a market letter under 3602(3)(ii), and the prospect handout showing model-portfolio returns is 'material containing performance reports or summaries that is used to solicit clients' under 3602(3)(vi); both are on the list of items the dealer must ensure are approved by a designated Supervisor before use or publication, so a year of unapproved sending is a sustained breach. Option D is the closest distractor — it correctly catches the letter but routes the handout to post-use sampling, which 3602(4) permits only for materials not listed in 3602(3). Option C invents a client-audience exemption (and the letter also goes to prospects), and option A confuses authorship with exemption.",
+      "rule_refs": [
+        "IDPC 3602(3)(ii)",
+        "IDPC 3602(3)(vi)",
+        "IDPC 3602(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(ii)    market letters, (iii)   telemarketing scripts, (iv)     promotional seminar texts (excluding educational seminar texts), (v)      original advertisements or original template advertisements, and (vi)     any material containing performance reports or summaries that is used to solicit clients.\" — idpc-rules.txt ~lines 5869-5873"
+    },
+    {
+      "id": "SUP-E8-0053",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E8-SET-02",
+      "scenario": "Brightlea Securities operates a retail wealth division in Halifax. During a routine sweep, designated advertising Supervisor Nadia Osei finds four items associated with Registered Representative Marcus Webb: (a) a public social-media profile describing Marcus as 'Senior Vice-President & Award-Winning #1 Advisor — President's Council 2025,' although Brightlea has never appointed him to any corporate office and the President's Council recognizes the firm's top revenue producers; (b) a 'Quarterly Income Letter' that Marcus has been emailing to clients and prospects for a year, containing sector recommendations, sent without anyone's prior approval; (c) a prospect handout showing his model portfolio's annualized returns; and (d) a string of business-related text messages with clients on Marcus's personal phone, none of which appear in Brightlea's archives. Nadia must determine the rule basis for remediating each item and the records the firm must be able to produce.",
+      "stem": "Nadia learns that Brightlea's research department actually publishes a report on one of the issuers recommended in Marcus's Quarterly Income Letter, and a local radio show now invites Marcus to discuss that issuer's merits on air. If Marcus appears, what does IDPC 3618 require of him?",
+      "options": {
+        "A": "Nothing — only analysts are subject to public-comment requirements",
+        "B": "He must obtain the issuer's consent before commenting",
+        "C": "He must read the report's full conflicts appendix on air",
+        "D": "When making any public comment about the merits of the issuer or its securities, he must disclose whether or not Brightlea has issued a relevant research report"
+      },
+      "answer": "D",
+      "rationale": "Section 3618 applies when an employee or Approved Person of a Dealer Member gives an interview or otherwise makes any public comment about the merits of an issuer or its securities — the obligation is to disclose whether or not the Dealer Member has issued a relevant research report. Option A is the closest distractor: the section's subject is 'an employee or Approved Person,' not analysts alone, so Marcus is covered. Option C overshoots — the on-air obligation is the issued-report disclosure, not a recital of the written report's conflicts package. Option B invents issuer consent, which has no place in the rule.",
+      "rule_refs": [
+        "IDPC 3618(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"When giving an interview or otherwise making any public comment about the merits of an issuer or its securities,\" — idpc-rules.txt ~lines 6026-6027"
+    },
+    {
+      "id": "SUP-E8-0054",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E8-SET-02",
+      "scenario": "Brightlea Securities operates a retail wealth division in Halifax. During a routine sweep, designated advertising Supervisor Nadia Osei finds four items associated with Registered Representative Marcus Webb: (a) a public social-media profile describing Marcus as 'Senior Vice-President & Award-Winning #1 Advisor — President's Council 2025,' although Brightlea has never appointed him to any corporate office and the President's Council recognizes the firm's top revenue producers; (b) a 'Quarterly Income Letter' that Marcus has been emailing to clients and prospects for a year, containing sector recommendations, sent without anyone's prior approval; (c) a prospect handout showing his model portfolio's annualized returns; and (d) a string of business-related text messages with clients on Marcus's personal phone, none of which appear in Brightlea's archives. Nadia must determine the rule basis for remediating each item and the records the firm must be able to produce.",
+      "stem": "Reviewing item (d) and the year-long pattern, Nadia drafts a findings memo. Brightlea's research Supervisor asks her to also confirm one structural point: if Marcus's unapproved Quarterly Income Letter were treated as research and Marcus held out as an analyst, who at Brightlea would be prohibited from approving such reports, and which framework requirement makes the whole episode a supervision-system failure rather than just one Representative's misconduct?",
+      "options": {
+        "A": "The Chief Financial Officer would be the prohibited approver; the failure is the absence of a marketing budget",
+        "B": "Any branch manager would be prohibited; the failure is Marcus's lack of seniority",
+        "C": "The investment banking department would be prohibited from approving the reports, and the dealer-level failure is that 3601(1) requires the dealer's policies and procedures to specifically address communication with the public and requires the dealer to monitor compliance with them — a year of unreviewed, unarchived communications shows the monitoring did not provide reasonable assurance",
+        "D": "External auditors would be prohibited; the failure is the lack of an annual shareholder report"
+      },
+      "answer": "C",
+      "rationale": "On the structural point, 3621(2)(i) requires policies prohibiting the approval of research reports by the investment banking department — that is the prohibited approver, with approval belonging to the Supervisors designated under 3607(2). On the system point, 3601(1) requires the dealer's policies and procedures to specifically address communication with the public and requires the dealer to monitor compliance with these policies and procedures to provide reasonable assurance that the dealer, its employees and Approved Persons comply; a year of unapproved letters and off-channel, unarchived texts (which also defeat the 3602(6) retention obligation) is evidence the monitoring failed at the dealer level, not merely that one Representative misbehaved. Options A, B and D name approvers and failures (CFO, branch managers, auditors; budgets, seniority, shareholder reports) that have no anchor in Rule 3600.",
+      "rule_refs": [
+        "IDPC 3621(2)(i)",
+        "IDPC 3607(2)",
+        "IDPC 3601(1)",
+        "IDPC 3602(6)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"the Dealer Member must monitor compliance with these policies and procedures to provide reasonable assurance the Dealer Member, its employees and Approved Persons comply with the policies and procedures.\" — idpc-rules.txt ~lines 5840-5842"
+    }
+  ]
+}

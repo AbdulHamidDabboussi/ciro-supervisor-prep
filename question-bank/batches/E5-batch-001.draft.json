@@ -1,0 +1,1254 @@
+{
+  "meta": {
+    "batch": "E5-001",
+    "drafted": 50,
+    "date": "2026-06-04",
+    "corpus": [
+      "idpc-rules.txt (2026-01-08)",
+      "gn-3900-20-001.txt",
+      "umir.txt",
+      "syllabus-raw.txt"
+    ],
+    "qa": "Gate 1 blind solve 2026-06-04: 50/50 agreement. Gate 2: independent contiguous-quote verification 50/50, 0 artifacts. Gate 3 lint clean. See qa-log.md."
+  },
+  "questions": [
+    {
+      "id": "SUP-E5-0009",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Marchand Securities operates twelve branch offices across Ontario and uses a two-tiered post-trade review system. According to CIRO guidance, what is the primary purpose of second-tier supervision compared to first-tier supervision?",
+      "options": {
+        "A": "To ensure no serious account issues were missed by first-tier supervision and that first-tier supervision is conducted adequately",
+        "B": "To repeat the first-tier review at the same depth so every trade is reviewed twice",
+        "C": "To replace the first-tier review for branch offices that lack a Resident Supervisor",
+        "D": "To approve the opening of new accounts before the first-tier reviewer sees them"
+      },
+      "answer": "A",
+      "rationale": "Per GN-3900-20-001, second-tier supervision has a different purpose and is generally not at the same depth as first-tier supervision; it is designed to ensure no serious account issues were missed and that first-tier reviews are conducted adequately. Option B is wrong because the guidance expressly states the second tier is generally not at the same depth; C confuses the second tier with the assigned outside Supervisor used for locations without Resident Supervisors; D is account opening, a separate function.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2",
+        "IDPC 3945"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"ensure no serious account issues were missed by ﬁrst-tier supervision, and ensure ﬁrst-tier supervision is conducted adequately.\" — gn-3900-20-001.txt ~line 266"
+    },
+    {
+      "id": "SUP-E5-0010",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Tremblay Capital is deciding whether its small Sudbury branch, staffed by three experienced Registered Representatives, needs a Resident Supervisor. Under CIRO's account supervision guidance, which approach is acceptable for a business location that does not have a Resident Supervisor?",
+      "options": {
+        "A": "The location may operate unsupervised provided all Registered Representatives have more than five years of experience",
+        "B": "An assigned outside Supervisor must oversee the location and should visit it periodically to review business conduct and compliance with applicable laws",
+        "C": "The most senior Registered Representative at the location automatically assumes the Supervisor role",
+        "D": "Head office must approve every order from the location before entry"
+      },
+      "answer": "B",
+      "rationale": "GN-3900-20-001 states that business locations without Resident Supervisors should have an assigned outside Supervisor who should visit the location periodically to review business conduct and compliance, with the visits specifically addressed in policies and procedures. Option A is wrong: experience is only one factor in deciding whether a Resident Supervisor is necessary, not a basis for no supervision. C confers supervisory status without designation or qualification. D describes pre-approval of orders, an enhanced measure for Approved Persons with infraction histories, not the default control for remote locations.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.3",
+        "IDPC 3905"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Business locations without Resident Supervisors should have an assigned outside Supervisor. The outside Supervisor should visit the location periodically to review business conduct and compliance with applicable laws.\" — gn-3900-20-001.txt ~line 169"
+    },
+    {
+      "id": "SUP-E5-0011",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Lavoie Investments wants to conduct all first-tier reviews of branch trading activity centrally at head office rather than at each branch. Under CIRO guidance, this single centralized approach to first-tier reviews is acceptable provided that:",
+      "options": {
+        "A": "CIRO grants a written exemption from Rule 3900 before centralization begins",
+        "B": "Each branch retains a Resident Supervisor who duplicates the central review",
+        "C": "There are resources available to conduct the review at that location and the Dealer has adequate procedures for dealing with any issues identified",
+        "D": "The central reviews are limited to accounts generating more than $1,500 in monthly commissions"
+      },
+      "answer": "C",
+      "rationale": "GN-3900-20-001 permits first-tier reviews in a central location (head office or regional office) provided there are resources available to conduct the review at that location and the Dealer has adequate procedures for dealing with identified issues. Option A is wrong — no exemption is needed since the rules are structure-neutral; B defeats the point of centralization and is not required; D confuses the $1,500 figure, which is an example of a monthly review selection criterion, with a condition for centralizing reviews.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.1",
+        "IDPC 3945"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Dealers can conduct these reviews in a central location (head oDce or regional oDce) provided: there are resources available to conduct the review at that location, and the Dealer has adequate procedures for dealing with any issues identiﬁed.\" — gn-3900-20-001.txt ~line 229"
+    },
+    {
+      "id": "SUP-E5-0012",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The Chief Compliance Officer of Belliveau Securities is rewriting the firm's account supervision policies and procedures. In addition to AML/ATF compliance, which two categories of clients must the policies and procedures specifically address identifying?",
+      "options": {
+        "A": "Clients who trade frequently and clients who hold concentrated positions",
+        "B": "Clients that present a high risk to the Dealer Member and clients that present a high risk of conducting improper activities in the securities markets",
+        "C": "Clients with registered accounts and clients with margin accounts",
+        "D": "Politically exposed persons and clients resident outside Canada"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3926(2) requires policies and procedures that specifically address identifying clients that present a high risk to the Dealer Member, identifying clients that present a high risk of conducting improper activities in the securities markets, and complying with all anti-money laundering and terrorist financing requirements. Option D is the closest distractor — PEPs are an AML concept and a manual-review trigger in account-opening automation, but they are not the two client-identification categories named in 3926(2). A and C describe activity and account types, not the rule's risk categories.",
+      "rule_refs": [
+        "IDPC 3926(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"(i) identify clients that present a high risk to the Dealer Member, (ii) identify clients that present a high risk of conducting improper activities in the securities markets\" — idpc-rules.txt ~line 8099"
+    },
+    {
+      "id": "SUP-E5-0013",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Quesnel Wealth is selecting retail accounts for post-trade review using a risk-based approach. According to CIRO guidance, which of the following client profiles may a Dealer determine presents a higher risk of improper market activity, warranting closer review?",
+      "options": {
+        "A": "Clients who hold only guaranteed investment certificates",
+        "B": "Clients who place all orders through the firm's mobile application",
+        "C": "Clients with access to material non-public information about issuers, holders of control blocks of public issuers, and market professionals",
+        "D": "Clients whose accounts are charged flat annual fees rather than commissions"
+      },
+      "answer": "C",
+      "rationale": "GN-3900-20-001 states a Dealer may determine some clients present a higher risk of improper market activity, such as those who have access to material non-public information about issuers, holders of control blocks of public issuers and market professionals. Option D is the closest distractor: fee-based accounts require review criteria other than commission levels, but the fee structure itself does not make the client a higher improper-market-activity risk. A and B describe low-risk products and an order channel, neither of which is a guidance-listed risk marker.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.2",
+        "IDPC 3926(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer may determine some clients present a higher risk of improper market activity, such as those who have access to material non-public information about issuers, holders of control blocks of public issuers and market professionals.\" — gn-3900-20-001.txt ~line 200"
+    },
+    {
+      "id": "SUP-E5-0014",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An internal audit at Falaise Capital finds that any branch employee can edit a client's stated risk profile in the firm's systems without a record of who made the change. Which IDPC requirement does this most directly contravene?",
+      "options": {
+        "A": "The requirement that policies and procedures include controls for accessing and amending client records",
+        "B": "The requirement to maintain a record of the names of Supervisors and their designation dates",
+        "C": "The prohibition on discretionary trading outside approved discretionary accounts",
+        "D": "The requirement to deliver a relationship disclosure document at account opening"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3926(5) requires that a Dealer Member's policies and procedures include controls for accessing and amending client records — unrestricted, untracked editing of KYC data defeats that control. Option B concerns supervision records under 3908, not client records; C concerns trading conduct, not record integrity; D is an account-opening disclosure obligation. The closest distractor is B because both involve record-keeping, but 3908 records relate to the supervisory system itself rather than access to client files.",
+      "rule_refs": [
+        "IDPC 3926(5)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member’s policies and procedures must include controls for accessing and amending client records.\" — idpc-rules.txt ~line 8111"
+    },
+    {
+      "id": "SUP-E5-0015",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The compliance department at Drummond Securities drafts substantive amendments to the firm's account supervision policies and procedures. Before implementation, who must approve these amendments under the IDPC Rules?",
+      "options": {
+        "A": "CIRO's Member Regulation Policy group",
+        "B": "The Dealer Member's Chief Compliance Officer or another appropriate Executive",
+        "C": "The Ultimate Designated Person and the board of directors jointly",
+        "D": "The designated Supervisor responsible for each affected branch"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3926(3) requires all policies and procedures relating to the supervision of accounts, and any substantive amendments, to be approved by the Dealer Member's Chief Compliance Officer or another appropriate Executive. Option C is the closest distractor — the board is responsible for ensuring an appropriate supervision system is in place under 3901(3), but the rule assigns approval of account-supervision P&Ps and amendments to the CCO or another appropriate Executive, not to a joint UDP/board sign-off. A is wrong because CIRO does not pre-approve dealer P&Ps; D understates the required approval level.",
+      "rule_refs": [
+        "IDPC 3926(3)",
+        "IDPC 3901(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"any substantive amendments to such policies and procedures, must be approved by the Dealer Member’s Chief Compliance Officer or another appropriate Executive.\" — idpc-rules.txt ~line 8105"
+    },
+    {
+      "id": "SUP-E5-0016",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Which statement best describes the Dealer Member's obligation under the IDPC Rules with respect to Approved Persons who have a history of regulatory infractions or questionable conduct?",
+      "options": {
+        "A": "The Dealer Member must terminate the Approved Person's registration within 90 days",
+        "B": "The Dealer Member must transfer all of the Approved Person's accounts to another Registered Representative",
+        "C": "The Dealer Member must establish and follow procedures for the implementation of additional supervisory measures applicable to those Approved Persons",
+        "D": "The Dealer Member may rely on its standard sampling-based reviews because the regulator has already sanctioned the conduct"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3927(3) requires the Dealer Member to establish and follow procedures for the implementation of additional supervisory measures applicable to Approved Persons with a history of regulatory infractions or questionable conduct. Option D is the misconception the rule exists to defeat: prior discipline increases, not discharges, the supervision obligation. A and B are not required by the rule — the prescribed response is enhanced supervision, not automatic termination or account reassignment.",
+      "rule_refs": [
+        "IDPC 3927(3)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must establish and follow procedures for the implementation of additional supervisory measures applicable to Approved Persons with a history of regulatory infractions or questionable conduct.\" — idpc-rules.txt ~line 8131"
+    },
+    {
+      "id": "SUP-E5-0017",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Cloutier Direct, an order execution only division of an Investment Dealer, is updating its trade-review policies. Under section 3955, what specific risk must its policies and procedures relating to the review of client trading address?",
+      "options": {
+        "A": "The risk of unsuitable recommendations made by its Registered Representatives",
+        "B": "The risks associated with the method of order entry and the absence of intermediation by employees of the Dealer Member",
+        "C": "The risk that clients fail to read the relationship disclosure document",
+        "D": "The risk of producing inaccurate suitability determinations for high-volume traders"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3955(2) requires the OEO entity's policies and procedures relating to review of client trading to specifically address the risks associated with the method of order entry and the absence of intermediation by employees of the Dealer Member. Options A and D both invoke suitability — wrong for OEO accounts, which are exempt from suitability determination and where recommendations are prohibited; 3955(1)(iii) directs review for Rule 3900 concerns other than those relating to the suitability requirements. C is a disclosure issue, not the order-entry risk the rule targets.",
+      "rule_refs": [
+        "IDPC 3955(2)",
+        "IDPC 3955(1)(iii)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"policies and procedures relating to review of client trading must specifically address the risks associated with the method of order entry and the absence of intermediation by employees of the Dealer Member.\" — idpc-rules.txt ~line 8267"
+    },
+    {
+      "id": "SUP-E5-0018",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Gendron Securities placed a temporary hold on a vulnerable client's account 30 days ago based on a reasonable belief of financial exploitation, and the concern has not yet been resolved. Under section 3222, what must the Dealer Member now do, and continue to do for as long as the hold remains?",
+      "options": {
+        "A": "Apply to CIRO for an extension of the hold beyond 30 days",
+        "B": "Within every 30-day period, either revoke the temporary hold or provide the client with notice of the decision to continue the hold and the reasons for that decision",
+        "C": "Obtain the written consent of the client's trusted contact person to continue the hold",
+        "D": "Convert the temporary hold into a permanent account restriction after 60 days"
+      },
+      "answer": "B",
+      "rationale": "Clause 3222(3)(iv) requires that within 30 days of placing the temporary hold, and within every subsequent 30-day period until the hold is revoked, the Dealer Member either revoke the hold or provide the client notice of the decision to continue it and the reasons. Option A is wrong — no CIRO application is involved; the obligation is internal review plus client notice. C is wrong because the trusted contact person may be a resource but their consent is not a condition for continuing a hold. D is wrong: the regime is temporary by design with recurring 30-day decision points, not conversion to a permanent restriction.",
+      "rule_refs": [
+        "IDPC 3222(3)(iv)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"within 30 days of placing the temporary hold and, until the hold is revoked, within every subsequent 30‐day period, do either of the following: (a) revoke the temporary hold, (b) provide the client with notice of the Dealer Member’s decision to continue the hold\" — idpc-rules.txt ~line 8947"
+    },
+    {
+      "id": "SUP-E5-0019",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An Approved Person at Pelchat Wealth wants to place a temporary hold on a withdrawal request, citing concern about the client's mental state. Under section 3222, a temporary hold on the basis of a client's lack of mental capacity is permitted only if:",
+      "options": {
+        "A": "The client is over the age of 65 and has named a trusted contact person",
+        "B": "A physician has certified in writing that the client is incapable",
+        "C": "The Dealer Member reasonably believes that the client does not have the mental capacity to make decisions involving financial matters",
+        "D": "The client has previously been the subject of a financial-exploitation hold"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3222(2) prohibits a temporary hold on the basis of lack of mental capacity unless the Dealer Member reasonably believes the client does not have the mental capacity to make decisions involving financial matters. Option B overstates the threshold — the standard is the Dealer Member's reasonable belief, not a medical certificate. A is wrong because age and the existence of a trusted contact person are not the test; vulnerability is not defined by an age cut-off. D conflates the two separate grounds (exploitation under 3222(1) and incapacity under 3222(2)); a prior hold is not a condition.",
+      "rule_refs": [
+        "IDPC 3222(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"must not place a temporary hold on the basis of a client’s lack of mental capacity unless the Dealer Member reasonably believes that the client does not have the mental capacity to make decisions involving financial matters.\" — idpc-rules.txt ~line 8936"
+    },
+    {
+      "id": "SUP-E5-0020",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Hubert Capital offers both commission-based and fee-based retail accounts. Its monthly review selects accounts solely by gross commissions charged. A Supervisor objects that this design breaches Rule 3900. Why is the Supervisor correct?",
+      "options": {
+        "A": "Monthly reviews may only be selected on trade value, never on commissions",
+        "B": "Policies for supervising accounts where a commission is not charged for trades, such as fee-based accounts, must use criteria other than commission levels",
+        "C": "Fee-based accounts are exempt from monthly supervision entirely",
+        "D": "Commission-based selection is permitted only for institutional accounts"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3945(3) requires policies and procedures that specifically address supervising retail client accounts where a commission is not charged for trades placed by or for a client, such as fee-based accounts, and those policies must use criteria other than commission levels — a commissions-only filter would never select fee-based accounts for review. Option A is wrong: commission-based selection criteria remain a valid example for commission accounts (GN cites $1,500 gross commissions). C is the opposite of the rule — fee-based accounts still require supervision. D inverts the retail/institutional split; 3945 is the retail part of Rule 3900.",
+      "rule_refs": [
+        "IDPC 3945(3)",
+        "GN-3900-20-001 s.1.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"such as fee based accounts. These policies and procedures must: (i) address account activity review Corporation requirements, and (ii) use criteria other than commission levels.\" — idpc-rules.txt ~line 8176"
+    },
+    {
+      "id": "SUP-E5-0021",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "When setting up its retail supervision system, which of the following sets of retail client accounts must Veilleux Securities specifically designate for supervision purposes under subsection 3945(4)?",
+      "options": {
+        "A": "Margin accounts, cash accounts, joint accounts, corporate accounts and estate accounts",
+        "B": "Non-client accounts, discretionary accounts, managed accounts, registered accounts and restricted accounts",
+        "C": "Fee-based accounts, DAP/RAP accounts, hedging accounts, OEO accounts and DEA accounts",
+        "D": "Only accounts of clients identified as vulnerable or high-risk"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3945(4) requires the Dealer Member to specifically designate non-client accounts, discretionary accounts, managed accounts, registered accounts, and restricted accounts for supervision purposes. Option A lists common account categories that are not the rule's designation list; C mixes account types governed by other Parts of Rule 3900 (OEO, derivatives) with fee-based accounts, which are addressed by 3945(3)'s review-criteria requirement rather than the designation list; D substitutes the client-risk identification obligation in 3926(2) for the account-designation obligation.",
+      "rule_refs": [
+        "IDPC 3945(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(i) non-client accounts, (ii) discretionary accounts, (iii) managed accounts, (iv) registered accounts, and (v) restricted accounts.\" — idpc-rules.txt ~line 8182"
+    },
+    {
+      "id": "SUP-E5-0022",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "During a monthly review at Sicotte Investments, a Supervisor finds a long-tenured retail client's account where blue-chip equities have steadily been replaced over several months by thinly traded, speculative venture issues, although each individual trade appeared defensible when made. Which detection category from subsection 3945(2) does this pattern most directly engage, and what review design does CIRO guidance say is needed to catch it?",
+      "options": {
+        "A": "Undisclosed short sales; detected by reviewing settlement records",
+        "B": "Late payment; detected through cash account violation reports",
+        "C": "Improper crosses between clients; detected by comparing contra parties on each fill",
+        "D": "Deterioration of the quality of client holdings in an account; detected by reviewing trades over a longer period rather than single trades"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3945(2)(viii) lists deterioration of the quality of client holdings in an account as a required detection item, and GN-3900-20-001 explains that patterns of activity may not be apparent by reviewing single trades — reviewing trades over a longer period may detect issues with overall account activity even if each trade is suitable. Options A, B and C cite other genuine 3945(2) items, but none describes a gradual quality slide in holdings; C is the closest trap because it also involves multi-trade comparison, yet crosses involve transfers between clients, absent here.",
+      "rule_refs": [
+        "IDPC 3945(2)(viii)",
+        "GN-3900-20-001 s.1.2"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"deterioration of the quality of client holdings in an account,\" — idpc-rules.txt ~line 8156"
+    },
+    {
+      "id": "SUP-E5-0023",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Beyond transactional activity, subsection 3946(1) requires Aubin Securities' policies and procedures to address identifying, dealing with and informing the appropriate Supervisors of which other client related matters?",
+      "options": {
+        "A": "Client complaints, cash account violations, transfers of funds and positions between unrelated accounts or between non-client accounts and client accounts, and trading while the account is under margined",
+        "B": "Marketing material approvals, outside activities, and gifts and entertainment",
+        "C": "Dividend reinvestments, currency conversions, and account fee rebates",
+        "D": "Only matters that result in a client complaint being filed with CIRO"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3946(1) lists client complaints, cash account violations, transfers of funds and positions between unrelated accounts or between non-client accounts and client accounts or deposits from non-client accounts to client accounts, and trading while the account is under margined. Option B lists conduct-supervision topics governed elsewhere (communications and outside activities rules), not 3946 matters; C lists routine administrative events that are not red flags under the rule; D wrongly narrows the obligation to regulator-filed complaints when the rule covers the matters themselves.",
+      "rule_refs": [
+        "IDPC 3946(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"(i) client complaints, (ii) cash account violations, (iii) transfers of funds and positions between unrelated accounts or between non-client accounts and client accounts or deposits from non-client accounts to client accounts, and (iv) trading while the account is under margined.\" — idpc-rules.txt ~line 8191"
+    },
+    {
+      "id": "SUP-E5-0024",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Designing its first-tier reviews, Normand Wealth wants to know the expected completion timing under CIRO guidance for (1) the daily review of the previous day's trading and (2) the monthly review. Which pairing is correct?",
+      "options": {
+        "A": "Daily review within one business day after the trading activity occurs; monthly review within 21 days of the review period, unless precluded by unusual circumstances",
+        "B": "Daily review before market open the same day; monthly review within 10 days of month-end",
+        "C": "Daily review within five business days; monthly review within 30 days of the review period",
+        "D": "Daily review within one business day; monthly review by the end of the following calendar quarter"
+      },
+      "answer": "A",
+      "rationale": "GN-3900-20-001 states first-tier daily reviews should be completed one business day after the trading activity occurs, and first-tier monthly reviews within 21 days of the review period, unless precluded by unusual circumstances; the same one-business-day and 21-day expectations apply at the second tier. Option B demands pre-open same-day completion, which is faster than the guidance and would make a post-trade review of the previous day impossible; C and D use plausible but wrong windows (5 days/30 days/quarter-end) — the tested figures are one business day and 21 days.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.1.1, s.2.1.2",
+        "IDPC 3945(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Dealers should complete this review within 21 days of the review period, unless precluded by unusual circumstances.\" — gn-3900-20-001.txt ~line 254"
+    },
+    {
+      "id": "SUP-E5-0025",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A first-tier monthly review is being scoped at Carbonneau Securities. According to CIRO guidance, which non-client account activity must be included in the first-tier monthly review?",
+      "options": {
+        "A": "Only non-client accounts that generated commissions above $3,000 in the month",
+        "B": "All non-client accounts with any activity other than dividend and interest payments",
+        "C": "Non-client accounts are reviewed only at the second tier",
+        "D": "Only non-client accounts belonging to producing branch managers"
+      },
+      "answer": "B",
+      "rationale": "GN-3900-20-001 states a first-tier monthly review should include all non-client accounts with any activity other than dividend and interest payments. Option A misapplies the $3,000 figure, which is a second-tier monthly selection example for client commissions; C is wrong because non-client trading also appears in second-tier daily criteria but the first-tier monthly inclusion is explicit; D confuses this with the separate second-tier criterion covering producing branch managers' client accounts.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.1.2",
+        "IDPC 3945(4)(i)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"A ﬁrst-tier monthly review should include all non-client accounts with any activity other than dividend and interest payments.\" — gn-3900-20-001.txt ~line 251"
+    },
+    {
+      "id": "SUP-E5-0026",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retail client of Thivierge Securities buys a thinly traded corporate bond in the secondary market. The trade confirmation shows only the bond's price. The client later learns the firm embedded a mark-up. For a non-primary-market debt trade confirmed to a retail client, what does section 3816 require regarding the firm's remuneration?",
+      "options": {
+        "A": "Nothing further; mark-ups on debt securities never need to appear on confirmations",
+        "B": "Disclosure of either the total amount of any mark-up or mark-down, commission or other service charges applied, or the total commission charged plus a prescribed notification that dealer firm remuneration was added to or deducted from the price",
+        "C": "Disclosure of the mark-up only if it exceeds 5% of the trade value",
+        "D": "A verbal disclosure by the Registered Representative before settlement"
+      },
+      "answer": "B",
+      "rationale": "Sub-clause 3816(2)(vi)(c) requires, where a debt security trade is not a primary market transaction and the confirmation is sent to a retail client, either the total amount of any mark-up or mark-down, commission or other service charges applied, or the total commission charged plus the prescribed notification that dealer firm remuneration was added to or deducted from the price. Option A is the common misconception that embedded debt remuneration is invisible; C invents a materiality threshold not in the rule; D substitutes verbal disclosure for the written confirmation content requirement. This is the transactional charge/commission information the syllabus requires Supervisors to know for retail instructions.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(c)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"the total amount of any mark-up or mark-down, commission or other service charges the Dealer Member applied to the transaction,\" — idpc-rules.txt ~line 7609"
+    },
+    {
+      "id": "SUP-E5-0027",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The branch Supervisor at Routhier Capital is dually registered and also advises and trades for her own book of retail clients. Under CIRO's account supervision guidance, how should the Dealer address the supervision of her client activity?",
+      "options": {
+        "A": "She may review her own client trades provided she documents each review",
+        "B": "Her client trades are exempt from review because she holds supervisory proficiency",
+        "C": "The Dealer should ensure another Supervisor reviews her advice to and trades for clients",
+        "D": "Her client trades need only be reviewed during the annual branch audit"
+      },
+      "answer": "C",
+      "rationale": "GN-3900-20-001 states Dealers should ensure that where a Supervisor is dually-registered and also advises or trades for their own clients, another Supervisor reviews that Supervisor's advice to and trades for clients — the cross-supervision principle that no one supervises themselves. Option A is the precise conflict the guidance targets: self-review, even documented, is inadequate. B confuses proficiency with independence; D defers ongoing daily/monthly review obligations to an annual event, which does not satisfy Rule 3900 timing.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.2",
+        "IDPC 3945"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Dealers should ensure that where a Supervisors is dually-registered and also advises or trades for their own clients, another Supervisor reviews that Supervisor’s advice to and trades for clients.\" — gn-3900-20-001.txt ~line 148"
+    },
+    {
+      "id": "SUP-E5-0028",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Olivier, a producing branch manager at Magnan Securities, conducts the first-tier review for his branch. Under CIRO guidance, which second-tier daily review criterion specifically captures the gap his dual role creates?",
+      "options": {
+        "A": "Bond trades over $100,000 value per trade",
+        "B": "Producing branch managers' client accounts",
+        "C": "Stock trades with a value over $5,000 and a price under $5.00 per share",
+        "D": "Suspense account trading"
+      },
+      "answer": "B",
+      "rationale": "GN-3900-20-001's example second-tier daily criteria include producing branch managers' client accounts — precisely because a producing manager cannot independently review their own client activity at the first tier, the second tier must catch it. Options A, C and D are also genuine items on the guidance's example list, but none addresses the self-review conflict in the scenario; they target large or low-priced trades and suspense activity generally.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"producing branch managers’ client accounts, all client accounts not reviewed by a branch manager,\" — gn-3900-20-001.txt ~line 283"
+    },
+    {
+      "id": "SUP-E5-0029",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retail client of Sauriol Wealth, posted overseas for a ten-month contract, asks the firm to hold her mail for the full period. Under section 3219, how can the Dealer Member accommodate a hold-mail period longer than the standard limit?",
+      "options": {
+        "A": "It cannot; hold-mail orders are capped at six months in any 12-month period with no exceptions",
+        "B": "Only if CIRO grants exemptive relief for the specific account",
+        "C": "A longer period may be used if it is permitted by the Dealer Member's policies and procedures, the policies specifically address close supervision of such accounts, and the appropriate Supervisor pre-approves the extended period",
+        "D": "Only if the client signs a waiver releasing the firm from supervision of the account"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3219(2) permits a period longer than the clause 3219(1)(ii) six-month limit if it is permitted by the Dealer Member's policies and procedures, the firm has policies that specifically address close supervision of such accounts, and the appropriate Supervisor pre-approves the extended period. Option A states the default limit but ignores the express notwithstanding provision; B is wrong because the exception is internal, not CIRO relief; D is impossible — supervision obligations cannot be waived by the client, and held mail demands closer supervision, not less.",
+      "rule_refs": [
+        "IDPC 3219(2)",
+        "IDPC 3219(1)(ii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"a longer period may be used if: (i) it is permitted by the Dealer Member’s policies and procedures, (ii) the Dealer Member has policies and procedures that specifically address the close supervision of such accounts, and (iii) the appropriate Supervisor pre‐approves the extended period.\" — idpc-rules.txt ~line 4890"
+    },
+    {
+      "id": "SUP-E5-0030",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Mail sent to a retail client of Bisson Securities is returned undeliverable. Under section 3219, the firm's returned mail procedures must, at a minimum, require:",
+      "options": {
+        "A": "Control and investigation by a person independent of the sales function, and that a record of all investigations and their results be maintained",
+        "B": "That the Registered Representative for the account locate the client and update the address",
+        "C": "Immediate closure of the account and remittance of assets to the provincial public trustee",
+        "D": "Re-mailing the documents monthly until they are no longer returned"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3219(3) requires returned mail procedures to include control and investigation by a person independent of the sales function (who may be located within a business location) and a rule requiring that a record of all investigations and their results be maintained. Option B is the exact conflict the rule prevents — the RR is part of the sales function and could be the person concealing a false address; C and D are not prescribed responses and ignore the independence and record-keeping requirements.",
+      "rule_refs": [
+        "IDPC 3219(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"a rule requiring the control and investigation by a person independent of the sales function, but may be located within a business location, and (ii) a rule requiring that a record of all investigations and their results be maintained.\" — idpc-rules.txt ~line 4897"
+    },
+    {
+      "id": "SUP-E5-0031",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Falardeau Capital Markets serves only institutional clients. Its compliance team is drafting the supervision policies required by section 3950. Beyond outlining actions to deal with problems identified from supervisory reviews, the policies must specifically address detecting improper or suspicious account activity including:",
+      "options": {
+        "A": "Unsuitable trading, churning, and deterioration of the quality of client holdings",
+        "B": "Manipulative and deceptive activities, trading in securities on the Dealer Member's restricted list, front running by employee or proprietary accounts, trading in securities that have restrictions on their transfer, and exceeding derivative position or exercise limits",
+        "C": "Late payments, account number changes, and outstanding margin calls",
+        "D": "Failure to deliver relationship disclosure documents to each institutional client"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3950(2) requires institutional account supervision policies to specifically address manipulative and deceptive activities, trading in securities on the Dealer Member's restricted list, transacting in derivatives whose underlying interest is on the restricted list, front running by employee or proprietary accounts, trading in securities with transfer restrictions, derivatives whose underlying interest has transfer restrictions, and exceeding derivative position or exercise limits. Options A and C are retail detection items from 3945(2) — the classic trap is applying the retail list to institutional accounts, where suitability-driven items like churning are not in the 3950 list. D is an account-opening disclosure matter, not a 3950 detection item.",
+      "rule_refs": [
+        "IDPC 3950(2)",
+        "IDPC 3945(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(i) manipulative and deceptive activities, (ii) trading in securities on the Dealer Member’s restricted list,\" — idpc-rules.txt ~line 8231"
+    },
+    {
+      "id": "SUP-E5-0032",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An institutional trader at Forand Securities, aware of a pension fund's unentered block order in a TSX-listed stock that will move the price, immediately buys call options on that stock for the firm's principal account before the client order is entered. Under UMIR 4.1, this conduct is:",
+      "options": {
+        "A": "Permitted, because the principal order was in a derivative rather than the security itself",
+        "B": "Permitted, provided the principal position is unwound after the client order fills",
+        "C": "Prohibited frontrunning, because a Participant with knowledge of such a client order must not enter a principal order for the security, derivative or any related security or related derivative before the client order is entered",
+        "D": "Permitted, because frontrunning rules apply only to orders entered on foreign organized regulated markets"
+      },
+      "answer": "C",
+      "rationale": "UMIR 4.1(1)(a) prohibits a Participant with knowledge of a client order that on entry could reasonably be expected to affect the market price of a security or derivative from entering, prior to entry of the client order, a principal or non-client order for the purchase or sale of the security, derivative or any related security or related derivative — Policy 4.1 expressly gives the option-on-underlying example. Option A is the trap the related-derivative language closes; B is wrong because subsequent unwinding does not cure trading ahead; D inverts the rule's scope, which covers marketplaces, foreign organized regulated markets and other markets including OTC.",
+      "rule_refs": [
+        "UMIR 4.1(1)(a)",
+        "UMIR Policy 4.1 Part 1",
+        "IDPC 3950(2)(iv)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"enter a principal order or a non-client order on a marketplace, foreign organized regulated market or other market, including any over-the-counter market, for the purchase or sale of the security, derivative or any related security or related derivative;\" — umir.txt ~line 4617"
+    },
+    {
+      "id": "SUP-E5-0033",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A second-tier reviewer at Forgues Capital identifies a pattern of suspicious closing-price trades in an institutional account but lacks the authority to restrict the account or contact the desk head. Under CIRO guidance, what should the Dealer's procedures provide for in this situation?",
+      "options": {
+        "A": "The reviewer must close the file because second-tier reviews are advisory only",
+        "B": "Referring the issues identified to a Supervisor who has the appropriate authority",
+        "C": "Reporting the pattern directly to the client's board of directors",
+        "D": "Waiting until the next monthly review cycle to confirm the pattern persists"
+      },
+      "answer": "B",
+      "rationale": "GN-3900-20-001 states that where second-tier reviews are conducted by personnel who do not have the authority to resolve the issues they identify, the Dealer should have procedures for referring those issues to a Supervisor with the appropriate authority — and 3950(1) requires institutional policies to outline the actions to deal with problems identified from supervisory reviews. Option A defeats the purpose of the review; C escalates outside the Dealer to the wrong party; D delays remediation, contrary to the guidance that supervisors take effective and timely remedial action.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2",
+        "IDPC 3950(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the Dealer should have procedures for referring these issues to a Supervisor who has the appropriate authority.\" — gn-3900-20-001.txt ~line 270"
+    },
+    {
+      "id": "SUP-E5-0034",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Compliance at Dufault Securities is testing its institutional supervision program against subsection 3950(2). Which of the following derivative-related events is on the list the policies and procedures must specifically address detecting?",
+      "options": {
+        "A": "Transacting in derivatives whose underlying interest is on the Dealer Member's restricted list",
+        "B": "Speculative transactions in hedging accounts",
+        "C": "Exposures arising out of uncovered option positions",
+        "D": "Holding futures contracts into the delivery month"
+      },
+      "answer": "A",
+      "rationale": "Clause 3950(2)(iii) requires institutional supervision policies to address detecting transacting in derivatives whose underlying interest is on the Dealer Member's restricted list. Options B, C and D are all genuine detection items, but they appear in subsection 3963(1) for retail derivatives account trading activity, not in the institutional list — the question tests knowing which list an item belongs to. Exceeding derivative position or exercise limits is the other derivatives item shared with 3950(2).",
+      "rule_refs": [
+        "IDPC 3950(2)(iii)",
+        "IDPC 3963(1)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"transacting in derivatives whose underlying interest is on the Dealer Member’s restricted list,\" — idpc-rules.txt ~line 8233"
+    },
+    {
+      "id": "SUP-E5-0035",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Béland Capital, a Participant, provides direct electronic access to an institutional pension manager. Under UMIR 7.13, before any order may be transmitted using that access, each order must be subject to:",
+      "options": {
+        "A": "Manual review by a Registered Representative",
+        "B": "The risk management and supervisory controls, policies and procedures established by the Participant, including the automated controls to examine each order before entry on a marketplace",
+        "C": "Pre-clearance by the Market Regulator",
+        "D": "A suitability determination for the underlying beneficial owner"
+      },
+      "answer": "B",
+      "rationale": "Clause 7.13(4)(b) prohibits the Participant from allowing any order to be transmitted using direct electronic access unless the order is subject to the risk management and supervisory controls, policies and procedures established by the Participant, including the automated controls to examine each order before entry on a marketplace. Option A is wrong — DEA is defined by the absence of human intermediation, and the required gate is automated; C invents regulator pre-clearance; D is wrong because a direct electronic access account is by definition not subject to suitability determination (other than the account-level determinations preserved by clauses 3402(3)(i) and 3403(4)(i)).",
+      "rule_refs": [
+        "UMIR 7.13(4)(b)",
+        "IDPC 1201 \"direct electronic access account\""
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the order is subject to the risk management and supervisory controls, policies and procedures established by the Participant including the automated controls to examine each order before entry on a marketplace.\" — umir.txt ~line 8927"
+    },
+    {
+      "id": "SUP-E5-0036",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An institutional client of Casgrain Securities deploys a new algorithmic trading strategy through its DEA arrangement. Under UMIR Policy 7.1 and the 7.13 standards, what testing obligation applies to every automated order system used by the Participant or any client of the Participant?",
+      "options": {
+        "A": "Testing only when the Market Regulator requests a demonstration",
+        "B": "One-time certification by the marketplace on which the orders will trade",
+        "C": "Testing in accordance with prudent business practices initially before use and at least annually thereafter, with a written record maintained",
+        "D": "Continuous live testing in production using small client orders"
+      },
+      "answer": "C",
+      "rationale": "UMIR Policy 7.1 Part 8 requires that every automated order system used by the Participant, the Access Person or any client be tested in accordance with prudent business practices initially before use and at least annually thereafter, with a written record maintained demonstrating the testing; UMIR 7.13(2)(f) imposes the matching standard on DEA clients, including testing before introduction of a significant modification. Option A and B substitute external actors for the Participant's own obligation; D is not the standard — testing assumes various market conditions and is distinct from live production use.",
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 8",
+        "UMIR 7.13(2)(f)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"is tested in accordance with prudent business practices initially before use and at least annually thereafter. A written record must be maintained with sufficient details to demonstrate the testing of the automated order system\" — umir.txt ~line 6986"
+    },
+    {
+      "id": "SUP-E5-0037",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client algorithm at Périgny Capital begins flooding a marketplace with mispriced orders after a code defect — a 'runaway' algorithm. Under UMIR Policy 7.1, which capability must the Participant have to deal with this event?",
+      "options": {
+        "A": "The ability to immediately override or disable automatically any automated order system and thereby prevent its orders from being entered on any marketplace",
+        "B": "The ability to shift responsibility to the client because the defect was in client-side code",
+        "C": "The ability to request that the marketplace suspend trading in the affected securities",
+        "D": "The ability to cancel resulting trades within 30 days of execution"
+      },
+      "answer": "A",
+      "rationale": "UMIR Policy 7.1 Part 8 requires each Participant or Access Person to have the ability to immediately override or disable automatically any automated order system and prevent its orders from being entered on any marketplace — the kill-switch obligation. Option B is expressly foreclosed: the Participant remains responsible for any order or trade resulting from improper operation or malfunction, even where the malfunctioning aspect was not accessible to the Participant for testing. C relies on the marketplace rather than the Participant's own control; D is not a Policy 7.1 control and trades cannot simply be cancelled by election.",
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Each Participant or Access Person must have the ability to immediately override or disable automatically any automated order system and thereby prevent orders generated by the automated order system from being entered on any marketplace.\" — umir.txt ~line 7011"
+    },
+    {
+      "id": "SUP-E5-0038",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Vigneault Direct operates CIRO-approved order execution only account services as a separate business unit. A client with accounts at both the OEO unit and the full-service side asks the OEO unit which ETF to buy. Under section 3955, the OEO unit's policies and procedures must:",
+      "options": {
+        "A": "Permit recommendations to clients who also maintain advisory accounts with the Dealer Member",
+        "B": "Ensure that clients are not provided with recommendations as a result of the client having an account with a separate legal entity of the Dealer Member, a separate business unit of the Dealer Member, or the Dealer Member itself",
+        "C": "Route the question to the client's full-service Registered Representative for execution through the OEO account",
+        "D": "Provide the recommendation but document that no suitability determination was made"
+      },
+      "answer": "B",
+      "rationale": "Clause 3955(1)(ii) requires OEO policies and procedures to ensure clients are not provided with recommendations as a result of having an account with a separate legal entity, a separate business unit, or the Dealer Member itself. Option A is the precise loophole the clause closes — having another account relationship does not entitle the client to recommendations in the OEO channel. C blends channels and would put advised order flow through the unsupervised-for-suitability OEO pipe; D is wrong because the suitability exemption is conditioned on no recommendations being made at all, not on disclaiming them.",
+      "rule_refs": [
+        "IDPC 3955(1)(ii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"ensure that clients are not provided with recommendations as a result of the client having an account with: (a) a separate legal entity of the Dealer Member, (b) a separate business unit of the Dealer Member, or (c) the Dealer Member itself,\" — idpc-rules.txt ~line 8252"
+    },
+    {
+      "id": "SUP-E5-0039",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Designing its supervision program, the OEO division of Hétu Securities asks what scope of trade review applies, given that no suitability determination is owed. Under clause 3955(1)(iii), the OEO entity must review customer trading and accounts for:",
+      "options": {
+        "A": "No concerns at all, because OEO accounts are exempt from Rule 3900",
+        "B": "Only AML and terrorist financing concerns",
+        "C": "Those concerns listed in Rule 3900, other than those relating to the suitability requirements",
+        "D": "Only concerns referred to it by the Market Regulator"
+      },
+      "answer": "C",
+      "rationale": "Clause 3955(1)(iii) requires the OEO Dealer Member or business unit to review customer trading and accounts for those concerns listed in Rule 3900, other than those relating to the suitability requirements — manipulative activity, restricted-list trading, margin issues and the like still apply. Option A is the central misconception about OEO: the suitability exemption is not a supervision exemption. B narrows the obligation to one regime; AML compliance is required under 3926(2) but it is not the full review scope. D wrongly makes the review reactive to the regulator.",
+      "rule_refs": [
+        "IDPC 3955(1)(iii)",
+        "IDPC 3926(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"to review customer trading and accounts for those concerns listed in Rule 3900, other than those relating to the suitability requirements.\" — idpc-rules.txt ~line 8257"
+    },
+    {
+      "id": "SUP-E5-0040",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Damphousse Direct, an OEO dealer, offers over-the-counter derivatives such as CFDs to retail clients. In addition to providing the derivatives risk disclosure statement, what extra disclosure must accompany the statement for each order execution only account offering over-the-counter derivatives to retail clients?",
+      "options": {
+        "A": "A disclosure of the percentage of such accounts that were profitable for each of the four most recent quarters",
+        "B": "A table of the dealer's average bid-ask spreads on CFDs over the past year",
+        "C": "A list of the ten largest CFD losses incurred by clients in the prior quarter",
+        "D": "A statement that CIRO guarantees CFD positions against counterparty default"
+      },
+      "answer": "A",
+      "rationale": "Clause 3254(1)(v) requires the Dealer Member to include with the risk disclosure statement, for each order execution only account offering over-the-counter derivatives to retail clients, a disclosure of the percentage of such accounts that were profitable for each of the four most recent quarters. Options B and C describe plausible-sounding cost and loss data the rule does not prescribe — the mandated metric is the quarterly account profitability percentage; D is false and would itself be misleading since no such guarantee exists.",
+      "rule_refs": [
+        "IDPC 3254(1)(v)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"a disclosure of the percentage of such accounts that were profitable for each of the four most recent quarters.\" — idpc-rules.txt ~line 5298"
+    },
+    {
+      "id": "SUP-E5-0041",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A sophisticated retail client of Grégoire Direct, an approved OEO dealer, wants to connect his own automated order system to generate and send orders to the dealer on a pre-determined basis. Under section 3241, the dealer must:",
+      "options": {
+        "A": "Allow it once the client signs an automated-trading risk acknowledgment",
+        "B": "Not allow its order execution only account service clients to use their own automated order system to generate orders to be sent to the Dealer Member or send orders on a pre-determined basis",
+        "C": "Allow it if the client's daily order count stays below 500 orders per trading day",
+        "D": "Allow it only after assigning the client a Legal Entity Identifier"
+      },
+      "answer": "B",
+      "rationale": "Clause 3241(1)(ii)(a) prohibits an approved OEO dealer from allowing its OEO service clients to use their own automated order system, as defined in securities laws, to generate orders to be sent to the Dealer Member or to send orders on a pre-determined basis. Option C misuses the 500-orders-per-day daily average figure, which triggers the client identifier requirement under 3241(5), not an automation allowance; D likewise repurposes the LEI identifier mechanics as if they were a permission gate; A is wrong because no acknowledgment can override the prohibition.",
+      "rule_refs": [
+        "IDPC 3241(1)(ii)(a)",
+        "IDPC 3241(5)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"use their own automated order system, as defined in securities laws, to generate orders to be sent to the Dealer Member or send orders to the Dealer Member on a pre‐determined basis,\" — idpc-rules.txt ~line 4986"
+    },
+    {
+      "id": "SUP-E5-0042",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Rondeau Futures Inc. transacts in both exchange-traded options and futures contracts. Under section 3960, how must the firm structure its designated supervision of derivatives activities?",
+      "options": {
+        "A": "Appoint a single Supervisor for all derivatives, with no possibility of splitting the role",
+        "B": "Appoint a designated Supervisor for activities involving options contracts or similar derivatives, and a designated Supervisor for activities involving futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives",
+        "C": "Assign derivatives supervision to the Chief Financial Officer",
+        "D": "Rely on the clearing corporation's surveillance in place of a designated Supervisor"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3960(1) requires a Dealer Member that transacts in or advises on derivatives to appoint, where applicable, a designated Supervisor for activities involving options contracts or similar derivatives, and a designated Supervisor for activities involving futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives — two product streams, each with qualified designated supervision. Option A is wrong because the rule splits the designations by product family (one person may hold both only if qualified for each); C assigns the role to an Executive whose mandate is financial requirements; D outsources a non-delegable dealer responsibility.",
+      "rule_refs": [
+        "IDPC 3960(1)",
+        "IDPC 3960(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"appoint a designated Supervisor to supervise its activities that involve futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives.\" — idpc-rules.txt ~line 8281"
+    },
+    {
+      "id": "SUP-E5-0043",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under subsection 3960(4), in which two situations must an alternate Supervisor assume all or part of a designated derivatives Supervisor's responsibilities at Lessard Derivatives Corp.?",
+      "options": {
+        "A": "When the designated Supervisor is absent or unable to carry out their duties, or when the Dealer Member's trading activity requires additional qualified individuals to supervise its derivatives-related activities",
+        "B": "When CIRO conducts an examination, or when a client complaint is received",
+        "C": "When the designated Supervisor takes annual leave exceeding two weeks, or when futures volumes double month-over-month",
+        "D": "When the designated Supervisor is also the Chief Compliance Officer, or when the firm trades on a foreign marketplace"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3960(4) provides that an alternate Supervisor must assume all or part of the designated Supervisor's responsibilities if the relevant designated Supervisor is absent or unable to carry out their duties, or if the Dealer Member's trading activity requires additional qualified individuals to supervise the Dealer Member's derivatives-related activities. Option C invents quantitative triggers (two weeks, doubled volume) the rule does not contain — the rule's triggers are qualitative; B and D list events with no connection to the alternate-Supervisor mechanism.",
+      "rule_refs": [
+        "IDPC 3960(4)",
+        "IDPC 3960(3)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"(i) the relevant designated Supervisor is absent or unable to carry out their duties, or (ii) a Dealer Member’s trading activity requires additional qualified individuals to supervise the Dealer Member's derivatives-related activities.\" — idpc-rules.txt ~line 8288"
+    },
+    {
+      "id": "SUP-E5-0044",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retail client of Asselin Commodities opened a derivatives account documented as a hedging account for her grain business. The designated Supervisor's review shows the account recently bought call options on a technology index with no connection to her business. Under subsection 3963(1), this activity is most directly a detection item described as:",
+      "options": {
+        "A": "Exposures to delivery obligations through holding futures contracts into the delivery month",
+        "B": "Transacting while the account is under-margined",
+        "C": "Speculative transactions in hedging accounts",
+        "D": "Excessive intra-day and short-term transactions"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3963(1)(vi) requires retail derivatives review policies to detect speculative transactions in hedging accounts — a position with no offsetting business exposure in an account classified as hedging is exactly that. The classification matters because hedging accounts are excluded from the cumulative loss limit regime under clause 3252(2)(ii), so speculation inside one evades that protection. Options A, B and D are other genuine 3963(1) items, but nothing in the scenario involves delivery months, margin deficiency, or trade frequency.",
+      "rule_refs": [
+        "IDPC 3963(1)(vi)",
+        "IDPC 3252(2)(ii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"speculative transactions in hedging accounts,\" — idpc-rules.txt ~line 8347"
+    },
+    {
+      "id": "SUP-E5-0045",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The retail derivatives desk at Bergevin Capital is configuring its surveillance system to flag breaches of approved client loss limits under clause 3963(1)(iv). For which account would a cumulative loss limit NOT apply under subsection 3252(2)?",
+      "options": {
+        "A": "An advisory account trading futures contracts",
+        "B": "An order execution only account trading contracts for difference",
+        "C": "A managed account trading highly-leveraged derivatives",
+        "D": "A hedging account trading forward contracts"
+      },
+      "answer": "D",
+      "rationale": "Clause 3252(2)(ii) provides that the client's cumulative loss limit applies to an account, other than a hedging account, whether the account is an advisory account, a discretionary account, a managed account or an order execution only account. Options A, B and C each combine an in-scope account type with an in-scope product (futures, CFDs, highly-leveraged derivatives under clause 3252(2)(i)), so the limit applies; only the hedging account is carved out, because hedging losses are expected to be offset by gains in the underlying exposure.",
+      "rule_refs": [
+        "IDPC 3252(2)",
+        "IDPC 3963(1)(iv)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"applies to an account, other than a hedging account, whether the account is an advisory account, a discretionary account, a managed account or an order execution only account,\" — idpc-rules.txt ~line 5261"
+    },
+    {
+      "id": "SUP-E5-0046",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retail client of Mainville Securities, recently appointed a director of a reporting issuer, begins buying call options on that issuer during a blackout period instead of buying the shares directly. Under subsection 3963(1), the designated Supervisor's review of derivative transactions must be designed to detect this as:",
+      "options": {
+        "A": "Transacting in derivatives to avoid insider trading restrictions",
+        "B": "Exceeding derivative position or exercise limits",
+        "C": "Transacting beyond margin or credit limits",
+        "D": "An improper cross of derivatives between clients"
+      },
+      "answer": "A",
+      "rationale": "Clause 3963(1)(ix) requires retail derivatives supervision to detect transacting in derivatives to avoid insider trading restrictions — substituting options on the issuer's shares for the restricted shares themselves is the pattern the clause targets, and 3962(5)(iv) requires policies addressing detection of derivatives trading by a client who is an insider to avoid insider trading restrictions. Option B concerns regulatory position/exercise limit breaches, not insider conduct; C concerns the account's margin status; D is a 3945(2) retail securities item involving transfers between clients, absent here.",
+      "rule_refs": [
+        "IDPC 3963(1)(ix)",
+        "IDPC 3962(5)(iv)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"transacting in derivatives to avoid insider trading restrictions,\" — idpc-rules.txt ~line 8358"
+    },
+    {
+      "id": "SUP-E5-0047",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Configuring the retail derivatives review at Quirion Futures, the Supervisor must choose how accounts are selected for review under subsection 3963(2). The rule requires that accounts be selected using criteria that:",
+      "options": {
+        "A": "Cover every derivatives account every trading day without exception",
+        "B": "Provide reasonable assurance of detecting improper trading activity",
+        "C": "Focus exclusively on accounts that generated commissions above a fixed dollar threshold",
+        "D": "Are approved in advance by the derivatives clearing house"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3963(2) requires that accounts be selected for review using criteria that provides reasonable assurance of detecting improper trading activity. Option A overstates the rule — only derivatives accounts designated as discretionary or managed require daily and monthly review of all accounts under 3962(3); risk-based selection is otherwise permitted. C repeats the commission-only selection flaw that 3945(3) prohibits for fee-based accounts and that would miss non-commission red flags; D inserts an external approval the rule does not require.",
+      "rule_refs": [
+        "IDPC 3963(2)",
+        "IDPC 3962(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Accounts must be selected for review using criteria that provides reasonable assurance of detecting improper trading activity.\" — idpc-rules.txt ~line 8362"
+    },
+    {
+      "id": "SUP-E5-0048",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Tellier Derivatives is drafting client notification policies for its retail derivatives business under subsection 3962(4). Which set of events must its policies and procedures specifically address notifying clients of?",
+      "options": {
+        "A": "Approaching expiry dates; significant changes in derivatives resulting from changes in the underlying interest; any changes in the Dealer Member's business policy; and any new developments in the trading or regulation of derivatives that may impact clients",
+        "B": "Daily mark-to-market values; weekly volatility statistics; and monthly open-interest reports",
+        "C": "Only margin calls and assignment notices",
+        "D": "The names of the Dealer Member's derivatives Supervisors and their qualifications"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3962(4) requires policies and procedures that specifically address notifying clients of approaching expiry dates, significant changes in derivatives resulting from changes in the underlying interest, any changes in the Dealer Member's business policy, and any new developments in the trading or regulation of derivatives that may impact clients. Option C names real operational notices but omits three of the four mandated categories — margin calls are governed elsewhere; B describes market data services the rule does not mandate; D concerns internal supervision records under 3908, not client notification.",
+      "rule_refs": [
+        "IDPC 3962(4)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"(i) approaching expiry dates, (ii) significant changes in derivatives resulting from changes in the underlying interest, (iii) any changes in the Dealer Member’s business policy, and (iv) any new developments in the trading or regulation of derivatives that may impact clients.\" — idpc-rules.txt ~line 8318"
+    },
+    {
+      "id": "SUP-E5-0049",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Registered Representative at Loranger Capital wants to launch a calling campaign soliciting existing equity clients to begin trading options. Under subsection 3962(5), what must the firm's policies and procedures specifically require before this campaign and the clients' resulting derivatives use?",
+      "options": {
+        "A": "The Registered Representative may proceed once each client signs an options agreement",
+        "B": "The designated Supervisor must approve the solicitation of clients to use derivatives programs, as well as clients' actual use of derivatives",
+        "C": "The Chief Financial Officer must certify the firm holds sufficient capital for the expected volume",
+        "D": "CIRO must approve the campaign script before first use"
+      },
+      "answer": "B",
+      "rationale": "Clause 3962(5)(i) requires policies that specifically require the designated Supervisor to approve the solicitation of clients to use derivatives programs, as well as clients' actual use of derivatives. Option A is incomplete — an executed derivatives trading agreement is separately required under clause 3962(5)(ii) before any transaction, but it does not substitute for Supervisor approval of solicitation; C confuses capital adequacy with conduct supervision; D overstates the external role — telemarketing scripts require designated-Supervisor pre-approval internally, not CIRO approval.",
+      "rule_refs": [
+        "IDPC 3962(5)(i)",
+        "IDPC 3962(5)(ii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"require the designated Supervisor to approve the solicitation of clients to use derivatives programs, as well as clients’ actual use of derivatives,\" — idpc-rules.txt ~line 8323"
+    },
+    {
+      "id": "SUP-E5-0050",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retail client of Vachon Markets asks to buy a contract for difference that, at the client's election, can settle by physical delivery of the underlying shares and carries pass-through voting rights. Under clause 3962(5)(vi), the Dealer Member's policies must:",
+      "options": {
+        "A": "Permit the product if the client qualifies as a sophisticated investor",
+        "B": "Permit the product provided positions stay below 0.5% of the issuer's float",
+        "C": "Prohibit the offering of contracts for difference or similar derivatives to a retail client that confer the right or obligation to acquire or deliver the underlying interest or confer any other rights of shareholders, such as voting rights",
+        "D": "Permit the product if the client maintains double the normal margin"
+      },
+      "answer": "C",
+      "rationale": "Clause 3962(5)(vi) requires policies that prohibit offering CFDs or similar derivatives to a retail client that confer the right or obligation to acquire or deliver the underlying interest or confer any other rights of shareholders, such as voting rights. Option B is the closest distractor — the 0.5%-of-float cap in clause 3962(5)(v) governs intra-day or short-term position size in permissible CFDs, a separate control that cannot cure a delivery/voting feature; A and D suggest sophistication or extra margin can override a categorical product prohibition, which they cannot.",
+      "rule_refs": [
+        "IDPC 3962(5)(vi)",
+        "IDPC 3962(5)(v)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"prohibit the offering of contracts for difference or similar derivatives to a retail client that confer the right or obligation to acquire or deliver the underlying interest or confer any other rights of shareholders, such as voting rights.\" — idpc-rules.txt ~line 8334"
+    },
+    {
+      "id": "SUP-E5-0051",
+      "element": 5,
+      "outcome": "5.15",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E5-SET-01",
+      "scenario": "Beaucage Wealth Management Inc., an Investment Dealer, runs a growing managed account program. The program is led by Portfolio Manager Diane Caron and Associate Portfolio Manager Marc Lefevre, who provides discretionary management to a book of smaller managed accounts. The firm has designated Supervisor Anita Roy as responsible for the supervision of managed accounts, and its managed account committee met fourteen months ago. During her latest review cycle, Anita notes: (1) Marc has begun communicating model changes to his managed accounts before Diane sees them; (2) a sought-after private placement was allocated only to Diane's three largest managed accounts; and (3) the firm has not yet scheduled this year's committee meeting.",
+      "stem": "Anita first addresses Marc's practice of communicating model changes to his managed accounts before Diane reviews them. Under subsection 3971(3), what does the firm's supervision of an Associate Portfolio Manager require with respect to his advice?",
+      "options": {
+        "A": "Marc's advice may be reviewed by Diane within one business day after it is given to clients",
+        "B": "Marc is prohibited from providing advice unless the advice has been approved by a Portfolio Manager at the Dealer Member prior to providing it",
+        "C": "Marc may provide advice independently because Associate Portfolio Managers hold discretionary proficiency",
+        "D": "Marc's advice requires approval only when it relates to securities on the firm's restricted list"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3971(3) requires the supervision policies for managed accounts to include a prohibition on the Associate Portfolio Manager providing advice unless the advice has been approved by a Portfolio Manager at the Dealer Member prior to the Associate Portfolio Manager providing the advice. Option A is the trap drawn from the discretionary-account regime, where 3970(4)(iii) allows next-business-day review for orders by PM-approved RRs — the APM standard is pre-approval, not next-day review; C confuses proficiency with the supervision condition; D invents a restricted-list carve-out.",
+      "rule_refs": [
+        "IDPC 3971(3)",
+        "IDPC 3970(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"including a prohibition on the Associate Portfolio Manager providing advice unless the advice has been approved by a Portfolio Manager at the Dealer Member prior to the Associate Portfolio Manager providing the advice.\" — idpc-rules.txt ~line 8420"
+    },
+    {
+      "id": "SUP-E5-0052",
+      "element": 5,
+      "outcome": "5.15",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E5-SET-01",
+      "scenario": "Beaucage Wealth Management Inc., an Investment Dealer, runs a growing managed account program. The program is led by Portfolio Manager Diane Caron and Associate Portfolio Manager Marc Lefevre, who provides discretionary management to a book of smaller managed accounts. The firm has designated Supervisor Anita Roy as responsible for the supervision of managed accounts, and its managed account committee met fourteen months ago. During her latest review cycle, Anita notes: (1) Marc has begun communicating model changes to his managed accounts before Diane sees them; (2) a sought-after private placement was allocated only to Diane's three largest managed accounts; and (3) the firm has not yet scheduled this year's committee meeting.",
+      "stem": "Anita turns to the private placement allocated only to Diane's three largest managed accounts. Which pair of IDPC requirements makes this allocation a supervisory issue Anita's program must be designed to catch?",
+      "options": {
+        "A": "Section 3281's fee rules and section 3253's letter of undertaking requirement",
+        "B": "Subsection 3280(4)'s requirement to fairly allocate investment opportunities among managed accounts, and subsection 3971(2)(ii)'s requirement that supervision policies specifically address ensuring fairness in the allocation of investment opportunities",
+        "C": "Subsection 3276(1)'s prohibition on holding the Dealer Member's own securities and section 3964's qualified-access requirement",
+        "D": "Section 3947's close supervision of new Registered Representatives and section 3219's hold-mail controls"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3280(4) requires the Dealer Member to fairly allocate investment opportunities among its managed accounts, and subsection 3971(2)(ii) requires the supervision policies for managed accounts to specifically address ensuring fairness in the allocation of investment opportunities among its managed accounts — concentrating a scarce opportunity in the largest accounts is the paradigm failure. Option C cites the discretionary-account conflict rule about dealer securities, inapplicable to allocation; A concerns fees and institutional derivatives documentation; D pairs unrelated retail controls.",
+      "rule_refs": [
+        "IDPC 3280(4)",
+        "IDPC 3971(2)(ii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"ensuring fairness in the allocation of investment opportunities among its managed accounts.\" — idpc-rules.txt ~line 8416"
+    },
+    {
+      "id": "SUP-E5-0053",
+      "element": 5,
+      "outcome": "5.15",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E5-SET-01",
+      "scenario": "Beaucage Wealth Management Inc., an Investment Dealer, runs a growing managed account program. The program is led by Portfolio Manager Diane Caron and Associate Portfolio Manager Marc Lefevre, who provides discretionary management to a book of smaller managed accounts. The firm has designated Supervisor Anita Roy as responsible for the supervision of managed accounts, and its managed account committee met fourteen months ago. During her latest review cycle, Anita notes: (1) Marc has begun communicating model changes to his managed accounts before Diane sees them; (2) a sought-after private placement was allocated only to Diane's three largest managed accounts; and (3) the firm has not yet scheduled this year's committee meeting.",
+      "stem": "Regarding the overdue committee meeting, what does section 3972 require of Beaucage's managed account committee, in composition and minimum activity?",
+      "options": {
+        "A": "It must include at least one designated Supervisor responsible for managed accounts and the Chief Compliance Officer, and at least annually it must review the policies and procedures dealing with the supervision of managed accounts and recommend appropriate actions to senior management",
+        "B": "It must include the Ultimate Designated Person and meet quarterly to approve each new managed account",
+        "C": "It must include only independent directors and meet semi-annually to set portfolio model weights",
+        "D": "It must include all Portfolio Managers and meet monthly to review every managed account's performance"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3972(1) requires a managed account committee that includes at least one designated Supervisor responsible for managed accounts and the Chief Compliance Officer; at least annually it must review the Dealer Member's policies and procedures dealing with the supervision of managed accounts and recommend to senior management appropriate actions necessary to achieve compliance — so a fourteen-month gap breaches the annual minimum. Option B is wrong on member (UDP), cadence and function — new managed accounts are approved in writing by the designated Supervisor under 3277(1)(iv); C and D invent compositions and duties; account-level review is the designated Supervisor's quarterly duty under 3973, not a monthly committee task.",
+      "rule_refs": [
+        "IDPC 3972(1)",
+        "IDPC 3277(1)(iv)",
+        "IDPC 3973(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"must establish a managed account committee that includes at least one designated Supervisor responsible for managed accounts and the Chief Compliance Officer. The committee must, at least annually:\" — idpc-rules.txt ~line 8430"
+    },
+    {
+      "id": "SUP-E5-0054",
+      "element": 5,
+      "outcome": "5.15",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "At Phaneuf Asset Management, a hot new issue is allocated entirely to the managed accounts of the Portfolio Manager's largest clients, leaving smaller managed accounts with none. The designated Supervisor's review should flag this against which IDPC requirement?",
+      "options": {
+        "A": "The requirement that a Dealer Member must fairly allocate investment opportunities among its managed accounts",
+        "B": "The prohibition on a managed account investing in new issues underwritten by the Dealer Member",
+        "C": "The prohibition on compensating Portfolio Managers based on transaction volume",
+        "D": "The requirement to obtain client consent before investing in related issuers"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3280(4) requires the Dealer Member to fairly allocate investment opportunities among its managed accounts, and subsection 3971(2)(ii) requires supervision policies that specifically address ensuring fairness in the allocation of investment opportunities among managed accounts — favouring large accounts on a scarce opportunity is the core fair-allocation breach. Option B applies only if the Dealer Member underwrote the issue, a fact not given, and even then prior written client consent can permit it; C and D address compensation and related-issuer conflicts, not allocation among accounts.",
+      "rule_refs": [
+        "IDPC 3280(4)",
+        "IDPC 3971(2)(ii)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must fairly allocate investment opportunities among its managed accounts.\" — idpc-rules.txt ~line 5470"
+    },
+    {
+      "id": "SUP-E5-0055",
+      "element": 5,
+      "outcome": "5.15",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Renaud Securities must arrange supervision of its Associate Portfolio Manager handling managed accounts. Under subsection 3971(4), supervision of the Associate Portfolio Manager must be conducted by:",
+      "options": {
+        "A": "Any Registered Representative with at least two years of trading experience",
+        "B": "The Associate Portfolio Manager's branch manager, regardless of registration category",
+        "C": "A Portfolio Manager at the Dealer Member or another Dealer Member who is authorized to provide discretionary management to managed accounts and who is not in the period of close supervision, or a person registered as an advisor under securities laws who has entered into a contract with the Dealer Member to provide the supervision",
+        "D": "The managed account committee acting collectively at its annual meeting"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3971(4) provides that supervision of the Associate Portfolio Manager must be conducted by a Portfolio Manager at the Dealer Member or another Dealer Member who is authorized to provide discretionary management to managed accounts and who is not in the period of close supervision, or a person registered as an advisor under securities laws who has entered into a contract with the Dealer Member to provide the supervision. Option A cites the 3275 discretionary-account experience standard for RRs, the wrong regime; B ignores the PM-qualification requirement; D misuses the committee, whose annual role is policy review, not individual APM supervision.",
+      "rule_refs": [
+        "IDPC 3971(4)",
+        "IDPC 3972"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"a Portfolio Manager at the Dealer Member or another Dealer Member who is authorized to provide discretionary management to managed accounts and who is not in the period of close supervision,\" — idpc-rules.txt ~line 8424"
+    },
+    {
+      "id": "SUP-E5-0056",
+      "element": 5,
+      "outcome": "5.15",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "During a supervisory review at Marleau Private Counsel, the designated Supervisor discovers that a Portfolio Manager personally bought shares of a small-cap issuer the day before executing planned purchases of the same issuer across the firm's managed accounts, relying on his knowledge of those upcoming managed-account trades. Which managed account conflict-of-interest provision does this violate?",
+      "options": {
+        "A": "The prohibition on a managed account holding publicly traded securities of the Dealer Member",
+        "B": "The prohibition on a responsible person trading for their own account in reliance upon information relating to trades made or to be made in a managed account",
+        "C": "The prohibition on charging managed account fees contingent on performance without a written agreement",
+        "D": "The requirement to provide the client with a copy of the fair-allocation policy"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3280(1) prohibits a responsible person or Dealer Member from trading for their own account, or knowingly permitting or arranging any associate or affiliate to trade, in reliance upon information relating to trades made or to be made in a managed account — and 3971(2)(i) requires supervision policies to identify when section 3280 has been contravened. Option A states the discretionary-account rule in 3276(1) about dealer securities, not applicable here; C is the fee rule in 3281; D is an account-opening delivery obligation under 3277(1)(vi), not the conflict breached.",
+      "rule_refs": [
+        "IDPC 3280(1)",
+        "IDPC 3971(2)(i)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"must not trade for their or the Dealer Member’s own account, or knowingly permit or arrange any associate or affiliate to trade, in reliance upon information relating to trades made or to be made in a managed account.\" — idpc-rules.txt ~line 5448"
+    },
+    {
+      "id": "SUP-E5-0057",
+      "element": 5,
+      "outcome": "5.16",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Following a daily review at Galipeau Securities, a Supervisor questions an Approved Person about a flagged trade, is satisfied with the explanation, and closes the item without making any record. During a CIRO examination two years later, the firm cannot show the inquiry occurred. Which requirement did the firm fail?",
+      "options": {
+        "A": "The requirement to record and keep evidence of completed supervisory reviews, including details of inquiries about issues and their resolution, for the required retention period",
+        "B": "The requirement to obtain the client's written acknowledgment of every flagged trade",
+        "C": "The requirement to file all daily review results with CIRO monthly",
+        "D": "The requirement that all supervisory inquiries be conducted in writing only"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3927(2) requires the Dealer Member to record and keep evidence of completed supervisory reviews, including details of inquiries about issues and their resolution, for the period required in section 3803 — an undocumented inquiry is, for examination purposes, an inquiry that cannot be demonstrated. Options B and C invent client-acknowledgment and CIRO-filing obligations the rules do not impose for routine reviews; D mistakes the documentation duty for a prescribed inquiry medium — the inquiry can be oral, but its substance and resolution must be recorded.",
+      "rule_refs": [
+        "IDPC 3927(2)",
+        "IDPC 3803"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must record and keep evidence of completed supervisory reviews, including details of inquiries about issues and their resolution, for the period required in section 3803.\" — idpc-rules.txt ~line 8129"
+    },
+    {
+      "id": "SUP-E5-0058",
+      "element": 5,
+      "outcome": "5.16",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Absent a different period prescribed for a specific record type, for how long must Dumont Capital retain copies of its records, in durable and accessible form, under section 3803?",
+      "options": {
+        "A": "A minimum of two years from the date the record is created",
+        "B": "A minimum of five years from the date the account is closed",
+        "C": "A minimum of seven years from the date the record is created",
+        "D": "A minimum of ten years from the date of the last client transaction"
+      },
+      "answer": "C",
+      "rationale": "Section 3803 requires a Dealer Member to retain copies of all records in a safe location, in durable and accessible form, for a minimum of seven years from the date the record is created unless Corporation requirements or securities laws relating to the specific type of record require a different retention period. Options A, B and D each use a plausible-sounding period or trigger (account closure, last transaction) drawn from other regimes — the IDPC default is seven years from creation of the record.",
+      "rule_refs": [
+        "IDPC 3803",
+        "IDPC 3927(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"in durable and accessible form, for a minimum of seven years from the date the record is created unless Corporation requirements or securities laws relating to the specific type of record require a different retention period.\" — idpc-rules.txt ~line 6721"
+    }
+  ]
+}
