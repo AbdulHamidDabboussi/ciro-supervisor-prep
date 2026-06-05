@@ -6,6 +6,15 @@ import { Badge, PageHeading, ProgressBar } from '../components/ui'
 import type { Flashcard } from '../types'
 import { cn } from '../lib/format'
 
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr]
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1))
+    ;[a[i], a[j]] = [a[j], a[i]]
+  }
+  return a
+}
+
 export default function Flashcards() {
   const { deck, syllabus } = useData()
   const cardStatus = useProgress((s) => s.cards)
@@ -14,15 +23,22 @@ export default function Flashcards() {
   const [element, setElement] = useState<number>(syllabus.elements[0]?.id ?? 1)
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
+  const [done, setDone] = useState(false)
+  const [shuffleSeed, setShuffleSeed] = useState(0)
 
-  const cards = useMemo<Flashcard[]>(
+  const baseCards = useMemo<Flashcard[]>(
     () => deck.cards.filter((c) => c.element === element),
     [deck.cards, element],
+  )
+  const cards = useMemo<Flashcard[]>(
+    () => (shuffleSeed === 0 ? baseCards : shuffle(baseCards)),
+    [baseCards, shuffleSeed],
   )
 
   useEffect(() => {
     setIndex(0)
     setFlipped(false)
+    setDone(false)
   }, [element])
 
   const card = cards[index]
@@ -31,6 +47,7 @@ export default function Flashcards() {
 
   function go(delta: number) {
     setFlipped(false)
+    setDone(false)
     setIndex((i) => Math.max(0, Math.min(i + delta, cards.length - 1)))
   }
 
@@ -38,8 +55,46 @@ export default function Flashcards() {
     if (!card) return
     setCardStatus(card.id, status)
     if (index < cards.length - 1) go(1)
-    else setFlipped(false)
+    else {
+      setFlipped(false)
+      setDone(true)
+    }
   }
+
+  function restart() {
+    setIndex(0)
+    setFlipped(false)
+    setDone(false)
+  }
+
+  function reshuffle() {
+    setShuffleSeed((s) => s + 1)
+    restart()
+  }
+
+  // Keyboard: Space/Enter to flip, ←/→ to navigate.
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return
+      const tag = (e.target as HTMLElement | null)?.tagName
+      if (tag === 'SELECT' || tag === 'INPUT' || tag === 'TEXTAREA') return
+      if (done || !card) return
+      if (e.key === ' ' || e.key === 'Enter') {
+        if (tag === 'BUTTON') return
+        e.preventDefault()
+        setFlipped((f) => !f)
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault()
+        go(-1)
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault()
+        go(1)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [card, done, cards.length])
 
   return (
     <div>
@@ -63,16 +118,36 @@ export default function Flashcards() {
             ))}
           </select>
         </label>
-        <Link
-          to={`/drill?element=${element}`}
-          className="btn-secondary w-full justify-center sm:w-auto"
-        >
-          Drill element {element} →
-        </Link>
+        <div className="flex w-full gap-2 sm:w-auto">
+          <button onClick={reshuffle} className="btn-secondary w-full justify-center sm:w-auto">
+            Shuffle
+          </button>
+          <Link
+            to={`/drill?element=${element}`}
+            className="btn-secondary w-full justify-center sm:w-auto"
+          >
+            Drill E{element} →
+          </Link>
+        </div>
       </div>
 
       {cards.length === 0 ? (
         <div className="card p-8 text-center text-slate-500">No cards for this element.</div>
+      ) : done ? (
+        <div className="card p-10 text-center">
+          <p className="text-2xl font-bold">Deck complete</p>
+          <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
+            You went through all {cards.length} cards in element {element} — {knownInDeck} marked known.
+          </p>
+          <div className="mt-5 flex flex-wrap justify-center gap-3">
+            <button className="btn-primary" onClick={restart}>
+              Study again
+            </button>
+            <Link to={`/drill?element=${element}`} className="btn-secondary">
+              Drill element {element} →
+            </Link>
+          </div>
+        </div>
       ) : (
         <>
           <div className="mb-3 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">

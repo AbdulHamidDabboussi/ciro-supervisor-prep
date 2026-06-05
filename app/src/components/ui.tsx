@@ -1,4 +1,4 @@
-import type { ReactNode } from 'react'
+import { useEffect, type ReactNode } from 'react'
 import { cn } from '../lib/format'
 import type { Difficulty } from '../types'
 
@@ -47,6 +47,30 @@ export function PageHeading({ title, subtitle }: { title: string; subtitle?: Rea
     <div className="mb-6">
       <h1 className="text-2xl font-bold tracking-tight">{title}</h1>
       {subtitle && <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{subtitle}</p>}
+    </div>
+  )
+}
+
+/** Centered modal dialog. Closes on Escape and on backdrop click. */
+export function Modal({ onClose, children }: { onClose: () => void; children: ReactNode }) {
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+  }, [onClose])
+
+  return (
+    <div
+      className="fixed inset-0 z-30 grid place-items-center bg-black/40 p-4"
+      role="dialog"
+      aria-modal="true"
+      onClick={onClose}
+    >
+      <div className="card max-w-sm p-6 text-center" onClick={(e) => e.stopPropagation()}>
+        {children}
+      </div>
     </div>
   )
 }

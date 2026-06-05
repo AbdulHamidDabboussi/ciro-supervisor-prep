@@ -4,7 +4,7 @@ import { useData } from '../data/DataContext'
 import { useMock } from '../store/mock'
 import { assembleMockForm } from '../lib/mockAssembler'
 import { QuestionCard } from '../components/QuestionCard'
-import { PageHeading, Badge } from '../components/ui'
+import { PageHeading, Badge, Modal } from '../components/ui'
 import { cn, formatClock } from '../lib/format'
 
 export default function Mock() {
@@ -106,6 +106,17 @@ function Runner() {
   useEffect(() => {
     if (mock.status === 'running' && remaining <= 0) mock.submit(true)
   }, [remaining, mock])
+
+  // Runner is only mounted during an active exam — warn before a tab close/reload.
+  // (In-app navigation is safe: the session persists and resumes.)
+  useEffect(() => {
+    const onBeforeUnload = (e: BeforeUnloadEvent) => {
+      e.preventDefault()
+      e.returnValue = ''
+    }
+    window.addEventListener('beforeunload', onBeforeUnload)
+    return () => window.removeEventListener('beforeunload', onBeforeUnload)
+  }, [])
 
   const q = mock.questions[mock.index]
   const answeredCount = Object.keys(mock.answers).length
@@ -215,43 +226,39 @@ function Runner() {
       )}
 
       {confirming && (
-        <div className="fixed inset-0 z-30 grid place-items-center bg-black/40 p-4">
-          <div className="card max-w-sm p-6 text-center">
-            <p className="text-lg font-semibold">Submit your exam?</p>
-            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-              {unanswered > 0
-                ? `You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. They’ll be marked incorrect.`
-                : 'All questions answered.'}
-            </p>
-            <div className="mt-5 flex justify-center gap-3">
-              <button className="btn-secondary" onClick={() => setConfirming(false)}>
-                Keep going
-              </button>
-              <button className="btn-primary" onClick={() => mock.submit(false)}>
-                Submit now
-              </button>
-            </div>
+        <Modal onClose={() => setConfirming(false)}>
+          <p className="text-lg font-semibold">Submit your exam?</p>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+            {unanswered > 0
+              ? `You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. They’ll be marked incorrect.`
+              : 'All questions answered.'}
+          </p>
+          <div className="mt-5 flex justify-center gap-3">
+            <button className="btn-secondary" onClick={() => setConfirming(false)}>
+              Keep going
+            </button>
+            <button className="btn-primary" onClick={() => mock.submit(false)}>
+              Submit now
+            </button>
           </div>
-        </div>
+        </Modal>
       )}
 
       {quitting && (
-        <div className="fixed inset-0 z-30 grid place-items-center bg-black/40 p-4">
-          <div className="card max-w-sm p-6 text-center">
-            <p className="text-lg font-semibold">Quit this exam?</p>
-            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-              Your answers will be discarded — this attempt won’t be scored or saved.
-            </p>
-            <div className="mt-5 flex justify-center gap-3">
-              <button className="btn-secondary" onClick={() => setQuitting(false)}>
-                Keep going
-              </button>
-              <button className="btn bg-red-600 text-white hover:bg-red-700" onClick={() => mock.reset()}>
-                Quit exam
-              </button>
-            </div>
+        <Modal onClose={() => setQuitting(false)}>
+          <p className="text-lg font-semibold">Quit this exam?</p>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+            Your answers will be discarded — this attempt won’t be scored or saved.
+          </p>
+          <div className="mt-5 flex justify-center gap-3">
+            <button className="btn-secondary" onClick={() => setQuitting(false)}>
+              Keep going
+            </button>
+            <button className="btn bg-red-600 text-white hover:bg-red-700" onClick={() => mock.reset()}>
+              Quit exam
+            </button>
           </div>
-        </div>
+        </Modal>
       )}
     </div>
   )
