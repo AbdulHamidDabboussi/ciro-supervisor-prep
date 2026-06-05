@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { NavLink, Outlet, Link } from 'react-router-dom'
+import { useEffect, useState } from 'react'
+import { NavLink, Outlet, Link, useLocation } from 'react-router-dom'
 import { DataProvider, useData } from './data/DataContext'
 import { ThemeToggle } from './components/ThemeToggle'
 import { cn } from './lib/format'
@@ -139,6 +139,14 @@ function Shell() {
 }
 
 export default function App() {
+  const { pathname } = useLocation()
+
+  // Reset scroll to the top on every page navigation. 'instant' overrides the
+  // `scroll-behavior: smooth` in index.css so the jump isn't animated.
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' as ScrollBehavior })
+  }, [pathname])
+
   return (
     <DataProvider>
       <Shell />
