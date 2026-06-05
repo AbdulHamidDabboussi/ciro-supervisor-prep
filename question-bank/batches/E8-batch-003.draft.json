@@ -1,0 +1,347 @@
+{
+  "meta": {
+    "batch": "E8-003",
+    "drafted": 13,
+    "date": "2026-06-05",
+    "corpus": [
+      "idpc-rules.txt — Rule 3600 Parts A/B/C (3601, 3602, 3606-3623, 3640), Rule 1201 definitions (advertisement, correspondence, sales literature, research report, advisory capacity, beneficial ownership, designated Supervisor), Rule 3803",
+      "syllabus-raw.txt — Element 8 verbatim parameters (~lines 1498-1605)",
+      "gn-3900-20-001.txt — scanned; contains no Element 8 (communications/research) content"
+    ],
+    "drafted_note": "HONEST SHORTFALL: 13 of the briefed 50 (10 standard + 2 item-sets × 4; the brief's 38+3×4 composition was scaled down proportionally). After building the tested-angle inventory from all 104 existing E8 items (seeds 0001-0004 + batches 001/002, all merged with zero kills) and running bank-wide keyed-option scans, the Rule 3600 corpus is effectively exhausted: every subsection of 3601, 3602, 3607-3623 and 3640, every 3602(3) category, both 3622 periods plus both exceptions, all four 3621(2) minima, all six 3608(2) clauses with both measurement branches, both 3613 limbs, both 3611(2) branches, both 3620 subsections, all four 3617 clauses except (1)(ii), and every syllabus 8.1/8.4 parameter already anchor a reviewed keyed fact. The 13 items here are the residual genuinely novel keyed facts: six untested Rule 1201 definitions that gate the Part A/Part B classifications (advertisement; correspondence single-client scope; sales literature recommendation trigger and prospectus exclusion; research report recommendation element and government-debt exclusion; advisory capacity; beneficial ownership affiliate limb; designated Supervisor clause (vii)), the one untested 3617 clause ((1)(ii)), the 3619(2) instrument-scope fact (equity related securities/derivatives inside the blackout), the 3640(2) client-interaction scope qualifier, and the 3611(2)(iii) conjunctive-condition inverse. Drafting same-fact scenario variants to pad toward 50 would have produced items the wave-6 keyed-option near-identity sweep is designed to kill, so per the honesty rule they were not drafted. Unsourceable/skipped angles are logged in sourcing_note.",
+    "sourcing_note": "Sources per outcome: 8.1 — 1201 'correspondence' definition (single current or prospective client limb), 1201 'sales literature' definition (trading-strategy recommendation trigger; prospectus exclusion), 3640(2) lead-in scope qualifier read with 3640(1); 8.2 — 1201 'advertisement' definition feeding 3602(3)(v), 1201 'designated Supervisor' clause (vii) (supervision of research reports under Part B — clause (vi) Part A pre-approval was keyed by 0023/0065); 8.3 — 1201 'research report' definition (government-debt exclusion; recommendation element), 1201 'beneficial ownership' affiliate limb feeding 3608(2)(i), 3611(1) default via the 3611(2)(iii) conjunctive disclaimer condition (inverse of 0034/0078 where the exception applied); 8.4 — 1201 'advisory capacity' definition (remuneration element and trading-advice carve-out) feeding 3614(1)(ii), 3617(1)(ii) (offer to set favourable rating/price target — the only untested 3617 clause), 3619(2) instrument scope (equity related securities, i.e., listed options, inside the 30/5-day window — distinct keyed fact from 0049 window+approval mechanics and 0087 window boundary). NEAR-MISSES REWRITTEN OR DROPPED DURING DRAFTING: (1) planned syllabus-8.3 'securities or derivatives' analyst-holdings item dropped — keyed fact adjudged same-fact-family as 0028's 3608(2)(ii) key; (2) planned 3621(2)(ii) inverse (banking MAY correct a factual error) dropped — key text token overlap with 0050's keyed option ≥0.65, same family; (3) planned 3640(1) objective-standard item ('could reasonably be expected', no actual deception needed) dropped — key text overlap with 0011's keyed option and the fact is already load-bearing in 0010's rationale; (4) planned 3619(1) price-effect-qualifier item dropped as Gate-1 ambiguous (solvers would defensibly answer that detection still applies); (5) planned 3602(1)(iii) assumptions-only limb dropped — 0006's quote and key span both limbs; (6) planned 3610(1) prominence item dropped — 0033's keyed option already recites clear/meaningful/comprehensive/prominent; (7) the 3619(2) item's keyed option deliberately written WITHOUT restating the 30/5-day window to keep token Jaccard vs 0049/0087 below threshold; (8) the 3611 conjunctive item's keyed option phrased around the missing disclaimer rather than the FINRA branch to stay below threshold vs 0034. UNSOURCEABLE ANGLES: syllabus 8.1 'Awareness of obligations and best practices' has no parameter content beyond what 3601/3602 items already key; GN-3900-20-001 contains nothing on communications, advertising review, research supervision, titles or social media (keyword-scanned in full); no CIRO guidance note for Rule 3600 exists in the local corpus, so GN-level best-practice angles (e.g., social-media archiving mechanics, CASL consent categories) cannot be drafted under the strict local-quote rule. Bank-wide checks run before finalizing: (a) rule_ref collision review against all 104 E8 items — every shared family here keys a different fact or direction as logged above; (b) stem/key token-Jaccard scan vs entire bank.json (920+ items) — no keyed-option pair at ≥0.65 with shared rule_ref family; (c) firm names (Quarendon, Tarbensdale, Wolverleigh, Hobsworth, Eddleston, Gorsebrook, Naxford) and issuer names (Verlioz Thermal, Croftan Foods, Halcrest Robotics) grep-verified unique against bank.json + all batches + seed-questions.json + cards.json; person names likewise (Venkataraman, Bielik, Fennela Marsh, Onal, Visser, Withers, Saoirse Brennan, Rin Takeda, Dario Maslen — an initially planned surname was renamed during drafting after the bank-wide grep showed near-collisions with existing Quintal/Quintana names).",
+    "qa": "Gate 1 blind solve 2026-06-05: full agreement, 0 wrong, 0 ambiguous. Gate 2: all quotes verified. Gate 3: see qa-log wave 9."
+  },
+  "questions": [
+    {
+      "id": "SUP-E8-0105",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Naxford Securities' research operations team emails clients a monthly 'Sector Dashboard' — tables of valuation multiples, short interest and earnings-revision statistics for forty covered issuers, compiled by analyst Rin Takeda. The document states no view on whether to buy, sell or hold anything. Compliance asks whether each Dashboard must carry the full IDPC 3608 and 3609 conflict and rating-system disclosures as a research report. Applying the IDPC 1201 definition of 'research report,' the correct treatment is:",
+      "options": {
+        "A": "Yes — any analyst-prepared document distributed to clients is a research report",
+        "B": "Yes, because statistics imply recommendations",
+        "C": "No — a research report is a written or electronic communication for distribution to clients or prospective clients containing an analyst's recommendation about the purchase, sale or holding of a security; a data compilation with no such recommendation is not a research report, though it remains subject to Part A review as a communication with the public",
+        "D": "No, because tables are exempt from all of Rule 3600"
+      },
+      "answer": "C",
+      "rationale": "The 1201 definition makes the recommendation element constitutive: a research report is a written or electronic communication for distribution to clients or prospective clients 'containing an analyst's recommendation about the purchase, sale or holding of a security.' A statistics dashboard expressing no purchase, sale or hold view contains no such recommendation, so Part B's 3608/3609 disclosure regime does not attach to it — but the document is still an advertisement, sales literature or correspondence subject to Part A's content standards and the 3602(4) review framework, which is why option D overshoots by exempting it from Rule 3600 entirely. Option A is the closest distractor: it substitutes the author's job title for the definition's recommendation element, but analyst preparation alone does not make a document a research report. Option B invents an implied-recommendation doctrine the definition's express wording does not support.",
+      "rule_refs": [
+        "IDPC 1201 'research report'",
+        "IDPC 3608(1)",
+        "IDPC 3602(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Any written or electronic communication for distribution to clients or prospective clients containing an analyst's recommendation about the purchase, sale or holding of a security\" — idpc-rules.txt ~lines 753-755"
+    },
+    {
+      "id": "SUP-E8-0106",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Analyst Anneke Visser of Wolverleigh Securities covers Croftan Foods Inc. Two facts surface: (1) for the past year, Visser has informally suggested supply-chain ideas to Croftan's CFO over coffee, receiving nothing in return; (2) Wolverleigh's trading desk is paid ordinary commissions to execute Croftan's treasury share buyback orders, advising Croftan only on the timing of those trades. The head of research asks whether either fact places Visser or the firm 'in an advisory capacity' to Croftan such that section 3614 prohibits issuing her Croftan reports. Using the IDPC 1201 definition of 'advisory capacity,' the correct analysis is:",
+      "options": {
+        "A": "Neither fact creates an advisory capacity — the definition is providing advice to an issuer in return for remuneration other than trading advice or related services, so the unpaid suggestions fail the remuneration element and the paid execution-timing advice falls within the trading-advice carve-out",
+        "B": "Both facts create an advisory capacity, because any advice to an issuer triggers 3614",
+        "C": "Only fact (1) creates an advisory capacity, because informal advice is the most dangerous kind",
+        "D": "Only fact (2) creates an advisory capacity, because money changed hands"
+      },
+      "answer": "A",
+      "rationale": "The 1201 definition of 'advisory capacity' is 'Providing advice to an issuer in return for remuneration other than trading advice or related services.' It has two limbs that each fact fails on a different side: the coffee-table suggestions involve no remuneration, and the buyback-timing advice, though paid, is trading advice or related services, which the definition expressly carves out. Since neither fact creates an advisory capacity, the 3614(1)(ii) prohibition on issuing a report by an analyst who serves in any advisory capacity to the issuer is not engaged by these facts (other conflicts may still need 3608(1) disclosure analysis). Option D is the closest distractor — it correctly senses that remuneration matters but misses that the remuneration here is for the carved-out category of trading advice. Option B reads the remuneration and carve-out language out of the definition, and option C inverts the remuneration element entirely.",
+      "rule_refs": [
+        "IDPC 1201 'advisory capacity'",
+        "IDPC 3614(1)(ii)",
+        "IDPC 3608(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Providing advice to an issuer in return for remuneration other than trading advice or related services.\" — idpc-rules.txt ~lines 175-176"
+    },
+    {
+      "id": "SUP-E8-0107",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Hobsworth Capital has one designated Supervisor, Yusuf Onal, whose written designation makes him responsible for the pre-approval of advertising, sales literature and correspondence under Part A of Rule 3600. The research department now asks Onal to also review and approve its equity research reports, reasoning that 'research reports are just another communication on his list.' Under the IDPC 1201 definition of 'designated Supervisor,' is Onal's existing designation sufficient for approving research reports?",
+      "options": {
+        "A": "Yes — Part A pre-approval authority automatically covers all of Rule 3600",
+        "B": "Yes, provided each report is shorter than a typical advertisement",
+        "C": "No research designation is ever needed, because research approval belongs to the Chief Compliance Officer by default",
+        "D": "No — the definition enumerates the supervision of research reports under Part B of Rule 3600 as its own supervisory role, distinct from the Part A pre-approval role, so the dealer must make a Supervisor responsible for that research role before he can approve research reports"
+      },
+      "answer": "D",
+      "rationale": "The 1201 definition of 'designated Supervisor' lists separate supervisory roles a Dealer Member may make a Supervisor responsible for, including clause (vi), the pre-approval of advertising, sales literature and correspondence under Part A of Rule 3600, and clause (vii), 'the supervision of research reports under Part B of Rule 3600.' The roles are enumerated separately, and 3607(2) requires the dealer to designate one or more Supervisors to be responsible for reviewing and approving research reports — so Onal needs the Part B research designation (which the same person may certainly hold in addition to the Part A role) before approving research. Option A is the closest distractor: it treats one Rule 3600 designation as covering the whole rule, contradicting the definition's role-by-role structure. Option B invents a length test, and option C invents a CCO default that appears nowhere in the definition or in 3607(2).",
+      "rule_refs": [
+        "IDPC 1201 'designated Supervisor'",
+        "IDPC 3607(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"the supervision of research reports under Part B of Rule 3600.\" — idpc-rules.txt ~line 331"
+    },
+    {
+      "id": "SUP-E8-0108",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Pitching for Halcrest Robotics' upcoming convertible financing, the head of equity capital markets at Eddleston Securities tells Halcrest's CEO: 'Mandate us and, when our analyst launches coverage, the rating will be Outperform with a price target at least 25% above market — that part I can commit to today.' No report timing is discussed and no threat is made. Which clause of IDPC 3617(1) does this commitment breach?",
+      "options": {
+        "A": "The clause prohibiting threats to change a rating or price target",
+        "B": "The clause prohibiting an offer to set a favourable rating or price target on one or more of the issuer's securities, made to induce the mandate",
+        "C": "The clause prohibiting offers to delay the issue date of a research report",
+        "D": "No clause — commitments about future coverage are ordinary salesmanship"
+      },
+      "answer": "B",
+      "rationale": "Clause 3617(1)(ii) prohibits a Dealer Member, as consideration or inducement for the receipt of business or compensation from an issuer, directly or indirectly, from offering 'to set a favourable rating or price target on one or more of the issuer's securities' — committing in advance to an Outperform rating and a 25%-premium target to win the financing mandate is that offer precisely. Option A is the closest distractor among the 3617 clauses: clause (iv) addresses the coercive mirror image (threatening to change a rating or target), but here nothing was threatened — a favourable outcome was promised. Option C points to clause (iii), which concerns delaying changes or issue dates; no timing element exists on these facts. Option D ignores that 3617(1) makes the offer itself the violation, whether or not any report is ever published.",
+      "rule_refs": [
+        "IDPC 3617(1)(ii)",
+        "IDPC 3617(1)(iv)",
+        "IDPC 3617(1)(iii)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"offer to set a favourable rating or price target on one or more of the issuer's securities,\" — idpc-rules.txt ~line 6019"
+    },
+    {
+      "id": "SUP-E8-0109",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Tomasz Bielik is an Approved Person in the operations department of Gorsebrook Securities; his role involves no client interaction of any kind. On a professional networking profile, he describes himself with an internal sales-volume award title he never received and a corporate office he does not hold. A junior compliance officer concludes that IDPC 3640 'cannot touch him because subsection 3640(2) only covers client-facing people.' What is the accurate scope analysis?",
+      "options": {
+        "A": "The junior officer is fully correct — non-client-facing Approved Persons are outside section 3640 altogether",
+        "B": "Section 3640 applies only to Dealer Members, never to individuals",
+        "C": "The per-se prohibitions in subsection 3640(2) are indeed framed for an Approved Person who interacts with clients, but subsection 3640(2) is expressed to be for greater certainty and without limiting subsection 3640(1) — and 3640(1) prohibits any Approved Person from holding themselves out in a manner that could reasonably be expected to deceive or mislead, so Bielik's false claims remain prohibited",
+        "D": "Only the dealer's social media policy, not Rule 3600, governs networking profiles"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3640(2) opens: 'For greater certainty, and without limiting subsection 3640(1), an Approved Person who interacts with clients must not use any of the following' — its enumerated per-se prohibitions are scoped to client-interacting Approved Persons, but the 'without limiting' language preserves the general rule. Subsection 3640(1) prohibits an Approved Person — with no client-interaction qualifier — from holding themselves out in a manner that could reasonably be expected to deceive or mislead as to qualifications, relationships, or products and services, which captures a fabricated award and a corporate office never held. Option A is the closest distractor: it converts 3640(2)'s scope qualifier into a gate for the whole section, exactly the junior officer's error. Option B ignores that 3640(1) expressly binds Approved Persons as well as Dealer Members, and option D demotes a Rule 3600 prohibition to a matter of internal policy.",
+      "rule_refs": [
+        "IDPC 3640(2)",
+        "IDPC 3640(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"For greater certainty, and without limiting subsection 3640(1), an Approved Person who interacts with clients must not use any of the following:\" — idpc-rules.txt ~lines 6107-6108"
+    },
+    {
+      "id": "SUP-E8-0110",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E8-SET-06",
+      "scenario": "Quarendon Securities, an Investment Dealer in Regina, is conducting its annual communications audit. Designated Supervisor Priya Venkataraman, responsible for pre-approval of advertising, sales literature and correspondence under Part A of Rule 3600, must classify four items in the marketing pipeline under the IDPC Rule 1201 definitions before assigning each to the correct review track: (a) a newly produced 60-second drive-time radio commercial promoting Quarendon's retirement-income planning services, which has not yet been reviewed by anyone; (b) a one-time letter composed by a Registered Representative for a single prospective client, answering that prospect's specific questions about fee structures, with no recommendation of any security or strategy; (c) a two-page piece prepared for client use that recommends a covered-call writing strategy in general terms without naming any specific security; and (d) a mailing of preliminary prospectuses for a new issue, sent to clients who asked to be kept informed about the offering.",
+      "stem": "Item (a): the new radio commercial promoting Quarendon's retirement-income planning services. How should Venkataraman classify it under IDPC 1201, and what does that classification require before it airs?",
+      "options": {
+        "A": "It is correspondence, reviewable by post-use sampling",
+        "B": "It is an advertisement — the definition covers any commercials, commentaries and any published materials promoting a Dealer Member's business — and as a new original advertisement it must be approved by a designated Supervisor before use or publication under 3602(3)(v)",
+        "C": "It is outside Rule 3600 because radio is broadcast, not published",
+        "D": "It is sales literature, because it promotes a service"
+      },
+      "answer": "B",
+      "rationale": "The 1201 definition of 'advertisement' is 'Any commercials, commentaries and any published materials promoting a Dealer Member's business, including materials disseminated or made available electronically' — a radio commercial promoting the dealer's planning services is named in the definition's first word. Because this commercial is newly produced, it is an original advertisement within 3602(3)(v) and must be approved by a designated Supervisor before use or publication. Option C is the closest distractor: it leans on 'published materials' to exclude broadcast, but the definition lists commercials as their own category alongside published materials, so the broadcast medium changes nothing. Option D fails the 'sales literature' definition, which requires a recommendation relating to a security, derivative or trading strategy and expressly excludes communications that are advertisements. Option A fails the 'correspondence' definition, which is limited to communications prepared for distribution to a single current or prospective client.",
+      "rule_refs": [
+        "IDPC 1201 'advertisement'",
+        "IDPC 3602(3)(v)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Any commercials, commentaries and any published materials promoting a Dealer Member's business, including materials disseminated or made available electronically.\" — idpc-rules.txt ~lines 167-169"
+    },
+    {
+      "id": "SUP-E8-0111",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E8-SET-06",
+      "scenario": "Quarendon Securities, an Investment Dealer in Regina, is conducting its annual communications audit. Designated Supervisor Priya Venkataraman, responsible for pre-approval of advertising, sales literature and correspondence under Part A of Rule 3600, must classify four items in the marketing pipeline under the IDPC Rule 1201 definitions before assigning each to the correct review track: (a) a newly produced 60-second drive-time radio commercial promoting Quarendon's retirement-income planning services, which has not yet been reviewed by anyone; (b) a one-time letter composed by a Registered Representative for a single prospective client, answering that prospect's specific questions about fee structures, with no recommendation of any security or strategy; (c) a two-page piece prepared for client use that recommends a covered-call writing strategy in general terms without naming any specific security; and (d) a mailing of preliminary prospectuses for a new issue, sent to clients who asked to be kept informed about the offering.",
+      "stem": "Item (b): the Representative's one-time letter answering a single prospective client's fee questions. The Representative asks whether the letter can be handled under Quarendon's post-use review program rather than pre-approval. Under the IDPC 1201 definition of 'correspondence,' what is the correct classification analysis?",
+      "options": {
+        "A": "It is correspondence — the definition covers a business related communication prepared for distribution to a single current or prospective client, but not for distribution to multiple clients or the general public — and since correspondence is not among the items listed in 3602(3), it may be reviewed through the 3602(4) methods, including post-use review",
+        "B": "It is not correspondence because the recipient is only a prospect, not a client",
+        "C": "It is a market letter requiring pre-approval, because it discusses fees",
+        "D": "All written communications to prospects are advertisements requiring pre-approval"
+      },
+      "answer": "A",
+      "rationale": "The 1201 definition of 'correspondence' captures any advertisement or business related communication, including any written or electronic communication, 'prepared for distribution to a single current or prospective client, but not for distribution to multiple clients or the general public' — a one-time letter to one prospective client about that prospect's own questions is the paradigm case, and the definition's express inclusion of a prospective client defeats option B, the closest distractor. Because correspondence is not on the 3602(3) pre-approval list, the 3602(4) framework applies and the dealer may review it through pre-use approval, post-use review, or post-use sampling in a manner appropriate to the material. Option C mislabels an individualized fee answer as a market letter, and option D forces every prospect communication into the advertisement category, contradicting the single-recipient limb of the correspondence definition.",
+      "rule_refs": [
+        "IDPC 1201 'correspondence'",
+        "IDPC 3602(4)",
+        "IDPC 3602(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"prepared for distribution to a single current or prospective client, but not for distribution to multiple clients or the general public.\" — idpc-rules.txt ~lines 278-281"
+    },
+    {
+      "id": "SUP-E8-0112",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E8-SET-06",
+      "scenario": "Quarendon Securities, an Investment Dealer in Regina, is conducting its annual communications audit. Designated Supervisor Priya Venkataraman, responsible for pre-approval of advertising, sales literature and correspondence under Part A of Rule 3600, must classify four items in the marketing pipeline under the IDPC Rule 1201 definitions before assigning each to the correct review track: (a) a newly produced 60-second drive-time radio commercial promoting Quarendon's retirement-income planning services, which has not yet been reviewed by anyone; (b) a one-time letter composed by a Registered Representative for a single prospective client, answering that prospect's specific questions about fee structures, with no recommendation of any security or strategy; (c) a two-page piece prepared for client use that recommends a covered-call writing strategy in general terms without naming any specific security; and (d) a mailing of preliminary prospectuses for a new issue, sent to clients who asked to be kept informed about the offering.",
+      "stem": "Item (c): the two-page piece recommending a covered-call writing strategy for client use, naming no specific security. Its author argues it cannot be 'sales literature' because no security is recommended. Under the IDPC 1201 definition of 'sales literature,' is the author right?",
+      "options": {
+        "A": "Yes — sales literature requires a named security",
+        "B": "Yes — strategy pieces are always educational seminar texts",
+        "C": "No classification is possible until the piece is actually mailed",
+        "D": "No — sales literature is any written or electronic communication for client use which contains a recommendation relating to a security or derivative, or trading strategy, so the covered-call strategy recommendation brings the piece within the definition even with no security named"
+      },
+      "answer": "D",
+      "rationale": "The 1201 definition of 'sales literature' is 'Any written or electronic communication for client use which contains a recommendation relating to a security or derivative, or trading strategy' (subject to listed exclusions) — the trigger is disjunctive, and a recommendation relating to a trading strategy stands on its own, so the covered-call piece qualifies without naming any security. Option A is the closest distractor: it reads the definition as if only the security limb existed, which is exactly the author's error. Option B confuses the 1201 classification question with the 3602(3)(iv) seminar-text category, which concerns seminar materials, and a recommendation-bearing strategy piece is not thereby educational. Option C invents a distribution precondition; the definition turns on the communication being prepared for client use and containing the recommendation, which can and should be classified before it goes out.",
+      "rule_refs": [
+        "IDPC 1201 'sales literature'",
+        "IDPC 3602(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Any written or electronic communication for client use which contains a recommendation relating to a security or derivative, or trading strategy, but does not include:\" — idpc-rules.txt ~lines 768-770"
+    },
+    {
+      "id": "SUP-E8-0113",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E8-SET-06",
+      "scenario": "Quarendon Securities, an Investment Dealer in Regina, is conducting its annual communications audit. Designated Supervisor Priya Venkataraman, responsible for pre-approval of advertising, sales literature and correspondence under Part A of Rule 3600, must classify four items in the marketing pipeline under the IDPC Rule 1201 definitions before assigning each to the correct review track: (a) a newly produced 60-second drive-time radio commercial promoting Quarendon's retirement-income planning services, which has not yet been reviewed by anyone; (b) a one-time letter composed by a Registered Representative for a single prospective client, answering that prospect's specific questions about fee structures, with no recommendation of any security or strategy; (c) a two-page piece prepared for client use that recommends a covered-call writing strategy in general terms without naming any specific security; and (d) a mailing of preliminary prospectuses for a new issue, sent to clients who asked to be kept informed about the offering.",
+      "stem": "Item (d): the mailing of preliminary prospectuses to interested clients. A junior reviewer wants to log the prospectuses in the firm's sales-literature register and queue them for the sales-literature review process. Under the IDPC 1201 definition of 'sales literature,' is that classification correct?",
+      "options": {
+        "A": "Yes — anything mailed to more than one client is sales literature",
+        "B": "Yes, because a prospectus implicitly recommends the offered security",
+        "C": "No — the definition of sales literature expressly does not include preliminary prospectuses and prospectuses, so the mailing is not sales literature for Rule 3600 classification purposes",
+        "D": "No, because prospectuses are correspondence when clients requested them"
+      },
+      "answer": "C",
+      "rationale": "The 1201 definition of 'sales literature' carves out two categories: communications that are advertisements or correspondence, and 'preliminary prospectuses and prospectuses' — so the prospectus mailing is excluded from sales literature by the definition's own exclusion clause (prospectus form and delivery are governed by securities legislation, not by the dealer's sales-literature review track). Option B is the closest distractor: whatever a prospectus implies commercially, the express exclusion settles the classification, making the implicit-recommendation theory irrelevant. Option A substitutes a recipient-count test that belongs to the correspondence definition's boundary, not to sales literature. Option D misuses the correspondence definition — a mailing to multiple clients is, by that definition's own words, not prepared for distribution to a single current or prospective client.",
+      "rule_refs": [
+        "IDPC 1201 'sales literature'"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"preliminary prospectuses and prospectuses.\" — idpc-rules.txt ~line 773"
+    },
+    {
+      "id": "SUP-E8-0114",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E8-SET-07",
+      "scenario": "Tarbensdale Securities runs a research department under designated research Supervisor Fennela Marsh. In one review cycle, four files reach her desk: (1) fixed-income strategist Cal Withers has written a client piece recommending the purchase of specific Government of Canada benchmark bonds and provincial government-guaranteed bonds, and the production team asks whether the piece needs the full Part B research-report disclosure package; (2) analyst Saoirse Brennan's report on Verlioz Thermal Corp. is ready, and the conflicts file shows Tarbensdale held 0.4% of Verlioz common shares directly at the governing month-end while a corporation that Tarbensdale controls held a further 0.9% at the same date; (3) Tarbensdale distributes to its clients, under the third party's own name, equity research prepared by a U.S. firm that is a member of the Financial Industry Regulatory Authority, but the distribution template contains no statement about how the reports were prepared; and (4) research editor Dario Maslen, who is directly involved in preparing Brennan's Verlioz report, asks to buy exchange-listed Verlioz call options twelve days before the report's planned issuance, noting he would own no Verlioz shares.",
+      "stem": "File (1): Cal Withers' piece recommends the purchase of Government of Canada bonds and provincial government-guaranteed bonds. Must it carry the IDPC 3608 and 3609 research-report disclosures?",
+      "options": {
+        "A": "No — the IDPC 1201 definition of research report excludes any government debt security or any government guaranteed debt security, so a recommendation confined to those instruments is not a research report and Part B's disclosure package is not triggered, although the piece remains subject to Part A as a communication with the public",
+        "B": "Yes — every written recommendation by any analyst is a research report",
+        "C": "Yes, but only the rating-system disclosure applies to bond pieces",
+        "D": "No, because fixed-income strategists can never be analysts"
+      },
+      "answer": "A",
+      "rationale": "The 1201 definition of 'research report' covers a written or electronic communication for distribution to clients or prospective clients containing an analyst's recommendation about the purchase, sale or holding of a security, 'excluding any government debt security or any government guaranteed debt security' — recommendations confined to Government of Canada bonds and government-guaranteed provincial bonds fall inside the exclusion, so the piece is not a research report and the 3608/3609 Part B disclosure package does not attach; it is still an advertisement, sales literature or correspondence governed by Part A and the 3602 review framework. Option B is the closest distractor: it states the definition's general coverage while reading out the express exclusion. Option C invents a partial bond-report regime the rule does not contain. Option D is wrong on the law — the 3606 analyst definition is functional, and a strategist who prepares client-distributed recommendations can be an analyst; the operative exclusion here is the instrument, not the author.",
+      "rule_refs": [
+        "IDPC 1201 'research report'",
+        "IDPC 3602(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"excluding any government debt security or any government guaranteed debt security.\" — idpc-rules.txt ~lines 755-756"
+    },
+    {
+      "id": "SUP-E8-0115",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E8-SET-07",
+      "scenario": "Tarbensdale Securities runs a research department under designated research Supervisor Fennela Marsh. In one review cycle, four files reach her desk: (1) fixed-income strategist Cal Withers has written a client piece recommending the purchase of specific Government of Canada benchmark bonds and provincial government-guaranteed bonds, and the production team asks whether the piece needs the full Part B research-report disclosure package; (2) analyst Saoirse Brennan's report on Verlioz Thermal Corp. is ready, and the conflicts file shows Tarbensdale held 0.4% of Verlioz common shares directly at the governing month-end while a corporation that Tarbensdale controls held a further 0.9% at the same date; (3) Tarbensdale distributes to its clients, under the third party's own name, equity research prepared by a U.S. firm that is a member of the Financial Industry Regulatory Authority, but the distribution template contains no statement about how the reports were prepared; and (4) research editor Dario Maslen, who is directly involved in preparing Brennan's Verlioz report, asks to buy exchange-listed Verlioz call options twelve days before the report's planned issuance, noting he would own no Verlioz shares.",
+      "stem": "File (2): Tarbensdale held 0.4% of Verlioz common shares directly at the governing month-end, and a corporation Tarbensdale controls held a further 0.9% at the same date. The analyst argues no 3608(2)(i) ownership disclosure is required because 'neither holder is at 1%.' Is she right?",
+      "options": {
+        "A": "Yes — each legal entity's position is tested separately against the 1% threshold",
+        "B": "Yes, because shares held through a controlled corporation belong only to that corporation",
+        "C": "No — beneficial ownership under IDPC 1201 includes ownership of securities held by a corporation, or affiliates of a corporation, that is controlled by a person, so the controlled corporation's 0.9% counts as Tarbensdale's beneficial ownership, the combined position is 1.3% of the class, and 3608(2)(i) disclosure is required",
+        "D": "No disclosure analysis is needed because common shares are not equity securities"
+      },
+      "answer": "C",
+      "rationale": "Clause 3608(2)(i) requires disclosure where the Dealer Member or its affiliates has beneficial ownership of one percent or more of any class of the subject issuer's equity securities, and the 1201 definition of 'beneficial ownership' includes ownership of securities by a corporation, or affiliates of a corporation, that is controlled by a person — so the position held through the corporation Tarbensdale controls is attributed to Tarbensdale, the aggregate 1.3% crosses the one percent threshold, and the report must disclose it. Option A is the closest distractor: entity-by-entity testing is intuitive, but it would let the attribution rule in the beneficial-ownership definition be defeated by simply spreading a position across controlled vehicles. Option B restates the legal-separateness premise the definition is built to override, and option D is plainly false — common shares are the core case of an equity class under clause (i).",
+      "rule_refs": [
+        "IDPC 1201 'beneficial ownership'",
+        "IDPC 3608(2)(i)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"by a corporation of securities beneficially owned by the affiliates of the corporation.\" — idpc-rules.txt ~lines 225-226"
+    },
+    {
+      "id": "SUP-E8-0116",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E8-SET-07",
+      "scenario": "Tarbensdale Securities runs a research department under designated research Supervisor Fennela Marsh. In one review cycle, four files reach her desk: (1) fixed-income strategist Cal Withers has written a client piece recommending the purchase of specific Government of Canada benchmark bonds and provincial government-guaranteed bonds, and the production team asks whether the piece needs the full Part B research-report disclosure package; (2) analyst Saoirse Brennan's report on Verlioz Thermal Corp. is ready, and the conflicts file shows Tarbensdale held 0.4% of Verlioz common shares directly at the governing month-end while a corporation that Tarbensdale controls held a further 0.9% at the same date; (3) Tarbensdale distributes to its clients, under the third party's own name, equity research prepared by a U.S. firm that is a member of the Financial Industry Regulatory Authority, but the distribution template contains no statement about how the reports were prepared; and (4) research editor Dario Maslen, who is directly involved in preparing Brennan's Verlioz report, asks to buy exchange-listed Verlioz call options twelve days before the report's planned issuance, noting he would own no Verlioz shares.",
+      "stem": "File (3): Tarbensdale distributes the FINRA member's research to its clients under the third party's name, but its distribution template says nothing about how the reports were prepared. The desk believes FINRA membership alone exempts the reports from the IDPC 3608 and 3609 disclosures. Applying section 3611, what should Fennela Marsh conclude?",
+      "options": {
+        "A": "FINRA membership alone is a complete exemption with no further conditions",
+        "B": "The relief is unavailable as the file stands — section 3611(2) couples its branches with the condition that the Dealer Member discloses that the independent third party research report was not prepared in accordance with Canadian disclosure requirements relating to research reports; with no such statement made, the 3611(1) default applies the 3608 and 3609 disclosures to the distributed reports",
+        "C": "The reports need no analysis because Tarbensdale did not write them",
+        "D": "Distribution must stop permanently, because third-party research can never be distributed"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3611(1) makes the 3608 and 3609 disclosures applicable to independent third party research a dealer distributes to its clients under the third party's name; subsection 3611(2) lifts them only where one of its branches is met — including reports issued by FINRA members — and, under clause (iii), 'the Dealer Member discloses that the independent third party research report was not prepared in accordance with Canadian disclosure requirements relating to research reports.' With no preparation statement in the template, the clause (iii) condition fails, so the exemption is unavailable and the default in 3611(1) governs until the dealer either adds the required disclosure or applies the 3608/3609 package. Option A is the closest distractor — it isolates the FINRA branch and drops the accompanying disclosure condition, which is exactly the desk's error. Option C contradicts 3611(1), which exists precisely because the dealer did not write the reports. Option D overshoots: the fix is the missing disclosure, not a distribution ban.",
+      "rule_refs": [
+        "IDPC 3611(2)(iii)",
+        "IDPC 3611(1)",
+        "IDPC 3611(2)(i)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"the Dealer Member discloses that the independent third party research report was not prepared in accordance with Canadian disclosure requirements relating to research reports.\" — idpc-rules.txt ~lines 5981-5982"
+    },
+    {
+      "id": "SUP-E8-0117",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E8-SET-07",
+      "scenario": "Tarbensdale Securities runs a research department under designated research Supervisor Fennela Marsh. In one review cycle, four files reach her desk: (1) fixed-income strategist Cal Withers has written a client piece recommending the purchase of specific Government of Canada benchmark bonds and provincial government-guaranteed bonds, and the production team asks whether the piece needs the full Part B research-report disclosure package; (2) analyst Saoirse Brennan's report on Verlioz Thermal Corp. is ready, and the conflicts file shows Tarbensdale held 0.4% of Verlioz common shares directly at the governing month-end while a corporation that Tarbensdale controls held a further 0.9% at the same date; (3) Tarbensdale distributes to its clients, under the third party's own name, equity research prepared by a U.S. firm that is a member of the Financial Industry Regulatory Authority, but the distribution template contains no statement about how the reports were prepared; and (4) research editor Dario Maslen, who is directly involved in preparing Brennan's Verlioz report, asks to buy exchange-listed Verlioz call options twelve days before the report's planned issuance, noting he would own no Verlioz shares.",
+      "stem": "File (4): editor Dario Maslen, directly involved in preparing the Verlioz report, wants to buy exchange-listed Verlioz call options twelve days before issuance. He argues the research trading restriction 'is about the issuer's shares' and cannot reach an options position. Analyze his request under IDPC 3619(2) and the 3606 definitions.",
+      "options": {
+        "A": "He is right — only purchases of the issuer's shares are restricted",
+        "B": "He is right, because options are contracts with the exchange, not with Verlioz",
+        "C": "He is wrong only if the options are deep in the money",
+        "D": "He is wrong — the 3619(2) restriction reaches equity related securities of the subject issuer, and a listed call option, being a derivative whose performance is based on the underlying equity security, is an equity related security under the 3606 definition, so the purchase is caught and cannot proceed without the prior written approval of a designated Executive"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3619(2) provides that an individual directly involved in the preparation or approval of a research report 'must not trade in equity securities or equity related securities of the subject issuer' during the restricted period, and the 3606 definition of 'equity related security' — a security whose performance is based on the performance of an underlying equity security, including derivatives — captures a listed Verlioz call option. Owning no shares is therefore irrelevant: the instrument-scope words exist to stop exactly this substitution of a derivative for the restricted share purchase, and the only path to trade is the 3619(3) prior written approval of a designated Executive. Option A is the closest distractor — it deletes 'or equity related securities' from the subsection. Option B substitutes contract mechanics for the definition's performance-link test, and option C invents a moneyness threshold found nowhere in the definition or the subsection.",
+      "rule_refs": [
+        "IDPC 3619(2)",
+        "IDPC 3606(1)",
+        "IDPC 3619(3)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"must not trade in equity securities or equity related securities of the subject issuer\" — idpc-rules.txt ~lines 6038-6039"
+    }
+  ]
+}

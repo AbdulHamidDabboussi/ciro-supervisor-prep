@@ -159,6 +159,21 @@ Overnight schedule: wave 6 (E7/E8/E9-002) 1:05am; wave 7 (E4/E5/E6-003) 2:05am; 
 
 (Scheduled waves append 5-line run summaries here.)
 
+### Wave 9 — 2026-06-05 (interactive)
+
+1. Wave 9 (E7-003/E8-003/E9-003 + held-set resolution): **71 drafted** (E7 50; E8 13 and E9 8 with honest corpus-exhaustion shortfalls — both elements now declared feature-complete by their drafters, exhausted-anchor inventories logged in batch metas) → **73 merged** (71 new + 2 released holds); bank **1,177 → 1,250**; mock capacity 9 forms; item-set share 20%.
+2. Kills 2 (both pre-flagged held items, confirmed same-fact at Gate 3): SUP-E7-0102 (keyed compound = union of reviewed E5-0098 + E5-0152 keys) and SUP-E9-0099 (3970(1) at-least-monthly ≡ reviewed E6-0042). E7-SET-05 restored to 3 via wave-9 top-ups (0104/0105 — UMIR 10.9 cancellation/records angles); **E9-SET-05 ships as a 2-member set** (0102 + 0103) — logged decision: E9 corpus exhausted, no honest third set-mate exists; preferable to killing clean items or padding.
+3. Gate 1: 71/71 agreement, 0 wrong, 0 ambiguous; 2 recall-hesitations settled by verified quotes (UMIR 3.4(2) pre-borrow; 2267 Regional Council voting). Gate 2: 71/71 quotes verified, 0 fabrications. Gate 3: full-bank scan clean (same-set sibling pairs now excluded from the stem-similarity sweep — shared scenarios inflate similarity by design).
+4. Status: E8 and E9 feature-complete; E7 near-complete (drafter logged remaining unmined angles as trivially non-examinable). Remaining gap-closing wave: **wave 10 = E2-003 + E3-003** (E2 105, E3 104 vs ~165/150 soft targets) — after that the bank is feature-complete at its honest count (projected ~1,330–1,350).
+
+### Wave 10 (FINAL) — 2026-06-05 (interactive)
+
+1. Wave 10 (E2-003/E3-003): **89 drafted** (E2 50 — pool exceeded cap, 4 lowest-discrimination candidates cut; E3 39 — honest exhaustion) → **89 merged**; bank **1,250 → 1,339**. Both drafters declared their elements feature-complete with exhaustion inventories; E2-2.8 honestly shipped 0 new items (16 reviewed items leave no novel angle); E3-3.10 likewise (parameter + 3281 family fully keyed).
+2. Gate 1: 89/89 agreement, 0 wrong, 0 ambiguous; 14 recall-class hesitations settled by verified quotes. Gate 2: 89/89, 0 fabrications. Gate 3: full-bank scan clean.
+3. Drafter self-caught issues: 2 pre-draft kills (3926(2)(iii) AML triad; acting-CCO mirror), 1 retired confusable-threshold pair (GN $20,000 tier — the exact failure mode that killed E7-0078/0079), multiple key rewrites and 7 name collisions fixed pre-output.
+4. **BANK DECLARED FEATURE-COMPLETE: 1,339 reviewed items.** All 9 elements mined to honest exhaustion of the local corpus. Per element: E1:152 E2:155 E3:143 E4:197 E5:181 E6:153 E7:147 E8:117 E9:94. 9 distinct mock forms; 20% item-set; difficulty 409/667/263 (31/50/20); keys A333/B350/C342/D314; 1,294 of 1,339 carry source_quote (the 45 seeds predate the quote requirement but passed the corpus-era citation audit).
+5. Pipeline lifetime stats: ~1,475 drafted → 1,339 reviewed → kill/cut rate ~9% (near-duplicates and surplus trims dominate; only 4 items ever failed a blind solve). Gate-1 lifetime: ~1,100 solver-checked items, 4 wrong ever. Further growth requires corpus expansion (Tier 2 GNs per research/sources/DOWNLOAD-MANIFEST.md), not re-mining.
+
 ### Post-overnight review — 2026-06-05 (interactive)
 
 - E6-SET-04 scenario variant mismatch (the one open human-review item from the overnight runs) RESOLVED: the wave-4 clarifying edit to SUP-E6-0099's scenario had not been propagated to set-siblings 0070/0098/0100 (denormalization hazard). All four scenario copies now carry the clarified matter-(c) wording (verified by hash); matter (c) is tested only by 0099, so sibling keys unaffected. Fixed in bank.json + batch provenance. Process note: any future edit to an item_set member's scenario must be applied to ALL members of the set (added to DRAFTING-SPEC awareness).
