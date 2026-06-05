@@ -60,22 +60,52 @@ function Header() {
             aria-expanded={open}
             className="btn-secondary !px-2.5"
           >
-            <span className="text-base leading-none" aria-hidden>
-              {open ? '✕' : '☰'}
+            {/* Three bars that morph into an X */}
+            <span className="relative block h-4 w-5" aria-hidden>
+              <span
+                className={cn(
+                  'absolute left-0 block h-0.5 w-5 rounded-full bg-current transition-all duration-300',
+                  open ? 'top-1/2 -translate-y-1/2 rotate-45' : 'top-0.5',
+                )}
+              />
+              <span
+                className={cn(
+                  'absolute left-0 top-1/2 block h-0.5 w-5 -translate-y-1/2 rounded-full bg-current transition-opacity duration-300',
+                  open ? 'opacity-0' : 'opacity-100',
+                )}
+              />
+              <span
+                className={cn(
+                  'absolute left-0 block h-0.5 w-5 rounded-full bg-current transition-all duration-300',
+                  open ? 'top-1/2 -translate-y-1/2 -rotate-45' : 'bottom-0.5',
+                )}
+              />
             </span>
           </button>
         </div>
       </div>
 
-      {/* Mobile menu panel */}
-      {open && (
-        <nav className="border-t border-slate-200 px-4 py-2 md:hidden dark:border-slate-800">
+      {/* Mobile menu panel — animates height (grid-rows trick) + fade */}
+      <div
+        className={cn(
+          'grid overflow-hidden transition-[grid-template-rows] duration-300 ease-out md:hidden',
+          open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]',
+        )}
+      >
+        <nav
+          aria-hidden={!open}
+          className={cn(
+            'min-h-0 overflow-hidden border-t border-slate-200 px-4 py-2 transition-opacity duration-300 dark:border-slate-800',
+            open ? 'opacity-100' : 'opacity-0',
+          )}
+        >
           {NAV.map((n) => (
             <NavLink
               key={n.to}
               to={n.to}
               end={n.end}
               onClick={close}
+              tabIndex={open ? 0 : -1}
               className={({ isActive }) =>
                 cn(
                   'block rounded-md px-3 py-2 text-sm font-medium transition',
@@ -89,7 +119,7 @@ function Header() {
             </NavLink>
           ))}
         </nav>
-      )}
+      </div>
     </header>
   )
 }
