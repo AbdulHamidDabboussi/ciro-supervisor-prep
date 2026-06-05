@@ -9,14 +9,12 @@ interface PrefsState {
   toggleTheme: () => void
 }
 
-function systemPrefersDark(): boolean {
-  return typeof window !== 'undefined' && window.matchMedia?.('(prefers-color-scheme: dark)').matches
-}
-
 export const usePrefs = create<PrefsState>()(
   persist(
     (set, get) => ({
-      theme: systemPrefersDark() ? 'dark' : 'light',
+      // Light is the default for new visitors; a returning visitor's saved choice
+      // is rehydrated from localStorage and takes precedence over this.
+      theme: 'light',
       setTheme: (theme) => set({ theme }),
       toggleTheme: () => set({ theme: get().theme === 'dark' ? 'light' : 'dark' }),
     }),
