@@ -86,30 +86,51 @@ export default function Flashcards() {
             <button
               type="button"
               onClick={() => setFlipped((f) => !f)}
-              className="card flex min-h-[14rem] w-full flex-col items-center justify-center gap-4 p-8 text-center transition hover:shadow-md"
+              aria-label={flipped ? 'Showing answer — tap to see the prompt' : 'Showing prompt — tap to reveal the answer'}
+              className="block w-full rounded-xl [perspective:1200px] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400"
             >
-              <div className="flex items-center gap-2">
-                <Badge tone="violet">{card.type}</Badge>
-                <Badge>Outcome {card.outcome}</Badge>
-                {cardStatus[card.id] && (
-                  <Badge tone={cardStatus[card.id] === 'known' ? 'green' : 'amber'}>
-                    {cardStatus[card.id]}
-                  </Badge>
+              {/* key on the card resets the rotation instantly when navigating, so we only
+                  animate a deliberate flip — not card-to-card changes. */}
+              <div
+                key={card.id}
+                className={cn(
+                  'card relative grid min-h-[16rem] transition-transform duration-500 [transform-style:preserve-3d] motion-reduce:transition-none',
+                  flipped && '[transform:rotateY(180deg)]',
                 )}
-              </div>
-              <p className={cn('text-lg font-medium leading-relaxed', !flipped && 'text-slate-800 dark:text-slate-100')}>
-                {flipped ? card.back : card.front}
-              </p>
-              <span className="text-xs uppercase tracking-wide text-slate-400">
-                {flipped ? 'Answer — tap to see prompt' : 'Tap to reveal answer'}
-              </span>
-              {flipped && card.rule_refs.length > 0 && (
-                <div className="flex flex-wrap justify-center gap-1.5">
-                  {card.rule_refs.map((r) => (
-                    <Badge key={r}>{r}</Badge>
-                  ))}
+              >
+                {/* Front face */}
+                <div className="flex flex-col items-center justify-center gap-4 p-8 text-center [grid-area:1/1] [backface-visibility:hidden]">
+                  <div className="flex flex-wrap items-center justify-center gap-2">
+                    <Badge tone="violet">{card.type}</Badge>
+                    <Badge>Outcome {card.outcome}</Badge>
+                    {cardStatus[card.id] && (
+                      <Badge tone={cardStatus[card.id] === 'known' ? 'green' : 'amber'}>
+                        {cardStatus[card.id]}
+                      </Badge>
+                    )}
+                  </div>
+                  <p className="text-lg font-medium leading-relaxed text-slate-800 dark:text-slate-100">
+                    {card.front}
+                  </p>
+                  <span className="text-xs uppercase tracking-wide text-slate-400">Tap to reveal answer</span>
                 </div>
-              )}
+
+                {/* Back face (pre-rotated, revealed when the card flips) */}
+                <div className="flex flex-col items-center justify-center gap-4 p-8 text-center [grid-area:1/1] [backface-visibility:hidden] [transform:rotateY(180deg)]">
+                  <span className="text-xs font-semibold uppercase tracking-wide text-brand-500 dark:text-brand-300">
+                    Answer
+                  </span>
+                  <p className="text-lg font-medium leading-relaxed">{card.back}</p>
+                  {card.rule_refs.length > 0 && (
+                    <div className="flex flex-wrap justify-center gap-1.5">
+                      {card.rule_refs.map((r) => (
+                        <Badge key={r}>{r}</Badge>
+                      ))}
+                    </div>
+                  )}
+                  <span className="text-xs uppercase tracking-wide text-slate-400">Tap to see prompt</span>
+                </div>
+              </div>
             </button>
           )}
 
