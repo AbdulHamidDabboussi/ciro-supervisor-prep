@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
-import { useData } from '../data/DataContext'
+import { useData, QuestionsLoading } from '../data/DataContext'
 import { useProgress } from '../store/progress'
 import { QuestionCard } from '../components/QuestionCard'
 import { PageHeading } from '../components/ui'
@@ -18,11 +18,26 @@ function shuffle<T>(arr: T[]): T[] {
 
 const clip = (s: string, n = 52) => (s.length > n ? s.slice(0, n) + '…' : s)
 
+type Focus = 'all' | 'misses' | 'bookmarked'
+
 export default function Drill() {
-  const { reviewedQuestions, syllabus, outcomesByElement } = useData()
+  const { reviewedQuestions, syllabus, outcomesByElement, questionsReady } = useData()
   const recordDrill = useProgress((s) => s.recordDrill)
+  const drill = useProgress((s) => s.drill)
+  const bookmarks = useProgress((s) => s.bookmarks)
+  const toggleBookmark = useProgress((s) => s.toggleBookmark)
   const [params] = useSearchParams()
 
+  // drill/bookmarks read via refs so answering mid-session doesn't rebuild the queue.
+  const drillRef = useRef(drill)
+  const bookmarksRef = useRef(bookmarks)
+  drillRef.current = drill
+  bookmarksRef.current = bookmarks
+
+  const [focus, setFocus] = useState<Focus>(() => {
+    const f = params.get('focus')
+    return f === 'misses' || f === 'bookmarked' ? f : 'all'
+  })
   const [element, setElement] = useState<string>(() => params.get('element') ?? 'all')
   const [outcome, setOutcome] = useState<string>('all')
   const [difficulty, setDifficulty] = useState<string>('all')
@@ -32,21 +47,22 @@ export default function Drill() {
 
   const pool = useMemo(() => {
     return reviewedQuestions.filter((q) => {
+      if (focus === 'misses' && drillRef.current[q.id]?.lastCorrect !== false) return false
+      if (focus === 'bookmarked' && !bookmarksRef.current[q.id]) return false
       if (element !== 'all' && q.element !== Number(element)) return false
       if (outcome !== 'all' && q.outcome !== outcome) return false
       if (difficulty !== 'all' && q.difficulty !== (difficulty as Difficulty)) return false
       if (taxonomy !== 'all' && q.taxonomy !== (taxonomy as Taxonomy)) return false
       return true
     })
-  }, [reviewedQuestions, element, outcome, difficulty, taxonomy])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [reviewedQuestions, focus, element, outcome, difficulty, taxonomy, nonce])
 
   const queue = useMemo<Question[]>(() => {
     const shuffled = shuffle(pool)
     return sessionSize === 'all' ? shuffled : shuffled.slice(0, sessionSize)
   }, [pool, nonce, sessionSize])
 
-  // Reviewed-question count per outcome — shown in the dropdown so it's clear each
-  // outcome is populated (currently every outcome has at least one question).
   const outcomeCounts = useMemo(() => {
     const m = new Map<string, number>()
     for (const q of reviewedQuestions) m.set(q.outcome, (m.get(q.outcome) ?? 0) + 1)
@@ -58,7 +74,6 @@ export default function Drill() {
   const [revealed, setRevealed] = useState(false)
   const [session, setSession] = useState({ seen: 0, correct: 0 })
 
-  // Reset the run whenever the queue identity changes (filters changed or reshuffled).
   useEffect(() => {
     setPointer(0)
     setSelected(undefined)
@@ -68,6 +83,21 @@ export default function Drill() {
 
   const current = queue[pointer]
   const outcomeOptions = element !== 'all' ? (outcomesByElement.get(Number(element)) ?? []) : []
+
+  function pick(key: OptionKey) {
+    if (revealed || !current) return
+    const isCorrect = key === current.answer
+    setSelected(key)
+    setRevealed(true)
+    setSession((s) => ({ seen: s.seen + 1, correct: s.correct + (isCorrect ? 1 : 0) }))
+    recordDrill(current.id, key, isCorrect)
+  }
+
+  function next() {
+    setSelected(undefined)
+    setRevealed(false)
+    setPointer((p) => p + 1)
+  }
 
   // Keyboard: A–D / 1–4 to answer; Enter or → to advance.
   useEffect(() => {
@@ -95,22 +125,22 @@ export default function Drill() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [current, revealed])
 
-  function pick(key: OptionKey) {
-    if (revealed || !current) return
-    const isCorrect = key === current.answer
-    setSelected(key)
-    setRevealed(true)
-    setSession((s) => ({ seen: s.seen + 1, correct: s.correct + (isCorrect ? 1 : 0) }))
-    recordDrill(current.id, key, isCorrect)
-  }
-
-  function next() {
-    setSelected(undefined)
-    setRevealed(false)
-    setPointer((p) => p + 1)
+  if (!questionsReady) {
+    return (
+      <div>
+        <PageHeading title="Drill mode" subtitle="Filter the bank and practice one question at a time." />
+        <QuestionsLoading />
+      </div>
+    )
   }
 
   const exhausted = pointer >= queue.length
+  const emptyMsg =
+    focus === 'misses'
+      ? 'No missed questions here yet — answer some questions (in All mode), and the ones you get wrong show up here.'
+      : focus === 'bookmarked'
+        ? 'No bookmarked questions here yet. Tap the ☆ on a question to save it for later.'
+        : 'No questions match these filters. Try widening them.'
 
   return (
     <div>
@@ -119,7 +149,14 @@ export default function Drill() {
         subtitle="Filter the bank, answer one question at a time, and see the rationale and rule references immediately."
       />
 
-      <div className="card mb-6 grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-5">
+      <div className="card mb-6 grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-3">
+        <Field label="Focus">
+          <select className="field w-full" value={focus} onChange={(e) => setFocus(e.target.value as Focus)}>
+            <option value="all">All questions</option>
+            <option value="misses">Review my misses</option>
+            <option value="bookmarked">Bookmarked</option>
+          </select>
+        </Field>
         <Field label="Element">
           <select
             className="field w-full"
@@ -192,9 +229,7 @@ export default function Drill() {
       </div>
 
       {pool.length === 0 ? (
-        <div className="card p-8 text-center text-slate-500 dark:text-slate-400">
-          No questions match these filters. Try widening them.
-        </div>
+        <div className="card p-8 text-center text-slate-500 dark:text-slate-400">{emptyMsg}</div>
       ) : exhausted ? (
         <div className="card p-8 text-center">
           <p className="text-lg font-semibold">Run complete</p>
@@ -218,7 +253,14 @@ export default function Drill() {
               </span>
             </div>
 
-            <QuestionCard question={current} selected={selected} revealed={revealed} onSelect={pick} />
+            <QuestionCard
+              question={current}
+              selected={selected}
+              revealed={revealed}
+              onSelect={pick}
+              bookmarked={!!bookmarks[current.id]}
+              onToggleBookmark={() => toggleBookmark(current.id)}
+            />
 
             <div className="mt-6 flex items-center justify-between">
               <p className="text-xs text-slate-400">

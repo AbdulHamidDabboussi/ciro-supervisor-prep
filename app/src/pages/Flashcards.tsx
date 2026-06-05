@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useData } from '../data/DataContext'
+import { useData, QuestionsLoading } from '../data/DataContext'
 import { useProgress } from '../store/progress'
 import { Badge, PageHeading, ProgressBar } from '../components/ui'
 import type { Flashcard } from '../types'
@@ -15,31 +15,45 @@ function shuffle<T>(arr: T[]): T[] {
   return a
 }
 
+type StatusFilter = 'all' | 'unseen' | 'again' | 'known'
+
 export default function Flashcards() {
-  const { deck, syllabus } = useData()
+  const { deck, syllabus, questionsReady } = useData()
   const cardStatus = useProgress((s) => s.cards)
   const setCardStatus = useProgress((s) => s.setCardStatus)
 
   const [element, setElement] = useState<number>(syllabus.elements[0]?.id ?? 1)
+  const [statusFilter, setStatusFilter] = useState<StatusFilter>('all')
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [done, setDone] = useState(false)
   const [shuffleSeed, setShuffleSeed] = useState(0)
 
+  // Snapshot status via a ref so marking a card mid-session doesn't rebuild the deck.
+  const statusRef = useRef(cardStatus)
+  statusRef.current = cardStatus
+
   const baseCards = useMemo<Flashcard[]>(
-    () => deck.cards.filter((c) => c.element === element),
-    [deck.cards, element],
+    () => deck?.cards.filter((c) => c.element === element) ?? [],
+    [deck, element],
   )
-  const cards = useMemo<Flashcard[]>(
-    () => (shuffleSeed === 0 ? baseCards : shuffle(baseCards)),
-    [baseCards, shuffleSeed],
-  )
+  const cards = useMemo<Flashcard[]>(() => {
+    let list = baseCards
+    if (statusFilter !== 'all') {
+      list = list.filter((c) => {
+        const st = statusRef.current[c.id]
+        return statusFilter === 'unseen' ? !st : st === statusFilter
+      })
+    }
+    return shuffleSeed === 0 ? list : shuffle(list)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [baseCards, statusFilter, shuffleSeed])
 
   useEffect(() => {
     setIndex(0)
     setFlipped(false)
     setDone(false)
-  }, [element])
+  }, [element, statusFilter, shuffleSeed])
 
   const card = cards[index]
   const knownInDeck = cards.filter((c) => cardStatus[c.id] === 'known').length
@@ -69,7 +83,6 @@ export default function Flashcards() {
 
   function reshuffle() {
     setShuffleSeed((s) => s + 1)
-    restart()
   }
 
   // Keyboard: Space/Enter to flip, ←/→ to navigate.
@@ -96,6 +109,20 @@ export default function Flashcards() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [card, done, cards.length])
 
+  if (!questionsReady) {
+    return (
+      <div>
+        <PageHeading title="Flashcards" subtitle="Crash-course decks, one fact per card." />
+        <QuestionsLoading label="Loading flashcards…" />
+      </div>
+    )
+  }
+
+  const emptyMsg =
+    baseCards.length > 0 && cards.length === 0
+      ? `No ${statusFilter} cards in element ${element}.`
+      : 'No cards for this element.'
+
   return (
     <div>
       <PageHeading
@@ -104,35 +131,47 @@ export default function Flashcards() {
       />
 
       <div className="card mb-6 flex flex-col gap-3 p-4 sm:flex-row sm:flex-wrap sm:items-end sm:justify-between">
-        <label className="block w-full min-w-0 sm:max-w-md sm:flex-1">
-          <span className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">Element</span>
-          <select
-            className="field w-full truncate"
-            value={element}
-            onChange={(e) => setElement(Number(e.target.value))}
-          >
-            {syllabus.elements.map((el) => (
-              <option key={el.id} value={el.id}>
-                E{el.id} · {el.title} ({deck.cards.filter((c) => c.element === el.id).length} cards)
-              </option>
-            ))}
-          </select>
-        </label>
+        <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-1 sm:flex-row">
+          <label className="block w-full min-w-0 sm:max-w-xs">
+            <span className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">Element</span>
+            <select
+              className="field w-full truncate"
+              value={element}
+              onChange={(e) => setElement(Number(e.target.value))}
+            >
+              {syllabus.elements.map((el) => (
+                <option key={el.id} value={el.id}>
+                  E{el.id} · {el.title} ({deck?.cards.filter((c) => c.element === el.id).length ?? 0} cards)
+                </option>
+              ))}
+            </select>
+          </label>
+          <label className="block w-full sm:w-40">
+            <span className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">Show</span>
+            <select
+              className="field w-full"
+              value={statusFilter}
+              onChange={(e) => setStatusFilter(e.target.value as StatusFilter)}
+            >
+              <option value="all">All cards</option>
+              <option value="unseen">Unseen</option>
+              <option value="again">Again</option>
+              <option value="known">Known</option>
+            </select>
+          </label>
+        </div>
         <div className="flex w-full gap-2 sm:w-auto">
           <button onClick={reshuffle} className="btn-secondary w-full justify-center sm:w-auto">
             Shuffle
           </button>
-          <Link
-            to={`/drill?element=${element}`}
-            className="btn-secondary w-full justify-center sm:w-auto"
-          >
+          <Link to={`/drill?element=${element}`} className="btn-secondary w-full justify-center sm:w-auto">
             Drill E{element} →
           </Link>
         </div>
       </div>
 
       {cards.length === 0 ? (
-        <div className="card p-8 text-center text-slate-500">No cards for this element.</div>
+        <div className="card p-8 text-center text-slate-500">{emptyMsg}</div>
       ) : done ? (
         <div className="card p-10 text-center">
           <p className="text-2xl font-bold">Deck complete</p>
@@ -167,8 +206,6 @@ export default function Flashcards() {
               aria-label={flipped ? 'Showing answer — tap to see the prompt' : 'Showing prompt — tap to reveal the answer'}
               className="block w-full rounded-xl [perspective:1200px] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400"
             >
-              {/* key on the card resets the rotation instantly when navigating, so we only
-                  animate a deliberate flip — not card-to-card changes. */}
               <div
                 key={card.id}
                 className={cn(
@@ -193,7 +230,7 @@ export default function Flashcards() {
                   <span className="text-xs uppercase tracking-wide text-slate-400">Tap to reveal answer</span>
                 </div>
 
-                {/* Back face (pre-rotated, revealed when the card flips) */}
+                {/* Back face */}
                 <div className="flex flex-col items-center justify-center gap-4 p-8 text-center [grid-area:1/1] [backface-visibility:hidden] [transform:rotateY(180deg)]">
                   <span className="text-xs font-semibold uppercase tracking-wide text-brand-500 dark:text-brand-300">
                     Answer

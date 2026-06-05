@@ -1,4 +1,4 @@
-import type { Bank, Deck, Syllabus, ExamMeta } from '../types'
+import type { Bank, Deck, Syllabus, ExamMeta, Manifest } from '../types'
 
 // Data lives in public/data/ (copied from the repo's source-of-truth folders by
 // scripts/copy-data.mjs). BASE_URL makes the fetch path correct under the GitHub
@@ -11,19 +11,32 @@ async function fetchJson<T>(file: string): Promise<T> {
   return (await res.json()) as T
 }
 
-export interface AppData {
-  bank: Bank
-  deck: Deck
+// Core = small files needed to render the app shell + Home (≈40 KB total).
+export interface CoreData {
   syllabus: Syllabus
   examMeta: ExamMeta
+  manifest: Manifest
 }
 
-export async function loadAppData(): Promise<AppData> {
-  const [bank, deck, syllabus, examMeta] = await Promise.all([
-    fetchJson<Bank>('bank.json'),
-    fetchJson<Deck>('cards.json'),
+// Heavy = the question bank + flashcards (≈2.6 MB), loaded in the background.
+export interface HeavyData {
+  bank: Bank
+  deck: Deck
+}
+
+export async function loadCore(): Promise<CoreData> {
+  const [syllabus, examMeta, manifest] = await Promise.all([
     fetchJson<Syllabus>('syllabus.json'),
     fetchJson<ExamMeta>('exam-meta.json'),
+    fetchJson<Manifest>('manifest.json'),
   ])
-  return { bank, deck, syllabus, examMeta }
+  return { syllabus, examMeta, manifest }
+}
+
+export async function loadHeavy(): Promise<HeavyData> {
+  const [bank, deck] = await Promise.all([
+    fetchJson<Bank>('bank.json'),
+    fetchJson<Deck>('cards.json'),
+  ])
+  return { bank, deck }
 }

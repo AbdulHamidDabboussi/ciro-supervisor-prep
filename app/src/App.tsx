@@ -9,6 +9,7 @@ const NAV = [
   { to: '/drill', label: 'Drill' },
   { to: '/mock', label: 'Mock exam' },
   { to: '/flashcards', label: 'Flashcards' },
+  { to: '/progress', label: 'Progress' },
   { to: '/about', label: 'About' },
 ]
 
@@ -27,7 +28,7 @@ function Header() {
         </Link>
 
         {/* Desktop / tablet nav */}
-        <nav className="ml-auto hidden items-center gap-1 md:flex">
+        <nav className="ml-auto hidden items-center gap-1 lg:flex">
           {NAV.map((n) => (
             <NavLink
               key={n.to}
@@ -51,7 +52,7 @@ function Header() {
         </nav>
 
         {/* Mobile controls */}
-        <div className="ml-auto flex items-center gap-2 md:hidden">
+        <div className="ml-auto flex items-center gap-2 lg:hidden">
           <ThemeToggle />
           <button
             type="button"
@@ -88,7 +89,7 @@ function Header() {
       {/* Mobile menu panel — animates height (grid-rows trick) + fade */}
       <div
         className={cn(
-          'grid overflow-hidden transition-[grid-template-rows] duration-300 ease-out md:hidden',
+          'grid overflow-hidden transition-[grid-template-rows] duration-300 ease-out lg:hidden',
           open ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]',
         )}
       >

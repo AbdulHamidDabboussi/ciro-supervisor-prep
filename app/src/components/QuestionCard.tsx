@@ -14,6 +14,9 @@ interface Props {
   showScenario?: boolean
   /** Hide outcome/difficulty/taxonomy meta (used during a live mock to reduce clutter). */
   hideMeta?: boolean
+  /** When provided, show a bookmark (★) toggle in the meta row. */
+  bookmarked?: boolean
+  onToggleBookmark?: () => void
 }
 
 export function QuestionCard({
@@ -23,6 +26,8 @@ export function QuestionCard({
   onSelect,
   showScenario = true,
   hideMeta = false,
+  bookmarked = false,
+  onToggleBookmark,
 }: Props) {
   return (
     <div className="space-y-4">
@@ -33,6 +38,21 @@ export function QuestionCard({
           <Badge tone="violet">{q.taxonomy}</Badge>
           <DifficultyBadge difficulty={q.difficulty} />
           {q.type === 'item_set' && <Badge tone="amber">Item set</Badge>}
+          {onToggleBookmark && (
+            <button
+              type="button"
+              onClick={onToggleBookmark}
+              aria-pressed={bookmarked}
+              aria-label={bookmarked ? 'Remove bookmark' : 'Bookmark this question'}
+              title={bookmarked ? 'Bookmarked' : 'Bookmark'}
+              className={cn(
+                'ml-auto rounded-md px-1.5 text-lg leading-none transition',
+                bookmarked ? 'text-amber-500' : 'text-slate-300 hover:text-amber-500 dark:text-slate-600',
+              )}
+            >
+              {bookmarked ? '★' : '☆'}
+            </button>
+          )}
         </div>
       )}
 
