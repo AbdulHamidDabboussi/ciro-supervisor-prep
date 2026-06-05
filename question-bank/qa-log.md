@@ -88,6 +88,19 @@ Remaining: **E7 (+~95) and E9 (+~80) have no batches yet — wave 3.** Then seco
 - Honest sourcing notes: ETF daily-reset mechanic not in any local source → carded as classification distinction instead; third-party research governed by IDPC 3611 (not 3616); 2202 location-notification has no day-count in rule text.
 - **Master deck: `study-material/flashcards/cards.json` — 446 reviewed cards, 15.4k words (~34/card avg), per element E1:58 E2:50 E3:41 E4:81 E5:70 E6:39 E7:37 E8:40 E9:30.**
 
+## 2026-06-04 — Bank wave 4 (parallel): batches E4-002, E5-002, E6-002 (150 items)
+
+- Three parallel drafters, spec v1.2, with an explicit NOVELTY GATE: each drafter inventoried all existing stems/rule_refs for its element and ran automated collision scans; **12 near-miss duplicates self-caught and rewritten at drafting time** (7 in E4, 3 in E5, 2 in E6 — details in batch metas/reports). E5-002 includes 3 item-sets (top-up for E5-001's shortfall); UMIR formally in E5 scope this batch (5.10/5.11 now properly sourced). E6-002 includes the mandated clean redraft of killed SUP-E6-0043 → **SUP-E6-0067, passed Gate 1**.
+- **Gate 1 (3 parallel solvers): 150/150 solver-key agreement, 0 wrong.** 10 medium-confidence hesitations settled verbatim by their corpus-verified quotes. 3 ambiguity flags adjudicated dispositively: SUP-E4-0108 (3280(2) chapeau "without the prior written consent of the client" verbatim → consent-cure key unique); SUP-E5-0071 (GN 2.1.2 first-tier $1,500 vs GN 2.2.2 second-tier $3,000 — tier mapping verbatim; distractor is a cross-tier trap by design); SUP-E6-0099 (3280(3)(ii) quote dispositive; stem tightened to make the from/to-counterparty element explicit — solver had answered correctly; key unchanged).
+- **Gate 2: 150/150 independent quote re-verification, 0 fabrications.** Honest sourcing notes from drafters logged (e.g., no quotable text for 5.9 "margin-threshold activity" beyond items already covered; 5.11 CFD undertakings sourced via 3241/3955 prohibitions).
+- Gate 3: full-bank lint + near-duplicate scan across all 643 items — clean.
+- **All 150 promoted to `reviewed` and merged.**
+
+## Master bank state after wave 4
+
+`bank.json`: **643 items, all `reviewed`.** Per element: E1:55 E2:55 E3:54 **E4:110 E5:108 E6:103** E7:52 E8:54 E9:52. Keys A161/B177/C163/D142. 548 standard + 95 item-set (15%). **Mock capacity: 5 distinct full forms** (binding: E4 110/20). Cumulative Gate-1 record: 645 items solver-checked, 1 mismatch ever (killed). Kill rate 2/695 drafted ≈ 0.3%.
+Next wave by gap: E1-002/E2-002 (+50 each), then E3/E8-002, then E7/E9-002; item-set share still below the real form's 33% — bias future batches toward 3 sets each.
+
 ## Master bank state after wave 3 — FULL ELEMENT COVERAGE
 
 `bank.json`: **493 items, all `reviewed`.** Per element: E1:55 E2:55 E3:54 E4:60 E5:58 E6:53 **E7:52 E9:52** E8:54. Keys A123/B139/C123/D108 (post-kill). 426 standard + 67 item-set.
