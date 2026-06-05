@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { NavLink, Outlet, Link } from 'react-router-dom'
 import { DataProvider, useData } from './data/DataContext'
 import { ThemeToggle } from './components/ThemeToggle'
@@ -12,17 +13,21 @@ const NAV = [
 ]
 
 function Header() {
+  const [open, setOpen] = useState(false)
+  const close = () => setOpen(false)
   return (
     <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/85 backdrop-blur dark:border-slate-800 dark:bg-slate-950/85">
       <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-3">
-        <Link to="/" className="flex items-center gap-2 font-bold tracking-tight">
+        <Link to="/" onClick={close} className="flex items-center gap-2 font-bold tracking-tight">
           <span className="grid h-7 w-7 place-items-center rounded-md bg-brand-600 text-xs font-bold text-white">
             CR
           </span>
           <span className="hidden sm:inline">CIRO Supervisor Exam Prep</span>
           <span className="sm:hidden">CIRO Prep</span>
         </Link>
-        <nav className="ml-auto flex items-center gap-1">
+
+        {/* Desktop / tablet nav */}
+        <nav className="ml-auto hidden items-center gap-1 md:flex">
           {NAV.map((n) => (
             <NavLink
               key={n.to}
@@ -44,7 +49,47 @@ function Header() {
             <ThemeToggle />
           </span>
         </nav>
+
+        {/* Mobile controls */}
+        <div className="ml-auto flex items-center gap-2 md:hidden">
+          <ThemeToggle />
+          <button
+            type="button"
+            onClick={() => setOpen((o) => !o)}
+            aria-label={open ? 'Close menu' : 'Open menu'}
+            aria-expanded={open}
+            className="btn-secondary !px-2.5"
+          >
+            <span className="text-base leading-none" aria-hidden>
+              {open ? '✕' : '☰'}
+            </span>
+          </button>
+        </div>
       </div>
+
+      {/* Mobile menu panel */}
+      {open && (
+        <nav className="border-t border-slate-200 px-4 py-2 md:hidden dark:border-slate-800">
+          {NAV.map((n) => (
+            <NavLink
+              key={n.to}
+              to={n.to}
+              end={n.end}
+              onClick={close}
+              className={({ isActive }) =>
+                cn(
+                  'block rounded-md px-3 py-2 text-sm font-medium transition',
+                  isActive
+                    ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-200'
+                    : 'text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800',
+                )
+              }
+            >
+              {n.label}
+            </NavLink>
+          ))}
+        </nav>
+      )}
     </header>
   )
 }
