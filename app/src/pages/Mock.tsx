@@ -93,6 +93,7 @@ function Runner() {
   const [now, setNow] = useState(() => Date.now())
   const [showNav, setShowNav] = useState(false)
   const [confirming, setConfirming] = useState(false)
+  const [quitting, setQuitting] = useState(false)
 
   // Tick once a second while running; auto-submit at zero.
   useEffect(() => {
@@ -124,6 +125,12 @@ function Runner() {
           </span>
           <button className="btn-secondary !py-1.5" onClick={() => (paused ? mock.resume() : mock.pause())}>
             {paused ? 'Resume' : 'Pause'}
+          </button>
+          <button
+            className="rounded-lg px-2 py-1.5 text-sm font-medium text-slate-500 transition hover:text-red-600 dark:text-slate-400 dark:hover:text-red-400"
+            onClick={() => setQuitting(true)}
+          >
+            Quit
           </button>
         </div>
         <div className="flex items-center gap-3 text-sm text-slate-500 dark:text-slate-400">
@@ -222,6 +229,25 @@ function Runner() {
               </button>
               <button className="btn-primary" onClick={() => mock.submit(false)}>
                 Submit now
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {quitting && (
+        <div className="fixed inset-0 z-30 grid place-items-center bg-black/40 p-4">
+          <div className="card max-w-sm p-6 text-center">
+            <p className="text-lg font-semibold">Quit this exam?</p>
+            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+              Your answers will be discarded — this attempt won’t be scored or saved.
+            </p>
+            <div className="mt-5 flex justify-center gap-3">
+              <button className="btn-secondary" onClick={() => setQuitting(false)}>
+                Keep going
+              </button>
+              <button className="btn bg-red-600 text-white hover:bg-red-700" onClick={() => mock.reset()}>
+                Quit exam
               </button>
             </div>
           </div>
