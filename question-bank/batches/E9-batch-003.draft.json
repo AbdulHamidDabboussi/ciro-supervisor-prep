@@ -1,0 +1,219 @@
+{
+  "meta": {
+    "batch": "E9-003",
+    "drafted": 8,
+    "date": "2026-06-05",
+    "corpus": [
+      "syllabus-raw.txt — Element 9 verbatim parameters (lines ~1608-1666); used as classification frame only — no remaining unkeyed 9.1/9.2/9.3 list facts after waves 1-8",
+      "idpc-rules.txt (IDPC Jan 2026) — Rule 2216 shared office premises subsections (1), (8), (9), (12), (13); Rule 2267(1) branch office member representation",
+      "gn-3900-20-001.txt — Account Supervision Guidance: Executive Summary framing (Registered Individuals primarily responsible; Rule 3900 standards give Supervisors guidelines to monitor the handling of those responsibilities); s.1.1.3 'Resident Supervisors are best positioned to...' advantages list"
+    ],
+    "sourcing_note": "WAVE-9 HONEST-SHORTFALL BATCH (8 items, not 50). Drafted per the wave-8 run-log instruction to target only genuinely untested 9.x parameter angles and to draft fewer rather than pad. Novelty gate executed before drafting: full tested-angle inventory built from SUP-E9-0001-0002 (seeds), SUP-E9-0003-0052 (batch 001), SUP-E9-0053-0102 (batch 002 incl. 15 Gate-3 kills and 2 held SET-05 items), PLUS a bank-wide keyed-fact sweep over every rule_ref family in the E9 corpus (1201, 2201, 2202, 2216, 2246, 2266-2268, 2803, 3219, 3602, 3905-3908, 3925-3927, 3945-3948, 3970-3973, GN-3900-20-001) and key-text probes for every remaining candidate fact. Findings: the E9 corpus is near-exhausted — every syllabus 9.1/9.2/9.3 list item is keyed in at least one direction; all of IDPC Part G (3970(1)-(5), 3971(1)-(4), 3972, 3973(1)-(2)) is keyed by reviewed E3/E5/E6 items; all of 3905, 3908, 3925, 3926, 3927, 3945(2)-(4), 3946(1), 3947(1)-(3), 3219(1)-(3), 3602(1)-(6), 2246(3) are keyed; all GN dollar criteria except the $20,000/at-or-over-$5.00 stock line (same s.2.2.1 list family as two reviewed keys plus SUP-E9-0062 — skipped as a same-list near-dup magnet); GN s.2 'two-tier traditionally acceptable / other systems / speak with us' found keyed by SUP-E5-0120 during the pre-draft probe (near-miss caught and dropped before drafting); GN s.1.2 pre/post-trade, risk-based MNPI list, timely-basis, technology, access-to-information, remedial-authority and escalation facts all keyed by E2/E3/E5/E6 items. The only verified-unkeyed facts in scope, each confirmed by key-text grep against bank.json + all batches: 2216(1) financial-services-entity definition; 2216(8) prominent legal-name display; 2216(9) IPF logo/brochures applicable only to the Dealer Member; 2216(12) client's specific acknowledgement of the written disclosure statement (relationship + entities-separate); 2216(13)(ii) consent by specific confirmation with no negative-consent option; 2267(1)(i) one vote per Dealer Member per Region regardless of branch-office-member count (2266(1) is keyed, 2267 is not — 2268 no-fee fact left untested because it already serves as the named closest-trap in reviewed SUP-E9-0054's rationale); GN Executive-Summary framing (Registered Individuals primarily responsible / Rule 3900 standards give Supervisors guidelines to monitor the handling); GN s.1.1.3 'best positioned' advantages sentence (distinct from the necessity-factor list killed in SUP-E9-0091 and from SUP-E9-0092's weighing-conclusion key). 2216(2)/(3)/(4)/(5) skipped: their keyed propositions duplicate reviewed SUP-E2-0028 (3918(1) clients understand which entity) and SUP-E2-0087 (3918(2) communication system / understanding process). Firm names Marbury, Fenholm, Penverne, Drystone, Halloway, Verdiers, Lockmere verified unused across bank.json, seeds and all batches; SET-05 item reuses the existing Verecourt Wealth scenario character-exactly. No item states a pass mark, calculator policy or GN-2600 numbering.",
+    "set_topup_note": "Both held batch-002 items (SUP-E9-0099, SUP-E9-0102) belong to one set, E9-SET-05 (Verecourt Wealth). One new set-mate (SUP-E9-0103) with character-identical scenario text brings the set to 3 members, meeting the >=3 linked-item spec. Its keyed fact (GN Executive-Summary: Registered Individuals primarily responsible, Rule 3900 supervision monitors the handling) differs from the held items' facts (3970(1) at-least-monthly review; 3970(2) RR-continuance determination) and avoids the set's two killed angles (3970(3) non-delegation = dup of SUP-E6-0068; 3972 committee composition = dup of SUP-E6-0100). No second set-mate drafted: every other scenario-compatible fact is keyed (3970(4)/(5) by SUP-E6-0067/0069; 3973(1)/(2) by SUP-E5-0093/0094, SUP-E6-0070, SUP-E3-0025; 3905(6) by SUP-E2-0033; 3925(1)-(4) by E2/E5/E6; 3945(4) designation list killed as SUP-E9-0086 dup of SUP-E5-0021). FLAG FOR GATE-3 ADJUDICATOR: held SUP-E9-0099's keyed fact (3970(1) at-least-monthly discretionary review) is also keyed by reviewed SUP-E6-0042 — this collision predates this batch and survived the wave-6 hold decision; re-adjudicate at merge (if 0099 is killed, the set still has 3 members only if a replacement is found — there is none unkeyed, so in that event prefer keeping 0099 and re-examining SUP-E6-0042, or accept the set at 0102+0103+one survivor per the adjudicator's call).",
+    "qa": "Gate 1 blind solve 2026-06-05: full agreement, 0 wrong, 0 ambiguous. Gate 2: all quotes verified. Gate 3: see qa-log wave 9."
+  },
+  "questions": [
+    {
+      "id": "SUP-E9-0103",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E9-SET-05",
+      "scenario": "Verecourt Wealth, an Investment Dealer, runs a discretionary and managed-account program out of its London, Ontario branch. Renata Kovacs is the designated Supervisor responsible for discretionary accounts and managed accounts. A head-office distribution-risk review notes: (i) Kovacs has not looked at the financial performance of the branch's discretionary accounts since the spring — about seven months ago — saying quarterly checks of managed accounts cover everything; (ii) Kovacs has assigned the discretionary-account performance reviews to a junior compliance analyst to free up her time; (iii) the firm's managed account committee has not met in over a year and its roster names only two RRs, with no compliance representation; and (iv) RR Bram Vandersloot, authorized to effect trades in several discretionary accounts, has produced steadily deteriorating results in those accounts while doubling their trading frequency.",
+      "stem": "Reviewing observation (iv), Verecourt's counsel argues that any deterioration in the discretionary accounts is Vandersloot's professional responsibility alone, so the firm's supervision program is not implicated. How does CIRO's account supervision guidance frame the relationship between Vandersloot's responsibility and the firm's Rule 3900 duties?",
+      "options": {
+        "A": "Once an RR accepts discretionary authority, responsibility transfers entirely to the dealer and the RR has none",
+        "B": "Registered Individuals bear no conduct responsibility because supervision absorbs it",
+        "C": "Registered Individuals are primarily responsible for compliance with business conduct requirements, but Rule 3900 requires dealer supervision of account activity, and its standards give Supervisors guidelines to monitor the handling of those responsibilities — so Vandersloot's primary responsibility does not displace Verecourt's supervision duty",
+        "D": "The guidance leaves supervision of discretionary activity entirely to CIRO examination staff"
+      },
+      "answer": "C",
+      "rationale": "The guidance's executive summary states that Registered Individuals are primarily responsible for compliance with business conduct requirements, but that Rule 3900 requires Dealer supervision of account activity and that its standards provide Supervisors with guidelines to monitor the handling of these responsibilities — primary registrant responsibility and dealer supervision coexist, so counsel's either/or framing fails. Option A is the closest distractor because it senses that supervision matters, but it inverts the guidance by erasing the registrant's primary responsibility rather than layering supervision over it. Option B makes the same inversion more crudely, and option D outsources the dealer's own Rule 3900 obligation to the regulator.",
+      "rule_refs": [
+        "GN-3900-20-001 (Executive Summary)",
+        "IDPC 3925(1)",
+        "Syllabus 9.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"standards in Rule 3900 provide Supervisors with guidelines to monitor the handling of these\" — gn-3900-20-001.txt ~line 34",
+      "qa_note": "Member of 2-item set E9-SET-05 (see release note on SUP-E9-0102)."
+    },
+    {
+      "id": "SUP-E9-0104",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Marbury Securities operates a retail branch in shared office premises with an insurance agency. When the branch opens a new client account, what does subsection 2216(12) of the IDPC Rules require the dealer to obtain from the client?",
+      "options": {
+        "A": "A notarized affidavit that the client has never dealt with the insurance agency",
+        "B": "The client's specific acknowledgement of a written disclosure statement outlining the relationship between the dealer and the financial services entity sharing the premises and stating that the entities are separate",
+        "C": "A copy of the client's insurance policies for the dealer's files",
+        "D": "The insurance agency's written consent to the account opening"
+      },
+      "answer": "B",
+      "rationale": "Subsection 2216(12) requires that when a Dealer Member operating in shared office premises opens an account, it must obtain the client's specific acknowledgement of a written disclosure statement outlining the relationship between the Dealer Member and the financial services entity sharing the premises and stating that the entities are separate — the control that stops clients confusing the two co-located businesses. Option A is the closest distractor because it also targets confusion, but the rule requires acknowledged disclosure of the relationship, not a sworn denial of any dealings. Option C collects irrelevant third-party records, and option D gives the co-tenant a veto the rule nowhere creates.",
+      "rule_refs": [
+        "IDPC 2216(12)",
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Member must obtain the client’s specific acknowledgement of a written disclosure statement:\" — idpc-rules.txt ~line 1420"
+    },
+    {
+      "id": "SUP-E9-0105",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Fenholm Capital shares a storefront with a mortgage brokerage and proposes to mail clients a notice stating that their account information will be shared with the brokerage unless they object within 30 days. Under subsection 2216(13) of the IDPC Rules, why does this proposal fail?",
+      "options": {
+        "A": "Client information may be shared only if the client has consented through a specific confirmation such as a signature or initials at a designated place, and the dealer must not obtain consent through a negative consent option",
+        "B": "Information sharing at shared premises is permitted only between affiliated companies",
+        "C": "The objection window must be 60 days rather than 30",
+        "D": "Mailed notices are prohibited; the disclosure must be delivered in person"
+      },
+      "answer": "A",
+      "rationale": "Subsection 2216(13) permits sharing client information with other financial services entities in the shared office premises only if the client has consented in compliance with privacy legislation and has consented through a specific confirmation such as a signature or initials at a designated place — and it expressly provides that a Dealer Member must not obtain a client's consent through a negative consent option, which is exactly what the object-or-we-share notice is. Option C is the closest distractor because it accepts the negative-consent mechanic and merely haggles over the window, missing that no window cures it. Option B invents an affiliation condition the rule does not impose, and option D objects to the delivery channel rather than the consent defect.",
+      "rule_refs": [
+        "IDPC 2216(13)",
+        "Syllabus 9.2"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"not obtain a client’s consent through a negative consent option.\" — idpc-rules.txt ~line 1430"
+    },
+    {
+      "id": "SUP-E9-0106",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Penverne Securities, a Dealer Member, shares premises with a deposit-taking institution. Under subsection 2216(9) of the IDPC Rules, how must the investor protection fund logo and brochures be displayed at the shared location?",
+      "options": {
+        "A": "Beside both entities' signage so all clients feel equally protected",
+        "B": "Only inside the deposit-taking institution's reception area",
+        "C": "They must be removed entirely from shared premises",
+        "D": "In a manner that makes it clear that the logo and brochures are applicable only to the Dealer Member and not to any other financial services entity"
+      },
+      "answer": "D",
+      "rationale": "Subsection 2216(9) requires that the logo and brochures required to be used by the investor protection fund in which the dealer is a member be displayed in a manner that makes it clear that the logo and brochures are applicable only to the Dealer Member and not to any other financial services entity — clients must not be led to believe the co-located deposit-taker's products carry the fund's coverage. Option A is the closest distractor because it sounds client-friendly, but implying fund protection for the other entity is precisely the misimpression the rule forbids. Option C removes a required display rather than clarifying it, and option B places the material with the wrong entity altogether.",
+      "rule_refs": [
+        "IDPC 2216(9)",
+        "Syllabus 9.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"applicable only to the Dealer Member and not to any other financial services entity.\" — idpc-rules.txt ~line 1411"
+    },
+    {
+      "id": "SUP-E9-0107",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Drystone Wealth wants to sublet half its branch floor to a local tenant and asks whether the shared-office-premises controls in section 2216 would govern the arrangement. Under subsection 2216(1), the section's controls apply where the co-tenant is a \"financial services entity,\" meaning:",
+      "options": {
+        "A": "Any business that handles money, including retailers and restaurants",
+        "B": "Only another CIRO Dealer Member",
+        "C": "Only federally incorporated chartered banks",
+        "D": "An entity regulated by a securities regulatory authority or by another Canadian financial services regulatory regime such as banking, mutual funds, insurance, deposit-taking, or mortgage brokerage activities"
+      },
+      "answer": "D",
+      "rationale": "Subsection 2216(1) defines a financial services entity, for the purposes of section 2216, as an entity regulated by a securities regulatory authority or by another Canadian financial services regulatory regime such as banking, mutual funds, insurance, deposit-taking, or mortgage brokerage activities — the definition that determines when the shared-premises confidentiality, signage and disclosure controls are engaged. Option C is the closest distractor because banks are within the definition, but it wrongly shrinks the class to one regime. Option B shrinks it differently to fellow Dealer Members, and option A inflates it past any regulatory boundary to every cash-handling business.",
+      "rule_refs": [
+        "IDPC 2216(1)",
+        "Syllabus 9.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"securities regulatory authority or by another Canadian financial services regulatory regime such\" — idpc-rules.txt ~line 1379"
+    },
+    {
+      "id": "SUP-E9-0108",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Halloway Securities has six branch office members in the Pacific Region, each with a normally present Supervisor. At a Region meeting, how does section 2267 of the IDPC Rules treat the firm's voting power?",
+      "options": {
+        "A": "Each branch office member votes separately, giving the firm six votes",
+        "B": "A Dealer Member only has one vote in the Region, no matter how many branch office members it has",
+        "C": "Votes are allocated in proportion to each branch's registrant headcount",
+        "D": "Only the dealer's head office may vote, and only in the Region where it is located"
+      },
+      "answer": "B",
+      "rationale": "Clause 2267(1)(i) gives a branch office member the same privileges in its Region as any other branch office member, except that at a Region meeting a Dealer Member only has one vote in the Region, no matter how many branch office members it has — branch participation does not multiply corporate voting power. Option A is the closest distractor because each branch is indeed a member with privileges, but the vote is capped at one per Dealer Member. Option C invents a headcount-weighted franchise found nowhere in Part D, and option D wrongly excludes branch office members from voting at all, contradicting the privileges clause.",
+      "rule_refs": [
+        "IDPC 2267(1)(i)",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Region meeting, a Dealer Member only has one vote in the Region, no matter how many\" — idpc-rules.txt ~line 1625"
+    },
+    {
+      "id": "SUP-E9-0109",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Verdiers Capital is deciding whether to staff its busy Saguenay branch with a resident Supervisor. According to CIRO's account supervision guidance, what advantages make resident Supervisors the best-positioned option for a retail business location?",
+      "options": {
+        "A": "They know the Registered Individuals in their office, meet clients, understand local conditions and needs, facilitate timely approval of new accounts and respond immediately to issues",
+        "B": "They are exempt from the proficiency requirements that apply to head-office Supervisors",
+        "C": "They eliminate the need for any head-office or second-tier oversight of the location",
+        "D": "They allow the dealer to skip notifying CIRO of the business location"
+      },
+      "answer": "A",
+      "rationale": "The guidance states that resident Supervisors are best positioned to know the Registered Individuals in their office, meet clients, understand local conditions and needs, facilitate timely approval of new accounts and respond immediately to issues — the proximity advantages a dealer weighs before relying on remote arrangements. Option C is the closest distractor because a strong resident Supervisor does reduce remote-supervision risk, but second-tier oversight exists to check first-tier supervision and is never eliminated by a resident appointment. Option B inverts proficiency requirements, which apply to all Supervisors, and option D confuses staffing with the separate location-notification duty.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.3",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"are best positioned to know the Registered Individuals in their\" — gn-3900-20-001.txt ~line 158"
+    },
+    {
+      "id": "SUP-E9-0110",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Lockmere Securities shares an office suite with a mutual fund dealer. A branch audit notes that nothing at the suite identifies which firms operate there. Under subsection 2216(8) of the IDPC Rules, what must the firms' legal names receive at the shared premises?",
+      "options": {
+        "A": "Registration on the building's land title",
+        "B": "Publication in a local newspaper once per year",
+        "C": "Clear display in a prominent location, such as the office entrance door or reception area",
+        "D": "Inclusion in every trade confirmation footer, with no on-site display required"
+      },
+      "answer": "C",
+      "rationale": "Subsection 2216(8) requires that the legal names under which the Dealer Member and each of the other financial services entities operate be clearly displayed in a prominent location, such as the office entrance door or reception area — clients arriving at shared premises must see at the threshold which legal entities operate there. Option D is the closest distractor because legal names do appear on client documents, but document footers cannot substitute for the rule's on-premises prominent display. Options A and B invent land-registry and publication formalities that section 2216 nowhere requires.",
+      "rule_refs": [
+        "IDPC 2216(8)",
+        "Syllabus 9.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"operate must be clearly displayed in a prominent location, such as the office entrance door or\" — idpc-rules.txt ~line 1407"
+    }
+  ]
+}

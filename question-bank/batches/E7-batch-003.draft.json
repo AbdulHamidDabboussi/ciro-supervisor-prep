@@ -1,0 +1,1258 @@
+{
+  "meta": {
+    "batch": "E7-003",
+    "drafted": 50,
+    "date": "2026-06-05",
+    "corpus": [
+      "research/sources/rules/umir.txt (ANNOTATED UMIR, January 13, 2026)",
+      "research/sources/rules/idpc-rules.txt (IDPC Rules)",
+      "research/sources/syllabus-raw.txt (Element 7 verbatim parameters)"
+    ],
+    "set_topup_note": "SPECIAL DUTY completed first: E7-SET-05 (held survivors SUP-E7-0102 [Policy 7.1 Part 9 improper-access monitoring] and SUP-E7-0103 [UMIR 10.18(2) termination report], status draft in E7-batch-002.draft.json) topped up with 2 new linked items SUP-E7-0104 (UMIR 10.9(1)(e) buyer/seller application to vary or cancel a trade, end-of-next-trading-day deadline) and SUP-E7-0105 (UMIR 10.9(3) provision of records to a Market Integrity Official within the specified time). Scenario text copied character-exact from the held items (verified == on the strings). Both top-up facts are untested anywhere in the bank (UMIR 10.9 had no bank item). GATE-RUNNER ALERT: held SUP-E7-0102's keyed text ('improperly granted or provided its access... to another person, or engaged in unauthorized trading on behalf of the account of another person') overlaps reviewed SUP-E5-0098 (keys the improper-grant limb) and SUP-E5-0152 (keys the unauthorized-trading limb), both merged in/after wave 6/7 — the Gate-3 keyed-option sweep must re-adjudicate 0102 at merge time; if 0102 is killed, E7-SET-05 still holds 3 members (0103 + 0104 + 0105), meeting the form-spec minimum.",
+    "sourcing_note": "Sources per outcome (all quotes located verbatim at drafting time; automated contiguous-match verification run over all 50 source_quotes with NFKD + smart-punct + whitespace normalization, 0 failures, all <= 50 words): 7.1 — UMIR 1.1 definitions (Dark Order, bypass order, standard trading unit), Policy 2.2 Part 1(b) no-change-of-beneficial-ownership trades, Policy 2.2 Part 3 artificial-price test, UMIR 4.1(1)(c) tipping limb of frontrunning, Policy 5.3 Part 1 overriding-agency/technical-compliance doctrine, UMIR 5.3(2)(b)(ii) automated-system client-priority exemption, IDPC 5110(1) margin purposes, IDPC 5116(1) dealer right to buy/sell indebted-client securities, IDPC 3119(1) best execution definition, UMIR 2.1(1)(a) failed-trade rectification (in E7-SET-07), UMIR 7.7(3) deemed recommencement of restricted period (in E7-SET-06); 7.2 — UMIR 2.1(2)(a) indirect off-marketplace trades, 2.3 improper orders, 6.2(4) post-entry short-designation modification, 6.5(b) minimum display size, 6.6(1)(a) dark-order price improvement, 7.12 inability to rely on marketplace functionality, Policy 8.1 Part 1 over-50-unit client-principal branch, IDPC 3122(2)/(3) principal fair pricing of OTC securities, IDPC 3123(1)(i)(a) client-instructions element of the best execution process, UMIR 10.9(1)(e) (SET-05 top-up), UMIR 3.4(2)/(1)(b), 9.1(1)(a) and 9.1(4)(a) (in E7-SET-07), 7.7(4)(c) unsolicited-client-order exemption and 7.7(4)(a)(i) stabilization price cap (in E7-SET-06); 7.3 — Policy 7.1 Part 2 item 6 violation steps, Policy 7.1 Part 6 bypass/DAO trade-through procedures (structural redraft of killed SUP-E7-0079: the key now combines the bypass-marker-circumstances content requirement with the not-less-than-monthly adequacy test instead of a bare frequency pick), IDPC 3127(1) best-execution training, IDPC 3124(1)(ii) non-executing dealer annual attestation, UMIR Policy 1.2 Part 3 ought-reasonably-to-know test; 7.4 — UMIR 10.11(1)(a)(ii) immediate recording of the RR identifier, 10.10(1)/(3) short-position calculation dates and two-trading-day filing, Policy 7.5 foreign-currency conversion and rounding, 7.5(2)(a)(ii) principal recorded-price band, 7.6 cancelled trades, Policy 7.1 Part 14 sales-from-control reviews, IDPC 3129(1)(iii) routing-disclosure content, 7.7(1) dealer-restricted prohibition and 7.7(4)(b) highly-liquid exemption (in E7-SET-06); 7.5 — Policy 7.1 Part 3 high-risk-area identification, Policy 7.1 Part 3 exception reports and outside information sources including the Market Regulator, Policy 7.1 Part 12 categories of securities the review system must cover; 7.6 — UMIR 10.1(5)/(6)(a) obstruction by document destruction, Policy 10.16 Part 1 red-flags doctrine, 10.4(1)(a) extension of abusive-trading provisions to employees and related entities, 7.10(2) follow-up extended-failed-trade notice (in E7-SET-07), 10.9(3)/(4) records provision to an MIO (SET-05 top-up; the 10.9(4) 30-day override of internal retention policies is keyed in standalone SUP-E7-0141's companion item SUP-E7-0167 was CUT — see near-misses — the surviving standalone is 10.1(6)(a)). NOVELTY GATE (wave-6-amended): built a rule_ref + keyed-fact inventory of ALL 106 existing E7 items (seeds 0001-0003, batch-001 0004-0053 incl. killed 0014, batch-002 0054-0103 incl. killed 0078/0079/0100/0101 and held 0102/0103) AND ran the bank-wide keyed-option scan over all 1,177 reviewed items, with particular attention to E5's pre-mined UMIR anchors. Anchors found PRE-MINED and AVOIDED entirely: UMIR 7.13 all subsections (E5-0035/0036/0078-0080/0097-0100/0128-0131/0151-0154/0178/0179), Policy 7.1 Part 8 all facts (E5-0036/0037/0097/0132/0176/0177), Policy 7.1 Part 9 screening/annual-confirmation/improper-grant/unauthorized-trading (E7-0037/0077, E5-0080/0098/0152), Policy 7.1 Part 5 quarterly frequency + month/quarter/year-end timing + insider/promotional factors (E5-0074/0075/0127, E7-0044/0086 — the killed-0078 quarterly-frequency angle queued from wave 6 was found PRE-MINED by reviewed SUP-E5-0075 and was NOT redrafted), Policy 7.1 Part 1 OES-sampling/restricted-detection/short-coding (E5-0065/0114/0115, E7-0028/0035/0087/0088), Policy 7.1 Part 2 separation/caution-letter/annual-review/five-year/board facts (E7-0022-0026/0036/0038, E5-0064/0072), UMIR 10.16 subsections (1)/(1)(b)/(1)(c.1)/(2)/(3)/(4)/(4)(d)/(5)/(6) (E7-0040-0045/0048/0049/0089/0090/0095, E5-0076/0077), 10.18(2) both limbs (E7-0103 held + E5-0128), 4.1(1)(a)+Policy 4.1 Part 1 (E5-0032), 4.1(2)(f)+Policy 4.1 Part 2 (E7-0012/0058), 10.17 (E7-0076), 7.1(7)-(10) (E7-0075/0076), 8.1(1) better-price core (E7-0051), 6.3(1)(a)/(c)/(e)/(f)+6.3(2)(b) (E7-0017/0018/0052/0069), 6.4(2)(c)+Policy 6.4 Part 1 (E7-0070/0071), IDPC 3120/3121(1)/3125/3126(1)/3128 (E7-0096-0099), IDPC 5112/5113/5114/5120 (E7-0015/0062-0064). Every drafted item targets a rule_ref with no bank item or an untested subsection/limb with a different keyed proposition: 4.1(1)(c) tipping vs (1)(a) trading vs (2)(f) arbitrage; 5.3(2)(b)(ii) automated systems vs (2)(a)/(2)(b)(iii)/(2)(c)/(3); Policy 5.3 Part 1 doctrine vs Parts 2/3/4; Policy 8.1 Part 1 over-50-unit branch vs the under-50 better-price core; 7.5(2)(a)(ii) principal band vs 7.5(1) agency band (E7-0085); 10.11(1)(a)(ii) recording content vs sampling (E7-0031/0080) and retention (E7-0084); Policy 7.1 Part 12 categories vs daily frequency (E7-0030); Policy 7.1 Part 14 sales-from-control vs NCIB facts (E7-0083); Policy 7.1 Part 3 high-risk/exception-report sentences vs the frequency-factor list (E7-0034/0039) and minimum-review list (E7-0029); IDPC 3119/3122/3123/3124/3127/3129 vs 3120/3121(1)/3125/3126(1)/3128; IDPC 5110/5116 vs 5112-5114/5120. AUTOMATED SCANS RUN ON THE FINAL 50: (a) rule_ref collision — every shared parent verified different-fact/different-direction (list above); (b) stem+key token Jaccard vs all 106 E7 items: maximum 0.43 (SUP-E7-0134 [7.5(2)(a)(ii) principal recorded-price band] vs SUP-E7-0085 [7.5(1) agency band] — shared net-cost vocabulary, different subsection and actor), next 0.41 (SUP-E7-0127 [Policy 7.1 Part 6 compound procedure key] vs KILLED SUP-E7-0079 — intentional structural redraft per wave-6 queue), all pairs below the 0.5 rewrite threshold; maximum internal pair 0.35; (c) keyed-option near-identity (key-text token Jaccard >= 0.65 + shared rule_ref family) vs the ENTIRE 1,177-item bank: ZERO pairs at threshold after two scan-driven rewrites (see near-misses 7 and 8). NEAR-MISSES REWRITTEN OR CUT: (1) a Policy 7.1 Part 5 quarterly-sampling redraft (queued from the wave-6 kill of 0078) was abandoned when the bank-wide scan surfaced SUP-E5-0075 keying the identical fact; (2) a 10.9(4) 30-day document-retention standalone (draft id 0167) was cut for same-family proximity to top-up SUP-E7-0105's 10.9(3) key; (3) a 6.6(2) exclusion-list draft was cut as same-family with the retained 6.6(1)(a) price-improvement item; (4) a Policy 7.1 Part 10 annual record-retention-review draft and a Part 10 data-elements draft were cut for family proximity to SUP-E7-0080/0031; (5) drafts on the Special Terms Order and internal-cross/Call Market Order definitions, IDPC 5115 pledge rights, IDPC 3126(2) review-process content, UMIR 7.4(2) contract record, Policy 2.2 Part 1(c) cornering, Policy 2.2 Part 2(g) free-riding, UMIR 2.1(1)(b) market-maker gaming, 2.1(2)(c) priority-sequencing, Policy 5.3 Part 2 differentiating-terms, Policy 5.3 Part 3 no-procedures-no-exceptions, Policy 8.1 Part 2 facilitation accounts, Policy 8.1 Part 1 multi-marketplace better-price articulation, Policy 6.3 Part 3 blanket-withholding, UMIR 2.2(3) MTO safe harbour and a standalone 3.4(2) item (duplicating SET-07's key) were drafted then cut in the trim from 70 candidate drafts to the 50-item composition — kept items were chosen for outcome balance, family separation and quote robustness; the cut angles that are genuinely fresh (7.4(2), 5115, 3126(2), 2.1(1)(b), 2.1(2)(c), P8.1 facilitation, P2.2-P1(c), P2.2-P2(g), 2.1(4), 10.1(6)(b)) remain honestly draftable for a future wave; (6) an initial standalone UMIR 9.1(4)(a) draft was folded into E7-SET-07 to anchor it in a concrete halt scenario; (7) POST-SCAN FIX: the first draft of SUP-E7-0150 (UMIR 7.10(2)) keyed the statutory notice formula shared with 7.10(1) and collided with reviewed SUP-E7-0094 at keyed-option Jaccard 0.739 — the key was rewritten to lead with the distinguishing trigger (further notice upon the account making the securities available), final scan clean; (8) POST-SCAN FIX: a UMIR 10.5(1) interim-restriction draft (first SUP-E7-0142) keyed the 15-day-expiry proposition and collided cross-element with reviewed SUP-E1-0147 (IDPC 8211 interim orders, keyed-option Jaccard 0.667, same substantive fact) — the item was replaced with the Policy 10.16 Part 1 red-flags doctrine (verified unkeyed bank-wide). FIRM/PERSON NAMES all new and grep-verified unique against bank.json + seed-questions.json + every batches/ file (733 existing names extracted): Ardentinny, Benbecula, Cawdorlea, Craigellachie, Drumossie, Dunvegan Moor, Elderslie, Errolton, Finsbay, Fionnport, Garlieston, Glenelg Sound, Halkirk Vale, Inchcolm, Invermark, Keldholme, Kilbreda, Lochranza, Morvenside, Muckhart, Nethercote, Norbiton, Ormsgill, Ottermouth, Penwortham, Pittendrigh, Quarnford, Quoyle Harbour, Rathmullen, Rossbrae, Sandwick Point, Strathkellar, Tarnside, Ullapool Crest, Vennachar (issuer, SET-07), Wansbeck (issuer, SET-07), Yathkyed Uranium (issuer, SET-06), Tobermint Biofuels (issuer, SET-07); persons Soren Vidmar, Ilka Reinholt. HONEST EXCLUSIONS (unsourceable in local corpus): no item on 'overdue cash account restrictions' / 'restriction process on overdue cash accounts' (no governing provision in umir.txt or the trading-adjacent IDPC sections; GN-3900-20-001 names 'cash account violations' only as a topic heading without testable rule content, and that note is exhaustively mined by E2/E3/E5/E6/E9); no item on 7.6 'whistleblower frameworks' (no provision in corpus); no further item on 'specialized trading authorizations' beyond the already-tested UMIR 7.2(1) proficiency rule (E7-0073) — the only other corpus hook is part of the same already-keyed sentence.",
+    "drafted_note": "Full 50 drafted (38 standard + 2 E7-SET-05 top-ups + 5 E7-SET-06 + 5 E7-SET-07). No padding: every item anchors a rule_ref/limb with no keyed bank item, verified by the bank-wide keyed-option scan (0 pairs >= 0.65 with shared family; in fact 0 pairs >= 0.55 at all on the final draft).",
+    "composition": "standard=38, item_set=12 (E7-SET-05 top-ups x2, E7-SET-06 x5, E7-SET-07 x5)",
+    "difficulty_spread": "easy=15, medium=25, hard=10",
+    "key_spread": "A=13, B=12, C=13, D=12",
+    "outcome_spread": "7.1=13, 7.2=15, 7.3=5, 7.4=9, 7.5=3, 7.6=5",
+    "qa": "Gate 1 blind solve 2026-06-05: full agreement, 0 wrong, 0 ambiguous. Gate 2: all quotes verified. Gate 3: see qa-log wave 9."
+  },
+  "questions": [
+    {
+      "id": "SUP-E7-0104",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-05",
+      "scenario": "Priit Kallas oversees electronic trading supervision at Silverton Securities, a CIRO Participant. Silverton is negotiating to grant direct electronic access to Yarmouth Ridge Minerals' treasury department and to an aggressive proprietary trading firm that is itself registered as a dealer. A third client already trading under direct electronic access runs an automated order system; last month a malfunction caused it to flood one marketplace with orders before staff manually shut it down after twenty minutes of searching for the right procedure. Kallas also learns that this client recently allowed an unrelated company to send orders through its direct electronic access connection, and Silverton has now terminated that client's access.",
+      "stem": "During last month's malfunction, one of the flood orders executed against a counterparty firm at a clearly aberrant price. Both Silverton and the counterparty want the trade cancelled by application to the Market Integrity Official under UMIR 10.9(1)(e). For the Official to act on the joint application, it must be made:",
+      "options": {
+        "A": "Within 30 days of settlement",
+        "B": "By the end of trading on the day following the day on which the trade was made, or any earlier time established in a Marketplace Rule of the marketplace where the trade executed",
+        "C": "Before the trade is reported to the information processor",
+        "D": "Only after both firms have re-papered their direct electronic access agreements"
+      },
+      "answer": "B",
+      "rationale": "UMIR 10.9(1)(e) permits a Market Integrity Official to vary or cancel any trade upon application of the buyer and seller provided the application has been made by the end of trading on the day following the day on which the trade was made, or such earlier time as may be established in any Marketplace Rule of the marketplace on which the trade was executed. A 30-day window (A) confuses the 10.9(4) document-retention period. Reporting to the information processor (C) happens automatically and is not the deadline. DEA paperwork (D) has no role in the trade-cancellation application.",
+      "source_quote": "\"vary or cancel any trade upon application of the buyer and seller provided such application has been made by the end of trading on the day following the day on which the trade was made\" — umir.txt ~line 10030",
+      "rule_refs": [
+        "UMIR 10.9(1)(e)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0105",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-05",
+      "scenario": "Priit Kallas oversees electronic trading supervision at Silverton Securities, a CIRO Participant. Silverton is negotiating to grant direct electronic access to Yarmouth Ridge Minerals' treasury department and to an aggressive proprietary trading firm that is itself registered as a dealer. A third client already trading under direct electronic access runs an automated order system; last month a malfunction caused it to flood one marketplace with orders before staff manually shut it down after twenty minutes of searching for the right procedure. Kallas also learns that this client recently allowed an unrelated company to send orders through its direct electronic access connection, and Silverton has now terminated that client's access.",
+      "stem": "A Market Integrity Official reviewing the flooding incident sends Silverton an electronic request for the order records and system logs relevant to the exercise of the Official's powers. Under UMIR 10.9(3), Silverton must:",
+      "options": {
+        "A": "Provide the information, documents or records within the time period specified by the Market Integrity Official, in the manner and form, including electronically, required by the Market Regulator",
+        "B": "Provide the records only if the request is made in writing and approved by a hearing panel",
+        "C": "Refer the Official to the marketplace, which holds the official transaction record",
+        "D": "Provide a summary prepared by counsel rather than the underlying records"
+      },
+      "answer": "A",
+      "rationale": "UMIR 10.9(3) requires that, upon the verbal, written or electronic request of the Market Integrity Official, the Subject Person provide within the time period specified any information, documents or records in its possession or control that the Market Regulator determines may be relevant, in such manner and form, including electronically, as required, and allow inspection and copying. A writing-plus-hearing precondition (B) contradicts the verbal-or-electronic request power. Deflecting to the marketplace (C) ignores that the duty attaches to records in Silverton's own possession or control. A counsel-prepared summary (D) is not the records themselves and could engage the Rule 10.1 obstruction provisions.",
+      "source_quote": "\"upon the verbal, written or electronic request of the Market Integrity Official, the Subject Person shall, within the time period specified by the Market Integrity Official\" — umir.txt ~line 10073",
+      "rule_refs": [
+        "UMIR 10.9(3)",
+        "UMIR 10.1(5)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0106",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A trader at Ardentinny Securities enters an order on a marketplace structured so that no portion of it is displayed on entry in a consolidated market display. Under the UMIR 1.1 definition, the order is a:",
+      "options": {
+        "A": "Bypass order",
+        "B": "Special Terms Order",
+        "C": "Dark Order — an order no portion of which is displayed on entry on a marketplace in a consolidated market display",
+        "D": "Closing Price Order"
+      },
+      "answer": "C",
+      "rationale": "UMIR 1.1 defines a Dark Order to include an order no portion of which is displayed on entry on a marketplace in a consolidated market display (and the undisplayed portion of a partially displayed order that may trade at a different price), excluding intentional crosses, immediately filled market or limit orders, and the special order types. A bypass order (A) is defined by its purpose of executing against disclosed volume, not by non-display. A Special Terms Order (B) turns on size, conditions or settlement terms. A Closing Price Order (D) is defined by its closing-price condition.",
+      "source_quote": "\"an order no portion of which is displayed on entry on a marketplace in a consolidated market display\" — umir.txt ~line 543",
+      "rule_refs": [
+        "UMIR 1.1 \"Dark Order\""
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0107",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under the UMIR 1.1 definition, which of the following correctly describes a \"bypass order\" in a listed security?",
+      "options": {
+        "A": "An order that is part of a designated trade, or to satisfy a fill obligation imposed by UMIR or a Policy, entered to execute as against the disclosed volume on a protected marketplace prior to the execution or cancellation of the balance",
+        "B": "Any order routed around the listing exchange to a foreign market",
+        "C": "An order that bypasses the firm's risk management controls with supervisor approval",
+        "D": "An order entered after hours to bypass the opening auction"
+      },
+      "answer": "A",
+      "rationale": "UMIR 1.1 defines a bypass order as an order in a listed security that is part of a designated trade or to satisfy an obligation to fill an order imposed on a Participant or Access Person by any provision of UMIR or a Policy, entered on a protected marketplace to execute as against the disclosed volume on that marketplace prior to the execution or cancellation of the balance (or on a displayed unprotected marketplace against orders that would have been disclosed volume). Foreign routing (B), control overrides (C) — which UMIR never permits — and auction avoidance (D) have nothing to do with the defined term.",
+      "source_quote": "\"“bypass order” means an order in a listed security that is:\" — umir.txt ~line 380",
+      "rule_refs": [
+        "UMIR 1.1 \"bypass order\""
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0108",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client of Benbecula Securities trades an equity security priced at $0.45 per unit. For the purposes of UMIR requirements keyed to a \"standard trading unit,\" one standard trading unit of that security is:",
+      "options": {
+        "A": "100 units",
+        "B": "500 units — the standard trading unit for an equity security trading at $0.10 or more per unit and less than $1.00 per unit",
+        "C": "1,000 units",
+        "D": "$1,000 in principal amount"
+      },
+      "answer": "B",
+      "rationale": "UMIR 1.1 defines a standard trading unit for an equity or similar security as 1,000 units below $0.10, 500 units at $0.10 or more and less than $1.00, and 100 units at $1.00 or more — at $0.45 the middle band applies. 100 units (A) is the band for securities at $1.00 or more, the closest distractor. 1,000 units (C) applies only below $0.10. $1,000 principal (D) is the standard trading unit for a listed or quoted debt security, not an equity.",
+      "source_quote": "\"500 units of a security trading at $0.10 or more per unit and less than $1.00\" — umir.txt ~line 2287",
+      "rule_refs": [
+        "UMIR 1.1 \"standard trading unit\""
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0109",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client of Cawdorlea Securities sells shares from his personal account and buys the same shares back through a holding company he wholly owns, leaving his economic position unchanged. Under Policy 2.2 Part 1, on a marketplace this conduct is, by its very nature:",
+      "options": {
+        "A": "Permitted, provided both orders are marked as principal",
+        "B": "A manipulative or deceptive method, act or practice — effecting a trade in a security which involves no change in the beneficial or economic ownership",
+        "C": "A violation only if an artificial price actually results",
+        "D": "Frontrunning under Rule 4.1"
+      },
+      "answer": "B",
+      "rationale": "Policy 2.2 Part 1 lists effecting a trade in a security or a derivative which involves no change in the beneficial or economic ownership among the activities that by their very nature constitute a manipulative or deceptive method, act or practice under Rule 2.2(1) — and the Policy states the breach arises irrespective of whether the practice results in a misleading appearance or artificial price, defeating (C). Order marking (A) cannot legitimize the conduct. Frontrunning (D) requires knowledge of a market-moving client order, absent here.",
+      "source_quote": "\"effecting a trade in a security or a derivative which involves no change in the beneficial or economic ownership\" — umir.txt ~line 3425",
+      "rule_refs": [
+        "UMIR 2.2(1)",
+        "UMIR Policy 2.2 Part 1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0110",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Compliance at Craigellachie Securities is assessing whether a closing bid entered by a client created an \"artificial\" price for the purposes of UMIR 2.2(2). Under Policy 2.2 Part 3, a bid price will be considered artificial if it is:",
+      "options": {
+        "A": "More than 5% away from the last sale price",
+        "B": "Entered in the final ten minutes of trading",
+        "C": "Not justified by real demand or supply in the security",
+        "D": "Higher than the volume-weighted average price for the day"
+      },
+      "answer": "C",
+      "rationale": "Policy 2.2 Part 3 states that for the purposes of Rule 2.2(2) an ask price, bid price or sale price will be considered artificial if it is not justified by real demand or supply in a security or a derivative, with relevant considerations including preceding and succeeding trade prices, the change resulting from the order, recent liquidity, timing and instructions, and motivation — and the absence of any one consideration is not determinative. A fixed percentage band (A), a time-of-day rule (B) and a VWAP comparison (D) are invented bright lines the Policy does not contain.",
+      "source_quote": "\"an ask price, bid price or sale price will be considered artificial if it is not justified by real demand or supply in a security or a derivative.\" — umir.txt ~line 3492",
+      "rule_refs": [
+        "UMIR 2.2(2)",
+        "UMIR Policy 2.2 Part 3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0111",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A sales trader at Drumossie Securities knows the firm holds an unentered pension fund order large enough to move the market. Before the client order is entered, he telephones a friend at another dealer and describes the order, without trading himself. Under UMIR 4.1(1), his call:",
+      "options": {
+        "A": "Is permitted because he entered no order",
+        "B": "Is permitted if the friend signs a confidentiality undertaking",
+        "C": "Violates Rule 2.2 as a fictitious trade",
+        "D": "Violates the frontrunning rule, which prohibits informing any other person, other than in the necessary course of business, of the client order"
+      },
+      "answer": "D",
+      "rationale": "UMIR 4.1(1)(c) prohibits a Participant with knowledge of a client order that on entry could reasonably be expected to affect the market price from informing any other person, other than in the necessary course of business, of the client order prior to its entry — tipping breaches Rule 4.1 even with no trade by the tipper, defeating (A). A confidentiality undertaking (B) does not bring the disclosure within the necessary course of business. A fictitious trade (C) is a Rule 2.2 concept requiring a trade, which never occurred.",
+      "source_quote": "\"inform any other person, other than in the necessary course of business, of the client order.\" — umir.txt ~line 4623",
+      "rule_refs": [
+        "UMIR 4.1(1)(c)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0112",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The desk at Elderslie Securities structures its principal trading so that every order falls within a literal exemption from Rule 5.3, yet client orders routinely receive poor executions. Under Policy 5.3 Part 1, the firm's position is unsound because a Participant:",
+      "options": {
+        "A": "Has overriding agency responsibilities to its clients and cannot use technical compliance with the rule to establish fulfillment of its obligations if it has not otherwise acted reasonably and diligently to obtain best execution of its client orders",
+        "B": "May never enter principal orders in any security in which it holds client orders",
+        "C": "Loses all Rule 5.3 exemptions once it trades as principal more than ten times a day",
+        "D": "Must obtain Market Regulator approval for each principal order"
+      },
+      "answer": "A",
+      "rationale": "Policy 5.3 Part 1 states that a Participant has overriding agency responsibilities to its clients and cannot use technical compliance with the rule to establish fulfillment of its obligations if the Participant has not otherwise acted reasonably and diligently to obtain best execution of its client orders. An absolute ban on principal trading (B) contradicts the exemption structure of Rule 5.3(2). A trade-count trigger (C) and per-order regulator approval (D) appear nowhere in the rule or Policy.",
+      "source_quote": "\"A Participant has overriding agency responsibilities to its clients and cannot use\" — umir.txt ~line 5138",
+      "rule_refs": [
+        "UMIR 5.3",
+        "UMIR Policy 5.3 Part 1"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0113",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A market-making engine at Errolton Securities generates a non-client order that executes at the same price, on the same side, as a previously received client order. The engine runs on pre-determined order and trading parameters that were established, programmed and enabled before the client order arrived. Under UMIR 5.3(2)(b)(ii), the firm:",
+      "options": {
+        "A": "Breached client priority because the orders shared a price and side",
+        "B": "Breached client priority unless the client later ratifies the trade",
+        "C": "Is exempt from giving priority, because the non-client order was automatically generated by a system operated by or on behalf of the Participant based on pre-determined parameters established, programmed and enabled prior to the receipt of the client order",
+        "D": "Is exempt only if the engine's orders are under 10 standard trading units"
+      },
+      "answer": "C",
+      "rationale": "UMIR 5.3(2)(b)(ii) exempts from client priority a principal or non-client order automatically generated by a system operated by the Participant or on behalf of the Participant based on pre-determined order and trading parameters established, programmed and enabled for trading prior to the receipt of the client order — the pre-programming removes the intentional trading-ahead concern. Same price and side alone (A) do not breach Rule 5.3 where an exemption applies. After-the-fact ratification (B) is not the rule's mechanism; 5.3(2)(a) consent must precede. A size cap (D) is invented.",
+      "source_quote": "\"automatically generated by a system operated by the Participant or on behalf of the Participant based on pre-determined order and trading parameters established, programmed and enabled for trading prior to the receipt of the client order\" — umir.txt ~line 5060",
+      "rule_refs": [
+        "UMIR 5.3(2)(b)(ii)",
+        "UMIR 5.3(1)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0114",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under IDPC Rule 5110, the purposes of the margin requirements include ensuring that:",
+      "options": {
+        "A": "Every client pays for securities in full before settlement",
+        "B": "Margin rates are identical for every class of security",
+        "C": "Dealer Members never carry short inventory positions",
+        "D": "The maximum leverage levels extended to clients through the execution of a transaction or a trading strategy are appropriate, and base line market and credit risk requirements apply to proprietary trading and client margin lending"
+      },
+      "answer": "D",
+      "rationale": "IDPC 5110(1) states the purposes of margin requirements are to ensure that the maximum leverage levels extended to clients through the execution of a transaction or a trading strategy are appropriate, and to set base line market and credit risk requirements a Dealer Member must adhere to when engaging in proprietary trading or client account margin lending. Full prepayment (A) describes cash accounts, not margin. Short inventory (C) is permitted with margin under 5112(3). Uniform rates (B) contradict the rate structure prescribed across Rules 5200-5900.",
+      "source_quote": "\"ensure that the maximum leverage levels extended to clients through the execution of a transaction or a trading strategy are appropriate\" — idpc-rules.txt ~line 12024",
+      "rule_refs": [
+        "IDPC 5110(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0115",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A margin client of Finsbay Securities has fallen into debt to the firm and ignored a margin call. Considering it necessary for its credit risk protection, under IDPC Rule 5116 the firm may:",
+      "options": {
+        "A": "Buy securities held short for the indebted client, or sell securities it holds for the indebted client",
+        "B": "Freeze the account but never trade in it without a court order",
+        "C": "Transfer the debt to another client's account",
+        "D": "Seize the client's assets held at other institutions"
+      },
+      "answer": "A",
+      "rationale": "IDPC 5116(1) provides that if a Dealer Member considers it necessary for its credit risk protection, it may buy securities held short for an indebted client or sell securities it holds for an indebted client. A court-order precondition (B) contradicts the self-help right the rule confers, which works with the collateral and recovery rights in 5114, 5115 and 5117. Shifting the debt to another client (C) has no basis. The rule reaches only securities the Dealer Member holds, not assets at other institutions (D).",
+      "source_quote": "\"buy securities held short for an indebted client, or\" — idpc-rules.txt ~line 12100",
+      "rule_refs": [
+        "IDPC 5116(1)",
+        "IDPC 5114"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0116",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "For the purposes of IDPC sections 3119 through 3129, \"best execution\" is defined as:",
+      "options": {
+        "A": "Execution at the lowest commission available",
+        "B": "Execution at the best displayed price on the listing exchange",
+        "C": "Execution within sixty seconds of order receipt",
+        "D": "Obtaining the most advantageous execution terms reasonably available under the circumstances"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3119(1) defines best execution as obtaining the most advantageous execution terms reasonably available under the circumstances — a multi-factor standard elaborated through the price, speed, certainty and overall-cost factors in 3121. Lowest commission (A) is one cost input, not the definition. The listing-exchange displayed price (B) ignores the multi-marketplace framework and the order and trade information requirements. A speed deadline (C) confuses one broad factor with the definition itself.",
+      "source_quote": "\"Obtaining the most advantageous execution terms reasonably available under the circumstances.\" — idpc-rules.txt ~line 4081",
+      "rule_refs": [
+        "IDPC 3119(1)",
+        "IDPC 3121"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0117",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Fionnport Securities cannot find an exemption under UMIR 6.4 to complete a client's trade in a listed security off-marketplace, so a trader proposes asking an unregistered affiliate of the client to paper the trade privately on the firm's behalf. Under UMIR 2.1(2)(a), this proposal is:",
+      "options": {
+        "A": "Acceptable because the affiliate is not a Participant",
+        "B": "Acceptable for trades under $50,000",
+        "C": "Acceptable if the trade is reported within 24 hours",
+        "D": "Prohibited — a Participant shall not directly or indirectly use another person to effect a trade other than on a marketplace when no exemption is available for the Participant to complete the trade other than on a marketplace under Rule 6.4"
+      },
+      "answer": "D",
+      "rationale": "UMIR 2.1(2)(a) prohibits a Participant from directly or indirectly using another person to effect a trade other than on a marketplace in circumstances when an exemption is not available for the Participant to complete the trade other than on a marketplace in accordance with Rule 6.4 — interposing the affiliate is precisely the indirect route the clause closes. The affiliate's status (A) is irrelevant because the prohibition runs against the Participant. Late reporting (C) and a value threshold (B) are not exemptions under Rule 6.4.",
+      "source_quote": "\"directly or indirectly use another person to effect a trade other than on a marketplace in circumstances when an exemption is not available for the Participant to complete the trade other than on a marketplace in accordance with Rule 6.4\" — umir.txt ~line 2879",
+      "rule_refs": [
+        "UMIR 2.1(2)(a)",
+        "UMIR 6.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0118",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A desk Supervisor at Garlieston Securities is asked to approve an order whose execution, she realizes, would breach a Marketplace Rule of the marketplace on which it would be entered, though no UMIR provision is directly engaged. Under UMIR 2.3, entry of the order is:",
+      "options": {
+        "A": "Permitted because UMIR governs only its own provisions",
+        "B": "Permitted if the marketplace fails to reject the order",
+        "C": "Prohibited — a Participant shall not enter an order if it knows or ought reasonably to know that the entry would not comply with or would result in the violation of, among other things, the Marketplace Rules of the marketplace on which the order is entered",
+        "D": "Permitted with the written consent of the client"
+      },
+      "answer": "C",
+      "rationale": "UMIR 2.3 prohibits a Participant or Access Person from entering an order or executing a trade if it knows or ought reasonably to know that doing so would not comply with or would result in the violation of applicable securities legislation, SRO requirements, the Marketplace Rules of the marketplace of entry or execution, and UMIR and the Policies — so the rule itself polices compliance with other regimes, defeating (A). The marketplace's failure to reject (B) does not cure the Participant's knowledge. Client consent (D) cannot authorize a rule violation.",
+      "source_quote": "\"the entry of the order or the execution of the trade would not comply with or would result in the violation of:\" — umir.txt ~line 4217",
+      "rule_refs": [
+        "UMIR 2.3",
+        "UMIR Policy 1.2 Part 3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0119",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "After Halkirk Vale Securities enters a client sell order on a marketplace without a short sale designation, the client's long position is journalled away, so the order would now become a short sale on execution. Under UMIR 6.2(4), the desk must:",
+      "options": {
+        "A": "Modify the order to include the short sale designation required by subsection 6.2(1)",
+        "B": "Let the order stand because designations are fixed at entry",
+        "C": "Cancel the client's account",
+        "D": "Convert the order to a Special Terms Order"
+      },
+      "answer": "A",
+      "rationale": "UMIR 6.2(4) provides that if, following the entry of an order on a marketplace for the sale of a security that has not been designated as a short sale, such order would become a short sale on execution, the order shall be modified to include the short sale designation required by subsection (1). Treating designations as fixed at entry (B) is exactly what 6.2(4) overrides. Closing the account (C) is a non-sequitur. A Special Terms Order conversion (D) addresses settlement conditions, not the short marker.",
+      "source_quote": "\"such order would become a short sale on execution, the order shall be modified to include the short sale designation required by subsection (1).\" — umir.txt ~line 5625",
+      "rule_refs": [
+        "UMIR 6.2(4)",
+        "UMIR 6.2(1)(b)(viii)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0120",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A trader at Inchcolm Securities wants to enter an order structured so that, on entry and at all times before full execution, less than one standard trading unit of it would be displayed in a consolidated market display. Under UMIR 6.5, the order:",
+      "options": {
+        "A": "May be entered if marked as a Special Terms Order",
+        "B": "May not be entered — a Participant shall not enter an order if less than one standard trading unit (or such greater number as the Market Regulator designates) will be displayed on entry and at any time prior to full execution",
+        "C": "May be entered on any unprotected marketplace",
+        "D": "May be entered if the client consents in writing"
+      },
+      "answer": "B",
+      "rationale": "UMIR 6.5(b) prohibits entering an order if less than one standard trading unit of the order, or such greater number of units as designated by the Market Regulator, will be displayed in a consolidated market display on entry and at any time prior to the full execution of the order; 6.5(a) likewise imposes a minimum size on Dark Orders set by the Market Regulator. A Special Terms marker (A) does not engage the minimum-display rule. Marketplace choice (C) and client consent (D) provide no exemption from Rule 6.5.",
+      "source_quote": "\"less than one standard trading unit of the order or such greater number of units as designated from time to time by the Market Regulator\" — umir.txt ~line 6431",
+      "rule_refs": [
+        "UMIR 6.5(b)",
+        "UMIR 6.5(a)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0121",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An order entered by Invermark Securities for 8 standard trading units of a security is about to execute against a Dark Order on a marketplace. The order does not meet the size thresholds in UMIR 6.6(1)(b) or (c). Under UMIR 6.6(1), the execution with the Dark Order is permitted only if Invermark's order is executed:",
+      "options": {
+        "A": "At the last sale price",
+        "B": "At any price inside the spread",
+        "C": "At a better price",
+        "D": "At the mid-point of the spread in all cases"
+      },
+      "answer": "C",
+      "rationale": "UMIR 6.6(1)(a) permits an order entered on a marketplace to execute with a Dark Order provided it is executed at a better price; the at-the-quote branches in 6.6(1)(b) and (c) are available only where the order on entry exceeds 50 standard trading units and $30,000, or exceeds $100,000, and no displayed orders remain at that best price — thresholds this 8-unit order fails. The last sale price (A) and any inside-spread price (B) are not the test. A mandatory mid-point (D) overstates the rule; mid-point executions are one way a better price can be provided, not a requirement.",
+      "source_quote": "\"that order may execute with a Dark Order provided the order entered by the Participant or Access Person is executed:\" — umir.txt ~line 6453",
+      "rule_refs": [
+        "UMIR 6.6(1)(a)",
+        "UMIR 6.6(1)(b)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0122",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The router at Keldholme Securities flags that a particular marketplace's trading system is mishandling a class of orders such that displayed orders will not comply with UMIR requirements, and the desk knows this. Under UMIR 7.12, with respect to that marketplace the firm:",
+      "options": {
+        "A": "Shall not enter an order on it while it knows or ought reasonably to know that the marketplace's handling may result in the display or execution of the order not complying with applicable UMIR requirements",
+        "B": "May continue entering orders because system defects are the marketplace's responsibility",
+        "C": "Must enter orders only in odd lots",
+        "D": "Must obtain client consent for each order routed there"
+      },
+      "answer": "A",
+      "rationale": "UMIR 7.12 prohibits a Participant or Access Person from entering an order on a particular marketplace if it knows or ought reasonably to know that the handling of the order by the marketplace and its trading systems may result in the display or execution of the order not being in compliance with any applicable requirements of UMIR — Participants cannot rely on defective marketplace functionality. Shifting responsibility to the marketplace (B) contradicts the rule's premise. Odd-lot routing (C) and per-order client consent (D) are invented workarounds.",
+      "source_quote": "\"Participant or Access Person knows or ought reasonably to know that the handling of the order by the marketplace and the trading systems of the marketplace may result in the display of the order or the execution of the order not being in compliance\" — umir.txt ~line 8770",
+      "rule_refs": [
+        "UMIR 7.12"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0123",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An institutional client of Kilbreda Securities asks the firm to fill, as principal, a sell order for 400 standard trading units. Under Policy 8.1 Part 1, the firm may do the client-principal trade provided:",
+      "options": {
+        "A": "The client receives a price exactly equal to the best bid",
+        "B": "The trade is executed before the opening",
+        "C": "The firm rebates half its spread to the client",
+        "D": "The client could not obtain a better price on a marketplace in accordance with the best execution obligation, with reasonable steps taken to ensure the best price is obtained and the price justified by the condition of the market"
+      },
+      "answer": "D",
+      "rationale": "Policy 8.1 Part 1 provides that for client-principal trades greater than 50 standard trading units the Participant may do the trade provided the client could not obtain a better price on a marketplace in accordance with its best execution obligation under Part C of Corporation Rule 3100, taking reasonable steps to ensure the best price is obtained and that the price to the client is justified by the condition of the market. An exact best-bid match (A) describes neither branch — for 50 units or less the client must do better than the marketplace price. Pre-opening timing (B) and spread rebates (C) are not Policy 8.1 conditions.",
+      "source_quote": "\"For client-principal trades greater than 50 standard trading units, the Participant may do the\" — umir.txt ~line 9065",
+      "rule_refs": [
+        "UMIR 8.1",
+        "UMIR Policy 8.1 Part 1"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0124",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Quoyle Harbour Securities acts as principal and buys over-the-counter bonds from a retail client. Under IDPC Rule 3122, the purchase is permissible only when the transaction is executed at an aggregate price, including any mark-down, that is:",
+      "options": {
+        "A": "Equal to the last interdealer quote, with no spread",
+        "B": "Set at the firm's discretion, since OTC pricing is unregulated",
+        "C": "Within 1% of the security's par value",
+        "D": "Fair and reasonable, taking into consideration all relevant factors, including the fair market value of the securities at the time of the transaction, the expense involved, the fact that the Dealer Member is entitled to a profit, and the amount at risk"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3122(2) prohibits a Dealer Member acting as principal from buying OTC securities from or selling them to a client except, under 3122(3), where the transaction is executed at an aggregate price (including any mark-up or mark-down) that is fair and reasonable considering all relevant factors — including the fair market value at the time of the transaction, the expense involved, the fact that the Dealer Member is entitled to a profit, and the total dollar amount or amount at risk. A zero-spread mandate (A) ignores the entitled-to-a-profit factor. Unregulated discretion (B) contradicts the fair-pricing design. A par-value band (C) is invented.",
+      "source_quote": "\"the fact that the Dealer Member is entitled to a profit, and\" — idpc-rules.txt ~line 4164",
+      "rule_refs": [
+        "IDPC 3122(2)",
+        "IDPC 3122(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0125",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client gives Sandwick Point Securities an order with an instruction to route it to one specific marketplace that the firm's own analysis says offers worse execution terms. Under IDPC Rule 3123, the firm's best execution process must require it to:",
+      "options": {
+        "A": "Refuse all client routing instructions",
+        "B": "Consider the instructions of the client, subject to its obligations under Corporation requirements and securities laws",
+        "C": "Route the order wherever the firm earns the highest rebate",
+        "D": "Split every order equally across all marketplaces"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3123(1)(i)(a) requires the best execution policies and procedures to address a process that includes requiring the Dealer Member to consider the instructions of the client, subject to its obligations under Corporation requirements and securities laws — client instructions matter but cannot override obligations such as Order Protection Rule compliance under 3128. A blanket refusal of instructions (A) reverses the requirement. Rebate-maximizing routing (C) is a conflict the 3123(1)(i)(b) conflict-management element targets. Mechanical equal splitting (D) is no one's best execution process.",
+      "source_quote": "\"requiring the Dealer Member to consider the instructions of the client, subject to its\" — idpc-rules.txt ~line 4179",
+      "rule_refs": [
+        "IDPC 3123(1)(i)",
+        "IDPC 3128"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0126",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 2, once a Participant identifies a violation or possible violation of a Requirement, its written supervision policies must identify the steps to determine, among other things, whether:",
+      "options": {
+        "A": "Additional supervision should be instituted for the employee, the account or the business line involved, and whether the written policies and procedures should be amended to reduce the possibility of a future violation",
+        "B": "The Market Regulator should be asked to keep the matter confidential",
+        "C": "The employee should be transferred to another branch without documentation",
+        "D": "The violation can be offset against past periods of clean compliance"
+      },
+      "answer": "A",
+      "rationale": "Policy 7.1 Part 2 (item 6) requires the supervision system to identify the steps the Participant will take when a violation or possible violation has been identified — including the Rule 10.16 reporting procedure where required — and the steps to determine if additional supervision should be instituted for the employee, the account or the business line involved, and if the written policies and procedures should be amended to reduce the possibility of a future violation. Seeking confidentiality from the regulator (B), undocumented transfers (C) and compliance offsetting (D) appear nowhere in the Policy.",
+      "source_quote": "\"additional supervision should be instituted for the employee, the account or\" — umir.txt ~line 6766",
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 2",
+        "UMIR 10.16"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0127",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Morvenside Securities marks some orders as directed action orders and occasionally pairs them with the bypass marker. Its written trade-through procedures say nothing about when the bypass marker is used, and they have never been tested. Under Policy 7.1 Part 6, the policies and procedures must:",
+      "options": {
+        "A": "Be tested only after a trade-through complaint is received",
+        "B": "Address only orders routed to foreign markets",
+        "C": "Specifically address the circumstances when the bypass order marker will be used in conjunction with a directed action order, and address steps undertaken on a regular basis, not less than monthly, to test that the policies and procedures are adequate",
+        "D": "Be filed with the Market Regulator for pre-approval each year"
+      },
+      "answer": "C",
+      "rationale": "Policy 7.1 Part 6 requires the trade-through policies and procedures to set out the steps to ensure an execution does not result in a trade-through, to specifically address the circumstances when the bypass order marker will be used in conjunction with a directed action order, and to address the steps the Participant or Access Person will undertake on a regular basis, which shall not be less than monthly, to test that the policies and procedures are adequate — so this firm fails on both content and testing. Complaint-driven testing (A) ignores the affirmative monthly minimum. Foreign-market routing (B) is one limb (Rule 6.4(3) compliance), not the whole. Regulator pre-approval (D) is not required.",
+      "source_quote": "\"The policies and procedures must specifically address the circumstances when the bypass\" — umir.txt ~line 6929",
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 6",
+        "UMIR 6.2"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0128",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under IDPC Rule 3127, with respect to its policies and procedures for best execution, a Dealer Member must have reasonable assurance that:",
+      "options": {
+        "A": "Its directors personally route at least one order per quarter",
+        "B": "Its employees involved in the execution of client orders and transactions know and understand how to apply the policies and procedures they must follow",
+        "C": "Each client passes a best execution quiz before trading",
+        "D": "Its policies are reviewed by an external auditor monthly"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3127(1) requires a Dealer Member to have reasonable assurance its employees involved in the execution of client orders and transactions know and understand how to apply the Dealer Member's policies and procedures for best execution that they must follow — a training obligation on execution staff. Director order-routing (A) is invented. The duty runs to employees, not clients (C). External monthly audits (D) confuse the separate 3126 annual internal review obligation, which in any case is not monthly or external.",
+      "source_quote": "\"client orders and transactions know and understand how to apply the Dealer Member’s policies\" — idpc-rules.txt ~line 4243",
+      "rule_refs": [
+        "IDPC 3127(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0129",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Muckhart Securities does not execute trades itself; it engages an executing Dealer Member and links to that firm's best execution disclosure in its own policies. Under IDPC Rule 3124, among other conditions, Muckhart must:",
+      "options": {
+        "A": "Obtain an annual attestation from the executing Dealer Member that it has complied with and tested its best execution policies and procedures in accordance with sections 3119 through 3129",
+        "B": "Re-execute a sample of trades itself each month to benchmark the executing firm",
+        "C": "Indemnify the executing Dealer Member for any best execution failures",
+        "D": "Disclose the executing firm's commission grid to all clients"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3124(1)(ii) requires the non-executing Dealer Member to obtain an annual attestation from the executing Dealer Member that it has complied with and tested its policies and procedures on best execution in accordance with sections 3119 through 3129 — alongside the initial and material-change reviews of the disclosure in (i) and the follow-up duty in (iii) when execution results are inconsistent with the disclosure. Benchmark re-execution (B) is not the rule's mechanism. Indemnities (C) and commission-grid disclosure (D) appear nowhere in 3124.",
+      "source_quote": "\"the non-executing Dealer Member must obtain an annual attestation from the executing\" — idpc-rules.txt ~line 4208",
+      "rule_refs": [
+        "IDPC 3124(1)(ii)",
+        "IDPC 3124(1)(iii)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0130",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 1.2 Part 3, in determining what a Participant \"ought reasonably to know\" for the purposes of Rules 2.2 and 2.3, the test is, in essence, what the Participant could have been expected to know if it had:",
+      "options": {
+        "A": "Subscribed to every commercial market-data service",
+        "B": "Interviewed each client annually",
+        "C": "Hired at least one former regulator",
+        "D": "Adopted the policies and procedures required by securities legislation, self-regulatory entities, UMIR and the Policies, and conscientiously followed or observed them"
+      },
+      "answer": "D",
+      "rationale": "Policy 1.2 Part 3 explains that what a person ought reasonably to know references what a Participant or Access Person would know acting honestly and in good faith and exercising the care, diligence and skill of a reasonably prudent Participant in comparable circumstances — in essence, what it could have been expected to know if it had adopted the various policies and procedures required by applicable securities legislation, self-regulatory entities, UMIR and the Policies, and conscientiously followed or observed them. Data subscriptions (A), client interviews (B) and staffing choices (C) are not the legal standard.",
+      "source_quote": "\"adopted various policies and procedures as required by applicable securities legislation, self-regulatory entities, UMIR and the Policies; and\" — umir.txt ~line 2709",
+      "rule_refs": [
+        "UMIR Policy 1.2 Part 3",
+        "UMIR 2.2",
+        "UMIR 2.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0131",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under UMIR 10.11(1)(a), immediately following the receipt or origination of an order, a Participant must record, among other things:",
+      "options": {
+        "A": "The expected commission on the trade",
+        "B": "The identifier of any investment adviser or registered representative receiving the order, together with required order designations and any special terms information",
+        "C": "The client's net worth",
+        "D": "The names of all marketplaces where the security trades"
+      },
+      "answer": "B",
+      "rationale": "UMIR 10.11(1)(a) requires the Participant, immediately following the receipt or origination of an order, to record all order designations required by Rule 6.2(1)(b), the identifier of any investment adviser or registered representative receiving the order, and any Special Terms Order information required by Rule 6.2(3); clearing and marketplace identifiers are added immediately following entry under 10.11(1)(b). Commission expectations (A) and client net worth (C) are not audit-trail elements. A list of all venues where the security trades (D) is market data, not an order record.",
+      "source_quote": "\"the identifier of any investment adviser or registered representative receiving the order, and\" — umir.txt ~line 10231",
+      "rule_refs": [
+        "UMIR 10.11(1)(a)",
+        "UMIR 6.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0132",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under UMIR 10.10, a Participant must calculate the aggregate short position of each individual account in respect of each listed and quoted security:",
+      "options": {
+        "A": "Only when a short position exceeds 5% of the float",
+        "B": "Daily, filing within 24 hours",
+        "C": "Quarterly, filing within 30 days",
+        "D": "As of the 15th day and the last day of each calendar month, filing the report with a Market Regulator not later than two trading days following the calculation date"
+      },
+      "answer": "D",
+      "rationale": "UMIR 10.10(1) requires a Participant to calculate, as of the 15th day and as of the last day of each calendar month, the aggregate short position of each individual account in respect of each listed and quoted security, and 10.10(3) requires the report of the calculation to be filed with a Market Regulator not later than two trading days following the date on which the calculation is to be made. Daily (B) and quarterly (C) cycles misstate the semi-monthly regime. A float-percentage trigger (A) belongs to other disclosure regimes, not Rule 10.10.",
+      "source_quote": "\"calculate, as of 15th day and as of the last day of each calendar month, the aggregate short position of each individual account\" — umir.txt ~line 10158",
+      "rule_refs": [
+        "UMIR 10.10(1)",
+        "UMIR 10.10(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0133",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Nethercote Securities agrees an intentional cross with a client in U.S. dollars and must record the cross on a Canadian marketplace in Canadian currency. Under Policy 7.5, the firm must convert the price using:",
+      "options": {
+        "A": "The Bank of Canada noon rate on settlement date",
+        "B": "Any rate, provided the client consents",
+        "C": "The exchange rate the Participant would have applied for a trade of similar size on a foreign organized regulated market at the time of the cross, rounding to the nearest trading increment if the converted price falls between increments, and retaining the rate with the order record",
+        "D": "The best rate published by any commercial bank that week"
+      },
+      "answer": "C",
+      "rationale": "Policy 7.5 requires that where the price of an internal or intentional cross (or a reported foreign trade) was agreed in a foreign currency, the price be converted to Canadian dollars using the exchange rate the Participant would have applied in respect of a trade of similar size on a foreign organized regulated market at the time of the cross or execution, rounded to the nearest trading increment if it falls between increments, with the exchange rate maintained with the record of the order and provided to the Market Regulator on request. A settlement-date noon rate (A), client-consented arbitrary rates (B) and a best-weekly-bank-rate test (D) are not the prescribed methodology.",
+      "source_quote": "\"the exchange rate the Participant would have applied in respect of a trade of similar size on a foreign organized regulated market at the time of the internal cross, intentional cross or execution of the trade outside of Canada.\" — umir.txt ~line 8153",
+      "rule_refs": [
+        "UMIR 7.5",
+        "UMIR Policy 7.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0134",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Norbiton Securities sells a security to a retail client as principal. A compliance reviewer checks the price recorded on the marketplace against the client's net cost. Under UMIR 7.5(2)(a), for a principal sale to a client the recorded price must not be higher than the net cost to the client, nor:",
+      "options": {
+        "A": "Lower than the previous day's closing price",
+        "B": "Lower than the net cost to the client by more than the usual agency commission that would be charged by that Participant to that client for an order of the same size",
+        "C": "Different from the volume-weighted average price",
+        "D": "Below the best independent bid"
+      },
+      "answer": "B",
+      "rationale": "UMIR 7.5(2)(a) prohibits a Participant acting as principal from executing a transaction in which the recorded price is, for a sale to a client, higher than the net cost to the client or lower than the net cost by more than the usual agency commission that would be charged by that Participant to that client for an order of the same size — a band that keeps the recorded price honest relative to the client's economics. Prior-close (A), VWAP (C) and best-independent-bid (D) benchmarks belong to other provisions, not the Rule 7.5 recorded-price test.",
+      "source_quote": "\"lower than the net cost to the client by more than the usual agency\" — umir.txt ~line 8136",
+      "rule_refs": [
+        "UMIR 7.5(2)(a)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0135",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A trade on a marketplace is cancelled. A later trade at Ormsgill Securities on another marketplace had been executed as a result of the price of the cancelled trade. Under UMIR 7.6, the subsequent trade:",
+      "options": {
+        "A": "Is automatically cancelled with the first trade",
+        "B": "Must be re-priced to the corrected level",
+        "C": "Is unwound only if either party requests it",
+        "D": "Shall stand unless cancelled by the consent of the buyer and the seller or by a Market Integrity Official who considers cancellation appropriate in the circumstances"
+      },
+      "answer": "D",
+      "rationale": "UMIR 7.6 provides that if a trade is cancelled, a subsequent trade on any marketplace which was executed as a result of the price of the cancelled trade, or permitted only as a result of that price, shall stand unless cancelled by the consent of the buyer and the seller or by a Market Integrity Official who is of the opinion that cancellation of the subsequent trade is appropriate under the circumstances. Automatic cascade cancellation (A) reverses the rule's default. Mandatory re-pricing (B) is an MIO power under 10.9, not a 7.6 outcome. A unilateral request (C) is insufficient — both parties or the MIO must act.",
+      "source_quote": "\"shall stand unless cancelled by the consent of the buyer and the seller or by a Market\" — umir.txt ~line 8202",
+      "rule_refs": [
+        "UMIR 7.6",
+        "UMIR 7.11"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0136",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Beyond NCIB purchases, Policy 7.1 Part 14 requires Ottermouth Securities' supervisory policies and procedures to be designed to review trading related to sales from control blocks, with reviews that include:",
+      "options": {
+        "A": "Reviewing all known sales from control blocks for regulatory compliance, and sampling large trades to determine if they are undisclosed sales from a control block",
+        "B": "Blocking every sale by an insider until year end",
+        "C": "Reviewing only sales executed on the listing exchange",
+        "D": "Requiring all control-block sales to occur in the closing auction"
+      },
+      "answer": "A",
+      "rationale": "Policy 7.1 Part 14 requires supervisory policies and procedures designed to review trading related to sales from control blocks, carried out as determined necessary by the Participant, including reviewing all known sales from control blocks to ensure regulatory requirements have been met and sampling of large trades to determine if they are undisclosed sales from a control block. A blanket insider-sale freeze (B) is not what the Policy requires. Restricting review to the listing exchange (C) ignores multi-marketplace trading. A closing-auction mandate (D) is invented.",
+      "source_quote": "\"sampling of large trades to determine if they are undisclosed sales from a control block.\" — umir.txt ~line 7184",
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 14"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0137",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under IDPC Rule 3129, a Dealer Member's written best execution disclosure to clients must include, with respect to order handling and routing for listed securities:",
+      "options": {
+        "A": "Only a statement that the firm seeks best execution",
+        "B": "The identity of any Marketplace to which the Dealer Member might route client orders for handling or execution, and the identity of each type of intermediary, domestic or foreign, to which it might route them",
+        "C": "The firm's profit margin on each routing destination",
+        "D": "The personal trading records of the routing desk"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3129(1)(iii) requires the written disclosure to describe the Dealer Member's order handling and routing practices for listed securities, including the identity of any Marketplace to which the Dealer Member might route the client orders for handling or execution and the identity of each type of intermediary (domestic or foreign) to which it might route them, along with the routing circumstances, marketplace-move circumstances, ownership or arrangements, and the fee and compensation statements in 3129(1)(v). A bare aspiration statement (A) falls short of the enumerated content. Profit margins (C) and personal trading records (D) are not disclosure elements.",
+      "source_quote": "\"the identity of any Marketplace to which the Dealer Member might route the client\" — idpc-rules.txt ~line 4264",
+      "rule_refs": [
+        "IDPC 3129(1)(iii)",
+        "IDPC 3129(1)(v)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0138",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Penwortham Securities runs concentrated principal trading in thinly traded resource issuers alongside a small agency desk. Under Policy 7.1 Part 3, in developing its supervision and compliance procedures the firm must:",
+      "options": {
+        "A": "Apply the same review intensity to every business line regardless of risk",
+        "B": "Identify any high-risk areas and ensure that its policies and procedures are adequately designed to address these heightened risks",
+        "C": "Outsource supervision of the high-risk desk to the Market Regulator",
+        "D": "Limit reviews to areas where violations have already occurred"
+      },
+      "answer": "B",
+      "rationale": "Policy 7.1 Part 3 requires Participants to identify any high-risk areas and ensure that their policies and procedures are adequately designed to address these heightened risks, within a risk-based supervision system that identifies and prioritizes the areas posing the greatest risk of violations. Uniform intensity (A) defeats the risk-based design the Policy mandates. Supervision cannot be outsourced to the regulator (C) — the obligation is the Participant's. Waiting for violations (D) inverts the preventive purpose.",
+      "source_quote": "\"Participants must identify any high-risk areas and ensure that their policies and procedures\" — umir.txt ~line 6808",
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 3",
+        "UMIR 7.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0139",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "In designing its risk-based supervision system under Policy 7.1 Part 3, Pittendrigh Securities finds that certain trading information it needs for reviews cannot be generated internally. The Policy directs that, in appropriate cases, such relevant information should be:",
+      "options": {
+        "A": "Treated as unavailable and excluded from the review",
+        "B": "Estimated by the head of trading",
+        "C": "Sought from sources outside the firm, including from the Market Regulator",
+        "D": "Purchased only from the listing exchange"
+      },
+      "answer": "C",
+      "rationale": "Policy 7.1 Part 3 requires Participants, in developing supervision systems, to identify any exception reports, trading data and other relevant documents to be reviewed, and states that in appropriate cases relevant information that cannot be obtained or generated by the Participant should be sought from sources outside the firm including from the Market Regulator. Simply excluding the information (A) leaves the review blind. Estimates by the supervised desk's head (B) conflict with the separation of compliance from trading supervision. The Policy names outside sources generally, not the listing exchange alone (D).",
+      "source_quote": "\"relevant information that cannot be obtained or generated by the Participant should be sought from sources outside the firm including from the Market Regulator.\" — umir.txt ~line 6812",
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0140",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under Policy 7.1 Part 12, a Participant's supervision system must be designed to review securities in which categories?",
+      "options": {
+        "A": "Only securities underwritten by the firm in the past year",
+        "B": "Only securities on the firm's Restricted List",
+        "C": "Only securities with short positions above the firm's threshold",
+        "D": "Securities about which the Participant may have non-public information (Grey or Watch list), securities subject to trading restrictions under Rule 7.7 or other Requirements (Restricted List), and securities trading outside Canada during regulatory halts, delays and suspensions (CTO halts)"
+      },
+      "answer": "D",
+      "rationale": "Policy 7.1 Part 12 requires the supervision system to review securities about which a Participant may have non-public information (e.g. Grey or Watch list), securities subject to trading restrictions with respect to Rule 7.7 or any other Requirement (e.g. Restricted List), and securities trading outside Canada during regulatory halts, delays and suspensions (e.g. CTO halts) — with daily review of that trading. Underwriting history (A) is one route onto the lists, not the category definition. The Restricted List alone (B) omits the Grey/Watch and CTO categories. Short-position thresholds (C) belong to Rule 10.10 reporting, not Part 12.",
+      "source_quote": "\"about which a Participant may have non-public information (e.g. Grey or Watch list)\" — umir.txt ~line 7133",
+      "rule_refs": [
+        "UMIR Policy 7.1 Part 12",
+        "UMIR 7.7"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0141",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "While a Market Integrity Official is exercising investigative powers over trading at Quarnford Securities, a desk assistant quietly deletes chat logs relevant to the review. Under UMIR 10.1(6), the firm is exposed because a Subject Person is considered to have impeded or obstructed the exercise of a power if it:",
+      "options": {
+        "A": "Asks for additional time to compile records",
+        "B": "Retains counsel before responding",
+        "C": "Destroys or renders inaccessible any document in its possession or control that is relevant to the exercise of the power, whether or not the document is of a type that must be retained under Rule 10.12",
+        "D": "Files a complaint about the Official's conduct"
+      },
+      "answer": "C",
+      "rationale": "UMIR 10.1(5) prohibits a Subject Person from any act it knows or could have known would impede or obstruct a Market Integrity Official's exercise of a power under Rule 10.9, and 10.1(6)(a) deems destruction or rendering inaccessible of any relevant document in the person's possession or control to be obstruction, whether or not the document is of the form or type that must be retained under Rule 10.12 — so the chat logs' retention status is no defence. Requesting time (A), retaining counsel (B) and complaining about conduct (D) are legitimate steps, not deemed obstruction.",
+      "source_quote": "\"destroys or renders inaccessible any document in the possession or control\" — umir.txt ~line 9457",
+      "rule_refs": [
+        "UMIR 10.1(5)",
+        "UMIR 10.1(6)(a)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0142",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A long-quiet retail account at Rathmullen Securities suddenly shows aggressive, uneconomic order entry in one junior issuer, wholly out of keeping with the client's typical financial activity. The Registered Representative shrugs it off because no rule violation has been proven. Under Policy 10.16 Part 1, the firm:",
+      "options": {
+        "A": "Cannot ignore red flags which may be indicative of improper behaviour, and must conduct further investigation or review where there is reason to believe there may have been a violation of a provision enumerated in Rule 10.16",
+        "B": "Need only act once the Market Regulator opens its own file",
+        "C": "Must immediately freeze every account of the client",
+        "D": "May rely on the client's past clean history as conclusive"
+      },
+      "answer": "A",
+      "rationale": "Policy 10.16 Part 1 states that Rule 10.16 requires a Participant or Access Person to conduct further investigation or review where it has reason to believe there may have been a violation of one of the enumerated provisions, and that a Participant or Access Person cannot ignore red flags which may be indicative of improper behaviour by a client, director, officer, partner or employee. Waiting for the regulator (B) abdicates the gatekeeper role — the internal review under 10.16(3) comes first. A blanket freeze (C) is not what the Policy prescribes. Past history (D) is a context factor, not a licence to ignore present red flags.",
+      "source_quote": "\"cannot ignore “red flags” which may be indicative of improper behaviour by a client, director, officer, partner or employee of the Participant, Access Person or related entity.\" — umir.txt ~line 10628",
+      "rule_refs": [
+        "UMIR Policy 10.16 Part 1",
+        "UMIR 10.16(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0143",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An employee of a related entity of Rossbrae Securities, who is not himself employed by the Participant, engages in manipulative order entry on a marketplace. He argues UMIR cannot reach him personally. Under UMIR 10.4(1), his argument fails because:",
+      "options": {
+        "A": "Only criminal courts can sanction individuals",
+        "B": "UMIR applies to him only if he holds a trading registration",
+        "C": "A related entity of a Participant, and a director, officer, partner or employee of the Participant or a related entity, must comply with the UMIR provisions on specific unacceptable activities, manipulative and deceptive activities, short sales and frontrunning as if references to \"Participant\" included them",
+        "D": "The Participant's compliance department assumes his liability"
+      },
+      "answer": "C",
+      "rationale": "UMIR 10.4(1)(a) extends the rules so that a related entity of a Participant and a director, officer, partner or employee of the Participant or of a related entity must comply with the UMIR provisions on specific unacceptable activities, manipulative and deceptive activities, short sales and frontrunning as if references to \"Participant\" in Rules 2.1, 2.2, 2.3, 4.1 and Part 3 included such persons, and they are subject to the Part 10 penalties for non-compliance. Criminal exclusivity (A) and a registration precondition (B) misstate the extension. Liability is the individual's, not absorbed by compliance (D).",
+      "source_quote": "\"comply with the provisions of UMIR and any Policies with respect to specific\" — umir.txt ~line 9686",
+      "rule_refs": [
+        "UMIR 10.4(1)(a)",
+        "UMIR 2.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0144",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E7-SET-06",
+      "scenario": "Soren Vidmar supervises equity trading at Strathkellar Securities, a CIRO Participant. Strathkellar has been appointed an underwriter in a prospectus distribution of common shares of Yathkyed Uranium Corp., a moderately traded listed issuer, and the restricted period is underway. During the period: (1) a proprietary trader who worked on the deal asks to buy Yathkyed Uranium shares for his own inventory book; (2) a retail client, unsolicited, phones in a buy order for Yathkyed Uranium; (3) the syndicate desk asks whether it may bid to stabilize the share price, and at what limit; and (4) two weeks after Strathkellar distributed its allotment, purchasers holding 6% of the shares allotted to Strathkellar exercise statutory rights of withdrawal and return them.",
+      "stem": "Consider item (1): the proprietary trader, a dealer-restricted person, wants to buy Yathkyed Uranium shares for an account of a dealer-restricted person during the restricted period. Under UMIR 7.7(1), absent an exemption this purchase is:",
+      "options": {
+        "A": "Permitted if executed on a foreign organized regulated market",
+        "B": "Prohibited — a dealer-restricted person shall not during the restricted period bid for or purchase a restricted security for an account of a dealer-restricted person, or attempt to induce or cause any person to purchase a restricted security",
+        "C": "Permitted if disclosed to the issuer",
+        "D": "Permitted up to 5% of the offering size"
+      },
+      "answer": "B",
+      "rationale": "UMIR 7.7(1) prohibits a dealer-restricted person, at any time during the restricted period and except as permitted, from bidding for or purchasing a restricted security for an account of a dealer-restricted person or an account over which it exercises direction or control, and from attempting to induce or cause any person to purchase a restricted security. Foreign execution (A) does not appear among the 7.7(4) exemptions for this conduct. Issuer disclosure (C) is irrelevant to the dealer-side prohibition. A 5% allowance (D) confuses the 7.7(3) withdrawal-rights threshold with a purchase quota.",
+      "source_quote": "\"attempt to induce or cause any person to purchase a restricted security.\" — umir.txt ~line 8224",
+      "rule_refs": [
+        "UMIR 7.7(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0145",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-06",
+      "scenario": "Soren Vidmar supervises equity trading at Strathkellar Securities, a CIRO Participant. Strathkellar has been appointed an underwriter in a prospectus distribution of common shares of Yathkyed Uranium Corp., a moderately traded listed issuer, and the restricted period is underway. During the period: (1) a proprietary trader who worked on the deal asks to buy Yathkyed Uranium shares for his own inventory book; (2) a retail client, unsolicited, phones in a buy order for Yathkyed Uranium; (3) the syndicate desk asks whether it may bid to stabilize the share price, and at what limit; and (4) two weeks after Strathkellar distributed its allotment, purchasers holding 6% of the shares allotted to Strathkellar exercise statutory rights of withdrawal and return them.",
+      "stem": "Consider item (2): the retail client's buy order for Yathkyed Uranium was not solicited by anyone at Strathkellar, and the client is not an issuer-restricted person. Under UMIR 7.7(4)(c), the desk may:",
+      "options": {
+        "A": "Accept the order only after the restricted period ends",
+        "B": "Accept the order only if it is converted to a Special Terms Order",
+        "C": "Execute the bid or purchase on the client's behalf, because the exemption covers a client order that has not been solicited by the dealer-restricted person",
+        "D": "Execute the order only as part of a Program Trade"
+      },
+      "answer": "C",
+      "rationale": "UMIR 7.7(4)(c) exempts from the 7.7(1) prohibition a bid or purchase by a dealer-restricted person on behalf of a client, other than a client known to be an issuer-restricted person, provided the client order has not been solicited by the dealer-restricted person, or any solicitation occurred prior to the commencement of the restricted period — unsolicited agency orders proceed. Delaying to period end (A) ignores the exemption. Special Terms treatment (B) is unrelated to Rule 7.7. The Program Trade route (D) is a separate exemption in 7.7(4)(j), unnecessary here.",
+      "source_quote": "\"the client order has not been solicited by the dealer-restricted person,\" — umir.txt ~line 8292",
+      "rule_refs": [
+        "UMIR 7.7(4)(c)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0146",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-06",
+      "scenario": "Soren Vidmar supervises equity trading at Strathkellar Securities, a CIRO Participant. Strathkellar has been appointed an underwriter in a prospectus distribution of common shares of Yathkyed Uranium Corp., a moderately traded listed issuer, and the restricted period is underway. During the period: (1) a proprietary trader who worked on the deal asks to buy Yathkyed Uranium shares for his own inventory book; (2) a retail client, unsolicited, phones in a buy order for Yathkyed Uranium; (3) the syndicate desk asks whether it may bid to stabilize the share price, and at what limit; and (4) two weeks after Strathkellar distributed its allotment, purchasers holding 6% of the shares allotted to Strathkellar exercise statutory rights of withdrawal and return them.",
+      "stem": "Consider item (3): the issue price for the offered security has not yet been determined, and the syndicate desk wants to enter stabilization bids. Under the market stabilization exemption in UMIR 7.7(4)(a), for the offered security in this situation the bid must not exceed:",
+      "options": {
+        "A": "105% of the last sale price",
+        "B": "The volume-weighted average price for the prior week",
+        "C": "The highest price paid by any purchaser under the prospectus",
+        "D": "The lesser of the best independent bid price at the commencement of the restricted period and the best independent bid price at the time of entry of the order"
+      },
+      "answer": "D",
+      "rationale": "UMIR 7.7(4)(a)(i) caps market stabilization bids for an offered security at the least of the issue price if determined, the best independent bid price at the commencement of the restricted period (which applies where the issue price has not been determined), and the best independent bid price at the time of entry of the order — with the issue price undetermined here, the operative ceiling is the lesser of the two best-independent-bid measures. The 105% figure (A) belongs to the UMIR 2.1(3) pre-arranged trade band. A weekly VWAP (B) and the highest prospectus price (C) are not stabilization benchmarks.",
+      "source_quote": "\"the best independent bid price at the commencement of the\" — umir.txt ~line 8265",
+      "rule_refs": [
+        "UMIR 7.7(4)(a)(i)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0147",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E7-SET-06",
+      "scenario": "Soren Vidmar supervises equity trading at Strathkellar Securities, a CIRO Participant. Strathkellar has been appointed an underwriter in a prospectus distribution of common shares of Yathkyed Uranium Corp., a moderately traded listed issuer, and the restricted period is underway. During the period: (1) a proprietary trader who worked on the deal asks to buy Yathkyed Uranium shares for his own inventory book; (2) a retail client, unsolicited, phones in a buy order for Yathkyed Uranium; (3) the syndicate desk asks whether it may bid to stabilize the share price, and at what limit; and (4) two weeks after Strathkellar distributed its allotment, purchasers holding 6% of the shares allotted to Strathkellar exercise statutory rights of withdrawal and return them.",
+      "stem": "Consider item (4): purchasers of 6% of the offered securities allotted to Strathkellar have exercised statutory rights of withdrawal after the firm distributed its participation. Under UMIR 7.7(3), the effect is that:",
+      "options": {
+        "A": "A restricted period is deemed to have recommenced upon receipt of the notices, ending when Strathkellar has distributed its participation including the returned securities",
+        "B": "Nothing changes, because the original restricted period had ended",
+        "C": "The entire offering must be re-priced",
+        "D": "The withdrawal rights are void because the threshold is 10%"
+      },
+      "answer": "A",
+      "rationale": "UMIR 7.7(3) provides that if a Participant appointed underwriter receives notices of the exercise of statutory rights of withdrawal or rescission from purchasers of, in the aggregate, not less than 5% of the offered securities allotted to or acquired by the Participant, a restricted period shall be deemed to have commenced upon receipt of such notices and to end when the Participant has distributed its participation, including the securities that were the subject of the notices — 6% exceeds the 5% trigger. Treating the original period's end as final (B) ignores the deemed recommencement. Re-pricing (C) is not a UMIR consequence. The threshold is 5%, not 10% (D).",
+      "source_quote": "\"shall be deemed to have commenced upon receipt of such notice or notices and\" — umir.txt ~line 8241",
+      "rule_refs": [
+        "UMIR 7.7(3)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0148",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E7-SET-06",
+      "scenario": "Soren Vidmar supervises equity trading at Strathkellar Securities, a CIRO Participant. Strathkellar has been appointed an underwriter in a prospectus distribution of common shares of Yathkyed Uranium Corp., a moderately traded listed issuer, and the restricted period is underway. During the period: (1) a proprietary trader who worked on the deal asks to buy Yathkyed Uranium shares for his own inventory book; (2) a retail client, unsolicited, phones in a buy order for Yathkyed Uranium; (3) the syndicate desk asks whether it may bid to stabilize the share price, and at what limit; and (4) two weeks after Strathkellar distributed its allotment, purchasers holding 6% of the shares allotted to Strathkellar exercise statutory rights of withdrawal and return them.",
+      "stem": "Yathkyed Uranium shares are on Strathkellar's Restricted List for the duration of the distribution. Suppose, instead of being moderately traded, the shares qualified as a highly-liquid security. Under UMIR 7.7(4)(b), purchases by a dealer-restricted person during the restricted period would then be:",
+      "options": {
+        "A": "Still prohibited, because liquidity is irrelevant to Rule 7.7",
+        "B": "Permitted only for amounts under one standard trading unit",
+        "C": "Exempt from the subsection (1) prohibition, because the exemption covers a restricted security that is a highly-liquid security, a unit of an Exempt Exchange-traded Fund, or a connected security of either",
+        "D": "Permitted only with the issuer's written consent"
+      },
+      "answer": "C",
+      "rationale": "UMIR 7.7(4)(b) exempts from the 7.7(1) prohibition a restricted security that is a highly-liquid security, a unit of an Exempt Exchange-traded Fund, or a connected security of a security referred to in those subclauses — the rule's manipulation concern is low where liquidity is deep, so dealer-restricted purchases of highly-liquid restricted securities are permitted. Liquidity being irrelevant (A) contradicts the exemption's design. A one-unit allowance (B) is invented. Issuer consent (D) has no role in the dealer-side exemptions.",
+      "source_quote": "\"a unit of an Exempt Exchange-traded Fund, or\" — umir.txt ~line 8287",
+      "rule_refs": [
+        "UMIR 7.7(4)(b)",
+        "UMIR Policy 7.1 Part 12"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0149",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-07",
+      "scenario": "Ilka Reinholt is the trading Supervisor at Tarnside Securities, a CIRO Participant. In a single morning she faces three files. First, a hedge fund client whose earlier sale of Tobermint Biofuels Corp. became an extended failed trade reported to the Market Regulator under UMIR 7.10 now wants to enter a new short sale in another listed security, and the desk has not arranged any borrow for it. Second, the back office advises that the hedge fund has finally delivered the Tobermint Biofuels shares underlying the reported failed trade. Third, a securities regulatory authority has issued a cease trade order over Wansbeck Apparel Corp., while a different listed security, Vennachar Tools Corp., has been halted by the Market Regulator of its listing Exchange pending a news release; clients hold open orders in both names and one client asks whether the firm can instead sell his Vennachar Tools position for him in the United States.",
+      "stem": "On the first file: the hedge fund's prior sale became a reportable extended failed trade, the new order would be a short sale, and no borrow is arranged. Tarnside acts as agent. Before entering the order, under UMIR 3.4(2) Reinholt's desk must either arrange the borrowing of the securities or:",
+      "options": {
+        "A": "Be satisfied, after reasonable inquiry, that the reason for the prior failed trade was not a result of any intentional or negligent act of the client",
+        "B": "Obtain the prior written consent of the Market Regulator, which is the only route for agency orders",
+        "C": "Require the client to close all other short positions first",
+        "D": "Mark the order short-marking exempt"
+      },
+      "answer": "A",
+      "rationale": "UMIR 3.4(2) applies to a Participant acting as agent: where the client previously executed a sale of any listed security that became a reportable extended failed trade, a new short sale may not be entered unless the Participant has arranged the borrow prior to entry, or is satisfied, after reasonable inquiry, that the reason for any prior failed trade was not a result of any intentional or negligent act of the client. Market Regulator consent (B) is the alternative route in 3.4(1)(b) for principal and Access Person orders, not the agency limb. Closing other shorts (C) is not a rule condition. The short-marking-exempt designation (D) addresses marking under 3.2(2), not the Rule 3.4 restriction.",
+      "source_quote": "\"the Participant is satisfied, after reasonable inquiry, that the reason for any prior failed trade was not as a result of any intentional or negligent act of the client or non-client.\" — umir.txt ~line 4586",
+      "rule_refs": [
+        "UMIR 3.4(2)",
+        "UMIR 3.4(1)(b)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0150",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-07",
+      "scenario": "Ilka Reinholt is the trading Supervisor at Tarnside Securities, a CIRO Participant. In a single morning she faces three files. First, a hedge fund client whose earlier sale of Tobermint Biofuels Corp. became an extended failed trade reported to the Market Regulator under UMIR 7.10 now wants to enter a new short sale in another listed security, and the desk has not arranged any borrow for it. Second, the back office advises that the hedge fund has finally delivered the Tobermint Biofuels shares underlying the reported failed trade. Third, a securities regulatory authority has issued a cease trade order over Wansbeck Apparel Corp., while a different listed security, Vennachar Tools Corp., has been halted by the Market Regulator of its listing Exchange pending a news release; clients hold open orders in both names and one client asks whether the firm can instead sell his Vennachar Tools position for him in the United States.",
+      "stem": "On the second file: Tarnside had given the Market Regulator the required notice of the Tobermint Biofuels extended failed trade, and the client has now made the securities available. Under UMIR 7.10(2), Tarnside must:",
+      "options": {
+        "A": "Take no further action, since the failure is cured",
+        "B": "Re-execute the original trade at the current market price",
+        "C": "Give the Market Regulator a further notice triggered by the account having made the securities available — the resolution of a reported extended failed trade must itself be reported",
+        "D": "Close the hedge fund's account within five business days"
+      },
+      "answer": "C",
+      "rationale": "UMIR 7.10(2) requires that, where notice of a failed trade was required under 7.10(1), the Participant or Access Person shall, upon the account making available the applicable securities or monies or making arrangements for the borrowing of the securities, give notice to the Market Regulator in the required time, form and manner — the cure of a reported extended failed trade triggers its own follow-up report. Silence on cure (A) leaves the regulator's record open. Re-execution (B) is constrained by Rule 7.11 and is not what 7.10(2) directs. Account closure (D) is no part of the rule.",
+      "source_quote": "\"Person shall, upon the account making available the applicable securities or\" — umir.txt ~line 8677",
+      "rule_refs": [
+        "UMIR 7.10(2)",
+        "UMIR 7.10(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0151",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-07",
+      "scenario": "Ilka Reinholt is the trading Supervisor at Tarnside Securities, a CIRO Participant. In a single morning she faces three files. First, a hedge fund client whose earlier sale of Tobermint Biofuels Corp. became an extended failed trade reported to the Market Regulator under UMIR 7.10 now wants to enter a new short sale in another listed security, and the desk has not arranged any borrow for it. Second, the back office advises that the hedge fund has finally delivered the Tobermint Biofuels shares underlying the reported failed trade. Third, a securities regulatory authority has issued a cease trade order over Wansbeck Apparel Corp., while a different listed security, Vennachar Tools Corp., has been halted by the Market Regulator of its listing Exchange pending a news release; clients hold open orders in both names and one client asks whether the firm can instead sell his Vennachar Tools position for him in the United States.",
+      "stem": "On the third file: a desk trader suggests filling a client's Wansbeck Apparel order over-the-counter, off any marketplace, since the cease trade order only halts marketplace trading. Under UMIR 9.1(1), while the securities regulatory authority's cease trade order remains in effect, an order in Wansbeck Apparel:",
+      "options": {
+        "A": "May be executed over-the-counter but not on a marketplace",
+        "B": "Shall not be executed on a marketplace or over-the-counter",
+        "C": "May be executed if both counterparties are institutional",
+        "D": "May be executed once the order is marked as a bypass order"
+      },
+      "answer": "B",
+      "rationale": "UMIR 9.1(1) provides that no order for the purchase or sale of a security shall be executed on a marketplace or over-the-counter at any time while an order of a securities regulatory authority to cease trading in the security remains in effect — the trader's OTC workaround is exactly what the words 'or over-the-counter' close off. Counterparty sophistication (C) provides no exception. The bypass marker (D) relates to order protection mechanics, not regulatory halts. The narrow relief in 9.1(4)(b) is for sales on a foreign organized regulated market meeting all CTO conditions, not domestic OTC execution.",
+      "source_quote": "\"or a derivative shall be executed on a marketplace or over-the-counter, at any time\" — umir.txt ~line 9326",
+      "rule_refs": [
+        "UMIR 9.1(1)(a)",
+        "UMIR 9.1(4)(b)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0152",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E7-SET-07",
+      "scenario": "Ilka Reinholt is the trading Supervisor at Tarnside Securities, a CIRO Participant. In a single morning she faces three files. First, a hedge fund client whose earlier sale of Tobermint Biofuels Corp. became an extended failed trade reported to the Market Regulator under UMIR 7.10 now wants to enter a new short sale in another listed security, and the desk has not arranged any borrow for it. Second, the back office advises that the hedge fund has finally delivered the Tobermint Biofuels shares underlying the reported failed trade. Third, a securities regulatory authority has issued a cease trade order over Wansbeck Apparel Corp., while a different listed security, Vennachar Tools Corp., has been halted by the Market Regulator of its listing Exchange pending a news release; clients hold open orders in both names and one client asks whether the firm can instead sell his Vennachar Tools position for him in the United States.",
+      "stem": "Still on the third file: Vennachar Tools is halted by the Market Regulator of its listing Exchange under UMIR 9.1(1)(b), and the client wants Tarnside to sell his position in the United States. Under UMIR 9.1(4)(a), Tarnside may:",
+      "options": {
+        "A": "Execute a trade in the security, if permitted by applicable securities legislation, outside of Canada on a foreign organized regulated market",
+        "B": "Not trade the security anywhere in the world until the halt lifts",
+        "C": "Execute the sale on any U.S. venue, including over-the-counter, without conditions",
+        "D": "Execute the sale only after obtaining the issuer's consent"
+      },
+      "answer": "A",
+      "rationale": "UMIR 9.1(4)(a) provides that if trading in a security has been prohibited under clauses (1)(b), (c) or (d) or subsection (2) — an Exchange Market Regulator halt fits clause (1)(b) — a Participant may execute a trade in the security, if permitted by applicable securities legislation, outside of Canada on a foreign organized regulated market. A worldwide freeze (B) overstates a domestic regulatory halt. Unconditional U.S. execution on any venue (C) drops both the foreign-organized-regulated-market and securities-legislation conditions. Issuer consent (D) is not a 9.1 requirement.",
+      "source_quote": "\"a Participant may execute a trade in the security, if permitted by applicable securities legislation, outside of Canada on a foreign organized regulated market;\" — umir.txt ~line 9376",
+      "rule_refs": [
+        "UMIR 9.1(4)(a)",
+        "UMIR 9.1(1)(b)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0153",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E7-SET-07",
+      "scenario": "Ilka Reinholt is the trading Supervisor at Tarnside Securities, a CIRO Participant. In a single morning she faces three files. First, a hedge fund client whose earlier sale of Tobermint Biofuels Corp. became an extended failed trade reported to the Market Regulator under UMIR 7.10 now wants to enter a new short sale in another listed security, and the desk has not arranged any borrow for it. Second, the back office advises that the hedge fund has finally delivered the Tobermint Biofuels shares underlying the reported failed trade. Third, a securities regulatory authority has issued a cease trade order over Wansbeck Apparel Corp., while a different listed security, Vennachar Tools Corp., has been halted by the Market Regulator of its listing Exchange pending a news release; clients hold open orders in both names and one client asks whether the firm can instead sell his Vennachar Tools position for him in the United States.",
+      "stem": "Back when the Tobermint Biofuels sale was heading toward failure, a trader had proposed quietly entering a covering transaction that he knew would itself result in a failed trade, just to tidy the position before the firm's Rule 7.10 report came due. Under UMIR 2.1(1), that proposal was:",
+      "options": {
+        "A": "Sound practice, since it would have avoided a regulatory filing",
+        "B": "Permitted if executed at the market price",
+        "C": "Permitted with the hedge fund's consent",
+        "D": "Prohibited — a Participant shall not enter into a transaction for the purpose of rectifying a failure in connection with a failed trade prior to the time a Rule 7.10 report must be filed if it knows or ought reasonably to know the transaction will result in a failed trade"
+      },
+      "answer": "D",
+      "rationale": "UMIR 2.1(1)(a) prohibits a Participant or Access Person from entering into a transaction for the purpose of rectifying a failure in connection with a failed trade prior to the time that a report must be filed in accordance with Rule 7.10 if the Participant or Access Person knows or ought reasonably to know that such transaction will result in a failed trade — papering over one failure with another to dodge the report is specifically unacceptable. Avoiding the filing (A) is the vice, not a virtue. Market pricing (B) and client consent (C) do not cure conduct Rule 2.1 declares unacceptable.",
+      "source_quote": "\"enter into a transaction for the purpose of rectifying a failure in connection\" — umir.txt ~line 2863",
+      "rule_refs": [
+        "UMIR 2.1(1)(a)",
+        "UMIR 7.10"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    }
+  ]
+}

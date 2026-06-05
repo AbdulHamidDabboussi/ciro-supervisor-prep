@@ -10,6 +10,8 @@ Used by interactive and scheduled wave runs. A "wave" = 3 element batches of 50 
 | 6 (sched. 1:05am) | E7-002, E8-002, E9-002 | SUP-E7-0054–0103, SUP-E8-0055–0104, SUP-E9-0053–0102 |
 | 7 (sched. 2:05am) | E4-003, E5-003, E6-003 | SUP-E4-0111–0160, SUP-E5-0109–0158, SUP-E6-0105–0154 |
 | 8 (sched. 6:20am) | E4-004, E5-004, E1-003 | SUP-E4-0161–0210, SUP-E5-0159–0208, SUP-E1-0106–0155 |
+| 9 (interactive) | E7-003, E8-003, E9-003 | SUP-E7-0104–0153, SUP-E8-0105–0154, SUP-E9-0103–0152 — E7/E9 must first top up held sets (E7-SET-05: held 0102/0103; E9 held 0099/0102) with set-mates using the IDENTICAL scenario text; honest shortfalls expected, esp. E9 — draft fewer rather than pad |
+| 10 (tentative) | E2-003, E3-003 | SUP-E2-0106–0155, SUP-E3-0105–0154 — last gap-closing wave; then bank is feature-complete at whatever honest count results |
 
 ## Per-batch drafter brief (launch 3 in parallel, one per element; subagent_type general-purpose)
 

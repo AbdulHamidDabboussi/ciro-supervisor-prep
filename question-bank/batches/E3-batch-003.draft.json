@@ -1,0 +1,991 @@
+{
+  "meta": {
+    "batch": "E3-003",
+    "drafted": 39,
+    "date": "2026-06-05",
+    "corpus": [
+      "idpc-rules.txt (IDPC 2026-01-08)",
+      "gn-3900-20-001.txt",
+      "syllabus-raw.txt (Element 3 parameters, verbatim)"
+    ],
+    "drafted_note": "Honest shortfall: 39 of 50 (27 standard + 3 item-sets x 4). E3's structural anchors (3270-3281, 3945-3973, 3954/3254, GN-3900) are saturated bank-wide after waves 1-9: every clause of 3273-3281, 3945(2)-(4), 3946-3948, 3950-3951, 3955, 3960-3964 and 3970-3973 verified as already keyed by reviewed E3/E4/E5/E6/E9 items, so this batch mines the remaining unkeyed corners only: 2207(1)-(3), 2303(4) items 6/9, 2304(3)-(5)/(7)(iv)(vii)(b)-(c)(viii)(b)(ix)(xi)(xii), 3240(1)-replaced (see below), 3241(6)/(9)/(12), 3816(2)(ii)/(iii)/(iv)/(v)(a)/(vi)(a)/(viii)/(x)(b)(IV)(B)/(VI), 4220(1)/4222(1), Rule 1201 institutional-client limbs (i)-(iv) and hedger (ii)(a), GN s.2.2.1 non-dollar daily criteria, and previously unquoted single-line syllabus 3.1/3.3/3.5/3.8 parameter spans. Angles killed at draft time rather than padded: (1) GN s.2.2.1 $20,000/at-or-over-$5.00 daily tier - key Jaccard 0.67 with reviewed SUP-E5-0068 in the same GN family and the exact confusable-threshold-pair failure mode that killed E7-0078/0079 and E5-0121; retired. (2) 3240(1) retail-OEO Parts list - key Jaccard 0.76 with reviewed SUP-E4-0144's 3271(1) Parts list (any Rule-3200 Parts-enumeration key shares its scaffolding tokens); replaced by 2207(3) in E3-SET-08. (3) 3905(3) as-many-Executives - high token overlap with reviewed SUP-E3-0005 (3905(2)) and Executives belong to E2 outcome 2.3; skipped. (4) 1201 advisory-account definition - keyed fact already carried by reviewed SUP-E4-0167. (5) GN primary-Supervisor, GN back-up ongoing-issues, 3955(1)(i), 3962(1)(ii)-(iii), 3945(2)(xv), 3972(1)(ii), 3970(4)/(5), 3971(4)(ii), APM definition - all verified keyed bank-wide (E5-0165, E6-0132, E5-0169, E6-0128, E6-0135, E5-0143/E6-0100, E6-0067/0069, E5-0055, E6-0107). Outcome 3.10 receives 0 new items: its parameter (negotiated flat fees, referral fees) and the entire 3281 family are exhausted by 6 reviewed items (E3-0044/0045/0046/0090/0091/0104 + E4/E5 3281 items); referral-fee mechanics beyond the parameter were already declared unsourceable in wave 5. Per-outcome: 3.1 x2, 3.2 x2, 3.3 x19 (12 standard + SET-06 x4 + 3 in SET-08), 3.4 x2, 3.5 x5 (4 standard + 1 in SET-08), 3.6 x3 (1 standard + 2 in SET-07), 3.7 x1, 3.8 x4 (2 standard + 2 in SET-07), 3.9 x1, 3.10 x0. The 3.3 weighting is deliberate: the only remaining unkeyed corpus anchors (Rule 2300 agent terms, 2207, 3241 identifier plumbing, syllabus model sub-bullets) all live in outcome 3.3, while 3.5-3.9 anchors were pre-mined by E4/E5/E6 batches.",
+    "exhaustion_note": "E3 is feature-complete at the conclusion of this batch. Every in-scope rule family has been swept clause-by-clause against the full bank: Rule 2300 (agent relationships) is now exhausted - all minimum terms of 2303(4) and 2304(7) are keyed across E3 batches; 2207 is complete at (1)-(5); 3240/3241 complete except trivially non-examinable LEI plumbing (3241(8)/(10)/(11)/(13)-(17): identifier-format mechanics with no supervisory decision content); 3254 complete; 3270-3281 complete; 3816(2) complete except residual sub-fields with no decision content (e.g. (iii)(g) futures-option subject-contract date alone, (iv) full field list); 3901/3905, 3945-3973 and 4220-4225 complete; GN-3900-20-001 complete except the $20,000 daily tier (retired as a confusable-threshold sibling of reviewed E5-0068 - testing it safely is not possible without keying the same fact). Syllabus parameters for 3.1-3.10 are fully quoted: remaining unquoted fragments are either two-column interleave artifacts with no standalone meaning or pure element-summary framing. Any future E3 growth would require Tier-2 corpus expansion (e.g. additional OEO/CFD guidance notes per DOWNLOAD-MANIFEST); within the current corpus, further drafting would force near-duplicates.",
+    "qa": "Gate 1 blind solve 2026-06-05: full agreement, 0 wrong, 0 ambiguous; 14 hesitations settled by verified quotes. Gate 2: all quotes verified. Gate 3: clean. See qa-log wave 10."
+  },
+  "questions": [
+    {
+      "id": "SUP-E3-0105",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A branch Supervisor at Tervalon Securities Inc. realizes that a fast-growing structured-product desk has outpaced her ability to review its activity, though no rule breach has yet occurred. Under the Supervisor Exam syllabus parameters for outcome 3.1, which two kinds of concerns must Supervisors escalate?",
+      "options": {
+        "A": "Concerns that could lead to non-compliance, and concerns that could lead to the inability to properly supervise",
+        "B": "Concerns about declining branch profitability, and concerns about employee turnover",
+        "C": "Only concerns where a breach of a Corporation requirement has already occurred",
+        "D": "Concerns about client complaints, and concerns about marketing material accuracy"
+      },
+      "answer": "A",
+      "rationale": "The 3.1 parameter requires Supervisors to escalate concerns that could lead to non-compliance and concerns that could lead to the inability to properly supervise — the second limb captures exactly this capacity problem before any breach occurs. Option C is the closest distractor: it wrongly limits escalation to realized breaches, but the parameter is forward-looking ('could lead to'). B addresses business metrics outside the parameter; D names matters handled by other regimes (complaint handling, communications review), not the 3.1 escalation duty.",
+      "rule_refs": [
+        "Syllabus 3.1",
+        "IDPC 3905(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The need for Supervisors to escalate concerns that could lead to: • Non-compliance • The inability to properly supervise\" — syllabus-raw.txt ~line 650"
+    },
+    {
+      "id": "SUP-E3-0106",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Quistrand Capital Corp. has a rigorous committee process for vetting new products before launch, but once a product is approved it is never looked at again. Measured against the business-model considerations in syllabus outcome 3.1, what is missing from Quistrand's procedures?",
+      "options": {
+        "A": "A requirement that every product be re-approved by the board of directors annually",
+        "B": "Delegation of all product vetting to the carrying broker",
+        "C": "A prohibition on offering any product the firm did not originate",
+        "D": "The ongoing risk assessment of existing products and services, in addition to due diligence on new products and services"
+      },
+      "answer": "D",
+      "rationale": "The 3.1 parameter lists, among the business-model factors a supervisory system must consider, procedures to conduct due diligence on new products and services AND the ongoing risk assessment of existing products and services — Quistrand has the first half but not the second. Option A is the closest distractor: it invents a board-level annual re-approval, whereas the parameter requires ongoing risk assessment as a procedure, not a prescribed board cycle. B and C are not requirements anywhere in the parameter.",
+      "rule_refs": [
+        "Syllabus 3.1",
+        "IDPC 3905(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Procedures to conduct due diligence on new products and services and the ongoing risk assessment of existing products and services\" — syllabus-raw.txt ~line 657"
+    },
+    {
+      "id": "SUP-E3-0107",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The new Chief Financial Officer of Marrowgate Investments asks why the firm should invest in internal controls beyond the bare minimum needed to pass a CIRO examination. According to the introduction to Part B of IDPC Rule 4200, what do effective internal controls assist a Dealer Member in doing?",
+      "options": {
+        "A": "Eliminating the need for external audits of the dealer's financial statements",
+        "B": "Qualifying for reduced CIPF assessment rates",
+        "C": "Not only complying with Corporation requirements and securities laws, but also conducting its business with integrity and due regard to the interests of its clients",
+        "D": "Transferring responsibility for compliance failures from Executives to line employees"
+      },
+      "answer": "C",
+      "rationale": "Section 4220(1) states that effective internal controls will assist a Dealer Member not only in complying with Corporation requirements and securities laws but also in conducting its business with integrity and due regard to the interests of its clients. Option A is the closest distractor — strong controls inform but never replace the audit requirements; B invents a CIPF rate incentive; D inverts the rule, since Executives remain responsible for adequate internal controls under 4222(2).",
+      "rule_refs": [
+        "IDPC 4220(1)",
+        "Syllabus 3.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Effective internal controls will assist a Dealer Member not only in complying with Corporation requirements and securities laws but also in conducting its business with integrity and due regard to the interests of its clients.\" — idpc-rules.txt ~line 9232"
+    },
+    {
+      "id": "SUP-E3-0108",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Pendlebridge Securities argues during a CIRO examination that because the IDPC Rules let Executives use best judgment about control adequacy, the firm has no affirmative obligation to operate internal controls at all. Which baseline requirement in section 4222 defeats this argument?",
+      "options": {
+        "A": "A Dealer Member must outsource its internal controls to an independent third party",
+        "B": "A Dealer Member must file its internal controls with the Corporation for pre-approval",
+        "C": "A Dealer Member must adopt the standard control framework published by the Corporation",
+        "D": "A Dealer Member must establish and maintain appropriate internal controls"
+      },
+      "answer": "D",
+      "rationale": "Subsection 4222(1) imposes the baseline duty: a Dealer Member must establish and maintain appropriate internal controls. Best judgment under 4222(3) governs how Executives assess adequacy, not whether controls must exist. Option B is the closest distractor — the rules require written records (4224) and Executives' written approval after review (4225), not Corporation pre-approval; A and C invent outsourcing and standard-framework mandates that appear nowhere in Part B of Rule 4200.",
+      "rule_refs": [
+        "IDPC 4222(1)",
+        "IDPC 4222(3)",
+        "Syllabus 3.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must establish and maintain appropriate internal controls.\" — idpc-rules.txt ~line 9242"
+    },
+    {
+      "id": "SUP-E3-0109",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Sorrelvale Financial Ltd., a full-service Investment Dealer, wants Corporation approval to run an order execution only offering. Under subsection 2207(1), in which two circumstances may the Corporation approve a Dealer Member or a business unit as an order execution only account service provider?",
+      "options": {
+        "A": "If the dealer maintains risk-adjusted capital above twice the minimum, or posts a special deposit with the Corporation",
+        "B": "If the dealer's only business is being an order execution only account service provider, or it provides that service in a separate business unit",
+        "C": "If the dealer routes all OEO orders through another Dealer Member, or restricts OEO clients to listed equities",
+        "D": "If at least half of the dealer's revenue comes from OEO commissions, or the dealer holds an exchange membership"
+      },
+      "answer": "B",
+      "rationale": "Subsection 2207(1) permits approval if the Dealer Member's only business is an order execution only account service provider or it provides that service in a separate business unit. Option C is the closest distractor because separate-entity structures and product limits do appear elsewhere in the OEO regime (3241, 3955), but they are not the 2207(1) approval test; A invents capital conditions and D invents revenue and membership conditions found nowhere in the section.",
+      "rule_refs": [
+        "IDPC 2207(1)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"The Corporation may approve a Dealer Member or a business unit of a Dealer Member to be an order execution only account service provider if the Dealer Member's only business is an order execution only account service provider or it provides that service in a separate business unit.\" — idpc-rules.txt ~line 1348"
+    },
+    {
+      "id": "SUP-E3-0110",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Managers at Cravenmoor Direct, an approved order execution only dealer, believe that because OEO accounts carry no suitability determination, the firm operates under a lighter rulebook of its own. How does subsection 2207(2) describe an OEO service provider's obligation to comply with Corporation requirements?",
+      "options": {
+        "A": "It must comply only with the requirements in Rule 3200 Part D and Rule 3900 Part E",
+        "B": "It must comply with whichever requirements its board of directors designates as applicable",
+        "C": "It must comply with all Corporation requirements other than those for which compliance is specifically exempted",
+        "D": "It is exempt from all retail-client requirements once the OEO disclosures are delivered"
+      },
+      "answer": "C",
+      "rationale": "Subsection 2207(2) provides that a Dealer Member offering order execution only account services must comply with all Corporation requirements other than those for which compliance is specifically exempted — the default is full compliance, with exemptions as carve-outs. Option A is the closest distractor: those Parts do contain the OEO-specific requirements, but they are additions to, not a replacement of, the full rulebook. B makes applicability a board choice, and D converts delivering disclosures into a blanket exemption; neither appears in the rule.",
+      "rule_refs": [
+        "IDPC 2207(2)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member that is offering order execution only account services must comply with all Corporation requirements other than those for which compliance is specifically exempted.\" — idpc-rules.txt ~line 1351"
+    },
+    {
+      "id": "SUP-E3-0111",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Dunhowe Wealth Inc. and its agents have agreed that the agents will make the required written disclosure of respective responsibilities directly to clients at account opening. Under item 6 of the form of agreement in section 2303, what obligation does Dunhowe retain when the agent makes this disclosure?",
+      "options": {
+        "A": "Dunhowe must ensure that the agent has made the disclosure directly to the clients",
+        "B": "Dunhowe is relieved of any responsibility for the disclosure once the task is assigned to the agent",
+        "C": "Dunhowe must repeat the identical disclosure in every trade confirmation sent to the client",
+        "D": "Dunhowe must obtain the Corporation's case-by-case approval each time an agent makes the disclosure"
+      },
+      "answer": "A",
+      "rationale": "Item 6 of the 2303(4) form of agreement provides that where the disclosure described in item 4 is made by the agent, the Dealer Member must ensure that the agent has made the disclosure directly to the clients — assigning the task does not discharge the dealer. Option B is the closest distractor because it describes exactly what the term forecloses; C moves the disclosure into confirmations, which the form does not require; D invents per-instance Corporation approval, whereas the Corporation's role is satisfaction with the form of agreement itself.",
+      "rule_refs": [
+        "IDPC 2303(4) item 6",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Where the disclosure described in 4(i) and (ii) is made by the agent, the Dealer Member must ensure that the agent has made the disclosure directly to the clients.\" — idpc-rules.txt ~line 1752"
+    },
+    {
+      "id": "SUP-E3-0112",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Yarrowfield Securities, which operates an agent network under a section 2303 agreement with the Corporation, is being acquired. The purchaser asks whether Yarrowfield can simply assign its agreement with the Corporation to the new entity. Under item 9 of the form of agreement, what is the position?",
+      "options": {
+        "A": "The agreement assigns automatically by operation of law to any successor",
+        "B": "The agreement may be assigned freely because it is for the benefit of successors and assigns",
+        "C": "The agreement terminates automatically on any change of control and must be renegotiated from scratch",
+        "D": "The Dealer Member may not assign the agreement without the Corporation's prior written consent"
+      },
+      "answer": "D",
+      "rationale": "Item 9 (Continuing Benefit) of the 2303(4) form states the agreement is for the benefit of and binding upon the parties and their successors and assigns, and that the Dealer Member may not assign the agreement without the Corporation's prior written consent. Option B is the closest distractor: it quotes the successors-and-assigns benefit language while omitting the consent restriction that immediately follows it. A asserts automatic assignment, which the consent requirement contradicts; C invents automatic termination, which appears nowhere in the term.",
+      "rule_refs": [
+        "IDPC 2303(4) item 9",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"The agreement is for the benefit of and binding upon the parties and their successors and assigns. The Dealer Member may not assign the agreement without the Corporation's prior written consent.\" — idpc-rules.txt ~line 1760"
+    },
+    {
+      "id": "SUP-E3-0113",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Agent Lucia Ferrante of Bexcastle Capital wants to market her practice under her own banner and to place some bond trades for her clients through a discount platform unrelated to Bexcastle. Which pair of minimum terms in clause 2304(7)(iv) — Conduct of the agent's business — does her plan engage?",
+      "options": {
+        "A": "The agent agrees to obtain professional liability insurance, and to file an annual business plan with the Corporation",
+        "B": "The agent agrees to conduct all business in the Dealer Member's name (subject to the trade-name sections), and to conduct all securities and derivatives related business through the Dealer Member",
+        "C": "The agent agrees to serve only retail clients, and to cap outside business income",
+        "D": "The agent agrees to operate exclusively from the dealer's head office, and to use only dealer-issued devices"
+      },
+      "answer": "B",
+      "rationale": "Clause 2304(7)(iv) requires the agent to conduct all business in the Dealer Member's name, subject to sections 2281 through 2283 relating to the use of trade names, and to conduct all securities and derivatives related business through the Dealer Member — own-banner marketing and routing trades through an unrelated platform engage both terms. Option A is the closest distractor because insurance does appear in the minimum terms, but under (xi) it is the dealer, not the agent, who maintains the policies; C and D invent client, income, location and equipment restrictions found nowhere in 2304(7).",
+      "rule_refs": [
+        "IDPC 2304(7)(iv)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The agent agrees to conduct all business in the Dealer Member's name, subject to sections 2281 through 2283 relating to the use of trade names.\" — idpc-rules.txt ~line 1810"
+    },
+    {
+      "id": "SUP-E3-0114",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Agent Tomas Murillo runs his book for Lindenfrost Investments from a storefront he leases personally. When the firm's compliance team arrives unannounced to inspect his files, he refuses entry, saying the lease is in his name. Under clause 2304(7)(ix) of the minimum terms, what has the agent agreed to?",
+      "options": {
+        "A": "To give the Dealer Member unrestricted access to the premises where he conducts securities and derivatives related business on the dealer's behalf",
+        "B": "To allow access only on five business days' written notice from the dealer",
+        "C": "To allow access only when a Corporation examiner accompanies the dealer's staff",
+        "D": "To relocate his business into dealer-leased premises within ninety days"
+      },
+      "answer": "A",
+      "rationale": "Clause 2304(7)(ix) — Access to premises — provides that the agent agrees to give the Dealer Member unrestricted access to the premises where the agent conducts securities and derivatives related business on the Dealer Member's behalf; who holds the lease is irrelevant. Option B is the closest distractor because it converts unrestricted access into conditional, notice-based access — precisely what 'unrestricted' excludes. C adds a Corporation-presence condition the term does not contain, and D invents a relocation obligation found nowhere in 2304(7).",
+      "rule_refs": [
+        "IDPC 2304(7)(ix)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The agent agrees to give the Dealer Member unrestricted access to the premises where the agent conducts securities and derivatives related business on the Dealer Member's behalf.\" — idpc-rules.txt ~line 1865"
+    },
+    {
+      "id": "SUP-E3-0115",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Vintermere Securities has terminated an agent for repeated breaches of the dealer-agent agreement, but the misconduct also raises regulatory concerns the dealer lacks resources to pursue. Under clause 2304(7)(xii) of the minimum terms, what enforcement mechanism does the agreement give the dealer?",
+      "options": {
+        "A": "The right to refer the agreement to binding private arbitration administered by the Corporation",
+        "B": "The right to collect liquidated damages from the agent in an amount set by the Corporation",
+        "C": "The right to assign to the Corporation any or all of the dealer's rights to enforce the terms of the agreement that relate to Corporation requirements",
+        "D": "The right to bar the agent from registration with any other Dealer Member for two years"
+      },
+      "answer": "C",
+      "rationale": "Clause 2304(7)(xii) — Assignment of agreement — has the agent acknowledge that the Dealer Member has the right to assign to the Corporation any or all of the Dealer Member's rights to enforce the terms of the agreement that relate to Corporation requirements, putting enforcement in the regulator's hands. Option A is the closest distractor: item 7 of the 2303 form acknowledges the Corporation's authority to regulate and enforce the agreement's provisions, but neither agreement creates a private arbitration mechanism. B invents liquidated damages and D invents an industry bar, neither of which appears in the minimum terms.",
+      "rule_refs": [
+        "IDPC 2304(7)(xii)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"The agent acknowledges that the Dealer Member has the right to assign to the Corporation any or all of the Dealer Member's rights to enforce the terms of this agreement that relate to Corporation requirements.\" — idpc-rules.txt ~line 1879"
+    },
+    {
+      "id": "SUP-E3-0116",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Agent Priya Chettiar of Bransombe Financial, with the firm's written consent, also sells segregated funds for an insurance agency that employs her part-time. Bransombe proposes to let the insurance agency monitor her compliance with the dealer-agent agreement, since it sees her daily. Why does clause 2304(7)(viii) prohibit this arrangement?",
+      "options": {
+        "A": "Because an agent with any outside activity must terminate the dealer-agent agreement within thirty days",
+        "B": "Because the dealer must monitor and enforce compliance with the terms of the agreement directly, and not through another employer or principal of the agent",
+        "C": "Because outside activities may only be monitored by the Corporation itself",
+        "D": "Because insurance businesses are prohibited counterparties for monitoring contracts under the IDPC Rules"
+      },
+      "answer": "B",
+      "rationale": "Sub-clause 2304(7)(viii)(b) provides that if the agent is involved in an outside activity, the Dealer Member agrees to monitor and enforce compliance with the terms of the agreement directly and not through another employer or principal of the agent — delegating that monitoring to the insurance agency is exactly what the term forbids. Option C is the closest distractor: the Corporation has enforcement authority over the agreement, but day-to-day monitoring of the agent is the dealer's own duty. A invents a termination rule (outside activities are permitted with disclosure and written consent under (viii)(a)); D invents a counterparty prohibition.",
+      "rule_refs": [
+        "IDPC 2304(7)(viii)(b)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"If the agent is involved in an outside activity, the Dealer Member agrees to monitor and enforce compliance with the terms of this agreement directly and not through another employer or principal of the agent.\" — idpc-rules.txt ~line 1852"
+    },
+    {
+      "id": "SUP-E3-0117",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A training designer at Grevelle Wealth Management is building the module on the advisory business model under syllabus outcome 3.3. Beyond commission-based and fee-based compensation and the role of Approved Persons, which employment-arrangement contrast does the 3.3 advisory-model parameter direct Supervisors to understand?",
+      "options": {
+        "A": "Full-time versus part-time registration",
+        "B": "Unionized versus non-unionized sales forces",
+        "C": "Salaried versus equity-partner advisors",
+        "D": "Principal agent versus employer/employee"
+      },
+      "answer": "D",
+      "rationale": "The 3.3 advisory-model parameter lists employment arrangements and specifically names the contrast of principal agent versus employer/employee — the structural choice that drives the Rule 2300 agent regime. Option C is the closest distractor because compensation form is a real 3.3 consideration, but the parameter frames it as commission-based versus fee-based, not salary versus partnership; A and B name employment dimensions that appear nowhere in the syllabus parameters.",
+      "rule_refs": [
+        "Syllabus 3.3",
+        "IDPC 2302(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Principal Agent versus Employer/Employee\" — syllabus-raw.txt ~line 761 (3.3 advisory-model bullets — Commission-based; Fee-based; Role and responsibilities of Approved Persons; Employment arrangements — are scattered by the two-column extraction; the keyed bullet is this contiguous line)"
+    },
+    {
+      "id": "SUP-E3-0118",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Thornquay Digital is designing supervisory training for its online advice platform. Under the syllabus 3.3 parameters for the online advice business model, which three areas must the Supervisor understand about that model?",
+      "options": {
+        "A": "Marketing budgets, app-store ratings and client demographics",
+        "B": "Underwriting capacity, research coverage and proprietary trading",
+        "C": "Server architecture, encryption standards and uptime guarantees",
+        "D": "Operations, regulatory obligations and product limitations"
+      },
+      "answer": "D",
+      "rationale": "The 3.3 online-advice parameter directs the Supervisor to understand operations, regulatory obligations and product limitations of that model. Option C is the closest distractor because technology underlies an online platform, but the syllabus frames the supervisory lens at the level of operations and obligations, not infrastructure specifications; A concerns commercial metrics and B describes full-service institutional functions, neither of which the parameter mentions.",
+      "rule_refs": [
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Operations, regulatory obligations and product limitations\" — syllabus-raw.txt ~line 670 (a 3.3 online-advice sub-bullet; the surrounding online-advice bullets are scattered by the two-column extraction)"
+    },
+    {
+      "id": "SUP-E3-0119",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Mullenbeck Advisory's new online advice service plans to build client portfolios from a restricted menu of securities. Which product category does the syllabus 3.3 online-advice parameter give as its example of the product limits associated with this business model?",
+      "options": {
+        "A": "Exchange-traded funds (ETFs)",
+        "B": "Principal-protected notes",
+        "C": "Flow-through limited partnerships",
+        "D": "Foreign exchange forwards"
+      },
+      "answer": "A",
+      "rationale": "The 3.3 online-advice parameter refers to product limits such as exchange-traded funds (ETFs) — ETFs are the syllabus's named example of the constrained shelf typical of online advice. Option B is the closest distractor because structured products are a genuine Element 3 category, but they belong to the complex-products outcome 3.7, not the online-advice product-limit example; C and D are likewise products the online-advice parameter never mentions.",
+      "rule_refs": [
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Product limits such as exchange-traded funds (ETFs)\" — syllabus-raw.txt ~line 674"
+    },
+    {
+      "id": "SUP-E3-0120",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "In mapping the order execution only (OEO) account model under syllabus outcome 3.3, a Supervisor at Corbielaw Direct has covered the role of Approved Persons, Direct Electronic Access and contracts for difference. Which remaining 3.3 OEO-model consideration addresses the technology dimension of the model?",
+      "options": {
+        "A": "The dealer's clearing arrangements with CDS",
+        "B": "The marketing channels used to attract self-directed clients",
+        "C": "Tools utilized at the Investment Dealer and available to clients",
+        "D": "The dealer's research distribution platform"
+      },
+      "answer": "C",
+      "rationale": "The 3.3 OEO-model parameter lists tools utilized at the Investment Dealer and available to clients alongside Approved Person roles, DEA and CFDs — the tools bullet captures the platform and self-service capabilities OEO clients rely on without intermediation. Option D is the closest distractor because OEO dealers may provide research-like tools, but a research distribution platform is not the parameter's wording and recommendations are prohibited in the OEO model; A concerns clearing infrastructure outside the parameter; B concerns marketing, which 3.3 does not list.",
+      "rule_refs": [
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Tools utilized at the Investment Dealer and available to clients\" — syllabus-raw.txt ~line 688 (a 3.3 OEO-model sub-bullet; the other OEO bullets — DEA, CFDs — are scattered by the two-column extraction)"
+    },
+    {
+      "id": "SUP-E3-0121",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Witherspoon Securities classifies clients to set supervision regimes. Under the Rule 1201 definition, which of the following is an institutional client by status alone — with no dollar threshold and no request-and-consent step required?",
+      "options": {
+        "A": "An individual portfolio manager registrant who personally manages $4 million",
+        "B": "A regulated entity",
+        "C": "A non-individual with $9 million in securities under management",
+        "D": "A hedger that has not requested institutional classification"
+      },
+      "answer": "B",
+      "rationale": "The Rule 1201 definition's first limbs make a person an institutional client by status: an acceptable counterparty, an acceptable institution, a regulated entity, or a registrant under securities law other than an individual registrant — none of these limbs carries a dollar threshold or a request-and-consent condition. Option A is the closest distractor because registrants generally qualify, but the definition expressly excludes an individual registrant; C fails the over-$10-million test for non-individuals; D fails because a hedger qualifies only when it requests and consents to institutional classification for qualifying hedging accounts.",
+      "rule_refs": [
+        "IDPC 1201 (definition of institutional client)",
+        "Syllabus 3.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(i) an acceptable counterparty, (ii) an acceptable institution, (iii) a regulated entity, (iv) a registrant under securities law, other than an individual registrant,\" — idpc-rules.txt ~line 476"
+    },
+    {
+      "id": "SUP-E3-0122",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Navarra Grain Processors Ltd., exposed to wheat-price risk in its milling business, asks Ellsmere Futures to treat its derivatives account as a hedging account while it trades crude-oil futures, arguing any commodity hedge counts. Under the Rule 1201 hedger definition, what relationship must exist between the derivative and the business risk?",
+      "options": {
+        "A": "The derivative may reference any commodity, provided the notional value does not exceed the firm's annual revenue",
+        "B": "The derivative must be exchange-traded in Canada and cash-settled",
+        "C": "The underlying interest for the derivatives must be the same as or materially related to the underlying interest for the risk",
+        "D": "The derivative must be held to expiry and never closed out early"
+      },
+      "answer": "C",
+      "rationale": "The hedger definition requires derivatives transactions where the underlying interest for the derivatives is the same as or materially related to the underlying interest for the risk — crude oil is neither the same as nor materially related to the company's wheat-price exposure. Option A is the closest distractor because it offers a quantitative substitute for the relatedness test, but the definition turns on the underlying interest, not notional size; B adds venue and settlement conditions the definition does not contain; D adds a holding-period condition that appears nowhere in the definition.",
+      "rule_refs": [
+        "IDPC 1201 (definition of hedger)",
+        "Syllabus 3.4"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"the underlying interest for the derivatives is the same as or materially related to the underlying interest for the risk,\" — idpc-rules.txt ~line 435"
+    },
+    {
+      "id": "SUP-E3-0123",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Drayfield Capital relies on the trade-confirmation waiver in clause 3816(2)(x)(b) for an institutional client's DAP/RAP account whose trades are subject to broker-to-broker trade matching. Compliance asks what trade-matching performance standard Drayfield itself must meet to keep using the waiver. Which condition applies?",
+      "options": {
+        "A": "A quarterly compliant trade percentage, calculated using the methodology in section 4756, of greater than or equal to 85% for at least two of the last four quarters",
+        "B": "A monthly settlement-fail rate below 1% for the preceding twelve months",
+        "C": "An annual attestation from its external auditor that all trades matched on trade date",
+        "D": "A compliant trade percentage of 100% in the most recent quarter only"
+      },
+      "answer": "A",
+      "rationale": "For trades subject to broker-to-broker trade matching, sub-clause 3816(2)(x)(b)(VI) conditions the waiver on the Dealer Member having a quarterly compliant trade percentage, calculated using the methodology in section 4756, of greater than or equal to 85% for at least two of the last four quarters. Option D is the closest distractor because it keeps the compliant-trade-percentage concept but substitutes a perfect single-quarter test for the 85%/two-of-four-quarters standard; B invents a fail-rate metric and C invents an auditor attestation, neither of which the clause requires.",
+      "rule_refs": [
+        "IDPC 3816(2)(x)(b)(VI)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"for trades subject to broker-to-broker trade matching, the Dealer Member has a quarterly compliant trade percentage calculated using the methodology in section 4756 of greater than or equal to 85% for at least two of the last four quarters\" — idpc-rules.txt ~line 7735"
+    },
+    {
+      "id": "SUP-E3-0124",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Skellern Asset Counsel, a pension manager and institutional client of Vandermay Securities, has waived trade confirmations on its delivery against payment / receipt against payment account. Vandermay's operations team asks how, under sub-clause 3816(2)(x)(b)(IV), this institutional client itself must participate in trade matching for the waiver to be available.",
+      "options": {
+        "A": "By appointing the executing dealer as its exclusive matching agent under a power of attorney",
+        "B": "By matching the DAP/RAP account trades, either directly or through a custodian, in accordance with National Instrument 24-101",
+        "C": "By reporting trade details through the Corporation's give-up reporting facility",
+        "D": "By reconciling trades manually against the dealer's monthly statement within 10 days"
+      },
+      "answer": "B",
+      "rationale": "Sub-clause 3816(2)(x)(b)(IV)(B) contemplates an institutional client who is matching delivery against payment / receipt against payment account trades, either directly or through a custodian, in accordance with National Instrument 24-101. Option C is the closest distractor because it borrows from the separate give-up exception in 3816(2)(x)(d), which concerns executing/clearing dealer arrangements, not institutional trade matching; A invents an exclusive-agency requirement; D substitutes manual statement reconciliation, which is not the NI 24-101 matching the clause requires.",
+      "rule_refs": [
+        "IDPC 3816(2)(x)(b)(IV)(B)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"an institutional client who is matching delivery against payment/ receipt against payment account trades (either directly or through a custodian) in accordance with National Instrument 24-101\" — idpc-rules.txt ~line 7728"
+    },
+    {
+      "id": "SUP-E3-0125",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Polwarth Securities drafts an Element 3 training matrix listing the accounts whose supervisory risks must be analyzed under syllabus outcome 3.5: advisory, in-house managed, third-party managed, discretionary and margin accounts. Which group of additional account categories named by the 3.5 parameter is missing from the draft?",
+      "options": {
+        "A": "Corporate finance accounts, error accounts and inventory accounts",
+        "B": "Estate accounts, trust accounts and guardianship accounts",
+        "C": "Fee-based (non-managed)/wrap accounts, tax deferred accounts, Direct Electronic Access, and DAP, COD and RAP settlement options",
+        "D": "Prime brokerage accounts, securities-lending accounts and repo accounts"
+      },
+      "answer": "C",
+      "rationale": "Beyond the five categories in the draft, the 3.5 parameter lists fee-based (non-managed)/wrap accounts, tax deferred accounts, Direct Electronic Access (DEA), and Delivery Against Payment (DAP), Cash on Delivery (COD) and Receipt Against Payment (RAP) settlement options. Option D is the closest distractor because prime brokerage and securities lending are real institutional account features, but the syllabus 3.5 enumeration does not include them; A names firm-side (non-client) accounts and B names fiduciary registrations, neither of which appears in the 3.5 list.",
+      "rule_refs": [
+        "Syllabus 3.5"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Receipt Against Payment (RAP) settlement options\" — syllabus-raw.txt ~line 773 (the 3.5 account bullets — fee-based (non-managed)/wrap, discretionary, tax deferred, margin, DEA, DAP, COD — are scattered by the two-column extraction; the keyed list is anchored on this contiguous final bullet)"
+    },
+    {
+      "id": "SUP-E3-0126",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Inverhaugh Investments assumes that outcome 3.5's account-risk analysis applies only to the retail book, since institutional clients are largely exempt from suitability. How does the chapeau of syllabus outcome 3.5 frame the client scope of the required analysis?",
+      "options": {
+        "A": "The risks must be analyzed for retail clients only; institutional accounts fall under outcome 3.4 exclusively",
+        "B": "The risks must be analyzed only for accounts carrying discretionary authority",
+        "C": "The risks must be analyzed for institutional clients only, because retail accounts are covered by Element 4",
+        "D": "The risks must be analyzed for both retail and institutional clients, as applicable"
+      },
+      "answer": "D",
+      "rationale": "Outcome 3.5 requires the Supervisor to analyze the supervisory risks associated with each of the listed accounts for both retail and institutional clients as applicable — the account-type lens spans both client types. Option A is the closest distractor because outcome 3.4 does address risks by client type, but that does not narrow 3.5's express both-client-types scope; C inverts the error, and B limits the analysis to discretionary accounts when discretionary accounts are only one bullet in the 3.5 list.",
+      "rule_refs": [
+        "Syllabus 3.5",
+        "Syllabus 3.4"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"3.5 Analyze the supervisory risks associated with each of the following accounts for both retail and institutional clients as applicable. Consider:\" — syllabus-raw.txt ~line 714"
+    },
+    {
+      "id": "SUP-E3-0127",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retail client of Castlerigg Securities buys an unlisted over-the-counter common share that is not part of a primary market transaction. Under sub-clause 3816(2)(v)(a), what charge information must the trade confirmation sent to this retail client contain?",
+      "options": {
+        "A": "Only the dealer's standard commission schedule by reference to its website",
+        "B": "The yield to maturity calculated in a manner consistent with market conventions",
+        "C": "A single blended figure combining all charges with the security's price",
+        "D": "The amount of each transaction charge, deferred sales charge or other charge in respect of the transaction, and the total amount of all charges"
+      },
+      "answer": "D",
+      "rationale": "For transactions in over-the-counter securities other than debt securities, sub-clause 3816(2)(v)(a) requires the retail-client confirmation to show the amount of each transaction charge, deferred sales charge or other charge in respect of the transaction, and the total amount of all charges in respect of the transaction. Option C is the closest distractor because folding charges into the price defeats the itemization the clause requires; A substitutes schedule-by-reference for actual amounts; B borrows the debt-security yield disclosure from 3816(2)(vi), which does not apply to an equity.",
+      "rule_refs": [
+        "IDPC 3816(2)(v)(a)",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"where the confirmation is sent to a retail client: (I) the amount of each transaction charge, deferred sales charge or other charge in respect of the transaction, and (II) the total amount of all charges in respect of the transaction,\" — idpc-rules.txt ~line 7582"
+    },
+    {
+      "id": "SUP-E3-0128",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "On the second business day of the month, a retail client of Femberton Fixed Income buys a mortgage-backed security. The remaining principal amount (RPA) factor is not yet available from the central payor and transfer agent. Under clause 3816(2)(iv), how must Femberton handle the trade confirmation?",
+      "options": {
+        "A": "Hold all confirmation activity until the RPA factor is published, then send a single confirmation",
+        "B": "Issue a preliminary confirmation showing the determinable information and indicating that a final confirmation will be issued as soon as the remaining information is available",
+        "C": "Send a standard equity-style confirmation, since principal-amount factors are optional disclosures",
+        "D": "Cancel and re-book the trade after the fourth business day so a complete confirmation can be produced"
+      },
+      "answer": "B",
+      "rationale": "For mortgage-backed security trades entered into from the first to the fourth business day of the month inclusive, clause 3816(2)(iv) requires a preliminary confirmation showing the trade date and the determinable items, indicating that the RPA-dependent items cannot yet be determined, with a final confirmation issued once the remaining principal amount factor is available. Option A is the closest distractor — it reaches a complete confirmation but ignores the prescribed preliminary-confirmation step that keeps the client informed promptly; C wrongly treats MBS-specific content as optional; D invents a cancel-and-re-book procedure no rule contemplates.",
+      "rule_refs": [
+        "IDPC 3816(2)(iv)",
+        "Syllabus 3.7"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"in the case of trades entered into from the first business day of the month to the fourth business day of the month, inclusive, a preliminary confirmation shall be issued\" — idpc-rules.txt ~line 7568"
+    },
+    {
+      "id": "SUP-E3-0129",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Ostmoor Derivatives builds its Element 3 supervisory risk matrix strictly from the syllabus. Which set of categories matches the derivative types enumerated by syllabus outcome 3.8?",
+      "options": {
+        "A": "Options; futures contract options; futures; forwards; swaps; CFDs; other similar derivatives as described by CIRO",
+        "B": "Options; warrants; rights; subscription receipts; convertible debentures",
+        "C": "Listed derivatives; OTC derivatives; embedded derivatives; weather derivatives",
+        "D": "Options; futures; structured notes; asset-backed securities; leveraged ETFs"
+      },
+      "answer": "A",
+      "rationale": "Outcome 3.8 enumerates options, futures contract options, futures, forwards, swaps, contracts for difference (CFDs), and other similar derivatives as described by CIRO. Option D is the closest distractor because it starts correctly but then imports structured notes, asset-backed securities and leveraged ETFs — those are the complex securities/products of outcome 3.7, not 3.8 derivatives; B lists equity-linked securities rather than derivatives; C substitutes a venue/typology classification the syllabus does not use.",
+      "rule_refs": [
+        "Syllabus 3.8",
+        "Syllabus 3.7"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"3.8 Analyze the supervisory risks associated with each of the following types of derivatives:\" — syllabus-raw.txt ~line 703 (the bullets — Options; Futures contract options; Futures; Forwards; Swaps; CFDs; Other similar derivatives as described by CIRO — are scattered by the two-column extraction; the list is anchored on this contiguous header span)"
+    },
+    {
+      "id": "SUP-E3-0130",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Tallowmere Markets launches a novel retail derivative that is economically similar to a contract for difference but is documented under a different name and does not appear by name in any rule or syllabus list. A Supervisor argues outcome 3.8's risk analysis cannot apply to an unnamed product. Which feature of the 3.8 enumeration defeats that argument?",
+      "options": {
+        "A": "The list is illustrative only, so any financial product is automatically within 3.8",
+        "B": "The list closes with 'other similar derivatives as described by CIRO', extending the analysis beyond the named types",
+        "C": "The list incorporates every product defined in National Instrument 81-102",
+        "D": "Unnamed products default into outcome 3.6 as basic securities"
+      },
+      "answer": "B",
+      "rationale": "Outcome 3.8's final category is other similar derivatives as described by CIRO — a catch-all that brings CIRO-described similar derivatives within the required risk analysis even when they are not named. Option A is the closest distractor: the catch-all extends to similar derivatives as described by CIRO, not to any financial product whatsoever, so the list is not boundlessly illustrative; C cites an investment-fund instrument irrelevant to the syllabus; D would misclassify a derivative among 3.6's basic security types (equities, mutual funds and ETFs, fixed income).",
+      "rule_refs": [
+        "Syllabus 3.8",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Other similar derivatives as described by CIRO\" — syllabus-raw.txt ~line 733"
+    },
+    {
+      "id": "SUP-E3-0131",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Brackenholt Securities pays its Registered Representatives by commission, and its second-tier daily review screens only dollar-value trade thresholds. The compliance head notes that commission-driven misconduct often shows up in non-dollar patterns. Which group of example criteria from CIRO's Account Supervision Guidance for second-tier daily reviews would capture such patterns?",
+      "options": {
+        "A": "Quarterly portfolio drift, benchmark tracking error and fee-ratio outliers",
+        "B": "New account openings, address changes and beneficiary updates",
+        "C": "Trade cancellations, restricted account trading, suspense account trading, account number changes, late payments and outstanding margin calls",
+        "D": "Concentration ratios, sector weightings and currency exposures"
+      },
+      "answer": "C",
+      "rationale": "Among the example second-tier daily review criteria that would satisfy Rule 3900, the Guidance lists trade cancellations, restricted account trading, suspense account trading, account number changes, late payments and outstanding margin calls — non-dollar patterns alongside the value-based screens. Option B is the closest distractor because account-record changes are supervised elsewhere (client-record amendment controls), but they are not the Guidance's second-tier daily criteria; A and D describe portfolio analytics the Guidance's example list does not contain.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2.1",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"trade cancellations, restricted account trading, suspense account trading, account number changes, late payments, and outstanding margin calls.\" — gn-3900-20-001.txt ~line 285"
+    },
+    {
+      "id": "SUP-E3-0132",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-06",
+      "scenario": "Loxbridge Partners Inc., a CIRO Investment Dealer, is converting its rural advisory network from employees to independent agents under principal-agent arrangements. Loxbridge already has the required written agreement with the Corporation under section 2303. General counsel Mireille Okwuosa is now finalizing the written agreements with the individual agents under section 2304 and walking the executive committee through the procedural steps and the minimum terms. Late in the project, the Corporation also advises Loxbridge that it has started an investigation relating to allegations of misconduct by one prospective agent's former colleague who is joining the network, and Loxbridge invokes its right under the agreement to assume responsibility for that agent's clients.",
+      "stem": "Okwuosa has negotiated final wording with the first group of agents and wants to sign immediately to meet the conversion deadline. Under subsection 2304(3), what must happen before Loxbridge finalizes each agreement with an agent?",
+      "options": {
+        "A": "The Corporation must be satisfied with the form of the written agreement",
+        "B": "Each agent must post a performance bond with the Corporation",
+        "C": "A provincial securities regulator must countersign the agreement",
+        "D": "The agreement must be published on the dealer's website for a 30-day comment period"
+      },
+      "answer": "A",
+      "rationale": "Subsection 2304(3) requires that the Corporation be satisfied with the form of the written agreement before the Dealer Member finalizes the agreement with the agent — signing first and seeking satisfaction later inverts the sequence. Option C is the closest distractor because it substitutes a different regulator and a countersignature mechanism; the requirement is the Corporation's satisfaction with the form, not any signature. B invents an agent bond (the insurance obligation in the minimum terms rests on the dealer), and D invents a public comment process found nowhere in Rule 2300.",
+      "rule_refs": [
+        "IDPC 2304(3)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"The Corporation must be satisfied with the form of the written agreement before the Dealer Member finalizes the agreement with the agent.\" — idpc-rules.txt ~line 1778"
+    },
+    {
+      "id": "SUP-E3-0133",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-06",
+      "scenario": "Loxbridge Partners Inc., a CIRO Investment Dealer, is converting its rural advisory network from employees to independent agents under principal-agent arrangements. Loxbridge already has the required written agreement with the Corporation under section 2303. General counsel Mireille Okwuosa is now finalizing the written agreements with the individual agents under section 2304 and walking the executive committee through the procedural steps and the minimum terms. Late in the project, the Corporation also advises Loxbridge that it has started an investigation relating to allegations of misconduct by one prospective agent's former colleague who is joining the network, and Loxbridge invokes its right under the agreement to assume responsibility for that agent's clients.",
+      "stem": "An executive asks Okwuosa what assurance the Corporation receives that the finalized agent agreements actually meet the rulebook, beyond reviewing their form. Which pair of mechanisms do subsections 2304(4) and 2304(5) establish?",
+      "options": {
+        "A": "An annual on-site inspection of each agent's premises by Corporation staff, and quarterly compliance certificates from each agent",
+        "B": "Registration of each agreement in a public registry, and notarization by a commissioner of oaths",
+        "C": "The dealer must certify to the Corporation that the agreement complies with Rule 2300 and other applicable Corporation requirements, and the Corporation may request that the dealer obtain a legal opinion confirming that certification",
+        "D": "A standing irrevocable letter of credit from the dealer, and a Corporation lien over the agent's book of business"
+      },
+      "answer": "C",
+      "rationale": "Subsection 2304(4) requires the Dealer Member to certify to the Corporation that the written agreement complies with Rule 2300 and any other applicable Corporation requirements, and subsection 2304(5) allows the Corporation to request that the Dealer Member obtain a legal opinion confirming that certification. Option A is the closest distractor because premises access and ongoing monitoring are real features of the regime, but they arise from the minimum terms and the dealer's supervision, not as the 2304(4)/(5) assurance mechanism; B and D invent registry, notarization, credit and lien devices that appear nowhere in the section.",
+      "rule_refs": [
+        "IDPC 2304(4)",
+        "IDPC 2304(5)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"The Dealer Member must certify to the Corporation that the written agreement complies with Rule 2300 and any other applicable Corporation requirements.\" — idpc-rules.txt ~line 1780"
+    },
+    {
+      "id": "SUP-E3-0134",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-06",
+      "scenario": "Loxbridge Partners Inc., a CIRO Investment Dealer, is converting its rural advisory network from employees to independent agents under principal-agent arrangements. Loxbridge already has the required written agreement with the Corporation under section 2303. General counsel Mireille Okwuosa is now finalizing the written agreements with the individual agents under section 2304 and walking the executive committee through the procedural steps and the minimum terms. Late in the project, the Corporation also advises Loxbridge that it has started an investigation relating to allegations of misconduct by one prospective agent's former colleague who is joining the network, and Loxbridge invokes its right under the agreement to assume responsibility for that agent's clients.",
+      "stem": "The chief financial officer asks whether Loxbridge's insurance program needs to change because the advisors will be agents rather than employees. Under the Insurance minimum term in clause 2304(7)(xi), what must the dealer agree to do?",
+      "options": {
+        "A": "Require each agent to purchase an individual errors-and-omissions policy naming the Corporation as beneficiary",
+        "B": "Maintain financial institution bond and insurance policies that cover the agents' conduct relating to the securities and derivatives related business they conduct for the dealer",
+        "C": "Self-insure agent conduct through a captive reserve approved by CIPF",
+        "D": "Exclude agent conduct from coverage, since agents are independent contractors at their own risk"
+      },
+      "answer": "B",
+      "rationale": "Clause 2304(7)(xi) requires the Dealer Member to agree to maintain financial institution bond and insurance policies that cover the agent's conduct relating to the securities and derivatives related business they conduct for the Dealer Member — the dealer's coverage must reach the agents. Option A is the closest distractor because it shifts the obligation onto the agents and invents a Corporation-beneficiary requirement; the minimum term places the maintenance duty on the dealer. C substitutes a captive arrangement the term does not authorize, and D contradicts the term outright.",
+      "rule_refs": [
+        "IDPC 2304(7)(xi)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The Dealer Member agrees to maintain financial institution bond and insurance policies that cover the agent's conduct relating to the securities and derivatives related business they conduct for the Dealer Member.\" — idpc-rules.txt ~line 1875"
+    },
+    {
+      "id": "SUP-E3-0135",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-06",
+      "scenario": "Loxbridge Partners Inc., a CIRO Investment Dealer, is converting its rural advisory network from employees to independent agents under principal-agent arrangements. Loxbridge already has the required written agreement with the Corporation under section 2303. General counsel Mireille Okwuosa is now finalizing the written agreements with the individual agents under section 2304 and walking the executive committee through the procedural steps and the minimum terms. Late in the project, the Corporation also advises Loxbridge that it has started an investigation relating to allegations of misconduct by one prospective agent's former colleague who is joining the network, and Loxbridge invokes its right under the agreement to assume responsibility for that agent's clients.",
+      "stem": "Having assumed responsibility for the investigated agent's clients under clause 2304(7)(vii), Loxbridge must now manage the transition. While the assumption remains in effect, which combination correctly states the agent's position and how the clients may be serviced under sub-clauses 2304(7)(vii)(b) and (c)?",
+      "options": {
+        "A": "The agent may continue servicing the clients under enhanced supervision, and keeps all remuneration earned during the investigation",
+        "B": "The agent may communicate with clients in writing only, and remuneration is held in escrow by the Corporation",
+        "C": "The clients' accounts must be frozen entirely until the investigation concludes, with no one servicing them",
+        "D": "The agent may not have any dealings or communications with the clients, and the dealer may designate another qualified person to provide services who may receive any remuneration that would have been paid to the agent"
+      },
+      "answer": "D",
+      "rationale": "Sub-clause 2304(7)(vii)(b) bars the agent from any dealings or communications with the client as long as the Dealer Member has assumed this responsibility, and sub-clause (c) lets the dealer designate another qualified person to provide services to the client, with that person able to receive any remuneration that would have been paid to the agent. Option B is the closest distractor because it preserves a written-communication channel and invents Corporation escrow — the bar is on any dealings or communications. A contradicts the exclusion entirely, and C wrongly freezes the clients rather than re-servicing them through a designated qualified person.",
+      "rule_refs": [
+        "IDPC 2304(7)(vii)(b)",
+        "IDPC 2304(7)(vii)(c)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"The agent may not have any dealings or communications with the client as long as the Dealer Member has assumed this responsibility.\" — idpc-rules.txt ~line 1844"
+    },
+    {
+      "id": "SUP-E3-0136",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-07",
+      "scenario": "Calderbeck Securities Inc. runs retail business lines in exchange-traded futures and options, fixed income (including stripped coupons), and bank-affiliated mutual funds; the firm is wholly owned by a chartered bank and also distributes notes issued by its own related issuers. Operations director Helga Lindqvister is leading a remediation of the firm's trade-confirmation templates after an internal audit found that several product lines were using a generic equity confirmation. She reviews each template against the minimum content requirements of subsection 3816(2) before the next confirmation print cycle.",
+      "stem": "Lindqvister starts with the futures template. For a client's purchase of canola futures contracts, which set of contract-level fields does clause 3816(2)(ii) require on the confirmation, beyond the general items required for all trades?",
+      "options": {
+        "A": "The contract underlying interest, the contract quantity bought or sold, the quantity of the underlying interest bought or sold if applicable, the contract delivery date, and the price at which the contract was entered into",
+        "B": "The contract premium, the exercise price and the declaration date",
+        "C": "The initial margin rate, the maintenance margin rate and the daily settlement price history",
+        "D": "The exchange clearing fee, the broker give-up code and the floor-trader identifier"
+      },
+      "answer": "A",
+      "rationale": "For transactions in futures contracts, forward contracts, contracts for difference, foreign exchange contracts and similar derivatives, clause 3816(2)(ii) requires the contract underlying interest, the contract quantity bought or sold, if applicable the quantity of the underlying interest bought or sold, the contract delivery date, and the price at which the contract was entered into. Option B is the closest distractor because premium, exercise price and declaration date are the option-contract fields under clause 3816(2)(iii), not the futures fields; C lists margin parameters governed elsewhere, and D lists operational identifiers no confirmation content rule prescribes.",
+      "rule_refs": [
+        "IDPC 3816(2)(ii)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"in the case of transactions in futures contracts, forward contracts, contracts for difference, foreign exchange contracts and similar derivatives: (a) the contract underlying interest, (b) the contract quantity bought or sold,\" — idpc-rules.txt ~line 7539"
+    },
+    {
+      "id": "SUP-E3-0137",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-07",
+      "scenario": "Calderbeck Securities Inc. runs retail business lines in exchange-traded futures and options, fixed income (including stripped coupons), and bank-affiliated mutual funds; the firm is wholly owned by a chartered bank and also distributes notes issued by its own related issuers. Operations director Helga Lindqvister is leading a remediation of the firm's trade-confirmation templates after an internal audit found that several product lines were using a generic equity confirmation. She reviews each template against the minimum content requirements of subsection 3816(2) before the next confirmation print cycle.",
+      "stem": "Lindqvister next reviews the template for exchange-traded equity options. The generic template already captures the underlying interest and the quantity bought or sold. Which additional fields does clause 3816(2)(iii) require for options confirmations?",
+      "options": {
+        "A": "The contract delivery date and the price at which the contract was entered into",
+        "B": "The implied volatility, the delta and the time value at execution",
+        "C": "The contract type, the contract premium, the contract exercise or striking price, and the contract declaration date",
+        "D": "The open interest in the series and the position limit applicable to the class"
+      },
+      "answer": "C",
+      "rationale": "For transactions in options contracts, futures contract options and similar derivatives, clause 3816(2)(iii) requires, in addition to the underlying interest and quantity, the contract type, the contract premium, the contract exercise or striking price and the contract declaration date (with the subject futures contract and its date where a futures contract option is involved). Option A is the closest distractor because delivery date and entry price are the futures/forward fields of clause 3816(2)(ii), not the options fields; B lists pricing analytics no confirmation rule requires; D lists market statistics governed by position-limit rules, not confirmation content.",
+      "rule_refs": [
+        "IDPC 3816(2)(iii)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(c) the contract type, (d) the contract premium, (e) the contract exercise or striking price, (f) the contract declaration date,\" — idpc-rules.txt ~line 7551"
+    },
+    {
+      "id": "SUP-E3-0138",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-07",
+      "scenario": "Calderbeck Securities Inc. runs retail business lines in exchange-traded futures and options, fixed income (including stripped coupons), and bank-affiliated mutual funds; the firm is wholly owned by a chartered bank and also distributes notes issued by its own related issuers. Operations director Helga Lindqvister is leading a remediation of the firm's trade-confirmation templates after an internal audit found that several product lines were using a generic equity confirmation. She reviews each template against the minimum content requirements of subsection 3816(2) before the next confirmation print cycle.",
+      "stem": "The fixed-income template shows a single yield figure on every purchase. For a retail client's purchase of a stripped coupon, what yield disclosure does sub-clause 3816(2)(vi)(a) require on the confirmation?",
+      "options": {
+        "A": "Only the yield to maturity calculated under market conventions for conventional bonds",
+        "B": "Two yields: one calculated on a semi-annual basis consistent with the yield calculation for the stripped debt instrument, and one calculated on an annual basis consistent with competitive fixed-term instruments such as GICs and bank deposit receipts",
+        "C": "The coupon rate of the original bond from which the coupon was stripped",
+        "D": "No yield, because stripped coupons pay no periodic interest"
+      },
+      "answer": "B",
+      "rationale": "For a purchase of a stripped coupon or residual debt instrument, sub-clause 3816(2)(vi)(a) requires the yield calculated on a semi-annual basis in a manner consistent with the yield calculation for the debt instrument which has been stripped, and the yield calculated on an annual basis in a manner consistent with the yield calculation for competitive instruments with fixed terms and rates such as guaranteed investment certificates and bank deposit receipts. Option A is the closest distractor because a single conventions-based yield to maturity is the disclosure for debt securities that are neither stripped coupons nor residuals under (vi)(b); C reports the source bond's coupon, which the clause does not require; D wrongly converts the zero-coupon structure into a no-yield-disclosure rule.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(a)",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"the yield thereon calculated on a semi-annual basis in a manner consistent with the yield calculation for the debt instrument which has been stripped\" — idpc-rules.txt ~line 7592"
+    },
+    {
+      "id": "SUP-E3-0139",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-07",
+      "scenario": "Calderbeck Securities Inc. runs retail business lines in exchange-traded futures and options, fixed income (including stripped coupons), and bank-affiliated mutual funds; the firm is wholly owned by a chartered bank and also distributes notes issued by its own related issuers. Operations director Helga Lindqvister is leading a remediation of the firm's trade-confirmation templates after an internal audit found that several product lines were using a generic equity confirmation. She reviews each template against the minimum content requirements of subsection 3816(2) before the next confirmation print cycle.",
+      "stem": "Finally, Lindqvister reviews confirmations for client purchases of notes issued by Calderbeck's related issuers, including some bought during a public distribution. Under clause 3816(2)(viii), what must these confirmations indicate?",
+      "options": {
+        "A": "That the transactions involve securities of the Dealer Member, a related issuer of the Dealer Member or a connected issuer of the Dealer Member, as the case may be",
+        "B": "The percentage of the issue that the dealer's underwriting syndicate retained",
+        "C": "That the client may rescind the purchase within 48 hours of the confirmation date",
+        "D": "The relationship between the dealer and its parent bank, but only for trades in bank-sponsored mutual funds"
+      },
+      "answer": "A",
+      "rationale": "Clause 3816(2)(viii) requires that, for transactions involving securities of the Dealer Member, a related issuer or a connected issuer (including such securities in the course of a distribution to the public, and derivatives on them), the trade confirmation indicate that the transactions involve securities of the Dealer Member, a related issuer of the Dealer Member or a connected issuer of the Dealer Member, as the case may be. Option D is the closest distractor because it states the separate financial-institution relationship disclosure in clause 3816(2)(ix), which applies to sponsored mutual fund trades, not to the related/connected issuer notes here; B invents a retention-percentage disclosure, and C invents a rescission right no confirmation rule creates.",
+      "rule_refs": [
+        "IDPC 3816(2)(viii)",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the trade confirmation must indicate that the transactions involve securities of the Dealer Member, a related issuer of the Dealer Member or a connected issuer of the Dealer Member\" — idpc-rules.txt ~line 7647"
+    },
+    {
+      "id": "SUP-E3-0140",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-08",
+      "scenario": "Merrowdene Trade Direct, the order execution only business unit of a CIRO Investment Dealer, routes client orders in listed securities to marketplaces for which the Corporation is the regulation services provider. Chief operating officer Dario Veillette is closing out findings from a Corporation trading-conduct examination of the unit. The findings concern: a registered portfolio-management firm that holds trading authority over the accounts of several Merrowdene clients; the identifiers and designations carried on orders the unit sends to marketplaces; the unit's reporting of client identifying information to the Corporation; and the documentation of the unit's policies and procedures.",
+      "stem": "Finding 1: a registered adviser firm has been granted trading authority, direction and control over several Merrowdene client accounts, but the unit has assigned it nothing. Under subsection 3241(6), what must Merrowdene ensure for this adviser?",
+      "options": {
+        "A": "That the adviser signs the OEO disclosure acknowledgement in place of each client",
+        "B": "That the adviser's orders are rejected, because advisers may not trade through OEO accounts",
+        "C": "That the adviser maintains its own membership in the Corporation",
+        "D": "That a unique identifier is assigned to the adviser, because it has been granted trading authority, direction or control over accounts of clients of the dealer"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3241(6) requires the Dealer Member to ensure a unique identifier is assigned to any adviser trading on a Marketplace for which the Corporation is the regulation services provider that is itself a client of the Dealer Member or has been granted trading authority, direction or control over an account of a client of the Dealer Member — the second limb fits this adviser exactly. Option B is the closest distractor because the prohibition in clause 3241(1)(iii) targets persons acting as dealers trading on such Marketplaces, not registered advisers with trading authority, whose presence the identifier regime expressly contemplates; A misallocates the client acknowledgement obligation; C invents a membership requirement for the adviser.",
+      "rule_refs": [
+        "IDPC 3241(6)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"The Dealer Member must ensure that a unique identifier is assigned to any adviser that trades on a Marketplace for which the Corporation is the regulation services provider\" — idpc-rules.txt ~line 5032"
+    },
+    {
+      "id": "SUP-E3-0141",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-08",
+      "scenario": "Merrowdene Trade Direct, the order execution only business unit of a CIRO Investment Dealer, routes client orders in listed securities to marketplaces for which the Corporation is the regulation services provider. Chief operating officer Dario Veillette is closing out findings from a Corporation trading-conduct examination of the unit. The findings concern: a registered portfolio-management firm that holds trading authority over the accounts of several Merrowdene clients; the identifiers and designations carried on orders the unit sends to marketplaces; the unit's reporting of client identifying information to the Corporation; and the documentation of the unit's policies and procedures.",
+      "stem": "Finding 2: orders the unit enters on marketplaces carry the required client identifiers but nothing that distinguishes them from the dealer's full-service order flow. Under subsection 3241(12), what must each order in a listed security entered for the unit's clients also contain?",
+      "options": {
+        "A": "A designation to indicate the order is for an order execution only account",
+        "B": "The name and approval number of the supervising Registered Representative",
+        "C": "The client's residential postal code",
+        "D": "A flag identifying whether the client used a mobile device or desktop platform"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3241(12) requires that each order in a listed security entered on a Marketplace for which the Corporation is the regulation services provider contain a designation to indicate the order is for an order execution only account (and, for a non-executing Dealer Member that is not a Participant, its Legal Entity Identifier). Option B is the closest distractor because OEO order flow is precisely the channel without a recommending Registered Representative attached to each order; C and D propose data elements the order-marking requirements do not include.",
+      "rule_refs": [
+        "IDPC 3241(12)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"a designation to indicate the order is for an order execution only account.\" — idpc-rules.txt ~line 5060"
+    },
+    {
+      "id": "SUP-E3-0142",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-08",
+      "scenario": "Merrowdene Trade Direct, the order execution only business unit of a CIRO Investment Dealer, routes client orders in listed securities to marketplaces for which the Corporation is the regulation services provider. Chief operating officer Dario Veillette is closing out findings from a Corporation trading-conduct examination of the unit. The findings concern: a registered portfolio-management firm that holds trading authority over the accounts of several Merrowdene clients; the identifiers and designations carried on orders the unit sends to marketplaces; the unit's reporting of client identifying information to the Corporation; and the documentation of the unit's policies and procedures.",
+      "stem": "Finding 3: for ordinary clients, the unit uses account numbers as client identifiers under clause 3241(8)(ii) but has never transmitted anything to the regulator about them. Under subsection 3241(9), what must Merrowdene provide to the Corporation when an account number is used as the client identifier?",
+      "options": {
+        "A": "Nothing, because account numbers are anonymous by design and exempt from reporting",
+        "B": "The account number and the name of the corresponding client",
+        "C": "The client's full know-your-client file, refreshed every 36 months",
+        "D": "The account number only, with the client's name withheld for privacy reasons"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3241(9) provides that if an account number is used as the client identifier under clause 3241(8)(ii), the Dealer Member must provide the account number and the name of the corresponding client to the Corporation — the regulator can then map order flow to clients. Option D is the closest distractor because it supplies the number while withholding the name, which is exactly half of what the subsection requires; A asserts an exemption that contradicts the subsection; C inflates the obligation into a KYC file transfer that no identifier rule requires.",
+      "rule_refs": [
+        "IDPC 3241(9)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"If an account number is used as the client identifier under clause 3241(8)(ii), the Dealer Member must provide the account number and the name of the corresponding client to the Corporation.\" — idpc-rules.txt ~line 5049"
+    },
+    {
+      "id": "SUP-E3-0143",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-08",
+      "scenario": "Merrowdene Trade Direct, the order execution only business unit of a CIRO Investment Dealer, routes client orders in listed securities to marketplaces for which the Corporation is the regulation services provider. Chief operating officer Dario Veillette is closing out findings from a Corporation trading-conduct examination of the unit. The findings concern: a registered portfolio-management firm that holds trading authority over the accounts of several Merrowdene clients; the identifiers and designations carried on orders the unit sends to marketplaces; the unit's reporting of client identifying information to the Corporation; and the documentation of the unit's policies and procedures.",
+      "stem": "Finding 4: examiners noted that the dealer's firm-wide compliance manual mentions the OEO unit only in passing. Under subsection 2207(3), what must the dealer's policies and procedures do with respect to the unit?",
+      "options": {
+        "A": "Incorporate the unit's procedures by reference to the platform vendor's user manual",
+        "B": "Address only the unit's anti-money-laundering controls, since no advice is given",
+        "C": "Specifically address the operation of its order execution only account services",
+        "D": "Mirror the full-service division's procedures word for word to ensure consistency"
+      },
+      "answer": "C",
+      "rationale": "Subsection 2207(3) requires that a Dealer Member's policies and procedures specifically address the operation of its order execution only account services — a passing mention in the firm-wide manual does not meet a 'specifically address' standard. Option D is the closest distractor because copying full-service procedures ignores the distinct risks of un-intermediated order entry the OEO regime targets; A outsources the content to a vendor manual, which is not the dealer's policies and procedures; B truncates the obligation to AML, which the subsection does not do.",
+      "rule_refs": [
+        "IDPC 2207(3)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member's policies and procedures must specifically address the operation of its order execution only account services.\" — idpc-rules.txt ~line 1353"
+    }
+  ]
+}

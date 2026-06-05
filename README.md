@@ -62,7 +62,7 @@ Guaranteed fields per item:
 
 Optional fields: `item_set_id` + `scenario` (item_set items only — scenario text is denormalized onto every item of the set; group by `item_set_id`, render scenario once); `source_quote` (verbatim supporting quote + source locator — present on 448 of 493 items; show in an expandable "source" affordance if desired); `qa_note`.
 
-Current composition (after wave 7, 2026-06-05): 1,066 items · per element 1:105, 2:105, 3:104, 4:158, 5:156, 6:153, 7:96, 8:104, 9:85 · item-set share 18% · keys A:264 B:284 C:273 D:245. Supports 7 fully distinct 90-question mock forms (E4 at 158/20 binding until wave 8's E4-004 lands). Wave 8 remains scheduled (6:20am); wave process: question-bank/DRAFTING-SPEC.md; per-run results: qa-log.md.
+**FINAL composition (feature-complete 2026-06-05): 1,339 items** · per element 1:152, 2:155, 3:143, 4:197, 5:181, 6:153, 7:147, 8:117, 9:94 · item-set share 20% (97 sets) · difficulty 31/50/20 · keys A:333 B:350 C:342 D:314 · 1,294 carry `source_quote`. Supports **9 fully distinct 90-question mock forms**. All 9 elements mined to honest exhaustion of the local primary corpus (drafter exhaustion inventories in batch metas); further growth requires corpus expansion per research/sources/DOWNLOAD-MANIFEST.md Tier 2. Full QA history: question-bank/qa-log.md; process: PIPELINE.md + DRAFTING-SPEC.md.
 
 ### `study-material/flashcards/cards.json` — crash-course study layer
 
