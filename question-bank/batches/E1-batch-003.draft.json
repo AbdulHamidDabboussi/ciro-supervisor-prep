@@ -1,0 +1,1237 @@
+{
+ "meta": {
+  "batch": "E1-003",
+  "drafted": 50,
+  "date": "2026-06-05",
+  "corpus": [
+   "idpc-rules.txt (IDPC Jan 2026)",
+   "syllabus-raw.txt (Supervisor Exam Syllabus, Element 1)"
+  ],
+  "novelty": "Tested-angle inventory built from all 105 existing E1 items (seeds SUP-E1-0001-0005, batches 001-002, all reviewed in bank.json) plus cross-element scans of the full 1,066-item bank on CASL, PIPEDA, AML/FINTRAC, whistleblower, confidentiality, grey/restricted lists, information barriers, OBSI/arbitration and CIPF, and the 4 HELD items in E7/E9-batch-002 (UMIR DEA and IDPC 3970 anchors - outside this lane). This batch drafts only untested sub-parameters or inverse directions: 1.1 Staff Notices/Companion Policies and CSA jurisdiction; 1.2 CIRO jurisdiction and guidance-note role; 1.3 inverse sequencing and dual-role process; 1.4 FORM, ATS and exchange categories keyed individually; 1.5 CDCC and CDS keyed separately; 1.6 full four-parameter list and inverse not-the-role; 1.7 OSFI, OBSI, Bank of Canada/privacy-commissioner pairings; 1.8 Bank Act consumer-protection and competition prongs keyed individually; 1.9 forgery vs uttering, organized crime + illegal insider trading; 1.10 AML P&Ps and business-relationship record-keeping keyed; 1.11 CASL deterring-malicious/compliance prongs and NDA legal-recourse prong; 1.12 legislative, contractual and organizational sources keyed individually, obligations to others; 1.13 capped at 1 - sole genuinely untested 3700-series sub-anchor: 3703(2)(vii) cybersecurity-incident reporting clocks; 1.14 9502(5)/9503(5) comply-with-program-requirements and 9504(3) ombudsman information shield; 1.15 misconduct-within-organization and potential-securities-frauds prongs and full three-situation list; 1.16 3710(2) consent record and 8211 temporary orders; 1.17 capped at 1 - 1402(2)(iv) diminish-investor-confidence prong; 1.18 transparency and training-and-awareness keyed individually; 1.19 legal-consequences and client-confidence prongs keyed and incident mapping; 1.20 capped at 1 - 3112(3) dealer supervision of how APs address conflicts; 1.21 written-disclosure/reporting-obligations syllabus prongs; 1.22 capped at 1 - 3115(1) scope covering employees and indirect dealings; 1.23 trading-by-issuers exposure path. NEAR-MISSES SELF-CAUGHT AND REWRITTEN: (1) a planned 9503(2) item (ombudsman participation does not affect Corporation authority) was dropped because SUP-E1-0097 already keys the identical fact on the arbitration side per 9502(3) - replaced with the 9504(3) information-shield angle; (2) a planned cybersecurity-as-containment 1.23 item was dropped as near-identical to SUP-E1-0047's keyed combination (barriers + grey list + cybersecurity) - replaced with the trading-by-issuers exposure path; (3) a planned three-stages-of-laundering application for 1.10 was dropped after the cross-element scan found SUP-E1-0003 plus placement/layering/integration handled in E2/E5/E7-adjacent items - replaced with the AML-policies-and-procedures and record-keeping prongs; (4) a planned 8210(1)(ii) AP-side disgorgement item for 1.16 was dropped as a same-family near-duplicate of SUP-E1-0028/0099 sanction-menu items - replaced with the 8211 temporary-order mechanics; (5) a planned 3113(2)(iii) disclosure-timing item for 1.20 was dropped because SUP-E1-0037 and SUP-E1-0086 rationales already cover timing within the same rule_ref family; (6) the automated keyed-option scan caught a 1.00 key-Jaccard collision between a drafted E1-SET-07 item keying the BIA Part XII statute name and reviewed item SUP-E1-0016 (same keyed fact, same direction) - the set item was rewritten onto outcome 1.2 keying the untested 'Mandate and objectives of CIRO' parameter paired with the IDPC Rules/UMIR, and the set scenario was updated accordingly; (7) the E1-SET-06 arbitration item's key was re-centred on the untested 9502(5) comply-with-requirements-and-decisions duty to reduce overlap with SUP-E1-0025's binding-arbitration key; (8) a drafted second 1.7 OBSI item and a drafted 1.9 fraud-vs-theft item were cut during composition balancing as the two least novel items (the cut OBSI angle duplicated the kept OBSI-name item's territory; fraud/theft is the most elementary 1.9 discrimination), keeping the batch at the 50-item target; (9) the intra-batch scan caught my own standard 1.4 FORM item and standard 1.5 CDCC item duplicating the keyed facts of the E1-SET-07 items (key-Jaccard 1.00 both) - the 1.4 standard was rewritten to key the untested Exchanges category, and the 1.5 standard was reassigned to priority outcome 1.12 keying the untested legislative source. HONEST EXCLUSIONS (kept from prior waves): ComSet filing deadlines are prescribed outside this corpus and are not stated; GN-2600-25-001 through 004 numbering is officially unconfirmed and never cited; calculator policy is officially unconfirmed and never mentioned; 3785/3786 complaint record-retention periods and 3728 complaint-file contents are genuinely untested angles that were NOT drafted because they fall under outcome 1.13's complaint-policies parameter, which is capped at 1 item this wave; the BIA Part XII parameter (a single line of syllabus text) is exhausted - its only keyable fact is held by SUP-E1-0016, so this batch adds Bank Act prong angles only to 1.8 (2 items rather than the 3 originally planned for that outcome, with the third slot moved to outcome 1.2); outcome 1.5's source text (two entity names plus the heading) is likewise exhausted after this batch's CDS and CDCC items - a third 1.5 item would have re-keyed a fact already held (CDS/CDCC pair by SUP-E1-0012, the trade/post-trade distinction by SUP-E1-0060), so that slot was honestly reassigned to priority outcome 1.12, leaving 1.5 at 2 new items instead of 3. SIBLING RESCAN at write time: E4-batch-004.draft.json does not exist; E5-batch-004.draft.json (25 UMIR-lane items) appeared mid-session and was fully scanned - zero shared rule_ref families, zero stem-Jaccard >= 0.40, zero keyed-fact collisions, zero firm/person name overlaps with this batch. All firm and person names verified unique bank-wide by grep against bank.json, seed-questions.json and every batches/ file before use.",
+  "qa": "Drafted 2026-06-05; awaiting Gate 1 blind solve, Gate 2 citation audit, Gate 3 lint."
+ },
+ "questions": [
+  {
+   "id": "SUP-E1-0106",
+   "element": 1,
+   "outcome": "1.1",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "While building a regulatory-research guide for her branch, a Supervisor at Tugaske Securities wants to separate the CSA instruments that carry rule-like force from the CSA publications that explain or interpret. Among the forms of legislation listed under syllabus outcome 1.1, which two publication types are the interpretive and explanatory companions to the binding instruments?",
+   "options": {
+    "A": "National Instruments and Multilateral Instruments",
+    "B": "IDPC Rules and UMIR",
+    "C": "Recognition orders and delegated authorities",
+    "D": "Staff Notices and Companion Policies"
+   },
+   "answer": "D",
+   "rationale": "The 1.1 parameter list of CSA legislation forms pairs the binding instruments — National Instruments (NI) and Multilateral Instruments (MI) — with National policies, Staff Notices and Companion Policies (CP); Staff Notices and Companion Policies are the staff-view and interpretive companions to the instruments. Option A names the binding instruments themselves, the closest distractor. IDPC Rules and UMIR (B) are CIRO rule books under outcome 1.2, and recognition orders (C) belong to CIRO's source of authority under 1.2, not the CSA's publication forms.",
+   "rule_refs": [
+    "Syllabus 1.1"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"- Staff Notices - Companion Policies (CP)\" — syllabus-raw.txt ~line 194",
+   "qa_note": "Gate 2 wave 8: quote consolidated to single contiguous bullet pair (multi-segment quote was a spec-form artifact)."
+  },
+  {
+   "id": "SUP-E1-0107",
+   "element": 1,
+   "outcome": "1.1",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A new hire at Neepawa Capital asks her Supervisor what, at the most basic level, the Supervisor Exam syllabus expects a candidate to understand about the CSA itself before getting into its instruments. According to the opening parameters of outcome 1.1, the first two things to understand about the CSA are its:",
+   "options": {
+    "A": "Annual budget, and its head-office location",
+    "B": "Enforcement hearing procedures, and its fee schedule",
+    "C": "Jurisdiction, and its mandate and objectives",
+    "D": "Membership dues, and its arbitration program"
+   },
+   "answer": "C",
+   "rationale": "Outcome 1.1 opens its parameter list with 'Jurisdiction of the CSA' and 'Mandate and objectives of the CSA' before turning to the forms of legislation and registration/enforcement parameters. Budget and office location (A) and fee schedules (B) are administrative details outside the syllabus, and arbitration programs (D) belong to the CIRO dispute-resolution framework under outcome 1.14, not the CSA parameters.",
+   "rule_refs": [
+    "Syllabus 1.1"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Jurisdiction of the CSA • Mandate and objectives of the CSA\" — syllabus-raw.txt ~line 171"
+  },
+  {
+   "id": "SUP-E1-0108",
+   "element": 1,
+   "outcome": "1.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Two compliance analysts at Sointula Wealth debate where a question about the geographic and functional reach of CIRO's regulatory authority over Investment Dealers belongs in the Element 1 framework. Which parameter of which outcome covers it?",
+   "options": {
+    "A": "The jurisdiction of CIRO, a parameter of outcome 1.2",
+    "B": "The jurisdiction of the CSA, a parameter of outcome 1.1",
+    "C": "The role of CIPF, a parameter of outcome 1.6",
+    "D": "The role of exchanges, a parameter of outcome 1.4"
+   },
+   "answer": "A",
+   "rationale": "Outcome 1.2 opens with 'Jurisdiction of CIRO' as its first parameter — the reach of the self-regulatory organization's authority is tested there, parallel to but distinct from the CSA's jurisdiction under outcome 1.1. Option B is the closest distractor because both outcomes have a jurisdiction parameter, but the question concerns CIRO, the SRO, not the umbrella of statutory regulators. CIPF (C) is investor protection on dealer insolvency, and exchanges (D) are marketplaces — neither speaks to CIRO's own authority.",
+   "rule_refs": [
+    "Syllabus 1.2"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Jurisdiction of CIRO\" — syllabus-raw.txt ~line 206"
+  },
+  {
+   "id": "SUP-E1-0109",
+   "element": 1,
+   "outcome": "1.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A Supervisor at Wabigoon Securities notices that, beyond the IDPC Rules and UMIR themselves, CIRO publishes additional documents that shape how dealers must operate. According to the outcome 1.2 parameter on CIRO's instruments, what must a Supervisor understand about guidance notes, forms and supporting schedules?",
+   "options": {
+    "A": "They are drafts with no effect until adopted as National Instruments",
+    "B": "They apply only to marketplaces, never to Investment Dealers",
+    "C": "Their role and implications, alongside the rules, in areas including standards of conduct, sales practices and external communications",
+    "D": "They are produced by the provincial legislatures rather than CIRO"
+   },
+   "answer": "C",
+   "rationale": "The 1.2 parameter requires understanding the 'Role and implications of rules, guidance notes, forms and supporting schedules' and ties them to standards of conduct, sales practices and external communications — these instruments operate alongside the IDPC Rules and UMIR in governing dealer conduct. Option A confuses CIRO guidance with CSA rule-making; National Instruments are CSA instruments under 1.1. Option B wrongly narrows their application, and option D misattributes their source — they are CIRO publications, not provincial statutes.",
+   "rule_refs": [
+    "Syllabus 1.2"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Role and implications of rules, guidance notes, forms and supporting schedules, including:\" — syllabus-raw.txt ~line 222"
+  },
+  {
+   "id": "SUP-E1-0110",
+   "element": 1,
+   "outcome": "1.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "An experienced Registered Representative leaves the industry, and two years later a start-up that has not yet completed its Investment Dealer registration offers to 'reactivate' her so she can begin soliciting clients while the firm's application is still in progress. Measured against outcome 1.3 of the syllabus, the flaw in this plan is that:",
+   "options": {
+    "A": "Individual approval is only required for derivatives trading, not securities advising",
+    "B": "Individual approval requirements operate alongside the requirement for Investment Dealer registration — an approved individual must be connected to a registered Investment Dealer, so neither layer alone permits the activity",
+    "C": "Reactivation is automatic for anyone with prior industry experience",
+    "D": "Only CIRO's consent is needed because the CSA plays no role in the process"
+   },
+   "answer": "B",
+   "rationale": "Outcome 1.3 frames a single integrated requirement: 'Investment Dealer registration and individual approval requirements and the role of CSA and CIRO in this process.' The firm-level registration and the individual-level approval are companion requirements — soliciting clients through an unregistered firm fails the firm half of the requirement regardless of the individual's history. Option A invents a derivatives-only limit; option C invents automatic reactivation; option D erases the CSA's role, which the outcome expressly includes alongside CIRO's.",
+   "rule_refs": [
+    "Syllabus 1.3"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"Understand the requirement for Investment Dealer registration and individual approval requirements and the role of CSA and CIRO in this process.\" — syllabus-raw.txt ~line 175"
+  },
+  {
+   "id": "SUP-E1-0111",
+   "element": 1,
+   "outcome": "1.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "During an orientation session at Kindersley Point Securities, a trainee asks why the firm answers to two different bodies — a provincial securities commission and CIRO — for what looks like one registration. The most accurate framing under outcome 1.3 is:",
+   "options": {
+    "A": "Registration and approval is a process in which both the CSA's member regulators and CIRO each play a role for the Investment Dealer and its individuals",
+    "B": "The two bodies alternate years, with the commission handling even years and CIRO odd years",
+    "C": "CIRO handles firms while the commissions handle only individuals",
+    "D": "The dual structure is voluntary and a dealer may opt out of either body"
+   },
+   "answer": "A",
+   "rationale": "Outcome 1.3 expressly requires understanding 'the role of CSA and CIRO in this process' — the registration of the Investment Dealer and the approval of its individuals is one process in which both the statutory regulators and the self-regulatory organization participate. Option C is the closest distractor because it acknowledges both bodies, but it assigns each an exclusive lane the outcome does not support — both have roles in the process for the firm and its individuals. Options B and D invent an alternating schedule and an opt-out that do not exist.",
+   "rule_refs": [
+    "Syllabus 1.3"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"individual approval requirements and the role of CSA and CIRO in this process.\" — syllabus-raw.txt ~line 176"
+  },
+  {
+   "id": "SUP-E1-0112",
+   "element": 1,
+   "outcome": "1.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A study group sorting Element 1 outcomes asks where each of the following belongs: (1) the requirement that a firm be registered as an Investment Dealer before carrying on that business; (2) the requirement that individuals obtain approval before performing approved-person functions. Under the syllabus, both requirements are examined together under:",
+   "options": {
+    "A": "Outcome 1.6, because registration protects clients on insolvency",
+    "B": "Outcome 1.5, because registration is processed through the clearing agencies",
+    "C": "Outcome 1.8, because registration is a Bank Act function",
+    "D": "Outcome 1.3, which addresses Investment Dealer registration and individual approval requirements as one process involving both the CSA and CIRO"
+   },
+   "answer": "D",
+   "rationale": "Outcome 1.3 is the syllabus home for both the firm-level requirement ('Investment Dealer registration') and the individual-level requirement ('individual approval requirements'), examined as one process with roles for the CSA and CIRO. Insolvency protection (A) is CIPF under 1.6; clearing agencies (B) are post-trade infrastructure under 1.5; and the Bank Act (C) governs banks under 1.8 — none of those outcomes carries the registration and approval requirements.",
+   "rule_refs": [
+    "Syllabus 1.3"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"1.3 Understand the requirement for Investment Dealer registration and individual approval requirements\" — syllabus-raw.txt ~line 175"
+  },
+  {
+   "id": "SUP-E1-0113",
+   "element": 1,
+   "outcome": "1.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A blue-chip issuer's shares trade on a Canadian listing venue that sets listing standards for the issuer and operates the central order book where the security was first listed. Among the marketplace categories of syllabus outcome 1.4 whose role and authority a Supervisor must understand, this listing venue is the category called:",
+   "options": {
+    "A": "Exchanges",
+    "B": "Foreign Organized Regulated Markets (FORM)",
+    "C": "Crypto-Asset Trading Platforms (CTPs)",
+    "D": "Clearing agencies"
+   },
+   "answer": "A",
+   "rationale": "Outcome 1.4 opens its marketplace list with 'Exchanges' — the listing venue that admits issuers and operates the market where their securities trade is the exchange category, distinct from the other listed marketplaces. A FORM (B) is an organized regulated market outside Canada, which a Canadian listing venue is not; CTPs (C) are venues for crypto assets; and clearing agencies (D) are not in the 1.4 marketplace list at all — they are the post-trade entities of outcome 1.5.",
+   "rule_refs": [
+    "Syllabus 1.4"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"Understand the role and authority of exchanges and other marketplaces. Consider: • Exchanges\" — syllabus-raw.txt ~line 177"
+  },
+  {
+   "id": "SUP-E1-0114",
+   "element": 1,
+   "outcome": "1.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A Supervisor at Ucluelet Harbour Wealth explains to a trainee that Canadian equity orders frequently execute away from the listing exchange on other domestic venues that match buyers and sellers but are not themselves exchanges. In the outcome 1.4 marketplace taxonomy, those non-exchange domestic matching venues are the:",
+   "options": {
+    "A": "Foreign Organized Regulated Markets (FORM)",
+    "B": "Investment Dealers themselves",
+    "C": "Canadian Derivatives Clearing Corporation facilities",
+    "D": "Alternative Trading Systems (ATS)"
+   },
+   "answer": "D",
+   "rationale": "Outcome 1.4's marketplace list places Alternative Trading Systems (ATS) alongside exchanges as venues whose role and authority a Supervisor must understand — the domestic non-exchange venues where orders interact are the ATS category. FORM (A) requires a foreign market; Investment Dealers (B) are intermediaries, not a marketplace category in the 1.4 list; and CDCC (C) is a clearing agency under outcome 1.5, operating after trades occur rather than matching orders.",
+   "rule_refs": [
+    "Syllabus 1.4"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Alternative Trading Systems (ATS)\" — syllabus-raw.txt ~line 184"
+  },
+  {
+   "id": "SUP-E1-0115",
+   "element": 1,
+   "outcome": "1.12",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A Supervisor at Nokomis Ridge Securities reviews where the firm's anti-money laundering duties come from: they are imposed on the dealer by federal statute, not by anything a client signed and not by the firm's own internal code. In the outcome 1.12 classification of the Investment Dealer's obligations to clients and others, duties imposed by statute are:",
+   "options": {
+    "A": "Legislative obligations — the first of the three sources, alongside contractual and organizational",
+    "B": "Contractual obligations, because the client opened an account",
+    "C": "Organizational obligations, because compliance administers them",
+    "D": "Not obligations at all until a client complains"
+   },
+   "answer": "A",
+   "rationale": "Outcome 1.12 classifies the Investment Dealer's obligations into three sources — legislative, contractual, and organizational. Duties imposed externally by statute are the legislative source, regardless of any agreement a client signed. Option B is the closest distractor: opening an account creates contractual obligations, but the statutory duty described exists by force of law, not the contract. Option C confuses who administers a duty with its source, and option D denies the binding character of legal requirements, which do not depend on a complaint.",
+   "rule_refs": [
+    "Syllabus 1.12"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"Understand the Investment Dealer’s obligations to clients and others. Consider: • Legislative\" — syllabus-raw.txt ~line 357"
+  },
+  {
+   "id": "SUP-E1-0116",
+   "element": 1,
+   "outcome": "1.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Settlement staff at Wakaw Crossing Securities track where the firm's equity and fixed-income positions are deposited and how those securities trades clear and settle. Of the entities named in syllabus outcome 1.5, the one whose role and authority covers this securities depository function is:",
+   "options": {
+    "A": "The Canadian Derivatives Clearing Corporation (CDCC)",
+    "B": "The Bank of Canada",
+    "C": "The Canadian Depository for Securities Limited (CDS)",
+    "D": "The Ombudsman for Banking Services and Investments (OBSI)"
+   },
+   "answer": "C",
+   "rationale": "Outcome 1.5 names the Canadian Depository for Securities Limited (CDS) as one of the two clearing agencies a Supervisor must understand — its name identifies the securities depository function, in contrast with the Canadian Derivatives Clearing Corporation (CDCC), the derivatives-side clearing agency and the closest distractor (A). The Bank of Canada (B) and OBSI (D) appear in outcome 1.7's list of other financial regulators and agencies; neither is a clearing agency.",
+   "rule_refs": [
+    "Syllabus 1.5"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Canadian Depository for Securities Limited (CDS)\" — syllabus-raw.txt ~line 201"
+  },
+  {
+   "id": "SUP-E1-0117",
+   "element": 1,
+   "outcome": "1.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Building a one-page CIPF explainer for branch staff at Birtle Securities, a Supervisor lists the four aspects of CIPF the Supervisor Exam syllabus requires under outcome 1.6. Which list is complete and correct?",
+   "options": {
+    "A": "Its enforcement hearings, its arbitration program, its rule book, and its marketplace surveillance",
+    "B": "Its purpose and objective; funding requirements by Investment Dealers; its governance structure; and its role in an Investment Dealer's bankruptcy/insolvency, including pooling of client assets",
+    "C": "Its suspicious-transaction reporting, its registration function, its complaint brochure, and its grey list",
+    "D": "Its prospectus review, its continuous disclosure review, its insider reporting system, and its whistleblower service"
+   },
+   "answer": "B",
+   "rationale": "The 1.6 parameters are exactly four: 'Purpose and objective', 'Funding requirements by Investment Dealers', 'Governance structure', and 'Role of CIPF in an Investment Dealer's bankruptcy/insolvency, including pooling of client assets.' Option A describes CIRO functions (enforcement, rules, surveillance); option C mixes FINTRAC reporting, registration, and complaint and containment tools from other outcomes; option D lists CSA-side issuer oversight functions plus CIRO's whistleblower service — none of which are CIPF's parameters.",
+   "rule_refs": [
+    "Syllabus 1.6"
+   ],
+   "difficulty": "medium",
+   "status": "killed",
+   "source_quote": "\"Understand the role of the Canadian Investor Protection Fund (CIPF): • Purpose and objective\" — syllabus-raw.txt ~line 203",
+   "qa_note": "Gate 2 wave 8: layout artifact: the four 1.6 bullets are interleaved with 1.2 bullets by two-column extraction; header+first bullet quoted; remaining keyed bullets (\"Funding requirements by Investment Dealers\" ~209, \"Governance structure\" ~213, \"Role of CIPF in an Investment Dealer's bankruptcy/insolvency\" ~217) each verify verbatim individually. KILLED Gate 3 wave 8 (2026-06-05): intra-batch same-fact inversion of SUP-E1-0150 (key Jaccard 0.68, Syllabus 1.6) — both key the identical four-aspect CIPF list (positive list-recall vs negative rejection). Standard item killed in preference to the E1-SET-07 member to preserve set integrity (set stays at 4)."
+  },
+  {
+   "id": "SUP-E1-0118",
+   "element": 1,
+   "outcome": "1.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "The parent of Sicamous Valley Securities is a federally regulated Canadian bank, and a Supervisor wants to name the prudential regulator that supervises that federal financial institution, as listed in syllabus outcome 1.7. The correct body is:",
+   "options": {
+    "A": "The Ombudsman for Banking Services and Investments (OBSI)",
+    "B": "The National Futures Association (NFA)",
+    "C": "The RCMP Integrated Market Enforcement Teams (IMET)",
+    "D": "The Office of the Superintendent of Financial Institutions (OSFI)"
+   },
+   "answer": "D",
+   "rationale": "Outcome 1.7 lists the Office of the Superintendent of Financial Institutions (OSFI) among the other financial regulators and agencies a Supervisor must recognize — it is the federal supervisor of federally regulated financial institutions such as banks. OBSI (A) is a dispute-resolution ombudsman, not a prudential supervisor; the NFA (B) is a US derivatives self-regulatory body; IMET (C) is the specialized police capability for capital-markets crime, not an institution supervisor.",
+   "rule_refs": [
+    "Syllabus 1.7"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Office of the Superintendent of Financial Institutions (OSFI)\" — syllabus-raw.txt ~line 240"
+  },
+  {
+   "id": "SUP-E1-0119",
+   "element": 1,
+   "outcome": "1.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "An operations Supervisor at Ituna Park Securities prepares a matching exercise pairing two further bodies from the outcome 1.7 list with their domains: the nation's central bank, and the officials who oversee personal-information protection at the federal and provincial levels. The correct pairing from the syllabus list is:",
+   "options": {
+    "A": "OSFI for the central-bank role; OBSI for personal information",
+    "B": "The Bank of Canada; and the federal and provincial privacy commissioners",
+    "C": "FINTRAC for the central-bank role; FSRA for personal information",
+    "D": "The SEC; and the National Futures Association"
+   },
+   "answer": "B",
+   "rationale": "Outcome 1.7's list of other financial regulators and agencies includes the Bank of Canada — the central bank — and the 'Federal and provincial privacy commissioners,' the officials overseeing personal-information protection. Option A swaps in OSFI (the prudential supervisor of institutions, not the central bank) and OBSI (an ombudsman, not a privacy authority); option C miscasts FINTRAC (transaction-report analysis) and FSRA (Ontario's financial-services regulator); option D names US securities and derivatives bodies with no central-banking or privacy mandate in the list.",
+   "rule_refs": [
+    "Syllabus 1.7"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Federal and provincial privacy commissioners\" — syllabus-raw.txt ~line 244",
+   "qa_note": "Gate 2 wave 8: single-span fix; second keyed body \"Bank of Canada\" verifies verbatim at ~228 (layout interleave prevents one span covering both)."
+  },
+  {
+   "id": "SUP-E1-0120",
+   "element": 1,
+   "outcome": "1.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A banking-channel referral partner asks a Supervisor at Wynyard Plains Securities why the Bank Act matters to consumers rather than only to the banks it governs. Among the purposes the syllabus attributes to the Bank Act under outcome 1.8, the consumer-facing purpose is to:",
+   "options": {
+    "A": "Guarantee investment returns at federally regulated banks",
+    "B": "Pool client assets when a securities firm becomes bankrupt",
+    "C": "Reduce spam and deter malicious electronic activities",
+    "D": "Protect consumers"
+   },
+   "answer": "D",
+   "rationale": "The outcome 1.8 parameters give the Bank Act three purposes: ensure stability and integrity, protect consumers, and promote competition — 'Protect consumers' is the consumer-facing purpose. The Act does not guarantee returns (A); pooling client assets in a securities-firm bankruptcy (B) belongs to the Bankruptcy and Insolvency Act Part XII framework and CIPF's role; and reducing spam and deterring malicious activities (C) are CASL purposes under outcome 1.11.",
+   "rule_refs": [
+    "Syllabus 1.8"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Bank Act - Ensure stability and integrity - Protect consumers - Promote competition\" — syllabus-raw.txt ~line 252",
+   "qa_note": "Gate 2 wave 8: quote lengthened from short bullet to the contiguous Bank Act purposes list."
+  },
+  {
+   "id": "SUP-E1-0121",
+   "element": 1,
+   "outcome": "1.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "At a risk-committee meeting of Canso Gut Securities, a director claims that 'promoting competition' is a CIRO mandate, not something found in federal banking legislation. Checking the claim against syllabus outcome 1.8, the Supervisor should respond that promoting competition is:",
+   "options": {
+    "A": "Not found anywhere in Element 1",
+    "B": "A purpose of the Bankruptcy and Insolvency Act, Part XII",
+    "C": "One of the three purposes the syllabus attributes to the Bank Act, alongside ensuring stability and integrity and protecting consumers",
+    "D": "A purpose of the PCMLTFA compliance program requirements"
+   },
+   "answer": "C",
+   "rationale": "The outcome 1.8 parameters list the Bank Act's purposes as 'Ensure stability and integrity', 'Protect consumers' and 'Promote competition' — competition promotion sits in the federal banking statute, not in CIRO's mandate parameters. Option B misplaces it in Part XII, which addresses the bankruptcy of a securities firm; option D misplaces it in the anti-money-laundering statute; option A is contradicted by the parameter text itself.",
+   "rule_refs": [
+    "Syllabus 1.8"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"- Ensure stability and integrity - Protect consumers - Promote competition\" — syllabus-raw.txt ~line 254"
+  },
+  {
+   "id": "SUP-E1-0122",
+   "element": 1,
+   "outcome": "1.9",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Two acts come to light at Ferryland Cove Securities: (1) an assistant fabricates a client's signature on a trade authorization form; (2) a colleague, knowing the form is fabricated, presents it to the back office as genuine to push the trade through. Mapping each act to the Criminal Code categories listed in syllabus outcome 1.9, the acts are, respectively:",
+   "options": {
+    "A": "False prospectus; and organized crime offences",
+    "B": "Theft by person holding power of attorney; and fraud",
+    "C": "Illegal insider trading; and misappropriation of money under direction",
+    "D": "Forgery; and uttering a forged document"
+   },
+   "answer": "D",
+   "rationale": "Outcome 1.9's list separates 'Forgery' — making the false document — from 'Uttering a forged document' — presenting or using the forged document as genuine; act (1) is the forgery and act (2) is the uttering. Option A's false prospectus concerns a misleading offering document and organized-crime offences concern criminal organizations; option B requires a power of attorney and a dishonest deprivation scheme; option C requires undisclosed material information and diversion of directed funds — none of which match fabricating and then passing a signature.",
+   "rule_refs": [
+    "Syllabus 1.9"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Forgery • Uttering a forged document\" — syllabus-raw.txt ~line 267"
+  },
+  {
+   "id": "SUP-E1-0123",
+   "element": 1,
+   "outcome": "1.9",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Investigators allege that a network of individuals systematically ran boiler-room securities scams as a criminal group, and separately that one member traded a public company's shares using undisclosed material information obtained from a contact inside the issuer. Which two Criminal Code categories from the syllabus outcome 1.9 list most directly capture (i) the criminal-group dimension and (ii) the informed trading?",
+   "options": {
+    "A": "(i) Organized crime offences; (ii) illegal insider trading",
+    "B": "(i) False statement or false pretenses; (ii) forgery",
+    "C": "(i) Misappropriation of money under direction; (ii) false prospectus",
+    "D": "(i) Theft; (ii) uttering a forged document"
+   },
+   "answer": "A",
+   "rationale": "The outcome 1.9 list ends with 'Organized crime offences' and 'Illegal insider trading' — the criminal-group dimension of the scam network engages the organized-crime category, and trading on undisclosed material information from inside the issuer is illegal insider trading. False pretenses and forgery (B) address dishonest inducement and fabricated documents; misappropriation and false prospectus (C) address diverting directed funds and misleading offering documents; theft and uttering (D) address taking property and passing forged documents — none capture the group structure or the informational advantage.",
+   "rule_refs": [
+    "Syllabus 1.9"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Organized crime offences • Illegal insider trading\" — syllabus-raw.txt ~line 270"
+  },
+  {
+   "id": "SUP-E1-0124",
+   "element": 1,
+   "outcome": "1.10",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "After its compliance program and enterprise risk assessment are in place, Falun Creek Securities turns to documenting how the firm will actually conduct its anti-money laundering work day to day. Which PCMLTFA topic from the syllabus outcome 1.10 list corresponds to this written operational layer?",
+   "options": {
+    "A": "The stages of money laundering",
+    "B": "Pooling of client assets",
+    "C": "Anti-money laundering policies and procedures",
+    "D": "The leverage risk disclosure statement"
+   },
+   "answer": "C",
+   "rationale": "Outcome 1.10's enumerated PCMLTFA topics include 'Anti-money laundering policies and procedures' — the written operational layer that documents how the AML program is carried out, distinct from the conceptual 'stages of money laundering' (A), which describe how laundering works rather than how the firm responds. Pooling of client assets (B) is CIPF's insolvency role under outcome 1.6, and the leverage risk disclosure statement (D) is an account-documentation requirement from Element 4, not an AML element.",
+   "rule_refs": [
+    "Syllabus 1.10"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Anti-money laundering policies and procedures\" — syllabus-raw.txt ~line 291"
+  },
+  {
+   "id": "SUP-E1-0125",
+   "element": 1,
+   "outcome": "1.10",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "The AML officer at Eston Flats Capital proposes deleting the firm's documentation of its ongoing dealings with long-standing clients once each year's account statements are mailed, arguing that only transaction records matter under the PCMLTFA framework. Which outcome 1.10 topic does this proposal disregard?",
+   "options": {
+    "A": "The whistleblower service for non-client matters",
+    "B": "Business relationship record-keeping",
+    "C": "The 90 days time line for substantive complaint responses",
+    "D": "The grey and restricted lists"
+   },
+   "answer": "B",
+   "rationale": "Outcome 1.10's PCMLTFA topics include 'Business relationship record-keeping' — the framework requires keeping records of the business relationship itself, not only of individual transactions, so deleting relationship documentation disregards this enumerated element. The whistleblower service (A) is outcome 1.15; the 90-day complaint response (C) is an IDPC Rule 3700 requirement under outcome 1.13; and grey/restricted lists (D) are containment processes under outcome 1.23 — none is a PCMLTFA topic.",
+   "rule_refs": [
+    "Syllabus 1.10"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Business relationship record-keeping\" — syllabus-raw.txt ~line 307"
+  },
+  {
+   "id": "SUP-E1-0126",
+   "element": 1,
+   "outcome": "1.11",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A cyber-awareness session at Lanigan Bay Securities covers Canada's anti-spam legislation. Beyond reducing spam and enhancing privacy, the trainer asks which pair of further CASL purposes appears in the syllabus's outcome 1.11 list. The correct pair is:",
+   "options": {
+    "A": "Deterring malicious activities, and encouraging compliance and accountability",
+    "B": "Guaranteeing email deliverability, and licensing marketing firms",
+    "C": "Protecting proprietary information, and maintaining competitive advantage",
+    "D": "Registering Investment Dealers, and approving individuals"
+   },
+   "answer": "A",
+   "rationale": "The outcome 1.11 parameters give CASL five purposes: reducing spam, enhancing privacy, promoting electronic commerce, deterring malicious activities, and encouraging compliance and accountability — the last two are the pair sought. Option C is the closest distractor because it quotes real 1.11 parameters, but they belong to the confidentiality/non-disclosure agreement list, not CASL. Option B invents deliverability guarantees and licensing; option D imports the registration framework from outcome 1.3.",
+   "rule_refs": [
+    "Syllabus 1.11"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"- Deterring malicious activities - Encouraging compliance and accountability\" — syllabus-raw.txt ~line 329"
+  },
+  {
+   "id": "SUP-E1-0127",
+   "element": 1,
+   "outcome": "1.11",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A vendor breaches the non-disclosure agreement it signed with Carnduff Hill Securities and circulates the firm's confidential client-platform design. The general counsel notes that the NDA itself now gives the firm a path to sue. Which purpose of confidentiality/non-disclosure agreements from the syllabus outcome 1.11 list does this illustrate?",
+   "options": {
+    "A": "Promoting electronic commerce",
+    "B": "Fair information principles",
+    "C": "Legal recourse",
+    "D": "Encouraging compliance and accountability"
+   },
+   "answer": "C",
+   "rationale": "The outcome 1.11 parameters list the purposes of confidentiality agreements/NDAs as protecting proprietary information, legal recourse, facilitating business relationships, and maintaining competitive advantage — the contract's role as a basis for suing on breach is the 'Legal recourse' purpose. Options A and D are CASL purposes, and option B belongs to the PIPEDA parameters — all genuine 1.11 text, but attached to the wrong instruments, which is the discrimination the item tests.",
+   "rule_refs": [
+    "Syllabus 1.11"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Confidentiality agreements/non-disclosure agreements (NDAs) - Protecting proprietary information - Legal recourse - Facilitating business relationships\" — syllabus-raw.txt ~line 329",
+   "qa_note": "Gate 2 wave 8: quote lengthened from short bullet to the contiguous NDA purposes run."
+  },
+  {
+   "id": "SUP-E1-0128",
+   "element": 1,
+   "outcome": "1.12",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A retail client of Oxbow Bend Securities signs the firm's account agreement, which commits the dealer to specific service and notice undertakings beyond anything the rules require. When the firm later considers ignoring one of those undertakings, the Supervisor objects. In the outcome 1.12 classification of the Investment Dealer's obligations, the undertakings in the signed agreement are:",
+   "options": {
+    "A": "Legislative obligations, because all client documents are prescribed by statute",
+    "B": "Organizational obligations, because the firm drafted the agreement",
+    "C": "Voluntary aspirations with no binding character",
+    "D": "Contractual obligations — one of the three sources of the dealer's obligations to clients and others"
+   },
+   "answer": "D",
+   "rationale": "Outcome 1.12 classifies the Investment Dealer's obligations to clients and others into three sources: legislative, contractual, and organizational. Undertakings the dealer commits to in a signed client agreement arise from the contract — contractual obligations. Option B is the closest distractor: organizational obligations arise from the firm's own internal framework, such as internal codes, whereas these undertakings bind through the agreement with the client. Option A wrongly treats every client document as statutory, and option C denies the binding character of a contract.",
+   "rule_refs": [
+    "Syllabus 1.12"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Understand the Investment Dealer's obligations to clients and others. Consider: • Legislative\" — syllabus-raw.txt ~line 357",
+   "qa_note": "Gate 2 wave 8: layout artifact: the three 1.12 source bullets (Legislative ~359, Contractual ~366, Organizational ~371) are split by interleaved standards-of-conduct sub-bullets; header span quoted; keyed bullet \"• Contractual\" verifies verbatim at ~366 but is below the 20-char threshold in isolation."
+  },
+  {
+   "id": "SUP-E1-0129",
+   "element": 1,
+   "outcome": "1.12",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "The full title of syllabus outcome 1.12 is broader than client duties alone. A Supervisor at Glaslyn Ridge Wealth uses it to remind staff that the framework of legislative, contractual and organizational sources governs the Investment Dealer's obligations to:",
+   "options": {
+    "A": "Clients and others",
+    "B": "Clients exclusively, because no one else can hold the dealer to account",
+    "C": "CIRO exclusively, because the regulator enforces all obligations",
+    "D": "Shareholders exclusively, because they own the firm"
+   },
+   "answer": "A",
+   "rationale": "Outcome 1.12 is titled 'Understand the Investment Dealer's obligations to clients and others' — the legislative, contractual and organizational framework reaches beyond the client relationship to other parties to whom the dealer owes duties. Options B, C and D each narrow the obligation set to a single constituency, contradicting the express 'and others' in the outcome statement; the closest distractor, B, captures the most prominent constituency but drops the broader reach the syllabus requires.",
+   "rule_refs": [
+    "Syllabus 1.12"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Understand the Investment Dealer’s obligations to clients and others. Consider: • Legislative\" — syllabus-raw.txt ~line 357"
+  },
+  {
+   "id": "SUP-E1-0130",
+   "element": 1,
+   "outcome": "1.13",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "On a Monday, the IT team at Choiceland Securities discovers that an intruder gained unauthorized access to the firm's client database, with a reasonable likelihood of substantial harm to clients — a cybersecurity incident as defined in IDPC subsection 3703(1). The Chief Compliance Officer proposes folding the matter into the firm's next quarterly filing. Under clause 3703(2)(vii), what reporting does this trigger to the Corporation?",
+   "options": {
+    "A": "A written report within three calendar days from discovering the incident, including a description, dates, a preliminary assessment, immediate response steps and a contact person — followed by a further report within 30 calendar days, unless otherwise agreed by the Corporation, covering cause, scope, mitigation, remediation and preparedness improvements",
+    "B": "No report, because cybersecurity matters are reportable only to the privacy commissioners",
+    "C": "A single oral notification at the firm's next scheduled compliance examination",
+    "D": "A report within 90 days, matching the client-complaint substantive-response time line"
+   },
+   "answer": "A",
+   "rationale": "Clause 3703(2)(vii) requires a Dealer Member to report any cybersecurity incident in writing within three calendar days from discovering it — with a description, the dates, a preliminary assessment, immediate response steps, and a contact — and again within 30 calendar days, unless otherwise agreed by the Corporation, with the cause, scope, mitigation and remediation details and preparedness improvements. A quarterly filing misses both clocks. Privacy-commissioner notice (B) may run in parallel under other laws but does not displace the Corporation report; option C has no basis in the rule; option D borrows the 90-day complaint-response clock from section 3726, which governs complaints, not incidents.",
+   "rule_refs": [
+    "IDPC 3703(2)(vii)",
+    "IDPC 3703(1)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"within 30 calendar days, unless otherwise agreed by the Corporation, from discovering a cybersecurity incident\" — rules/idpc-rules.txt ~line 6224",
+   "qa_note": "Gate 2 wave 8: citation filename was missing; quote text verified contiguous in idpc-rules.txt (3703(1)(vii)(a)); filename added."
+  },
+  {
+   "id": "SUP-E1-0131",
+   "element": 1,
+   "outcome": "1.14",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "After the approved ombudsman service accepts a client's dispute against Pangman Crest Securities, the firm's counsel proposes a strategy of selective participation: comply with whichever of the ombudsman service's requirements the firm finds convenient and ignore the rest, since the eventual recommendation will be non-binding anyway. Under IDPC section 9503, this strategy is:",
+   "options": {
+    "A": "Acceptable, because non-binding recommendations make the whole process optional",
+    "B": "Impermissible — a Dealer Member must comply with the ombudsman service's requirements; the non-binding character attaches to the ombudsman's recommendations, not to the dealer's obligation to participate and comply during the process",
+    "C": "Acceptable if the firm files an objection with the CSA",
+    "D": "Required, because dealers are forbidden from cooperating with ombudsman reviews"
+   },
+   "answer": "B",
+   "rationale": "Subsection 9503(5) states that a Dealer Member must comply with the ombudsman service's requirements, while 9503(6) makes only the ombudsman's recommendations non-binding on each participant — the strategy conflates the two. Compliance with the service's process requirements is mandatory even though the end recommendation does not bind. Option A is the precise conflation the rule structure forecloses; option C invents a CSA objection route; option D inverts the obligation entirely.",
+   "rule_refs": [
+    "IDPC 9503(5)",
+    "IDPC 9503(6)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must comply with the ombudsman service’s requirements.\" — idpc-rules.txt ~line 20223"
+  },
+  {
+   "id": "SUP-E1-0132",
+   "element": 1,
+   "outcome": "1.15",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A payroll administrator at Mossleigh Gate Securities — who has no clients and no client accounts — observes a group of colleagues falsifying internal expense and trading records to hide improper conduct inside the firm. None of it touches her own work. Which syllabus outcome 1.15 situation makes this the kind of matter CIRO's whistleblower service exists to receive?",
+   "options": {
+    "A": "It is a service complaint about her own account",
+    "B": "It is a request for arbitration of a client dispute",
+    "C": "It is misconduct or illegal activity within an organization — a non-client account matter",
+    "D": "It is a routine human-resources grievance the service handles"
+   },
+   "answer": "C",
+   "rationale": "Outcome 1.15 lists 'Misconduct or illegal activity within an organization' as a situation that may require CIRO's whistleblower service for non-client account matters — an insider observing internal falsification fits squarely. She has no account, so option A fails on its own terms; arbitration (B) is a client-recourse mechanism under outcome 1.14; and an HR grievance (D) is an employment matter, not the organizational misconduct the parameter describes — the falsified records, not workplace conditions, are the trigger.",
+   "rule_refs": [
+    "Syllabus 1.15"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Misconduct or illegal activity within an organization\" — syllabus-raw.txt ~line 319"
+  },
+  {
+   "id": "SUP-E1-0133",
+   "element": 1,
+   "outcome": "1.15",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "An accountant performing year-end work for Vauxhall Stone Capital stumbles on indications that an investment scheme being promoted out of the firm's premises may be defrauding investors. The matter does not concern any client account of his own. Among the outcome 1.15 situations, this most directly fits the whistleblower service because it involves:",
+   "options": {
+    "A": "A dispute about commission charges on an account",
+    "B": "Potential securities frauds",
+    "C": "A request for a temporary hold on a vulnerable client's account",
+    "D": "A demand for binding arbitration"
+   },
+   "answer": "B",
+   "rationale": "Outcome 1.15 lists 'Potential securities frauds' among the situations that may require CIRO's whistleblower service for non-client account matters — suspected investor fraud observed by a non-client insider is the paradigm case. Commission disputes (A) are client account matters handled through the complaint regime; temporary holds (C) belong to the vulnerable-client protections in account supervision; and binding arbitration (D) is a client recourse under outcome 1.14, not a whistleblower trigger.",
+   "rule_refs": [
+    "Syllabus 1.15"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Potential securities frauds\" — syllabus-raw.txt ~line 327"
+  },
+  {
+   "id": "SUP-E1-0134",
+   "element": 1,
+   "outcome": "1.15",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Drafting an internal escalation guide, the Chief Compliance Officer of Foremost Ridge Securities wants the complete set of situations the Supervisor Exam syllabus identifies under outcome 1.15 as potentially requiring CIRO's whistleblower service for non-client account matters. That set is:",
+   "options": {
+    "A": "Unsuitable investments, margin disputes, and transfer delays",
+    "B": "Late prospectus filings, dividend errors, and proxy mailing failures",
+    "C": "Misconduct or illegal activity within an organization; potential systemic wrongdoing; and potential securities frauds",
+    "D": "Breaches of the Bank Act's three purposes"
+   },
+   "answer": "C",
+   "rationale": "Outcome 1.15 enumerates exactly three situations: misconduct or illegal activity within an organization, potential systemic wrongdoing, and potential securities frauds. Option A lists client account grievances that belong to the complaint-handling regime; option B lists issuer-side administrative failures outside the parameter; and option D imports the Bank Act purposes from outcome 1.8 — none describes the whistleblower service's non-client scope.",
+   "rule_refs": [
+    "Syllabus 1.15"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Misconduct or illegal activity within an organization\" — syllabus-raw.txt ~line 319",
+   "qa_note": "Gate 2 wave 8: layout artifact: the three 1.15 bullets are interleaved with CASL sub-bullets; first keyed bullet quoted; \"Potential systemic wrongdoing\" ~323 and \"Potential securities frauds\" ~327 verify verbatim individually."
+  },
+  {
+   "id": "SUP-E1-0135",
+   "element": 1,
+   "outcome": "1.16",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A Registered Representative at Sedley Park Securities asks her dealer for written consent to settle a small client matter, and the dealer grants it. The branch administrator then asks whether anything further is required of the firm regarding that consent. Under IDPC subsection 3710(2), the Dealer Member must:",
+   "options": {
+    "A": "Publish the consent on its public website",
+    "B": "File the consent with the client's provincial land registry",
+    "C": "Destroy the consent once the settlement funds clear",
+    "D": "Keep a record of the prior written consent in accordance with the record-keeping requirements"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3710(2) requires the Dealer Member to keep a record of the prior written consent in accordance with section 3803 — the consent that authorizes the settlement under 3710(1) must itself be retained as a record. Destroying it (C) is the opposite of the obligation; public posting (A) and land-registry filing (B) have no basis in the rule. The retention duty is what allows the firm and the Corporation to verify, after the fact, that the settlement was authorized.",
+   "rule_refs": [
+    "IDPC 3710(2)",
+    "IDPC 3710(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must keep a record of the prior written consent in accordance with section 3803.\" — idpc-rules.txt ~line 6303"
+  },
+  {
+   "id": "SUP-E1-0136",
+   "element": 1,
+   "outcome": "1.18",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "The executives of Czar Butte Capital decide that the firm's conflict-of-interest register, board decisions on ethics matters, and the reasoning behind compensation-plan changes will all be visible to staff and, where appropriate, to clients — abandoning the previous practice of deciding such matters behind closed doors with no explanation. Analyzed against the syllabus's pillars of ethics and integrity in corporate governance, this change primarily operationalizes which pillar?",
+   "options": {
+    "A": "Training and awareness, because visibility is a form of instruction",
+    "B": "Transparency — opening the firm's governance decisions and reasoning to view, rather than concealing them",
+    "C": "Dealing with compensation conflicts, because pay was mentioned",
+    "D": "Regulatory scrutiny, the first pillar of governance"
+   },
+   "answer": "B",
+   "rationale": "Outcome 1.18's pillars are transparency, dealing with compensation conflicts, oversight and accountability, and training and awareness. Making governance decisions, registers and reasoning visible is the direct exercise of transparency — the contrast drawn is concealment versus openness, not instruction. Option A mistakes visibility for training, which is a separate pillar about educating staff; option C touches only one item in the disclosed set and ignores the openness theme; option D imports 'regulatory scrutiny' from outcome 1.19's consequences list — it is not a 1.18 governance pillar.",
+   "rule_refs": [
+    "Syllabus 1.18"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Analyze situations for Supervisors that involve the role of ethics and integrity in corporate governance. Consider:\" — syllabus-raw.txt ~line 380",
+   "qa_note": "Gate 2 wave 8: layout artifact — 1.18 bullets are interleaved with 1.22 bullets by two-column extraction; outcome-header span quoted; keyed bullet \"• Transparency\" verifies verbatim at ~384 but is below the 20-char threshold in isolation."
+  },
+  {
+   "id": "SUP-E1-0137",
+   "element": 1,
+   "outcome": "1.18",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Following a governance review, Vibank Shore Securities institutes a recurring program: every employee and Approved Person completes scenario-based ethics modules at onboarding and annually thereafter, and governance lessons from internal incidents are folded into the curriculum. The board asks which gap in the syllabus's corporate-governance ethics framework this program is designed to close. The best answer is:",
+   "options": {
+    "A": "Transparency, because the modules are visible on the intranet",
+    "B": "Oversight and accountability, because completing modules is a control",
+    "C": "Training and awareness — building and refreshing the workforce's understanding of ethical expectations and lessons learned",
+    "D": "Dealing with compensation conflicts, because instructors are paid"
+   },
+   "answer": "C",
+   "rationale": "Outcome 1.18's pillars include 'Training and awareness' — a recurring ethics curriculum that onboards, refreshes and incorporates lessons learned is that pillar in operation. Option B is the closest distractor because a completion requirement resembles a control, but oversight and accountability concerns assigning ownership and answerability for controls, not educating the workforce; option A reduces transparency to intranet visibility; option D is a wordplay on payment, unrelated to compensation conflicts between roles and incentives.",
+   "rule_refs": [
+    "Syllabus 1.18"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Training and awareness\" — syllabus-raw.txt ~line 396"
+  },
+  {
+   "id": "SUP-E1-0138",
+   "element": 1,
+   "outcome": "1.19",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "After an Approved Person's unethical scheme harms clients of Odessa Junction Wealth, the affected clients commence lawsuits against the firm and criminal charges are contemplated against the individual. Within the syllabus's outcome 1.19 list of consequences and risks of unethical behaviour, court exposure of this kind falls under:",
+   "options": {
+    "A": "Employee morale and turnover",
+    "B": "Legal consequences",
+    "C": "Promoting electronic commerce",
+    "D": "Funding requirements by Investment Dealers"
+   },
+   "answer": "B",
+   "rationale": "Outcome 1.19 opens its list of consequences with 'Legal consequences' — civil lawsuits and potential criminal charges are the legal dimension of the fallout from unethical behaviour. Employee morale and turnover (A) is a separate listed consequence concerning the workforce, not the courts; promoting electronic commerce (C) is a CASL purpose under outcome 1.11; and funding requirements (D) are a CIPF parameter under outcome 1.6 — neither belongs to the 1.19 consequence list.",
+   "rule_refs": [
+    "Syllabus 1.19"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Legal consequences\" — syllabus-raw.txt ~line 401"
+  },
+  {
+   "id": "SUP-E1-0139",
+   "element": 1,
+   "outcome": "1.19",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "In the year after a publicized ethics scandal at a dealer, account transfers out of the firm accelerate sharply: long-standing clients close their accounts and move their assets to competitors, citing lost faith in the firm. In the syllabus's outcome 1.19 framework, this pattern is the consequence described as:",
+   "options": {
+    "A": "Regulatory scrutiny",
+    "B": "Employee morale and turnover",
+    "C": "Reputational damage, because reputation and clients are the same consequence",
+    "D": "Client confidence and turnover"
+   },
+   "answer": "D",
+   "rationale": "Outcome 1.19 lists 'Client confidence and turnover' as a distinct consequence of unethical behaviour — clients losing faith and moving their accounts is precisely that item. Option C is the closest distractor: reputational damage is the harm to the firm's standing generally, and the syllabus lists it separately from the client-side confidence-and-turnover consequence, so collapsing the two misreads the list. Option A concerns regulators' increased attention, and option B concerns the workforce, not departing clients.",
+   "rule_refs": [
+    "Syllabus 1.19"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"• Client confidence and turnover\" — syllabus-raw.txt ~line 414"
+  },
+  {
+   "id": "SUP-E1-0140",
+   "element": 1,
+   "outcome": "1.20",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "At Vanscoy Bluff Securities, each Approved Person who identifies a material conflict with a client decides, alone and undocumented, how to handle it; the firm's position is that section 3111 makes addressing such conflicts the Approved Person's personal problem. A compliance review applies IDPC subsection 3112(3). What does that subsection require of the Dealer Member?",
+   "options": {
+    "A": "Nothing — the dealer's conflict duties end once it addresses firm-level conflicts under 3112(1)",
+    "B": "The dealer must adequately supervise how all material conflicts of interest between the client and the Approved Person are addressed by its Approved Persons pursuant to section 3111",
+    "C": "The dealer must transfer every Approved Person conflict file to CIRO for resolution",
+    "D": "The dealer must prohibit Approved Persons from ever identifying conflicts themselves"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3112(3) requires a Dealer Member to adequately supervise how all material conflicts of interest between the client and the Approved Person are addressed by its Approved Persons pursuant to section 3111 — the individual's duty to address conflicts does not relieve the firm of its supervision duty over how that is done. Option A stops at 3112(1), ignoring the supervision subsection; option C invents a CIRO file-transfer mechanism; option D inverts section 3110(2), which obliges Approved Persons to identify their conflicts.",
+   "rule_refs": [
+    "IDPC 3112(3)",
+    "IDPC 3111(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must adequately supervise how all material conflicts of interest between the client and the Approved Person are addressed by its Approved Persons pursuant to section 3111.\" — idpc-rules.txt ~line 3944"
+  },
+  {
+   "id": "SUP-E1-0141",
+   "element": 1,
+   "outcome": "1.21",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Comparing two outside-activity files, a Supervisor at Asquith Mills Securities notes that the syllabus's outcome 1.21 attaches the qualifier 'where applicable' to two of its requirements. Which two requirements carry that qualifier, signalling that they are triggered by the circumstances of the particular activity rather than applying to every file?",
+   "options": {
+    "A": "Written disclosure, and reporting obligations",
+    "B": "Prohibition, and approval",
+    "C": "Existing material conflicts, and reasonably foreseeable material conflicts",
+    "D": "Continuous service to clients, and potential conflicts of interest"
+   },
+   "answer": "A",
+   "rationale": "Outcome 1.21's parameter list reads 'Written disclosure, where applicable' and 'Reporting obligations, where applicable' — those are the two circumstance-triggered requirements, contrasted with the analysis of existing and reasonably foreseeable material conflicts of interest that applies to the situations generally. Option B names the first two branches of the outcome's prohibition/approval/disclosure/action framing, which are outcomes of the analysis, not the 'where applicable' parameters; option C quotes the conflicts parameter, which carries no such qualifier; option D quotes the policies-and-procedures topics from IDPC 2554(2)(iii), not the syllabus qualifiers.",
+   "rule_refs": [
+    "Syllabus 1.21"
+   ],
+   "difficulty": "hard",
+   "status": "killed",
+   "source_quote": "\"• Written disclosure, where applicable • Reporting obligations, where applicable\" — syllabus-raw.txt ~line 450",
+   "qa_note": "KILLED Gate 1 wave 8 (2026-06-05): solver answered B at medium confidence with ambiguity flag vs key A; strict rewrite-or-kill rule, no exceptions. Failure class = which-bullets-carry-a-qualifier meta-trivia (same class as wave-7 SUP-E4-0133 connective-trivia kill): asking which two 1.21 requirements carry \"where applicable\" is verbatim-recall an expert cannot reason to. Angle RETIRED — substantive 1.21 mechanics remain tested by 6 reviewed bank items (SUP-E1-0040, SUP-E1-0041, SUP-E1-0054, SUP-E1-0088, SUP-E1-0089, SUP-E1-0105); this batch ships 0 of 23 outcomes short (1.21) as a result — bank-level coverage unaffected."
+  },
+  {
+   "id": "SUP-E1-0142",
+   "element": 1,
+   "outcome": "1.22",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A licensed branch assistant at Perdue Lake Securities — an employee who is not an Approved Person — arranges, through her spouse's numbered company, to receive payments from a firm client for steering the client's affairs, reasoning that section 3115 'only binds Approved Persons, and the company is the one getting paid anyway.' Applying IDPC subsection 3115(1), her reasoning fails because the prohibition on personal financial dealings with clients:",
+   "options": {
+    "A": "Applies only to Registered Representatives with more than five years of service",
+    "B": "Applies only where the client complains about the arrangement",
+    "C": "Can be cured by routing payments through any corporation",
+    "D": "Extends to an employee or Approved Person of a Dealer Member, and covers dealings engaged in directly or indirectly"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3115(1) provides that an employee or Approved Person of a Dealer Member must not, directly or indirectly, engage in any personal financial dealings with clients — the prohibition reaches employees who are not Approved Persons, and 'directly or indirectly' defeats the interposed-company structure. Option C is the closest distractor because it isolates the routing argument the words 'or indirectly' exist to close. Options A and B invent a service-length threshold and a complaint trigger that appear nowhere in the rule.",
+   "rule_refs": [
+    "IDPC 3115(1)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"An employee or Approved Person of a Dealer Member must not, directly or indirectly, engage in any personal financial dealings with clients.\" — idpc-rules.txt ~line 3996"
+  },
+  {
+   "id": "SUP-E1-0143",
+   "element": 1,
+   "outcome": "1.23",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Biggar Heights Securities maps which of its functions, beyond investment banking and corporate finance, could expose staff to confidential information. The desk that executes buyback and treasury orders for corporate issuers is flagged. Which exposure path named in the syllabus's outcome 1.23 parameters does this desk illustrate?",
+   "options": {
+    "A": "Relationships with corporate insiders only",
+    "B": "Trading by issuers — one of the example channels through which other staff are exposed to confidential information",
+    "C": "The grey and restricted lists, which are themselves an exposure path",
+    "D": "Cybersecurity, because all order systems are electronic"
+   },
+   "answer": "B",
+   "rationale": "Outcome 1.23 identifies those exposed to receiving confidential information as investment banking and corporate finance staff, plus other staff exposed through, for example, trading by issuers, research departments, and relationships with corporate insiders — a desk handling issuers' own trading sits in the 'trading by issuers' channel. Option A names a different example channel that does not describe order execution for the issuer itself; options C and D confuse the containment processes (lists, cybersecurity) with the exposure paths the processes exist to contain.",
+   "rule_refs": [
+    "Syllabus 1.23"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Trading by issuers\" — syllabus-raw.txt ~line 423"
+  },
+  {
+   "id": "SUP-E1-0144",
+   "element": 1,
+   "outcome": "1.14",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-06",
+   "scenario": "Solveig Krogh is the designated complaints officer at Bonshaw Harbour Securities, an Investment Dealer. Retail client Tavish Moncrieff rejected the firm's substantive response to his complaint about losses in his account. He has since requested arbitration under the Corporation-approved arbitration program, and in parallel the approved ombudsman service has opened a review of a related aspect of his dispute and has asked the firm for trading records. Meanwhile, Solveig learns that the Registered Representative involved, Dmytro Vahtra, quietly paid Mr. Moncrieff $2,500 from personal funds months earlier without telling anyone at the firm, and CIRO Enforcement Staff have applied to a hearing panel for a temporary order against Mr. Vahtra without notice to him, citing risk to the public interest.",
+   "stem": "Bonshaw Harbour's counsel suggests the firm respond to Mr. Moncrieff's arbitration request by participating 'only as far as it suits the firm' and treating any award as advisory. Under IDPC section 9502, what is the firm's actual position?",
+   "options": {
+    "A": "Because the client requested arbitration the firm must submit to the program, and under subsection 9502(5) it must comply with the arbitration program's requirements and decisions — selective participation is not available",
+    "B": "The firm may decline arbitration if it prefers litigation",
+    "C": "Arbitration awards bind only the client, never the dealer",
+    "D": "The firm may participate but any award converts automatically into a non-binding recommendation"
+   },
+   "answer": "A",
+   "rationale": "Subsection 9502(4) provides that if a client requests arbitration, the Dealer Member involved must submit to binding arbitration in any dispute between the Dealer Member and the client, and subsection 9502(5) adds that the Dealer Member must comply with the arbitration program's requirements and decisions — participation and compliance are mandatory, and the decisions bind. Option B treats a mandatory program as elective; option C inverts who is bound; option D imports the non-binding character of ombudsman recommendations under 9503(6) into the arbitration regime, where it does not apply.",
+   "rule_refs": [
+    "IDPC 9502(4)",
+    "IDPC 9502(5)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"The Dealer Member must comply with the arbitration program’s requirements and decisions.\" — idpc-rules.txt ~line 20213"
+  },
+  {
+   "id": "SUP-E1-0145",
+   "element": 1,
+   "outcome": "1.14",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-06",
+   "scenario": "Solveig Krogh is the designated complaints officer at Bonshaw Harbour Securities, an Investment Dealer. Retail client Tavish Moncrieff rejected the firm's substantive response to his complaint about losses in his account. He has since requested arbitration under the Corporation-approved arbitration program, and in parallel the approved ombudsman service has opened a review of a related aspect of his dispute and has asked the firm for trading records. Meanwhile, Solveig learns that the Registered Representative involved, Dmytro Vahtra, quietly paid Mr. Moncrieff $2,500 from personal funds months earlier without telling anyone at the firm, and CIRO Enforcement Staff have applied to a hearing panel for a temporary order against Mr. Vahtra without notice to him, citing risk to the public interest.",
+   "stem": "An executive worries that everything Bonshaw Harbour submits to the ombudsman service's review will flow straight to CIRO and be used against the firm. Under IDPC subsection 9504(3), how is information the ombudsman receives in its review actually treated?",
+   "options": {
+    "A": "The ombudsman files all review materials with CIRO as a matter of routine",
+    "B": "The ombudsman shares review materials with CIRO whenever CIRO asks",
+    "C": "The ombudsman may not provide the Corporation with any information or records of its service received relating to a review, except information relating to an allegation that the dealer gave the ombudsman information it knew was false intending to mislead, or failed to provide information as required",
+    "D": "The ombudsman must destroy all review materials at the end of each review"
+   },
+   "answer": "C",
+   "rationale": "Subsection 9504(3) shields the ombudsman's review file: the ombudsman may not provide the Corporation with any information or records of its service received relating to a review or investigation, except information relating to a Corporation investigation or hearing allegation that the Dealer Member provided information it knew was false and intended to mislead the ombudsman, or failed to provide information as required by section 9504. Options A and B describe routine or on-demand sharing the subsection forbids; option D invents a destruction mandate. The narrow exceptions target abuse of the ombudsman process itself, not the underlying dispute.",
+   "rule_refs": [
+    "IDPC 9504(3)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"The ombudsman may not provide the Corporation with any information or records of its service received relating to a review or investigation\" — idpc-rules.txt ~line 20231"
+  },
+  {
+   "id": "SUP-E1-0146",
+   "element": 1,
+   "outcome": "1.16",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-06",
+   "scenario": "Solveig Krogh is the designated complaints officer at Bonshaw Harbour Securities, an Investment Dealer. Retail client Tavish Moncrieff rejected the firm's substantive response to his complaint about losses in his account. He has since requested arbitration under the Corporation-approved arbitration program, and in parallel the approved ombudsman service has opened a review of a related aspect of his dispute and has asked the firm for trading records. Meanwhile, Solveig learns that the Registered Representative involved, Dmytro Vahtra, quietly paid Mr. Moncrieff $2,500 from personal funds months earlier without telling anyone at the firm, and CIRO Enforcement Staff have applied to a hearing panel for a temporary order against Mr. Vahtra without notice to him, citing risk to the public interest.",
+   "stem": "Mr. Vahtra argues his quiet $2,500 personal payment was not a 'settlement agreement' needing consent because nothing was signed — it was just money. Under the IDPC personal-financial-dealings provisions, which characterization is correct?",
+   "options": {
+    "A": "He is right: only formal signed settlement documents engage the consent requirement",
+    "B": "The payment is permitted if Mr. Moncrieff accepted it willingly",
+    "C": "The consent requirement applies only when CIRO has already opened a file",
+    "D": "Personal financial dealings include both entering into a settlement agreement without the dealer's prior written consent and paying for client account losses out of personal funds without the dealer's prior written consent — his payment falls within the prohibition either way"
+   },
+   "answer": "D",
+   "rationale": "Clause 3115(2)(ii) lists two prohibited forms under 'Settlement agreements without the Dealer Member's approval': (a) entering into a settlement agreement without the Dealer Member's prior written consent, and (b) paying for client account losses out of personal funds without the Dealer Member's prior written consent — an unsigned cash payment to cover the client's losses is captured by (b) even on his own framing, and section 3710(1) separately applies regardless of the form of the settlement. Client willingness (B) is irrelevant to the consent requirement; the rule is not triggered by a CIRO file (C); and the no-signature argument (A) ignores both limb (b) and 3710(1)'s 'regardless of the form' language.",
+   "rule_refs": [
+    "IDPC 3115(2)(ii)",
+    "IDPC 3710(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Paying for client account losses out of personal funds without the Dealer Member’s prior written consent.\" — idpc-rules.txt ~line 4008"
+  },
+  {
+   "id": "SUP-E1-0147",
+   "element": 1,
+   "outcome": "1.16",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-06",
+   "scenario": "Solveig Krogh is the designated complaints officer at Bonshaw Harbour Securities, an Investment Dealer. Retail client Tavish Moncrieff rejected the firm's substantive response to his complaint about losses in his account. He has since requested arbitration under the Corporation-approved arbitration program, and in parallel the approved ombudsman service has opened a review of a related aspect of his dispute and has asked the firm for trading records. Meanwhile, Solveig learns that the Registered Representative involved, Dmytro Vahtra, quietly paid Mr. Moncrieff $2,500 from personal funds months earlier without telling anyone at the firm, and CIRO Enforcement Staff have applied to a hearing panel for a temporary order against Mr. Vahtra without notice to him, citing risk to the public interest.",
+   "stem": "The hearing panel grants the without-notice temporary order suspending Mr. Vahtra's rights and privileges. His lawyer protests that an order made without notice could hang over him indefinitely. Under IDPC subsection 8211(2), what is the order's actual duration?",
+   "options": {
+    "A": "It expires 15 days after the date on which it is made, unless a hearing is commenced within that period to confirm or set it aside, Mr. Vahtra consents to an extension, or a securities regulatory authority orders otherwise",
+    "B": "It is permanent unless overturned on appeal to the courts",
+    "C": "It expires after 90 days, matching the complaint-response time line",
+    "D": "It expires only when the underlying enforcement hearing concludes, however long that takes"
+   },
+   "answer": "A",
+   "rationale": "Subsection 8211(2) provides that a temporary order made without notice under 8211(1) expires 15 days after the date on which it is made, unless a hearing is commenced within that period to confirm or set aside the order, the Regulated Person consents to an extension, or a securities regulatory authority orders otherwise — the without-notice procedure is balanced by a short automatic expiry. Option B converts a temporary measure into a permanent one; option C borrows the 90-day complaint clock from Rule 3700; option D describes the indefinite duration the 15-day expiry exists to prevent.",
+   "rule_refs": [
+    "IDPC 8211(2)",
+    "IDPC 8211(1)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"A temporary order that is made without notice under subsection 8211(1) expires 15 days after the date on which it is made\" — idpc-rules.txt ~line 18324"
+  },
+  {
+   "id": "SUP-E1-0148",
+   "element": 1,
+   "outcome": "1.4",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-07",
+   "scenario": "Marisol Quintero, a newly designated Supervisor at Keremeos Pass Securities, an Investment Dealer, is preparing a market-infrastructure briefing for incoming staff. Her outline must correctly place four entities and frameworks from the Supervisor Exam's Element 1: the regulated overseas organized market where the firm routes some interlisted orders; the clearing agency standing behind the firm's exchange-traded options business; the protection framework that responds if an Investment Dealer becomes insolvent; and the self-regulatory organization whose mandate, rule books and enforcement powers govern Keremeos Pass itself.",
+   "stem": "For the regulated overseas organized market where Keremeos Pass routes some interlisted orders, which outcome 1.4 marketplace category should Marisol's briefing use?",
+   "options": {
+    "A": "Crypto-Asset Trading Platform (CTP)",
+    "B": "Clearing agency, because the venue is outside Canada",
+    "C": "Foreign Organized Regulated Market (FORM)",
+    "D": "Exchange, because every foreign venue is an exchange by default"
+   },
+   "answer": "C",
+   "rationale": "Outcome 1.4's marketplace categories are exchanges, Alternative Trading Systems (ATS), Crypto-Asset Trading Platforms (CTPs), and Foreign Organized Regulated Markets (FORM) — an organized, regulated market outside Canada is the FORM category. Option D is the closest distractor because some foreign venues are exchanges, but the syllabus provides the dedicated FORM category for the foreign organized regulated market as such; option A requires crypto assets; option B confuses marketplaces, where orders interact, with the post-trade clearing function of outcome 1.5.",
+   "rule_refs": [
+    "Syllabus 1.4"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Foreign Organized Regulated Markets (FORM)\" — syllabus-raw.txt ~line 192"
+  },
+  {
+   "id": "SUP-E1-0149",
+   "element": 1,
+   "outcome": "1.5",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-07",
+   "scenario": "Marisol Quintero, a newly designated Supervisor at Keremeos Pass Securities, an Investment Dealer, is preparing a market-infrastructure briefing for incoming staff. Her outline must correctly place four entities and frameworks from the Supervisor Exam's Element 1: the regulated overseas organized market where the firm routes some interlisted orders; the clearing agency standing behind the firm's exchange-traded options business; the protection framework that responds if an Investment Dealer becomes insolvent; and the self-regulatory organization whose mandate, rule books and enforcement powers govern Keremeos Pass itself.",
+   "stem": "For the clearing agency standing behind the firm's exchange-traded options business, Marisol's briefing should name which entity from outcome 1.5?",
+   "options": {
+    "A": "The Canadian Depository for Securities Limited (CDS)",
+    "B": "The Canadian Derivatives Clearing Corporation (CDCC)",
+    "C": "The Canadian Investor Protection Fund (CIPF)",
+    "D": "A Foreign Organized Regulated Market (FORM)"
+   },
+   "answer": "B",
+   "rationale": "Outcome 1.5 names the Canadian Derivatives Clearing Corporation (CDCC) alongside the Canadian Depository for Securities Limited (CDS) as the clearing agencies a Supervisor must understand; exchange-traded options are derivatives, placing the firm's options business behind CDCC. CDS (A) is the closest distractor as the other listed clearing agency — the securities depository side. CIPF (C) is the investor-protection fund under outcome 1.6, not a clearing agency, and a FORM (D) is a marketplace category under outcome 1.4.",
+   "rule_refs": [
+    "Syllabus 1.5"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"Understand the role and authority of clearing agencies. Consider: • Canadian Depository for Securities Limited (CDS) • Canadian Derivatives Clearing Corporation (CDCC)\" — syllabus-raw.txt ~line 200"
+  },
+  {
+   "id": "SUP-E1-0150",
+   "element": 1,
+   "outcome": "1.6",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-07",
+   "scenario": "Marisol Quintero, a newly designated Supervisor at Keremeos Pass Securities, an Investment Dealer, is preparing a market-infrastructure briefing for incoming staff. Her outline must correctly place four entities and frameworks from the Supervisor Exam's Element 1: the regulated overseas organized market where the firm routes some interlisted orders; the clearing agency standing behind the firm's exchange-traded options business; the protection framework that responds if an Investment Dealer becomes insolvent; and the self-regulatory organization whose mandate, rule books and enforcement powers govern Keremeos Pass itself.",
+   "stem": "A trainee drafts a slide stating: 'CIPF approves new Investment Dealers, disciplines Approved Persons, and clears derivatives trades.' Measured against the outcome 1.6 parameters, why must Marisol reject this slide?",
+   "options": {
+    "A": "Because CIPF performs only the first two functions, not clearing",
+    "B": "Because the slide omits CIPF's role in setting margin rates",
+    "C": "Because CIPF performs those functions only in Ontario",
+    "D": "Because none of those is CIPF's role: the outcome 1.6 parameters define CIPF by its purpose and objective, funding requirements by Investment Dealers, governance structure, and its role in an Investment Dealer's bankruptcy/insolvency, including pooling of client assets"
+   },
+   "answer": "D",
+   "rationale": "The outcome 1.6 parameters cast CIPF entirely in protection terms — purpose and objective, funding requirements by Investment Dealers, governance structure, and the role in an Investment Dealer's bankruptcy/insolvency, including pooling of client assets. Approval and discipline are CIRO functions under outcome 1.2, and clearing belongs to CDS/CDCC under outcome 1.5, so every function on the trainee's slide is misattributed — option A wrongly concedes two of the three; options B and C invent a margin-setting role and a provincial limitation found nowhere in the parameters.",
+   "rule_refs": [
+    "Syllabus 1.6"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"Role of CIPF in an Investment Dealer’s bankruptcy/insolvency, including pooling of client assets\" — syllabus-raw.txt ~line 216"
+  },
+  {
+   "id": "SUP-E1-0151",
+   "element": 1,
+   "outcome": "1.2",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-07",
+   "scenario": "Marisol Quintero, a newly designated Supervisor at Keremeos Pass Securities, an Investment Dealer, is preparing a market-infrastructure briefing for incoming staff. Her outline must correctly place four entities and frameworks from the Supervisor Exam's Element 1: the regulated overseas organized market where the firm routes some interlisted orders; the clearing agency standing behind the firm's exchange-traded options business; the protection framework that responds if an Investment Dealer becomes insolvent; and the self-regulatory organization whose mandate, rule books and enforcement powers govern Keremeos Pass itself.",
+   "stem": "For the briefing's final slide — the self-regulatory organization whose mandate, rule books and enforcement powers govern Keremeos Pass itself — Marisol checks syllabus outcome 1.2 for the parameters that describe what CIRO is for and what instruments it wields. Which pairing is drawn from that outcome's parameter list?",
+   "options": {
+    "A": "The mandate and objectives of CIRO; and the Investment Dealer and Partially Consolidated (IDPC) Rules together with the Universal Market Integrity Rules (UMIR)",
+    "B": "The mandate and objectives of the CSA; and National Instruments",
+    "C": "The purpose and objective of CIPF; and its governance structure",
+    "D": "The stages of money laundering; and the PCMLTFA Regulations"
+   },
+   "answer": "A",
+   "rationale": "Outcome 1.2's parameters include the 'Mandate and objectives of CIRO' and name its two rule books — the Investment Dealer and Partially Consolidated (IDPC) Rules and the Universal Market Integrity Rules (UMIR) — which is the correct pairing for the self-regulatory organization governing the dealer. Option B is the closest distractor: it substitutes the CSA's mandate and instruments, which belong to outcome 1.1. Option C pairs CIPF parameters from outcome 1.6, and option D pairs PCMLTFA topics from outcome 1.10 — neither describes CIRO.",
+   "rule_refs": [
+    "Syllabus 1.2"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"• Investment Dealer and Partially Consolidated (IDPC) Rules • Universal Market Integrity Rules (UMIR)\" — syllabus-raw.txt ~line 219",
+   "qa_note": "Gate 2 wave 8: quote consolidated to the contiguous IDPC/UMIR bullet pair; \"Mandate and objectives of CIRO\" verifies verbatim at ~215."
+  },
+  {
+   "id": "SUP-E1-0152",
+   "element": 1,
+   "outcome": "1.17",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E1-SET-08",
+   "scenario": "Lestock Bridge Capital, an Investment Dealer, is dealing with the aftermath of a trading-floor episode. A senior trader, Ousmane Bizimana, circulated fabricated screenshots of order books to outside contacts as a joke; the images went viral and were widely read as evidence that prices on a Canadian marketplace were being manipulated, even though no client of the firm was harmed and no actual trading was affected. An internal review also finds that the episode was possible because the firm had never trained the trading floor on external-communication ethics, and executives propose handling the entire matter quietly with no staff communication. The firm now assesses the conduct and its institutional response under CIRO standards and the syllabus's ethics framework.",
+   "stem": "Mr. Bizimana argues that because no client lost money and no trade was affected, his fabricated screenshots cannot contravene the standards of conduct. Which limb of IDPC subsection 1402(2) most directly defeats this argument?",
+   "options": {
+    "A": "The limb addressing conduct that fails to comply with a contractual obligation",
+    "B": "The limb addressing negligence in record-keeping",
+    "C": "The limb capturing business conduct that is likely to diminish investor confidence in the integrity of securities or derivatives markets",
+    "D": "There is none — subsection 1402(2) requires demonstrated client losses"
+   },
+   "answer": "C",
+   "rationale": "Clause 1402(2)(iv) provides that business conduct that is likely to diminish investor confidence in the integrity of securities or derivatives markets may be conduct that contravenes the subsection 1402(1) standards — fabricated images publicly read as evidence of market manipulation strike at investor confidence even with no client loss or trade impact, which is exactly the harm this limb captures. Option A points to the contractual-obligation limb, which is not the operative wrong here; option B miscasts the conduct as a record-keeping lapse; option D inverts the provision — none of the 1402(2) limbs requires demonstrated client losses.",
+   "rule_refs": [
+    "IDPC 1402(2)",
+    "Syllabus 1.17"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"is likely to diminish investor confidence in the integrity of securities or derivatives markets,\" — idpc-rules.txt ~line 906"
+  },
+  {
+   "id": "SUP-E1-0153",
+   "element": 1,
+   "outcome": "1.18",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E1-SET-08",
+   "scenario": "Lestock Bridge Capital, an Investment Dealer, is dealing with the aftermath of a trading-floor episode. A senior trader, Ousmane Bizimana, circulated fabricated screenshots of order books to outside contacts as a joke; the images went viral and were widely read as evidence that prices on a Canadian marketplace were being manipulated, even though no client of the firm was harmed and no actual trading was affected. An internal review also finds that the episode was possible because the firm had never trained the trading floor on external-communication ethics, and executives propose handling the entire matter quietly with no staff communication. The firm now assesses the conduct and its institutional response under CIRO standards and the syllabus's ethics framework.",
+   "stem": "The internal review attributes the episode partly to the firm never having educated the trading floor on external-communication ethics, and the executives' quiet-handling proposal would keep staff uninformed even now. Mapped to the syllabus's outcome 1.18 pillars, the firm's existing gap and the proposal together implicate which pillars?",
+   "options": {
+    "A": "Only dealing with compensation conflicts, since traders are paid on performance",
+    "B": "Training and awareness (the never-trained floor) and transparency (the proposal to conceal the episode from staff)",
+    "C": "Neither — outcome 1.18 pillars apply only to boards of public companies",
+    "D": "Only oversight and accountability, because an executive proposed the quiet handling"
+   },
+   "answer": "B",
+   "rationale": "Outcome 1.18's pillars are transparency, dealing with compensation conflicts, oversight and accountability, and training and awareness. A trading floor never educated on the relevant ethics is a training-and-awareness gap, and deliberately concealing the episode and its lessons from staff offends transparency. Option A reaches for compensation conflicts on facts that show none; option D names a real pillar but captures only who made the proposal, not the two failures identified; option C invents a public-company limitation absent from the parameter.",
+   "rule_refs": [
+    "Syllabus 1.18"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"• Training and awareness\" — syllabus-raw.txt ~line 396",
+   "qa_note": "Gate 2 wave 8: single-bullet span (24 chars, clears the 20-char threshold); \"Transparency\" (keyed jointly) verifies verbatim at ~384; 1.18 bullets are interleaved with 1.22 bullets by two-column extraction so no longer clean span exists."
+  },
+  {
+   "id": "SUP-E1-0154",
+   "element": 1,
+   "outcome": "1.19",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-08",
+   "scenario": "Lestock Bridge Capital, an Investment Dealer, is dealing with the aftermath of a trading-floor episode. A senior trader, Ousmane Bizimana, circulated fabricated screenshots of order books to outside contacts as a joke; the images went viral and were widely read as evidence that prices on a Canadian marketplace were being manipulated, even though no client of the firm was harmed and no actual trading was affected. An internal review also finds that the episode was possible because the firm had never trained the trading floor on external-communication ethics, and executives propose handling the entire matter quietly with no staff communication. The firm now assesses the conduct and its institutional response under CIRO standards and the syllabus's ethics framework.",
+   "stem": "Within weeks of the screenshots going viral, the regulator opens inquiries into the firm's communication controls, national media coverage damages the firm's public standing, and several embarrassed employees begin job-hunting. Mapping these three developments to the syllabus's outcome 1.19 list, they correspond respectively to:",
+   "options": {
+    "A": "Regulatory scrutiny; reputational damage; and employee morale and turnover",
+    "B": "Legal consequences; client confidence and turnover; and transparency",
+    "C": "Pooling of client assets; regulatory scrutiny; and training and awareness",
+    "D": "Reputational damage; legal consequences; and oversight and accountability"
+   },
+   "answer": "A",
+   "rationale": "The outcome 1.19 consequences are legal consequences, reputational damage, regulatory scrutiny, employee morale and turnover, and client confidence and turnover. The regulator's inquiries are regulatory scrutiny; damaged public standing is reputational damage; and embarrassed staff job-hunting is employee morale and turnover. Option B miscodes the inquiries as legal consequences (no lawsuit or charge yet exists) and imports transparency from the 1.18 pillars; options C and D mix in CIPF's pooling role and 1.18 governance pillars, neither of which is a 1.19 consequence.",
+   "rule_refs": [
+    "Syllabus 1.19"
+   ],
+   "difficulty": "medium",
+   "status": "killed",
+   "source_quote": "\"• Legal consequences • Reputational damage • Regulatory scrutiny\" — syllabus-raw.txt ~line 404",
+   "qa_note": "Gate 2 wave 8: single-span fix covering two of three keyed consequences; \"Employee morale and turnover\" verifies verbatim at ~410 (layout interleave). KILLED Gate 3 wave 8 (2026-06-05): keyed-option same-fact adjudication vs reviewed SUP-E1-0035 (key Jaccard 0.67, Syllabus 1.19) — keyed option is a three-member subset mapping of 0035's keyed five-member consequences list; the discriminating knowledge reduces to the same list membership. Precedent: every above-threshold same-family pair in waves 6-7 not constituting a different-subsection design was killed. E1-SET-08 ships at 3 (E5-SET-08/E9-SET-03 precedent)."
+  },
+  {
+   "id": "SUP-E1-0155",
+   "element": 1,
+   "outcome": "1.12",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E1-SET-08",
+   "scenario": "Lestock Bridge Capital, an Investment Dealer, is dealing with the aftermath of a trading-floor episode. A senior trader, Ousmane Bizimana, circulated fabricated screenshots of order books to outside contacts as a joke; the images went viral and were widely read as evidence that prices on a Canadian marketplace were being manipulated, even though no client of the firm was harmed and no actual trading was affected. An internal review also finds that the episode was possible because the firm had never trained the trading floor on external-communication ethics, and executives propose handling the entire matter quietly with no staff communication. The firm now assesses the conduct and its institutional response under CIRO standards and the syllabus's ethics framework.",
+   "stem": "Remediating, Lestock Bridge adopts a strict internal code on external communications that goes well beyond what any rule or client agreement requires, and binds all staff to it. In the outcome 1.12 classification of the Investment Dealer's obligations, the duties created by this internal code are:",
+   "options": {
+    "A": "Legislative, because the code responds to a regulatory episode",
+    "B": "Contractual, because employees are paid to follow it",
+    "C": "Inapplicable, because outcome 1.12 covers only duties owed to clients with open accounts",
+    "D": "Organizational — obligations arising from the firm's own internal framework, the third source alongside legislative and contractual obligations"
+   },
+   "answer": "D",
+   "rationale": "Outcome 1.12 classifies the Investment Dealer's obligations to clients and others into legislative, contractual, and organizational sources; a self-imposed internal code stricter than any rule or agreement is the organizational source — the firm's own framework. Option A confuses what prompted the code with its legal source: it is not legislation. Option B stretches the employment relationship to relabel an internal standard as a client-facing contractual obligation. Option C truncates the outcome, which expressly covers obligations 'to clients and others.'",
+   "rule_refs": [
+    "Syllabus 1.12"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Understand the Investment Dealer's obligations to clients and others. Consider: • Legislative\" — syllabus-raw.txt ~line 357",
+   "qa_note": "Gate 2 wave 8: layout artifact (same as SUP-E1-0128): keyed bullet \"• Organizational\" verifies verbatim at ~371 but is below the 20-char threshold in isolation."
+  }
+ ]
+}

@@ -1,0 +1,1163 @@
+{
+ "meta": {
+  "batch": "E5-003",
+  "drafted": 50,
+  "date": "2026-06-05",
+  "corpus": [
+   "research/sources/rules/idpc-rules.txt",
+   "research/sources/rules/umir.txt",
+   "research/sources/rules/gn-3900-20-001.txt",
+   "research/sources/syllabus-raw.txt"
+  ],
+  "novelty": "Tested-angle inventory built from all 108 reviewed E5 items (seed 0001-0008 + batches 001/002, all merged into bank.json) plus a bank-wide keyed-fact index over 920 reviewed items and all concurrent draft batch files, with special attention to E7's 96 reviewed items' UMIR coverage (10.16 family, 10.17, Policy 7.1 Parts 1-5/7/10-14, 7.1(6)-(10) all mined by E7 and avoided as keyed facts). Near-misses rewritten: 13 total. (a) 7 during planning before drafting: a 5.5 item keyed on 3222(3)(ii) notice timing (vs SUP-E6-0092) became the temporary-hold definition item; a 5.9 Policy 7.1 Part 5 end-of-period-timing item (vs SUP-E5-0074/SUP-E7-0044) became the limited-liquidity fact; a 5.10 annual-reconfirmation item (vs SUP-E5-0099/SUP-E7-0077) became the 7.13(3)(a)(v) self-reporting fact; a 5.7 dually-registered item (vs SUP-E5-0027/SUP-E2-0086) was re-planned; a 5.2 employee-account item (vs SUP-E5-0107/SUP-E9-0089) became the GN review-timing fact; a 5.15 fair-allocation item (vs SUP-E5-0054/SUP-E4-0038) became the 3972(1)(ii) recommendation duty; a 5.12 alternate-supervisor item (vs SUP-E5-0043/SUP-E2-0029) became the 1201 designated-Supervisor Part F role definition. (b) 6 after the automated collision scan of the drafted 50 against the full bank + all batches: SUP-E5-0120 (GN $20,000/$5.00 daily criterion, key Jaccard 0.91 vs reviewed SUP-E5-0068's $5,000/<$5.00 fact) rewritten to the GN s.2 alternative-supervisory-system fact under 5.1, which also resolved an intra-batch duplicate with the bond-$100,000 item; SUP-E5-0123 (GN s.2.2.2 producing first-level Supervisors criterion, 0.88 vs reviewed SUP-E3-0089) rewritten as an inverse which-arrangement-violates construction on the dually-registered cross-supervision fact with a violation-phrased key (Jaccard 0.24 vs SUP-E5-0027); SUP-E5-0128 (UMIR 10.18(2)(a) termination report, Jaccard 1.0 vs concurrent draft SUP-E7-0103) rewritten to the 10.18(2)(b) breach-belief report; SUP-E5-0148 (GN 21-day monthly completion, same fact as reviewed SUP-E5-0024 though below the Jaccard threshold) re-keyed to the GN selection-design-to-detect principle; SUP-E5-0154 (UMIR 7.13(4)(b) order-level controls, 0.62 vs reviewed SUP-E5-0035 — same fact) re-keyed to 7.13(4)(a) standards/compliance preconditions with the SET-07 scenario fact (4) rewritten to match; SUP-E5-0156 (IDPC 3963(1)(vii) restricted-list derivative, 0.67 vs reviewed SUP-E5-0034's 3950(2)(iii) twin text) rewritten to the previously unkeyed IDPC 3255(1) position/exercise-limit compliance duty with the SET-08 scenario finding (2) rewritten to match. SUP-E5-0139's supporting quote span was also moved off the span shared with SUP-E3-0085 (different keyed facts). Final automated scans (rule_ref collision, stem-token Jaccard > 0.5, keyed-option Jaccard >= 0.65 with shared rule_ref family) report zero collisions against bank.json, seed-questions.json and every other batch file, and zero intra-batch collisions. Honest exclusions: outcome 5.9's 'trading activity around margin/reduced margin rates and price thresholds' parameter remains unsourceable beyond already-mined text (wave-4 finding confirmed; 5.9 is instead covered via the untested 3950(2)(vii) limits fact, two untested Policy 7.1 Part 5 monitoring facts, and UMIR 10.18(2)(b)); 5.11 CFD undertakings remain sourceable only via already-mined IDPC 3241/3955 prohibitions, so the 5.11 items use the untested 3241(1)(ii)(b) Corporation-set order threshold, 3241(4) acknowledgement-record forms, and 3241(18) labeling/no-consolidation subsections; outcome 5.7's quotable corpus (GN s.1.1.2/s.2.2 and UMIR Policy 7.1 Part 2) is keyed-fact-exhausted by reviewed items, so 5.7 carries exactly one item, an inverse-direction construction whose keyed option is the violating arrangement rather than the rule text. All invented firm and person names were grepped case-insensitively across bank.json, seed-questions.json and all batch files; four collisions found and mutated (Brockleigh->Brockfenner, Carraway->Calverhall, Thackeray->Thackwold, Meridian Falls->Marrowfield; suggested-pool names Okafor, Lindqvist, Harrowgate and Voss were already taken and not used)."
+ },
+ "questions": [
+  {
+   "id": "SUP-E5-0109",
+   "element": 5,
+   "outcome": "5.1",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Bryceland Markets is rolling out a new supervisory dashboard for its branch Supervisors. Under CIRO's account supervision guidance, which set of readily accessible client and account activity information should Supervisors have access to in order to review client accounts?",
+   "options": {
+    "A": "Trade blotters, commission grids, marketing materials and branch budgets",
+    "B": "Receipts, deposits, withdrawals and journal entries",
+    "C": "Credit bureau reports, tax filings, employment records and banking statements",
+    "D": "Order tickets only, since all other account information is reviewed by the compliance department"
+   },
+   "answer": "B",
+   "rationale": "The Guidance states that Supervisors should have access to the information necessary to properly conduct their supervision, and that reviewing client accounts requires readily accessible client and account activity information including receipts, deposits, withdrawals and journal entries. Option D is the closest distractor because order information is plainly needed, but the Guidance expressly extends required access beyond trade data to money- and position-movement records; A and C list items the Guidance does not enumerate.",
+   "rule_refs": [
+    "GN-3900-20-001 s.1.1.1",
+    "IDPC 3926(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"this includes readily accessible client and account activity information, including: receipts, deposits, withdrawals, and journal entries.\" — gn-3900-20-001.txt ~line 115"
+  },
+  {
+   "id": "SUP-E5-0110",
+   "element": 5,
+   "outcome": "5.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A new compliance analyst at Wycombe Capital asks what overarching standard section 3925 sets for the firm's supervision of account activity. Which statement is correct?",
+   "options": {
+    "A": "The Dealer Member must guarantee that no account activity ever breaches Corporation requirements",
+    "B": "The Dealer Member must review every trade in every account before settlement",
+    "C": "The Dealer Member need only supervise accounts that have been flagged as high risk",
+    "D": "The Dealer Member must effectively supervise account activity and take reasonable steps to provide reasonable assurance of compliance with Corporation requirements, securities laws and applicable laws"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3925(1) requires the Dealer Member to effectively supervise account activity and to take reasonable steps to provide reasonable assurance of compliance with Corporation requirements, securities laws and applicable laws. Option A is the closest distractor because it overstates the standard — the rule requires reasonable assurance through reasonable steps, not a guarantee of zero breaches; B imposes a universal pre-settlement review the rule does not contain, and C wrongly confines supervision to flagged accounts.",
+   "rule_refs": [
+    "IDPC 3925(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must effectively supervise account activity and must take reasonable steps to provide reasonable assurance of compliance with Corporation requirements, securities laws and applicable laws.\" — idpc-rules.txt ~line 8083"
+  },
+  {
+   "id": "SUP-E5-0111",
+   "element": 5,
+   "outcome": "5.2",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "While drafting the account supervision policies for Tindall Securities, a Supervisor lists the obligations that subsection 3926(2) says the policies and procedures must specifically address. Which of the following is NOT one of the three obligations enumerated in subsection 3926(2)?",
+   "options": {
+    "A": "Identifying clients that present a high risk to the Dealer Member",
+    "B": "Obtaining annual written attestations of good conduct from every retail client",
+    "C": "Identifying clients that present a high risk of conducting improper activities in the securities markets",
+    "D": "Complying with all anti-money laundering and terrorist financing requirements under applicable laws"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3926(2) enumerates exactly three obligations the policies and procedures must specifically address: identifying clients that present a high risk to the Dealer Member, identifying clients that present a high risk of conducting improper activities in the securities markets, and complying with all anti-money laundering and terrorist financing requirements under applicable laws. Client attestations of good conduct appear nowhere in the subsection. Option D is the closest distractor for candidates who associate AML obligations only with FINTRAC rather than the supervision rule, but it is expressly listed in 3926(2)(iii).",
+   "rule_refs": [
+    "IDPC 3926(2)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(ii) identify clients that present a high risk of conducting improper activities in the securities markets, and (iii) comply with all anti-money laundering and terrorist financing requirements under applicable laws.\" — idpc-rules.txt ~line 8099"
+  },
+  {
+   "id": "SUP-E5-0112",
+   "element": 5,
+   "outcome": "5.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Osmington Capital hires a Registered Representative who spent the last two years advising retail clients at a FINRA member firm in the United States. The branch Supervisor asks whether the mandatory six-month close supervision under section 3947 applies. Under subsection 3947(2), the close-supervision requirement does not apply if the Registered Representative was:",
+   "options": {
+    "A": "Recommended in writing by their previous employer",
+    "B": "Approved in any registration category, for any length of time, anywhere in the financial industry",
+    "C": "Previously approved, for six months or more, to advise on trades for retail clients for a securities firm that is a member of a SRO or a recognized foreign regulatory organization",
+    "D": "Supervised by a Portfolio Manager during their first month at the new firm"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3947(2) exempts a Registered Representative from the six-month close-supervision requirement only if they were previously approved, for six months or more, to advise on trades for retail clients for a securities firm that is a member of a SRO or a recognized foreign regulatory organization. Option B is the closest distractor — prior approval is the right concept, but the exemption requires six months or more in a retail-advising approval at an SRO or recognized foreign regulatory organization member, not any category anywhere; A and D substitute references and short-term arrangements the rule does not recognize.",
+   "rule_refs": [
+    "IDPC 3947(2)",
+    "IDPC 3947(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the Registered Representative was previously approved, for six months or more, to advise on trades for retail clients for a securities firm that is a member of a SRO or a recognized foreign regulatory organization\" — idpc-rules.txt ~line 8201"
+  },
+  {
+   "id": "SUP-E5-0113",
+   "element": 5,
+   "outcome": "5.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Each month, the Supervisor at Penhallow Securities completes the Registered Representative / Investment Representative Monthly Supervision Report for the firm's newly approved representatives. Under subsection 3947(3), what must the Dealer Member do with each completed report?",
+   "options": {
+    "A": "File it with the relevant provincial securities commission within five business days",
+    "B": "Deliver a copy to the Registered Representative for their personal records",
+    "C": "Destroy it once the six-month close-supervision period ends",
+    "D": "Complete and keep a copy of every report for the Corporation's inspection"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3947(3) requires the Dealer Member to complete and keep a copy of every Registered Representative / Investment Representative Monthly Supervision Report for the Corporation's inspection. Option A is the closest distractor because it involves a regulator, but the rule requires retention for CIRO's inspection, not filing with a securities commission; B confers the copy on the wrong party, and C contradicts the retention obligation.",
+   "rule_refs": [
+    "IDPC 3947(3)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must complete and keep a copy of every Registered Representative / Investment Representative Monthly Supervision Report for the Corporation’s inspection.\" — idpc-rules.txt ~line 8207"
+  },
+  {
+   "id": "SUP-E5-0114",
+   "element": 5,
+   "outcome": "5.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Compliance at Ravensmoor Direct, a Participant offering an order execution service, notes that no employee sees a client's order before it reaches the marketplace. According to UMIR Policy 7.1 Part 1, why must the firm's post order entry compliance testing be designed with this in mind?",
+   "options": {
+    "A": "Because the limited involvement of staff of the Participant in the entry of these orders may restrict the ability of the Participant to detect orders that are not in compliance with specific rules",
+    "B": "Because client-entered orders are exempt from UMIR until they execute",
+    "C": "Because the Market Regulator performs all compliance testing for orders entered through an order execution service",
+    "D": "Because orders entered through an order execution service are deemed compliant once accepted by the marketplace"
+   },
+   "answer": "A",
+   "rationale": "Policy 7.1 Part 1 states that post order entry compliance testing should recognize that the limited involvement of staff of the Participant in the entry of orders by a client through an order execution service may restrict the ability of the Participant to detect orders that are not in compliance with specific rules. Option D is the closest distractor because marketplace acceptance can be mistaken for a compliance check, but acceptance does not validate compliance and the Participant retains responsibility; B and C wrongly remove the orders from UMIR or shift testing to the Market Regulator.",
+   "rule_refs": [
+    "UMIR Policy 7.1 Part 1",
+    "IDPC 3955(2)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"client through an order execution service may restrict the ability of the Participant to detect orders that are not in compliance with specific rules.\" — umir.txt ~line 6695"
+  },
+  {
+   "id": "SUP-E5-0115",
+   "element": 5,
+   "outcome": "5.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Ashbrook Trading, a Participant, is building its post order entry compliance tests for client orders entered through its order execution service. Per UMIR Policy 7.1 Part 1, one example test is whether such an order is an unmarked short sale. In what circumstance does the Policy indicate this test is relevant?",
+   "options": {
+    "A": "Only where the client has previously been sanctioned for short selling",
+    "B": "Only where the security is on the firm's restricted list",
+    "C": "Only where the order exceeds 50 standard trading units",
+    "D": "If the trading system of the Participant does not automatically code as \"short\" any sale of a security not then held in the account of the client, other than a client required to use the short-marking exempt designation"
+   },
+   "answer": "D",
+   "rationale": "Policy 7.1 Part 1 gives, as an example of post order entry compliance testing, checking whether an order is an unmarked short sale if the trading system of the Participant does not automatically code as 'short' any sale of a security not then held in the account of the client, other than a client required to use the 'short-marking exempt' designation. Option C is the closest distractor because it borrows a genuine UMIR threshold (the order-exposure unit count) from a different supervision context; A and B condition the test on history or restricted status, which the Policy does not.",
+   "rule_refs": [
+    "UMIR Policy 7.1 Part 1",
+    "IDPC 3955(2)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"is an unmarked short sale (if the trading system of the Participant does not automatically code as “short” any sale of a security not then held in the account of the client\" — umir.txt ~line 6703"
+  },
+  {
+   "id": "SUP-E5-0116",
+   "element": 5,
+   "outcome": "5.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A Supervisor at Kestlewood Wealth is training branch staff on the firm's vulnerable-client procedures and asks what a \"temporary hold\" actually covers under the IDPC Rules. As defined in the Rules, a temporary hold is a hold placed on:",
+   "options": {
+    "A": "The purchase or sale of a security on behalf of a client, or on the withdrawal or transfer of cash or securities from a client's account",
+    "B": "Only the withdrawal of cash from a client's account",
+    "C": "All activity of every kind in every account held by the client at any financial institution",
+    "D": "The client's ability to communicate trading instructions to the firm"
+   },
+   "answer": "A",
+   "rationale": "The Rule 1200 definition states that a temporary hold means a hold that is placed on the purchase or sale of a security on behalf of a client or on the withdrawal or transfer of cash or securities from a client's account. Option B is the closest distractor because cash withdrawals are the classic exploitation scenario, but the definition also covers purchases, sales and transfers of securities; C extends the hold beyond the Dealer Member's own accounts, and D describes a communication restriction the definition does not contain.",
+   "rule_refs": [
+    "IDPC 1201 \"temporary hold\"",
+    "IDPC 3222(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"means a hold that is placed on the purchase or sale of a security on behalf of a client or on the withdrawal or transfer of cash or securities from a client’s account.\" — idpc-rules.txt ~line 831"
+  },
+  {
+   "id": "SUP-E5-0117",
+   "element": 5,
+   "outcome": "5.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Branch staff at Mossbank Securities debate whether a middle-aged client recovering from a serious illness can be a \"vulnerable client\" for temporary-hold purposes, since he is not elderly. Under the definition in Rule 3200, a vulnerable client means a client who:",
+   "options": {
+    "A": "Is over the age of 65 and holds a registered account",
+    "B": "Has formally been declared incapable by a court",
+    "C": "Might have an illness, impairment, disability or aging-process limitation that places the client at risk of financial exploitation",
+    "D": "Has granted a power of attorney over their account to a family member"
+   },
+   "answer": "C",
+   "rationale": "The definition states that a vulnerable client means a client who might have an illness, impairment, disability or aging-process limitation that places the client at risk of financial exploitation — illness alone can qualify, and no age threshold applies. Option B is the closest distractor because a formal incapacity declaration is sufficient evidence but not required: the definition operates on 'might have'; A imposes an age-and-account test the definition does not contain, and D describes an authorization arrangement, not vulnerability.",
+   "rule_refs": [
+    "IDPC 3201(3) \"vulnerable client\"",
+    "IDPC 3222(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"means a client who might have an illness, impairment, disability or aging‐ process limitation that places the client at risk of financial exploitation.\" — idpc-rules.txt ~line 4406"
+  },
+  {
+   "id": "SUP-E5-0118",
+   "element": 5,
+   "outcome": "5.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Selwick Securities has just placed a temporary hold on a vulnerable client's withdrawal request. The compliance team lists the steps subsection 3222(3) requires after a hold is placed. Which of the following is NOT among the obligations set out in subsection 3222(3)?",
+   "options": {
+    "A": "Document the facts and reasons that caused the firm to place, and if applicable, to continue the temporary hold",
+    "B": "Provide notice of the temporary hold and the reasons for it to the client as soon as possible after placing the hold",
+    "C": "Review the relevant facts as soon as possible after placing the hold, and on a reasonably frequent basis",
+    "D": "Obtain the prior written approval of the Corporation before continuing the hold beyond its first week"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3222(3) requires documenting the facts and reasons, providing notice and reasons to the client as soon as possible, reviewing the relevant facts as soon as possible and on a reasonably frequent basis, and — within 30 days and every subsequent 30-day period — either revoking the hold or giving the client notice of the decision to continue it. No CIRO pre-approval step exists. Option C is the closest true obligation a candidate might doubt because of its open-ended frequency wording, but it is taken directly from clause 3222(3)(iii).",
+   "rule_refs": [
+    "IDPC 3222(3)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"review the relevant facts as soon as possible after placing the temporary hold, and on a reasonably frequent basis, to determine if continuing the hold is appropriate,\" — idpc-rules.txt ~line 4945"
+  },
+  {
+   "id": "SUP-E5-0119",
+   "element": 5,
+   "outcome": "5.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A Supervisor at Birkhall Securities is mapping the firm's retail trade-surveillance alerts to the detection items enumerated in subsection 3945(2). Which of the following is NOT one of the detection items listed in subsection 3945(2)?",
+   "options": {
+    "A": "Failure of a client to update their know-your-client information annually",
+    "B": "Late payment",
+    "C": "Undisclosed short sales",
+    "D": "Account number changes"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3945(2) lists seventeen items the retail supervision policies and procedures must specifically address detecting, including late payment, undisclosed short sales and account number changes. Stale KYC information is a Rule 3200 account-maintenance issue, not a 3945(2) detection item. Option D is the closest distractor for candidates who consider account number changes an administrative rather than supervisory matter, but it is expressly enumerated in the subsection.",
+   "rule_refs": [
+    "IDPC 3945(2)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"(xii) account number changes, (xiii) late payment, (xiv) outstanding margin calls, (xv) undisclosed short sales,\" — idpc-rules.txt ~line 8172"
+  },
+  {
+   "id": "SUP-E5-0120",
+   "element": 5,
+   "outcome": "5.1",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Delacourt Securities, which conducts retail account activity at fourteen business locations, wants to replace its two-tiered post-trade review system with a single supervisory system of its own design. Under CIRO's account supervision guidance, may it do so?",
+   "options": {
+    "A": "No — a two-tier system is mandatory for any Dealer with more than one business location",
+    "B": "Yes — but only if CIRO grants a formal exemption from Rule 3900",
+    "C": "Yes — other supervisory systems can be used based on the Dealer's business model provided they meet the daily and monthly trade supervision requirements, and CIRO invites any Dealer considering a different supervisory system to speak with it",
+    "D": "No — supervisory system design is prescribed exclusively by UMIR"
+   },
+   "answer": "C",
+   "rationale": "The Guidance explains that a two-tier system of post-trade activity review was traditionally considered acceptable for Dealers with multiple business locations, but other supervisory systems can be used based on the Dealer's business model provided they meet the daily and monthly trade supervision requirements, and CIRO invites any Dealer considering a different supervisory system to speak with it. Option B is the closest distractor because it correctly senses regulatory engagement is expected, but the Guidance contemplates a conversation, not a formal exemption from Rule 3900; A converts a traditional practice into a mandate, and D assigns system design to UMIR rather than Rule 3900 and the Guidance.",
+   "rule_refs": [
+    "GN-3900-20-001 s.2",
+    "IDPC 3945(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"other supervisory systems can be used based on the Dealer’s business model provided they meet our daily and monthly trade supervision requirements\" — gn-3900-20-001.txt ~line 268"
+  },
+  {
+   "id": "SUP-E5-0121",
+   "element": 5,
+   "outcome": "5.6",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "The fixed-income desk at Glenmorrow Capital serves retail clients, and head office wants its second-tier daily review to capture significant bond activity. According to the example criteria in CIRO's account supervision guidance, which bond trades should the criteria capture?",
+   "options": {
+    "A": "All bond trades executed at a price below par",
+    "B": "Bond trades over $100,000 value per trade",
+    "C": "Bond trades over $1,000,000 value per month per account",
+    "D": "Only bond trades in unrated issuers"
+   },
+   "answer": "B",
+   "rationale": "The Guidance lists bond trades over $100,000 value per trade among the example criteria for trading activity subject to second-tier daily reviews that would satisfy Rule 3900. Option C is the closest distractor — it keeps a dollar threshold but converts it to a monthly aggregate at ten times the Guidance figure; A and D substitute price and credit-quality screens the Guidance does not give.",
+   "rule_refs": [
+    "GN-3900-20-001 s.2.2.1",
+    "IDPC 3945(1)"
+   ],
+   "difficulty": "easy",
+   "status": "killed",
+   "source_quote": "\"bond trades over $100,000 value per trade,\" — gn-3900-20-001.txt ~line 281",
+   "qa_note": "Gate 1 kill (wave 7): solver answered C at low confidence vs key B; GN s.2.2.1 bond threshold ($100,000/trade) confusable with the $1,000,000 cross-threshold distractor — same failure mode as wave-6 E7-0078/0079 frequency pair. Angle queued for E5-004 with structurally different framing."
+  },
+  {
+   "id": "SUP-E5-0122",
+   "element": 5,
+   "outcome": "5.6",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "A monthly review at Inverlochy Capital reveals that a Registered Representative repeatedly moved an illiquid debenture and silver bullion bars back and forth between the accounts of two of his retail clients at prices he set himself, generating commissions each time. Which detection item that subsection 3945(2) requires retail supervision policies to address do these facts most directly engage?",
+   "options": {
+    "A": "Excessive or improper crosses of securities, derivatives or precious metals bullion between clients",
+    "B": "Undue concentration of securities, derivatives or precious metals bullion in a single account",
+    "C": "Deterioration of the quality of client holdings in an account",
+    "D": "Trading in restricted securities"
+   },
+   "answer": "A",
+   "rationale": "Clause 3945(2)(ix) requires the policies and procedures to specifically address detecting excessive or improper crosses of securities, derivatives or precious metals bullion between clients — repeated dealer-priced transfers of the same positions between two client accounts is the paradigm case. Option C is the closest distractor because shuffled illiquid positions can also degrade holdings quality, but the operative pattern here is the repeated client-to-client cross at representative-set prices, not a gradual decline in portfolio quality; B concerns position build-up and D concerns restricted-list securities, neither of which the facts establish.",
+   "rule_refs": [
+    "IDPC 3945(2)(ix)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"excessive or improper crosses of securities, derivatives or precious metals bullion between clients,\" — idpc-rules.txt ~line 8163"
+  },
+  {
+   "id": "SUP-E5-0123",
+   "element": 5,
+   "outcome": "5.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Fairhaven Securities is allocating first-tier review responsibilities among its branch Supervisors, one of whom is dually-registered and services her own retail book. Measured against CIRO's account supervision guidance on cross-supervision of producing Supervisors, which proposed arrangement VIOLATES the guidance?",
+   "options": {
+    "A": "Assigning a head-office Supervisor to perform the first-tier review of the producing Supervisor's book",
+    "B": "Having a qualified Supervisor at a neighbouring branch perform the review of the producing Supervisor's book",
+    "C": "Having the producing Supervisor conduct the first-tier review of her own advice to and trades for her clients, with nobody else reviewing that activity",
+    "D": "Having the regional compliance manager, who is also an approved Supervisor, perform the review of the producing Supervisor's book"
+   },
+   "answer": "C",
+   "rationale": "The Guidance states that Dealers should ensure that where a Supervisor is dually-registered and also advises or trades for their own clients, another Supervisor reviews that Supervisor's advice to and trades for clients — self-review with no independent reviewer is exactly what the cross-supervision expectation forbids. Options A, B and D each place the review with another Supervisor, satisfying the guidance; D is the closest distractor for candidates who believe compliance personnel can never perform supervisory reviews, but the arrangement still provides review by another Supervisor, which is what the guidance requires.",
+   "rule_refs": [
+    "GN-3900-20-001 s.1.1.2",
+    "IDPC 3906(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Dealers should ensure that where a Supervisors is dually-registered and also advises or trades for their own clients, another Supervisor reviews that Supervisor’s advice to and trades for clients.\" — gn-3900-20-001.txt ~line 147"
+  },
+  {
+   "id": "SUP-E5-0124",
+   "element": 5,
+   "outcome": "5.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Ormiston Wealth is staffing the function that controls and investigates returned client mail at its largest branch. Compliance insists the role cannot sit anywhere in a branch. Under subsection 3219(3), is that correct?",
+   "options": {
+    "A": "Yes — returned mail investigations may only be performed at head office",
+    "B": "No — the rule requires control and investigation by a person independent of the sales function, but that person may be located within a business location",
+    "C": "Yes — only the Chief Compliance Officer personally may investigate returned mail",
+    "D": "No — any branch employee, including the Registered Representative on the account, may investigate returned mail"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3219(3) requires that returned mail procedures include a rule requiring control and investigation by a person independent of the sales function, but the provision expressly states the person may be located within a business location — independence from sales, not physical removal from branches, is the test. Option A is the closest distractor because it overreads independence as a head-office requirement; D fails the independence requirement entirely, and C escalates the role to the CCO, which the rule does not require.",
+   "rule_refs": [
+    "IDPC 3219(3)(i)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"a rule requiring the control and investigation by a person independent of the sales function, but may be located within a business location, and\" — idpc-rules.txt ~line 4897"
+  },
+  {
+   "id": "SUP-E5-0125",
+   "element": 5,
+   "outcome": "5.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "While auditing the hold-mail procedures at Veswick Securities, a Supervisor checks them against the minimum provisions in subsection 3219(1). Which of the following is NOT among the minimum provisions that subsection 3219(1) requires for retail hold-mail procedures?",
+   "options": {
+    "A": "A requirement that the Dealer Member obtain written authorization from the client to hold mail",
+    "B": "A requirement limiting how long a hold-mail order may remain in force",
+    "C": "A rule requiring the control and regular review of hold-mail accounts by a Supervisor",
+    "D": "A requirement that the client pay a monthly fee while mail is being held"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3219(1) requires three minimum provisions: written client authorization to hold mail, a limit on the length of time a hold-mail order may remain in force, and a rule requiring control and regular review of hold-mail accounts by a Supervisor. No fee requirement exists. Option B is the closest true provision a candidate might question because the stem omits the specific six-months-in-any-12-month figure, but the time-limit requirement itself is expressly in clause 3219(1)(ii).",
+   "rule_refs": [
+    "IDPC 3219(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"a rule requiring the control and regular review of “hold mail” accounts by a Supervisor.\" — idpc-rules.txt ~line 4885"
+  },
+  {
+   "id": "SUP-E5-0126",
+   "element": 5,
+   "outcome": "5.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "The surveillance team at Tarnbrook Capital Markets, which serves only institutional clients, notices a pension fund client's index option position growing well past the exchange's published position limit. They check whether subsection 3950(2) obliges the firm's institutional supervision policies to catch this. Which enumerated item applies?",
+   "options": {
+    "A": "Exceeding derivative position or exercise limits",
+    "B": "Trading in securities on the Dealer Member's restricted list",
+    "C": "Front running by employee or proprietary accounts",
+    "D": "Manipulative and deceptive activities"
+   },
+   "answer": "A",
+   "rationale": "Clause 3950(2)(vii) requires institutional account supervision policies and procedures to specifically address detecting exceeding derivative position or exercise limits — precisely a position grown past the exchange limit. Option D is the closest distractor because limit-busting positions can accompany manipulative strategies, but nothing in the facts shows deception or artificial pricing — the detected event is the limit breach itself; B and C concern restricted-list securities and front running, which the facts do not raise.",
+   "rule_refs": [
+    "IDPC 3950(2)(vii)",
+    "IDPC 3255(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(vi) transacting in derivatives whose underlying interest has restrictions on their transfer, and (vii) exceeding derivative position or exercise limits.\" — idpc-rules.txt ~line 8237"
+  },
+  {
+   "id": "SUP-E5-0127",
+   "element": 5,
+   "outcome": "5.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Compliance at Ulverston Securities, a Participant, learns that an institutional client is part of a promotional group supporting a junior issuer and may want its share price held up at month-end for margin purposes. Under UMIR Policy 7.1 Part 5, the firm's manipulative-and-deceptive supervision policies must specifically address the steps to be taken to monitor the trading activities of:",
+   "options": {
+    "A": "Only clients who have previously been the subject of a gatekeeper report",
+    "B": "An insider or an associate of an insider, and part of or an associate of a promotional group or other group with an interest in effecting an artificial price",
+    "C": "All clients domiciled outside Canada",
+    "D": "Only proprietary trading desks, since clients are outside the Participant's supervision"
+   },
+   "answer": "B",
+   "rationale": "Policy 7.1 Part 5 requires the policies and procedures to address the steps to be taken to monitor the trading activities of an insider or an associate of an insider, and of part of or an associate of a promotional group or other group with an interest in effecting an artificial price, whether for banking and margin purposes, for effecting a distribution, or for any other improper purpose. Option A is the closest distractor because prior gatekeeper reports do warrant attention, but the Policy's monitoring trigger is the person's relationship to the issuer or promotional group, not prior reporting history; C is unrelated, and D wrongly excludes client activity from supervision.",
+   "rule_refs": [
+    "UMIR Policy 7.1 Part 5",
+    "IDPC 3950(2)(i)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"the steps to be taken to monitor the trading activities of: o an insider or an associate of an insider o part of or an associate of a promotional group\" — umir.txt ~line 6877"
+  },
+  {
+   "id": "SUP-E5-0128",
+   "element": 5,
+   "outcome": "5.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Surveillance at Zedboro Capital, a Participant, develops a reasonable belief that its institutional DEA client may have breached a material provision of the financial-resources standard Zedboro established for granting direct electronic access. The desk wants to handle the matter privately with the client while keeping the access live. Under subsection 10.18(2) of UMIR, what must Zedboro do?",
+   "options": {
+    "A": "Nothing until the breach is proven, since suspicion alone triggers no obligation",
+    "B": "Suspend the client's access for thirty days while it investigates",
+    "C": "Notify the marketplaces on which the client trades and await their direction",
+    "D": "Forthwith report to the Market Regulator the fact that it knows or has reason to believe the client has or may have breached a material provision of a standard established by the Participant for the granting of direct electronic access"
+   },
+   "answer": "D",
+   "rationale": "Clause 10.18(2)(b) requires a Participant that has provided access pursuant to direct electronic access to forthwith report to the Market Regulator the fact that it knows or has reason to believe that the client has or may have breached a material provision of any standard established by the Participant for the granting of direct electronic access, or of the written agreement. Option A is the closest distractor because it waits for proof, while the rule is triggered by reason to believe a breach may have occurred; B substitutes an internal suspension the rule does not require, and C directs the notice to marketplaces rather than the Market Regulator.",
+   "rule_refs": [
+    "UMIR 10.18(2)(b)",
+    "UMIR 7.13(1)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"knows or has reason to believe that the client, investment dealer or foreign dealer equivalent has or may have breached a material provision of: (i) any standard established by the Participant for the granting of direct electronic access\" — umir.txt ~line 10747"
+  },
+  {
+   "id": "SUP-E5-0129",
+   "element": 5,
+   "outcome": "5.10",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Coppervale Markets, a Participant, discovers that its DEA client allowed an affiliated fund's traders — never named to Coppervale — to enter orders through the client's access. Which provision required by subsection 7.13(3) of UMIR in the written DEA agreement has the client breached?",
+   "options": {
+    "A": "The provision requiring the client to maintain minimum net capital of $25 million",
+    "B": "The provision obliging the Participant to guarantee execution of all client orders",
+    "C": "The provision that the client will maintain all technology facilitating direct electronic access in a secure manner and will not permit any person to transmit an order using the access other than the personnel authorized by the client and named under the agreement",
+    "D": "The provision requiring all client orders to be routed through the Market Regulator for screening"
+   },
+   "answer": "C",
+   "rationale": "Clause 7.13(3)(a)(ii) requires the written agreement to provide that the client will maintain all technology facilitating direct electronic access in a secure manner and will not permit any person to transmit an order using the access other than the personnel authorized by the client and named under the agreement — letting unnamed affiliated traders use the access breaches exactly this term. Option A is the closest distractor because financial-resources standards do exist under 7.13(2)(a), but no fixed capital figure is prescribed and the breach here is unauthorized access, not capital; B and D invent obligations UMIR does not impose.",
+   "rule_refs": [
+    "UMIR 7.13(3)(a)(ii)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"will not permit any person to transmit an order using the direct electronic access or the routing arrangement other than the personnel authorized by the client and named under the provision of the agreement\" — umir.txt ~line 8845"
+  },
+  {
+   "id": "SUP-E5-0130",
+   "element": 5,
+   "outcome": "5.10",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A hedge fund with direct electronic access through Pendrith Securities, a Participant, suffers a wave of redemptions and realizes it will soon fall below the financial-resources standard Pendrith set for DEA clients. Under the agreement terms required by subsection 7.13(3) of UMIR, what must the client do?",
+   "options": {
+    "A": "Immediately inform the Participant that it fails or expects not to meet the standards set by the Participant",
+    "B": "Nothing, provided its orders continue to pass the automated pre-entry controls",
+    "C": "Wind down all positions within 24 hours and surrender its access",
+    "D": "Notify the Market Regulator directly and copy the Participant within ten business days"
+   },
+   "answer": "A",
+   "rationale": "Clause 7.13(3)(a)(v) requires the written agreement to provide that the client will immediately inform the Participant if the client fails or expects not to meet the standards set by the Participant — and the obligation arises on expectation, before actual failure. Option B is the closest distractor because passing automated controls might seem to satisfy ongoing requirements, but the self-reporting duty is independent of order-level screening; C invents a forced wind-down, and D misdirects the notification to the Market Regulator on a timetable UMIR does not contain.",
+   "rule_refs": [
+    "UMIR 7.13(3)(a)(v)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"will immediately inform the Participant if the client, investment dealer or foreign dealer equivalent fails or expects not to meet the standards set by the Participant; and\" — umir.txt ~line 8865"
+  },
+  {
+   "id": "SUP-E5-0131",
+   "element": 5,
+   "outcome": "5.10",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "An institutional client of Quarrington Capital, a Participant, holds direct electronic access and wants to start entering orders for the accounts of third parties it manages. Under clause 7.13(3)(b) of UMIR, the DEA agreement must provide that the client may not trade for the account of any other person unless the client is:",
+   "options": {
+    "A": "A Participant of at least one Canadian marketplace",
+    "B": "Guaranteed by a Schedule I bank",
+    "C": "An institutional client with assets under administration exceeding $10 million",
+    "D": "Registered or exempted from registration as an adviser under securities legislation, or a person conducting business in a foreign jurisdiction in a manner analogous to an adviser subject to the regulatory jurisdiction of a signatory to the IOSCO Multilateral Memorandum of Understanding, with the order for a person who is itself a client of the client acting as adviser"
+   },
+   "answer": "D",
+   "rationale": "Sub-clause 7.13(3)(b)(ii) permits a DEA client to trade for the account of another person only if the client is registered or exempted from registration as an adviser under securities legislation, or conducts business in a foreign jurisdiction in a manner analogous to an adviser and is subject to the regulatory jurisdiction of a signatory to the IOSCO Multilateral Memorandum of Understanding, and the order is for or on behalf of a person who is itself a client of the client acting in the capacity of adviser. Option C is the closest distractor because asset thresholds do figure in DEA qualification screening under Policy 7.1, but third-party trading turns on adviser status, not assets; A and B impose membership and guarantee conditions UMIR does not.",
+   "rule_refs": [
+    "UMIR 7.13(3)(b)(ii)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"the client may not trade for the account of any other person unless the client is: (A) registered or exempted from registration as an adviser under securities legislation, or\" — umir.txt ~line 8872"
+  },
+  {
+   "id": "SUP-E5-0132",
+   "element": 5,
+   "outcome": "5.10",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A DEA client's proprietary algorithm at Yelverton Capital, a Participant, malfunctions and floods a marketplace before it is disabled. The client argues Yelverton cannot be responsible because the defective code module was proprietary and was never made available to Yelverton for testing. Under UMIR Policy 7.1 Part 8, is the client correct?",
+   "options": {
+    "A": "Yes — responsibility transfers to the client once the algorithm has passed its initial annual test",
+    "B": "Yes — a Participant is responsible only for malfunctions in systems it built itself",
+    "C": "No — the Participant is responsible for any order entered or trade executed on a marketplace, including those resulting from a runaway algorithm, even where the malfunction is attributed to an aspect of the automated order system that was not accessible to the Participant for testing",
+    "D": "No — but only because the client failed to obtain the Market Regulator's pre-approval of the algorithm"
+   },
+   "answer": "C",
+   "rationale": "Policy 7.1 Part 8 states that, notwithstanding any outsourcing or authorization of risk management and supervision controls, a Participant is responsible for any order entered or trade executed on a marketplace, including any order or trade resulting from the improper operation or malfunction of the automated order system — and this responsibility includes instances in which the malfunction giving rise to a runaway algorithm is attributed to an aspect of the algorithm that was not accessible to the Participant for testing. Option A is the closest distractor because annual testing is genuinely required, but passing tests does not transfer responsibility; B narrows responsibility to self-built systems contrary to the Policy, and D invents a pre-approval regime that does not exist.",
+   "rule_refs": [
+    "UMIR Policy 7.1 Part 8",
+    "UMIR 7.1(6)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"the malfunction which gave rise to a “runaway” algorithm is attributed to an aspect of the algorithm or automated order system that was not “accessible” to the Participant or Access Person for testing.\" — umir.txt ~line 7018"
+  },
+  {
+   "id": "SUP-E5-0133",
+   "element": 5,
+   "outcome": "5.11",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "An exceptionally active client of Hollowmere Direct, an approved order execution only dealer, manually enters an enormous and growing number of orders each day. Under clause 3241(1)(ii), the dealer must not allow its OEO clients to manually send or generate orders to the dealer that:",
+   "options": {
+    "A": "Are placed outside regular trading hours",
+    "B": "Exceed the threshold on the number of orders as set by the Corporation from time to time",
+    "C": "Exceed 100 orders per trading day under any circumstances",
+    "D": "Relate to securities priced under one dollar"
+   },
+   "answer": "B",
+   "rationale": "Clause 3241(1)(ii)(b) prohibits the OEO dealer from allowing its order execution only account service clients to manually send orders or generate orders to the Dealer Member that exceed the threshold on the number of orders as set by the Corporation from time to time — the cap is Corporation-set and adjustable, not fixed in the rule. Option C is the closest distractor because it offers a concrete numeric cap, but the rule deliberately leaves the figure to the Corporation; A and D restrict timing and price, which clause 3241(1)(ii) does not address.",
+   "rule_refs": [
+    "IDPC 3241(1)(ii)(b)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"manually send orders or generate orders to the Dealer Member that exceed the threshold on the number of orders as set by the Corporation from time to time,\" — idpc-rules.txt ~line 4989"
+  },
+  {
+   "id": "SUP-E5-0134",
+   "element": 5,
+   "outcome": "5.11",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Drassel Direct, an approved OEO dealer, opens accounts by telephone and wants to evidence each client's acknowledgement of the required no-recommendation disclosures without paper. Under subsection 3241(4), in which forms may the record of the acknowledgement be maintained?",
+   "options": {
+    "A": "Only the client's wet-ink signature on a new client form",
+    "B": "A verbal acknowledgement noted from memory by the Registered Representative in the file the next day",
+    "C": "An attestation by any two employees who witnessed the call",
+    "D": "The client's signature or initials on a form specifically related to the disclosure and acknowledgement, an electronic acknowledgement attached to the disclosure and acknowledgement text, or a tape recording of a verbal acknowledgement"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3241(4) requires the record of the acknowledgement to be maintained in one of three forms: the client's signature or initials on a new client form or other document specifically related to the disclosure and acknowledgement, an electronic acknowledgement attached to the disclosure and acknowledgement text, or a tape recording of a verbal acknowledgement. Option B is the closest distractor because a verbal acknowledgement is acceptable — but only as a tape recording, not a memory-based file note; A is too narrow, and C substitutes witness attestations the rule does not allow.",
+   "rule_refs": [
+    "IDPC 3241(4)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(ii) an electronic acknowledgement attached to the disclosure and acknowledgement text, or (iii) a tape recording of a verbal acknowledgement.\" — idpc-rules.txt ~line 5026"
+  },
+  {
+   "id": "SUP-E5-0135",
+   "element": 5,
+   "outcome": "5.11",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Bantry Securities operates an approved OEO business as a separate business unit alongside its full-service retail division and wants to send each dual-relationship client one combined monthly statement covering both relationships. Under subsection 3241(18), is this permissible?",
+   "options": {
+    "A": "No — the dealer must ensure its order-entry systems and records can label all account documentation, including monthly statements and confirmations, as order execution only accounts, and the OEO client monthly statements must not be consolidated with any other client account statements",
+    "B": "Yes — consolidation is permitted provided each line item carries an OEO marker",
+    "C": "Yes — consolidation is required so the client sees their full position with the dealer",
+    "D": "No — because OEO clients may not hold accounts at any other business unit of the same dealer"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3241(18) requires the dealer to ensure its order-entry systems and records are capable of labeling all account documentation, including monthly statements and confirmations, as 'order execution only accounts' or other similar phrase, and that the OEO client monthly statements are not consolidated with any other client account statements, including those of any other business unit of the Dealer Member or of the Dealer Member itself. Option B is the closest distractor because labelling is genuinely required, but labelling does not cure the prohibited consolidation; C inverts the rule, and D wrongly bars dual relationships, which subsection 3955(1)(ii) instead manages through the no-recommendation control.",
+   "rule_refs": [
+    "IDPC 3241(18)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"the client monthly statements of its order execution only account services are not consolidated with any other client account statements, including those of any other business unit of the Dealer Member or of the Dealer Member itself.\" — idpc-rules.txt ~line 5099"
+  },
+  {
+   "id": "SUP-E5-0136",
+   "element": 5,
+   "outcome": "5.12",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Kirkfield Derivatives transacts only in exchange-traded equity options; it offers no futures, forwards or CFDs. The Chief Compliance Officer asks whether section 3960 still obliges the firm to appoint a designated Supervisor for futures-type derivatives. What is the correct reading of subsection 3960(1)?",
+   "options": {
+    "A": "Yes — both designated Supervisors must be appointed by every Dealer Member regardless of its business",
+    "B": "Yes — but the futures designation may be filled by an unqualified Executive on an interim basis",
+    "C": "No — the appointments apply where applicable: the firm must appoint a designated Supervisor for its activities involving options contracts or similar derivatives, and a futures-side designation is required only if it has activities involving futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives",
+    "D": "No — a firm trading only options needs no designated derivatives Supervisor at all"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3960(1) requires a Dealer Member that transacts in or advises on derivatives to, where applicable, appoint a designated Supervisor for activities involving options contracts or similar derivatives and a designated Supervisor for activities involving futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives — the 'where applicable' qualifier ties each designation to the firm actually conducting that activity. Option A is the closest distractor because it ignores 'where applicable' and forces both designations on every firm; B contradicts subsection 3960(2)'s qualification requirement, and D eliminates the options-side designation the firm plainly needs.",
+   "rule_refs": [
+    "IDPC 3960(1)",
+    "IDPC 3960(2)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member that transacts in or advises on derivatives must, where applicable: (i) appoint a designated Supervisor to supervise its activities that involve options contracts or similar derivatives, and\" — idpc-rules.txt ~line 8278"
+  },
+  {
+   "id": "SUP-E5-0137",
+   "element": 5,
+   "outcome": "5.12",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A newly designated Supervisor at Lomasney Futures wants to confirm exactly which supervisory role she now occupies under the IDPC Rules' defined terms. According to the Rule 1200 definition of \"designated Supervisor\", which of the following is one of the enumerated supervisory roles?",
+   "options": {
+    "A": "The supervision of the Dealer Member's capital adequacy under Form 1",
+    "B": "The supervision of futures contract, forward contract, contracts for difference, futures contract option and similar derivative accounts under Part F of Rule 3900",
+    "C": "The negotiation of clearing arrangements with derivatives clearing houses",
+    "D": "The approval of all marketing budgets for derivatives products"
+   },
+   "answer": "B",
+   "rationale": "The Rule 1200 definition of designated Supervisor enumerates a Supervisor responsible for, among other roles, the supervision of futures contract, forward contract, contracts for difference, futures contract option and similar derivative accounts under Part F of Rule 3900, and separately the supervision of options and similar derivative accounts under Part F. Option A is the closest distractor because financial supervision is a real executive responsibility, but it is not among the seven enumerated designated-Supervisor roles in the definition; C and D describe commercial functions outside the definition entirely.",
+   "rule_refs": [
+    "IDPC 1201 \"designated Supervisor\""
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(i) the supervision of futures contract, forward contract, contracts for difference, futures contract option and similar derivative accounts under Part F of Rule 3900,\" — idpc-rules.txt ~line 319"
+  },
+  {
+   "id": "SUP-E5-0138",
+   "element": 5,
+   "outcome": "5.13",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A retail client of Thackwold Commodities has begun opening and closing dozens of crude-oil futures positions within single trading sessions, far beyond his documented pattern, generating heavy commissions. Which detection item in subsection 3963(1) most directly requires the firm's review of derivative transactions to catch this?",
+   "options": {
+    "A": "Speculative transactions in hedging accounts",
+    "B": "Exposures to delivery obligations into the delivery month",
+    "C": "Transacting beyond margin or credit limits",
+    "D": "Excessive intra-day and short-term transactions"
+   },
+   "answer": "D",
+   "rationale": "Clause 3963(1)(i) requires the policies and procedures to specifically address the review of derivative transactions to detect excessive intra-day and short-term transactions — dozens of same-session round trips well beyond the client's pattern is the direct match. Option A is the closest distractor because heavy futures turnover can occur in a hedging account, but nothing in the facts designates this account as a hedging account; B concerns delivery-month exposure and C concerns margin or credit limit breaches, neither of which the facts show.",
+   "rule_refs": [
+    "IDPC 3963(1)(i)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"the Dealer Member’s policies and procedures must specifically address the review of derivative transactions to detect the following: (i) excessive intra-day and short-term transactions,\" — idpc-rules.txt ~line 8339"
+  },
+  {
+   "id": "SUP-E5-0139",
+   "element": 5,
+   "outcome": "5.13",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "The designated Supervisor at Westerleigh Futures is validating the firm's retail derivatives surveillance against the detection list in subsection 3963(1). Which of the following is NOT among the items subsection 3963(1) requires the review of derivative transactions to detect?",
+   "options": {
+    "A": "A retail client's failure to attend the firm's annual derivatives education seminar",
+    "B": "Exceeding derivative position or exercise limits",
+    "C": "Transactions in derivatives whose underlying interest is on the Dealer Member's restricted list",
+    "D": "Transacting while the account is under-margined"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3963(1) enumerates eleven detection items, including exceeding derivative position or exercise limits, transactions in derivatives whose underlying interest is on the Dealer Member's restricted list, and transacting while the account is under-margined. Attendance at education seminars appears nowhere in the list. Option B is the closest genuine item a candidate might doubt, since position and exercise limits are set by exchanges and clearing houses rather than the dealer, but clause 3963(1)(v) expressly includes it.",
+   "rule_refs": [
+    "IDPC 3963(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(vii) transactions in derivatives whose underlying interest is on the Dealer Member’s restricted list,\" — idpc-rules.txt ~line 8348"
+  },
+  {
+   "id": "SUP-E5-0140",
+   "element": 5,
+   "outcome": "5.14",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A clearing house announces a structural change to how a class of futures contracts will be margined and settled, with direct consequences for retail holders. The designated Supervisor at Nerissa Point Futures asks which client-notification requirement in subsection 3962(4) this triggers. Which enumerated notification item applies?",
+   "options": {
+    "A": "Approaching expiry dates",
+    "B": "Any new developments in the trading or regulation of derivatives that may impact clients",
+    "C": "Significant changes in derivatives resulting from changes in the underlying interest",
+    "D": "Changes in the Dealer Member's business policy"
+   },
+   "answer": "B",
+   "rationale": "Clause 3962(4)(iv) requires policies and procedures that specifically address notifying clients of any new developments in the trading or regulation of derivatives that may impact clients — a clearing house's structural change to margining and settlement is a development in the trading or regulation of derivatives, not a change originating with the dealer or the underlying interest. Option C is the closest distractor because the contracts themselves are affected, but clause (ii) covers changes in derivatives resulting from changes in the underlying interest, and here the underlying interest has not changed; A concerns expiries and D concerns the dealer's own business policy.",
+   "rule_refs": [
+    "IDPC 3962(4)(iv)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"any new developments in the trading or regulation of derivatives that may impact clients.\" — idpc-rules.txt ~line 8321"
+  },
+  {
+   "id": "SUP-E5-0141",
+   "element": 5,
+   "outcome": "5.14",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A Registered Representative at Silverbeck Capital is approved only for options and begins advising several retail clients on copper futures strategies after the futures-qualified representative resigns. Under subsection 3962(2), what must the Dealer Member ensure?",
+   "options": {
+    "A": "That a Supervisor co-signs each futures recommendation the options-approved representative makes",
+    "B": "That the clients sign waivers acknowledging the representative's limited approval",
+    "C": "That Registered Representatives, Investment Representatives, Portfolio Managers and Associate Portfolio Managers only trade in or advise on those derivatives included in their approval category",
+    "D": "That the representative completes the futures qualification within ninety days while continuing to advise"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3962(2) requires the Dealer Member to ensure that Registered Representatives, Investment Representatives, Portfolio Managers and Associate Portfolio Managers only trade in or advise on those derivatives included in their approval category — an options-only representative cannot advise on futures at all. Option A is the closest distractor because supervisory involvement might appear to cure the gap, but co-signing does not bring futures within the representative's approval category; B substitutes client consent for proficiency, and D permits ninety days of unqualified advice the rule prohibits.",
+   "rule_refs": [
+    "IDPC 3962(2)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"The Dealer Member must ensure that Registered Representatives, Investment Representatives, Portfolio Managers and Associate Portfolio Managers only trade in or advise on those derivatives included in their approval category.\" — idpc-rules.txt ~line 8311"
+  },
+  {
+   "id": "SUP-E5-0142",
+   "element": 5,
+   "outcome": "5.14",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "While reconciling the firm's retail derivatives policies against subsection 3962(5), a Supervisor at Umbervale Derivatives lists the matters the policies and procedures must specifically cover. Which of the following is NOT a requirement enumerated in subsection 3962(5)?",
+   "options": {
+    "A": "Requiring the designated Supervisor to approve the solicitation of clients to use derivatives programs",
+    "B": "Preventing a client from transacting in derivatives without executing a derivatives trading agreement",
+    "C": "Addressing the handling of futures contracts, forward contracts and similar derivatives with pending delivery months",
+    "D": "Requiring retail derivatives clients to maintain a minimum account equity of $50,000"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3962(5) enumerates six policy requirements — Supervisor approval of derivatives-program solicitation and of clients' actual use of derivatives, preventing transactions without an executed derivatives trading agreement, handling pending delivery months, detecting insider-avoidance trading, the 0.5%-of-float CFD position restriction, and the prohibition on CFDs conferring delivery or shareholder rights. No minimum-equity threshold appears. Option C is the closest genuine item a candidate might doubt because delivery handling sounds operational rather than policy-level, but it is expressly clause 3962(5)(iii).",
+   "rule_refs": [
+    "IDPC 3962(5)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"prevent a client from transacting in derivatives without executing a derivatives trading agreement with the Dealer Member, (iii) address the handling of futures contracts, forward contracts and similar derivatives with pending delivery months,\" — idpc-rules.txt ~line 8328"
+  },
+  {
+   "id": "SUP-E5-0143",
+   "element": 5,
+   "outcome": "5.15",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "The managed account committee at Sigmondton Counsel completes its annual review of the firm's managed-account supervision policies and identifies serious gaps. The committee chair asks what subsection 3972(1) requires the committee to do with what it has found. In addition to the annual policy review, the committee must, at least annually:",
+   "options": {
+    "A": "Suspend all affected Portfolio Managers pending remediation",
+    "B": "File its findings directly with the Corporation within 30 days",
+    "C": "Recommend to senior management appropriate actions necessary to achieve compliance with Corporation requirements and securities laws applicable to managed accounts",
+    "D": "Re-approve every managed account agreement in force at the firm"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3972(1) requires the managed account committee, at least annually, to review the Dealer Member's policies and procedures dealing with the supervision of managed accounts and to recommend to senior management appropriate actions necessary to achieve compliance with Corporation requirements and securities laws applicable to managed accounts — the committee's output is recommendations to senior management, not direct enforcement. Option B is the closest distractor because regulatory escalation feels natural for serious gaps, but the rule channels the committee's findings to senior management; A and D assign the committee disciplinary and account-approval powers it does not have.",
+   "rule_refs": [
+    "IDPC 3972(1)(ii)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"recommend to senior management appropriate actions necessary to achieve compliance with Corporation requirements and securities laws, applicable to managed accounts.\" — idpc-rules.txt ~line 8435"
+  },
+  {
+   "id": "SUP-E5-0144",
+   "element": 5,
+   "outcome": "5.15",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Vantissart Private Wealth uses an external sub-adviser for several managed-account mandates. The designated Supervisor is drafting the managed-account supervision policies and asks what subsection 3971(2) specifically requires them to address with respect to conflicts. The policies must specifically address:",
+   "options": {
+    "A": "Identifying when a Portfolio Manager or sub-adviser, as described in section 3279, has contravened the managed account conflict of interest related requirements set out in section 3280",
+    "B": "Obtaining the sub-adviser's annual audited financial statements",
+    "C": "Capping the sub-adviser's fees at the rate charged for in-house management",
+    "D": "Prohibiting the use of sub-advisers for any retail managed account"
+   },
+   "answer": "A",
+   "rationale": "Clause 3971(2)(i) requires the policies and procedures dealing with the supervision of managed accounts to specifically address identifying when a Portfolio Manager or sub-adviser, as described in section 3279, has contravened the managed account conflict of interest related requirements set out in section 3280 — the detection obligation extends to sub-advisers, not just in-house Portfolio Managers. Option D is the closest distractor because it treats the sub-adviser arrangement itself as the conflict, but the rules permit sub-advisers and instead require contravention detection; B and C describe due-diligence and fee terms the clause does not mention.",
+   "rule_refs": [
+    "IDPC 3971(2)(i)",
+    "IDPC 3280"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"identifying when a Portfolio Manager or sub-adviser, as described in section 3279, has contravened managed account conflict of interest related requirements set out in section 3280, and\" — idpc-rules.txt ~line 8413"
+  },
+  {
+   "id": "SUP-E5-0145",
+   "element": 5,
+   "outcome": "5.16",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A Supervisor at Quaverly Securities asks what foundational obligation section 3927 places on the firm with respect to account activity, against which all of its review procedures are measured. Under subsection 3927(1), the Dealer Member must:",
+   "options": {
+    "A": "Delegate all account activity reviews to an external audit firm",
+    "B": "Review account activity as required by Corporation requirements and take reasonable steps to provide reasonable assurance that account activity complies with Corporation requirements, securities laws and other applicable laws and the Dealer Member's policies and procedures",
+    "C": "Forward all account activity records to the Corporation each quarter",
+    "D": "Review account activity only when a client complaint has been received"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3927(1) requires the Dealer Member to review account activity as required by Corporation requirements and to take reasonable steps to provide reasonable assurance that account activity complies with Corporation requirements, securities laws and other applicable laws and the Dealer Member's policies and procedures. Option D is the closest distractor because complaints do trigger inquiry, but the review obligation is standing, not complaint-driven; A outsources what must remain the dealer's obligation, and C invents a quarterly filing requirement.",
+   "rule_refs": [
+    "IDPC 3927(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must review account activity as required by Corporation requirements and must take reasonable steps to provide reasonable assurance that account activity complies with\" — idpc-rules.txt ~line 8117"
+  },
+  {
+   "id": "SUP-E5-0146",
+   "element": 5,
+   "outcome": "5.16",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "An operations analyst at Huxleigh Capital is configuring which clients receive monthly account statements. Under subsection 3808(2), in addition to clients who request monthly statements, a monthly statement must be sent to each client who, at the end of the month, has in their account which of the following?",
+   "options": {
+    "A": "Any security position whatsoever, even with no activity",
+    "B": "A balance exceeding $100,000",
+    "C": "Had a transaction during the month, experienced a cash or account position modification other than dividend or interest payments, an unexpired and unexercised option contract or similar derivative position, or an open futures contract, forward contract, contract for difference or similar derivative position",
+    "D": "A registered plan of any type"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3808(2) requires a monthly statement for each client who requests one, or who at the end of the month has in their account: a transaction during the month, a cash or account position modification other than dividend or interest payments, an unexpired and unexercised option contract, futures contract option or similar derivative position, or an open futures contract, forward contract, contract for difference or similar derivative position. Option A is the closest distractor because holding any position does trigger the quarterly statement under subsection 3808(3), but the monthly trigger requires activity, modification or an open derivative position; B and D use balance and account-type triggers the rule does not contain.",
+   "rule_refs": [
+    "IDPC 3808(2)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(a) had a transaction during the month, (b) has experienced a cash or account position modification, other than dividend or interest payments,\" — idpc-rules.txt ~line 6890"
+  },
+  {
+   "id": "SUP-E5-0147",
+   "element": 5,
+   "outcome": "5.1",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E5-SET-06",
+   "scenario": "Marrowfield Capital is a mid-sized Investment Dealer with eleven retail branches. A newly hired head-office compliance director, Elspeth Varga, conducts a baseline assessment of the firm's retail account supervision program and records four observations: (1) branch Supervisors cannot see deposits, withdrawals or journal entries in the review system — only executed trades; (2) the first-tier monthly review selects retail accounts solely by listing every account that traded during the month, with no commission-based or risk-based criteria, and several branches finish the review seven or eight weeks after month-end; (3) one Supervisor who detected a pattern of questionable trades says she dropped the matter because she had no power to restrict the account and no procedure told her where to send it; (4) the firm's procedures designate non-client accounts, discretionary accounts and managed accounts for supervision purposes but are silent on registered accounts and restricted accounts.",
+   "stem": "Consider observation (1): Supervisors can see only executed trades. Under CIRO's account supervision guidance, why is this an information-access defect?",
+   "options": {
+    "A": "Because to review client accounts, Supervisors should have readily accessible client and account activity information including receipts, deposits, withdrawals and journal entries",
+    "B": "Because Supervisors must personally approve every deposit before it is credited",
+    "C": "Because executed trades may only be reviewed by the Chief Financial Officer",
+    "D": "Because the Guidance prohibits review systems that display trade data without client consent"
+   },
+   "answer": "A",
+   "rationale": "The Guidance states Supervisors should have access to the information necessary to properly conduct their supervision, and that reviewing client accounts includes readily accessible client and account activity information including receipts, deposits, withdrawals and journal entries — a trades-only view omits the money- and position-movement records the Guidance calls for. Option B is the closest distractor because it involves deposits, but it converts an information-access expectation into a pre-approval duty the Guidance does not impose; C and D misassign review responsibility and invent a consent restriction.",
+   "rule_refs": [
+    "GN-3900-20-001 s.1.1.1",
+    "IDPC 3926(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"Supervisors should have access to the information necessary to properly conduct their supervision.\" — gn-3900-20-001.txt ~line 114"
+  },
+  {
+   "id": "SUP-E5-0148",
+   "element": 5,
+   "outcome": "5.6",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E5-SET-06",
+   "scenario": "Marrowfield Capital is a mid-sized Investment Dealer with eleven retail branches. A newly hired head-office compliance director, Elspeth Varga, conducts a baseline assessment of the firm's retail account supervision program and records four observations: (1) branch Supervisors cannot see deposits, withdrawals or journal entries in the review system — only executed trades; (2) the first-tier monthly review selects retail accounts solely by listing every account that traded during the month, with no commission-based or risk-based criteria, and several branches finish the review seven or eight weeks after month-end; (3) one Supervisor who detected a pattern of questionable trades says she dropped the matter because she had no power to restrict the account and no procedure told her where to send it; (4) the firm's procedures designate non-client accounts, discretionary accounts and managed accounts for supervision purposes but are silent on registered accounts and restricted accounts.",
+   "stem": "Observation (2) shows the first-tier monthly review selecting every retail account that traded, with no commission-based or risk-based criteria. Under CIRO's account supervision guidance on first-tier monthly reviews, what is the design principle this selection method ignores?",
+   "options": {
+    "A": "Monthly selections must be drawn exclusively from accounts flagged by clients themselves",
+    "B": "Every retail account statement produced must be reviewed in full each month, so no selection is permitted at all",
+    "C": "A first-tier monthly review starts with the selection of retail client accounts, and the Dealer should design this selection to detect improper account activity",
+    "D": "Selection criteria may only be changed with the Corporation's prior written approval"
+   },
+   "answer": "C",
+   "rationale": "The Guidance states that Dealers may not be able to review every retail account statement produced, that a first-tier monthly review starts with the selection of retail client accounts, and that Dealers should design this selection to detect improper account activity — an undesigned list of every account that traded is selection without detection-oriented design, and the branches' seven-to-eight-week completion is a separate timing deficiency. Option B is the closest distractor because reviewing everything sounds safest, but the Guidance expressly recognizes Dealers may be unable to review every statement and instead requires designed selection; A and D invent client-driven selection and Corporation pre-approval requirements the Guidance does not contain.",
+   "rule_refs": [
+    "GN-3900-20-001 s.2.1.2",
+    "IDPC 3945(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"A ﬁrst-tier monthly review starts with the selection of retail client accounts. Dealers should design this selection to detect improper account activity.\" — gn-3900-20-001.txt ~line 246"
+  },
+  {
+   "id": "SUP-E5-0149",
+   "element": 5,
+   "outcome": "5.2",
+   "taxonomy": "Apply",
+   "type": "item_set",
+   "item_set_id": "E5-SET-06",
+   "scenario": "Marrowfield Capital is a mid-sized Investment Dealer with eleven retail branches. A newly hired head-office compliance director, Elspeth Varga, conducts a baseline assessment of the firm's retail account supervision program and records four observations: (1) branch Supervisors cannot see deposits, withdrawals or journal entries in the review system — only executed trades; (2) the first-tier monthly review selects retail accounts solely by listing every account that traded during the month, with no commission-based or risk-based criteria, and several branches finish the review seven or eight weeks after month-end; (3) one Supervisor who detected a pattern of questionable trades says she dropped the matter because she had no power to restrict the account and no procedure told her where to send it; (4) the firm's procedures designate non-client accounts, discretionary accounts and managed accounts for supervision purposes but are silent on registered accounts and restricted accounts.",
+   "stem": "Observation (3) describes a Supervisor who detected questionable activity but took no action for lack of authority and direction. According to CIRO's account supervision guidance on supervisory structure, what should the firm's design have provided?",
+   "options": {
+    "A": "An automatic six-month trading suspension for any account a Supervisor questions",
+    "B": "Supervisors should have the authority to take effective and timely remedial action when they detect activity that falls or appears to fall outside the bounds of proper conduct, just and equitable principles of trade or good business practice — and escalating to a more senior Supervisor or Executive is an acceptable action",
+    "C": "A rule that questionable activity may be acted on only after the affected client consents",
+    "D": "A requirement that detected issues be reported directly to the Corporation before any internal step is taken"
+   },
+   "answer": "B",
+   "rationale": "The Guidance states Supervisors should have the authority to take effective and timely remedial action when they detect activity that falls or appears to fall outside the bounds of proper conduct, just and equitable principles of trade or good business practice, and that escalating to a more senior Supervisor or Executive is considered an acceptable action — the firm should have armed the Supervisor with authority or an escalation path. Option D is the closest distractor because escalation is the right concept, but the Guidance's acceptable action is internal escalation, not a mandatory first report to the Corporation; A imposes an automatic sanction the Guidance does not, and C subordinates supervision to client consent.",
+   "rule_refs": [
+    "GN-3900-20-001 s.1.1.1",
+    "IDPC 3906(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Supervisors should have the authority to take ecective and timely remedial action when they detect activity that falls or appears to fall outside the bounds of proper conduct\" — gn-3900-20-001.txt ~line 122"
+  },
+  {
+   "id": "SUP-E5-0150",
+   "element": 5,
+   "outcome": "5.6",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E5-SET-06",
+   "scenario": "Marrowfield Capital is a mid-sized Investment Dealer with eleven retail branches. A newly hired head-office compliance director, Elspeth Varga, conducts a baseline assessment of the firm's retail account supervision program and records four observations: (1) branch Supervisors cannot see deposits, withdrawals or journal entries in the review system — only executed trades; (2) the first-tier monthly review selects retail accounts solely by listing every account that traded during the month, with no commission-based or risk-based criteria, and several branches finish the review seven or eight weeks after month-end; (3) one Supervisor who detected a pattern of questionable trades says she dropped the matter because she had no power to restrict the account and no procedure told her where to send it; (4) the firm's procedures designate non-client accounts, discretionary accounts and managed accounts for supervision purposes but are silent on registered accounts and restricted accounts.",
+   "stem": "Observation (4): the designation list omits two account categories. Under subsection 3945(4), which two retail client account categories must Marrowfield add to the accounts it specifically designates for supervision purposes?",
+   "options": {
+    "A": "Cash accounts and DAP accounts",
+    "B": "Joint accounts and corporate accounts",
+    "C": "Fee-based accounts and leveraged accounts",
+    "D": "Registered accounts and restricted accounts"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3945(4) requires the Dealer Member to specifically designate non-client accounts, discretionary accounts, managed accounts, registered accounts and restricted accounts for supervision purposes — the firm's list omits the last two. Option C is the closest distractor because fee-based accounts do attract their own supervision design under subsection 3945(3), but they are not on the 3945(4) designation list; A and B name account types the subsection does not enumerate.",
+   "rule_refs": [
+    "IDPC 3945(4)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"(iii) managed accounts, (iv) registered accounts, and (v) restricted accounts.\" — idpc-rules.txt ~line 8184"
+  },
+  {
+   "id": "SUP-E5-0151",
+   "element": 5,
+   "outcome": "5.10",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E5-SET-07",
+   "scenario": "Calverhall Hollings Securities, a Participant, provides direct electronic access to Brockfenner Fund Management, an institutional asset manager. During a periodic file review, the DEA oversight team documents four facts: (1) Brockfenner has begun entering orders for the accounts of several pension funds it manages under its adviser registration, routing those orders straight from the pension funds' own terminals to the marketplace without passing through Brockfenner's systems; (2) Calverhall Hollings' monitoring has flagged order flow consistent with Brockfenner quietly executing trades on behalf of an unrelated family office that is not its advisory client; (3) Brockfenner's chief operating officer mentions that a regulatory investigation into certain marketplace trades is under way and asks what cooperation the DEA agreement requires; (4) the oversight team has concluded that Brockfenner no longer meets one of the standards Calverhall Hollings established for granting direct electronic access, yet the desk proposes to keep transmitting Brockfenner's orders while the deficiency is remediated over the coming quarter.",
+   "stem": "Consider fact (1): pension-fund orders bypass Brockfenner's systems entirely. Under sub-clause 7.13(3)(b)(iii) of UMIR, when a DEA client trades for the account of another person as a registered adviser, what must the client ensure?",
+   "options": {
+    "A": "That each pension fund signs its own direct electronic access agreement with the Market Regulator",
+    "B": "That the orders for the other person are transmitted through the systems of the client before being entered on a marketplace, and are subject to reasonable risk management and supervisory controls, policies and procedures established and maintained by the client",
+    "C": "That the orders execute only during the opening auction",
+    "D": "That the pension funds compensate the Participant directly for each order"
+   },
+   "answer": "B",
+   "rationale": "Sub-clause 7.13(3)(b)(iii) requires that, if the client trades for the account of any other person in accordance with sub-clause (ii), the client must ensure the orders for the other person are transmitted through the systems of the client before being entered on a marketplace and are subject to reasonable risk management and supervisory controls, policies and procedures established and maintained by the client — direct terminal-to-marketplace routing breaches both limbs. Option A is the closest distractor because it correctly senses third parties need a compliance pathway, but DEA agreements run between the Participant and its client, not the Market Regulator; C and D impose execution and payment conditions UMIR does not.",
+   "rule_refs": [
+    "UMIR 7.13(3)(b)(iii)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"ensure that the orders for the other person are transmitted through the systems of the client before being entered on a marketplace, and\" — umir.txt ~line 8884"
+  },
+  {
+   "id": "SUP-E5-0152",
+   "element": 5,
+   "outcome": "5.9",
+   "taxonomy": "Apply",
+   "type": "item_set",
+   "item_set_id": "E5-SET-07",
+   "scenario": "Calverhall Hollings Securities, a Participant, provides direct electronic access to Brockfenner Fund Management, an institutional asset manager. During a periodic file review, the DEA oversight team documents four facts: (1) Brockfenner has begun entering orders for the accounts of several pension funds it manages under its adviser registration, routing those orders straight from the pension funds' own terminals to the marketplace without passing through Brockfenner's systems; (2) Calverhall Hollings' monitoring has flagged order flow consistent with Brockfenner quietly executing trades on behalf of an unrelated family office that is not its advisory client; (3) Brockfenner's chief operating officer mentions that a regulatory investigation into certain marketplace trades is under way and asks what cooperation the DEA agreement requires; (4) the oversight team has concluded that Brockfenner no longer meets one of the standards Calverhall Hollings established for granting direct electronic access, yet the desk proposes to keep transmitting Brockfenner's orders while the deficiency is remediated over the coming quarter.",
+   "stem": "Fact (2) suggests trading for a person who is not Brockfenner's advisory client. Under UMIR Policy 7.1 Part 9, monitoring of a DEA client's orders must be designed to identify, among other things, whether the client may have:",
+   "options": {
+    "A": "Engaged in unauthorized trading on behalf of the account of another person",
+    "B": "Achieved a market share exceeding 5% in any single security",
+    "C": "Paid commissions below the Participant's standard institutional schedule",
+    "D": "Used more than one order type in a single trading session"
+   },
+   "answer": "A",
+   "rationale": "Policy 7.1 Part 9 requires a Participant that has granted direct electronic access to monitor orders entered by the client to identify whether the client may have, among other things, engaged in unauthorized trading on behalf of the account of another person — trading for a non-client family office is exactly that pattern. Option B is the closest distractor because concentration metrics are legitimate surveillance inputs, but the Part 9 monitoring list targets access misuse and agreement breaches, not market share; C and D concern commercial terms and order-type variety, which the Policy does not list.",
+   "rule_refs": [
+    "UMIR Policy 7.1 Part 9",
+    "UMIR 7.13(4)(a)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"engaged in unauthorized trading on behalf of the account of another person; or\" — umir.txt ~line 7063"
+  },
+  {
+   "id": "SUP-E5-0153",
+   "element": 5,
+   "outcome": "5.10",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E5-SET-07",
+   "scenario": "Calverhall Hollings Securities, a Participant, provides direct electronic access to Brockfenner Fund Management, an institutional asset manager. During a periodic file review, the DEA oversight team documents four facts: (1) Brockfenner has begun entering orders for the accounts of several pension funds it manages under its adviser registration, routing those orders straight from the pension funds' own terminals to the marketplace without passing through Brockfenner's systems; (2) Calverhall Hollings' monitoring has flagged order flow consistent with Brockfenner quietly executing trades on behalf of an unrelated family office that is not its advisory client; (3) Brockfenner's chief operating officer mentions that a regulatory investigation into certain marketplace trades is under way and asks what cooperation the DEA agreement requires; (4) the oversight team has concluded that Brockfenner no longer meets one of the standards Calverhall Hollings established for granting direct electronic access, yet the desk proposes to keep transmitting Brockfenner's orders while the deficiency is remediated over the coming quarter.",
+   "stem": "On fact (3): under sub-clause 7.13(3)(a)(iii) of UMIR, what must the written DEA agreement provide regarding an investigation or proceeding by a marketplace or the Market Regulator into trading conducted through the access?",
+   "options": {
+    "A": "The client may decline to participate in any investigation that concerns its proprietary strategies",
+    "B": "The Participant must conduct the investigation itself before the Market Regulator may become involved",
+    "C": "The client will fully co-operate with the Participant in connection with any such investigation or proceeding, including, upon request by the Participant, providing access to information to the marketplace or Market Regulator that is necessary for the purposes of the investigation or proceeding",
+    "D": "Cooperation is required only after a formal finding of violation has been made"
+   },
+   "answer": "C",
+   "rationale": "Sub-clause 7.13(3)(a)(iii) requires the written agreement to provide that the client will fully co-operate with the Participant in connection with any investigation or proceeding by any marketplace or the Market Regulator with respect to trading conducted pursuant to direct electronic access, including, upon request by the Participant, providing access to information to the marketplace or Market Regulator that is necessary for the purposes of the investigation or proceeding. Option D is the closest distractor because it concedes a duty but delays it until a finding is made, whereas the obligation applies to the investigation itself; A carves out proprietary strategies, and B inverts the regulatory sequence.",
+   "rule_refs": [
+    "UMIR 7.13(3)(a)(iii)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"operate with the Participant in connection with any investigation or proceeding by any marketplace or the Market Regulator with respect to trading conducted pursuant to direct electronic access\" — umir.txt ~line 8851"
+  },
+  {
+   "id": "SUP-E5-0154",
+   "element": 5,
+   "outcome": "5.10",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E5-SET-07",
+   "scenario": "Calverhall Hollings Securities, a Participant, provides direct electronic access to Brockfenner Fund Management, an institutional asset manager. During a periodic file review, the DEA oversight team documents four facts: (1) Brockfenner has begun entering orders for the accounts of several pension funds it manages under its adviser registration, routing those orders straight from the pension funds' own terminals to the marketplace without passing through Brockfenner's systems; (2) Calverhall Hollings' monitoring has flagged order flow consistent with Brockfenner quietly executing trades on behalf of an unrelated family office that is not its advisory client; (3) Brockfenner's chief operating officer mentions that a regulatory investigation into certain marketplace trades is under way and asks what cooperation the DEA agreement requires; (4) the oversight team has concluded that Brockfenner no longer meets one of the standards Calverhall Hollings established for granting direct electronic access, yet the desk proposes to keep transmitting Brockfenner's orders while the deficiency is remediated over the coming quarter.",
+   "stem": "Fact (4): the desk wants to keep transmitting Brockfenner's orders despite the firm's conclusion that Brockfenner no longer meets a DEA standard. Under subsection 7.13(4) of UMIR, why must this proposal be rejected?",
+   "options": {
+    "A": "Because a standards deficiency may be tolerated for up to one quarter if a remediation plan exists",
+    "B": "Because a Participant must not allow any order to be transmitted using direct electronic access unless the Participant is maintaining and applying its established standards and is satisfied the client meets those standards and is in compliance with the written agreement",
+    "C": "Because only the Market Regulator may decide whether transmission continues after a deficiency is found",
+    "D": "Because the client must first post additional collateral equal to its average daily order value"
+   },
+   "answer": "B",
+   "rationale": "Clause 7.13(4)(a) prohibits a Participant from allowing any order to be transmitted using direct electronic access unless the Participant is maintaining and applying the standards established under subsection 7.13(1), is satisfied the client meets those standards, and is satisfied the client is in compliance with the written agreement — once Calverhall Hollings has concluded Brockfenner fails a standard, it cannot be 'satisfied' and must not allow transmission. Option A is the closest distractor because remediation plans are commercially sensible, but UMIR contains no tolerance period for known standards failures; C misallocates the decision to the Market Regulator, and D invents a collateral cure.",
+   "rule_refs": [
+    "UMIR 7.13(4)(a)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"maintaining and applying the standards established by the Participant under subsection (1), (ii) satisfied the client, investment dealer or foreign dealer equivalent meets the standards established by the Participant under subsection (1)\" — umir.txt ~line 8918"
+  },
+  {
+   "id": "SUP-E5-0155",
+   "element": 5,
+   "outcome": "5.13",
+   "taxonomy": "Apply",
+   "type": "item_set",
+   "item_set_id": "E5-SET-08",
+   "scenario": "Pellbridge Futures Inc. carries retail derivatives accounts. Theodora Lindgaard, the designated Supervisor for futures contracts, forwards, CFDs and similar derivatives, conducts the month-end review and documents four findings: (1) a client whose account is governed by a cumulative loss limit insists the limit was permanently fixed when the account opened four years ago and refuses to discuss it, while the file shows no validation or update since opening; (2) a second client's index option position has grown beyond the position limit prescribed by the exchange on which the options trade, and the desk argues the limit is the exchange's problem, not Pellbridge's; (3) a third client with open CFD positions at the end of each day complains he receives only a quarterly account summary; (4) the daily and monthly statements the firm does produce for open futures positions show the description of each open contract but omit the price at which each open contract was entered into.",
+   "stem": "On finding (1): under subsection 3252(2), on what basis must a client's cumulative loss limit be determined?",
+   "options": {
+    "A": "On a lifetime basis and validated with the client on an annual basis, or on an annual basis and updated annually",
+    "B": "On a fixed basis set once at account opening with no further validation required",
+    "C": "On a monthly basis reset automatically by the surveillance system",
+    "D": "On whatever basis the client unilaterally selects, including declining any limit"
+   },
+   "answer": "A",
+   "rationale": "Clause 3252(2)(iii) requires that the client's cumulative loss limit be determined, notwithstanding obligations under Rule 3400, on a lifetime basis and validated with the client on an annual basis, or on an annual basis and updated annually — a four-year-old limit with no validation or update satisfies neither branch. Option B is the closest distractor because a lifetime limit is indeed set once, but it must still be validated with the client annually; C substitutes a monthly system reset the rule does not contemplate, and D lets the client opt out of the loss-limit regime entirely.",
+   "rule_refs": [
+    "IDPC 3252(2)(iii)",
+    "IDPC 3963(1)(iv)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"(a) a lifetime basis and validated with the client on an annual basis, or (b) an annual basis and updated annually.\" — idpc-rules.txt ~line 5265"
+  },
+  {
+   "id": "SUP-E5-0156",
+   "element": 5,
+   "outcome": "5.13",
+   "taxonomy": "Apply",
+   "type": "item_set",
+   "item_set_id": "E5-SET-08",
+   "scenario": "Pellbridge Futures Inc. carries retail derivatives accounts. Theodora Lindgaard, the designated Supervisor for futures contracts, forwards, CFDs and similar derivatives, conducts the month-end review and documents four findings: (1) a client whose account is governed by a cumulative loss limit insists the limit was permanently fixed when the account opened four years ago and refuses to discuss it, while the file shows no validation or update since opening; (2) a second client's index option position has grown beyond the position limit prescribed by the exchange on which the options trade, and the desk argues the limit is the exchange's problem, not Pellbridge's; (3) a third client with open CFD positions at the end of each day complains he receives only a quarterly account summary; (4) the daily and monthly statements the firm does produce for open futures positions show the description of each open contract but omit the price at which each open contract was entered into.",
+   "stem": "On finding (2): the desk claims an exchange position limit is not Pellbridge's concern. Under section 3255, what is the Dealer Member's own obligation?",
+   "options": {
+    "A": "The Dealer Member has no obligation, because position limits bind only the client",
+    "B": "The Dealer Member need only act if the exchange issues a formal demand",
+    "C": "The Dealer Member's only obligation is to disclose the limit in the relationship disclosure document",
+    "D": "The Dealer Member must comply with the requirements of any entity through which the derivative is traded, cleared, or issued, including, without limitation, reporting, position limit and exercise limit requirements"
+   },
+   "answer": "D",
+   "rationale": "Section 3255 places the obligation on the Dealer Member itself: it must comply with the requirements of any entity through which the derivative is traded, cleared, or issued, including, without limitation, reporting, position limit and exercise limit requirements — the exchange limit is therefore Pellbridge's compliance problem, not merely the client's. Option B is the closest distractor because exchange enforcement may eventually involve demands, but the dealer's compliance duty is standing and does not await a demand; A wrongly confines the limit to the client, and C reduces a compliance obligation to a disclosure item.",
+   "rule_refs": [
+    "IDPC 3255(1)",
+    "IDPC 3963(1)(v)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must comply with the requirements of any entity through which the derivative is traded, cleared, or issued, including, without limitation, reporting, position limit and exercise limit requirements.\" — idpc-rules.txt ~line 5301"
+  },
+  {
+   "id": "SUP-E5-0157",
+   "element": 5,
+   "outcome": "5.16",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E5-SET-08",
+   "scenario": "Pellbridge Futures Inc. carries retail derivatives accounts. Theodora Lindgaard, the designated Supervisor for futures contracts, forwards, CFDs and similar derivatives, conducts the month-end review and documents four findings: (1) a client whose account is governed by a cumulative loss limit insists the limit was permanently fixed when the account opened four years ago and refuses to discuss it, while the file shows no validation or update since opening; (2) a second client's index option position has grown beyond the position limit prescribed by the exchange on which the options trade, and the desk argues the limit is the exchange's problem, not Pellbridge's; (3) a third client with open CFD positions at the end of each day complains he receives only a quarterly account summary; (4) the daily and monthly statements the firm does produce for open futures positions show the description of each open contract but omit the price at which each open contract was entered into.",
+   "stem": "Finding (3): a retail client with open CFD positions at the end of each day receives only quarterly summaries. Under subsection 3808(1), what must Pellbridge make available to this client?",
+   "options": {
+    "A": "A semi-annual portfolio commentary prepared by the Registered Representative",
+    "B": "Daily account information, similar to the information included in a prescribed statement, because at the end of the day the client has an open contract for difference position in their account",
+    "C": "Nothing beyond the quarterly statement, because CFDs are exempt from statement requirements",
+    "D": "A weekly facsimile of the marketplace's settlement records"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3808(1) requires the Dealer Member to make available daily account information, similar to the information included in a statement as prescribed under subsection 3808(4), to each retail client who at the end of the day has in their account an open futures contract, forward contract, contract for difference or similar derivative position — open end-of-day CFDs put this client squarely within the daily-information obligation. Option C is the closest distractor because it asserts an exemption where the rule in fact singles CFDs out for daily information; A and D substitute deliverables the rule does not prescribe.",
+   "rule_refs": [
+    "IDPC 3808(1)"
+   ],
+   "difficulty": "medium",
+   "status": "killed",
+   "source_quote": "\"an open futures contract, forward contract, contract for difference or similar derivative position, or\" — idpc-rules.txt ~line 6883",
+   "qa_note": "Gate 3 kill (wave 7): keyed-option same-fact duplicate of reviewed SUP-E5-0092 (key Jaccard 0.67, both key 3808(1) daily account information for open CFD/derivative positions). Keep-better-anchored rule: reviewed bank item retained. 5.16 retains other coverage in this batch."
+  },
+  {
+   "id": "SUP-E5-0158",
+   "element": 5,
+   "outcome": "5.14",
+   "taxonomy": "Apply",
+   "type": "item_set",
+   "item_set_id": "E5-SET-08",
+   "scenario": "Pellbridge Futures Inc. carries retail derivatives accounts. Theodora Lindgaard, the designated Supervisor for futures contracts, forwards, CFDs and similar derivatives, conducts the month-end review and documents four findings: (1) a client whose account is governed by a cumulative loss limit insists the limit was permanently fixed when the account opened four years ago and refuses to discuss it, while the file shows no validation or update since opening; (2) a second client's index option position has grown beyond the position limit prescribed by the exchange on which the options trade, and the desk argues the limit is the exchange's problem, not Pellbridge's; (3) a third client with open CFD positions at the end of each day complains he receives only a quarterly account summary; (4) the daily and monthly statements the firm does produce for open futures positions show the description of each open contract but omit the price at which each open contract was entered into.",
+   "stem": "Finding (4): statements for open futures positions omit the entry price of each open contract. Under subsection 3808(6), what minimum content must the daily and monthly statements contain for clients with open futures contracts, forward contracts, CFDs or similar derivatives?",
+   "options": {
+    "A": "The description and quantity of each open contract, and the price at which each open contract was entered into",
+    "B": "Only the aggregate market value of all derivative positions combined",
+    "C": "The description of each contract and the firm's internal risk rating for it",
+    "D": "The quantity of each contract and the commission charged on the next anticipated trade"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3808(6) requires that, for clients with any open futures contracts, forward contracts, contracts for difference or similar derivatives, the daily and monthly statements contain, at a minimum, the description and quantity of each open contract and the price at which each open contract was entered into — Pellbridge's statements omit the second element. Option B is the closest distractor because market value is required statement content under subsection 3808(4), but it cannot replace the contract-by-contract description, quantity and entry price 3808(6) demands; C and D introduce risk ratings and prospective commissions the rule does not require.",
+   "rule_refs": [
+    "IDPC 3808(6)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(i) the description and quantity of each open contract, and (ii) the price at which each open contract was entered into.\" — idpc-rules.txt ~line 6950"
+  }
+ ]
+}
