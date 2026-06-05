@@ -48,11 +48,11 @@ export default function Flashcards() {
         subtitle="Crash-course decks, one fact per card. Study an element, then drill it."
       />
 
-      <div className="card mb-6 flex flex-wrap items-end justify-between gap-3 p-4">
-        <label className="block">
+      <div className="card mb-6 flex flex-col gap-3 p-4 sm:flex-row sm:flex-wrap sm:items-end sm:justify-between">
+        <label className="block w-full min-w-0 sm:max-w-md sm:flex-1">
           <span className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">Element</span>
           <select
-            className="field"
+            className="field w-full truncate"
             value={element}
             onChange={(e) => setElement(Number(e.target.value))}
           >
@@ -63,7 +63,10 @@ export default function Flashcards() {
             ))}
           </select>
         </label>
-        <Link to={`/drill?element=${element}`} className="btn-secondary">
+        <Link
+          to={`/drill?element=${element}`}
+          className="btn-secondary w-full justify-center sm:w-auto"
+        >
           Drill element {element} →
         </Link>
       </div>
