@@ -16,6 +16,8 @@ function shuffle<T>(arr: T[]): T[] {
   return a
 }
 
+const clip = (s: string, n = 52) => (s.length > n ? s.slice(0, n) + '…' : s)
+
 export default function Drill() {
   const { reviewedQuestions, syllabus, outcomesByElement } = useData()
   const recordDrill = useProgress((s) => s.recordDrill)
@@ -38,6 +40,14 @@ export default function Drill() {
   }, [reviewedQuestions, element, outcome, difficulty, taxonomy])
 
   const queue = useMemo<Question[]>(() => shuffle(pool), [pool, nonce])
+
+  // Reviewed-question count per outcome — shown in the dropdown so it's clear each
+  // outcome is populated (currently every outcome has at least one question).
+  const outcomeCounts = useMemo(() => {
+    const m = new Map<string, number>()
+    for (const q of reviewedQuestions) m.set(q.outcome, (m.get(q.outcome) ?? 0) + 1)
+    return m
+  }, [reviewedQuestions])
 
   const [pointer, setPointer] = useState(0)
   const [selected, setSelected] = useState<OptionKey | undefined>(undefined)
@@ -98,19 +108,23 @@ export default function Drill() {
           </select>
         </Field>
         <Field label="Outcome">
-          <select
-            className="field w-full"
-            value={outcome}
-            disabled={element === 'all'}
-            onChange={(e) => setOutcome(e.target.value)}
-          >
+          <select className="field w-full" value={outcome} onChange={(e) => setOutcome(e.target.value)}>
             <option value="all">All outcomes</option>
-            {outcomeOptions.map((o) => (
-              <option key={o.id} value={o.id}>
-                {o.id} — {o.statement.slice(0, 60)}
-                {o.statement.length > 60 ? '…' : ''}
-              </option>
-            ))}
+            {element !== 'all'
+              ? outcomeOptions.map((o) => (
+                  <option key={o.id} value={o.id}>
+                    {o.id} — {clip(o.statement)} ({outcomeCounts.get(o.id) ?? 0})
+                  </option>
+                ))
+              : syllabus.elements.map((el) => (
+                  <optgroup key={el.id} label={`E${el.id} · ${el.title}`}>
+                    {el.outcomes.map((o) => (
+                      <option key={o.id} value={o.id}>
+                        {o.id} — {clip(o.statement)} ({outcomeCounts.get(o.id) ?? 0})
+                      </option>
+                    ))}
+                  </optgroup>
+                ))}
           </select>
         </Field>
         <Field label="Difficulty">
