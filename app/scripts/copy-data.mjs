@@ -8,7 +8,7 @@
 //
 // Run automatically by `npm run dev` and `npm run build`.
 
-import { mkdirSync, copyFileSync, existsSync, statSync } from 'node:fs'
+import { mkdirSync, copyFileSync, existsSync, statSync, readFileSync, writeFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 
 const repoRoot = new URL('../../', import.meta.url)
@@ -39,3 +39,17 @@ for (const [src, dest] of FILES) {
 }
 
 console.log(`Copied ${copied} data files into public/data/.`)
+
+// Emit a tiny manifest so the app can render Home (counts) without fetching the 2.3 MB
+// bank up front — the bank + cards are then loaded lazily in the background.
+const readJson = (rel) => JSON.parse(readFileSync(fileURLToPath(new URL(rel, repoRoot)), 'utf8'))
+const bank = readJson('question-bank/bank.json')
+const cards = readJson('study-material/flashcards/cards.json')
+const manifest = {
+  questions: bank.meta?.count ?? bank.questions.length,
+  cards: cards.meta?.count ?? cards.cards.length,
+  updated: bank.meta?.updated ?? null,
+  completion: bank.meta?.completion ?? null,
+}
+writeFileSync(fileURLToPath(new URL('manifest.json', outDir)), JSON.stringify(manifest, null, 2))
+console.log(`Wrote manifest.json (${manifest.questions} questions, ${manifest.cards} cards).`)

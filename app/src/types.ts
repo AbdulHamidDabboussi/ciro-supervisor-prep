@@ -82,6 +82,13 @@ export interface ElementWeight {
   questions: number
 }
 
+export interface Manifest {
+  questions: number
+  cards: number
+  updated: string | null
+  completion: string | null
+}
+
 export interface ExamMeta {
   exam: string
   regulator: string

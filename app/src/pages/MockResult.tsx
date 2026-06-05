@@ -12,6 +12,8 @@ export default function MockResult() {
   const { elementsById } = useData()
   const mock = useMock()
   const addMockResult = useProgress((s) => s.addMockResult)
+  const bookmarks = useProgress((s) => s.bookmarks)
+  const toggleBookmark = useProgress((s) => s.toggleBookmark)
   const navigate = useNavigate()
 
   const elementTitles = useMemo(() => {
@@ -36,6 +38,11 @@ export default function MockResult() {
       correct: score.correct,
       overallPct: score.overallPct,
       autoSubmitted: mock.autoSubmitted,
+      perElement: score.perElement.map((b) => ({
+        element: Number(b.key.replace('E', '')),
+        correct: b.correct,
+        total: b.total,
+      })),
     })
   }, [score, mock.startedAt, mock.autoSubmitted, addMockResult])
 
@@ -57,16 +64,23 @@ export default function MockResult() {
   }
 
   const review = [...score.incorrect, ...score.unanswered]
+  const flagged = mock.questions.filter((qq) => mock.flags[qq.id])
 
   return (
     <div className="space-y-8">
       <PageHeading title="Mock exam results" subtitle="No pass mark is published by CIRO — this is a breakdown, not a verdict." />
 
+      {mock.autoSubmitted && (
+        <section className="rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900 dark:border-amber-700/60 dark:bg-amber-900/20 dark:text-amber-200">
+          <span className="font-semibold">⏰ Time expired.</span> Your exam was submitted automatically;
+          any unanswered questions were marked incorrect.
+        </section>
+      )}
+
       <section className="card flex flex-col items-center gap-2 p-8 text-center">
         <p className="text-6xl font-bold text-brand-700 dark:text-brand-300">{score.overallPct}%</p>
         <p className="text-sm text-slate-500 dark:text-slate-400">
           {score.correct} of {score.total} correct · {score.answered} answered
-          {mock.autoSubmitted && ' · auto-submitted at time'}
         </p>
       </section>
 
@@ -110,7 +124,13 @@ export default function MockResult() {
           <div className="space-y-5">
             {review.map((q) => (
               <div key={q.id} className="card p-5">
-                <QuestionCard question={q} selected={mock.answers[q.id]} revealed />
+                <QuestionCard
+                  question={q}
+                  selected={mock.answers[q.id]}
+                  revealed
+                  bookmarked={!!bookmarks[q.id]}
+                  onToggleBookmark={() => toggleBookmark(q.id)}
+                />
               </div>
             ))}
           </div>
@@ -124,6 +144,28 @@ export default function MockResult() {
             You answered every question correctly. Try another form for fresh questions.
           </p>
         </div>
+      )}
+
+      {flagged.length > 0 && (
+        <section>
+          <h2 className="mb-1 text-lg font-semibold">Flagged for review — {flagged.length}</h2>
+          <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">
+            Questions you marked during the exam (the answer is shown).
+          </p>
+          <div className="space-y-5">
+            {flagged.map((q) => (
+              <div key={q.id} className="card p-5">
+                <QuestionCard
+                  question={q}
+                  selected={mock.answers[q.id]}
+                  revealed
+                  bookmarked={!!bookmarks[q.id]}
+                  onToggleBookmark={() => toggleBookmark(q.id)}
+                />
+              </div>
+            ))}
+          </div>
+        </section>
       )}
     </div>
   )

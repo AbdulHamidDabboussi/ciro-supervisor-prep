@@ -6,6 +6,7 @@ import { assembleMockForm } from '../lib/mockAssembler'
 import { QuestionCard } from '../components/QuestionCard'
 import { PageHeading, Badge, Modal } from '../components/ui'
 import { cn, formatClock } from '../lib/format'
+import type { OptionKey } from '../types'
 
 export default function Mock() {
   const status = useMock((s) => s.status)
@@ -20,12 +21,13 @@ export default function Mock() {
 }
 
 function StartScreen() {
-  const { reviewedQuestions, examMeta } = useData()
+  const { reviewedQuestions, examMeta, questionsReady } = useData()
   const start = useMock((s) => s.start)
   const navigate = useNavigate()
   const { questions_total, duration_minutes, questions_item_set } = examMeta.format
 
   function begin() {
+    if (!questionsReady) return
     const form = assembleMockForm(reviewedQuestions, examMeta.element_weights, questions_item_set)
     start(form, duration_minutes * 60_000)
     navigate('/mock')
@@ -71,8 +73,10 @@ function StartScreen() {
           </ul>
         </div>
 
-        <button className="btn-primary w-full sm:w-auto" onClick={begin}>
-          Start mock exam — {questions_total} questions · {duration_minutes / 60} h
+        <button className="btn-primary w-full sm:w-auto" onClick={begin} disabled={!questionsReady}>
+          {questionsReady
+            ? `Start mock exam — ${questions_total} questions · ${duration_minutes / 60} h`
+            : 'Loading questions…'}
         </button>
       </div>
     </div>
@@ -120,8 +124,40 @@ function Runner() {
 
   const q = mock.questions[mock.index]
   const answeredCount = Object.keys(mock.answers).length
+  const flaggedCount = Object.keys(mock.flags).length
   const unanswered = mock.questions.length - answeredCount
   const paused = mock.status === 'paused'
+
+  // Keyboard: A–D / 1–4 to answer, ←/→ to navigate, F to flag (disabled while paused or a dialog is open).
+  useEffect(() => {
+    if (paused || confirming || quitting) return
+    function onKey(e: KeyboardEvent) {
+      if (e.metaKey || e.ctrlKey || e.altKey) return
+      const tag = (e.target as HTMLElement | null)?.tagName
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT') return
+      if (!q) return
+      const map: Record<string, OptionKey> = {
+        '1': 'A', '2': 'B', '3': 'C', '4': 'D', a: 'A', b: 'B', c: 'C', d: 'D',
+      }
+      const k = map[e.key.toLowerCase()]
+      if (k) {
+        e.preventDefault()
+        mock.answer(q.id, k)
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault()
+        mock.prev()
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault()
+        mock.next()
+      } else if (e.key.toLowerCase() === 'f') {
+        e.preventDefault()
+        mock.toggleFlag(q.id)
+      }
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [q, paused, confirming, quitting])
 
   const timeTone =
     remaining <= 120_000 ? 'text-red-600' : remaining <= 600_000 ? 'text-amber-600' : 'text-slate-800 dark:text-slate-100'
@@ -147,6 +183,7 @@ function Runner() {
         <div className="flex items-center gap-3 text-sm text-slate-500 dark:text-slate-400">
           <span>
             {answeredCount}/{mock.questions.length} answered
+            {flaggedCount > 0 && ` · ${flaggedCount} flagged`}
           </span>
           <button className="btn-secondary !py-1.5" onClick={() => setShowNav((v) => !v)}>
             Questions
@@ -161,6 +198,7 @@ function Runner() {
         <div className="card mb-5 grid grid-cols-8 gap-1.5 p-3 sm:grid-cols-10 md:grid-cols-12">
           {mock.questions.map((qq, i) => {
             const answered = !!mock.answers[qq.id]
+            const flagged = !!mock.flags[qq.id]
             return (
               <button
                 key={qq.id}
@@ -169,7 +207,7 @@ function Runner() {
                   setShowNav(false)
                 }}
                 className={cn(
-                  'aspect-square rounded text-xs font-medium',
+                  'relative aspect-square rounded text-xs font-medium',
                   i === mock.index && 'ring-2 ring-brand-500',
                   answered
                     ? 'bg-brand-600 text-white'
@@ -177,6 +215,9 @@ function Runner() {
                 )}
               >
                 {i + 1}
+                {flagged && (
+                  <span className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-amber-400 ring-1 ring-white dark:ring-slate-900" />
+                )}
               </button>
             )
           })}
@@ -196,11 +237,27 @@ function Runner() {
       ) : (
         q && (
           <div className="card p-5 sm:p-6">
-            <div className="mb-4 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+            <div className="mb-4 flex items-center justify-between gap-2 text-xs text-slate-500 dark:text-slate-400">
               <span>
                 Question {mock.index + 1} of {mock.questions.length}
               </span>
-              {q.type === 'item_set' && <Badge tone="amber">Item set</Badge>}
+              <div className="flex items-center gap-2">
+                {q.type === 'item_set' && <Badge tone="amber">Item set</Badge>}
+                <button
+                  type="button"
+                  onClick={() => mock.toggleFlag(q.id)}
+                  aria-pressed={!!mock.flags[q.id]}
+                  title="Flag for review (F)"
+                  className={cn(
+                    'rounded-md border px-2 py-1 text-xs font-medium transition',
+                    mock.flags[q.id]
+                      ? 'border-amber-400 bg-amber-50 text-amber-700 dark:bg-amber-900/20 dark:text-amber-300'
+                      : 'border-slate-300 text-slate-500 hover:border-amber-400 hover:text-amber-600 dark:border-slate-700 dark:text-slate-400',
+                  )}
+                >
+                  {mock.flags[q.id] ? '⚑ Flagged' : '⚑ Flag'}
+                </button>
+              </div>
             </div>
             <QuestionCard
               question={q}

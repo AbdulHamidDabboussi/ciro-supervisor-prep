@@ -18,14 +18,17 @@ export interface MockResultSummary {
   correct: number
   overallPct: number
   autoSubmitted: boolean
+  perElement: { element: number; correct: number; total: number }[]
 }
 
 interface ProgressState {
   drill: Record<string, DrillRecord>
   cards: Record<string, CardStatus>
   mockHistory: MockResultSummary[]
+  bookmarks: Record<string, true>
   recordDrill: (id: string, chosen: OptionKey, isCorrect: boolean) => void
   setCardStatus: (id: string, status: CardStatus) => void
+  toggleBookmark: (id: string) => void
   addMockResult: (r: MockResultSummary) => void
   resetAll: () => void
   // Derived counts
@@ -38,6 +41,7 @@ export const useProgress = create<ProgressState>()(
       drill: {},
       cards: {},
       mockHistory: [],
+      bookmarks: {},
 
       recordDrill: (id, chosen, isCorrect) =>
         set((s) => {
@@ -57,6 +61,14 @@ export const useProgress = create<ProgressState>()(
 
       setCardStatus: (id, status) => set((s) => ({ cards: { ...s.cards, [id]: status } })),
 
+      toggleBookmark: (id) =>
+        set((s) => {
+          const next = { ...s.bookmarks }
+          if (next[id]) delete next[id]
+          else next[id] = true
+          return { bookmarks: next }
+        }),
+
       // Idempotent per session: re-rendering the result page won't duplicate an entry.
       addMockResult: (r) =>
         set((s) =>
@@ -65,7 +77,7 @@ export const useProgress = create<ProgressState>()(
             : { mockHistory: [r, ...s.mockHistory].slice(0, 50) },
         ),
 
-      resetAll: () => set({ drill: {}, cards: {}, mockHistory: [] }),
+      resetAll: () => set({ drill: {}, cards: {}, mockHistory: [], bookmarks: {} }),
 
       drillStats: () => {
         const recs = Object.values(get().drill)

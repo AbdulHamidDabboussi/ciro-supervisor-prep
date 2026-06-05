@@ -7,6 +7,7 @@ export type MockStatus = 'idle' | 'running' | 'paused' | 'submitted'
 interface MockState {
   questions: Question[]
   answers: Record<string, OptionKey>
+  flags: Record<string, true>
   index: number
   status: MockStatus
   durationMs: number
@@ -19,6 +20,7 @@ interface MockState {
 
   start: (questions: Question[], durationMs: number) => void
   answer: (qid: string, key: OptionKey) => void
+  toggleFlag: (qid: string) => void
   goto: (index: number) => void
   next: () => void
   prev: () => void
@@ -35,6 +37,7 @@ export const useMock = create<MockState>()(
     (set, get) => ({
       questions: [],
       answers: {},
+      flags: {},
       index: 0,
       status: 'idle',
       durationMs: 0,
@@ -48,6 +51,7 @@ export const useMock = create<MockState>()(
         set({
           questions,
           answers: {},
+          flags: {},
           index: 0,
           status: 'running',
           durationMs,
@@ -59,6 +63,14 @@ export const useMock = create<MockState>()(
       },
 
       answer: (qid, key) => set((s) => ({ answers: { ...s.answers, [qid]: key } })),
+
+      toggleFlag: (qid) =>
+        set((s) => {
+          const next = { ...s.flags }
+          if (next[qid]) delete next[qid]
+          else next[qid] = true
+          return { flags: next }
+        }),
 
       goto: (index) =>
         set((s) => ({ index: Math.max(0, Math.min(index, s.questions.length - 1)) })),
@@ -89,6 +101,7 @@ export const useMock = create<MockState>()(
         set({
           questions: [],
           answers: {},
+          flags: {},
           index: 0,
           status: 'idle',
           durationMs: 0,

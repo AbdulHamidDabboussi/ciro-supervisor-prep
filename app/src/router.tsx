@@ -5,6 +5,7 @@ import Drill from './pages/Drill'
 import Mock from './pages/Mock'
 import MockResult from './pages/MockResult'
 import Flashcards from './pages/Flashcards'
+import Progress from './pages/Progress'
 import About from './pages/About'
 import NotFound from './pages/NotFound'
 
@@ -18,6 +19,7 @@ export const router = createHashRouter([
       { path: 'mock', element: <Mock /> },
       { path: 'mock/result', element: <MockResult /> },
       { path: 'flashcards', element: <Flashcards /> },
+      { path: 'progress', element: <Progress /> },
       { path: 'about', element: <About /> },
       { path: '*', element: <NotFound /> },
     ],

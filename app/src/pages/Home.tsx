@@ -34,7 +34,7 @@ const MODES = [
 ]
 
 export default function Home() {
-  const { reviewedQuestions, deck, examMeta } = useData()
+  const { manifest, examMeta } = useData()
   const drill = useProgress((s) => s.drill)
   const mockHistory = useProgress((s) => s.mockHistory)
   const resetAll = useProgress((s) => s.resetAll)
@@ -74,9 +74,8 @@ export default function Home() {
           Pass the CIRO Supervisor Exam with practice that explains every answer.
         </h1>
         <p className="mt-3 max-w-2xl text-brand-50">
-          {reviewedQuestions.length} original practice questions and {deck.cards.length} flashcards,
-          mapped to all 9 syllabus elements. Free, no account needed — your progress stays on this
-          device.
+          {manifest.questions} original practice questions and {manifest.cards} flashcards, mapped to
+          all 9 syllabus elements. Free, no account needed — your progress stays on this device.
         </p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link to="/drill" className="btn bg-white text-brand-700 hover:bg-brand-50">
@@ -91,7 +90,7 @@ export default function Home() {
       {(attempted > 0 || lastMock) && (
         <section className="card p-5">
           <div className="grid gap-4 sm:grid-cols-3">
-            <Stat label="Questions attempted" value={`${attempted}`} sub={`of ${reviewedQuestions.length}`} />
+            <Stat label="Questions attempted" value={`${attempted}`} sub={`of ${manifest.questions}`} />
             <Stat
               label="Last mock score"
               value={lastMock ? `${lastMock.overallPct}%` : '—'}
