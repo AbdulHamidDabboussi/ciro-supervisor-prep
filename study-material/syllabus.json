@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "title": "CIRO Supervisor Exam Syllabus — structured content model",
+    "syllabus_version": "2025-05-29",
+    "source": "https://www.ciro.ca/media/13606/download?attachment",
+    "note": "Outcome statements condensed from the official syllabus (verbatim-faithful scope; full parameter text in research/02-syllabus-study-guide-competency-profile.md; verbatim English text in research/sources/Supervisor-Exam-Syllabus-EN.txt). All 103 outcome IDs and taxonomy levels verified against the official English PDF on 2026-06-04. Taxonomy levels are cumulative.",
+    "total_questions": 90,
+    "total_outcomes": 103
+  },
+  "elements": [
+    {
+      "id": 1,
+      "title": "General regulatory framework",
+      "questions": 10,
+      "summary": "Regulators in Canadian investment services and consumer protections through legislation (Criminal Code, PCMLTFA); applying complaint-handling procedures; analyzing conduct that could breach CIRO standards of conduct and conflicts of interest rules.",
+      "outcomes": [
+        {"id": "1.1", "taxonomy": "Understand", "statement": "Role and authority of the CSA and provincial/territorial securities and derivatives regulators: jurisdiction, mandate, forms of legislation (NIs, MIs, National Policies, Staff Notices, Companion Policies), registration requirements, enforcement powers."},
+        {"id": "1.2", "taxonomy": "Understand", "statement": "Role and authority of CIRO: jurisdiction, recognition orders and delegated authority, mandate, dealer registration and individual approval, IDPC Rules, UMIR, role of rules/guidance/forms (standards of conduct, sales practices, external communications), enforcement powers."},
+        {"id": "1.3", "taxonomy": "Understand", "statement": "Registration requirements for Investment Dealers and approval of individuals; roles of CSA and CIRO in that process."},
+        {"id": "1.4", "taxonomy": "Understand", "statement": "Role and authority of exchanges and other marketplaces: exchanges, ATSs, crypto-asset trading platforms, Foreign Organized Regulated Markets."},
+        {"id": "1.5", "taxonomy": "Understand", "statement": "Role and authority of clearing houses: CDS and CDCC."},
+        {"id": "1.6", "taxonomy": "Understand", "statement": "Role of CIPF: purpose, dealer funding requirements, governance, role in dealer bankruptcy/insolvency including pooling of client assets."},
+        {"id": "1.7", "taxonomy": "Understand", "statement": "Function of other financial regulators/agencies: FSRA, Bank of Canada, RCMP IMET, FINTRAC, OSFI, privacy commissioners, OBSI, and US/foreign regulators (SEC, FINRA, CFTC, NFA)."},
+        {"id": "1.8", "taxonomy": "Understand", "statement": "Purpose and implications of federal statutes: Bank Act (stability, consumer protection, competition); Bankruptcy and Insolvency Act Part XII (bankruptcy of a securities firm)."},
+        {"id": "1.9", "taxonomy": "Understand", "statement": "Criminal Code application to financial crimes: fraud, theft, theft by power of attorney, misappropriation, false statements/pretenses, obtaining execution of a security by fraud, forgery, uttering forged documents, false prospectus, organized crime offences, insider trading."},
+        {"id": "1.10", "taxonomy": "Understand", "statement": "PCMLTFA and Regulations: stages of money laundering, compliance program requirements, AML policies and procedures, client due diligence, enterprise risk assessment and risk indicators, employee training, business relationship record-keeping."},
+        {"id": "1.11", "taxonomy": "Understand", "statement": "Other applicable laws: CASL, confidentiality/non-disclosure agreements, PIPEDA, public company disclosure rules and statutory shareholder rights."},
+        {"id": "1.12", "taxonomy": "Understand", "statement": "The Investment Dealer's obligations to clients and others: legislative, contractual, organizational factors."},
+        {"id": "1.13", "taxonomy": "Apply", "statement": "Client complaint requirements in specific situations: reporting requirements and failure to report, internal investigation obligation, settlement agreements, complaint policies and procedures, roles of CIRO/OBSI/provincial regulators, designated complaints officer, alternative resolution processes."},
+        {"id": "1.14", "taxonomy": "Understand", "statement": "Recourse available to dissatisfied clients: arbitration, litigation, OBSI, CIRO."},
+        {"id": "1.15", "taxonomy": "Understand", "statement": "Situations requiring CIRO's whistleblower service for non-client matters: internal misconduct/illegal activity, potential systemic wrongdoing, potential securities frauds."},
+        {"id": "1.16", "taxonomy": "Understand", "statement": "Consequences/liabilities of settlement agreements entered into with clients without dealer approval; penalties regulators may apply."},
+        {"id": "1.17", "taxonomy": "Analyze", "statement": "Role of ethics and personal integrity of Supervisors: link between ethical behaviour and compliance (due care, independent judgment, trustworthiness, honesty, professionalism); CIRO standards of conduct including conduct unbecoming and just and equitable principles of trade."},
+        {"id": "1.18", "taxonomy": "Analyze", "statement": "Ethics and integrity in corporate governance: transparency, resolution of compensation conflicts, oversight and accountability, training and awareness."},
+        {"id": "1.19", "taxonomy": "Understand", "statement": "Consequences and risks of unethical behaviour: legal, reputational, regulatory scrutiny, employee morale/turnover, client trust and retention."},
+        {"id": "1.20", "taxonomy": "Apply", "statement": "CIRO conflicts-of-interest requirements: avoid/disclose/manage/resolve material conflicts; standards for producing Supervisors; identifying compensatory, managerial, ownership conflicts; protection of corporate assets; confidentiality; fair dealing."},
+        {"id": "1.21", "taxonomy": "Analyze", "statement": "Outside activities and positions of influence: prohibition/approval/disclosure/required action; existing and reasonably foreseeable material conflicts; written disclosure; reporting obligations."},
+        {"id": "1.22", "taxonomy": "Apply", "statement": "Prohibitions and exemptions on personal financial dealings with clients: acceptance of consideration, settlement agreements, borrowing from clients, lending to clients, control or authority."},
+        {"id": "1.23", "taxonomy": "Understand", "statement": "Containing confidential or material non-public information: who is likely to receive it (investment banking, corporate finance, research, issuer-trading staff); information barriers/firewalls; grey and restricted lists; cybersecurity."}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Supervisory structure: Investment Dealer responsibilities",
+      "questions": 10,
+      "summary": "Obligations of an Investment Dealer when providing products and services, including roles of Executives and the compliance department; analyzing and applying the Supervisor's general responsibilities, including delegation and automation.",
+      "outcomes": [
+        {"id": "2.1", "taxonomy": "Understand", "statement": "Requirement to establish a supervision system covering all employees and Approved Persons: written policies and procedures, reasonable assurance of compliance, timely amendment after rule changes, communication and acknowledgment, introductory and continuing training, compliance-notice distribution, annual review of financial/operational P&Ps, record-keeping awareness."},
+        {"id": "2.2", "taxonomy": "Understand", "statement": "Product due diligence obligations and exemptions: P&Ps, assessment of products made available, product approval, monitoring, exemptions for carrying-broker / execution-clearing-settlement-custody-only accounts."},
+        {"id": "2.3", "taxonomy": "Understand", "statement": "Executives' responsibility in supervising the dealer: designation requirements, oversight of P&Ps, supervising/directing activities, accountability to Directors, CCO and CFO reporting to the Board."},
+        {"id": "2.4", "taxonomy": "Understand", "statement": "Executive responsibility for significant areas of risk: financial, operational, corporate finance, trading, wealth management, research."},
+        {"id": "2.5", "taxonomy": "Understand", "statement": "Implications of internal and external audits on the Investment Dealer."},
+        {"id": "2.6", "taxonomy": "Analyze", "statement": "Common areas of CIRO regulatory/enforcement action against Approved Persons: violating securities/derivatives laws or CIRO requirements, aiding and abetting, failing supervisory obligations."},
+        {"id": "2.7", "taxonomy": "Understand", "statement": "Role of the compliance function: setting P&Ps; identifying, assessing, advising, acting, communicating, monitoring, escalating and reporting on compliance; CIRO's expectations; escalation responsibility."},
+        {"id": "2.8", "taxonomy": "Analyze", "statement": "Scope of supervision requirements and Supervisor's authority to act for the dealer: reasonable assurance of compliance; assigned supervisory responsibilities (account types, shared premises, sales practices, compliance notices); requirement for authority; client-record amendment controls."},
+        {"id": "2.9", "taxonomy": "Apply", "statement": "Record-keeping requirements and retention periods relevant to Supervisors: list of Supervisors with qualifications/responsibilities/designation dates, supervisory reports, identified compliance issues, terms of delegation and authority."},
+        {"id": "2.10", "taxonomy": "Apply", "statement": "Documented controls for delegation: detailed P&Ps, records of delegated tasks, restrictions (delegate qualification, prohibited delegations, delegator retains responsibility), escalation processes, review triggers, examination of delegate reviews, regular reports, at-least-annual review of the delegation process."},
+        {"id": "2.11", "taxonomy": "Understand", "statement": "Role of automation: how the process works, Supervisor's role and responsibilities, tasks that can and cannot be automated."},
+        {"id": "2.12", "taxonomy": "Understand", "statement": "Controls for automation processes: manual-review triggers (non-individual applicant, minor, trading authorization, derivatives strategies without knowledge/experience, insider, politically exposed person), periodic testing and auditing."}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Business and operations",
+      "questions": 9,
+      "summary": "How an Investment Dealer's supervisory structure changes with its business model; analyzing supervisory risks of different account, product and compensation structures.",
+      "outcomes": [
+        {"id": "3.1", "taxonomy": "Understand", "statement": "Dealer's responsibility to implement a supervision system adapted to scope and complexity: P&P effectiveness, appointing as many Supervisors as needed, escalation of supervisability concerns, business model factors (products, trading types, due diligence, locations, Supervisor types and functions)."},
+        {"id": "3.2", "taxonomy": "Understand", "statement": "Relationship between a dealer's supervisory system and its internal controls."},
+        {"id": "3.3", "taxonomy": "Understand", "statement": "Risks, opportunities and requirements for the Investment Dealer associated with business models: advisory (role/responsibilities of Approved Persons, employment arrangements, principal-agent vs employer/employee), portfolio management, managed accounts (PM/APM roles), online advice (operations, obligations, product limits e.g. ETFs), order-execution-only (tools, Direct Electronic Access, CFDs)."},
+        {"id": "3.4", "taxonomy": "Understand", "statement": "Supervisory risks by client type: retail; institutional."},
+        {"id": "3.5", "taxonomy": "Analyze", "statement": "Supervisory risks by account type (retail and institutional): advisory, in-house managed, third-party managed, discretionary, fee-based (non-managed)/wrap, tax-deferred, margin, DEA, DAP/COD/RAP."},
+        {"id": "3.6", "taxonomy": "Analyze", "statement": "Supervisory risks by security type: equities, mutual funds and ETFs, fixed income."},
+        {"id": "3.7", "taxonomy": "Analyze", "statement": "Supervisory risks of complex products: leveraged and inverse ETFs, structured products, asset-backed securities, specialized securities (e.g., cryptocurrencies)."},
+        {"id": "3.8", "taxonomy": "Analyze", "statement": "Supervisory risks by derivative type: options, futures contract options, futures, forwards, swaps, contracts for difference, other similar derivatives as described by CIRO."},
+        {"id": "3.9", "taxonomy": "Analyze", "statement": "Supervisory risks of compensation structures: commission-based; fee-based."},
+        {"id": "3.10", "taxonomy": "Understand", "statement": "Supervisory risks of negotiated flat fees and referral fees."}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Account approvals",
+      "questions": 20,
+      "summary": "Requirements for account approvals across account types — OEO, discretionary, managed and derivatives accounts — and applying them to specific account-opening situations. The most heavily weighted element.",
+      "outcomes": [
+        {"id": "4.1", "taxonomy": "Understand", "statement": "Account approval requirements: collection of client account documentation, prescribed timelines, business-day approval requirement, updates and changes, handling conflicts of interest, non-client account requirements."},
+        {"id": "4.2", "taxonomy": "Understand", "statement": "Institutional client approval considerations: definition of institutional client, when a qualifying hedger can be classified institutional, the hedger determination, verifying qualification, supervision where not exempt from suitability."},
+        {"id": "4.3", "taxonomy": "Understand", "statement": "Account appropriateness requirements: putting prospective clients' interests first; appropriate scope and selection of products, services and account relationships."},
+        {"id": "4.4", "taxonomy": "Understand", "statement": "Client account record requirements: identity-verification documentation, appropriateness-assessment documentation, KYC per CIRO requirements, the account application."},
+        {"id": "4.5", "taxonomy": "Understand", "statement": "Relationship Disclosure purpose and content: products/services/account types (incl. fee-based, leverage, margin), limitations, fees and compensation, account maintenance conditions, wealth management process, performance benchmarks, impact of fees/turnover/taxes, client relationship model, systematic investment approaches."},
+        {"id": "4.6", "taxonomy": "Understand", "statement": "Leverage risk disclosure statement: when required, purpose, content."},
+        {"id": "4.7", "taxonomy": "Understand", "statement": "Margin account agreement purpose and content: repayment and margin-maintenance obligations, interest on debits, dealer rights (pledge assets, use free credits, sell assets/cover shorts, use securities for delivery against short sales, hold collateral), notice requirements, dealer obligation to transact per CIRO/marketplace requirements."},
+        {"id": "4.8", "taxonomy": "Understand", "statement": "Dealer-related disclosures in the derivatives trading agreement: order-acceptance windows; dealer rights (discretion to accept orders, impose limits or close positions, use free credits and assets as collateral, pledge assets); conditions for applying client property to debts/margin calls; obligations (regulatory reporting of limits/positions, consent before taking the other side, errors and omissions); discretionary authority must be explained and confirmed."},
+        {"id": "4.9", "taxonomy": "Understand", "statement": "Client-related disclosures in the derivatives trading agreement: comply with CIRO and trading/clearing entity requirements incl. position/exercise limits, maintain margin, pay compensation/interest; acknowledgments — receipt of current derivatives risk disclosure statement, duty to update insider status."},
+        {"id": "4.10", "taxonomy": "Understand", "statement": "Other requirements of the entity through which a derivative is traded/cleared/issued: exercise-notice deadlines and assignment-notice method; written notice of short-position limits, cash-only terms in last 10 days before expiry, CIRO-imposed rules; client duty to instruct close-out before expiry; minimum margin = greatest of marketplace/clearing house, CIRO, or dealer requirements."},
+        {"id": "4.11", "taxonomy": "Understand", "statement": "Client cumulative loss limits: applies to accounts trading futures, forwards, CFDs, futures options or similar/highly leveraged products (other than hedging accounts) across advisory, discretionary, managed and OEO; set on a lifetime basis validated annually, or annual basis updated annually."},
+        {"id": "4.12", "taxonomy": "Understand", "statement": "Letter of Undertaking as an alternative to a trading agreement — institutional clients only: purpose and content."},
+        {"id": "4.13", "taxonomy": "Understand", "statement": "Supervision of managed accounts: designated Supervisor, specific P&Ps, managed account agreement before opening, written approval per account, record retention, providing the fair-allocation policy to the client."},
+        {"id": "4.14", "taxonomy": "Understand", "statement": "Managed account agreement purpose and content: client financial situation, knowledge, risk profile, objectives, time horizon; client-imposed restrictions; termination terms — client notice effective on receipt; dealer notice effective not less than 30 days from delivery."},
+        {"id": "4.15", "taxonomy": "Apply", "statement": "Managed-account conflict-of-interest rules: no trading on managed-account information by dealer/associates/affiliates; no investing in related/connected issuers or dealer-underwritten new issues without prior written client consent/disclosure; no trades with PM/APM/associate accounts or responsible-person-advised funds; no guarantees/loans to responsible persons; fair allocation of investment opportunities."},
+        {"id": "4.16", "taxonomy": "Understand", "statement": "Managed-account fees and remuneration: no compensating persons based on transaction value/volume; no direct client charges based on volume/value or contingent on profit/performance without written agreement."},
+        {"id": "4.17", "taxonomy": "Understand", "statement": "A designated Supervisor is prohibited from delegating the performance of discretionary account reviews."},
+        {"id": "4.18", "taxonomy": "Understand", "statement": "Supervision of discretionary accounts: designated qualified Supervisor(s), specific P&Ps, identification in books and records, agreement before acceptance, designated approval of account and agreement, record retention."},
+        {"id": "4.19", "taxonomy": "Understand", "statement": "Discretionary account agreement: extent and restrictions of discretionary authority; maximum term 12 months, non-renewable; termination (client — on receipt; dealer — not less than 30 days); conflicts rules incl. prohibition on holding securities of the dealer or affiliates; responsible-person prohibitions."},
+        {"id": "4.20", "taxonomy": "Apply", "statement": "Account appropriateness assessment in specific situations: advisory, managed, discretionary, leveraged, margin, and derivatives accounts including trading strategies."},
+        {"id": "4.21", "taxonomy": "Apply", "statement": "OEO account appropriateness: incapacity for online activities (e.g., persistent difficulty with the application), investor seeking advice; restrictions on automated derivatives approvals — CFDs, OTC derivatives, futures strategies, options strategies other than low-risk long calls, long puts, covered calls, protective puts."}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Account activity",
+      "questions": 15,
+      "summary": "Ongoing risks of different accounts; analyzing situations to identify risks and applying procedures to mitigate or respond.",
+      "outcomes": [
+        {"id": "5.1", "taxonomy": "Understand", "statement": "Approaches to supervision: tiered, single centralized, remote-supervision considerations."},
+        {"id": "5.2", "taxonomy": "Apply", "statement": "Account supervision requirements: identifying clients high-risk to the dealer, clients at high risk of improper market activities, AML/ATF compliance, controls for accessing and amending client records."},
+        {"id": "5.3", "taxonomy": "Understand", "statement": "Strict supervisory measures for Approved Persons with a history of regulatory infractions: pre-approval of orders by the Supervisor; daily and monthly review of all client accounts."},
+        {"id": "5.4", "taxonomy": "Understand", "statement": "Risks of direct order entry without employee intermediation (OEO accounts)."},
+        {"id": "5.5", "taxonomy": "Understand", "statement": "Requirements and conditions for temporary holds to prevent financial exploitation of vulnerable clients."},
+        {"id": "5.6", "taxonomy": "Analyze", "statement": "Retail account supervision situations: daily trading review incl. red flags; monthly review incl. specified account types; detecting concerning practices — unsuitable trading, undue concentration, excessive trading (churning), restricted securities, AP-client conflicts, excessive transfers/cancellations (possible unauthorized trading), high-risk strategies, deterioration of holdings, improper crosses, improper employee trading, front running, account number changes, late payments, outstanding margin calls, undisclosed short sales, manipulative activities, insider trading; required transactional information incl. charges/commissions."},
+        {"id": "5.7", "taxonomy": "Understand", "statement": "Cross-supervision requirements."},
+        {"id": "5.8", "taxonomy": "Understand", "statement": "Client mail-hold procedures for retail clients: client authorization, time limits, control and regular review."},
+        {"id": "5.9", "taxonomy": "Apply", "statement": "Institutional account activity P&Ps: supervision/review of institutional trading; remediation of identified issues; detecting improper activity — manipulative practices, restricted-list trading (securities and derivatives), front running via employee/proprietary accounts, restricted-transfer products, exceeding position/exercise limits, activity around margin thresholds."},
+        {"id": "5.10", "taxonomy": "Understand", "statement": "Direct market access accounts and supervision for institutional clients, including algorithmic trading."},
+        {"id": "5.11", "taxonomy": "Understand", "statement": "OEO services exemptions and requirements: trade-review policies, ongoing supervision of automated approvals, direct-entry risks, CFD undertakings."},
+        {"id": "5.12", "taxonomy": "Understand", "statement": "Derivatives account handling: designating alternate Supervisors where continuous supervision of derivatives trading is required."},
+        {"id": "5.13", "taxonomy": "Apply", "statement": "Retail derivatives monitoring: excessive intra-day/short-term trading, trading under-margined or beyond limits, exceeding loss limits, exceeding position/exercise limits, speculative trades in hedging accounts, restricted-list/restricted-transfer derivatives, derivatives used to avoid insider trading restrictions, uncovered option exposures, delivery-month exposures."},
+        {"id": "5.14", "taxonomy": "Apply", "statement": "Derivatives P&Ps: client notifications (approaching expiry, significant derivative changes, business policy changes, new developments); Supervisor approval to solicit derivatives business; no transactions without an executed derivatives trading agreement; handling pending delivery months; detecting insider-avoidance trading; CFD limits — no retail position >0.5% of an issuer's float intra-day/short-term; no CFDs conferring delivery or shareholder rights; directing clients to qualified Approved Persons in business hours."},
+        {"id": "5.15", "taxonomy": "Apply", "statement": "Supervision of individuals handling managed accounts: conflict-of-interest requirements, fair allocation, compliance assurance, direct supervision of Associate Portfolio Managers (conditions/exceptions), managed account committee requirements."},
+        {"id": "5.16", "taxonomy": "Understand", "statement": "Importance of preparing and retaining documentation and assessments of clients and client activity."}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Activities of Approved Persons",
+      "questions": 8,
+      "summary": "Analyzing situations and risks at account opening and during ongoing activity; applying product due diligence, KYC and suitability requirements; client education and disclosure.",
+      "outcomes": [
+        {"id": "6.1", "taxonomy": "Analyze", "statement": "Supervisor's responsibility for permitted and prohibited activities of Approved Persons: Investment Representatives, Registered Representatives, Associate Portfolio Managers, Portfolio Managers."},
+        {"id": "6.2", "taxonomy": "Analyze", "statement": "Supervisory responsibilities at account opening: OEO, advisory, managed, discretionary, derivatives, margin accounts; use of leverage."},
+        {"id": "6.3", "taxonomy": "Apply", "statement": "Supervisor's responsibility for suitability determination for retail and institutional clients."},
+        {"id": "6.4", "taxonomy": "Analyze", "statement": "Supervisory responsibilities for ongoing account activity: OEO, leveraged, advisory, managed, discretionary, derivatives accounts."},
+        {"id": "6.5", "taxonomy": "Understand", "statement": "KYC and product due diligence obligations split between the Investment Dealer and the Approved Person."},
+        {"id": "6.6", "taxonomy": "Understand", "statement": "Supervisor's role in ensuring client education: purpose of KYC and new-account documentation (financial situation, knowledge, risk profile, needs/objectives, time horizon), KYC-recommendation link, objectives/risk/loss-capacity/performance relationships, full disclosure (debts, goals, cash flows), fluidity of client circumstances, relationship disclosure content incl. fees, institutional application and suitability exemptions, partnership/trust/corporation accounts."},
+        {"id": "6.7", "taxonomy": "Understand", "statement": "Supervisor must ensure Approved Persons under their supervision have the necessary qualifications for their activities."},
+        {"id": "6.8", "taxonomy": "Understand", "statement": "Supervisor must ensure information, disclosures and agreements are sent to clients and, where applicable, receipt is acknowledged."}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Trading and market rules",
+      "questions": 6,
+      "summary": "UMIR obligations; applying regulatory standards to supervision of order placement and gatekeeping responsibilities.",
+      "outcomes": [
+        {"id": "7.1", "taxonomy": "Understand", "statement": "Market rules including UMIR: best execution; unacceptable trading; manipulative and deceptive practices; front running; order placement/settlement/delivery; order errors and changes; overdue cash account restrictions; order/trade confirmation requirements incl. fees; order types (basis, bundled, bypass, call market, closing price, dark, jitney, limit, market, market-on-close, multiple client, opening, program trade, special terms, VWAP) [corrected against the official English PDF 2026-06-04]; long/short margin accounts and special margin situations; specialized trading authorizations."},
+        {"id": "7.2", "taxonomy": "Apply", "statement": "Regulatory standards for the review, acceptance and approval of orders in specific situations."},
+        {"id": "7.3", "taxonomy": "Understand", "statement": "Trading supervision system obligations: identifying requirements, documentation, training and proficiency, delegation of supervisory/compliance personnel, violation procedures, system reviews, documenting and retaining compliance review results, Board reports."},
+        {"id": "7.4", "taxonomy": "Understand", "statement": "Regular compliance review of marketplace trading provisions: audit trail, electronic access, specific unacceptable activities, manipulative and deceptive activities, restricted securities, grey-list securities, disclosure, front running, client/principal trading, client priority, best execution, order exposure, time synchronization."},
+        {"id": "7.5", "taxonomy": "Understand", "statement": "Risk-based supervision system reflecting: Participant size (revenue, market share, exposure, volume), organizational structure, offices, product/service complexity, registrants per location, disciplinary history, risk profile and red flags."},
+        {"id": "7.6", "taxonomy": "Apply", "statement": "Gatekeeping responsibilities: using the client's typical financial activity patterns to identify suspicious transactions; whistleblower frameworks; reporting obligations to dealers and regulators."}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Advertisements, sales literature and communications and research reports",
+      "questions": 7,
+      "summary": "Requirements when a dealer or Approved Person communicates with clients, advertises, or produces research; applying these requirements to specific situations.",
+      "outcomes": [
+        {"id": "8.1", "taxonomy": "Understand", "statement": "Review and supervision of advertisements, sales literature and correspondence: obligations and best practices; professional titles and trade names; misleading communications; social media restrictions; advisor ranking lists and contests; CASL; off-channel communications; post-use review and sampling; staff familiarity with P&Ps; retention and supervisory record-keeping."},
+        {"id": "8.2", "taxonomy": "Apply", "statement": "Pre-use/publication approval by a designated Supervisor required for: research reports, market letters, telemarketing scripts, promotional seminar materials, investment fund communications, original advertisements or proofs, any material containing performance reports or summaries used to solicit clients."},
+        {"id": "8.3", "taxonomy": "Apply", "statement": "Research report disclosure requirements: dissemination P&Ps; conflict disclosures — 1%+ beneficial ownership, analyst/related-person holdings or shorts, prior non-routine payments, investment banking services in preceding 12 months, analyst compensation tied to banking revenues, positions of influence, market making; issuer-paid site visits; rating system and recommendation placement; third-party research; price targets and valuation methods; public appearances; termination of coverage."},
+        {"id": "8.4", "taxonomy": "Analyze", "statement": "Supervision of research production: designated Supervisor review/approval (cross-supervision); controls over pre-publication dissemination; prohibitions — own/holding-company securities, relevant-person relationships with the issuer, investment banking provisions, quiet periods, restricted-list issuers, prohibited inducements; controls over communications to analysts; trading detection/restrictions for relevant persons; designated Executive approval; analyst conduct incl. personal trading and outside activities."}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Risks associated with Investment Dealer activity and registered locations",
+      "questions": 5,
+      "summary": "Analyzing risk factors relevant to the dealer; applying supervisory requirements to retail distribution risks, including business location supervision.",
+      "outcomes": [
+        {"id": "9.1", "taxonomy": "Understand", "statement": "Business location supervision guidelines: scope, planning, business location audit program and related training, risk identification, audit report and follow-up."},
+        {"id": "9.2", "taxonomy": "Understand", "statement": "Risk factors of different business locations: internal (resources, key-person reliance, principal-agent), reputational (community marketing, outside activities, internal discipline, complaints), business-activity (product/service exposure, lines of business, trade errors), size (risk-weighting, controls, registrant count), client-base risk (clients using the location for inappropriate purposes)."},
+        {"id": "9.3", "taxonomy": "Apply", "statement": "Supervisory requirements for retail distribution risks: complex/opaque/illiquid product sales; inadequate books-and-records control esp. client address changes; failure to meet supervision/control standards incl. advertising review and documented supervision; margin-management failures; weak follow-up on compliance audit findings; products retail investors don't understand; AP failures of obligation and integrity; improper reassignment of terminated registrants' accounts; commission-based compensation conflicts."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "meta": {
+    "batch": "E7-CARDS-001",
+    "element": 7,
+    "drafted": 37,
+    "date": "2026-06-04",
+    "purpose": "Crash-course flashcards for Element 7 (Trading and market rules / UMIR), drafted ahead of question-bank drilling. Every fact quoted verbatim from local corpus at drafting time; coverage keyed to E7-batch-001 tested facts.",
+    "corpus": ["umir.txt (ANNOTATED UMIR, January 13, 2026)", "idpc-rules.txt", "syllabus-raw.txt (Element 7 verbatim parameters)"],
+    "patch_note": "Gap patches 2026-06-04 per open-cards solve — see qa-log.md"
+  },
+  "cards": [
+    {
+      "id": "FC-E7-0001", "element": 7, "outcome": "7.1", "type": "definition",
+      "front": "UMIR 1.1: what is a jitney order?",
+      "back": "An order entered on a marketplace by a Participant acting for or on behalf of another Participant.",
+      "rule_refs": ["UMIR 1.1 \"jitney order\""],
+      "source_quote": "\"jitney order\" means an order entered on a marketplace by a Participant acting for or on behalf of another Participant. — umir.txt ~line 1215",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0002", "element": 7, "outcome": "7.1", "type": "distinction",
+      "front": "UMIR 1.1: limit order vs market order — what price does each execute at?",
+      "back": "Limit: buy at a specified maximum price, sell at a specified minimum price. Market: executes upon entry at best ask (buy) or best bid (sell).",
+      "rule_refs": ["UMIR 1.1 \"limit order\"", "UMIR 1.1 \"market order\""],
+      "source_quote": "\"limit order\" means an order to: (a) buy a security or derivative to be executed at a specified maximum price; or (b) sell a security or derivative to be executed at a specified minimum price. — umir.txt ~line 1306",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0003", "element": 7, "outcome": "7.1", "type": "trap",
+      "front": "TRAP: Market-on-Close Order vs Closing Price Order — which one participates in SETTING the closing price?",
+      "back": "Market-on-Close: entered during the day for calculating and executing at the close. Closing Price Order: trades at the already-established close, executed afterward.",
+      "rule_refs": ["UMIR 1.1 \"Market-on-Close Order\"", "UMIR 1.1 \"Closing Price Order\""],
+      "source_quote": "\"Market-on-Close Order\" means an order for the purchase or sale of a security entered on a marketplace on a trading day for the purpose of calculating and executing at the closing price — umir.txt ~line 1364",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0004", "element": 7, "outcome": "7.1", "type": "definition",
+      "front": "UMIR 1.1: what is a Volume-Weighted Average Price Order?",
+      "back": "An order entered on a marketplace on a trading day to execute trades at an average price of the security traded that day (marketplaces known at entry).",
+      "rule_refs": ["UMIR 1.1 \"Volume-Weighted Average Price Order\""],
+      "source_quote": "means an order for the purchase or sale of a security entered on a marketplace on a trading day for the purpose of executing trades at an average price of the security traded on that trading day — umir.txt ~line 2390",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0005", "element": 7, "outcome": "7.1", "type": "trap",
+      "front": "TRAP: a client attaches a PRICE condition to an order. Does that make it a Special Terms Order?",
+      "back": "No. Special Terms Orders are odd lots, conditions OTHER than price/settlement-date/marketplace-imposed, or unusual settlement. Price conditions are just limit orders.",
+      "rule_refs": ["UMIR 1.1 \"Special Terms Order\""],
+      "source_quote": "(b) the execution of which is subject to a condition other than as: (i) to price, (ii) to the date of settlement; — umir.txt ~line 2238",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0006", "element": 7, "outcome": "7.1", "type": "definition",
+      "front": "UMIR 1.1: what must a Participant do BEFORE entering a Basis Order?",
+      "back": "Report to a Market Regulator its intention to enter the order and the details of the related transactions, in the form and manner the regulator requires.",
+      "rule_refs": ["UMIR 1.1 \"Basis Order\""],
+      "source_quote": "provided that prior to the entry of the order the Participant or Access Person reports to a Market Regulator its intention to enter the order and the details of the related transactions — umir.txt ~line 199",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0007", "element": 7, "outcome": "7.1", "type": "trap",
+      "front": "TRAP: a client says 'you can always trade ahead of my future orders.' Valid consent under client priority (Policy 5.3)?",
+      "back": "No. Consent must be specific to a particular order, noted on the ticket. Blanket consent for future orders is invalid.",
+      "rule_refs": ["UMIR 5.3(2)(a)", "UMIR Policy 5.3 Part 4"],
+      "source_quote": "A client cannot give a blanket form of consent to permit the Participant to trade alongside or ahead of any future orders the client may give the Participant. — umir.txt ~line 5190",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0008", "element": 7, "outcome": "7.1", "type": "threshold",
+      "front": "UMIR 8.1 client-principal trading: size/value thresholds and price condition for filling a client order from inventory?",
+      "back": "Client orders of 50 standard trading units or less AND $100,000 or less: execute against principal only at a better price, best available for the client.",
+      "rule_refs": ["UMIR 8.1(1)"],
+      "source_quote": "A Participant that receives a client order for 50 standard trading units or less of a security with a value of $100,000 or less may execute the client order against a principal order or non-client order at a better price — umir.txt ~line 9029",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0009", "element": 7, "outcome": "7.1", "type": "list",
+      "front": "IDPC 3121: the four BROAD best execution factors for listed security/derivative client orders?",
+      "back": "Price of the security/derivative; speed of execution; certainty of execution; overall cost of the transaction when costs are passed on to clients.",
+      "rule_refs": ["IDPC 3121(1)"],
+      "source_quote": "(i) the price of the security or derivative, (ii) the speed of execution of the client order, (iii) the certainty of execution of the client order, and (iv) the overall cost of the transaction — idpc-rules.txt ~line 4112",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0010", "element": 7, "outcome": "7.1", "type": "threshold",
+      "front": "IDPC 5113(4): when total loan value in a client margin account is NET NEGATIVE, what makes the account in good standing?",
+      "back": "The cash balance must be a credit equal to or larger than the net negative loan value.",
+      "rule_refs": ["IDPC 5113(4)"],
+      "source_quote": "If the total loan value in a client account results in a net negative loan value, the cash balance in the margin account must be a credit equal to or larger than the net negative loan value — idpc-rules.txt ~line 12078",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0011", "element": 7, "outcome": "7.1", "type": "list",
+      "front": "IDPC 3816: name five items every trade confirmation must contain (besides security-specific details).",
+      "back": "Day and marketplace(s) of the trade; any securities-regulator fee; salesperson name; agent dealer used; settlement date.",
+      "rule_refs": ["IDPC 3816(2)"],
+      "source_quote": "the day and the marketplace or marketplaces where the trade took place, or marketplace disclosure language acceptable to the Corporation; the fee or other charge, if any, levied by any securities regulatory authority — idpc-rules.txt ~line 7516",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0012", "element": 7, "outcome": "7.2", "type": "threshold",
+      "front": "UMIR 6.3 order exposure: which client orders must be entered IMMEDIATELY for display, absent an exception?",
+      "back": "Client orders of 50 standard trading units or less; exceptions include client instructions, better-price execution on receipt, orders over $100,000, and specified order types.",
+      "rule_refs": ["UMIR 6.3(1)"],
+      "source_quote": "A Participant shall immediately enter for display on a marketplace that displays orders in accordance with Part 7 of the Marketplace Operation Instrument a client order to purchase or sell 50 standard trading units or less — umir.txt ~line 5902",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0013", "element": 7, "outcome": "7.2", "type": "process",
+      "front": "Desk receives an order to sell at $3 a stock trading at $20. Policy 6.3 says do what?",
+      "back": "Withhold entry and return the order to the branch for confirmation of terms — the price or symbol is likely wrong.",
+      "rule_refs": ["UMIR 6.3(1)(c)", "UMIR Policy 6.3 Part 2"],
+      "source_quote": "a Participant who receives an order to sell a security at $3 in a stock trading at $20 may return the order to the branch, as it is likely that either the price or the stock symbol is wrong. — umir.txt ~line 5959",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0014", "element": 7, "outcome": "7.2", "type": "process",
+      "front": "IDPC 3214(5): the designated Supervisor declines to approve a new account after the initial trade. What must the dealer do?",
+      "back": "Restrict the account to liquidating trades, transfers out, paying out funds or delivering securities — until the designated Supervisor gives final approval.",
+      "rule_refs": ["IDPC 3214(5)"],
+      "source_quote": "the Dealer Member must restrict the account to only liquidating trades, transfers out, paying out funds or delivering securities to the client. — idpc-rules.txt ~line 4648",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0015", "element": 7, "outcome": "7.6", "type": "trap",
+      "front": "TRAP: gatekeeper records (UMIR 10.16(5)) — retention period, and does reporting to the regulator discharge other obligations?",
+      "back": "Retain not less than SEVEN years from record creation, open to Market Regulator inspection. Reporting is IN ADDITION to securities-legislation, SRO and Marketplace-Rule obligations.",
+      "rule_refs": ["UMIR 10.16(5)", "UMIR 10.16(6)"],
+      "source_quote": "retain the records for a period of not less than seven years from the creation of the record; and — umir.txt ~line 10609",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0016", "element": 7, "outcome": "7.3", "type": "process",
+      "front": "UMIR 7.1(3): who must each Participant appoint, and to do what?",
+      "back": "A head of trading, responsible to supervise the trading activities of the Participant in a marketplace.",
+      "rule_refs": ["UMIR 7.1(3)"],
+      "source_quote": "Each Participant shall appoint a head of trading who shall be responsible to supervise the trading activities of the Participant in a marketplace. — umir.txt ~line 6537",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0017", "element": 7, "outcome": "7.3", "type": "process",
+      "front": "Policy 7.1 Part 2: who may conduct the compliance function at a Participant?",
+      "back": "Persons OTHER than those who supervise the trading activity — supervision and compliance must be separately designated.",
+      "rule_refs": ["UMIR Policy 7.1 Part 2"],
+      "source_quote": "Designate individuals responsible for supervision and compliance. The compliance function must be conducted by persons other than those who supervise the trading activity. — umir.txt ~line 6750",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0018", "element": 7, "outcome": "7.3", "type": "threshold",
+      "front": "Policy 7.1 Part 2: how often must the trading supervision SYSTEM itself be reviewed?",
+      "back": "At least annually; more frequent reviews may be required if past reviews detected problems with supervision and compliance.",
+      "rule_refs": ["UMIR Policy 7.1 Part 2"],
+      "source_quote": "Review the supervision system at least annually to ensure it continues to be reasonably designed to prevent and detect violations of Requirements. — umir.txt ~line 6772",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0019", "element": 7, "outcome": "7.3", "type": "trap",
+      "front": "TRAP: how long must results of trading-compliance reviews be kept — five or seven years?",
+      "back": "FIVE years (Policy 7.1 Part 2). Seven years is the gatekeeper-records and client-withholding-instruction period. Exam swaps them.",
+      "rule_refs": ["UMIR Policy 7.1 Part 2", "UMIR 10.16(5)"],
+      "source_quote": "Maintain results of all reviews for at least five years. — umir.txt ~line 6789",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0020", "element": 7, "outcome": "7.3", "type": "process",
+      "front": "Policy 7.1 Part 2: what goes to the board of directors, and how often?",
+      "back": "A summary of compliance reviews conducted and the supervision-system review results, at least annually; significant issues must be reported to the board immediately.",
+      "rule_refs": ["UMIR Policy 7.1 Part 2"],
+      "source_quote": "Report to the board of directors of the Participant or, if applicable, the partners, a summary of the compliance reviews conducted and the results of the supervision system review. These reports must be made at least annually. — umir.txt ~line 6790",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0021", "element": 7, "outcome": "7.3", "type": "trap",
+      "front": "TRAP: no trading violations occurred, but the Supervisor skipped the firm's prescribed reviews. Compliant?",
+      "back": "No. A supervisor who has not followed the Participant's supervision procedures fails their Rule 7.1(4) supervisory obligations — independent of any underlying violation.",
+      "rule_refs": ["UMIR 7.1(4)", "UMIR Policy 7.1 Part 1"],
+      "source_quote": "If a supervisor has not followed the supervision procedures adopted by the Participant, the supervisor will have failed to comply with their supervisory obligations under Rule 7.1(4). — umir.txt ~line 6656",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0022", "element": 7, "outcome": "7.4", "type": "list",
+      "front": "Policy 7.1 Part 3 minimum regular-review list: match Frontrunning, Client Priority, Client/Principal Trading to their rule numbers.",
+      "back": "Frontrunning = Rule 4.1; Client/Principal Trading = Rule 8.1; Client Priority = Rule 5.3. Distractors scramble these pairings.",
+      "rule_refs": ["UMIR Policy 7.1 Part 3", "UMIR 4.1", "UMIR 5.3", "UMIR 8.1"],
+      "source_quote": "Frontrunning (Rule 4.1) •    Client/Principal Trading (Rule 8.1) •    Client Priority (Rule 5.3) — umir.txt ~line 6827",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0023", "element": 7, "outcome": "7.4", "type": "list",
+      "front": "Policy 7.1 Part 10 audit trail: name five data points that must be accurately recorded per order/trade.",
+      "back": "Date/time of entry, amendment, cancellation, execution, expiration; quantity; buy/sell/short marker; market-or-limit marker; price if limit. (Plus security, trader, client, consent, designations.)",
+      "rule_refs": ["UMIR Policy 7.1 Part 10", "UMIR 10.11"],
+      "source_quote": "date and time of entry, amendment, cancellation, execution and expiration •    quantity •    buy, sell or short-sale marker •    market or limit order marker •    price (if limit order) — umir.txt ~line 7095",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0024", "element": 7, "outcome": "7.4", "type": "threshold",
+      "front": "Policy 7.1 Part 12: how often must trading in Grey/Watch list and Restricted list securities be reviewed?",
+      "back": "Daily. (Contrast: manipulative/deceptive sampling, audit trail, order handling and trade confirmations are quarterly.)",
+      "rule_refs": ["UMIR Policy 7.1 Part 12", "UMIR 7.7"],
+      "source_quote": "Each Participant must review the trading described above on a daily basis. — umir.txt ~line 7146",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0025", "element": 7, "outcome": "7.4", "type": "definition",
+      "front": "UMIR 10.14: to whose clock must Participants synchronize the clocks used for recording UMIR events?",
+      "back": "The clock used by the Market Regulator for this purpose — not the TSX, a national time standard, or the clearing agency.",
+      "rule_refs": ["UMIR 10.14"],
+      "source_quote": "Each marketplace and each Participant shall synchronize the clocks used for recording the time and date of any event that must be recorded pursuant to UMIR to the clock used by the Market Regulator — umir.txt ~line 10443",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0026", "element": 7, "outcome": "7.5", "type": "list",
+      "front": "Policy 7.1 Part 3: review frequency and sample size must be commensurate with which seven risk factors?",
+      "back": "Participant's size (revenue, market share, exposure, trade volume); organizational structure; number/location of offices; product/service complexity; registrants per location; disciplinary history; risk profile/red flags.",
+      "rule_refs": ["UMIR Policy 7.1 Part 3", "Syllabus 7.5"],
+      "source_quote": "the Participant's size (considering factors such as revenue, market share, market exposure and volume of trades) •    the Participant's organizational structure •    number and location of the Participant's offices — umir.txt ~line 6840",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0027", "element": 7, "outcome": "7.5", "type": "trap",
+      "front": "TRAP: which is NOT a Policy 7.1 Part 3 risk-based supervision factor — disciplinary history of registrants, or the Supervisor's personal performance?",
+      "back": "The Supervisor's personal performance. The listed factor is the disciplinary history of registered representatives or associated persons; personal performance appears nowhere on the list.",
+      "rule_refs": ["UMIR Policy 7.1 Part 3"],
+      "source_quote": "the disciplinary history of registered representatives or associated persons •    the risk profile of the Participant's business and any indicators of irregularities or misconduct i.e. \"red flags\". — umir.txt ~line 6847",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0028", "element": 7, "outcome": "7.5", "type": "threshold",
+      "front": "Policy 7.1 Part 9: which non-institutional investors can qualify for direct electronic access?",
+      "back": "Almost none — precluded except in exceptional circumstances, generally sophisticated former traders and floor brokers, or persons with assets approaching an institutional investor's.",
+      "rule_refs": ["UMIR Policy 7.1 Part 9", "UMIR 7.13"],
+      "source_quote": "non-institutional investors will be precluded from qualifying for direct electronic access except in exceptional circumstances generally limited to sophisticated former traders and floor brokers — umir.txt ~line 7031",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0029", "element": 7, "outcome": "7.6", "type": "process",
+      "front": "UMIR 10.16 gatekeeper flow: an employee spots possible manipulative account activity. Trace inquiry → document → report.",
+      "back": "Employee forthwith reports to supervisor/compliance; review; if a violation may exist: written records, diligent investigation, written findings, report to Market Regulator by the 15th of the following month.",
+      "rule_refs": ["UMIR 10.16(1)", "UMIR 10.16(4)"],
+      "source_quote": "An officer, director, partner or employee of a Participant shall forthwith report to their supervisor or the compliance department of the Participant upon becoming aware of activity in a principal account, non-client account or client account — umir.txt ~line 10552",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0030", "element": 7, "outcome": "7.6", "type": "trap",
+      "front": "TRAP: frontrunning (UMIR 4.1) vs insider trading — what knowledge triggers the 4.1 prohibition, and what conduct is caught?",
+      "back": "Knowledge of an UNENTERED CLIENT ORDER reasonably expected to move price — not inside issuer information. Caught: principal/non-client orders (e.g., personal account ahead of the client), soliciting, tipping.",
+      "rule_refs": ["UMIR 4.1(1)", "UMIR Policy 4.1"],
+      "source_quote": "A Participant with knowledge of a client order that on entry could reasonably be expected to affect the market price of a security or a derivative, shall not, prior to the entry of such client order, — umir.txt ~line 4614",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0031", "element": 7, "outcome": "7.1", "type": "definition",
+      "front": "UMIR 1.1: when does an Opening Order CEASE to be an Opening Order?",
+      "back": "If the order does not trade at the opening of trading of that security on that marketplace on that trading day.",
+      "rule_refs": ["UMIR 1.1 \"Opening Order\""],
+      "source_quote": "\"provided an order shall cease to be an Opening Order if the order does not trade at the opening of trading of that security on that marketplace on that trading day\" — umir.txt ~line 1636",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0032", "element": 7, "outcome": "7.1", "type": "process",
+      "front": "UMIR 7.11: a marketplace varies an executed trade BEFORE settlement at a party's request. What two conditions apply?",
+      "back": "Consent of each Participant and Access Person that is a party to the trade, plus immediate notice to the Market Regulator in its required form and manner.",
+      "rule_refs": ["UMIR 7.11(e)"],
+      "source_quote": "\"the marketplace on which the trade was executed at the request of a party to the trade and with the consent of each Participant and Access Person that is a party to the trade\" — umir.txt ~line 8738",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0033", "element": 7, "outcome": "7.1", "type": "trap",
+      "front": "TRAP: name the UMIR 4.1(2) carve-outs — when is trading ahead of a known client order NOT frontrunning?",
+      "back": "Decision-makers had no actual knowledge; for that client's benefit; solicited to facilitate the client order; ordinary-practice hedge of a pre-existing position; pre-existing legal obligation; arbitrage account.",
+      "rule_refs": ["UMIR 4.1(2)"],
+      "source_quote": "\"no director, officer, partner, employee or agent of the Participant who made or participated in making the decision to enter a principal order or non-client order or to solicit an order had actual knowledge of the client order\" — umir.txt ~line 4628",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0034", "element": 7, "outcome": "7.1", "type": "definition",
+      "front": "UMIR 2.1(2)(b): what trading pattern is a specific unacceptable activity when a client has expressed interest in a security?",
+      "back": "Making a pattern of trading in that particular security with knowledge of the client's expression of interest in it.",
+      "rule_refs": ["UMIR 2.1(2)(b)"],
+      "source_quote": "\"make a pattern of trading in a particular security with knowledge of an expression of interest by a client in that particular security\" — umir.txt ~line 2883",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0035", "element": 7, "outcome": "7.2", "type": "threshold",
+      "front": "IDPC 3221(2): when does the discretionary-trading prohibition NOT apply to time and price discretion?",
+      "back": "When exercised in fulfilling the dealer's best execution obligation relating to a client order for a specific amount or a specific security.",
+      "rule_refs": ["IDPC 3221(2)", "IDPC 3221(1)"],
+      "source_quote": "\"Subsection 3221(1) does not apply to time and price discretion exercised in fulfilling the Dealer Member’s best execution obligation relating to a client order for a specific amount or a specific security.\" — idpc-rules.txt ~line 4921",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0036", "element": 7, "outcome": "7.3", "type": "list",
+      "front": "Policy 7.1 Part 7: what must automated pre-entry controls for electronic access prevent an order from exceeding?",
+      "back": "Pre-determined credit or capital thresholds of the Participant/Access Person; client credit or other assigned limits; pre-determined value/volume limits on unexecuted orders per security or class.",
+      "rule_refs": ["UMIR Policy 7.1 Part 7", "UMIR 7.1"],
+      "source_quote": "\"automated controls to examine each order before entry on a marketplace to prevent the entry of an order which would result in: o the Participant or Access Person exceeding pre-determined credit or capital thresholds\" — umir.txt ~line 6944",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E7-0037", "element": 7, "outcome": "7.4", "type": "threshold",
+      "front": "Policy 7.1 Part 5: WHEN are artificial-price orders more likely to appear?",
+      "back": "At the end of a month, quarter or year, or on the expiry date of options on a listed security.",
+      "rule_refs": ["UMIR Policy 7.1 Part 5", "UMIR 2.2"],
+      "source_quote": "\"orders which are intended to or which affect an artificial price are more likely to appear at the end of a month, quarter or year or on the date of the expiry of options\" — umir.txt ~line 6890",
+      "status": "draft"
+    }
+  ]
+}

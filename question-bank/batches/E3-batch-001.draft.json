@@ -1,0 +1,1270 @@
+{
+  "meta": {
+    "batch": "E3-001",
+    "drafted": 50,
+    "date": "2026-06-04",
+    "corpus": [
+      "idpc-rules.txt (IDPC 2026-01-08)",
+      "gn-3900-20-001.txt",
+      "umir.txt",
+      "syllabus-raw.txt (Element 3 parameters, verbatim)"
+    ],
+    "qa": "Gate 1 blind solve 2026-06-04: see qa-log.md. Gate 2: independent contiguous-quote verification 50/50. Gate 3 lint clean."
+  },
+  "questions": [
+    {
+      "id": "SUP-E3-0005",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Harbourview Securities Inc. has grown from a two-branch bond boutique into a national dealer offering equities, derivatives and managed accounts. Senior management asks how many Supervisors the firm is now required to appoint. Which statement reflects the CIRO requirement?",
+      "options": {
+        "A": "One Supervisor per province in which the dealer has a registered location",
+        "B": "A single head-office Supervisor, since supervision may not be divided among multiple individuals",
+        "C": "A fixed ratio of one Supervisor for every ten Registered Representatives",
+        "D": "As many Supervisors as necessary to properly supervise its employees and Approved Persons, taking into account the scope and complexity of its business"
+      },
+      "answer": "D",
+      "rationale": "Section 3905(2) ties the number of Supervisors to what is necessary to properly supervise employees and Approved Persons given the scope and complexity of the business — not to any fixed ratio or geographic formula. Option A invents a per-province rule; C invents a numerical ratio that appears nowhere in the rules; B is wrong because supervision can be divided among multiple Supervisors and the rule expressly contemplates appointing 'as many Supervisors as necessary'.",
+      "rule_refs": [
+        "IDPC 3905(2)",
+        "Syllabus 3.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“A Dealer Member must appoint as many Supervisors as necessary to properly supervise its employees and Approved Persons taking into account the scope and complexity of the Dealer Member’s business.” — idpc-rules.txt ~line 7923"
+    },
+    {
+      "id": "SUP-E3-0006",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Talia Vance supervises a branch of Quillstone Capital. During a daily review she detects a pattern of trading in one Registered Representative's client accounts that appears to fall outside just and equitable principles of trade, but she lacks the authority to restrict the accounts herself. According to CIRO's Account Supervision Guidance, what is an acceptable course of action?",
+      "options": {
+        "A": "Take no action until the pattern produces a client complaint",
+        "B": "Quietly continue monitoring for another quarter to gather more evidence before involving anyone else",
+        "C": "Escalate the matter to a more senior Supervisor or Executive who can take remedial action",
+        "D": "Refer the matter directly to the client's lawyer for resolution"
+      },
+      "answer": "C",
+      "rationale": "GN-3900-20-001 states Supervisors should have the authority to take effective and timely remedial action and expressly considers escalating to a more senior Supervisor or Executive an acceptable action — which is also what the syllabus 3.1 parameter contemplates when a Supervisor faces concerns that could lead to non-compliance or the inability to properly supervise. Option A waits for harm; B delays the timely action the guidance calls for; D bypasses the dealer's internal supervisory structure entirely.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.1",
+        "Syllabus 3.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“Supervisors should have the authority to take ecective and timely remedial action when they detect activity that falls or appears to fall outside the bounds of proper conduct, just and equitable principles of trade or good business practice. We consider” — gn-3900-20-001.txt ~line 122"
+    },
+    {
+      "id": "SUP-E3-0007",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Caldera Markets Ltd. is designing its supervisory structure. Per CIRO's Account Supervision Guidance, which set of business-model factors should an effective supervisory structure consider?",
+      "options": {
+        "A": "The dealer's advertising budget, office square footage and number of clearing relationships",
+        "B": "Only the dealer's total revenue and its market share relative to competitors",
+        "C": "The compensation grid for Registered Representatives and the firm's dividend policy",
+        "D": "Types of products traded and securities offered, type of trading engaged in, location of supervisory personnel and Registered Individuals, and the different functions Supervisors are responsible for"
+      },
+      "answer": "D",
+      "rationale": "GN-3900-20-001 lists exactly these business-model factors: products traded and securities offered, type of trading, location of supervisory personnel and Registered Individuals, and the different Supervisor functions. Option B describes risk-weighting factors used elsewhere (e.g., for trading supervision sizing) but is not the guidance's business-model list; A and C list commercial considerations that are not supervisory-structure factors in the guidance.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.1",
+        "Syllabus 3.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“An ecective supervisory structure considers the Dealer’s business model, which includes the following factors: types of products traded and securities ocered, type of trading the Dealer and its Registered Individuals engage in, location of the Dealer’s Supervisory personnel and its Registered Individuals, and” — gn-3900-20-001.txt ~line 104"
+    },
+    {
+      "id": "SUP-E3-0008",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "At Brockmount Financial, the proposed Supervisor for the structured-notes desk has never traded or studied structured products. The Chief Compliance Officer objects to the appointment. Which CIRO requirement supports the objection?",
+      "options": {
+        "A": "The dealer must take reasonable steps to ensure Supervisors are fully proficient and understand the products that those under their supervision trade in or advise on, to the degree necessary to supervise them properly",
+        "B": "Supervisors must hold a position on the dealer's board of directors before supervising any product desk",
+        "C": "Only Executives, not Supervisors, may oversee complex product desks",
+        "D": "A Supervisor must personally have executed at least 100 trades in a product before supervising it"
+      },
+      "answer": "A",
+      "rationale": "Section 3905(5) requires the dealer to take reasonable steps to ensure Supervisors and Executives are fully proficient and understand the products and services of those they supervise, to the degree necessary to supervise properly. Option D invents a trade-count threshold; the rule speaks to proficiency and understanding, not a transaction quota. B confuses Supervisors with Directors; C is wrong because Supervisors do supervise product desks — that is their function.",
+      "rule_refs": [
+        "IDPC 3905(5)",
+        "Syllabus 3.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“A Dealer Member must take reasonable steps to ensure all of its Supervisors and Executives are fully proficient and understand the products that employees and Approved Persons under their supervision trade in or advise on” — idpc-rules.txt ~line 7931"
+    },
+    {
+      "id": "SUP-E3-0009",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Pellerin Wealth Inc. is qualified to supervise equity and fixed-income trading but not the futures business conducted by two Registered Representatives in her group. According to CIRO's Account Supervision Guidance, how may the dealer address this?",
+      "options": {
+        "A": "Permit the unqualified Supervisor to supervise the futures trading provided she attends an internal lunch-and-learn session",
+        "B": "Have the two Registered Representatives supervise each other's futures trades",
+        "C": "Exempt the futures trading from supervision because no qualified Supervisor is in that office",
+        "D": "Divide the supervision between two or more Supervisors, provided there are communication mechanisms between them, the dealer maintains an overall view of the client's situation and activity, and the assignment of responsibilities is clear and complete"
+      },
+      "answer": "D",
+      "rationale": "GN-3900-20-001 permits dividing supervision among two or more Supervisors where one is unqualified for certain products, subject to appropriate communication mechanisms, an overall view of the client's situation and activity, and clear and complete assignment of responsibilities. Option A does not make her qualified to supervise; C is never available — all activity must be supervised; B creates self-supervision by the very persons being supervised, defeating the structure.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.2",
+        "IDPC 3905(5)",
+        "Syllabus 3.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“If a Supervisor is unqualiﬁed to supervise trading activity in certain products by those under their supervision, a Dealer may divide the supervision between two or more Supervisors, provided:” — gn-3900-20-001.txt ~line 133"
+    },
+    {
+      "id": "SUP-E3-0010",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A new compliance analyst at Stonebriar Investments asks how the IDPC Rules define 'internal controls'. Which definition is correct?",
+      "options": {
+        "A": "The marketing and sales practices used by Registered Representatives to attract new clients",
+        "B": "The set of CIRO enforcement powers delegated to the dealer's compliance department",
+        "C": "The financial and operational policies and procedures established, maintained and applied by the dealer's management to provide reasonable assurance of the orderly and efficient conduct of the dealer's business",
+        "D": "The written agreements between the dealer and each of its agents"
+      },
+      "answer": "C",
+      "rationale": "The Rule 1200 definition is precisely the financial and operational policies and procedures established, maintained and applied by management to provide reasonable assurance of the orderly and efficient conduct of the business. Option D describes Rule 2300 principal-agent agreements; B confuses internal controls with regulatory enforcement authority, which the dealer does not hold; A concerns sales practices, a different supervisory subject.",
+      "rule_refs": [
+        "IDPC 1201 (definition of internal controls)",
+        "Syllabus 3.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "““internal controls” The financial and operational policies and procedures established, maintained and applied by the Dealer Member’s management to provide reasonable assurance of the orderly and efficient conduct of the Dealer Member’s business.” — idpc-rules.txt ~line 491"
+    },
+    {
+      "id": "SUP-E3-0011",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Within Dunsmore Capital, who is responsible under the IDPC Rules for ensuring the dealer maintains adequate internal controls?",
+      "options": {
+        "A": "The dealer's Executives, as part of their overall responsibility for managing the dealer's operations",
+        "B": "Each branch Supervisor individually, with no role for senior management",
+        "C": "CIRO staff, who design and operate the controls on the dealer's behalf",
+        "D": "The dealer's external auditor, who assumes management's control responsibilities during the audit"
+      },
+      "answer": "A",
+      "rationale": "Section 4222(2) places responsibility for ensuring adequate internal controls on the dealer's Executives as part of their overall responsibility for managing operations. Option B inverts the structure — Supervisors operate within the system, but ensuring adequacy of internal controls is an Executive responsibility; C and D outsource a non-delegable management responsibility to the regulator and the auditor respectively.",
+      "rule_refs": [
+        "IDPC 4222(2)",
+        "Syllabus 3.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“The Dealer Member’s Executives are responsible for ensuring adequate internal controls as part of their overall responsibility for managing the Dealer Member’s operations.” — idpc-rules.txt ~line 9243"
+    },
+    {
+      "id": "SUP-E3-0012",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Rivergate Securities is documenting its control framework. Under IDPC Rule 4200, what is the difference between preventive controls and detective controls?",
+      "options": {
+        "A": "Preventive controls apply only to retail accounts, while detective controls apply only to institutional accounts",
+        "B": "Preventive controls prevent, or minimize the chances of, fraud and error, while detective controls discover, or increase the chances of finding, fraud or error so the dealer can take prompt corrective action",
+        "C": "Preventive controls are operated by CIRO, while detective controls are operated by the dealer",
+        "D": "Preventive controls detect fraud after it occurs, while detective controls stop fraud before it occurs"
+      },
+      "answer": "B",
+      "rationale": "Section 4221 defines preventive controls as those that prevent, or minimize the chances of, fraud and error, and detective controls as those that discover, or increase the chances of finding, fraud or error so prompt corrective action can be taken. Option D reverses the two definitions — the closest distractor; A invents a retail/institutional split; C wrongly assigns control operation to the regulator.",
+      "rule_refs": [
+        "IDPC 4221",
+        "Syllabus 3.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "““preventive controls” Controls that prevent, or minimize the chances of, fraud and error.” — idpc-rules.txt ~line 9239"
+    },
+    {
+      "id": "SUP-E3-0013",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The Executives of Norquay Investment Partners last reviewed and approved the firm's internal controls 23 months ago and propose to review them again only when the firm next changes its business model. Is this consistent with IDPC requirements?",
+      "options": {
+        "A": "Yes, because internal controls only need review when CIRO requests one",
+        "B": "Yes, provided the Chief Financial Officer informally confirms the controls each quarter",
+        "C": "No, Executives must review internal controls for adequacy and suitability at least annually, and more frequently as necessary, and must approve them in writing after each review",
+        "D": "No, because internal controls must be reviewed and re-approved monthly by the board of directors"
+      },
+      "answer": "C",
+      "rationale": "Section 4225(1) requires Executives to review internal controls for adequacy and suitability at least annually — and more frequently as necessary or stipulated — with written approval after each review; a 23-month gap fails that standard. Option D overstates the frequency and misassigns the duty to the board; A and B treat the review as optional or informal, contrary to the at-least-annual written-approval requirement.",
+      "rule_refs": [
+        "IDPC 4225(1)",
+        "Syllabus 3.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“The Dealer Member’s Executives must review a Dealer Member’s internal controls for adequacy and suitability at least annually and more frequently as necessary or stipulated by Corporation” — idpc-rules.txt ~line 9257"
+    },
+    {
+      "id": "SUP-E3-0014",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Maplecrest Securities wants its advisory business in a rural region to be carried on by 'Maplecrest Advisory Services Corp.', a corporation owned by a long-time advisor, rather than by the advisor personally. Under IDPC Rule 2300, may the dealer allow this?",
+      "options": {
+        "A": "Yes, provided the corporation signs the dealer's standard agency agreement",
+        "B": "No, unless the corporation pays an additional CIRO membership fee",
+        "C": "Yes, provided the corporation registers separately with the provincial securities commission",
+        "D": "No, a dealer must not allow a corporation or other non-individual entity to conduct securities and derivatives related business on its behalf"
+      },
+      "answer": "D",
+      "rationale": "Section 2302(2) flatly prohibits a dealer from allowing a corporation or other non-individual entity to conduct securities and derivatives related business on its behalf; only an individual — an employee, which includes an agent — may do so under 2302(1). Option A wrongly suggests the agency agreement can cure the entity problem; C and B invent registration and fee workarounds that do not exist.",
+      "rule_refs": [
+        "IDPC 2302(1)",
+        "IDPC 2302(2)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“A Dealer Member must not allow a corporation or other non-individual entity to conduct securities and derivatives related business on its behalf.” — idpc-rules.txt ~line 1699"
+    },
+    {
+      "id": "SUP-E3-0015",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Ashbridge Capital plans to convert several employee advisors to independent agents under principal-agent arrangements. What must Ashbridge do BEFORE engaging any agents to conduct securities and derivatives related business?",
+      "options": {
+        "A": "Obtain each client's written consent to the new arrangement",
+        "B": "File a revised business plan with each provincial securities regulator",
+        "C": "Enter into a written agreement with the Corporation (CIRO)",
+        "D": "Increase its financial institution bond coverage to a CIRO-prescribed minimum"
+      },
+      "answer": "C",
+      "rationale": "Section 2303(1) requires the dealer to enter into a written agreement with the Corporation before engaging any agents to conduct securities and derivatives related business. Option A confuses this with the account-application disclosure made to clients about agent arrangements — disclosure is required, but client consent is not the gating step; B is not a Rule 2300 requirement; D references insurance, which the dealer-agent agreement addresses as a term but is not the pre-engagement step with CIRO.",
+      "rule_refs": [
+        "IDPC 2303(1)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“Before engaging any agents to conduct securities and derivatives related business, a Dealer Member must enter into a written agreement with the Corporation.” — idpc-rules.txt ~line 1702"
+    },
+    {
+      "id": "SUP-E3-0016",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Under the minimum terms of the written agreement between a dealer and its agent, what is the extent of the dealer's liability to clients for the agent's conduct?",
+      "options": {
+        "A": "The dealer is liable only for conduct the dealer pre-approved in writing",
+        "B": "The dealer and the agent share liability equally under a statutory 50/50 apportionment",
+        "C": "The dealer is liable to clients (and other third parties) for the agent's conduct as if the agent were an employee",
+        "D": "The dealer has no liability because the agent is an independent contractor"
+      },
+      "answer": "C",
+      "rationale": "Clause 2304(7)(v)(b) requires the dealer-agent agreement to provide that the dealer is liable to clients and other third parties for the agent's conduct as if they were an employee. Option D states the common misconception that the independent-contractor label limits dealer responsibility — Rule 2300 removes that limit for the dealer's business; A and B invent qualifications (pre-approval, fixed apportionment) found nowhere in the rule.",
+      "rule_refs": [
+        "IDPC 2304(7)(v)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“(b) liable to clients (and other third parties) for the agent’s conduct as if they were an employee.” — idpc-rules.txt ~line 1824"
+    },
+    {
+      "id": "SUP-E3-0017",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "CIRO notifies Telford Securities that it has started an investigation into allegations of misconduct by one of Telford's agents. Under the minimum terms of the dealer-agent agreement, what is Telford permitted to do?",
+      "options": {
+        "A": "Immediately and without notice to the agent, assume responsibility for the client to the exclusion of the agent",
+        "B": "Nothing until CIRO completes the investigation and issues findings",
+        "C": "Terminate the clients' accounts so that no one services them during the investigation",
+        "D": "Continue the agent's client dealings but require the agent to copy the dealer on all emails"
+      },
+      "answer": "A",
+      "rationale": "Clause 2304(7)(vii) provides that where CIRO has advised the dealer of an investigation into the agent's alleged misconduct (or the dealer has reasonable grounds to believe the agent is contravening requirements), the dealer may immediately and without notice assume responsibility for the client to the exclusion of the agent, and may designate another qualified person to serve the client. Option B leaves clients exposed during the investigation; C punishes clients rather than protecting them; D allows the agent to keep dealing, which the assumed-responsibility mechanism specifically prevents.",
+      "rule_refs": [
+        "IDPC 2304(7)(vii)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“the Dealer Member may immediately and without notice to the agent, assume responsibility for the client to the exclusion of the agent.” — idpc-rules.txt ~line 1842"
+    },
+    {
+      "id": "SUP-E3-0018",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Kettleby Direct, the order-execution-only division of a full-service dealer, operates as a separate business unit. Which structural requirement applies to it under IDPC section 2207?",
+      "options": {
+        "A": "Its Registered Representatives may split their time evenly between the OEO unit and the advisory unit",
+        "B": "It may share letterhead with the advisory division provided a disclaimer appears in the footer",
+        "C": "It must have separate letterhead, accounts and account documentation, and its Registered Representatives and Investment Representatives may not work for any other business unit within the dealer",
+        "D": "It must incorporate as a stand-alone legal entity within 12 months of approval"
+      },
+      "answer": "C",
+      "rationale": "Section 2207(4) requires an OEO services provider operating as a separate business unit to have separate letterhead, accounts and account documentation, and prohibits its RRs and IRs from working for any other business unit of the dealer. Options A and B directly contradict the staff-separation and separate-letterhead requirements; D is wrong because the rule permits operating either as a separate legal entity or as a separate business unit — there is no forced incorporation.",
+      "rule_refs": [
+        "IDPC 2207(4)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“an order execution only account services provider must have separate letterhead, accounts and account documentation, and its Registered Representatives and Investment Representatives may not work for any other business unit within the Dealer Member.” — idpc-rules.txt ~line 1355"
+    },
+    {
+      "id": "SUP-E3-0019",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Before opening an order-execution-only account for a new client, what written disclosure must the dealer provide about recommendations and investment decisions?",
+      "options": {
+        "A": "A statement that the dealer will provide quarterly recommendations unless the client opts out",
+        "B": "A statement that recommendations will be available for an additional fee",
+        "C": "A statement that the dealer will recommend only exchange-traded funds",
+        "D": "A statement confirming the dealer will not provide any recommendations and that the client is solely responsible for making all investment decisions in the account"
+      },
+      "answer": "D",
+      "rationale": "Clause 3241(3)(i)(a) requires written disclosure, before account opening, confirming that the dealer will not provide any recommendations and that the client is solely responsible for making all investment decisions in the OEO account; a positive acknowledgement must also be obtained. Options A, B and C all contemplate the dealer providing some recommendations, which is incompatible with the OEO model — providing any recommendation would take the account outside the OEO definition.",
+      "rule_refs": [
+        "IDPC 3241(3)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“a statement confirming that the Dealer Member will not provide any recommendations to the client and that the client is solely responsible for making all investment decisions in the order execution only account,” — idpc-rules.txt ~line 5001"
+    },
+    {
+      "id": "SUP-E3-0020",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Caribou Trade Direct, an OEO dealer, discovers that a retail client has connected proprietary software to its platform that automatically generates and submits orders to the dealer on a pre-determined basis. How does IDPC section 3241 treat this activity for OEO account service clients?",
+      "options": {
+        "A": "It is permitted, provided the client signs an additional risk acknowledgement",
+        "B": "It is prohibited — the dealer must not allow OEO account service clients to use their own automated order system to generate orders sent to the dealer or to send orders on a pre-determined basis",
+        "C": "It is permitted for clients whose accounts exceed $1 million in equity",
+        "D": "It is permitted only between 9:30 a.m. and 4:00 p.m. Eastern time"
+      },
+      "answer": "B",
+      "rationale": "Clause 3241(1)(ii)(a) requires the OEO dealer not to allow its OEO account service clients to use their own automated order system to generate orders to be sent to the dealer or to send orders on a pre-determined basis; clause (b) also caps manual order volumes at the CIRO-set threshold. Options A, C and D invent acknowledgement, account-size and time-of-day carve-outs that do not exist; this kind of access belongs in the separately defined direct electronic access channel, not an OEO account.",
+      "rule_refs": [
+        "IDPC 3241(1)(ii)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“use their own automated order system, as defined in securities laws, to generate orders to be sent to the Dealer Member or send orders to the Dealer Member on a pre‐determined basis, or” — idpc-rules.txt ~line 4986"
+    },
+    {
+      "id": "SUP-E3-0021",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Glenora Asset Strategies Ltd., a non-individual client, has $14 million in securities under management and asks to be treated as an institutional client of Wexler Securities. Does it qualify under the IDPC definition?",
+      "options": {
+        "A": "No, because only banks and regulated entities can ever be institutional clients",
+        "B": "No, because the threshold for a non-individual is $50 million under administration or management",
+        "C": "Yes, because a non-individual with total securities and precious metals bullion under administration or management exceeding $10 million is an institutional client",
+        "D": "Yes, but only if it also signs a hedging undertaking"
+      },
+      "answer": "C",
+      "rationale": "The Rule 1200 definition includes, at branch (v), a non-individual with total securities and precious metals bullion under administration or management exceeding $10 million — Glenora's $14 million qualifies. Option B uses a fabricated $50 million figure; A ignores branches (iv) through (vii) of the definition; D confuses the hedger branch (vii), which applies to hedgers who request and consent to institutional classification, with the asset-threshold branch that already covers Glenora.",
+      "rule_refs": [
+        "IDPC 1201 (definition of institutional client)",
+        "Syllabus 3.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“(v) a non-individual with total securities and precious metals bullion under administration or management exceeding $10 million,” — idpc-rules.txt ~line 481"
+    },
+    {
+      "id": "SUP-E3-0022",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Almont Securities is classifying clients to determine which supervision regime applies. How do the IDPC Rules define a 'retail client'?",
+      "options": {
+        "A": "A client that is not an institutional client",
+        "B": "Any individual, regardless of assets or registration status",
+        "C": "Any client with less than $1 million in investable assets",
+        "D": "Any client who holds only mutual funds and GICs"
+      },
+      "answer": "A",
+      "rationale": "The definition is residual: a retail client is a client that is not an institutional client. Option B fails because an individual with more than $10 million who requests and consents to institutional classification is institutional, not retail; C invents an asset cut-off that appears nowhere in the definition; D wrongly ties classification to product holdings.",
+      "rule_refs": [
+        "IDPC 1201 (definition of retail client)",
+        "Syllabus 3.4"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“retail client” A client that is not an institutional client.” — idpc-rules.txt ~line 760"
+    },
+    {
+      "id": "SUP-E3-0023",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Selwyn Capital serves both retail and institutional clients. Its policies and procedures for supervising institutional client accounts must specifically address detecting improper or suspicious account activity. Which item belongs on that list under IDPC section 3950?",
+      "options": {
+        "A": "Failure of institutional clients to update their trusted contact person",
+        "B": "Front running by employee or proprietary accounts",
+        "C": "Late filing of the institutional client's own financial statements",
+        "D": "Clients holding fewer than three asset classes in a portfolio"
+      },
+      "answer": "B",
+      "rationale": "Section 3950(2) requires institutional supervision policies and procedures to specifically address detecting improper or suspicious activity including manipulative and deceptive activities, restricted-list trading, front running by employee or proprietary accounts, restricted-transfer securities and derivatives, and exceeding derivative position or exercise limits. Option A is a retail-oriented KYC element (and trusted contact collection is not an institutional detection item); C concerns the client's own corporate filings, outside the dealer's supervision list; D describes a diversification preference, not improper activity.",
+      "rule_refs": [
+        "IDPC 3950(2)",
+        "Syllabus 3.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“the policies and procedures relating to the supervision of institutional client accounts must specifically address detecting improper or suspicious account activity including: (i) manipulative and deceptive activities,” — idpc-rules.txt ~line 8229"
+    },
+    {
+      "id": "SUP-E3-0024",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Odette Marchand is the designated Supervisor for discretionary accounts at Beauport Securities. Pressed for time, she proposes to delegate the monthly financial-performance review of discretionary accounts to a senior compliance analyst while retaining responsibility for the outcome. Why does this proposal fail?",
+      "options": {
+        "A": "Compliance analysts are prohibited from viewing discretionary account statements",
+        "B": "Monthly reviews of discretionary accounts may only be performed in the month of December",
+        "C": "The designated Supervisor responsible for discretionary accounts must not delegate the performance of those reviews to any other person",
+        "D": "Delegation is permitted only if the analyst is also a Portfolio Manager"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3970(3) prohibits the designated Supervisor for discretionary accounts from delegating the performance of the reviews required by 3970(1) and (2) — the at-least-monthly financial-performance review and the assessment of whether the Registered Representative should continue trading. This is stricter than the general delegation regime in 3907, under which tasks (but not responsibility) can normally be delegated — which is why option D's qualified-delegate workaround fails here: even a qualified person cannot perform these particular reviews. A and B invent restrictions that do not exist.",
+      "rule_refs": [
+        "IDPC 3970(1)",
+        "IDPC 3970(3)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“The designated Supervisor responsible for discretionary accounts must not delegate the performance of the reviews required in subsections 3970(1) and 3970(2) to any other person.” — idpc-rules.txt ~line 8384"
+    },
+    {
+      "id": "SUP-E3-0025",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Helix Wealth runs an in-house managed account program where a central investment committee makes decisions applied across hundreds of accounts. The designated Supervisor asks how often each managed account must be reviewed to confirm the client's investment objectives are being pursued, and whether centralized decision-making changes the approach. Which answer is correct?",
+      "options": {
+        "A": "Quarterly; and where investment decisions are made centrally across many accounts, the quarterly review may be done at an aggregate level, subject to minor variations for client-directed restrictions and timing of client cash flows",
+        "B": "Monthly for every account, with no aggregate-level alternative permitted",
+        "C": "Annually, and only for accounts that lost money during the year",
+        "D": "Only at account opening, because suitability is locked in by the managed account agreement"
+      },
+      "answer": "A",
+      "rationale": "Section 3973 requires the designated Supervisor to review each managed account quarterly to provide reasonable assurance the client's investment objectives are being pursued and handling complies with requirements, and 3973(2) permits the quarterly review at an aggregate level when investment decisions are made centrally, allowing for minor variations for client-directed restrictions and cash-flow timing. Option B states the discretionary-account monthly cadence (3970), the closest distractor — managed accounts are quarterly; C and D abandon the ongoing review obligation.",
+      "rule_refs": [
+        "IDPC 3973",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“the designated Supervisor under clause 3970(1)(i) must review each managed account quarterly to provide reasonable assurance that: (i) the client’s investment objectives are being pursued, and (ii) the handling of each of the managed accounts complies with Corporation requirements.” — idpc-rules.txt ~line 8438"
+    },
+    {
+      "id": "SUP-E3-0026",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Trillium Securities offers advisory, managed and discretionary accounts. Its KYC procedures refresh client information on a single 36-month cycle for all account types. A Supervisor flags the procedure as deficient. Why?",
+      "options": {
+        "A": "All account types require a 6-month KYC refresh cycle",
+        "B": "KYC information for managed accounts and discretionary accounts must be reviewed no less frequently than once every 12 months, while 36 months applies to other accounts",
+        "C": "Advisory accounts require a 12-month cycle while managed accounts may use 60 months",
+        "D": "KYC information never needs periodic review if the client does not report a change"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3209(4) sets the baseline KYC review at no less than once every 36 months but carves out managed accounts and discretionary accounts, which must be reviewed no less frequently than once every 12 months — reflecting the higher supervisory risk where the dealer exercises discretion. Option C reverses the treatment; A overstates the cycle for all accounts; D ignores the affirmative periodic review duty that exists even absent client-reported changes.",
+      "rule_refs": [
+        "IDPC 3209(4)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“A Dealer Member must review the information collected under clause 3202(1)(iii) no less frequently than once every 36 months, except for a managed account and a discretionary account which must be reviewed no less frequently than once every 12 months.” — idpc-rules.txt ~line 4553"
+    },
+    {
+      "id": "SUP-E3-0027",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Britannia Investments wants to retain Northgate Advisors LLP, a third-party firm, to manage client portfolios in its managed account program as a sub-advisor. Beyond a written sub-advisor agreement, which condition must the sub-advisor satisfy regarding conflicts of interest?",
+      "options": {
+        "A": "It must be subject to legislation or regulations containing conflict of interest provisions at least equivalent to IDPC section 3280, or have agreed with the dealer that it will comply with section 3280",
+        "B": "It must waive all fees on the accounts it manages",
+        "C": "It must hold a seat on the dealer's managed account committee",
+        "D": "It must be wholly owned by the dealer"
+      },
+      "answer": "A",
+      "rationale": "Clause 3279(2)(ii) requires the sub-advisor to be subject to conflict of interest provisions at least equivalent to section 3280, or to have entered into an agreement with the dealer to comply with section 3280 (in addition to being appropriately registered, licensed or exempt under 3279(2)(i)). Option C confuses the dealer's own managed account committee composition (designated Supervisor and CCO) with sub-advisor conditions; B and D invent fee and ownership conditions that do not exist — third-party managed arrangements specifically contemplate external, unaffiliated managers.",
+      "rule_refs": [
+        "IDPC 3279(2)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“(ii) subject to legislation or regulations containing conflict of interest provisions at least equivalent to those set out in section 3280 or has entered into an agreement with the Dealer Member that it will comply with section 3280.” — idpc-rules.txt ~line 5444"
+    },
+    {
+      "id": "SUP-E3-0028",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Verdun Capital opens a margin account for a retail client who will finance security purchases with borrowed funds. Which additional know-your-client step does IDPC section 3202 impose because of the financing element?",
+      "options": {
+        "A": "Obtaining the client's consent to monthly portfolio rebalancing",
+        "B": "Confirming the client holds no accounts at any other dealer",
+        "C": "Establishing the creditworthiness of the client, since the dealer is financing the client's acquisition of a security",
+        "D": "Collecting the names of all members of the client's household"
+      },
+      "answer": "C",
+      "rationale": "Clause 3202(1)(iv) requires the dealer to establish the creditworthiness of the client if the dealer is financing the client's acquisition of a security — the distinct KYC element that margin lending triggers and a core supervisory risk of margin accounts. Option B is not a KYC requirement; A relates to managed account servicing, not margin KYC; D overreaches beyond the essential facts the rule requires.",
+      "rule_refs": [
+        "IDPC 3202(1)(iv)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“(iv) establish the creditworthiness of the client if the Dealer Member is financing the client’s acquisition of a security.” — idpc-rules.txt ~line 4433"
+    },
+    {
+      "id": "SUP-E3-0029",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An institutional client of Drummond Securities settles trades through a custodian on a delivery-against-payment / receipt-against-payment basis and asks to stop receiving trade confirmations. Among other conditions, what must occur before the dealer can rely on the confirmation-suppression provision for DAP/RAP trade accounts?",
+      "options": {
+        "A": "Prior to the trade, the client must have agreed in writing to waive receipt of trade confirmations from the dealer",
+        "B": "The dealer must obtain a one-time verbal waiver from the custodian",
+        "C": "CIRO must grant a discretionary exemption for each client",
+        "D": "The client must move all positions into a margin account first"
+      },
+      "answer": "A",
+      "rationale": "Sub-clause 3816(2)(x)(b)(III) conditions the DAP/RAP confirmation relief on, among other things, the client having agreed in writing, prior to the trade, to waive receipt of trade confirmations — together with trade-matching, audit-trail, real-time access and compliant-trade-percentage conditions. Option B fails because the waiver must come from the client and in writing; C wrongly requires per-client regulatory exemptions when the rule itself provides the conditions; D has no connection to DAP/RAP settlement, which is the alternative to holding assets at the dealer.",
+      "rule_refs": [
+        "IDPC 3816(2)(x)(b)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“(III) prior to the trade, the client has agreed in writing to waive receipt of trade confirmations from the Dealer Member,” — idpc-rules.txt ~line 7722"
+    },
+    {
+      "id": "SUP-E3-0030",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The syllabus requires Supervisors to analyze supervisory risks across the basic types of securities. Which three categories does the Supervisor Exam syllabus list as the basic types of securities for this purpose?",
+      "options": {
+        "A": "Cryptocurrencies; precious metals; foreign exchange",
+        "B": "Options; futures; swaps",
+        "C": "Leveraged ETFs; structured products; asset-backed securities",
+        "D": "Equities; mutual funds and ETFs; fixed income products"
+      },
+      "answer": "D",
+      "rationale": "Outcome 3.6 enumerates exactly three basic security types: equities, mutual funds and ETFs, and fixed income products. Option B lists derivatives, which belong to outcome 3.8; C lists complex products from outcome 3.7; A mixes a specialized product (cryptocurrency, under 3.7) with asset classes the syllabus does not list as basic security types.",
+      "rule_refs": [
+        "Syllabus 3.6"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“3.6 Analyze the supervisory risks associated with each of the following basic types of securities: • Equities” — syllabus-raw.txt ~line 666"
+    },
+    {
+      "id": "SUP-E3-0031",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "During a monthly review at Falconbridge Wealth, a Supervisor finds a retail account in which a single small-cap equity has grown to dominate the portfolio across the client's accounts, while the overall quality of holdings has slipped toward speculative issues. Which two retail supervision detection items from IDPC section 3945 do these facts most directly engage?",
+      "options": {
+        "A": "Account number changes and late payment",
+        "B": "Undisclosed short sales and improper crosses between clients",
+        "C": "Undue concentration of securities in a single account or across accounts, and deterioration of the quality of client holdings",
+        "D": "Front running and insider trading"
+      },
+      "answer": "C",
+      "rationale": "Section 3945(2) requires retail supervision policies and procedures to specifically address detecting, among other items, undue concentration of securities, derivatives or precious metals bullion in a single account or across accounts (item ii) and deterioration of the quality of client holdings in an account (item viii) — precisely the equity-specific risks described. Options A, B and D each name real 3945(2) detection items, but none is engaged by concentration and quality deterioration: there is no indication of administrative changes, short selling or information misuse here.",
+      "rule_refs": [
+        "IDPC 3945(2)",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“(ii) undue concentration of securities, derivatives or precious metals bullion in a single account or across accounts, (iii) excessive trading,” — idpc-rules.txt ~line 8146"
+    },
+    {
+      "id": "SUP-E3-0032",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Cobalt Ridge Securities wants to add a new family of mutual funds and ETFs to its retail shelf. Before these products may be made available to clients, what must the dealer's product due diligence accomplish under IDPC section 3301?",
+      "options": {
+        "A": "Take reasonable steps to assess the relevant aspects of the securities — including structure, features, risks, and initial and ongoing costs and their impact — approve them for availability, and monitor them for significant changes",
+        "B": "Obtain CIRO pre-approval of each fund's prospectus before any sale",
+        "C": "Guarantee that the funds will outperform their benchmark index",
+        "D": "Verify only that the fund manager is profitable"
+      },
+      "answer": "A",
+      "rationale": "Section 3301(1) requires reasonable steps to assess relevant aspects including structure, features, risks, initial and ongoing costs and the impact of those costs, to approve the securities to be made available, and to monitor them for significant changes — fee-laden fund products make the cost assessment especially significant. Option B misstates the process: product approval is the dealer's, not CIRO's; C imposes a performance guarantee no rule requires; D substitutes manager profitability for the required multi-factor product assessment.",
+      "rule_refs": [
+        "IDPC 3301(1)",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“(i) assess the relevant aspects of the securities or derivatives, including the securities’ or derivatives’ structure, features, risks, initial and ongoing costs and the impact of those costs,” — idpc-rules.txt ~line 5494"
+    },
+    {
+      "id": "SUP-E3-0033",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A new Supervisor at Kingsmere Capital is mapping the firm's shelf against the syllabus categories of complex securities/products whose supervisory risks must be analyzed. Which product list matches the syllabus enumeration for outcome 3.7?",
+      "options": {
+        "A": "Common shares, preferred shares, rights and warrants",
+        "B": "Leveraged and inverse ETFs, structured products, asset-backed securities, and specialized products such as cryptocurrency",
+        "C": "Government bonds, treasury bills and bankers' acceptances",
+        "D": "Options, futures, forwards and swaps"
+      },
+      "answer": "B",
+      "rationale": "The 3.7 parameter lists leveraged and inverse ETFs, structured products, asset-backed securities and specialized (e.g. cryptocurrency) as the complex securities/product types. Option D is the derivatives list from outcome 3.8 — the closest distractor since derivatives are also complex, but the syllabus treats them as a separate outcome; A and C list conventional equity and money-market instruments belonging to the basic security types in 3.6.",
+      "rule_refs": [
+        "Syllabus 3.7"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“3.7 Analyze the supervisory risks associated with each of the following complex types of securities/products:” — syllabus-raw.txt ~line 681"
+    },
+    {
+      "id": "SUP-E3-0034",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Registered Representatives at Belmore Securities begin recommending a principal-at-risk structured note without having taken steps to understand how its embedded derivative, barrier features and fee layers work. Which obligation does this conduct breach, creating a supervisory risk specific to complex products?",
+      "options": {
+        "A": "The know-your-product obligation: an Approved Person must not recommend securities to a client without taking steps to understand their structure, features, risks, and initial and ongoing costs",
+        "B": "The requirement to hold structured notes only in margin accounts",
+        "C": "The requirement that all structured products be sold exclusively to institutional clients",
+        "D": "The prohibition on dealers carrying any structured product on their shelf"
+      },
+      "answer": "A",
+      "rationale": "Section 3302(1) prohibits an Approved Person from purchasing, selling or recommending securities or derivatives without taking steps to understand their structure, features, risks and initial and ongoing costs — opaque structured products are exactly where this understanding gap arises, making KYP compliance a key supervisory focus. Options B, C and D invent account-type, client-type and shelf prohibitions that do not exist; structured products may be offered if product due diligence and KYP are satisfied.",
+      "rule_refs": [
+        "IDPC 3302(1)",
+        "Syllabus 3.7"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“An Approved Person of a Dealer Member must not purchase or sell securities or transact in derivatives for, or recommend securities or derivatives to, a client unless the Approved Person takes steps to understand the securities or derivatives, including the securities’ or derivatives’” — idpc-rules.txt ~line 5502"
+    },
+    {
+      "id": "SUP-E3-0035",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Sablefin Digital, an Investment Dealer, added a crypto-asset product to its approved shelf last year. The product's custody arrangements and fee structure have since changed materially, but no one at the dealer has re-examined the product. Which element of the product due diligence obligation has the dealer neglected?",
+      "options": {
+        "A": "The obligation to obtain the client's annual consent to continue holding the product",
+        "B": "The obligation to file the product change with the dealer's external auditor",
+        "C": "The obligation to monitor the securities or derivatives made available to clients for significant changes",
+        "D": "The obligation to delist the product after any change, however minor"
+      },
+      "answer": "C",
+      "rationale": "Clause 3301(1)(iii) makes monitoring approved products for significant changes part of product due diligence — a continuing obligation that matters acutely for fast-evolving specialized products like crypto assets, where custody and cost structures shift. Option D overstates the duty: significant changes trigger reassessment, not automatic delisting; A and B invent client-consent and auditor-filing steps that are not part of section 3301.",
+      "rule_refs": [
+        "IDPC 3301(1)(iii)",
+        "Syllabus 3.7"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“(ii) approve the securities or derivatives to be made available to clients, and (iii) monitor the securities or derivatives for significant changes.” — idpc-rules.txt ~line 5496"
+    },
+    {
+      "id": "SUP-E3-0036",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A daily review at Quarry Lake Securities shows a Registered Representative concentrating several conservative retail clients into asset-backed securities and structured products whose risk and liquidity characteristics are difficult to evaluate. Which detection items in the dealer's retail supervision policies and procedures are designed to surface this pattern?",
+      "options": {
+        "A": "Outstanding margin calls and late payment",
+        "B": "Inappropriate or high risk trading strategies, and deterioration of the quality of client holdings in an account",
+        "C": "Account number changes and excessive transaction transfers",
+        "D": "Undisclosed short sales and trading in restricted securities"
+      },
+      "answer": "B",
+      "rationale": "Section 3945(2) requires retail supervision policies and procedures to address detecting inappropriate or high risk trading strategies (item vii) and deterioration of the quality of client holdings in an account (item viii) — the items engaged when conservative clients are moved into hard-to-value complex products. Options A, C and D are genuine 3945(2) items but target credit administration, possible unauthorized trading, and short-sale or restricted-security issues respectively, none of which these facts raise.",
+      "rule_refs": [
+        "IDPC 3945(2)",
+        "Syllabus 3.7"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“(vii) inappropriate or high risk trading strategies, (viii) deterioration of the quality of client holdings in an account,” — idpc-rules.txt ~line 8155"
+    },
+    {
+      "id": "SUP-E3-0037",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Whitecourt Derivatives Inc. transacts in both exchange-traded options and futures contracts. How does IDPC section 3960 structure the appointment of designated Supervisors for these activities?",
+      "options": {
+        "A": "A designated Supervisor for activities involving options contracts or similar derivatives, and a designated Supervisor for activities involving futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives",
+        "B": "One designated Supervisor per derivative exchange membership held by the dealer",
+        "C": "A single Supervisor who must personally approve every derivatives order before entry",
+        "D": "No designated Supervisor is needed where derivatives volume is below 100 contracts per month"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3960(1) requires, where applicable, appointing a designated Supervisor for options contracts or similar derivatives and a designated Supervisor for the futures class — futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives — each with the required qualifications and experience. Option C confuses appointment of designated Supervisors with order pre-approval, which is not the general rule; B keys the appointment to exchange memberships rather than activity classes; D invents a volume de minimis that does not exist.",
+      "rule_refs": [
+        "IDPC 3960(1)",
+        "IDPC 3960(2)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“(i) appoint a designated Supervisor to supervise its activities that involve options contracts or similar derivatives, and (ii) appoint a designated Supervisor to supervise its activities that involve futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives.” — idpc-rules.txt ~line 8279"
+    },
+    {
+      "id": "SUP-E3-0038",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "At Lakehurst Futures, a retail client holds short uncovered call options, and another client is carrying long wheat futures into the contract's delivery month. Which two derivative-specific exposures must the dealer's review of derivative transactions be designed to detect under IDPC section 3963?",
+      "options": {
+        "A": "Counterparty exposure on exchange-traded options, which have no clearing house",
+        "B": "Currency translation exposure and dividend withholding exposure",
+        "C": "Reinvestment risk on coupon payments and call risk on redeemable bonds",
+        "D": "Exposures arising out of uncovered option positions, and exposures to delivery obligations through holding futures contracts, forward contracts and similar derivatives into the delivery month"
+      },
+      "answer": "D",
+      "rationale": "Clauses 3963(1)(x) and (xi) require derivative transaction reviews to detect exposures arising out of uncovered option positions and exposures to delivery obligations through holding futures, forwards and similar derivatives into the delivery month — uncovered short options carry potentially unlimited loss, and delivery-month positions create physical settlement obligations. Options B and C describe currency and fixed-income risks not on the 3963 detection list; A is internally wrong because exchange-traded options are cleared through a clearing house.",
+      "rule_refs": [
+        "IDPC 3963(1)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“(x) exposures arising out of uncovered option positions, and (xi) exposures to delivery obligations through the holding of futures contracts, forward contracts and similar derivatives into the delivery month.” — idpc-rules.txt ~line 8359"
+    },
+    {
+      "id": "SUP-E3-0039",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Stratton Markets documents how clients receive confirmations for swap transactions instead of standard trade confirmations. Under IDPC section 3816, what conditions allow this alternative treatment for a swap transaction?",
+      "options": {
+        "A": "The client must be an individual with at least $5 million in net worth",
+        "B": "The dealer enters into a standard industry agreement with the client that is acceptable to the Corporation, and the agreement sets out the terms for receiving a confirmation of the swap transaction and its key terms",
+        "C": "The swap must clear through a Canadian marketplace before any confirmation rules apply",
+        "D": "The dealer files each swap confirmation with the client's provincial securities commission"
+      },
+      "answer": "B",
+      "rationale": "Sub-clause 3816(2)(x)(c) permits the alternative confirmation treatment for a swap transaction where the dealer enters into a standard industry agreement with the client acceptable to the Corporation and the agreement sets out the terms for receiving a confirmation and its key terms — recognizing the bilateral, documentation-driven nature of swaps. Option C is wrong because swaps are over-the-counter instruments and the provision does not turn on marketplace clearing; A invents a net-worth condition; D invents a regulator-filing process.",
+      "rule_refs": [
+        "IDPC 3816(2)(x)(c)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“(c) a swap transaction, provided: (I) the Dealer Member enters into a standard industry agreement with the client that is acceptable to the Corporation, and (II) the agreement sets out the terms for a client to receive a confirmation of a swap transaction and the key terms of the confirmation.” — idpc-rules.txt ~line 7746"
+    },
+    {
+      "id": "SUP-E3-0040",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Penrose Direct, an OEO dealer, offers over-the-counter contracts for difference to retail clients. What account-profitability disclosure must accompany the risk disclosure statement for these accounts?",
+      "options": {
+        "A": "A projection of expected client profits for the coming year",
+        "B": "The dealer's own proprietary trading profit on CFDs",
+        "C": "A disclosure of the percentage of such accounts that were profitable for each of the four most recent quarters",
+        "D": "The average leverage ratio used by the dealer's ten largest clients"
+      },
+      "answer": "C",
+      "rationale": "Clause 3254(1)(v) requires, for each order execution only account offering over-the-counter derivatives to retail clients, a disclosure with the risk disclosure statement of the percentage of such accounts that were profitable for each of the four most recent quarters — confronting retail CFD clients with realized outcomes rather than projections. Option A is forward-looking, the opposite of the rule; B concerns the dealer's own book, not client accounts; D substitutes a leverage statistic the rule does not require.",
+      "rule_refs": [
+        "IDPC 3254(1)(v)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“include with the risk disclosure statement or other similar document, for each order execution only account offering over-the-counter derivatives to retail clients, a disclosure of the percentage of such accounts that were profitable for each of the four most recent quarters.” — idpc-rules.txt ~line 5296"
+    },
+    {
+      "id": "SUP-E3-0041",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Halverson Wealth supervises both commission and fee-based retail accounts but selects accounts for monthly review using a single filter: gross commissions charged in the month. According to CIRO's Account Supervision Guidance, why is this selection method deficient?",
+      "options": {
+        "A": "Monthly reviews may only be selected by client surname in alphabetical rotation",
+        "B": "A dealer offering commission and fee-based accounts cannot select accounts for review solely based on commission levels; it should also have a procedure for selecting fee-based accounts",
+        "C": "Commission data may not be used for any supervisory purpose",
+        "D": "Fee-based accounts are exempt from monthly review entirely"
+      },
+      "answer": "B",
+      "rationale": "GN-3900-20-001 states that a dealer offering commission and fee-based accounts cannot select accounts for review solely based on commission levels and should also have a procedure for selecting fee-based accounts — a commission-only filter renders fee-based activity invisible to supervision. Option D is the opposite of the requirement: fee-based accounts remain subject to review, via different criteria; C overcorrects — commission data remains a legitimate criterion for commission accounts; A invents a selection method found nowhere in the guidance.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.2",
+        "IDPC 3945(3)",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“ocers commission and fee-based accounts cannot select accounts for review solely based on commission levels, they should also have a procedure for selecting fee- based accounts.” — gn-3900-20-001.txt ~line 186"
+    },
+    {
+      "id": "SUP-E3-0042",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Redwillow Securities is drafting policies and procedures to supervise its growing book of retail fee-based accounts, where no commission is charged for trades. What does IDPC section 3945(3) require these policies and procedures to do?",
+      "options": {
+        "A": "Apply the same commission-level screens used for transactional accounts",
+        "B": "Review fee-based accounts only when the client complains",
+        "C": "Cap the annual fee at 1% of assets under administration",
+        "D": "Address account activity review requirements and use criteria other than commission levels"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3945(3) requires the dealer to develop policies and procedures specifically addressing supervision of retail accounts where no commission is charged for trades, such as fee based accounts, and those policies must address account activity review requirements and use criteria other than commission levels — because in a fee-based account, commission screens detect nothing. Option A is precisely what the rule forbids relying on; B abandons proactive review; C invents a fee cap that the rules do not impose.",
+      "rule_refs": [
+        "IDPC 3945(3)",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“The Dealer Member must develop policies and procedures that specifically address supervising retail client accounts where a commission is not charged for trades placed by or for a client, such as fee based accounts. These policies and procedures must:” — idpc-rules.txt ~line 8175"
+    },
+    {
+      "id": "SUP-E3-0043",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Birchgrove Direct, an approved OEO service provider, is designing its employee compensation plan. The proposal includes paying customer-service employees a share of trade commissions on transactions executed in OEO accounts. Why must the dealer reject this design?",
+      "options": {
+        "A": "OEO employees may only be paid in company shares",
+        "B": "A dealer must not compensate employees by giving them trade commissions for transactions executed in order execution only accounts",
+        "C": "Commission compensation is permitted only if the employee is also a Supervisor",
+        "D": "Trade-commission compensation is permitted provided it does not exceed 5% of salary"
+      },
+      "answer": "B",
+      "rationale": "Subsection 2207(5) prohibits a dealer from compensating employees by giving them trade commissions for transactions executed in OEO accounts — transaction-linked pay would create an incentive to stimulate trading in a channel where no recommendations may be given. Options C and D invent role-based and percentage carve-outs the prohibition does not contain; A invents a share-only pay rule that does not exist.",
+      "rule_refs": [
+        "IDPC 2207(5)",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“A Dealer Member must not compensate employees by giving them trade commissions for transactions executed in order execution only accounts.” — idpc-rules.txt ~line 1363"
+    },
+    {
+      "id": "SUP-E3-0044",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A managed account client of Eastpoint Capital negotiates a performance-based fee: the dealer will charge 15% of gains above a benchmark. Under IDPC section 3281, what condition must be met before the dealer may charge the client directly on this basis?",
+      "options": {
+        "A": "The fee must first be approved by a vote of all the dealer's managed account clients",
+        "B": "No condition applies — performance fees are always prohibited for managed accounts",
+        "C": "The dealer must rebate any performance fee that exceeds the prior year's commission equivalent",
+        "D": "The client must have provided the dealer with a written agreement setting out the manner in which fees contingent upon profit or performance may be charged"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3281(1) prohibits charging a managed account client directly on a basis tied to volume or value of transactions or contingent upon profit or performance unless the client has provided a written agreement setting out the manner in which such fees may be charged — so a properly documented written agreement makes the negotiated performance fee permissible. Option B overstates the rule into an outright ban; A and C invent client-vote and rebate mechanisms that have no basis in section 3281.",
+      "rule_refs": [
+        "IDPC 3281(1)",
+        "Syllabus 3.10"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“(1) A Dealer Member may not charge a client directly for services rendered to the managed account, that is: (i) based upon the volume or value of transactions in the account initiated for the account, or (ii) contingent upon profit or performance of the client’s account,” — idpc-rules.txt ~line 5472"
+    },
+    {
+      "id": "SUP-E3-0045",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The compliance team at Govan Hill Securities is allocating syllabus outcome 3.10 between two training modules. Which two compensation arrangements does the Supervisor Exam syllabus identify in outcome 3.10 as carrying supervisory risks a Supervisor must understand?",
+      "options": {
+        "A": "Negotiated flat fees and referral fees",
+        "B": "Stock option grants and deferred bonuses",
+        "C": "Trailer commissions and soft-dollar arrangements",
+        "D": "Performance bonuses and signing bonuses"
+      },
+      "answer": "A",
+      "rationale": "Outcome 3.10 reads: understand the supervisory risks associated with negotiated flat fees and referral fees. Option C names real industry compensation flows, but they are not the pair the 3.10 parameter enumerates; B and D describe employment compensation rather than client-facing fee arrangements within the outcome.",
+      "rule_refs": [
+        "Syllabus 3.10"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“3.10 Understand the supervisory risks associated with negotiated flat fees and referral fees.” — syllabus-raw.txt ~line 770"
+    },
+    {
+      "id": "SUP-E3-0046",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Within outcome 3.9, the syllabus directs Supervisors to analyze compensation structures, and outcome 3.10 extends the compensation theme. Which statement correctly distinguishes the two outcomes?",
+      "options": {
+        "A": "Outcome 3.9 covers negotiated flat fees, while 3.10 covers commission-based and fee-based structures",
+        "B": "Outcome 3.9 addresses analyzing commission-based and fee-based compensation structures, while 3.10 addresses understanding the supervisory risks of negotiated flat fees and referral fees",
+        "C": "Both outcomes deal exclusively with Supervisor salary arrangements",
+        "D": "Outcome 3.10 requires applying client loss limits to compensation"
+      },
+      "answer": "B",
+      "rationale": "The syllabus parameter for 3.9 is to analyze the supervisory risks associated with compensation structures, considering commission-based and fee-based; 3.10 is to understand the supervisory risks associated with negotiated flat fees and referral fees. Option A swaps the two outcomes' content — the closest distractor; C misreads both outcomes as internal salary topics; D imports loss limits, a derivatives account concept unrelated to either outcome.",
+      "rule_refs": [
+        "Syllabus 3.9",
+        "Syllabus 3.10"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“3.9 Analyze the supervisory risks associated with each of the following compensation structures. Consider:” — syllabus-raw.txt ~line 767"
+    },
+    {
+      "id": "SUP-E3-0047",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-01",
+      "scenario": "Lansdowne Park Securities Inc. is a CIRO Investment Dealer with two lines of business. Its retail advisory division operates through 38 independent advisors engaged as agents under principal-agent arrangements; the advisors keep their own storefront offices and pay their own expenses. Its private client division offers in-house managed accounts: investment decisions are made centrally by an investment committee and applied across roughly 600 managed accounts, with two Portfolio Managers and one Associate Portfolio Manager, Priya Raman, handling client portfolios. Some managed account clients have negotiated asset-based fees; one large client pays a fee contingent on performance under a signed written fee agreement. Recently, agent Marc Belisle began selling unrelated insurance products from his office, and the firm's new Chief Compliance Officer, Dana Whitfield, is reviewing how Lansdowne's supervisory structure should respond to each feature of this business model.",
+      "stem": "Whitfield first considers the disclosure clients of the agent advisors must receive. Regarding Belisle's insurance sales, what must Lansdowne or the agent disclose to clients at the time of opening an account?",
+      "options": {
+        "A": "That the dealer guarantees all of the agent's activities, including insurance sales",
+        "B": "The list of securities and derivatives related business conducted by the agent for which the dealer is responsible, and that the dealer is not responsible for any other business activity conducted by the agent",
+        "C": "That clients may not purchase insurance from any person associated with the dealer",
+        "D": "Nothing — outside business activity disclosure is made only to CIRO"
+      },
+      "answer": "B",
+      "rationale": "The dealer-Corporation agreement under section 2303 requires written disclosure to clients at account opening of the list of securities and derivatives related business conducted by the agent for which the dealer is responsible, and that the dealer is not responsible for any other business activity conducted by the agent — Belisle's insurance sales fall in the second category. Option A overstates dealer responsibility to cover non-dealer business; C wrongly converts a disclosure regime into a sales ban; D ignores that the disclosure is client-facing, not merely a regulatory filing.",
+      "rule_refs": [
+        "IDPC 2303(4) item 4",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“(i) the list of securities and derivatives related business conducted by the agent for which the Dealer Member is responsible, and (ii) that the Dealer Member is not responsible for any other business activity conducted by the agent.” — idpc-rules.txt ~line 1739"
+    },
+    {
+      "id": "SUP-E3-0048",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-01",
+      "scenario": "Lansdowne Park Securities Inc. is a CIRO Investment Dealer with two lines of business. Its retail advisory division operates through 38 independent advisors engaged as agents under principal-agent arrangements; the advisors keep their own storefront offices and pay their own expenses. Its private client division offers in-house managed accounts: investment decisions are made centrally by an investment committee and applied across roughly 600 managed accounts, with two Portfolio Managers and one Associate Portfolio Manager, Priya Raman, handling client portfolios. Some managed account clients have negotiated asset-based fees; one large client pays a fee contingent on performance under a signed written fee agreement. Recently, agent Marc Belisle began selling unrelated insurance products from his office, and the firm's new Chief Compliance Officer, Dana Whitfield, is reviewing how Lansdowne's supervisory structure should respond to each feature of this business model.",
+      "stem": "Turning to the private client division, Whitfield checks the structure for supervising the managed account program. Which combination satisfies the IDPC requirements for a dealer that has managed accounts?",
+      "options": {
+        "A": "Designate a Supervisor responsible for the supervision of managed accounts, and maintain policies and procedures specifically addressing the supervision of individuals responsible for handling managed accounts",
+        "B": "The investment committee supervises itself, since it makes the investment decisions",
+        "C": "Any branch Supervisor may review managed accounts informally; no designation or specific policies are needed",
+        "D": "Outsource all managed account supervision to the firm's external auditor"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3971(1) requires a dealer with managed accounts to designate a Supervisor responsible for their supervision and to have policies and procedures specifically addressing the supervision of the individuals who handle managed accounts, providing reasonable assurance of compliance. Option B creates self-supervision by the decision-makers being supervised; C omits both the designation and the specific policies the rule mandates; D delegates a supervisory function to an external auditor, who provides assurance, not account supervision.",
+      "rule_refs": [
+        "IDPC 3971(1)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“(1) A Dealer Member that has managed accounts must: (i) designate a Supervisor to be responsible for the supervision of managed accounts, and (ii) have policies and procedures that specifically address the supervision of individuals responsible for handling managed accounts” — idpc-rules.txt ~line 8404"
+    },
+    {
+      "id": "SUP-E3-0049",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-01",
+      "scenario": "Lansdowne Park Securities Inc. is a CIRO Investment Dealer with two lines of business. Its retail advisory division operates through 38 independent advisors engaged as agents under principal-agent arrangements; the advisors keep their own storefront offices and pay their own expenses. Its private client division offers in-house managed accounts: investment decisions are made centrally by an investment committee and applied across roughly 600 managed accounts, with two Portfolio Managers and one Associate Portfolio Manager, Priya Raman, handling client portfolios. Some managed account clients have negotiated asset-based fees; one large client pays a fee contingent on performance under a signed written fee agreement. Recently, agent Marc Belisle began selling unrelated insurance products from his office, and the firm's new Chief Compliance Officer, Dana Whitfield, is reviewing how Lansdowne's supervisory structure should respond to each feature of this business model.",
+      "stem": "Whitfield learns that Associate Portfolio Manager Priya Raman has been emailing portfolio advice directly to managed account clients without anyone else seeing it first. What does IDPC section 3971 require regarding an Associate Portfolio Manager's advice?",
+      "options": {
+        "A": "An Associate Portfolio Manager may advise freely once the client signs the managed account agreement",
+        "B": "The advice must be approved by a Portfolio Manager at the dealer before the Associate Portfolio Manager provides it, as part of the required direct supervision of the Associate Portfolio Manager",
+        "C": "Only advice on derivatives requires pre-approval; equity advice does not",
+        "D": "The Chief Financial Officer must co-sign every piece of advice"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3971(3) requires policies and procedures addressing the direct supervision of any Associate Portfolio Manager providing discretionary management, including a prohibition on the APM providing advice unless it has been approved by a Portfolio Manager at the dealer before the APM provides it — consistent with the Rule 1200 definition placing APMs under a Portfolio Manager's supervision. Option A confuses the client agreement with the internal pre-approval control; C invents a derivatives-only carve-out; D assigns the role to the CFO, whose responsibilities are financial.",
+      "rule_refs": [
+        "IDPC 3971(3)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“the direct supervision of any Associate Portfolio Manager that provides discretionary management to managed accounts, including a prohibition on the Associate Portfolio Manager providing advice unless the advice has been approved by a Portfolio Manager at the Dealer Member prior to the Associate Portfolio Manager providing the advice.” — idpc-rules.txt ~line 8419"
+    },
+    {
+      "id": "SUP-E3-0050",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-01",
+      "scenario": "Lansdowne Park Securities Inc. is a CIRO Investment Dealer with two lines of business. Its retail advisory division operates through 38 independent advisors engaged as agents under principal-agent arrangements; the advisors keep their own storefront offices and pay their own expenses. Its private client division offers in-house managed accounts: investment decisions are made centrally by an investment committee and applied across roughly 600 managed accounts, with two Portfolio Managers and one Associate Portfolio Manager, Priya Raman, handling client portfolios. Some managed account clients have negotiated asset-based fees; one large client pays a fee contingent on performance under a signed written fee agreement. Recently, agent Marc Belisle began selling unrelated insurance products from his office, and the firm's new Chief Compliance Officer, Dana Whitfield, is reviewing how Lansdowne's supervisory structure should respond to each feature of this business model.",
+      "stem": "Finally, Whitfield reviews how the private client division pays the individuals who handle the managed accounts. A draft plan would pay the Portfolio Managers a bonus calculated on the dollar value of transactions executed in the managed accounts they handle. Why must this plan be rejected?",
+      "options": {
+        "A": "Bonuses for Portfolio Managers may only be paid in the dealer's own shares",
+        "B": "Portfolio Manager compensation must be approved by each client annually",
+        "C": "Transaction-value bonuses are permitted only if disclosed in the relationship disclosure",
+        "D": "A dealer must not compensate persons authorized to deal with managed accounts on the basis of the value or volume of transactions in the account"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3281(2) prohibits compensating a person referred to in section 3279 — the Portfolio Managers, Associate Portfolio Managers and sub-advisors who deal with managed accounts — on the basis of the value or volume of transactions in the account, removing any incentive to trade discretionary portfolios for compensation. Option C wrongly treats disclosure as curing a flat prohibition; note the written-agreement relief in 3281(1) applies to charging clients directly, not to compensating the dealer's own people; A and B invent payment-form and client-approval rules that do not exist.",
+      "rule_refs": [
+        "IDPC 3281(2)",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "“(2) A Dealer Member must not compensate a person referred to in section 3279, on the basis of the value or volume of transactions in the account.” — idpc-rules.txt ~line 5479"
+    },
+    {
+      "id": "SUP-E3-0051",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-02",
+      "scenario": "Pacifica Trade Direct Inc. is a CIRO Investment Dealer approved to provide order execution only account services through a separate business unit. Retail clients enter their own orders through Pacifica's web and mobile platforms with no intermediation by employees. The unit offers listed equities and options, and recently added over-the-counter contracts for difference (CFDs) on Canadian listed shares for retail clients. The OEO unit's derivatives activities are overseen by one designated Supervisor, Jonas Reid, who is qualified for both options and the futures-class derivatives that include CFDs; Reid has no appointed back-up. A surveillance alert shows retail client Vera Kowalski day-trading CFD positions on a thinly traded reporting issuer, with intra-day positions that surveillance estimates at about 0.7% of the issuer's float. Another client has asked Pacifica's call-centre staff which CFD to buy. The unit's head, Tomas Vega, is reviewing the supervisory implications.",
+      "stem": "A call-centre employee at Pacifica is tempted to answer Vera Kowalski's fellow client who asked which CFD to buy. Under the OEO supervision requirements, what must Pacifica's policies and procedures ensure on this point?",
+      "options": {
+        "A": "That recommendations are limited to two per client per year",
+        "B": "That recommendations are given only by employees who have completed a derivatives course",
+        "C": "That clients are not provided with recommendations, whether through a separate legal entity, a separate business unit, or the dealer itself",
+        "D": "That recommendations may be given verbally but never in writing"
+      },
+      "answer": "C",
+      "rationale": "Clause 3955(1)(ii) requires the OEO dealer's policies and procedures to ensure clients are not provided with recommendations as a result of having an account with a separate legal entity, a separate business unit, or the dealer itself — answering the client's question with a product pick would breach the OEO model, under which the client is solely responsible for investment decisions. Options B, A and D each permit some recommendations, which is incompatible with the OEO account definition regardless of who gives them, how often, or in what form.",
+      "rule_refs": [
+        "IDPC 3955(1)(ii)",
+        "IDPC 1201 (definition of order execution only account)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "“(ii) the Dealer Member provides no recommendation to purchase, sell, hold or exchange any security, including any class of security or security of a class of issuer, or transact in any derivative.” — idpc-rules.txt ~line 678"
+    },
+    {
+      "id": "SUP-E3-0052",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-02",
+      "scenario": "Pacifica Trade Direct Inc. is a CIRO Investment Dealer approved to provide order execution only account services through a separate business unit. Retail clients enter their own orders through Pacifica's web and mobile platforms with no intermediation by employees. The unit offers listed equities and options, and recently added over-the-counter contracts for difference (CFDs) on Canadian listed shares for retail clients. The OEO unit's derivatives activities are overseen by one designated Supervisor, Jonas Reid, who is qualified for both options and the futures-class derivatives that include CFDs; Reid has no appointed back-up. A surveillance alert shows retail client Vera Kowalski day-trading CFD positions on a thinly traded reporting issuer, with intra-day positions that surveillance estimates at about 0.7% of the issuer's float. Another client has asked Pacifica's call-centre staff which CFD to buy. The unit's head, Tomas Vega, is reviewing the supervisory implications.",
+      "stem": "Vega examines the surveillance alert on Vera Kowalski's intra-day CFD positions estimated at 0.7% of the reporting issuer's float. Under IDPC section 3962, what must Pacifica's policies and procedures do about this situation?",
+      "options": {
+        "A": "Permit the position because intra-day positions are exempt from all limits",
+        "B": "Convert the CFD position into the underlying shares automatically",
+        "C": "Allow up to 2% of the float provided the client signs a leverage acknowledgement",
+        "D": "Prevent a retail client from holding CFD or similar derivatives positions representing more than 0.5% of the float of a reporting issuer on an intra-day or short-term basis"
+      },
+      "answer": "D",
+      "rationale": "Clause 3962(5)(v) requires policies and procedures that prevent a retail client from holding contracts for difference or similar derivatives positions representing more than 0.5% of the float of a reporting issuer (or other publicly traded issuer) on an intra day or short term basis — Kowalski's estimated 0.7% breaches the threshold and must be prevented. Option A inverts the rule, which is specifically aimed at intra-day and short-term positions; C uses a fabricated 2% threshold with an acknowledgement cure the rule does not offer; B contradicts clause 3962(5)(vi), under which retail CFDs must not confer the right to acquire or deliver the underlying interest.",
+      "rule_refs": [
+        "IDPC 3962(5)(v)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“prevent a retail client from holding contracts for difference or similar derivatives positions representing more than 0.5% of the float of a reporting issuer or any other issuer whose securities are publicly traded on an intra day or short term basis, and” — idpc-rules.txt ~line 8331"
+    },
+    {
+      "id": "SUP-E3-0053",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-02",
+      "scenario": "Pacifica Trade Direct Inc. is a CIRO Investment Dealer approved to provide order execution only account services through a separate business unit. Retail clients enter their own orders through Pacifica's web and mobile platforms with no intermediation by employees. The unit offers listed equities and options, and recently added over-the-counter contracts for difference (CFDs) on Canadian listed shares for retail clients. The OEO unit's derivatives activities are overseen by one designated Supervisor, Jonas Reid, who is qualified for both options and the futures-class derivatives that include CFDs; Reid has no appointed back-up. A surveillance alert shows retail client Vera Kowalski day-trading CFD positions on a thinly traded reporting issuer, with intra-day positions that surveillance estimates at about 0.7% of the issuer's float. Another client has asked Pacifica's call-centre staff which CFD to buy. The unit's head, Tomas Vega, is reviewing the supervisory implications.",
+      "stem": "A product manager proposes a new retail CFD at Pacifica that would let the holder elect physical delivery of the underlying shares and exercise the voting rights attached to them. How do the derivatives supervision requirements treat this proposal?",
+      "options": {
+        "A": "It is permitted if the client deposits 50% margin",
+        "B": "It is permitted because delivery features reduce risk for clients",
+        "C": "It is prohibited — the dealer's policies and procedures must prohibit offering retail clients CFDs or similar derivatives that confer the right or obligation to acquire or deliver the underlying interest or confer other shareholder rights such as voting rights",
+        "D": "It is permitted for clients who already hold the underlying shares in another account"
+      },
+      "answer": "C",
+      "rationale": "Clause 3962(5)(vi) requires policies and procedures that prohibit offering retail clients contracts for difference or similar derivatives that confer the right or obligation to acquire or deliver the underlying interest or confer any other rights of shareholders, such as voting rights — a CFD must remain a cash-settled price-difference instrument for retail clients. Options A and D invent margin and existing-holdings cures the prohibition does not allow; B mischaracterizes delivery and voting features, which would blur the CFD into share ownership, as risk-reducing.",
+      "rule_refs": [
+        "IDPC 3962(5)(vi)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“prohibit the offering of contracts for difference or similar derivatives to a retail client that confer the right or obligation to acquire or deliver the underlying interest or confer any other rights of shareholders, such as voting rights.” — idpc-rules.txt ~line 8334"
+    },
+    {
+      "id": "SUP-E3-0054",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-02",
+      "scenario": "Pacifica Trade Direct Inc. is a CIRO Investment Dealer approved to provide order execution only account services through a separate business unit. Retail clients enter their own orders through Pacifica's web and mobile platforms with no intermediation by employees. The unit offers listed equities and options, and recently added over-the-counter contracts for difference (CFDs) on Canadian listed shares for retail clients. The OEO unit's derivatives activities are overseen by one designated Supervisor, Jonas Reid, who is qualified for both options and the futures-class derivatives that include CFDs; Reid has no appointed back-up. A surveillance alert shows retail client Vera Kowalski day-trading CFD positions on a thinly traded reporting issuer, with intra-day positions that surveillance estimates at about 0.7% of the issuer's float. Another client has asked Pacifica's call-centre staff which CFD to buy. The unit's head, Tomas Vega, is reviewing the supervisory implications.",
+      "stem": "Vega notes that Jonas Reid is the only designated Supervisor for the unit's derivatives activities and has no appointed back-up, even though clients trade options and CFDs continuously through the platform. What does IDPC section 3960 require in this situation?",
+      "options": {
+        "A": "Nothing further — a single designated Supervisor always suffices regardless of coverage gaps",
+        "B": "The dealer must appoint one or more alternate Supervisors if necessary to ensure continuous supervision of its derivatives activities",
+        "C": "The dealer must suspend all derivatives trading whenever Reid takes vacation",
+        "D": "Reid must transfer his designation to the Ultimate Designated Person during absences"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3960(3) requires the dealer to appoint one or more alternate Supervisors if necessary to ensure continuous supervision of its derivatives activities; under 3960(4) the alternate assumes the designated Supervisor's responsibilities when the designated Supervisor is absent or trading activity requires additional qualified individuals. Option C halts business rather than maintaining supervision, which the alternate mechanism is designed to avoid; A ignores the continuity requirement on these facts; D wrongly routes derivatives supervision to the UDP, whose role is firm-level conduct responsibility, not derivatives desk coverage.",
+      "rule_refs": [
+        "IDPC 3960(3)",
+        "IDPC 3960(4)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "“(3) The Dealer Member must appoint one or more alternate Supervisors if necessary to ensure continuous supervision of its derivatives activities.” — idpc-rules.txt ~line 8285"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "meta": {
+    "batch": "E8-CARDS-001",
+    "element": 8,
+    "drafted": 40,
+    "date": "2026-06-04",
+    "purpose": "Crash-course refresher before drilling the E8 question bank. Every fact drawn verbatim at drafting time from local sources; coverage keyed to E8-batch-001 tested facts and seed questions.",
+    "corpus": ["idpc-rules.txt (2026-01-08) — Rule 3600 (3601-3640), 3803, 1201", "syllabus-raw.txt (Element 8 verbatim parameters)"],
+    "patch_note": "Gap patches 2026-06-04 per open-cards solve — see qa-log.md"
+  },
+  "cards": [
+    {
+      "id": "FC-E8-0001", "element": 8, "outcome": "8.1", "type": "process",
+      "front": "What two things must a dealer's public-communications framework include under IDPC 3601(1)?",
+      "back": "Policies and procedures specifically addressing communication with the public, plus monitoring of compliance with them to give reasonable assurance the dealer, employees and Approved Persons comply.",
+      "rule_refs": ["IDPC 3601(1)"],
+      "source_quote": "\"A Dealer Member’s policies and procedures must specifically address communication with the public and the Dealer Member must monitor compliance with these policies and procedures\" — idpc-rules.txt ~lines 5839-5840",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0002", "element": 8, "outcome": "8.1", "type": "list",
+      "front": "List the seven content standards a communication must not breach under IDPC 3602(1).",
+      "back": "Untrue statement/omission of material fact; unjustified promise of specific results; unrepresentative statistics/unidentified assumptions; unlabeled opinion or forecast; unfair risk presentation; detrimental to public/Corporation/dealers; non-compliant with requirements/laws.",
+      "rule_refs": ["IDPC 3602(1)"],
+      "source_quote": "\"contains an untrue statement or omission of a material fact or is otherwise false or misleading, (ii) contains an unjustified promise of specific results,\" — idpc-rules.txt ~lines 5855-5857",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0003", "element": 8, "outcome": "8.1", "type": "trap",
+      "front": "TRAP: 'My portfolio returned 22% — join and lock in the same results!' The return figure is accurate. Compliant?",
+      "back": "No. Accuracy of past performance doesn't cure an unjustified promise of specific results — prohibited content under 3602(1)(ii).",
+      "rule_refs": ["IDPC 3602(1)(ii)"],
+      "source_quote": "\"contains an unjustified promise of specific results,\" — idpc-rules.txt ~line 5857",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0004", "element": 8, "outcome": "8.1", "type": "trap",
+      "front": "TRAP: a flyer is 100% factually accurate but describes only the upside of a strategy. Which 3602(1) standard is breached?",
+      "back": "Fails to fairly present the potential risks to the client — 3602(1)(v). Accuracy does not cure one-sided presentation; distinct from the untrue-statement clause (i).",
+      "rule_refs": ["IDPC 3602(1)(v)", "IDPC 3602(1)(i)"],
+      "source_quote": "\"fails to fairly present the potential risks to the client,\" — idpc-rules.txt ~line 5861",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0005", "element": 8, "outcome": "8.1", "type": "definition",
+      "front": "What does the misleading-communications rule 3640(1) prohibit, including via trade names?",
+      "back": "Holding out in a manner reasonably expected to deceive or mislead as to proficiency/experience/qualifications/registration category, the relationship with dealer or Approved Person, or products/services provided.",
+      "rule_refs": ["IDPC 3640(1)"],
+      "source_quote": "\"including through the use of a trade name, in a manner that could reasonably be expected to deceive or mislead any person or company\" — idpc-rules.txt ~lines 6098-6099",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0006", "element": 8, "outcome": "8.1", "type": "list",
+      "front": "Which three title usages are banned for client-facing Approved Persons under 3640(2) (think 'top producer' awards, ranking lists)?",
+      "back": "Title/designation/award/recognition based partly or entirely on sales activity or revenue generation; corporate officer title without appointment under corporate law; any title/designation the dealer hasn't approved.",
+      "rule_refs": ["IDPC 3640(2)", "Syllabus 8.1"],
+      "source_quote": "\"if based partly or entirely on that Approved Person’s sales activity or revenue generation, a title, designation, award, or recognition,\" — idpc-rules.txt ~lines 6109-6110",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0007", "element": 8, "outcome": "8.1", "type": "process",
+      "front": "Material NOT on the 3602(3) pre-approval list must be reviewed how?",
+      "back": "In a manner appropriate to the type of material: pre-use approval, post-use review, or post-use sampling — 3602(4).",
+      "rule_refs": ["IDPC 3602(4)"],
+      "source_quote": "\"is reviewed in a manner appropriate to the type of material through: (i) pre-use approval, (ii) post-use review, or (iii) post-use sampling.\" — idpc-rules.txt ~lines 5880-5883",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0008", "element": 8, "outcome": "8.1", "type": "threshold",
+      "front": "How long, and in what form, must advertisements, sales literature, correspondence and supervision records be retained?",
+      "back": "Minimum seven years from record creation, in durable and accessible form (3803); copies must be readily available for inspection by the Corporation (3602(6)).",
+      "rule_refs": ["IDPC 3602(6)", "IDPC 3803(1)"],
+      "source_quote": "\"in durable and accessible form, for a minimum of seven years from the date the record is created\" — idpc-rules.txt ~lines 6721-6722",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0009", "element": 8, "outcome": "8.1", "type": "list",
+      "front": "Which legislative requirement and which channel risk does syllabus 8.1 single out for communications supervision?",
+      "back": "Canadian Anti-spam Legislation (CASL); off-channel communication issues — business messages outside firm systems escape required review, supervision and retention.",
+      "rule_refs": ["Syllabus 8.1", "IDPC 3602(2)", "IDPC 3602(6)"],
+      "source_quote": "\"Legislative requirements, including Canadian Anti-spam Legislation • Off-channel communication issues\" — syllabus-raw.txt ~lines 1531-1532",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0010", "element": 8, "outcome": "8.2", "type": "list",
+      "front": "Name the six items a designated Supervisor must approve BEFORE use or publication (3602(3)).",
+      "back": "Research reports; market letters; telemarketing scripts; promotional seminar texts (excluding educational seminar texts); original advertisements or original template advertisements; any material containing performance reports/summaries used to solicit clients.",
+      "rule_refs": ["IDPC 3602(3)"],
+      "source_quote": "\"approved by a designated Supervisor before use or publication: (i) research reports, (ii) market letters, (iii) telemarketing scripts,\" — idpc-rules.txt ~lines 5866-5870",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0011", "element": 8, "outcome": "8.2", "type": "trap",
+      "front": "TRAP: do ALL seminar texts require pre-use approval by a designated Supervisor?",
+      "back": "No — promotional seminar texts do; educational seminar texts are expressly excluded from the pre-approval list (still reviewable under 3602(4) methods).",
+      "rule_refs": ["IDPC 3602(3)(iv)", "IDPC 3602(4)"],
+      "source_quote": "\"promotional seminar texts (excluding educational seminar texts),\" — idpc-rules.txt ~line 5871",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0012", "element": 8, "outcome": "8.2", "type": "distinction",
+      "front": "New ad template vs branch-populated copies — what exactly needs designated-Supervisor pre-approval?",
+      "back": "The original advertisement or original template advertisement. Routine populated copies of an approved template are not separately listed; they fall under the 3602(4) review methods.",
+      "rule_refs": ["IDPC 3602(3)(v)", "IDPC 3602(4)"],
+      "source_quote": "\"original advertisements or original template advertisements, and\" — idpc-rules.txt ~line 5872",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0013", "element": 8, "outcome": "8.2", "type": "process",
+      "front": "A weekly 'market pulse' email with sector recommendations — what approval does each issue need?",
+      "back": "Each issue is a market letter: designated-Supervisor approval before use or publication. Next-morning review is post-use review, unavailable for listed items.",
+      "rule_refs": ["IDPC 3602(3)(ii)", "IDPC 3602(4)"],
+      "source_quote": "\"approved by a designated Supervisor before use or publication: (i) research reports, (ii) market letters,\" — idpc-rules.txt ~lines 5866-5869",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0014", "element": 8, "outcome": "8.2", "type": "trap",
+      "front": "TRAP: a 'meeting handout' shows model-portfolio returns and is given to prospects. Exempt from pre-approval?",
+      "back": "No. Any material containing performance reports or summaries used to solicit clients requires designated-Supervisor approval before use — the label is irrelevant; content plus solicitation use triggers it.",
+      "rule_refs": ["IDPC 3602(3)(vi)"],
+      "source_quote": "\"any material containing performance reports or summaries that is used to solicit clients.\" — idpc-rules.txt ~line 5873",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0015", "element": 8, "outcome": "8.2", "type": "definition",
+      "front": "Per the Rule 1201 definition, a 'designated Supervisor' for communications is responsible for what two Rule 3600 roles?",
+      "back": "Pre-approval of advertising, sales literature and correspondence under Part A, and supervision of research reports under Part B — supervisory roles the dealer makes a Supervisor responsible for.",
+      "rule_refs": ["IDPC 1201 'designated Supervisor'"],
+      "source_quote": "\"the pre-approval of advertising, sales literature and correspondence under Part A of Rule 3600, and (vii) the supervision of research reports under Part B of Rule 3600.\" — idpc-rules.txt ~lines 329-331",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0016", "element": 8, "outcome": "8.2", "type": "trap",
+      "front": "TRAP: a non-designated marketing head approves an original ad; it runs; Monday review finds the content compliant. Any breach?",
+      "back": "Yes — listed items must be approved by a designated Supervisor before use or publication. Compliant content never cures wrong approver plus late review.",
+      "rule_refs": ["IDPC 3602(3)", "IDPC 1201 'designated Supervisor'"],
+      "source_quote": "\"A Dealer Member must ensure that the following items are approved by a designated Supervisor before use or publication:\" — idpc-rules.txt ~lines 5866-5867",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0017", "element": 8, "outcome": "8.2", "type": "process",
+      "front": "An in-house fund promo piece with since-inception returns — which two rule hooks bind the dealer before use?",
+      "back": "Pre-approval as performance material used to solicit clients (3602(3)(vi)); and the piece must not fail to comply with Corporation requirements or any applicable laws (3602(1)(vii)).",
+      "rule_refs": ["IDPC 3602(3)(vi)", "IDPC 3602(1)(vii)", "Syllabus 8.2"],
+      "source_quote": "\"fails to comply with Corporation requirements or any applicable laws.\" — idpc-rules.txt ~line 5863",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0018", "element": 8, "outcome": "8.3", "type": "threshold",
+      "front": "At what beneficial-ownership level must a research report disclose the dealer's/affiliates' position in the subject issuer, measured when?",
+      "back": "One percent or more of any class of the issuer's equity securities, measured as of the end of the month prior to the report's issuance date.",
+      "rule_refs": ["IDPC 3608(2)(i)(a)"],
+      "source_quote": "\"beneficial ownership of the equity securities of the subject issuer that amounts to one percent or more of any class of such securities:\" — idpc-rules.txt ~lines 5929-5930",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0019", "element": 8, "outcome": "8.3", "type": "trap",
+      "front": "TRAP: report issued April 6 — which month-end governs the 1% ownership measurement?",
+      "back": "End of February: when issuance is less than 10 days after the prior month-end, measure as of the end of the second most recent month, not March 31.",
+      "rule_refs": ["IDPC 3608(2)(i)(b)"],
+      "source_quote": "\"as of the end of the second most recent month if the report issuance date is less than 10 days after the end of the prior month,\" — idpc-rules.txt ~lines 5932-5933",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0020", "element": 8, "outcome": "8.3", "type": "list",
+      "front": "Whose long or short positions in the issuer's securities must a research report disclose under 3608(2)(ii)?",
+      "back": "The analyst; an associate of the analyst; any person directly involved in preparing the report — if they hold or are short any issuer securities, directly or indirectly.",
+      "rule_refs": ["IDPC 3608(2)(ii)"],
+      "source_quote": "\"any person directly involved in the preparation of the report, holds or is short any of the issuer’s securities directly or indirectly,\" — idpc-rules.txt ~lines 5937-5938",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0021", "element": 8, "outcome": "8.3", "type": "threshold",
+      "front": "What is the look-back window for disclosing investment banking services the dealer provided to the issuer for remuneration?",
+      "back": "The 12 months immediately preceding the date the research report or recommendation was issued; non-routine paid services by partners/Directors/officers/analysts carry the same 12-month window.",
+      "rule_refs": ["IDPC 3608(2)(iv)", "IDPC 3608(2)(iii)"],
+      "source_quote": "\"any investment banking services provided by the Dealer Member to the issuer for remuneration during the 12 months immediately preceding the date a research report or recommendation was issued,\" — idpc-rules.txt ~lines 5944-5946",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0022", "element": 8, "outcome": "8.3", "type": "distinction",
+      "front": "Routine trade execution for the issuer vs acting as its placement agent — which is disclosable in research?",
+      "back": "Placement agent work — it is within the 'investment banking' definition. Normal course investment advisory or trade execution services are carved out of the services disclosure.",
+      "rule_refs": ["IDPC 3608(2)(iii)", "IDPC 3606(1)"],
+      "source_quote": "\"other than services provided in the normal course investment advisory or trade execution services to the issuer for remuneration,\" — idpc-rules.txt ~lines 5940-5941",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0023", "element": 8, "outcome": "8.3", "type": "definition",
+      "front": "Market-making disclosure: what counts as an 'equity related security' of the subject issuer?",
+      "back": "A security whose performance is based on an underlying equity security or basket of income-producing assets — derivatives, convertibles, income trust units. Market making in any must be disclosed.",
+      "rule_refs": ["IDPC 3608(2)(vi)", "IDPC 3606(1)"],
+      "source_quote": "\"A security whose performance is based on the performance of an underlying equity security or a basket of income producing assets, including derivatives, convertible securities and income trust units.\" — idpc-rules.txt ~lines 5901-5903",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0024", "element": 8, "outcome": "8.3", "type": "list",
+      "front": "Beyond conflicts, what must every research report disclose (or point to), and what is disclosed quarterly (3609)?",
+      "back": "Per report: the rating system and how each recommendation fits; the dissemination policies and procedures. Quarterly: the percentage of recommendations in each category of the system.",
+      "rule_refs": ["IDPC 3609(1)", "IDPC 3609(2)"],
+      "source_quote": "\"A Dealer Member must, on a quarterly basis, disclose the percentage of its recommendations that fall into each category of its recommendation system.\" — idpc-rules.txt ~lines 5958-5959",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0025", "element": 8, "outcome": "8.3", "type": "trap",
+      "front": "TRAP: one identical 'conflicts may exist' paragraph in every research report — acceptable under 3610?",
+      "back": "No. Disclosures must be clear, meaningful, comprehensive and prominent; standard statements are barred when specific information and customized disclosures are more appropriate.",
+      "rule_refs": ["IDPC 3610(1)", "IDPC 3610(2)"],
+      "source_quote": "\"The Dealer Member must not use standard disclosure statements when it is more appropriate to use specific information and customized disclosures\" — idpc-rules.txt ~lines 5967-5968",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0026", "element": 8, "outcome": "8.3", "type": "trap",
+      "front": "TRAP: coverage is suspended solely because the issuer went on the restricted list. Is discontinuance notice required?",
+      "back": "No — that is the express exception. Otherwise, notice of intention to suspend/discontinue must go to the same audience, in the same manner, as the coverage.",
+      "rule_refs": ["IDPC 3615(2)", "IDPC 3615(1)"],
+      "source_quote": "\"Notice of discontinuance of coverage is not required if the sole reason for the suspension is that the issuer has been placed on a Dealer Member’s restricted list.\" — idpc-rules.txt ~lines 6010-6011",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0027", "element": 8, "outcome": "8.4", "type": "list",
+      "front": "A dealer's research policies and procedures must specifically address which three subjects (3607(1))?",
+      "back": "The conduct of analysts; the publishing of research reports; the making of recommendations by analysts.",
+      "rule_refs": ["IDPC 3607(1)", "IDPC 3607(2)"],
+      "source_quote": "\"(i)     the conduct of analysts, (ii)    the publishing of research reports, and (iii)   the making of recommendations by analysts.\" — idpc-rules.txt ~lines 5912-5914",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0028", "element": 8, "outcome": "8.4", "type": "trap",
+      "front": "TRAP: may a dealer publish research on its own securities or its parent holding company's securities?",
+      "back": "No — syllabus 8.4 lists the Investment Dealer's own securities or those of its holding company first among the prohibitions on issuing research reports.",
+      "rule_refs": ["Syllabus 8.4"],
+      "source_quote": "\"Prohibitions on issuing research reports - Investment Dealer’s own securities or those of its holding company\" — syllabus-raw.txt ~lines 1549-1550",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0029", "element": 8, "outcome": "8.4", "type": "list",
+      "front": "Under 3614, whose relationships with the issuer bar the dealer from issuing the analyst's report, and which relationships?",
+      "back": "The analyst, an associate of the analyst, or the designated Supervisor — serving as officer, director or employee of the issuer, or in any advisory capacity to it.",
+      "rule_refs": ["IDPC 3614(1)"],
+      "source_quote": "\"the analyst, an associate of the analyst or the designated Supervisor: (i) serves as an officer, director or employee of the issuer, or\" — idpc-rules.txt ~lines 5997-5998",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0030", "element": 8, "outcome": "8.4", "type": "threshold",
+      "front": "Quiet periods after acting as manager or co-manager: how long before research on the issuer's equity securities may be issued?",
+      "back": "10 days after an initial public offering; three days after a secondary offering. Reports on significant news or a significant event remain permitted within those periods.",
+      "rule_refs": ["IDPC 3622(1)", "IDPC 3622(2)"],
+      "source_quote": "\"for 10 days after the date of the offering of an initial public offering of equity securities of the subject issuer,\" — idpc-rules.txt ~lines 6074-6075",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0031", "element": 8, "outcome": "8.4", "type": "list",
+      "front": "Name the four prohibited inducements for receiving issuer business or compensation (3617).",
+      "back": "Offering a favourable research report; offering a favourable rating or price target; offering to delay changing a rating/target/other report element (including issue date); threatening to change a rating/target/element.",
+      "rule_refs": ["IDPC 3617(1)"],
+      "source_quote": "\"offer to delay the changing of a rating or price target on one or more of the issuer’s securities or the changing of any other research report element,\" — idpc-rules.txt ~lines 6020-6021",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0032", "element": 8, "outcome": "8.4", "type": "threshold",
+      "front": "Trading blackout for anyone directly involved in preparing or approving a research report: which window, and who can override it?",
+      "back": "No trading in the subject issuer's equity/equity-related securities from 30 days before until five days after issuance; exception only with prior written approval of a designated Executive.",
+      "rule_refs": ["IDPC 3619(2)", "IDPC 3619(3)"],
+      "source_quote": "\"must not trade in equity securities or equity related securities of the subject issuer for a period beginning 30 days prior to and ending five days after the issuance of the research report.\" — idpc-rules.txt ~lines 6038-6040",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0033", "element": 8, "outcome": "8.4", "type": "list",
+      "front": "Syllabus 8.4: what are the three controls for wall-crossing an Analyst?",
+      "back": "Policies and procedures on detecting and restricting trades; restrictions on relevant individuals; approval by designated Executive. (Executive approval may not bless trades contrary to the recommendation absent special circumstances.)",
+      "rule_refs": ["Syllabus 8.4", "IDPC 3619(1)", "IDPC 3619(4)"],
+      "source_quote": "\"Controls for wall-crossing an Analyst - Policies and procedures on detecting and restricting trades - Restrictions on relevant individuals - Approval by designated Executive\" — syllabus-raw.txt ~lines 1596-1599",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0034", "element": 8, "outcome": "8.4", "type": "list",
+      "front": "Research independence from investment banking: what four minimums must the policies address (3621(2))?",
+      "back": "Prohibit banking-department approval of research; limit banking's involvement solely to correcting factual errors; prohibit/prevent banking's advance notice of new or changed ratings; systems controlling and recording analyst-banking information flow.",
+      "rule_refs": ["IDPC 3621(2)"],
+      "source_quote": "\"prohibiting the approval of research reports by the investment banking department, (ii) limiting the investment banking department’s involvement in the production of research reports solely to the correction of factual errors,\" — idpc-rules.txt ~lines 6063-6065",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0035", "element": 8, "outcome": "8.4", "type": "process",
+      "front": "What must happen before an analyst takes on any outside activity (3623)?",
+      "back": "The Dealer Member must pre-approve the analyst's outside activities — approval comes first, regardless of whether the engagement involves a private company or a covered name.",
+      "rule_refs": ["IDPC 3623(1)", "Syllabus 8.4"],
+      "source_quote": "\"A Dealer Member must pre-approve an analyst’s outside activities.\" — idpc-rules.txt ~line 6085",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0036", "element": 8, "outcome": "8.3", "type": "list",
+      "front": "IDPC 3608(2)(v): whose NAME must a research report disclose when dealer personnel overlap with the issuer?",
+      "back": "Any partner, Director, officer, employee or agent of the dealer who is a partner, director, officer or employee of the issuer, or serves it in an equivalent advisory capacity.",
+      "rule_refs": ["IDPC 3608(2)(v)"],
+      "source_quote": "\"the name of any partner, Director, officer, employee or agent of the Dealer Member who is a partner, director, officer or employee of the issuer, or who serves in an equivalent advisory capacity to the issuer\" — idpc-rules.txt ~line 5947",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0037", "element": 8, "outcome": "8.3", "type": "trap",
+      "front": "TRAP: a dealer distributes an independent third party's research under THAT party's name. Do 3608/3609 disclosures apply?",
+      "back": "Yes by default (3611(1)). Exempt only for FINRA/approved-regulator reports, or access-only/client-requested supply — and the dealer must disclose it wasn't prepared to Canadian requirements.",
+      "rule_refs": ["IDPC 3611(1)", "IDPC 3611(2)"],
+      "source_quote": "\"The disclosures required by sections 3608 and 3609 are applicable to research reports prepared by an independent third party that is distributed by a Dealer Member to its clients under the independent third party’s name.\" — idpc-rules.txt ~line 5971",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0038", "element": 8, "outcome": "8.3", "type": "process",
+      "front": "IDPC 3620(1): which analyst-compensation fact must a research report disclose?",
+      "back": "Whether the responsible analyst received compensation within the prior 12 months based upon the dealer's investment banking revenues.",
+      "rule_refs": ["IDPC 3620(1)"],
+      "source_quote": "\"A research report must disclose if the analyst responsible for the report received compensation within the prior 12 months that was based upon the Dealer Member’s investment banking revenues.\" — idpc-rules.txt ~line 6053",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0039", "element": 8, "outcome": "8.3", "type": "list",
+      "front": "IDPC 3613: what two issuer-visit facts must research reports disclose?",
+      "back": "Whether, and to what extent, the analyst visited the issuer's material operations; and whether the issuer paid or reimbursed any of the analyst's travel expenses for the visit.",
+      "rule_refs": ["IDPC 3613(1)"],
+      "source_quote": "\"whether, and to what extent, an analyst has visited the issuer’s material operations, and (ii) if the issuer has paid or reimbursed any of the analyst’s travel expenses with respect to the visit.\" — idpc-rules.txt ~line 5992",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E8-0040", "element": 8, "outcome": "8.4", "type": "process",
+      "front": "IDPC 3618: an employee gives a TV interview about an issuer's merits. What must they disclose?",
+      "back": "Whether or not the Dealer Member has issued a relevant research report — applies to interviews and any public comment on an issuer or its securities.",
+      "rule_refs": ["IDPC 3618(1)"],
+      "source_quote": "\"an employee or Approved Person of a Dealer Member must disclose whether or not the Dealer Member has issued a relevant research report.\" — idpc-rules.txt ~line 6027",
+      "status": "draft"
+    }
+  ]
+}

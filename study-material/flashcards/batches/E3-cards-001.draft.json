@@ -1,0 +1,598 @@
+{
+  "meta": {
+    "batch": "E3-CARDS-001",
+    "element": 3,
+    "drafted": 41,
+    "date": "2026-06-04",
+    "purpose": "Crash-course refresher for Element 3 (Business and operations) before drilling E3-batch-001. Every fact verbatim-sourced at drafting time: product/model risk content (3.4-3.10, parts of 3.3) from official syllabus parameter text; structural content from IDPC Rules (2300, 2207, 3240-3241, 3270-3281, 3816, 3254, 3901/3905, 4221-4225, 3945/3950/3960-3973) and GN-3900-20-001.",
+    "corpus": [
+      "syllabus-raw.txt (Element 3, lines 639-775)",
+      "idpc-rules.txt (2026-01-08)",
+      "gn-3900-20-001.txt"
+    ],
+    "coverage_guide": "question-bank/batches/E3-batch-001.draft.json (SUP-E3-0005 to SUP-E3-0054); seed-tested facts covered: OEO no-recommendations, DEA/CFD entry risks, leveraged/inverse ETF classification trap, principal-agent leaves dealer obligations unchanged, commission churning vs fee-based reverse churning.",
+    "patch_note": "Patch cards appended 2026-06-04 after open-cards solve gate (see qa-log.md)."
+  },
+  "cards": [
+    {
+      "id": "FC-E3-0001",
+      "element": 3,
+      "outcome": "3.1",
+      "type": "threshold",
+      "front": "How many Supervisors must a dealer appoint?",
+      "back": "As many as necessary to properly supervise its employees and Approved Persons, given the scope and complexity of the dealer's business — no fixed ratio or geographic formula.",
+      "rule_refs": [
+        "IDPC 3905(2)",
+        "Syllabus 3.1"
+      ],
+      "source_quote": "\"A Dealer Member must appoint as many Supervisors as necessary to properly supervise its employees and Approved Persons taking into account the scope and complexity of the Dealer Member's business.\" — idpc-rules.txt ~line 7923",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0002",
+      "element": 3,
+      "outcome": "3.1",
+      "type": "list",
+      "front": "Per GN-3900-20-001, an effective supervisory structure considers which four business-model factors?",
+      "back": "Types of products traded and securities offered; type of trading engaged in; location of supervisory personnel and Registered Individuals; the different functions Supervisors are responsible for.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.1",
+        "Syllabus 3.1"
+      ],
+      "source_quote": "\"types of products traded and securities ocered, type of trading the Dealer and its Registered Individuals engage in, location of the Dealer's Supervisory personnel and its Registered Individuals, and\" — gn-3900-20-001.txt ~line 106",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0003",
+      "element": 3,
+      "outcome": "3.1",
+      "type": "process",
+      "front": "A Supervisor detects activity outside just and equitable principles of trade but lacks authority to fix it. Acceptable action?",
+      "back": "Escalate to a more senior Supervisor or Executive — Supervisors should have authority to take effective and timely remedial action.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.1",
+        "Syllabus 3.1"
+      ],
+      "source_quote": "\"Supervisors should have the authority to take ecective and timely remedial action when they detect activity that falls or appears to fall outside the bounds of proper conduct, just and equitable principles of trade or good business practice.\" — gn-3900-20-001.txt ~line 122",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0004",
+      "element": 3,
+      "outcome": "3.1",
+      "type": "process",
+      "front": "A Supervisor is unqualified to supervise certain products their group trades. What may the dealer do?",
+      "back": "Divide supervision between two or more Supervisors, provided: communication mechanisms between them; the dealer keeps an overall view of the client's situation and activity; clear, complete assignment of responsibilities.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.2",
+        "IDPC 3905(5)",
+        "Syllabus 3.1"
+      ],
+      "source_quote": "\"If a Supervisor is unqualiﬁed to supervise trading activity in certain products by those under their supervision, a Dealer may divide the supervision between two or more Supervisors, provided:\" — gn-3900-20-001.txt ~line 133",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0005",
+      "element": 3,
+      "outcome": "3.2",
+      "type": "definition",
+      "front": "Define 'internal controls' (IDPC Rule 1200) — and whose responsibility is their adequacy?",
+      "back": "Financial and operational policies/procedures established, maintained and applied by management for reasonable assurance of orderly, efficient business conduct. Executives ensure adequacy, as part of managing operations.",
+      "rule_refs": [
+        "IDPC 1201",
+        "IDPC 4222(2)",
+        "Syllabus 3.2"
+      ],
+      "source_quote": "\"The financial and operational policies and procedures established, maintained and applied by the Dealer Member's management to provide reasonable assurance of the orderly and efficient conduct of the Dealer Member's business.\" — idpc-rules.txt ~line 491",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0006",
+      "element": 3,
+      "outcome": "3.2",
+      "type": "distinction",
+      "front": "Preventive controls vs detective controls — distinguish.",
+      "back": "Preventive: prevent, or minimize the chances of, fraud and error. Detective: discover, or increase the chances of finding, fraud or error, so prompt corrective action can be taken.",
+      "rule_refs": [
+        "IDPC 4221",
+        "Syllabus 3.2"
+      ],
+      "source_quote": "\"Controls that discover, or increase the chances of finding, fraud or error, so the Dealer Member can take prompt corrective action.\" — idpc-rules.txt ~line 9237",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0007",
+      "element": 3,
+      "outcome": "3.2",
+      "type": "threshold",
+      "front": "How often must Executives review internal controls, and what follows each review?",
+      "back": "At least annually (more frequently as necessary or as CIRO stipulates), reviewing adequacy and suitability; they must approve the internal controls in writing after each review.",
+      "rule_refs": [
+        "IDPC 4225(1)",
+        "Syllabus 3.2"
+      ],
+      "source_quote": "\"The Dealer Member's Executives must review a Dealer Member's internal controls for adequacy and suitability at least annually and more frequently as necessary or stipulated by Corporation\" — idpc-rules.txt ~line 9257",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0008",
+      "element": 3,
+      "outcome": "3.3",
+      "type": "trap",
+      "front": "TRAP: setting up principal-agent arrangements — can an advisor's corporation act for the dealer, and what comes first?",
+      "back": "Only individuals (employees, including agents) may conduct the business — never a corporation; and before engaging any agents the dealer must enter a written agreement with the Corporation.",
+      "rule_refs": [
+        "IDPC 2302",
+        "IDPC 2303(1)",
+        "Syllabus 3.3"
+      ],
+      "source_quote": "\"A Dealer Member must not allow a corporation or other non-individual entity to conduct securities and derivatives related business on its behalf.\" — idpc-rules.txt ~line 1699",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0009",
+      "element": 3,
+      "outcome": "3.3",
+      "type": "trap",
+      "front": "TRAP: does the principal-agent (independent contractor) label reduce the dealer's obligations for the agent?",
+      "back": "No. The dealer-agent agreement must make the dealer liable to clients (and other third parties) for the agent's conduct as if they were an employee.",
+      "rule_refs": [
+        "IDPC 2304(7)(v)",
+        "Syllabus 3.3"
+      ],
+      "source_quote": "\"liable to clients (and other third parties) for the agent's conduct as if they were an employee.\" — idpc-rules.txt ~line 1824",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0010",
+      "element": 3,
+      "outcome": "3.3",
+      "type": "trap",
+      "front": "TRAP: CIRO advises it is investigating an agent's alleged misconduct. Must the dealer wait for findings before acting on the agent's clients?",
+      "back": "No — the dealer may immediately, and without notice to the agent, assume responsibility for the client to the exclusion of the agent.",
+      "rule_refs": [
+        "IDPC 2304(7)(vii)",
+        "Syllabus 3.3"
+      ],
+      "source_quote": "\"the Dealer Member may immediately and without notice to the agent, assume responsibility for the client to the exclusion of the agent.\" — idpc-rules.txt ~line 1842",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0011",
+      "element": 3,
+      "outcome": "3.3",
+      "type": "list",
+      "front": "At account opening, what two things must the dealer or agent disclose to clients about agent responsibilities?",
+      "back": "The list of securities/derivatives related business conducted by the agent for which the dealer is responsible; and that the dealer is not responsible for the agent's other business activities.",
+      "rule_refs": [
+        "IDPC 2303(4) item 4",
+        "Syllabus 3.3"
+      ],
+      "source_quote": "\"the list of securities and derivatives related business conducted by the agent for which the Dealer Member is responsible, and (ii) that the Dealer Member is not responsible for any other business activity conducted by the agent.\" — idpc-rules.txt ~line 1739",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0012",
+      "element": 3,
+      "outcome": "3.3",
+      "type": "definition",
+      "front": "Order-execution-only (OEO) account model — the two defining features?",
+      "back": "The client is solely responsible for all investment decisions; the dealer provides no recommendation on any security or derivative. Written pre-opening disclosure plus positive client acknowledgement required.",
+      "rule_refs": [
+        "IDPC 1201",
+        "IDPC 3241(3)",
+        "Syllabus 3.3"
+      ],
+      "source_quote": "\"(i) the client is solely responsible for making all investment decisions, and (ii) the Dealer Member provides no recommendation to purchase, sell, hold or exchange any security\" — idpc-rules.txt ~line 676",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0013",
+      "element": 3,
+      "outcome": "3.3",
+      "type": "list",
+      "front": "An OEO services provider operating as a separate business unit must satisfy which structural separations?",
+      "back": "Separate letterhead, accounts and account documentation; its Registered Representatives and Investment Representatives may not work for any other business unit within the dealer.",
+      "rule_refs": [
+        "IDPC 2207(4)",
+        "Syllabus 3.3"
+      ],
+      "source_quote": "\"must have separate letterhead, accounts and account documentation, and its Registered Representatives and Investment Representatives may not work for any other business unit within the Dealer Member.\" — idpc-rules.txt ~line 1356",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0014",
+      "element": 3,
+      "outcome": "3.3",
+      "type": "process",
+      "front": "An OEO client connects their own automated order software to the dealer's platform. Permitted?",
+      "back": "No — OEO clients must not use their own automated order system to generate orders to the dealer, or send orders on a pre-determined basis. That access belongs to DEA.",
+      "rule_refs": [
+        "IDPC 3241(1)(ii)",
+        "Syllabus 3.3"
+      ],
+      "source_quote": "\"use their own automated order system, as defined in securities laws, to generate orders to be sent to the Dealer Member or send orders to the Dealer Member on a pre‐determined basis, or\" — idpc-rules.txt ~line 4986",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0015",
+      "element": 3,
+      "outcome": "3.3",
+      "type": "definition",
+      "front": "What makes an account a direct electronic access (DEA) account — and why is it an entry risk?",
+      "back": "No suitability determination (limited exceptions); client has direct electronic access per NI 23-103; dealer gives no recommendations; UMIR/NI 23-103 compliance — client orders reach markets without intermediation.",
+      "rule_refs": [
+        "IDPC 1201",
+        "Syllabus 3.3"
+      ],
+      "source_quote": "\"An account which is not subject to suitability determination (other than as required by clauses 3402(3)(i) and 3403(4)(i)) where: (i) the client has been provided with direct electronic access within the meaning of National Instrument 23-103,\" — idpc-rules.txt ~line 332",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0016",
+      "element": 3,
+      "outcome": "3.4",
+      "type": "distinction",
+      "front": "Retail client vs institutional client — the definitional split?",
+      "back": "Retail = any client not institutional (residual). Institutional includes acceptable counterparties/institutions, regulated entities, non-individual registrants, and persons exceeding $10 million securities/bullion under administration or management.",
+      "rule_refs": [
+        "IDPC 1201",
+        "Syllabus 3.4"
+      ],
+      "source_quote": "\"(v) a non-individual with total securities and precious metals bullion under administration or management exceeding $10 million,\" — idpc-rules.txt ~line 481",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0017",
+      "element": 3,
+      "outcome": "3.4",
+      "type": "list",
+      "front": "Institutional supervision P&Ps must address detecting which improper or suspicious activities?",
+      "back": "Manipulative and deceptive activities; restricted-list trading (securities, and derivatives on restricted underlyings); front running by employee/proprietary accounts; restricted-transfer securities; exceeding derivative position/exercise limits.",
+      "rule_refs": [
+        "IDPC 3950(2)",
+        "Syllabus 3.4"
+      ],
+      "source_quote": "\"must specifically address detecting improper or suspicious account activity including: (i) manipulative and deceptive activities, (ii) trading in securities on the Dealer Member's restricted list,\" — idpc-rules.txt ~line 8230",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0018",
+      "element": 3,
+      "outcome": "3.5",
+      "type": "list",
+      "front": "Syllabus 3.5: list the account types whose supervisory risks must be analyzed (retail and institutional).",
+      "back": "Advisory; in-house managed; third-party managed; fee-based (non-managed)/wrap; discretionary; tax deferred; margin; Direct Electronic Access (DEA); DAP/COD/RAP settlement options.",
+      "rule_refs": [
+        "Syllabus 3.5"
+      ],
+      "source_quote": "\"3.5 Analyze the supervisory risks associated with each of the following accounts for both retail and institutional clients as applicable. Consider:\" — syllabus-raw.txt ~line 714",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0019",
+      "element": 3,
+      "outcome": "3.5",
+      "type": "trap",
+      "front": "TRAP: may the designated Supervisor delegate the discretionary-account financial-performance reviews to a qualified delegate?",
+      "back": "No — performance of the 3970(1) and (2) reviews must not be delegated to any other person; stricter than the general delegation regime.",
+      "rule_refs": [
+        "IDPC 3970(3)",
+        "Syllabus 3.5"
+      ],
+      "source_quote": "\"The designated Supervisor responsible for discretionary accounts must not delegate the performance of the reviews required in subsections 3970(1) and 3970(2) to any other person.\" — idpc-rules.txt ~line 8384",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0020",
+      "element": 3,
+      "outcome": "3.5",
+      "type": "threshold",
+      "front": "Review cadence: discretionary accounts vs managed accounts?",
+      "back": "Discretionary: designated Supervisor reviews each account's financial performance at least monthly. Managed: each account reviewed quarterly (objectives pursued; handling complies with requirements).",
+      "rule_refs": [
+        "IDPC 3970(1)",
+        "IDPC 3973(1)",
+        "Syllabus 3.5"
+      ],
+      "source_quote": "\"the designated Supervisor responsible for discretionary accounts must also review the financial performance of each discretionary account at least monthly.\" — idpc-rules.txt ~line 8378",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0021",
+      "element": 3,
+      "outcome": "3.5",
+      "type": "threshold",
+      "front": "KYC refresh cycle: managed/discretionary accounts vs other accounts?",
+      "back": "Baseline: review KYC information at least once every 36 months; managed and discretionary accounts at least once every 12 months.",
+      "rule_refs": [
+        "IDPC 3209(4)",
+        "Syllabus 3.5"
+      ],
+      "source_quote": "\"no less frequently than once every 36 months, except for a managed account and a discretionary account which must be reviewed no less frequently than once every 12 months.\" — idpc-rules.txt ~line 4554",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0022",
+      "element": 3,
+      "outcome": "3.5",
+      "type": "trap",
+      "front": "TRAP: DAP/RAP institutional client wants no trade confirmations. What is the timing/form condition on the waiver?",
+      "back": "Prior to the trade, the client must have agreed in writing to waive confirmations — plus trade-matching, electronic audit trail, real-time access, and 85% compliant-trade-percentage conditions.",
+      "rule_refs": [
+        "IDPC 3816(2)(x)(b)",
+        "Syllabus 3.5"
+      ],
+      "source_quote": "\"(III) prior to the trade, the client has agreed in writing to waive receipt of trade confirmations from the Dealer Member,\" — idpc-rules.txt ~line 7722",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0023",
+      "element": 3,
+      "outcome": "3.5",
+      "type": "process",
+      "front": "Which extra KYC step does a margin account trigger?",
+      "back": "Establish the creditworthiness of the client whenever the dealer is financing the client's acquisition of a security.",
+      "rule_refs": [
+        "IDPC 3202(1)(iv)",
+        "Syllabus 3.5"
+      ],
+      "source_quote": "\"(iv) establish the creditworthiness of the client if the Dealer Member is financing the client's acquisition of a security.\" — idpc-rules.txt ~line 4433",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0024",
+      "element": 3,
+      "outcome": "3.5",
+      "type": "process",
+      "front": "Third-party managed accounts: what conflict-of-interest condition must a sub-advisor meet?",
+      "back": "Be subject to legislation/regulations with conflict provisions at least equivalent to section 3280, or have agreed with the dealer to comply with section 3280.",
+      "rule_refs": [
+        "IDPC 3279(2)(ii)",
+        "Syllabus 3.5"
+      ],
+      "source_quote": "\"subject to legislation or regulations containing conflict of interest provisions at least equivalent to those set out in section 3280 or has entered into an agreement with the Dealer Member that it will comply with section 3280.\" — idpc-rules.txt ~line 5444",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0025",
+      "element": 3,
+      "outcome": "3.5",
+      "type": "process",
+      "front": "May an Associate Portfolio Manager send portfolio advice to managed account clients unilaterally?",
+      "back": "No — a Portfolio Manager at the dealer must approve the advice before the APM provides it; the APM is under required direct supervision.",
+      "rule_refs": [
+        "IDPC 3971(3)",
+        "IDPC 3971(1)",
+        "Syllabus 3.5"
+      ],
+      "source_quote": "\"including a prohibition on the Associate Portfolio Manager providing advice unless the advice has been approved by a Portfolio Manager at the Dealer Member prior to the Associate Portfolio Manager providing the advice.\" — idpc-rules.txt ~line 8420",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0026",
+      "element": 3,
+      "outcome": "3.6",
+      "type": "list",
+      "front": "Syllabus 3.6: the three basic types of securities whose supervisory risks must be analyzed?",
+      "back": "Equities; mutual funds and ETFs; fixed income products.",
+      "rule_refs": [
+        "Syllabus 3.6"
+      ],
+      "source_quote": "\"3.6 Analyze the supervisory risks associated with each of the following basic types of securities: • Equities\" — syllabus-raw.txt ~line 666",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0027",
+      "element": 3,
+      "outcome": "3.6",
+      "type": "list",
+      "front": "Equity-risk detection: which 3945(2) retail items target concentration and portfolio decay?",
+      "back": "Undue concentration of securities, derivatives or precious metals bullion in a single account or across accounts; deterioration of the quality of client holdings in an account.",
+      "rule_refs": [
+        "IDPC 3945(2)",
+        "Syllabus 3.6"
+      ],
+      "source_quote": "\"(ii) undue concentration of securities, derivatives or precious metals bullion in a single account or across accounts, (iii) excessive trading,\" — idpc-rules.txt ~line 8146",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0028",
+      "element": 3,
+      "outcome": "3.7",
+      "type": "list",
+      "front": "Syllabus 3.7: the four complex security/product types to analyze?",
+      "back": "Leveraged and inverse ETFs; structured products; asset-backed securities; specialized products (e.g. cryptocurrency).",
+      "rule_refs": [
+        "Syllabus 3.7"
+      ],
+      "source_quote": "\"3.7 Analyze the supervisory risks associated with each of the following complex types of securities/products:\" — syllabus-raw.txt ~line 681",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0029",
+      "element": 3,
+      "outcome": "3.7",
+      "type": "trap",
+      "front": "TRAP: do leveraged and inverse ETFs sit with basic 'mutual funds and ETFs' in the syllabus?",
+      "back": "No. Conventional mutual funds/ETFs are basic securities (3.6); leveraged and inverse ETFs are listed as complex products (3.7) requiring distinct supervisory risk analysis.",
+      "rule_refs": [
+        "Syllabus 3.7",
+        "Syllabus 3.6"
+      ],
+      "source_quote": "\"• Leveraged and inverse ETFs\" — syllabus-raw.txt ~line 686",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0030",
+      "element": 3,
+      "outcome": "3.7",
+      "type": "process",
+      "front": "Complex products: the dealer's three-step product due diligence, and the AP's matching duty?",
+      "back": "Dealer: assess relevant aspects (structure, features, risks, costs and their impact); approve products made available; monitor for significant changes. AP: take steps to understand before recommending.",
+      "rule_refs": [
+        "IDPC 3301(1)",
+        "IDPC 3302(1)",
+        "Syllabus 3.7"
+      ],
+      "source_quote": "\"(ii) approve the securities or derivatives to be made available to clients, and (iii) monitor the securities or derivatives for significant changes.\" — idpc-rules.txt ~line 5496",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0031",
+      "element": 3,
+      "outcome": "3.8",
+      "type": "list",
+      "front": "Syllabus 3.8: list the derivative types whose supervisory risks must be analyzed.",
+      "back": "Options; futures contract options; futures; forwards; swaps; CFDs; other similar derivatives as described by CIRO.",
+      "rule_refs": [
+        "Syllabus 3.8"
+      ],
+      "source_quote": "\"3.8 Analyze the supervisory risks associated with each of the following types of derivatives:\" — syllabus-raw.txt ~line 703",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0032",
+      "element": 3,
+      "outcome": "3.8",
+      "type": "process",
+      "front": "Derivatives supervision: which two designated Supervisors, and what if coverage gaps arise?",
+      "back": "One for options contracts/similar derivatives; one for futures, forwards, CFDs, futures contract options/similar. Appoint alternate Supervisor(s) if necessary for continuous supervision.",
+      "rule_refs": [
+        "IDPC 3960(1)",
+        "IDPC 3960(3)",
+        "Syllabus 3.8"
+      ],
+      "source_quote": "\"appoint a designated Supervisor to supervise its activities that involve futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives.\" — idpc-rules.txt ~line 8281",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0033",
+      "element": 3,
+      "outcome": "3.8",
+      "type": "list",
+      "front": "Options and futures exposures: which two derivative-specific items must transaction reviews detect?",
+      "back": "Exposures arising out of uncovered option positions; exposures to delivery obligations through holding futures, forwards and similar derivatives into the delivery month.",
+      "rule_refs": [
+        "IDPC 3963(1)(x)-(xi)",
+        "Syllabus 3.8"
+      ],
+      "source_quote": "\"(x) exposures arising out of uncovered option positions, and (xi) exposures to delivery obligations through the holding of futures contracts, forward contracts and similar derivatives into the delivery month.\" — idpc-rules.txt ~line 8359",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0034",
+      "element": 3,
+      "outcome": "3.8",
+      "type": "trap",
+      "front": "TRAP: retail CFD guardrails — float limit and shareholder features?",
+      "back": "Prevent retail positions exceeding 0.5% of a publicly traded issuer's float intra-day/short-term; prohibit retail CFDs conferring delivery rights/obligations or shareholder rights such as voting.",
+      "rule_refs": [
+        "IDPC 3962(5)(v)",
+        "IDPC 3962(5)(vi)",
+        "Syllabus 3.8"
+      ],
+      "source_quote": "\"prevent a retail client from holding contracts for difference or similar derivatives positions representing more than 0.5% of the float of a reporting issuer\" — idpc-rules.txt ~line 8331",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0035",
+      "element": 3,
+      "outcome": "3.8",
+      "type": "threshold",
+      "front": "OEO accounts offering OTC derivatives (e.g. CFDs) to retail clients: what profitability disclosure goes with the risk disclosure statement?",
+      "back": "The percentage of such accounts that were profitable for each of the four most recent quarters — realized outcomes, not projections.",
+      "rule_refs": [
+        "IDPC 3254(1)(v)",
+        "Syllabus 3.8"
+      ],
+      "source_quote": "\"a disclosure of the percentage of such accounts that were profitable for each of the four most recent quarters.\" — idpc-rules.txt ~line 5298",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0036",
+      "element": 3,
+      "outcome": "3.9",
+      "type": "trap",
+      "front": "TRAP: a dealer with commission AND fee-based accounts screens monthly reviews by commission levels only. Why deficient?",
+      "back": "Commission screens (churning risk) make fee-based activity invisible (reverse-churning/neglect risk): accounts cannot be selected solely on commissions; a fee-based selection procedure is also needed.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.2",
+        "IDPC 3945(3)",
+        "Syllabus 3.9"
+      ],
+      "source_quote": "\"ocers commission and fee-based accounts cannot select accounts for review solely based on commission levels, they should also have a procedure for selecting fee- based accounts.\" — gn-3900-20-001.txt ~line 186",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0037",
+      "element": 3,
+      "outcome": "3.9",
+      "type": "process",
+      "front": "Fee-based (no-commission) retail accounts: what must the dealer's supervision P&Ps do?",
+      "back": "Specifically address supervising retail accounts where no trade commission is charged: cover account activity review requirements and use criteria other than commission levels.",
+      "rule_refs": [
+        "IDPC 3945(3)",
+        "Syllabus 3.9"
+      ],
+      "source_quote": "\"specifically address supervising retail client accounts where a commission is not charged for trades placed by or for a client, such as fee based accounts.\" — idpc-rules.txt ~line 8175",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0038",
+      "element": 3,
+      "outcome": "3.9",
+      "type": "process",
+      "front": "Two compensation prohibitions: OEO employees and managed-account handlers?",
+      "back": "No trade commissions to employees for transactions executed in OEO accounts; no compensating persons authorized to deal with managed accounts on the value/volume of account transactions.",
+      "rule_refs": [
+        "IDPC 2207(5)",
+        "IDPC 3281(2)",
+        "Syllabus 3.9"
+      ],
+      "source_quote": "\"A Dealer Member must not compensate employees by giving them trade commissions for transactions executed in order execution only accounts.\" — idpc-rules.txt ~line 1363",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0039",
+      "element": 3,
+      "outcome": "3.10",
+      "type": "trap",
+      "front": "TRAP: which compensation pair belongs to outcome 3.10 — and which to 3.9?",
+      "back": "3.10: negotiated flat fees and referral fees (Understand). 3.9: commission-based and fee-based structures (Analyze). Exam distractors swap the pairs.",
+      "rule_refs": [
+        "Syllabus 3.10",
+        "Syllabus 3.9"
+      ],
+      "source_quote": "\"3.10 Understand the supervisory risks associated with negotiated flat fees and referral fees.\" — syllabus-raw.txt ~line 770",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0040",
+      "element": 3,
+      "outcome": "3.10",
+      "type": "threshold",
+      "front": "When may a dealer charge a managed account client a negotiated fee tied to transaction volume/value or contingent on profit/performance?",
+      "back": "Only if the client has provided a written agreement setting out the manner in which such fees may be charged — otherwise prohibited.",
+      "rule_refs": [
+        "IDPC 3281(1)",
+        "Syllabus 3.10"
+      ],
+      "source_quote": "\"unless the client has provided the Dealer Member with a written agreement which sets out the manner in which the fees may be charged based on volume or value of transactions or contingent upon profit or performance.\" — idpc-rules.txt ~line 5476",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E3-0041",
+      "element": 3,
+      "outcome": "3.5",
+      "type": "trap",
+      "front": "TRAP: must every swap transaction generate a standard trade confirmation?",
+      "back": "No — an industry-standard agreement acceptable to the Corporation may set out the terms for the client to receive swap confirmations and their key terms.",
+      "rule_refs": [
+        "IDPC 3816"
+      ],
+      "source_quote": "\"the agreement sets out the terms for a client to receive a confirmation of a swap transaction and the key terms of the confirmation.\" — idpc-rules.txt ~line 7749",
+      "status": "draft"
+    }
+  ]
+}

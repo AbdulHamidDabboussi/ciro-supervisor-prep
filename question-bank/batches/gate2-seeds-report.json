@@ -1,0 +1,285 @@
+{
+  "audited": 45,
+  "audit_date": "2026-06-04",
+  "method": "Gate 2 citation audit. Every item's key-determining facts checked against the corpus: IDPC Rules consolidation (Jan 8 2026), annotated UMIR (Jan 13 2026), GN-3900-20-001, official syllabus (syllabus-raw.txt / Supervisor-Exam-Syllabus-EN.txt). Syllabus accepted as a valid source where the item tests a syllabus-stated requirement. Practice exam and web not used.",
+  "summary": {"pass": 44, "fix": 1, "kill": 0},
+  "verdicts": [
+    {
+      "id": "SUP-E1-0001",
+      "verdict": "pass",
+      "evidence": "\"Role of CIPF in an Investment Dealer's bankruptcy/insolvency, including pooling of client assets\"; corpus also confirms coverage is of assets held at the dealer: \"the client's outside holdings are not covered by the Canadian Investor Protection Fund\".",
+      "source": "syllabus-raw.txt lines 203-217 (LO 1.6); idpc-rules.txt line 7054 (s.3809) and line 1672-1676 (s.2284 IPF coverage disclosure)"
+    },
+    {
+      "id": "SUP-E1-0002",
+      "verdict": "pass",
+      "evidence": "\"An Approved Person must obtain the Dealer Member's written consent before entering into any settlement agreement with a client\" and \"Paying for client account losses out of personal funds without the Dealer Member's prior written consent\" is a prohibited personal financial dealing; written client complaints must be reported within two business days.",
+      "source": "idpc-rules.txt lines 6298-6302 (s.3710(1)), 3991-3995 (s.3115(2)(ii)), 6148-6154 (s.3702(1)(iii)); syllabus 1.13/1.16/1.22"
+    },
+    {
+      "id": "SUP-E1-0003",
+      "verdict": "pass",
+      "evidence": "Syllabus LO 1.10 names \"Stages of money laundering\" as tested PCMLTFA content. The canonical stage names/order (placement, layering, integration) are statutory/FINTRAC knowledge the syllabus directs candidates to (Guide: PCMLTFA materials \"recorded on the FINTRAC site\"); uncontradicted anywhere in corpus.",
+      "source": "syllabus-raw.txt lines 275-283 (LO 1.10); Supervisor-Exam-Guide-for-Studying-EN.txt lines 264-268"
+    },
+    {
+      "id": "SUP-E1-0004",
+      "verdict": "pass",
+      "evidence": "\"Borrowing money... from a client, unless: (I) the client is a financial institution whose business includes lending money to the public... or (II) the client is a Related Person as defined by the Income Tax Act\" — documentation/market rate is not an exemption.",
+      "source": "idpc-rules.txt lines 3996-4009 (s.3115(2)(iii)); syllabus LO 1.22"
+    },
+    {
+      "id": "SUP-E1-0005",
+      "verdict": "pass",
+      "evidence": "\"Dealers should ensure that where a Supervisor is dually-registered and also advises or trades for their own clients, another Supervisor reviews that Supervisor's advice to and trades for clients.\" Second-tier daily review criteria include \"producing branch managers' client accounts\".",
+      "source": "gn-3900-20-001.txt lines 148-150 (s.1.1.2) and 283 (s.2.2.1); syllabus LO 1.20 (\"independent supervision requirements for producing Supervisors\") and LO 5.7 (cross supervision)"
+    },
+    {
+      "id": "SUP-E2-0001",
+      "verdict": "pass",
+      "evidence": "\"a supervisory system... that provides reasonable assurance they comply with Corporation requirements\" (not a guarantee); plus written P&Ps amended within a reasonable time (3904(2)(iii)-(iv)), acknowledgements obtained and recorded (3904(3)(ii)), and \"a supervisory review of its financial and operational policies and procedures is completed at least annually\" (3917(1)).",
+      "source": "idpc-rules.txt lines 7882-7919 (s.3904), 8057-8060 (s.3917); syllabus LO 2.1"
+    },
+    {
+      "id": "SUP-E2-0002",
+      "verdict": "pass",
+      "evidence": "\"Reporting requirements for the Chief Compliance Officer (CCO) and Chief Financial Officer (CFO) to the Board\"; rule basis: \"At least annually, the Chief Compliance Officer must provide a written report to the Dealer Member's board of directors... the Chief Financial Officer must provide a written report to the... board\".",
+      "source": "syllabus-raw.txt lines 507-508 (LO 2.3); idpc-rules.txt lines 8036-8044 (s.3915(1)-(2)). Pre-adjudicated verbatim vs syllabus."
+    },
+    {
+      "id": "SUP-E2-0003",
+      "verdict": "pass",
+      "evidence": "\"A Supervisor may delegate supervisory tasks and procedures, but not the responsibility for their performance.\" Syllabus controls: \"Examination of the delegate's reviews... recommending items for approval that would have been approved by the delegator\", \"Regular reports from the delegate to the delegator\", \"Regular (at minimum annual) reviews of the delegation process\".",
+      "source": "idpc-rules.txt lines 7949-7951 (s.3907(1)); syllabus-raw.txt lines 522-524, 617-635 (LO 2.10)"
+    },
+    {
+      "id": "SUP-E2-0004",
+      "verdict": "pass",
+      "evidence": "Syllabus manual-review triggers: \"Applicant not being an individual... Trading authorization being used... Applicant not reaching an age of majority... derivatives trading strategies and not having an appropriate level of knowledge... Applicant being an insider... Applicant being a Politically Exposed Person (PEP)\"; plus \"Appropriate periodic testing and auditing to ensure automated process is functioning as designed\".",
+      "source": "syllabus-raw.txt lines 571-599, 620-621 (LO 2.12)"
+    },
+    {
+      "id": "SUP-E2-0005",
+      "verdict": "pass",
+      "evidence": "\"Supervisors should have the authority to take effective and timely remedial action... We consider escalating to a more senior Supervisor or Executive an acceptable action\"; rule basis: dealers \"must designate Supervisors and Executives, with the qualifications and authority necessary to fully carry out the responsibilities assigned to them\"; syllabus 2.7 compliance role (identify/advise/monitor/escalate) and 2.8 \"Requirement for authority of Supervisors\".",
+      "source": "gn-3900-20-001.txt lines 122-125; idpc-rules.txt lines 7929-7930 (s.3905(4)); syllabus-raw.txt lines 550, 601-615 (LO 2.7/2.8)"
+    },
+    {
+      "id": "SUP-E3-0001",
+      "verdict": "pass",
+      "evidence": "OEO supervision must \"ensure that clients are not provided with recommendations\" and \"specifically address the risks associated with the method of order entry and the absence of intermediation by employees of the Dealer Member\"; syllabus OEO model includes DEA and CFDs; suitability does not apply to OEO (3404(1)(i)).",
+      "source": "idpc-rules.txt lines 8246-8268 (s.3955(1)(ii), 3955(2)), 5643-5645 (s.3404(1)); syllabus-raw.txt lines 679-696 (LO 3.3), 1128-1130 (LO 5.4)"
+    },
+    {
+      "id": "SUP-E3-0002",
+      "verdict": "pass",
+      "evidence": "Syllabus LO 3.7 requires analyzing supervisory risks of \"Leveraged and inverse ETFs\" as complex products; corpus requires detection of \"unsuitable trading\" and \"deterioration of the quality of client holdings\" (3945(2)(i),(viii)). Daily-reset/short-term-design mechanics are standard non-regulatory product knowledge the syllabus contemplates (Guide: non-regulatory content from public sources) and are uncontradicted.",
+      "source": "syllabus-raw.txt lines 681-698 (LO 3.7); idpc-rules.txt lines 8137-8156 (s.3945(2))"
+    },
+    {
+      "id": "SUP-E3-0003",
+      "verdict": "pass",
+      "evidence": "\"The Dealer Member must treat each of its agents as employees with respect to: ... supervision of the agent under Corporation requirements, and ensuring its agents comply with all applicable laws and Corporation requirements\"; dealer is \"irrevocably liable... for any acts and omissions\" of the agent on dealer business.",
+      "source": "idpc-rules.txt lines 1726-1750 (s.2303(4) items 3 and 5); syllabus LO 3.3 (Principal Agent vs Employer/Employee)"
+    },
+    {
+      "id": "SUP-E3-0004",
+      "verdict": "pass",
+      "evidence": "Syllabus LO 3.9 requires analyzing supervisory risks of commission-based vs fee-based compensation; corpus mandates detecting \"excessive trading\" (3945(2)(iii)) and requires fee-based account review to \"use criteria other than commission levels\" (3945(3)(ii)); GN: dealers \"cannot select accounts for review solely based on commission levels, they should also have a procedure for selecting fee-based accounts\". Churning/reverse-churning labels are the standard analysis of those stated risks.",
+      "source": "syllabus-raw.txt lines 745-768 (LO 3.9); idpc-rules.txt lines 8148, 8175-8179 (s.3945(2)(iii),(3)); gn-3900-20-001.txt lines 185-188"
+    },
+    {
+      "id": "SUP-E4-0001",
+      "verdict": "pass",
+      "evidence": "\"A designated Supervisor must approve each new account no later than one business day after completing the initial trade for the account\"; interim-approval alternative (3214(4)); restriction to liquidating trades if unapproved (3214(5)); \"a system in place to record the review and approval by the designated Supervisor\" (3213(2)(v)).",
+      "source": "idpc-rules.txt lines 4637-4651 (s.3214(3)-(5)), 4636 (s.3213(2)(v)); syllabus LO 4.1 (\"Prescribed timelines; Business day approval requirements\")"
+    },
+    {
+      "id": "SUP-E4-0002",
+      "verdict": "pass",
+      "evidence": "\"hedger: A non-individual that (i) is exposed to one or more risks as a necessary part of its business activities, and (ii) seeks to hedge such risk by engaging in derivatives transactions where... the intended effect of the derivatives is to eliminate or reduce the risk... and there are reasonable grounds to believe market value changes... will completely or materially offset\" — purpose-based, not asset-based ($10M is a separate institutional-client limb).",
+      "source": "idpc-rules.txt lines 430-448, 475-490 (Rule 1200 definitions \"hedger\", \"institutional client\"); record requirement line 6771 (s.3804(2)(xx)); syllabus LO 4.2"
+    },
+    {
+      "id": "SUP-E4-0003",
+      "verdict": "pass",
+      "evidence": "\"Before a Dealer Member opens an account for a person, the Dealer Member must determine, on a reasonable basis and putting the person's interest first, that... the scope of products, services and account relationships which the person would have access to within the account are appropriate for the person.\"",
+      "source": "idpc-rules.txt lines 4572-4581 (s.3211(1)); syllabus LO 4.3"
+    },
+    {
+      "id": "SUP-E4-0004",
+      "verdict": "pass",
+      "evidence": "Syllabus LO 4.5 content list: \"Products, services and account types... Limitations... Fees and guidelines for compensation and relevant costs... Investment performance benchmarks... Impact of fees, turnover and taxes on managed product returns\"; Rule 3216(5) prescribes content — internal profit margin per product appears nowhere.",
+      "source": "syllabus-raw.txt lines 809-821 (LO 4.5); idpc-rules.txt lines 4726-4829 (s.3216(5))"
+    },
+    {
+      "id": "SUP-E4-0005",
+      "verdict": "pass",
+      "evidence": "\"A discretionary account agreement must... (iii) have a maximum term of no longer than 12 months, (iv) not be renewable\"; termination: client notice \"effective when received\", dealer notice \"effective not less than 30 days from the date the Dealer Member delivered the notice\".",
+      "source": "idpc-rules.txt lines 5369-5380 (s.3274(1)(iii)-(iv), 3274(2)); syllabus LO 4.19 (\"Maximum term of no longer than 12 months (non-renewable)\"). Pre-adjudicated verbatim vs syllabus."
+    },
+    {
+      "id": "SUP-E4-0006",
+      "verdict": "pass",
+      "evidence": "\"The managed account agreement may only be terminated by written notice: ... (ii) by the Dealer Member, effective not less than 30 days from the date the Dealer Member delivered the notice to the client.\"",
+      "source": "idpc-rules.txt lines 5428-5432 (s.3278(2)); syllabus LO 4.14"
+    },
+    {
+      "id": "SUP-E4-0007",
+      "verdict": "pass",
+      "evidence": "\"A responsible person or a Dealer Member must not, without the prior written consent of the client, knowingly allow a managed account to: ... (iii) invest in new issues or secondary offerings underwritten by the Dealer Member\"; fair allocation also required (3280(4)); conflict disclosure per s.3113.",
+      "source": "idpc-rules.txt lines 5455-5470 (s.3280(2)(iii), 3280(4)); syllabus LO 4.15"
+    },
+    {
+      "id": "SUP-E4-0008",
+      "verdict": "pass",
+      "evidence": "\"The client's cumulative loss limit... applies to an account, where the transactions involve futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives, or highly-leveraged securities or derivatives... other than a hedging account, whether the account is an advisory account, a discretionary account, a managed account or an order execution only account, and... must... be determined on (a) a lifetime basis and validated with the client on an annual basis, or (b) an annual basis and updated annually.\"",
+      "source": "idpc-rules.txt lines 5257-5266 (s.3252(2)); Supervisor approval considering previous losses: lines 8296-8299 (s.3962(1)(i)); syllabus LO 4.11. Pre-adjudicated verbatim vs syllabus."
+    },
+    {
+      "id": "SUP-E4-0009",
+      "verdict": "pass",
+      "evidence": "Syllabus LO 4.21 OEO derivative account-approval restrictions: \"Over-the-Counter (OTC) derivatives; Options trading strategies other than low-risk strategies based on long calls, long puts, covered calls or protective (long) puts; Trading in CFDs; Futures or similar derivative trading strategies\" — leaving only the four low-risk option strategies eligible.",
+      "source": "syllabus-raw.txt lines 1044-1081 (LO 4.21)"
+    },
+    {
+      "id": "SUP-E4-0010",
+      "verdict": "pass",
+      "evidence": "\"Instead of a derivatives trading agreement, a Dealer Member may obtain a letter of undertaking for accounts where the client is classified as an institutional client.\" Retail derivatives clients require the signed derivatives trading agreement and the most recent risk disclosure statement with acknowledgement of receipt.",
+      "source": "idpc-rules.txt lines 5267-5269 (s.3253(1)), 5170-5178 (s.3251(1)), 5284-5290 (s.3254(1)); syllabus LO 4.12. Pre-adjudicated verbatim vs syllabus."
+    },
+    {
+      "id": "SUP-E5-0001",
+      "verdict": "pass",
+      "evidence": "Retail account P&Ps \"must specifically address the detection of: (i) unsuitable trading... (iii) excessive trading... (xiv) outstanding margin calls\" and \"must outline actions to deal with problems or issues identified by the review\"; reviews must be evidenced \"including details of inquiries about issues and their resolution\".",
+      "source": "idpc-rules.txt lines 8137-8163 (s.3945(1)-(2)), 8129-8130 (s.3927(2)); gn-3900-20-001.txt lines 244-249 (monthly commission criteria); syllabus LO 5.6"
+    },
+    {
+      "id": "SUP-E5-0002",
+      "verdict": "pass",
+      "evidence": "Syllabus LO 5.3 enhanced measures for APs with a history of regulatory infractions: \"Pre-approval of orders by Supervisor; Daily and monthly review of all client accounts\"; rule basis: dealers \"must establish and follow procedures for the implementation of additional supervisory measures applicable to Approved Persons with a history of regulatory infractions or questionable conduct\".",
+      "source": "syllabus-raw.txt lines 1108-1111 (LO 5.3); idpc-rules.txt lines 8131-8133 (s.3927(3))"
+    },
+    {
+      "id": "SUP-E5-0003",
+      "verdict": "pass",
+      "evidence": "Temporary hold permitted where the dealer \"reasonably believes... the client is a vulnerable client, [and] financial exploitation of the client has occurred, is occurring, has been attempted or will be attempted\"; conditions: document facts and reasons, notify client, \"review the relevant facts... on a reasonably frequent basis\", 30-day revoke-or-continue notices.",
+      "source": "idpc-rules.txt lines 4924-4951 (s.3222); syllabus LO 5.5"
+    },
+    {
+      "id": "SUP-E5-0004",
+      "verdict": "pass",
+      "evidence": "Hold-mail procedures must include \"written authorization from the client\", a limit of \"no longer than six months, in any 12 month period\" (extensions only with close supervision and pre-approval), and \"the control and regular review of 'hold mail' accounts by a Supervisor\".",
+      "source": "idpc-rules.txt lines 4878-4894 (s.3219(1)-(2)); syllabus LO 5.8 (\"Authorization from client; Time limits; Control and regular review\")"
+    },
+    {
+      "id": "SUP-E5-0005",
+      "verdict": "pass",
+      "evidence": "P&Ps must \"prevent a retail client from holding contracts for difference or similar derivatives positions representing more than 0.5% of the float of a reporting issuer or any other issuer whose securities are publicly traded on an intra day or short term basis\" and \"prohibit the offering of contracts for difference... that confer... any other rights of shareholders, such as voting rights\".",
+      "source": "idpc-rules.txt lines 8331-8336 (s.3962(5)(v)-(vi)); syllabus LO 5.14. Pre-adjudicated verbatim vs syllabus."
+    },
+    {
+      "id": "SUP-E5-0006",
+      "verdict": "pass",
+      "evidence": "\"The Dealer Member must appoint one or more alternate Supervisors if necessary to ensure continuous supervision of its derivatives activities\"; daily and monthly review of derivatives discretionary and managed accounts confirmed at 3962(3).",
+      "source": "idpc-rules.txt lines 8285-8290 (s.3960(3)-(4)), 8314-8315 (s.3962(3)); syllabus LO 5.12"
+    },
+    {
+      "id": "SUP-E5-0007",
+      "verdict": "pass",
+      "evidence": "Institutional account supervision P&Ps \"must specifically address detecting improper or suspicious account activity including: ... (iv) front running by employee or proprietary accounts\"; UMIR 4.1 prohibits entering a principal or non-client order with knowledge of an unentered client order.",
+      "source": "idpc-rules.txt lines 8222-8238 (s.3950(2)(iv)); umir.txt lines 4613-4624 (Rule 4.1(1)); syllabus LO 5.9"
+    },
+    {
+      "id": "SUP-E5-0008",
+      "verdict": "pass",
+      "evidence": "Retail supervision must specifically address detection of \"excessive transaction transfers and trade cancellations indicating possible unauthorized trading\"; account number changes and late payment are adjacent listed flags.",
+      "source": "idpc-rules.txt lines 8153-8154, 8161-8162 (s.3945(2)(vi),(xii)-(xiii)); syllabus-raw.txt lines 1121-1122 (LO 5.6)"
+    },
+    {
+      "id": "SUP-E6-0001",
+      "verdict": "pass",
+      "evidence": "\"Investment Representative: An individual, approved by the Corporation, to trade in, but not advise on, securities or derivatives, on the Dealer Member's behalf\" — recommending a stock is advising, an RR/PM activity; APM advice requires prior PM approval (3971(3)).",
+      "source": "idpc-rules.txt lines 503-505 (Rule 1200 definition), 8418-8422 (s.3971(3)); syllabus LO 6.1"
+    },
+    {
+      "id": "SUP-E6-0002",
+      "verdict": "pass",
+      "evidence": "Suitability re-assessment triggers: \"(i) securities... are received or delivered into the client's account by way of deposit or transfer-in, (ii) a Registered Representative... is designated as responsible for the account, (iii) the Dealer Member becomes aware of a change in the retail client's information...\" — ordinary dividend credits are not listed.",
+      "source": "idpc-rules.txt lines 5553-5568 (s.3402(2)); syllabus LO 6.3"
+    },
+    {
+      "id": "SUP-E6-0003",
+      "verdict": "pass",
+      "evidence": "Firm level: dealer \"must not make securities or derivatives available... unless [it] has taken reasonable steps to assess... approve... and monitor\" (3301(1)); individual level: AP \"must not... recommend securities or derivatives to a client unless the Approved Person takes steps to understand\" them, steps being \"those that are reasonable to enable the Approved Person to meet their obligations under Rule 3400\" (3302).",
+      "source": "idpc-rules.txt lines 5491-5508 (s.3301-3302); syllabus LO 6.5"
+    },
+    {
+      "id": "SUP-E6-0004",
+      "verdict": "pass",
+      "evidence": "\"The Dealer Member must ensure that an individual does not perform an activity that requires Corporation approval unless the individual has satisfied the applicable proficiency requirements\" (2602(2)); derivatives categories require the Derivatives Exam (2603(1)(i)(b),(d)); P&Ps must \"require the designated Supervisor to approve the solicitation of clients to use derivatives programs\" (3962(5)(i)).",
+      "source": "idpc-rules.txt lines 3096-3128 (s.2602-2603), 8322-8324 (s.3962(5)(i)); syllabus LO 6.7"
+    },
+    {
+      "id": "SUP-E7-0001",
+      "verdict": "pass",
+      "evidence": "\"A Participant with knowledge of a client order that on entry could reasonably be expected to affect the market price... shall not, prior to the entry of such client order, (a) enter a principal order or a non-client order... for the purchase or sale of the security\" (UMIR 4.1(1)); wash trades are a manipulative practice under Rule 2.2, distinct fact pattern.",
+      "source": "umir.txt lines 4613-4620 (Rule 4.1(1)), Policy 4.1 lines 4645-4681; syllabus LO 7.1"
+    },
+    {
+      "id": "SUP-E7-0002",
+      "verdict": "pass",
+      "evidence": "Gatekeeper: employees \"shall forthwith report to their supervisor or the compliance department... upon becoming aware of activity... that... may be a violation\"; supervisor must \"diligently conduct a review\", make written records, investigate, and \"report the findings of the investigation to the Market Regulator\"; Policy: \"A Participant... cannot ignore 'red flags'\". Syllabus 7.6: \"Client's typical financial activity and patterns to identify suspicious transactions\".",
+      "source": "umir.txt lines 10550-10629 (Rule 10.16(1),(3),(4); Policy 10.16); syllabus-raw.txt lines 1487-1494 (LO 7.6)"
+    },
+    {
+      "id": "SUP-E7-0003",
+      "verdict": "pass",
+      "evidence": "Risk-based supervision \"must be commensurate with... the Participant's size (considering factors such as revenue, market share, market exposure and volume of trades)... number and location of the Participant's offices... the number of registrants assigned to a location; the disciplinary history of registered representatives or associated persons; the risk profile of the Participant's business and any indicators of irregularities or misconduct i.e. 'red flags'\" — Supervisor's personal returns not a factor.",
+      "source": "umir.txt lines 6834-6849 (Policy 7.1 Part 3); syllabus-raw.txt lines 1375-1433 (LO 7.5)"
+    },
+    {
+      "id": "SUP-E8-0001",
+      "verdict": "pass",
+      "evidence": "\"A Dealer Member must ensure that the following items are approved by a designated Supervisor before use or publication: (i) research reports, (ii) market letters, (iii) telemarketing scripts, (iv) promotional seminar texts..., (v) original advertisements or original template advertisements, and (vi) any material containing performance reports or summaries that is used to solicit clients\"; everything else may be handled by \"pre-use approval, post-use review, or post-use sampling\" (3602(4)).",
+      "source": "idpc-rules.txt lines 5866-5883 (s.3602(3)-(4)); syllabus LO 8.1/8.2"
+    },
+    {
+      "id": "SUP-E8-0002",
+      "verdict": "pass",
+      "evidence": "Research report must disclose \"if the Dealer Member or its affiliates has beneficial ownership of the equity securities of the subject issuer that amounts to one percent or more of any class... as of the end of the month prior to the issuance date\" and \"any investment banking services provided by the Dealer Member to the issuer for remuneration during the 12 months immediately preceding\" the report.",
+      "source": "idpc-rules.txt lines 5928-5946 (s.3608(2)(i),(iv)); syllabus LO 8.3"
+    },
+    {
+      "id": "SUP-E8-0003",
+      "verdict": "pass",
+      "evidence": "\"A Dealer Member must not issue... any advertisement, sales literature or correspondence that... (ii) contains an unjustified promise of specific results, (iii) uses unrepresentative statistics to suggest unwarranted or exaggerated conclusions... (v) fails to fairly present the potential risks to the client\"; syllabus 8.1 covers social media restrictions and off-channel communication issues.",
+      "source": "idpc-rules.txt lines 5852-5863 (s.3602(1)); syllabus-raw.txt lines 1516-1532 (LO 8.1)"
+    },
+    {
+      "id": "SUP-E8-0004",
+      "verdict": "pass",
+      "evidence": "\"A Dealer Member must not issue research reports or opinion letters on its own securities or those of its holding company.\" Required controls confirmed: designated Supervisor review/approval (3607(2)), restrictions on analyst personal trading around publication (3619(2)), controls on pre-publication trading/dissemination (3619(1)).",
+      "source": "idpc-rules.txt lines 1253-1255 (s.2116(1)), 5910-5916 (s.3607), 6029-6044 (s.3619); syllabus LO 8.4"
+    },
+    {
+      "id": "SUP-E9-0001",
+      "verdict": "pass",
+      "evidence": "Syllabus LO 9.1 business location supervision guidelines: \"Scope; Planning; Business location audit program and training; Risk identification; Audit report and follow up\"; LO 9.3 requires adequate \"follow-up procedures to ensure that compliance audit findings are properly tracked and corrective action is taken by a business location\" — advance assurance of non-escalation defeats this. Rule basis: \"maintain adequate records of supervisory activity, including on-site branch reviews, compliance issues identified and the resolution of such issues\" (3908(3)).",
+      "source": "syllabus-raw.txt lines 1612-1617, 1652-1654 (LO 9.1/9.3); idpc-rules.txt lines 7969-7972 (s.3908(3)-(4))"
+    },
+    {
+      "id": "SUP-E9-0002",
+      "verdict": "fix",
+      "evidence": "Supported half: \"Inadequate control over books and records, with particular attention to poor control of client address changes\" (syllabus LO 9.3); concealment mechanism corroborated by hold-mail/returned-mail controls (s.3219) and restricted access to amend client records (s.3215(5), 3926(5)).",
+      "source": "syllabus-raw.txt lines 1645-1646 (LO 9.3); idpc-rules.txt lines 4681-4683 (s.3215(5)), 8111-8112 (s.3926(5))",
+      "issue": "Rationale falsely states 'The syllabus singles out... inadequate control over customized portfolio summaries as retail distribution risks' — LO 9.3 contains no such item, and 'customized portfolio summaries' appears nowhere in the corpus. Fix: (a) rewrite the rationale to anchor the second finding to supported text — e.g. syllabus 9.3 'failure to meet regulatory standards for supervision and control, including inadequate control and review of advertising and sales literature and the lack of documented evidence of overall supervision', and/or IDPC 3602(3)(vi) (any material containing performance reports used to solicit clients requires pre-approval) — or (b) replace the stem's second finding (off-system portfolio summaries) with a finding squarely in LO 9.3 (e.g., untracked compliance-audit findings, uncontrolled sales literature). Keyed answer A remains correct in substance; only the cited support is wrong."
+    }
+  ],
+  "notes": [
+    "Other guidance notes cited in rule_refs (GN-3400-21-003, GN-3900-21-001, GN-3900-21-002, GN-2300-21-001, GN-1400-21-002, GN-3300-21-001, GN-3400-21-004, GN-3600-21-002, GN-3600-20-001, GN-3400-21-002, GN-3200-23-001) are not in the downloaded corpus; all such items were verified instead against the IDPC Rules, UMIR, GN-3900-20-001 and/or the syllabus, which independently support every keyed answer. Recommend either downloading those GNs for a future re-audit or trimming rule_refs to corpus-verifiable citations.",
+    "SUP-E1-0003 (ML stages) and SUP-E3-0002 (leveraged/inverse ETF daily reset) rest on canonical non-regulatory knowledge under syllabus-named outcomes (1.10 'Stages of money laundering'; 3.7 leveraged/inverse ETF risks); nothing in the corpus contradicts them and the Guide for Studying confirms non-regulatory content is tested from public sources.",
+    "SUP-E4-0001 rationale references 'the official practice exam' — facts are independently supported by IDPC 3214(3) ('no later than one business day after completing the initial trade'); recommend (non-blocking) replacing the practice-exam aside with the 3214(3) citation per the bank's no-practice-exam-derivation policy.",
+    "Minor non-blocking rule_ref imprecisions observed (not affecting correctness): SUP-E9-0001 cites 'IDPC 3905' — on-site branch reviews are s.3908(4); SUP-E2-0002 cites 'IDPC 3900/2500' — the board-reporting provision is s.3915; SUP-E1-0002/E1-0004 cite 'IDPC 3700/3100 series' — precise anchors are 3710 and 3115."
+  ]
+}

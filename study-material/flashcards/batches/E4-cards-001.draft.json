@@ -1,0 +1,1084 @@
+{
+  "meta": {
+    "batch": "E4-CARDS-001",
+    "element": 4,
+    "drafted": 81,
+    "date": "2026-06-04",
+    "purpose": "Crash-course cards for Element 4 (Account approvals) keyed to syllabus outcomes 4.1-4.21 and the facts tested in question batch E4-001. Every fact quoted verbatim from local corpus at drafting time.",
+    "corpus": [
+      "syllabus-raw.txt (Element 4)",
+      "idpc-rules.txt (2026-01-08)"
+    ],
+    "patch_note": "Patch cards appended 2026-06-04 after open-cards solve gate identified missing facts (see qa-log.md)."
+  },
+  "cards": [
+    {
+      "id": "FC-E4-0001",
+      "element": 4,
+      "outcome": "4.1",
+      "type": "threshold",
+      "front": "By when must a designated Supervisor approve each new account?",
+      "back": "No later than one business day after completing the initial trade for the account.",
+      "rule_refs": [
+        "IDPC 3214(3)"
+      ],
+      "source_quote": "\"A designated Supervisor must approve each new account no later than one business day after completing the initial trade for the account.\" — idpc-rules.txt ~lines 4643-4644",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0002",
+      "element": 4,
+      "outcome": "4.1",
+      "type": "process",
+      "front": "How does interim account approval work?",
+      "back": "An alternative procedure may approve new accounts on an interim basis — designated Supervisor's final approval due no later than one business day after the initial trade.",
+      "rule_refs": [
+        "IDPC 3214(4)"
+      ],
+      "source_quote": "\"A Dealer Member may use an alternative procedure to approve new accounts on an interim basis, provided the designated Supervisor provides final approval no later than one business day after the initial trade.\" — idpc-rules.txt ~lines 4645-4647",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0003",
+      "element": 4,
+      "outcome": "4.1",
+      "type": "process",
+      "front": "Supervisor does NOT approve the account after the initial trade. Consequence?",
+      "back": "Restrict the account to only liquidating trades, transfers out, paying out funds or delivering securities to the client — until final approval.",
+      "rule_refs": [
+        "IDPC 3214(5)"
+      ],
+      "source_quote": "\"the Dealer Member must restrict the account to only liquidating trades, transfers out, paying out funds or delivering securities to the client\" — idpc-rules.txt ~lines 4649-4650",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0004",
+      "element": 4,
+      "outcome": "4.1",
+      "type": "threshold",
+      "front": "Required documents are still missing after account opening. By when must the dealer take specific action?",
+      "back": "Within 25 business days of opening the account, unless a shorter period is prescribed.",
+      "rule_refs": [
+        "IDPC 3213(2)(iii)"
+      ],
+      "source_quote": "\"take specific action to obtain required documents that have not been received within 25 business days of opening the account, unless a shorter period is prescribed\" — idpc-rules.txt ~lines 4631-4632",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0005",
+      "element": 4,
+      "outcome": "4.1",
+      "type": "trap",
+      "front": "TRAP: 1 business day vs 25 business days — which governs what?",
+      "back": "1 business day after initial trade: Supervisor account approval (3214(3)). 25 business days: specific action on outstanding documents (3213(2)(iii)).",
+      "rule_refs": [
+        "IDPC 3214(3)",
+        "IDPC 3213(2)(iii)"
+      ],
+      "source_quote": "\"A designated Supervisor must approve each new account no later than one business day after completing the initial trade\" — idpc-rules.txt ~lines 4643-4644",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0006",
+      "element": 4,
+      "outcome": "4.1",
+      "type": "threshold",
+      "front": "What two conditions govern assigning an account number to a new account?",
+      "back": "Full and accurate client name and address known to the dealer; complete account application received no later than the following business day.",
+      "rule_refs": [
+        "IDPC 3214(1)"
+      ],
+      "source_quote": "\"may only assign an account number to a new account if the full and accurate name and address of the client who holds the account is known\" — idpc-rules.txt ~lines 4638-4639",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0007",
+      "element": 4,
+      "outcome": "4.1",
+      "type": "process",
+      "front": "Opening an account for an employee of ANOTHER Dealer Member requires what?",
+      "back": "Written approval from the other Dealer Member, and designation of the account as a non-client account.",
+      "rule_refs": [
+        "IDPC 3214(6)"
+      ],
+      "source_quote": "\"the Dealer Member must obtain written approval from the other Dealer Member, and must designate the account as non-client account\" — idpc-rules.txt ~lines 4652-4654",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0008",
+      "element": 4,
+      "outcome": "4.1",
+      "type": "process",
+      "front": "What conflict-of-interest control applies to verifying significant changes to client information?",
+      "back": "Policies and procedures independent of the Registered Representative, Portfolio Manager or Associate Portfolio Manager — the record-controller must not self-verify.",
+      "rule_refs": [
+        "IDPC 3213(2)(iv)"
+      ],
+      "source_quote": "\"have policies and procedures independent of the Registered Representative, Portfolio Manager or Associate Portfolio Manager for verifying significant changes to client information\" — idpc-rules.txt ~lines 4633-4635",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0009",
+      "element": 4,
+      "outcome": "4.1",
+      "type": "trap",
+      "front": "TRAP: reusing a current application copy to record changes — 36 months or 12 months?",
+      "back": "36 months for ordinary accounts; 12 months for managed or discretionary account applications. Changes initialled by RR/PM/APM and their Supervisor.",
+      "rule_refs": [
+        "IDPC 3215(3)",
+        "IDPC 3215(4)"
+      ],
+      "source_quote": "\"If the client's managed account or discretionary account application was approved within the past 12 months, the Dealer Member may use a copy\" — idpc-rules.txt ~lines 4677-4678",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0010",
+      "element": 4,
+      "outcome": "4.2",
+      "type": "list",
+      "front": "List the seven branches of the institutional client definition.",
+      "back": "Acceptable counterparty; acceptable institution; regulated entity; non-individual registrant; non-individual >$10M securities/bullion; individual >$10M who requests and consents; hedger who requests and consents (qualifying hedging accounts).",
+      "rule_refs": [
+        "IDPC 1201 (definition of institutional client)"
+      ],
+      "source_quote": "\"a non-individual with total securities and precious metals bullion under administration or management exceeding $10 million\" — idpc-rules.txt ~lines 481-483",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0011",
+      "element": 4,
+      "outcome": "4.2",
+      "type": "trap",
+      "front": "TRAP: which institutional-client branches require the client's request and consent?",
+      "back": "The individual >$10M and the hedger branches. A non-individual >$10M qualifies without request or consent.",
+      "rule_refs": [
+        "IDPC 1201 (definition of institutional client)"
+      ],
+      "source_quote": "\"a hedger who requests and consents to being classified as an institutional client for accounts with qualifying hedging activities and hedge positions\" — idpc-rules.txt ~lines 488-490",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0012",
+      "element": 4,
+      "outcome": "4.2",
+      "type": "definition",
+      "front": "Define 'hedger' (Rule 1201).",
+      "back": "A non-individual exposed to risks as a necessary part of its business activities, hedging via derivatives whose underlying interest is the same as or materially related to the risk.",
+      "rule_refs": [
+        "IDPC 1201 (definition of hedger)"
+      ],
+      "source_quote": "\"A non-individual that: (i) is exposed to one or more risks as a necessary part of its business activities\" — idpc-rules.txt ~lines 430-432",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0013",
+      "element": 4,
+      "outcome": "4.2",
+      "type": "process",
+      "front": "What must be verified and recorded for hedger/institutional classification?",
+      "back": "Verify the client qualifies as institutional (3212(2)); records must demonstrate the determination undertaken to classify a client as a hedger and as institutional (3804).",
+      "rule_refs": [
+        "IDPC 3212(2)",
+        "IDPC 3804(2)(xx)"
+      ],
+      "source_quote": "\"demonstrate determination undertaken to classify a client as a hedger and as an institutional client\" — idpc-rules.txt ~lines 6771-6772",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0014",
+      "element": 4,
+      "outcome": "4.2",
+      "type": "process",
+      "front": "An institutional client subject to suitability is judged NOT capable of independently evaluating risk. The dealer must:",
+      "back": "Take steps to ensure the institutional client fully understands the investment product, including the potential risks.",
+      "rule_refs": [
+        "IDPC 3403(3)(ii)"
+      ],
+      "source_quote": "\"the Dealer Member must take steps to ensure that the institutional client fully understands the investment product, including the potential risks\" — idpc-rules.txt ~lines 5634-5635",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0015",
+      "element": 4,
+      "outcome": "4.3",
+      "type": "process",
+      "front": "Account appropriateness: what two determinations, made when?",
+      "back": "Before opening, on a reasonable basis putting the person's interest first: the action is appropriate; the scope of products, services and account relationships is appropriate.",
+      "rule_refs": [
+        "IDPC 3211(1)"
+      ],
+      "source_quote": "\"Before a Dealer Member opens an account for a person, the Dealer Member must determine, on a reasonable basis and putting the person's interest first\" — idpc-rules.txt ~lines 4573-4574",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0016",
+      "element": 4,
+      "outcome": "4.3",
+      "type": "trap",
+      "front": "TRAP: which accounts are exempt from the SCOPE-of-products limb of appropriateness, 3211(1)(ii)?",
+      "back": "Order execution only accounts and direct electronic access accounts. They remain subject to 3211(1)(i) — the basic appropriateness determination.",
+      "rule_refs": [
+        "IDPC 3211(2)"
+      ],
+      "source_quote": "\"Clause 3211(1)(ii) does not apply in respect to: (i) an order execution only account, or (ii) a direct electronic access account.\" — idpc-rules.txt ~lines 4582-4584",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0017",
+      "element": 4,
+      "outcome": "4.3",
+      "type": "list",
+      "front": "Which accounts escape the ENTIRE 3211(1) appropriateness determination?",
+      "back": "Carrying-broker / pure execution-clearing-settlement-custody accounts; accounts held by a Dealer Member, regulated entity, exempt market dealer, portfolio manager, bank, trust company or insurance company.",
+      "rule_refs": [
+        "IDPC 3211(3)"
+      ],
+      "source_quote": "\"an account held by a Dealer Member, regulated entity, exempt market dealer, portfolio manager, bank, trust company or insurance company\" — idpc-rules.txt ~lines 4590-4591",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0018",
+      "element": 4,
+      "outcome": "4.4",
+      "type": "list",
+      "front": "Name the four enumerated client account records in section 3210.",
+      "back": "Documentation supporting identity verification; documentation supporting the account appropriateness assessment; KYC information collected per Corporation requirements; the client's account application.",
+      "rule_refs": [
+        "IDPC 3210(1)"
+      ],
+      "source_quote": "\"documentation supporting the conclusion that the client's identity has been verified, (ii) documentation supporting the account appropriateness assessment\" — idpc-rules.txt ~lines 4564-4566",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0019",
+      "element": 4,
+      "outcome": "4.4",
+      "type": "threshold",
+      "front": "Fee condition for relying on an affiliate's documentation?",
+      "back": "Account service fees/charges, and charges for making, disposing and holding investment products, must be the same or lower as at the affiliate firm.",
+      "rule_refs": [
+        "IDPC 3212(4)(ii)"
+      ],
+      "source_quote": "\"the following fees and charges associated with the account offering and investment products and services are the same or lower as those at the affiliate firm\" — idpc-rules.txt ~lines 4604-4605",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0020",
+      "element": 4,
+      "outcome": "4.5",
+      "type": "trap",
+      "front": "TRAP: must Relationship Disclosure be given to institutional clients?",
+      "back": "No. The section sets minimum requirements for retail clients; dealers are not required to provide relationship disclosure to institutional clients.",
+      "rule_refs": [
+        "IDPC 3216(1)"
+      ],
+      "source_quote": "\"Dealer Members are not required to provide relationship disclosure to institutional clients.\" — idpc-rules.txt ~lines 4687-4688",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0021",
+      "element": 4,
+      "outcome": "4.5",
+      "type": "threshold",
+      "front": "When must relationship disclosure information be provided to a retail client?",
+      "back": "At the time of opening an account or accounts, and when there is a significant change to the relationship disclosure information previously provided.",
+      "rule_refs": [
+        "IDPC 3216(2)"
+      ],
+      "source_quote": "\"(i) at the time of opening an account or accounts, and (ii) when there is a significant change to the relationship disclosure information previously provided to the client.\" — idpc-rules.txt ~lines 4695-4697",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0022",
+      "element": 4,
+      "outcome": "4.5",
+      "type": "process",
+      "front": "Who approves Relationship Disclosure; standardized-document duty?",
+      "back": "A partner, Director, officer or designated Supervisor approves, regardless of form; for standardized documents the designated Supervisor ensures the correct document is used per client circumstance.",
+      "rule_refs": [
+        "IDPC 3216(6)"
+      ],
+      "source_quote": "\"If the document is a standardized document, the designated Supervisor must ensure that the correct document is used in each client circumstance.\" — idpc-rules.txt ~lines 4836-4838",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0023",
+      "element": 4,
+      "outcome": "4.5",
+      "type": "list",
+      "front": "The RD's account-relationship description states which three things?",
+      "back": "Whether the account is advisory, managed or order execution only; whether the client makes investment decisions and how they instruct; whether recommendations or advice will be provided.",
+      "rule_refs": [
+        "IDPC 3216(5)(ii)(c)"
+      ],
+      "source_quote": "\"whether the account opened is an advisory account, a managed account or an order execution only account\" — idpc-rules.txt ~lines 4743-4744",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0024",
+      "element": 4,
+      "outcome": "4.5",
+      "type": "list",
+      "front": "Name the RD's suitability-determination triggering events.",
+      "back": "Securities received into or delivered out of the account; change in RR/PM/APM responsible; change in client information; change in a security held; the 3209(4) periodic review.",
+      "rule_refs": [
+        "IDPC 3216(5)(ii)(d)(III)"
+      ],
+      "source_quote": "\"there is a change in the Registered Representative, Portfolio Manager or Associate Portfolio Manager responsible for the account\" — idpc-rules.txt ~lines 4769-4770",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0025",
+      "element": 4,
+      "outcome": "4.5",
+      "type": "trap",
+      "front": "TRAP: may an OEO dealer omit any Relationship Disclosure content?",
+      "back": "Only the suitability-process description under 3216(5)(ii)(d), provided disclosure is made in compliance with section 3241. All other RD content still applies.",
+      "rule_refs": [
+        "IDPC 3216(5)(iii)",
+        "IDPC 3241"
+      ],
+      "source_quote": "\"the Dealer Member does not have to provide the relationship disclosure information required under sub-clause 3216(5)(ii)(d), provided that disclosure is made in compliance with the requirements in section 3241\" — idpc-rules.txt ~lines 4830-4832",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0026",
+      "element": 4,
+      "outcome": "4.6",
+      "type": "list",
+      "front": "Three triggers for the leverage risk disclosure statement?",
+      "back": "Opening a new retail account; prior to an initial recommendation to purchase securities using borrowed money; first becoming aware of the client's intention to purchase with borrowed money.",
+      "rule_refs": [
+        "IDPC 3217(1)"
+      ],
+      "source_quote": "\"when first becoming aware of a retail client's intention to purchase securities using borrowed money, a Dealer Member must\" — idpc-rules.txt ~lines 4849-4850",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0027",
+      "element": 4,
+      "outcome": "4.6",
+      "type": "threshold",
+      "front": "When is re-delivery of the leverage risk disclosure statement NOT required?",
+      "back": "Where the dealer provided the retail client a compliant leverage risk disclosure statement within the last six months.",
+      "rule_refs": [
+        "IDPC 3217(2)"
+      ],
+      "source_quote": "\"where it has provided the retail client with a leverage risk disclosure statement in accordance with subsection 3217(1) within the last six months\" — idpc-rules.txt ~lines 4854-4856",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0028",
+      "element": 4,
+      "outcome": "4.7",
+      "type": "process",
+      "front": "What must happen before a margin account is opened?",
+      "back": "Deliver a margin account agreement to the client and obtain a copy of the agreement signed by the client.",
+      "rule_refs": [
+        "IDPC 3247(1)"
+      ],
+      "source_quote": "\"Prior to opening a margin account, a Dealer Member must: (i) deliver a margin account agreement to the client, and (ii) obtain a copy of the margin account agreement signed by the client.\" — idpc-rules.txt ~lines 5125-5127",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0029",
+      "element": 4,
+      "outcome": "4.7",
+      "type": "process",
+      "front": "What must the dealer ensure when deciding whether to allow a client to trade on margin?",
+      "back": "That the client is aware of the risks and benefits associated with trading on margin.",
+      "rule_refs": [
+        "IDPC 3246(1)"
+      ],
+      "source_quote": "\"In deciding whether to allow a client to trade on margin, a Dealer Member must ensure that the client is aware of the risks and benefits associated with trading on margin.\" — idpc-rules.txt ~lines 5122-5123",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0030",
+      "element": 4,
+      "outcome": "4.7",
+      "type": "list",
+      "front": "Name the two client OBLIGATIONS the margin account agreement must describe.",
+      "back": "Pay their indebtedness to the dealer and maintain adequate margin; pay interest on debit balances in their account.",
+      "rule_refs": [
+        "IDPC 3247(2)(i)-(ii)"
+      ],
+      "source_quote": "\"the client's obligation to pay their indebtedness to the Dealer Member and to maintain adequate margin, (ii) the client's obligation to pay interest on debit balances\" — idpc-rules.txt ~lines 5130-5132",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0031",
+      "element": 4,
+      "outcome": "4.7",
+      "type": "list",
+      "front": "Which dealer RIGHTS go in the margin account agreement?",
+      "back": "Raise money on/pledge account assets; use free credit balances; sell assets and cover shorts; use a security against a short sale (incl. dealer/partner/Director accounts); hold assets as collateral.",
+      "rule_refs": [
+        "IDPC 3247(2)(iii)-(viii)"
+      ],
+      "source_quote": "\"the Dealer Member's right to raise money on and pledge assets held in the client's account\" — idpc-rules.txt ~line 5133",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0032",
+      "element": 4,
+      "outcome": "4.7",
+      "type": "process",
+      "front": "Client requires prior notice before margin asset sales — what applies?",
+      "back": "The dealer must set out the nature of the notice and the client's obligations to remedy any deficiency. No fixed regulatory notice period exists.",
+      "rule_refs": [
+        "IDPC 3247(2)(v)"
+      ],
+      "source_quote": "\"If the client requires prior notice, the Dealer Member must set out the nature of the notice and the client's obligations to remedy any deficiency\" — idpc-rules.txt ~lines 5137-5138",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0033",
+      "element": 4,
+      "outcome": "4.7",
+      "type": "distinction",
+      "front": "Margin agreement vs letter of undertaking — which one documents a margin account?",
+      "back": "Only the margin account agreement (3247). The letter of undertaking (3253) substitutes for a DERIVATIVES trading agreement, institutional clients only.",
+      "rule_refs": [
+        "IDPC 3247(1)",
+        "IDPC 3253(1)"
+      ],
+      "source_quote": "\"Instead of a derivatives trading agreement, a Dealer Member may obtain a letter of undertaking for accounts where the client is classified as an institutional client.\" — idpc-rules.txt ~lines 5268-5269",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0034",
+      "element": 4,
+      "outcome": "4.8",
+      "type": "list",
+      "front": "Name the two dealer RIGHTS in 3252(1)(ii) of the derivatives trading agreement.",
+      "back": "Exercise discretion in accepting orders; impose trading or position limits or closeout positions under specified conditions.",
+      "rule_refs": [
+        "IDPC 3252(1)(ii)"
+      ],
+      "source_quote": "\"the Dealer Member's right to: (a) exercise discretion in accepting orders, (b) impose trading or position limits or closeout positions under specified conditions\" — idpc-rules.txt ~lines 5196-5198",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0035",
+      "element": 4,
+      "outcome": "4.8",
+      "type": "list",
+      "front": "Derivatives agreement: which three dealer rights over client assets?",
+      "back": "Use free credit balances in its business or to finance other account debits; use account assets as collateral for debit/position obligations; raise money on and pledge account assets.",
+      "rule_refs": [
+        "IDPC 3252(1)(iii)"
+      ],
+      "source_quote": "\"use client free credit balances within its own business or to finance other client account debits, (b) use client account assets as collateral for the clients' debit and position obligations\" — idpc-rules.txt ~lines 5200-5202",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0036",
+      "element": 4,
+      "outcome": "4.8",
+      "type": "list",
+      "front": "Name the three dealer OBLIGATIONS in the derivatives trading agreement.",
+      "back": "Provide regulators position/exercise-limit information and derivatives data if required; obtain client consent before taking the other side and document whether given; address errors and omissions.",
+      "rule_refs": [
+        "IDPC 3252(1)(v)"
+      ],
+      "source_quote": "\"obtain client consent before the Dealer Member may take the other side to the client's transaction, and document whether the client provides such consent\" — idpc-rules.txt ~lines 5211-5212",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0037",
+      "element": 4,
+      "outcome": "4.8",
+      "type": "trap",
+      "front": "TRAP: does signing the derivatives agreement authorize the dealer to take the other side?",
+      "back": "No. The dealer must obtain client consent BEFORE taking the other side, and document whether consent is provided.",
+      "rule_refs": [
+        "IDPC 3252(1)(v)(b)"
+      ],
+      "source_quote": "\"obtain client consent before the Dealer Member may take the other side to the client's transaction\" — idpc-rules.txt ~line 5211",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0038",
+      "element": 4,
+      "outcome": "4.8",
+      "type": "process",
+      "front": "Discretionary authority given inside the derivatives trading agreement requires what?",
+      "back": "Disclosures explaining the discretionary authority given, plus the client's acknowledgement of consent — provided the authority is consistent with Part G of Rule 3200.",
+      "rule_refs": [
+        "IDPC 3252(1)(vi)"
+      ],
+      "source_quote": "\"disclosures explaining the discretionary authority that has been given, (b) the client's acknowledgement that is has consented to the giving of the authority\" — idpc-rules.txt ~lines 5215-5216",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0039",
+      "element": 4,
+      "outcome": "4.8",
+      "type": "trap",
+      "front": "TRAP: 'address errors and omissions' — dealer right or dealer obligation?",
+      "back": "Obligation. 3252(1)(v)(c) lists addressing situations when errors and omissions occur among the dealer's obligations, not its discretionary rights.",
+      "rule_refs": [
+        "IDPC 3252(1)(v)(c)"
+      ],
+      "source_quote": "\"the Dealer Member's obligation to: (a) if required under any applicable laws or requested to do so, provide information to regulators regarding position limit, exercise limit requirements\" — idpc-rules.txt ~lines 5207-5209",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0040",
+      "element": 4,
+      "outcome": "4.9",
+      "type": "list",
+      "front": "Four client OBLIGATIONS in the derivatives trading agreement?",
+      "back": "Comply with Corporation and trading/clearing/issuing entity requirements (reporting, position, exercise limits); maintain adequate margin collateral, pay debts; pay commission, if any; pay interest, if any, on debits.",
+      "rule_refs": [
+        "IDPC 3252(1)(viii)"
+      ],
+      "source_quote": "\"maintain adequate margin collateral and to pay any debts owed to the Dealer Member, (c) pay commission or other compensation, if any\" — idpc-rules.txt ~lines 5225-5227",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0041",
+      "element": 4,
+      "outcome": "4.9",
+      "type": "list",
+      "front": "Two client ACKNOWLEDGMENTS in the derivatives trading agreement?",
+      "back": "Receiving the most recent derivatives risk disclosure statement; their duty to inform and update the dealer of circumstances making them an insider of any publicly traded issuer.",
+      "rule_refs": [
+        "IDPC 3252(1)(ix)"
+      ],
+      "source_quote": "\"the client's acknowledgement of: (a) receiving the most recent derivatives risk disclosure statement\" — idpc-rules.txt ~lines 5229-5230",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0042",
+      "element": 4,
+      "outcome": "4.10",
+      "type": "list",
+      "front": "For options and similar derivatives, what notice mechanics must the derivatives agreement set out?",
+      "back": "The dealer's deadlines for a client to submit an exercise notice; the method the dealer will use to distribute assignment notices.",
+      "rule_refs": [
+        "IDPC 3252(1)(xi)(a)-(b)"
+      ],
+      "source_quote": "\"the Dealer Member's deadlines for a client to submit an exercise notice, (b) the method the Dealer Member will use to distribute assignment notices\" — idpc-rules.txt ~lines 5241-5242",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0043",
+      "element": 4,
+      "outcome": "4.10",
+      "type": "list",
+      "front": "Options disclosures 3252(1)(xi)(c)-(d): which four warnings/duties?",
+      "back": "Dealer may set maximum limits on short positions; may apply cash-only terms the last 10 days before expiry; Corporation may impose other rules; client must instruct close-out before expiry.",
+      "rule_refs": [
+        "IDPC 3252(1)(xi)(c)-(d)"
+      ],
+      "source_quote": "\"the Dealer Member may apply cash-only terms during the last 10 days before expiry\" — idpc-rules.txt ~lines 5245-5246",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0044",
+      "element": 4,
+      "outcome": "4.10",
+      "type": "threshold",
+      "front": "Minimum margin disclosure for futures/forwards/CFDs: greater of which three amounts?",
+      "back": "The amount the derivatives marketplace or clearing house prescribes; the Corporation's requirements; or the Dealer Member's requirements.",
+      "rule_refs": [
+        "IDPC 3252(1)(xii)"
+      ],
+      "source_quote": "\"the amount the derivatives marketplace or clearing house prescribes, (b) Corporation's requirements, or (c) the Dealer Member's requirements\" — idpc-rules.txt ~lines 5254-5256",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0045",
+      "element": 4,
+      "outcome": "4.11",
+      "type": "list",
+      "front": "Cumulative loss limits apply to accounts transacting in which products?",
+      "back": "Futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives, or highly-leveraged securities or derivatives.",
+      "rule_refs": [
+        "IDPC 3252(2)(i)"
+      ],
+      "source_quote": "\"transactions involve futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives, or highly-leveraged securities or derivatives\" — idpc-rules.txt ~lines 5258-5260",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0046",
+      "element": 4,
+      "outcome": "4.11",
+      "type": "trap",
+      "front": "TRAP: which account is carved OUT of cumulative loss limits, and which account types are IN?",
+      "back": "Hedging accounts are out. Advisory, discretionary, managed AND order execution only accounts are all in.",
+      "rule_refs": [
+        "IDPC 3252(2)(ii)"
+      ],
+      "source_quote": "\"applies to an account, other than a hedging account, whether the account is an advisory account, a discretionary account, a managed account or an order execution only account\" — idpc-rules.txt ~lines 5261-5263",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0047",
+      "element": 4,
+      "outcome": "4.11",
+      "type": "threshold",
+      "front": "On what two bases may a cumulative loss limit be determined?",
+      "back": "A lifetime basis validated with the client on an annual basis, or an annual basis updated annually.",
+      "rule_refs": [
+        "IDPC 3252(2)(iii)"
+      ],
+      "source_quote": "\"a lifetime basis and validated with the client on an annual basis, or (b) an annual basis and updated annually\" — idpc-rules.txt ~lines 5265-5266",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0048",
+      "element": 4,
+      "outcome": "4.12",
+      "type": "definition",
+      "front": "Letter of undertaking — what is it; who can use it?",
+      "back": "An alternative the dealer may obtain instead of a derivatives trading agreement — only where the client is classified as an institutional client.",
+      "rule_refs": [
+        "IDPC 3253(1)"
+      ],
+      "source_quote": "\"Instead of a derivatives trading agreement, a Dealer Member may obtain a letter of undertaking for accounts where the client is classified as an institutional client.\" — idpc-rules.txt ~lines 5268-5269",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0049",
+      "element": 4,
+      "outcome": "4.12",
+      "type": "list",
+      "front": "Two required statements in a letter of undertaking?",
+      "back": "Client agrees to comply with Corporation requirements, applicable laws and trading/clearing/issuing entity requirements; if charged debit interest, conditions for inter-account transfers of client property (unless acknowledged elsewhere).",
+      "rule_refs": [
+        "IDPC 3253(2)"
+      ],
+      "source_quote": "\"if the client has an account that is charged interest on a debit balance, the conditions under which transfers of the client's funds, securities or other property may be made between accounts\" — idpc-rules.txt ~lines 5281-5283",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0050",
+      "element": 4,
+      "outcome": "4.13",
+      "type": "list",
+      "front": "List the six requirements to accept managed accounts (3277).",
+      "back": "Designate a responsible Supervisor; specific P&Ps on supervision/operation; agreement before opening; Supervisor approves each account in writing; retain a record of approval; give client the fair-allocation policy.",
+      "rule_refs": [
+        "IDPC 3277(1)"
+      ],
+      "source_quote": "\"the designated Supervisor must approve each managed account in writing, (v) the Dealer Member must retain a record of the designated Supervisor's approval\" — idpc-rules.txt ~lines 5416-5417",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0051",
+      "element": 4,
+      "outcome": "4.13",
+      "type": "process",
+      "front": "Which managed-account policy must be handed TO the client?",
+      "back": "A copy of the dealer's policy ensuring fair allocation of investment opportunities.",
+      "rule_refs": [
+        "IDPC 3277(1)(vi)"
+      ],
+      "source_quote": "\"the Dealer Member must provide the client with a copy of its policy ensuring fair allocation of investment opportunities\" — idpc-rules.txt ~lines 5418-5419",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0052",
+      "element": 4,
+      "outcome": "4.14",
+      "type": "list",
+      "front": "What three things must a managed account agreement contain?",
+      "back": "Describe/refer to the client's personal-financial circumstances, knowledge, time horizon, needs/objectives, risk profile; describe client-imposed restrictions where permitted; set out 3278(2) termination terms.",
+      "rule_refs": [
+        "IDPC 3278(1)"
+      ],
+      "source_quote": "\"describe or refer to the client's personal and financial circumstances, investment knowledge, investment time horizon, investment needs and objectives and risk profile\" — idpc-rules.txt ~lines 5422-5423",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0053",
+      "element": 4,
+      "outcome": "4.14",
+      "type": "threshold",
+      "front": "Managed account termination: each party's written notice effective when?",
+      "back": "Client: on receipt by the dealer, except transactions entered before receipt. Dealer: not less than 30 days from the date the dealer delivered the notice.",
+      "rule_refs": [
+        "IDPC 3278(2)"
+      ],
+      "source_quote": "\"by the Dealer Member, effective not less than 30 days from the date the Dealer Member delivered the notice to the client\" — idpc-rules.txt ~lines 5431-5432",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0054",
+      "element": 4,
+      "outcome": "4.14",
+      "type": "trap",
+      "front": "TRAP: client terminates a managed account; the PM traded that morning. Do trades stand?",
+      "back": "Yes. Client termination is effective on receipt, EXCEPT for transactions entered prior to receipt of the notice.",
+      "rule_refs": [
+        "IDPC 3278(2)(i)"
+      ],
+      "source_quote": "\"by the client, effective on receipt by the Dealer Member, except for transactions entered prior to receipt of the notice\" — idpc-rules.txt ~lines 5429-5430",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0055",
+      "element": 4,
+      "outcome": "4.15",
+      "type": "process",
+      "front": "What does 3280(1) prohibit around managed-account trade information?",
+      "back": "A responsible person or dealer must not trade their own account — or knowingly permit any associate/affiliate to trade — relying on information about trades in a managed account.",
+      "rule_refs": [
+        "IDPC 3280(1)"
+      ],
+      "source_quote": "\"must not trade for their or the Dealer Member's own account, or knowingly permit or arrange any associate or affiliate to trade, in reliance upon information relating to trades made or to be made in a managed account\" — idpc-rules.txt ~lines 5448-5450",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0056",
+      "element": 4,
+      "outcome": "4.15",
+      "type": "list",
+      "front": "Which three managed-account investments need PRIOR WRITTEN CONSENT?",
+      "back": "Issuers related/connected to a responsible person or the dealer; issuers where the authorized individual is an officer/director (unless disclosed); new issues or secondary offerings underwritten by the dealer.",
+      "rule_refs": [
+        "IDPC 3280(2)"
+      ],
+      "source_quote": "\"invest in a security or derivative of a security of an issuer that is related or connected to a responsible person or to the Dealer Member\" — idpc-rules.txt ~lines 5457-5458",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0057",
+      "element": 4,
+      "outcome": "4.15",
+      "type": "list",
+      "front": "Which three managed-account actions are banned OUTRIGHT — no consent cure?",
+      "back": "Buying/selling from or to a PM's, APM's or associate's account; from or to a fund a responsible person advises; guarantees or loans to a responsible person/associate.",
+      "rule_refs": [
+        "IDPC 3280(3)"
+      ],
+      "source_quote": "\"purchase or sell a security or derivative of a security of an issuer from or to an investment fund for which a responsible person acts as an adviser\" — idpc-rules.txt ~lines 5467-5468",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0058",
+      "element": 4,
+      "outcome": "4.15",
+      "type": "trap",
+      "front": "TRAP: PM sells from a managed account to her own account, client consents in writing. Permitted?",
+      "back": "No. Written consent cures only 3280(2) investments; principal trades with PM/APM/associate accounts fall under 3280(3) — no consent exception.",
+      "rule_refs": [
+        "IDPC 3280(3)(i)",
+        "IDPC 3280(2)"
+      ],
+      "source_quote": "\"must not knowingly cause any managed account to: (i) purchase or sell a security or derivative of a security of an issuer from or to the account of a Portfolio Manager\" — idpc-rules.txt ~lines 5463-5465",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0059",
+      "element": 4,
+      "outcome": "4.15",
+      "type": "process",
+      "front": "How must a dealer allocate investment opportunities among managed accounts?",
+      "back": "Fairly — the dealer must fairly allocate investment opportunities among its managed accounts.",
+      "rule_refs": [
+        "IDPC 3280(4)"
+      ],
+      "source_quote": "\"A Dealer Member must fairly allocate investment opportunities among its managed accounts.\" — idpc-rules.txt ~line 5470",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0060",
+      "element": 4,
+      "outcome": "4.16",
+      "type": "distinction",
+      "front": "Volume/performance fees to clients vs transaction-based PM compensation — which has a cure?",
+      "back": "Direct client charges (3281(1)): permitted with a written agreement setting out how fees may be charged. Compensating 3279 persons by transaction value/volume (3281(2)): no cure.",
+      "rule_refs": [
+        "IDPC 3281(1)",
+        "IDPC 3281(2)"
+      ],
+      "source_quote": "\"A Dealer Member must not compensate a person referred to in section 3279, on the basis of the value or volume of transactions in the account.\" — idpc-rules.txt ~lines 5479-5480",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0061",
+      "element": 4,
+      "outcome": "4.16",
+      "type": "threshold",
+      "front": "Which two direct managed-account fee types need the written agreement?",
+      "back": "Fees based upon the volume or value of transactions initiated for the account; fees contingent upon profit or performance of the client's account.",
+      "rule_refs": [
+        "IDPC 3281(1)"
+      ],
+      "source_quote": "\"based upon the volume or value of transactions in the account initiated for the account, or (ii) contingent upon profit or performance of the client's account\" — idpc-rules.txt ~lines 5474-5475",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0062",
+      "element": 4,
+      "outcome": "4.17",
+      "type": "trap",
+      "front": "TRAP: may the discretionary-accounts designated Supervisor delegate the monthly financial performance reviews?",
+      "back": "No — must not delegate the performance of the 3970(1)-(2) reviews to ANY other person. This overrides the general delegate-tasks framework.",
+      "rule_refs": [
+        "IDPC 3970(3)"
+      ],
+      "source_quote": "\"The designated Supervisor responsible for discretionary accounts must not delegate the performance of the reviews required in subsections 3970(1) and 3970(2) to any other person.\" — idpc-rules.txt ~lines 8384-8385",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0063",
+      "element": 4,
+      "outcome": "4.18",
+      "type": "list",
+      "front": "List the six requirements to accept discretionary accounts (3273).",
+      "back": "Designate Supervisor(s) meeting Rule 2600 proficiency; specific P&Ps per Rule 3900; identify accounts in books and records; agreement before acceptance; Supervisor approves account and signed agreement; retain approval record.",
+      "rule_refs": [
+        "IDPC 3273(1)"
+      ],
+      "source_quote": "\"the Dealer Member must designate one or more designated Supervisors, who meet the proficiency requirements set out in Rule 2600, to be responsible for the discretionary accounts\" — idpc-rules.txt ~lines 5352-5354",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0064",
+      "element": 4,
+      "outcome": "4.18",
+      "type": "threshold",
+      "front": "Discretionary sequencing: when must the agreement exist; what gets approved?",
+      "back": "Agreement entered into prior to accepting the account as discretionary; designated Supervisor approves the account as discretionary AND the agreement signed by the client.",
+      "rule_refs": [
+        "IDPC 3273(1)(iv)-(v)"
+      ],
+      "source_quote": "\"the designated Supervisor must approve the account as a discretionary account and approve the discretionary account agreement signed by the client\" — idpc-rules.txt ~lines 5361-5362",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0065",
+      "element": 4,
+      "outcome": "4.18",
+      "type": "threshold",
+      "front": "What experience qualifies an RR to effect discretionary trades?",
+      "back": "At least two years of active experience trading, advising or performing analysis on all product types to be traded on a discretionary basis.",
+      "rule_refs": [
+        "IDPC 3275(1)(i)"
+      ],
+      "source_quote": "\"the Registered Representative has at least two years of active experience in trading, advising or performing analysis with respect to all types of products that are to be traded on a discretionary basis\" — idpc-rules.txt ~lines 5383-5385",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0066",
+      "element": 4,
+      "outcome": "4.18",
+      "type": "trap",
+      "front": "TRAP: Rule 2600 proficiency vs PM approval — what qualifies the discretionary-accounts Supervisor?",
+      "back": "Rule 2600 proficiency requirements (3273(1)(i)). PM approval is a separate category — it matters for trade-by-trade pre-review exemptions, not Supervisor designation.",
+      "rule_refs": [
+        "IDPC 3273(1)(i)",
+        "IDPC 3970(4)"
+      ],
+      "source_quote": "\"who meet the proficiency requirements set out in Rule 2600, to be responsible for the discretionary accounts\" — idpc-rules.txt ~lines 5352-5354",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0067",
+      "element": 4,
+      "outcome": "4.19",
+      "type": "threshold",
+      "front": "What are the term and renewal limits of a discretionary account agreement?",
+      "back": "Maximum term of no longer than 12 months, and the agreement must not be renewable.",
+      "rule_refs": [
+        "IDPC 3274(1)(iii)-(iv)"
+      ],
+      "source_quote": "\"have a maximum term of no longer than 12 months, (iv) not be renewable\" — idpc-rules.txt ~lines 5373-5374",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0068",
+      "element": 4,
+      "outcome": "4.19",
+      "type": "trap",
+      "front": "TRAP: do discretionary and managed accounts differ on termination-notice mechanics?",
+      "back": "No — both: client notice effective on receipt (prior transactions stand); dealer notice effective not less than 30 days from delivery. Only discretionary accounts carry the 12-month non-renewable cap.",
+      "rule_refs": [
+        "IDPC 3274(2)"
+      ],
+      "source_quote": "\"by the Dealer Member, effective not less than 30 days from the date the Dealer Member delivered the notice to the client\" — idpc-rules.txt ~lines 5379-5380",
+      "status": "draft",
+      "qa_note": "Reworked 2026-06-04 from near-duplicate of FC-E4-0053 into a cross-account distinction card."
+    },
+    {
+      "id": "FC-E4-0069",
+      "element": 4,
+      "outcome": "4.19",
+      "type": "trap",
+      "front": "TRAP: discretionary account holds dealer shares with client consent — OK?",
+      "back": "Never — it must not hold any publicly traded securities of the Dealer Member or its affiliates. The 3276(3) consent cure does not reach this.",
+      "rule_refs": [
+        "IDPC 3276(1)",
+        "IDPC 3276(3)"
+      ],
+      "source_quote": "\"A discretionary account must not hold any publicly traded securities of the Dealer Member or its affiliates.\" — idpc-rules.txt ~lines 5389-5390",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0070",
+      "element": 4,
+      "outcome": "4.19",
+      "type": "list",
+      "front": "Discretionary accounts: which investments need prior written consent; what is flatly banned?",
+      "back": "Consent: issuers where a 3275(1) authorized individual is an officer/director (position disclosed); dealer-underwritten new issues/secondary offerings. Banned: guarantees or loans to a responsible person/associate.",
+      "rule_refs": [
+        "IDPC 3276(3)",
+        "IDPC 3276(4)"
+      ],
+      "source_quote": "\"must not allow a discretionary account to provide a guarantee or loan to a responsible person or an associate of a responsible person\" — idpc-rules.txt ~lines 5400-5401",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0071",
+      "element": 4,
+      "outcome": "4.19",
+      "type": "distinction",
+      "front": "Discretionary vs managed account — which definitional features separate them?",
+      "back": "Discretionary: unsolicited authority, accommodates a frequently/temporarily unavailable client, not renewed, term ≤12 months. Managed: continuing investment decisions by a PM/APM or hired third party.",
+      "rule_refs": [
+        "IDPC 1201 (definition of discretionary account)",
+        "IDPC 1201 (definition of managed account)"
+      ],
+      "source_quote": "\"the discretionary authority is accepted to accommodate a client who is frequently or temporarily unavailable to authorize trades\" — idpc-rules.txt ~lines 349-350",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0072",
+      "element": 4,
+      "outcome": "4.20",
+      "type": "list",
+      "front": "List the four steps before an INITIAL derivatives transaction in any account type.",
+      "back": "Completed derivatives account application; completed, signed derivatives trading agreement; provide the most recent derivatives disclosure statement (or similar); record the relevant designated Supervisors' approval in writing.",
+      "rule_refs": [
+        "IDPC 3251(1)"
+      ],
+      "source_quote": "\"obtain a completed derivatives account application from the client, (ii) obtain a completed and signed derivatives trading agreement from the client\" — idpc-rules.txt ~lines 5174-5175",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0073",
+      "element": 4,
+      "outcome": "4.20",
+      "type": "process",
+      "front": "Intended derivatives strategies don't fit the client. The designated Supervisors should:",
+      "back": "Restrict the account from inappropriate strategies, note trading restrictions on the derivatives account approval, and communicate them to the assigned RR/PM/APM.",
+      "rule_refs": [
+        "IDPC 3251(2)"
+      ],
+      "source_quote": "\"the designated Supervisors should restrict the account from using inappropriate strategies and note on the derivatives account approval any trading restrictions imposed\" — idpc-rules.txt ~lines 5182-5184",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0074",
+      "element": 4,
+      "outcome": "4.20",
+      "type": "process",
+      "front": "What standard governs assessment of a client's intended derivatives strategies?",
+      "back": "Strategies' risk characteristics must be appropriate and in keeping with personal/financial circumstances, needs and objectives, knowledge, risk profile, time horizon — putting the client's interest first.",
+      "rule_refs": [
+        "IDPC 3251(2)"
+      ],
+      "source_quote": "\"determine whether the risk characteristics of the strategies the client intends to use are appropriate for the client and in keeping with their personal and financial circumstances\" — idpc-rules.txt ~lines 5179-5181",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0075",
+      "element": 4,
+      "outcome": "4.20",
+      "type": "distinction",
+      "front": "Appropriateness determination vs designated-Supervisor account approval — when does each occur?",
+      "back": "Appropriateness (3211): BEFORE opening the account. Designated Supervisor approval (3214): up to one business day AFTER the initial trade. Distractors swap the timings.",
+      "rule_refs": [
+        "IDPC 3211(1)",
+        "IDPC 3214(3)"
+      ],
+      "source_quote": "\"Before a Dealer Member opens an account for a person, the Dealer Member must determine\" — idpc-rules.txt ~line 4573",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0076",
+      "element": 4,
+      "outcome": "4.21",
+      "type": "list",
+      "front": "Which two investor signals make an OEO account inappropriate (4.21)?",
+      "back": "Incapable of conducting online activities (e.g., clear and persistent difficulties completing the online new-account application form); the investor is looking for advice.",
+      "rule_refs": [
+        "Syllabus 4.21",
+        "IDPC 3211(1)(i)"
+      ],
+      "source_quote": "\"If a person would be incapable of conducting online activities (e.g. clear and persistent difficulties in completing the OEO Investment Dealer's online new-account application form)\" — syllabus-raw.txt ~lines 1046-1048",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0077",
+      "element": 4,
+      "outcome": "4.21",
+      "type": "list",
+      "front": "OEO derivative account approval restrictions cover which products/strategies?",
+      "back": "OTC derivatives; options strategies other than low-risk strategies based on long calls, long puts, covered calls or protective (long) puts; trading in CFDs; futures or similar derivative trading strategies.",
+      "rule_refs": [
+        "Syllabus 4.21"
+      ],
+      "source_quote": "\"Options trading strategies other than low-risk strategies based on long calls, long puts, covered calls or protective (long) puts\" — syllabus-raw.txt ~lines 1071-1072",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0078",
+      "element": 4,
+      "outcome": "4.21",
+      "type": "list",
+      "front": "Name the three written OEO disclosures required before opening.",
+      "back": "No recommendations — client solely responsible for all investment decisions; no 3402/3403 suitability determination; no determination that products and account types offered are appropriate.",
+      "rule_refs": [
+        "IDPC 3241(3)(i)"
+      ],
+      "source_quote": "\"a statement confirming that the Dealer Member will not provide any recommendations to the client and that the client is solely responsible for making all investment decisions\" — idpc-rules.txt ~lines 5001-5003",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0079",
+      "element": 4,
+      "outcome": "4.21",
+      "type": "process",
+      "front": "Who acknowledges the OEO disclosures, and in what recorded forms?",
+      "back": "The client AND each beneficial owner. Forms: signature/initials on a document specific to the disclosure; electronic acknowledgement attached to the text; or taped verbal acknowledgement.",
+      "rule_refs": [
+        "IDPC 3241(3)(ii)",
+        "IDPC 3241(4)"
+      ],
+      "source_quote": "\"obtain a positive acknowledgement from the client, and each beneficial owner of the account, confirming that the client, and each beneficial owner, has received and understood the disclosures\" — idpc-rules.txt ~lines 5014-5016",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0080",
+      "element": 4,
+      "outcome": "4.13",
+      "type": "trap",
+      "front": "TRAP: who keeps the managed-account approval record, and who receives the fair-allocation policy?",
+      "back": "The dealer retains the designated Supervisor's written approval record; the CLIENT receives the fair-allocation policy copy. Distractors swap recipient and retainer.",
+      "rule_refs": [
+        "IDPC 3277(1)(v)-(vi)"
+      ],
+      "source_quote": "\"the Dealer Member must retain a record of the designated Supervisor's approval, and (vi) the Dealer Member must provide the client with a copy of its policy\" — idpc-rules.txt ~lines 5417-5418",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E4-0081",
+      "element": 4,
+      "outcome": "4.6",
+      "type": "process",
+      "front": "Delivering the leverage risk disclosure statement is not enough — what else is required?",
+      "back": "The retail client's positive acknowledgement that they received it.",
+      "rule_refs": [
+        "IDPC 3217(1)(ii)"
+      ],
+      "source_quote": "\"obtain the retail client's positive acknowledgement that they are in receipt of the\" — idpc-rules.txt ~line 4852",
+      "status": "draft"
+    }
+  ]
+}

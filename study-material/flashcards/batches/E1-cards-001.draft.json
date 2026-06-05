@@ -1,0 +1,783 @@
+{
+  "meta": {
+    "batch": "E1-CARDS-001",
+    "element": 1,
+    "drafted": 58,
+    "date": "2026-06-04",
+    "purpose": "Crash-course flashcards for Element 1 (General regulatory framework), drafted as a fast refresher before drilling question bank batch E1-001. Every fact quoted from local sources at drafting time.",
+    "sourcing_note": "Regulator/statute outcomes (1.1-1.12, 1.15) sourced from verbatim syllabus parameter text (the exam tests purpose/general-requirements level). IDPC-anchored outcomes (1.13-1.14, 1.16-1.23) quote idpc-rules.txt (Rule 1400; 2554; 3110-3118; 3619; 3700 series; 8100/8200; 9500 series). All source_quotes verified contiguous against the corpus on 2026-06-04.",
+    "corpus": [
+      "syllabus-raw.txt (Element 1, lines 164-452)",
+      "idpc-rules.txt (2026-01-08)"
+    ],
+    "patch_note": "Patch cards appended 2026-06-04 after open-cards solve gate identified missing facts (see qa-log.md)."
+  },
+  "cards": [
+    {
+      "id": "FC-E1-0001",
+      "element": 1,
+      "outcome": "1.1",
+      "type": "definition",
+      "front": "What is the CSA and what does outcome 1.1 test about it?",
+      "back": "The umbrella of provincial/territorial securities and derivatives regulators — its jurisdiction, mandate and objectives, forms of legislation, registration requirements, enforcement powers.",
+      "rule_refs": [
+        "Syllabus 1.1"
+      ],
+      "source_quote": "\"Understand the role and authority of the Canadian Securities Administrators (CSA) and provincial/territorial securities and derivatives regulators.\" — syllabus-raw.txt ~line 168",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0002",
+      "element": 1,
+      "outcome": "1.1",
+      "type": "list",
+      "front": "Name the five forms of CSA legislation/policy instruments in syllabus 1.1.",
+      "back": "National Instruments (NI); Multilateral Instruments (MI); National policies; Staff Notices; Companion Policies (CP).",
+      "rule_refs": [
+        "Syllabus 1.1"
+      ],
+      "source_quote": "\"- National Instruments (NI)\" — syllabus-raw.txt ~line 182; \"- Multilateral Instruments (MI)\" — ~line 186; \"- National policies\" — ~line 190; \"- Staff Notices - Companion Policies (CP)\" — ~lines 194-195",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0003",
+      "element": 1,
+      "outcome": "1.2",
+      "type": "definition",
+      "front": "Where does CIRO's regulatory authority come from?",
+      "back": "Recognition orders and delegated authorities from the securities regulators — CIRO is the recognized SRO, with its own jurisdiction, mandate and enforcement powers.",
+      "rule_refs": [
+        "Syllabus 1.2"
+      ],
+      "source_quote": "\"Purpose of recognition orders and delegated authorities\" — syllabus-raw.txt ~line 210",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0004",
+      "element": 1,
+      "outcome": "1.2",
+      "type": "trap",
+      "front": "TRAP: which body issues the IDPC Rules and UMIR — the CSA or CIRO?",
+      "back": "CIRO. NIs/MIs/National policies/Staff Notices/Companion Policies are CSA instruments (1.1); IDPC Rules and UMIR are CIRO rule books (1.2).",
+      "rule_refs": [
+        "Syllabus 1.2",
+        "Syllabus 1.1"
+      ],
+      "source_quote": "\"Investment Dealer and Partially Consolidated (IDPC) Rules • Universal Market Integrity Rules (UMIR)\" — syllabus-raw.txt ~lines 220-221",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0005",
+      "element": 1,
+      "outcome": "1.3",
+      "type": "process",
+      "front": "Who is involved when a firm registers as an Investment Dealer and its individuals seek approval?",
+      "back": "Both layers: the CSA's regulators and CIRO each have a role in dealer registration and individual approval.",
+      "rule_refs": [
+        "Syllabus 1.3"
+      ],
+      "source_quote": "\"Understand the requirement for Investment Dealer registration and individual approval requirements and the role of CSA and CIRO in this process.\" — syllabus-raw.txt ~line 175",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0006",
+      "element": 1,
+      "outcome": "1.4",
+      "type": "list",
+      "front": "List the four marketplace categories in syllabus 1.4.",
+      "back": "Exchanges; Alternative Trading Systems (ATS); Crypto-Asset Trading Platforms (CTPs); Foreign Organized Regulated Markets (FORM).",
+      "rule_refs": [
+        "Syllabus 1.4"
+      ],
+      "source_quote": "\"• Exchanges\" — syllabus-raw.txt ~line 180; \"• Alternative Trading Systems (ATS)\" — ~line 184; \"• Crypto-Asset Trading Platforms (CTPs)\" — ~line 188; \"• Foreign Organized Regulated Markets (FORM)\" — ~line 192",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0007",
+      "element": 1,
+      "outcome": "1.5",
+      "type": "distinction",
+      "front": "CDS vs CDCC — which is which?",
+      "back": "CDS = Canadian Depository for Securities Limited (securities); CDCC = Canadian Derivatives Clearing Corporation (derivatives). The two clearing agencies in syllabus 1.5.",
+      "rule_refs": [
+        "Syllabus 1.5"
+      ],
+      "source_quote": "\"• Canadian Depository for Securities Limited (CDS) • Canadian Derivatives Clearing Corporation (CDCC)\" — syllabus-raw.txt ~lines 201-202",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0008",
+      "element": 1,
+      "outcome": "1.6",
+      "type": "list",
+      "front": "What four CIPF aspects does syllabus 1.6 test?",
+      "back": "Purpose and objective; funding requirements by Investment Dealers; governance structure; role in a dealer's bankruptcy/insolvency, including pooling of client assets.",
+      "rule_refs": [
+        "Syllabus 1.6"
+      ],
+      "source_quote": "\"Role of CIPF in an Investment Dealer’s bankruptcy/insolvency, including pooling of client assets\" — syllabus-raw.txt ~lines 216-217",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0009",
+      "element": 1,
+      "outcome": "1.6",
+      "type": "trap",
+      "front": "TRAP: CIPF protects clients against which kind of loss?",
+      "back": "Loss from an Investment Dealer's bankruptcy/insolvency (assets returned, pooled where needed) — never market losses, conduct losses, or unsuitable-advice losses.",
+      "rule_refs": [
+        "Syllabus 1.6"
+      ],
+      "source_quote": "\"Role of CIPF in an Investment Dealer’s bankruptcy/insolvency, including pooling of client assets\" — syllabus-raw.txt ~lines 216-217",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0010",
+      "element": 1,
+      "outcome": "1.7",
+      "type": "trap",
+      "front": "TRAP: match the 1.7 agency — suspicious-transaction analysis, federal financial-institution oversight, Ontario sectoral regulation, market-crime policing.",
+      "back": "FINTRAC = transaction analysis; OSFI = federal financial institutions; FSRA = Ontario; RCMP IMET = market-crime enforcement. Exam swaps these mandates.",
+      "rule_refs": [
+        "Syllabus 1.7"
+      ],
+      "source_quote": "\"• Financial Transactions and Reports Analysis Centre of Canada (FINTRAC)\" — syllabus-raw.txt ~line 236; \"• RCMP Integrated Market Enforcement Teams (IMET)\" — ~line 232",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0011",
+      "element": 1,
+      "outcome": "1.7",
+      "type": "list",
+      "front": "Which US securities/derivatives regulators must a Supervisor recognize (1.7)?",
+      "back": "Securities Exchange Commission (SEC); Financial Industry Regulatory Authority (FINRA); Commodity Futures Trading Commission (CFTC); National Futures Association (NFA).",
+      "rule_refs": [
+        "Syllabus 1.7"
+      ],
+      "source_quote": "\"US: Securities Exchange Commission (SEC), Financial Industry Regulatory Authority (FINRA), Commodity Futures Trading Commission (CFTC), National Futures Association (NFA)\" — syllabus-raw.txt ~lines 248-250",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0012",
+      "element": 1,
+      "outcome": "1.8",
+      "type": "list",
+      "front": "The Bank Act's three purposes per syllabus 1.8 — and which other federal statute is paired with it?",
+      "back": "Ensure stability and integrity; protect consumers; promote competition. Paired with Bankruptcy and Insolvency Act Part XII — Bankruptcy of a Securities Firm.",
+      "rule_refs": [
+        "Syllabus 1.8"
+      ],
+      "source_quote": "\"• Bank Act - Ensure stability and integrity - Protect consumers - Promote competition • Bankruptcy and Insolvency Act, Part XII – Bankruptcy of a Securities Firm\" — syllabus-raw.txt ~lines 253-258",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0013",
+      "element": 1,
+      "outcome": "1.9",
+      "type": "list",
+      "front": "List the eleven Criminal Code financial-crime categories in syllabus 1.9.",
+      "back": "Fraud; theft; theft by person holding POA; misappropriation under direction; false statement/pretenses; obtaining execution of security by fraud; forgery; uttering forged document; false prospectus; organized crime; illegal insider trading.",
+      "rule_refs": [
+        "Syllabus 1.9"
+      ],
+      "source_quote": "\"• Fraud • Theft • Theft by person holding power of attorney • Misappropriation of money under direction • False statement or false pretenses • Obtaining execution of security by fraud • Forgery\" — syllabus-raw.txt ~lines 261-267",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0014",
+      "element": 1,
+      "outcome": "1.10",
+      "type": "list",
+      "front": "Name the three stages of money laundering tested under PCMLTFA (1.10).",
+      "back": "Placement, layering, integration — the syllabus tests 'stages of money laundering' as a PCMLTFA topic alongside compliance program requirements.",
+      "rule_refs": [
+        "Syllabus 1.10"
+      ],
+      "source_quote": "\"• Stages of money laundering\" — syllabus-raw.txt ~line 283; \"• Compliance program requirements\" — ~line 287",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0015",
+      "element": 1,
+      "outcome": "1.10",
+      "type": "list",
+      "front": "Besides ML stages and the compliance program, list the remaining PCMLTFA topics in 1.10.",
+      "back": "AML policies and procedures; client information and due diligence requirements; enterprise risk assessment and indicators; employee training; business relationship record-keeping.",
+      "rule_refs": [
+        "Syllabus 1.10"
+      ],
+      "source_quote": "\"• Anti-money laundering policies and procedures\" — syllabus-raw.txt ~line 291; \"• Client information and due diligence requirements\" — ~line 295; \"• Enterprise risk assessment and indicators\" — ~line 299; \"• Business relationship record-keeping\" — ~line 307",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0016",
+      "element": 1,
+      "outcome": "1.11",
+      "type": "list",
+      "front": "CASL's five purposes per syllabus 1.11?",
+      "back": "Reducing spam; enhancing privacy; promoting electronic commerce; deterring malicious activities; encouraging compliance and accountability.",
+      "rule_refs": [
+        "Syllabus 1.11"
+      ],
+      "source_quote": "\"- Reducing spam\" — syllabus-raw.txt ~line 317; \"- Enhancing privacy\" — ~line 321; \"- Promoting electronic commerce\" — ~line 325; \"- Deterring malicious activities - Encouraging compliance and accountability\" — ~lines 329-330",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0017",
+      "element": 1,
+      "outcome": "1.12",
+      "type": "threshold",
+      "front": "Corporation requirements, securities laws and applicable laws conflict. Which one governs?",
+      "back": "The most stringent: IDPC 1406(2) requires compliance with the most stringent of the Corporation requirements, securities laws or applicable laws.",
+      "rule_refs": [
+        "IDPC 1406(2)",
+        "Syllabus 1.12"
+      ],
+      "source_quote": "\"compliance with the most stringent of the Corporation requirements, securities laws or applicable laws is required\" — idpc-rules.txt ~line 961",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0018",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "threshold",
+      "front": "An AP is the subject of a written client complaint. How fast must the AP report it, and to whom?",
+      "back": "Within two business days, to the Dealer Member (IDPC 3702(1)) — the AP's own clock, distinct from the dealer's reporting and acknowledgement timelines.",
+      "rule_refs": [
+        "IDPC 3702(1)"
+      ],
+      "source_quote": "\"An Approved Person must report to the Dealer Member any of the following matters within two business days\" — idpc-rules.txt ~line 6149; \"if the Approved Person is the subject of a written client complaint\" — ~line 6154",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0019",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "threshold",
+      "front": "Deadline for the dealer's complaint acknowledgement letter to a retail complainant?",
+      "back": "Within five business days of receipt of the complaint (IDPC 3725(1)).",
+      "rule_refs": [
+        "IDPC 3725(1)"
+      ],
+      "source_quote": "\"The Dealer Member must send an acknowledgement letter to the complainant within five business days of receipt of a complaint.\" — idpc-rules.txt ~lines 6411-6412",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0020",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "threshold",
+      "front": "Deadline for the dealer's substantive response to a retail complaint — and what if it can't be met?",
+      "back": "As soon as possible, not later than 90 days from receipt; if unable, inform the client (reasons, new estimate) and inform CIRO with reasons.",
+      "rule_refs": [
+        "IDPC 3726(4)"
+      ],
+      "source_quote": "\"A Dealer Member must respond to each client complaint as soon as possible and not later than 90 days from the date of receipt of the complaint\" — idpc-rules.txt ~lines 6454-6455",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0021",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "definition",
+      "front": "Who is the designated complaints officer (DCO) and what must they have?",
+      "back": "The dealer-appointed individual with requisite experience and authority to oversee complaint handling and act as liaison with the Corporation (IDPC 3722(2)).",
+      "rule_refs": [
+        "IDPC 3722(2)"
+      ],
+      "source_quote": "\"The Dealer Member must appoint an individual to act as the designated complaints officer. The individual must have the requisite experience and authority to oversee the complaint handling\" — idpc-rules.txt ~lines 6370-6371",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0022",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "trap",
+      "front": "TRAP: can a verbal client complaint trigger Part E retail complaint handling?",
+      "back": "Yes — a verbal expression of dissatisfaction alleging misconduct triggers Part E where a preliminary investigation indicates the allegation may have merit (3721(1)(ii)).",
+      "rule_refs": [
+        "IDPC 3721(1)"
+      ],
+      "source_quote": "\"a verbal expression of dissatisfaction with the Dealer Member or employee alleging misconduct where a preliminary investigation indicates that the allegation may have merit\" — idpc-rules.txt ~lines 6356-6357",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0023",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "process",
+      "front": "When must a dealer commence an internal investigation under IDPC 3706?",
+      "back": "If it appears the dealer or a current or former AP, while employed there, engaged in listed activities (theft, fraud, forgery, unauthorized trading, etc.) — any jurisdiction.",
+      "rule_refs": [
+        "IDPC 3706(1)"
+      ],
+      "source_quote": "\"A Dealer Member must conduct an internal investigation if it appears that the Dealer Member or a current or former Approved Person while employed by the Dealer Member engaged in any of the following\" — idpc-rules.txt ~lines 6262-6263",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0024",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "list",
+      "front": "Which client complaints must a dealer report to CIRO under 3703(2)(i)?",
+      "back": "All client complaints against the dealer or any current or former Approved Person — except service complaints (service issues not subject to securities laws).",
+      "rule_refs": [
+        "IDPC 3703(2)(i)"
+      ],
+      "source_quote": "\"all client complaints, against the Dealer Member or any current or former Approved Person, except service complaints\" — idpc-rules.txt ~line 6179",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0025",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "threshold",
+      "front": "What follows a failure to report under IDPC 3702/3703?",
+      "back": "CIRO may impose an administrative fee, or other penalties permitted under Corporation requirements, against the dealer or Approved Person (3704(1)).",
+      "rule_refs": [
+        "IDPC 3704(1)"
+      ],
+      "source_quote": "\"an administrative fee, or other penalties that are permitted under Corporation requirements, against the Dealer Member or Approved Person\" — idpc-rules.txt ~lines 6256-6257",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0026",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "process",
+      "front": "An AP with an open complaint moves to a new dealer. What is the AP's continuing duty?",
+      "back": "Continue to co-operate with the dealer where they were employed or acted as agent until the complaint is resolved (3727(1)); dealers must co-operate too.",
+      "rule_refs": [
+        "IDPC 3727(1)",
+        "IDPC 3727(2)"
+      ],
+      "source_quote": "\"the Approved Person must continue to co-operate with the Dealer Member where they were employed or acted as an agent until the complaint has been resolved\" — idpc-rules.txt ~lines 6470-6471",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0027",
+      "element": 1,
+      "outcome": "1.14",
+      "type": "distinction",
+      "front": "Arbitration vs ombudsman recourse: which binds the dealer?",
+      "back": "Arbitration: client request forces the dealer into binding arbitration (9502(4)). Ombudsman: recommendations are non-binding on each participant (9503(6)).",
+      "rule_refs": [
+        "IDPC 9502(4)",
+        "IDPC 9503(6)"
+      ],
+      "source_quote": "\"If a client requests arbitration, the Dealer Member involved must submit to binding arbitration in\" — idpc-rules.txt ~line 20211; \"The ombudsman's recommendations are non-binding on each participant in the service.\" — ~line 20224",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0028",
+      "element": 1,
+      "outcome": "1.14",
+      "type": "list",
+      "front": "The substantive response letter must describe which options for a dissatisfied client?",
+      "back": "Arbitration; litigation/civil action; submitting a complaint to the Corporation; the ombudsman service (within its time limit); any affiliate internal ombudsman (voluntary, with timing estimate).",
+      "rule_refs": [
+        "IDPC 3726(3)(iv)"
+      ],
+      "source_quote": "\"the Dealer Member’s response, including the availability of: (a) arbitration,\" — idpc-rules.txt ~lines 6442-6443; \"(c) submitting a complaint to the Corporation,\" — ~line 6445",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0029",
+      "element": 1,
+      "outcome": "1.14",
+      "type": "trap",
+      "front": "TRAP: a client sues over the same allegations they complained about. Does Part E complaint handling still apply?",
+      "back": "No — any matter that is the subject of a civil action or arbitration is not a complaint for section 3721. Dealer reporting duties to CIRO continue.",
+      "rule_refs": [
+        "IDPC 3721(3)",
+        "IDPC 3703(2)"
+      ],
+      "source_quote": "\"Any matter which is the subject of a civil action or arbitration is not considered to be a complaint\" — idpc-rules.txt ~line 6365",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0030",
+      "element": 1,
+      "outcome": "1.15",
+      "type": "trap",
+      "front": "TRAP: CIRO's whistleblower service handles which kind of matters?",
+      "back": "Non-client account matters: misconduct or illegal activity within an organization, potential systemic wrongdoing, potential securities frauds. Client account matters go through complaint handling.",
+      "rule_refs": [
+        "Syllabus 1.15"
+      ],
+      "source_quote": "\"Understand situations that may require CIRO whistleblower service for non-client account matters, including:\" — syllabus-raw.txt ~lines 314-315; \"• Potential systemic wrongdoing\" — ~line 323",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0031",
+      "element": 1,
+      "outcome": "1.16",
+      "type": "process",
+      "front": "Before an AP settles anything with a client, what must happen — and does it matter how the settlement arose?",
+      "back": "The dealer's written consent first — regardless of the settlement's form and regardless of whether it arose from a complaint or the AP's/dealer's own finding.",
+      "rule_refs": [
+        "IDPC 3710(1)"
+      ],
+      "source_quote": "\"An Approved Person must obtain the Dealer Member’s written consent before entering into any settlement agreement with a client, regardless of the form of the settlement\" — idpc-rules.txt ~lines 6299-6300",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0032",
+      "element": 1,
+      "outcome": "1.16",
+      "type": "trap",
+      "front": "TRAP: can a release bought with a settlement gag the client from going to regulators?",
+      "back": "No — a release may not impose confidentiality or similar restrictions preventing the client from initiating or continuing complaints to securities regulators, SROs or enforcement authorities (3711).",
+      "rule_refs": [
+        "IDPC 3711(1)"
+      ],
+      "source_quote": "\"A release entered into between a Dealer Member and a client may not impose confidentiality or\" — idpc-rules.txt ~line 6310",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0033",
+      "element": 1,
+      "outcome": "1.16",
+      "type": "threshold",
+      "front": "Maximum hearing-panel fine on an AP (Regulated Person other than a Dealer Member) under IDPC 8210?",
+      "back": "The greater of $5,000,000 per contravention and three times the profit made or loss avoided; plus reprimand, disgorgement, suspension, revocation, permanent bars available.",
+      "rule_refs": [
+        "IDPC 8210(1)(iii)"
+      ],
+      "source_quote": "\"a fine not exceeding the greater of: (a) $5,000,000 for each contravention, and (b) an amount equal to three times the profit made or loss avoided by the person\" — idpc-rules.txt ~lines 18293-18295",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0034",
+      "element": 1,
+      "outcome": "1.17",
+      "type": "list",
+      "front": "State the IDPC 1402(1) standards of conduct.",
+      "back": "Observe high standards of ethics and conduct; act openly and fairly and in accordance with just and equitable principles of trade; no conduct unbecoming or detrimental to the public interest.",
+      "rule_refs": [
+        "IDPC 1402(1)",
+        "Syllabus 1.17"
+      ],
+      "source_quote": "\"act openly and fairly and in accordance with just and equitable principles of trade, and (ii) must not engage in any business conduct that is unbecoming or detrimental to the public\" — idpc-rules.txt ~lines 897-898",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0035",
+      "element": 1,
+      "outcome": "1.17",
+      "type": "list",
+      "front": "Under 1402(2), which four kinds of business conduct MAY contravene the standards of conduct?",
+      "back": "Negligent conduct; failing a legal/regulatory/contractual or other obligation; unreasonable departure from expected standards; conduct likely to diminish investor confidence in market integrity.",
+      "rule_refs": [
+        "IDPC 1402(2)",
+        "Syllabus 1.17"
+      ],
+      "source_quote": "\"displays an unreasonable departure from standards that are expected to be observed by a Regulated Person, or (iv) is likely to diminish investor confidence in the integrity of securities or derivatives markets\" — idpc-rules.txt ~lines 904-905",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0036",
+      "element": 1,
+      "outcome": "1.17",
+      "type": "list",
+      "front": "How does ethical behaviour relate to compliance per syllabus 1.17 — name the five qualities.",
+      "back": "Proper care; independent professional judgment; trustworthiness and integrity; honesty and fairness; professionalism.",
+      "rule_refs": [
+        "Syllabus 1.17"
+      ],
+      "source_quote": "\"- Proper care - Independent professional judgment\" — syllabus-raw.txt ~lines 344-345; \"- Trustworthiness and integrity\" — ~line 349; \"- Honesty and fairness\" — ~line 353; \"- Professionalism\" — ~line 361",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0037",
+      "element": 1,
+      "outcome": "1.18",
+      "type": "list",
+      "front": "The four pillars of ethics and integrity in corporate governance (1.18)?",
+      "back": "Transparency; dealing with compensation conflicts; oversight and accountability; training and awareness.",
+      "rule_refs": [
+        "Syllabus 1.18"
+      ],
+      "source_quote": "\"• Transparency\" — syllabus-raw.txt ~line 384; \"• Dealing with compensation conflicts\" — ~line 388; \"• Oversight and accountability\" — ~line 392; \"• Training and awareness\" — ~line 396",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0038",
+      "element": 1,
+      "outcome": "1.19",
+      "type": "list",
+      "front": "Consequences and risks of unethical behaviour (1.19) — list all five.",
+      "back": "Legal consequences; reputational damage; regulatory scrutiny; employee morale and turnover; client confidence and turnover.",
+      "rule_refs": [
+        "Syllabus 1.19"
+      ],
+      "source_quote": "\"• Legal consequences • Reputational damage • Regulatory scrutiny\" — syllabus-raw.txt ~lines 401-403; \"• Employee morale and turnover\" — ~line 410; \"• Client confidence and turnover\" — ~line 414",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0039",
+      "element": 1,
+      "outcome": "1.20",
+      "type": "process",
+      "front": "An AP identifies a material conflict between themselves and a client. First step?",
+      "back": "Promptly report that conflict of interest to the Dealer Member (3110(3)) — before any client disclosure or continued activity.",
+      "rule_refs": [
+        "IDPC 3110(2)",
+        "IDPC 3110(3)"
+      ],
+      "source_quote": "\"Approved Person must promptly report that conflict of interest to the Dealer Member\" — idpc-rules.txt ~line 3923",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0040",
+      "element": 1,
+      "outcome": "1.20",
+      "type": "threshold",
+      "front": "Two conditions before an AP may trade/advise in connection with an identified material conflict (3111(3))?",
+      "back": "(1) The conflict has been addressed in the best interest of the client, and (2) the Dealer Member has consented to the AP proceeding with the activity.",
+      "rule_refs": [
+        "IDPC 3111(3)"
+      ],
+      "source_quote": "\"(i) the conflict has been addressed in the best interest of the client, and (ii) the Dealer Member has given the Approved Person its consent to proceed with the activity.\" — idpc-rules.txt ~lines 3936-3937",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0041",
+      "element": 1,
+      "outcome": "1.20",
+      "type": "trap",
+      "front": "TRAP: does written conflict disclosure to the client discharge the dealer's/AP's conflict obligations?",
+      "back": "No — 3113(3): disclosure alone does not satisfy 3111(1)/3112(1). The conflict must be addressed in the client's best interest, or avoided if it cannot be.",
+      "rule_refs": [
+        "IDPC 3113(3)",
+        "IDPC 3112(2)"
+      ],
+      "source_quote": "\"a Dealer Member and an Approved Person do not satisfy subsections 3111(1)\" — idpc-rules.txt ~line 3963",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0042",
+      "element": 1,
+      "outcome": "1.20",
+      "type": "process",
+      "front": "What does the 1.20 conflicts framework require for producing Supervisors?",
+      "back": "Applicable standards of care, ethics and independent supervision — a producing Supervisor's own client book cannot be self-reviewed; independent review applies.",
+      "rule_refs": [
+        "Syllabus 1.20"
+      ],
+      "source_quote": "\"Applicable standards of care, ethics and independent supervision requirements for producing Supervisors\" — syllabus-raw.txt ~lines 427-428",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0043",
+      "element": 1,
+      "outcome": "1.20",
+      "type": "list",
+      "front": "Syllabus 1.20: the three conflict-identification categories, plus three further considerations?",
+      "back": "Categories: compensatory, managerial, ownership. Further: protection/proper use of corporate assets and opportunities; confidentiality of corporate/client/third-party information; fair dealing with all stakeholders.",
+      "rule_refs": [
+        "Syllabus 1.20"
+      ],
+      "source_quote": "\"- Managerial - Ownership • Protection and proper use of corporate assets and opportunities • Confidentiality of corporate, client and third-party information • Fair dealing with securities holders, clients, suppliers, competitors and employees\" — syllabus-raw.txt lines 438-443 ('Compensatory' verbatim at line 436, displaced by a PDF column artifact)",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0044",
+      "element": 1,
+      "outcome": "1.21",
+      "type": "threshold",
+      "front": "Two threshold conditions any outside activity must satisfy (2554(1))?",
+      "back": "It is not contrary to securities laws or Corporation requirements, and does not bring the securities industry into disrepute. Fails either = prohibition, not approval.",
+      "rule_refs": [
+        "IDPC 2554(1)"
+      ],
+      "source_quote": "\"(i) is not contrary to securities laws or Corporation requirements, and (ii) does not bring the securities industry into disrepute.\" — idpc-rules.txt ~lines 3038-3039",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0045",
+      "element": 1,
+      "outcome": "1.21",
+      "type": "process",
+      "front": "Sequence for an AP to hold an outside activity under 2554(2)?",
+      "back": "AP informs the dealer; AP obtains the dealer's prior approval; dealer's P&Ps address continuous service to clients and potential conflicts; dealer notifies CIRO per NI 33-109.",
+      "rule_refs": [
+        "IDPC 2554(2)"
+      ],
+      "source_quote": "\"the Dealer Member notifies the Corporation of the outside activity within the time period and manner required by National Instrument 33-109\" — idpc-rules.txt ~lines 3048-3049",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0046",
+      "element": 1,
+      "outcome": "1.21",
+      "type": "list",
+      "front": "Syllabus 1.21's analysis points for outside activities and positions of influence?",
+      "back": "Prohibition/approval/disclosure/action requirements; existing and reasonably foreseeable material conflicts of interest; written disclosure where applicable; reporting obligations where applicable.",
+      "rule_refs": [
+        "Syllabus 1.21"
+      ],
+      "source_quote": "\"• Existing and reasonably foreseeable material conflicts of interest • Written disclosure, where applicable • Reporting obligations, where applicable\" — syllabus-raw.txt ~lines 449-451",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0047",
+      "element": 1,
+      "outcome": "1.22",
+      "type": "definition",
+      "front": "State the IDPC 3115(1) baseline rule on personal financial dealings.",
+      "back": "An employee or Approved Person must not, directly or indirectly, engage in any personal financial dealings with clients — exemptions are narrow and conditional.",
+      "rule_refs": [
+        "IDPC 3115(1)"
+      ],
+      "source_quote": "\"An employee or Approved Person of a Dealer Member must not, directly or indirectly, engage in\" — idpc-rules.txt ~line 3976",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0048",
+      "element": 1,
+      "outcome": "1.22",
+      "type": "list",
+      "front": "Name the five personal-financial-dealing types listed in 3115(2).",
+      "back": "Accepting any consideration; settlement agreements without dealer approval; borrowing from clients; lending to clients; control or authority over a client's financial affairs.",
+      "rule_refs": [
+        "IDPC 3115(2)",
+        "Syllabus 1.22"
+      ],
+      "source_quote": "\"• Accepting any consideration\" — syllabus-raw.txt ~line 386; \"• Settlement agreements\" — ~line 390; \"• Borrowing from clients\" — ~line 394; \"• Lending to clients\" — ~line 398; \"• Control or authority\" — ~line 405",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0049",
+      "element": 1,
+      "outcome": "1.22",
+      "type": "threshold",
+      "front": "When does a gift from a client escape the prohibited-consideration rule?",
+      "back": "When non-monetary, of minimal value, and infrequent — such that a reasonable person would not question whether it created a conflict (3115(2)(i)(a)(I)).",
+      "rule_refs": [
+        "IDPC 3115(2)(i)"
+      ],
+      "source_quote": "\"Consideration that is non-monetary, of minimal value, and infrequent such that\" — idpc-rules.txt ~line 3983",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0050",
+      "element": 1,
+      "outcome": "1.22",
+      "type": "distinction",
+      "front": "Borrowing FROM a client: the two exemption routes under 3115(2)(iii)?",
+      "back": "(I) Client is a financial institution lending to the public, borrowing in its normal course; or (II) client is a Related Person (Income Tax Act), handled per dealer P&Ps.",
+      "rule_refs": [
+        "IDPC 3115(2)(iii)"
+      ],
+      "source_quote": "\"the client is a financial institution whose business includes lending money to\" — idpc-rules.txt ~line 3999",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0051",
+      "element": 1,
+      "outcome": "1.22",
+      "type": "trap",
+      "front": "TRAP: lending TO a client — same exemptions as borrowing from one?",
+      "back": "Narrower: only the Related Person route exists (no financial-institution branch); plus, for RRs/IRs/PMs/APMs, prior written dealer disclosure-and-approval is required for both directions.",
+      "rule_refs": [
+        "IDPC 3115(2)(iv)",
+        "IDPC 3115(2)(iii)"
+      ],
+      "source_quote": "\"Lending money, or providing a guarantee in relation to a loan of money, securities or\" — idpc-rules.txt ~line 4017",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0052",
+      "element": 1,
+      "outcome": "1.22",
+      "type": "trap",
+      "front": "TRAP: an AP quietly pays a client's account losses from personal funds. Allowed if no formal settlement is signed?",
+      "back": "No — paying for client account losses out of personal funds without the dealer's prior written consent is itself a prohibited personal financial dealing (3115(2)(ii)(b)).",
+      "rule_refs": [
+        "IDPC 3115(2)(ii)"
+      ],
+      "source_quote": "\"Paying for client account losses out of personal funds without the Dealer Member’s\" — idpc-rules.txt ~line 3994",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0053",
+      "element": 1,
+      "outcome": "1.23",
+      "type": "list",
+      "front": "Syllabus 1.23 containment processes for confidential/material non-public information?",
+      "back": "Information barriers and firewalls; grey and restricted list; cybersecurity — applied to those exposed (investment banking/corporate finance staff; issuer trading, research, insider relationships).",
+      "rule_refs": [
+        "Syllabus 1.23"
+      ],
+      "source_quote": "\"• Information barriers and firewalls\" — syllabus-raw.txt ~line 430; \"• Grey and restricted list\" — ~line 434; \"• Cybersecurity\" — ~line 438",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0054",
+      "element": 1,
+      "outcome": "1.23",
+      "type": "threshold",
+      "front": "Trading blackout for someone directly involved in preparing/approving a research report?",
+      "back": "No trading in the subject issuer's equity or equity-related securities from 30 days before until five days after issuance — absent prior written approval of a designated Executive.",
+      "rule_refs": [
+        "IDPC 3619(2)",
+        "IDPC 3619(3)"
+      ],
+      "source_quote": "\"must not trade in equity securities or equity related securities of the subject issuer for a period beginning 30 days prior to and ending five days after the issuance of the research report\" — idpc-rules.txt ~lines 6039-6040",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0055",
+      "element": 1,
+      "outcome": "1.23",
+      "type": "list",
+      "front": "Per syllabus 1.23, who is exposed to receiving confidential information?",
+      "back": "Investment banking and corporate finance staff; other staff exposed through, for example, trading by issuers, research departments, relationships with corporate insiders.",
+      "rule_refs": [
+        "Syllabus 1.23"
+      ],
+      "source_quote": "\"- Investment banking and corporate finance staff\" — syllabus-raw.txt ~line 412; \"• Trading by issuers • Research departments • Relationships with corporate insiders\" — ~lines 423-425",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0056",
+      "element": 1,
+      "outcome": "1.22",
+      "type": "trap",
+      "front": "TRAP: a client pays an AP for services delivered through an APPROVED outside activity. Prohibited consideration?",
+      "back": "No — compensation for services through an approved outside activity is not 'consideration' under 3115(2)(i)(a).",
+      "rule_refs": [
+        "IDPC 3115(2)(i)(a)(II)"
+      ],
+      "source_quote": "\"Compensation received from a client in exchange for services provided through\" — idpc-rules.txt ~line 3988",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0057",
+      "element": 1,
+      "outcome": "1.22",
+      "type": "list",
+      "front": "When MAY an AP hold control or authority over a client's financial affairs?",
+      "back": "Only if the client is a Related Person (Income Tax Act) and the control is addressed under the dealer's policies and procedures.",
+      "rule_refs": [
+        "IDPC 3115"
+      ],
+      "source_quote": "\"the client is a Related Person as defined by the Income Tax Act (Canada) and\" — idpc-rules.txt ~line 4029",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E1-0058",
+      "element": 1,
+      "outcome": "1.13",
+      "type": "list",
+      "front": "What must the 5-day complaint acknowledgement letter include?",
+      "back": "Handler's name/title/contact; statement to contact the handler for status or new information; explanation of the internal process incl. the DCO's role; approved brochure + limitation-periods reference.",
+      "rule_refs": [
+        "IDPC 3725(2)"
+      ],
+      "source_quote": "\"the name, job title and full contact information of the individual at the Dealer Member\" — idpc-rules.txt ~line 6414",
+      "status": "draft"
+    }
+  ]
+}

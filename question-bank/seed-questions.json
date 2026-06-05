@@ -1,0 +1,1021 @@
+{
+  "meta": {
+    "title": "Seed question bank — CIRO Supervisor Exam",
+    "count": 45,
+    "status": "reviewed — Gate 1 (blind solve) 45/45 PASS 2026-06-04; Gate 2 (citation audit vs IDPC Jan-2026/UMIR/GN-3900-20-001/syllabus) 44 pass + 1 fixed (SUP-E9-0002), 0 kills; report: batches/gate2-seeds-report.json. No SME; strict pipeline per PIPELINE.md.",
+    "distribution_note": "Weighted to the official blueprint (E1:5 E2:5 E3:4 E4:10 E5:8 E6:4 E7:3 E8:4 E9:2 = 45, i.e. half-exam proportions).",
+    "copyright_note": "All questions original. None copied from CIRO's practice exam or CSI materials."
+  },
+  "questions": [
+    {
+      "id": "SUP-E1-0001",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An Investment Dealer becomes insolvent. Which statement best describes the role of the Canadian Investor Protection Fund (CIPF)?",
+      "options": {
+        "A": "It guarantees that the dealer's creditors are paid before client property is returned.",
+        "B": "It protects client assets held by the insolvent dealer, within prescribed limits, including through the pooling of client assets.",
+        "C": "It assumes regulatory authority over the dealer's remaining Approved Persons.",
+        "D": "It compensates clients for losses in the market value of their investments caused by the insolvency."
+      },
+      "answer": "B",
+      "rationale": "CIPF protects property (cash, securities) held by a member firm on a client's behalf if the firm becomes insolvent, within coverage limits, and participates in the insolvency process including pooling of client assets. It never covers market-value losses (D), does not subordinate clients to creditors (A), and has no registration authority (C).",
+      "rule_refs": [
+        "Syllabus 1.6",
+        "CIPF coverage policy",
+        "BIA Part XII"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E1-0002",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A Registered Representative receives a written complaint from a client about unauthorized trades. To avoid escalation, the RR personally offers the client $5,000, which the client accepts. The dealer is not informed. Which statement is correct?",
+      "options": {
+        "A": "The RR only needed to disclose the settlement to the client's accountant.",
+        "B": "The RR has breached CIRO requirements: settlement agreements with clients require the dealer's approval, and the complaint triggers the dealer's complaint-handling and reporting obligations.",
+        "C": "The matter is resolved because the client accepted the settlement voluntarily.",
+        "D": "The RR acted properly as long as the payment fully compensated the client's loss."
+      },
+      "answer": "B",
+      "rationale": "Personal, undisclosed settlements with clients are prohibited conduct. Client complaints must flow through the dealer's complaint-handling process (designated complaints officer, investigation, reporting via ComSet where applicable), and settlements require dealer approval. Both the RR and potentially their Supervisor face regulatory consequences.",
+      "rule_refs": [
+        "IDPC 3700",
+        "Syllabus 1.13/1.16/1.22"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E1-0003",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under the PCMLTFA framework, a client deposits large amounts of cash from an unknown source, then executes a series of offsetting low-risk trades, and finally wires the proceeds to a corporate account abroad. The three stages of money laundering illustrated, in order, are:",
+      "options": {
+        "A": "Placement, layering, integration",
+        "B": "Integration, layering, placement",
+        "C": "Layering, placement, conversion",
+        "D": "Structuring, smurfing, integration"
+      },
+      "answer": "A",
+      "rationale": "Placement introduces illicit cash into the financial system; layering obscures its origin through transactions (e.g., offsetting trades); integration returns the funds to the launderer as apparently legitimate wealth. The Supervisor Exam tests PCMLTFA at the purpose/requirements level, including the stages of money laundering.",
+      "rule_refs": [
+        "PCMLTFA",
+        "GN-3200-23-001",
+        "Syllabus 1.10"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E1-0004",
+      "element": 1,
+      "outcome": "1.22",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A long-tenured RR asks her Supervisor whether she may accept a $20,000 personal loan from a wealthy retail client to bridge a home purchase, noting the client offered freely and the loan will be documented at market interest. How should the Supervisor respond?",
+      "options": {
+        "A": "Approve it if the client signs a waiver acknowledging the conflict.",
+        "B": "Refuse: borrowing from clients is a prohibited personal financial dealing, subject only to narrow exemptions (e.g., certain related-person or financial-institution situations) that do not apply here.",
+        "C": "Approve it, since the loan is documented and at market rates.",
+        "D": "Refer the question to the client's lawyer."
+      },
+      "answer": "B",
+      "rationale": "Personal financial dealings rules prohibit borrowing from (and lending to) clients, accepting consideration from non-clients for client business, and private settlements. Exemptions are narrow (e.g., the client is a related person or a financial institution in the lending business). Documentation and consent do not cure the prohibition.",
+      "rule_refs": [
+        "IDPC 3100 series (personal financial dealings)",
+        "Syllabus 1.22"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E1-0005",
+      "element": 1,
+      "outcome": "1.20",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A 'producing' Supervisor (one who also maintains their own book of clients) is assigned to review their own trades. Under CIRO conflicts-of-interest requirements, which control is required?",
+      "options": {
+        "A": "The Supervisor may review their own trades if they document each review.",
+        "B": "Independent supervision: another qualified Supervisor must review the producing Supervisor's client activity.",
+        "C": "The trades need review only if a client complains.",
+        "D": "None — Supervisors are exempt from trade reviews."
+      },
+      "answer": "B",
+      "rationale": "A Supervisor cannot independently supervise themselves; producing Supervisors are subject to applicable standards of care, ethics and independent supervision — their own client activity must be reviewed by another qualified Supervisor (cross-supervision). Self-review is the textbook compensatory/managerial conflict.",
+      "rule_refs": [
+        "IDPC 3900",
+        "Syllabus 1.20/5.7",
+        "GN-3900-20-001"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0001",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which of the following is NOT a minimum requirement of an Investment Dealer's supervision system?",
+      "options": {
+        "A": "Communication of policies to relevant employees, with acknowledgment that they have been read and understood",
+        "B": "A guarantee that no employee will ever violate CIRO requirements",
+        "C": "Annual review of financial and operational policies and procedures",
+        "D": "Written policies and procedures, amended within a reasonable time after rule changes"
+      },
+      "answer": "B",
+      "rationale": "The standard is reasonable assurance of compliance, not a guarantee. The system must include written P&Ps kept current, communication and acknowledgment, training, compliance-notice distribution, and annual review of financial/operational P&Ps.",
+      "rule_refs": [
+        "IDPC 3900",
+        "Syllabus 2.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0002",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Within an Investment Dealer's governance structure, which two Executives have prescribed reporting obligations to the Board of Directors?",
+      "options": {
+        "A": "The Chief Anti-Money Laundering Officer and the Chief Risk Officer",
+        "B": "The Ultimate Designated Person and the Head of Trading",
+        "C": "The Chief Compliance Officer and the Chief Financial Officer",
+        "D": "The designated complaints officer and the Chief Information Officer"
+      },
+      "answer": "C",
+      "rationale": "The syllabus highlights the CCO's and CFO's reporting requirements to the Board as part of Executives' supervision responsibilities. Executives are accountable to Directors for establishing the supervision system.",
+      "rule_refs": [
+        "IDPC 3900/2500 series",
+        "GN-1400-21-002",
+        "Syllabus 2.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0003",
+      "element": 2,
+      "outcome": "2.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A Supervisor delegates daily trade reviews to a qualified delegate. Six months later, CIRO finds deficiencies in those reviews. Which statement about responsibility is correct?",
+      "options": {
+        "A": "The Supervisor retains responsibility: delegation transfers the task, not the supervisory responsibility, and requires controls such as examining the delegate's reviews and regular reporting.",
+        "B": "No one is responsible if the delegate was properly qualified.",
+        "C": "Responsibility transferred to the delegate when the delegation was documented.",
+        "D": "The dealer's CEO is automatically liable instead of the Supervisor."
+      },
+      "answer": "A",
+      "rationale": "Delegation controls require: documented P&Ps for how delegation works, qualified delegates, records, escalation processes, examination of the delegate's reviews (would the delegator have approved the same items?), regular delegate-to-delegator reporting, and at least annual review of the delegation process. The delegator's responsibility is retained throughout.",
+      "rule_refs": [
+        "IDPC 3900",
+        "Syllabus 2.10"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0004",
+      "element": 2,
+      "outcome": "2.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer uses an automated process to approve new account applications. Which applicant would NOT typically trigger a required manual review?",
+      "options": {
+        "A": "An applicant who is a politically exposed person (PEP)",
+        "B": "An applicant below the age of majority",
+        "C": "An applicant who is an insider of a reporting issuer",
+        "D": "An employed adult applicant opening a basic cash account with no trading authorization"
+      },
+      "answer": "D",
+      "rationale": "Standard manual-review triggers: applicant is not an individual, is a minor, uses a trading authorization, requests derivatives strategies without adequate knowledge/experience, is an insider, or is a PEP. A routine individual cash-account applicant fits the automated path; the process must still be periodically tested and audited.",
+      "rule_refs": [
+        "Syllabus 2.12",
+        "GN-3900-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0005",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A branch Supervisor identifies repeated KYC update failures by an RR but has not been given authority by the dealer to restrict the RR's activity. The compliance department has noted the same issue twice without resolution. What does this situation most clearly indicate?",
+      "options": {
+        "A": "A problem belonging exclusively to the RR",
+        "B": "A requirement to dismiss the RR immediately",
+        "C": "An acceptable division of labour between compliance and supervision",
+        "D": "A deficiency in the supervision system: Supervisors must be given authority to act on the dealer's behalf, and unresolved issues must be escalated"
+      },
+      "answer": "D",
+      "rationale": "Supervision requires both responsibility and authority. Compliance identifies/advises/monitors/escalates, but Supervisors and management act. A Supervisor without authority to remediate, and repeated unresolved findings, are system deficiencies requiring escalation to Executives.",
+      "rule_refs": [
+        "GN-1400-21-002",
+        "IDPC 3900",
+        "Syllabus 2.7/2.8"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E3-0001",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which supervisory concern is unique to the order-execution-only (OEO) business model compared with the advisory model?",
+      "options": {
+        "A": "Ensuring discretionary authority is renewed annually",
+        "B": "Ensuring no recommendations are provided at all, while supervising risks arising from un-intermediated direct order entry (including DEA and CFD access)",
+        "C": "Ensuring research reports are pre-approved",
+        "D": "Ensuring recommendations are suitable for each client"
+      },
+      "answer": "B",
+      "rationale": "OEO dealers are exempt from suitability but must not provide recommendations; supervision focuses on the absence of advice, appropriateness at account opening, automated-approval controls, and direct order-entry risks. Suitability supervision (D) belongs to advisory; (A) is discretionary accounts.",
+      "rule_refs": [
+        "IDPC 3200/3900 (OEO)",
+        "GN-3400-21-003",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E3-0002",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A monthly review shows several retirement-age, income-objective clients of one RR holding leveraged inverse ETFs for many months. Why is this a supervisory red flag?",
+      "options": {
+        "A": "The RR should have used swaps instead.",
+        "B": "ETFs cannot be held in registered accounts.",
+        "C": "Leveraged and inverse ETFs reset daily and are generally designed for short-term use; long holding periods in conservative accounts suggest unsuitable recommendations or misunderstood products.",
+        "D": "Inverse ETFs are prohibited products for retail clients."
+      },
+      "answer": "C",
+      "rationale": "Complex products such as leveraged/inverse ETFs carry path-dependency from daily resets; extended holdings can diverge sharply from the underlying index. Concentrations of such products in conservative retail accounts are a classic account-activity red flag requiring follow-up.",
+      "rule_refs": [
+        "Syllabus 3.7",
+        "GN-3300-21-001",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E3-0003",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An Investment Dealer operates through independent agents under principal-agent arrangements rather than employees. Which statement about supervision is correct?",
+      "options": {
+        "A": "Only the agent's professional liability insurer oversees conduct.",
+        "B": "The dealer's supervisory obligations are unchanged: it must supervise agents' securities-related business as it would employees', with the arrangement documented and risks (e.g., outside activities, remote locations) addressed.",
+        "C": "Agents are exempt from dealer supervision because they are not employees.",
+        "D": "Agents supervise themselves under their agency agreement."
+      },
+      "answer": "B",
+      "rationale": "Under the principal-agent model the dealer remains fully responsible for supervision of all securities-related business conducted by its agents. The model changes the working arrangement, not the regulatory obligation.",
+      "rule_refs": [
+        "IDPC 2300",
+        "GN-2300-21-001",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E3-0004",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Which pairing of compensation structure and its characteristic supervisory risk is correct?",
+      "options": {
+        "A": "Commission-based → no risk; fee-based → no risk",
+        "B": "Both structures eliminate conflicts of interest",
+        "C": "Commission-based → excessive trading (churning); fee-based → accounts charged ongoing fees with little activity or service (reverse churning)",
+        "D": "Commission-based → reverse churning; fee-based → excessive trading"
+      },
+      "answer": "C",
+      "rationale": "Commission compensation creates an incentive to trade more (churning); fee-based compensation creates an incentive to gather assets and trade little while fees accrue (reverse churning / suitability of the fee arrangement itself). Supervisors must monitor both patterns.",
+      "rule_refs": [
+        "Syllabus 3.9",
+        "GN-3900-20-001"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0001",
+      "element": 4,
+      "outcome": "4.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under CIRO account-approval requirements, when must a designated Supervisor (or authorized delegate) approve the opening of a new retail account?",
+      "options": {
+        "A": "Within 30 calendar days of the first trade",
+        "B": "Before or promptly after opening, within the prescribed business-day timeline — documented with the approval date",
+        "C": "Approval is not required if the account was opened online",
+        "D": "Only if the account will trade derivatives"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3214(3): 'A designated Supervisor must approve each new account no later than one business day after' opening, and 3214(2) prohibits approval until all client account records have been collected; the complete account application must be received no later than the following business day (3214(1)). Approval must be documented (who and when). Online/automated openings remain subject to approval controls and manual-review triggers.",
+      "rule_refs": [
+        "IDPC 3214",
+        "Syllabus 4.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0002",
+      "element": 4,
+      "outcome": "4.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A grain-processing company applies to trade wheat futures to offset input-price risk. For institutional classification as a hedger, what must the dealer's determination establish?",
+      "options": {
+        "A": "That the company's CFO holds the Derivatives Exam",
+        "B": "That the company has at least $10 million in net assets, regardless of purpose",
+        "C": "That the company will never take delivery of the commodity",
+        "D": "That the company's derivatives positions offset risks arising from its business — i.e., the transactions relate to and reduce identified business exposures"
+      },
+      "answer": "D",
+      "rationale": "A qualifying hedger classification rests on the relationship between the client's business risks and its derivatives activity: the positions must hedge exposures of the business (with the dealer evaluating intended effect and hedge effectiveness). It is purpose-based, not purely asset-based.",
+      "rule_refs": [
+        "IDPC 1200 (hedger definition)/3400",
+        "Syllabus 4.2"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0003",
+      "element": 4,
+      "outcome": "4.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The 'account appropriateness' obligation at account opening requires the dealer to:",
+      "options": {
+        "A": "Put the prospective client's interest first when determining the appropriate scope and selection of products, services and account types offered to them",
+        "B": "Match the client to the account type with the highest fee revenue",
+        "C": "Offer every client the full product shelf",
+        "D": "Guarantee the account will be profitable"
+      },
+      "answer": "A",
+      "rationale": "Appropriateness is the client-interest-first assessment of which account relationships, services and product scope fit the client — distinct from per-trade suitability. It is documented as part of the client account record.",
+      "rule_refs": [
+        "IDPC 3200/3400 series",
+        "Syllabus 4.3/4.4"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0004",
+      "element": 4,
+      "outcome": "4.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which item is NOT required content of the Relationship Disclosure provided at account opening?",
+      "options": {
+        "A": "Fees, compensation guidelines and relevant costs",
+        "B": "Investment performance benchmarks and the impact of fees, turnover and taxes on returns",
+        "C": "The products, services and account types available to the client, including limitations",
+        "D": "The dealer's internal profit margin on each product"
+      },
+      "answer": "D",
+      "rationale": "Relationship Disclosure covers products/services/account types and their limitations, fees and compensation, account maintenance conditions, the wealth-management process, benchmarks, and fee/turnover/tax impacts. Internal margins are not a disclosure item.",
+      "rule_refs": [
+        "IDPC 3216",
+        "Syllabus 4.5"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0005",
+      "element": 4,
+      "outcome": "4.19",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement about a discretionary account agreement is correct?",
+      "options": {
+        "A": "It converts automatically into a managed account after one year",
+        "B": "It has no maximum term if the client consents in writing",
+        "C": "Its maximum term is 24 months, renewable once",
+        "D": "Its maximum term is 12 months and it is non-renewable"
+      },
+      "answer": "D",
+      "rationale": "Discretionary accounts (distinct from managed accounts) are temporary: the agreement must define and restrict the discretionary authority, runs at most 12 months, and cannot be renewed. Termination: client notice effective on receipt; dealer notice effective not less than 30 days after delivery.",
+      "rule_refs": [
+        "IDPC 3970s (Part G)",
+        "Syllabus 4.19"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0006",
+      "element": 4,
+      "outcome": "4.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer decides to terminate a managed account relationship. To be effective, the dealer's termination notice must be:",
+      "options": {
+        "A": "Verbal, given at the next scheduled review",
+        "B": "Written, effective not less than 30 days from delivery of the notice to the client",
+        "C": "Written, effective immediately upon sending",
+        "D": "Approved by CIRO before delivery"
+      },
+      "answer": "B",
+      "rationale": "Managed (and discretionary) account agreements terminate by written notice: client-initiated termination is effective on receipt by the dealer (except trades already entered); dealer-initiated termination is effective not less than 30 days from delivery.",
+      "rule_refs": [
+        "IDPC Part G (managed accounts)",
+        "Syllabus 4.14"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0007",
+      "element": 4,
+      "outcome": "4.15",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A Portfolio Manager wants several of her managed accounts to participate in a new issue underwritten by her own dealer. What does CIRO require?",
+      "options": {
+        "A": "Nothing — managed accounts may always buy dealer-underwritten issues",
+        "B": "A 50% position limit per account",
+        "C": "Approval from the issuing company",
+        "D": "The clients' prior written consent (with the relationship disclosed) before managed accounts invest in new issues underwritten by the dealer"
+      },
+      "answer": "D",
+      "rationale": "Managed-account conflict rules prohibit investing managed accounts in securities of related/connected issuers or in new issues/secondary offerings underwritten by the dealer without prior written client consent and disclosure. Fair allocation across accounts also applies.",
+      "rule_refs": [
+        "IDPC managed-account conflict provisions",
+        "Syllabus 4.15"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0008",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "For a retail account trading CFDs and futures (not a hedging account), client cumulative loss limits must be determined:",
+      "options": {
+        "A": "Only when the client requests them",
+        "B": "By the clearing house",
+        "C": "Once at account opening, never revisited",
+        "D": "On a lifetime basis validated with the client annually, or on an annual basis updated annually"
+      },
+      "answer": "D",
+      "rationale": "Cumulative loss limits apply to accounts transacting in futures, forwards, CFDs, futures options or similar/highly leveraged products (other than hedging accounts), across advisory, discretionary, managed and OEO accounts — set lifetime (validated annually) or annual (updated annually). Supervisors review and approve loss limits considering previous losses.",
+      "rule_refs": [
+        "IDPC derivatives account provisions",
+        "Syllabus 4.11/5.13"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0009",
+      "element": 4,
+      "outcome": "4.21",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An OEO dealer's automated system approves derivatives trading without manual review. Which strategy request is permitted to flow through automated approval?",
+      "options": {
+        "A": "Uncovered (naked) short calls",
+        "B": "OTC forward contracts",
+        "C": "Covered calls and protective (long) puts",
+        "D": "Contracts for difference (CFDs)"
+      },
+      "answer": "C",
+      "rationale": "Automated derivatives approvals at OEO dealers are restricted to low-risk option strategies: long calls, long puts, covered calls, and protective puts. CFDs, OTC derivatives, futures strategies, and higher-risk option strategies require non-automated handling.",
+      "rule_refs": [
+        "Syllabus 4.21",
+        "GN-3400-21-003"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E4-0010",
+      "element": 4,
+      "outcome": "4.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Instead of executing the dealer's standard derivatives trading agreement, a pension fund offers a Letter of Undertaking. This alternative is:",
+      "options": {
+        "A": "Acceptable for any client with over $1 million in assets",
+        "B": "Required for all hedger accounts",
+        "C": "Never acceptable",
+        "D": "Acceptable for institutional clients only"
+      },
+      "answer": "D",
+      "rationale": "A Letter of Undertaking may substitute for a trading agreement for institutional clients only. Retail derivatives clients require the executed derivatives trading agreement (plus the current risk disclosure statement with positive acknowledgment).",
+      "rule_refs": [
+        "Syllabus 4.12",
+        "IDPC derivatives account documentation"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E5-0001",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "During a daily review, a Supervisor notices a retail account with: trading volume far above the client's stated objectives, mounting margin debt, and commissions consuming a large share of equity. The client's KYC shows 'moderate growth, medium risk.' What is the most appropriate characterization and action?",
+      "options": {
+        "A": "A marketing opportunity for a fee-based conversion",
+        "B": "Normal activity; no action needed because the client placed the orders",
+        "C": "Possible churning/unsuitable trading red flags; the Supervisor must inquire, document the review, and take and record follow-up action",
+        "D": "A matter to raise only at the annual branch audit"
+      },
+      "answer": "C",
+      "rationale": "Excessive trading relative to objectives, commission-to-equity erosion and margin strain are classic churning/suitability red flags listed in the syllabus. Daily/monthly supervision requires detection, inquiry, documentation and resolution — not deferral.",
+      "rule_refs": [
+        "IDPC 3945/3946",
+        "GN-3900-20-001",
+        "Syllabus 5.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E5-0002",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An RR returns from a CIRO suspension for discretionary trading violations. Which supervisory regime does the syllabus contemplate for Approved Persons with a history of regulatory infractions?",
+      "options": {
+        "A": "Strict supervision: pre-approval of orders by the Supervisor and daily and monthly review of all of the RR's client accounts",
+        "B": "Supervision delegated to the RR's branch assistant",
+        "C": "Standard supervision, since the penalty was already served",
+        "D": "Quarterly spot checks"
+      },
+      "answer": "A",
+      "rationale": "Strict/close supervisory measures for individuals with infraction histories include order pre-approval and full daily and monthly account reviews — beyond standard sampling. Records of these reviews must be maintained.",
+      "rule_refs": [
+        "GN-3900-20-001",
+        "Syllabus 5.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E5-0003",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A branch suspects an elderly client is being financially exploited by a relative who recently obtained trading authorization. Which tool do CIRO rules provide?",
+      "options": {
+        "A": "Closing the account within 24 hours",
+        "B": "Transferring the account to the relative",
+        "C": "A temporary hold on transactions/withdrawals where there is a reasonable belief of financial exploitation of a vulnerable client, subject to conditions including documentation and periodic review",
+        "D": "Permanently freezing the account without notice"
+      },
+      "answer": "C",
+      "rationale": "Temporary holds protect vulnerable clients where financial exploitation (or lack of mental capacity) is reasonably suspected. They are conditional: documented basis, internal escalation, client notification, and regular review of whether the hold should continue.",
+      "rule_refs": [
+        "IDPC temporary-hold provisions",
+        "Syllabus 5.5"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E5-0004",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A retail client asks the branch to hold her account mail while she travels for six months. Which control set applies?",
+      "options": {
+        "A": "Written client authorization, defined time limits, and control with regular review of held mail",
+        "B": "Mail may be forwarded to the RR's home address",
+        "C": "Mail holds are prohibited in all cases",
+        "D": "Verbal authorization from the RR suffices"
+      },
+      "answer": "A",
+      "rationale": "Client mail holds are permitted only with client authorization, subject to time limits and supervised control/regular review — because held mail is a recognized vehicle for concealing unauthorized activity. Routing client mail to an AP's personal address is itself a red flag.",
+      "rule_refs": [
+        "GN-3900-20-001",
+        "Syllabus 5.8"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E5-0005",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A retail client requests intra-day CFD positions equal to 0.8% of a reporting issuer's float. The dealer must:",
+      "options": {
+        "A": "Report it to the issuer",
+        "B": "Prevent it: retail clients must not hold CFD or similar derivative positions representing more than 0.5% of the float of a publicly traded issuer on an intra-day or short-term basis",
+        "C": "Allow it with enhanced margin",
+        "D": "Allow it if the client signs a risk acknowledgment"
+      },
+      "answer": "B",
+      "rationale": "Derivatives P&Ps must prevent retail CFD positions exceeding 0.5% of an issuer's float intra-day/short-term, and prohibit offering retail CFDs that confer delivery rights or shareholder rights (e.g., voting). These are bright-line tested parameters.",
+      "rule_refs": [
+        "Syllabus 5.14",
+        "IDPC CFD provisions"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E5-0006",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Where continuous supervision of derivatives trading activity is required, CIRO requires the dealer to:",
+      "options": {
+        "A": "Designate one or more alternate Supervisors in addition to the designated Supervisor",
+        "B": "Suspend derivatives trading when the Supervisor is on vacation",
+        "C": "Let the trading desk self-supervise after hours",
+        "D": "Outsource supervision to the clearing house"
+      },
+      "answer": "A",
+      "rationale": "Derivatives account handling requires designating alternate Supervisors so supervision is continuous despite absences. Derivatives discretionary and managed accounts also attract daily and monthly reviews.",
+      "rule_refs": [
+        "IDPC derivatives supervision",
+        "Syllabus 5.12",
+        "GN-3900-20-001"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E5-0007",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An institutional desk review finds a proprietary account bought a security minutes before executing a large client order in the same security at a better price for the firm. This pattern most directly indicates:",
+      "options": {
+        "A": "Permissible principal trading without conditions",
+        "B": "Best execution",
+        "C": "A clearing error",
+        "D": "Front running of the client order via a proprietary account — improper activity that institutional account supervision P&Ps must detect"
+      },
+      "answer": "D",
+      "rationale": "Trading ahead of a known client order in employee or proprietary accounts is front running — an improper/suspicious activity that institutional supervision must detect (along with manipulative practices, restricted-list trading, position/exercise limit breaches). It also engages UMIR Part 4 and client-priority obligations.",
+      "rule_refs": [
+        "Syllabus 5.9",
+        "UMIR Part 4",
+        "GN-3400-21-002"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E5-0008",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Which combination of account events is the strongest signal of possible unauthorized trading by an Approved Person?",
+      "options": {
+        "A": "A single profitable trade in a suitable security",
+        "B": "Use of limit orders rather than market orders",
+        "C": "A client depositing funds annually",
+        "D": "Excessive transaction transfers between accounts plus frequent trade cancellations"
+      },
+      "answer": "D",
+      "rationale": "The syllabus lists 'excessive transaction transfers and trade cancellations' as indicators of possible unauthorized trading — errors get reallocated or cancelled to conceal activity the client never authorized. Account-number changes and late payments are related flags.",
+      "rule_refs": [
+        "Syllabus 5.6",
+        "GN-3900-20-001"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E6-0001",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A client calls the branch and reaches an Investment Representative (IR). The client asks whether to buy a specific stock. The IR says it 'looks like a strong buy' and enters the order. What should the Supervisor conclude?",
+      "options": {
+        "A": "Acceptable: IRs may advise on widely held large-cap securities",
+        "B": "A violation: IRs may take and enter unsolicited orders but are not permitted to provide recommendations or advice — that is RR (or PM/APM) activity",
+        "C": "Acceptable if the trade later proves profitable",
+        "D": "A violation only if the client complains"
+      },
+      "answer": "B",
+      "rationale": "Permitted activities differ by category: Investment Representatives execute/take orders; Registered Representatives advise; APMs/PMs manage discretionary assets (APMs under PM supervision/pre-approval of advice). Supervisors must detect category breaches regardless of outcome or complaint.",
+      "rule_refs": [
+        "IDPC 2500 (categories)",
+        "Syllabus 6.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E6-0002",
+      "element": 6,
+      "outcome": "6.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Which event does NOT trigger a portfolio-level suitability reassessment for a retail advisory account?",
+      "options": {
+        "A": "The account is reassigned to a new Registered Representative",
+        "B": "An ordinary dividend is credited to the account",
+        "C": "Securities are deposited or transferred into the account",
+        "D": "A material change to the client's KYC information"
+      },
+      "answer": "B",
+      "rationale": "Suitability must be determined on recommendations and trades, and re-assessed on non-trade triggering events: deposits/withdrawals/transfers of securities, change of the responsible Approved Person, and material KYC changes. Routine income credits are not triggers.",
+      "rule_refs": [
+        "IDPC 3402",
+        "GN-3400-21-004",
+        "Syllabus 6.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E6-0003",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "How are product due diligence (KYP) obligations divided between the Investment Dealer and the individual Approved Person?",
+      "options": {
+        "A": "The dealer assesses and approves products it makes available and monitors them; the Approved Person must understand the products they recommend well enough to support suitability for each client",
+        "B": "Only the Approved Person has KYP obligations",
+        "C": "Only the dealer has KYP obligations",
+        "D": "KYP applies only to derivatives"
+      },
+      "answer": "A",
+      "rationale": "KYP is two-layer: firm-level product assessment/approval/monitoring, and representative-level understanding of structure, features, risks, and costs of what they recommend — feeding the client-specific suitability determination.",
+      "rule_refs": [
+        "IDPC 3300",
+        "GN-3300-21-001",
+        "Syllabus 6.5"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E6-0004",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Before allowing an RR to begin soliciting options business, the Supervisor must first confirm that:",
+      "options": {
+        "A": "The RR has at least 10 retail clients",
+        "B": "The branch has a Bloomberg terminal",
+        "C": "The RR's compensation grid includes options commissions",
+        "D": "The RR has met the applicable proficiency/qualification requirements for the derivatives activity"
+      },
+      "answer": "D",
+      "rationale": "Supervisors must ensure Approved Persons under their supervision hold the necessary qualifications for their activities (e.g., the Derivatives Exam under the post-2026 model for derivatives dealing). Solicitation of derivatives business also requires Supervisor approval under derivatives P&Ps.",
+      "rule_refs": [
+        "IDPC 2600/2603",
+        "Syllabus 6.7/5.14"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0001",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An RR learns the firm will shortly enter a very large client buy order in a thinly traded stock. Before it is entered, the RR buys the same stock in his personal account. Under UMIR this is best described as:",
+      "options": {
+        "A": "Front running — trading ahead of a known client order, prohibited under UMIR",
+        "B": "Permissible personal investing",
+        "C": "Best execution",
+        "D": "A wash trade"
+      },
+      "answer": "A",
+      "rationale": "Trading ahead of known, undisclosed client order flow is front running (UMIR Part 4). Wash trades (D) are offsetting trades with no beneficial-ownership change — a manipulative practice under UMIR 2.2 but not this fact pattern.",
+      "rule_refs": [
+        "UMIR Part 4",
+        "Syllabus 7.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0002",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A client with no insider designation repeatedly buys a small-cap stock in the days before unannounced material news, across multiple events. As gatekeeper, the dealer's Supervisor should:",
+      "options": {
+        "A": "Ignore it because profits were modest",
+        "B": "Warn the client to trade smaller amounts",
+        "C": "Treat it as a potential gatekeeper matter: compare against the client's typical activity patterns, inquire, document, and make required reports (e.g., to the dealer's compliance/CIRO) where suspicion remains",
+        "D": "Ask the issuer to delay news releases"
+      },
+      "answer": "C",
+      "rationale": "Gatekeeping obligations require using knowledge of a client's typical financial activity to identify suspicious transactions (possible insider trading), inquire, document, escalate and report through prescribed channels. Tipping the client (B) compounds the problem.",
+      "rule_refs": [
+        "UMIR Part 10",
+        "Gatekeeper Reporting Obligation guidance",
+        "Syllabus 7.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E7-0003",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which factor is NOT among those a risk-based trading supervision system must reflect?",
+      "options": {
+        "A": "The disciplinary history of registered representatives",
+        "B": "The Participant's size (revenue, market share, market exposure, trade volume)",
+        "C": "The Supervisor's personal investment performance",
+        "D": "The number and location of offices and registrants per location"
+      },
+      "answer": "C",
+      "rationale": "Risk-based trading supervision (UMIR 7.1/Policy 7.1) scales to the Participant's size, structure, office network, product/service complexity, registrant counts, disciplinary history and risk profile/red flags. A Supervisor's own portfolio returns are irrelevant.",
+      "rule_refs": [
+        "UMIR 7.1 + Policy 7.1",
+        "GN on Trading Supervision Obligations",
+        "Syllabus 7.5"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E8-0001",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Which item does NOT require approval by a designated Supervisor before use or publication?",
+      "options": {
+        "A": "Routine, individualized client correspondence subject to post-use review and sampling",
+        "B": "A telemarketing script",
+        "C": "An original advertisement proof containing performance figures",
+        "D": "A research report"
+      },
+      "answer": "A",
+      "rationale": "Pre-use approval is required for research reports, market letters, telemarketing scripts, promotional seminar materials, investment fund communications, original advertisements/proofs, and any material with performance reports used to solicit. Ordinary correspondence may be governed by post-use review and sampling under the dealer's P&Ps.",
+      "rule_refs": [
+        "IDPC 3600 Part A",
+        "GN-3600-21-002",
+        "Syllabus 8.1/8.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E8-0002",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer is about to publish a research report on an issuer in which the dealer beneficially owns 1.4% of a class of equity securities, and for which it provided investment banking services eight months ago. What disclosure is required?",
+      "options": {
+        "A": "Only the banking relationship, since ownership is under 5%",
+        "B": "Both facts: beneficial ownership of 1% or more of the issuer's equity securities, and investment banking services provided within the preceding 12 months",
+        "C": "None — both facts are immaterial",
+        "D": "Only the ownership, since banking services are confidential"
+      },
+      "answer": "B",
+      "rationale": "Research disclosure thresholds tested include: 1%+ beneficial ownership (measured at the prescribed month-end), analyst/related-person holdings, investment banking services within the preceding 12 months, analyst compensation tied to banking revenue, market making, and issuer-reimbursed site visits.",
+      "rule_refs": [
+        "IDPC 3600 Part B",
+        "GN-3600-20-001",
+        "Syllabus 8.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E8-0003",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An RR's public social media post reads: 'My model portfolio returned 22% last year — join now and lock in the same results!' Which deficiency must the Supervisor identify?",
+      "options": {
+        "A": "The post is fine because the 22% figure is accurate",
+        "B": "The post promises specific future results and presents performance without required context — a misleading communication that must not be issued",
+        "C": "Social media may never mention performance",
+        "D": "The only issue is the absence of the dealer's logo"
+      },
+      "answer": "B",
+      "rationale": "Communications must not contain unjustified promises of specific results, unrepresentative statistics suggesting unwarranted conclusions, unlabeled opinions/forecasts, or omit material facts and risks. Accuracy of the historical number does not cure the forward 'lock in the same results' promise. Off-channel and social media use must also follow dealer P&Ps.",
+      "rule_refs": [
+        "IDPC 3600/3640",
+        "GN-3600-21-002",
+        "Syllabus 8.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E8-0004",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Which arrangement violates research-supervision requirements?",
+      "options": {
+        "A": "Pre-publication access to draft reports is restricted",
+        "B": "The dealer publishes a favourable research report on its own parent holding company's securities",
+        "C": "Analysts' personal trading is restricted and monitored",
+        "D": "A designated Supervisor reviews and approves research reports under cross-supervision controls"
+      },
+      "answer": "B",
+      "rationale": "Dealers are prohibited from producing research reports or opinions on their own securities or those of their holding company. The other options are required controls: designated review/cross-supervision, analyst conduct and personal trading restrictions, and controls over early dissemination.",
+      "rule_refs": [
+        "IDPC 3600 Part B",
+        "Syllabus 8.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E9-0001",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A head-office business location audit program should include all of the following EXCEPT:",
+      "options": {
+        "A": "Advance assurance to branch managers that no deficiencies will be reported to Executives",
+        "B": "Defined scope and planning, with training for audit staff",
+        "C": "An audit report with documented follow-up of findings",
+        "D": "Risk identification used to set audit frequency and depth"
+      },
+      "answer": "A",
+      "rationale": "Business location supervision guidelines cover scope, planning, the audit program and related training, risk identification, and the audit report with follow-up. Suppressing escalation of findings defeats the program; unresolved findings must be tracked to corrective action.",
+      "rule_refs": [
+        "GN-3900-21-002",
+        "IDPC 3905",
+        "Syllabus 9.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E9-0002",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "During a branch review, a Supervisor finds multiple client address changes routed to a PO box controlled by one RR, and sales literature in active use at the branch that was never submitted for the dealer's required review. These findings most directly indicate:",
+      "options": {
+        "A": "Retail distribution risk red flags — inadequate control over books and records (poor control of client address changes) and failure to meet supervision standards for review of advertising and sales literature, both associated with concealment of improper activity",
+        "B": "Efficient client service",
+        "C": "An IT capacity problem only",
+        "D": "A marketing initiative needing a budget"
+      },
+      "answer": "A",
+      "rationale": "Syllabus 9.3 names both findings as retail distribution risks: 'inadequate control over books and records, with particular attention to poor control of client address changes' and 'failure to meet regulatory standards for supervision and control, including inadequate control and review of advertising and sales literature.' Address changes routed to an RR-controlled PO box are a classic concealment mechanism for unauthorized activity; unreviewed sales literature breaches IDPC 3602 review requirements. Immediate investigation, documentation and escalation are required.",
+      "rule_refs": [
+        "Syllabus 9.3",
+        "IDPC 3602",
+        "GN-3900-21-002"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    }
+  ]
+}

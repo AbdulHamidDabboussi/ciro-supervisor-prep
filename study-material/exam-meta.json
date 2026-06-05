@@ -1,0 +1,93 @@
+{
+  "exam": "CIRO Supervisor Exam",
+  "regulator": "Canadian Investment Regulatory Organization (CIRO)",
+  "regime": "CIRO Proficiency Model for Approved Persons of Investment Dealers (IDPC Rules)",
+  "effective_date": "2026-01-01",
+  "replaces": "CSI Investment Dealer Supervisors Course (IDSC) pathway",
+  "syllabus_version": "2025-05-29",
+  "format": {
+    "papers": 1,
+    "questions_total": 90,
+    "questions_standard": 60,
+    "questions_item_set": 30,
+    "options_per_question": 4,
+    "duration_minutes": 180,
+    "delivery": "computer-based, proctored",
+    "proctoring": ["Prometric test centre (Canada only)", "Prometric ProProctor Live remote (global)"],
+    "languages": ["en", "fr"],
+    "closed_book": true,
+    "scratch_paper": "not permitted; remote exams use in-platform scratch pad",
+    "calculator_policy": "UNCONFIRMED — no official statement found",
+    "taxonomy_levels": ["Remember", "Understand", "Apply", "Analyze"],
+    "taxonomy_note": "Levels are cumulative: an Apply-level outcome may also be tested at Understand and Remember levels."
+  },
+  "scoring": {
+    "pass_mark": null,
+    "pass_mark_note": "Not published. Per-form psychometric standard setting; candidates receive pass/fail only, immediately, with portal confirmation within 24h. Absent = fail.",
+    "result_types": ["pass", "fail", "absent"]
+  },
+  "fees_cad": {
+    "first_attempt": 475,
+    "retake": 300,
+    "taxes": "additional",
+    "payment": "credit card only via Fitch Learning enrolment portal"
+  },
+  "attempts": {
+    "max_per_enrolment_period": 3,
+    "enrolment_period_months": 12,
+    "cooling_off": "6 months after 3 failed/absent attempts within 6 months",
+    "reschedule_free_cutoff_hours": 36,
+    "no_show": "counts as absent (fail), no refund"
+  },
+  "administration": {
+    "exam_designer_administrator": "Fitch Learning",
+    "delivery_vendor": "Prometric",
+    "enrolment_portal": "https://portal.fitchlearning.ca/2/CiroCandidateEnrollment/exams/",
+    "candidate_portal": "https://portal.fitchlearning.ca/r/candidate",
+    "support": "https://fitchlearning-na.zendesk.com/hc/en-ca",
+    "support_phone": "1 (647) 905-5108 (9am-6pm ET, Mon-Fri)"
+  },
+  "eligibility": {
+    "prerequisite_courses": "none",
+    "prerequisite_exams_to_write": "none",
+    "enrolment_attestation": "work at a CIRO Dealer Member in a relevant role, OR plan to apply within 12 months, OR pursuing further CIRO exams; education providers ineligible",
+    "dealer_sponsorship_to_write": false,
+    "dealer_sponsorship_to_be_approved": true
+  },
+  "approval_requirements_supervisor": {
+    "rule": "IDPC Rule 2603(1)",
+    "exams": "Supervisor Exam + exams applicable to the individuals being supervised (e.g., CIRE + Retail Securities Exam; Derivatives Exam if supervising derivatives); CIRE waived if 2-year experience requirement met",
+    "experience": "minimum 2 years relevant experience acceptable to CIRO (Rule 2603(1)(ii)(d))",
+    "post_approval": "Conduct Training within 30 days of approval (free); CE compliance course each cycle (Rule 2704)"
+  },
+  "validity": {
+    "exam_validity_years": 3,
+    "rule": "IDPC Rule 2628",
+    "extensions": [
+      "previously approved in same category (or category requiring same exam) within 3 years",
+      "1 year of relevant securities industry experience within 3 years prior to application"
+    ]
+  },
+  "official_resources": {
+    "exam_page": "https://www.ciro.ca/registered-individuals/proficiency/exam-hub/supervisor-exam",
+    "syllabus_pdf": "https://www.ciro.ca/media/13606/download?attachment",
+    "study_guide_pdf": "https://www.ciro.ca/media/13671/download?attachment",
+    "practice_exam_pdf": "https://www.ciro.ca/media/14071/download?attachment",
+    "competency_profile_appendix8": "https://www.ciro.ca/media/1006/download?attachment",
+    "competency_reference_appendix16": "https://www.ciro.ca/media/13631/download?attachment",
+    "exam_hub": "https://www.ciro.ca/registered-individuals/proficiency/exam-hub",
+    "practice_exam_note": "90 questions with answer key, no rationales. CIRO copyright — do not republish questions."
+  },
+  "element_weights": [
+    {"element": 1, "title": "General regulatory framework", "questions": 10},
+    {"element": 2, "title": "Supervisory structure: Investment Dealer responsibilities", "questions": 10},
+    {"element": 3, "title": "Business and operations", "questions": 9},
+    {"element": 4, "title": "Account approvals", "questions": 20},
+    {"element": 5, "title": "Account activity", "questions": 15},
+    {"element": 6, "title": "Activities of Approved Persons", "questions": 8},
+    {"element": 7, "title": "Trading and market rules", "questions": 6},
+    {"element": 8, "title": "Advertisements, sales literature and communications and research reports", "questions": 7},
+    {"element": 9, "title": "Risks associated with Investment Dealer activity and registered locations", "questions": 5}
+  ],
+  "sources_verified": "2026-06-04"
+}

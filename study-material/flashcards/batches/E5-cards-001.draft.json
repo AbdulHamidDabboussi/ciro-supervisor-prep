@@ -1,0 +1,947 @@
+{
+  "meta": {
+    "batch": "E5-CARDS-001",
+    "element": 5,
+    "drafted": 70,
+    "date": "2026-06-04",
+    "purpose": "Crash-course flashcards for Element 5 (account activity / ongoing supervision), drafted before question-bank drilling. Every fact quoted verbatim from local corpus at drafting time. Coverage cross-checked against E5-batch-001.draft.json tested facts; all outcomes 5.1-5.16 covered, weighted toward 5.2, 5.6, 5.9, 5.13, 5.14.",
+    "corpus": [
+      "syllabus-raw.txt (Element 5)",
+      "idpc-rules.txt (2026-01-08)",
+      "gn-3900-20-001.txt"
+    ],
+    "patch_note": "Patch cards appended 2026-06-04 after open-cards solve gate identified missing facts (see qa-log.md)."
+  },
+  "cards": [
+    {
+      "id": "FC-E5-0001",
+      "element": 5,
+      "outcome": "5.1",
+      "type": "distinction",
+      "front": "First-tier vs second-tier supervision: what is the second tier designed to do?",
+      "back": "Ensure no serious account issues were missed by first-tier supervision, and ensure first-tier supervision is conducted adequately. Different purpose; generally not the same depth.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2",
+        "IDPC 3945"
+      ],
+      "source_quote": "\"ensure no serious account issues were missed by ﬁrst-tier supervision, and ensure ﬁrst-tier supervision is conducted adequately.\" — gn-3900-20-001.txt ~line 266",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0002",
+      "element": 5,
+      "outcome": "5.1",
+      "type": "process",
+      "front": "When may first-tier reviews be conducted centrally (head/regional office) instead of at each branch?",
+      "back": "If resources are available to conduct the review at that location AND the Dealer has adequate procedures for dealing with any issues identified.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.1"
+      ],
+      "source_quote": "\"Dealers can conduct these reviews in a central location (head oDce or regional oDce) provided: there are resources available to conduct the review at that location,\" — gn-3900-20-001.txt ~line 229",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0003",
+      "element": 5,
+      "outcome": "5.1",
+      "type": "process",
+      "front": "Remote supervision: what control applies to a business location without a Resident Supervisor?",
+      "back": "An assigned outside Supervisor who visits periodically to review business conduct and legal compliance; P&Ps must specifically address those visits.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.3"
+      ],
+      "source_quote": "\"Business locations without Resident Supervisors should have an assigned outside Supervisor. The outside Supervisor should visit the location periodically to review business conduct and compliance with applicable laws.\" — gn-3900-20-001.txt ~line 169",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0004",
+      "element": 5,
+      "outcome": "5.2",
+      "type": "list",
+      "front": "Account supervision P&Ps must specifically address which three dealer obligations (3926(2))?",
+      "back": "Identify clients presenting high risk to the Dealer Member; identify clients presenting high risk of improper securities-market activities; comply with all AML and terrorist financing requirements.",
+      "rule_refs": [
+        "IDPC 3926(2)"
+      ],
+      "source_quote": "\"(i) identify clients that present a high risk to the Dealer Member, (ii) identify clients that present a high risk of conducting improper activities in the securities markets\" — idpc-rules.txt ~line 8099",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0005",
+      "element": 5,
+      "outcome": "5.2",
+      "type": "list",
+      "front": "Per CIRO guidance, which client profiles present a higher risk of improper market activity?",
+      "back": "Those with access to material non-public information about issuers; holders of control blocks of public issuers; market professionals.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.2",
+        "IDPC 3926(2)"
+      ],
+      "source_quote": "\"such as those who have access to material non-public information about issuers, holders of control blocks of public issuers and market professionals.\" — gn-3900-20-001.txt ~line 200",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0006",
+      "element": 5,
+      "outcome": "5.2",
+      "type": "process",
+      "front": "What must a dealer's P&Ps include regarding client records (3926(5))?",
+      "back": "Controls for accessing and amending client records — untracked, unrestricted editing of KYC/client data breaches this.",
+      "rule_refs": [
+        "IDPC 3926(5)"
+      ],
+      "source_quote": "\"A Dealer Member's policies and procedures must include controls for accessing and amending client records.\" — idpc-rules.txt ~line 8111",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0007",
+      "element": 5,
+      "outcome": "5.2",
+      "type": "process",
+      "front": "Who approves account supervision P&Ps and any substantive amendments?",
+      "back": "The Dealer Member's Chief Compliance Officer or another appropriate Executive — not CIRO, not the branch Supervisor.",
+      "rule_refs": [
+        "IDPC 3926(3)"
+      ],
+      "source_quote": "\"any substantive amendments to such policies and procedures, must be approved by the Dealer Member's Chief Compliance Officer or another appropriate Executive.\" — idpc-rules.txt ~line 8105",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0008",
+      "element": 5,
+      "outcome": "5.2",
+      "type": "list",
+      "front": "What two written items must a dealer provide all supervisory staff (3926(4))?",
+      "back": "Procedures to be followed in reviewing account activity; confirmation of the dealer's expectations of supervisory staff regarding their supervisory roles and responsibilities.",
+      "rule_refs": [
+        "IDPC 3926(4)"
+      ],
+      "source_quote": "\"(i) procedures to be followed in reviewing account activity, and (ii) confirmation of the Dealer Member's expectations of supervisory staff,\" — idpc-rules.txt ~line 8108",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0009",
+      "element": 5,
+      "outcome": "5.3",
+      "type": "process",
+      "front": "What does IDPC 3927(3) require for Approved Persons with a history of regulatory infractions or questionable conduct?",
+      "back": "The dealer must establish and follow procedures implementing additional supervisory measures applicable to those Approved Persons — prior discipline increases, not discharges, supervision.",
+      "rule_refs": [
+        "IDPC 3927(3)"
+      ],
+      "source_quote": "\"procedures for the implementation of additional supervisory measures applicable to Approved Persons with a history of regulatory infractions or questionable conduct.\" — idpc-rules.txt ~line 8131",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0010",
+      "element": 5,
+      "outcome": "5.3",
+      "type": "list",
+      "front": "Name the two strict (enhanced) supervisory measures the syllabus lists for infraction-history Approved Persons.",
+      "back": "Pre-approval of orders by the Supervisor; daily and monthly review of ALL the AP's client accounts.",
+      "rule_refs": [
+        "Syllabus 5.3",
+        "IDPC 3927(3)"
+      ],
+      "source_quote": "\"Pre-approval of orders by Supervisor • Daily and monthly review of all client accounts\" — syllabus-raw.txt ~line 1110",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0011",
+      "element": 5,
+      "outcome": "5.4",
+      "type": "definition",
+      "front": "What specific OEO risk must trade-review P&Ps address under 3955(2)?",
+      "back": "The risks associated with the method of order entry and the absence of intermediation by employees of the Dealer Member.",
+      "rule_refs": [
+        "IDPC 3955(2)"
+      ],
+      "source_quote": "\"must specifically address the risks associated with the method of order entry and the absence of intermediation by employees of the Dealer Member.\" — idpc-rules.txt ~line 8267",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0012",
+      "element": 5,
+      "outcome": "5.4",
+      "type": "process",
+      "front": "What supervision records and resources must the OEO entity maintain (3955(3)-(4))?",
+      "back": "An audit trail of all supervisory reviews as required in Rule 3900; sufficient supervisory resources allocated at head office and branch levels.",
+      "rule_refs": [
+        "IDPC 3955(3)",
+        "IDPC 3955(4)"
+      ],
+      "source_quote": "\"must maintain an audit trail of all supervisory reviews as required in Rule 3900.\" — idpc-rules.txt ~line 8269",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0013",
+      "element": 5,
+      "outcome": "5.5",
+      "type": "threshold",
+      "front": "Two conditions before placing a temporary hold for financial exploitation of a vulnerable client?",
+      "back": "Dealer reasonably believes BOTH: the client is a vulnerable client, AND financial exploitation has occurred, is occurring, has been attempted or will be attempted.",
+      "rule_refs": [
+        "IDPC 3222(1)"
+      ],
+      "source_quote": "\"must not place a temporary hold on the basis of financial exploitation of a vulnerable client, unless the Dealer Member reasonably believes all of the following: (i) the client is a vulnerable client,\" — idpc-rules.txt ~line 4925",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0014",
+      "element": 5,
+      "outcome": "5.5",
+      "type": "threshold",
+      "front": "After placing a temporary hold, what must the dealer do every 30 days until it ends?",
+      "back": "Within 30 days and each subsequent 30-day period: either revoke the hold, or give the client notice of the decision to continue it plus reasons.",
+      "rule_refs": [
+        "IDPC 3222(3)(iv)"
+      ],
+      "source_quote": "\"within 30 days of placing the temporary hold and, until the hold is revoked, within every subsequent 30‐day period,\" — idpc-rules.txt ~line 4947",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0015",
+      "element": 5,
+      "outcome": "5.5",
+      "type": "trap",
+      "front": "TRAP: temporary hold for lack of mental capacity — does it require a doctor's certificate?",
+      "back": "No. Standard is the dealer's reasonable belief the client lacks mental capacity to make decisions involving financial matters — a separate ground from exploitation.",
+      "rule_refs": [
+        "IDPC 3222(2)"
+      ],
+      "source_quote": "\"unless the Dealer Member reasonably believes that the client does not have the mental capacity to make decisions involving financial matters.\" — idpc-rules.txt ~line 4937",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0016",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "list",
+      "front": "3945(2) retail detection list — recite the first six items (suitability/conduct cluster).",
+      "back": "Unsuitable trading; undue concentration (single account or across accounts); excessive trading; restricted-securities/derivatives trading; AP-client trading conflict of interest; excessive transfers and cancellations indicating possible unauthorized trading.",
+      "rule_refs": [
+        "IDPC 3945(2)(i)-(vi)"
+      ],
+      "source_quote": "\"(i) unsuitable trading, (ii) undue concentration of securities, derivatives or precious metals bullion in a single account or across accounts, (iii) excessive trading,\" — idpc-rules.txt ~line 8145",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0017",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "list",
+      "front": "3945(2) retail detection list — items (vii)-(xi) (pattern/conduct cluster)?",
+      "back": "Inappropriate or high-risk trading strategies; deterioration of quality of client holdings; excessive or improper crosses between clients; improper or excessive employee trading; front running.",
+      "rule_refs": [
+        "IDPC 3945(2)(vii)-(xi)"
+      ],
+      "source_quote": "\"(vii) inappropriate or high risk trading strategies, (viii) deterioration of the quality of client holdings in an account,\" — idpc-rules.txt ~line 8155",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0018",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "list",
+      "front": "3945(2) retail detection list — final six items (administrative/market-abuse cluster)?",
+      "back": "Account number changes; late payment; outstanding margin calls; undisclosed short sales; manipulative and deceptive activities; insider trading.",
+      "rule_refs": [
+        "IDPC 3945(2)(xii)-(xvii)"
+      ],
+      "source_quote": "\"(xii) account number changes, (xiii) late payment, (xiv) outstanding margin calls, (xv) undisclosed short sales, (xvi) manipulative and deceptive activities, and\" — idpc-rules.txt ~line 8161",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0019",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "definition",
+      "front": "Daily review red flag: what pattern signals possible UNAUTHORIZED trading?",
+      "back": "Excessive transaction transfers and trade cancellations — moving or unwinding trades hides activity the client never authorized.",
+      "rule_refs": [
+        "IDPC 3945(2)(vi)"
+      ],
+      "source_quote": "\"excessive transaction transfers and trade cancellations indicating possible unauthorized trading,\" — idpc-rules.txt ~line 8153",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0020",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "process",
+      "front": "Churning (excessive trading): why won't single-trade review catch it, and what does guidance prescribe?",
+      "back": "Patterns may not be apparent in single trades; reviewing trades over a longer period can detect overall-activity issues even if each trade is suitable.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.2",
+        "IDPC 3945(2)(iii)"
+      ],
+      "source_quote": "\"If a Dealer reviews trades over a longer period, they may detect issues with the overall account activity even if each trade is suitable for the client.\" — gn-3900-20-001.txt ~line 191",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0021",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "trap",
+      "front": "TRAP: fee-based retail accounts — can review selection be based on commission levels?",
+      "back": "No. P&Ps for accounts where no commission is charged must address review requirements AND use criteria other than commission levels.",
+      "rule_refs": [
+        "IDPC 3945(3)"
+      ],
+      "source_quote": "\"such as fee based accounts. These policies and procedures must: (i) address account activity review Corporation requirements, and (ii) use criteria other than commission levels.\" — idpc-rules.txt ~line 8176",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0022",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "list",
+      "front": "Which five retail account types must be specifically designated for supervision purposes (3945(4))?",
+      "back": "Non-client accounts; discretionary accounts; managed accounts; registered accounts; restricted accounts.",
+      "rule_refs": [
+        "IDPC 3945(4)"
+      ],
+      "source_quote": "\"(i) non-client accounts, (ii) discretionary accounts, (iii) managed accounts, (iv) registered accounts, and (v) restricted accounts.\" — idpc-rules.txt ~line 8182",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0023",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "threshold",
+      "front": "Expected completion timing: first-tier DAILY review vs first-tier MONTHLY review?",
+      "back": "Daily: one business day after the trading activity occurs. Monthly: within 21 days of the review period — both unless precluded by unusual circumstances.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.1.1, s.2.1.2"
+      ],
+      "source_quote": "\"Dealers should complete this review within 21 days of the review period, unless precluded by unusual circumstances.\" — gn-3900-20-001.txt ~line 254",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0024",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "trap",
+      "front": "TRAP: which non-client accounts go into the first-tier MONTHLY review?",
+      "back": "ALL non-client accounts with any activity other than dividend and interest payments — not just high-commission ones. ($3,000 belongs to second-tier monthly client criteria.)",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.1.2"
+      ],
+      "source_quote": "\"A ﬁrst-tier monthly review should include all non-client accounts with any activity other than dividend and interest payments.\" — gn-3900-20-001.txt ~line 251",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0025",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "threshold",
+      "front": "Guidance example selection thresholds: first-tier monthly vs second-tier monthly?",
+      "back": "First-tier monthly: clients charged gross commissions of $1,500+ that month. Second-tier monthly: clients charged $3,000+, plus $1,500+ accounts not subject to first-tier review.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.1.2, s.2.2.2"
+      ],
+      "source_quote": "\"a Dealer could review the activity of all clients charged gross commissions of $1,500 or more for that month.\" — gn-3900-20-001.txt ~line 249",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0026",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "list",
+      "front": "Beyond trades, which four client-related matters must P&Ps identify, deal with, and inform Supervisors of (3946(1))?",
+      "back": "Client complaints; cash account violations; transfers between unrelated accounts or between non-client and client accounts (incl. deposits); trading while under-margined.",
+      "rule_refs": [
+        "IDPC 3946(1)"
+      ],
+      "source_quote": "\"(i) client complaints, (ii) cash account violations, (iii) transfers of funds and positions between unrelated accounts or between non-client accounts and client accounts\" — idpc-rules.txt ~line 8191",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0027",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "list",
+      "front": "Name six example second-tier DAILY review criteria from CIRO guidance.",
+      "back": "Stock trades >$5,000 priced under $5.00; stock trades >$20,000 at/over $5.00; bond trades >$100,000; non-client trading; producing branch managers' client accounts; trade cancellations.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2.1"
+      ],
+      "source_quote": "\"stock trades with a value over $5,000 and a price under $5.00 per share, stock trades with value over $20,000 and a price at or over $5.00 per share,\" — gn-3900-20-001.txt ~line 279",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0028",
+      "element": 5,
+      "outcome": "5.6",
+      "type": "threshold",
+      "front": "Retail debt trade (non-primary-market): what remuneration disclosure must the confirmation contain?",
+      "back": "Either the total mark-up/mark-down, commission or other service charges applied, or total commission plus prescribed notice that dealer remuneration was added/deducted.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(c)"
+      ],
+      "source_quote": "\"the total amount of any mark-up or mark-down, commission or other service charges the Dealer Member applied to the transaction,\" — idpc-rules.txt ~line 7609",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0029",
+      "element": 5,
+      "outcome": "5.7",
+      "type": "process",
+      "front": "Cross-supervision: a dually-registered Supervisor also trades for their own clients. Who reviews their client activity?",
+      "back": "Another Supervisor must review that Supervisor's advice to and trades for clients — no one supervises themselves.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.2"
+      ],
+      "source_quote": "\"where a Supervisors is dually-registered and also advises or trades for their own clients, another Supervisor reviews that Supervisor's advice to and trades for clients.\" — gn-3900-20-001.txt ~line 148",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0030",
+      "element": 5,
+      "outcome": "5.7",
+      "type": "distinction",
+      "front": "Which second-tier daily criterion plugs the producing-branch-manager self-review gap?",
+      "back": "'Producing branch managers' client accounts' (plus all client accounts not reviewed by a branch manager) — the second tier catches what the producing manager cannot independently review.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2.1"
+      ],
+      "source_quote": "\"producing branch managers' client accounts, all client accounts not reviewed by a branch manager,\" — gn-3900-20-001.txt ~line 283",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0031",
+      "element": 5,
+      "outcome": "5.8",
+      "type": "list",
+      "front": "Hold-mail procedures for retail clients — three minimum provisions (3219(1))?",
+      "back": "Written client authorization to hold mail; time limit — no longer than six months in any 12-month period; control and regular review of hold-mail accounts by a Supervisor.",
+      "rule_refs": [
+        "IDPC 3219(1)"
+      ],
+      "source_quote": "\"a requirement that limits the length of time that a \"hold mail\" order may remain in force for no longer than six months, in any 12 month period,\" — idpc-rules.txt ~line 4883",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0032",
+      "element": 5,
+      "outcome": "5.8",
+      "type": "trap",
+      "front": "TRAP: can a hold-mail order ever exceed six months?",
+      "back": "Yes, if: permitted by the dealer's P&Ps; P&Ps specifically address close supervision of such accounts; AND the appropriate Supervisor pre-approves the extended period.",
+      "rule_refs": [
+        "IDPC 3219(2)"
+      ],
+      "source_quote": "\"(ii) the Dealer Member has policies and procedures that specifically address the close supervision of such accounts, and (iii) the appropriate Supervisor pre‐approves the extended period.\" — idpc-rules.txt ~line 4892",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0033",
+      "element": 5,
+      "outcome": "5.8",
+      "type": "process",
+      "front": "Returned mail for retail clients: two minimum procedural rules (3219(3))?",
+      "back": "Control and investigation by a person independent of the sales function (may sit in a business location); a record of all investigations and their results maintained.",
+      "rule_refs": [
+        "IDPC 3219(3)"
+      ],
+      "source_quote": "\"a rule requiring the control and investigation by a person independent of the sales function, but may be located within a business location,\" — idpc-rules.txt ~line 4897",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0034",
+      "element": 5,
+      "outcome": "5.9",
+      "type": "process",
+      "front": "What must institutional account supervision P&Ps outline besides detection (3950(1))?",
+      "back": "The actions to deal with problems or issues identified from supervisory reviews — detection alone is not enough; remediation must be specified.",
+      "rule_refs": [
+        "IDPC 3950(1)"
+      ],
+      "source_quote": "\"These policies and procedures must outline the actions to deal with problems or issues identified from supervisory reviews.\" — idpc-rules.txt ~line 8225",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0035",
+      "element": 5,
+      "outcome": "5.9",
+      "type": "list",
+      "front": "3950(2) institutional detection list — recite all seven items.",
+      "back": "Manipulative/deceptive activities; securities on the restricted list; derivatives with restricted-list underlying; front running by employee/proprietary accounts; transfer-restricted securities; derivatives with transfer-restricted underlying; exceeding derivative position/exercise limits.",
+      "rule_refs": [
+        "IDPC 3950(2)"
+      ],
+      "source_quote": "\"(i) manipulative and deceptive activities, (ii) trading in securities on the Dealer Member's restricted list,\" — idpc-rules.txt ~line 8231",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0036",
+      "element": 5,
+      "outcome": "5.9",
+      "type": "definition",
+      "front": "Institutional front-running detection (3950(2)(iv)): whose accounts does the rule target?",
+      "back": "Front running by EMPLOYEE or PROPRIETARY accounts — trading ahead of institutional client orders through the firm's own or staff accounts.",
+      "rule_refs": [
+        "IDPC 3950(2)(iv)"
+      ],
+      "source_quote": "\"front running by employee or proprietary accounts,\" — idpc-rules.txt ~line 8235",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0037",
+      "element": 5,
+      "outcome": "5.9",
+      "type": "trap",
+      "front": "TRAP: is 'unsuitable trading' or 'churning' on the institutional 3950(2) detection list?",
+      "back": "No — those are retail 3945(2) items. The institutional list is market-integrity focused: manipulation, restricted lists, front running, transfer restrictions, position/exercise limits.",
+      "rule_refs": [
+        "IDPC 3950(2)",
+        "IDPC 3945(2)"
+      ],
+      "source_quote": "\"specifically address detecting improper or suspicious account activity including: (i) manipulative and deceptive activities,\" — idpc-rules.txt ~line 8230",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0038",
+      "element": 5,
+      "outcome": "5.9",
+      "type": "process",
+      "front": "A second-tier reviewer of institutional activity lacks authority to act on findings. What must procedures provide?",
+      "back": "Procedures for referring the identified issues to a Supervisor who has the appropriate authority.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2",
+        "IDPC 3950(1)"
+      ],
+      "source_quote": "\"the Dealer should have procedures for referring these issues to a Supervisor who has the appropriate authority.\" — gn-3900-20-001.txt ~line 270",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0039",
+      "element": 5,
+      "outcome": "5.9",
+      "type": "trap",
+      "front": "TRAP: 'trading activity around margin/reduced margin rates and price thresholds' appears in which detection list?",
+      "back": "Syllabus 5.9's INSTITUTIONAL improper-activity list — a syllabus-only addition beyond the seven 3950(2) rule items.",
+      "rule_refs": [
+        "Syllabus 5.9"
+      ],
+      "source_quote": "\"Trading activity around margin/reduced margin rates and price thresholds\" — syllabus-raw.txt ~line 1178",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0040",
+      "element": 5,
+      "outcome": "5.10",
+      "type": "definition",
+      "front": "Define a 'direct electronic access account' (IDPC 1201).",
+      "back": "Account not subject to suitability determination where: client has DEA per NI 23-103; dealer provides no recommendations; dealer complies with UMIR DEA requirements and NI 23-103.",
+      "rule_refs": [
+        "IDPC 1201 definitions"
+      ],
+      "source_quote": "\"the client has been provided with direct electronic access within the meaning of National Instrument 23-103,\" — idpc-rules.txt ~line 334",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0041",
+      "element": 5,
+      "outcome": "5.10",
+      "type": "distinction",
+      "front": "DEA accounts and suitability sections 3402/3403 — fully exempt, or not quite?",
+      "back": "Almost — exempt except clauses 3402(3)(i) and 3403(4)(i): the determination that CONTINUING to have the account is suitable still applies.",
+      "rule_refs": [
+        "IDPC 3404(1)",
+        "IDPC 3402(3)(i)"
+      ],
+      "source_quote": "\"Other than clauses 3402(3)(i) and 3403(4)(i), sections 3402 or 3403 do not apply in respect to: (i) an order execution only account, or (ii) a direct electronic access account.\" — idpc-rules.txt ~line 5643",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0042",
+      "element": 5,
+      "outcome": "5.11",
+      "type": "process",
+      "front": "OEO P&Ps: a client also has a full-service account at the dealer. May the OEO unit give recommendations?",
+      "back": "No — P&Ps must ensure clients are not provided recommendations as a result of having an account with a separate legal entity, separate business unit, or the dealer itself.",
+      "rule_refs": [
+        "IDPC 3955(1)(ii)"
+      ],
+      "source_quote": "\"ensure that clients are not provided with recommendations as a result of the client having an account with: (a) a separate legal entity of the Dealer Member,\" — idpc-rules.txt ~line 8252",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0043",
+      "element": 5,
+      "outcome": "5.11",
+      "type": "process",
+      "front": "OEO accounts are exempt from suitability — so what trading review scope still applies?",
+      "back": "Review customer trading and accounts for ALL Rule 3900 concerns other than those relating to the suitability requirements (manipulation, restricted lists, margin, etc.).",
+      "rule_refs": [
+        "IDPC 3955(1)(iii)"
+      ],
+      "source_quote": "\"to review customer trading and accounts for those concerns listed in Rule 3900, other than those relating to the suitability requirements.\" — idpc-rules.txt ~line 8257",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0044",
+      "element": 5,
+      "outcome": "5.11",
+      "type": "threshold",
+      "front": "OEO accounts offering OTC derivatives (e.g., CFDs) to retail clients: what extra disclosure accompanies the risk disclosure statement?",
+      "back": "The percentage of such accounts that were profitable for each of the four most recent quarters.",
+      "rule_refs": [
+        "IDPC 3254(1)(v)"
+      ],
+      "source_quote": "\"a disclosure of the percentage of such accounts that were profitable for each of the four most recent quarters.\" — idpc-rules.txt ~line 5298",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0045",
+      "element": 5,
+      "outcome": "5.12",
+      "type": "process",
+      "front": "A dealer transacts in both options and futures/CFDs. How must designated derivatives supervision be structured (3960(1))?",
+      "back": "Appoint, where applicable: a designated Supervisor for options contracts or similar derivatives, AND one for futures, forwards, CFDs, futures contract options or similar derivatives.",
+      "rule_refs": [
+        "IDPC 3960(1)"
+      ],
+      "source_quote": "\"appoint a designated Supervisor to supervise its activities that involve futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives.\" — idpc-rules.txt ~line 8281",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0046",
+      "element": 5,
+      "outcome": "5.12",
+      "type": "trap",
+      "front": "TRAP: designated vs ALTERNATE derivatives Supervisor — when must the alternate step in (3960(3)-(4))?",
+      "back": "Alternates are appointed to ensure CONTINUOUS supervision; they must assume duties when the designated Supervisor is absent/unable, or when trading activity needs additional qualified supervisors.",
+      "rule_refs": [
+        "IDPC 3960(3)",
+        "IDPC 3960(4)"
+      ],
+      "source_quote": "\"(i) the relevant designated Supervisor is absent or unable to carry out their duties, or (ii) a Dealer Member's trading activity requires additional qualified individuals\" — idpc-rules.txt ~line 8288",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0047",
+      "element": 5,
+      "outcome": "5.12",
+      "type": "list",
+      "front": "Designated derivatives Supervisors are responsible for which two things (3961)?",
+      "back": "Approving new derivatives accounts; ensuring the handling of clients' derivatives account trading complies with Corporation requirements.",
+      "rule_refs": [
+        "IDPC 3961(1)"
+      ],
+      "source_quote": "\"(i) approving new derivatives accounts, and (ii) ensuring that the handling of clients' derivatives account trading complies with Corporation requirements.\" — idpc-rules.txt ~line 8293",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0048",
+      "element": 5,
+      "outcome": "5.13",
+      "type": "list",
+      "front": "3963(1) retail derivatives detection — first five items (margin/limits cluster)?",
+      "back": "Excessive intra-day and short-term transactions; transacting while under-margined; transacting beyond margin or credit limits; cumulative losses exceeding approved client loss limits; exceeding derivative position or exercise limits.",
+      "rule_refs": [
+        "IDPC 3963(1)(i)-(v)"
+      ],
+      "source_quote": "\"(i) excessive intra-day and short-term transactions, (ii) transacting while the account is under-margined, (iii) transacting beyond margin or credit limits,\" — idpc-rules.txt ~line 8341",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0049",
+      "element": 5,
+      "outcome": "5.13",
+      "type": "list",
+      "front": "3963(1) retail derivatives detection — items (vi)-(xi) (conduct/exposure cluster)?",
+      "back": "Speculative transactions in hedging accounts; derivatives with restricted-list underlying; underlying with transfer restrictions; derivatives used to avoid insider trading restrictions; uncovered option exposures; futures/forwards held into the delivery month.",
+      "rule_refs": [
+        "IDPC 3963(1)(vi)-(xi)"
+      ],
+      "source_quote": "\"(vi) speculative transactions in hedging accounts, (vii) transactions in derivatives whose underlying interest is on the Dealer Member's restricted list,\" — idpc-rules.txt ~line 8347",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0050",
+      "element": 5,
+      "outcome": "5.13",
+      "type": "trap",
+      "front": "TRAP: 3950(2) institutional list vs 3963(1) retail derivatives list — where do 'speculative transactions in hedging accounts' and 'uncovered option exposures' belong?",
+      "back": "Both are 3963(1) RETAIL derivatives items only. Shared with the institutional list: restricted-list derivatives, transfer-restricted underlyings, position/exercise limits.",
+      "rule_refs": [
+        "IDPC 3963(1)",
+        "IDPC 3950(2)"
+      ],
+      "source_quote": "\"(x) exposures arising out of uncovered option positions, and\" — idpc-rules.txt ~line 8359",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0051",
+      "element": 5,
+      "outcome": "5.13",
+      "type": "trap",
+      "front": "TRAP: which derivatives account type is carved out of the cumulative loss-limit regime?",
+      "back": "Hedging accounts. The limit otherwise applies whether the account is advisory, discretionary, managed or order execution only.",
+      "rule_refs": [
+        "IDPC 3252(2)(ii)",
+        "IDPC 3963(1)(iv)"
+      ],
+      "source_quote": "\"applies to an account, other than a hedging account, whether the account is an advisory account, a discretionary account, a managed account or an order execution only account,\" — idpc-rules.txt ~line 5261",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0052",
+      "element": 5,
+      "outcome": "5.13",
+      "type": "threshold",
+      "front": "How is a client's cumulative loss limit determined and maintained (3252(2)(iii))?",
+      "back": "Either on a lifetime basis validated with the client annually, or on an annual basis updated annually.",
+      "rule_refs": [
+        "IDPC 3252(2)(iii)"
+      ],
+      "source_quote": "\"(a) a lifetime basis and validated with the client on an annual basis, or (b) an annual basis and updated annually.\" — idpc-rules.txt ~line 5265",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0053",
+      "element": 5,
+      "outcome": "5.13",
+      "type": "trap",
+      "front": "TRAP: must every retail derivatives account be reviewed daily? Which ones MUST be reviewed daily AND monthly?",
+      "back": "No — accounts are selected using criteria giving reasonable assurance of detecting improper trading. But the designated Supervisor must review ALL derivatives discretionary and managed accounts daily and monthly.",
+      "rule_refs": [
+        "IDPC 3963(2)",
+        "IDPC 3962(3)"
+      ],
+      "source_quote": "\"On a daily and monthly basis, the designated Supervisor must review all derivatives accounts that are designated as discretionary accounts and managed accounts.\" — idpc-rules.txt ~line 8314",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0054",
+      "element": 5,
+      "outcome": "5.14",
+      "type": "list",
+      "front": "Retail derivatives client notifications — P&Ps must address notifying clients of which four events (3962(4))?",
+      "back": "Approaching expiry dates; significant changes in derivatives from changes in the underlying interest; changes in the dealer's business policy; new developments in derivatives trading or regulation impacting clients.",
+      "rule_refs": [
+        "IDPC 3962(4)"
+      ],
+      "source_quote": "\"(i) approaching expiry dates, (ii) significant changes in derivatives resulting from changes in the underlying interest, (iii) any changes in the Dealer Member's business policy,\" — idpc-rules.txt ~line 8318",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0055",
+      "element": 5,
+      "outcome": "5.14",
+      "type": "threshold",
+      "front": "Retail CFD float cap: what intra-day/short-term position size must P&Ps prevent?",
+      "back": "A retail client holding CFD or similar derivative positions representing more than 0.5% of the float of a publicly traded issuer, on an intra-day or short-term basis.",
+      "rule_refs": [
+        "IDPC 3962(5)(v)"
+      ],
+      "source_quote": "\"prevent a retail client from holding contracts for difference or similar derivatives positions representing more than 0.5% of the float of a reporting issuer\" — idpc-rules.txt ~line 8331",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0056",
+      "element": 5,
+      "outcome": "5.14",
+      "type": "trap",
+      "front": "TRAP: 0.5%-of-float cap vs the CFD product prohibition — which clause bans WHAT?",
+      "back": "3962(5)(v) caps position SIZE at 0.5% of float. 3962(5)(vi) categorically prohibits retail CFDs conferring rights/obligations to acquire or deliver the underlying or shareholder rights (e.g., voting).",
+      "rule_refs": [
+        "IDPC 3962(5)(v)",
+        "IDPC 3962(5)(vi)"
+      ],
+      "source_quote": "\"prohibit the offering of contracts for difference or similar derivatives to a retail client that confer the right or obligation to acquire or deliver the underlying interest\" — idpc-rules.txt ~line 8334",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0057",
+      "element": 5,
+      "outcome": "5.14",
+      "type": "process",
+      "front": "Before soliciting clients to use derivatives programs, what approval do P&Ps require? And before any transaction?",
+      "back": "Designated Supervisor must approve solicitation of clients to use derivatives programs AND clients' actual use of derivatives; no transacting without an executed derivatives trading agreement.",
+      "rule_refs": [
+        "IDPC 3962(5)(i)",
+        "IDPC 3962(5)(ii)"
+      ],
+      "source_quote": "\"require the designated Supervisor to approve the solicitation of clients to use derivatives programs, as well as clients' actual use of derivatives,\" — idpc-rules.txt ~line 8323",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0058",
+      "element": 5,
+      "outcome": "5.14",
+      "type": "list",
+      "front": "Besides solicitation approval and the trading agreement, name the other two 'address' items in 3962(5).",
+      "back": "Handling of futures, forwards and similar derivatives with pending delivery months; detection of derivatives trading by an insider client to avoid insider trading restrictions.",
+      "rule_refs": [
+        "IDPC 3962(5)(iii)",
+        "IDPC 3962(5)(iv)"
+      ],
+      "source_quote": "\"address detection of derivatives trading by a client who is an insider of a reporting issuer or any other issuer whose securities are publicly traded to avoid insider trading restrictions,\" — idpc-rules.txt ~line 8329",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0059",
+      "element": 5,
+      "outcome": "5.14",
+      "type": "process",
+      "front": "What access must derivatives clients have during normal business hours (3964)?",
+      "back": "Access to an RR, IR, PM or APM qualified to deal in the applicable derivatives — options-type, futures/forwards/CFDs-type, or all derivatives.",
+      "rule_refs": [
+        "IDPC 3964(1)"
+      ],
+      "source_quote": "\"derivatives clients have access, during normal business hours, to a Registered Representative, Investment Representative, Portfolio Manager or Associate Portfolio Manager qualified to deal in,\" — idpc-rules.txt ~line 8365",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0060",
+      "element": 5,
+      "outcome": "5.15",
+      "type": "list",
+      "front": "Managed account supervision P&Ps must specifically address which two matters (3971(2))?",
+      "back": "Identifying when a PM or sub-adviser has contravened the section 3280 managed-account conflict-of-interest requirements; ensuring fairness in allocating investment opportunities among managed accounts.",
+      "rule_refs": [
+        "IDPC 3971(2)",
+        "IDPC 3280"
+      ],
+      "source_quote": "\"ensuring fairness in the allocation of investment opportunities among its managed accounts.\" — idpc-rules.txt ~line 8416",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0061",
+      "element": 5,
+      "outcome": "5.15",
+      "type": "trap",
+      "front": "TRAP: Associate Portfolio Manager advice to managed accounts — pre-approval or next-day review?",
+      "back": "PRE-approval: the APM is prohibited from providing advice unless a Portfolio Manager at the dealer approved it BEFORE the APM provides it. (Next-day review belongs to discretionary orders.)",
+      "rule_refs": [
+        "IDPC 3971(3)",
+        "IDPC 3970(4)"
+      ],
+      "source_quote": "\"including a prohibition on the Associate Portfolio Manager providing advice unless the advice has been approved by a Portfolio Manager at the Dealer Member prior\" — idpc-rules.txt ~line 8420",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0062",
+      "element": 5,
+      "outcome": "5.15",
+      "type": "list",
+      "front": "Managed account committee: minimum composition and annual duties (3972)?",
+      "back": "Includes at least one designated Supervisor responsible for managed accounts plus the CCO; at least annually reviews managed-account supervision P&Ps and recommends compliance actions to senior management.",
+      "rule_refs": [
+        "IDPC 3972(1)"
+      ],
+      "source_quote": "\"a managed account committee that includes at least one designated Supervisor responsible for managed accounts and the Chief Compliance Officer. The committee must, at least annually:\" — idpc-rules.txt ~line 8430",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0063",
+      "element": 5,
+      "outcome": "5.15",
+      "type": "trap",
+      "front": "TRAP: which supervisory reviews can the designated Supervisor NOT delegate, and how often is each managed account reviewed?",
+      "back": "Discretionary-account monthly financial-performance reviews (3970(1)-(2)) cannot be delegated to any other person; each managed account is reviewed QUARTERLY (objectives pursued; compliant handling).",
+      "rule_refs": [
+        "IDPC 3970(3)",
+        "IDPC 3973(1)"
+      ],
+      "source_quote": "\"must not delegate the performance of the reviews required in subsections 3970(1) and 3970(2) to any other person.\" — idpc-rules.txt ~line 8384",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0064",
+      "element": 5,
+      "outcome": "5.16",
+      "type": "process",
+      "front": "A Supervisor resolves a flagged trade by phone and records nothing. What does 3927(2) require?",
+      "back": "Record and keep evidence of completed supervisory reviews, including details of inquiries about issues and their resolution, for the section 3803 retention period.",
+      "rule_refs": [
+        "IDPC 3927(2)",
+        "IDPC 3803"
+      ],
+      "source_quote": "\"must record and keep evidence of completed supervisory reviews, including details of inquiries about issues and their resolution, for the period required in section 3803.\" — idpc-rules.txt ~line 8129",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0065",
+      "element": 5,
+      "outcome": "5.16",
+      "type": "threshold",
+      "front": "Default retention period for dealer records, including supervision documentation?",
+      "back": "Minimum seven years from the date the record is created, in durable and accessible form, unless a specific requirement prescribes differently.",
+      "rule_refs": [
+        "IDPC 3803"
+      ],
+      "source_quote": "\"in durable and accessible form, for a minimum of seven years from the date the record is created unless Corporation requirements or securities laws\" — idpc-rules.txt ~line 6721",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0066",
+      "element": 5,
+      "outcome": "5.10",
+      "type": "threshold",
+      "front": "How often must a Participant's automated order systems be tested?",
+      "back": "Before use and at least annually thereafter, assuming various market conditions.",
+      "rule_refs": [
+        "UMIR Policy 7.1"
+      ],
+      "source_quote": "\"and at least annually thereafter, each automated order system is satisfactorily tested assuming\" — umir.txt ~line 7005",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0067",
+      "element": 5,
+      "outcome": "5.10",
+      "type": "process",
+      "front": "Besides testing, what real-time controls must automated order systems have?",
+      "back": "Pre-programmed internal parameters that prevent or flag, in real time, orders/trades exceeding volume, order, price or other limits.",
+      "rule_refs": [
+        "UMIR Policy 7.1"
+      ],
+      "source_quote": "\"internal parameters to prevent or “flag” with alerts on a real-time basis, the entry of orders and\" — umir.txt ~line 7008",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0068",
+      "element": 5,
+      "outcome": "5.10",
+      "type": "process",
+      "front": "What 'kill switch' capability does UMIR Policy 7.1 require for automated order systems?",
+      "back": "The Participant or Access Person must be able to immediately override or automatically disable the system, preventing its orders reaching any marketplace.",
+      "rule_refs": [
+        "UMIR Policy 7.1"
+      ],
+      "source_quote": "\"Each Participant or Access Person must have the ability to immediately override or disable\" — umir.txt ~line 7011",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0070",
+      "element": 5,
+      "outcome": "5.11",
+      "type": "trap",
+      "front": "TRAP: may OEO clients connect their own automated order systems?",
+      "back": "No — OEO clients must not use their own automated order system to generate/send orders or send orders on a pre-determined basis.",
+      "rule_refs": [
+        "IDPC 3241"
+      ],
+      "source_quote": "\"use their own automated order system, as defined in securities laws, to generate\" — idpc-rules.txt ~line 4986",
+      "status": "draft"
+    },
+    {
+      "id": "FC-E5-0069",
+      "element": 5,
+      "outcome": "5.10",
+      "type": "process",
+      "front": "Whose risk controls govern a DEA client's orders sent to a marketplace?",
+      "back": "The Participant's: every order remains subject to its risk management and supervisory controls, policies and procedures, including automated controls.",
+      "rule_refs": [
+        "UMIR 7.1(6)",
+        "UMIR 7.13"
+      ],
+      "source_quote": "\"the order is subject to the risk management and supervisory controls, policies and procedures established by the Participant including the automated controls to examine each order before entry on a marketplace.\" — umir.txt ~line 8927",
+      "status": "draft"
+    }
+  ]
+}
