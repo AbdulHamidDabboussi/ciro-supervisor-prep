@@ -1,0 +1,1177 @@
+{
+ "meta": {
+  "batch": "E4-003",
+  "drafted": 50,
+  "date": "2026-06-05",
+  "corpus": [
+   "research/sources/rules/idpc-rules.txt (IDPC 1201 definitions; 3210-3221; 3241; 3246-3247; 3250-3254; 3270-3281; 3403-3404; 3907; 3970)",
+   "research/sources/syllabus-raw.txt (Element 4 section, lines 777-1083)"
+  ],
+  "novelty": "Tested-angle inventory built from all 110 reviewed E4 items (seeds + batches 001/002, all merged into bank.json) plus a bank-wide keyed-fact index over 920 reviewed items and 19 sibling draft batches (including concurrent E5-batch-003). Automated scans run over all 50 drafts vs the entire corpus: (a) exact rule_ref overlap pairs manually same-fact reviewed; (b) stem token Jaccard > 0.5 -> 0 failures (5 near-misses 0.40-0.46 manually verified as different keyed facts); (c) keyed-option Jaccard >= 0.65 with shared rule_ref family -> 5 same-fact collisions found and rewritten to different angles: SUP-E4-0114 (was 3403(3)(i) fulfilled-obligation, collided with SUP-E6-0020 -> rewritten to 3403(4) account/scope determination), SUP-E4-0138 (was 3274 12-month non-renewable, collided with SUP-E7-0016/SUP-E4-0005/0095 -> rewritten to 3278(2) written-notice-only termination), SUP-E4-0144 (was 3271(3) proficiency, collided with SUP-E6-0086 -> rewritten to 3271(1) applicable Parts), SUP-E4-0147 (precautionary: provide-disclosure-statement keyed fact overlapped SUP-E4-0097/0048 -> rewritten to 3254(1)(iii) amendments duty), SUP-E4-0148 (was 3241(4) tape-recording form, exact keyed fact of SUP-E6-0039 caught on manual review below the Jaccard threshold -> rewritten to 3241(18)(ii) no statement consolidation). Final automated rescans: 0 stem failures, 0 keyed-option failures, 0 intra-batch key similarity >= 0.6. Invented names grep-verified unique across bank.json + all batches incl. E5-batch-003; suggested pool names Tessier/Calloway/Northgate/Halloran/Pellerin/Quay failed verification and were not used or were mutated (Tessier->Marchbank, Solstice Quay->Solstice Futures Group); 6 further name collisions mutated during drafting (Carraway->Winslow, Mercer->Beaufort, Quillon->Mirabel, Thackeray->Crestfield). Honest exclusions: no item drafted on syllabus 4.21 CFD/OTC/futures automated-approval legs (same enumerated-restriction fact family as reviewed SUP-E4-0009/0101) or on 3241(1)(ii)(a) automated order systems (keyed by SUP-E5-0041/SUP-E3-0020); GN-3900-20-001 yielded no E4-specific quotable rule text beyond what IDPC sections already settle, so all 50 items quote IDPC rule text."
+ },
+ "questions": [
+  {
+   "id": "SUP-E4-0111",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A managed account client at Verecrest Partners updates his investment objectives. His managed account application was approved 10 months ago. Under subsection 3215(4), the firm may record the change on a copy of his current managed account application provided which condition is met?",
+   "options": {
+    "A": "The client signs a fresh managed account agreement before the change is recorded",
+    "B": "The Portfolio Manager or Associate Portfolio Manager and their Supervisor initial any changes, since the application was approved within the past 12 months",
+    "C": "The application was approved within the past 36 months and the designated Supervisor re-approves the account in writing",
+    "D": "The change is reported to the Corporation within one business day"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3215(4) provides that if the client's managed account or discretionary account application was approved within the past 12 months, the Dealer Member may use a copy of the current application to record changes, but must have the Portfolio Manager or Associate Portfolio Manager and their Supervisor initial any changes. Option C, the closest distractor, imports the 36-month window from subsection 3215(3), which applies to ordinary account applications, not managed or discretionary applications. Options A and D invent requirements found nowhere in section 3215.",
+   "rule_refs": [
+    "IDPC 3215(4)",
+    "IDPC 3215(3)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"If the client's managed account or discretionary account application was approved within the past 12 months, the Dealer Member may use a copy of a client's current managed account or discretionary account application to record any changes\" — idpc-rules.txt ~line 4677"
+  },
+  {
+   "id": "SUP-E4-0112",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Beyond having policies for receiving documents within a reasonable time, what specific system does clause 3213(2)(ii) require a Dealer Member such as Strathmere Investments to operate for accounts opened with outstanding paperwork?",
+   "options": {
+    "A": "An automated block on all trading until every document is on file",
+    "B": "A system for recording pending account documentation and following up where it is not received within a reasonable time",
+    "C": "A quarterly report to the Corporation listing every account with missing documents",
+    "D": "A requirement that clients deposit a minimum balance before documents become due"
+   },
+   "answer": "B",
+   "rationale": "Clause 3213(2)(ii) requires a Dealer Member to have a system for recording pending account documentation and following up where it is not received within a reasonable time. Option A is the closest distractor because the rules do impose account restrictions in one circumstance, but only under subsection 3214(5) — after a designated Supervisor declines to approve the account following the initial trade; missing documents alone do not trigger an automatic trading block under section 3213. Options C and D describe obligations that do not exist in the rule.",
+   "rule_refs": [
+    "IDPC 3213(2)(ii)",
+    "IDPC 3214(5)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"have a system for recording pending account documentation and following up where it is not received within a reasonable time\" — idpc-rules.txt ~line 4629"
+  },
+  {
+   "id": "SUP-E4-0113",
+   "element": 4,
+   "outcome": "4.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "When Brockfield Securities must determine whether an institutional client is capable of independently evaluating investment risk and is exercising independent judgment, which of the following is among the relevant considerations listed in subsection 3403(2)?",
+   "options": {
+    "A": "The presence or absence of a pattern of acceptance of the Dealer Member's recommendations",
+    "B": "Whether the client maintains total securities under administration exceeding $25 million",
+    "C": "Whether the client has held an account with the Dealer Member for at least five years",
+    "D": "The number of complaints the client has previously filed with the Corporation"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3403(2) lists relevant considerations for the sophistication determination, including the presence or absence of a pattern of acceptance of the Dealer Member's recommendations. Option B is the closest distractor because a dollar threshold ($10 million, not $25 million) appears in the Rule 1201 definition of institutional client — but that threshold governs classification, not the separate 3403(2) capability assessment. Options C and D appear nowhere among the listed considerations.",
+   "rule_refs": [
+    "IDPC 3403(2)",
+    "IDPC 1201 (definition of institutional client)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the presence or absence of a pattern of acceptance of the Dealer Member's recommendations\" — idpc-rules.txt ~line 5607"
+  },
+  {
+   "id": "SUP-E4-0114",
+   "element": 4,
+   "outcome": "4.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Montrave Securities maintains a long-standing account for an institutional client. Independent of any particular order or recommendation, what account-level determination does subsection 3403(4) require Montrave to make, on a reasonable basis and putting the institutional client's interest first?",
+   "options": {
+    "A": "That the client remains a permitted client under National Instrument 31-103",
+    "B": "That the client's annual trading volume justifies the account's fee structure",
+    "C": "That it is suitable for the institutional client to continue having an account with the Dealer Member, and that the scope of products, services and account relationships the client has access to within the account are suitable for the client",
+    "D": "That the client has executed a new letter of undertaking each calendar year"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3403(4) requires the Dealer Member to determine, on a reasonable basis and putting the institutional client's interest first, that (i) it is suitable for the institutional client to continue having an account with the Dealer Member, and (ii) the scope of products, services and account relationships the client has access to within the account are suitable for the institutional client. Option A is the closest distractor because permitted-client status matters under clause 3404(3)(ii) for the written waiver exemption — but that is a different mechanism, not the 3403(4) determination. Options B and D invent volume and annual-renewal tests found nowhere in the rule.",
+   "rule_refs": [
+    "IDPC 3403(4)",
+    "IDPC 3404(3)(ii)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"it is suitable for the institutional client to continue having an account with the Dealer Member\" — idpc-rules.txt ~line 5638"
+  },
+  {
+   "id": "SUP-E4-0115",
+   "element": 4,
+   "outcome": "4.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Hester Falkner, an individual investor, has total securities and precious metals bullion under administration exceeding $10 million and asks Tullamore Securities to treat her as an institutional client. Under the Rule 1201 definition, what is required for her to qualify?",
+   "options": {
+    "A": "Nothing further — any person exceeding the $10 million threshold is automatically an institutional client",
+    "B": "She must demonstrate qualifying hedging activities in her account",
+    "C": "She cannot qualify, because individuals are excluded from the definition in all circumstances",
+    "D": "She must request and consent to being classified as an institutional client"
+   },
+   "answer": "D",
+   "rationale": "The Rule 1201 definition includes, as category (vi), an individual with total securities and precious metals bullion under administration or management exceeding $10 million who requests and consents to being classified as an institutional client. Option A is the closest distractor because category (v) makes a NON-individual exceeding $10 million institutional without a request-and-consent step — but for an individual, the request and consent is mandatory. Option B describes the separate hedger pathway in category (vii), and option C is wrong because category (vi) expressly covers individuals.",
+   "rule_refs": [
+    "IDPC 1201 (definition of institutional client)"
+   ],
+   "difficulty": "medium",
+   "status": "killed",
+   "source_quote": "\"an individual with total securities and precious metals bullion under administration or management exceeding $10 million who requests and consents to being classified as an institutional client\" — idpc-rules.txt ~line 484",
+   "qa_note": "Gate 1 kill (wave 7): solver answered C at high confidence vs key D; key is verbatim-supported by IDPC 1201 definition limb (individual + $10M + request/consent) but strict no-exceptions rule applies. Angle (institutional-client individual limb) queued for E4-004 with structurally different framing."
+  },
+  {
+   "id": "SUP-E4-0116",
+   "element": 4,
+   "outcome": "4.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Esterbrook Securities is opening an account that will be held by a bank. With respect to the account appropriateness determination, what does subsection 3211(3) provide?",
+   "options": {
+    "A": "Subsection 3211(1) does not apply, because the account is held by a bank",
+    "B": "Only clause 3211(1)(ii) is waived; the dealer must still determine that opening the account is appropriate",
+    "C": "The full appropriateness determination applies, but the bank may complete it on the dealer's behalf",
+    "D": "The determination applies unless the bank waives it in writing"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3211(3) provides that subsection 3211(1) — the entire account appropriateness determination — does not apply in respect to an account held by a Dealer Member, regulated entity, exempt market dealer, portfolio manager, bank, trust company or insurance company. Option B is the closest distractor because subsection 3211(2) waives only clause 3211(1)(ii), but that narrower relief applies to order execution only and direct electronic access accounts, not to accounts held by banks. Options C and D invent delegation and waiver mechanisms the rule does not contain.",
+   "rule_refs": [
+    "IDPC 3211(3)(ii)",
+    "IDPC 3211(2)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"an account held by a Dealer Member, regulated entity, exempt market dealer, portfolio manager, bank, trust company or insurance company\" — idpc-rules.txt ~line 4589"
+  },
+  {
+   "id": "SUP-E4-0117",
+   "element": 4,
+   "outcome": "4.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Clause 3211(1)(i) requires a Dealer Member, before opening an account for a person, to determine what about the act of opening the account itself?",
+   "options": {
+    "A": "That the person can afford the account's minimum fees",
+    "B": "That the person has at least one year of investment experience",
+    "C": "That this action is appropriate for the person",
+    "D": "That the person has been referred by an existing client"
+   },
+   "answer": "C",
+   "rationale": "Clause 3211(1)(i) requires the Dealer Member to determine that 'this action' — opening the account — 'is appropriate for the person'. This is distinct from clause 3211(1)(ii), which addresses the scope of products, services and account relationships accessible within the account. Option A is the closest distractor because fee impacts feature in relationship disclosure under section 3216, but affordability of fees is not the 3211(1)(i) test. Options B and D state qualification criteria that appear nowhere in the rule.",
+   "rule_refs": [
+    "IDPC 3211(1)(i)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"(i) this action is appropriate for the person, and (ii) the scope of products, services and account relationships which the person would have access to within the account are appropriate for the person.\" — idpc-rules.txt ~line 4577"
+  },
+  {
+   "id": "SUP-E4-0118",
+   "element": 4,
+   "outcome": "4.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Under the section 3210 definition, the term \"client account records\" is broadly defined to capture which category of materials, beyond the four specifically listed items?",
+   "options": {
+    "A": "Any information, disclosure statement or agreement the Dealer Member is required to provide to or obtain from the client in accordance with Corporation requirements or applicable laws",
+    "B": "Only documents the client has physically signed in ink",
+    "C": "All internal compliance memoranda discussing the client",
+    "D": "Marketing materials sent to the client during the previous year"
+   },
+   "answer": "A",
+   "rationale": "The section 3210 definition opens with a broad chapeau: client account records means any information, disclosure statement or agreement the Dealer Member is required to provide to or obtain from the client in accordance with Corporation requirements or applicable laws, 'including, but not limited to' the four listed items. Option B is the closest distractor because signed agreements are within scope, but the definition is not limited to signed documents — it includes information and disclosure statements. Options C and D describe internal and promotional materials, which are not items required to be provided to or obtained from the client.",
+   "rule_refs": [
+    "IDPC 3210(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"Any information, disclosure statement or agreement the Dealer Member is required to provide to or obtain from the client in accordance with Corporation requirements or applicable laws\" — idpc-rules.txt ~line 4560"
+  },
+  {
+   "id": "SUP-E4-0119",
+   "element": 4,
+   "outcome": "4.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Delphine Okonjo, an accountant, holds trading authorizations over the accounts of eleven different clients at Birkdale Securities. Beyond keeping each signed authorization, what does subsection 3220(4) require of Birkdale's records concerning persons like Delphine?",
+   "options": {
+    "A": "An annual report to each affected client listing every other client Delphine acts for",
+    "B": "A requirement that no person hold authorizations over more than ten client accounts",
+    "C": "A record of persons with trading authorization sufficient to allow the firm to identify any persons with trading authorization for multiple clients or client accounts",
+    "D": "A certified copy of Delphine's professional licence on each account file"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3220(4) requires the Dealer Member to maintain a record of persons with trading authorization over one or more client accounts and to ensure the record is sufficient to allow the Dealer Member to identify any persons with trading authorization for multiple clients or client accounts. Option B is the closest distractor because it implies a numerical control, but the rule imposes a record-keeping and identification requirement, not a cap on the number of authorizations. Options A and D describe disclosure and documentation duties found nowhere in section 3220.",
+   "rule_refs": [
+    "IDPC 3220(4)",
+    "IDPC 3220(1)(iii)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"must ensure that such record is sufficient to allow the Dealer Member to identify any persons with trading authorization for multiple clients or client accounts\" — idpc-rules.txt ~line 4913"
+  },
+  {
+   "id": "SUP-E4-0120",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Gravenhurst Wealth drafts its retail account-opening package and labels the disclosure document \"Your Account Guide\". Under clause 3216(5)(i), what is wrong with this approach?",
+   "options": {
+    "A": "Nothing — the title of the document is not prescribed",
+    "B": "The relationship disclosure information must be entitled \"Relationship Disclosure\"",
+    "C": "The document must be entitled \"Client Relationship Model\"",
+    "D": "Disclosure documents may only use titles pre-approved by the Corporation each year"
+   },
+   "answer": "B",
+   "rationale": "Clause 3216(5)(i) requires that the relationship disclosure information must be entitled 'Relationship Disclosure'. Option A is the closest distractor because subsection 3216(4) states the FORMAT of the information is not prescribed — but the title is expressly prescribed by clause 3216(5)(i), so a different title does not comply. Option C invents a title, and option D describes an annual Corporation pre-approval process that does not exist; approval of the document is an internal obligation under subsection 3216(6).",
+   "rule_refs": [
+    "IDPC 3216(5)(i)",
+    "IDPC 3216(4)(i)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"The relationship disclosure information must be entitled \"Relationship Disclosure\".\" — idpc-rules.txt ~line 4727"
+  },
+  {
+   "id": "SUP-E4-0121",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A retail client of Hollybrook Securities holds an advisory account, a margin account and a registered savings account at the firm. May Hollybrook give her a single combined relationship disclosure document covering all three accounts?",
+   "options": {
+    "A": "No — a separate relationship disclosure document is mandatory for each account",
+    "B": "Yes, automatically, because all the accounts belong to the same client",
+    "C": "Only if the client signs a waiver releasing the firm from per-account disclosure",
+    "D": "Yes, as long as the Dealer Member determines that the combined disclosure is appropriate for the client in light of the relevant circumstances, including the nature of the various accounts"
+   },
+   "answer": "D",
+   "rationale": "Clause 3216(3)(iii) permits combined relationship disclosure information where a client has more than one account, as long as the Dealer Member determines that the combined disclosure is appropriate for the client in light of the relevant circumstances, including the nature of the various accounts. Option B is the closest distractor because combination is indeed allowed, but it is conditional on the appropriateness determination, not automatic. Option A wrongly mandates separate documents, and option C invents a waiver requirement.",
+   "rule_refs": [
+    "IDPC 3216(3)(iii)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Where a client has more than one account, combined relationship disclosure information may be provided to the client as long as the Dealer Member determines that the combined disclosure is appropriate for the client\" — idpc-rules.txt ~line 4711"
+  },
+  {
+   "id": "SUP-E4-0122",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Kelmscott Investments distributes only in-house mutual funds and notes to its retail clients. Which relationship disclosure content item in subsection 3216(5) speaks most directly to this business model?",
+   "options": {
+    "A": "A statement of when trade confirmations and account statements will be sent",
+    "B": "A general explanation of how investment performance benchmarks might be used",
+    "C": "A description of the circumstances for disclosing information to a trusted contact person",
+    "D": "A general description of any limits on products and services, including whether the firm will primarily or exclusively provide proprietary products to the client"
+   },
+   "answer": "D",
+   "rationale": "Sub-clause 3216(5)(ii)(b) requires a general description of any limits on the products and services the Dealer Member will offer, including whether the firm will primarily or exclusively provide proprietary products to the client. A proprietary-only shelf is precisely this disclosure. Option B is the closest distractor because benchmark disclosure under sub-clause 3216(5)(ii)(m) is also required content, but it does not address product-shelf limits. Options A and C are likewise required content items but are unrelated to a proprietary product model.",
+   "rule_refs": [
+    "IDPC 3216(5)(ii)(b)(I)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"whether the firm will primarily or exclusively provide proprietary products to the client\" — idpc-rules.txt ~line 4739"
+  },
+  {
+   "id": "SUP-E4-0123",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Alongside describing its complaint handling procedures in the relationship disclosure, what related statement does sub-clause 3216(5)(ii)(l) require Norwell Securities to include for retail clients?",
+   "options": {
+    "A": "A statement that the client will be provided with a copy of a Corporation approved complaint handling process brochure at time of account opening",
+    "B": "A statement that all complaints must be submitted within 90 days of the disputed trade",
+    "C": "A statement that complaints may only be made through the Ombudsman for Banking Services and Investments",
+    "D": "A statement that the firm guarantees a written response to any complaint within 24 hours"
+   },
+   "answer": "A",
+   "rationale": "Sub-clause 3216(5)(ii)(l) requires a description of the Dealer Member's complaint handling procedures and a statement that the client will be provided with a copy of a Corporation approved complaint handling process brochure at time of account opening. Option C is the closest distractor because external recourse bodies exist, but the rule does not restrict complaints to any single channel and the required statement concerns the brochure, not OBSI exclusivity. Options B and D invent deadlines and service guarantees not found in the rule.",
+   "rule_refs": [
+    "IDPC 3216(5)(ii)(l)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"a statement that the client will be provided with a copy of a Corporation approved complaint handling process brochure at time of account opening\" — idpc-rules.txt ~line 4818"
+  },
+  {
+   "id": "SUP-E4-0124",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "The prescribed leverage risk disclosure statement in subsection 3217(3) opens by comparing borrowing to another way of investing. Which comparison does the prescribed wording make?",
+   "options": {
+    "A": "Using borrowed money involves greater risk than investing through a managed account",
+    "B": "Using borrowed money involves greater risk than trading on margin",
+    "C": "Using borrowed money to finance the purchase of securities involves greater risk than using cash resources only",
+    "D": "Using borrowed money involves greater risk than purchasing guaranteed investment certificates"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3217(3) prescribes wording substantially as follows: 'Using borrowed money to finance the purchase of securities involves greater risk than using cash resources only.' The comparison is between borrowed money and cash resources, not between account types or product categories. Option B is the closest distractor because margin is itself a form of borrowing, but the prescribed statement contrasts leverage with cash, not one form of borrowing with another. Options A and D substitute comparisons that do not appear in the prescribed text.",
+   "rule_refs": [
+    "IDPC 3217(3)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Using borrowed money to finance the purchase of securities involves greater risk than using cash resources only.\" — idpc-rules.txt ~line 4858"
+  },
+  {
+   "id": "SUP-E4-0125",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A retail margin client of Ivernes Brokers argues that because his margin account agreement gives the firm broad rights over his account, the firm itself is free to execute his trades however it wishes. Which clause of subsection 3247(2) contradicts him?",
+   "options": {
+    "A": "The clause obliging the client to pay interest on debit balances",
+    "B": "The clause describing the dealer's right to sell assets to cover short sales",
+    "C": "The clause describing the dealer's right to use assets as collateral for the client's debt",
+    "D": "The clause setting out the Dealer Member's obligation to carry out all transactions in accordance with Corporation requirements and, where applicable, the requirements of the marketplace on which the transaction has been executed"
+   },
+   "answer": "D",
+   "rationale": "Clause 3247(2)(ix) requires the margin account agreement to contain the Dealer Member's obligation to carry out all transactions in accordance with Corporation requirements and, where applicable, the requirements of the marketplace on which the transaction has been executed — the dealer's rights do not free it from regulatory execution standards. Option B is the closest distractor because it is also mandatory agreement content under clause 3247(2)(v), but it is a dealer RIGHT and does not answer the client's claim about how transactions must be carried out. Options A and C are likewise required content but concern client obligations and collateral rights, not execution standards.",
+   "rule_refs": [
+    "IDPC 3247(2)(ix)",
+    "IDPC 3247(2)(v)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the Dealer Member's obligation to carry out all transactions in accordance with Corporation requirements and, where applicable, the requirements of the marketplace on which the transaction has been executed\" — idpc-rules.txt ~line 5152"
+  },
+  {
+   "id": "SUP-E4-0126",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Juneau Securities holds securities in a client's margin account against her outstanding debit. Which clause of the margin account agreement, required by subsection 3247(2), covers the firm's ability to do this?",
+   "options": {
+    "A": "The clause describing the extent of the Dealer Member's right to use assets in the client's account and to hold them as collateral for the client's debt",
+    "B": "The clause describing the client's obligation to maintain adequate margin",
+    "C": "The clause describing the dealer's right to exercise discretion in accepting orders",
+    "D": "The clause describing the time periods during which the dealer accepts orders for execution"
+   },
+   "answer": "A",
+   "rationale": "Clause 3247(2)(viii) requires the margin account agreement to describe the extent of the Dealer Member's right to use assets in the client's account and to hold them as collateral for the client's debt — exactly the practice described. Option B is the closest distractor because the client's margin-maintenance obligation under clause 3247(2)(i) is connected to the same debit, but it is the client's obligation, not the dealer's collateral right. Options C and D are content items of the derivatives trading agreement under section 3252, not the margin account agreement.",
+   "rule_refs": [
+    "IDPC 3247(2)(viii)",
+    "IDPC 3247(2)(i)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"the extent of the Dealer Member's right to use assets in the client's account and to hold them as collateral for the client's debt\" — idpc-rules.txt ~line 5144"
+  },
+  {
+   "id": "SUP-E4-0127",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Which of the following items in a margin account agreement under subsection 3247(2) is a CLIENT obligation rather than a Dealer Member right or obligation?",
+   "options": {
+    "A": "Raising money on and pledging assets held in the account",
+    "B": "Paying interest on debit balances in the account",
+    "C": "Selling assets in the account and making purchases to cover short sales",
+    "D": "Carrying out all transactions in accordance with Corporation requirements"
+   },
+   "answer": "B",
+   "rationale": "Clause 3247(2)(ii) requires the agreement to describe the client's obligation to pay interest on debit balances in their account — a client obligation. Option D is the closest distractor because it is an obligation, but under clause 3247(2)(ix) it is the Dealer Member's obligation, not the client's. Options A and C are Dealer Member rights under clauses 3247(2)(iii) and 3247(2)(v) respectively.",
+   "rule_refs": [
+    "IDPC 3247(2)(ii)",
+    "IDPC 3247(2)(iii)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"the client's obligation to pay interest on debit balances in their account\" — idpc-rules.txt ~line 5132"
+  },
+  {
+   "id": "SUP-E4-0128",
+   "element": 4,
+   "outcome": "4.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Ostwell Derivatives mistakenly books a client's futures order to the wrong account and must unwind the position. Which Dealer Member obligation that clause 3252(1)(v) requires in the derivatives trading agreement is engaged by events of this kind?",
+   "options": {
+    "A": "The obligation to address situations when errors and omissions occur",
+    "B": "The obligation to obtain client consent before taking the other side of a transaction",
+    "C": "The obligation to provide regulators with position limit information",
+    "D": "The obligation to distribute assignment notices by a stated method"
+   },
+   "answer": "A",
+   "rationale": "Sub-clause 3252(1)(v)(c) requires the derivatives trading agreement to include the Dealer Member's obligation to address situations when errors and omissions occur, which directly covers a misbooked order. Option B is the closest distractor because it is also a 3252(1)(v) obligation, but consent to take the other side under sub-clause (v)(b) concerns principal trading against the client, not operational mistakes. Option C is sub-clause (v)(a) and concerns regulatory reporting; option D concerns options assignment under clause 3252(1)(xi)(b).",
+   "rule_refs": [
+    "IDPC 3252(1)(v)(c)",
+    "IDPC 3252(1)(v)(b)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"address situations when errors and omissions occur\" — idpc-rules.txt ~line 5213"
+  },
+  {
+   "id": "SUP-E4-0129",
+   "element": 4,
+   "outcome": "4.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Sigrid Bessette's derivatives account at Zellner Capital carries open futures positions and a debit. The firm holds the securities in her account as security for both. Which extent-of-right item under clause 3252(1)(iii) must her derivatives trading agreement describe to support this?",
+   "options": {
+    "A": "The right to exercise discretion in accepting orders",
+    "B": "The right to apply cash-only terms before expiry",
+    "C": "The right to set maximum limits on short positions",
+    "D": "The right to use client account assets as collateral for the clients' debit and position obligations"
+   },
+   "answer": "D",
+   "rationale": "Sub-clause 3252(1)(iii)(b) requires the agreement to set out the extent of the Dealer Member's right to use client account assets as collateral for the clients' debit and position obligations — covering both the debit and the open positions described. Option A is the closest distractor in form, but exercising discretion in accepting orders under sub-clause 3252(1)(ii)(a) concerns order handling, not collateral. Options B and C are option-specific disclosures under clause 3252(1)(xi)(c), not collateral rights.",
+   "rule_refs": [
+    "IDPC 3252(1)(iii)(b)",
+    "IDPC 3252(1)(ii)(a)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"use client account assets as collateral for the clients' debit and position obligations\" — idpc-rules.txt ~line 5202"
+  },
+  {
+   "id": "SUP-E4-0130",
+   "element": 4,
+   "outcome": "4.9",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Clauses 3252(1)(viii)(c) and (d) require a derivatives trading agreement to include two further client payment obligations. How does the rule qualify each of these obligations?",
+   "options": {
+    "A": "Both are unconditional: every client must pay commission and interest in all cases",
+    "B": "Commission is payable only on losing trades; interest only on credit balances",
+    "C": "Both apply only to institutional clients",
+    "D": "Each is qualified by \"if any\": to pay commission or other compensation, if any, and to pay interest, if any, on account debit balances"
+   },
+   "answer": "D",
+   "rationale": "Sub-clauses 3252(1)(viii)(c) and (d) require the agreement to set out the client's obligation to 'pay commission or other compensation, if any' and to 'pay interest, if any, on account debit balances' — both expressly qualified by 'if any', reflecting that fee structures vary. Option A is the closest distractor because the obligations are mandatory agreement content, but the underlying payments are conditional, not universal. Option B misstates both triggers, and option C invents an institutional limitation.",
+   "rule_refs": [
+    "IDPC 3252(1)(viii)(c)",
+    "IDPC 3252(1)(viii)(d)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(c) pay commission or other compensation, if any, (d) pay interest, if any, on account debit balances\" — idpc-rules.txt ~line 5227"
+  },
+  {
+   "id": "SUP-E4-0131",
+   "element": 4,
+   "outcome": "4.10",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A client of Fontayne Securities who has written covered calls asks how she will learn if her short options are assigned. For options and similar derivatives, what does clause 3252(1)(xi)(b) require the derivatives trading agreement to state?",
+   "options": {
+    "A": "That assignment can never occur before expiry",
+    "B": "That assignment notices are distributed solely by the clearing house directly to clients",
+    "C": "The method the Dealer Member will use to distribute assignment notices",
+    "D": "That the client must check the exchange website daily for assignments"
+   },
+   "answer": "C",
+   "rationale": "Sub-clause 3252(1)(xi)(b) requires the derivatives trading agreement to include the method the Dealer Member will use to distribute assignment notices. Option B is the closest distractor because assignment originates at the clearing level, but the disclosure obligation concerns the Dealer Member's own distribution method to its clients. Option A is factually wrong for American-style options and is not a prescribed disclosure; option D shifts the burden to the client in a way the rule does not.",
+   "rule_refs": [
+    "IDPC 3252(1)(xi)(b)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the method the Dealer Member will use to distribute assignment notices\" — idpc-rules.txt ~line 5242"
+  },
+  {
+   "id": "SUP-E4-0132",
+   "element": 4,
+   "outcome": "4.10",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "For options and similar derivatives, clause 3252(1)(xi)(c) requires three disclosures in the derivatives trading agreement. In addition to the disclosure that the dealer may apply cash-only terms during the last 10 days before expiry, which pair completes the list?",
+   "options": {
+    "A": "That the Dealer Member may set maximum limits on short positions, and that the Corporation may impose other rules affecting existing or subsequent transactions",
+    "B": "That the dealer will guarantee execution prices, and that exercise is automatic",
+    "C": "That the client may exceed position limits with consent, and that margin is waived near expiry",
+    "D": "That short positions are prohibited for retail clients, and that the Corporation pre-approves each trade"
+   },
+   "answer": "A",
+   "rationale": "Sub-clause 3252(1)(xi)(c) requires disclosures indicating that (I) the Dealer Member may set maximum limits on short positions, (II) the Dealer Member may apply cash-only terms during the last 10 days before expiry, and (III) the Corporation may impose other rules affecting existing or subsequent transactions. Option A supplies disclosures (I) and (III). Option D is the closest distractor because it echoes short positions and Corporation involvement, but short positions are limited, not prohibited, and the Corporation imposes rules rather than pre-approving each trade. Options B and C invert the rule's substance.",
+   "rule_refs": [
+    "IDPC 3252(1)(xi)(c)(I)",
+    "IDPC 3252(1)(xi)(c)(III)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(I) the Dealer Member may set maximum limits on short positions, (II) the Dealer Member may apply cash-only terms during the last 10 days before expiry\" — idpc-rules.txt ~line 5244"
+  },
+  {
+   "id": "SUP-E4-0133",
+   "element": 4,
+   "outcome": "4.11",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Subsection 3252(2) frames the cumulative loss limit requirement against the rest of the rulebook. According to clause 3252(2)(iii), the limit must be determined on a lifetime or annual basis notwithstanding what?",
+   "options": {
+    "A": "The client's obligations under the margin account agreement",
+    "B": "Obligations under Rule 3400",
+    "C": "Requirements of the derivatives marketplace or clearing house",
+    "D": "The dealer's product due diligence obligations under Rule 3300"
+   },
+   "answer": "B",
+   "rationale": "Clause 3252(2)(iii) provides that the client's cumulative loss limit 'must, notwithstanding obligations under Rule 3400, be determined on (a) a lifetime basis and validated with the client on an annual basis, or (b) an annual basis and updated annually.' The loss limit duty operates independently of the suitability obligations in Rule 3400. Option C is the closest distractor because marketplace and clearing house requirements appear in clause 3252(1)(xii) on minimum margin, but the 'notwithstanding' in 3252(2)(iii) points to Rule 3400. Options A and D reference rules not named in the clause.",
+   "rule_refs": [
+    "IDPC 3252(2)(iii)",
+    "IDPC 3252(1)(xii)"
+   ],
+   "difficulty": "hard",
+   "status": "killed",
+   "source_quote": "\"must, notwithstanding obligations under Rule 3400, be determined on (a) a lifetime basis and validated with the client on an annual basis, or (b) an annual basis and updated annually\" — idpc-rules.txt ~line 5264",
+   "qa_note": "Gate 1 kill (wave 7): solver answered A at low confidence vs key B; 'notwithstanding' connective hook in 3252(2)(iii) proved unreasonable to derive (verbatim-recall trivia). Operative lifetime/annual mechanics already tested by SUP-E5-0155. Angle retired."
+  },
+  {
+   "id": "SUP-E4-0134",
+   "element": 4,
+   "outcome": "4.12",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Blackwood Institutional Markets accepts a letter of undertaking from a pension plan whose derivatives account is charged interest on a debit balance. The plan's master custody agreement already sets out, with the plan's acknowledgement, the conditions for transfers between its accounts. Under clause 3253(2)(ii), must the letter of undertaking repeat those transfer conditions?",
+   "options": {
+    "A": "Yes — the letter must always state the transfer conditions, with no exceptions",
+    "B": "No — the conditions need not appear in the letter because they are acknowledged by the client in another document",
+    "C": "Yes — but only if the debit balance exceeds the firm's house margin requirement",
+    "D": "No — transfer conditions are never required content for a letter of undertaking"
+   },
+   "answer": "B",
+   "rationale": "Clause 3253(2)(ii) requires the letter of undertaking to state, where the client has an account charged interest on a debit balance, the conditions under which transfers of the client's funds, securities or other property may be made between accounts, 'unless these conditions are acknowledged by the client in another document.' The custody agreement acknowledgement satisfies the exception. Option A is the closest distractor because it states the default duty but ignores the express exception. Option D ignores the conditional requirement entirely, and option C invents a margin-based trigger.",
+   "rule_refs": [
+    "IDPC 3253(2)(ii)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"unless these conditions are acknowledged by the client in another document\" — idpc-rules.txt ~line 5282"
+  },
+  {
+   "id": "SUP-E4-0135",
+   "element": 4,
+   "outcome": "4.13",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Coverack Asset Management wants to begin accepting managed accounts. Under clause 3277(1)(i), what is the first structural requirement concerning supervisory personnel?",
+   "options": {
+    "A": "The Dealer Member must designate a Supervisor to be responsible for managed accounts",
+    "B": "The Chief Financial Officer must be appointed to oversee all managed accounts",
+    "C": "Each Portfolio Manager must supervise their own managed accounts",
+    "D": "The Corporation must appoint a Supervisor for the firm's managed account program"
+   },
+   "answer": "A",
+   "rationale": "Clause 3277(1)(i) requires that, to accept managed accounts, the Dealer Member must designate a Supervisor to be responsible for managed accounts. Option C is the closest distractor because Portfolio Managers make the investment decisions, but self-supervision is not what the rule prescribes — a designated Supervisor must be responsible for the accounts. Option B names the wrong officer, and option D wrongly assigns the designation to the Corporation rather than the Dealer Member.",
+   "rule_refs": [
+    "IDPC 3277(1)(i)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"the Dealer Member must designate a Supervisor to be responsible for managed accounts\" — idpc-rules.txt ~line 5406"
+  },
+  {
+   "id": "SUP-E4-0136",
+   "element": 4,
+   "outcome": "4.13",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A new compliance officer at Drummore Private Wealth proposes relying on the firm's general retail supervision manual to govern its managed account program. Why does clause 3277(1)(ii) make this insufficient?",
+   "options": {
+    "A": "Managed accounts may only be supervised under policies written by the Corporation",
+    "B": "Managed account supervision requires no written policies, only Supervisor judgment",
+    "C": "General policies suffice if the firm has fewer than 100 managed accounts",
+    "D": "The Dealer Member's policies and procedures must specifically address the supervision and operation of managed accounts in accordance with Corporation requirements"
+   },
+   "answer": "D",
+   "rationale": "Clause 3277(1)(ii) requires that the Dealer Member's policies and procedures must specifically address the supervision and operation of managed accounts in accordance with Corporation requirements — a general retail manual that does not specifically address managed accounts falls short. Option C is the closest distractor because it suggests a proportionality threshold, but the rule contains no account-count exemption. Option A misattributes authorship of the policies to the Corporation, and option B contradicts the express requirement for policies and procedures.",
+   "rule_refs": [
+    "IDPC 3277(1)(ii)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"the Dealer Member's policies and procedures must specifically address the supervision and operation of managed accounts in accordance with Corporation requirements\" — idpc-rules.txt ~line 5407"
+  },
+  {
+   "id": "SUP-E4-0137",
+   "element": 4,
+   "outcome": "4.14",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "While reviewing a draft managed account agreement at Orpington Counsel, a Supervisor notices it is silent on how the relationship may end. Which clause of subsection 3278(1) does the draft fail to satisfy?",
+   "options": {
+    "A": "The requirement to describe investment restrictions imposed by the client",
+    "B": "The requirement to describe or refer to the client's risk profile",
+    "C": "The requirement to set out the terms of termination in accordance with subsection 3278(2)",
+    "D": "The requirement to state a maximum agreement term of 12 months"
+   },
+   "answer": "C",
+   "rationale": "Clause 3278(1)(iii) requires the managed account agreement to set out the terms of termination in accordance with subsection 3278(2), under which termination is by written notice — by the client effective on receipt, or by the dealer effective not less than 30 days from delivery. Option D is the closest distractor because a 12-month, non-renewable maximum term exists, but under clauses 3274(1)(iii) and (iv) it applies to DISCRETIONARY account agreements, not managed account agreements. Options A and B are other required contents under clauses 3278(1)(ii) and (i), but the identified gap concerns termination.",
+   "rule_refs": [
+    "IDPC 3278(1)(iii)",
+    "IDPC 3274(1)(iii)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"set out the terms of termination in accordance with subsection 3278(2)\" — idpc-rules.txt ~line 5426"
+  },
+  {
+   "id": "SUP-E4-0138",
+   "element": 4,
+   "outcome": "4.14",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A managed account client of Larrimore Counsel telephones her Portfolio Manager and states she is terminating her managed account agreement effective immediately; she sends nothing in writing. Under subsection 3278(2), what is the status of the agreement?",
+   "options": {
+    "A": "Terminated immediately, because a client may terminate by any means at any time",
+    "B": "Still in force, because the managed account agreement may only be terminated by written notice",
+    "C": "Terminated, but only effective 30 days after the telephone call",
+    "D": "Suspended pending a hearing before the firm's managed account committee"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3278(2) provides that the managed account agreement may only be terminated by written notice — by the client, effective on receipt by the Dealer Member, or by the Dealer Member, effective not less than 30 days from delivery. An oral instruction is not written notice, so the agreement remains in force until written notice is received. Option C is the closest distractor because it borrows the 30-day period, but that period applies to termination by the DEALER, and in any case no written notice exists here. Option A ignores the written-notice exclusivity, and option D invents a committee process that subsection 3278(2) does not contain.",
+   "rule_refs": [
+    "IDPC 3278(2)",
+    "IDPC 3278(2)(ii)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"The managed account agreement may only be terminated by written notice\" — idpc-rules.txt ~line 5428"
+  },
+  {
+   "id": "SUP-E4-0139",
+   "element": 4,
+   "outcome": "4.15",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Ridgevale Securities hires a foreign sub-advisor under a written sub-advisor agreement to manage certain client mandates. The sub-advisor's home regime has weak conflict-of-interest legislation. Under subsection 3279(2), what must be true before the sub-advisor may act?",
+   "options": {
+    "A": "The sub-advisor must relocate its principal place of business to Canada",
+    "B": "The sub-advisor must have entered into an agreement with the Dealer Member that it will comply with section 3280, since its home regime's conflict provisions are not at least equivalent",
+    "C": "Nothing further — sub-advisors are exempt from managed-account conflict rules",
+    "D": "The Corporation must individually license the sub-advisor"
+   },
+   "answer": "B",
+   "rationale": "Clause 3279(2)(ii) requires the sub-advisor to be subject to legislation or regulations containing conflict of interest provisions at least equivalent to those set out in section 3280, OR to have entered into an agreement with the Dealer Member that it will comply with section 3280. Where the home regime is not equivalent, the contractual route is the remaining path. Option C is the closest distractor because the Rule 3270 definition of responsible person excludes a sub-adviser under section 3279 — but section 3279 itself then imposes the equivalence-or-agreement condition, so the conflict rules are not simply avoided. Options A and D invent relocation and licensing requirements not in the rule.",
+   "rule_refs": [
+    "IDPC 3279(2)(ii)",
+    "IDPC 3270(1)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"subject to legislation or regulations containing conflict of interest provisions at least equivalent to those set out in section 3280 or has entered into an agreement with the Dealer Member that it will comply with section 3280\" — idpc-rules.txt ~line 5443"
+  },
+  {
+   "id": "SUP-E4-0140",
+   "element": 4,
+   "outcome": "4.16",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "A managed account client of Westerly Counsel proposes, in a written agreement she initiates, a fee for services rendered to her managed account calculated on the volume of transactions initiated for the account. Under subsection 3281(1), may Westerly charge this fee?",
+   "options": {
+    "A": "No — volume-based charges to managed account clients are prohibited in all circumstances",
+    "B": "Yes, but only if the fee is also contingent on the account being profitable",
+    "C": "No — only flat annual fees may be charged on managed accounts",
+    "D": "Yes — a charge based on the volume or value of transactions is permitted where the client has provided the Dealer Member with a written agreement setting out the manner in which the fees may be charged"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3281(1) prohibits charging a client directly for managed account services based upon the volume or value of transactions, or contingent upon profit or performance, 'unless the client has provided the Dealer Member with a written agreement which sets out the manner in which the fees may be charged.' The written agreement here engages the exception. Option A is the closest distractor because an unconditional prohibition does exist in subsection 3281(2) — but it governs compensating persons authorized to deal with managed accounts, not direct client charges. Option B adds a contingency requirement that does not exist, and option C invents a flat-fee-only rule.",
+   "rule_refs": [
+    "IDPC 3281(1)(i)",
+    "IDPC 3281(2)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"unless the client has provided the Dealer Member with a written agreement which sets out the manner in which the fees may be charged based on volume or value of transactions or contingent upon profit or performance\" — idpc-rules.txt ~line 5476"
+  },
+  {
+   "id": "SUP-E4-0141",
+   "element": 4,
+   "outcome": "4.16",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Subsection 3281(1) restricts two types of direct client charges for services rendered to a managed account unless a written agreement is in place. Which pair correctly states them?",
+   "options": {
+    "A": "Charges payable in foreign currency, and charges exceeding 2% of assets",
+    "B": "Charges deducted monthly, and charges deducted quarterly",
+    "C": "Charges for custody services, and charges for tax reporting",
+    "D": "Charges based upon the volume or value of transactions initiated for the account, and charges contingent upon profit or performance of the client's account"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3281(1) identifies the restricted direct charges as those '(i) based upon the volume or value of transactions in the account initiated for the account, or (ii) contingent upon profit or performance of the client's account' — chargeable only under a written agreement setting out the manner of charging. Option A is the closest distractor because it invokes plausible-sounding quantitative limits, but neither a currency restriction nor a 2% cap appears in the rule. Options B and C describe deduction frequencies and service categories the rule does not regulate.",
+   "rule_refs": [
+    "IDPC 3281(1)(i)",
+    "IDPC 3281(1)(ii)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"(i) based upon the volume or value of transactions in the account initiated for the account, or (ii) contingent upon profit or performance of the client's account\" — idpc-rules.txt ~line 5474"
+  },
+  {
+   "id": "SUP-E4-0142",
+   "element": 4,
+   "outcome": "4.17",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Section 3907 lets a Supervisor delegate supervisory tasks generally, yet subsection 3970(3) forbids the designated Supervisor for discretionary accounts from delegating certain reviews. How do these provisions fit together?",
+   "options": {
+    "A": "Section 3907 overrides subsection 3970(3), so the discretionary reviews may be delegated to a qualified delegate",
+    "B": "Both provisions permit delegation provided the delegate reports weekly",
+    "C": "Under section 3907 a Supervisor may delegate supervisory tasks but not the responsibility for their performance, and subsection 3970(3) goes further by prohibiting even the performance of the discretionary account reviews from being delegated",
+    "D": "Subsection 3970(3) applies only when the delegate is outside the compliance department"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3907(1) provides that a Supervisor 'may delegate supervisory tasks and procedures, but not the responsibility for their performance' — the general regime. Subsection 3970(3) carves out the discretionary account reviews in subsections 3970(1) and 3970(2), whose performance must not be delegated to any other person at all. Option A is the closest distractor because it assumes the general delegation rule prevails, but subsection 3907(2) requires that any delegation not be contrary to Corporation requirements, and 3970(3) is exactly such a requirement. Options B and D invent reporting and departmental conditions found in neither section.",
+   "rule_refs": [
+    "IDPC 3907(1)",
+    "IDPC 3970(3)",
+    "IDPC 3907(2)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"A Supervisor may delegate supervisory tasks and procedures, but not the responsibility for their performance.\" — idpc-rules.txt ~line 7950"
+  },
+  {
+   "id": "SUP-E4-0143",
+   "element": 4,
+   "outcome": "4.18",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Clause 3273(1)(ii) requires a Dealer Member accepting discretionary accounts to have policies and procedures that specifically address the supervision and operation of discretionary accounts in accordance with which body of requirements?",
+   "options": {
+    "A": "Rule 3900",
+    "B": "Rule 2600",
+    "C": "Rule 3400",
+    "D": "National Instrument 31-103"
+   },
+   "answer": "A",
+   "rationale": "Clause 3273(1)(ii) requires the Dealer Member's policies and procedures to specifically address the supervision and operation of discretionary accounts in accordance with Rule 3900. Option B is the closest distractor because Rule 2600 is also cited in section 3273 — but in clause 3273(1)(i), as the proficiency standard for the designated Supervisors, not as the supervision framework for the policies and procedures. Rule 3400 (option C) governs suitability determinations, and NI 31-103 (option D) is not the reference in this clause.",
+   "rule_refs": [
+    "IDPC 3273(1)(ii)",
+    "IDPC 3273(1)(i)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the Dealer Member's policies and procedures must specifically address the supervision and operation of discretionary accounts in accordance with Rule 3900\" — idpc-rules.txt ~line 5356"
+  },
+  {
+   "id": "SUP-E4-0144",
+   "element": 4,
+   "outcome": "4.18",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Yardley Securities accepts a discretionary account for a retail client. Under subsection 3271(1), with which Parts of Rule 3200 must the firm comply for the purposes of that account?",
+   "options": {
+    "A": "Parts D and E only",
+    "B": "The requirements in Parts A, B and G of Rule 3200, and if applicable, Parts C, E and F of Rule 3200",
+    "C": "Part G only, since discretionary accounts are governed exclusively by Part G",
+    "D": "Whichever Parts the firm's policies and procedures select"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3271(1) provides that, for the purposes of Rule 3200, a Dealer Member that accepts a discretionary account or a managed account for a retail client must comply with the requirements in Parts A, B and G of Rule 3200, and if applicable, Parts C, E and F of Rule 3200. Option C is the closest distractor because Part G contains the discretionary and managed account provisions, but Parts A and B — the general account provisions — also apply, with Parts C, E and F applying as applicable. Option A names the order execution only and margin parts in isolation, and option D wrongly makes applicability elective.",
+   "rule_refs": [
+    "IDPC 3271(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"managed account for a retail client must comply with the requirements in Parts A, B and G of Rule 3200, and if applicable, Parts C, E and F of Rule 3200\" — idpc-rules.txt ~line 5337"
+  },
+  {
+   "id": "SUP-E4-0145",
+   "element": 4,
+   "outcome": "4.19",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Bessette Capital is underwriting a secondary offering. A Registered Representative exercising authority over a client's discretionary account wants the account to participate in the offering. Under subsection 3276(3), what is required before the discretionary account may invest?",
+   "options": {
+    "A": "Nothing — discretionary authority already covers new issues",
+    "B": "Disclosure to the client after the purchase settles",
+    "C": "The prior written consent of the client",
+    "D": "Approval from the Corporation's market surveillance group"
+   },
+   "answer": "C",
+   "rationale": "Clause 3276(3)(ii) prohibits a responsible person or Dealer Member, without the prior written consent of the client, from knowingly allowing a discretionary account to invest in new issues or secondary offerings underwritten by the Dealer Member. Option B is the closest distractor because disclosure has a role elsewhere in subsection 3276(3) — clause 3276(3)(i) refers to disclosing an officer or director position with an issuer — but for dealer-underwritten offerings the consent must be prior and written, not after-the-fact disclosure. Options A and D respectively ignore and misplace the consent requirement.",
+   "rule_refs": [
+    "IDPC 3276(3)(ii)",
+    "IDPC 3276(3)(i)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"A responsible person or a Dealer Member must not, without the prior written consent of the client, knowingly allow a discretionary account to\" — idpc-rules.txt ~line 5394"
+  },
+  {
+   "id": "SUP-E4-0146",
+   "element": 4,
+   "outcome": "4.19",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Reviewing a draft discretionary account agreement at Winslow & Frost, a Supervisor confirms the document states the 12-month term and the termination terms, but says nothing about what the firm may actually do with the account. Which two contents required by subsection 3274(1) are missing?",
+   "options": {
+    "A": "The client's investment objectives, and the firm's fee schedule",
+    "B": "A definition of the extent of the discretionary authority given to the Dealer Member by the client, and any restrictions on the discretionary authority",
+    "C": "The fair-allocation policy, and the client's risk profile",
+    "D": "The names of every Registered Representative at the firm, and the firm's proficiency records"
+   },
+   "answer": "B",
+   "rationale": "Clauses 3274(1)(i) and (ii) require the discretionary account agreement to define the extent of the discretionary authority given to the Dealer Member by the client and to include any restrictions on the discretionary authority — the 'what the firm may do' content the draft omits. Option C is the closest distractor because a client's risk profile and the fair-allocation policy are required in the MANAGED account context (clause 3278(1)(i) and clause 3277(1)(vi)), not in the discretionary account agreement. Options A and D mix in fee and personnel items not required by subsection 3274(1).",
+   "rule_refs": [
+    "IDPC 3274(1)(i)",
+    "IDPC 3274(1)(ii)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"(i) define the extent of the discretionary authority given to the Dealer Member by the client, (ii) include any restrictions on the discretionary authority\" — idpc-rules.txt ~line 5371"
+  },
+  {
+   "id": "SUP-E4-0147",
+   "element": 4,
+   "outcome": "4.20",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A retail client of Mirabel Ridge Commodities received the Corporation-approved derivatives risk disclosure statement when her futures account was approved last year. The Corporation has since approved an amended version of the statement. Applying section 3254 to her ongoing derivatives account, what must the firm now do?",
+   "options": {
+    "A": "Nothing — the disclosure obligation was discharged when the account was opened",
+    "B": "Close the account until the client re-applies under the amended statement",
+    "C": "Provide her with the amendments to the statement, since the firm must provide each derivatives retail client with any amendments to the statement or document originally provided",
+    "D": "Obtain a new signed derivatives trading agreement reflecting the amendments"
+   },
+   "answer": "C",
+   "rationale": "Clause 3254(1)(iii) requires a Dealer Member to provide each derivatives retail client with any amendments to the statement or document provided under clause 3254(1)(i). Delivery at account opening does not exhaust the obligation when the statement is later amended. Option A is the closest distractor because the initial-delivery duty in clause 3254(1)(i) was indeed satisfied, but the amendments duty is a separate, continuing obligation. Option D confuses the risk disclosure statement with the derivatives trading agreement under section 3252, and option B invents a closure remedy the rule does not impose.",
+   "rule_refs": [
+    "IDPC 3254(1)(iii)",
+    "IDPC 3254(1)(i)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"provide each derivatives retail client with any amendments to the statement or document provided under clause 3254(1)(i)\" — idpc-rules.txt ~line 5291"
+  },
+  {
+   "id": "SUP-E4-0148",
+   "element": 4,
+   "outcome": "4.21",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Evander Direct operates its order execution only account services as a separate business unit of a full-service Investment Dealer. A client holds both an OEO account at the unit and an advisory account at the parent firm, and asks for one combined monthly statement covering both. Applying subsection 3241(18), how must Evander Direct respond?",
+   "options": {
+    "A": "Decline — the client monthly statements of its order execution only account services must not be consolidated with any other client account statements, including those of any other business unit of the Dealer Member",
+    "B": "Combine the statements, provided the OEO positions appear on a separate page",
+    "C": "Combine the statements, provided the client signs a consolidation waiver",
+    "D": "Decline only if the advisory account holds derivatives"
+   },
+   "answer": "A",
+   "rationale": "Clause 3241(18)(ii) requires a Dealer Member approved to provide order execution only account services within a separate legal entity or separate business unit to ensure that the client monthly statements of its order execution only account services are not consolidated with any other client account statements, including those of any other business unit of the Dealer Member or of the Dealer Member itself. Option B is the closest distractor because clause 3241(18)(i) does require labeling all OEO account documentation, but labeling within a combined statement does not cure the prohibition on consolidation. Options C and D invent a waiver mechanism and a derivatives-only trigger the rule does not contain.",
+   "rule_refs": [
+    "IDPC 3241(18)(ii)",
+    "IDPC 3241(18)(i)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the client monthly statements of its order execution only account services are not consolidated with any other client account statements, including those of any other business unit of the Dealer Member\" — idpc-rules.txt ~line 5098"
+  },
+  {
+   "id": "SUP-E4-0149",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-05",
+   "scenario": "Marchbank & Blackwood Securities, an Investment Dealer, is working through several client-file matters at its midtown branch. First, Anneliese Gruber, a retail advisory client whose account application was approved 30 months ago, reports a large inheritance that significantly changes her financial circumstances. Second, the branch's records team is reviewing how Registered Representatives keep copies of their clients' account applications. Third, Casimir Odell, a Registered Representative, is preparing to recommend for the first time that his retail client Beata Lindgren borrow against her home equity line to purchase securities in her cash account; Beata opened that account two years ago and has never received a leverage risk disclosure statement.",
+   "stem": "The Registered Representative wants to record Anneliese's changed financial circumstances on a copy of her current account application rather than complete a new one. Under subsection 3215(3), is this acceptable?",
+   "options": {
+    "A": "Yes, because the application was approved within the past 36 months, provided the Registered Representative and their Supervisor initial any changes",
+    "B": "No, a brand-new account application must be completed whenever a client's financial circumstances change",
+    "C": "Yes, but only if the application was approved within the past 12 months",
+    "D": "Yes, and no initials are required because the original application was already approved"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3215(3) permits a Dealer Member to use a copy of a client's current account application to record changes if the application was approved within the past 36 months, but the Registered Representative, Portfolio Manager or Associate Portfolio Manager and their Supervisor must initial any changes. Option C is the closest distractor: the 12-month window in subsection 3215(4) applies only to managed account or discretionary account applications, not to a regular advisory account. Option B overstates the rule — a new application is not mandatory inside the 36-month window — and option D omits the mandatory initials.",
+   "rule_refs": [
+    "IDPC 3215(3)",
+    "IDPC 3215(4)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"if the client's account application was approved within the past 36 months, the Dealer Member may use a copy of a client's current account application to record any changes to a client's information\" — idpc-rules.txt ~line 4673"
+  },
+  {
+   "id": "SUP-E4-0150",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-05",
+   "scenario": "Marchbank & Blackwood Securities, an Investment Dealer, is working through several client-file matters at its midtown branch. First, Anneliese Gruber, a retail advisory client whose account application was approved 30 months ago, reports a large inheritance that significantly changes her financial circumstances. Second, the branch's records team is reviewing how Registered Representatives keep copies of their clients' account applications. Third, Casimir Odell, a Registered Representative, is preparing to recommend for the first time that his retail client Beata Lindgren borrow against her home equity line to purchase securities in her cash account; Beata opened that account two years ago and has never received a leverage risk disclosure statement.",
+   "stem": "Because Anneliese's inheritance is a significant change to her client information, how does subsection 3215(1) require Marchbank & Blackwood's policies and procedures to treat the approval of that change?",
+   "options": {
+    "A": "The change may be approved by any employee in the records department",
+    "B": "The change requires no approval if Anneliese confirms it by email",
+    "C": "The change must be approved by the Chief Compliance Officer personally",
+    "D": "The change must be approved in the same manner that an account application is approved for a new account"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3215(1) requires the Dealer Member's policies and procedures to specifically address that any significant changes to client information are approved in the same manner that an account application is approved for a new account. Option C is the closest distractor because it names a senior approver, but the rule fixes the manner of approval by reference to new-account approval — which involves the designated Supervisor under section 3214 — not the CCO personally. Options A and B understate the approval requirement.",
+   "rule_refs": [
+    "IDPC 3215(1)",
+    "IDPC 3214(3)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"any significant changes to client information are approved in the same manner that an account application is approved for a new account\" — idpc-rules.txt ~line 4657"
+  },
+  {
+   "id": "SUP-E4-0151",
+   "element": 4,
+   "outcome": "4.4",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-05",
+   "scenario": "Marchbank & Blackwood Securities, an Investment Dealer, is working through several client-file matters at its midtown branch. First, Anneliese Gruber, a retail advisory client whose account application was approved 30 months ago, reports a large inheritance that significantly changes her financial circumstances. Second, the branch's records team is reviewing how Registered Representatives keep copies of their clients' account applications. Third, Casimir Odell, a Registered Representative, is preparing to recommend for the first time that his retail client Beata Lindgren borrow against her home equity line to purchase securities in her cash account; Beata opened that account two years ago and has never received a leverage risk disclosure statement.",
+   "stem": "The records team confirms that each client's account application is stored in the firm's electronic application platform, which every Registered Representative can access for their own clients. Does this satisfy the retention requirement in subsection 3220(2)?",
+   "options": {
+    "A": "No — each Representative must keep a printed copy in their desk file",
+    "B": "Yes — the requirement can be satisfied by maintaining the information in an electronic application accessible to the Registered Representative",
+    "C": "No — only the designated Supervisor may hold account applications",
+    "D": "Yes, but only if clients are emailed a duplicate copy every year"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3220(2) requires the Registered Representative, Portfolio Manager or Associate Portfolio Manager responsible for an account to retain a current copy of each account application, and expressly states that this can be satisfied by a Dealer Member maintaining the information in an electronic application accessible to them. Option A is the closest distractor because physical retention would also work, but it is not required once the electronic access condition is met. Options C and D respectively misplace custody and invent an annual mailing duty.",
+   "rule_refs": [
+    "IDPC 3220(2)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"This requirement can be satisfied by a Dealer Member maintaining the information in an electronic application accessible to the Registered Representative, Portfolio Manager or Associate Portfolio Manager.\" — idpc-rules.txt ~line 4908"
+  },
+  {
+   "id": "SUP-E4-0152",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-05",
+   "scenario": "Marchbank & Blackwood Securities, an Investment Dealer, is working through several client-file matters at its midtown branch. First, Anneliese Gruber, a retail advisory client whose account application was approved 30 months ago, reports a large inheritance that significantly changes her financial circumstances. Second, the branch's records team is reviewing how Registered Representatives keep copies of their clients' account applications. Third, Casimir Odell, a Registered Representative, is preparing to recommend for the first time that his retail client Beata Lindgren borrow against her home equity line to purchase securities in her cash account; Beata opened that account two years ago and has never received a leverage risk disclosure statement.",
+   "stem": "Under subsection 3217(1), when must Marchbank & Blackwood provide Beata with the leverage risk disclosure statement in connection with Casimir's planned recommendation?",
+   "options": {
+    "A": "Within 25 business days after the leveraged purchase settles",
+    "B": "Only if Beata asks for it, because her account is already open",
+    "C": "Prior to making the initial recommendation to her to purchase securities using borrowed money, together with obtaining her positive acknowledgement of receipt",
+    "D": "At her next annual KYC update"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3217(1) lists three trigger points, one of which is 'prior to making an initial recommendation to a retail client to purchase securities using borrowed money'; at that point the dealer must provide the leverage risk disclosure statement and obtain the client's positive acknowledgement that they are in receipt of it. Option B is the closest distractor because the account-opening trigger has passed, but the recommendation trigger operates independently of account opening, so delivery is mandatory, not on request. Options A and D place delivery after the fact, contrary to the rule's 'prior to' timing.",
+   "rule_refs": [
+    "IDPC 3217(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"prior to making an initial recommendation to a retail client to purchase securities using borrowed money\" — idpc-rules.txt ~line 4848"
+  },
+  {
+   "id": "SUP-E4-0153",
+   "element": 4,
+   "outcome": "4.8",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-06",
+   "scenario": "Solstice Futures Group, an Investment Dealer, is finalizing the derivatives trading agreement for a new retail advisory account opened by Viggo Maartens, a software consultant who intends to trade stock-index futures and equity options speculatively. The firm's legal team is checking the draft agreement clause by clause against section 3252 before Viggo signs. Viggo has asked three practical questions: when the firm's futures desk accepts orders, what happens if his written options are assigned, and what collateral and payment commitments he is taking on. The compliance officer also notes that Viggo's account is speculative, not a hedging account.",
+   "stem": "Viggo emails an order at 11:40 p.m. and is surprised it is not executed until the following morning. Which item that clause 3252(1)(i) requires in his derivatives trading agreement addresses this?",
+   "options": {
+    "A": "The dealer's right to impose trading or position limits",
+    "B": "The conditions for applying his property in other accounts to margin calls",
+    "C": "The dealer's deadlines for submitting an exercise notice",
+    "D": "The time periods during which the Dealer Member accepts orders for execution"
+   },
+   "answer": "D",
+   "rationale": "Clause 3252(1)(i) requires the derivatives trading agreement to include the time periods during which the Dealer Member accepts orders for execution — disclosure that tells the client when overnight orders are accepted. Option C is the closest distractor because it also concerns timing, but exercise-notice deadlines under clause 3252(1)(xi)(a) govern option exercise, not routine order acceptance. Options A and B are other mandatory contents under clauses 3252(1)(ii)(b) and 3252(1)(iv) but do not address order-acceptance hours.",
+   "rule_refs": [
+    "IDPC 3252(1)(i)",
+    "IDPC 3252(1)(xi)(a)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"the time periods during which the Dealer Member accepts orders for execution\" — idpc-rules.txt ~line 5190"
+  },
+  {
+   "id": "SUP-E4-0154",
+   "element": 4,
+   "outcome": "4.9",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-06",
+   "scenario": "Solstice Futures Group, an Investment Dealer, is finalizing the derivatives trading agreement for a new retail advisory account opened by Viggo Maartens, a software consultant who intends to trade stock-index futures and equity options speculatively. The firm's legal team is checking the draft agreement clause by clause against section 3252 before Viggo signs. Viggo has asked three practical questions: when the firm's futures desk accepts orders, what happens if his written options are assigned, and what collateral and payment commitments he is taking on. The compliance officer also notes that Viggo's account is speculative, not a hedging account.",
+   "stem": "Among the client obligations that clause 3252(1)(viii) requires in Viggo's derivatives trading agreement, which obligation pairs the posting of collateral with the settlement of amounts owed to the firm?",
+   "options": {
+    "A": "To comply with the requirements of any entity through which the derivative is traded",
+    "B": "To inform the dealer of any insider status",
+    "C": "To maintain adequate margin collateral and to pay any debts owed to the Dealer Member",
+    "D": "To instruct the dealer to close out positions before expiry"
+   },
+   "answer": "C",
+   "rationale": "Sub-clause 3252(1)(viii)(b) requires the agreement to include the client's obligation to maintain adequate margin collateral and to pay any debts owed to the Dealer Member — the only listed obligation combining collateral maintenance with debt payment. Option A is the closest distractor because it is also a clause 3252(1)(viii) obligation, under sub-clause (viii)(a), but it concerns external entity requirements, not collateral or debts. Option B is an acknowledgement under clause 3252(1)(ix)(b), and option D is an options-specific obligation under clause 3252(1)(xi)(d).",
+   "rule_refs": [
+    "IDPC 3252(1)(viii)(b)",
+    "IDPC 3252(1)(viii)(a)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"maintain adequate margin collateral and to pay any debts owed to the Dealer Member\" — idpc-rules.txt ~line 5225"
+  },
+  {
+   "id": "SUP-E4-0155",
+   "element": 4,
+   "outcome": "4.10",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-06",
+   "scenario": "Solstice Futures Group, an Investment Dealer, is finalizing the derivatives trading agreement for a new retail advisory account opened by Viggo Maartens, a software consultant who intends to trade stock-index futures and equity options speculatively. The firm's legal team is checking the draft agreement clause by clause against section 3252 before Viggo signs. Viggo has asked three practical questions: when the firm's futures desk accepts orders, what happens if his written options are assigned, and what collateral and payment commitments he is taking on. The compliance officer also notes that Viggo's account is speculative, not a hedging account.",
+   "stem": "Viggo wants to exercise an in-the-money equity option on its last trading day but is unsure of the firm's cut-off time. For options and similar derivatives, which item does clause 3252(1)(xi)(a) require his derivatives trading agreement to include on this point?",
+   "options": {
+    "A": "The clearing house's standard exercise hours only",
+    "B": "The Dealer Member's deadlines for a client to submit an exercise notice",
+    "C": "A statement that exercise is automatic for all in-the-money positions",
+    "D": "The client's cumulative loss limit"
+   },
+   "answer": "B",
+   "rationale": "Sub-clause 3252(1)(xi)(a) requires the derivatives trading agreement, for options, futures contract options and similar derivatives, to include the Dealer Member's deadlines for a client to submit an exercise notice. Option A is the closest distractor because clearing house rules also matter, but the prescribed disclosure is the Dealer Member's own deadlines. Option C contradicts clause 3252(1)(xi)(d), under which the client must instruct the dealer to close out positions before expiry, and option D belongs to clause 3252(1)(vii), unrelated to exercise mechanics.",
+   "rule_refs": [
+    "IDPC 3252(1)(xi)(a)",
+    "IDPC 3252(1)(xi)(d)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"the Dealer Member's deadlines for a client to submit an exercise notice\" — idpc-rules.txt ~line 5241"
+  },
+  {
+   "id": "SUP-E4-0156",
+   "element": 4,
+   "outcome": "4.11",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-06",
+   "scenario": "Solstice Futures Group, an Investment Dealer, is finalizing the derivatives trading agreement for a new retail advisory account opened by Viggo Maartens, a software consultant who intends to trade stock-index futures and equity options speculatively. The firm's legal team is checking the draft agreement clause by clause against section 3252 before Viggo signs. Viggo has asked three practical questions: when the firm's futures desk accepts orders, what happens if his written options are assigned, and what collateral and payment commitments he is taking on. The compliance officer also notes that Viggo's account is speculative, not a hedging account.",
+   "stem": "Solstice Futures Group also offers retail clients a security product that is not a futures contract, forward contract, CFD or futures contract option, but is highly leveraged. A compliance analyst argues that no cumulative loss limit can apply to an account trading it, because the product is a security, not a derivative. Is the analyst correct under clause 3252(2)(i)?",
+   "options": {
+    "A": "Yes — cumulative loss limits attach only to exchange-traded derivatives",
+    "B": "Yes — securities are governed exclusively by the margin account agreement",
+    "C": "No — the requirement applies where transactions involve the listed derivatives or highly-leveraged securities or derivatives",
+    "D": "No — cumulative loss limits apply to every retail account regardless of product"
+   },
+   "answer": "C",
+   "rationale": "Clause 3252(2)(i) provides that the cumulative loss limit applies to an account where the transactions involve futures contracts, forward contracts, contracts for difference, futures contract options or similar derivatives, 'or highly-leveraged securities or derivatives' — so a highly-leveraged security is captured even though it is not a derivative. Option D is the closest distractor because it reaches the same conclusion, but for the wrong reason: the limit is product-scoped, not universal, and clause 3252(2)(ii) also excludes hedging accounts. Options A and B both wrongly confine the rule to derivatives.",
+   "rule_refs": [
+    "IDPC 3252(2)(i)",
+    "IDPC 3252(2)(ii)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"contracts for difference, futures contract options or similar derivatives, or highly-leveraged securities or derivatives\" — idpc-rules.txt ~line 5259"
+  },
+  {
+   "id": "SUP-E4-0157",
+   "element": 4,
+   "outcome": "4.19",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-07",
+   "scenario": "Dunhaven & Achebe Wealth, an Investment Dealer, operates both a discretionary account program and a managed account program. This week its designated Supervisor for these accounts, Rosalind Beaufort, faces four files. File 1: an equities trader saw on the firm's order-management system that a discretionary account will buy a thinly traded stock this afternoon, and bought the stock for his personal account first. File 2: Registered Representative Quentin Verrick, who conducts business on behalf of Dunhaven & Achebe, has been asked by a long-time client to exercise discretion over a discretionary account the client keeps at a different Investment Dealer. File 3: two managed-account proposals arrive, each with the client's prior written consent on file — one to buy shares of an issuer connected to the Dealer Member, the other to sell bonds from a managed account directly to the personal account of an Associate Portfolio Manager. File 4: a client of an ordinary advisory account places an order to sell exactly 8,000 shares of one issuer and asks her Registered Representative to choose the moment during the day to execute at the best available price.",
+   "stem": "In File 1, which discretionary-account conflict rule did the equities trader violate?",
+   "options": {
+    "A": "Subsection 3276(2): a responsible person or Dealer Member must not trade for their own account, or knowingly permit or arrange any associate or affiliate to trade, in reliance upon information relating to trades made or to be made in a discretionary account",
+    "B": "Subsection 3276(1): a discretionary account must not hold securities of the Dealer Member",
+    "C": "Subsection 3276(4): a discretionary account must not provide a loan to a responsible person",
+    "D": "Subsection 3274(2): termination of a discretionary account agreement requires written notice"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3276(2) prohibits a responsible person or Dealer Member from trading for his or her or the Dealer Member's own account, or knowingly permitting or arranging any associate or affiliate to trade, in reliance upon information relating to trades made or to be made in a discretionary account — exactly the front-running described. Option B is the closest distractor because it is also a section 3276 conflict rule, but it concerns the account's holdings of dealer securities, not personal trading ahead of account orders. Options C and D address loans and termination mechanics, neither of which is engaged.",
+   "rule_refs": [
+    "IDPC 3276(2)",
+    "IDPC 3276(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"must not trade for his or her or the Dealer Member's own account, or knowingly permit or arrange any associate or affiliate to trade, in reliance upon information relating to trades made or to be made in a discretionary account\" — idpc-rules.txt ~line 5391"
+  },
+  {
+   "id": "SUP-E4-0158",
+   "element": 4,
+   "outcome": "4.18",
+   "taxonomy": "Understand",
+   "type": "item_set",
+   "item_set_id": "E4-SET-07",
+   "scenario": "Dunhaven & Achebe Wealth, an Investment Dealer, operates both a discretionary account program and a managed account program. This week its designated Supervisor for these accounts, Rosalind Beaufort, faces four files. File 1: an equities trader saw on the firm's order-management system that a discretionary account will buy a thinly traded stock this afternoon, and bought the stock for his personal account first. File 2: Registered Representative Quentin Verrick, who conducts business on behalf of Dunhaven & Achebe, has been asked by a long-time client to exercise discretion over a discretionary account the client keeps at a different Investment Dealer. File 3: two managed-account proposals arrive, each with the client's prior written consent on file — one to buy shares of an issuer connected to the Dealer Member, the other to sell bonds from a managed account directly to the personal account of an Associate Portfolio Manager. File 4: a client of an ordinary advisory account places an order to sell exactly 8,000 shares of one issuer and asks her Registered Representative to choose the moment during the day to execute at the best available price.",
+   "stem": "In File 2, under subsection 3275(1), why is the arrangement the client proposes to Quentin not permitted?",
+   "options": {
+    "A": "Discretionary authority may never be exercised by a Registered Representative, only by a Portfolio Manager",
+    "B": "Discretionary accounts may not be held by long-time clients",
+    "C": "The client must first convert the account to a managed account",
+    "D": "The discretionary account must be maintained at the Dealer Member on whose behalf the Registered Representative conducts business"
+   },
+   "answer": "D",
+   "rationale": "Clause 3275(1)(ii) permits a Registered Representative to be authorized to affect trades for a discretionary account only if the discretionary account is maintained at the Dealer Member on whose behalf the Registered Representative conducts business — an account at a different dealer fails this condition. Option A is the closest distractor because Portfolio Managers handle managed accounts, but subsection 3275(1) expressly contemplates Registered Representatives affecting discretionary trades when its two conditions are met. Options B and C invent restrictions that appear nowhere in the rule.",
+   "rule_refs": [
+    "IDPC 3275(1)(ii)",
+    "IDPC 3275(1)(i)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the discretionary account is maintained at the Dealer Member on whose behalf the Registered Representative, conducts business\" — idpc-rules.txt ~line 5386"
+  },
+  {
+   "id": "SUP-E4-0159",
+   "element": 4,
+   "outcome": "4.15",
+   "taxonomy": "Apply",
+   "type": "item_set",
+   "item_set_id": "E4-SET-07",
+   "scenario": "Dunhaven & Achebe Wealth, an Investment Dealer, operates both a discretionary account program and a managed account program. This week its designated Supervisor for these accounts, Rosalind Beaufort, faces four files. File 1: an equities trader saw on the firm's order-management system that a discretionary account will buy a thinly traded stock this afternoon, and bought the stock for his personal account first. File 2: Registered Representative Quentin Verrick, who conducts business on behalf of Dunhaven & Achebe, has been asked by a long-time client to exercise discretion over a discretionary account the client keeps at a different Investment Dealer. File 3: two managed-account proposals arrive, each with the client's prior written consent on file — one to buy shares of an issuer connected to the Dealer Member, the other to sell bonds from a managed account directly to the personal account of an Associate Portfolio Manager. File 4: a client of an ordinary advisory account places an order to sell exactly 8,000 shares of one issuer and asks her Registered Representative to choose the moment during the day to execute at the best available price.",
+   "stem": "Applying section 3280 to the two managed-account proposals in File 3, what should Rosalind conclude?",
+   "options": {
+    "A": "Both proposals may proceed because written client consent cures any managed-account conflict",
+    "B": "Both proposals are prohibited regardless of consent",
+    "C": "The connected-issuer purchase may proceed with the prior written consent, but the sale to the Associate Portfolio Manager's account is prohibited because subsection 3280(3) contains no consent exception",
+    "D": "The sale to the Associate Portfolio Manager's account may proceed with consent, but the connected-issuer purchase requires Corporation approval"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3280(2) prohibits knowingly allowing a managed account to invest in a security of an issuer related or connected to the Dealer Member 'without the prior written consent of the client' — so consent permits the first proposal. Subsection 3280(3), by contrast, flatly prohibits knowingly causing a managed account to purchase or sell a security from or to the account of a Portfolio Manager, an Associate Portfolio Manager or their associates, with no consent exception — so the second proposal is blocked. Option A is the closest distractor: it correctly handles the first proposal but wrongly extends the consent cure to the absolute 3280(3) prohibitions. Options B and D each misclassify one proposal.",
+   "rule_refs": [
+    "IDPC 3280(2)(i)",
+    "IDPC 3280(3)(i)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"A responsible person or a Dealer Member must not knowingly cause any managed account to: (i) purchase or sell a security or derivative of a security of an issuer from or to the account of a Portfolio Manager, an Associate Portfolio Manager\" — idpc-rules.txt ~line 5463"
+  },
+  {
+   "id": "SUP-E4-0160",
+   "element": 4,
+   "outcome": "4.20",
+   "taxonomy": "Apply",
+   "type": "item_set",
+   "item_set_id": "E4-SET-07",
+   "scenario": "Dunhaven & Achebe Wealth, an Investment Dealer, operates both a discretionary account program and a managed account program. This week its designated Supervisor for these accounts, Rosalind Beaufort, faces four files. File 1: an equities trader saw on the firm's order-management system that a discretionary account will buy a thinly traded stock this afternoon, and bought the stock for his personal account first. File 2: Registered Representative Quentin Verrick, who conducts business on behalf of Dunhaven & Achebe, has been asked by a long-time client to exercise discretion over a discretionary account the client keeps at a different Investment Dealer. File 3: two managed-account proposals arrive, each with the client's prior written consent on file — one to buy shares of an issuer connected to the Dealer Member, the other to sell bonds from a managed account directly to the personal account of an Associate Portfolio Manager. File 4: a client of an ordinary advisory account places an order to sell exactly 8,000 shares of one issuer and asks her Registered Representative to choose the moment during the day to execute at the best available price.",
+   "stem": "In File 4, the account is an ordinary advisory account with no discretionary account agreement. Applying section 3221, may the Registered Representative choose the moment to execute the client's 8,000-share sell order?",
+   "options": {
+    "A": "No — any exercise of discretion requires a discretionary account agreement",
+    "B": "Yes — subsection 3221(2) provides that the prohibition does not apply to time and price discretion exercised in fulfilling the best execution obligation relating to a client order for a specific amount or a specific security",
+    "C": "Yes — Registered Representatives may exercise unlimited discretion in advisory accounts",
+    "D": "No — only a Portfolio Manager may select execution timing"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3221(2) provides that the prohibition in subsection 3221(1) does not apply to time and price discretion exercised in fulfilling the Dealer Member's best execution obligation relating to a client order for a specific amount or a specific security — here the client specified both the security and the amount, leaving only time and price to the Representative. Option A is the closest distractor because subsection 3221(1) does prohibit discretionary trading, 'including time and price discretion', outside Part G accounts — but these facts fall squarely within the 3221(2) exception. Options C and D respectively overstate and understate who may act.",
+   "rule_refs": [
+    "IDPC 3221(2)",
+    "IDPC 3221(1)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"Subsection 3221(1) does not apply to time and price discretion exercised in fulfilling the Dealer Member's best execution obligation relating to a client order for a specific amount or a specific security.\" — idpc-rules.txt ~line 4921"
+  }
+ ]
+}

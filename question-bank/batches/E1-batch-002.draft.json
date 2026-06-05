@@ -1,0 +1,1238 @@
+{
+  "meta": {
+    "batch": "E1-002",
+    "drafted": 50,
+    "date": "2026-06-04",
+    "corpus": [
+      "idpc-rules.txt (IDPC Jan 2026)",
+      "syllabus-raw.txt (Supervisor Exam Syllabus, Element 1)"
+    ],
+    "sourcing_note": "Regulator/statute outcomes (1.1-1.12, 1.15) sourced from the verbatim syllabus parameter text; rule-anchored outcomes (1.13-1.14, 1.16-1.23) quote IDPC rule text (Rules 1400, 2554, 3110-3118, 3619, 3700 series, 8100/8200, 9502-9504). Novelty gate run against seed-questions.json (SUP-E1-0001-0005) and E1-batch-001.draft.json (SUP-E1-0006-0055): all 55 existing stems read, tested-angle inventory built, untested subsections/inverse directions only. All source_quotes verified contiguous against the corpus on 2026-06-04. New firm and person names; none reused from batch 001 or seeds.",
+    "qa": "Gate 1 blind solve 2026-06-05: 50/50 agreement. Gate 2: 50/50 quotes verified (1 quote lengthened). Gate 3 lint clean. See qa-log.md."
+  },
+  "questions": [
+    {
+      "id": "SUP-E1-0056",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A compliance trainer at Tatamagouche Securities builds a slide on what the Supervisor Exam syllabus expects candidates to understand about the CSA and the provincial/territorial regulators beyond the forms of legislation. Which pairing of additional parameters is drawn from the syllabus's outcome 1.1 list?",
+      "options": {
+        "A": "Investment Dealer and individual registration requirements, and enforcement powers",
+        "B": "Recognition orders, and the IDPC Rules",
+        "C": "CIPF funding requirements, and pooling of client assets",
+        "D": "Best execution, and order exposure"
+      },
+      "answer": "A",
+      "rationale": "The 1.1 parameter list closes with 'Investment Dealer and individual registration requirements' and 'Enforcement powers' — the provincial/territorial regulators register dealers and individuals and wield statutory enforcement powers. Option B lists 1.2 (CIRO) parameters: recognition orders and the IDPC Rules belong to the SRO outcome, the closest trap because both outcomes mention registration. Option C belongs to CIPF under 1.6, and option D lists UMIR trading concepts from Element 7.",
+      "rule_refs": [
+        "Syllabus 1.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Investment Dealer and individual registration requirements • Enforcement powers\" — syllabus-raw.txt ~line 196"
+    },
+    {
+      "id": "SUP-E1-0057",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An Approved Person at Kapuskasing Capital argues that because CIRO is 'just an industry association,' it cannot itself sanction him for misconduct — only a provincial securities commission can. Which syllabus parameter under outcome 1.2 directly contradicts this claim?",
+      "options": {
+        "A": "The mandate and objectives of the CSA",
+        "B": "The forms of CSA legislation, such as Staff Notices",
+        "C": "The role of CIPF in an Investment Dealer's insolvency",
+        "D": "The enforcement powers of CIRO"
+      },
+      "answer": "D",
+      "rationale": "Outcome 1.2's parameter list expressly includes the 'Enforcement powers of CIRO' — the self-regulatory organization itself investigates and disciplines its Dealer Members and Approved Persons, so the AP's claim that only a commission can sanction him is wrong. Option A is the CSA's mandate under outcome 1.1 — the closest trap because the CSA also has enforcement powers, but the claim is about CIRO's own authority. CIPF (C) protects clients in insolvency, and Staff Notices (B) are CSA policy instruments, neither of which addresses CIRO's disciplinary reach.",
+      "rule_refs": [
+        "Syllabus 1.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Enforcement powers of CIRO\" — syllabus-raw.txt ~line 242"
+    },
+    {
+      "id": "SUP-E1-0058",
+      "element": 1,
+      "outcome": "1.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Esterhazy Financial completes its firm-level Investment Dealer registration. Its president then asks whether the new hires on the trading desk can begin advising clients right away, since 'the firm is now registered.' What does outcome 1.3 of the syllabus indicate about this view?",
+      "options": {
+        "A": "It is correct: firm registration automatically covers every employee's activities",
+        "B": "It is correct for employees with five or more years of industry experience",
+        "C": "It is incomplete: in addition to Investment Dealer registration, there are individual approval requirements that each individual must satisfy before conducting the relevant activities",
+        "D": "It is wrong only because advising requires a law degree"
+      },
+      "answer": "C",
+      "rationale": "Outcome 1.3 pairs two distinct requirements — 'Investment Dealer registration and individual approval requirements' — so the firm's registration does not dispense with the approval each individual needs for their category of activity. Option A collapses the two requirements into one, the precise misunderstanding the outcome separates. Experience (B) does not substitute for approval, and there is no law-degree requirement (D) — proficiency and approval requirements are set by the regulators and CIRO.",
+      "rule_refs": [
+        "Syllabus 1.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Understand the requirement for Investment Dealer registration and individual approval requirements and the role of CSA and CIRO in this process.\" — syllabus-raw.txt ~line 175"
+    },
+    {
+      "id": "SUP-E1-0059",
+      "element": 1,
+      "outcome": "1.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client of Coaticook Wealth wants to trade digital assets and asks her Supervisor how the platforms where crypto assets trade fit into the regulatory landscape the Supervisor Exam covers. Per outcome 1.4, the correct placement is:",
+      "options": {
+        "A": "They fall within outcome 1.4: Crypto-Asset Trading Platforms (CTPs) are one of the marketplace categories whose role and authority a Supervisor must understand",
+        "B": "They are clearing agencies, regulated under the CDS/CDCC framework",
+        "C": "They sit entirely outside the syllabus because digital assets are not securities",
+        "D": "They are classified as Investment Dealers"
+      },
+      "answer": "A",
+      "rationale": "Outcome 1.4's marketplace list expressly includes 'Crypto-Asset Trading Platforms (CTPs)' — they sit within the role-and-authority-of-marketplaces landscape a Supervisor must understand, not outside it. Option B confuses trading venues with clearing agencies, which belong to outcome 1.5; option C contradicts the syllabus's express inclusion of CTPs; and option D mislabels a trading venue as a dealer registration category.",
+      "rule_refs": [
+        "Syllabus 1.4"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Crypto-Asset Trading Platforms (CTPs)\" — syllabus-raw.txt ~line 188"
+    },
+    {
+      "id": "SUP-E1-0060",
+      "element": 1,
+      "outcome": "1.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A new operations Supervisor at Yarmouth Point Securities is mapping the post-trade lifecycle. In the syllabus's framework, what distinguishes the role of clearing agencies under outcome 1.5 from the role of marketplaces under outcome 1.4?",
+      "options": {
+        "A": "Clearing agencies set listing standards for issuers; marketplaces guarantee settlement",
+        "B": "Clearing agencies supervise Approved Persons; marketplaces discipline Dealer Members",
+        "C": "There is no distinction; CDS and CDCC are themselves marketplaces",
+        "D": "Marketplaces are where orders interact and trades occur; clearing agencies such as CDS and CDCC operate after the trade, in clearing and settlement"
+      },
+      "answer": "D",
+      "rationale": "The syllabus separates the two outcomes by function: outcome 1.4 covers the venues where trading occurs (exchanges, ATSs, CTPs, FORMs), while outcome 1.5 covers the clearing agencies — the Canadian Depository for Securities Limited (CDS) and the Canadian Derivatives Clearing Corporation (CDCC) — that handle the post-trade clearing and settlement function. Option A swaps the functions; option C collapses the two outcomes the syllabus keeps distinct; option B assigns supervisory and disciplinary roles that belong to dealers and CIRO, not to clearing or trading infrastructure.",
+      "rule_refs": [
+        "Syllabus 1.5",
+        "Syllabus 1.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Understand the role and authority of clearing agencies. Consider: • Canadian Depository for Securities Limited (CDS) • Canadian Derivatives Clearing Corporation (CDCC)\" — syllabus-raw.txt ~line 200"
+    },
+    {
+      "id": "SUP-E1-0061",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Beyond CIPF's purpose, funding and insolvency role, the Supervisor Exam syllabus lists one further aspect of CIPF a Supervisor must understand. Which is it?",
+      "options": {
+        "A": "Its trade-matching algorithms",
+        "B": "Its authority to approve new Investment Dealer registrations",
+        "C": "Its governance structure",
+        "D": "Its power to issue Universal Market Integrity Rules"
+      },
+      "answer": "C",
+      "rationale": "The 1.6 parameter list comprises CIPF's purpose and objective, funding requirements by Investment Dealers, governance structure, and its role in an Investment Dealer's bankruptcy/insolvency including pooling of client assets — governance structure is the listed aspect. CIPF is a protection fund, not a trading system (A); registration approval (B) belongs to the securities regulators and CIRO under outcome 1.3; and UMIR (D) is CIRO's market integrity rule book under outcome 1.2.",
+      "rule_refs": [
+        "Syllabus 1.6"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Governance structure • Mandate and objectives of CIRO • Role of CIPF in an Investment Dealer's bankruptcy/insolvency, including\" — syllabus-raw.txt lines 212-216 (1.6 CIPF parameters; reading-order interleaves 1.2 bullets)",
+      "qa_note": "Gate-2 fix 2026-06-05: original quote was a 20-char span that tripped the verifier's length filter; replaced with longer contiguous span. Key fact ('governance structure' as a 1.6 CIPF parameter) verbatim."
+    },
+    {
+      "id": "SUP-E1-0062",
+      "element": 1,
+      "outcome": "1.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A branch at Moosonee Capital uncovers what appears to be a sophisticated capital-markets fraud ring. The Supervisor wants to know which body in the syllabus's list of other financial regulators and agencies is the specialized police capability for serious capital-markets crime, as distinct from the agency that analyzes financial transaction reports. The correct pairing is:",
+      "options": {
+        "A": "OSFI investigates the fraud; OBSI analyzes the transaction reports",
+        "B": "The RCMP Integrated Market Enforcement Teams (IMET) are the police capability; the Financial Transactions and Reports Analysis Centre of Canada (FINTRAC) analyzes the reports",
+        "C": "FINTRAC arrests the fraudsters; IMET supervises the banks",
+        "D": "The Bank of Canada investigates the fraud; FSRA analyzes the reports"
+      },
+      "answer": "B",
+      "rationale": "Outcome 1.7 lists both the 'RCMP Integrated Market Enforcement Teams (IMET)' — the police function — and the 'Financial Transactions and Reports Analysis Centre of Canada (FINTRAC)' — the transaction-analysis function, and the question turns on keeping their mandates separate. Option C reverses them: FINTRAC analyzes and discloses, it does not arrest, and IMET is law enforcement, not a prudential supervisor. OSFI (A) supervises federally regulated financial institutions and OBSI is an ombudsman, while the Bank of Canada and FSRA (D) are the central bank and an Ontario regulator respectively — none performs the fraud-policing or report-analysis roles described.",
+      "rule_refs": [
+        "Syllabus 1.7"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"RCMP Integrated Market Enforcement Teams (IMET)\" — syllabus-raw.txt ~line 232"
+    },
+    {
+      "id": "SUP-E1-0063",
+      "element": 1,
+      "outcome": "1.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An Ontario-based client of Bonavista North Securities also holds a segregated fund through an insurance agent and asks the Supervisor which regulator oversees that insurance-sector relationship in Ontario. Among the bodies listed in syllabus outcome 1.7, the best answer is:",
+      "options": {
+        "A": "The Office of the Superintendent of Financial Institutions, which regulates all retail insurance sales",
+        "B": "The National Futures Association",
+        "C": "FINTRAC, because segregated funds are reportable products",
+        "D": "The Financial Services Regulatory Authority of Ontario (FSRA)"
+      },
+      "answer": "D",
+      "rationale": "Outcome 1.7's list of other financial regulators opens with the 'Financial Services Regulatory Authority of Ontario (FSRA)' — the Ontario regulator whose sectors include insurance conduct, which is where a segregated fund sold through an insurance agent sits. OSFI (A) is the federal prudential supervisor of financial institutions, not the retail-sales conduct regulator — the closest trap because insurers are federally supervised prudentially. The NFA (B) is a US derivatives self-regulator, and FINTRAC (C) analyzes transaction reports for money-laundering purposes rather than regulating an insurance relationship.",
+      "rule_refs": [
+        "Syllabus 1.7"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Financial Services Regulatory Authority of Ontario (FSRA)\" — syllabus-raw.txt ~line 227"
+    },
+    {
+      "id": "SUP-E1-0064",
+      "element": 1,
+      "outcome": "1.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "During industry training at Selkirk Landing Securities, a facilitator asks which set of purposes the Supervisor Exam syllabus attributes to the Bank Act. The correct set is:",
+      "options": {
+        "A": "Ensure stability and integrity, protect consumers, and promote competition",
+        "B": "Detecting money laundering, prosecuting fraud, and registering dealers",
+        "C": "Reducing spam, enhancing privacy, and promoting electronic commerce",
+        "D": "Governing the bankruptcy of a securities firm"
+      },
+      "answer": "A",
+      "rationale": "The 1.8 parameter lists the Bank Act's purposes as: ensure stability and integrity, protect consumers, and promote competition. Option D names the other 1.8 statute — the Bankruptcy and Insolvency Act, Part XII governs the bankruptcy of a securities firm — the closest trap because both appear under the same outcome. Option B mixes PCMLTFA, Criminal Code and registration concepts from outcomes 1.10, 1.9 and 1.3, and option C recites CASL's purposes from outcome 1.11.",
+      "rule_refs": [
+        "Syllabus 1.8"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"- Ensure stability and integrity - Protect consumers - Promote competition\" — syllabus-raw.txt ~line 254"
+    },
+    {
+      "id": "SUP-E1-0065",
+      "element": 1,
+      "outcome": "1.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "An elderly client of Grimshaw Securities granted her nephew a power of attorney over her finances. The nephew uses that authority to transfer her funds to himself. Which Criminal Code category from the syllabus's outcome 1.9 list most precisely matches this conduct?",
+      "options": {
+        "A": "False prospectus",
+        "B": "Uttering a forged document",
+        "C": "Theft by person holding power of attorney",
+        "D": "Illegal insider trading"
+      },
+      "answer": "C",
+      "rationale": "The 1.9 list includes 'Theft by person holding power of attorney' — the precise category for someone who converts a donor's property using authority granted under a power of attorney. Plain theft would be the closest alternative, but the syllabus enumerates the power-of-attorney variant separately, and the fact pattern turns on misuse of that authority. A false prospectus (A) concerns a misleading offering document, uttering (B) requires putting a forged document into circulation, and insider trading (D) involves trading on undisclosed material information — none describes converting funds under a POA.",
+      "rule_refs": [
+        "Syllabus 1.9"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Theft by person holding power of attorney\" — syllabus-raw.txt ~line 263"
+    },
+    {
+      "id": "SUP-E1-0066",
+      "element": 1,
+      "outcome": "1.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A bookkeeper at a charitable foundation is instructed by the board to forward donated funds to an investment account at Inuvik Delta Securities. Instead, he diverts a portion of the money he was directed to handle into his own account. Within the syllabus's outcome 1.9 categories, this conduct is best captured as:",
+      "options": {
+        "A": "Misappropriation of money under direction",
+        "B": "False statement or false pretenses",
+        "C": "Obtaining execution of security by fraud",
+        "D": "Organized crime offences"
+      },
+      "answer": "A",
+      "rationale": "The 1.9 list includes 'Misappropriation of money under direction' — diverting money one was directed to apply to a particular purpose is the defining fact pattern. False pretenses (B) involves dishonestly inducing someone to part with property, but here the funds were entrusted legitimately and diverted afterward — the closest trap. Obtaining execution of a security by fraud (C) requires inducing the signing of a security, and organized crime offences (D) require participation in a criminal organization, neither of which appears on these facts.",
+      "rule_refs": [
+        "Syllabus 1.9"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Misappropriation of money under direction\" — syllabus-raw.txt ~line 264"
+    },
+    {
+      "id": "SUP-E1-0067",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The board of Matane Securities asks its Chief AML Officer to confirm that the firm's PCMLTFA framework covers the program-level requirement the Supervisor Exam syllabus lists first after the stages of money laundering. That requirement is:",
+      "options": {
+        "A": "Compliance program requirements",
+        "B": "Quarterly stress testing of the dealer's capital",
+        "C": "Pre-approval of advertising by a designated Supervisor",
+        "D": "Annual renewal of each client's margin agreement"
+      },
+      "answer": "A",
+      "rationale": "The 1.10 parameters run: stages of money laundering, then 'Compliance program requirements', followed by AML policies and procedures, client information and due diligence, enterprise risk assessment and indicators, employee training, and business relationship record-keeping — the compliance program is the structural requirement the statute imposes on reporting entities. Capital stress testing (B) is a financial-operations concept outside the PCMLTFA; advertising pre-approval (C) is an Element 8 communications control; and margin agreement renewal (D) is not a requirement at all — margin agreements are account documents, not annually renewed AML items.",
+      "rule_refs": [
+        "Syllabus 1.10"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Compliance program requirements\" — syllabus-raw.txt ~line 287"
+    },
+    {
+      "id": "SUP-E1-0068",
+      "element": 1,
+      "outcome": "1.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Weyburn Plains Securities is negotiating with a fintech vendor and the vendor insists on a non-disclosure agreement before sharing its platform specifications. According to the syllabus's outcome 1.11 framing, the purposes served by confidentiality/non-disclosure agreements include:",
+      "options": {
+        "A": "Reducing spam and deterring malicious electronic messages",
+        "B": "Exempting the parties from privacy legislation",
+        "C": "Guaranteeing the vendor's technology will perform as specified",
+        "D": "Protecting proprietary information, providing legal recourse, facilitating business relationships, and maintaining competitive advantage"
+      },
+      "answer": "D",
+      "rationale": "The 1.11 parameter for confidentiality agreements/NDAs lists their purposes: protecting proprietary information, legal recourse, facilitating business relationships, and maintaining competitive advantage. Option A recites CASL's purposes — the closest trap because both appear under outcome 1.11 but attach to different laws. An NDA does not warrant performance (C) — that is a separate contractual matter — and no private agreement can exempt parties from PIPEDA or other privacy legislation (B).",
+      "rule_refs": [
+        "Syllabus 1.11"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"- Protecting proprietary information - Legal recourse - Facilitating business relationships - Maintaining competitive advantage\" — syllabus-raw.txt ~line 332"
+    },
+    {
+      "id": "SUP-E1-0069",
+      "element": 1,
+      "outcome": "1.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Cavendish Dune Investments reviews the firm's handling of client data and its dealings with reporting issuers. Which pairing correctly matches each topic with the law or rule set the syllabus assigns it under outcome 1.11?",
+      "options": {
+        "A": "Client personal information → CASL; issuer disclosure → NDAs",
+        "B": "Client personal information → the Bank Act; issuer disclosure → the Criminal Code",
+        "C": "Client personal information → PIPEDA, including protecting personal information and fair information principles; issuer disclosure → rules for public company disclosure and the statutory rights of shareholders",
+        "D": "Client personal information → UMIR; issuer disclosure → the PCMLTFA"
+      },
+      "answer": "C",
+      "rationale": "Outcome 1.11 assigns personal-information protection to the Personal Information Protection and Electronic Documents Act (PIPEDA), with parameters including protecting personal information and fair information principles, and separately lists rules for public company disclosure and the statutory rights of shareholders. Option A misassigns both: CASL governs commercial electronic messages and NDAs protect proprietary information between contracting parties. The Bank Act and Criminal Code (B) and UMIR/PCMLTFA (D) belong to outcomes 1.8, 1.9, 7.1 and 1.10 respectively.",
+      "rule_refs": [
+        "Syllabus 1.11"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Rules for public company disclosure and the statutory rights of shareholders\" — syllabus-raw.txt ~line 355"
+    },
+    {
+      "id": "SUP-E1-0070",
+      "element": 1,
+      "outcome": "1.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Témiscaming Wealth sorts the sources of the dealer's obligations to a retail client: (1) the suitability provisions of CIRO rules and securities laws; (2) the signed margin account agreement; (3) the firm's own internal code of conduct, which is stricter than the rules. Per outcome 1.12, the three obligations are, respectively:",
+      "options": {
+        "A": "Contractual; organizational; legislative",
+        "B": "Legislative; contractual; organizational",
+        "C": "Organizational; legislative; contractual",
+        "D": "All three are contractual because the client agreed to deal with the firm"
+      },
+      "answer": "B",
+      "rationale": "Outcome 1.12 classifies the Investment Dealer's obligations to clients and others as legislative, contractual, and organizational: rule-based and statutory duties such as suitability are legislative; the executed margin agreement is contractual; and the firm's own stricter internal code is organizational. Option D collapses the framework — statutory duties exist regardless of agreement, and internal codes bind through the organization, not the client contract. Options A and C scramble the assignments.",
+      "rule_refs": [
+        "Syllabus 1.12"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Understand the Investment Dealer’s obligations to clients and others. Consider: • Legislative\" — syllabus-raw.txt ~line 357"
+    },
+    {
+      "id": "SUP-E1-0071",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Registered Representative at Port Renfrew Securities learns that a client of a colleague has emailed the branch alleging that the colleague forged the client's signature on a transfer form. The RR is not the subject of the complaint and assumes it is the colleague's problem. Under IDPC subsection 3702(1), what is the RR's own obligation?",
+      "options": {
+        "A": "None — only the Approved Person who is the subject of a complaint must report it",
+        "B": "Wait to see whether the colleague self-reports, then report only if he does not",
+        "C": "Report directly to CIRO within five business days, bypassing the dealer",
+        "D": "Report the matter to the Dealer Member within two business days, because an Approved Person who becomes aware of a client complaint about another Approved Person involving allegations such as forgery must report it"
+      },
+      "answer": "D",
+      "rationale": "Clause 3702(1)(iv) requires an Approved Person to report to the Dealer Member, within two business days, if the Approved Person becomes aware of a client complaint, in writing or other form, about another Approved Person involving allegations of theft, fraud, misappropriation, forgery, money laundering, market manipulation, insider trading, misrepresentation, or unauthorized trading. Option A reads only clause (iii) — being the subject of a complaint — and misses the separate awareness obligation for serious allegations against others. The report runs to the dealer, not directly to CIRO (C), and waiting on the colleague (B) has no basis: the two-business-day clock runs from the RR's own awareness.",
+      "rule_refs": [
+        "IDPC 3702(1)(iv)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"if the Approved Person becomes aware of a client complaint, in writing or other form, about another Approved Person involving allegations of theft, fraud, misappropriation of funds, securities or other property, forgery\" — idpc-rules.txt ~line 6155"
+    },
+    {
+      "id": "SUP-E1-0072",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Dryden Falls Securities proposes to appoint a junior clerk with eight months of industry experience and no decision-making authority as its designated complaints officer, reasoning that the role is purely administrative. Why does this appointment fail IDPC subsection 3722(2)?",
+      "options": {
+        "A": "The designated complaints officer must be the firm's Chief Executive Officer",
+        "B": "Complaints officers must be lawyers called to a provincial bar",
+        "C": "The position must be outsourced to an independent third party",
+        "D": "The individual must have the requisite experience and authority to oversee the complaint handling process and to act as a liaison with the Corporation, which a junior clerk without authority lacks"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3722(2) requires the dealer to appoint a designated complaints officer who has the requisite experience and authority to oversee the complaint handling process and act as a liaison with the Corporation — the role is substantive, not administrative, so a junior clerk with no authority does not qualify. The rule does not require the CEO specifically (A) or a legal qualification (B); it sets a functional experience-and-authority standard. Nothing requires outsourcing (C) — the officer is an individual appointed within the dealer.",
+      "rule_refs": [
+        "IDPC 3722(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The individual must have the requisite experience and authority to oversee the complaint handling process and to act as a liaison with the Corporation.\" — idpc-rules.txt ~line 6371"
+    },
+    {
+      "id": "SUP-E1-0073",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "After an internal investigation, Stettler Capital suspends a Registered Representative for two weeks without pay and fines him $7,500 for a single occurrence of conduct unrelated to any client complaint, civil claim or internal investigation trigger. Must this internal discipline be reported to CIRO under IDPC clause 3703(2)(vi)?",
+      "options": {
+        "A": "No — internal discipline is a private employment matter and is never reportable",
+        "B": "Only the suspension is reportable; internal monetary penalties are never reportable",
+        "C": "Yes — dealer-initiated disciplinary action imposing suspension is reportable, and a monetary penalty over $5,000 for a single occurrence is also reportable",
+        "D": "Only if the RR appeals the discipline to a hearing panel"
+      },
+      "answer": "C",
+      "rationale": "Clause 3703(2)(vi) makes reportable any internal disciplinary action that is a dealer-initiated disciplinary action imposing suspension, termination, demotion, or trading restrictions on the Approved Person, and separately any action resulting in a monetary penalty over $5,000 for a single occurrence, over $15,000 in total in a calendar year, or imposed three times or more in a calendar year — here both the suspension and the $7,500 penalty cross reporting lines. Option B concedes the suspension but wrongly exempts monetary penalties, which have express dollar thresholds. Options A and D treat reporting as discretionary or appeal-contingent; the obligation arises from the discipline itself.",
+      "rule_refs": [
+        "IDPC 3703(2)(vi)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"a Dealer Member initiated disciplinary action imposing suspension, termination, demotion, or trading restrictions on the Approved Person\" — idpc-rules.txt ~line 6216"
+    },
+    {
+      "id": "SUP-E1-0074",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A pension fund — an institutional client of Pugwash Basin Securities — telephones the trading desk to complain that the firm mishandled a block order. The desk head says institutional complaints are 'relationship matters' handled informally by sales coverage. Under IDPC section 3715, which statement is correct?",
+      "options": {
+        "A": "The dealer's policies must address institutional complaints: it must acknowledge all written and verbal institutional client complaints, complaints are to be handled by a Supervisor with a copy filed with the compliance department, and allegations of serious misconduct must be reported to an appropriate Executive",
+        "B": "Institutional clients have no complaint-handling protections; Rule 3700 applies only to retail clients",
+        "C": "Verbal institutional complaints may be ignored; only written ones count",
+        "D": "Institutional complaints must be routed directly to OBSI"
+      },
+      "answer": "A",
+      "rationale": "Part D of Rule 3700 (section 3715) requires the dealer's policies and procedures to specifically address institutional client complaints: acknowledging all written and verbal institutional client complaints, conveying investigation results in due course, ensuring the Approved Person and their Supervisor are aware of complaints, reporting serious-misconduct allegations to an appropriate Executive, and having complaints handled by a Supervisor with a copy filed with the compliance department or function. Option B is wrong because Part D exists precisely for institutional clients — only Part E is retail-specific. Option C fails the express requirement to acknowledge verbal complaints, and option D confuses the dealer's own handling duty with a client's optional external recourse.",
+      "rule_refs": [
+        "IDPC 3715(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the Dealer Member must acknowledge all written and verbal institutional client complaints\" — idpc-rules.txt ~line 6321"
+    },
+    {
+      "id": "SUP-E1-0075",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The substantive response letter Drumheller Pines Securities sends a dissatisfied retail complainant must describe the client's further options. Under IDPC subsection 3726(3), which option must carry an explanation that its use is voluntary and an estimate of how long it takes based on historical data?",
+      "options": {
+        "A": "Litigation in the civil courts",
+        "B": "An internal ombudsman service offered by an affiliate of the Dealer Member, if any",
+        "C": "Submitting a complaint to the Corporation",
+        "D": "The Corporation-approved arbitration program"
+      },
+      "answer": "B",
+      "rationale": "Clause 3726(3)(iv)(e) requires that where the options include an internal ombudsman service offered by an affiliate of the Dealer Member, the letter must explain that the use of the internal ombudsman process is voluntary and state the estimated length of time the process is expected to take based on historical data — conditions designed so the affiliate's internal process does not appear mandatory or open-ended. Arbitration, litigation, complaining to the Corporation and the external ombudsman service (A, C, D) are listed options too, but the voluntary-use-plus-time-estimate explanation attaches specifically to the affiliate's internal ombudsman.",
+      "rule_refs": [
+        "IDPC 3726(3)(iv)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"the use of the internal ombudsman process is voluntary, and (II) the estimated length of time the process is expected to take based on historical data\" — idpc-rules.txt ~line 6450"
+    },
+    {
+      "id": "SUP-E1-0076",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A retail client of Nipigon Crest Securities asks the approved ombudsman service to review her dispute. The dealer's counsel objects that the dispute is 'not the kind of file an ombudsman reviews.' Under IDPC sections 9503 and 9504, which statement is correct?",
+      "options": {
+        "A": "The dealer decides eligibility, because it funds the ombudsman service",
+        "B": "On a client's request the dispute must be submitted to the approved ombudsman service, eligibility for review is determined by the ombudsman service based on its terms of reference, and the dealer must submit information the ombudsman requests in the prescribed form and manner",
+        "C": "CIRO rules require the ombudsman to refuse any dispute the dealer contests",
+        "D": "The ombudsman must share its entire review file with CIRO as a matter of course"
+      },
+      "answer": "B",
+      "rationale": "Subsection 9503(3) requires that on a client's request any dispute between the dealer and the client be submitted to the approved ombudsman service; 9503(4) provides that the eligibility of a dispute for review is made by the ombudsman service based on its terms of reference; and section 9504 obliges the dealer to submit requested information in the form and manner prescribed by the service. Options A and C put the eligibility decision in the dealer's hands — exactly what 9503(4) forecloses. Option D inverts 9504(3): the ombudsman may not provide CIRO with its review records, except in the narrow cases of knowingly false information or failure to provide required information.",
+      "rule_refs": [
+        "IDPC 9503(3)",
+        "IDPC 9503(4)",
+        "IDPC 9504"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"The eligibility of a dispute for review is made by the ombudsman service based on its terms of reference.\" — idpc-rules.txt ~line 20221"
+    },
+    {
+      "id": "SUP-E1-0077",
+      "element": 1,
+      "outcome": "1.15",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Four matters surface at Cluny Flats Securities in one quarter: (1) a retail client disputes a commission charge on her own account; (2) an analyst notices that several dealers appear to be coordinating an industry-wide practice that disadvantages investors; (3) a client wants compensation for an unsuitable trade; (4) a back-office employee requests vacation reassignment. Per syllabus outcome 1.15, which matter most clearly fits CIRO's whistleblower service?",
+      "options": {
+        "A": "Matter (1), because commission disputes are systemic",
+        "B": "Matter (3), because compensation claims are securities frauds",
+        "C": "Matter (4), because employment issues affect morale",
+        "D": "Matter (2), because the whistleblower service addresses non-client account matters such as potential systemic wrongdoing"
+      },
+      "answer": "D",
+      "rationale": "Outcome 1.15 reserves the whistleblower service for non-client account matters, listing misconduct or illegal activity within an organization, potential systemic wrongdoing, and potential securities frauds — coordinated industry-wide conduct that disadvantages investors is the paradigm of potential systemic wrongdoing. Matters (1) and (3) are client account matters belonging to the Rule 3700 complaint machinery — option B mislabels an individual compensation claim as a securities fraud. An internal vacation dispute (C) is an ordinary employment matter, not regulatory wrongdoing.",
+      "rule_refs": [
+        "Syllabus 1.15"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Potential systemic wrongdoing\" — syllabus-raw.txt ~line 323"
+    },
+    {
+      "id": "SUP-E1-0078",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Two employees of Revelstoke Summit Securities each settle a client matter without obtaining specific written consent for that settlement: (1) a claims specialist whom the dealer has authorized to negotiate and enter into settlement agreements in the normal course of her duties resolves a complaint about another representative's error; (2) a Registered Representative quietly settles a complaint arising from his own trading activity. How does IDPC section 3710 treat the two?",
+      "options": {
+        "A": "Both settlements breach 3710(1) equally",
+        "B": "Settlement (1) can fall within subsection 3710(3), which disapplies the consent requirement for an employee or Approved Person authorized to settle in the normal course of duties where the matter does not arise out of activities involving that Approved Person; settlement (2) breaches 3710(1) because it arises from his own activities",
+        "C": "Both are permitted because each settlement resolved the client's concern",
+        "D": "Settlement (2) is permitted because RRs settle their own files; settlement (1) breaches the rule"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3710(3) provides that the prior-written-consent requirement does not apply to settlement agreements entered into by an employee or Approved Person who is authorized by the Dealer Member to negotiate or enter into settlement agreements in the normal course of his/her duties and does not arise out of the activities involving the Approved Person — both conditions matter. The claims specialist fits; the RR settling his own conduct fails the second condition and so needs the dealer's written consent under 3710(1). Option A misses the authorized-negotiator exception, option D reverses the two outcomes, and option C treats client satisfaction as a substitute for the consent regime, which it is not.",
+      "rule_refs": [
+        "IDPC 3710(1)",
+        "IDPC 3710(3)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"who is authorized by the Dealer Member to negotiate or enter into settlement agreements in the normal course of his/her duties and does not arise out of the activities involving the Approved Person\" — idpc-rules.txt ~line 6306"
+    },
+    {
+      "id": "SUP-E1-0079",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Settling a complaint, the lawyers for Port Loring Securities draft a release in which the client agrees never to 'contact, complain to, or assist' any securities regulator or self-regulatory organization about the matter. Under IDPC section 3711, this clause is:",
+      "options": {
+        "A": "Enforceable if the client received independent legal advice",
+        "B": "Standard practice, since releases are meant to end all proceedings",
+        "C": "Impermissible: a release between a dealer and a client may not impose confidentiality or similar restrictions aimed at preventing the client from initiating or continuing a complaint to securities regulatory authorities, SROs or other enforcement authorities, or participating in their proceedings",
+        "D": "Permissible provided the restriction lapses after five years"
+      },
+      "answer": "C",
+      "rationale": "Section 3711 prohibits a release between a Dealer Member and a client from imposing confidentiality or similar restrictions aimed at preventing the client from initiating a complaint to the securities regulatory authorities, SROs or other enforcement authorities, continuing any pending complaint, or participating in further proceedings by such authorities. Independent legal advice (A) cannot validate a clause the rule prohibits outright; option B confuses settling the civil dispute with silencing regulatory channels — the release ends the private claim, not the client's access to regulators; and there is no time-limited carve-out (D).",
+      "rule_refs": [
+        "IDPC 3711(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"may not impose confidentiality or similar restrictions aimed at preventing a client from initiating a complaint to the securities regulatory authorities, SROs or other enforcement authorities\" — idpc-rules.txt ~line 6310"
+    },
+    {
+      "id": "SUP-E1-0080",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Away from the office and outside any client relationship, a Supervisor at Antigonish Shore Securities is found to have orchestrated a deceptive crowdfunding scheme in his personal capacity. He argues CIRO standards cannot touch conduct that occurred outside the transaction of the dealer's business. Which clause of IDPC section 1402 most directly answers him?",
+      "options": {
+        "A": "Subsection 1402(1)(ii): a Regulated Person must not engage in any business conduct that is unbecoming or detrimental to the public interest",
+        "B": "Subsection 1404(2): dealers must establish policies and procedures",
+        "C": "Subsection 1406(2): the most stringent requirement governs",
+        "D": "Subsection 1405(3): the Corporation may require evidence of compliance"
+      },
+      "answer": "A",
+      "rationale": "Clause 1402(1)(ii) prohibits a Regulated Person from engaging in any business conduct that is unbecoming or detrimental to the public interest — the conduct-unbecoming branch that reaches deceptive business conduct damaging public confidence even where it is not the dealer's own client business, which is the just-and-equitable/conduct-unbecoming dimension of outcome 1.17. Clause 1402(1)(i), by contrast, is framed around the transaction of business — the hook he tries to escape — making (ii) the operative answer. Options B, C and D are real provisions about dealer policies, stringency conflicts and compliance evidence, but none addresses whether his personal scheme is sanctionable conduct.",
+      "rule_refs": [
+        "IDPC 1402(1)(ii)",
+        "Syllabus 1.17"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"must not engage in any business conduct that is unbecoming or detrimental to the public interest\" — idpc-rules.txt ~line 898"
+    },
+    {
+      "id": "SUP-E1-0081",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Registered Representative at Falher Heights Securities discovers a back-office workaround that lets him process client transfers without the dealer's required documentation. He reasons that the firm, not he, would be offside if CIRO ever noticed. Which IDPC Rule 1400 provision shows his reasoning is wrong?",
+      "options": {
+        "A": "Subsection 1402(2)(i): negligence may contravene the standards of conduct",
+        "B": "Subsection 1403(2): an Approved Person must avoid any act or omission that would cause their Dealer Member to violate any Corporation requirements",
+        "C": "Subsection 1404(3): dealers may use alternate methods to comply with guidance",
+        "D": "Subsection 1403(1): Dealer Members are responsible for all acts and omissions of their employees"
+      },
+      "answer": "B",
+      "rationale": "Clause 1403(2)(i) imposes a personal obligation: in addition to complying with all Corporation requirements, an Approved Person must avoid any act or omission that would cause their Dealer Member to violate any Corporation requirements — deliberately exploiting a documentation workaround does exactly that, so the RR is himself offside, not merely the firm. Option D is the closest trap: 1403(1) does make the dealer responsible for employee acts, but it is the provision the RR is hiding behind, not the one that defeats him. Negligence under 1402(2)(i) (A) describes a different pathway — his conduct is deliberate — and 1404(3) (C) concerns dealers' latitude in following guidance, irrelevant here.",
+      "rule_refs": [
+        "IDPC 1403(2)",
+        "Syllabus 1.17"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"an Approved Person must avoid any act or omission that would cause their Dealer Member to violate any Corporation requirements\" — idpc-rules.txt ~line 916"
+    },
+    {
+      "id": "SUP-E1-0082",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Supervisor at Naicam Prairie Securities is pressured by her branch manager to sign off on a borderline trade review because 'head office already approved the relationship.' The syllabus's outcome 1.17 lists the behaviours linking ethical conduct to compliance. Resisting this pressure and reaching her own conclusion on the file most directly exercises which listed behaviour?",
+      "options": {
+        "A": "Independent professional judgment",
+        "B": "Promoting electronic commerce",
+        "C": "Maintaining competitive advantage",
+        "D": "Transparency in compensation design"
+      },
+      "answer": "A",
+      "rationale": "The 1.17 parameters on how ethical behaviour relates to compliance with rules list proper care, independent professional judgment, trustworthiness and integrity, honesty and fairness, and professionalism — refusing to substitute someone else's approval for her own supervisory conclusion is the exercise of independent professional judgment. Option D names a governance-ethics concern from outcome 1.18, the closest neighbouring concept but the wrong outcome and the wrong behaviour. Options B and C are purposes of CASL and of NDAs respectively under outcome 1.11, not ethics behaviours.",
+      "rule_refs": [
+        "Syllabus 1.17"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"- Proper care - Independent professional judgment\" — syllabus-raw.txt ~line 344"
+    },
+    {
+      "id": "SUP-E1-0083",
+      "element": 1,
+      "outcome": "1.18",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "After identifying a recurring pattern of supervisors approving their friends' expense claims, the board of Wadena Crossing Capital creates a published register assigning each internal control to a named executive who must answer for its operation. Mapped against the syllabus's pillars of ethics and integrity in corporate governance, this register is primarily an exercise of which pillar?",
+      "options": {
+        "A": "Dealing with compensation conflicts, because expense claims are a form of pay",
+        "B": "Oversight and accountability — naming the executive who answers for each control creates the ownership the pillar demands",
+        "C": "Training and awareness, because publishing the register educates staff",
+        "D": "Transparency alone, since the register is published"
+      },
+      "answer": "B",
+      "rationale": "The 1.18 pillars are transparency, dealing with compensation conflicts, oversight and accountability, and training and awareness. A register that assigns each control to a named, answerable executive is the machinery of oversight and accountability — it fixes ownership so failures can be traced and corrected. Option D is the closest trap: publication does add transparency, but the register's primary function is accountability for control operation, not disclosure for its own sake. Expense-claim favouritism is a conduct problem rather than a compensation-structure conflict (A), and the register assigns responsibility rather than educating staff (C) — education is the separate training and awareness pillar.",
+      "rule_refs": [
+        "Syllabus 1.18"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Oversight and accountability\" — syllabus-raw.txt ~line 392; \"Training and awareness\" — syllabus-raw.txt ~line 396"
+    },
+    {
+      "id": "SUP-E1-0084",
+      "element": 1,
+      "outcome": "1.19",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Preparing a branch ethics session at Massey Sound Securities, a Supervisor drafts four claimed consequences of unethical behaviour and checks them against the syllabus's outcome 1.19 list. Which claimed consequence is NOT on that list?",
+      "options": {
+        "A": "Automatic coverage of resulting client losses by CIPF",
+        "B": "Employee morale and turnover",
+        "C": "Regulatory scrutiny",
+        "D": "Reputational damage"
+      },
+      "answer": "A",
+      "rationale": "The 1.19 list of consequences and risks of unethical behaviour comprises legal consequences, reputational damage, regulatory scrutiny, employee morale and turnover, and client confidence and turnover. CIPF coverage (A) is not on the list and misstates CIPF's role: the fund protects client assets in a dealer's insolvency under outcome 1.6 — it does not compensate losses caused by misconduct, making it the item to reject. Options B, C and D are all enumerated consequences.",
+      "rule_refs": [
+        "Syllabus 1.19",
+        "Syllabus 1.6"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"Understand the consequences and risks of unethical behaviour. Consider: • Legal consequences • Reputational damage • Regulatory scrutiny\" — syllabus-raw.txt ~line 400"
+    },
+    {
+      "id": "SUP-E1-0085",
+      "element": 1,
+      "outcome": "1.20",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Bienfait Valley Securities limits its conflicts inventory to conflicts that have already materialized between the firm itself and clients, reasoning that hypothetical conflicts and individual representatives' conflicts are unknowable. Why does this design fail IDPC subsection 3110(1)?",
+      "options": {
+        "A": "Because conflicts inventories must be filed with CIRO quarterly",
+        "B": "Because identification belongs to each Approved Person individually, not the dealer",
+        "C": "Because every conflict, however immaterial, must be inventoried",
+        "D": "Because the dealer must take reasonable steps to identify both existing material conflicts and material conflicts that are reasonably foreseeable, between the dealer and the client and between each Approved Person acting on the dealer's behalf and the client"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3110(1) requires the dealer to take reasonable steps to identify existing material conflicts of interest and material conflicts that are reasonably foreseeable, both between the Dealer Member and the client and between each Approved Person acting on its behalf and the client — the firm's design omits the reasonably-foreseeable dimension and the AP-client dimension. Option C overshoots: the duty attaches to material conflicts, not every conceivable one. Option B ignores that 3110(1) places an identification duty on the dealer itself (the AP's own duty under 3110(2) is additional), and no quarterly CIRO filing requirement exists (A).",
+      "rule_refs": [
+        "IDPC 3110(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must take reasonable steps to identify existing material conflicts of interest, and material conflicts of interest that are reasonably foreseeable\" — idpc-rules.txt ~line 3915"
+    },
+    {
+      "id": "SUP-E1-0086",
+      "element": 1,
+      "outcome": "1.20",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Kenaston Mills Securities identifies a material conflict that must be disclosed to affected clients. Its draft disclosure is a dense legal paragraph buried on page eleven of the account package, describing only the conflict's existence. Which deficiencies must the Supervisor flag under IDPC subsection 3113(2)?",
+      "options": {
+        "A": "None — any written mention of the conflict satisfies the rule",
+        "B": "Only the placement; the content is adequate",
+        "C": "The disclosure must describe the nature and extent of the conflict, its potential impact on and risk to the client, and how it has been or will be addressed, and must be presented in a manner that to a reasonable person is prominent, specific and written in plain language",
+        "D": "The only fix needed is to have clients initial page eleven"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3113(2) requires the disclosed information to include a description of the nature and extent of the conflict, the potential impact on and risk that the conflict could pose to the client, and how the conflict has been or will be addressed, and to be presented in a manner that, to a reasonable person, is prominent, specific and written in plain language. The draft fails on both content (existence only) and manner (dense legalese, buried). Options A and B accept the content gap, and option D substitutes an acknowledgment formality for the prominence and plain-language standards the rule actually imposes.",
+      "rule_refs": [
+        "IDPC 3113(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"be presented in a manner that, to a reasonable person, is prominent, specific and written in plain language\" — idpc-rules.txt ~line 3956"
+    },
+    {
+      "id": "SUP-E1-0087",
+      "element": 1,
+      "outcome": "1.20",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "To win a competitive lending mandate, Langbank Corners Securities tells a business client that it will continue providing the client's corporate cash-management service only if the client also routes its employee group RRSP investments through the firm. Under IDPC section 3118, this condition is:",
+      "options": {
+        "A": "Prohibited tied selling: a dealer must not require a client to purchase, use or invest in any product, service, security or derivative as a condition, or on terms that would appear to a reasonable person to be a condition, of supplying or continuing to supply a product or service",
+        "B": "Acceptable relationship pricing expressly permitted by subsection 3118(2)",
+        "C": "Permitted if the RRSP fees are discounted",
+        "D": "Permitted because both products are offered by the same firm"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3118(1) prohibits requiring a client to purchase, use or invest in any product, service, security or derivative as a condition — or on terms that would appear to a reasonable person to be a condition — of supplying, continuing to supply or selling a product or service; conditioning continuation of the cash-management service on routing RRSP investments is the prohibited tie. Option B misapplies 3118(2), which permits financial incentives or advantages such as relationship pricing — offering a benefit differs from imposing a condition, and a fee discount (C) does not cure a coercive tie. Common ownership of the two products (D) is irrelevant; the rule targets the conditioning itself.",
+      "rule_refs": [
+        "IDPC 3118(1)",
+        "IDPC 3118(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must not require a client to purchase, use or invest in any product, service, security or derivative as a condition, or on terms that would appear to a reasonable person to be a condition\" — idpc-rules.txt ~line 4072"
+    },
+    {
+      "id": "SUP-E1-0088",
+      "element": 1,
+      "outcome": "1.21",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Registered Representative at Hythe Bend Securities asks to take a lawful, fully disclosed evening role promoting a payday-lending storefront that has drawn sustained negative media coverage for aggressive collection tactics against vulnerable borrowers. The activity violates no statute. Analyzing the request under IDPC subsection 2554(1), the Supervisor's central question is:",
+      "options": {
+        "A": "Whether the role pays more than the RR earns at the dealer",
+        "B": "Whether the RR will work more than ten hours per week",
+        "C": "Whether the outside activity would bring the securities industry into disrepute, since legality alone does not satisfy both threshold conditions",
+        "D": "Whether the storefront is itself registered with CIRO"
+      },
+      "answer": "C",
+      "rationale": "Subsection 2554(1) sets two threshold conditions for an outside activity: it must not be contrary to securities laws or Corporation requirements, and it must not bring the securities industry into disrepute — a lawful activity can still fail the second branch, which is the live issue where the role associates an Approved Person with widely criticized predatory conduct. Compensation level (A) and hours (B) are not 2554(1) conditions, though they may matter to continuous-service policies under 2554(2). CIRO registration of the outside business (D) is not required — most legitimate outside activities are with unregistered entities.",
+      "rule_refs": [
+        "IDPC 2554(1)",
+        "Syllabus 1.21"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"(i) is not contrary to securities laws or Corporation requirements, and (ii) does not bring the securities industry into disrepute\" — idpc-rules.txt ~line 3038"
+    },
+    {
+      "id": "SUP-E1-0089",
+      "element": 1,
+      "outcome": "1.21",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Portfolio Manager at Onoway Park Securities proposes to serve in an outside capacity that would put her in a position of influence contrary to section 4.1 of National Instrument 31-103. The dealer is willing to approve it internally and notify CIRO under NI 33-109. Under IDPC subsection 2554(3), may she proceed?",
+      "options": {
+        "A": "Yes — internal approval plus NI 33-109 notification always suffices for any outside role",
+        "B": "No, because Portfolio Managers may hold no outside activities of any kind",
+        "C": "Yes, provided she resigns her Portfolio Manager approval for the duration",
+        "D": "No — an individual must not act, and a dealer must not permit an individual to act, in a manner contrary to section 4.1 of NI 31-103, unless an exemption is granted by the applicable securities regulatory authority and a similar exemption request is filed with and approved by the Corporation"
+      },
+      "answer": "D",
+      "rationale": "Subsection 2554(3) is a separate, harder gate: an individual must not act, and a Dealer Member must not permit an individual to act, as a Registered Representative, Investment Representative, Portfolio Manager, Associate Portfolio Manager or Trader in a manner contrary to section 4.1 of NI 31-103, unless an exemption is granted by the applicable securities regulatory authority and a similar exemption request is also filed with and approved by the Corporation. Option A applies only the general 2554(2) machinery, which cannot override the NI 31-103 restriction — the closest trap. Resigning approval (C) is not the contemplated mechanism, and option B overstates: PMs may hold outside activities generally; only those contrary to NI 31-103 section 4.1 need the dual exemption.",
+      "rule_refs": [
+        "IDPC 2554(3)",
+        "Syllabus 1.21"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"unless an exemption is granted by the applicable securities regulatory authority and such similar exemption request is also filed with and approved by the Corporation\" — idpc-rules.txt ~line 3053"
+    },
+    {
+      "id": "SUP-E1-0090",
+      "element": 1,
+      "outcome": "1.22",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A trade error in a client's account at Mistatim Grove Securities costs the client $2,200. The responsible Registered Representative, embarrassed, e-transfers the client $2,200 from his personal chequing account that evening and tells no one, reasoning that he created the loss so he should absorb it. Under IDPC clause 3115(2)(ii), his payment is:",
+      "options": {
+        "A": "Commendable and compliant, because the client was made whole",
+        "B": "Permitted if the amount stays below $5,000",
+        "C": "Permitted because no settlement agreement document was signed",
+        "D": "A prohibited personal financial dealing: paying for client account losses out of personal funds without the Dealer Member's prior written consent"
+      },
+      "answer": "D",
+      "rationale": "Clause 3115(2)(ii)(b) lists, as a personal financial dealing, paying for client account losses out of personal funds without the Dealer Member's prior written consent — a distinct prohibition from entering a settlement agreement without consent under (ii)(a), so the absence of any signed document (C) does not help him. Making the client whole (A) does not cure the breach: the dealer must know about and control error remediation. There is no dollar de minimis (B); the consent requirement applies regardless of amount.",
+      "rule_refs": [
+        "IDPC 3115(2)(ii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Paying for client account losses out of personal funds without the Dealer Member’s prior written consent.\" — idpc-rules.txt ~line 3994"
+    },
+    {
+      "id": "SUP-E1-0091",
+      "element": 1,
+      "outcome": "1.22",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A long-time client of Eatonia Ridge Securities, unrelated to her Registered Representative, asks the RR to act as executor of her estate, citing his familiarity with her holdings. Under IDPC clause 3115(2)(v), the RR's acceptance would be:",
+      "options": {
+        "A": "Permitted, because executorship is an honour, not a financial dealing",
+        "B": "Permitted if the will is professionally drafted",
+        "C": "Prohibited: acting as a Power of Attorney, trustee, executor, or otherwise having full or partial control or authority over the financial affairs of a client is a personal financial dealing, and the exemption requires the client to be a Related Person under the Income Tax Act, which she is not",
+        "D": "Permitted if the RR declines the executor's fee"
+      },
+      "answer": "C",
+      "rationale": "Clause 3115(2)(v)(a) prohibits acting as a Power of Attorney, trustee, executor, or otherwise having full or partial control or authority over the financial affairs of a client, unless the client is a Related Person as defined by the Income Tax Act with the arrangement addressed under the dealer's policies and, for an RR, disclosed to and approved in writing by the dealer — an unrelated client fails the threshold condition, so neither professional drafting (B) nor waiving the fee (D) opens the exemption: the rule targets the control itself, not the compensation. Option A mislabels executorship, which is precisely the full-control role the clause enumerates.",
+      "rule_refs": [
+        "IDPC 3115(2)(v)(a)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Acting as a Power of Attorney, trustee, executor, or otherwise having full or partial control or authority over the financial affairs of a client\" — idpc-rules.txt ~line 4027"
+    },
+    {
+      "id": "SUP-E1-0092",
+      "element": 1,
+      "outcome": "1.23",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Plamondon Lake Securities issues research reports. Its compliance manual restricts analysts' own trading but says nothing about other staff or accounts trading ahead of research. What does IDPC subsection 3619(1) require the firm's policies and procedures to specifically address?",
+      "options": {
+        "A": "Only the personal accounts of the analysts who write reports",
+        "B": "Detecting and restricting any trading in equity securities or equity related securities of a subject issuer done with knowledge of or in anticipation of the issuance of a research report, a new recommendation, or a change in a recommendation that could reasonably be expected to affect the price",
+        "C": "Posting all draft research on the firm's public website to eliminate information advantages",
+        "D": "Prohibiting all employees from ever owning securities of covered issuers"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3619(1) requires a dealer who issues or distributes research reports to have policies and procedures that specifically address detecting and restricting any trading in equity securities or equity related securities of a subject issuer done with knowledge of or in anticipation of the issuance of a research report, a new recommendation, or a change in a recommendation related to the subject security that could reasonably be expected to have an effect on the price. Option A is the closest trap: the analyst blackout in 3619(2) covers preparers and approvers, but 3619(1) reaches any anticipatory trading, not just analysts' accounts. Publishing drafts (C) would destroy the confidentiality being contained, and a total ownership ban (D) goes beyond what the rule requires — it requires detection and restriction of anticipatory trading.",
+      "rule_refs": [
+        "IDPC 3619(1)",
+        "Syllabus 1.23"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"specifically address detecting and restricting any trading in equity securities or equity related securities of a subject issuer that is done with knowledge of or in anticipation of\" — idpc-rules.txt ~line 6031"
+    },
+    {
+      "id": "SUP-E1-0093",
+      "element": 1,
+      "outcome": "1.23",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A research associate at Girouxville Summit Securities, who helped prepare a report carrying a 'sell' recommendation on Tundra Rail Corp., obtains the prior written approval of a designated Executive to trade Tundra Rail during the blackout window — and then submits an order to buy the stock. Under IDPC subsections 3619(3) and 3619(4), the buy order is:",
+      "options": {
+        "A": "Permitted, because Executive approval removes all restrictions on the trade",
+        "B": "Permitted only if executed through another dealer",
+        "C": "Generally impermissible: approval may not be granted for trades that are contrary to the analyst's current recommendation, unless special circumstances exist",
+        "D": "Permitted because buying is less sensitive than selling"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3619(3) lets an individual trade during the blackout with the prior written approval of a designated Executive, but 3619(4) limits that power: approval may not be granted for trades that are contrary to the analyst's current recommendation, unless special circumstances exist — buying against a current 'sell' is exactly such a contrary trade. Option A treats the Executive approval as unconditional, missing 3619(4)'s limit. Routing through another dealer (B) does not change whose trade it is, and direction-of-trade sensitivity (D) is decided by the recommendation, not by an assumption that buys are benign.",
+      "rule_refs": [
+        "IDPC 3619(3)",
+        "IDPC 3619(4)",
+        "Syllabus 1.23"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"Approval under subsection 3619(3) may not be granted for trades that are contrary to the analyst’s current recommendation, unless special circumstances exist.\" — idpc-rules.txt ~line 6043"
+    },
+    {
+      "id": "SUP-E1-0094",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E1-SET-03",
+      "scenario": "Lucia Romano is a branch Supervisor at Ferintosh Plains Securities, an Investment Dealer. On Monday, June 1, the branch receives a signed letter from retail client Hannah Greer alleging that her Registered Representative recommended unsuitable speculative securities that wiped out a third of her retirement savings. The complaint is logged with the firm's designated complaints officer the same day. The investigation proves complex: it involves three years of trading records, and by late August the firm realizes it cannot finish its analysis within the standard timeline. Ms. Greer ultimately rejects the firm's final position and asks what she can do next. Lucia must apply Part E of IDPC Rule 3700 and Rule 9500 throughout.",
+      "stem": "By what deadline must Ferintosh Plains send Ms. Greer an acknowledgement letter, and what governs that deadline?",
+      "options": {
+        "A": "Within five business days of receipt of the complaint, under IDPC subsection 3725(1)",
+        "B": "Within 90 days, the same deadline as the substantive response",
+        "C": "Within two business days, the timeline that governs all complaint communications",
+        "D": "No fixed deadline applies to acknowledgements, only to substantive responses"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3725(1) requires the dealer to send an acknowledgement letter to the complainant within five business days of receipt of a complaint. Option C borrows the two-business-day clock from 3702(1), which governs an Approved Person's report to the dealer, not the dealer's letter to the client — the closest trap. Ninety days (B) is the substantive-response deadline under 3726(4), a later and different obligation, and option D denies a deadline the rule expressly fixes.",
+      "rule_refs": [
+        "IDPC 3725(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The Dealer Member must send an acknowledgement letter to the complainant within five business days of receipt of a complaint.\" — idpc-rules.txt ~line 6411"
+    },
+    {
+      "id": "SUP-E1-0095",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E1-SET-03",
+      "scenario": "Lucia Romano is a branch Supervisor at Ferintosh Plains Securities, an Investment Dealer. On Monday, June 1, the branch receives a signed letter from retail client Hannah Greer alleging that her Registered Representative recommended unsuitable speculative securities that wiped out a third of her retirement savings. The complaint is logged with the firm's designated complaints officer the same day. The investigation proves complex: it involves three years of trading records, and by late August the firm realizes it cannot finish its analysis within the standard timeline. Ms. Greer ultimately rejects the firm's final position and asks what she can do next. Lucia must apply Part E of IDPC Rule 3700 and Rule 9500 throughout.",
+      "stem": "In late August, Ferintosh Plains concludes it cannot deliver its final response within 90 days of June 1. What does IDPC subsection 3726(4) require?",
+      "options": {
+        "A": "Nothing — the 90-day timeline is aspirational, not mandatory",
+        "B": "The firm may silently extend its own deadline by up to 60 days",
+        "C": "The firm must inform Ms. Greer, with the reasons for the delay and the new estimated time of completion, and must also inform the Corporation with reasons for the delay",
+        "D": "The firm must close the file and direct Ms. Greer to litigation"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3726(4) requires the dealer to respond as soon as possible and not later than 90 days from receipt, and where it cannot meet that timeline, clause (ii) requires informing the client with the reasons for the delay and the new estimated time of completion, while clause (iii) requires informing the Corporation with reasons for the delay — both notifications, not either one. Option B invents a unilateral silent extension the rule forecloses, option A mistakes a hard deadline structure for aspiration, and option D abandons the complaint process rather than completing it with the required notices.",
+      "rule_refs": [
+        "IDPC 3726(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the Dealer Member must inform the client if the Dealer Member is unable to provide the client with a final response within the 90 days time line and must include the reasons for the delay and the new estimated time of completion\" — idpc-rules.txt ~line 6459"
+    },
+    {
+      "id": "SUP-E1-0096",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E1-SET-03",
+      "scenario": "Lucia Romano is a branch Supervisor at Ferintosh Plains Securities, an Investment Dealer. On Monday, June 1, the branch receives a signed letter from retail client Hannah Greer alleging that her Registered Representative recommended unsuitable speculative securities that wiped out a third of her retirement savings. The complaint is logged with the firm's designated complaints officer the same day. The investigation proves complex: it involves three years of trading records, and by late August the firm realizes it cannot finish its analysis within the standard timeline. Ms. Greer ultimately rejects the firm's final position and asks what she can do next. Lucia must apply Part E of IDPC Rule 3700 and Rule 9500 throughout.",
+      "stem": "When the substantive response letter is finally issued, which content set does IDPC subsection 3726(3) require it to contain?",
+      "options": {
+        "A": "Only the firm's final decision, to avoid prejudicing any later proceedings",
+        "B": "A warning that further escalation will result in account closure",
+        "C": "The Registered Representative's personal apology and compensation offer",
+        "D": "A summary of the complaint, the result of the investigation, the firm's final decision with an explanation, and a statement describing the options available if the client is not satisfied — presented in a manner that is fair, clear and not misleading"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3726(3) requires the substantive response letter to be presented in a manner that is fair, clear and not misleading and to include a summary of the complaint, the result of the dealer's investigation, the dealer's final decision on the complaint including an explanation, and a statement describing the options available to a dissatisfied client (arbitration, litigation, complaining to the Corporation, the ombudsman service, any internal affiliate ombudsman, and other applicable options). Option A strips the explanation and options the rule mandates; option B is retaliatory content incompatible with the fair-and-not-misleading standard; and option C invents required contents — an offer may exist where the complaint has merit, but a personal apology is not a prescribed element.",
+      "rule_refs": [
+        "IDPC 3726(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the Dealer Member’s final decision on the complaint, including an explanation\" — idpc-rules.txt ~line 6440"
+    },
+    {
+      "id": "SUP-E1-0097",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E1-SET-03",
+      "scenario": "Lucia Romano is a branch Supervisor at Ferintosh Plains Securities, an Investment Dealer. On Monday, June 1, the branch receives a signed letter from retail client Hannah Greer alleging that her Registered Representative recommended unsuitable speculative securities that wiped out a third of her retirement savings. The complaint is logged with the firm's designated complaints officer the same day. The investigation proves complex: it involves three years of trading records, and by late August the firm realizes it cannot finish its analysis within the standard timeline. Ms. Greer ultimately rejects the firm's final position and asks what she can do next. Lucia must apply Part E of IDPC Rule 3700 and Rule 9500 throughout.",
+      "stem": "Ms. Greer, dissatisfied with the final response, asks whether the firm can simply refuse to participate if she pursues the approved arbitration program. Under IDPC section 9502, the correct answer is:",
+      "options": {
+        "A": "The firm may decline arbitration and insist on the ombudsman service instead",
+        "B": "Arbitration is available only to institutional clients",
+        "C": "No: a Dealer Member must participate in an arbitration program approved by the Board, and the firm's participation does not affect the Corporation's authority or prevent it from exercising that authority",
+        "D": "The firm may participate but is free to disregard the arbitration program's decisions"
+      },
+      "answer": "C",
+      "rationale": "Subsection 9502(2) requires a Dealer Member to participate in or become a member of an arbitration program or organization approved by the Board, and 9502(3) provides that the dealer's participation in, or any decision under, the program will not affect the Corporation's authority or prevent it from exercising that authority — arbitration is mandatory infrastructure for the dealer and runs alongside, not instead of, CIRO's regulatory powers. Option A reverses who chooses the forum: the recourse options exist for the client. Option B has no basis — the retail complaint regime points dissatisfied retail clients to arbitration among their options — and option D contradicts 9502(5), which requires the dealer to comply with the program's requirements and decisions.",
+      "rule_refs": [
+        "IDPC 9502(2)",
+        "IDPC 9502(3)",
+        "IDPC 9502(5)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must participate in or become a member of an arbitration program or organization approved by the Board.\" — idpc-rules.txt ~line 20206"
+    },
+    {
+      "id": "SUP-E1-0098",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E1-SET-04",
+      "scenario": "CIRO Enforcement Staff open an investigation into Vermilion Gorge Securities, an Investment Dealer, after a pattern emerges: over two years, several of its Registered Representatives privately paid clients for losses out of personal funds without the firm's written consent, and branch management quietly tolerated the practice. During the investigation, a branch administrator deletes a folder of email archives she knows Enforcement Staff consider relevant. The matter proceeds to a disciplinary hearing against both the firm and individuals. The hearing panel must now consider its powers under IDPC Rules 8100 and 8200.",
+      "stem": "Regarding the deleted email archives, which statement reflects IDPC subsection 8104(4)?",
+      "options": {
+        "A": "A person who is aware that Enforcement Staff are conducting an investigation must not conceal or destroy any record, document or thing containing information that may be relevant, or ask or encourage another person to do so",
+        "B": "Deleting records is permissible until a formal hearing notice is served",
+        "C": "Only documents under subpoena are protected from destruction",
+        "D": "Routine retention schedules always excuse deletion during an investigation"
+      },
+      "answer": "A",
+      "rationale": "Subsection 8104(4) provides that a person who is aware that Enforcement Staff are conducting an investigation must not conceal or destroy any record, document or thing that contains information that may be relevant to the investigation or to any subsequent proceeding, or ask or encourage another person to do so — awareness of the investigation is the trigger, not a hearing notice (B) or a subpoena (C). Option D fails because a retention schedule cannot authorize destroying material known to be relevant to an active investigation; the administrator's knowledge defeats any routine-deletion defence.",
+      "rule_refs": [
+        "IDPC 8104(4)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"must not conceal or destroy any record, document or thing that contains information that may be relevant to the investigation\" — idpc-rules.txt ~line 18044"
+    },
+    {
+      "id": "SUP-E1-0099",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E1-SET-04",
+      "scenario": "CIRO Enforcement Staff open an investigation into Vermilion Gorge Securities, an Investment Dealer, after a pattern emerges: over two years, several of its Registered Representatives privately paid clients for losses out of personal funds without the firm's written consent, and branch management quietly tolerated the practice. During the investigation, a branch administrator deletes a folder of email archives she knows Enforcement Staff consider relevant. The matter proceeds to a disciplinary hearing against both the firm and individuals. The hearing panel must now consider its powers under IDPC Rules 8100 and 8200.",
+      "stem": "If the hearing panel finds Vermilion Gorge itself contravened Corporation requirements, which sanctions are available against the firm under IDPC subsection 8209(1)?",
+      "options": {
+        "A": "Only a reprimand; monetary sanctions apply solely to individuals",
+        "B": "Sanctions including a reprimand, disgorgement, a fine not exceeding the greater of $5,000,000 for each contravention and three times the profit made or loss avoided, suspension of Membership, terms and conditions on continued Membership, expulsion, a permanent bar, and appointment of a Monitor",
+        "C": "Imprisonment of the firm's Executives for up to five years",
+        "D": "A fixed statutory fine of $100,000 per Registered Representative involved"
+      },
+      "answer": "B",
+      "rationale": "Subsection 8209(1) lists the sanctions available against a Dealer Member: a reprimand; disgorgement of any amount obtained including loss avoided; a fine not exceeding the greater of $5,000,000 for each contravention and an amount equal to three times the profit made or loss avoided; suspension of Membership or associated rights and privileges including a direction to cease dealing with clients; terms or conditions on continued Membership; expulsion from Membership; a permanent bar to membership; appointment of a Monitor; and any other appropriate sanction. Option A wrongly confines monetary sanctions to individuals — 8209 is the dealer-level provision. CIRO panels have no power to imprison (C), and option D invents a fixed per-representative tariff that appears nowhere in the rule.",
+      "rule_refs": [
+        "IDPC 8209(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"suspension of Membership in the Corporation or of any right or privilege associated with Membership, including a direction to cease dealing with clients\" — idpc-rules.txt ~line 18269"
+    },
+    {
+      "id": "SUP-E1-0100",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E1-SET-04",
+      "scenario": "CIRO Enforcement Staff open an investigation into Vermilion Gorge Securities, an Investment Dealer, after a pattern emerges: over two years, several of its Registered Representatives privately paid clients for losses out of personal funds without the firm's written consent, and branch management quietly tolerated the practice. During the investigation, a branch administrator deletes a folder of email archives she knows Enforcement Staff consider relevant. The matter proceeds to a disciplinary hearing against both the firm and individuals. The hearing panel must now consider its powers under IDPC Rules 8100 and 8200.",
+      "stem": "The hearing panel imposes a permanent bar to employment in any capacity by a Regulated Person on one of the Registered Representatives under clause 8210(1)(ix). A year later, an unrelated Dealer Member wants to hire him as an unregistered marketing consultant. Under subsection 8210(4), may it?",
+      "options": {
+        "A": "Yes, because marketing roles are outside CIRO's approval categories",
+        "B": "Yes, provided the hiring dealer notifies CIRO in advance",
+        "C": "Yes, if his bar is more than six months old",
+        "D": "No: a Regulated Person must not employ, hire, retain, or otherwise engage, in any capacity, a person who is sanctioned under clause 8210(1)(ix)"
+      },
+      "answer": "D",
+      "rationale": "Subsection 8210(4) provides that a Regulated Person must not employ, hire, retain, or otherwise engage, in any capacity, a person who is sanctioned under clause 8210(1)(ix) — the permanent bar to employment in any capacity by a Regulated Person. Option A is the closest trap: 'in any capacity' covers unregistered roles like marketing, which is the point of the employment bar as distinct from a bar to approval. Notification (B) cannot cure an outright prohibition, and the bar is permanent — there is no six-month lapse (C).",
+      "rule_refs": [
+        "IDPC 8210(4)",
+        "IDPC 8210(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Regulated Person must not employ, hire, retain, or otherwise engage, in any capacity, a person who is sanctioned under clause 8210(1)(ix).\" — idpc-rules.txt ~line 18316"
+    },
+    {
+      "id": "SUP-E1-0101",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E1-SET-04",
+      "scenario": "CIRO Enforcement Staff open an investigation into Vermilion Gorge Securities, an Investment Dealer, after a pattern emerges: over two years, several of its Registered Representatives privately paid clients for losses out of personal funds without the firm's written consent, and branch management quietly tolerated the practice. During the investigation, a branch administrator deletes a folder of email archives she knows Enforcement Staff consider relevant. The matter proceeds to a disciplinary hearing against both the firm and individuals. The hearing panel must now consider its powers under IDPC Rules 8100 and 8200.",
+      "stem": "Counsel for one Registered Representative argues his quiet personal payments cannot offend the standards of conduct because clients were compensated, no one lost money, and investor confidence was never publicly tested. Analyzing the argument against IDPC subsection 1402(2), which response is strongest?",
+      "options": {
+        "A": "The argument succeeds: standards of conduct require proof of client losses",
+        "B": "The argument succeeds because conduct must be publicly reported before it can diminish confidence",
+        "C": "The argument fails: business conduct that fails to comply with a legal, regulatory, contractual or other obligation — including the rules, requirements, and policies of a Regulated Person — may contravene the standards of conduct, and concealed off-book payments fail the firm's consent requirements regardless of client outcome",
+        "D": "The argument fails only if the payments exceeded $5,000 each"
+      },
+      "answer": "C",
+      "rationale": "Clause 1402(2)(ii) provides that business conduct that fails to comply with a legal, regulatory, contractual or other obligation, including the rules, requirements, and policies of a Regulated Person, may contravene the standards in 1402(1) — the payments breached the consent requirements in 3115(2)(ii) and the firm's policies, so the standards are engaged without any client loss. Option A imports a loss element 1402 does not contain; option B misreads clause (iv), which asks whether conduct is likely to diminish investor confidence, not whether it was publicized; and option D borrows the $5,000 figure from the internal-discipline reporting threshold in 3703(2)(vi), which has nothing to do with whether conduct breaches the standards.",
+      "rule_refs": [
+        "IDPC 1402(2)",
+        "IDPC 3115(2)(ii)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"fails to comply with a legal, regulatory, contractual or other obligation, including the rules, requirements, and policies of a Regulated Person\" — idpc-rules.txt ~line 902"
+    },
+    {
+      "id": "SUP-E1-0102",
+      "element": 1,
+      "outcome": "1.20",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E1-SET-05",
+      "scenario": "Aurelle Chartrand is the Chief Compliance Officer of Beausejour Heights Securities, an Investment Dealer with a retail wealth division. In one month she reviews three files: (1) a mutual fund manufacturer offers the firm's top-selling Registered Representatives an all-expenses-paid resort conference in Portugal tied to their fund sales volumes; (2) a Registered Representative wants to give an expensive watch to the treasurer of a corporate client, hoping to keep the company's investment business, without telling the company; and (3) a Portfolio Manager discloses that her spouse has just taken a senior role at an issuer held across many of her managed accounts, a conflict she identified the same day. Aurelle must apply IDPC Rules 3100 and related provisions.",
+      "stem": "How should Aurelle assess file (1) — the manufacturer-paid resort conference tied to fund sales volumes — under IDPC section 3117?",
+      "options": {
+        "A": "Acceptable because the trip is paid by the manufacturer, not the dealer",
+        "B": "Prohibited: a dealer, related company, partner, employee or Approved Person must not, directly or indirectly, accept or pay any non-cash sales incentive in connection with the sale or distribution of mutual fund products, and the definition of non-cash sales incentive includes domestic or foreign trips",
+        "C": "Acceptable if each Registered Representative reports the trip as a taxable benefit",
+        "D": "Prohibited only if the destination is outside Canada"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3117(2) prohibits a Dealer Member, related company, partner, employee or Approved Person from directly or indirectly accepting or paying any non-cash sales incentive in connection with the sale or distribution of mutual fund products, and 3117(1) defines non-cash sales incentive to include, without limitation, domestic or foreign trips — a manufacturer-funded resort conference earned through fund sales volumes is squarely caught. Option A misses that the prohibition targets acceptance from any source, not just dealer-paid benefits; tax reporting (C) does not legitimize a prohibited incentive; and option D fails because domestic and foreign trips are both within the definition. The 3117(3) exceptions cover items like internal all-product incentive programs and cash commissions, none of which describes this trip.",
+      "rule_refs": [
+        "IDPC 3117(1)",
+        "IDPC 3117(2)",
+        "IDPC 3117(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"must not, directly or indirectly, accept or pay any non-cash sales incentive in connection with the sale or distribution of mutual fund products\" — idpc-rules.txt ~line 4052"
+    },
+    {
+      "id": "SUP-E1-0103",
+      "element": 1,
+      "outcome": "1.20",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E1-SET-05",
+      "scenario": "Aurelle Chartrand is the Chief Compliance Officer of Beausejour Heights Securities, an Investment Dealer with a retail wealth division. In one month she reviews three files: (1) a mutual fund manufacturer offers the firm's top-selling Registered Representatives an all-expenses-paid resort conference in Portugal tied to their fund sales volumes; (2) a Registered Representative wants to give an expensive watch to the treasurer of a corporate client, hoping to keep the company's investment business, without telling the company; and (3) a Portfolio Manager discloses that her spouse has just taken a senior role at an issuer held across many of her managed accounts, a conflict she identified the same day. Aurelle must apply IDPC Rules 3100 and related provisions.",
+      "stem": "File (2) — the expensive watch for the corporate client's treasurer, given without the company's knowledge — engages which IDPC section 3116 analysis?",
+      "options": {
+        "A": "It is prohibited as offering a gratuity in relation to the client's business to an officer or employee of the client, and the prohibition is lifted only where the prior written consent of the client has been obtained",
+        "B": "It is acceptable because the watch goes to an individual, not to the corporate client itself",
+        "C": "It is acceptable as ordinary relationship-building under tied-selling rules",
+        "D": "It is prohibited unless the treasurer declares the gift to the tax authorities"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3116(1) prohibits a dealer or any Approved Person, employee or shareholder from giving, offering, or agreeing to give or offer, directly or indirectly, a gratuity, advantage, benefit or any other consideration, in relation to any business of the client with the dealer, to any partner, director, officer, employee, agent or shareholder of a client or any associate of such persons; subsection 3116(2) disapplies the prohibition only where the prior written consent of the client has been obtained — meaning the corporate client itself, which here knows nothing. Option B describes exactly the conduct the rule targets: the recipient being an individual at the client is the prohibited channel, not a loophole. Tied selling (C) is the separate 3118 conditioning prohibition, and tax declaration by the recipient (D) is irrelevant to the client-consent requirement.",
+      "rule_refs": [
+        "IDPC 3116(1)",
+        "IDPC 3116(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"Subsection 3116(1) does not apply if the prior written consent of the client has been obtained.\" — idpc-rules.txt ~line 4046"
+    },
+    {
+      "id": "SUP-E1-0104",
+      "element": 1,
+      "outcome": "1.20",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E1-SET-05",
+      "scenario": "Aurelle Chartrand is the Chief Compliance Officer of Beausejour Heights Securities, an Investment Dealer with a retail wealth division. In one month she reviews three files: (1) a mutual fund manufacturer offers the firm's top-selling Registered Representatives an all-expenses-paid resort conference in Portugal tied to their fund sales volumes; (2) a Registered Representative wants to give an expensive watch to the treasurer of a corporate client, hoping to keep the company's investment business, without telling the company; and (3) a Portfolio Manager discloses that her spouse has just taken a senior role at an issuer held across many of her managed accounts, a conflict she identified the same day. Aurelle must apply IDPC Rules 3100 and related provisions.",
+      "stem": "For file (3), Aurelle confirms the Portfolio Manager promptly reported her spousal conflict. To document the firm's own compliance framework, what must Beausejour Heights' policies and procedures contain under IDPC section 3114?",
+      "options": {
+        "A": "A blanket prohibition on Approved Persons being married to issuer employees",
+        "B": "Policies and procedures that specifically address identifying, disclosing and avoiding or otherwise addressing material conflict of interest situations",
+        "C": "Nothing — conflicts policies are optional best practices under Corporation guidance",
+        "D": "Only a list of issuers the firm underwrites"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3114(1) requires the dealer's policies and procedures to specifically address identifying, disclosing and avoiding or otherwise addressing material conflict of interest situations — the framework within which the PM's reported spousal conflict will now be assessed and addressed. Option A invents a marital prohibition no rule contains: spousal relationships create conflicts to be identified and addressed, not banned. Option C contradicts the mandatory 'must' in 3114(1), and option D substitutes a single underwriting list for the full identify-disclose-avoid-or-address scope the rule prescribes.",
+      "rule_refs": [
+        "IDPC 3114(1)",
+        "IDPC 3110(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"policies and procedures must specifically address identifying, disclosing and avoiding or otherwise addressing material conflict of interest situations\" — idpc-rules.txt ~line 3973"
+    },
+    {
+      "id": "SUP-E1-0105",
+      "element": 1,
+      "outcome": "1.21",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E1-SET-05",
+      "scenario": "Aurelle Chartrand is the Chief Compliance Officer of Beausejour Heights Securities, an Investment Dealer with a retail wealth division. In one month she reviews three files: (1) a mutual fund manufacturer offers the firm's top-selling Registered Representatives an all-expenses-paid resort conference in Portugal tied to their fund sales volumes; (2) a Registered Representative wants to give an expensive watch to the treasurer of a corporate client, hoping to keep the company's investment business, without telling the company; and (3) a Portfolio Manager discloses that her spouse has just taken a senior role at an issuer held across many of her managed accounts, a conflict she identified the same day. Aurelle must apply IDPC Rules 3100 and related provisions.",
+      "stem": "A fourth file lands on Aurelle's desk: a Registered Representative seeks approval for an outside activity as volunteer treasurer of a community foundation. The firm's outside-activity policies cover conflict identification but are silent on how clients will be served while the RR devotes time to the foundation. Under IDPC subsection 2554(2), what gap must Aurelle close before approval?",
+      "options": {
+        "A": "None — volunteer roles are exempt from the outside-activity conditions",
+        "B": "The dealer's policies and procedures must specifically address continuous service to clients as well as potential conflicts of interest, so the policies' silence on continuous service must be remedied",
+        "C": "The RR must post a personal bond covering foundation losses",
+        "D": "The foundation must register as a Dealer Member before the RR can serve"
+      },
+      "answer": "B",
+      "rationale": "Clause 2554(2)(iii) conditions an outside activity on the dealer's policies and procedures specifically addressing both continuous service to clients and potential conflicts of interest — the firm's policies cover conflicts but not continuous service, so the framework itself is deficient. Option A is wrong because 2554 turns on the activity being outside the dealer, not on whether it is paid: a volunteer treasurer role still needs informing, prior approval, the policy conditions, and NI 33-109 notification. A personal bond (C) and registration of the foundation (D) are inventions; the rule's conditions run through the dealer's approval machinery, not through the outside organization.",
+      "rule_refs": [
+        "IDPC 2554(2)",
+        "Syllabus 1.21"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the Dealer Member’s policies and procedures specifically address: (a) continuous service to clients, and (b) potential conflicts of interest\" — idpc-rules.txt ~line 3044"
+    }
+  ]
+}

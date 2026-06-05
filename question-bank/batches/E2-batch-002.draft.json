@@ -1,0 +1,1252 @@
+{
+  "meta": {
+    "batch": "E2-002",
+    "drafted": 50,
+    "date": "2026-06-04",
+    "corpus": [
+      "research/sources/rules/idpc-rules.txt (Rule 1200 definitions, 1400, 1500, 2500, 3300, 3800, 3900 Parts A-B, 4100 Part D, 4200 Part B, 8100, 8200)",
+      "research/sources/rules/gn-3900-20-001.txt (Account Supervision Guidance)",
+      "research/sources/syllabus-raw.txt (Element 2 outcome parameters)"
+    ],
+    "novelty_note": "All 55 existing E2 stems (seeds SUP-E2-0001-0005 + E2-batch-001 SUP-E2-0006-0055) inventoried by outcome/rule_ref/key-fact before drafting; this batch targets only untested subsections or inverse directions. Automated rule_ref-collision and stem/key Jaccard scans run before finalizing. New firm names throughout (no reuse from batch 001).",
+    "qa": "Gate 1 blind solve 2026-06-05: 50/50 agreement. Gate 2: 50/50 quotes verified (1 quote lengthened). Gate 3 lint clean. See qa-log.md."
+  },
+  "questions": [
+    {
+      "id": "SUP-E2-0056",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "CIRO amends a rule affecting trade-confirmation supervision. Halverson Securities' compliance team asks how quickly the firm's written supervisory policies and procedures must reflect the change. What does subsection 3904(2) require?",
+      "options": {
+        "A": "The policies and procedures must be amended within a reasonable time after the change to Corporation requirements is made",
+        "B": "The policies and procedures must be amended before the rule change takes effect, without exception",
+        "C": "The policies and procedures need only be amended at the next scheduled annual review",
+        "D": "No amendment is required as long as staff are verbally informed of the change"
+      },
+      "answer": "A",
+      "rationale": "Clause 3904(2)(iv) requires the dealer to amend its supervision policies and procedures within a reasonable time after changes in Corporation requirements or securities laws are made. There is no absolute pre-effective-date deadline (B), waiting for the annual review cycle is not a 'reasonable time' standard (C), and verbal notice does not satisfy the requirement that supervisory policies be in writing and amended (D).",
+      "source_quote": "amend its policies and procedures relating to supervision within a reasonable time after changes in Corporation requirements, or securities laws are made",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7900,
+      "rule_refs": [
+        "IDPC 3904(2)(iv)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0057",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Meridian Bluff Capital emails its updated sales practices policies to all Registered Representatives and asks each to reply 'read'. A CIRO examiner says this is incomplete. Under subsection 3904(3), what additional element does the acknowledgment requirement contain?",
+      "options": {
+        "A": "Each Approved Person must pass a written exam on the policies before acknowledging them",
+        "B": "The dealer must obtain and record acknowledgements that the policies relevant to each person's role have been read and understood",
+        "C": "Acknowledgments are required only from Supervisors, not from sales employees",
+        "D": "Acknowledgments must be renewed monthly regardless of whether the policies changed"
+      },
+      "answer": "B",
+      "rationale": "Clause 3904(3)(ii) requires the dealer to obtain and record acknowledgements from all sales and supervisory employees and Approved Persons that they have read and understood the policies relevant to their roles. A bare 'read' reply omits both the recorded element and the 'understood' element. No exam is prescribed (A), the obligation covers sales and supervisory employees and Approved Persons, not Supervisors alone (C), and no monthly renewal is prescribed (D).",
+      "source_quote": "obtain and record acknowledgements from all sales and supervisory employees and Approved Persons that they have read and understood the policies and procedures relevant to their respective roles and responsibilities,",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7906,
+      "rule_refs": [
+        "IDPC 3904(3)(ii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0058",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Korrigan Wealth trains every new Approved Person on its policies and procedures during onboarding, but provides no further policy training afterward. Which component of the communication obligations in subsection 3904(3) does this approach fail to satisfy?",
+      "options": {
+        "A": "The requirement to file training records with the Corporation each quarter",
+        "B": "The requirement that all training be delivered by the Chief Compliance Officer personally",
+        "C": "The requirement to provide introductory and continuing education on the dealer's policies and procedures and any relevant changes to them",
+        "D": "The requirement that training occur only after an Approved Person's first client complaint"
+      },
+      "answer": "C",
+      "rationale": "Clause 3904(3)(iii) requires both introductory and continuing education to all Approved Persons on the dealer's policies and procedures and any relevant changes. Onboarding-only training misses the continuing component. No quarterly filing of training records is prescribed (A), the rule does not assign delivery to the CCO personally (B), and training is a standing obligation, not complaint-triggered (D).",
+      "source_quote": "provide introductory and continuing education to all Approved Persons on the Dealer Member's policies and procedures and any relevant changes to them,",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7909,
+      "rule_refs": [
+        "IDPC 3904(3)(iii)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0059",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Silver Birch Direct distributes compliance-related notices to branches whenever someone in head office remembers to forward them. Measured against subsection 3904(3), what is the deficiency in this practice?",
+      "options": {
+        "A": "Compliance notices may only be distributed by registered mail",
+        "B": "Only the Ultimate Designated Person may distribute compliance notices",
+        "C": "Compliance notices may only be distributed after board approval of each notice",
+        "D": "The dealer must have policies and procedures that specifically address the method and timing of the distribution of compliance related notices"
+      },
+      "answer": "D",
+      "rationale": "Clause 3904(3)(v) requires policies and procedures that specifically address the method and timing of distributing compliance related notices; an ad hoc, memory-dependent practice has neither a defined method nor defined timing. The rule does not prescribe registered mail (A), per-notice board approval (C), or distribution exclusively by the UDP (B).",
+      "source_quote": "have policies and procedures that specifically address the method and timing of the distribution of compliance related notices,",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7913,
+      "rule_refs": [
+        "IDPC 3904(3)(v)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0060",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Avoca Securities wants to comply with a supervision requirement using an in-house method that differs from the approach described in a CIRO guidance note. Under subsection 1404(3), is this permissible?",
+      "options": {
+        "A": "No; guidance notes are binding and the described method must be followed exactly",
+        "B": "Yes, but only if the Corporation grants a formal written exemption first",
+        "C": "No; a dealer may depart from guidance only for requirements relating to financial matters",
+        "D": "Yes; unless otherwise indicated, dealers may use alternate methods provided those methods demonstrably achieve the overall objective of the Corporation requirements"
+      },
+      "answer": "D",
+      "rationale": "Subsection 1404(3) states that guidelines and best practices in Corporation guidance are generally intended to present acceptable methods, and that, unless otherwise indicated, dealers may use alternate methods provided they demonstrably achieve the overall objective of the requirements. Guidance is not automatically binding (A), no formal exemption is required to use a demonstrably effective alternate method (B), and the flexibility is not limited to financial requirements (C).",
+      "source_quote": "Dealer Members may use alternate methods, provided that those methods demonstrably achieve the overall objective of the Corporation requirements.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 943,
+      "rule_refs": [
+        "IDPC 1404(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0061",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A provincial securities law and an IDPC rule both govern the same supervisory activity at Drumlin Capital, but the provincial standard is stricter. Under subsection 1406(2), how must the firm resolve the inconsistency?",
+      "options": {
+        "A": "Comply with the IDPC rule, because Corporation requirements always prevail over provincial law",
+        "B": "Comply with the less burdensome standard to minimize operational cost",
+        "C": "Comply with the most stringent of the Corporation requirements, securities laws or applicable laws",
+        "D": "Suspend the activity until CIRO and the provincial regulator issue a joint interpretation"
+      },
+      "answer": "C",
+      "rationale": "Subsection 1406(2) provides that where there is an inconsistency between Corporation requirements, securities laws and applicable laws, compliance with the most stringent is required. Corporation requirements do not automatically displace stricter laws (A), choosing the less burdensome standard inverts the rule (B), and the rule resolves the conflict itself, so no suspension pending joint interpretation is needed (D).",
+      "source_quote": "compliance with the most stringent of the Corporation requirements, securities laws or applicable laws is required",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 961,
+      "rule_refs": [
+        "IDPC 1406(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0062",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A Registered Representative at Pemberley Wealth wants to recommend a newly issued private debt note to several clients. The firm's product committee has not yet approved the note for distribution. Under subsection 3301(2), may the RR proceed?",
+      "options": {
+        "A": "Yes, provided the RR personally completes a Know-Your-Product analysis first",
+        "B": "No; an Approved Person must not purchase for or recommend securities to a client unless the dealer has approved them to be made available to clients",
+        "C": "Yes, provided each client signs a waiver acknowledging the product is unapproved",
+        "D": "Yes, provided the recommendation is limited to institutional clients"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3301(2) prohibits an Approved Person from purchasing securities for, or recommending securities to, a client unless the securities have been approved by the dealer under subsection 3301(1). Personal KYP under 3302 is necessary but does not substitute for firm-level approval (A); no client waiver mechanism exists (C); and the prohibition is not limited by client category (D).",
+      "source_quote": "An Approved Person must not purchase securities or derivatives for, or recommend securities or derivatives to, a client unless the securities or derivatives have been approved by the Dealer Member to be made available to clients",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 5498,
+      "rule_refs": [
+        "IDPC 3301(2)",
+        "IDPC 3301(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0063",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Tonbridge Securities' product committee assesses a new structured note's structure, features and risks, but skips any analysis of the note's embedded fees because 'costs are a sales issue, not a due diligence issue.' What does subsection 3301(1) say about this position?",
+      "options": {
+        "A": "It is correct; product due diligence covers only structure, features and risks",
+        "B": "It is correct, provided the costs are disclosed in the offering document",
+        "C": "It is incorrect; the relevant aspects to be assessed include initial and ongoing costs and the impact of those costs",
+        "D": "It is incorrect only for products sold to retail clients in registered accounts"
+      },
+      "answer": "C",
+      "rationale": "Clause 3301(1)(i) requires assessment of the relevant aspects of the securities, including the securities' structure, features, risks, initial and ongoing costs and the impact of those costs. Costs are explicitly part of the due diligence assessment, not merely a sales or disclosure matter (A, B), and the requirement is not limited to retail registered accounts (D).",
+      "source_quote": "assess the relevant aspects of the securities or derivatives, including the securities' or derivatives' structure, features, risks, initial and ongoing costs and the impact of those costs,",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 5494,
+      "rule_refs": [
+        "IDPC 3301(1)(i)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0064",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Caldera Direct operates order execution only accounts and also offers direct electronic access accounts. A Supervisor asks whether Approved Persons handling these accounts carry the Know-Your-Product obligation in section 3302 for the products clients trade. What does subsection 3303(2) provide?",
+      "options": {
+        "A": "Section 3302 applies in full to both account types because KYP can never be exempted",
+        "B": "Section 3302 does not apply in respect to an order execution only account or a direct electronic access account",
+        "C": "Section 3302 is exempted only for the OEO accounts, not the DEA accounts",
+        "D": "Section 3302 is exempted only where the client signs an annual risk acknowledgment"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3303(2) exempts from section 3302 an order execution only account, a direct electronic access account, and certain carried/service-only accounts. The exemption exists (A is wrong), covers both OEO and DEA accounts — defeating C, the closest distractor — and is not conditioned on a client risk acknowledgment (D).",
+      "source_quote": "Section 3302 does not apply in respect to: (i) an order execution only account, (ii) a direct electronic access account, or",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 5514,
+      "rule_refs": [
+        "IDPC 3303(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0065",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Wexford Capital reorganizes its senior management and changes the reporting lines between its Executives and the board. Under section 3916, what must the firm do with respect to the Corporation?",
+      "options": {
+        "A": "Nothing, because internal reporting relationships are not regulated",
+        "B": "Obtain CIRO's prior written consent before implementing any reporting-line change",
+        "C": "File notice of any material changes to the organizational structure and reporting relationships set out in its governance document",
+        "D": "Re-file its complete policies and procedures manual within 30 days"
+      },
+      "answer": "C",
+      "rationale": "Section 3916 requires a dealer to file a current governance document setting out the organizational structure and reporting relationships required under Rule 3900, and notice of any material changes to them. The structure is regulated through this filing (A is wrong), the rule requires notice rather than prior consent (B), and the obligation attaches to the governance document, not the entire P&P manual (D).",
+      "source_quote": "notice of any material changes to the organizational structure and reporting relationships set out in the governance document",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 8055,
+      "rule_refs": [
+        "IDPC 3916(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0066",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Beyond being answerable to the Corporation for the dealer's conduct, what affirmative duties does subsection 3910(2) place on the Ultimate Designated Person of an Investment Dealer?",
+      "options": {
+        "A": "To conduct the daily and monthly trade reviews for all retail accounts",
+        "B": "To personally approve every new account opened at the dealer",
+        "C": "To supervise the activities directed towards ensuring compliance, and to promote compliance by the dealer and each individual acting on its behalf",
+        "D": "To prepare the dealer's annual Form 1 filing and present it to the auditor"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3910(2) requires the UDP to supervise the activities of the dealer and each individual acting on its behalf that are directed towards ensuring compliance, and to promote compliance with Corporation requirements and securities laws. Account approvals belong to designated Supervisors under 3925(2) (B), daily/monthly trade reviews are supervisory functions, not UDP-specific duties (A), and Form 1 preparation falls under the CFO's financial mandate (D).",
+      "source_quote": "promote compliance by the Dealer Member, and each individual acting on its behalf, with Corporation requirements and securities laws",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7993,
+      "rule_refs": [
+        "IDPC 3910(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0067",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The Chief Compliance Officer of Larkspur Securities is told by the CEO that all communications to the board must be routed through, and may be edited by, the CEO's office. How does this arrangement measure against subsection 3912(2)?",
+      "options": {
+        "A": "It is acceptable because the UDP controls all board communications",
+        "B": "It is deficient only if the CCO also serves as the firm's CFO",
+        "C": "It is acceptable provided the CCO retains direct access to external auditors",
+        "D": "It is deficient; the CCO must have access to the Ultimate Designated Person and the board of directors as necessary to carry out their responsibilities"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3912(2) entitles the CCO to access to the UDP and the dealer's board of directors as necessary to carry out their responsibilities; an edited, gated channel undermines that access. The UDP does not have authority to block CCO-board access (A), auditor access is not the prescribed safeguard (C), and the access right does not depend on holding a second officer role (B).",
+      "source_quote": "The Chief Compliance Officer must have access to the Ultimate Designated Person and the Dealer Member's board of directors as necessary to carry out their responsibilities.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 8010,
+      "rule_refs": [
+        "IDPC 3912(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0068",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Innisfree Wealth's Chief Financial Officer resigns suddenly. The firm has no immediately qualified replacement but wants to keep operating. Under section 2505, which course is available?",
+      "options": {
+        "A": "Operate without a CFO indefinitely, provided the CCO countersigns financial filings",
+        "B": "With the Corporation's prior approval, immediately designate an Executive as acting Chief Financial Officer, with a qualified CFO in place within 90 days of the cessation date",
+        "C": "Designate any employee as acting CFO without notifying the Corporation, for up to one year",
+        "D": "Outsource the CFO function permanently to the firm's external auditor"
+      },
+      "answer": "B",
+      "rationale": "Subsection 2505(3) requires the dealer, when a CFO ceases to be approved, to either immediately designate a qualified individual as CFO or, with the Corporation's prior approval, designate an Executive as acting CFO; under 2505(4) the position must be properly filled within 90 days of the cessation date, failing which fees apply under 2505(5). There is no indefinite CCO-countersign workaround (A), the acting designation requires prior Corporation approval and must be an Executive (C), and the rule contemplates designation of an individual, not outsourcing to the auditor (D).",
+      "source_quote": "with the Corporation's prior approval, designate an Executive as acting Chief Financial Officer.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 2829,
+      "rule_refs": [
+        "IDPC 2505(3)",
+        "IDPC 2505(4)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0069",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Rule 1500 frames how an Investment Dealer's significant areas of risk must be governed. What is the Corporation's stated expectation in section 1501?",
+      "options": {
+        "A": "That every significant area of risk be insured through a third-party policy",
+        "B": "That the board of directors personally manage each significant area of risk",
+        "C": "That, for every significant area of risk within a Dealer Member, an appropriate Executive be responsible for managing such area of risk",
+        "D": "That significant areas of risk be reported to CIRO quarterly on a prescribed form"
+      },
+      "answer": "C",
+      "rationale": "Subsection 1501(1) states the Corporation expects that, for every significant area of risk within a dealer, an appropriate Executive be responsible for managing that area of risk. Insurance is not the prescribed mechanism (A), the responsibility sits with Executives rather than the board personally (B), and no quarterly risk-area filing is prescribed in Rule 1500 (D).",
+      "source_quote": "the Corporation expects that, for every significant area of risk within a Dealer Member, an appropriate Executive be responsible for managing such area of risk",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 975,
+      "rule_refs": [
+        "IDPC 1501(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0070",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Bracken Securities' compliance department drafts new trading-risk policies and procedures and plans to implement them on the CCO's sign-off alone. The Executive responsible for the trading risk area objects. Who is right under subsection 1502(3)?",
+      "options": {
+        "A": "The Executive; Executives are responsible for the review and approval of any policies and procedures relating to their significant area of risk",
+        "B": "The compliance department; the CCO approves all policies and procedures firm-wide without exception",
+        "C": "Neither; only the board of directors may approve risk-area policies",
+        "D": "The compliance department, provided the policies are filed with CIRO before implementation"
+      },
+      "answer": "A",
+      "rationale": "Subsection 1502(3) makes Executives responsible for the review and approval of any policies and procedures relating to their significant area of risk, so the responsible trading Executive must review and approve them. The CCO's mandate under 3912 concerns compliance-assessment policies and does not displace the responsible Executive's role under Rule 1500 (B), board approval is not the mechanism 1502(3) prescribes (C), and filing with CIRO is not a substitute for the Executive's approval (D).",
+      "source_quote": "Executives are responsible for the review and approval of any policies and procedures relating to their significant area of risk.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 984,
+      "rule_refs": [
+        "IDPC 1502(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0071",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Mistral Capital's head of operations runs the firm's back office and sits on its executive management committee, but argues he is not an 'Executive' under the IDPC rules because his title is not CEO, CFO, CCO or UDP. Based on the Rule 1200 definition, is he correct?",
+      "options": {
+        "A": "Yes; only the four named officer positions are Executives",
+        "B": "No; the definition includes a person acting in a similar capacity who is head of operations and any member of an executive management committee",
+        "C": "Yes, unless the board passes a resolution naming him an Executive",
+        "D": "No, but only because every employee of a Dealer Member is automatically an Executive"
+      },
+      "answer": "B",
+      "rationale": "The Rule 1200 definition of Executive captures a partner, Director or officer involved in senior management, including a person acting in a similar capacity who is head of operations and any member of an executive management committee, as well as positions the dealer designates as Executive. It is not limited to the four named officers (A), no board resolution is needed where the definition already applies (C), and ordinary employees are not automatically Executives (D).",
+      "source_quote": "or a person acting in a similar capacity who is head of operations, Chief Financial Officer, Chief Compliance Officer, Ultimate Designated Person, member of an executive management committee",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 383,
+      "rule_refs": [
+        "IDPC 1201 definition of Executive"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0072",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "During its annual audit, Oakhurst Direct's CFO instructs staff to withhold a set of reconciliation worksheets from the external auditor because they 'would only raise questions.' Which obligation in section 4189 does this instruction violate?",
+      "options": {
+        "A": "The dealer's obligation to publish a summary statement of financial position",
+        "B": "The dealer's obligation to pay the auditor's invoice within 30 days",
+        "C": "The dealer's obligation to rotate audit firms every five years",
+        "D": "The dealer's obligation to provide its auditor with unrestricted access to all of the dealer's records and not to conceal or withhold records reasonably required for the audit"
+      },
+      "answer": "D",
+      "rationale": "Subsections 4189(2) and 4189(3) require a dealer to provide its auditor with unrestricted access to all of its records and prohibit interfering with the audit process or concealing, withholding or destroying records reasonably required for the audit. Withholding reconciliation worksheets does exactly that. Summary statements of financial position arise under Rule 4200 Part A, not 4189 (A), and neither invoice timing (B) nor audit-firm rotation (C) is a section 4189 obligation.",
+      "source_quote": "A Dealer Member must not interfere with the audit process, nor conceal, withhold, or destroy any records reasonably required for the audit.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 9107,
+      "rule_refs": [
+        "IDPC 4189(3)",
+        "IDPC 4189(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0073",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Penrose Securities wants its long-standing local accounting firm to audit its fiscal year Form 1 filing. The accounting firm is not on CIRO's approved list. May Penrose proceed under Part D of Rule 4100?",
+      "options": {
+        "A": "Yes, because the choice of auditor is a private contractual matter",
+        "B": "Yes, but only for fiscal years in which the dealer is not in early warning",
+        "C": "Yes, provided the accounting firm signs a confidentiality undertaking with CIRO",
+        "D": "No; the dealer must use a Corporation approved auditor to perform the audit of its fiscal year Form 1 filing"
+      },
+      "answer": "D",
+      "rationale": "Section 4172 requires a dealer to use a Corporation approved auditor for the audit of its fiscal year Form 1 filing; the Corporation annually approves a list of audit firms as panel auditors under section 4171. Auditor choice is therefore regulated (A), a confidentiality undertaking does not substitute for panel approval (C), and the requirement does not vary with the dealer's early warning status (B).",
+      "source_quote": "A Dealer Member must use a Corporation approved auditor to perform the audit of the Dealer Member's fiscal year Form 1 filing.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 8912,
+      "rule_refs": [
+        "IDPC 4172(1)",
+        "IDPC 4171(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0074",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Galloway Wealth's CFO argues that because the firm completed all the prescribed test procedures in sections 4177 through 4188, the auditor may not perform any further procedures. What does section 4174 say about this position?",
+      "options": {
+        "A": "It is wrong; nothing in Part D limits the scope of the audit or allows the auditor to omit any additional audit procedure it considers necessary under the circumstances",
+        "B": "It is correct; the prescribed procedures are an exhaustive ceiling on audit work",
+        "C": "It is correct unless CIRO orders an expanded audit in writing",
+        "D": "It is wrong only where the dealer is designated as being in early warning"
+      },
+      "answer": "A",
+      "rationale": "Section 4174 provides that nothing in Part D of Rule 4100 limits the scope of the audit or allows the auditor to omit any additional procedure it considers necessary under the circumstances. The prescribed procedures are a floor, not a ceiling (B), no CIRO order is needed for the auditor to expand its work (C), and the principle applies regardless of early warning status (D).",
+      "source_quote": "allows the Dealer Member's auditor to omit any additional audit procedure that it considers necessary under the circumstances",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 8928,
+      "rule_refs": [
+        "IDPC 4174(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0075",
+      "element": 2,
+      "outcome": "2.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Supervisor Imre Kallas of Thessaly Capital delegated daily review screening eight months ago. His delegate has an established channel for escalating problems but has never once been required to update Kallas on the ordinary, problem-free operation of the delegated work, so Kallas has received no information at all since the handover. Which documented control for delegation, listed in the Element 2 syllabus parameters, is missing?",
+      "options": {
+        "A": "Regular reports from the delegate to the delegator",
+        "B": "A prohibition on delegating daily review screening",
+        "C": "A requirement that the delegate obtain CIRO approval as a Supervisor",
+        "D": "A requirement that the delegator perform every review personally once per quarter"
+      },
+      "answer": "A",
+      "rationale": "The syllabus parameters for outcome 2.10 list 'Regular reports from the delegate to the delegator' as a documented control, distinct from issue-escalation processes: the delegate here can escalate problems but provides no routine reporting, leaving the delegator blind between incidents. Daily review screening is delegable subject to controls (B), delegates need qualification by registration, training or experience rather than Supervisor approval (C), and no quarterly personal-performance requirement exists — the delegator's duty is to ensure adequate performance and examine the delegate's reviews (D).",
+      "source_quote": "Regular reports from the delegate to the delegator",
+      "source_file": "research/sources/syllabus-raw.txt",
+      "source_line": 522,
+      "rule_refs": [
+        "Syllabus 2.10",
+        "IDPC 3907(4)(ii)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0076",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A hearing panel finds that an Approved Person of Coppermine Securities contravened CIRO requirements, earning a profit of $2.4 million from the misconduct. What is the maximum fine the panel may impose for that contravention under subsection 8210(1)?",
+      "options": {
+        "A": "$1,000,000, the fixed statutory maximum for individuals",
+        "B": "$2,400,000, capped at the amount of the profit made",
+        "C": "$5,000,000, because a fine may not exceed $5,000,000 in any circumstance",
+        "D": "$7,200,000, being the greater of $5,000,000 for the contravention and three times the profit made"
+      },
+      "answer": "D",
+      "rationale": "Clause 8210(1)(iii) permits a fine not exceeding the greater of $5,000,000 for each contravention and an amount equal to three times the profit made or loss avoided. Three times $2.4 million is $7.2 million, which exceeds $5 million and therefore sets the cap. There is no $1 million individual maximum (A), the fine is not capped at the profit itself (B), and $5 million is only one branch of the 'greater of' test, defeating C, the closest distractor.",
+      "source_quote": "an amount equal to three times the profit made or loss avoided by the person, directly or indirectly, as a result of the contravention,",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 18295,
+      "rule_refs": [
+        "IDPC 8210(1)(iii)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0077",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Juniper Crest Capital's head-office compliance analysts conduct the firm's second-tier reviews of retail account activity. They flag serious issues but have no authority to resolve anything they find, and the firm has no defined route for what happens to their findings. According to the Account Supervision Guidance, what should the dealer have?",
+      "options": {
+        "A": "Nothing further; identifying issues is the full extent of second-tier review",
+        "B": "Procedures for referring these issues to a Supervisor who has the appropriate authority",
+        "C": "A rule that second-tier reviewers resolve every issue themselves regardless of authority",
+        "D": "A policy of sending unresolved findings directly to affected clients"
+      },
+      "answer": "B",
+      "rationale": "The Account Supervision Guidance states that where second-tier reviews are conducted by personnel who do not have the authority to resolve the issues they identify, the dealer should have procedures for referring these issues to a Supervisor who has the appropriate authority. Identification alone does not complete the compliance function's escalation responsibility (A), reviewers cannot resolve issues they lack authority over — the cure is referral, defeating C — and findings route to an authorized Supervisor, not to clients (D).",
+      "source_quote": "the Dealer should have procedures for referring these issues to a Supervisor who has the appropriate authority",
+      "source_file": "research/sources/rules/gn-3900-20-001.txt",
+      "source_line": 270,
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2",
+        "IDPC 3912(1)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0078",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Marigold Direct runs compliance monitoring queries and supervisory reports each month, reviews them, and then purges them to save storage. CIRO later asks the firm to demonstrate its compliance. Which requirement of section 1405 has the firm breached?",
+      "options": {
+        "A": "The requirement to keep all records and evidence of its compliance that it produces, including supervisory reviews, reports and queries on compliance",
+        "B": "The requirement to file monthly compliance queries with the Corporation",
+        "C": "The requirement to have the board chair sign each compliance report",
+        "D": "The requirement to publish compliance monitoring results to clients"
+      },
+      "answer": "A",
+      "rationale": "Subsection 1405(2) requires a dealer to keep all records and evidence of its compliance with Corporation requirements that it produces, including supervisory reviews, reports and queries on compliance; subsection 1405(3) lets the Corporation require evidence of compliance. Purging the outputs destroys exactly that evidence. There is no monthly filing of queries (B), no board-chair signature requirement in 1405 (C), and no client-publication requirement (D).",
+      "source_quote": "A Dealer Member must keep all records and evidence of its compliance with Corporation requirements that it produces, including supervisory reviews, reports and queries on compliance.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 953,
+      "rule_refs": [
+        "IDPC 1405(2)",
+        "IDPC 1405(3)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0079",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Holloway Securities substantively rewrites its account supervision policies and procedures. The head of retail sales, who is not an Executive, approves the new version and implementation begins. Under subsection 3926(3), what is wrong with this approval path?",
+      "options": {
+        "A": "Nothing; any department head may approve account supervision policies",
+        "B": "Account supervision policies must be approved by a client advisory panel",
+        "C": "Account supervision policies and any substantive amendments must be approved by the Chief Compliance Officer or another appropriate Executive",
+        "D": "Account supervision policies may only be amended once per calendar year"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3926(3) requires that all policies and procedures relating to the supervision of accounts, and any substantive amendments, be approved by the dealer's Chief Compliance Officer or another appropriate Executive. A non-Executive department head's sign-off does not meet that standard (A). No client panel approval (B) or annual amendment limit (D) exists.",
+      "source_quote": "must be approved by the Dealer Member's Chief Compliance Officer or another appropriate Executive",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 8105,
+      "rule_refs": [
+        "IDPC 3926(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0080",
+      "element": 2,
+      "outcome": "2.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Renova Securities is building a robust automated pre-trade screening process for its retail order flow and asks whether this can change its post-trade review burden. What does the Account Supervision Guidance say about pre-trade and post-trade reviews?",
+      "options": {
+        "A": "Dealers may conduct reviews on a pre-trade or post-trade basis, and a robust pre-trade review process may lessen or remove the need for post-trade reviews",
+        "B": "Post-trade reviews are always mandatory in full regardless of pre-trade controls",
+        "C": "Pre-trade reviews are prohibited because they delay order execution",
+        "D": "Pre-trade reviews may replace post-trade reviews only for institutional accounts"
+      },
+      "answer": "A",
+      "rationale": "The Account Supervision Guidance states that dealers may conduct their reviews on a pre-trade or post-trade basis, and a robust pre-trade review process may lessen or remove the need for post-trade reviews. Post-trade review is therefore not invariably required in full — defeating B, the closest distractor. Pre-trade review is expressly permitted (C), and the statement appears in the retail account supervision section without an institutional-only restriction (D).",
+      "source_quote": "A robust pre- trade review process may lessen or remove the need for post-trade reviews.",
+      "source_file": "research/sources/rules/gn-3900-20-001.txt",
+      "source_line": 182,
+      "rule_refs": [
+        "GN-3900-20-001 s.1.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0081",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Supervisor Nadia Brunelle of Eastvale Capital diligently enforces the firm's policies and procedures but ignores a CIRO rule on retail account reviews because 'the firm's manual doesn't mention it.' Analyzing her conduct against section 3906, what is the flaw?",
+      "options": {
+        "A": "None; a Supervisor's duty is limited to the firm's own manual",
+        "B": "A Supervisor must supervise in accordance with assigned supervisory responsibilities, the dealer's policies and procedures, and Corporation requirements and securities laws — the manual does not displace the rules",
+        "C": "She should have enforced only Corporation requirements and ignored the manual",
+        "D": "Her only error was failing to obtain client consent for the reviews"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3906(1) requires each Supervisor to fully and properly supervise each employee and Approved Person under their authority in accordance with the supervisory responsibilities assigned to them, the dealer's policies and procedures, and Corporation requirements and securities laws. All three sources apply cumulatively, so a silent manual does not excuse non-compliance with a rule (A). The duty is conjunctive, not either/or (C), and client consent is not an element of supervisory reviews (D).",
+      "source_quote": "Each Supervisor must fully and properly supervise each employee and Approved Person under their authority in accordance with:",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7938,
+      "rule_refs": [
+        "IDPC 3906(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0082",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "At Halverson Securities, any sales assistant can change a client's recorded risk profile or net worth in the account system without approval, and no log records who made the change. An RR exploited this to retroactively justify unsuitable trades. Which specific account-supervision requirement does this design defeat?",
+      "options": {
+        "A": "The requirement in subsection 3926(5) that policies and procedures include controls for accessing and amending client records",
+        "B": "The requirement that clients approve their own KYC updates by wet signature",
+        "C": "The requirement that risk profiles be reviewed only by the board of directors",
+        "D": "The requirement that all client records be stored exclusively at head office"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3926(5) requires a dealer's policies and procedures to include controls for accessing and amending client records — precisely the control that uncontrolled, unlogged edits defeat, and the control whose absence allowed the record to be rewritten after the fact. No wet-signature rule exists in 3926 (B), the board does not review individual risk profiles (C), and records may be kept at branches subject to periodic on-site reviews under 3908(4), so exclusive head-office storage is not required (D).",
+      "source_quote": "A Dealer Member's policies and procedures must include controls for accessing and amending client records.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 8111,
+      "rule_refs": [
+        "IDPC 3926(5)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0083",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Meridian Bluff Capital designates Tessa Wren as Supervisor for new account approvals. Wren has never read the IDPC account rules and is unfamiliar with the firm's own account-opening procedures, relying entirely on what her assistant tells her. Against subsection 3925(3), what is the defect?",
+      "options": {
+        "A": "None, provided her assistant is well informed",
+        "B": "She holds two supervisory designations simultaneously, which is prohibited",
+        "C": "The designated Supervisor must be familiar with applicable Corporation requirements, securities laws and applicable laws and the dealer's policies and procedures",
+        "D": "She has not been approved as an Executive, which all designated Supervisors require"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3925(3) requires the designated Supervisor to be familiar with applicable Corporation requirements, securities laws and applicable laws and the dealer's policies and procedures; secondhand reliance on an assistant is not familiarity. Delegating knowledge does not cure the defect (A), nothing in 3925 prohibits multiple designations (B), and designated Supervisors are not required to be Executives (D).",
+      "source_quote": "The designated Supervisor must be familiar with applicable Corporation requirements, securities laws and applicable laws and the Dealer Member's policies and procedures.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 8089,
+      "rule_refs": [
+        "IDPC 3925(3)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0084",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Korrigan Wealth hires several new supervisory staff and tells them verbally to 'use good judgment' when reviewing account activity, providing no documentation of what is expected. Measured against subsection 3926(4), what must the dealer provide to supervisory staff?",
+      "options": {
+        "A": "An annual cash bonus tied to the number of reviews completed",
+        "B": "A list of clients exempt from all supervisory review",
+        "C": "Discretion to design their own review procedures without firm involvement",
+        "D": "Written procedures to be followed in reviewing account activity and written confirmation of the dealer's expectations of supervisory staff with respect to their roles and responsibilities"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3926(4) requires the dealer to provide all supervisory staff with written procedures to be followed in reviewing account activity and written confirmation of the dealer's expectations of supervisory staff with respect to their supervisory roles and responsibilities. Verbal instructions fail both written elements. Compensation design is not the requirement (A), individual discretion does not satisfy the firm's obligation to provide written procedures (C), and no review-exempt client list exists (B).",
+      "source_quote": "confirmation of the Dealer Member's expectations of supervisory staff, with respect to their supervisory roles and responsibilities",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 8109,
+      "rule_refs": [
+        "IDPC 3926(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0085",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "At Silver Birch Direct, branch Supervisor Marc Delisle is qualified to supervise equity trading but not the options activity his team has recently begun. The firm wants to keep Delisle in place. According to the Account Supervision Guidance, which arrangement is acceptable?",
+      "options": {
+        "A": "Delisle may continue to supervise the options activity as long as he reads the trade blotters carefully",
+        "B": "The firm must terminate all options business at the branch",
+        "C": "The options activity may simply go unsupervised because Delisle is unqualified",
+        "D": "Divide the supervision between two or more Supervisors, with appropriate mechanisms for them to communicate, a system maintaining an overall view of the client's situation and activity, and a clear and complete assignment of responsibilities"
+      },
+      "answer": "D",
+      "rationale": "The Account Supervision Guidance states that where a Supervisor is unqualified to supervise trading in certain products, the dealer may divide supervision between two or more Supervisors provided there are appropriate communication mechanisms, the system ensures an overall view of the client's situation and activity, and the assignment of responsibilities is clear and complete; a primary Supervisor advised by others is also possible. An unqualified Supervisor continuing alone violates 3905(5) (A), terminating the business is not required (B), and leaving activity unsupervised is never acceptable (C).",
+      "source_quote": "the system ensures the Dealer maintains an overall view of the client's situation and activity, and the assignment of responsibilities is clear and complete.",
+      "source_file": "research/sources/rules/gn-3900-20-001.txt",
+      "source_line": 137,
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.2",
+        "IDPC 3905(5)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0086",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Avoca Securities' branch Supervisor is dually-registered and personally advises a book of her own retail clients. She also conducts the first-tier review of all trading at her branch, including her own client trades. According to the Account Supervision Guidance, what should the dealer ensure?",
+      "options": {
+        "A": "Nothing further; first-tier review of one's own trades is standard practice",
+        "B": "That another Supervisor reviews that Supervisor's advice to and trades for clients",
+        "C": "That she resigns either her supervisory role or her client book within 30 days",
+        "D": "That her own trades are reviewed only at year-end by the external auditor"
+      },
+      "answer": "B",
+      "rationale": "The Account Supervision Guidance states that where a Supervisor is dually-registered and also advises or trades for their own clients, the dealer should ensure another Supervisor reviews that Supervisor's advice to and trades for clients. Self-review of one's own trades is exactly the conflict the guidance addresses (A), the guidance permits the dual role with independent review rather than forcing resignation (C), and review by the external auditor at year-end is not a supervisory review (D).",
+      "source_quote": "another Supervisor reviews that Supervisor's advice to and trades for clients",
+      "source_file": "research/sources/rules/gn-3900-20-001.txt",
+      "source_line": 149,
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0087",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Drumlin Capital shares its premises with an affiliated insurance agency. Its policies address client signage, but the firm has no system for communicating Corporation requirements to the employees and Approved Persons working at the shared location, and no process to confirm those requirements are understood. Which elements of subsection 3918(2) remain unmet?",
+      "options": {
+        "A": "A system for communicating Corporation requirements relating to employees and Approved Persons at the shared office premises, and a process providing reasonable assurance those requirements are understood and implemented",
+        "B": "Only the requirement to obtain client consent to the shared premises",
+        "C": "Only the requirement to register the premises with the local land registry",
+        "D": "None; signage policies alone fully discharge section 3918"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3918(2) requires adequate supervisory resources, a system for communicating Corporation requirements relating to employees and Approved Persons at the shared office premises, and a process providing reasonable assurance that those requirements are understood and implemented. Two of the three elements are missing here. Client consent (B) and land registration (C) are not section 3918 requirements, and signage addresses only the client-understanding objective in 3918(1), not the 3918(2) infrastructure (D).",
+      "source_quote": "a system for communicating Corporation requirements relating to employees and Approved Persons at the shared office premises, and",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 8068,
+      "rule_refs": [
+        "IDPC 3918(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0088",
+      "element": 2,
+      "outcome": "2.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An online application at Vanterra Direct discloses that the applicant is a director of a TSX-listed reporting issuer. The automated workflow approves the account with no human involvement. Measured against the Element 2 syllabus parameters on automation controls, what is the deficiency?",
+      "options": {
+        "A": "None; insider status is relevant only after the first trade is placed",
+        "B": "The application should have been rejected because insiders may not open accounts",
+        "C": "The applicant being an insider is a factor that may trigger a manual review, so the application should not have completed on a purely automated path",
+        "D": "The deficiency is that the application was taken online rather than in a branch"
+      },
+      "answer": "C",
+      "rationale": "The syllabus parameters for outcome 2.12 list 'applicant being an insider' among the factors that may trigger a manual review within an automated process. Insider status is an account-opening consideration, not merely post-trade (A); insiders may open accounts — the control is heightened review, not refusal, defeating B, the closest distractor; and the channel itself is permitted, so online intake is not the problem (D).",
+      "source_quote": "Applicant being an insider",
+      "source_file": "research/sources/syllabus-raw.txt",
+      "source_line": 595,
+      "rule_refs": [
+        "Syllabus 2.12"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0089",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Pemberley Wealth's Supervisors review and approve account openings as Corporation requirements demand, but the approvals are given orally in morning meetings and never captured anywhere. Applying subsection 3908(2), what must the dealer have?",
+      "options": {
+        "A": "A system in place to record the review and approval, conducted by any Supervisor, that is required under Corporation requirements",
+        "B": "A notarized affidavit from each Supervisor at year-end attesting to the year's approvals",
+        "C": "Video recordings of all morning meetings retained for ten years",
+        "D": "Nothing further, because oral approval by a designated Supervisor is itself the record"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3908(2) requires a dealer to have a system in place to record the review and approval conducted by any Supervisor that is required under Corporation requirements. Oral, uncaptured approvals leave no record (D). A year-end affidavit is not a contemporaneous recording system (B), and no video-retention requirement exists (C).",
+      "source_quote": "A Dealer Member must have a system in place to record the review and approval, conducted by any Supervisor that is required under Corporation requirements.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7967,
+      "rule_refs": [
+        "IDPC 3908(2)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0090",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Tonbridge Securities documents the compliance issues its Supervisors identify but keeps no record of how those issues were resolved, and retains no documentation of the on-site branch reviews it conducts. Applying subsection 3908(3), what must the firm's records of supervisory activity include?",
+      "options": {
+        "A": "Only the names and designation dates of its Supervisors",
+        "B": "Adequate records of supervisory activity, including on-site branch reviews, compliance issues identified and the resolution of such issues",
+        "C": "Only records of issues that resulted in client compensation",
+        "D": "Only records requested in writing by the Corporation in advance"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3908(3) requires a dealer to maintain adequate records of supervisory activity, including on-site branch reviews, compliance issues identified and the resolution of such issues — both missing elements here. Names and designation dates are the separate 3908(1) register (A), the obligation is not limited to issues producing compensation (C), and records must be maintained proactively, not only on advance Corporation request (D).",
+      "source_quote": "A Dealer Member must maintain adequate records of supervisory activity, including on-site branch reviews, compliance issues identified and the resolution of such issues.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7969,
+      "rule_refs": [
+        "IDPC 3908(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0091",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A CIRO examiner asks Caldera Direct to demonstrate, from its records, the supervision actions the firm has taken over the past several years. The firm's record-keeping policy never contemplated supervision actions as a record category. Applying subsection 3804(2), which prescribed record category does this omission breach?",
+      "options": {
+        "A": "Records that permit determination of the dealer's capital position",
+        "B": "Records that provide securities pricing as required by securities laws",
+        "C": "Records that document compliance, training, and supervision actions taken by the Dealer Member",
+        "D": "Records that document the dealer's sales practices and compensation arrangements"
+      },
+      "answer": "C",
+      "rationale": "Clause 3804(2)(xv) requires records that document compliance, training, and supervision actions taken by the dealer — exactly the category never contemplated here. Capital-position records (A, clause (ii)), pricing records (B, clause (x)) and sales-practice/compensation records (D, clause (xvii)) are real categories in 3804(2) but are not the one engaged by the examiner's supervision-actions request.",
+      "source_quote": "document compliance, training, and supervision actions taken by the Dealer Member,",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 6761,
+      "rule_refs": [
+        "IDPC 3804(2)(xv)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0092",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "CIRO requests Wexford Capital's supervision records in a specified electronic format. The firm responds that it will provide paper printouts at its own convenience within six months. Applying subsection 3804(4), is this response adequate?",
+      "options": {
+        "A": "Yes; a dealer may choose any format and timeline for producing records",
+        "B": "No, because records may only ever be produced through legal counsel",
+        "C": "Yes, provided the printouts are certified by the firm's external auditor",
+        "D": "No; a dealer must make its records available to the Corporation on request, in the manner requested by the Corporation"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3804(4) requires a dealer to make its records available to the Corporation on request, in the manner requested by the Corporation — which includes the requested electronic format and responsiveness to the request, not the firm's own timeline. Format and timing are not the dealer's choice (A), auditor certification is not a substitute for compliant production (C), and no counsel-only production channel exists (B).",
+      "source_quote": "A Dealer Member must make its records available to the Corporation on request, in the manner requested by the Corporation.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 6778,
+      "rule_refs": [
+        "IDPC 3804(4)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0093",
+      "element": 2,
+      "outcome": "2.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Supervisor Elias Navarro at Larkspur Securities wants to delegate the pre-approval of a restricted Registered Representative's orders to that same RR's sales assistant, who reports to the RR. Setting aside the assistant's qualifications, what threshold restriction in section 3907 does this arrangement engage?",
+      "options": {
+        "A": "Any delegation of supervisory tasks must not be contrary to Corporation requirements, securities laws and applicable laws",
+        "B": "Delegations are permitted only to employees of CIRO",
+        "C": "Delegation requires the delegate to hold the Supervisor qualification themselves",
+        "D": "Delegation is prohibited whenever the delegated task occurs daily"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3907(2) provides that any delegation of supervisory tasks must not be contrary to Corporation requirements, securities laws and applicable laws — delegating supervision of a restricted RR's orders to a person subordinate to that RR conflicts with the supervisory purpose of the requirement. Delegates need not be CIRO employees (B), nor must they themselves be qualified Supervisors — qualification by registration, training or experience suffices under 3907(3) (C), and frequency of the task is not a prohibition criterion (D).",
+      "source_quote": "Any delegation of supervisory tasks must not be contrary to Corporation requirements, securities laws and applicable laws.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7952,
+      "rule_refs": [
+        "IDPC 3907(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0094",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E2-SET-03",
+      "scenario": "Thornbury Pacific Securities, a mid-sized Investment Dealer, is preparing for the annual audit of its fiscal year Form 1 filing by its panel auditor. During audit planning, four issues surface: (1) the firm's Executives have identified several operations with a high risk of loss where inexpensive preventive fixes are available, yet the firm has implemented no preventive controls there, relying entirely on after-the-fact detection; (2) a back-office manager has quietly directed staff to set aside certain securities-custody exception reports 'until after the audit'; (3) the firm's record of which Executive manages each significant area of risk was never updated after a reorganization, so two risk areas have no documented Executive responsible for them; and (4) after the fiscal year-end audit date but before the Form 1 filing date, a large trading loss materially reduced the firm's risk adjusted capital level. The firm's CFO asks the compliance department to assess the issues against the IDPC rules.",
+      "stem": "Issue (1) — high-loss-risk operations left without preventive controls despite inexpensive available fixes — is measured against which internal-control requirement in Part B of Rule 4200?",
+      "options": {
+        "A": "When necessary, a dealer must implement preventive controls based on the Executives' view of the risk of loss and the cost-benefit relationship of controlling that risk",
+        "B": "Preventive controls are optional in all circumstances because detective controls are always sufficient",
+        "C": "Preventive controls must be implemented for every process regardless of cost",
+        "D": "Preventive controls may be implemented only with CIRO's prior written approval"
+      },
+      "answer": "A",
+      "rationale": "Section 4223 requires a dealer, when necessary, to implement preventive controls based on the Executives' view of the risk of loss and the cost-benefit relationship of controlling that risk. Where loss risk is high and the fix is inexpensive, that cost-benefit analysis points to implementation, so relying solely on detection is deficient — defeating B, the closest distractor. The rule is risk- and cost-conditioned, not absolute (C), and no CIRO pre-approval is required (D).",
+      "source_quote": "a Dealer Member must implement preventive controls based on the Dealer Member's Executives' view of the risk of loss and the cost-benefit relationship of controlling that risk.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 9248,
+      "rule_refs": [
+        "IDPC 4223(1)",
+        "IDPC 4221(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0095",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E2-SET-03",
+      "scenario": "Thornbury Pacific Securities, a mid-sized Investment Dealer, is preparing for the annual audit of its fiscal year Form 1 filing by its panel auditor. During audit planning, four issues surface: (1) the firm's Executives have identified several operations with a high risk of loss where inexpensive preventive fixes are available, yet the firm has implemented no preventive controls there, relying entirely on after-the-fact detection; (2) a back-office manager has quietly directed staff to set aside certain securities-custody exception reports 'until after the audit'; (3) the firm's record of which Executive manages each significant area of risk was never updated after a reorganization, so two risk areas have no documented Executive responsible for them; and (4) after the fiscal year-end audit date but before the Form 1 filing date, a large trading loss materially reduced the firm's risk adjusted capital level. The firm's CFO asks the compliance department to assess the issues against the IDPC rules.",
+      "stem": "Issue (4) — the large trading loss occurring after the fiscal year-end audit date but before the Form 1 filing, materially reducing risk adjusted capital — engages which obligation of the firm's auditor under section 4192?",
+      "options": {
+        "A": "None; the auditor's responsibility ends at the fiscal year-end audit date",
+        "B": "The auditor must restate the prior year's Form 1 to absorb the loss",
+        "C": "The auditor must personally arrange replacement capital for the firm",
+        "D": "The auditor must report on any subsequent events, to the date of filing, which have had a material adverse effect on the dealer's risk adjusted capital level"
+      },
+      "answer": "D",
+      "rationale": "Subsection 4192(2) requires the dealer's auditor to report on any subsequent events, to date of filing, which have had material adverse effect on the dealer's risk adjusted capital level. The auditor's responsibility therefore extends past the fiscal year-end audit date through to filing — defeating A, the closest distractor. Restating the prior period is not the prescribed mechanism for a post-year-end event (B), and arranging capital is not an auditor function (C).",
+      "source_quote": "The Dealer Member's auditor must report on any subsequent events, to date of filing, which have had material adverse effect on the Dealer Member's risk adjusted capital level.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 9127,
+      "rule_refs": [
+        "IDPC 4192(2)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0096",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E2-SET-03",
+      "scenario": "Thornbury Pacific Securities, a mid-sized Investment Dealer, is preparing for the annual audit of its fiscal year Form 1 filing by its panel auditor. During audit planning, four issues surface: (1) the firm's Executives have identified several operations with a high risk of loss where inexpensive preventive fixes are available, yet the firm has implemented no preventive controls there, relying entirely on after-the-fact detection; (2) a back-office manager has quietly directed staff to set aside certain securities-custody exception reports 'until after the audit'; (3) the firm's record of which Executive manages each significant area of risk was never updated after a reorganization, so two risk areas have no documented Executive responsible for them; and (4) after the fiscal year-end audit date but before the Form 1 filing date, a large trading loss materially reduced the firm's risk adjusted capital level. The firm's CFO asks the compliance department to assess the issues against the IDPC rules.",
+      "stem": "Compliance recommends Thornbury Pacific document its internal controls more rigorously going forward. Applying section 4224, what written record must the firm maintain?",
+      "options": {
+        "A": "Only a one-page summary of controls, refreshed every decade",
+        "B": "Verbal briefings to staff, documented only if CIRO requests it",
+        "C": "A record kept solely by the external auditor in its working papers",
+        "D": "A detailed written record of its internal controls, including at a minimum the policies and procedures the Executives have approved to provide reasonable assurance of compliance with Corporation requirements relating to internal controls"
+      },
+      "answer": "D",
+      "rationale": "Section 4224 requires a dealer to maintain a detailed written record of its internal controls, including at a minimum the Executive-approved policies and procedures providing reasonable assurance of compliance with all Corporation requirements relating to internal controls. A thin decennial summary fails the 'detailed' standard (A), the obligation is the dealer's, not the auditor's — auditor working papers under 4191 are separate (C), and verbal briefings are not a written record (B).",
+      "source_quote": "A Dealer Member must maintain a detailed written record of its internal controls, including, at a minimum, the policies and procedures the Dealer Member's Executives have approved",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 9252,
+      "rule_refs": [
+        "IDPC 4224(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0097",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E2-SET-03",
+      "scenario": "Thornbury Pacific Securities, a mid-sized Investment Dealer, is preparing for the annual audit of its fiscal year Form 1 filing by its panel auditor. During audit planning, four issues surface: (1) the firm's Executives have identified several operations with a high risk of loss where inexpensive preventive fixes are available, yet the firm has implemented no preventive controls there, relying entirely on after-the-fact detection; (2) a back-office manager has quietly directed staff to set aside certain securities-custody exception reports 'until after the audit'; (3) the firm's record of which Executive manages each significant area of risk was never updated after a reorganization, so two risk areas have no documented Executive responsible for them; and (4) after the fiscal year-end audit date but before the Form 1 filing date, a large trading loss materially reduced the firm's risk adjusted capital level. The firm's CFO asks the compliance department to assess the issues against the IDPC rules.",
+      "stem": "While the two significant risk areas in issue (3) remain without a documented Executive responsible for them, which ongoing duty prescribed by section 3909 has no one performing it for those areas?",
+      "options": {
+        "A": "The duty to file each risk area's results with the Corporation weekly",
+        "B": "The duty to obtain client consent before changing Executive assignments",
+        "C": "The duty of each Executive to supervise and direct the dealer's activities, in accordance with the areas of its responsibility, to provide reasonable assurance of compliance",
+        "D": "The duty to liquidate business lines that lack an assigned Executive"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3909(1) requires each Executive to supervise and direct the activities of the dealer, and its employees and Approved Persons, in accordance with the areas of its responsibility, to provide reasonable assurance of compliance with Corporation requirements and securities laws. With no Executive documented as responsible for two risk areas, that supervision-and-direction duty has no owner for them. No weekly filing of risk-area results exists (A), client consent is irrelevant to internal assignments (B), and liquidation is not the prescribed remedy — assignment is (D).",
+      "source_quote": "Each Executive must supervise and direct the activities of the Dealer Member, and its employees and Approved Persons, in accordance with the areas of its responsibility, to provide reasonable assurance of compliance with Corporation requirements and securities laws.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 7975,
+      "rule_refs": [
+        "IDPC 3909(1)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0098",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E2-SET-04",
+      "scenario": "CIRO Enforcement Staff are investigating Renfrew Gate Securities over alleged discretionary trading by a former Registered Representative, Olivia Stamatis, who left the firm and the industry four years ago. Enforcement Staff send the firm a written request under Rule 8100 to produce supervisory review records for Stamatis's former client accounts and to make her former branch Supervisor, Victor Okoye, available to answer questions under oath. Okoye, who still works at the firm, tells colleagues he intends to 'say as little as possible'; a second Supervisor who is aware of the investigation quietly shreds his own handwritten review notes for the affected accounts. The next week, Enforcement Staff arrive unannounced at the branch during business hours and ask to image a workstation hard drive; the branch manager refuses entry, insisting on five business days' written notice. The firm's general counsel also questions whether CIRO can pursue Stamatis at all given her departure.",
+      "stem": "General counsel argues that because Stamatis left the industry four years ago, CIRO has no jurisdiction over her. Analyzed against Rule 8200, is this correct?",
+      "options": {
+        "A": "Yes; jurisdiction over an individual ends on their resignation date",
+        "B": "No; a Regulated Person remains subject to Rule 8200 for six years after ceasing to be a representative of a Dealer Member, and a proceeding may be commenced up to six years after the last event on which it is based",
+        "C": "Yes, unless Stamatis consents in writing to CIRO's jurisdiction",
+        "D": "No, because CIRO's jurisdiction over former registrants is perpetual"
+      },
+      "answer": "B",
+      "rationale": "Subsection 8206(1) keeps a Regulated Person subject to Rule 8200 for six years after ceasing to be, among other things, an employee or representative of a Dealer Member, and subsection 8206(2) allows the Corporation to commence a proceeding up to six years after the last event on which it is based. Four years out is within both windows. Jurisdiction does not end at resignation (A), consent is irrelevant (C), and jurisdiction is time-limited, not perpetual — defeating D, the closest distractor.",
+      "source_quote": "The Corporation may commence a proceeding under Rule 8200 against a Regulated Person up to six years after the date of the occurrence of the last event on which the proceeding is based.",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 18230,
+      "rule_refs": [
+        "IDPC 8206(1)",
+        "IDPC 8206(2)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0099",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E2-SET-04",
+      "scenario": "CIRO Enforcement Staff are investigating Renfrew Gate Securities over alleged discretionary trading by a former Registered Representative, Olivia Stamatis, who left the firm and the industry four years ago. Enforcement Staff send the firm a written request under Rule 8100 to produce supervisory review records for Stamatis's former client accounts and to make her former branch Supervisor, Victor Okoye, available to answer questions under oath. Okoye, who still works at the firm, tells colleagues he intends to 'say as little as possible'; a second Supervisor who is aware of the investigation quietly shreds his own handwritten review notes for the affected accounts. The next week, Enforcement Staff arrive unannounced at the branch during business hours and ask to image a workstation hard drive; the branch manager refuses entry, insisting on five business days' written notice. The firm's general counsel also questions whether CIRO can pursue Stamatis at all given her departure.",
+      "stem": "What obligation does Rule 8100 place on Renfrew Gate Securities itself with respect to Okoye's intended approach to the investigation?",
+      "options": {
+        "A": "None; cooperation is a personal choice for each employee",
+        "B": "The firm must instruct Okoye to answer only written questions",
+        "C": "A Regulated Person must require its employees to cooperate with Enforcement Staff conducting an investigation and to comply with a request made under section 8103",
+        "D": "The firm must suspend Okoye for the duration of the investigation"
+      },
+      "answer": "C",
+      "rationale": "Subsection 8104(3) requires a person to cooperate with Enforcement Staff and requires a Regulated Person to require its employees, partners, directors and officers to cooperate and to comply with section 8103 requests — so the firm must direct Okoye to cooperate, including attending and answering questions under clause 8103(1)(iv). Cooperation is not optional (A), the format of questioning is set by the request, not the firm (B), and suspension is not a prescribed obligation (D).",
+      "source_quote": "a Regulated Person must require its employees, partners, directors and officers to cooperate with Enforcement Staff conducting an investigation and to comply with a request made under section 8103",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 18040,
+      "rule_refs": [
+        "IDPC 8104(3)",
+        "IDPC 8103(1)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0100",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E2-SET-04",
+      "scenario": "CIRO Enforcement Staff are investigating Renfrew Gate Securities over alleged discretionary trading by a former Registered Representative, Olivia Stamatis, who left the firm and the industry four years ago. Enforcement Staff send the firm a written request under Rule 8100 to produce supervisory review records for Stamatis's former client accounts and to make her former branch Supervisor, Victor Okoye, available to answer questions under oath. Okoye, who still works at the firm, tells colleagues he intends to 'say as little as possible'; a second Supervisor who is aware of the investigation quietly shreds his own handwritten review notes for the affected accounts. The next week, Enforcement Staff arrive unannounced at the branch during business hours and ask to image a workstation hard drive; the branch manager refuses entry, insisting on five business days' written notice. The firm's general counsel also questions whether CIRO can pursue Stamatis at all given her departure.",
+      "stem": "How does Rule 8100 treat the second Supervisor's shredding of his handwritten review notes?",
+      "options": {
+        "A": "It is acceptable because handwritten notes are personal property, not firm records",
+        "B": "It violates the prohibition on a person aware of an investigation concealing or destroying any record that may be relevant to the investigation",
+        "C": "It is acceptable provided the firm's retention period for those notes has expired",
+        "D": "It is a problem only if Enforcement Staff had already named those notes in a written production request"
+      },
+      "answer": "B",
+      "rationale": "Subsection 8104(4) prohibits a person who is aware that Enforcement Staff are conducting an investigation from concealing or destroying any record, document or thing that contains information that may be relevant to the investigation, or asking another person to do so. The prohibition turns on awareness of the investigation, not on whether the specific records were named in a production request — defeating D, the closest distractor. Supervisory notes are records of supervisory activity, not personal property (A), and retention-period expiry does not authorize destroying records relevant to a known investigation (C).",
+      "source_quote": "must not conceal or destroy any record, document or thing that contains information that may be relevant to the investigation",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 18044,
+      "rule_refs": [
+        "IDPC 8104(4)"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0101",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E2-SET-04",
+      "scenario": "CIRO Enforcement Staff are investigating Renfrew Gate Securities over alleged discretionary trading by a former Registered Representative, Olivia Stamatis, who left the firm and the industry four years ago. Enforcement Staff send the firm a written request under Rule 8100 to produce supervisory review records for Stamatis's former client accounts and to make her former branch Supervisor, Victor Okoye, available to answer questions under oath. Okoye, who still works at the firm, tells colleagues he intends to 'say as little as possible'; a second Supervisor who is aware of the investigation quietly shreds his own handwritten review notes for the affected accounts. The next week, Enforcement Staff arrive unannounced at the branch during business hours and ask to image a workstation hard drive; the branch manager refuses entry, insisting on five business days' written notice. The firm's general counsel also questions whether CIRO can pursue Stamatis at all given her departure.",
+      "stem": "Analyze the branch manager's refusal of entry pending five business days' written notice against section 8103.",
+      "options": {
+        "A": "It is wrong; in connection with an investigation, Enforcement Staff may enter the business location of any Regulated Person during business hours with or without prior notice, with free access to records including computer hard-drive images",
+        "B": "It is correct; on-site entry always requires five business days' written notice",
+        "C": "It is correct for hard-drive imaging, which requires a court order in all cases",
+        "D": "It is wrong only if the investigation concerns the branch manager personally"
+      },
+      "answer": "A",
+      "rationale": "Subsection 8103(3) authorizes Enforcement Staff, in connection with an investigation, to enter the business location of any Regulated Person during business hours with or without prior notice, with free access to and the right to copy books and records of every description, including by taking an image of computer hard drives. No notice period is prescribed (B), the rule itself authorizes hard-drive imaging without requiring a court order (C), and the entry power does not depend on who the investigation targets (D).",
+      "source_quote": "may, with or without prior notice, enter the business location of any Regulated Person during business hours,",
+      "source_file": "research/sources/rules/idpc-rules.txt",
+      "source_line": 18017,
+      "rule_refs": [
+        "IDPC 8103(3)"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0102",
+      "element": 2,
+      "outcome": "2.10",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E2-SET-05",
+      "scenario": "Stellarton Online Investing, an order execution only division of an Investment Dealer, automates large parts of its supervision. Its account-opening workflow auto-approves routine applications, and software flags trading activity against risk criteria for human review. Supervisor Priya Raghunathan has delegated the first screening of the flagged-activity queue to a qualified senior analyst, Dario Mancuso. A consultant's review finds: Mancuso has no instruction on what to do when he encounters a serious red flag, so he has been quietly clearing items he is unsure about; Raghunathan's delegation policy says she will 're-examine the arrangement if problems come up' but identifies no specific circumstances that would prompt her to step back in; and last month the automated account-opening workflow approved, without any human involvement, an application in which the applicant granted trading authorization over the account to her brother.",
+      "stem": "Mancuso's practice of quietly clearing items he is unsure about exposes the absence of which documented control for delegation listed in the Element 2 syllabus parameters?",
+      "options": {
+        "A": "A requirement that the delegate be paid a supervisory differential",
+        "B": "A prohibition on delegating any review touching client accounts",
+        "C": "A requirement that the delegate hold an Executive designation",
+        "D": "Processes for escalating any significant issues to the delegator"
+      },
+      "answer": "D",
+      "rationale": "The syllabus parameters for outcome 2.10 require, among the documented controls for delegation, processes for escalating any significant issues to the delegator — exactly what Mancuso lacked when serious red flags surfaced, leading him to clear them instead. No pay differential is prescribed (A), reviews touching client accounts are delegable subject to controls (B), and delegates need qualification by registration, training or experience, not an Executive designation (C).",
+      "source_quote": "Processes for escalating any significant issues to the delegator",
+      "source_file": "research/sources/syllabus-raw.txt",
+      "source_line": 630,
+      "rule_refs": [
+        "Syllabus 2.10",
+        "IDPC 3907(4)(iii)"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0103",
+      "element": 2,
+      "outcome": "2.10",
+      "taxonomy": "Apply",
+      "type": "item_set",
+      "item_set_id": "E2-SET-05",
+      "scenario": "Stellarton Online Investing, an order execution only division of an Investment Dealer, automates large parts of its supervision. Its account-opening workflow auto-approves routine applications, and software flags trading activity against risk criteria for human review. Supervisor Priya Raghunathan has delegated the first screening of the flagged-activity queue to a qualified senior analyst, Dario Mancuso. A consultant's review finds: Mancuso has no instruction on what to do when he encounters a serious red flag, so he has been quietly clearing items he is unsure about; Raghunathan's delegation policy says she will 're-examine the arrangement if problems come up' but identifies no specific circumstances that would prompt her to step back in; and last month the automated account-opening workflow approved, without any human involvement, an application in which the applicant granted trading authorization over the account to her brother.",
+      "stem": "Raghunathan's 're-examine if problems come up' policy falls short of which documented control for delegation in the Element 2 syllabus parameters?",
+      "options": {
+        "A": "A requirement that all delegations expire after 90 days",
+        "B": "A list of factors that trigger a review by the delegator",
+        "C": "A requirement that CIRO pre-approve each individual delegation",
+        "D": "A prohibition on delegating to anyone outside the compliance department"
+      },
+      "answer": "B",
+      "rationale": "The syllabus parameters for outcome 2.10 require a list of factors that trigger a review by the delegator; a vague 'if problems come up' standard identifies no such factors. No 90-day expiry exists (A), CIRO does not pre-approve individual delegations (C), and delegates may be qualified persons outside compliance (D).",
+      "source_quote": "A list of factors that trigger a review by the delegator",
+      "source_file": "research/sources/syllabus-raw.txt",
+      "source_line": 631,
+      "rule_refs": [
+        "Syllabus 2.10"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0104",
+      "element": 2,
+      "outcome": "2.11",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E2-SET-05",
+      "scenario": "Stellarton Online Investing, an order execution only division of an Investment Dealer, automates large parts of its supervision. Its account-opening workflow auto-approves routine applications, and software flags trading activity against risk criteria for human review. Supervisor Priya Raghunathan has delegated the first screening of the flagged-activity queue to a qualified senior analyst, Dario Mancuso. A consultant's review finds: Mancuso has no instruction on what to do when he encounters a serious red flag, so he has been quietly clearing items he is unsure about; Raghunathan's delegation policy says she will 're-examine the arrangement if problems come up' but identifies no specific circumstances that would prompt her to step back in; and last month the automated account-opening workflow approved, without any human involvement, an application in which the applicant granted trading authorization over the account to her brother.",
+      "stem": "The consultant asks whether Stellarton's use of software to flag specific trading activity for human review is itself a permissible supervision design. What does the Account Supervision Guidance say?",
+      "options": {
+        "A": "No; review items must be selected manually by a Supervisor in all cases",
+        "B": "No; technology may be used only to archive completed reviews",
+        "C": "Yes; the Guidance states dealers can use technology to select specific activity for review",
+        "D": "Yes, but only if every flagged item is also re-selected manually"
+      },
+      "answer": "C",
+      "rationale": "The Account Supervision Guidance expressly states that dealers can use technology to select specific activity for review, within a risk-based approach where the reviewer has all relevant information needed to assess risk. Manual selection is not mandated (A), technology's role is not limited to archiving (B), and no parallel manual re-selection is required (D).",
+      "source_quote": "Dealers can use technology to select specific activity for review.",
+      "source_file": "research/sources/rules/gn-3900-20-001.txt",
+      "source_line": 212,
+      "rule_refs": [
+        "GN-3900-20-001 s.1.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    },
+    {
+      "id": "SUP-E2-0105",
+      "element": 2,
+      "outcome": "2.12",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E2-SET-05",
+      "scenario": "Stellarton Online Investing, an order execution only division of an Investment Dealer, automates large parts of its supervision. Its account-opening workflow auto-approves routine applications, and software flags trading activity against risk criteria for human review. Supervisor Priya Raghunathan has delegated the first screening of the flagged-activity queue to a qualified senior analyst, Dario Mancuso. A consultant's review finds: Mancuso has no instruction on what to do when he encounters a serious red flag, so he has been quietly clearing items he is unsure about; Raghunathan's delegation policy says she will 're-examine the arrangement if problems come up' but identifies no specific circumstances that would prompt her to step back in; and last month the automated account-opening workflow approved, without any human involvement, an application in which the applicant granted trading authorization over the account to her brother.",
+      "stem": "According to the Element 2 syllabus parameters on automation controls, how should Stellarton's automated workflow have treated the application granting trading authorization to the applicant's brother?",
+      "options": {
+        "A": "Approved it automatically, because trading authorizations carry no supervisory significance",
+        "B": "Routed it for manual review, because a trading authorization being used is a factor that may trigger a manual review",
+        "C": "Rejected it outright, because trading authorizations are prohibited on automated platforms",
+        "D": "Approved it automatically, provided the brother is over the age of majority"
+      },
+      "answer": "B",
+      "rationale": "The syllabus parameters for outcome 2.12 list 'trading authorization being used' among the factors that may trigger a manual review of an application processed through automation. The presence of an authorization is supervisory-relevant (A), but it does not make the account prohibited — it changes the review path, not the outcome (C). The authorized person's age does not remove the trigger (D).",
+      "source_quote": "Trading authorization being used",
+      "source_file": "research/sources/syllabus-raw.txt",
+      "source_line": 576,
+      "rule_refs": [
+        "Syllabus 2.12"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed"
+    }
+  ]
+}

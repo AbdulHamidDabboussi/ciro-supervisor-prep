@@ -1,0 +1,1256 @@
+{
+ "meta": {
+  "batch": "E6-003",
+  "drafted": 50,
+  "date": "2026-06-05",
+  "corpus": [
+   "idpc-rules.txt (research/sources/rules/)",
+   "gn-3900-20-001.txt (research/sources/rules/)",
+   "syllabus-raw.txt (research/sources/, Element 6 section)"
+  ],
+  "novelty": "Third Element 6 wave: SUP-E6-0105 through SUP-E6-0154 (38 standard + item sets E6-SET-05/06/07 x4). Tested-angle inventory built from seeds + E6-batch-001/002 + all 103 reviewed E6 bank items; keyed-fact index built bank-WIDE (920 reviewed items) plus ALL batch drafts including same-wave E4-batch-003 and E5-batch-003. 19 items rewritten pre-emission after collision scans: 5 hard keyed-fact collisions with same-wave E5-003 drafts (3962(2), 3947(2), 3971(2)(i), 3972(1)(ii)) and 1 with reviewed bank item SUP-E5-0059 (GN divide-supervision); 13 same-fact collisions with same-wave E4-003 drafts (3215(1)/(3)/(4), 3213(2)(ii), 3403(2)(ii) pattern-of-acceptance, 3216(5)(i)/(3)(iii)/(5)(ii)(b)(I)/(5)(ii)(l), 3217(3), 3241(18), 3254(1)(iii), 3276(2)/(3)) plus 1 intra-draft 3970(4) collision with reviewed SUP-E6-0067 caught and rewritten before the scans. Final scans: stem Jaccard >0.5 = 0 hits; keyed-option Jaccard >=0.65 + shared rule family = 0 hits; intra-batch key Jaccard >=0.6 = 0 hits. Two advisory pairs (J 0.55-0.60, different rule families) retained as designed subsection distinctions for Gate-3 adjudication: SUP-E6-0114 (IDPC 3206(4) identity-failure restriction) vs SUP-E7-0019 (IDPC 3214(5) unapproved-account restriction) — twin restriction wording in the rules themselves; SUP-E6-0127 (IDPC 3951(1) institutional suitability supervision) vs SUP-E6-0066 (IDPC 3948(1) retail twin) — deliberate retail/institutional discrimination, stem contrasts the two. SUP-E6-0112 keys the retail-side clause 2553(3)(ii)(a) as the designed inverse of reviewed institutional-side items (0007/0055). All invented firm/person names grepped bank-wide + all batches; two collisions mutated (Lindgren -> Holmberg after same-wave E4-003 use; Meridia -> Veldora vs bank-wide 'Meridian'). Honest exclusions (locatable but same-fact-saturated, not drafted): 3217(2) six-month relief (=SUP-E6-0089), 3254(1)(ii) acknowledgement (inside SUP-E6-0038 composite), 3256(1)(iii) (inside SUP-E6-0091 composite), 3970(2) continue-authorization (inside E4-0092 composite), GN s.2.2.1 remaining dollar criteria (list mined by E5-0068/E5-0121/E9-0062), 3962(4)(iii) business-policy changes (composite keyed at SUP-E6-0051/E5-0048, sibling (iv) taken by same-wave E5-0140), 2602(2) dealer-side proficiency duty (near-identical key to SUP-E6-0035).",
+  "qa": "Status draft; pending Gate 1 blind solve, Gate 2 citation audit, Gate 3 full-bank lint per PIPELINE.md."
+ },
+ "questions": [
+  {
+   "id": "SUP-E6-0105",
+   "element": 6,
+   "outcome": "6.1",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Thornquist Securities is registered as both an investment dealer and a mutual fund dealer. It hires Maja Holmberg, who is registered as a Mutual Fund Dealer - Dealing Representative, to act as a Registered Representative dealing in mutual funds only. The Supervisor asks whether a separate CIRO approval step must be completed before Maja begins. What is correct?",
+   "options": {
+    "A": "Maja must write the Supervisor Exam before she may deal in mutual funds at the firm",
+    "B": "No approval of any kind applies to individuals who deal only in mutual funds",
+    "C": "Maja may begin immediately and seek Corporation approval within 90 days of her start date",
+    "D": "Approval is automatic upon her registration as a Mutual Fund Dealer - Dealing Representative, because she is an employee of a firm registered as both an investment dealer and a mutual fund dealer"
+   },
+   "answer": "D",
+   "rationale": "Clause 2551(1)(iii) requires Corporation approval before an individual begins working in an Approved Person role, but states that for a Registered Representative dealing in mutual funds only who is an employee of a firm registered as both an investment dealer and a mutual fund dealer, approval is automatic upon registration as a Mutual Fund Dealer - Dealing Representative. Option C is the closest distractor — there is no 90-day grace period for approval; the 90-day timeline in 2604(1)(i) concerns post-approval training, not approval itself. A invents an exam requirement for this category; B wrongly removes mutual-fund-only individuals from the approval regime altogether.",
+   "rule_refs": [
+    "IDPC 2551(1)(iii)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"such approval will be automatic upon the individual's registration as a Mutual Fund Dealer - Dealing Representative.\" — idpc-rules.txt ~line 2917"
+  },
+  {
+   "id": "SUP-E6-0106",
+   "element": 6,
+   "outcome": "6.1",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Registered Representative Tomas Eklund of Belmare Wealth properly informed the firm of a paid outside activity coaching a hockey team, and the firm gave its prior approval. Its policies and procedures address continuous service to clients and potential conflicts of interest. The Supervisor closes the file without any external filing. Which required step under section 2554 remains outstanding?",
+   "options": {
+    "A": "Obtaining the client's written consent to the outside activity",
+    "B": "Notifying the Corporation of the outside activity within the time period and manner required by National Instrument 33-109",
+    "C": "Having the Approved Person resign from the outside activity within 30 days",
+    "D": "Filing a monthly report on the outside activity under Rule 8200"
+   },
+   "answer": "B",
+   "rationale": "Clause 2554(2)(iv) requires that the Dealer Member notify the Corporation of the outside activity within the time period and manner required by National Instrument 33-109 — a firm-level filing obligation that survives even when the inform/approve/policies conditions are all met. Option A is the closest distractor: section 2554 imposes no client-consent condition. C contradicts the rule, which permits the Approved Person to have and continue in a compliant outside activity; D confuses this with the 2552(4) report on conditions imposed under Rule 8200 or 9200.",
+   "rule_refs": [
+    "IDPC 2554(2)(iv)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the Dealer Member notifies the Corporation of the outside activity within the time period and manner required by National Instrument 33-109.\" — idpc-rules.txt ~line 3048"
+  },
+  {
+   "id": "SUP-E6-0107",
+   "element": 6,
+   "outcome": "6.1",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A Supervisor at Caldwynne Capital reviews the Rule 1201 definitions to confirm what activity Portfolio Manager approval itself authorizes Priya Chowdhury to perform. According to the definition, a Portfolio Manager is an individual designated by the Dealer Member and approved by the Corporation to do what?",
+   "options": {
+    "A": "Provide discretionary portfolio management for managed accounts",
+    "B": "Trade in, but not advise on, securities or derivatives on the Dealer Member's behalf",
+    "C": "Supervise the activities of all Approved Persons at the Dealer Member",
+    "D": "Provide discretionary portfolio management only under the supervision of another Portfolio Manager"
+   },
+   "answer": "A",
+   "rationale": "Rule 1201 defines a Portfolio Manager as an individual designated by the Dealer Member and approved by the Corporation to provide discretionary portfolio management for managed accounts. Option D is the closest distractor — it states the Associate Portfolio Manager definition, which adds 'under the supervision of a Portfolio Manager'; a Portfolio Manager has no such condition. B is the Investment Representative definition; C describes a Supervisor, not a Portfolio Manager.",
+   "rule_refs": [
+    "IDPC 1201 (Portfolio Manager)",
+    "IDPC 1201 (Associate Portfolio Manager)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"An individual designated by the Dealer Member and approved by the Corporation to provide discretionary portfolio management for managed accounts.\" — idpc-rules.txt ~line 699"
+  },
+  {
+   "id": "SUP-E6-0108",
+   "element": 6,
+   "outcome": "6.1",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Lars Bergstrom is approved as a Registered Representative dealing in mutual funds only under subsection 2605(3) and acts as an agent of Drisdale Securities in compliance with Rule 2300. He asks that his commissions be paid to his personal holding corporation, which is not registered under securities laws. Under subsection 2551(8), how should the Supervisor respond?",
+   "options": {
+    "A": "It is always prohibited for a Dealer Member to pay remuneration to an unregistered corporation",
+    "B": "It is permitted without conditions, because the corporation belongs to the Approved Person",
+    "C": "It can be permitted: remuneration in respect of his business may be paid by the Dealer Member to a corporation that is not registered under securities laws, provided the prescribed conditions are met, including a written agreement in the form prescribed by the Corporation",
+    "D": "It is permitted only if the corporation registers with the Corporation within 90 days"
+   },
+   "answer": "C",
+   "rationale": "Subsection 2551(8) provides that, for an individual approved as a Registered Representative dealing in mutual funds only under subsection 2605(3) who acts as an agent of a Dealer Member under Rule 2300, remuneration in respect of business conducted on the dealer's behalf may be paid to a corporation that is not registered under securities laws, provided conditions are met — including that the arrangement is not prohibited by securities laws, the corporation is incorporated in Canada, and the individual, dealer and corporation enter a written agreement in a form prescribed by the Corporation. Option A is the closest distractor — it states the general 2551(7) prohibition while missing this express exception; B drops the conditions; D substitutes corporate registration for the prescribed-agreement mechanism.",
+   "rule_refs": [
+    "IDPC 2551(8)",
+    "IDPC 2551(7)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"any remuneration, gratuity, benefit or other consideration in respect of business conducted by the individual on behalf of the Dealer Member may be paid by the Dealer Member to a corporation that is not registered under securities laws\" — idpc-rules.txt ~line 2943"
+  },
+  {
+   "id": "SUP-E6-0109",
+   "element": 6,
+   "outcome": "6.1",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-05",
+   "scenario": "Roxana Dragomir is the newly appointed branch Supervisor at Nakamura-Pryce Investments, an Investment Dealer. During her first compliance sweep she opens four files: (1) the firm has been allowing Olaf Sundqvist, an independent consultant who is not a director, partner, officer or employee of the firm, to act as an Approved Person on its behalf; (2) the firm has not yet told the Corporation whether a newly hired Registered Representative will deal in only mutual funds and government-guaranteed instruments, in derivatives, or in general securities business; (3) the Corporation imposed conditions on one Approved Person under Rule 8200 two months ago, and no report on those conditions has been filed; and (4) Ines Quintana, a Registered Representative whom the Corporation approved to deal with retail clients, has been taking orders from and giving advice to a municipal pension board that qualifies as an institutional client, and a colleague insists she is offside her approval.",
+   "stem": "File (1): the consultant arrangement with Olaf Sundqvist. Which provision does this arrangement breach?",
+   "options": {
+    "A": "Subsection 2551(2) — only a Dealer Member's director, partner, officer or employee can be an Approved Person",
+    "B": "Subsection 2551(5) — Approved Persons must use accurate titles when dealing with the public",
+    "C": "Subsection 2551(6) — a former Approved Person must immediately cease activity requiring approval",
+    "D": "Subsection 2551(7) — an Approved Person must not accept remuneration from persons other than the Dealer Member"
+   },
+   "answer": "A",
+   "rationale": "Subsection 2551(2) states that only a Dealer Member's director, partner, officer or employee can be an Approved Person; an outside consultant with none of those relationships cannot act in the role. Option D is the closest distractor because consultants are paid externally, but the defect here is the missing employment/office relationship, not the source of remuneration. B concerns titles and C concerns ceased approvals — neither fits an active outsider.",
+   "rule_refs": [
+    "IDPC 2551(2)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"Only a Dealer Member's director, partner, officer or employee can be an Approved Person.\" — idpc-rules.txt ~line 2919"
+  },
+  {
+   "id": "SUP-E6-0110",
+   "element": 6,
+   "outcome": "6.1",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-05",
+   "scenario": "Roxana Dragomir is the newly appointed branch Supervisor at Nakamura-Pryce Investments, an Investment Dealer. During her first compliance sweep she opens four files: (1) the firm has been allowing Olaf Sundqvist, an independent consultant who is not a director, partner, officer or employee of the firm, to act as an Approved Person on its behalf; (2) the firm has not yet told the Corporation whether a newly hired Registered Representative will deal in only mutual funds and government-guaranteed instruments, in derivatives, or in general securities business; (3) the Corporation imposed conditions on one Approved Person under Rule 8200 two months ago, and no report on those conditions has been filed; and (4) Ines Quintana, a Registered Representative whom the Corporation approved to deal with retail clients, has been taking orders from and giving advice to a municipal pension board that qualifies as an institutional client, and a colleague insists she is offside her approval.",
+   "stem": "File (2): the missing notification about the new Registered Representative's type of business. Under clause 2553(3)(iv), into which categories must the Dealer Member's notification to the Corporation classify the individual's dealing or advising?",
+   "options": {
+    "A": "Retail clients, institutional clients, or both",
+    "B": "Exchange-traded products, over-the-counter products, or both",
+    "C": "Equities only, fixed income only, or balanced business",
+    "D": "Only mutual funds and specified government-guaranteed and deposit instruments; derivatives subject to the subsection 2625(3) limitations; or general securities business"
+   },
+   "answer": "D",
+   "rationale": "Clause 2553(3)(iv) requires the Dealer Member to notify the Corporation which approved individuals will deal in or advise in: (a) only mutual funds, government or government-guaranteed debt instruments and specified deposit instruments, (b) derivatives subject to the limitations set out in subsection 2625(3), and (c) general securities business. Option A is the closest distractor — the retail/institutional client-type approval is the separate requirement in clause 2553(3)(i), not the type-of-business notification in (iv). B and C invent classifications not in the rule.",
+   "rule_refs": [
+    "IDPC 2553(3)(iv)",
+    "IDPC 2553(3)(i)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"derivatives subject to the limitations set out in subsection 2625(3),\" — idpc-rules.txt ~line 3017"
+  },
+  {
+   "id": "SUP-E6-0111",
+   "element": 6,
+   "outcome": "6.1",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-05",
+   "scenario": "Roxana Dragomir is the newly appointed branch Supervisor at Nakamura-Pryce Investments, an Investment Dealer. During her first compliance sweep she opens four files: (1) the firm has been allowing Olaf Sundqvist, an independent consultant who is not a director, partner, officer or employee of the firm, to act as an Approved Person on its behalf; (2) the firm has not yet told the Corporation whether a newly hired Registered Representative will deal in only mutual funds and government-guaranteed instruments, in derivatives, or in general securities business; (3) the Corporation imposed conditions on one Approved Person under Rule 8200 two months ago, and no report on those conditions has been filed; and (4) Ines Quintana, a Registered Representative whom the Corporation approved to deal with retail clients, has been taking orders from and giving advice to a municipal pension board that qualifies as an institutional client, and a colleague insists she is offside her approval.",
+   "stem": "File (3): the unfiled report on the Rule 8200 conditions. What does subsection 2552(4) require, and what follows under subsection 2552(5) from filing late?",
+   "options": {
+    "A": "An annual report on all conditions; late filing triggers automatic suspension of the Approved Person",
+    "B": "A report within 30 days of the conditions being imposed; late filing requires Board notification",
+    "C": "No report is required unless the Corporation specifically requests one in writing",
+    "D": "A report specified by the Corporation within 10 business days of the end of each month; if the report is not filed or is filed late, the firm must pay the applicable late filing fee"
+   },
+   "answer": "D",
+   "rationale": "Subsection 2552(4) requires a Dealer Member to file a report specified by the Corporation on conditions imposed on an Approved Person under Rule 8200 or Rule 9200 within 10 business days of the end of each month, and subsection 2552(5) imposes the applicable late filing fee if the report is not filed or is filed late. Option A is the closest distractor — automatic suspension under 2552(2) attaches to incomplete post-approval proficiency, not to late condition reports. B substitutes an invented 30-day deadline; C contradicts the standing monthly obligation.",
+   "rule_refs": [
+    "IDPC 2552(4)",
+    "IDPC 2552(5)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must file a report specified by the Corporation on the conditions imposed on an Approved Person under Rule 8200 or Rule 9200 within 10 business days of the end of each month.\" — idpc-rules.txt ~line 2984",
+   "qa_note_quote": "Gate-1 medium-pass: quote re-anchored to 2552(4) so the solver-doubted cadence is in-quote; late-fee half remains cited via IDPC 2552(5)."
+  },
+  {
+   "id": "SUP-E6-0112",
+   "element": 6,
+   "outcome": "6.1",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-05",
+   "scenario": "Roxana Dragomir is the newly appointed branch Supervisor at Nakamura-Pryce Investments, an Investment Dealer. During her first compliance sweep she opens four files: (1) the firm has been allowing Olaf Sundqvist, an independent consultant who is not a director, partner, officer or employee of the firm, to act as an Approved Person on its behalf; (2) the firm has not yet told the Corporation whether a newly hired Registered Representative will deal in only mutual funds and government-guaranteed instruments, in derivatives, or in general securities business; (3) the Corporation imposed conditions on one Approved Person under Rule 8200 two months ago, and no report on those conditions has been filed; and (4) Ines Quintana, a Registered Representative whom the Corporation approved to deal with retail clients, has been taking orders from and giving advice to a municipal pension board that qualifies as an institutional client, and a colleague insists she is offside her approval.",
+   "stem": "File (4): Ines Quintana — approved to deal with retail clients — serving the institutional pension board. Is the colleague right that she is acting outside her approval?",
+   "options": {
+    "A": "Yes — a Registered Representative dealing with retail clients may serve retail clients only",
+    "B": "Yes, unless the pension board signs a waiver of suitability protections",
+    "C": "No — under clause 2553(3)(ii), a Registered Representative dealing with retail clients may take orders from, or give advice to, all types of clients",
+    "D": "No, but only because pension boards are deemed retail clients under Rule 1201"
+   },
+   "answer": "C",
+   "rationale": "Sub-clause 2553(3)(ii)(a) provides that a Registered Representative dealing with retail clients may take orders from, or give advice to, all types of clients; it is the institutional-side approval in sub-clause (b) that is limited to institutional clients only. Option A is the closest distractor — it imports the institutional-side restriction in mirror image onto the retail-side approval; B confuses client-type approval with the separate 3404(3) suitability-waiver mechanism; D is wrong because the pension board's institutional status under Rule 1201 is irrelevant to her permission, which already extends to all client types.",
+   "rule_refs": [
+    "IDPC 2553(3)(ii)(a)",
+    "IDPC 2553(3)(ii)(b)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"retail clients, may take orders from, or give advice to, all types of clients, or\" — idpc-rules.txt ~line 3005"
+  },
+  {
+   "id": "SUP-E6-0113",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Roussel Capital receives an account application from Veldora Interbank Ltd., a bank incorporated offshore that has no physical presence in any country and is not affiliated with any depository institution. The Supervisor reviewing the new-account file must conclude that:",
+   "options": {
+    "A": "The account may be opened if enhanced identity verification is completed within 30 days",
+    "B": "The account may be opened, but must be designated as a non-client account",
+    "C": "The account must not be opened or maintained, because the applicant is a shell bank",
+    "D": "The account may be opened if the bank's home regulator confirms its registration in writing"
+   },
+   "answer": "C",
+   "rationale": "Section 3205 prohibits a Dealer Member from opening or maintaining an account for a shell bank, defined as a bank that does not have a physical presence in any country. The subsection 3205(2) relief applies only to an affiliate of a bank, loan or trust company, credit union, or other depository institution with a physical presence — which this applicant lacks. Option A is the closest distractor, borrowing the 30-day identity timeline in 3206(3), which cannot cure an outright prohibition; B misapplies the non-client designation for other dealers' employees; D invents a regulator-letter cure.",
+   "rule_refs": [
+    "IDPC 3205(1)",
+    "IDPC 3205(2)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must not open or maintain an account for a shell bank, which is defined as a bank that does not have a physical presence in any country.\" — idpc-rules.txt ~line 4478"
+  },
+  {
+   "id": "SUP-E6-0114",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Everline Wealth is told by a prospective corporate client that listing who beneficially owns 25% or more of its voting securities 'will take a couple of months.' The account has been open for 32 days and the identities still have not been established under section 3206. What does subsection 3206(4) require the Supervisor to ensure now?",
+   "options": {
+    "A": "Close the account and return all assets to the client immediately",
+    "B": "Restrict the account solely to liquidating trades, transfers, paying out funds or delivering securities until the identities are established",
+    "C": "Suspend trading for 10 business days, after which normal trading may resume",
+    "D": "Escalate to the Chief Compliance Officer, who may grant a 60-day extension"
+   },
+   "answer": "B",
+   "rationale": "Under subsection 3206(4), if the identity of an individual referred to in subsection 3206(1) cannot be established within 30 days of opening an account, the Dealer Member must restrict the account solely to liquidating trades, transfers, paying out funds or delivering securities, and the restrictions must remain until identity is established. Option A is the closest distractor — the rule mandates restriction, not closure. C invents a time-limited suspension that lapses automatically; D invents a CCO extension power that the rule does not contain.",
+   "rule_refs": [
+    "IDPC 3206(4)",
+    "IDPC 3206(3)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the Dealer Member must restrict the account solely to liquidating trades, transfers, paying out funds or delivering securities.\" — idpc-rules.txt ~line 4497"
+  },
+  {
+   "id": "SUP-E6-0115",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Foxhollow Capital is opening an initial account for a federally regulated pension fund. The new-accounts clerk starts assembling the trust-style identification package required by sections 3203 and 3206 — trustee names and addresses, identification of controlling individuals. The Supervisor should advise that:",
+   "options": {
+    "A": "The full package is required, since every trust account must satisfy section 3203",
+    "B": "Only the trustee names are required; controlling-individual identification can be skipped",
+    "C": "Sections 3203, 3204 and 3206 do not apply, because a pension fund regulated by or under an Act of Parliament or the legislature of a province is an identification exception under section 3207",
+    "D": "The package may be deferred for 90 days for regulated pension funds"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3207(1) lists the entities to which sections 3203, 3204 and 3206 do not apply, including, in clause (vi), a pension fund that is regulated by or under an Act of Parliament or the legislature of a province. Option A is the closest distractor — it states the general trust rule while missing the exception; B invents a partial exemption the rule does not draw; D substitutes deferral for exemption.",
+   "rule_refs": [
+    "IDPC 3207(1)",
+    "IDPC 3203(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"a pension fund that is regulated by or under an Act of Parliament or the legislature of a province,\" — idpc-rules.txt ~line 4510"
+  },
+  {
+   "id": "SUP-E6-0116",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Greymont Securities' order execution only division receives an account application from Calder Trading House, a non-individual that is registered as a dealer under securities laws and trades on a Marketplace for which the Corporation is the regulation services provider. Under subsections 3241(1) and 3241(2), what should the Supervisor conclude?",
+   "options": {
+    "A": "The account may be opened, since OEO services are available to any applicant who acknowledges the OEO disclosures",
+    "B": "The account must be refused: an OEO provider must not provide order execution only account services to such a person — unless the person is exempted from registration as a dealer under section 8.4 of National Instrument 31-103",
+    "C": "The account may be opened only if Calder posts additional margin",
+    "D": "The account must be refused because no non-individual may ever hold an OEO account"
+   },
+   "answer": "B",
+   "rationale": "Clause 3241(1)(iii) prohibits providing order execution only account services to any person that is not an individual and is acting as and registered or exempted from registration as a dealer in accordance with securities laws, and trades on a Marketplace for which the Corporation is the regulation services provider. Subsection 3241(2) then permits the service despite that clause where the person is exempted from registration as a dealer under section 8.4 of National Instrument 31-103. Option D is the closest distractor — the prohibition targets dealer-status non-individuals trading on CIRO-regulated marketplaces, not all non-individuals; A ignores the prohibition; C substitutes margin for an eligibility rule.",
+   "rule_refs": [
+    "IDPC 3241(1)(iii)",
+    "IDPC 3241(2)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"a Dealer Member may provide an order execution only account service to a person that is exempted from registration as a dealer under section 8.4 of National Instrument 31-103.\" — idpc-rules.txt ~line 4995"
+  },
+  {
+   "id": "SUP-E6-0117",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Hollowell Futures is opening an initial account for Brightwater Holdings LP, a limited partnership. The new-accounts clerk has the partnership agreement signature page but has done nothing to confirm what the partnership actually is or does. Beyond identifying controlling individuals, what does clause 3203(1)(ii) require the dealer to do when opening the initial account?",
+   "options": {
+    "A": "Establish the existence of the partnership or trust and the nature of its business",
+    "B": "Obtain audited financial statements for the partnership's two most recent fiscal years",
+    "C": "Obtain the names and addresses of all limited partners regardless of their stake",
+    "D": "Register the partnership with the Corporation as an institutional client"
+   },
+   "answer": "A",
+   "rationale": "Clause 3203(1)(ii) requires a Dealer Member, when opening an initial account for a partnership or trust, to establish the existence of the partnership or trust and the nature of its business; clauses (i), (iii) and (iv) add the trust-specific naming, controlling-individual identification and insider-determination steps. Option C is the closest distractor — the names-and-addresses requirement in clause 3203(1)(i) applies to trustees, known beneficiaries and settlors of a trust, not to every limited partner of a partnership; B invents an audited-statements condition; D confuses identification with institutional classification.",
+   "rule_refs": [
+    "IDPC 3203(1)(ii)",
+    "IDPC 3203(1)(i)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"establish the existence of the partnership or trust and the nature of its business,\" — idpc-rules.txt ~line 4459"
+  },
+  {
+   "id": "SUP-E6-0118",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "During onboarding at Ivydale Investments, identity verification for a prospective retail client succeeds, but the Registered Representative learns the applicant was recently named in press reports alleging investment fraud at another firm. He proposes proceeding since identity is established. Under clause 3202(1)(i), what does the Supervisor remind him the dealer must do?",
+   "options": {
+    "A": "Refuse the account automatically — adverse press always bars account opening",
+    "B": "Proceed; only government watchlists are relevant once identity is established",
+    "C": "Report the applicant to the Corporation before any account decision",
+    "D": "Make reasonable inquiries as to the reputation of the client, because the dealer has cause for concern"
+   },
+   "answer": "D",
+   "rationale": "Clause 3202(1)(i) requires a Dealer Member to establish the identity of a client and, if the Dealer Member has any cause for concern, make reasonable inquiries as to the reputation of the client — credible fraud allegations are exactly such cause for concern. Option A is the closest distractor — the rule mandates inquiry, not automatic refusal; B wrongly limits the duty to watchlists and treats identity verification as exhaustive; C invents a pre-opening report to the Corporation.",
+   "rule_refs": [
+    "IDPC 3202(1)(i)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"establish the identity of a client and, if the Dealer Member has any cause for concern, make reasonable inquiries as to the reputation of the client,\" — idpc-rules.txt ~line 4420"
+  },
+  {
+   "id": "SUP-E6-0119",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-06",
+   "scenario": "Henrik Wachowski is the designated Supervisor for new accounts at Larkmoor Capital, an Investment Dealer that recently acquired an affiliated Mutual Fund Dealer Member. Four account-opening matters await his decision: (a) operations wants to open Larkmoor accounts for clients transferring from the affiliate by re-using the affiliate's existing client documentation rather than collecting new records; (b) the new-accounts checklist demands the name of a trusted contact person, and written consent to contact that person, for every applicant — and a clerk has now halted the account opening of Pinegate Logistics Inc., a corporation, because it cannot supply one; (c) the institutional desk asks whether a new discretionary account for an institutional client requires the firm's Relationship Disclosure package; and (d) a new corporate client has supplied its director list but, 31 days after opening, the identity of the individual who controls 40% of its voting rights still has not been established.",
+   "stem": "Matter (a): re-using the affiliate firm's documentation. Under subsection 3212(4), Larkmoor may use the documentation maintained by the affiliate firm to meet its client account record requirement only if certain conditions are met. Which of the following is one of them?",
+   "options": {
+    "A": "The affiliate firm account agreement has an acceptable assignment clause that in substance protects the client's interests as if the client had signed a new account agreement with the Dealer Member",
+    "B": "The client signs a blanket waiver of the requirement to maintain client account records",
+    "C": "The Corporation pre-approves each transferred account individually",
+    "D": "The affiliate firm retains sole responsibility for supervising the transferred accounts"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3212(4) permits a Dealer Member receiving accounts from an affiliated Dealer Member or affiliated Mutual Fund Dealer Member to use the affiliate's documentation provided four conditions are met, including clause (iv): the affiliate firm account agreement has an acceptable assignment clause that in substance protects the client's interests in the same manner as if the client had signed a new account agreement with the Dealer Member. Option D is the closest distractor — supervision of the accounts passes to the receiving dealer; nothing in 3212(4) leaves it with the affiliate. B and C invent waiver and pre-approval mechanisms not in the rule.",
+   "rule_refs": [
+    "IDPC 3212(4)(iv)",
+    "IDPC 3212(4)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"the affiliate firm account agreement has an acceptable assignment clause that in substance protects the client's interests in the same manner as if the client had signed a new account agreement with the Dealer Member.\" — idpc-rules.txt ~line 4613"
+  },
+  {
+   "id": "SUP-E6-0120",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-06",
+   "scenario": "Henrik Wachowski is the designated Supervisor for new accounts at Larkmoor Capital, an Investment Dealer that recently acquired an affiliated Mutual Fund Dealer Member. Four account-opening matters await his decision: (a) operations wants to open Larkmoor accounts for clients transferring from the affiliate by re-using the affiliate's existing client documentation rather than collecting new records; (b) the new-accounts checklist demands the name of a trusted contact person, and written consent to contact that person, for every applicant — and a clerk has now halted the account opening of Pinegate Logistics Inc., a corporation, because it cannot supply one; (c) the institutional desk asks whether a new discretionary account for an institutional client requires the firm's Relationship Disclosure package; and (d) a new corporate client has supplied its director list but, 31 days after opening, the identity of the individual who controls 40% of its voting rights still has not been established.",
+   "stem": "Matter (b): the halted account opening for Pinegate Logistics Inc. over the missing trusted contact person. How should Henrik resolve it under section 3202?",
+   "options": {
+    "A": "The clerk is right — every account requires a trusted contact person before opening",
+    "B": "The account may proceed only if a director of the corporation personally names a trusted contact",
+    "C": "The corporation must instead designate two authorized signatories as substitute trusted contacts",
+    "D": "Release the hold — subsection 3202(4) does not apply to a Dealer Member in respect of a client that is not an individual"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3202(5) provides that the trusted-contact-person obligation in subsection 3202(4) does not apply to a Dealer Member in respect of a client that is not an individual — a corporation cannot be financially exploited or lack mental capacity in the sense the provision protects against, so the checklist requirement is over-broad. Option B is the closest distractor — it tries to satisfy 3202(4) through a director, but the subsection simply does not apply to non-individual clients; A states the individual-client rule without the carve-out; C invents a substitute mechanism.",
+   "rule_refs": [
+    "IDPC 3202(5)",
+    "IDPC 3202(4)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Subsection 3202(4) does not apply to a Dealer Member in respect of a client that is not an individual.\" — idpc-rules.txt ~line 4453"
+  },
+  {
+   "id": "SUP-E6-0121",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-06",
+   "scenario": "Henrik Wachowski is the designated Supervisor for new accounts at Larkmoor Capital, an Investment Dealer that recently acquired an affiliated Mutual Fund Dealer Member. Four account-opening matters await his decision: (a) operations wants to open Larkmoor accounts for clients transferring from the affiliate by re-using the affiliate's existing client documentation rather than collecting new records; (b) the new-accounts checklist demands the name of a trusted contact person, and written consent to contact that person, for every applicant — and a clerk has now halted the account opening of Pinegate Logistics Inc., a corporation, because it cannot supply one; (c) the institutional desk asks whether a new discretionary account for an institutional client requires the firm's Relationship Disclosure package; and (d) a new corporate client has supplied its director list but, 31 days after opening, the identity of the individual who controls 40% of its voting rights still has not been established.",
+   "stem": "Matter (c): the Relationship Disclosure question for the institutional discretionary account. Under subsection 3271(2), when Larkmoor opens a discretionary account or managed account for an institutional client, it must comply with the applicable Parts of Rule 3200:",
+   "options": {
+    "A": "Including sections 3216 through 3219 in full",
+    "B": "Only if the institutional client requests compliance in writing",
+    "C": "With the exception of section 3216 only — sections 3217 through 3219 still apply",
+    "D": "With the exception of sections 3216 through 3219"
+   },
+   "answer": "D",
+   "rationale": "Clause 3271(2)(i) provides that a Dealer Member opening a discretionary account or managed account for an institutional client must comply with the requirements in Parts A, B and G of Rule 3200, and if applicable Parts C, E and F, with the exception of sections 3216 through 3219 — so the Relationship Disclosure (3216), leverage risk disclosure (3217), pre-trade charge disclosure (3218) and client mail (3219) requirements do not apply. Option C is the closest distractor, carving out only 3216; the exception spans through 3219. A ignores the exception entirely; B makes compliance elective, which the rule does not.",
+   "rule_refs": [
+    "IDPC 3271(2)(i)",
+    "IDPC 3216(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"with the exception of sections 3216 through 3219,\" — idpc-rules.txt ~line 5342"
+  },
+  {
+   "id": "SUP-E6-0122",
+   "element": 6,
+   "outcome": "6.2",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-06",
+   "scenario": "Henrik Wachowski is the designated Supervisor for new accounts at Larkmoor Capital, an Investment Dealer that recently acquired an affiliated Mutual Fund Dealer Member. Four account-opening matters await his decision: (a) operations wants to open Larkmoor accounts for clients transferring from the affiliate by re-using the affiliate's existing client documentation rather than collecting new records; (b) the new-accounts checklist demands the name of a trusted contact person, and written consent to contact that person, for every applicant — and a clerk has now halted the account opening of Pinegate Logistics Inc., a corporation, because it cannot supply one; (c) the institutional desk asks whether a new discretionary account for an institutional client requires the firm's Relationship Disclosure package; and (d) a new corporate client has supplied its director list but, 31 days after opening, the identity of the individual who controls 40% of its voting rights still has not been established.",
+   "stem": "Matter (d): the corporate account that is 31 days old with the 40% controlling individual still unidentified. What must Henrik require, and until when?",
+   "options": {
+    "A": "Liquidate the account's positions and remit the proceeds within five business days",
+    "B": "Report the corporation to the Corporation as a suspicious client",
+    "C": "Restrict the account solely to liquidating trades, transfers, paying out funds or delivering securities, with the restrictions remaining in place until the Dealer Member establishes the individual's identity",
+    "D": "Freeze the account entirely, including any liquidating trades, until identity is established"
+   },
+   "answer": "C",
+   "rationale": "Identity of individuals described in 3204(1)(iii) must be established as soon as practicable but not more than 30 days after opening the account (3206(3)); when that fails, subsection 3206(4) requires restricting the account solely to liquidating trades, transfers, paying out funds or delivering securities, and the restrictions must remain in place until the Dealer Member establishes the individual's identity. Option D is the closest distractor — the rule expressly preserves liquidating trades and pay-outs, so a total freeze overstates it. A converts a restriction into forced liquidation; B invents a reporting obligation in place of the prescribed restriction.",
+   "rule_refs": [
+    "IDPC 3206(4)",
+    "IDPC 3206(3)",
+    "IDPC 3204(1)(iii)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"These account restrictions must remain in place until the Dealer Member establishes the individual's identity.\" — idpc-rules.txt ~line 4499"
+  },
+  {
+   "id": "SUP-E6-0123",
+   "element": 6,
+   "outcome": "6.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Retail advisory client accounts at Mistvale Securities are being redistributed after a Registered Representative retires; Amaia Castellanos is designated as responsible for forty of the accounts. No deposits, transfers or client-information changes have occurred. The Supervisor asks whether anything is owed under subsection 3402(2). What applies?",
+   "options": {
+    "A": "Nothing — subsection 3402(2) is triggered only by deposits or transfers of securities",
+    "B": "The firm must review each affected client's account and the securities in it against the suitability criteria, within a reasonable time, because a Registered Representative being designated as responsible for the account is a triggering event",
+    "C": "Only the accounts holding derivatives must be reviewed",
+    "D": "A review is owed only at the next scheduled 36-month KYC refresh"
+   },
+   "answer": "B",
+   "rationale": "Clause 3402(2)(ii) lists, among the events after which a Dealer Member must review the retail client's account and its securities against the subsection 3402(1) criteria within a reasonable time, that a Registered Representative, Portfolio Manager or Associate Portfolio Manager is designated as responsible for the account. Option A is the closest distractor — deposits and transfers-in are clause (i), but the trigger list also covers representative changes, client-information changes, security changes, and the 3209(4) review. C invents a derivatives carve-down; D defers the obligation to a cycle the rule does not tie it to.",
+   "rule_refs": [
+    "IDPC 3402(2)(ii)",
+    "IDPC 3402(2)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"a Registered Representative, Portfolio Manager or Associate Portfolio Manager is designated as responsible for the account,\" — idpc-rules.txt ~line 5559"
+  },
+  {
+   "id": "SUP-E6-0124",
+   "element": 6,
+   "outcome": "6.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A retail client of Pellindale Wealth insists on an order the firm has determined does not satisfy the subsection 3402(1) suitability criteria. The Registered Representative informs her of the basis for that determination and advises against proceeding, then obtains her recorded confirmation to proceed. The Supervisor reviewing the file should flag that one required step under subsection 3402(5) was skipped. Which one?",
+   "options": {
+    "A": "Obtaining the Chief Compliance Officer's written sign-off on the trade",
+    "B": "Filing a suitability-override report with the Corporation",
+    "C": "Converting the account to order execution only before accepting the order",
+    "D": "Recommending to the retail client an alternative action that satisfies subsection 3402(1)"
+   },
+   "answer": "D",
+   "rationale": "Subsection 3402(5) permits carrying out the client's instruction only if the dealer has (i) informed the client of the basis for the determination and advised against proceeding, (ii) recommended to the retail client an alternative action that satisfies subsection 3402(1), and (iii) received recorded confirmation of the client's instruction to proceed. The file shows (i) and (iii) but not the mandatory alternative recommendation in (ii). Option A is the closest distractor — the rule requires no CCO sign-off; B invents a regulatory filing; C invents an account-conversion precondition.",
+   "rule_refs": [
+    "IDPC 3402(5)(ii)",
+    "IDPC 3402(5)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"recommended to the retail client an alternative action that satisfies subsection3402(1), and\" — idpc-rules.txt ~line 5590"
+  },
+  {
+   "id": "SUP-E6-0125",
+   "element": 6,
+   "outcome": "6.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Quarrybrook Securities must gauge the level of suitability owed to an institutional client that wants to begin trading currency-linked structured notes — an instrument it has never held. Under clause 3403(2)(vi), which consideration speaks directly to this situation?",
+   "options": {
+    "A": "Whether the client has appointed a designated complaints officer",
+    "B": "The number of years the institutional client has held accounts at the dealer",
+    "C": "Whether the client's total assets under management exceed $10 million",
+    "D": "The specific experience of the client with the type of instrument under consideration, including its ability to independently evaluate how market developments would affect the instrument and ancillary risks such as currency rate risk"
+   },
+   "answer": "D",
+   "rationale": "Clause 3403(2)(vi) lists, among the considerations relevant to whether an institutional client can independently evaluate investment risk, the specific experience of the client with the type of instrument under consideration, including the client's ability to independently evaluate how market developments would affect the security, derivative or precious metals bullion and ancillary risks such as currency rate risk — squarely engaged by a first-time structured-note trade with currency exposure. Option C is the closest distractor — the $10 million threshold goes to institutional classification under Rule 1201, not to the sophistication factors; B substitutes relationship length for instrument-specific experience; A imports a complaint-handling concept.",
+   "rule_refs": [
+    "IDPC 3403(2)(vi)",
+    "IDPC 3403(2)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"the specific experience of the client with the type of instrument under consideration, including the client's ability to independently evaluate how market developments would\" — idpc-rules.txt ~line 5615"
+  },
+  {
+   "id": "SUP-E6-0126",
+   "element": 6,
+   "outcome": "6.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Ravensmere Capital's order execution only division asks the Supervisor exactly how far the suitability exemption for its accounts extends. Under subsection 3404(1), which statement is accurate?",
+   "options": {
+    "A": "Sections 3402 and 3403 are entirely inapplicable to order execution only and direct electronic access accounts, with no residual obligations",
+    "B": "Other than clauses 3402(3)(i) and 3403(4)(i), sections 3402 and 3403 do not apply in respect to an order execution only account or a direct electronic access account",
+    "C": "The exemption covers order execution only accounts but not direct electronic access accounts",
+    "D": "The exemption applies only where the client has waived suitability protections in writing"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3404(1) exempts order execution only accounts and direct electronic access accounts from sections 3402 and 3403, but expressly carves out clauses 3402(3)(i) and 3403(4)(i) — the determinations that it is suitable for the client to continue having an account with the Dealer Member. Option A is the closest distractor because it states the exemption without the carve-out; C wrongly excludes DEA accounts, which clause 3404(1)(ii) covers; D describes the separate written-waiver mechanism for certain non-individual permitted clients in subsection 3404(3), not the OEO/DEA exemption.",
+   "rule_refs": [
+    "IDPC 3404(1)",
+    "IDPC 3404(3)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"Other than clauses 3402(3)(i) and 3403(4)(i), sections 3402 or 3403 do not apply in respect to: (i) an order execution only account, or (ii) a direct electronic access account.\" — idpc-rules.txt ~line 5643"
+  },
+  {
+   "id": "SUP-E6-0127",
+   "element": 6,
+   "outcome": "6.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Skylark Direct's institutional desk serves pension plans and corporate treasuries. The head of the desk argues that because institutional suitability under section 3403 is owed by the assigned Registered Representatives, the Dealer Member itself has no separate supervisory duty over it. How should the Supervisor respond, per section 3951?",
+   "options": {
+    "A": "He is correct — Rule 3900 imposes suitability supervision only for retail clients",
+    "B": "He is correct, provided each institutional client is a regulated entity",
+    "C": "He is wrong — the Dealer Member must supervise each Registered Representative, Investment Representative, Portfolio Manager and Associate Portfolio Manager to confirm their compliance with their responsibilities relating to the suitability determination to institutional clients under section 3403",
+    "D": "He is wrong, but the duty applies only to Portfolio Managers handling institutional managed accounts"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3951(1) requires the Dealer Member to supervise each Registered Representative, Investment Representative, Portfolio Manager and Associate Portfolio Manager to confirm their compliance with their responsibilities relating to the suitability determination to institutional clients under section 3403 — a firm-level supervisory duty parallel to the retail one in section 3948. Option A is the closest distractor because section 3948 does cover retail, but 3951 separately covers institutional; B's regulated-entity point goes to the 3404(3) exemption from suitability itself, not to supervision; D narrows the duty to one category when the rule names four.",
+   "rule_refs": [
+    "IDPC 3951(1)",
+    "IDPC 3948(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member must supervise each Registered Representative, Investment Representative, Portfolio Manager and Associate Portfolio Manager to confirm their compliance with their responsibilities relating to the suitability determination to institutional clients under section 3403.\" — idpc-rules.txt ~line 8240"
+  },
+  {
+   "id": "SUP-E6-0128",
+   "element": 6,
+   "outcome": "6.4",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Trentwood Securities' designated Supervisors for retail derivatives accounts maintain the loss-limit approvals required by clause 3962(1)(i). The Supervisor asks what else subsection 3962(1) makes the designated Supervisors responsible for. Which answer is correct?",
+   "options": {
+    "A": "Ensuring that all recommendations made for an account are and continue to be suitable for the client, and putting the client's interest first",
+    "B": "Personally executing every derivatives order over a prescribed size",
+    "C": "Setting the firm's margin interest rates on derivatives accounts",
+    "D": "Approving the firm's derivatives advertising before publication"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3962(1) makes the designated Supervisors for retail derivatives accounts responsible for (i) reviewing and approving client loss limits when set annually or updated, (ii) ensuring that all recommendations made for an account are and continue to be suitable for the client, and (iii) put the client's interest first. Option D is the closest distractor — advertising pre-approval belongs to the designated Supervisor under Rule 3600, a different function; B and C invent execution and pricing duties the rule does not assign.",
+   "rule_refs": [
+    "IDPC 3962(1)(ii)",
+    "IDPC 3962(1)(iii)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"ensuring that all recommendations made for an account are and continue to be suitable for the client; and (iii) put the client's interest first.\" — idpc-rules.txt ~line 8300"
+  },
+  {
+   "id": "SUP-E6-0129",
+   "element": 6,
+   "outcome": "6.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Wexcombe Wealth delivers all the training Rule 2600 prescribes but keeps no documentation of who attended or what was covered. During an examination, the Corporation asks for evidence. Under clause 2604(1)(iv), what was the dealer required to do?",
+   "options": {
+    "A": "Nothing — training delivery itself is sufficient and no records are required",
+    "B": "File training summaries with the Corporation every quarter without being asked",
+    "C": "Keep a record of all training provided, as prescribed in Rule 2600, and provide the record to the Corporation on request to demonstrate compliance with the proficiency principle",
+    "D": "Retain only the records for Supervisors, since other Approved Persons self-certify"
+   },
+   "answer": "C",
+   "rationale": "Clause 2604(1)(iv) requires the Dealer Member to keep a record of all training provided, as prescribed in Rule 2600, and to provide the record to the Corporation on request to demonstrate compliance with the proficiency principle. Option B is the closest distractor — the record is provided on request, not filed on a standing quarterly schedule; A treats delivery as discharging the documentation duty; D invents a Supervisor-only carve-down and a self-certification regime.",
+   "rule_refs": [
+    "IDPC 2604(1)(iv)",
+    "IDPC 2602"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"The Dealer Member must keep a record of all training provided, as prescribed in Rule 2600, and provide the record to the Corporation on request to demonstrate compliance with the\" — idpc-rules.txt ~line 3208"
+  },
+  {
+   "id": "SUP-E6-0130",
+   "element": 6,
+   "outcome": "6.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Yarrowood Capital sponsors an Approved Person who will serve retail clients trading complex structured products. The firm gives him only its generic onboarding module, with nothing about the firm's client base or product shelf. Against clause 2604(1)(ii), what is deficient?",
+   "options": {
+    "A": "Nothing — any training module discharges the sponsorship obligation",
+    "B": "A Dealer Member who sponsors an Approved Person must ensure the individual has received the appropriate training relevant for its business type, including its client and product type, to ensure compliance with the proficiency principle in section 2602",
+    "C": "The firm needed Corporation pre-approval of the module's contents",
+    "D": "Sponsored Approved Persons must instead complete an additional Corporation exam"
+   },
+   "answer": "B",
+   "rationale": "Clause 2604(1)(ii) requires a Dealer Member who sponsors an Approved Person to ensure the individual has received the appropriate training relevant for its business type, including its client and product type, to ensure compliance with the proficiency principle in section 2602 — a generic module untethered to the firm's retail clients and complex products fails that standard. Option A is the closest distractor — adequacy is judged against business, client and product type, not mere delivery; C invents a pre-approval requirement for training content; D substitutes an exam for the training obligation.",
+   "rule_refs": [
+    "IDPC 2604(1)(ii)",
+    "IDPC 2602"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"A Dealer Member who sponsors an Approved Person must ensure that the individual has received the appropriate training relevant for its business type including its client and product type to ensure compliance with the proficiency principle in section 2602.\" — idpc-rules.txt ~line 3196"
+  },
+  {
+   "id": "SUP-E6-0131",
+   "element": 6,
+   "outcome": "6.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Zedmont Futures receives trailing commissions from fund companies whose products its retail clients hold. A client asks her Registered Representative whether the firm 'gets anything from anyone else' on her investments. The Supervisor confirms the Relationship Disclosure addresses this. Under paragraph 3216(5)(ii)(g), the document must contain:",
+   "options": {
+    "A": "A dollar-by-dollar accounting of every third-party payment received in the prior year",
+    "B": "A statement that the firm receives no compensation from anyone other than its clients",
+    "C": "The names of the fund companies' sales staff assigned to the firm",
+    "D": "A general description of any benefits received, or expected to be received, by the Dealer Member or the Approved Person from a person or company other than the client, in connection with the client's purchase or ownership of a security through the Dealer Member"
+   },
+   "answer": "D",
+   "rationale": "Paragraph 3216(5)(ii)(g) requires the relationship disclosure information to include a general description of any benefits received, or expected to be received, by the Dealer Member or the Approved Person, from a person or company other than the Dealer Member's client, in connection with the client's purchase or ownership of a security through the Dealer Member. Option A is the closest distractor — the requirement is a general description, not an itemized dollar accounting; B would be false where trailing commissions exist; C is not required content.",
+   "rule_refs": [
+    "IDPC 3216(5)(ii)(g)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"a general description of any benefits received, or expected to be received, by the Dealer Member or the Approved Person, from a person or company other than the Dealer Member's client, in connection with the client's purchase or ownership of a security through the Dealer Member,\" — idpc-rules.txt ~line 4804"
+  },
+  {
+   "id": "SUP-E6-0132",
+   "element": 6,
+   "outcome": "6.4",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Birchhaven Securities' institutional trading Supervisor takes a two-month medical leave. A back-up Supervisor is appointed, but is told nothing about an unresolved pattern of restricted-list trading enquiries the departing Supervisor had been pursuing. Under the Account Supervision Guidance, what is deficient in the handover?",
+   "options": {
+    "A": "Nothing — appointing any back-up Supervisor fully satisfies the guidance",
+    "B": "For a prolonged Supervisor absence, the back-up Supervisor should be aware of any specific ongoing issues they need to monitor",
+    "C": "Back-up Supervisors may not supervise institutional accounts at all",
+    "D": "The departing Supervisor was required to delay the leave until the enquiries closed"
+   },
+   "answer": "B",
+   "rationale": "GN-3900-20-001 states that Dealers must provide back-up during Supervisors' absences, and that for any prolonged Supervisor absences, the back-up Supervisor(s) should be aware of any specific ongoing issues they need to monitor — here the open restricted-list enquiries. Option A is the closest distractor because back-up was provided, but appointment alone does not satisfy the awareness expectation for prolonged absences. C invents an institutional prohibition; D imposes a leave restriction found nowhere in the guidance.",
+   "rule_refs": [
+    "GN-3900-20-001 s.1.1.2",
+    "IDPC 3925(4)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"For any prolonged Supervisor absences, the back-up Supervisor(s) should be aware of any specific ongoing issues they need to monitor.\" — gn-3900-20-001.txt ~line 144"
+  },
+  {
+   "id": "SUP-E6-0133",
+   "element": 6,
+   "outcome": "6.4",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-07",
+   "scenario": "Coldstream Capital runs retail advisory and discretionary books plus a centrally managed account program that uses an offshore sub-advisor. Noor Farouk, the firm's compliance director, is finalizing the annual review of how account activity is supervised, and four matters are on her list: (i) the firm's institutional desk has identified recurring problem trades in institutional accounts, but the supervision policies say nothing about what happens after issues are found; (ii) nobody has ever verified that the offshore sub-advisor holds any registration or licence in the jurisdiction of its head office; (iii) the retail trade-supervision policies and procedures list sixteen of the matters whose detection section 3945 prescribes, but are silent on short positions that clients never disclosed; and (iv) all supervisory account reviews are batched and performed in a single sweep at each quarter-end, regardless of what the activity is.",
+   "stem": "Matter (i): the silent institutional supervision policies. Under subsection 3950(1), what must the policies and procedures for institutional client accounts also do, beyond addressing supervision and review of trading activity?",
+   "options": {
+    "A": "Outline the actions to deal with problems or issues identified from supervisory reviews",
+    "B": "Require Corporation notification of every issue identified",
+    "C": "Mandate quarterly suitability reassessments for each institutional account",
+    "D": "Require that all institutional trading be pre-approved by the Chief Compliance Officer"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3950(1) requires that the policies and procedures addressing supervision and review of trading activity in institutional clients' accounts must outline the actions to deal with problems or issues identified from supervisory reviews — exactly the gap Noor found. Option B is the closest distractor — issues must be remediated internally per the outlined actions, not all reported to the Corporation; C imports a retail-style suitability cycle that 3950 does not impose; D invents CCO pre-approval of institutional trading.",
+   "rule_refs": [
+    "IDPC 3950(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"These policies and procedures must outline the actions to deal with problems or issues identified from supervisory reviews.\" — idpc-rules.txt ~line 8225"
+  },
+  {
+   "id": "SUP-E6-0134",
+   "element": 6,
+   "outcome": "6.4",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-07",
+   "scenario": "Coldstream Capital runs retail advisory and discretionary books plus a centrally managed account program that uses an offshore sub-advisor. Noor Farouk, the firm's compliance director, is finalizing the annual review of how account activity is supervised, and four matters are on her list: (i) the firm's institutional desk has identified recurring problem trades in institutional accounts, but the supervision policies say nothing about what happens after issues are found; (ii) nobody has ever verified that the offshore sub-advisor holds any registration or licence in the jurisdiction of its head office; (iii) the retail trade-supervision policies and procedures list sixteen of the matters whose detection section 3945 prescribes, but are silent on short positions that clients never disclosed; and (iv) all supervisory account reviews are batched and performed in a single sweep at each quarter-end, regardless of what the activity is.",
+   "stem": "Matter (ii): the unverified offshore sub-advisor. Under subsection 3279(2), what condition attaching to a sub-advisor designated to deal with managed accounts has Coldstream failed to confirm?",
+   "options": {
+    "A": "That the sub-advisor employs at least one CIRO-approved Portfolio Manager",
+    "B": "That the sub-advisor maintains an office in Canada",
+    "C": "That the sub-advisor is registered or licensed, or operating under an exemption, under the securities laws of the jurisdiction where its head office or principal place of business is located, permitting it to carry on managed account activities",
+    "D": "That the sub-advisor's fees are below the Corporation's prescribed ceiling"
+   },
+   "answer": "C",
+   "rationale": "Clause 3279(2)(i) requires that a sub-advisor designated under clause 3279(1)(iii) be registered or licensed, or operating under an exemption from registration or licensing, under securities laws of the jurisdiction in which its head office or principal place of business is located, that permits it to carry on managed account activities, or its equivalent, in such jurisdiction; clause (ii) separately requires equivalent conflict-of-interest coverage. Option A is the closest distractor — the sub-advisor route in 3279(1)(iii) exists precisely as an alternative to using the dealer's own Portfolio Managers; B substitutes a Canadian-office requirement for home-jurisdiction licensing; D invents a fee ceiling.",
+   "rule_refs": [
+    "IDPC 3279(2)(i)",
+    "IDPC 3279(1)(iii)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"registered or licensed, or operating under an exemption from registration or licensing, under securities laws of the jurisdiction in which its head office or principal place of business is located, that permits it to carry on managed account activities,\" — idpc-rules.txt ~line 5440"
+  },
+  {
+   "id": "SUP-E6-0135",
+   "element": 6,
+   "outcome": "6.4",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-07",
+   "scenario": "Coldstream Capital runs retail advisory and discretionary books plus a centrally managed account program that uses an offshore sub-advisor. Noor Farouk, the firm's compliance director, is finalizing the annual review of how account activity is supervised, and four matters are on her list: (i) the firm's institutional desk has identified recurring problem trades in institutional accounts, but the supervision policies say nothing about what happens after issues are found; (ii) nobody has ever verified that the offshore sub-advisor holds any registration or licence in the jurisdiction of its head office; (iii) the retail trade-supervision policies and procedures list sixteen of the matters whose detection section 3945 prescribes, but are silent on short positions that clients never disclosed; and (iv) all supervisory account reviews are batched and performed in a single sweep at each quarter-end, regardless of what the activity is.",
+   "stem": "Matter (iii): the gap in the retail trade-supervision policies. Which detection item prescribed by subsection 3945(2) is missing?",
+   "options": {
+    "A": "Undisclosed short sales",
+    "B": "Failure to pay annual account fees",
+    "C": "Client use of multiple Investment Dealers",
+    "D": "Trading in securities denominated in foreign currencies"
+   },
+   "answer": "A",
+   "rationale": "Clause 3945(2)(xv) lists undisclosed short sales among the matters the policies and procedures for the supervision of retail client accounts must specifically address detecting — undisclosed client short positions are exactly the silent gap. Option B is the closest distractor — late payment is a listed item under clause 3945(2)(xiii), but unpaid account fees as such are not; C is a 3403(2) institutional sophistication factor, not a 3945(2) detection item; D — foreign-currency denomination — appears nowhere in the list.",
+   "rule_refs": [
+    "IDPC 3945(2)(xv)",
+    "IDPC 3945(2)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"undisclosed short sales,\" — idpc-rules.txt ~line 8164"
+  },
+  {
+   "id": "SUP-E6-0136",
+   "element": 6,
+   "outcome": "6.4",
+   "taxonomy": "Analyze",
+   "type": "item_set",
+   "item_set_id": "E6-SET-07",
+   "scenario": "Coldstream Capital runs retail advisory and discretionary books plus a centrally managed account program that uses an offshore sub-advisor. Noor Farouk, the firm's compliance director, is finalizing the annual review of how account activity is supervised, and four matters are on her list: (i) the firm's institutional desk has identified recurring problem trades in institutional accounts, but the supervision policies say nothing about what happens after issues are found; (ii) nobody has ever verified that the offshore sub-advisor holds any registration or licence in the jurisdiction of its head office; (iii) the retail trade-supervision policies and procedures list sixteen of the matters whose detection section 3945 prescribes, but are silent on short positions that clients never disclosed; and (iv) all supervisory account reviews are batched and performed in a single sweep at each quarter-end, regardless of what the activity is.",
+   "stem": "Matter (iv): batching every supervisory account review into a single quarter-end sweep. How does the Account Supervision Guidance assess this timing?",
+   "options": {
+    "A": "Acceptable — the guidance leaves review timing entirely to the dealer with no design expectation",
+    "B": "Deficient, because the guidance mandates real-time review of every order before execution",
+    "C": "Acceptable, provided the quarterly sweep is performed by the Chief Compliance Officer personally",
+    "D": "Deficient — dealers should review accounts on a timely basis, with timing designed to identify matters requiring attention as quickly as possible"
+   },
+   "answer": "D",
+   "rationale": "GN-3900-20-001 states that Dealers should review accounts on a timely basis and that their timing should be designed to identify matters requiring attention as quickly as possible — a uniform quarter-end batch lets daily-detectable problems sit for up to three months and also cannot satisfy the daily and monthly supervision requirements of section 3945. Option B is the closest distractor — the guidance permits pre-trade or post-trade review approaches; it does not mandate real-time pre-execution review of every order; A denies the timeliness expectation; C substitutes reviewer seniority for timing design.",
+   "rule_refs": [
+    "GN-3900-20-001 s.1.2",
+    "IDPC 3945(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Dealers should review accounts on a timely basis. Their timing should be designed to identify matters requiring attention as quickly as possible.\" — gn-3900-20-001.txt ~line 206"
+  },
+  {
+   "id": "SUP-E6-0137",
+   "element": 6,
+   "outcome": "6.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Eastbrook Wealth opens an advisory account for a large insurance company that qualifies as an institutional client. The Registered Representative begins collecting the full retail-style KYC package — needs and objectives, risk profile, time horizon — and schedules the 36-month refresh cycle. Under section 3208, what should the Supervisor clarify?",
+   "options": {
+    "A": "The full retail KYC package and refresh cycle apply equally to institutional clients",
+    "B": "Clause 3202(1)(iii) and subsection 3209(4) do not apply in respect to an account held by an institutional client",
+    "C": "Only the 36-month refresh is excused; the initial collection is still required in full",
+    "D": "Institutional accounts are exempt from all of Rule 3200's Part A, including identity establishment"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3208(1) provides that clause 3202(1)(iii) — collection of sufficient information on the client's circumstances, needs and objectives, knowledge, risk profile and time horizon — and subsection 3209(4) — the periodic KYC review — do not apply in respect to, among others, an account held by an institutional client. Option C is the closest distractor — the exemption covers both the collection clause and the review subsection, not just the refresh; A ignores the exemption; D overshoots, since identity establishment under 3202(1)(i) and the other Part A duties are not within the 3208(1) exemption.",
+   "rule_refs": [
+    "IDPC 3208(1)(iv)",
+    "IDPC 3202(1)(iii)",
+    "IDPC 3209(4)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Clause 3202(1)(iii) and subsection 3209(4) do not apply in respect to:\" — idpc-rules.txt ~line 4536"
+  },
+  {
+   "id": "SUP-E6-0138",
+   "element": 6,
+   "outcome": "6.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "The compliance team at Thornquist Securities maps which know-your-client information-collection duties apply to the firm's order execution only division. With respect to clause 3202(1)(iii) and subsection 3209(4), section 3208 treats an order execution only account:",
+   "options": {
+    "A": "The same as an advisory account — both duties apply in full",
+    "B": "As exempt from the periodic review only, with initial collection still required",
+    "C": "As one of the exempt account types, alongside direct electronic access accounts, carrying-broker-serviced accounts and institutional client accounts",
+    "D": "As exempt only where the client signs an annual waiver"
+   },
+   "answer": "C",
+   "rationale": "Subsection 3208(1) exempts four account types from clause 3202(1)(iii) and subsection 3209(4): an order execution only account, a direct electronic access account, an account maintained at a Dealer Member who is a carrying broker for that account or who only provides trade execution, clearing, settlement or custody services, and an account held by an institutional client. Option B is the closest distractor — both the collection clause and the review subsection are exempted, not just the review. A ignores the exemption; D invents a waiver condition that section 3208 does not contain.",
+   "rule_refs": [
+    "IDPC 3208(1)(i)",
+    "IDPC 3208(1)(ii)",
+    "IDPC 3208(1)(iii)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"an account held by an institutional client.\" — idpc-rules.txt ~line 4543"
+  },
+  {
+   "id": "SUP-E6-0139",
+   "element": 6,
+   "outcome": "6.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A long-standing retail client of Belmare Wealth emails her Registered Representative that she has retired and her income has fallen sharply. The Representative replies politely but leaves her KYC record untouched, planning to deal with it at the account's next scheduled review. Under subsection 3209(3), what is the firm's obligation?",
+   "options": {
+    "A": "Take reasonable steps to keep the information current, including updating it within a reasonable time after becoming aware of a significant change in the client's information",
+    "B": "No obligation arises until the next 36-month review date",
+    "C": "Update the record only if the client submits the change in a prescribed form",
+    "D": "Transfer the obligation to the designated Supervisor, who must update all client records personally"
+   },
+   "answer": "A",
+   "rationale": "Subsection 3209(3) requires the Dealer Member to take reasonable steps to keep current the information required under Part A of Rule 3200, including updating the information within a reasonable time after the Dealer Member becomes aware of a significant change in the client's information required under section 3202 — retirement and a sharp income drop are exactly such a change. Option B is the closest distractor — the 36-month cycle in 3209(4) is a floor for periodic review, not a shield against known significant changes; C invents a form requirement; D misallocates the duty, since KYC compliance is primarily the assigned Representative's responsibility under 3209(1).",
+   "rule_refs": [
+    "IDPC 3209(3)",
+    "IDPC 3209(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"including updating the information within a reasonable time after the Dealer Member becomes aware of a significant change in the client's information required under section 3202.\" — idpc-rules.txt ~line 4551"
+  },
+  {
+   "id": "SUP-E6-0140",
+   "element": 6,
+   "outcome": "6.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A new retail client at Caldwynne Capital asks her Registered Representative how often she will hear from the firm about her account. The Supervisor verifies that the Relationship Disclosure's description of client account reporting meets sub-paragraph 3216(5)(ii)(e)(I). That provision requires:",
+   "options": {
+    "A": "A guarantee of weekly portfolio updates by telephone",
+    "B": "A statement indicating when trade confirmations and account statements will be sent to the client",
+    "C": "A promise that statements will only be issued when the client requests them",
+    "D": "A list of the personnel who prepare the firm's account statements"
+   },
+   "answer": "B",
+   "rationale": "Sub-paragraph 3216(5)(ii)(e)(I) requires the description of client account reporting in the relationship disclosure information to include a statement indicating when trade confirmations and account statements will be sent to the client; (II) and (III) add performance-information and percentage-return-option statements. Option C is the closest distractor — it converts a when-will-be-sent statement into an on-request regime the rule does not describe; A invents a weekly-update guarantee; D is not required content.",
+   "rule_refs": [
+    "IDPC 3216(5)(ii)(e)(I)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"a statement indicating when trade confirmations and account statements will be sent to the client,\" — idpc-rules.txt ~line 4785"
+  },
+  {
+   "id": "SUP-E6-0141",
+   "element": 6,
+   "outcome": "6.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Drisdale Securities offers retail clients access to exempt-market securities that carry resale restrictions. The Supervisor checks the firm's Relationship Disclosure against sub-paragraph 3216(5)(ii)(a)(I). Within the general description of products and services, the document must include:",
+   "options": {
+    "A": "A description of the restrictions on the client's ability to liquidate or resell a security",
+    "B": "A commitment that the firm will repurchase restricted securities on demand",
+    "C": "The full text of the resale provisions of securities legislation",
+    "D": "A waiver releasing the firm from liability for illiquid products"
+   },
+   "answer": "A",
+   "rationale": "Sub-paragraph 3216(5)(ii)(a)(I) requires the general description of the types of products and services in the relationship disclosure information to include a description of the restrictions on the client's ability to liquidate or resell a security; (II) adds a statement of investment fund management expense fees or other ongoing fees. Option C is the closest distractor — a description is required, not the reproduction of legislative text; B invents a repurchase commitment; D substitutes a liability waiver for a disclosure.",
+   "rule_refs": [
+    "IDPC 3216(5)(ii)(a)(I)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"a description of the restrictions on the client's ability to liquidate or resell a security,\" — idpc-rules.txt ~line 4732"
+  },
+  {
+   "id": "SUP-E6-0142",
+   "element": 6,
+   "outcome": "6.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Before accepting a retail client's instruction to buy a mutual fund in her advisory account at Everline Wealth, the Registered Representative must make the pre-trade disclosure required by subsection 3218(1). Which of the following correctly states part of that disclosure?",
+   "options": {
+    "A": "The dealer's projected profit on the transaction",
+    "B": "The charges the client will be required to pay, directly or indirectly, in respect of the purchase, or a reasonable estimate if the actual amount is not known to the firm at the time of disclosure",
+    "C": "The fund's historical rate of return for the last ten years",
+    "D": "The identity of the counterparty to the trade"
+   },
+   "answer": "B",
+   "rationale": "Clause 3218(1)(i) requires disclosing, before accepting a retail client's instruction to purchase or sell a security or transact in derivatives in an account other than a managed account, the charges the client will be required to pay, directly or indirectly, in respect of the purchase, sale or transaction, or a reasonable estimate if the actual amount of the charges is not known to the firm at the time of disclosure; clauses (ii) to (iv) add deferred sales charge, trailing commission and ongoing-fee disclosures. Option A is the closest distractor — the rule targets client-borne charges, not dealer profit; C and D are not pre-trade disclosure content under 3218.",
+   "rule_refs": [
+    "IDPC 3218(1)(i)",
+    "IDPC 3218(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"the charges the client will be required to pay, directly or indirectly, in respect of the purchase, sale or transaction, or a reasonable estimate if the actual amount of the charges is not known to the firm at the time of disclosure,\" — idpc-rules.txt ~line 4866"
+  },
+  {
+   "id": "SUP-E6-0143",
+   "element": 6,
+   "outcome": "6.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Foxhollow Capital is opening an initial account for a family trust. The trustees are identified, the trust's existence is established, and controlling individuals are verified. Before the account can be opened, clause 3203(1)(iv) imposes one further determination tied to the trust's beneficiaries. Which one?",
+   "options": {
+    "A": "Whether each beneficiary has investment knowledge appropriate to the trust's strategy",
+    "B": "Whether any beneficiary resides outside Canada",
+    "C": "Whether the controlling individuals and, in the case of a trust, any of the known beneficiaries of more than 10% of the trust are insiders of a reporting issuer or any other issuer whose securities are publicly traded",
+    "D": "Whether the beneficiaries have consented in writing to the account opening"
+   },
+   "answer": "C",
+   "rationale": "Clause 3203(1)(iv) prohibits opening a partnership or trust account unless the dealer first obtains the controlling-individual information and determines whether those individuals and, in the case of a trust, any of the known beneficiaries of more than 10% of the trust are insiders of a reporting issuer or any other issuer whose securities are publicly traded. Option D is the closest distractor — beneficiary consent is not a 3203 condition; A imports a KYC concept into an identification rule; B substitutes residency for insider status.",
+   "rule_refs": [
+    "IDPC 3203(1)(iv)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"in the case of a trust, any of the known beneficiaries of more than 10% of the trust are insiders of a reporting issuer or any other issuer whose securities are publicly traded.\" — idpc-rules.txt ~line 4463"
+  },
+  {
+   "id": "SUP-E6-0144",
+   "element": 6,
+   "outcome": "6.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Greymont Securities obtained CIRO approval for new Registered Representative Sofia Grigoryan five weeks ago. The Supervisor checks the post-approval file: no firm-provided training has been scheduled. Under clause 2604(1)(i), what must the Dealer Member do?",
+   "options": {
+    "A": "Provide training, as prescribed by the Corporation, within 90 days after approval, considering the type of client and product she will be dealing with, and notify the Corporation of completion within 90 days after approval",
+    "B": "Provide training within 12 months of approval, with no notification required",
+    "C": "Provide training only if the Corporation requests it after an examination",
+    "D": "Provide training before her first trade, then file an annual attestation"
+   },
+   "answer": "A",
+   "rationale": "Clause 2604(1)(i) requires a Dealer Member to provide training to its Registered Representatives and Investment Representatives within 90 days after approval, considering the type of client and product the Approved Person will be dealing with, and sub-clause (a) requires notifying the Corporation of completion of the training within 90 days after approval. Option D is the closest distractor — the deadline is 90 days after approval, not the first trade, and the notification is tied to completion, not an annual cycle; B stretches the timeline and drops the notice; C makes a standing duty conditional.",
+   "rule_refs": [
+    "IDPC 2604(1)(i)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"provide training to its Registered Representatives and Investment Representatives within 90 days after approval considering the type of client and product the Approved Person will be dealing with,\" — idpc-rules.txt ~line 3191"
+  },
+  {
+   "id": "SUP-E6-0145",
+   "element": 6,
+   "outcome": "6.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Hollowell Futures asks its Supervisor about the conduct training obligation for a newly approved Approved Person. Under clause 2604(2)(i), the individual must complete the conduct training prescribed by the Corporation within what period?",
+   "options": {
+    "A": "Within 18 months after approval",
+    "B": "Before approval is granted",
+    "C": "Within 90 days after approval, with no notification requirement",
+    "D": "Within 30 days after approval, and the Dealer Member must notify the Corporation of completion within 30 days after approval"
+   },
+   "answer": "D",
+   "rationale": "Clause 2604(2)(i) requires each Approved Person to complete the conduct training prescribed by the Corporation within 30 days after approval, and sub-clause (a) requires the Dealer Member to notify the Corporation of completion within 30 days after approval. Option C is the closest distractor — 90 days is the Dealer Member training timeline in clause 2604(1)(i), not the conduct training deadline; A states the mutual-fund-only upgrade window from section 2605; B confuses post-approval conduct training with pre-approval exam proficiency.",
+   "rule_refs": [
+    "IDPC 2604(2)(i)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"Each Approved Person must complete the conduct training prescribed by the Corporation within 30 days after approval,\" — idpc-rules.txt ~line 3215"
+  },
+  {
+   "id": "SUP-E6-0146",
+   "element": 6,
+   "outcome": "6.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Ivydale Investments sponsors Karim Noorani for approval. He passed the prescribed exam four years ago and has never been approved in any category, but he worked continuously in a relevant securities industry role for the past two years, which the Corporation finds acceptable. Under subsection 2628(1), is his exam still valid?",
+   "options": {
+    "A": "No — an exam expires absolutely three years after it is written",
+    "B": "No — only prior approval in the same category can preserve exam validity",
+    "C": "Yes, automatically, because exam results never expire for sponsored applicants",
+    "D": "Yes — an individual is deemed to have successfully completed an exam if they gained one year of relevant securities industry experience, acceptable to the Corporation, within three years prior to the date of application for approval"
+   },
+   "answer": "D",
+   "rationale": "Clause 2628(1)(iii) deems an exam successfully completed where the individual gained one year of relevant securities industry experience, acceptable to the Corporation, within three years prior to the date of application for approval — Karim's recent two years of acceptable experience satisfies this branch even though the exam itself is more than three years old. Option A is the closest distractor — it states only the clause (i) three-year completion branch and ignores the (ii) prior-approval and (iii) experience branches; B ignores the experience branch; C overstates validity, which is conditional.",
+   "rule_refs": [
+    "IDPC 2628(1)(iii)",
+    "IDPC 2628(1)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"the individual who successfully completed the prescribed exam gained one year of relevant securities industry experience, acceptable to the Corporation, within three years prior to the date of application for approval.\" — idpc-rules.txt ~line 3371"
+  },
+  {
+   "id": "SUP-E6-0147",
+   "element": 6,
+   "outcome": "6.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Larkmoor Capital sponsors a Portfolio Manager applicant who earned her CFA Charter nine years ago and has used the designation in good standing ever since. The new-registrations clerk worries the Charter has 'gone stale' under the exam validity rules. Under subsection 2628(3), how should the Supervisor respond?",
+   "options": {
+    "A": "The Charter must be re-earned every three years like a prescribed exam",
+    "B": "The validity periods do not apply to the CFA Charter, the Canadian Investment Manager Designation or the CIM Designation, provided the holder continues to have the right to use the designation and it has not been revoked or otherwise restricted",
+    "C": "The Charter is valid only if accompanied by one year of recent experience",
+    "D": "The Charter is valid only for Associate Portfolio Manager applications, not Portfolio Manager applications"
+   },
+   "answer": "B",
+   "rationale": "Subsection 2628(3) provides that the validity periods do not apply to the Canadian Investment Manager Designation, the Chartered Investment Manager Designation (CIM) and the CFA Charter, provided the holders continue to have the right to use the designation and the designation has not been revoked or otherwise restricted. Option C is the closest distractor — the one-year-experience branch in 2628(1)(iii) revives expired exams, but designations are exempt from the validity periods altogether; A applies the exam regime to designations; D contradicts sub-clause 2603(1)(i)(h), which accepts the CFA Charter for Portfolio Manager approval.",
+   "rule_refs": [
+    "IDPC 2628(3)",
+    "IDPC 2603(1)(i)(h)"
+   ],
+   "difficulty": "hard",
+   "status": "reviewed",
+   "source_quote": "\"The validity periods do not apply to the Canadian Investment Manager Designation, the Chartered Investment Manager Designation (CIM®) and the CFA Charter\" — idpc-rules.txt ~line 3379"
+  },
+  {
+   "id": "SUP-E6-0148",
+   "element": 6,
+   "outcome": "6.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Mistvale Securities is sponsoring a derivatives Registered Representative applicant who, within the past two years, was registered and dealing in options and futures with FINRA and the National Futures Association, and who completed the Series 3 and Series 7 exams offered by FINRA. Under subsection 2627(2), what exam relief applies?",
+   "options": {
+    "A": "He is exempt from writing the Derivatives Exam",
+    "B": "He is exempt from writing every CIRO-prescribed exam, including the Supervisor Exam",
+    "C": "He is exempt from the Canadian Investment Regulatory Exam only",
+    "D": "No relief — foreign registrations never affect CIRO exam requirements"
+   },
+   "answer": "A",
+   "rationale": "Subsection 2627(2) exempts an applicant from writing the Derivatives Exam where the applicant was previously registered and dealing in options and futures with FINRA and the NFA within three years prior to the date of application, and completed the Series 3 and Series 7 exams offered by FINRA. Option C is the closest distractor — the Canadian Investment Regulatory Exam exemption is the separate subsection 2627(1) test, keyed to a similar FINRA registration but not to the Series 3/7 exams; B overstates the relief; D denies the exemption regime in section 2627.",
+   "rule_refs": [
+    "IDPC 2627(2)",
+    "IDPC 2627(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"completed the Series 3 and Series 7 exams offered by FINRA.\" — idpc-rules.txt ~line 3359"
+  },
+  {
+   "id": "SUP-E6-0149",
+   "element": 6,
+   "outcome": "6.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Nakamura-Pryce Investments is hiring an Associate Portfolio Manager whose managed accounts will include derivatives positions. She has completed Level 1 of the CFA program and has the required investment management experience. Under sub-clause 2603(1)(i)(g), what additional exam requirement attaches because of the derivatives?",
+   "options": {
+    "A": "The Institutional Securities Exam",
+    "B": "The Trader Exam",
+    "C": "If managing accounts with derivatives, the Derivatives Exam",
+    "D": "The Chief Compliance Officer Exam"
+   },
+   "answer": "C",
+   "rationale": "Sub-clause 2603(1)(i)(g) sets the Associate Portfolio Manager pre-approval exam requirement — Level 1 of the CFA program, or the Canadian Investment Manager Designation or CIM — and adds, in paragraph (I), that if managing accounts with derivatives, the Derivatives Exam is also required. Option A is the closest distractor — the Institutional Securities Exam attaches to institutional Registered Representative categories in sub-clauses 2603(1)(i)(e) and (f), not to the APM category; B applies to Traders; D applies to Chief Compliance Officers.",
+   "rule_refs": [
+    "IDPC 2603(1)(i)(g)(I)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"If managing accounts with derivatives, the Derivatives Exam,\" — idpc-rules.txt ~line 3137"
+  },
+  {
+   "id": "SUP-E6-0150",
+   "element": 6,
+   "outcome": "6.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Quarrybrook Securities executes trades for a retail client strictly as directed by the client's registered adviser, a portfolio management firm acting for her. The trading desk asks whether it must make the section 3218 pre-trade charge disclosure to the client before each instruction. Under subsection 3218(2):",
+   "options": {
+    "A": "Yes — pre-trade charge disclosure applies to every retail instruction without exception",
+    "B": "No — subsection 3218(1) does not apply to an instruction involving a client for whom the dealer purchases, sells or transacts only as directed by a registered adviser acting for the client",
+    "C": "Yes, but the disclosure may be delivered annually in arrears",
+    "D": "No, provided the trade value is under a Corporation-prescribed threshold"
+   },
+   "answer": "B",
+   "rationale": "Subsection 3218(2) provides that the pre-trade disclosure obligation in subsection 3218(1) does not apply to a Dealer Member in respect of an instruction involving a client for whom the Dealer Member purchases, sells or transacts only as directed by a registered adviser acting for the client. Option A is the closest distractor — 3218(1) itself already excludes managed accounts and 3218(2) adds the adviser-directed exemption, so the duty is not exceptionless; C invents an annual-arrears alternative; D invents a value threshold.",
+   "rule_refs": [
+    "IDPC 3218(2)",
+    "IDPC 3218(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"a client for whom the Dealer Member purchases, sells or transacts only as directed by a registered adviser acting for the client.\" — idpc-rules.txt ~line 4876"
+  },
+  {
+   "id": "SUP-E6-0151",
+   "element": 6,
+   "outcome": "6.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "A retail client of Ravensmere Capital complains she 'never knows what paperwork to expect.' The Supervisor points to the firm's Relationship Disclosure, which must satisfy paragraph 3216(5)(ii)(k). That paragraph requires the document to contain:",
+   "options": {
+    "A": "A schedule of the firm's internal records-retention periods",
+    "B": "A copy of every agreement the client will eventually sign",
+    "C": "A listing of the account documents required to be provided to the client with respect to the account",
+    "D": "An index of the Corporation's rules applicable to the account"
+   },
+   "answer": "C",
+   "rationale": "Paragraph 3216(5)(ii)(k) requires the relationship disclosure information to contain a listing of the account documents required to be provided to the client with respect to the account — a forward index of the client-facing paperwork. Option B is the closest distractor — a listing is required, not copies of the documents themselves; A concerns internal retention, which is governed by section 3803, not client disclosure; D substitutes a rule index for the document listing.",
+   "rule_refs": [
+    "IDPC 3216(5)(ii)(k)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"a listing of the account documents required to be provided to the client with respect to the account,\" — idpc-rules.txt ~line 4815"
+  },
+  {
+   "id": "SUP-E6-0152",
+   "element": 6,
+   "outcome": "6.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Skylark Direct's Relationship Disclosure describes its account reporting but says nothing about whether clients can get percentage-return figures. Against sub-paragraph 3216(5)(ii)(e)(III), what must the Supervisor require be added?",
+   "options": {
+    "A": "A statement indicating whether or not the provision of account percentage return information will be an option available to the client as part of the account service offering",
+    "B": "A guarantee that percentage returns will beat the client's chosen benchmark",
+    "C": "A monthly percentage-return calculation mailed to every client automatically",
+    "D": "Nothing — percentage-return availability is never a disclosure topic"
+   },
+   "answer": "A",
+   "rationale": "Sub-paragraph 3216(5)(ii)(e)(III) requires the relationship disclosure information to include a statement indicating whether or not the provision of account percentage return information will be an option available to the client as part of the account service offering. Option C is the closest distractor — the rule requires a statement about whether the option is available, not the automatic delivery of the calculation itself; B converts disclosure into a performance guarantee; D denies a content requirement that is expressly listed.",
+   "rule_refs": [
+    "IDPC 3216(5)(ii)(e)(III)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"a statement indicating whether or not the provision of account percentage return information will be an option available to the client as part of the account service offering,\" — idpc-rules.txt ~line 4791"
+  },
+  {
+   "id": "SUP-E6-0153",
+   "element": 6,
+   "outcome": "6.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Trentwood Securities already delivers a standalone fee schedule to every new retail client. Rather than repeating the full fee detail inside the Relationship Disclosure document, compliance proposes a short general description plus a pointer to the fee schedule. Under clause 3216(4)(i), is this format acceptable?",
+   "options": {
+    "A": "No — every item of required content must be reproduced in full within the Relationship Disclosure document itself",
+    "B": "No — fee information may never be delivered in a separate document",
+    "C": "Yes, but only for institutional clients",
+    "D": "Yes — where specific information has otherwise been provided to the client, the document may include a general description and a reference to the other disclosure materials containing the required information"
+   },
+   "answer": "D",
+   "rationale": "Sub-paragraph 3216(4)(i)(c) requires the relationship disclosure information to include all the required content set out in subsection 3216(5), or, where specific information has otherwise been provided to the client by the Dealer Member, a general description and a reference to the other disclosure materials containing the required information — exactly the proposed structure. Option A is the closest distractor — it states the default while missing the express reference alternative; C is wrong because relationship disclosure is not required for institutional clients at all under 3216(1); B contradicts the reference mechanism.",
+   "rule_refs": [
+    "IDPC 3216(4)(i)(c)",
+    "IDPC 3216(1)"
+   ],
+   "difficulty": "medium",
+   "status": "reviewed",
+   "source_quote": "\"where specific information has otherwise been provided to the client by the Dealer Member, a general description and a reference to the other disclosure materials containing the required information.\" — idpc-rules.txt ~line 4716"
+  },
+  {
+   "id": "SUP-E6-0154",
+   "element": 6,
+   "outcome": "6.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "item_set_id": null,
+   "scenario": null,
+   "stem": "Wexcombe Wealth wants to stop producing a stand-alone Relationship Disclosure booklet and instead weave the required relationship disclosure information into its account opening package. Under clause 3216(4)(ii), is this delivery approach permitted?",
+   "options": {
+    "A": "No — relationship disclosure information must always be a stand-alone document",
+    "B": "Yes — Dealer Members may choose to provide the relationship disclosure information as a separate document or to integrate it with other account opening materials",
+    "C": "Only for institutional clients",
+    "D": "Only if each client consents in writing to the integrated format"
+   },
+   "answer": "B",
+   "rationale": "Clause 3216(4)(ii) provides that Dealer Members may choose to provide the relationship disclosure information as a separate document or to integrate it with other account opening materials. Option D is the closest distractor — the choice belongs to the dealer; no client consent condition attaches to the format decision; A states the opposite of the rule; C is wrong because relationship disclosure is not required for institutional clients at all under subsection 3216(1).",
+   "rule_refs": [
+    "IDPC 3216(4)(ii)",
+    "IDPC 3216(1)"
+   ],
+   "difficulty": "easy",
+   "status": "reviewed",
+   "source_quote": "\"Dealer Members may choose to provide the relationship disclosure information as a separate document or to integrate it with other account opening materials.\" — idpc-rules.txt ~line 4724"
+  }
+ ]
+}

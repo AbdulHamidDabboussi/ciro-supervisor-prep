@@ -390,7 +390,7 @@
       "taxonomy": "Analyze",
       "type": "item_set",
       "item_set_id": "E6-SET-04",
-      "scenario": "Larkfield Wealth Inc., an Investment Dealer, runs a managed account program built around centralized model portfolios: investment decisions are made centrally and applied across hundreds of retail managed accounts, subject to minor client-directed restrictions. Solenne Mercier is the designated Supervisor responsible for managed accounts; the program's investment decisions are made by Portfolio Manager Aurelio Vanthier. A compliance sweep of the program surfaces four matters: (a) Solenne asks whether she must individually review every managed account each quarter, given the centralized model; (b) managed account client Dominique Aubry emailed written notice on Tuesday at 10:00 a.m. terminating her managed account agreement, yet Aurelio continued making new discretionary purchases in her account that week, citing 'the 30-day wind-down in the agreement'; (c) Aurelio caused several managed accounts to buy units of an investment fund for which Aurelio himself acts as adviser, with no client consent on file; and (d) the firm has no standing governance body for the program — its managed account supervision policies were last reviewed three years ago by the Chief Compliance Officer acting alone.",
+      "scenario": "Larkfield Wealth Inc., an Investment Dealer, runs a managed account program built around centralized model portfolios: investment decisions are made centrally and applied across hundreds of retail managed accounts, subject to minor client-directed restrictions. Solenne Mercier is the designated Supervisor responsible for managed accounts; the program's investment decisions are made by Portfolio Manager Aurelio Vanthier. A compliance sweep of the program surfaces four matters: (a) Solenne asks whether she must individually review every managed account each quarter, given the centralized model; (b) managed account client Dominique Aubry emailed written notice on Tuesday at 10:00 a.m. terminating her managed account agreement, yet Aurelio continued making new discretionary purchases in her account that week, citing 'the 30-day wind-down in the agreement'; (c) Aurelio caused several managed accounts to subscribe for newly issued units directly from an investment fund for which Aurelio himself acts as adviser, with no client consent on file; and (d) the firm has no standing governance body for the program — its managed account supervision policies were last reviewed three years ago by the Chief Compliance Officer acting alone.",
       "stem": "Matter (a): Solenne asks whether she must individually review every managed account each quarter, given that decisions are made centrally across the program. Under section 3973:",
       "options": {
         "A": "Yes — every managed account must be reviewed individually each quarter with no exceptions",
@@ -406,7 +406,8 @@
       ],
       "difficulty": "medium",
       "status": "reviewed",
-      "source_quote": "\"If the investment decisions for a managed account are made centrally and apply to a number of managed accounts, the quarterly review may be done at an aggregate level,\" — idpc-rules.txt ~line 8449"
+      "source_quote": "\"If the investment decisions for a managed account are made centrally and apply to a number of managed accounts, the quarterly review may be done at an aggregate level,\" — idpc-rules.txt ~line 8449",
+      "qa_note": "2026-06-05: scenario synced to the wave-4 clarified wording of matter (c) (set-denormalization fix; matter (c) tested only by SUP-E6-0099, sibling keys unaffected)."
     },
     {
       "id": "SUP-E6-0071",
@@ -1080,7 +1081,7 @@
       "taxonomy": "Analyze",
       "type": "item_set",
       "item_set_id": "E6-SET-04",
-      "scenario": "Larkfield Wealth Inc., an Investment Dealer, runs a managed account program built around centralized model portfolios: investment decisions are made centrally and applied across hundreds of retail managed accounts, subject to minor client-directed restrictions. Solenne Mercier is the designated Supervisor responsible for managed accounts; the program's investment decisions are made by Portfolio Manager Aurelio Vanthier. A compliance sweep of the program surfaces four matters: (a) Solenne asks whether she must individually review every managed account each quarter, given the centralized model; (b) managed account client Dominique Aubry emailed written notice on Tuesday at 10:00 a.m. terminating her managed account agreement, yet Aurelio continued making new discretionary purchases in her account that week, citing 'the 30-day wind-down in the agreement'; (c) Aurelio caused several managed accounts to buy units of an investment fund for which Aurelio himself acts as adviser, with no client consent on file; and (d) the firm has no standing governance body for the program — its managed account supervision policies were last reviewed three years ago by the Chief Compliance Officer acting alone.",
+      "scenario": "Larkfield Wealth Inc., an Investment Dealer, runs a managed account program built around centralized model portfolios: investment decisions are made centrally and applied across hundreds of retail managed accounts, subject to minor client-directed restrictions. Solenne Mercier is the designated Supervisor responsible for managed accounts; the program's investment decisions are made by Portfolio Manager Aurelio Vanthier. A compliance sweep of the program surfaces four matters: (a) Solenne asks whether she must individually review every managed account each quarter, given the centralized model; (b) managed account client Dominique Aubry emailed written notice on Tuesday at 10:00 a.m. terminating her managed account agreement, yet Aurelio continued making new discretionary purchases in her account that week, citing 'the 30-day wind-down in the agreement'; (c) Aurelio caused several managed accounts to subscribe for newly issued units directly from an investment fund for which Aurelio himself acts as adviser, with no client consent on file; and (d) the firm has no standing governance body for the program — its managed account supervision policies were last reviewed three years ago by the Chief Compliance Officer acting alone.",
       "stem": "Matter (b): Dominique's written termination notice was received Tuesday at 10:00 a.m., but Aurelio kept making new discretionary purchases in her account that week, citing 'the 30-day wind-down in the agreement.' Under subsection 3278(2), Solenne should conclude:",
       "options": {
         "A": "The trades were proper, because all terminations take effect 30 days after notice regardless of who gives it",
@@ -1096,7 +1097,8 @@
       ],
       "difficulty": "hard",
       "status": "reviewed",
-      "source_quote": "\"by the client, effective on receipt by the Dealer Member, except for transactions entered prior to receipt of the notice,\" — idpc-rules.txt ~line 5429"
+      "source_quote": "\"by the client, effective on receipt by the Dealer Member, except for transactions entered prior to receipt of the notice,\" — idpc-rules.txt ~line 5429",
+      "qa_note": "2026-06-05: scenario synced to the wave-4 clarified wording of matter (c) (set-denormalization fix; matter (c) tested only by SUP-E6-0099, sibling keys unaffected)."
     },
     {
       "id": "SUP-E6-0099",
@@ -1131,7 +1133,7 @@
       "taxonomy": "Analyze",
       "type": "item_set",
       "item_set_id": "E6-SET-04",
-      "scenario": "Larkfield Wealth Inc., an Investment Dealer, runs a managed account program built around centralized model portfolios: investment decisions are made centrally and applied across hundreds of retail managed accounts, subject to minor client-directed restrictions. Solenne Mercier is the designated Supervisor responsible for managed accounts; the program's investment decisions are made by Portfolio Manager Aurelio Vanthier. A compliance sweep of the program surfaces four matters: (a) Solenne asks whether she must individually review every managed account each quarter, given the centralized model; (b) managed account client Dominique Aubry emailed written notice on Tuesday at 10:00 a.m. terminating her managed account agreement, yet Aurelio continued making new discretionary purchases in her account that week, citing 'the 30-day wind-down in the agreement'; (c) Aurelio caused several managed accounts to buy units of an investment fund for which Aurelio himself acts as adviser, with no client consent on file; and (d) the firm has no standing governance body for the program — its managed account supervision policies were last reviewed three years ago by the Chief Compliance Officer acting alone.",
+      "scenario": "Larkfield Wealth Inc., an Investment Dealer, runs a managed account program built around centralized model portfolios: investment decisions are made centrally and applied across hundreds of retail managed accounts, subject to minor client-directed restrictions. Solenne Mercier is the designated Supervisor responsible for managed accounts; the program's investment decisions are made by Portfolio Manager Aurelio Vanthier. A compliance sweep of the program surfaces four matters: (a) Solenne asks whether she must individually review every managed account each quarter, given the centralized model; (b) managed account client Dominique Aubry emailed written notice on Tuesday at 10:00 a.m. terminating her managed account agreement, yet Aurelio continued making new discretionary purchases in her account that week, citing 'the 30-day wind-down in the agreement'; (c) Aurelio caused several managed accounts to subscribe for newly issued units directly from an investment fund for which Aurelio himself acts as adviser, with no client consent on file; and (d) the firm has no standing governance body for the program — its managed account supervision policies were last reviewed three years ago by the Chief Compliance Officer acting alone.",
       "stem": "Matter (d): the program has no standing governance body, and its managed account supervision policies were last reviewed three years ago by the Chief Compliance Officer acting alone. Measured against section 3972, what is missing?",
       "options": {
         "A": "A managed account committee that includes at least one designated Supervisor responsible for managed accounts and the Chief Compliance Officer, which must at least annually review the supervision policies and procedures and recommend to senior management actions necessary to achieve compliance",
@@ -1146,7 +1148,8 @@
       ],
       "difficulty": "medium",
       "status": "reviewed",
-      "source_quote": "\"must establish a managed account committee that includes at least one designated Supervisor responsible for managed accounts and the Chief Compliance Officer.\" — idpc-rules.txt ~line 8430"
+      "source_quote": "\"must establish a managed account committee that includes at least one designated Supervisor responsible for managed accounts and the Chief Compliance Officer.\" — idpc-rules.txt ~line 8430",
+      "qa_note": "2026-06-05: scenario synced to the wave-4 clarified wording of matter (c) (set-denormalization fix; matter (c) tested only by SUP-E6-0099, sibling keys unaffected)."
     },
     {
       "id": "SUP-E6-0101",

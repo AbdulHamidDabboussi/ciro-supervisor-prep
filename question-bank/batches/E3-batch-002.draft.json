@@ -1,0 +1,1274 @@
+{
+  "meta": {
+    "batch": "E3-002",
+    "drafted": 50,
+    "date": "2026-06-04",
+    "corpus": [
+      "idpc-rules.txt (IDPC 2026-01-08)",
+      "gn-3900-20-001.txt",
+      "syllabus-raw.txt (Element 3 parameters, verbatim)"
+    ],
+    "qa": "Gate 1 blind solve 2026-06-05: 50/50 agreement. Gate 2: 50/50 quotes verified (1 quote lengthened). Gate 3 lint clean. See qa-log.md."
+  },
+  "questions": [
+    {
+      "id": "SUP-E3-0055",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Glassbrook Capital Corp. has detailed written supervisory policies and procedures but staffs its compliance and supervision group so thinly that monthly account reviews routinely go unfinished. Which IDPC requirement does this staffing decision breach?",
+      "options": {
+        "A": "The requirement to assign sufficient personnel and commit adequate resources necessary to fully and properly apply and enforce its policies and procedures",
+        "B": "The requirement to file its staffing plan with CIRO each quarter",
+        "C": "The requirement that every Supervisor hold an Executive designation",
+        "D": "The requirement to outsource supervision when internal staff is insufficient"
+      },
+      "answer": "A",
+      "rationale": "Section 3905(1) requires the dealer to assign sufficient personnel and commit adequate resources necessary to fully and properly apply and enforce its policies and procedures — written procedures that cannot be executed for lack of staff fail this standard. Option B invents a quarterly staffing filing; C confuses Supervisors with Executives, which are distinct designations under 3905; D treats outsourcing as a mandated cure, which no rule requires.",
+      "rule_refs": [
+        "IDPC 3905(1)",
+        "Syllabus 3.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must assign sufficient personnel and commit adequate resources necessary to fully and properly apply and enforce its policies and procedures.\" — idpc-rules.txt ~line 7921"
+    },
+    {
+      "id": "SUP-E3-0056",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The directors of Tarradale Investments Ltd. argue that responsibility for ensuring an appropriate supervision system rests entirely with the Chief Compliance Officer, not with them. How does IDPC Rule 3900 allocate this responsibility?",
+      "options": {
+        "A": "Each branch Supervisor is individually responsible for the firm-wide supervision system",
+        "B": "CIRO designs the supervision system, so no internal party bears responsibility for it",
+        "C": "The Dealer Member's board of directors is responsible for ensuring that an appropriate supervision system is in place",
+        "D": "The external auditor certifies the supervision system annually, relieving the board"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3901(3) places responsibility for ensuring an appropriate supervision system is in place on the dealer's board of directors. The CCO monitors and assesses compliance and reports upward, but that role does not displace the board's responsibility — the closest distractor is the directors' own argument. A inverts the hierarchy; B and D shift a non-delegable governance duty to the regulator and the auditor.",
+      "rule_refs": [
+        "IDPC 3901(3)",
+        "Syllabus 3.1"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The Dealer Member's board of directors is responsible for ensuring that an appropriate supervision system is in place.\" — idpc-rules.txt ~line 7877"
+    },
+    {
+      "id": "SUP-E3-0057",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Mistaya Securities operates a six-person branch in a remote town with no on-site Supervisor. Under CIRO's Account Supervision Guidance, which factors may the dealer weigh in deciding whether a resident Supervisor is necessary at that location?",
+      "options": {
+        "A": "The branch's profitability and the local cost of office space",
+        "B": "The number of Registered Individuals in the location, their experience, the business conducted there, Supervisor availability in nearby locations, and other systems and controls mitigating remote supervision risk",
+        "C": "Only the total assets under administration at the branch",
+        "D": "Whether the branch staff have requested a resident Supervisor"
+      },
+      "answer": "B",
+      "rationale": "GN-3900-20-001 s.1.1.3 lists exactly these factors for determining the necessity of a resident Supervisor: number of Registered Individuals, their experience in the location, the business conducted, Supervisor availability nearby, and other mitigating systems and controls; where there is no resident Supervisor, an assigned outside Supervisor must visit periodically. Options A and C substitute commercial metrics the guidance does not use; D makes the decision turn on staff preference rather than supervision-risk factors.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.1.3",
+        "Syllabus 3.1"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the number of Registered Individuals in the location, Registered Individuals' experience in the location, the business conducted in the location, Supervisor availability in nearby locations, and other systems and controls mitigating remote supervision risk.\" — gn-3900-20-001.txt ~line 163"
+    },
+    {
+      "id": "SUP-E3-0058",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "The Executives of Copperline Financial are deciding whether to implement a costly preventive control over wire transfers. Under IDPC section 4223, on what basis must the decision to implement preventive controls be made?",
+      "options": {
+        "A": "Preventive controls must be implemented for every identified risk regardless of cost",
+        "B": "Preventive controls are optional and may be omitted whenever detective controls exist",
+        "C": "Preventive controls may only be implemented with prior CIRO approval of the control design",
+        "D": "When necessary, based on the Executives' view of the risk of loss and the cost-benefit relationship of controlling that risk"
+      },
+      "answer": "D",
+      "rationale": "Section 4223(1) requires preventive controls to be implemented, when necessary, based on the Executives' view of the risk of loss and the cost-benefit relationship of controlling that risk — a judgment-based standard, not an absolute mandate. Option A removes the cost-benefit judgment the rule builds in; B wrongly treats detective controls as a complete substitute; C invents a regulator pre-approval step for internal control design.",
+      "rule_refs": [
+        "IDPC 4223(1)",
+        "Syllabus 3.2"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"When necessary, a Dealer Member must implement preventive controls based on the Dealer Member's Executives' view of the risk of loss and the cost-benefit relationship of controlling that risk.\" — idpc-rules.txt ~line 9248"
+    },
+    {
+      "id": "SUP-E3-0059",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "During a CIRO examination, Yellowrock Securities can describe its internal controls verbally but produces no documentation of them. Which IDPC requirement has the dealer failed?",
+      "options": {
+        "A": "The requirement to publish its internal controls on its public website",
+        "B": "The requirement to translate internal controls into both official languages",
+        "C": "The requirement to file internal controls with each provincial securities commission",
+        "D": "The requirement to maintain a detailed written record of its internal controls, including at a minimum the policies and procedures the Executives have approved"
+      },
+      "answer": "D",
+      "rationale": "Section 4224(1) requires the dealer to maintain a detailed written record of its internal controls, including at a minimum the policies and procedures the Executives have approved to provide reasonable assurance of compliance with internal control requirements — verbal descriptions cannot satisfy a written-record rule. Options A, B and C invent publication, translation and multi-regulator filing duties that section 4224 does not impose; the record is maintained by the dealer, not broadcast.",
+      "rule_refs": [
+        "IDPC 4224(1)",
+        "Syllabus 3.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer Member must maintain a detailed written record of its internal controls, including, at a minimum, the policies and procedures the Dealer Member's Executives have approved\" — idpc-rules.txt ~line 9252"
+    },
+    {
+      "id": "SUP-E3-0060",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Two Executives at Foxhaven Capital disagree about whether the firm's reconciliation controls are adequate, and they ask whether the IDPC Rules prescribe a quantitative adequacy test. What standard do the rules set for determining whether internal controls are adequate?",
+      "options": {
+        "A": "Internal controls are adequate if the firm has had no losses in the past three years",
+        "B": "Adequacy is determined exclusively by the external auditor's annual opinion",
+        "C": "The Executives must use best judgment in determining whether internal controls are adequate",
+        "D": "Controls are adequate if they cost at least 2% of the dealer's annual revenue"
+      },
+      "answer": "C",
+      "rationale": "Subsection 4222(3) requires the Executives to use best judgment in determining whether internal controls are adequate — the rule sets a judgment standard rather than a numeric test. Option A substitutes a backward-looking loss record for forward-looking judgment; B assigns the determination to the auditor when 4222(2) makes it an Executive responsibility; D invents a spending ratio that appears nowhere in Rule 4200.",
+      "rule_refs": [
+        "IDPC 4222(3)",
+        "Syllabus 3.2"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The Dealer Member's Executives must use best judgment in determining whether internal controls are adequate.\" — idpc-rules.txt ~line 9245"
+    },
+    {
+      "id": "SUP-E3-0061",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client of Larkfield Wealth will be at sea for four months and asks her Registered Representative to exercise trading authority over her account while she is unreachable; the RR did not propose the arrangement. Under the IDPC Rule 1200 definition, which conditions characterize a discretionary account?",
+      "options": {
+        "A": "The account is exempt from suitability, the authority is dealer-solicited, and the term is unlimited",
+        "B": "The client retains sole responsibility for all investment decisions",
+        "C": "Investment decisions are made on a continuing basis by a Portfolio Manager",
+        "D": "The account is subject to suitability, the dealer has not solicited the discretionary authority, the authority is accepted to accommodate a client frequently or temporarily unavailable to authorize trades, it has not been renewed, and its term does not exceed 12 months"
+      },
+      "answer": "D",
+      "rationale": "The Rule 1200 definition of discretionary account requires that the account is subject to the suitability determination, the dealer has not solicited the authority, the authority is accepted to accommodate a client who is frequently or temporarily unavailable, it has not been renewed, and the term does not exceed 12 months — the sea-voyage facts fit this model. Option C states the managed-account definition, the closest distractor since both involve discretion; B describes the OEO model; A reverses the suitability, solicitation and term elements.",
+      "rule_refs": [
+        "IDPC 1201 (definition of discretionary account)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(i) the Dealer Member has not solicited the discretionary authority, (ii) the discretionary authority is accepted to accommodate a client who is frequently or temporarily unavailable to authorize trades,\" — idpc-rules.txt ~line 348"
+    },
+    {
+      "id": "SUP-E3-0062",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Brindlemere Securities describes one of its account programs as follows: the account is subject to suitability, and investment decisions are made on a continuing basis by a Portfolio Manager, an Associate Portfolio Manager, or a third party hired by the dealer. Under IDPC Rule 1200, what type of account is this?",
+      "options": {
+        "A": "An order execution only account",
+        "B": "A direct electronic access account",
+        "C": "A discretionary account",
+        "D": "A managed account"
+      },
+      "answer": "D",
+      "rationale": "The Rule 1200 definition of managed account is an account subject to a suitability determination where investment decisions are made on a continuing basis by a Portfolio Manager, Associate Portfolio Manager or a third party hired by the dealer, with the dealer or third party and the PM/APM responsible for all investment decisions. Option C is the closest distractor: a discretionary account also involves discretion but is an unsolicited, non-renewed accommodation with a maximum 12-month term, not continuing professional management; A and B are channels where the dealer gives no recommendations at all.",
+      "rule_refs": [
+        "IDPC 1201 (definition of managed account)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"(i) investment decisions are made on a continuing basis by a Portfolio Manager or an Associate Portfolio Manager or a third party hired by the Dealer Member,\" — idpc-rules.txt ~line 529"
+    },
+    {
+      "id": "SUP-E3-0063",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Agent Renate Olufsen of Dunbar Hill Investments wants to begin teaching paid evening finance courses at a local college. Under the minimum terms of the dealer-agent agreement, what must occur before she may take on this outside activity?",
+      "options": {
+        "A": "She must disclose the activity to the dealer and obtain its written consent",
+        "B": "She need only notify CIRO directly, bypassing the dealer",
+        "C": "Nothing — agents, unlike employees, face no outside activity conditions",
+        "D": "She must resign her agency agreement first"
+      },
+      "answer": "A",
+      "rationale": "Clause 2304(7)(viii)(a) requires the agent to agree not to conduct any outside activity without disclosing to and obtaining the written consent of the dealer; the dealer then monitors and enforces compliance directly rather than through another employer or principal. Option C states the misconception that agent status loosens conduct requirements — Rule 2300 imposes them through the agreement; B routes disclosure to the regulator instead of the dealer that must consent; D is unnecessary because the regime exists precisely to manage outside activities within the agency relationship.",
+      "rule_refs": [
+        "IDPC 2304(7)(viii)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The agent agrees not to conduct any outside activity without disclosing to and obtaining the written consent of the Dealer Member.\" — idpc-rules.txt ~line 1850"
+    },
+    {
+      "id": "SUP-E3-0064",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "When agent Theo Marchetti's agency agreement with Windgate Securities ends, he insists the client files and trade blotters he kept at his storefront office belong to him because he created and stored them. Under the minimum terms of the dealer-agent agreement, who owns those books and records?",
+      "options": {
+        "A": "Marchetti, because the records were created on his premises",
+        "B": "Ownership is split equally between the agent and the dealer",
+        "C": "CIRO takes custody of all agent records on termination",
+        "D": "The books and records kept by the agent for the dealer's business are the dealer's property and must be delivered to the dealer on termination of the agreement"
+      },
+      "answer": "D",
+      "rationale": "Clause 2304(7)(x) requires the agreement to provide that the books and records kept by the agent for the dealer's business conform to Corporation requirements, are the dealer's property, are available at all times for review by and delivery to the dealer, and shall be delivered to the dealer on termination. Option A reflects the common physical-possession fallacy the clause is designed to defeat; B invents an apportionment; C wrongly inserts the regulator into a dealer-property obligation.",
+      "rule_refs": [
+        "IDPC 2304(7)(x)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"(b) are the Dealer Member's property, (c) are available at all times for review by and delivery to the Dealer Member, and (d) shall be delivered to the Dealer Member on termination of the agreement.\" — idpc-rules.txt ~line 1871"
+    },
+    {
+      "id": "SUP-E3-0065",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Cobble Hill Securities uses agents and must make the prescribed liability disclosure in its account application. According to the form of agreement in IDPC section 2303, what does the prescribed disclosure language tell clients about the dealer's liability for an agent's acts and omissions?",
+      "options": {
+        "A": "The dealer is liable only up to the amount of commissions the client paid",
+        "B": "The dealer's liability is conditional on the client first suing the agent",
+        "C": "The dealer is irrevocably liable to the client for any acts and omissions of the investment advisor with regard to the dealer's business as if the investment advisor were an employee",
+        "D": "The dealer disclaims all liability for agents' conduct"
+      },
+      "answer": "C",
+      "rationale": "Item 5 of the section 2303 form prescribes account-application language stating that the dealer is irrevocably liable to the client for any acts and omissions of the investment advisor with regard to the dealer's business as if the investment advisor were an employee, and that by continuing to deal with the firm the client accepts the offer of indemnity. Option D is the opposite of the prescribed disclosure; A and B add caps and litigation preconditions the language does not contain — the liability is irrevocable and employee-equivalent.",
+      "rule_refs": [
+        "IDPC 2303(4) item 5",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"is irrevocably liable to you for any acts and omissions of your investment advisor with regard to [Dealer Member name] business as if the investment advisor were an employee of [Dealer Member name].\" — idpc-rules.txt ~line 1747"
+    },
+    {
+      "id": "SUP-E3-0066",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Ironquill Markets offers retail clients an account in which the dealer provides no recommendations, the account is not subject to suitability determination (other than limited exceptions), and clients have been provided with direct electronic access within the meaning of National Instrument 23-103. Under IDPC Rule 1200, which additional condition forms part of the definition of this direct electronic access account?",
+      "options": {
+        "A": "The client must be an Approved Person of another dealer",
+        "B": "The dealer complies with the Universal Market Integrity Rule requirements applicable to the direct electronic access service offering and the requirements of NI 23-103",
+        "C": "The account must hold only fixed income products",
+        "D": "All orders must be reviewed by a Supervisor before entry"
+      },
+      "answer": "B",
+      "rationale": "The Rule 1200 definition of direct electronic access account has three limbs: the client has been provided with direct electronic access within the meaning of NI 23-103, the dealer provides no recommendations, and the dealer complies with the UMIR requirements applicable to the DEA service offering and the requirements of NI 23-103. Option D contradicts the un-intermediated nature of DEA, which is exactly why the definitional compliance conditions exist; A and C invent client-status and product restrictions found nowhere in the definition.",
+      "rule_refs": [
+        "IDPC 1201 (definition of direct electronic access account)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"(iii) the Dealer Member complies with the Universal Market Integrity Rule requirements applicable to the direct electronic access service offering and the requirements of NI 23-103.\" — idpc-rules.txt ~line 340"
+    },
+    {
+      "id": "SUP-E3-0067",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Aurelia Stone, an individual with $13 million in securities under management, wants Pickford Securities' institutional desk to serve her rather than its retail division. What is required, under the IDPC Rule 1200 institutional client definition, for an individual in her position to receive institutional classification?",
+      "options": {
+        "A": "No path exists — individuals can never be institutional clients regardless of assets",
+        "B": "Nothing beyond the asset level — exceeding $10 million classifies an individual as institutional automatically",
+        "C": "She must request and consent to being classified as an institutional client, in addition to having total securities and precious metals bullion under administration or management exceeding $10 million",
+        "D": "Only if she first registers as a portfolio manager"
+      },
+      "answer": "C",
+      "rationale": "Branch (vi) of the institutional client definition covers an individual with total securities and precious metals bullion under administration or management exceeding $10 million who requests and consents to being classified as an institutional client — for individuals, unlike non-individuals under branch (v), the request-and-consent step is part of the definition. Option B is the closest distractor: it drops the request-and-consent element that distinguishes the individual branch; A ignores branch (vi) entirely; D imports a registration status from branch (iv), which applies to non-individual registrants.",
+      "rule_refs": [
+        "IDPC 1201 (definition of institutional client)",
+        "Syllabus 3.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(vi) an individual with total securities and precious metals bullion under administration or management exceeding $10 million who requests and consents to being classified as an institutional client,\" — idpc-rules.txt ~line 483"
+    },
+    {
+      "id": "SUP-E3-0068",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Cormorant Grain Ltd., a food processor, wants Westerlee Securities to classify it as an institutional client for its derivatives accounts on the basis that it is a hedger. Under the IDPC Rule 1200 definition of hedger, which characteristic must Cormorant exhibit?",
+      "options": {
+        "A": "It must hold more than $10 million in securities under management",
+        "B": "It must be a non-individual that is exposed to one or more risks as a necessary part of its business activities and seeks to hedge such risk by engaging in derivatives transactions",
+        "C": "It must be registered as a derivatives dealer in its home province",
+        "D": "It must trade derivatives at least monthly for speculative purposes"
+      },
+      "answer": "B",
+      "rationale": "The Rule 1200 definition of hedger is a non-individual that is exposed to one or more risks as a necessary part of its business activities and seeks to hedge such risk by engaging in derivatives transactions meeting the underlying-interest, intended-effect and offset conditions; under branch (vii) of the institutional client definition, a hedger may then request and consent to institutional classification for accounts with qualifying hedging activities. Option A imports the asset-threshold branch, which is an alternative route, not the hedger test; D is the opposite — speculation is what the hedging conditions exclude; C invents a registration requirement.",
+      "rule_refs": [
+        "IDPC 1201 (definition of hedger)",
+        "Syllabus 3.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A non-individual that: (i) is exposed to one or more risks as a necessary part of its business activities, and (ii) seeks to hedge such risk by engaging in derivatives transactions\" — idpc-rules.txt ~line 430"
+    },
+    {
+      "id": "SUP-E3-0069",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Registered Representative at Quartzline Capital began exercising discretion over a client's account two weeks ago; the discretionary account agreement is still in draft and unsigned. Which sequencing requirement of IDPC section 3273 has the dealer breached?",
+      "options": {
+        "A": "The dealer must enter into a discretionary account agreement with the client prior to accepting the account as a discretionary account",
+        "B": "Discretionary agreements must be signed in the presence of a notary",
+        "C": "Agreements may be completed within 90 days of the first discretionary trade",
+        "D": "Only the client, not the dealer, needs to sign the agreement, so timing is irrelevant"
+      },
+      "answer": "A",
+      "rationale": "Clause 3273(1)(iv) requires the dealer to enter into a discretionary account agreement with the client prior to accepting the account as a discretionary account, and under clause (v) the designated Supervisor must approve the account and the signed agreement — discretion exercised before the agreement exists violates the sequencing. Option C invents a grace period that does not exist; B adds a formality the rule does not require; D misses that the gating issue is the agreement's existence before acceptance, not who signs.",
+      "rule_refs": [
+        "IDPC 3273(1)(iv)",
+        "IDPC 3273(1)(v)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"the Dealer Member must enter into a discretionary account agreement with the client prior to accepting the account as a discretionary account,\" — idpc-rules.txt ~line 5359"
+    },
+    {
+      "id": "SUP-E3-0070",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A client of Strathnairn Wealth signed a discretionary account agreement 11 months ago and now asks to extend the same agreement for another year because the arrangement works well. How do the IDPC requirements treat this request?",
+      "options": {
+        "A": "The agreement may be renewed annually without limit if the client consents in writing",
+        "B": "The agreement may be extended once for a further 6 months",
+        "C": "The agreement automatically converts to a managed account agreement at 12 months",
+        "D": "It cannot be accommodated by renewal — a discretionary account agreement must have a maximum term of no longer than 12 months and must not be renewable"
+      },
+      "answer": "D",
+      "rationale": "Clauses 3274(1)(iii) and (iv) require the discretionary account agreement to have a maximum term of no longer than 12 months and to not be renewable — the discretionary regime is a temporary accommodation, so continuing discretion requires a different arrangement (such as a managed account with qualified personnel), not renewal. Option A is the closest distractor because written client consent cures many things, but not a flat non-renewability rule; B invents a partial extension; C describes a conversion mechanism that does not exist automatically.",
+      "rule_refs": [
+        "IDPC 3274(1)(iii)",
+        "IDPC 3274(1)(iv)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(iii) have a maximum term of no longer than 12 months, (iv) not be renewable, and\" — idpc-rules.txt ~line 5373"
+    },
+    {
+      "id": "SUP-E3-0071",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Pellbrook Securities proposes to authorize Registered Representative Anouk Yazdani to effect trades for discretionary accounts. She has 14 months of experience trading the equities and options the accounts will hold. Why does the proposal fail under IDPC section 3275?",
+      "options": {
+        "A": "Only Executives may be authorized to effect discretionary trades",
+        "B": "Registered Representatives may never trade options on a discretionary basis",
+        "C": "Discretionary authority requires ten years of industry experience",
+        "D": "A Registered Representative may only be authorized if they have at least two years of active experience in trading, advising or performing analysis with respect to all types of products to be traded on a discretionary basis"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3275(1) permits a Registered Representative to be authorized to affect discretionary trades only if they have at least two years of active experience in trading, advising or performing analysis with respect to all types of products to be traded on a discretionary basis, and the account is maintained at the dealer for which the RR conducts business — 14 months falls short. Option C inflates the threshold; A confuses the experience requirement with the order-review exceptions in 3970(4) for PMs and Executives; B invents a product ban where the rule instead requires experience across all products traded.",
+      "rule_refs": [
+        "IDPC 3275(1)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the Registered Representative has at least two years of active experience in trading, advising or performing analysis with respect to all types of products that are to be traded on a discretionary basis,\" — idpc-rules.txt ~line 5383"
+    },
+    {
+      "id": "SUP-E3-0072",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Tannerby Investments manages client portfolios in its in-house managed account program and waives trade confirmations under written client consents. A new operations manager asks which fee condition applies when the dealer itself manages the account and relies on the confirmation waiver in IDPC section 3816. Which condition is correct?",
+      "options": {
+        "A": "The account must pay a performance fee of at least 10% to qualify",
+        "B": "The account is not charged any commissions or fees based on the volume or value of transactions in the account, and the dealer sends a compliant monthly statement containing the prescribed confirmation information",
+        "C": "All fees must be paid annually in advance",
+        "D": "The waiver removes any obligation to report the trades to the client in any document"
+      },
+      "answer": "B",
+      "rationale": "Sub-paragraph 3816(2)(x)(a)(IV)(B) conditions the managed-account confirmation waiver, where the dealer manages the account, on the account not being charged any commissions or fees based on the volume or value of transactions, and on the dealer sending a monthly statement compliant with section 3808 containing the confirmation information (with limited exceptions available on request) — the waiver presumes the asset-based fee model. Option D overstates the relief: trade information still reaches the client through the monthly statement; A inverts the fee logic; C invents a payment-timing condition.",
+      "rule_refs": [
+        "IDPC 3816(2)(x)(a)(IV)(B)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"the account is not charged any commissions or fees based on the volume or value of transactions in the account,\" — idpc-rules.txt ~line 7684"
+    },
+    {
+      "id": "SUP-E3-0073",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Marrowstone Securities sells a retail client a corporate bond that the issuer may redeem before maturity and whose coupon rate floats with a reference rate. Which notations must appear on the trade confirmation under IDPC section 3816 for this debt purchase?",
+      "options": {
+        "A": "No special notations — debt confirmations show only price and quantity",
+        "B": "A notation of the bond's credit rating from two agencies",
+        "C": "The notation \"callable\" because the security is subject to call prior to maturity, and the notation \"The coupon rate may vary.\" because it has a variable coupon rate",
+        "D": "A notation that the bond is insured by CIPF"
+      },
+      "answer": "C",
+      "rationale": "Sub-clauses 3816(2)(vi)(b)(II) and (III) require, for a debt purchase, the notation \"callable\" where the security is subject to call prior to maturity through any means, and the notation \"The coupon rate may vary.\" where the coupon rate is variable — the disclosure points address exactly the call and coupon features that make fixed income supervisory risks hard for retail clients to see. Option A ignores the yield and notation content the rule prescribes; B substitutes ratings, which 3816 does not require; D misstates CIPF, which protects client property on insolvency, not bond performance.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(b)",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"where the debt security is subject to call prior to maturity through any means, the notation of \"callable\" must be included, and\" — idpc-rules.txt ~line 7603"
+    },
+    {
+      "id": "SUP-E3-0074",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Harrowsmith Securities Inc. is controlled by Harrowsmith Bank. A retail client buys units of a mutual fund sponsored by the bank, branded under an unrelated name. What must the trade confirmation disclose under IDPC section 3816?",
+      "options": {
+        "A": "Nothing, because mutual fund trades never require relationship disclosure",
+        "B": "The relationship between the dealer and the financial institution, because the trade is in securities of a mutual fund sponsored by the financial institution and the names are not sufficiently similar to indicate the affiliation",
+        "C": "The fund manager's compensation grid",
+        "D": "A guarantee that the fund's value will not fall below the purchase price"
+      },
+      "answer": "B",
+      "rationale": "Clause 3816(2)(ix) requires a dealer controlled by or affiliated with a financial institution to disclose the relationship on each trade confirmation for a trade in securities of a mutual fund sponsored by the financial institution or its controlled/affiliated corporation, except where the names of the dealer and the fund are sufficiently similar to indicate common control or affiliation — here the unrelated branding removes the exception. Option A overlooks this fund-specific disclosure; C and D invent compensation and guarantee content that confirmation rules do not require.",
+      "rule_refs": [
+        "IDPC 3816(2)(ix)",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"the relationship between the Dealer Member and the financial institution shall be disclosed on each trade confirmation issued in connection with a trade in securities of a mutual fund sponsored by the financial institution\" — idpc-rules.txt ~line 7654"
+    },
+    {
+      "id": "SUP-E3-0075",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A Registered Representative at Veldstone Capital wants to recommend a newly listed equity to several clients before the firm's product committee has assessed it, arguing that ordinary common shares need no approval. What does IDPC section 3301 say about this?",
+      "options": {
+        "A": "Common shares are exempt from product due diligence, so the recommendation may proceed",
+        "B": "The RR may recommend the security if she personally understands it well",
+        "C": "An Approved Person must not purchase securities for, or recommend securities to, a client unless the securities have been approved by the dealer to be made available to clients",
+        "D": "Approval is required only for derivatives, not securities"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3301(2) prohibits an Approved Person from purchasing securities or derivatives for, or recommending them to, a client unless they have been approved by the dealer under the product due diligence process in 3301(1) — even a plain equity must pass through the dealer's assess-approve-monitor process before being made available. Option B is the closest distractor: personal understanding satisfies the separate KYP obligation in 3302 but does not replace dealer-level approval; A and D invent product-class exemptions that section 3301 does not contain (the exemptions in 3303 are account-based, for carrying brokers and execution/clearing/settlement/custody-only service).",
+      "rule_refs": [
+        "IDPC 3301(2)",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"An Approved Person must not purchase securities or derivatives for, or recommend securities or derivatives to, a client unless the securities or derivatives have been approved by the Dealer Member to be made available to clients under subsection 3301(1).\" — idpc-rules.txt ~line 5498"
+    },
+    {
+      "id": "SUP-E3-0076",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Lockridge Direct acts solely as a carrying broker for the accounts of Pintail Advisors, an introducing firm whose clients hold structured products and crypto assets. Lockridge asks whether it must run its own product due diligence on those holdings. How does IDPC section 3303 answer?",
+      "options": {
+        "A": "Section 3301 does not apply in respect of an account maintained at a dealer who is a carrying broker for that account or who only provides trade execution, clearing, settlement or custody services for it",
+        "B": "Carrying brokers must duplicate the introducing firm's full product due diligence",
+        "C": "Carrying brokers are exempt only for products trading above $100 per unit",
+        "D": "The exemption applies only to mutual funds"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3303(1) provides that section 3301 does not apply in respect to an account maintained at a dealer who is a carrying broker for that account or who only provides trade execution, clearing, settlement or custody services, or a combination, to another dealer, portfolio manager, exempt market dealer or their clients — the due diligence burden sits with the firm making the products available, not the service provider. Option B would impose redundant diligence the exemption removes; C and D invent price and product-class limits that do not exist in 3303(1).",
+      "rule_refs": [
+        "IDPC 3303(1)",
+        "Syllabus 3.7"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"Section 3301 does not apply in respect to an account maintained at a Dealer Member who is a carrying broker for that account or who only provides trade execution, clearing, settlement or custody services\" — idpc-rules.txt ~line 5510"
+    },
+    {
+      "id": "SUP-E3-0077",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Before recommending a fee-heavy principal-protected note, a Registered Representative at Carradine Wealth wants to know how far her duty to understand the product extends. Under IDPC section 3302, what determines the steps she must take to understand the security?",
+      "options": {
+        "A": "Reading the issuer's press release is always sufficient",
+        "B": "She must complete a CIRO product certification for each structured note",
+        "C": "She must hold the product personally for six months before recommending it",
+        "D": "The steps required are those that are reasonable to enable the Approved Person to meet their obligations under Rule 3400"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3302(2) calibrates the know-your-product duty: the steps required to understand the securities or derivatives are those that are reasonable to enable the Approved Person to meet their suitability obligations under Rule 3400 — for an opaque structured note with embedded costs, the reasonable steps are correspondingly deeper. Option A understates the duty for a complex product; C and B invent personal-holding and certification requirements; the rule sets a purpose-driven reasonableness standard, not fixed formalities.",
+      "rule_refs": [
+        "IDPC 3302(2)",
+        "Syllabus 3.7"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"For purposes of subsection 3302(1), the steps required to understand the securities or derivatives are those that are reasonable to enable the Approved Person to meet their obligations under Rule 3400.\" — idpc-rules.txt ~line 5506"
+    },
+    {
+      "id": "SUP-E3-0078",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Crossfell Capital's account supervision policies treat all retail clients identically when screening for improper market activity. According to CIRO's Account Supervision Guidance, which clients may a dealer determine present a higher risk of improper market activity, warranting risk-based review attention?",
+      "options": {
+        "A": "Clients who hold index funds and GICs exclusively",
+        "B": "Clients who have access to material non-public information about issuers, holders of control blocks of public issuers, and market professionals",
+        "C": "Clients over the age of 65",
+        "D": "Clients who trade less than once per year"
+      },
+      "answer": "B",
+      "rationale": "GN-3900-20-001 s.1.2 states a dealer may determine some clients present a higher risk of improper market activity, such as those who have access to material non-public information about issuers, holders of control blocks of public issuers and market professionals — and a risk-based approach may direct review resources toward them. Options A and D describe low-activity, plain-vanilla profiles that the guidance does not flag; C concerns vulnerability and financial-exploitation supervision, a different risk axis from improper market activity.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.2",
+        "IDPC 3926(2)(ii)",
+        "Syllabus 3.7"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer may determine some clients present a higher risk of improper market activity, such as those who have access to material non-public information about issuers, holders of control blocks of public issuers and market professionals.\" — gn-3900-20-001.txt ~line 200"
+    },
+    {
+      "id": "SUP-E3-0079",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Bramblewood Securities is allocating its product shelf to the syllabus risk categories for training purposes. Its analysts ask where asset-backed securities sit in the Element 3 framework. Which classification is correct?",
+      "options": {
+        "A": "Asset-backed securities are one of the basic types of securities under outcome 3.6, alongside equities",
+        "B": "Asset-backed securities are a derivative type under outcome 3.8, alongside swaps",
+        "C": "Asset-backed securities are a complex type of securities/products under outcome 3.7, alongside leveraged and inverse ETFs and structured products",
+        "D": "Asset-backed securities are excluded from the Supervisor Exam syllabus entirely"
+      },
+      "answer": "C",
+      "rationale": "The 3.7 parameter enumerates the complex types of securities/products as leveraged and inverse ETFs, structured products, asset-backed securities, and specialized (e.g. cryptocurrency) — ABS belong to the complex-product analysis, where securitization structure and opacity drive the supervisory risk. Option A would place ABS with the basic types (equities, mutual funds and ETFs, fixed income), the closest distractor because ABS are debt-like; B confuses securitized instruments with derivatives; D is contradicted by the parameter itself.",
+      "rule_refs": [
+        "Syllabus 3.7",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"• Structured products - Direct Electronic Access (DEA) • Asset-backed securities\" — syllabus-raw.txt ~line 690"
+    },
+    {
+      "id": "SUP-E3-0080",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A trainer at Oakhampton Capital tells new Supervisors that cryptocurrency risk analysis belongs to the syllabus outcome on basic security types. Why is the trainer wrong?",
+      "options": {
+        "A": "Cryptocurrency appears in outcome 3.8 as a derivative type",
+        "B": "The syllabus lists specialized products, with cryptocurrency as the example, under outcome 3.7's complex types of securities/products — not among the basic types in 3.6",
+        "C": "Cryptocurrency is covered only in the syllabus element on trading and market rules",
+        "D": "The syllabus prohibits dealers from offering cryptocurrency, so no outcome covers it"
+      },
+      "answer": "B",
+      "rationale": "The 3.7 parameter includes \"Specialized (e.g. cryptocurrency)\" among the complex types of securities/products whose supervisory risks must be analyzed; the basic types in 3.6 are equities, mutual funds and ETFs, and fixed income products. Option A misplaces crypto among the 3.8 derivatives list (options, futures contract options, futures, forwards, swaps, CFDs); C moves it to Element 7, which addresses market rules, not product risk categories; D converts a risk-analysis topic into a prohibition the syllabus does not state.",
+      "rule_refs": [
+        "Syllabus 3.7",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"• Specialized (e.g. cryptocurrency)\" — syllabus-raw.txt ~line 698"
+    },
+    {
+      "id": "SUP-E3-0081",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Foxden Markets accepts a first options order from a new retail client before sending the client any derivatives risk disclosure statement, planning to mail it with the trade confirmation. Which IDPC requirement does this sequence violate?",
+      "options": {
+        "A": "The dealer must provide each derivatives retail client with the most recent derivatives risk disclosure statement, approved by the Corporation, before accepting an initial derivatives order from the client",
+        "B": "Risk disclosure statements are required only for futures, not options",
+        "C": "The statement may be provided within 30 days after the first trade",
+        "D": "Risk disclosure is required only for institutional derivatives clients"
+      },
+      "answer": "A",
+      "rationale": "Clause 3254(1)(i) requires the dealer to provide each derivatives retail client with the most recent derivatives risk disclosure statement or similar Corporation-approved document before accepting an initial derivatives order, and clause (ii) requires the client's acknowledgement of receipt — delivery with the confirmation is too late. Option C invents a post-trade grace period; B narrows the requirement to one derivative class when it applies to derivatives retail clients generally; D inverts the retail focus of the protection.",
+      "rule_refs": [
+        "IDPC 3254(1)(i)",
+        "IDPC 3254(1)(ii)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"provide each derivatives retail client with the most recent derivatives risk disclosure statement or other similar document, approved by Corporation before accepting an initial derivatives order from the client,\" — idpc-rules.txt ~line 5286"
+    },
+    {
+      "id": "SUP-E3-0082",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Compliance staff at Wrenfield Derivatives can confirm that risk disclosure statements were mailed to options clients but cannot say to whom, where or when. Which record-keeping element of IDPC section 3254 is missing?",
+      "options": {
+        "A": "A notarized affidavit from each client confirming they read the statement",
+        "B": "A record of the serial number of each printed statement",
+        "C": "A record of the names and addresses of all clients to whom the statement and any amendments were provided, and the dates on which they were provided",
+        "D": "A video recording of each disclosure conversation"
+      },
+      "answer": "C",
+      "rationale": "Clause 3254(1)(iv) requires the dealer to maintain a record of the names and addresses of all clients to whom it has provided the risk disclosure statement (and any amendments under clause (iii)) and the dates on which they were provided — the record proves delivery client by client. Options A and D substitute heavier formalities the rule does not require (the acknowledgement under clause (ii) suffices for receipt); B tracks the document rather than the clients and dates the rule specifies.",
+      "rule_refs": [
+        "IDPC 3254(1)(iv)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"maintain a record of the names and addresses of all clients to whom it has provided the statement, or similar document under clause 3254(1)(i) and any amendments under clause 3254(1)(iii) and the dates on which they were provided,\" — idpc-rules.txt ~line 5293"
+    },
+    {
+      "id": "SUP-E3-0083",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "At Calloway Futures, branch managers have been approving new derivatives accounts to speed up onboarding, leaving the designated derivatives Supervisors to handle only trade reviews. Which allocation of responsibility does IDPC section 3961 prescribe?",
+      "options": {
+        "A": "Any Approved Person may approve new derivatives accounts if the client is experienced",
+        "B": "Derivatives accounts open automatically once the trading agreement is signed",
+        "C": "New derivatives accounts require approval by the board of directors",
+        "D": "The designated Supervisors are responsible for approving new derivatives accounts and for ensuring that the handling of clients' derivatives account trading complies with Corporation requirements"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3961(1) makes the designated Supervisors responsible for approving new derivatives accounts and for ensuring the handling of clients' derivatives account trading complies with Corporation requirements — account approval is part of the designated role, not a task for any branch manager who lacks the designation. Option A loosens approval to client experience, which is not the test; C escalates a Supervisor function to the board; B removes approval entirely, contrary to the rule.",
+      "rule_refs": [
+        "IDPC 3961(1)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"The designated Supervisors are responsible for: (i) approving new derivatives accounts, and (ii) ensuring that the handling of clients' derivatives account trading complies with Corporation requirements.\" — idpc-rules.txt ~line 8292"
+    },
+    {
+      "id": "SUP-E3-0084",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Stonemoor Capital's derivatives desk plans a calling campaign inviting retail clients to enrol in a covered-call writing program. Under IDPC section 3962, what must the dealer's policies and procedures require before this campaign and the clients' resulting derivatives use can proceed?",
+      "options": {
+        "A": "The designated Supervisor must approve the solicitation of clients to use derivatives programs, as well as clients' actual use of derivatives",
+        "B": "Each client must pass a written derivatives examination administered by CIRO",
+        "C": "The campaign needs only marketing department sign-off because covered calls are low risk",
+        "D": "Solicitation of derivatives business is prohibited outright for retail clients"
+      },
+      "answer": "A",
+      "rationale": "Clause 3962(5)(i) requires policies and procedures that require the designated Supervisor to approve the solicitation of clients to use derivatives programs, as well as clients' actual use of derivatives — a two-part control covering both the outreach and the resulting activity. Option C bypasses the designated Supervisor whom the rule names regardless of strategy risk level; D converts an approval requirement into a ban; B invents a CIRO-administered client exam.",
+      "rule_refs": [
+        "IDPC 3962(5)(i)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"require the designated Supervisor to approve the solicitation of clients to use derivatives programs, as well as clients' actual use of derivatives,\" — idpc-rules.txt ~line 8323"
+    },
+    {
+      "id": "SUP-E3-0085",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A monthly derivatives review at Pencarrow Futures shows repeated speculative long crude-oil positions in an account the dealer approved strictly for hedging a client's fuel-cost exposure. Which detection item in IDPC section 3963 do these facts engage?",
+      "options": {
+        "A": "Exposures arising out of uncovered option positions",
+        "B": "Transacting while the account is under-margined",
+        "C": "Speculative transactions in hedging accounts",
+        "D": "Transactions in derivatives whose underlying interest is on the dealer's restricted list"
+      },
+      "answer": "C",
+      "rationale": "Clause 3963(1)(vi) requires the review of derivative transactions to detect speculative transactions in hedging accounts — positions unconnected to the hedged exposure in an account approved for hedging are precisely this item, and they also undermine the basis on which hedging accounts receive distinct treatment (for example, exclusion from cumulative loss limits). Options A, B and D are genuine 3963(1) detection items, but nothing in the facts shows options exposure, a margin deficiency, or a restricted-list underlying.",
+      "rule_refs": [
+        "IDPC 3963(1)(vi)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(v) exceeding derivative position or exercise limits, (vi) speculative transactions in hedging accounts,\" — idpc-rules.txt ~line 8346"
+    },
+    {
+      "id": "SUP-E3-0086",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Quenton Markets offers retail clients options and CFDs. A client phones at 11 a.m. on a trading day needing to discuss closing a complex position, but the only staff available are unlicensed customer-service agents. Which IDPC requirement is engaged?",
+      "options": {
+        "A": "Policies and procedures must ensure derivatives clients have access, during normal business hours, to a Registered Representative, Investment Representative, Portfolio Manager or Associate Portfolio Manager qualified to deal in the applicable derivatives",
+        "B": "Derivatives clients may only be served by the Chief Compliance Officer",
+        "C": "Clients must wait until the designated Supervisor's weekly office hours",
+        "D": "Unlicensed staff may advise on closing trades if a Supervisor later ratifies the call"
+      },
+      "answer": "A",
+      "rationale": "Subsection 3964(1) requires policies and procedures specifically addressing that derivatives clients have access, during normal business hours, to an RR, IR, PM or APM qualified to deal in, as applicable, options contracts and similar derivatives, the futures class, or all derivatives — staffing a derivatives line solely with unlicensed agents during market hours fails this. Option D would have unqualified persons dealing in derivatives, which qualification requirements prohibit; B and C funnel routine client access to the CCO or to weekly windows, neither of which the rule contemplates.",
+      "rule_refs": [
+        "IDPC 3964(1)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"The Dealer Member's policies and procedures must specifically address that derivatives clients have access, during normal business hours, to a Registered Representative, Investment Representative, Portfolio Manager or Associate Portfolio Manager qualified to deal in, where applicable:\" — idpc-rules.txt ~line 8365"
+    },
+    {
+      "id": "SUP-E3-0087",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Hollowtree Securities designs its first-tier monthly review for commission accounts. According to the example in CIRO's Account Supervision Guidance, which selection criterion would satisfy the requirement to design the monthly selection to detect improper account activity?",
+      "options": {
+        "A": "Reviewing the activity of all clients charged gross commissions of $1,500 or more for that month",
+        "B": "Reviewing only accounts that filed a complaint during the month",
+        "C": "Reviewing a random 1% of accounts regardless of activity",
+        "D": "Reviewing only accounts opened in the current month"
+      },
+      "answer": "A",
+      "rationale": "GN-3900-20-001 s.2.1.2 gives reviewing the activity of all clients charged gross commissions of $1,500 or more for the month as an example of a first-tier monthly selection designed to detect improper account activity; the same section requires including all non-client accounts with any activity other than dividend and interest payments. Option B waits for harm signals instead of screening; C is not designed to detect anything in particular; D reviews account age rather than activity that commission incentives can distort.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.1.2",
+        "IDPC 3945(1)",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"For example, a Dealer could review the activity of all clients charged gross commissions of $1,500 or more for that month.\" — gn-3900-20-001.txt ~line 248"
+    },
+    {
+      "id": "SUP-E3-0088",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Each trade a commission-paid Registered Representative at Aldergate Capital places looks individually suitable, yet the head office suspects the RR's overall trading level is driven by compensation. According to CIRO's Account Supervision Guidance, how should the dealer's review approach address this?",
+      "options": {
+        "A": "Review trades over a longer period, because patterns of activity may not be apparent by reviewing single trades, and issues can exist with overall account activity even if each trade is suitable",
+        "B": "Restrict reviews to single-trade screens, since suitability is determined trade by trade",
+        "C": "Stop reviewing the RR's accounts once each trade passes the daily screen",
+        "D": "Rely solely on the client to complain about excessive trading"
+      },
+      "answer": "A",
+      "rationale": "GN-3900-20-001 s.1.2 states that patterns of activity may not be apparent by reviewing single trades, and that reviewing trades over a longer period may detect issues with the overall account activity even if each trade is suitable for the client — exactly how commission-driven excessive trading is surfaced. Options B and C confine supervision to the single-trade lens the guidance warns against; D outsources detection to clients, abandoning the dealer's review obligation.",
+      "rule_refs": [
+        "GN-3900-20-001 s.1.2",
+        "IDPC 3945(2)(iii)",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"Patterns of activity may not be apparent by reviewing single trades. If a Dealer reviews trades over a longer period, they may detect issues with the overall account activity even if each trade is suitable for the client.\" — gn-3900-20-001.txt ~line 190"
+    },
+    {
+      "id": "SUP-E3-0089",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Drumlin Bay Securities runs a two-tier review system. For its second-tier monthly review, which selection criteria does CIRO's Account Supervision Guidance give as an example that would satisfy Rule 3900?",
+      "options": {
+        "A": "All accounts that traded any exchange-traded fund during the month",
+        "B": "Accounts of clients charged more than $3,000 in commission during the month, and accounts of all clients and non-clients charged more than $1,500 in commissions during the month not subject to a first-tier level review, including producing first level Supervisors' client accounts",
+        "C": "Only accounts domiciled outside Canada",
+        "D": "A fixed list of the dealer's twenty largest accounts"
+      },
+      "answer": "B",
+      "rationale": "GN-3900-20-001 s.2.2.2 gives these example criteria for second-tier monthly selection: accounts charged more than $3,000 in commission during the month, and accounts of clients and non-clients charged more than $1,500 not subject to a first-tier review, including producing first level Supervisors' client accounts — capturing both high-commission activity and accounts that escaped first-tier coverage. Option A keys selection to a product rather than commission-driven risk; C and D are arbitrary slices not designed around the supervision gaps the second tier exists to close.",
+      "rule_refs": [
+        "GN-3900-20-001 s.2.2.2",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"accounts of clients charged more than $3,000 in commission during the month, and accounts of all clients and non-clients charged more than $1,500 in commissions during the month not subject to a first-tier level review,\" — gn-3900-20-001.txt ~line 301"
+    },
+    {
+      "id": "SUP-E3-0090",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A managed account client of Ferncliff Capital negotiates a flat annual fee of $9,000 for all services to the account — the fee does not vary with trading activity, asset value changes, or performance. Under IDPC section 3281, does the dealer need a special written fee agreement before charging on this basis?",
+      "options": {
+        "A": "Yes — every managed account fee of any kind requires the section 3281 written agreement",
+        "B": "No fee of any kind may be charged on a managed account",
+        "C": "No — the written-agreement condition in 3281(1) applies to charges based upon the volume or value of transactions or contingent upon profit or performance, which a negotiated flat fee is not",
+        "D": "Yes, and the agreement must also be filed with the client's bank"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3281(1) prohibits charging a managed account client directly on a basis that is based upon the volume or value of transactions or contingent upon profit or performance unless the client has provided a written agreement setting out how such fees may be charged — a negotiated flat fee tied to neither trigger falls outside the prohibition, though its supervisory risk (service received versus fee paid) remains a 3.10 concern. Option A overextends the written-agreement condition to all fees; B converts a conditional prohibition into a total ban; D invents a bank filing.",
+      "rule_refs": [
+        "IDPC 3281(1)",
+        "Syllabus 3.10"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"(i) based upon the volume or value of transactions in the account initiated for the account, or (ii) contingent upon profit or performance of the client's account,\" — idpc-rules.txt ~line 5474"
+    },
+    {
+      "id": "SUP-E3-0091",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "A study group preparing Supervisors at Millbarrow Securities is mapping outcome 3.10 of the Supervisor Exam syllabus. At what cognitive level, and for which fee arrangements, does the syllabus frame this outcome?",
+      "options": {
+        "A": "Apply the supervisory requirements for trailer fees and switch fees",
+        "B": "Remember the maximum permitted referral fee percentage set by CIRO",
+        "C": "Analyze the conflicts of commission grids and payout ratios",
+        "D": "Understand the supervisory risks associated with negotiated flat fees and referral fees"
+      },
+      "answer": "D",
+      "rationale": "The 3.10 parameter reads: understand the supervisory risks associated with negotiated flat fees and referral fees — an Understand-level outcome about those two arrangements. Option C describes analysis of internal compensation conflicts closer to 3.9's commission/fee-based framing; A names fee types the parameter does not enumerate at an Apply level the outcome does not carry; B presumes a CIRO referral-fee cap that the syllabus parameter does not state.",
+      "rule_refs": [
+        "Syllabus 3.10"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"3.10 Understand the supervisory risks associated with negotiated flat fees and referral fees.\" — syllabus-raw.txt ~line 770"
+    },
+    {
+      "id": "SUP-E3-0092",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "item_set_id": null,
+      "scenario": null,
+      "stem": "Kestrelwood Capital's derivatives desk handles several discretionary and managed accounts that trade options. The designated Supervisor reviews these accounts monthly only, alongside ordinary retail derivatives accounts. What review frequency does IDPC section 3962 require for derivatives accounts designated as discretionary or managed?",
+      "options": {
+        "A": "Quarterly review at an aggregate level only",
+        "B": "Weekly review by the Chief Compliance Officer",
+        "C": "Annual review at the managed account committee meeting",
+        "D": "On a daily and monthly basis, the designated Supervisor must review all derivatives accounts that are designated as discretionary accounts and managed accounts"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3962(3) requires the designated Supervisor, on a daily and monthly basis, to review all derivatives accounts designated as discretionary accounts and managed accounts — discretion plus derivatives compounds supervisory risk, so the review cadence is daily and monthly, not monthly alone. Option A imports the general managed-account quarterly review under 3973, the closest distractor — that quarterly objective-pursuit review does not displace the derivatives-specific daily and monthly review; B reassigns the duty to the CCO; C confuses the committee's annual policy review with account reviews.",
+      "rule_refs": [
+        "IDPC 3962(3)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"On a daily and monthly basis, the designated Supervisor must review all derivatives accounts that are designated as discretionary accounts and managed accounts.\" — idpc-rules.txt ~line 8314"
+    },
+    {
+      "id": "SUP-E3-0093",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-03",
+      "scenario": "Northgale Digital Wealth Inc. is a CIRO Investment Dealer launching an online advice platform for retail clients. Clients complete a web questionnaire; portfolios of exchange-traded funds are then managed on a continuing basis by the firm's Portfolio Managers under managed account agreements, with rebalancing decisions made centrally and applied across all platform accounts. The platform charges a single asset-based fee and no trade commissions; under written client consents, Northgale does not send individual trade confirmations and instead sends compliant monthly statements. To launch quickly, the product team also wants Northgale's separate self-directed division to give platform clients occasional ETF picks. Chief Compliance Officer Idris Banerjee is reviewing the launch plan, including how the new accounts are classified, what must happen before each account opens, and how the centrally managed portfolios will be reviewed.",
+      "stem": "Banerjee first confirms the account classification. Given that investment decisions for platform clients are made on a continuing basis by Northgale's Portfolio Managers, and the accounts are subject to a suitability determination, how should these online advice accounts be classified under IDPC Rule 1200?",
+      "options": {
+        "A": "As order execution only accounts, because clients interact through a website",
+        "B": "As managed accounts, because investment decisions are made on a continuing basis by a Portfolio Manager and the dealer and Portfolio Manager are responsible for all investment decisions made",
+        "C": "As direct electronic access accounts under NI 23-103",
+        "D": "As discretionary accounts limited to a 12-month term"
+      },
+      "answer": "B",
+      "rationale": "The Rule 1200 managed account definition fits: an account subject to a suitability determination where investment decisions are made on a continuing basis by a Portfolio Manager or Associate Portfolio Manager or a third party hired by the dealer, with the dealer (or third party) and the PM/APM responsible for all investment decisions — the web interface is the delivery channel, not the classification driver. Option A fails because OEO accounts involve no recommendations and the client is solely responsible for decisions; C describes marketplace access without recommendations; D is the temporary unsolicited-accommodation regime, not continuing professional management.",
+      "rule_refs": [
+        "IDPC 1201 (definition of managed account)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(ii) the Dealer Member, or a third party hired by the Dealer Member, and the Portfolio Manager or Associate Portfolio Manager are responsible for all investment decisions made.\" — idpc-rules.txt ~line 532"
+    },
+    {
+      "id": "SUP-E3-0094",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-03",
+      "scenario": "Northgale Digital Wealth Inc. is a CIRO Investment Dealer launching an online advice platform for retail clients. Clients complete a web questionnaire; portfolios of exchange-traded funds are then managed on a continuing basis by the firm's Portfolio Managers under managed account agreements, with rebalancing decisions made centrally and applied across all platform accounts. The platform charges a single asset-based fee and no trade commissions; under written client consents, Northgale does not send individual trade confirmations and instead sends compliant monthly statements. To launch quickly, the product team also wants Northgale's separate self-directed division to give platform clients occasional ETF picks. Chief Compliance Officer Idris Banerjee is reviewing the launch plan, including how the new accounts are classified, what must happen before each account opens, and how the centrally managed portfolios will be reviewed.",
+      "stem": "The launch checklist for each platform account ends with the managed account agreement and a welcome email. Banerjee flags two missing steps from IDPC section 3277. Which pair completes the account-opening requirements?",
+      "options": {
+        "A": "CIRO pre-approval of each account, and a client interview at a physical branch",
+        "B": "An annual fee rebate election, and a paper copy of the IDPC Rules",
+        "C": "Written approval of each managed account by the designated Supervisor, and providing the client with a copy of the dealer's policy ensuring fair allocation of investment opportunities",
+        "D": "A margin agreement, and a leverage risk disclosure statement"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3277(1) requires, among other things, that the designated Supervisor approve each managed account in writing (with the approval record retained) and that the dealer provide the client with a copy of its policy ensuring fair allocation of investment opportunities — both fit naturally before a centrally managed platform account begins trading. Option A inserts regulator pre-approval and an in-person interview that the rule does not require; D lists documents tied to margin lending and borrowed-money investing, not managed account opening as such; B invents documents with no basis in 3277.",
+      "rule_refs": [
+        "IDPC 3277(1)(iv)",
+        "IDPC 3277(1)(vi)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(iv) the designated Supervisor must approve each managed account in writing, (v) the Dealer Member must retain a record of the designated Supervisor's approval, and (vi) the Dealer Member must provide the client with a copy of its policy ensuring fair allocation of investment opportunities.\" — idpc-rules.txt ~line 5416"
+    },
+    {
+      "id": "SUP-E3-0095",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-03",
+      "scenario": "Northgale Digital Wealth Inc. is a CIRO Investment Dealer launching an online advice platform for retail clients. Clients complete a web questionnaire; portfolios of exchange-traded funds are then managed on a continuing basis by the firm's Portfolio Managers under managed account agreements, with rebalancing decisions made centrally and applied across all platform accounts. The platform charges a single asset-based fee and no trade commissions; under written client consents, Northgale does not send individual trade confirmations and instead sends compliant monthly statements. To launch quickly, the product team also wants Northgale's separate self-directed division to give platform clients occasional ETF picks. Chief Compliance Officer Idris Banerjee is reviewing the launch plan, including how the new accounts are classified, what must happen before each account opens, and how the centrally managed portfolios will be reviewed.",
+      "stem": "A junior compliance analyst asks Banerjee why the platform may lawfully skip individual trade confirmations on the ETF rebalancing trades. Which combination of conditions in IDPC section 3816 supports Northgale's practice for these dealer-managed accounts?",
+      "options": {
+        "A": "Prior written client consent to waive the confirmation requirement, no commissions or fees based on the volume or value of transactions, and a monthly statement containing the prescribed confirmation information",
+        "B": "Verbal consent from the client obtained during onboarding calls",
+        "C": "An exemption that applies automatically to all ETF trades",
+        "D": "A quarterly compliant trade percentage of at least 85% for two of the last four quarters"
+      },
+      "answer": "A",
+      "rationale": "Sub-clause 3816(2)(x)(a) permits omitting confirmations for managed account trades where, before the trade, the client consented in writing to waive the requirement (terminable on written notice), confirmation is not required under applicable securities laws or an exemption exists, and — where the dealer manages the account — the account is charged no volume- or value-based commissions or fees and the client receives a compliant monthly statement with the confirmation content. Option D states the DAP/RAP trade-matching condition from 3816(2)(x)(b), the closest distractor — a different waiver stream; B fails the written-consent form; C invents a product-class exemption.",
+      "rule_refs": [
+        "IDPC 3816(2)(x)(a)",
+        "Syllabus 3.6"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(I) prior to the trade, the client has consented in writing to waive the trade confirmation requirement,\" — idpc-rules.txt ~line 7669"
+    },
+    {
+      "id": "SUP-E3-0096",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-03",
+      "scenario": "Northgale Digital Wealth Inc. is a CIRO Investment Dealer launching an online advice platform for retail clients. Clients complete a web questionnaire; portfolios of exchange-traded funds are then managed on a continuing basis by the firm's Portfolio Managers under managed account agreements, with rebalancing decisions made centrally and applied across all platform accounts. The platform charges a single asset-based fee and no trade commissions; under written client consents, Northgale does not send individual trade confirmations and instead sends compliant monthly statements. To launch quickly, the product team also wants Northgale's separate self-directed division to give platform clients occasional ETF picks. Chief Compliance Officer Idris Banerjee is reviewing the launch plan, including how the new accounts are classified, what must happen before each account opens, and how the centrally managed portfolios will be reviewed.",
+      "stem": "Northgale's separate self-directed division opens order execution only accounts online. Banerjee asks what the division must obtain from each new OEO client — beyond delivering the prescribed written disclosures — before the account opens, and in what form the record may be kept. Which answer is correct?",
+      "options": {
+        "A": "A positive acknowledgement from the client, and each beneficial owner of the account, confirming they received and understood the disclosures, recorded as a signature or initials on a form, an electronic acknowledgement attached to the disclosure text, or a tape recording of a verbal acknowledgement",
+        "B": "A notarized statutory declaration from the client only, renewed annually",
+        "C": "Nothing further — delivering the disclosures completes the OEO opening requirements",
+        "D": "A suitability questionnaire completed by each beneficial owner"
+      },
+      "answer": "A",
+      "rationale": "Clause 3241(3)(ii) requires, prior to opening an OEO account, a positive acknowledgement from the client and each beneficial owner confirming receipt and understanding of the clause 3241(3)(i) disclosures, and subsection 3241(4) prescribes the acceptable record forms: the client's signature or initials on a form specifically related to the disclosure and acknowledgement, an electronic acknowledgement attached to the text, or a tape recording of a verbal acknowledgement. Option C stops at delivery and misses the acknowledgement — the closest distractor; D contradicts the OEO model, where no suitability determination is made; B invents notarization and renewal formalities.",
+      "rule_refs": [
+        "IDPC 3241(3)(ii)",
+        "IDPC 3241(4)",
+        "Syllabus 3.3"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"obtain a positive acknowledgement from the client, and each beneficial owner of the account, confirming that the client, and each beneficial owner, has received and understood the disclosures described in clause 3241(3)(i).\" — idpc-rules.txt ~line 5014"
+    },
+    {
+      "id": "SUP-E3-0097",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-04",
+      "scenario": "Briarholm Institutional Markets Inc. is a CIRO Investment Dealer whose clients are predominantly pension funds, asset managers and other large non-individual clients. Most clients settle through custodians on a delivery against payment / receipt against payment basis, and several have signed written waivers of trade confirmations under the institutional trade-matching regime; Briarholm's quarterly compliant trade percentages have ranged between 88% and 93% for the past year. One prospective client, Selkirk Pension Trust, has a master account with several sub-accounts. Another prospect, Vontara Holdings Inc., manages $8 million in securities and asks to be treated as an institutional client. Head of supervision Mireille Castonguay is reviewing classification, documentation and supervisory screens for the institutional book.",
+      "stem": "Castonguay reviews Vontara Holdings Inc., a non-individual with $8 million of securities under management and no other qualifying status. Can Briarholm classify Vontara as an institutional client under the IDPC Rule 1200 definition?",
+      "options": {
+        "A": "Yes — any corporation is automatically an institutional client",
+        "B": "Yes, if Vontara signs a request-and-consent form, regardless of asset level",
+        "C": "No — as a non-individual it must have total securities and precious metals bullion under administration or management exceeding $10 million (absent another qualifying branch), and $8 million does not meet that threshold",
+        "D": "No — only individuals can be institutional clients"
+      },
+      "answer": "C",
+      "rationale": "Branch (v) of the institutional client definition requires a non-individual to have total securities and precious metals bullion under administration or management exceeding $10 million; Vontara's $8 million does not qualify, and the facts give no acceptable-counterparty, acceptable-institution, regulated-entity, registrant or hedger basis. Option B is the closest distractor: request-and-consent features in branches (vi) (individuals over $10 million) and (vii) (hedgers), but consent does not substitute for the non-individual asset threshold; A and D contradict the multi-branch structure of the definition.",
+      "rule_refs": [
+        "IDPC 1201 (definition of institutional client)",
+        "Syllabus 3.4"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"(v) a non-individual with total securities and precious metals bullion under administration or management exceeding $10 million,\" — idpc-rules.txt ~line 478"
+    },
+    {
+      "id": "SUP-E3-0098",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-04",
+      "scenario": "Briarholm Institutional Markets Inc. is a CIRO Investment Dealer whose clients are predominantly pension funds, asset managers and other large non-individual clients. Most clients settle through custodians on a delivery against payment / receipt against payment basis, and several have signed written waivers of trade confirmations under the institutional trade-matching regime; Briarholm's quarterly compliant trade percentages have ranged between 88% and 93% for the past year. One prospective client, Selkirk Pension Trust, has a master account with several sub-accounts. Another prospect, Vontara Holdings Inc., manages $8 million in securities and asks to be treated as an institutional client. Head of supervision Mireille Castonguay is reviewing classification, documentation and supervisory screens for the institutional book.",
+      "stem": "Selkirk Pension Trust, an institutional client, will open several sub-accounts under its master file, including an order execution only trade account. Beyond complying with the applicable parts of Rule 3200, what does IDPC section 3240 require for the institutional client's sub-account files?",
+      "options": {
+        "A": "Each sub-account file must contain duplicate originals of every master-file document",
+        "B": "The sub-account files of an institutional client must refer to the documentation contained in the master file to which it is related",
+        "C": "Sub-accounts of institutional clients are exempt from all documentation",
+        "D": "Each sub-account requires a separate CIRO approval number"
+      },
+      "answer": "B",
+      "rationale": "Clause 3240(2)(ii) requires the dealer opening an order execution only account for an institutional client to ensure the sub-account files refer to the documentation contained in the related master file — a cross-reference structure rather than duplication, fitting how institutional master/sub-account documentation works. Option A demands the duplication the cross-reference mechanism avoids; C overstates the institutional accommodations (sections 3216 through 3219 are excepted, not all documentation); D invents per-sub-account regulator approvals.",
+      "rule_refs": [
+        "IDPC 3240(2)(ii)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"ensure the sub-account files of an institutional client refer to the documentation contained in the master file to which it is related.\" — idpc-rules.txt ~line 4979"
+    },
+    {
+      "id": "SUP-E3-0099",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-04",
+      "scenario": "Briarholm Institutional Markets Inc. is a CIRO Investment Dealer whose clients are predominantly pension funds, asset managers and other large non-individual clients. Most clients settle through custodians on a delivery against payment / receipt against payment basis, and several have signed written waivers of trade confirmations under the institutional trade-matching regime; Briarholm's quarterly compliant trade percentages have ranged between 88% and 93% for the past year. One prospective client, Selkirk Pension Trust, has a master account with several sub-accounts. Another prospect, Vontara Holdings Inc., manages $8 million in securities and asks to be treated as an institutional client. Head of supervision Mireille Castonguay is reviewing classification, documentation and supervisory screens for the institutional book.",
+      "stem": "A pension-fund client that signed a DAP/RAP confirmation waiver two years ago writes to Briarholm stating it now wants trade confirmations again. How does IDPC section 3816 treat this request?",
+      "options": {
+        "A": "The waiver is irrevocable for the life of the account",
+        "B": "The client may terminate the waiver only at calendar year-end",
+        "C": "The client may terminate the trade confirmation waiver by providing a written notice, and the termination takes effect upon the dealer's receipt of the notice",
+        "D": "Termination requires CIRO's prior written approval"
+      },
+      "answer": "C",
+      "rationale": "Sub-clause 3816(2)(x)(b) closes with: a client may terminate their trade confirmation waiver by providing a written notice confirming this fact to the dealer, and the termination notice takes effect upon the dealer's receipt of the notice — the waiver is a client accommodation the client can withdraw. Option A makes the waiver permanent, contrary to the express termination mechanism; B adds a timing window that does not exist; D inserts the regulator into a bilateral client-dealer arrangement.",
+      "rule_refs": [
+        "IDPC 3816(2)(x)(b)",
+        "Syllabus 3.5"
+      ],
+      "difficulty": "medium",
+      "status": "reviewed",
+      "source_quote": "\"A client may terminate their trade confirmation waiver, referred to in sub-clause 3816(2)(x)(b), by providing a written notice confirming this fact to the Dealer Member. The termination notice takes effect upon the Dealer Member's receipt of the notice.\" — idpc-rules.txt ~line 7742"
+    },
+    {
+      "id": "SUP-E3-0100",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-04",
+      "scenario": "Briarholm Institutional Markets Inc. is a CIRO Investment Dealer whose clients are predominantly pension funds, asset managers and other large non-individual clients. Most clients settle through custodians on a delivery against payment / receipt against payment basis, and several have signed written waivers of trade confirmations under the institutional trade-matching regime; Briarholm's quarterly compliant trade percentages have ranged between 88% and 93% for the past year. One prospective client, Selkirk Pension Trust, has a master account with several sub-accounts. Another prospect, Vontara Holdings Inc., manages $8 million in securities and asks to be treated as an institutional client. Head of supervision Mireille Castonguay is reviewing classification, documentation and supervisory screens for the institutional book.",
+      "stem": "Briarholm executes exchange-traded futures for an institutional client under a give-up agreement; Calverley Clearing Corp., another Dealer Member, clears and settles. Castonguay asks whether Briarholm, as executing broker, must send the client a confirmation for each transaction. Under IDPC section 3816, when is Briarholm relieved of that obligation?",
+      "options": {
+        "A": "When the client, executing dealer and clearing dealer are parties to the give-up agreement, the clearing dealer is responsible under the agreement for issuing the transaction confirmation to the client, and the executing dealer provides limited execution service without maintaining client account documentation or holding the client's money, securities, margin or collateral",
+        "B": "Whenever the client is institutional, with no other conditions",
+        "C": "Never — both the executing and clearing dealers must each send a confirmation",
+        "D": "Only if the transaction is under $50,000 in notional value"
+      },
+      "answer": "A",
+      "rationale": "Sub-clause 3816(2)(x)(d) relieves the executing dealer for a derivatives transaction executed for an institutional client under a give-up agreement where the client, executing dealer and clearing dealer are all parties, the clearing dealer is responsible under the agreement for issuing the confirmation, and the executing dealer executes per the client's give-up instructions, provides limited execution service without maintaining account documentation or receiving the client's money, securities, margin or collateral, and invoices the clearing dealer monthly for reconciliation. Option B drops every condition except client status; C requires double confirmations the provision is designed to avoid; D invents a notional cap.",
+      "rule_refs": [
+        "IDPC 3816(2)(x)(d)",
+        "Syllabus 3.8"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"(II) the clearing Dealer Member is responsible, under the give-up agreement, for issuing the transaction confirmation to the client, and\" — idpc-rules.txt ~line 7760"
+    },
+    {
+      "id": "SUP-E3-0101",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-05",
+      "scenario": "Silvermarsh Securities Ltd. is a full-service CIRO Investment Dealer. Its retail advisory division compensates Registered Representatives by commission; a growing wrap program charges asset-based fees with no per-trade commissions; and a small order execution only channel lets self-directed clients trade the same shelf without recommendations. The product shelf includes leveraged ETFs, principal-at-risk notes and exchange-traded options. During a supervision overhaul, the firm discovers that: (1) its product committee approved a leveraged ETF two years ago but the prospectus has since been amended to double the fund's management fee and shift its reset mechanics, with no re-examination by the committee; (2) a commission-paid RR, Dario Velez, shows monthly commissions just below the firm's $1,500 first-tier monthly review selection level across many small accounts; and (3) several wrap-program accounts have had no trades, no rebalancing and no documented client contact in 18 months while fees accrue. Supervision head Lavinia Okafor must decide how each finding maps to CIRO requirements.",
+      "stem": "Okafor notes that self-directed clients buy the leveraged ETF through Silvermarsh's order execution only channel with no Approved Person involved. A branch Supervisor asks whether the know-your-product obligation in IDPC section 3302 applies to those OEO purchases. What does section 3303 provide?",
+      "options": {
+        "A": "Section 3302 applies with extra force in OEO accounts because no advisor is present",
+        "B": "Section 3302 does not apply in respect to an order execution only account or a direct electronic access account",
+        "C": "Section 3302 applies only if the ETF's leverage exceeds two times",
+        "D": "Section 3302 is replaced in OEO accounts by a CIRO-administered client quiz"
+      },
+      "answer": "B",
+      "rationale": "Subsection 3303(2) exempts order execution only accounts and direct electronic access accounts (and carrying-broker / execution-clearing-settlement-custody-only accounts) from the section 3302 know-your-product obligation — KYP attaches to an Approved Person's purchases, sales and recommendations, and in these channels no recommendation is given; this is precisely why complex products such as leveraged ETFs reaching self-directed clients carry a distinct supervisory risk profile. Option A inverts the exemption; note the dealer-level product due diligence in 3301 still applies to what the dealer makes available — the exemption is from AP-level KYP; C invents a leverage threshold; D invents a quiz regime.",
+      "rule_refs": [
+        "IDPC 3303(2)",
+        "Syllabus 3.7"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"Section 3302 does not apply in respect to: (i) an order execution only account, (ii) a direct electronic access account, or\" — idpc-rules.txt ~line 5514"
+    },
+    {
+      "id": "SUP-E3-0102",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-05",
+      "scenario": "Silvermarsh Securities Ltd. is a full-service CIRO Investment Dealer. Its retail advisory division compensates Registered Representatives by commission; a growing wrap program charges asset-based fees with no per-trade commissions; and a small order execution only channel lets self-directed clients trade the same shelf without recommendations. The product shelf includes leveraged ETFs, principal-at-risk notes and exchange-traded options. During a supervision overhaul, the firm discovers that: (1) its product committee approved a leveraged ETF two years ago but the prospectus has since been amended to double the fund's management fee and shift its reset mechanics, with no re-examination by the committee; (2) a commission-paid RR, Dario Velez, shows monthly commissions just below the firm's $1,500 first-tier monthly review selection level across many small accounts; and (3) several wrap-program accounts have had no trades, no rebalancing and no documented client contact in 18 months while fees accrue. Supervision head Lavinia Okafor must decide how each finding maps to CIRO requirements.",
+      "stem": "On finding (3), a colleague argues the dormant wrap accounts need no review attention because they generate no commissions and trigger no commission-based screens. Why is this position inconsistent with IDPC section 3945?",
+      "options": {
+        "A": "Wrap accounts must be closed automatically after 12 months without trades",
+        "B": "Because dormant accounts can only be reviewed by CIRO examiners",
+        "C": "Commission screens are the only selection method Rule 3900 recognizes",
+        "D": "The dealer must have policies and procedures that specifically address supervising retail client accounts where a commission is not charged for trades, and those policies must use criteria other than commission levels"
+      },
+      "answer": "D",
+      "rationale": "Subsection 3945(3) requires policies and procedures specifically addressing the supervision of retail accounts where no commission is charged for trades, such as fee based accounts, which must address account activity review requirements and use criteria other than commission levels — fee-accruing accounts with no activity or service are exactly what non-commission criteria are meant to surface. Option C is the inverse of the rule; A invents an automatic-closure rule; B abdicates the dealer's own supervision obligation to the regulator.",
+      "rule_refs": [
+        "IDPC 3945(3)",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "easy",
+      "status": "reviewed",
+      "source_quote": "\"These policies and procedures must: (i) address account activity review Corporation requirements, and (ii) use criteria other than commission levels.\" — idpc-rules.txt ~line 8177"
+    },
+    {
+      "id": "SUP-E3-0103",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Analyze",
+      "type": "item_set",
+      "item_set_id": "E3-SET-05",
+      "scenario": "Silvermarsh Securities Ltd. is a full-service CIRO Investment Dealer. Its retail advisory division compensates Registered Representatives by commission; a growing wrap program charges asset-based fees with no per-trade commissions; and a small order execution only channel lets self-directed clients trade the same shelf without recommendations. The product shelf includes leveraged ETFs, principal-at-risk notes and exchange-traded options. During a supervision overhaul, the firm discovers that: (1) its product committee approved a leveraged ETF two years ago but the prospectus has since been amended to double the fund's management fee and shift its reset mechanics, with no re-examination by the committee; (2) a commission-paid RR, Dario Velez, shows monthly commissions just below the firm's $1,500 first-tier monthly review selection level across many small accounts; and (3) several wrap-program accounts have had no trades, no rebalancing and no documented client contact in 18 months while fees accrue. Supervision head Lavinia Okafor must decide how each finding maps to CIRO requirements.",
+      "stem": "On finding (2), Velez's commission totals sit just under the $1,500 first-tier monthly selection level, spread across many small accounts. Drawing on CIRO's Account Supervision Guidance, what should Okafor conclude about Silvermarsh's review design?",
+      "options": {
+        "A": "No change is needed — activity below a dollar threshold is conclusively proper",
+        "B": "The dealer should exercise reasonable judgment in selecting items for further investigation and is not limited to threshold screens; reviews over a longer period can reveal patterns not apparent from single trades or single-month screens",
+        "C": "The first-tier threshold must be lowered to zero so every account is fully reviewed monthly",
+        "D": "Velez should be asked to self-certify that his trading is suitable"
+      },
+      "answer": "B",
+      "rationale": "GN-3900-20-001's executive summary states the dealer is not required to investigate every trade meeting the criteria but should exercise reasonable judgment in selecting items for further investigation, and s.1.2 adds that patterns may not be apparent from single trades — commission totals hovering just below a fixed screen across many accounts are a pattern reasonable judgment should catch. Option A treats the screen as a safe harbour, the very gaming the guidance's judgment standard addresses; C overcorrects to a full-population review the guidance does not demand (it acknowledges dealers may not be able to review every statement); D substitutes self-certification for supervision.",
+      "rule_refs": [
+        "GN-3900-20-001 (Executive Summary)",
+        "GN-3900-20-001 s.1.2",
+        "Syllabus 3.9"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"A Dealer is not required to enquire into or investigate every trade that meets the criteria in Rule 3900 or this Guidance, but should exercise reasonable judgment in selecting items for further investigation.\" — gn-3900-20-001.txt ~line 39"
+    },
+    {
+      "id": "SUP-E3-0104",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Understand",
+      "type": "item_set",
+      "item_set_id": "E3-SET-05",
+      "scenario": "Silvermarsh Securities Ltd. is a full-service CIRO Investment Dealer. Its retail advisory division compensates Registered Representatives by commission; a growing wrap program charges asset-based fees with no per-trade commissions; and a small order execution only channel lets self-directed clients trade the same shelf without recommendations. The product shelf includes leveraged ETFs, principal-at-risk notes and exchange-traded options. During a supervision overhaul, the firm discovers that: (1) its product committee approved a leveraged ETF two years ago but the prospectus has since been amended to double the fund's management fee and shift its reset mechanics, with no re-examination by the committee; (2) a commission-paid RR, Dario Velez, shows monthly commissions just below the firm's $1,500 first-tier monthly review selection level across many small accounts; and (3) several wrap-program accounts have had no trades, no rebalancing and no documented client contact in 18 months while fees accrue. Supervision head Lavinia Okafor must decide how each finding maps to CIRO requirements.",
+      "stem": "As part of the overhaul, Silvermarsh proposes paying its wrap-program Portfolio Managers a quarterly bonus equal to a percentage of each managed account's investment gains, arguing this aligns the PMs with clients. Under IDPC section 3281, how does this proposal differ from the negotiated client fee arrangements the rule permits?",
+      "options": {
+        "A": "It is permitted because section 3281 regulates only client charges, never internal compensation",
+        "B": "It is permitted if each client signs the written fee agreement contemplated by 3281(1)",
+        "C": "It is prohibited — 3281(2) bars compensating persons authorized to deal with managed accounts on the basis of the value or volume of transactions, and the 3281(1) written-agreement relief applies only to fees charged directly to clients, not to internal compensation",
+        "D": "It is prohibited only if the bonus exceeds 25% of base salary"
+      },
+      "answer": "C",
+      "rationale": "Subsection 3281(1)'s written-agreement mechanism governs what the dealer may charge the client directly — including performance-contingent fees with a written agreement — while 3281(2) separately prohibits compensating a person referred to in section 3279 on the basis of the value or volume of transactions in the account, with no written-agreement cure; a transaction-driven internal bonus cannot be papered over with client consent. Option B applies the client-fee relief to the wrong relationship — the closest distractor; A reads 3281(2) out of the rule; D invents a percentage threshold.",
+      "rule_refs": [
+        "IDPC 3281(1)",
+        "IDPC 3281(2)",
+        "Syllabus 3.10"
+      ],
+      "difficulty": "hard",
+      "status": "reviewed",
+      "source_quote": "\"unless the client has provided the Dealer Member with a written agreement which sets out the manner in which the fees may be charged based on volume or value of transactions or contingent upon profit or performance.\" — idpc-rules.txt ~line 5476"
+    }
+  ]
+}

@@ -27,7 +27,7 @@ CIRO/
 │       ├── schema.json                 JSON Schema for cards
 │       └── batches/                    provenance: per-element decks (incl. 1 killed card)
 └── question-bank/             ← question data (INGEST bank.json ONLY)
-    ├── bank.json                       MASTER BANK — 493 reviewed items
+    ├── bank.json                       MASTER BANK — 1,177 reviewed items
     ├── schema.json                     JSON Schema for items
     ├── PIPELINE.md                     strict QA process + status ledger (how items get made)
     ├── qa-log.md                       per-run gate results and adjudications
@@ -62,7 +62,7 @@ Guaranteed fields per item:
 
 Optional fields: `item_set_id` + `scenario` (item_set items only — scenario text is denormalized onto every item of the set; group by `item_set_id`, render scenario once); `source_quote` (verbatim supporting quote + source locator — present on 448 of 493 items; show in an expandable "source" affordance if desired); `qa_note`.
 
-Current composition: 643 items · per element 1:55, 2:55, 3:54, 4:110, 5:108, 6:103, 7:52, 8:54, 9:52 · 548 standard + 95 item-set (15%) · keys A:161 B:177 C:163 D:142 · 598 of 643 carry `source_quote`. Supports 5 fully distinct 90-question mock forms (binding constraint: E4 at 110 vs 20/form).
+Current composition (after wave 7, 2026-06-05): 1,066 items · per element 1:105, 2:105, 3:104, 4:158, 5:156, 6:153, 7:96, 8:104, 9:85 · item-set share 18% · keys A:264 B:284 C:273 D:245. Supports 7 fully distinct 90-question mock forms (E4 at 158/20 binding until wave 8's E4-004 lands). Wave 8 remains scheduled (6:20am); wave process: question-bank/DRAFTING-SPEC.md; per-run results: qa-log.md.
 
 ### `study-material/flashcards/cards.json` — crash-course study layer
 
