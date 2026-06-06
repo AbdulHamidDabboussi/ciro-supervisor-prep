@@ -8,6 +8,8 @@ interface DataContextValue extends CoreData {
   outcomesByElement: Map<number, Outcome[]>
   // Heavy data — loaded in the background after first paint.
   questionsReady: boolean
+  questionsError: string | null
+  retryQuestions: () => void
   bank: HeavyData['bank'] | null
   deck: HeavyData['deck'] | null
   reviewedQuestions: Question[]
@@ -23,6 +25,8 @@ type CoreState =
 export function DataProvider({ children }: { children: ReactNode }) {
   const [core, setCore] = useState<CoreState>({ status: 'loading' })
   const [heavy, setHeavy] = useState<HeavyData | null>(null)
+  const [heavyError, setHeavyError] = useState<string | null>(null)
+  const [attempt, setAttempt] = useState(0)
 
   // Phase 1 — small files; blocks first paint (fast).
   useEffect(() => {
@@ -36,18 +40,18 @@ export function DataProvider({ children }: { children: ReactNode }) {
   }, [])
 
   // Phase 2 — the 2.3 MB bank + flashcards; kicks off once core is ready, in the background.
+  // On failure we surface an error + retry instead of an endless loader.
   useEffect(() => {
     if (core.status !== 'ready') return
     let cancelled = false
+    setHeavyError(null)
     loadHeavy()
       .then((h) => !cancelled && setHeavy(h))
-      .catch(() => {
-        /* pages that need questions keep showing their loader; core UI stays usable */
-      })
+      .catch((e) => !cancelled && setHeavyError(String(e?.message ?? e)))
     return () => {
       cancelled = true
     }
-  }, [core.status])
+  }, [core.status, attempt])
 
   const value = useMemo<DataContextValue | null>(() => {
     if (core.status !== 'ready') return null
@@ -66,11 +70,17 @@ export function DataProvider({ children }: { children: ReactNode }) {
       elementsById,
       outcomesByElement,
       questionsReady: !!heavy,
+      questionsError: heavyError,
+      retryQuestions: () => {
+        setHeavy(null)
+        setHeavyError(null)
+        setAttempt((a) => a + 1)
+      },
       bank: heavy?.bank ?? null,
       deck: heavy?.deck ?? null,
       reviewedQuestions,
     }
-  }, [core, heavy])
+  }, [core, heavy, heavyError])
 
   if (core.status === 'loading') {
     return (
@@ -101,8 +111,23 @@ export function useData(): DataContextValue {
   return ctx
 }
 
-/** Small inline loader for pages that need the (lazily-loaded) question bank. */
-export function QuestionsLoading({ label = 'Loading questions…' }: { label?: string }) {
+/**
+ * Inline status for pages that need the (lazily-loaded) question bank: a loader while
+ * the background fetch is in flight, or an error + retry if it failed.
+ */
+export function QuestionsStatus({ label = 'Loading questions…' }: { label?: string }) {
+  const { questionsError, retryQuestions } = useData()
+  if (questionsError) {
+    return (
+      <div className="card p-10 text-center">
+        <p className="text-sm font-semibold text-red-600">Couldn’t load the question bank</p>
+        <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">{questionsError}</p>
+        <button className="btn-primary mt-4" onClick={retryQuestions}>
+          Retry
+        </button>
+      </div>
+    )
+  }
   return (
     <div className="card p-10 text-center text-sm text-slate-500 dark:text-slate-400">
       <span className="animate-pulse">{label}</span>

@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useData, QuestionsLoading } from '../data/DataContext'
+import { useData, QuestionsStatus } from '../data/DataContext'
 import { useProgress } from '../store/progress'
 import { Badge, PageHeading, ProgressBar } from '../components/ui'
 import type { Flashcard } from '../types'
@@ -113,7 +113,7 @@ export default function Flashcards() {
     return (
       <div>
         <PageHeading title="Flashcards" subtitle="Crash-course decks, one fact per card." />
-        <QuestionsLoading label="Loading flashcards…" />
+        <QuestionsStatus label="Loading flashcards…" />
       </div>
     )
   }
@@ -247,6 +247,27 @@ export default function Flashcards() {
                 </div>
               </div>
             </button>
+          )}
+
+          {card && (
+            <div className="mt-4 text-center">
+              {card.related_questions && card.related_questions.length > 0 ? (
+                <Link
+                  to={`/drill?ids=${card.related_questions.join(',')}`}
+                  className="text-sm font-medium text-brand-600 hover:underline dark:text-brand-300"
+                >
+                  Practice {card.related_questions.length} related question
+                  {card.related_questions.length === 1 ? '' : 's'} →
+                </Link>
+              ) : (
+                <Link
+                  to={`/drill?element=${card.element}&outcome=${card.outcome}`}
+                  className="text-sm font-medium text-brand-600 hover:underline dark:text-brand-300"
+                >
+                  Practice questions for outcome {card.outcome} →
+                </Link>
+              )}
+            </div>
           )}
 
           <div className="mt-5 flex items-center justify-between gap-3">

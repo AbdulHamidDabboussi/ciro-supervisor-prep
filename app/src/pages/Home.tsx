@@ -36,6 +36,7 @@ const MODES = [
 export default function Home() {
   const { manifest, examMeta } = useData()
   const drill = useProgress((s) => s.drill)
+  const cardStatus = useProgress((s) => s.cards)
   const mockHistory = useProgress((s) => s.mockHistory)
   const resetAll = useProgress((s) => s.resetAll)
 
@@ -46,7 +47,9 @@ export default function Home() {
   const mockInProgress = mockStatus === 'running' || mockStatus === 'paused'
 
   const attempted = Object.keys(drill).length
+  const cardsReviewed = Object.keys(cardStatus).length
   const lastMock = mockHistory[0]
+  const hasProgress = attempted > 0 || mockHistory.length > 0 || cardsReviewed > 0
   const [confirmReset, setConfirmReset] = useState(false)
 
   return (
@@ -87,10 +90,11 @@ export default function Home() {
         </div>
       </section>
 
-      {(attempted > 0 || lastMock) && (
+      {hasProgress && (
         <section className="card p-5">
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <Stat label="Questions attempted" value={`${attempted}`} sub={`of ${manifest.questions}`} />
+            <Stat label="Flashcards reviewed" value={`${cardsReviewed}`} sub={`of ${manifest.cards}`} />
             <Stat
               label="Last mock score"
               value={lastMock ? `${lastMock.overallPct}%` : '—'}
@@ -98,7 +102,10 @@ export default function Home() {
             />
             <Stat label="Mock exams taken" value={`${mockHistory.length}`} sub="saved on this device" />
           </div>
-          <div className="mt-4 border-t border-slate-200 pt-3 text-right dark:border-slate-800">
+          <div className="mt-4 flex items-center justify-between border-t border-slate-200 pt-3 dark:border-slate-800">
+            <Link to="/progress" className="text-xs font-medium text-brand-600 hover:underline dark:text-brand-300">
+              View detailed progress →
+            </Link>
             <button
               onClick={() => setConfirmReset(true)}
               className="text-xs font-medium text-slate-500 transition hover:text-red-600 dark:text-slate-400 dark:hover:text-red-400"
