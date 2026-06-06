@@ -219,14 +219,14 @@ export default function Drill() {
             <option value="all">Any difficulty</option>
             {DIFFICULTIES.map((d) => (
               <option key={d} value={d}>
-                {d}
+                {d[0].toUpperCase() + d.slice(1)}
               </option>
             ))}
           </select>
         </Field>
-        <Field label="Skill level">
+        <Field label="Skill type">
           <select className="field w-full" value={taxonomy} onChange={(e) => setTaxonomy(e.target.value)}>
-            <option value="all">Any skill</option>
+            <option value="all">Any skill type</option>
             {TAXONOMIES.map((t) => (
               <option key={t} value={t}>
                 {t}
