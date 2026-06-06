@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { useSearchParams } from 'react-router-dom'
-import { useData, QuestionsLoading } from '../data/DataContext'
+import { Link, useSearchParams } from 'react-router-dom'
+import { useData, QuestionsStatus } from '../data/DataContext'
 import { useProgress } from '../store/progress'
 import { QuestionCard } from '../components/QuestionCard'
 import { PageHeading } from '../components/ui'
@@ -39,13 +39,21 @@ export default function Drill() {
     return f === 'misses' || f === 'bookmarked' ? f : 'all'
   })
   const [element, setElement] = useState<string>(() => params.get('element') ?? 'all')
-  const [outcome, setOutcome] = useState<string>('all')
+  const [outcome, setOutcome] = useState<string>(() => params.get('outcome') ?? 'all')
   const [difficulty, setDifficulty] = useState<string>('all')
   const [taxonomy, setTaxonomy] = useState<string>('all')
   const [nonce, setNonce] = useState(0)
   const [sessionSize, setSessionSize] = useState<number | 'all'>('all')
 
+  // ?ids=ID1,ID2 — practice an explicit set of questions (e.g. a flashcard's related questions).
+  const idsParam = params.get('ids')
+  const idSet = useMemo(
+    () => (idsParam ? new Set(idsParam.split(',').filter(Boolean)) : null),
+    [idsParam],
+  )
+
   const pool = useMemo(() => {
+    if (idSet) return reviewedQuestions.filter((q) => idSet.has(q.id))
     return reviewedQuestions.filter((q) => {
       if (focus === 'misses' && drillRef.current[q.id]?.lastCorrect !== false) return false
       if (focus === 'bookmarked' && !bookmarksRef.current[q.id]) return false
@@ -56,7 +64,7 @@ export default function Drill() {
       return true
     })
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [reviewedQuestions, focus, element, outcome, difficulty, taxonomy, nonce])
+  }, [reviewedQuestions, idSet, focus, element, outcome, difficulty, taxonomy, nonce])
 
   const queue = useMemo<Question[]>(() => {
     const shuffled = shuffle(pool)
@@ -129,14 +137,15 @@ export default function Drill() {
     return (
       <div>
         <PageHeading title="Drill mode" subtitle="Filter the bank and practice one question at a time." />
-        <QuestionsLoading />
+        <QuestionsStatus />
       </div>
     )
   }
 
   const exhausted = pointer >= queue.length
-  const emptyMsg =
-    focus === 'misses'
+  const emptyMsg = idSet
+    ? 'None of those questions were found in the bank.'
+    : focus === 'misses'
       ? 'No missed questions here yet — answer some questions (in All mode), and the ones you get wrong show up here.'
       : focus === 'bookmarked'
         ? 'No bookmarked questions here yet. Tap the ☆ on a question to save it for later.'
@@ -149,7 +158,18 @@ export default function Drill() {
         subtitle="Filter the bank, answer one question at a time, and see the rationale and rule references immediately."
       />
 
-      <div className="card mb-6 grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-3">
+      {idSet && (
+        <div className="card mb-6 flex flex-wrap items-center justify-between gap-3 p-4 text-sm">
+          <span className="text-slate-600 dark:text-slate-300">
+            Practicing {pool.length} selected question{pool.length === 1 ? '' : 's'}.
+          </span>
+          <Link to="/drill" className="btn-secondary !py-1.5">
+            Drill the full bank →
+          </Link>
+        </div>
+      )}
+
+      <div className={`card mb-6 grid gap-3 p-4 sm:grid-cols-2 lg:grid-cols-3${idSet ? ' hidden' : ''}`}>
         <Field label="Focus">
           <select className="field w-full" value={focus} onChange={(e) => setFocus(e.target.value as Focus)}>
             <option value="all">All questions</option>

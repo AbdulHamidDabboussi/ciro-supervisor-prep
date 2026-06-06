@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { useData, QuestionsLoading } from '../data/DataContext'
+import { useData, QuestionsStatus } from '../data/DataContext'
 import { useProgress } from '../store/progress'
 import { PageHeading, Modal, Badge } from '../components/ui'
 import { cn, formatDate } from '../lib/format'
@@ -40,6 +40,31 @@ export default function Progress() {
     return m
   }, [reviewedQuestions, drill])
 
+  const outcomeStatement = useMemo(() => {
+    const m = new Map<string, string>()
+    for (const el of syllabus.elements) for (const o of el.outcomes) m.set(o.id, o.statement)
+    return m
+  }, [syllabus])
+
+  const elementStats = useMemo(
+    () =>
+      syllabus.elements.map((el) => {
+        const tally = el.outcomes.reduce<Tally>(
+          (t, o) => {
+            const ot = byOutcome.get(o.id) ?? { total: 0, attempted: 0, correct: 0 }
+            return {
+              total: t.total + ot.total,
+              attempted: t.attempted + ot.attempted,
+              correct: t.correct + ot.correct,
+            }
+          },
+          { total: 0, attempted: 0, correct: 0 },
+        )
+        return { el, tally, pct: acc(tally) }
+      }),
+    [syllabus.elements, byOutcome],
+  )
+
   const ids = Object.keys(drill)
   const attempted = ids.length
   const correctNow = ids.filter((id) => drill[id].lastCorrect).length
@@ -52,7 +77,7 @@ export default function Progress() {
     return (
       <div>
         <PageHeading title="Your progress" subtitle="Drill mastery, bookmarks, and mock-exam history — all stored on this device." />
-        <QuestionsLoading />
+        <QuestionsStatus />
       </div>
     )
   }
@@ -60,6 +85,19 @@ export default function Progress() {
   const cardsByElement = (id: number) => deck?.cards.filter((c) => c.element === id) ?? []
 
   const hasAnyProgress = attempted > 0 || mockHistory.length > 0 || bookmarkCount > 0
+
+  // Weak-area nudges: lowest-scoring elements/outcomes with enough attempts to be meaningful.
+  const MIN_FOR_NUDGE = 3
+  const weakElements = elementStats
+    .filter((s) => s.tally.attempted >= MIN_FOR_NUDGE)
+    .sort((a, b) => a.pct - b.pct)
+    .slice(0, 3)
+  const weakOutcomes = [...byOutcome.entries()]
+    .map(([id, t]) => ({ id, t, pct: acc(t) }))
+    .filter((o) => o.t.attempted >= MIN_FOR_NUDGE)
+    .sort((a, b) => a.pct - b.pct)
+    .slice(0, 5)
+  const showNudges = weakElements.length > 0 || weakOutcomes.length > 0
 
   return (
     <div className="space-y-8">
@@ -93,21 +131,53 @@ export default function Progress() {
         </Link>
       </section>
 
+      {showNudges && (
+        <section className="card p-5">
+          <h2 className="mb-1 font-semibold">Focus areas</h2>
+          <p className="mb-3 text-sm text-slate-500 dark:text-slate-400">
+            Your lowest-scoring areas (with at least {MIN_FOR_NUDGE} attempts). Tap to drill them.
+          </p>
+          {weakElements.length > 0 && (
+            <div className="mb-3 flex flex-wrap gap-2">
+              {weakElements.map((s) => (
+                <Link
+                  key={s.el.id}
+                  to={`/drill?element=${s.el.id}`}
+                  className="rounded-full border border-slate-300 px-3 py-1 text-xs font-medium transition hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:hover:text-brand-300"
+                >
+                  E{s.el.id} · {s.el.title} — {s.pct}%
+                </Link>
+              ))}
+            </div>
+          )}
+          {weakOutcomes.length > 0 && (
+            <ul className="space-y-1 text-sm">
+              {weakOutcomes.map((o) => (
+                <li key={o.id} className="flex items-center gap-2">
+                  <Link
+                    to={`/drill?element=${o.id.split('.')[0]}&outcome=${o.id}`}
+                    className="flex-none font-medium text-brand-600 hover:underline dark:text-brand-300"
+                  >
+                    {o.id}
+                  </Link>
+                  <span className="flex-none tabular-nums text-slate-400">{o.pct}%</span>
+                  <span className="min-w-0 flex-1 truncate text-slate-500 dark:text-slate-400">
+                    {outcomeStatement.get(o.id)}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          )}
+        </section>
+      )}
+
       {/* By element */}
       <section className="card overflow-hidden">
         <h2 className="border-b border-slate-200 p-4 font-semibold dark:border-slate-800">By element</h2>
         <div className="divide-y divide-slate-200 dark:divide-slate-800">
-          {syllabus.elements.map((el) => {
-            const elTally: Tally = el.outcomes.reduce(
-              (t, o) => {
-                const ot = byOutcome.get(o.id) ?? { total: 0, attempted: 0, correct: 0 }
-                return { total: t.total + ot.total, attempted: t.attempted + ot.attempted, correct: t.correct + ot.correct }
-              },
-              { total: 0, attempted: 0, correct: 0 },
-            )
+          {elementStats.map(({ el, tally: elTally, pct }) => {
             const elCards = cardsByElement(el.id)
             const known = elCards.filter((c) => cardStatus[c.id] === 'known').length
-            const pct = acc(elTally)
             const open = expanded === el.id
             return (
               <div key={el.id}>

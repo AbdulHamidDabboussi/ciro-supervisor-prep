@@ -21,7 +21,7 @@ export default function Mock() {
 }
 
 function StartScreen() {
-  const { reviewedQuestions, examMeta, questionsReady } = useData()
+  const { reviewedQuestions, examMeta, questionsReady, questionsError, retryQuestions } = useData()
   const start = useMock((s) => s.start)
   const navigate = useNavigate()
   const { questions_total, duration_minutes, questions_item_set } = examMeta.format
@@ -73,11 +73,20 @@ function StartScreen() {
           </ul>
         </div>
 
-        <button className="btn-primary w-full sm:w-auto" onClick={begin} disabled={!questionsReady}>
-          {questionsReady
-            ? `Start mock exam — ${questions_total} questions · ${duration_minutes / 60} h`
-            : 'Loading questions…'}
-        </button>
+        {questionsError ? (
+          <div className="rounded-lg bg-red-50 p-4 text-sm text-red-700 dark:bg-red-900/20 dark:text-red-300">
+            Couldn’t load the question bank.{' '}
+            <button className="font-semibold underline" onClick={retryQuestions}>
+              Retry
+            </button>
+          </div>
+        ) : (
+          <button className="btn-primary w-full sm:w-auto" onClick={begin} disabled={!questionsReady}>
+            {questionsReady
+              ? `Start mock exam — ${questions_total} questions · ${duration_minutes / 60} h`
+              : 'Loading questions…'}
+          </button>
+        )}
       </div>
     </div>
   )
