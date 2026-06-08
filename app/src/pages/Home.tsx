@@ -43,8 +43,13 @@ export default function Home() {
   const mockStatus = useMock((s) => s.status)
   const mockAnswered = useMock((s) => Object.keys(s.answers).length)
   const mockTotal = useMock((s) => s.questions.length)
-  const mockRemaining = useMock((s) => s.remainingAt(Date.now()))
+  const mockEndsAt = useMock((s) => s.endsAt)
+  const mockRemainingMs = useMock((s) => s.remainingMs)
   const mockInProgress = mockStatus === 'running' || mockStatus === 'paused'
+  // Compute remaining in render — NOT inside the selector. Date.now() in a zustand
+  // selector returns a new value on every read and triggers an infinite render loop.
+  const mockRemaining =
+    mockStatus === 'running' && mockEndsAt != null ? Math.max(0, mockEndsAt - Date.now()) : mockRemainingMs
 
   const attempted = Object.keys(drill).length
   const cardsReviewed = Object.keys(cardStatus).length
