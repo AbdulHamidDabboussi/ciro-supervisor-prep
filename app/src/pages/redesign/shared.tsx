@@ -45,6 +45,7 @@ const VARIANTS = [
   { to: '/redesign/aurora', label: 'A · Aurora' },
   { to: '/redesign/momentum', label: 'B · Momentum' },
   { to: '/redesign/ledger', label: 'C · Ledger' },
+  { to: '/redesign/liquid', label: 'D · Liquid' },
 ]
 
 export function RedesignLayout() {
