@@ -12,6 +12,7 @@ import { RedesignLayout } from './pages/redesign/shared'
 import Aurora from './pages/redesign/Aurora'
 import Momentum from './pages/redesign/Momentum'
 import Ledger from './pages/redesign/Ledger'
+import Liquid from './pages/redesign/Liquid'
 
 export const router = createHashRouter([
   {
@@ -37,6 +38,7 @@ export const router = createHashRouter([
       { path: 'aurora', element: <Aurora /> },
       { path: 'momentum', element: <Momentum /> },
       { path: 'ledger', element: <Ledger /> },
+      { path: 'liquid', element: <Liquid /> },
     ],
   },
 ])
