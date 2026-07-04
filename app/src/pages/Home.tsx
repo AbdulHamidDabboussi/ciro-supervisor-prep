@@ -58,9 +58,9 @@ export default function Home() {
   const [confirmReset, setConfirmReset] = useState(false)
 
   return (
-    <div className="space-y-10">
+    <div className="space-y-12">
       {mockInProgress && (
-        <section className="flex flex-wrap items-center justify-between gap-3 rounded-xl border border-amber-300 bg-amber-50 p-4 dark:border-amber-700/60 dark:bg-amber-900/20">
+        <section className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-amber-300/60 bg-amber-50/80 p-4 backdrop-blur dark:border-amber-500/30 dark:bg-amber-500/10">
           <div className="text-sm">
             <p className="font-semibold text-amber-900 dark:text-amber-200">Mock exam in progress</p>
             <p className="text-amber-800/80 dark:text-amber-300/80">
@@ -74,29 +74,36 @@ export default function Home() {
         </section>
       )}
 
-      <section className="rounded-2xl bg-gradient-to-br from-brand-600 to-brand-800 p-8 text-white shadow-lg">
-        <p className="text-sm font-medium uppercase tracking-wider text-brand-100">
-          {examMeta.exam}
-        </p>
-        <h1 className="mt-2 max-w-2xl text-3xl font-bold leading-tight sm:text-4xl">
-          Pass the CIRO Supervisor Exam with practice that explains every answer.
-        </h1>
-        <p className="mt-3 max-w-2xl text-brand-50">
-          {manifest.questions} original practice questions and {manifest.cards} flashcards, mapped to
-          all 9 syllabus elements. Free, no account needed — your progress stays on this device.
-        </p>
-        <div className="mt-6 flex flex-wrap gap-3">
-          <Link to="/drill" className="btn bg-white text-brand-700 hover:bg-brand-50">
-            Start drilling
-          </Link>
-          <Link to="/mock" className="btn border border-white/40 text-white hover:bg-white/10">
-            Take a mock exam
-          </Link>
+      {/* Hero — the aurora glow comes from the global backdrop in App.tsx */}
+      <section className="relative">
+        <div className="relative mx-auto max-w-3xl py-16 text-center sm:py-20">
+          <span className="mb-5 inline-flex items-center gap-2 rounded-full border border-indigo-200/70 bg-white/60 px-4 py-1.5 text-xs font-semibold text-indigo-600 backdrop-blur dark:border-indigo-500/20 dark:bg-white/5 dark:text-indigo-300">
+            <span className="h-1.5 w-1.5 rounded-full bg-indigo-500" /> {examMeta.exam}
+          </span>
+          <h1 className="mx-auto max-w-2xl text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl">
+            Pass the CIRO Supervisor Exam{' '}
+            <span className="bg-gradient-to-r from-indigo-500 via-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
+              with practice that explains every answer
+            </span>
+            .
+          </h1>
+          <p className="mx-auto mt-5 max-w-xl text-lg text-slate-500 dark:text-slate-400">
+            {manifest.questions} original practice questions and {manifest.cards} flashcards, mapped to
+            all 9 syllabus elements. Free, no account needed — your progress stays on this device.
+          </p>
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            <Link to="/drill" className="btn-primary">
+              Start drilling →
+            </Link>
+            <Link to="/mock" className="btn-secondary">
+              Take a mock exam
+            </Link>
+          </div>
         </div>
       </section>
 
       {hasProgress && (
-        <section className="card p-5">
+        <section>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <Stat label="Questions attempted" value={`${attempted}`} sub={`of ${manifest.questions}`} />
             <Stat label="Flashcards reviewed" value={`${cardsReviewed}`} sub={`of ${manifest.cards}`} />
@@ -107,8 +114,8 @@ export default function Home() {
             />
             <Stat label="Mock exams taken" value={`${mockHistory.length}`} sub="saved on this device" />
           </div>
-          <div className="mt-4 flex items-center justify-between border-t border-slate-200 pt-3 dark:border-slate-800">
-            <Link to="/progress" className="text-xs font-medium text-brand-600 hover:underline dark:text-brand-300">
+          <div className="mt-4 flex items-center justify-between border-t border-white/60 pt-3 dark:border-white/5">
+            <Link to="/progress" className="text-xs font-medium text-indigo-600 hover:underline dark:text-indigo-300">
               View detailed progress →
             </Link>
             <button
@@ -127,13 +134,13 @@ export default function Home() {
             <Link
               key={m.to}
               to={m.to}
-              className="card group flex items-start gap-4 p-5 transition hover:border-brand-300 hover:shadow-md dark:hover:border-brand-700"
+              className="card group flex items-start gap-4 p-5 transition hover:border-indigo-300/60 hover:shadow-glass-lg dark:hover:border-indigo-500/30"
             >
               <span className="text-2xl" aria-hidden>
                 {m.icon}
               </span>
               <div>
-                <h2 className="font-semibold group-hover:text-brand-700 dark:group-hover:text-brand-300">
+                <h2 className="font-display font-semibold group-hover:text-indigo-600 dark:group-hover:text-indigo-300">
                   {m.title}
                 </h2>
                 <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{m.blurb}</p>
@@ -146,7 +153,7 @@ export default function Home() {
       <section className="card p-5 text-sm leading-relaxed text-slate-600 dark:text-slate-300">
         <div className="mb-2 flex items-center gap-2">
           <Badge tone="amber">Heads up</Badge>
-          <span className="font-semibold text-slate-800 dark:text-slate-100">About scoring</span>
+          <span className="font-display font-semibold text-slate-800 dark:text-slate-100">About scoring</span>
         </div>
         CIRO does not publish a pass mark for this exam — results are pass/fail only, set
         per-form. This site never shows an “official pass threshold.” Mock results give you a
@@ -155,7 +162,7 @@ export default function Home() {
 
       {confirmReset && (
         <Modal onClose={() => setConfirmReset(false)}>
-          <p className="text-lg font-semibold">Reset all progress?</p>
+          <p className="font-display text-lg font-semibold">Reset all progress?</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
             This clears your drill history, flashcard marks, and saved mock scores on this device. It
             can’t be undone.
@@ -182,9 +189,9 @@ export default function Home() {
 
 function Stat({ label, value, sub }: { label: string; value: string; sub?: string }) {
   return (
-    <div>
-      <p className="text-xs font-medium uppercase tracking-wide text-slate-400">{label}</p>
-      <p className="mt-1 text-2xl font-bold text-brand-700 dark:text-brand-300">{value}</p>
+    <div className="card p-5">
+      <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">{label}</p>
+      <p className="mt-1 font-display text-3xl font-bold tracking-tight">{value}</p>
       {sub && <p className="text-xs text-slate-400">{sub}</p>}
     </div>
   )

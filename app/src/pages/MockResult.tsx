@@ -54,7 +54,7 @@ export default function MockResult() {
   if (!score) {
     return (
       <div className="card p-8 text-center">
-        <p className="text-lg font-semibold">No mock results yet</p>
+        <p className="font-display text-lg font-semibold">No mock results yet</p>
         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">Take a mock exam to see your breakdown here.</p>
         <Link to="/mock" className="btn-primary mt-4 inline-flex">
           Go to mock exam
@@ -71,22 +71,26 @@ export default function MockResult() {
       <PageHeading title="Mock exam results" subtitle="No pass mark is published by CIRO — this is a breakdown, not a verdict." />
 
       {mock.autoSubmitted && (
-        <section className="rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900 dark:border-amber-700/60 dark:bg-amber-900/20 dark:text-amber-200">
+        <section className="rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 p-4 text-sm text-amber-900 dark:from-amber-500/10 dark:to-orange-500/10 dark:text-amber-200">
           <span className="font-semibold">⏰ Time expired.</span> Your exam was submitted automatically;
           any unanswered questions were marked incorrect.
         </section>
       )}
 
-      <section className="card flex flex-col items-center gap-2 p-8 text-center">
-        <p className="text-6xl font-bold text-brand-700 dark:text-brand-300">{score.overallPct}%</p>
-        <p className="text-sm text-slate-500 dark:text-slate-400">
-          {score.correct} of {score.total} correct · {score.answered} answered
-        </p>
+      <section className="rounded-3xl bg-gradient-to-br from-indigo-500 via-violet-600 to-fuchsia-600 p-[1px] shadow-xl shadow-violet-500/20">
+        <div className="flex flex-col items-center gap-2 rounded-3xl bg-white/95 p-8 text-center dark:bg-night-soft">
+          <p className="font-display text-6xl font-bold bg-gradient-to-r from-indigo-500 via-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
+            {score.overallPct}%
+          </p>
+          <p className="text-sm text-slate-500 dark:text-slate-400">
+            {score.correct} of {score.total} correct · {score.answered} answered
+          </p>
+        </div>
       </section>
 
       <section className="grid gap-6 md:grid-cols-2">
         <div className="card p-5">
-          <h2 className="mb-3 font-semibold">By element</h2>
+          <h2 className="mb-3 font-display font-semibold">By element</h2>
           <div className="space-y-3">
             {score.perElement.map((b) => (
               <BucketRow key={b.key} bucket={b} />
@@ -94,7 +98,7 @@ export default function MockResult() {
           </div>
         </div>
         <div className="card p-5">
-          <h2 className="mb-3 font-semibold">By skill level</h2>
+          <h2 className="mb-3 font-display font-semibold">By skill level</h2>
           <div className="space-y-3">
             {score.perTaxonomy.map((b) => (
               <BucketRow key={b.key} bucket={b} />
@@ -114,7 +118,7 @@ export default function MockResult() {
 
       {review.length > 0 && (
         <section>
-          <h2 className="mb-1 text-lg font-semibold">
+          <h2 className="mb-1 font-display text-lg font-semibold">
             Review — {score.incorrect.length} incorrect
             {score.unanswered.length > 0 && `, ${score.unanswered.length} unanswered`}
           </h2>
@@ -148,7 +152,7 @@ export default function MockResult() {
 
       {flagged.length > 0 && (
         <section>
-          <h2 className="mb-1 text-lg font-semibold">Flagged for review — {flagged.length}</h2>
+          <h2 className="mb-1 font-display text-lg font-semibold">Flagged for review — {flagged.length}</h2>
           <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">
             Questions you marked during the exam (the answer is shown).
           </p>
@@ -173,7 +177,8 @@ export default function MockResult() {
 
 function BucketRow({ bucket }: { bucket: Bucket }) {
   const pct = bucket.total === 0 ? 0 : Math.round((bucket.correct / bucket.total) * 100)
-  const tone = pct >= 75 ? 'bg-green-500' : pct >= 50 ? 'bg-amber-500' : 'bg-red-500'
+  const tone =
+    pct >= 75 ? 'bg-emerald-500' : pct >= 50 ? 'bg-amber-500' : 'bg-rose-500'
   return (
     <div>
       <div className="mb-1 flex items-center justify-between text-sm">
@@ -182,7 +187,7 @@ function BucketRow({ bucket }: { bucket: Bucket }) {
           {bucket.correct}/{bucket.total} · {pct}%
         </span>
       </div>
-      <div className="h-2 w-full overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
+      <div className="h-2 w-full overflow-hidden rounded-full bg-slate-100 dark:bg-white/10">
         <div className={cn('h-full rounded-full transition-all', tone)} style={{ width: `${pct}%` }} />
       </div>
     </div>

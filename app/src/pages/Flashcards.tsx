@@ -57,7 +57,8 @@ export default function Flashcards() {
 
   const card = cards[index]
   const knownInDeck = cards.filter((c) => cardStatus[c.id] === 'known').length
-  const elementTitle = syllabus.elements.find((e) => e.id === element)?.title ?? ''
+  const elementTitle =
+    syllabus.elements.find((e) => e.id === element)?.title ?? ''
 
   function go(delta: number) {
     setFlipped(false)
@@ -112,7 +113,10 @@ export default function Flashcards() {
   if (!questionsReady) {
     return (
       <div>
-        <PageHeading title="Flashcards" subtitle="Crash-course decks, one fact per card." />
+        <PageHeading
+          title="Flashcards"
+          subtitle="Crash-course decks, one fact per card."
+        />
         <QuestionsStatus label="Loading flashcards…" />
       </div>
     )
@@ -133,7 +137,9 @@ export default function Flashcards() {
       <div className="card mb-6 flex flex-col gap-3 p-4 sm:flex-row sm:flex-wrap sm:items-end sm:justify-between">
         <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-1 sm:flex-row">
           <label className="block w-full min-w-0 sm:max-w-xs">
-            <span className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">Element</span>
+            <span className="mb-1 block text-xs font-semibold uppercase tracking-wider text-slate-400">
+              Element
+            </span>
             <select
               className="field w-full truncate"
               value={element}
@@ -141,13 +147,17 @@ export default function Flashcards() {
             >
               {syllabus.elements.map((el) => (
                 <option key={el.id} value={el.id}>
-                  E{el.id} · {el.title} ({deck?.cards.filter((c) => c.element === el.id).length ?? 0} cards)
+                  E{el.id} · {el.title} (
+                  {deck?.cards.filter((c) => c.element === el.id).length ?? 0}{' '}
+                  cards)
                 </option>
               ))}
             </select>
           </label>
           <label className="block w-full sm:w-40">
-            <span className="mb-1 block text-xs font-medium text-slate-500 dark:text-slate-400">Show</span>
+            <span className="mb-1 block text-xs font-semibold uppercase tracking-wider text-slate-400">
+              Show
+            </span>
             <select
               className="field w-full"
               value={statusFilter}
@@ -161,22 +171,31 @@ export default function Flashcards() {
           </label>
         </div>
         <div className="flex w-full gap-2 sm:w-auto">
-          <button onClick={reshuffle} className="btn-secondary w-full justify-center sm:w-auto">
+          <button
+            onClick={reshuffle}
+            className="btn-secondary w-full justify-center sm:w-auto"
+          >
             Shuffle
           </button>
-          <Link to={`/drill?element=${element}`} className="btn-secondary w-full justify-center sm:w-auto">
+          <Link
+            to={`/drill?element=${element}`}
+            className="btn-secondary w-full justify-center sm:w-auto"
+          >
             Drill E{element} →
           </Link>
         </div>
       </div>
 
       {cards.length === 0 ? (
-        <div className="card p-8 text-center text-slate-500">{emptyMsg}</div>
+        <div className="card p-8 text-center text-slate-500 dark:text-slate-400">
+          {emptyMsg}
+        </div>
       ) : done ? (
         <div className="card p-10 text-center">
-          <p className="text-2xl font-bold">Deck complete</p>
+          <p className="font-display text-2xl font-bold">Deck complete</p>
           <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
-            You went through all {cards.length} cards in element {element} — {knownInDeck} marked known.
+            You went through all {cards.length} cards in element {element} —{' '}
+            {knownInDeck} marked known.
           </p>
           <div className="mt-5 flex flex-wrap justify-center gap-3">
             <button className="btn-primary" onClick={restart}>
@@ -203,39 +222,53 @@ export default function Flashcards() {
             <button
               type="button"
               onClick={() => setFlipped((f) => !f)}
-              aria-label={flipped ? 'Showing answer — tap to see the prompt' : 'Showing prompt — tap to reveal the answer'}
-              className="block w-full rounded-xl [perspective:1200px] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400"
+              aria-label={
+                flipped
+                  ? 'Showing answer — tap to see the prompt'
+                  : 'Showing prompt — tap to reveal the answer'
+              }
+              className="block w-full rounded-3xl [perspective:1200px] focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400"
             >
+              {/* The gradient-border shell is the element that rotates, so the whole card
+                  (rim included) flips in 3D under the button's perspective. */}
               <div
                 key={card.id}
                 className={cn(
-                  'card relative grid min-h-[16rem] transition-transform duration-500 [transform-style:preserve-3d] motion-reduce:transition-none',
+                  'relative grid min-h-[16rem] rounded-3xl bg-gradient-to-br from-indigo-500 via-violet-600 to-fuchsia-600 p-[1px] shadow-xl shadow-violet-500/20 transition-transform duration-500 [transform-style:preserve-3d] motion-reduce:transition-none',
                   flipped && '[transform:rotateY(180deg)]',
                 )}
               >
                 {/* Front face */}
-                <div className="flex flex-col items-center justify-center gap-4 p-8 text-center [grid-area:1/1] [backface-visibility:hidden]">
+                <div className="flex flex-col items-center justify-center gap-4 rounded-[calc(1.5rem-1px)] bg-white p-8 text-center [grid-area:1/1] [backface-visibility:hidden] dark:bg-night-soft">
                   <div className="flex flex-wrap items-center justify-center gap-2">
                     <Badge tone="violet">{card.type}</Badge>
                     <Badge>Outcome {card.outcome}</Badge>
                     {cardStatus[card.id] && (
-                      <Badge tone={cardStatus[card.id] === 'known' ? 'green' : 'amber'}>
+                      <Badge
+                        tone={
+                          cardStatus[card.id] === 'known' ? 'green' : 'amber'
+                        }
+                      >
                         {cardStatus[card.id]}
                       </Badge>
                     )}
                   </div>
-                  <p className="text-lg font-medium leading-relaxed text-slate-800 dark:text-slate-100">
+                  <p className="font-display text-lg font-semibold leading-relaxed text-slate-800 dark:text-slate-100">
                     {card.front}
                   </p>
-                  <span className="text-xs uppercase tracking-wide text-slate-400">Tap to reveal answer</span>
+                  <span className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+                    Tap to reveal answer
+                  </span>
                 </div>
 
                 {/* Back face */}
-                <div className="flex flex-col items-center justify-center gap-4 p-8 text-center [grid-area:1/1] [backface-visibility:hidden] [transform:rotateY(180deg)]">
-                  <span className="text-xs font-semibold uppercase tracking-wide text-brand-500 dark:text-brand-300">
+                <div className="flex flex-col items-center justify-center gap-4 rounded-[calc(1.5rem-1px)] bg-white p-8 text-center [grid-area:1/1] [backface-visibility:hidden] [transform:rotateY(180deg)] dark:bg-night-soft">
+                  <span className="text-xs font-bold uppercase tracking-wider text-fuchsia-500">
                     Answer
                   </span>
-                  <p className="text-lg font-medium leading-relaxed">{card.back}</p>
+                  <p className="w-full border-t border-dashed border-slate-200 pt-4 text-lg font-medium leading-relaxed text-slate-500 dark:border-white/10 dark:text-slate-400">
+                    {card.back}
+                  </p>
                   {card.rule_refs.length > 0 && (
                     <div className="flex flex-wrap justify-center gap-1.5">
                       {card.rule_refs.map((r) => (
@@ -243,7 +276,9 @@ export default function Flashcards() {
                       ))}
                     </div>
                   )}
-                  <span className="text-xs uppercase tracking-wide text-slate-400">Tap to see prompt</span>
+                  <span className="text-xs font-semibold uppercase tracking-wider text-slate-400">
+                    Tap to see prompt
+                  </span>
                 </div>
               </div>
             </button>
@@ -271,7 +306,11 @@ export default function Flashcards() {
           )}
 
           <div className="mt-5 flex items-center justify-between gap-3">
-            <button className="btn-secondary" onClick={() => go(-1)} disabled={index === 0}>
+            <button
+              className="btn-secondary"
+              onClick={() => go(-1)}
+              disabled={index === 0}
+            >
               ← Prev
             </button>
             <div className="flex gap-2">
@@ -282,7 +321,11 @@ export default function Flashcards() {
                 Got it
               </button>
             </div>
-            <button className="btn-secondary" onClick={() => go(1)} disabled={index === cards.length - 1}>
+            <button
+              className="btn-secondary"
+              onClick={() => go(1)}
+              disabled={index === cards.length - 1}
+            >
               Next →
             </button>
           </div>

@@ -39,7 +39,7 @@ function StartScreen() {
         title="Mock exam"
         subtitle="A full-length, timed practice form weighted like the real exam."
       />
-      <div className="card space-y-5 p-6">
+      <div className="card space-y-6 p-6 sm:p-7">
         <div className="grid gap-4 sm:grid-cols-3">
           <Fact label="Questions" value={`${questions_total}`} />
           <Fact label="Time limit" value={`${duration_minutes / 60} hours`} />
@@ -47,7 +47,7 @@ function StartScreen() {
         </div>
 
         <div>
-          <p className="mb-2 text-sm font-semibold">Weighting (by element)</p>
+          <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-slate-400">Weighting (by element)</p>
           <div className="flex flex-wrap gap-1.5">
             {examMeta.element_weights.map((w) => (
               <Badge key={w.element}>
@@ -57,9 +57,9 @@ function StartScreen() {
           </div>
         </div>
 
-        <div className="rounded-lg bg-amber-50 p-4 text-sm leading-relaxed text-amber-900 dark:bg-amber-900/15 dark:text-amber-200">
-          <p className="font-semibold">Before you start</p>
-          <ul className="mt-1 list-disc space-y-1 pl-5">
+        <div className="rounded-2xl bg-gradient-to-br from-amber-50 to-orange-50 p-5 text-sm leading-relaxed text-amber-900 dark:from-amber-500/10 dark:to-orange-500/10 dark:text-amber-200">
+          <p className="font-display font-bold">Before you start</p>
+          <ul className="mt-1.5 list-disc space-y-1 pl-5">
             <li>
               You can <strong>pause</strong> the timer here for convenience — note the real exam has
               <strong> no pause</strong>.
@@ -74,7 +74,7 @@ function StartScreen() {
         </div>
 
         {questionsError ? (
-          <div className="rounded-lg bg-red-50 p-4 text-sm text-red-700 dark:bg-red-900/20 dark:text-red-300">
+          <div className="rounded-2xl border border-rose-400/60 bg-rose-50/80 p-4 text-sm text-rose-700 dark:border-rose-500/40 dark:bg-rose-500/10 dark:text-rose-300">
             Couldn’t load the question bank.{' '}
             <button className="font-semibold underline" onClick={retryQuestions}>
               Retry
@@ -94,9 +94,9 @@ function StartScreen() {
 
 function Fact({ label, value }: { label: string; value: string }) {
   return (
-    <div className="rounded-lg bg-slate-50 p-3 dark:bg-slate-800/60">
-      <p className="text-xs font-medium uppercase tracking-wide text-slate-400">{label}</p>
-      <p className="mt-0.5 text-lg font-bold">{value}</p>
+    <div className="rounded-2xl border border-white/60 bg-white/60 p-4 backdrop-blur dark:border-white/5 dark:bg-white/5">
+      <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">{label}</p>
+      <p className="mt-1 font-display text-lg font-bold">{value}</p>
     </div>
   )
 }
@@ -169,21 +169,21 @@ function Runner() {
   }, [q, paused, confirming, quitting])
 
   const timeTone =
-    remaining <= 120_000 ? 'text-red-600' : remaining <= 600_000 ? 'text-amber-600' : 'text-slate-800 dark:text-slate-100'
+    remaining <= 120_000 ? 'text-rose-600 dark:text-rose-400' : remaining <= 600_000 ? 'text-amber-600 dark:text-amber-400' : 'text-slate-800 dark:text-slate-100'
 
   return (
     <div>
       {/* Sticky exam toolbar */}
-      <div className="card sticky top-16 z-10 mb-5 flex flex-wrap items-center justify-between gap-3 p-3">
+      <div className="sticky top-16 z-10 mb-5 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-white/40 bg-white/70 p-3 shadow-[0_8px_30px_rgb(0,0,0,0.04)] backdrop-blur-xl dark:border-white/5 dark:bg-night/70">
         <div className="flex items-center gap-3">
-          <span className={cn('font-mono text-xl font-bold tabular-nums', timeTone)}>
+          <span className={cn('font-display text-xl font-bold tabular-nums', timeTone)}>
             {formatClock(remaining)}
           </span>
           <button className="btn-secondary !py-1.5" onClick={() => (paused ? mock.resume() : mock.pause())}>
             {paused ? 'Resume' : 'Pause'}
           </button>
           <button
-            className="rounded-lg px-2 py-1.5 text-sm font-medium text-slate-500 transition hover:text-red-600 dark:text-slate-400 dark:hover:text-red-400"
+            className="rounded-xl px-2 py-1.5 text-sm font-medium text-slate-500 transition hover:text-rose-600 dark:text-slate-400 dark:hover:text-rose-400"
             onClick={() => setQuitting(true)}
           >
             Quit
@@ -204,7 +204,7 @@ function Runner() {
       </div>
 
       {showNav && (
-        <div className="card mb-5 grid grid-cols-8 gap-1.5 p-3 sm:grid-cols-10 md:grid-cols-12">
+        <div className="card mb-5 grid grid-cols-8 gap-1.5 p-4 sm:grid-cols-10 md:grid-cols-12">
           {mock.questions.map((qq, i) => {
             const answered = !!mock.answers[qq.id]
             const flagged = !!mock.flags[qq.id]
@@ -216,16 +216,16 @@ function Runner() {
                   setShowNav(false)
                 }}
                 className={cn(
-                  'relative aspect-square rounded text-xs font-medium',
-                  i === mock.index && 'ring-2 ring-brand-500',
+                  'relative aspect-square rounded-lg text-xs font-medium transition',
+                  i === mock.index && 'ring-2 ring-indigo-500',
                   answered
-                    ? 'bg-brand-600 text-white'
-                    : 'bg-slate-100 text-slate-600 dark:bg-slate-800 dark:text-slate-300',
+                    ? 'bg-gradient-to-br from-indigo-500 to-violet-600 text-white'
+                    : 'bg-slate-100 text-slate-600 dark:bg-white/10 dark:text-slate-300',
                 )}
               >
                 {i + 1}
                 {flagged && (
-                  <span className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-amber-400 ring-1 ring-white dark:ring-slate-900" />
+                  <span className="absolute -right-0.5 -top-0.5 h-2 w-2 rounded-full bg-amber-400 ring-1 ring-white dark:ring-night" />
                 )}
               </button>
             )
@@ -235,7 +235,7 @@ function Runner() {
 
       {paused ? (
         <div className="card p-12 text-center">
-          <p className="text-2xl font-bold">Paused</p>
+          <p className="font-display text-2xl font-bold">Paused</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
             Timer stopped at {formatClock(remaining)}. The real exam can’t be paused.
           </p>
@@ -258,10 +258,10 @@ function Runner() {
                   aria-pressed={!!mock.flags[q.id]}
                   title="Flag for review (F)"
                   className={cn(
-                    'rounded-md border px-2 py-1 text-xs font-medium transition',
+                    'rounded-lg border px-2 py-1 text-xs font-medium transition',
                     mock.flags[q.id]
-                      ? 'border-amber-400 bg-amber-50 text-amber-700 dark:bg-amber-900/20 dark:text-amber-300'
-                      : 'border-slate-300 text-slate-500 hover:border-amber-400 hover:text-amber-600 dark:border-slate-700 dark:text-slate-400',
+                      ? 'border-amber-400/60 bg-amber-50/80 text-amber-700 dark:border-amber-500/40 dark:bg-amber-500/10 dark:text-amber-300'
+                      : 'border-slate-300 text-slate-500 hover:border-amber-400 hover:text-amber-600 dark:border-white/10 dark:text-slate-400',
                   )}
                 >
                   {mock.flags[q.id] ? '⚑ Flagged' : '⚑ Flag'}
@@ -293,7 +293,7 @@ function Runner() {
 
       {confirming && (
         <Modal onClose={() => setConfirming(false)}>
-          <p className="text-lg font-semibold">Submit your exam?</p>
+          <p className="font-display text-lg font-semibold">Submit your exam?</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
             {unanswered > 0
               ? `You have ${unanswered} unanswered question${unanswered === 1 ? '' : 's'}. They’ll be marked incorrect.`
@@ -312,7 +312,7 @@ function Runner() {
 
       {quitting && (
         <Modal onClose={() => setQuitting(false)}>
-          <p className="text-lg font-semibold">Quit this exam?</p>
+          <p className="font-display text-lg font-semibold">Quit this exam?</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
             Your answers will be discarded — this attempt won’t be scored or saved.
           </p>
@@ -320,7 +320,10 @@ function Runner() {
             <button className="btn-secondary" onClick={() => setQuitting(false)}>
               Keep going
             </button>
-            <button className="btn bg-red-600 text-white hover:bg-red-700" onClick={() => mock.reset()}>
+            <button
+              className="rounded-xl bg-gradient-to-br from-rose-500 to-rose-600 px-4 py-2 text-sm font-semibold text-white shadow-lg shadow-rose-500/30 transition hover:shadow-rose-500/50"
+              onClick={() => mock.reset()}
+            >
               Quit exam
             </button>
           </div>

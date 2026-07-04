@@ -7,28 +7,42 @@
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-slate-50 text-slate-900 antialiased dark:bg-slate-950 dark:text-slate-100;
+    @apply bg-slate-50 text-slate-900 antialiased dark:bg-night dark:text-slate-100;
     font-feature-settings: 'cv11', 'ss01';
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
   }
 }
 
 @layer components {
+  /* Glass card — Aurora's core surface */
   .card {
-    @apply rounded-xl border border-slate-200 bg-white shadow-sm dark:border-slate-800 dark:bg-slate-900;
+    @apply rounded-2xl border border-white/60 bg-white/70 shadow-glass backdrop-blur dark:border-white/5 dark:bg-white/5;
+  }
+  /* Opaque variant for overlays (modals) where glass would show the backdrop through */
+  .card-solid {
+    @apply rounded-2xl border border-white/60 bg-white/95 shadow-glass-lg backdrop-blur dark:border-white/5 dark:bg-night-soft;
   }
   .btn {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 disabled:cursor-not-allowed disabled:opacity-50;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 disabled:cursor-not-allowed disabled:opacity-50;
   }
   .btn-primary {
-    @apply btn bg-brand-600 text-white hover:bg-brand-700;
+    @apply btn bg-gradient-to-br from-indigo-500 to-violet-600 text-white shadow-lg shadow-indigo-500/30 hover:shadow-indigo-500/50;
   }
   .btn-secondary {
-    @apply btn border border-slate-300 bg-white text-slate-700 hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700;
+    @apply btn border border-slate-200 bg-white/70 text-slate-700 backdrop-blur hover:bg-white dark:border-white/10 dark:bg-white/5 dark:text-slate-200 dark:hover:bg-white/10;
   }
   .badge {
-    @apply inline-flex items-center rounded-full px-2 py-0.5 text-xs font-medium;
+    @apply inline-flex items-center rounded-full px-2.5 py-1 text-xs font-semibold;
   }
   .field {
-    @apply rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-800 focus:border-brand-400 focus:outline-none focus:ring-1 focus:ring-brand-400 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100;
+    @apply rounded-xl border border-slate-200 bg-white/70 px-3 py-2 text-sm text-slate-800 backdrop-blur focus:border-brand-400 focus:outline-none focus:ring-1 focus:ring-brand-400 dark:border-white/10 dark:bg-white/5 dark:text-slate-100;
+  }
+  /* Aurora mesh glow — position inside a `relative overflow-hidden` ancestor */
+  .aurora-bg {
+    @apply pointer-events-none absolute -top-40 left-1/2 h-[34rem] w-[60rem] -translate-x-1/2 rounded-full bg-gradient-to-br from-indigo-400/30 via-violet-400/20 to-fuchsia-400/30 blur-3xl dark:from-indigo-600/20 dark:via-violet-600/15 dark:to-fuchsia-600/20;
   }
 }
