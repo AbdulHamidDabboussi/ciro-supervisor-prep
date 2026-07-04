@@ -12,7 +12,8 @@ interface Tally {
 }
 
 const acc = (t: Tally) => (t.attempted === 0 ? 0 : Math.round((t.correct / t.attempted) * 100))
-const accTone = (pct: number) => (pct >= 75 ? 'bg-green-500' : pct >= 50 ? 'bg-amber-500' : 'bg-red-500')
+const accTone = (pct: number) =>
+  pct >= 75 ? 'bg-emerald-500' : pct >= 50 ? 'bg-amber-500' : 'bg-rose-500'
 
 export default function Progress() {
   const { reviewedQuestions, deck, syllabus, questionsReady } = useData()
@@ -108,8 +109,8 @@ export default function Progress() {
 
       {!hasAnyProgress && (
         <div className="card p-8 text-center text-slate-500 dark:text-slate-400">
-          No activity yet. Start a <Link to="/drill" className="text-brand-600 hover:underline dark:text-brand-300">drill</Link> or a{' '}
-          <Link to="/mock" className="text-brand-600 hover:underline dark:text-brand-300">mock exam</Link> and your stats appear here.
+          No activity yet. Start a <Link to="/drill" className="text-indigo-600 hover:underline dark:text-indigo-300">drill</Link> or a{' '}
+          <Link to="/mock" className="text-indigo-600 hover:underline dark:text-indigo-300">mock exam</Link> and your stats appear here.
         </div>
       )}
 
@@ -133,7 +134,7 @@ export default function Progress() {
 
       {showNudges && (
         <section className="card p-5">
-          <h2 className="mb-1 font-semibold">Focus areas</h2>
+          <h2 className="mb-1 font-display font-semibold">Focus areas</h2>
           <p className="mb-3 text-sm text-slate-500 dark:text-slate-400">
             Your lowest-scoring areas (with at least {MIN_FOR_NUDGE} attempts). Tap to drill them.
           </p>
@@ -143,7 +144,7 @@ export default function Progress() {
                 <Link
                   key={s.el.id}
                   to={`/drill?element=${s.el.id}`}
-                  className="rounded-full border border-slate-300 px-3 py-1 text-xs font-medium transition hover:border-brand-400 hover:text-brand-700 dark:border-slate-700 dark:hover:text-brand-300"
+                  className="rounded-full border border-slate-200/70 bg-white/50 px-3 py-1 text-xs font-medium transition hover:border-indigo-300 hover:text-indigo-700 dark:border-white/10 dark:bg-white/[0.03] dark:hover:border-indigo-500/40 dark:hover:text-indigo-300"
                 >
                   E{s.el.id} · {s.el.title} — {s.pct}%
                 </Link>
@@ -156,7 +157,7 @@ export default function Progress() {
                 <li key={o.id} className="flex items-center gap-2">
                   <Link
                     to={`/drill?element=${o.id.split('.')[0]}&outcome=${o.id}`}
-                    className="flex-none font-medium text-brand-600 hover:underline dark:text-brand-300"
+                    className="flex-none font-medium text-indigo-600 hover:underline dark:text-indigo-300"
                   >
                     {o.id}
                   </Link>
@@ -173,8 +174,8 @@ export default function Progress() {
 
       {/* By element */}
       <section className="card overflow-hidden">
-        <h2 className="border-b border-slate-200 p-4 font-semibold dark:border-slate-800">By element</h2>
-        <div className="divide-y divide-slate-200 dark:divide-slate-800">
+        <h2 className="border-b border-white/60 p-4 font-display font-semibold dark:border-white/5">By element</h2>
+        <div className="divide-y divide-slate-200/70 dark:divide-white/5">
           {elementStats.map(({ el, tally: elTally, pct }) => {
             const elCards = cardsByElement(el.id)
             const known = elCards.filter((c) => cardStatus[c.id] === 'known').length
@@ -183,15 +184,18 @@ export default function Progress() {
               <div key={el.id}>
                 <button
                   onClick={() => setExpanded(open ? null : el.id)}
-                  className="flex w-full items-center gap-3 p-4 text-left hover:bg-slate-50 dark:hover:bg-slate-800/50"
+                  className="flex w-full items-center gap-3 p-4 text-left transition hover:bg-slate-50 dark:hover:bg-white/[0.04]"
                 >
                   <span className="w-10 flex-none text-xs font-semibold text-slate-400">E{el.id}</span>
                   <span className="min-w-0 flex-1">
                     <span className="block truncate text-sm font-medium">{el.title}</span>
-                    <span className="mt-1 block">
+                    <span className="mt-1.5 block">
                       <span className="flex items-center gap-2 text-xs text-slate-500 dark:text-slate-400">
-                        <span className="h-1.5 w-24 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-700">
-                          <span className={cn('block h-full rounded-full', accTone(pct))} style={{ width: `${pct}%` }} />
+                        <span className="h-2 w-24 overflow-hidden rounded-full bg-slate-100 dark:bg-white/10">
+                          <span
+                            className="block h-full rounded-full bg-gradient-to-r from-indigo-500 to-violet-500"
+                            style={{ width: `${pct}%` }}
+                          />
                         </span>
                         {elTally.attempted}/{elTally.total} attempted · {pct}% · {known}/{elCards.length} cards known
                       </span>
@@ -200,15 +204,18 @@ export default function Progress() {
                   <span className="flex-none text-xs text-slate-400">{open ? '▲' : '▼'}</span>
                 </button>
                 {open && (
-                  <div className="space-y-2 bg-slate-50 px-4 pb-4 pt-1 dark:bg-slate-900/40">
+                  <div className="space-y-2 bg-slate-50/70 px-4 pb-4 pt-1 dark:bg-white/[0.02]">
                     {el.outcomes.map((o) => {
                       const ot = byOutcome.get(o.id) ?? { total: 0, attempted: 0, correct: 0 }
                       const opct = acc(ot)
                       return (
                         <div key={o.id} className="flex items-center gap-2 text-xs">
                           <span className="w-10 flex-none font-mono text-slate-400">{o.id}</span>
-                          <span className="h-1.5 w-20 flex-none overflow-hidden rounded-full bg-slate-200 dark:bg-slate-700">
-                            <span className={cn('block h-full rounded-full', accTone(opct))} style={{ width: `${opct}%` }} />
+                          <span className="h-2 w-20 flex-none overflow-hidden rounded-full bg-slate-100 dark:bg-white/10">
+                            <span
+                              className="block h-full rounded-full bg-gradient-to-r from-indigo-500 to-violet-500"
+                              style={{ width: `${opct}%` }}
+                            />
                           </span>
                           <span className="flex-none tabular-nums text-slate-500 dark:text-slate-400">
                             {ot.attempted}/{ot.total} · {opct}%
@@ -217,7 +224,7 @@ export default function Progress() {
                         </div>
                       )
                     })}
-                    <Link to={`/drill?element=${el.id}`} className="inline-block pt-1 text-xs font-medium text-brand-600 hover:underline dark:text-brand-300">
+                    <Link to={`/drill?element=${el.id}`} className="inline-block pt-1 text-xs font-medium text-indigo-600 hover:underline dark:text-indigo-300">
                       Drill element {el.id} →
                     </Link>
                   </div>
@@ -230,7 +237,7 @@ export default function Progress() {
 
       {/* Mock history */}
       <section className="card p-5">
-        <h2 className="mb-3 font-semibold">Mock exam history</h2>
+        <h2 className="mb-3 font-display font-semibold">Mock exam history</h2>
         {mockHistory.length === 0 ? (
           <p className="text-sm text-slate-500 dark:text-slate-400">No mock attempts yet.</p>
         ) : (
@@ -238,11 +245,11 @@ export default function Progress() {
             <div className="mb-4 flex h-24 items-end gap-1.5">
               {[...mockHistory].reverse().slice(-16).map((r) => (
                 <div key={r.startedAt} className="flex flex-1 flex-col items-center justify-end" title={`${r.overallPct}% · ${formatDate(r.finishedAt)}`}>
-                  <div className={cn('w-full rounded-t', accTone(r.overallPct))} style={{ height: `${Math.max(4, r.overallPct)}%` }} />
+                  <div className={cn('w-full rounded-t-md', accTone(r.overallPct))} style={{ height: `${Math.max(4, r.overallPct)}%` }} />
                 </div>
               ))}
             </div>
-            <ul className="divide-y divide-slate-200 text-sm dark:divide-slate-800">
+            <ul className="divide-y divide-slate-200/70 text-sm dark:divide-white/5">
               {mockHistory.map((r) => (
                 <li key={r.startedAt} className="flex items-center justify-between py-2">
                   <span className="text-slate-500 dark:text-slate-400">{formatDate(r.finishedAt)}</span>
@@ -260,10 +267,10 @@ export default function Progress() {
         )}
       </section>
 
-      <div className="border-t border-slate-200 pt-4 text-right dark:border-slate-800">
+      <div className="border-t border-white/60 pt-4 text-right dark:border-white/5">
         <button
           onClick={() => setConfirmReset(true)}
-          className="text-xs font-medium text-slate-500 transition hover:text-red-600 dark:text-slate-400 dark:hover:text-red-400"
+          className="text-xs font-medium text-slate-500 transition hover:text-rose-600 dark:text-slate-400 dark:hover:text-rose-400"
         >
           Reset all progress
         </button>
@@ -271,7 +278,7 @@ export default function Progress() {
 
       {confirmReset && (
         <Modal onClose={() => setConfirmReset(false)}>
-          <p className="text-lg font-semibold">Reset all progress?</p>
+          <p className="font-display text-lg font-semibold">Reset all progress?</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
             This clears your drill history, bookmarks, flashcard marks, and saved mock scores on this
             device. It can’t be undone.
@@ -281,7 +288,7 @@ export default function Progress() {
               Cancel
             </button>
             <button
-              className="btn bg-red-600 text-white hover:bg-red-700"
+              className="rounded-xl bg-rose-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-rose-700"
               onClick={() => {
                 resetAll()
                 setConfirmReset(false)
@@ -299,8 +306,8 @@ export default function Progress() {
 function Stat({ label, value, sub }: { label: string; value: string; sub?: string }) {
   return (
     <div>
-      <p className="text-xs font-medium uppercase tracking-wide text-slate-400">{label}</p>
-      <p className="mt-1 text-2xl font-bold text-brand-700 dark:text-brand-300">{value}</p>
+      <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">{label}</p>
+      <p className="mt-1 font-display text-2xl font-bold">{value}</p>
       {sub && <p className="text-xs text-slate-400">{sub}</p>}
     </div>
   )

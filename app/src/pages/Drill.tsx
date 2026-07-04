@@ -207,7 +207,7 @@ export default function Drill() {
 
       {idSet && (
         <div className="card mb-6 flex flex-wrap items-center justify-between gap-3 p-4 text-sm">
-          <span className="text-slate-600 dark:text-slate-300">
+          <span className="text-slate-500 dark:text-slate-400">
             Practicing {pool.length} selected question{pool.length === 1 ? '' : 's'}.
           </span>
           <Link to="/drill" className="btn-secondary !py-1.5">
@@ -294,10 +294,10 @@ export default function Drill() {
           </select>
         </Field>
         {focus === 'all' && (
-          <label className="flex items-center gap-2 self-end pb-2 text-sm text-slate-600 dark:text-slate-300 sm:col-span-2 lg:col-span-3">
+          <label className="flex cursor-pointer items-center gap-2.5 self-end pb-2 text-sm font-medium text-slate-600 dark:text-slate-300 sm:col-span-2 lg:col-span-3">
             <input
               type="checkbox"
-              className="h-4 w-4 rounded border-slate-300 dark:border-slate-600"
+              className="h-4 w-4 rounded border-slate-200 accent-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 dark:border-white/10"
               checked={hideAnswered}
               onChange={(e) => setHideAnswered(e.target.checked)}
             />
@@ -310,7 +310,7 @@ export default function Drill() {
         <div className="card p-8 text-center text-slate-500 dark:text-slate-400">{emptyMsg}</div>
       ) : exhausted ? (
         <div className="card p-8 text-center">
-          <p className="text-lg font-semibold">Run complete</p>
+          <p className="font-display text-lg font-semibold">Run complete</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
             You answered {seen} question{seen === 1 ? '' : 's'} — {correct}{' '}
             correct ({seen ? Math.round((correct / seen) * 100) : 0}%).
@@ -321,8 +321,8 @@ export default function Drill() {
         </div>
       ) : (
         current && (
-          <div className="card p-5 sm:p-6">
-            <div className="mb-4 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+          <div className="rounded-3xl border border-white/60 bg-white/80 p-5 shadow-[0_8px_30px_rgb(0,0,0,0.06)] backdrop-blur dark:border-white/5 dark:bg-white/5 sm:p-7">
+            <div className="mb-5 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
               <span>
                 Question {pointer + 1} of {ids.length}
               </span>
