@@ -294,10 +294,10 @@ export default function Drill() {
           </select>
         </Field>
         {focus === 'all' && (
-          <label className="flex items-center gap-2 self-end pb-2 text-sm text-slate-600 dark:text-slate-300 sm:col-span-2 lg:col-span-3">
+          <label className="flex cursor-pointer items-center gap-2.5 self-end pb-2 text-sm font-medium text-slate-600 dark:text-slate-300 sm:col-span-2 lg:col-span-3">
             <input
               type="checkbox"
-              className="h-4 w-4 rounded border-slate-300 dark:border-slate-600"
+              className="h-4 w-4 rounded border-slate-200 accent-indigo-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 dark:border-white/10"
               checked={hideAnswered}
               onChange={(e) => setHideAnswered(e.target.checked)}
             />
