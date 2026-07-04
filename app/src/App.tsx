@@ -17,11 +17,15 @@ function Header() {
   const [open, setOpen] = useState(false)
   const close = () => setOpen(false)
   return (
-    <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/85 backdrop-blur dark:border-slate-800 dark:bg-slate-950/85">
+    <header className="sticky top-0 z-20 border-b border-white/40 bg-white/70 backdrop-blur-xl dark:border-white/5 dark:bg-night/70">
       <div className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-3">
-        <Link to="/" onClick={close} className="flex items-center gap-2 font-bold tracking-tight">
-          <span className="grid h-7 w-7 place-items-center rounded-md bg-brand-600 text-xs font-bold text-white">
-            CR
+        <Link
+          to="/"
+          onClick={close}
+          className="flex items-center gap-2.5 font-display font-bold tracking-tight"
+        >
+          <span className="grid h-8 w-8 place-items-center rounded-xl bg-gradient-to-br from-indigo-500 to-violet-600 text-sm font-bold text-white shadow-lg shadow-indigo-500/30">
+            C
           </span>
           <span className="hidden sm:inline">CIRO Supervisor Exam Prep</span>
           <span className="sm:hidden">CIRO Prep</span>
@@ -36,10 +40,10 @@ function Header() {
               end={n.end}
               className={({ isActive }) =>
                 cn(
-                  'rounded-md px-2.5 py-1.5 text-sm font-medium transition',
+                  'rounded-lg px-3 py-1.5 text-sm font-medium transition',
                   isActive
-                    ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-200'
-                    : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white',
+                    ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-500/10 dark:text-indigo-300'
+                    : 'text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-white',
                 )
               }
             >
@@ -96,7 +100,7 @@ function Header() {
         <nav
           aria-hidden={!open}
           className={cn(
-            'min-h-0 overflow-hidden border-t border-slate-200 px-4 py-2 transition-opacity duration-300 dark:border-slate-800',
+            'min-h-0 overflow-hidden border-t border-white/40 px-4 py-2 transition-opacity duration-300 dark:border-white/5',
             open ? 'opacity-100' : 'opacity-0',
           )}
         >
@@ -109,10 +113,10 @@ function Header() {
               tabIndex={open ? 0 : -1}
               className={({ isActive }) =>
                 cn(
-                  'block rounded-md px-3 py-2 text-sm font-medium transition',
+                  'block rounded-lg px-3 py-2 text-sm font-medium transition',
                   isActive
-                    ? 'bg-brand-50 text-brand-700 dark:bg-brand-900/40 dark:text-brand-200'
-                    : 'text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800',
+                    ? 'bg-indigo-50 text-indigo-600 dark:bg-indigo-500/10 dark:text-indigo-300'
+                    : 'text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-white/10',
                 )
               }
             >
@@ -129,7 +133,7 @@ function Footer() {
   const { examMeta } = useData()
   const r = examMeta.official_resources
   return (
-    <footer className="mt-16 border-t border-slate-200 bg-white py-8 text-sm dark:border-slate-800 dark:bg-slate-950">
+    <footer className="mt-16 border-t border-slate-200/70 bg-white/60 py-8 text-sm backdrop-blur dark:border-white/5 dark:bg-white/[0.03]">
       <div className="mx-auto max-w-5xl px-4">
         <p className="font-semibold text-slate-700 dark:text-slate-200">Official CIRO resources</p>
         <div className="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-brand-600 dark:text-brand-300">
@@ -159,7 +163,11 @@ function Footer() {
 
 function Shell() {
   return (
-    <div className="flex min-h-screen flex-col">
+    <div className="relative flex min-h-screen flex-col">
+      {/* Aurora mesh glow behind the whole app */}
+      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-[40rem] overflow-hidden">
+        <div className="aurora-bg" />
+      </div>
       <Header />
       <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8">
         <Outlet />

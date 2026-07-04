@@ -160,7 +160,7 @@ export default function Drill() {
 
       {idSet && (
         <div className="card mb-6 flex flex-wrap items-center justify-between gap-3 p-4 text-sm">
-          <span className="text-slate-600 dark:text-slate-300">
+          <span className="text-slate-500 dark:text-slate-400">
             Practicing {pool.length} selected question{pool.length === 1 ? '' : 's'}.
           </span>
           <Link to="/drill" className="btn-secondary !py-1.5">
@@ -252,7 +252,7 @@ export default function Drill() {
         <div className="card p-8 text-center text-slate-500 dark:text-slate-400">{emptyMsg}</div>
       ) : exhausted ? (
         <div className="card p-8 text-center">
-          <p className="text-lg font-semibold">Run complete</p>
+          <p className="font-display text-lg font-semibold">Run complete</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
             You answered {session.seen} question{session.seen === 1 ? '' : 's'} — {session.correct}{' '}
             correct ({session.seen ? Math.round((session.correct / session.seen) * 100) : 0}%).
@@ -263,8 +263,8 @@ export default function Drill() {
         </div>
       ) : (
         current && (
-          <div className="card p-5 sm:p-6">
-            <div className="mb-4 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
+          <div className="rounded-3xl border border-white/60 bg-white/80 p-5 shadow-[0_8px_30px_rgb(0,0,0,0.06)] backdrop-blur dark:border-white/5 dark:bg-white/5 sm:p-7">
+            <div className="mb-5 flex items-center justify-between text-xs text-slate-500 dark:text-slate-400">
               <span>
                 Question {pointer + 1} of {queue.length}
               </span>

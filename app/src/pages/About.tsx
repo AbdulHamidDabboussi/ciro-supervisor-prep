@@ -17,7 +17,7 @@ export default function About() {
       />
 
       <section className="card p-6">
-        <h2 className="mb-4 font-semibold">Format</h2>
+        <h2 className="mb-4 font-display font-semibold">Format</h2>
         <dl className="grid gap-x-8 gap-y-3 sm:grid-cols-2">
           <Row label="Questions">
             {f.questions_total} multiple-choice ({f.questions_standard} standalone +{' '}
@@ -29,14 +29,14 @@ export default function About() {
           <Row label="Languages">{f.languages.map((l) => l.toUpperCase()).join(', ')}</Row>
           <Row label="Closed book">{f.closed_book ? 'Yes' : 'No'} · {f.scratch_paper}</Row>
         </dl>
-        <div className="mt-4 rounded-lg bg-slate-50 p-3 text-xs text-slate-500 dark:bg-slate-800/60 dark:text-slate-400">
+        <div className="mt-4 rounded-2xl bg-amber-50 p-3 text-xs text-amber-700 dark:bg-amber-500/10 dark:text-amber-300">
           <Badge tone="amber">Not officially confirmed</Badge>{' '}
           <span className="ml-1">Calculator policy: {f.calculator_policy}.</span>
         </div>
       </section>
 
       <section className="card p-6">
-        <h2 className="mb-2 font-semibold">Scoring</h2>
+        <h2 className="mb-2 font-display font-semibold">Scoring</h2>
         <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-300">
           Results are <strong>{examMeta.scoring.result_types.join(' / ')}</strong>. {examMeta.scoring.pass_mark_note}
         </p>
@@ -47,7 +47,7 @@ export default function About() {
 
       <section className="grid gap-6 md:grid-cols-2">
         <div className="card p-6">
-          <h2 className="mb-4 font-semibold">Fees &amp; attempts</h2>
+          <h2 className="mb-4 font-display font-semibold">Fees &amp; attempts</h2>
           <dl className="space-y-3">
             <Row label="First attempt">${fees.first_attempt} CAD ({fees.taxes})</Row>
             <Row label="Retake">${fees.retake} CAD</Row>
@@ -59,7 +59,7 @@ export default function About() {
           </dl>
         </div>
         <div className="card p-6">
-          <h2 className="mb-4 font-semibold">Eligibility &amp; validity</h2>
+          <h2 className="mb-4 font-display font-semibold">Eligibility &amp; validity</h2>
           <dl className="space-y-3">
             <Row label="Prerequisite courses">{String(examMeta.eligibility.prerequisite_courses)}</Row>
             <Row label="Sponsorship to write">
@@ -72,12 +72,12 @@ export default function About() {
       </section>
 
       <section className="card p-6">
-        <h2 className="mb-1 font-semibold">Administration</h2>
+        <h2 className="mb-1 font-display font-semibold">Administration</h2>
         <p className="text-sm text-slate-600 dark:text-slate-300">
           Designed &amp; administered by {examMeta.administration.exam_designer_administrator}, delivered via{' '}
           {examMeta.administration.delivery_vendor}.
         </p>
-        <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-sm text-brand-600 dark:text-brand-300">
+        <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-sm text-indigo-600 dark:text-indigo-300">
           <a className="hover:underline" href={r.exam_page} target="_blank" rel="noreferrer">
             Exam hub
           </a>
@@ -102,7 +102,7 @@ export default function About() {
 function Row({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div>
-      <dt className="text-xs font-medium uppercase tracking-wide text-slate-400">{label}</dt>
+      <dt className="text-xs font-semibold uppercase tracking-wider text-slate-400">{label}</dt>
       <dd className="mt-0.5 text-sm text-slate-700 dark:text-slate-200">{children}</dd>
     </div>
   )
