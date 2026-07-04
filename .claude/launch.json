@@ -7,13 +7,6 @@
       "runtimeArgs": ["run", "dev", "--prefix", "app", "--", "--port", "5175", "--strictPort"],
       "port": 5175,
       "autoPort": false
-    },
-    {
-      "name": "app-dev-verify",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev", "--prefix", "app", "--", "--port", "5176", "--strictPort"],
-      "port": 5176,
-      "autoPort": false
     }
   ]
 }
