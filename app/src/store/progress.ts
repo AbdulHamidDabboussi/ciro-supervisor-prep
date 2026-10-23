@@ -63,6 +63,8 @@ interface ProgressState {
   guidePosition: GuidePosition | null
   /** Study-guide outcome ids the reader has finished (auto-marked or ticked). */
   guideRead: Record<string, true>
+  /** Study-guide outcome ids the reader flagged to come back to ("review again"). */
+  guideFlags: Record<string, true>
   recordDrill: (id: string, chosen: OptionKey, isCorrect: boolean) => void
   setCardStatus: (id: string, status: CardStatus) => void
   toggleBookmark: (id: string) => void
@@ -74,6 +76,7 @@ interface ProgressState {
   setGuideRead: (outcome: string, read: boolean) => void
   /** Un-mark every given outcome (e.g. one element's) as read. */
   clearGuideRead: (outcomes: string[]) => void
+  toggleGuideFlag: (outcome: string) => void
   resetAll: () => void
   // Derived counts
   drillStats: () => { attempted: number; correct: number }
@@ -89,6 +92,7 @@ const EMPTY_PROGRESS = {
   drillSession: null,
   guidePosition: null,
   guideRead: {},
+  guideFlags: {},
 }
 
 export const useProgress = create<ProgressState>()(
@@ -174,6 +178,14 @@ export const useProgress = create<ProgressState>()(
           const next = { ...s.guideRead }
           for (const o of outcomes) delete next[o]
           return { guideRead: next }
+        }),
+
+      toggleGuideFlag: (outcome) =>
+        set((s) => {
+          const next = { ...s.guideFlags }
+          if (next[outcome]) delete next[outcome]
+          else next[outcome] = true
+          return { guideFlags: next }
         }),
 
       resetAll: () => set(EMPTY_PROGRESS),

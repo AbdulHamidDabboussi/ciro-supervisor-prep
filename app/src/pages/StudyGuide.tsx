@@ -52,6 +52,8 @@ export default function StudyGuide() {
   const setGuideRead = useProgress((s) => s.setGuideRead)
   const setGuidePosition = useProgress((s) => s.setGuidePosition)
   const clearGuideRead = useProgress((s) => s.clearGuideRead)
+  const guideFlags = useProgress((s) => s.guideFlags)
+  const toggleGuideFlag = useProgress((s) => s.toggleGuideFlag)
   const [confirmReset, setConfirmReset] = useState(false)
   const [showTop, setShowTop] = useState(false)
   const [params, setParams] = useSearchParams()
@@ -69,6 +71,15 @@ export default function StudyGuide() {
     const md = studyGuide?.elements.find((e) => e.id === element.id)?.markdown
     return md ? splitElement(md, element.outcomes) : null
   }, [studyGuide, element])
+
+  // Section titles for every element (for the "Flagged for review" list, which spans elements).
+  const sectionTitles = useMemo(() => {
+    const titles = new Map<string, string>()
+    for (const el of studyGuide?.elements ?? []) {
+      for (const m of el.markdown.matchAll(/^##\s+(\d+\.\d+)\s*[—–:-]?\s*([^\n]*)$/gm)) titles.set(m[1], m[2].trim())
+    }
+    return titles
+  }, [studyGuide])
 
   // Only offer to resume when the saved spot isn't where the reader already is (the top of
   // the element they'd land on anyway).
@@ -158,6 +169,17 @@ export default function StudyGuide() {
   const readIn = (outcomes: Outcome[]) => outcomes.filter((o) => guideRead[o.id]).length
   const totalOutcomes = syllabus.elements.reduce((n, el) => n + el.outcomes.length, 0)
   const totalRead = syllabus.elements.reduce((n, el) => n + readIn(el.outcomes), 0)
+  const flaggedIn = (outcomes: Outcome[]) => outcomes.filter((o) => guideFlags[o.id]).length
+  const flagged = syllabus.elements.flatMap((el) =>
+    el.outcomes.filter((o) => guideFlags[o.id]).map((o) => ({ element: el.id, outcome: o.id })),
+  )
+
+  const goTo = (elementId: number, outcomeId: string) => {
+    setResume(null)
+    setParams({ element: String(elementId), outcome: outcomeId })
+    // Same outcome as the current URL: the deep-link effect won't re-run, so scroll here.
+    if (elementId === element.id && outcomeId === targetOutcome) scrollToOutcome(outcomeId)
+  }
 
   const pick = (id: number) => {
     setResume(null)
@@ -197,6 +219,30 @@ export default function StudyGuide() {
         </div>
       )}
 
+      {flagged.length > 0 && (
+        <div className="mb-6 rounded-2xl border border-amber-300/60 bg-amber-50/80 p-4 backdrop-blur dark:border-amber-500/30 dark:bg-amber-500/10">
+          <p className="text-sm font-semibold text-amber-900 dark:text-amber-200">
+            Flagged for review ({flagged.length})
+          </p>
+          <p className="text-xs text-amber-800/80 dark:text-amber-300/80">
+            Outcomes you marked to come back to. Unflag one from its section once it has sunk in.
+          </p>
+          <ul className="mt-3 flex flex-wrap gap-2">
+            {flagged.map((f) => (
+              <li key={f.outcome}>
+                <button
+                  type="button"
+                  onClick={() => goTo(f.element, f.outcome)}
+                  className="rounded-xl border border-amber-300/70 bg-white/80 px-3 py-1.5 text-left text-xs text-amber-900 transition hover:bg-white dark:border-amber-500/30 dark:bg-white/5 dark:text-amber-100 dark:hover:bg-white/10"
+                >
+                  <span className="font-semibold">{f.outcome}</span> {sectionTitles.get(f.outcome) ?? ''}
+                </button>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       <div className="grid gap-6 lg:grid-cols-[15rem_1fr]">
         {/* Element picker: a select on mobile, a sticky list on desktop */}
         <div className="lg:hidden">
@@ -208,7 +254,8 @@ export default function StudyGuide() {
           >
             {syllabus.elements.map((el) => (
               <option key={el.id} value={el.id}>
-                {el.id}. {el.title} ({readIn(el.outcomes)}/{el.outcomes.length} read)
+                {el.id}. {el.title} ({readIn(el.outcomes)}/{el.outcomes.length} read
+                {flaggedIn(el.outcomes) > 0 ? `, ${flaggedIn(el.outcomes)} flagged` : ''})
               </option>
             ))}
           </select>
@@ -239,6 +286,9 @@ export default function StudyGuide() {
                       )}
                     >
                       {done ? '✓ All read' : `${read}/${el.outcomes.length} read`}
+                      {flaggedIn(el.outcomes) > 0 && (
+                        <span className="text-amber-600 dark:text-amber-400"> · ⚑ {flaggedIn(el.outcomes)} to review</span>
+                      )}
                     </span>
                   </button>
                 </li>
@@ -287,15 +337,17 @@ export default function StudyGuide() {
                     e.preventDefault()
                     scrollToOutcome(o.id)
                   }}
-                  title={guideRead[o.id] ? 'Read' : 'Not read yet'}
+                  title={guideFlags[o.id] ? 'Flagged for review' : guideRead[o.id] ? 'Read' : 'Not read yet'}
                   className={cn(
                     'badge transition',
-                    guideRead[o.id]
+                    guideFlags[o.id]
+                      ? 'bg-amber-100 text-amber-800 hover:bg-amber-200 dark:bg-amber-500/15 dark:text-amber-300'
+                      : guideRead[o.id]
                       ? 'bg-emerald-50 text-emerald-700 hover:bg-emerald-100 dark:bg-emerald-500/10 dark:text-emerald-300'
                       : 'bg-slate-100 text-slate-600 hover:bg-indigo-50 hover:text-indigo-600 dark:bg-white/10 dark:text-slate-300 dark:hover:bg-indigo-500/10 dark:hover:text-indigo-300',
                   )}
                 >
-                  {guideRead[o.id] && '✓ '}
+                  {guideFlags[o.id] ? '⚑ ' : guideRead[o.id] ? '✓ ' : ''}
                   {o.id}
                 </a>
               ))}
@@ -311,12 +363,17 @@ export default function StudyGuide() {
 
           {doc?.sections.map((s) => {
             const read = Boolean(guideRead[s.id])
+            const isFlagged = Boolean(guideFlags[s.id])
             return (
-              <section key={s.id} id={anchor(s.id)} className="card scroll-mt-20 p-6">
+              <section
+                key={s.id}
+                id={anchor(s.id)}
+                className={cn('card scroll-mt-20 p-6', isFlagged && 'ring-2 ring-amber-300/70 dark:ring-amber-500/40')}
+              >
                 <div className="flex flex-wrap items-center gap-2">
                   <Badge tone="brand">{s.id}</Badge>
                   {s.outcome && <Badge tone="violet">{s.outcome.taxonomy}</Badge>}
-                  <div className="ml-auto flex items-center gap-3">
+                  <div className="ml-auto flex flex-wrap items-center justify-end gap-2">
                     {manifest.questions > 0 && (
                       <Link
                         to={`/drill?element=${element.id}&outcome=${s.id}`}
@@ -325,6 +382,23 @@ export default function StudyGuide() {
                         Drill this outcome →
                       </Link>
                     )}
+                    <button
+                      type="button"
+                      onClick={() => toggleGuideFlag(s.id)}
+                      aria-pressed={isFlagged}
+                      title={isFlagged ? 'Remove the review flag' : 'Flag this outcome to study again'}
+                      className={cn(
+                        'badge gap-1 transition',
+                        isFlagged
+                          ? 'bg-amber-100 text-amber-800 hover:bg-amber-200 dark:bg-amber-500/15 dark:text-amber-300 dark:hover:bg-amber-500/25'
+                          : 'bg-slate-100 text-slate-500 hover:bg-amber-50 hover:text-amber-700 dark:bg-white/10 dark:text-slate-300 dark:hover:bg-amber-500/10 dark:hover:text-amber-300',
+                      )}
+                    >
+                      <svg className="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor" aria-hidden>
+                        <path d="M3.5 2.75a.75.75 0 0 0-1.5 0v14.5a.75.75 0 0 0 1.5 0v-4.392l1.657-.348a6.449 6.449 0 0 1 4.271.572 7.948 7.948 0 0 0 5.965.524l2.078-.64A.75.75 0 0 0 18 12.25v-8.5a.75.75 0 0 0-.904-.734l-2.38.501a7.25 7.25 0 0 1-4.186-.363l-.502-.2a8.75 8.75 0 0 0-5.053-.439l-1.475.31V2.75Z" />
+                      </svg>
+                      {isFlagged ? 'Flagged to review' : 'Review again'}
+                    </button>
                     <button
                       type="button"
                       onClick={() => setGuideRead(s.id, !read)}
@@ -394,8 +468,8 @@ export default function StudyGuide() {
           <p className="font-display text-lg font-semibold">Reset Element {element.id} reading progress?</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
             This un-marks the {readIn(element.outcomes)} read outcome
-            {readIn(element.outcomes) === 1 ? '' : 's'} in “{element.title}”. Other elements and your
-            saved reading position aren’t affected.
+            {readIn(element.outcomes) === 1 ? '' : 's'} in “{element.title}”. Review flags, other elements
+            and your saved reading position aren’t affected.
           </p>
           <div className="mt-5 flex justify-center gap-3">
             <button className="btn-secondary" onClick={() => setConfirmReset(false)}>
