@@ -10,3 +10,16 @@ app/public/data/
 
 # CIRO copyright documents — "may be linked, not republished" (excluded from this public repo)
 *.pdf
+
+# Third-party source corpora (CIRO, CSA, CRA, Government of Canada… — copyright) are kept
+# LOCAL ONLY: the pipeline needs them for quote verification, but this repo is public.
+# Commit only data we derive from them (syllabus.json, study guides, banks, source maps,
+# manifests/pointers in .md). See exams/retail-securities/README.md.
+research/sources/**/*.*
+!research/sources/**/*.md
+exams/*/official/
+exams/*/research/sources/**/*.*
+!exams/*/research/sources/**/*.md
+
+# Python bytecode
+__pycache__/

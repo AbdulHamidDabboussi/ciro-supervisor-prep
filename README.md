@@ -83,7 +83,7 @@ Authoritative for: 90 questions/form, 60 standard + 30 item-set, 180-minute time
 3. **Mock-exam mode:** assemble 90-question forms per `element_weights`, 180-min countdown (no pause — mirrors real rules), item-sets kept intact within their element's allocation. Known gap: bank is ~14% item-set vs the real form's 33% — assemble with all available sets and fill with standard items; later batches will close the ratio. Bank currently supports **3 fully distinct forms** (binding constraint: E4 = 60 items vs 20/form).
 4. **Scoring display:** CIRO publishes NO pass mark (per-form psychometric standard setting). Show percentage + per-element breakdown + taxonomy-level breakdown. Never display an "official pass threshold"; if a readiness benchmark is wanted, label it as the site's own heuristic.
 5. **Challenge flow:** every rendered question gets a "challenge this question" action (even if v1 just logs locally/mailto). Per `PIPELINE.md`, sustained challenges demote an item from mock rotation.
-6. **Exam-day/info pages:** source facts from `exam-meta.json` and `research/01-exam-logistics.md`. Two facts remain officially unconfirmed: calculator policy, and GN-2600-25-001…004 numbering — don't state them as fact.
+6. **Exam-day/info pages:** source facts from `exam-meta.json` and `research/01-exam-logistics.md`. One fact remains officially unconfirmed: GN-2600-25-001…004 numbering — don't state it as fact. Calculator policy was confirmed 2026-10-22 (personal calculators banned; on-screen Prometric basic/scientific calculator — [Fitch Learning Support](https://fitchlearning-na.zendesk.com/hc/en-ca/articles/6075272480799-Can-I-use-a-physical-calculator-during-the-exam), updated 2026-10-17).
 
 ## Invariants — do not break
 

@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from '../components/ExamLink'
 import { useData, QuestionsStatus } from '../data/DataContext'
 import { useProgress } from '../store/progress'
 import { Badge, PageHeading, ProgressBar } from '../components/ui'

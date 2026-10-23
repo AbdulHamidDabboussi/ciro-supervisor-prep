@@ -1,0 +1,102 @@
+{
+  "exam": "CIRO Retail Securities Exam",
+  "regulator": "Canadian Investment Regulatory Organization (CIRO)",
+  "regime": "CIRO Proficiency Model for Approved Persons of Investment Dealers (IDPC Rules)",
+  "effective_date": "2026-01-01",
+  "replaces": "Pre-2026 CSI course-based proficiency pathway for retail Registered Representatives (CSI exclusive arrangement ended 2025-12-31; Rule 2629(1) transition carve-out for CSI courses completed and applied for before 2027-01-01). Rule 2629(2): an individual required to complete Wealth Management Essentials (WME) as of 2025-12-31 may complete the Retail Securities Exam instead.",
+  "syllabus_version": "2025-05-08",
+  "format": {
+    "papers": 1,
+    "questions_total": 120,
+    "questions_standard": 120,
+    "questions_item_set": 0,
+    "item_set_note": "Syllabus states only 'Multiple choice' (no standard/item-set split, unlike the Supervisor Exam); the official practice exam has no shared-scenario blocks. Treated as 120 standalone questions — inference from official materials, no explicit official statement.",
+    "options_per_question": 4,
+    "options_note": "4 options (A–D) per the official practice exam; the syllabus does not state the option count.",
+    "duration_minutes": 180,
+    "delivery": "computer-based, proctored (remote or in person)",
+    "proctoring": ["Prometric test centre (Canada only)", "Prometric ProProctor Live remote (global)"],
+    "languages": ["en", "fr"],
+    "closed_book": true,
+    "scratch_paper": "not permitted; remote exams use in-platform scratch pad",
+    "calculator_policy": "Personal calculators not permitted under any circumstances; an on-screen Prometric calculator (Basic and Scientific modes) is provided — not a financial/TVM calculator (Fitch Learning Support, updated 2026-10-17; applies to all CIRO exams). The article describes the ProProctor (remote) calculator; the test-centre interface is not separately described.",
+    "calculations": "Substantial: bond price/yield, modified duration, time value of money, financial ratios, fund valuation, CAPM, income tax and capital gains, performance measurement (syllabus element summaries/outcomes). Must be solvable with a basic/scientific calculator.",
+    "taxonomy_levels": ["Remember", "Understand", "Apply", "Analyze"],
+    "taxonomy_note": "Levels are cumulative: an Apply-level outcome may also be tested at Understand and Remember levels. Apply explicitly includes 'calculate'."
+  },
+  "scoring": {
+    "pass_mark": null,
+    "pass_mark_note": "Not published. Each exam form has its own psychometrically set passing standard; candidates receive pass/fail only, immediately, with portal confirmation within 24h. Absent = fail.",
+    "result_types": ["pass", "fail", "absent"]
+  },
+  "fees_cad": {
+    "first_attempt": 475,
+    "retake": 300,
+    "taxes": "additional",
+    "payment": "credit card only via Fitch Learning enrolment portal (dealers with Firm Portal access may pay for candidates)"
+  },
+  "attempts": {
+    "max_per_enrolment_period": 3,
+    "enrolment_period_months": 12,
+    "cooling_off": "6 months after 3 failed/absent attempts within 6 months",
+    "reschedule_free_cutoff_hours": 36,
+    "no_show": "counts as absent (fail), no refund"
+  },
+  "administration": {
+    "exam_designer_administrator": "Fitch Learning",
+    "delivery_vendor": "Prometric",
+    "enrolment_portal": "https://portal.fitchlearning.ca/2/CiroCandidateEnrollment/exams/",
+    "candidate_portal": "https://portal.fitchlearning.ca/r/candidate",
+    "support": "https://fitchlearning-na.zendesk.com/hc/en-ca",
+    "support_phone": "1 (647) 905-5108 (9am-6pm ET, Mon-Fri, excl. Canadian national and Ontario provincial holidays)",
+    "candidate_conduct_policy": "https://fitchlearning-na.zendesk.com/hc/en-ca/articles/5227155761439-Exam-Candidate-Conduct-Policy"
+  },
+  "eligibility": {
+    "prerequisite_courses": "none",
+    "prerequisite_exams_to_write": "none (CIRE need not be passed first, though both are required for retail RR approval)",
+    "enrolment_attestation": "age of majority; work at a CIRO Dealer Member in a relevant role, OR plan to apply within 12 months, OR pursuing further CIRO exams; education providers ineligible",
+    "dealer_sponsorship_to_write": false,
+    "dealer_sponsorship_to_be_approved": true
+  },
+  "approval_requirements": {
+    "rule": "IDPC Rule 2603(1)",
+    "exams": "Registered Representative (retail) dealing with securities: CIRE + Retail Securities Exam (2603(1)(i)(c)); dealing with derivatives: CIRE + Retail Securities Exam + Derivatives Exam (2603(1)(i)(d)). Supervisors of retail RRs also need the RSE (2603(1)(i)(i)(I)); only their CIRE can be waived under the 2-year experience requirement.",
+    "experience": "relevant diploma or degree from an accredited post-secondary institution, OR minimum 4 years of relevant experience acceptable to CIRO (Rule 2603(1)(ii)(a))",
+    "not_required_for": "Investment Representatives (CIRE only), institutional RRs (Institutional Securities Exam), APM/PM designation holders (exempt under Rule 2627(3))",
+    "mutual_funds_only_rr": "Rule 2605(1): complete CIRE + Retail Securities Exam (and Conduct Training) within 270 days of approval; upgrade within 18 months of initial approval",
+    "post_approval": "Dealer training within 90 days of approval (Rule 2604(1)); Conduct Training within 30 days of approval, free (Rule 2604(2)); CE compliance course AND professional development course each cycle (Rule 2704)"
+  },
+  "validity": {
+    "exam_validity_years": 3,
+    "rule": "IDPC Rule 2628",
+    "extensions": [
+      "previously approved in same category (or category requiring same exam) within 3 years",
+      "1 year of relevant securities industry experience within 3 years prior to application"
+    ]
+  },
+  "official_resources": {
+    "exam_page": "https://www.ciro.ca/registered-individuals/proficiency/exam-hub/retail-securities-exam",
+    "syllabus_pdf": "https://www.ciro.ca/media/13541/download?inline",
+    "study_guide_pdf": "https://www.ciro.ca/media/13546/download?inline",
+    "practice_exam_pdf": "https://www.ciro.ca/media/13706/download?inline",
+    "competency_profile_appendix1": "https://www.ciro.ca/media/13641/download?inline",
+    "competency_reference_appendix11": "https://www.ciro.ca/media/13611/download?inline",
+    "exam_hub": "https://www.ciro.ca/registered-individuals/proficiency/exam-hub",
+    "new_candidates_faq": "https://www.ciro.ca/registered-individuals/proficiency/new-candidates",
+    "bulletin_25_0212": "https://www.ciro.ca/newsroom/publications/ciro-proficiency-model-approved-persons-under-investment-dealer-and-partially-consolidated-rules-2",
+    "calculator_policy_article": "https://fitchlearning-na.zendesk.com/hc/en-ca/articles/6075272480799-Can-I-use-a-physical-calculator-during-the-exam",
+    "practice_exam_note": "120 questions with answer key (item ID + key letter), no rationales. CIRO describes it as an equivalent form of the exam. CIRO copyright — do not republish questions."
+  },
+  "element_weights": [
+    {"element": 1, "title": "Know-Your-Client (KYC) & suitability", "questions": 27},
+    {"element": 2, "title": "Fixed income", "questions": 10},
+    {"element": 3, "title": "Equities", "questions": 12},
+    {"element": 4, "title": "Securities analysis", "questions": 14},
+    {"element": 5, "title": "Managed products and other investments", "questions": 16},
+    {"element": 6, "title": "Portfolio construction", "questions": 13},
+    {"element": 7, "title": "Investment recommendations", "questions": 14},
+    {"element": 8, "title": "Execution and market integrity", "questions": 7},
+    {"element": 9, "title": "Monitoring, reporting and maintaining client relationships", "questions": 7}
+  ],
+  "sources_verified": "2026-10-22"
+}

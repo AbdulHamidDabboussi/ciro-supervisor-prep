@@ -85,8 +85,29 @@ export interface ElementWeight {
 export interface Manifest {
   questions: number
   cards: number
+  study_guide: boolean
   updated: string | null
   completion: string | null
+}
+
+/** One entry of public/data/exams.json (written by scripts/copy-data.mjs from ../../exams.json). */
+export interface ExamEntry extends Manifest {
+  id: string
+  name: string
+  short: string
+  /** localStorage key prefix — "ciro" keeps the Supervisor exam's original keys. */
+  storage_prefix: string
+}
+
+export interface ExamRegistry {
+  site_title: string
+  default_exam: string
+  exams: ExamEntry[]
+}
+
+export interface StudyGuide {
+  meta: Record<string, unknown>
+  elements: { id: number; markdown: string }[]
 }
 
 export interface ExamMeta {
@@ -117,19 +138,21 @@ export interface ExamMeta {
     pass_mark_note: string
     result_types: string[]
   }
-  fees_cad: { first_attempt: number; retake: number; taxes: string; payment: string }
+  fees_cad: { first_attempt: number | null; retake: number | null; taxes: string; payment: string }
   attempts: {
-    max_per_enrolment_period: number
-    enrolment_period_months: number
+    max_per_enrolment_period: number | null
+    enrolment_period_months: number | null
     cooling_off: string
     reschedule_free_cutoff_hours: number
     no_show: string
   }
   administration: Record<string, string>
   eligibility: Record<string, string | boolean>
-  approval_requirements_supervisor: Record<string, string>
-  validity: { exam_validity_years: number; rule: string; extensions: string[] }
-  official_resources: Record<string, string>
+  /** Supervisor exam uses the `_supervisor` key; other exams use `approval_requirements`. */
+  approval_requirements_supervisor?: Record<string, string>
+  approval_requirements?: Record<string, string>
+  validity: { exam_validity_years: number | null; rule: string; extensions: string[] }
+  official_resources: Partial<Record<string, string>>
   element_weights: ElementWeight[]
   sources_verified: string
 }

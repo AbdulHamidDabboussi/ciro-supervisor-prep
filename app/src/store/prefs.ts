@@ -5,6 +5,9 @@ type Theme = 'light' | 'dark'
 
 interface PrefsState {
   theme: Theme
+  /** Exam the visitor last studied — where `/` lands them. */
+  lastExam: string | null
+  setLastExam: (id: string) => void
   setTheme: (t: Theme) => void
   toggleTheme: () => void
 }
@@ -15,6 +18,8 @@ export const usePrefs = create<PrefsState>()(
       // Light is the default for new visitors; a returning visitor's saved choice
       // is rehydrated from localStorage and takes precedence over this.
       theme: 'light',
+      lastExam: null,
+      setLastExam: (lastExam) => set({ lastExam }),
       setTheme: (theme) => set({ theme }),
       toggleTheme: () => set({ theme: get().theme === 'dark' ? 'light' : 'dark' }),
     }),

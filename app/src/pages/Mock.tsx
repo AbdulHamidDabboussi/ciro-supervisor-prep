@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useExamNavigate as useNavigate } from '../components/ExamLink'
 import { useData } from '../data/DataContext'
 import { useMock } from '../store/mock'
 import { assembleMockForm } from '../lib/mockAssembler'
@@ -64,11 +64,13 @@ function StartScreen() {
               You can <strong>pause</strong> the timer here for convenience — note the real exam has
               <strong> no pause</strong>.
             </li>
-            <li>
-              Forms are weighted like the real exam (about a third item-set questions), but the bank
-              has a limited pool of item sets — so only a few fully distinct forms are possible
-              before questions start to repeat.
-            </li>
+            {questions_item_set > 0 && (
+              <li>
+                Forms are weighted like the real exam (about {Math.round((questions_item_set / questions_total) * 100)}%
+                item-set questions), but the bank has a limited pool of item sets — so only a few fully
+                distinct forms are possible before questions start to repeat.
+              </li>
+            )}
             <li>No pass mark is shown — you’ll get a percentage and a breakdown by element and skill.</li>
           </ul>
         </div>

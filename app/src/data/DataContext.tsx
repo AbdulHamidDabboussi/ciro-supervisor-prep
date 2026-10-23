@@ -12,6 +12,7 @@ interface DataContextValue extends CoreData {
   retryQuestions: () => void
   bank: HeavyData['bank'] | null
   deck: HeavyData['deck'] | null
+  studyGuide: HeavyData['studyGuide']
   reviewedQuestions: Question[]
 }
 
@@ -22,7 +23,8 @@ type CoreState =
   | { status: 'error'; error: string }
   | { status: 'ready'; core: CoreData }
 
-export function DataProvider({ children }: { children: ReactNode }) {
+/** Loads one exam's data. Mount with `key={examId}` so switching exams starts fresh. */
+export function DataProvider({ examId, children }: { examId: string; children: ReactNode }) {
   const [core, setCore] = useState<CoreState>({ status: 'loading' })
   const [heavy, setHeavy] = useState<HeavyData | null>(null)
   const [heavyError, setHeavyError] = useState<string | null>(null)
@@ -31,13 +33,13 @@ export function DataProvider({ children }: { children: ReactNode }) {
   // Phase 1 — small files; blocks first paint (fast).
   useEffect(() => {
     let cancelled = false
-    loadCore()
+    loadCore(examId)
       .then((c) => !cancelled && setCore({ status: 'ready', core: c }))
       .catch((e) => !cancelled && setCore({ status: 'error', error: String(e?.message ?? e) }))
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [examId])
 
   // Phase 2 — the 2.3 MB bank + flashcards; kicks off once core is ready, in the background.
   // On failure we surface an error + retry instead of an endless loader.
@@ -45,13 +47,13 @@ export function DataProvider({ children }: { children: ReactNode }) {
     if (core.status !== 'ready') return
     let cancelled = false
     setHeavyError(null)
-    loadHeavy()
+    loadHeavy(examId, core.core.manifest)
       .then((h) => !cancelled && setHeavy(h))
       .catch((e) => !cancelled && setHeavyError(String(e?.message ?? e)))
     return () => {
       cancelled = true
     }
-  }, [core.status, attempt])
+  }, [core, examId, attempt])
 
   const value = useMemo<DataContextValue | null>(() => {
     if (core.status !== 'ready') return null
@@ -78,6 +80,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
       },
       bank: heavy?.bank ?? null,
       deck: heavy?.deck ?? null,
+      studyGuide: heavy?.studyGuide ?? null,
       reviewedQuestions,
     }
   }, [core, heavy, heavyError])

@@ -1,0 +1,1880 @@
+{
+  "element": 7,
+  "drafted": "2026-10-22",
+  "claims": [
+    {
+      "outcome": "7.1",
+      "kind": "C",
+      "claim": "Objectives (preservation, income, growth, values), needs (liquidity), risk profile limits, expected performance follows risk taken",
+      "basis": "standard finance concept; objective list mirrors GN-KYC s.2.3.3 wording (R below)"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "Investment objectives include capital preservation, income, growth, or investing per personal values",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, L226",
+      "quote": "A client’s investment objectives are what they want to achieve when investing, such as capital preservation, income generation, capital growth, or investing in accordance with their personal values."
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "Risk profile reflects the lower of risk tolerance and risk capacity (stated briefly; full treatment in 1.3)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, ~L262",
+      "quote": "The client’s risk profile should reflect the lower of the client’s assessed risk tolerance and risk capacity."
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "Agreed investment goals should be specific and measurable",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, L232",
+      "quote": "If a Registered Individual and their client agree upon certain investment goals, they should be specific and measurable."
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "Goals may be set in an investment policy statement",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, L230",
+      "quote": "which they may choose to do through an investment policy statement or similar document."
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "Client should be periodically updated on progress toward goals",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, L232",
+      "quote": "If investment goals are set, the Registered Individual should periodically update the client on their progress towards these goals."
+    },
+    {
+      "outcome": "7.1",
+      "kind": "C",
+      "claim": "Work from goal to required return; if unattainable within profile, change goal not profile; benchmark matching agreed asset mix",
+      "basis": "standard planning practice; consistent with GN-KYC s.2.3.5 (see 7.5 R claim)"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "C",
+      "claim": "Exam trap: a goal needing ~7% when a low risk profile supports ~4% does not justify more risk; change the goal, savings or timeline, not the profile",
+      "basis": "follows from the lower-of rule (1.3) and GN-3400-21-004 s. 2.3.5 'should not override a client's risk profile' (quoted under 7.5); illustrative numbers only"
+    },
+    {
+      "outcome": "7.2",
+      "kind": "R",
+      "claim": "KYC guidance lets clients express goals including ESG criteria or other personal preferences",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, L228",
+      "quote": "or investing in accordance with environmental, social and governance criteria or other personal preferences."
+    },
+    {
+      "outcome": "7.2",
+      "kind": "C",
+      "claim": "ESG/EDI/personal-preference screens: forms (exclusion, best-in-class, thematic/impact, faith-based) and impacts (smaller universe, sector tilts, tracking error, lower diversification, higher cost, benchmarking difficulty)",
+      "basis": "standard responsible-investing concepts"
+    },
+    {
+      "outcome": "7.2",
+      "kind": "C",
+      "claim": "EDI as an investment preference (diverse boards/management, inclusive policies)",
+      "basis": "syllabus wording; no regulatory text names EDI (gap G3) - kept conceptual"
+    },
+    {
+      "outcome": "7.2",
+      "kind": "C",
+      "claim": "Restriction narrows choices; suitability obligation still applies in full",
+      "basis": "follows from IDPC 3402(1) (quoted under 7.4)"
+    },
+    {
+      "outcome": "7.2",
+      "kind": "R",
+      "claim": "Dealers should let clients express needs and objectives in meaningful terms",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, L228",
+      "quote": "Dealers should provide their clients with the opportunity to express their investment needs and objectives in terms that are meaningful to them"
+    },
+    {
+      "outcome": "7.2",
+      "kind": "C",
+      "claim": "Noting the restriction on file is presented as practice advice, not a rule",
+      "basis": "practice recommendation; labelled 'In practice'"
+    },
+    {
+      "outcome": "7.3",
+      "kind": "C",
+      "claim": "Definitions and examples of 15 biases grouped per syllabus: representativeness, illusion of control, confirmation, hindsight; framing, anchoring, mental accounting, availability; loss aversion, overconfidence, endowment; survivorship, gambler's fallacy, herding, home country",
+      "basis": "standard behavioural finance definitions (Kahneman-Tversky, Thaler, Shefrin); grouping follows syllabus 7.3"
+    },
+    {
+      "outcome": "7.3",
+      "kind": "C",
+      "claim": "Cognitive errors easier to correct with information; emotional biases usually managed/adapted to",
+      "basis": "standard behavioural finance practice (moderate vs adapt)"
+    },
+    {
+      "outcome": "7.3",
+      "kind": "C",
+      "claim": "Anchoring vs loss aversion distinction",
+      "basis": "standard definitions"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Suitability determination required before purchase/sale/transfer/other investment action, recommendation or discretion",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1), L6792-6796",
+      "quote": "Before a Dealer Member purchases, sells, withdraws, exchanges or transfers-out securities or precious metals bullion, or transacts in derivatives for a retail client’s account, takes any other investment action for a client, makes a recommendation or exercises discretion to take any such action"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Action must put client interest first",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(ii), L6810",
+      "quote": "the action puts the retail client’s interest first."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Factor: alternatives available through the Dealer Member",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(e), L6807-6809",
+      "quote": "a consideration of a reasonable range of alternative actions available to the Registered Representative, Portfolio Manager, or Associate Portfolio Manager through the Dealer Member at the time the determination is made"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Approved Persons may only buy/recommend dealer-approved securities (quoted guidance in prose)",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001, L255",
+      "quote": "Approved Persons must not purchase for, or recommend securities to, a client unless the Dealer has approved those securities."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Proprietary products are an inherent, almost always material conflict to be addressed in clients' best interest",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP, L1637-1639",
+      "quote": "It is an inherent conflict of interest for a registered firm to trade in, or recommend, proprietary products and this conflic t is, in our experience, almost always a material conflict of interest."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Limited model portfolios: in-depth review of alternatives not expected if only one option fits",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.4, L504",
+      "quote": "where a Dealer offers only a limited range of model portfolios, we would not expect the Registered Individual to conduct an in-depth consideration of alternatives if it is clear that only a limited number of options, or a single option, would be suitable for the client."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Net worth includes assets and liabilities",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.2, ~L203",
+      "quote": "A Dealer should also take reasonable steps to determine a client’s net worth, which includes their assets and liabilities."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Dealers should identify clients more suited to cash deposits or guaranteed products",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, ~L254",
+      "quote": "identifying clients that are more suited to placing their money in cash deposits or guaranteed products because they are unwilling or unable to accept the risk of loss of capital."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "C",
+      "claim": "Cash management practices: emergency fund rule of thumb 3-6 months of expenses, pay down high-interest debt, automatic saving, short-horizon money in low-volatility assets",
+      "basis": "common personal-finance practice, labelled as such in text"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "CPP retirement pension is monthly, taxable, for life",
+      "source_file": "research/sources/gov/cpp-pages.txt",
+      "locator": "canada.ca CPP page, L10",
+      "quote": "The Canada Pension Plan (CPP) retirement pension is a monthly, taxable benefit that replaces part of your income when you retire."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "CPP eligibility: at least 60 and one valid contribution",
+      "source_file": "research/sources/gov/cpp-pages.txt",
+      "locator": "canada.ca CPP eligibility, L118-120",
+      "quote": "be at least 60 years old - have made at least one valid contribution to the CPP"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "CPP early reduction 0.6%/month, max 36% at 60",
+      "source_file": "research/sources/gov/cpp-pages.txt",
+      "locator": "canada.ca CPP when-start, L214",
+      "quote": "Payments decrease by 0.6% each month (7.2% per year), up to a maximum reduction of 36% if you start at age 60."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "CPP late increase 0.7%/month, up to 42% at 70",
+      "source_file": "research/sources/gov/cpp-pages.txt",
+      "locator": "canada.ca CPP when-start, L218",
+      "quote": "Payments increase by 0.7% each month (8.4% per year), up to 42% at age 70."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "CPP standard start age 65",
+      "source_file": "research/sources/gov/cpp-pages.txt",
+      "locator": "canada.ca CPP when-start, L200",
+      "quote": "The standard age to start CPP is at age 65"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "CPP maximum at 65 (January 2026) $1,507.65/month",
+      "source_file": "research/sources/gov/cpp-pages.txt",
+      "locator": "canada.ca CPP amount, L264",
+      "quote": "| Maximum CPP pension at age 65 (January 2026) | $1,507.65/month |"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "CPP pension sharing can lower taxes",
+      "source_file": "research/sources/gov/cpp-pages.txt",
+      "locator": "canada.ca CPP, L358",
+      "quote": "Pension sharing can lower your taxes in retirement by decreasing your taxable income."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "OAS from age 65",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS eligibility, L124",
+      "quote": "You must be 65 years or older to receive the Old Age Security (OAS) pension."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "OAS requires 10 years residence since 18 (living in Canada)",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS eligibility, L130",
+      "quote": "Have resided in Canada for at least 10 years since the age of 18"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Full OAS needs 40 years; partial = years/40",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS, L336",
+      "quote": "The partial pension you could receive is based on how many years you've lived in Canada, divided by 40."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "OAS deferral +0.6%/month, up to 36% at 70",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS when-start, L284",
+      "quote": "If you wait until after age 65 to start your OAS pension, payments increase by 0.6% each month (7.2% per year), up to 36% at age 70."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "OAS cannot start before 65 while CPP can start at 60",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS when-start, L280",
+      "quote": "If you are eligible for the Canada Pension Plan (CPP), you can start your CPP as early as age 60. However, the earliest you can start your OAS pension is age 65."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "OAS maximum Oct-Dec 2026, age 65-74: $762.50/month",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS payment amounts Oct-Dec 2026, L578",
+      "quote": "| I am age 65 to 74 | less than $152,062 | up to $762.50 |"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "OAS is taxable and subject to recovery tax above $93,454 (2025)",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS, L508",
+      "quote": "It is considered taxable income and is subject to a recovery tax if your individual net annual income is higher than the net world income threshold set for the year ($93,454 for 2025)."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Recovery tax = 15% of income above threshold",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS recovery tax, L702",
+      "quote": "The first step is to figure out how much higher your income is than the threshold. You must repay 15% of that amount."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "GIS requires OAS and income below threshold (income-tested)",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca GIS, L522-530",
+      "quote": "your income is below the maximum annual income threshold for the GIS based on your marital status"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Allowance and Allowance for the Survivor for ages 60-64",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS amounts table, ~L592",
+      "quote": "Allowance (60 to 64 years old)"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "GIS, Allowance, Allowance for the Survivor are not taxable",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS, L564",
+      "quote": "Payment amounts for the Guaranteed Income Supplement, the Allowance and the Allowance for the Survivor are not considered taxable income."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "C",
+      "claim": "One-line illustration: OAS recovery tax on $10,000 of net income above the 2025 threshold = $1,500",
+      "basis": "10,000 x 0.15 = 1,500 (rate quoted in claim 'Recovery tax = 15% of income above threshold')"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "C",
+      "claim": "Selecting suitable products: product risk, liquidity, complexity and cost must fit objectives, risk profile, horizon across the portfolio",
+      "basis": "application of IDPC 3402(1) factors (quoted)"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Key rule: reasonable range of alternatives through the Dealer Member",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(e), L6807-6809",
+      "quote": "a consideration of a reasonable range of alternative actions available to the Registered Representative, Portfolio Manager, or Associate Portfolio Manager through the Dealer Member at the time the determination is made"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "OAS: citizen or legal resident",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS eligibility, L128",
+      "quote": "Be a Canadian citizen or a legal resident at the time we approve your OAS pension application"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "OAS: 20 years residence if living outside Canada",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS eligibility, L134-136",
+      "quote": "Have resided in Canada for at least 20 years since the age of 18"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Allowance: spouse or common-law partner receives GIS; age 60-64",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca Allowance eligibility, L538",
+      "quote": "your spouse or common-law partner receives the Guaranteed Income Supplement (GIS)"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Allowance for the Survivor: spouse or partner has died",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca Allowance for the Survivor, L554",
+      "quote": "your spouse or common-law partner has died and you have not remarried or entered into a common-law relationship"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "QPP is the Quebec workers' plan; CPP equivalent elsewhere",
+      "source_file": "research/sources/gov/qpp-quebec-pension-plan-retraite-quebec-pages.txt",
+      "locator": "Retraite Quebec QPP, L10",
+      "quote": "Elsewhere in Canada, the equivalent plan is the Canada Pension Plan."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "QPP normal retirement age 65",
+      "source_file": "research/sources/gov/qpp-quebec-pension-plan-retraite-quebec-pages.txt",
+      "locator": "Retraite Quebec QPP, L92",
+      "quote": "Under the QPP, the normal retirement age is 65."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "QPP late increase 0.7%/month up to 58.8% at 72",
+      "source_file": "research/sources/gov/qpp-quebec-pension-plan-retraite-quebec-pages.txt",
+      "locator": "Retraite Quebec QPP, L199",
+      "quote": "It will increase by 0.7% for each month that has passed since you turned 65, up to a maximum of 58.8% for a pension that begins when you turn 72."
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "QPP early reduction 0.5%-0.6%/month; 30%-36% at 60",
+      "source_file": "research/sources/gov/qpp-quebec-pension-plan-retraite-quebec-pages.txt",
+      "locator": "Retraite Quebec QPP, L201",
+      "quote": "Your pension will be decreased by 0.5% to 0.6% for each month before you turn 65. Therefore, if you apply for your pension at age 60, you will receive a pension that is 30% to 36% lower"
+    },
+    {
+      "outcome": "7.5",
+      "kind": "C",
+      "claim": "Portfolio selection steps: inputs, current portfolio review, shortfall analysis, strategy (strategic mix, passive/active, laddering, DCA), implement and monitor",
+      "basis": "standard portfolio-management process"
+    },
+    {
+      "outcome": "7.5",
+      "kind": "R",
+      "claim": "Suitability judged on overall account portfolio, not trade by trade",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.1, L470",
+      "quote": "Dealers and Registered Individuals cannot determine suitability on an individual trade/position basis, but must make a suitability determination based on the overall client’s account portfolio of investments"
+    },
+    {
+      "outcome": "7.5",
+      "kind": "R",
+      "claim": "Discuss risk-return relationship where expectations conflict with risk profile",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, L275",
+      "quote": "Where the client’s expectations for returns conflict with their risk profile, the Registered Individual should consider having a detailed discussion with the client on the relationship between risk and return to reconcile such conflicts and establish more realistic expectations."
+    },
+    {
+      "outcome": "7.5",
+      "kind": "R",
+      "claim": "Do not override risk profile to meet return expectations (quoted guidance in prose)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, L277",
+      "quote": "Registered Individuals should not override a client’s risk profile or other KYC information to meet a client’s expectations for returns."
+    },
+    {
+      "outcome": "7.5",
+      "kind": "R",
+      "claim": "Explain alternatives where goals need more risk than client can take",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, L277",
+      "quote": "If a client’s goals or return objectives cannot be achieved without taking greater risk than they are able or willing to take, the Registered Individual should clearly explain the alternatives available."
+    },
+    {
+      "outcome": "7.5",
+      "kind": "R",
+      "claim": "Tell client expectation cannot realistically be met; document interaction",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, L279",
+      "quote": "the Registered Individual should explain to the client that their need or expectation for a higher return cannot realistically be met, and as a result, the higher risk portfolio is unsuitable. The Registered Individual should properly document their interaction with the client and the end result."
+    },
+    {
+      "outcome": "7.5",
+      "kind": "C",
+      "claim": "Cash flow analysis compares after-tax income with spending to find investable surplus; shows realism of goals and liquidity need",
+      "basis": "standard financial-planning concept"
+    },
+    {
+      "outcome": "7.5",
+      "kind": "C",
+      "claim": "One-line illustration: $6,500 after-tax income - $5,500 spending = $1,000/month = $12,000/year",
+      "basis": "6500-5500 = 1000; 1000 x 12 = 12000"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Account review required after trigger events",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2), L6811-6814",
+      "quote": "must review the retail client’s account and the securities, derivatives or precious metals bullion, in the retail client’s account to determine whether the criteria in subsection 3402(1) are met, and take reasonable steps, within a reasonable time, after any of the following events"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Trigger (iii): dealer becomes aware of change in client KYC information that could result in holding/account not satisfying 3402(1)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(iii), L6819-6821",
+      "quote": "accordance with subsection 3202(1) that could result in a security"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Dealers should set and monitor concentration and liquidity thresholds",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.3, L491",
+      "quote": "Dealers should determine appropriate concentration and liquidity thresholds for their clients and implement processes to calculate, monitor and manage concentration risks in a client’s account."
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Over-concentration examples: illiquid exempt securities, single issuer",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.3, L497",
+      "quote": "illiquid exempt market securities as compared to more liquid publicly traded securities"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Consider effect across multiple accounts",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.1, L472",
+      "quote": "the Registered Individual should also consider whether a recommendation or decision for one account would materially affect the concentration and liquidity of the client’s portfolio of investments across all their accounts"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Cost interpreted broadly incl. trailing commissions",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.5, L510",
+      "quote": "all direct and indirect costs, fees, commissions and charges, including trailing commissions"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Assess compensation impact regardless of who pays",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.5, L516",
+      "quote": "Registered Individuals should assess the impact on the client’s return of any compensation paid, directly or indirectly, to the Dealer or Registered Individual, regardless of who pays that compensation."
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Factor: potential and actual impact of costs (Key rule)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(d), L6806",
+      "quote": "the potential and actual impact of costs on the retail client’s returns"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Representatives must consider alternatives available through the Dealer",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.4, L504",
+      "quote": "consider a range of alternative recommendations or decisions available to them through the Dealer when making a suitability determination."
+    },
+    {
+      "outcome": "7.6",
+      "kind": "C",
+      "claim": "'In practice' illustrations of alternatives: holding cash, doing nothing, cheaper equivalent exposure; existing holdings reviewed after trigger",
+      "basis": "illustrative application of 3402(1)(i)(e) and 3402(2) (quoted); attributed as practice, not rule text"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Over-concentration in single issuer or single industry/asset class",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.3, L498",
+      "quote": "securities of a single issuer, or group of related issuers, as compared to a broadly based portfolio of issuers"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Account review must cover account and its holdings against 3402(1)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2), L6811-6813",
+      "quote": "A Dealer Member must review the retail client's account and the securities, derivatives or precious metals bullion, in the retail client's account to determine whether the criteria in subsection 3402(1) are met"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "3209(3): update KYC within reasonable time after significant change",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3209(3), L5649-5652",
+      "quote": "including updating the information within a reasonable time after the Dealer Member becomes aware of a significant change in the client"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Reasonable range of alternatives depends on securities and services offered, skill and proficiency, client circumstances",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.4, L504",
+      "quote": "What constitutes a reasonable range of alternatives will depend upon the circumstances, including the securities and services offered, the Registered Individual's skill and proficiency, and the client's particular circumstances."
+    },
+    {
+      "outcome": "7.6",
+      "kind": "C",
+      "claim": "After a trigger event, the 7.6 question is what action follows: whether holdings still fit, cost of selling/switching, available alternatives",
+      "basis": "application of IDPC 3402(1)(i)(d)-(e) and 3402(2) (quoted)"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "C",
+      "claim": "Four-part recommendation: pros/cons, risks, what it accomplishes, securing commitment (summarize, check understanding, confirm, document)",
+      "basis": "standard advisory practice (syllabus 7.7 bullets)"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "Approved Person should explain structure, features, risks, costs",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001, L263",
+      "quote": "Approved Persons should understand and be able to explain to the client the security’s structure, features, risks, initial and ongoing costs and the impact of those costs."
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "Risks include loss of principal, liquidity, redemption risk",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001, L265",
+      "quote": "risks – including the possibility that clients may lose some or all of the principal amount invested, liquidity risk, redemption risk"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "Disclose material negative and positive factors in advisory account",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.1, L482",
+      "quote": "a Registered Individual should disclose any material negative and positive factors involved in the transaction to the client to assist the client in making an informed decision."
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "Ensure client understands risks; document disclosure",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.1, L482",
+      "quote": "The Registered Individual should ensure the client understands the risks involved, particularly where the client has limited investment experience. We expect the Registered Individual to document this disclosure."
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "Unsuitable client instruction: IDPC 3402(5) three steps apply (detail in 1.18)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(5)(i), L6851-6852",
+      "quote": "informed the retail client of the basis for the determination that the action will not satisfy subsection 3402(1) and advised the client against proceeding with the order"
+    },
+    {
+      "outcome": "7.8",
+      "kind": "C",
+      "claim": "Annuity formulas FV, PV, sinking-fund PMT, capital-recovery PMT; ordinary annuity convention; monthly r/12 assumes nominal rate compounded monthly; effective annual rate -> (1+r)^(1/12)-1; examples annual",
+      "basis": "standard TVM formulas; periodic-rate conversion: (1+i_m)^12 = 1+EAR => i_m = (1+EAR)^(1/12)-1; nominal j12 => i_m = j12/12"
+    },
+    {
+      "outcome": "7.8",
+      "kind": "C",
+      "claim": "Worked example: $50,000 in 10 years at 5%, year-end deposits => $3,975.23/yr",
+      "basis": "1.05^10 = 1.628895; 50000*0.05 = 2500; 2500/0.628895 = 3975.23 (python: 3975.2287); check FV = 3975.2287*(0.628895/0.05) = 50000"
+    },
+    {
+      "outcome": "7.8",
+      "kind": "C",
+      "claim": "Worked example: $300,000 at 4% for 20 years, year-end payments => $22,074.53/yr; annuity due 22,074.53 / 1.04 = $21,225.51",
+      "basis": "1.04^-20 = 0.456387; 300000*0.04 = 12000; 12000/0.543613 = 22074.53 (python 22074.5251); due = 22074.53/1.04 = 21225.5096 -> 21225.51"
+    },
+    {
+      "outcome": "7.8",
+      "kind": "C",
+      "claim": "Annuity due payment smaller than ordinary for same PV; higher return/longer horizon lowers required deposit",
+      "basis": "follows from formulas"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA: first-time home buyer saves tax-free",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA, L10",
+      "quote": "A first home savings account (FHSA) is a registered plan which allows you, if you are a first-time home buyer, to save to buy or build a qualifying first home tax-free (up to certain limits)."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA age 18+",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA, L100",
+      "quote": "You are 18 years of age or older"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA 71 or younger at Dec 31 of year opened",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA, L106",
+      "quote": "You are 71 years or younger as of December 31 of the year you open your FHSA"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA residency condition",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA, L108",
+      "quote": "You meet the residency condition"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA $8,000 room in first year",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA participating, L337",
+      "quote": "Your FHSA participation room in the year you open your first FHSA is $8,000."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA $40,000 lifetime",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA participating, L480-482",
+      "quote": "$40,000 minus all of your contributions to your FHSAs and transfers from your RRSPs to your FHSAs for all prior years"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA contributions deductible; RRSP transfers not",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA, L12",
+      "quote": "Contributions to an FHSA are generally deductible and can be used to reduce your tax. Transfers from your RRSPs to your FHSAs are not deductible."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA qualifying withdrawal tax-free, no repayment",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA withdrawals, L1238-1242",
+      "quote": "If you meet all of the qualifying withdrawal conditions, you can withdraw all of the property from your FHSAs tax-free."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA qualifying withdrawals need not be repaid",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA withdrawals, L1242",
+      "quote": "You do not need to repay the qualifying withdrawals that you make from your FHSAs."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA excess taxed 1% per month",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA, L2241",
+      "quote": "Generally, you have to pay a tax of 1% per month on the highest excess FHSA amount in that month."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA maximum participation period end events",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA closing, L2549-2555",
+      "quote": "ends on December 31 of the year in which the earliest of the following events occur: - the 15th anniversary of opening your first FHSA - you turn 71 years of age - the year following your first qualifying withdrawal from your FHSA"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP last contribution Dec 31 of year turning 71",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRSP at 71, L522",
+      "quote": "December 31 of the year you turn 71 years old is the last day that you can contribute to your RRSPs."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP new room each year = lesser of dollar limit and 18% of prior-year earned income (term B(a))",
+      "source_file": "research/sources/gov/ita-registered-plans-rrsp-tfsa-fhsa-resp.txt",
+      "locator": "ITA s.146(1) RRSP deduction limit, L57",
+      "quote": "the lesser of the RRSP dollar limit for the year and 18% of the taxpayer’s earned income for the preceding taxation year"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP dollar limit 2026 = $33,810",
+      "source_file": "research/sources/cra/registered-plan-limits-mp-rrsp-tfsa-ympe.txt",
+      "locator": "CRA limits table, L18",
+      "quote": "| 2026 | $35,390 | $3,932.22 | $33,810 | $17,695 | $74,600 | $85,000 |"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP contributions deductible",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRSP overview, L10",
+      "quote": "Deductible RRSP contributions can be used to reduce your tax."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Premiums paid up to 60 days after year-end deductible for the year",
+      "source_file": "research/sources/gov/ita-registered-plans-rrsp-tfsa-fhsa-resp.txt",
+      "locator": "ITA s.146(5)(a), L97",
+      "quote": "a premium paid by the taxpayer after 1990 and on or before the day that is 60 days after the end of the year under a registered retirement savings plan"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP withdrawals taxable",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRSP overview, L12",
+      "quote": "You generally have to pay tax when you receive payments from the plan."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP withholding 10/20/30% (outside Quebec)",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRSP withholding, L498-502",
+      "quote": "10% (5% in Quebec) on amounts up to $5,000 - 20% (10% in Quebec) on amounts exceeding $5,000, up to and including $15,000 - 30% (15% in Quebec) on amounts over $15,000"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "HBP withdrawal limit $60,000",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA HBP, L582",
+      "quote": "Currently, the HBP withdrawal limit is $60,000."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP excess: above limit + $2,000 taxed 1% per month",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRSP definitions, L372",
+      "quote": "Generally, the amount of your RRSP, PRPP, and SPP contributions that is more than your RRSP deduction limit for the year plus $2,000. If you have RRSP excess contributions, you may have to pay a tax of 1% per month on those contributions."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "At 71: withdraw, transfer to RRIF, or buy annuity",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA own RRSPs at 71, L552-558",
+      "quote": "In the year you turn 71 years old, you have to choose one of the following options for your RRSPs: - withdraw them - transfer them to a RRIF - use them to purchase an annuity"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "TFSA: resident, 18+",
+      "source_file": "research/sources/cra/tfsa-pages.txt",
+      "locator": "CRA TFSA opening, L252-254",
+      "quote": "Be a resident of Canada for income tax purposes - Be 18 years of age or older"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "TFSA: no earned income needed",
+      "source_file": "research/sources/cra/tfsa-pages.txt",
+      "locator": "CRA TFSA opening, L248",
+      "quote": "You do not need to have earned income to open or contribute to a TFSA."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "TFSA dollar limit $7,000 for 2025 and 2026",
+      "source_file": "research/sources/cra/registered-plan-limits-mp-rrsp-tfsa-ympe.txt",
+      "locator": "CRA limits TFSA table, L96-98",
+      "quote": "| 2026 | $7,000 | $180,000 | | 2025 | $7,000 | $180,000 |"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "TFSA contributions not deductible; income and withdrawals tax-free",
+      "source_file": "research/sources/cra/tfsa-pages.txt",
+      "locator": "CRA TFSA what, L167",
+      "quote": "Any contribution you make to your TFSA and any income you earn through interest, dividends or capital gains are generally tax-free, even when you make a withdrawal. However, unlike a registered retirement savings plan (RRSP), contributions you make to a TFSA are not tax deductible."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "TFSA withdrawals restored on Jan 1 next year",
+      "source_file": "research/sources/cra/tfsa-pages.txt",
+      "locator": "CRA TFSA room, L386",
+      "quote": "When you withdraw from your TFSA, you will regain the same amount as new available contribution room on January 1 of the following year."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "TFSA excess taxed 1% per month",
+      "source_file": "research/sources/cra/tfsa-pages.txt",
+      "locator": "CRA TFSA over-contribute, L606",
+      "quote": "any excess amount in your TFSA is taxable at 1% per month for as long as it remains in your account."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RESP: no annual limit; $50,000 lifetime per beneficiary",
+      "source_file": "research/sources/gov/resp-cesg-clb-esdc-pages.txt",
+      "locator": "ESDC RESP, L768",
+      "quote": "There is no annual limit to how much you can contribute to the RESP. Over the lifetime of the RESP, the maximum that can be contributed is $50,000 per beneficiary."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RESP contributions not deductible",
+      "source_file": "research/sources/cra/guide-rc4092-resps-2025.txt",
+      "locator": "RC4092 (2025), L372-373",
+      "quote": "Subscribers cannot deduct their contributions from their income on their income tax and benefit return."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RESP contributions returned tax-free",
+      "source_file": "research/sources/cra/guide-rc4092-resps-2025.txt",
+      "locator": "RC4092 (2025), L828-830",
+      "quote": "the promoter can return your contributions to you tax free when the contract ends or at any time before."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "EAPs taxable to beneficiary",
+      "source_file": "research/sources/gov/resp-cesg-clb-esdc-pages.txt",
+      "locator": "ESDC RESP, L642",
+      "quote": "EAPs include the interest earned in the RESP as well as benefits received. EAPs are considered taxable income for the beneficiary."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "CESG 20% of first $2,500",
+      "source_file": "research/sources/gov/resp-cesg-clb-esdc-pages.txt",
+      "locator": "ESDC RESP, L158",
+      "quote": "If eligible, beneficiaries can receive up to 20% of the first $2,500 contributed to the RESP."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "CESG lifetime maximum $7,200",
+      "source_file": "research/sources/gov/resp-cesg-clb-esdc-pages.txt",
+      "locator": "ESDC RESP, L672",
+      "quote": "The beneficiary cannot receive more than $7,200 from the CESG in their lifetime."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "AIP taxed at subscriber rate + 20% (12% Quebec)",
+      "source_file": "research/sources/gov/resp-cesg-clb-esdc-pages.txt",
+      "locator": "ESDC RESP, L586",
+      "quote": "It is taxed at the regular income tax rate of the subscriber, plus an additional 20% (or 12% for subscribers residing in Quebec)."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Pension income amount claimable on RRIF income at 65+",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRIF, L782",
+      "quote": "You can claim the pension income amount when you receive RRIF income if you were 65 or older on December 31 of the year"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "Claim all deductions and credits: RRSP/FHSA deductions, DTC, FTC, pension income amount",
+      "basis": "planning summary; each item quoted elsewhere in this sidecar"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Spousal attribution of income on transferred/lent property",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.1(1), L7",
+      "quote": "is deemed to be income or a loss, as the case may be, of the individual for the year and not of that person."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Attribution for related minors under 18",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.1(2), L10",
+      "quote": "to or for the benefit of a person who was under 18 years of age"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "CRA summary: income attributed for spouse and related minor under 18; capital gains attributed for spouse",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA line 12000 page, L250-258",
+      "quote": "You may also have to report capital gains on line 12700 from property that you loaned or transferred to your spouse or common-law partner, or to a trust for their benefit."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Attribution to minors covers related minors incl. niece/nephew under 18",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA line 12000 page, L254",
+      "quote": "a related minor (including a niece or a nephew) who was under 18 years of age at the end of 2025"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Exception: fair market value transfer",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.5(1)(a), L68",
+      "quote": "at the time of the transfer the fair market value of the transferred property did not exceed the fair market value of the property received by the transferor as consideration for the transferred property"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Exception: interest at least prescribed rate, paid within 30 days after year-end",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.5(1)(b), L71-73",
+      "quote": "the amount of interest that was payable in respect of the particular year in respect of the indebtedness was paid not later than 30 days after the end of the particular year"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "CRA prescribed rate for low-interest loans 3% for Oct 1-Dec 31, 2026 (presented as the published rate; test uses rate in effect when loan made per 74.5(2))",
+      "source_file": "research/sources/cra/income-splitting-attribution-pension-splitting-prescribed-rates.txt",
+      "locator": "CRA prescribed rates 2026 Q4, L413",
+      "quote": "The interest rate used to calculate taxable benefits for employees and shareholders from interest free and low-interest loans will be 3%."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Spousal RRSP: contributions in year or prior two years can attribute withdrawals to contributor",
+      "source_file": "research/sources/cra/guide-t4040-rrsps-other-registered-plans-retirement-2025.txt",
+      "locator": "T4040 (2025), L3311-3314",
+      "quote": "If you contributed to your spouse’s or common law partner’s RRSPs or your spouse’s account under an SPP in 2023, 2024, or 2025, you may have to include in your 2025 income all or part of:"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Pension income splitting up to 50%",
+      "source_file": "research/sources/cra/income-splitting-attribution-pension-splitting-prescribed-rates.txt",
+      "locator": "CRA pension splitting, L100",
+      "quote": "You can allocate up to 50% of your eligible pension income to your spouse or common-law partner."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "CPP pension sharing (tax benefit)",
+      "source_file": "research/sources/gov/cpp-pages.txt",
+      "locator": "canada.ca CPP, L358",
+      "quote": "Pension sharing can lower your taxes in retirement by decreasing your taxable income."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Superficial loss conditions: identical property bought 30 days before/after by you or affiliated person",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA capital gains pages, L727",
+      "quote": "You, or a person affiliated with you, buys, or has a right to buy, the same or identical property (called \"substituted property\") during the period starting 30 calendar days before the sale and ending 30 calendar days after the sale"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Superficial loss: still owned 30 days after",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA, L729",
+      "quote": "You, or a person affiliated with you, still owns, or has a right to buy, the substituted property 30 calendar days after the sale"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Affiliated persons include spouse and controlled corporation",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA, L733-735",
+      "quote": "you and your spouse or common-law partner - you and a corporation that is controlled by you or your spouse or common-law partner"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Superficial loss denied; added to ACB of substituted property",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA, L741",
+      "quote": "However, if you are the person who acquires the substituted property, you can usually add the amount of the superficial loss to the adjusted cost base of the substituted property."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "One-line illustration: $5,000 denied superficial loss added to $10,500 repurchase cost => ACB $15,500",
+      "basis": "1000*(15-10) = 5000 denied; 1000*10.50 = 10500; 10500+5000 = 15500"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "Tax-loss harvesting: realize losses to offset realized gains",
+      "basis": "standard planning concept"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "SBD net federal rate 9% for CCPCs (CRA page date modified 2026-10-21; stated as 'October 2026')",
+      "source_file": "research/sources/cra/corporations-tax-rates-types-pages.txt",
+      "locator": "CRA corporation tax rates, L18",
+      "quote": "For Canadian-controlled private corporations claiming the small business deduction, the net tax rate is 9%"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "General net rate 15% (CRA page date modified 2026-10-21; stated as 'October 2026')",
+      "source_file": "research/sources/cra/corporations-tax-rates-types-pages.txt",
+      "locator": "CRA corporation tax rates, L14",
+      "quote": "After the general tax reduction, the net tax rate is 15%"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Business limit $500,000",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.125(2), L61",
+      "quote": "a corporation’s business limit for a taxation year is $500,000"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Active business income definition",
+      "source_file": "research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt",
+      "locator": "T4012 (2025), L8416-8417",
+      "quote": "Generally, active business income is income earned from a business source, including any income incidental to the business."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Specified investment business income generally not active / not SBD-eligible",
+      "source_file": "research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt",
+      "locator": "T4012 (2025), L8421-8424",
+      "quote": "are generally not considered active business income and are not eligible for the SBD."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Specified investment business = principal purpose deriving income from property",
+      "source_file": "research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt",
+      "locator": "T4012 (2025), L8427-8429",
+      "quote": "A specified investment business is a business with the principal purpose of deriving income from property, including interest, dividends, rents, or royalties."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Business limit grind formula (basis for conceptual sentence: $5 per $1 of passive income over $50,000)",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.125(5.1)(b), L77",
+      "quote": "D/$500,000 × 5(E − $50,000)"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "Conceptual: with full $500,000 limit, grind is $5 per $1 over $50,000, so limit eliminated at $150,000 passive income (worked example removed per scope)",
+      "basis": "D/500,000 x 5(E-50,000) with D=500,000 = 5(E-50,000); = 500,000 when E = 150,000"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "Integration: corporate + personal tax on dividends approximates tax on income earned directly; achieved via gross-up/DTC and refundable taxes",
+      "basis": "standard Canadian tax concept"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RDTOH accounts (ERDTOH/NERDTOH) drive dividend refund",
+      "source_file": "research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt",
+      "locator": "T4012 (2025), L8868-8871",
+      "quote": "The calculation of a private corporation’s dividend refund is based on two accounts, the eligible refundable dividend tax on hand (ERDTOH) and the non-eligible refundable dividend tax on hand (NERDTOH)."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "GRIP: income not benefiting from SBD; eligible dividends paid to extent of GRIP",
+      "source_file": "research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt",
+      "locator": "T4012 (2025), L10251-10254",
+      "quote": "A CCPC or a deposit insurance corporation may pay eligible dividends to the extent of its GRIP—a balance generally reflecting taxable income that has not benefited from the small business deduction or any other special tax rate"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "CDA: capital gain exceeding taxable capital gain portion (non-taxable half)",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.89(1) CDA, L197-199",
+      "quote": "exceeds the total of (B) the portion of the capital gain referred to in clause (A) that is the corporation’s taxable capital gain"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Capital dividend elected; not included in shareholder income",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.83(2)(b), L336",
+      "quote": "no part of the dividend shall be included in computing the income of any shareholder of the corporation."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA later-year room: lesser of $8,000 plus participation room carryforward (minus excess) and lifetime test",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA how to calculate, L468-472",
+      "quote": "plus the lesser of: a) $8,000 plus your FHSA participation room carryforward"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FHSA participation room carryforward capped at the lesser of $8,000 and a computed amount",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA carryforward, L650-652",
+      "quote": "in the subsequent years after you open your FHSA, the lesser of: a) $8,000"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP deduction limit adds unused room carried forward (term A)",
+      "source_file": "research/sources/gov/ita-registered-plans-rrsp-tfsa-fhsa-resp.txt",
+      "locator": "ITA s.146(1) RRSP deduction limit, L55",
+      "quote": "A is the taxpayer's unused RRSP deduction room at the end of the preceding taxation year"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP new room reduced by prior-year pension adjustment (term B(b))",
+      "source_file": "research/sources/gov/ita-registered-plans-rrsp-tfsa-fhsa-resp.txt",
+      "locator": "ITA s.146(1) RRSP deduction limit, L59",
+      "quote": "the taxpayer's pension adjustment for the preceding taxation year in respect of an employer"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RESP excess over lifetime limit: each subscriber pays 1% per month on their share",
+      "source_file": "research/sources/cra/guide-rc4092-resps-2025.txt",
+      "locator": "RC4092 (2025), L693-695",
+      "quote": "Each subscriber for that beneficiary is liable to pay a tax of 1% per month on their share of the excess contribution that is not withdrawn by the end of the month."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RESP excess defined relative to lifetime limit",
+      "source_file": "research/sources/cra/guide-rc4092-resps-2025.txt",
+      "locator": "RC4092 (2025), L686-689",
+      "quote": "the total of all contributions made by all subscribers to all RESPs for a beneficiary is more than the lifetime limit for that beneficiary"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Capital-gains attribution (s.74.2) applies to spouse or common-law partner only",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.2(1), L28",
+      "quote": "to or for the benefit of a person (in this subsection referred to as the \"recipient\") who is the individual's spouse or common-law partner"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "CRA: capital gains reported by transferor only for property transferred to spouse (minors: income only)",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA line 12000 page, L256",
+      "quote": "You may also have to report capital gains on line 12700 from property that you loaned or transferred to your spouse or common-law partner, or to a trust for their benefit."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "Gifting growth assets to minors splits income because capital gains are not attributed",
+      "basis": "derived from 74.1(2) (income only) vs 74.2(1) (spouse only), both quoted"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FMV-transfer exception to a spouse requires election out of s.73(1) rollover",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.5(1)(c), L77",
+      "quote": "the transferor elected in the transferor's return of income under this Part for the taxation year in which the property was transferred not to have the provisions of subsection 73(1) apply"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Loan exception: interest at least prescribed rate in effect when loan was made",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.5(2)(a)(i), L82",
+      "quote": "the prescribed rate that was in effect at the time the loan was made"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Loan exception: interest paid within 30 days after year-end",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.5(2)(b), L84",
+      "quote": "the amount of interest that was payable in respect of the particular year in respect of the loan was paid not later than 30 days after the end of the particular year"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Dividend refund limited to RDTOH balance; eligible dividends draw only on ERDTOH",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.129(1)(a)(i), L116-118",
+      "quote": "38 1/3% of the total of all eligible dividends paid by it in the year, and (B) its eligible refundable dividend tax on hand at the end of the year"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Non-eligible dividend refund limited to NERDTOH balance (then excess from ERDTOH)",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.129(1)(a)(ii), L120-122",
+      "quote": "38 1/3% of the total of all taxable dividends (other than eligible dividends) paid by it in the year, and (II) its non-eligible refundable dividend tax on hand at the end of the year"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "NERDTOH is generated by the refundable portion of Part I tax on investment income",
+      "source_file": "research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt",
+      "locator": "T4012 (2025), L8878-8880",
+      "quote": "CCPCs and substantive CCPCs generate NERDTOH on the refundable portion of Part I tax they pay on investment income."
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "ERDTOH is built mainly from Part IV tax on eligible dividends received",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.129(4) ERDTOH (a)(i), L147",
+      "quote": "eligible dividends received by the particular corporation in the year from corporations other than corporations with which the particular corporation is connected"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Eligible dividends refund only from ERDTOH; non-eligible dividends from NERDTOH first then ERDTOH (so NERDTOH is recovered only by non-eligible dividends; ERDTOH by any taxable dividend)",
+      "source_file": "research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt",
+      "locator": "T4012 (2025), L8943-8946",
+      "quote": "A private corporation’s eligible dividends generate dividend refunds from the ERDTOH. Non-eligible dividends generate dividend refunds from the NERDTOH first, and then possibly from the ERDTOH."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Capital gain = proceeds - (ACB + outlays and expenses)",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA capital gains, L294",
+      "quote": "To calculate your capital gain or loss, subtract the total of your property's ACB, and any outlays and expenses incurred to sell your property, from the proceeds of disposition."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Foreign proceeds converted at exchange rate at time of sale",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA capital gains, L298",
+      "quote": "the proceeds of disposition to Canadian dollars using the exchange rate in effect at the time of the sale"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Inclusion rate generally 1/2 for 2025",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "T4037 (2025), L505-510",
+      "quote": "Inclusion rate – The inclusion rate (IR) is the fraction by which you multiply your capital gain, capital loss, or business investment loss for the year to determine your taxable capital gain, allowable capital loss, or allowable business investment loss. Generally, the IR for 2025 is 1/2."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Identical properties: average cost recalculated at each purchase; dispositions do not affect ACB",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "T4037 (2025), L2452-2456",
+      "quote": "you have to calculate the average cost of each property in the group at the time of each purchase to determine your ACB. Dispositions of identical properties do not affect the ACB."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Identical property examples (CRA): shares of the same class of a corporation's capital stock, units of a mutual fund trust (quoted in prose)",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "T4037 (2025), L2449-2451",
+      "quote": "The most common examples of identical properties are shares of the same class of the capital stock of a corporation or units of a mutual fund trust."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Average cost includes acquisition expenses",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "T4037 (2025), L2457-2460",
+      "quote": "The average cost is calculated by dividing the total cost of identical properties purchased (this is usually the cost of the property plus any expenses involved in acquiring it) by the total number of identical properties owned."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Capital losses reduce capital gains of the year",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA, L388",
+      "quote": "If you have a capital loss in 2025, you can use it to reduce any capital gains that you had in the year, to a balance of zero."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Unapplied allowable capital loss cannot be deducted from other income",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA, L588",
+      "quote": "While you cannot deduct the $150 from other sources of income in 2025, it becomes part of the computation of your net capital loss for 2025."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Net capital loss: back 3 years, forward to any future year",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA, L582",
+      "quote": "You can use a net capital loss to reduce your taxable capital gain in any of the three previous years or in any future year."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Zero inclusion rate on donated listed securities/mutual fund units",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "T4037 (2025), L1045-1047",
+      "quote": "You may be entitled to an inclusion rate of zero on any capital gain resulting from the donation of any of the following properties to a qualified donee"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "C",
+      "claim": "Worked example: 200@$20+$50, 300@$25+$50 => ACB $23.20; sell 400@$30 less $60 => gain $2,660; taxable $1,330; remaining ACB $23.20",
+      "basis": "200*20+50 = 4050; 300*25+50 = 7550; 11600/500 = 23.20; 400*30 = 12000; 400*23.20 = 9280; 12000-9280-60 = 2660; 2660*0.5 = 1330; 100*23.20 = 2320"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "C",
+      "claim": "Minimization strategies: harvest losses, time sales into lower-income years, shelter in TFSA (tax-free) or RRSP (deferral only; withdrawals fully taxable, inclusion advantage lost), donate in kind, spouse within attribution rules",
+      "basis": "standard planning concepts; donation zero-inclusion and TFSA tax-free quoted elsewhere; RRSP withdrawals taxable as income (CRA RRSP L12 quoted in 7.9)"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Cannot claim a deduction for capital losses within an RRSP",
+      "source_file": "research/sources/cra/guide-t4040-rrsps-other-registered-plans-retirement-2025.txt",
+      "locator": "T4040 (2025), L1229",
+      "quote": "claim a deduction for capital losses within your RRSP"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "C",
+      "claim": "TFSA gains and losses not reported since income in plan is tax-free, so TFSA losses cannot offset non-registered gains",
+      "basis": "derived from CRA TFSA L167 (quoted in 7.9): income including capital gains in a TFSA is generally tax-free"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "RRSP withdrawals taxable (caveat on RRSP as capital-gains strategy)",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRSP overview, L12",
+      "quote": "You generally have to pay tax when you receive payments from the plan."
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Return of capital reduces ACB",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA 'Tax treatment of mutual funds', ~L1700",
+      "quote": "A return of capital will reduce the adjusted cost base (ACB) of your units or shares"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Negative ACB deemed a capital gain",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA 'Tax treatment of mutual funds', ~L1702",
+      "quote": "If the ACB of the units of the trust is reduced below zero during the tax year, the negative amount is deemed to be a capital gain in the year."
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Each rate applies only to its bracket; provincial tax in addition",
+      "source_file": "research/sources/cra/tax-rates-brackets-individuals-2025-2026.txt",
+      "locator": "CRA 2026 rates, L13",
+      "quote": "Provincial or territorial income tax rates apply in addition to federal income tax rates. The tax rates are split up into income brackets. Each rate applies only to the corresponding income bracket, not to all income."
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "2026 federal brackets (first two)",
+      "source_file": "research/sources/cra/tax-rates-brackets-individuals-2025-2026.txt",
+      "locator": "CRA 2026 rates, L19-21",
+      "quote": "| $0 | $58,523 | 14% | | $58,523.01 | $117,045 | 20.5% |"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "2026 federal brackets (upper three)",
+      "source_file": "research/sources/cra/tax-rates-brackets-individuals-2025-2026.txt",
+      "locator": "CRA 2026 rates, L22-24",
+      "quote": "| $117,045.01 | $181,440 | 26% | | $181,440.01 | $258,482 | 29% | | $258,482.01 | unlimited | 33% |"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "2025 lowest rate 14.5% (15% to 14% on July 1, 2025)",
+      "source_file": "research/sources/cra/tax-rates-brackets-individuals-2025-2026.txt",
+      "locator": "CRA 2025 rates footnote",
+      "quote": "The federal tax rate decreased from 15% to 14% on July 1, 2025, making the tax rate 14.5% for 2025."
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Multi-year interest (compound GIC) is paid only at maturity, yet reported annually",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA line 12100, L104-106",
+      "quote": "The interest is paid only when the investment is cashed or matures, and not annually. You must report the interest earned during each complete investment year, even if you did not receive a T5 slip."
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Gross-up 138% eligible / 115% non-eligible",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA lines 12000/12010, L236",
+      "quote": "Multiply the actual amount received by 138% and include the result on line 12000 | Multiply the actual amount received by 115% and include the result on line 12000 and line 12010"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "ITA gross-up 15% (years after 2018) non-eligible",
+      "source_file": "research/sources/gov/ita-dividends-gross-up-dtc.txt",
+      "locator": "ITA s.82(1)(b)(i)(B), L16",
+      "quote": "for taxation years after 2018, 15%"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "ITA gross-up 38% eligible (years ending after 2011)",
+      "source_file": "research/sources/gov/ita-dividends-gross-up-dtc.txt",
+      "locator": "ITA s.82(1)(b)(ii)(D), L21",
+      "quote": "for taxation years that end after 2011, 38%"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Federal DTC 9/13 of non-eligible gross-up (after 2018)",
+      "source_file": "research/sources/gov/ita-dividends-gross-up-dtc.txt",
+      "locator": "ITA s.121(a)(ii), L31",
+      "quote": "for taxation years after 2018, 9/13"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Federal DTC 6/11 of eligible gross-up (after 2011)",
+      "source_file": "research/sources/gov/ita-dividends-gross-up-dtc.txt",
+      "locator": "ITA s.121(b)(iv), L36",
+      "quote": "for taxation years after 2011, 6/11."
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "DTC as % of grossed-up: 6/11*38/138 = 15.0198%; 9/13*15/115 = 9.0301%",
+      "basis": "python: 0.150198, 0.090301"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Foreign dividends do not qualify for the DTC",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA line 40425, L318",
+      "quote": "You received dividends from taxable Canadian corporations (foreign dividends do not qualify for this credit)"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Foreign interest and dividend income reported as investment income (line 12100)",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA line 12100, L13-17",
+      "quote": "Interest income includes amounts such as: - interest - foreign interest and dividend income"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Foreign income converted to CAD",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA FTC, L598",
+      "quote": "Foreign income and foreign taxes must be converted to Canadian dollars."
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Foreign tax credit may be claimed for foreign taxes paid",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA FTC, L560",
+      "quote": "You may be able to claim the foreign tax credit if you paid foreign income or profit taxes on income you earned outside Canada and reported on your Canadian tax return."
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "Worked example 2026 federal, 20.5% bracket: interest $205; eligible $75.63; non-eligible $131.90; capital gain $102.50 (1/2 inclusion labelled as the 2025 T4037 rate); foreign $205 before FTC",
+      "basis": "1000*0.205 = 205; 1380*0.205 = 282.90, 6/11*380 = 207.27, 282.90-207.27 = 75.63; 1150*0.205 = 235.75, 9/13*150 = 103.85, 235.75-103.85 = 131.90; 500*0.205 = 102.50 (inclusion 1/2 per 2025 T4037 figure)"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "Gross-up raises net income, can increase OAS recovery tax",
+      "basis": "grossed-up amount included in income (CRA L236 quoted); OAS recovery based on net income (quoted 7.4)"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "Eligible dividends typically paid from general-rate income (GRIP); non-eligible from SBD-taxed income",
+      "basis": "derived from T4012 GRIP description (quoted under 7.9)"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "Worked example: 2026 federal tax on $70,000 taxable income = $10,546.01 before credits",
+      "basis": "58,523 x 0.14 = 8,193.22; 70,000-58,523 = 11,477; 11,477 x 0.205 = 2,352.785 -> 2,352.79; 8,193.22+2,352.79 = 10,546.01 (python 10546.005)"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "Syllabus 'qualifying'/'non-qualifying' dividends read as CRA eligible/non-eligible",
+      "basis": "terminology mapping, stated as an interpretation ('are read here as')"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Interest reported for each complete investment year",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Line 12100 (2025 tax year), ~L106",
+      "quote": "You must report the interest earned during each complete investment year, even if you did not receive a T5 slip."
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Investment year runs anniversary to anniversary (CRA example: July 1, 2024 investment reports to June 30, 2025 on 2025 return)",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Line 12100 (2025 tax year), ~L108",
+      "quote": "if you made a long-term investment on July 1, 2024, report the interest earned up to June 30, 2025 on your 2025 return."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Part E applies to recorded expression of dissatisfaction alleging misconduct",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3721(1)(i), L7882",
+      "quote": "a recorded expression of dissatisfaction with a Dealer Member or employee alleging misconduct"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Or verbal expression where preliminary investigation indicates merit",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3721(1)(ii), L7884-7885",
+      "quote": "a verbal expression of dissatisfaction with the Dealer Member or employee alleging misconduct where a preliminary investigation indicates that the allegation may have merit."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Alleged misconduct list",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3721(2)(i), L7888-7890",
+      "quote": "allegations of breach of confidentiality, theft, fraud, misappropriation or misuse of funds , securities or other property, forgery, unsuitable investments, misrepresentation, or unauthorized trading relating to the client’s account"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Civil action/arbitration matters not complaints",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3721(3), L7893",
+      "quote": "Any matter which is the subject of a civil action or arbitration is not considered to be a complaint for the purpose of section 3721."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Policies for complaints alleging and not alleging misconduct",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3720(1), L7874-7876",
+      "quote": "retail client complaints alleging misconduct, and (ii) retail client complaints that do not allege misconduct."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Handled by supervisory/compliance staff; copy to compliance",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3722(1), L7896-7897",
+      "quote": "Complaints must be handled by supervisory or compliance staff and a copy of the complaint must be filed with the compliance department or function (or the equivalent) of the Dealer Member."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Designated complaints officer",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3722(2), L7898",
+      "quote": "The Dealer Member must appoint an individual to act as the designated complaints officer."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "At account opening: written summary of procedures and CIRO brochure",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3724(1), L7935-7938",
+      "quote": "a written summary of the Dealer Member’s complaint handling procedures, which is clear and can be easily understood by the client, and (ii) a copy of the complaint handling process brochure, approved by the Corporation ."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Acknowledgement within five business days",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3725(1), L7943-7944",
+      "quote": "The Dealer Member must send an acknowledgement letter to the complainant within five business days of receipt of a complaint."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Substantive response contents",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(3), L7975-7978",
+      "quote": "a summary of the complaint, (ii) the result of the Dealer Member’s investigation, (iii) the Dealer Member’s final decision on the complaint, including an explanation"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Options: arbitration, litigation, complaint to CIRO, ombudsman",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(3)(iv), L7981-7984",
+      "quote": "arbitration, (b) litigation/civil action, (c) submitting a complaint to the Corporation, (d) the ombudsman service"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "90-day response (Key rule)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(4), L7994-7995",
+      "quote": "A Dealer Member must respond to each client complaint as soon as possible and not later than 90 days from the date of receipt of the complaint"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "If unable to meet 90 days, inform client with reasons and new estimate",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(4)(ii), L7998-8000",
+      "quote": "the Dealer Member must inform the client if the Dealer Member is unable to provide the client with a final response within the 90 days time line and must include the reasons for the delay and the new estimated time of completion"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Inform CIRO if unable to meet 90 days",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(4)(iii), L8001-8002",
+      "quote": "the Dealer Member must inform the Corporation if the Dealer Member is unable to meet the 90 days time line and must provide reasons for the delay."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "180 days to bring complaint to OBSI after final response",
+      "source_file": "research/sources/ciro/obsi-how-the-complaint-process-works.txt",
+      "locator": "OBSI how it works, L21",
+      "quote": "You have 180 days to bring your complaint to us after the firm has given you a final response."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "OBSI can recommend up to $350,000 per complaint",
+      "source_file": "research/sources/ciro/obsi-consumer-faqs.txt",
+      "locator": "OBSI FAQ, L48",
+      "quote": "We can recommend up to $350,000 for a single complaint."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "OBSI decisions not binding",
+      "source_file": "research/sources/ciro/obsi-consumer-faqs.txt",
+      "locator": "OBSI FAQ, L50",
+      "quote": "Our decisions are not binding and a firm is not required to follow our recommendation."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Approved Person who moves must keep co-operating",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3727(1), L8010-8012",
+      "quote": "the Approved Person must continue to co-operate with the Dealer Member where they were employed or acted as an agent until the complaint has been resolved."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Approved Person reports written complaint to dealer within two business days",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3702(1)(iii), L7651-7656",
+      "quote": "An Approved Person must report to the Dealer Member any of the following matters within two business days"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Subject of a written client complaint",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3702(1)(iii), L7656",
+      "quote": "if the Approved Person is the subject of a written client complaint"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Dealer reports all client complaints except service complaints to CIRO",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3703(2)(i), L7684",
+      "quote": "all client complaints, against the Dealer Member or any current or former Approved Person, except service complaints."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Complaint file contents (i)-(iv)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3728(1), L8017-8026",
+      "quote": "the complainant’s name, (ii) the date of the complaint, (iii) the nature of the complaint, (iv) the name of the individual who is subject of the complaint"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Complaint records kept centrally for two years",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3786(1), L8045-8048",
+      "quote": "in a central and readily accessible place for a period of two years from the date of receipt of a client complaint."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Prior written consent to settle, regardless of form and whether from a complaint",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3710(1), L7822-7825",
+      "quote": "An Approved Person must obtain the Dealer Member's written consent before entering into any settlement agreement with a client, regardless of the form of the settlement and regardless of whether the settlement is the result of a client complaint"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Release may not bar complaints to regulators",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3711(1), L7833-7837",
+      "quote": "A release entered into between a Dealer Member and a client may not impose confidentiality or similar restrictions aimed at preventing a client from initiating a complaint to the securities regulatory authorities, SROs or other enforcement authorities"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Client may go to OBSI if investment firm has not responded in 90 days (60 days for Quebec residents)",
+      "source_file": "research/sources/ciro/obsi-how-the-complaint-process-works.txt",
+      "locator": "OBSI how it works, L18",
+      "quote": "your investment firm or provincial credit union has not provided a response to your complaint in 90 days, unless you are a Quebec resident, then they have 60 days (with exceptional circumstances allowing it to extend to 90 days)."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Complaint file contents (v)-(vi)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3728(1)(v)-(vi), L8022-8024",
+      "quote": "the securities, derivatives, other property or services which are the subject of the complaint, (vi) the materials reviewed in the investigation,"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Complaint file contents (vii)-(viii)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3728(1)(vii)-(viii), L8025-8026",
+      "quote": "the name, title and date individuals were interviewed for the investigation, and (viii) the date and conclusion of the decision rendered in connection with the complaint."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Copy of each complaint file kept seven years",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3786(2), ~L8052",
+      "quote": "For each client complaint file, a Dealer Member must maintain a copy for seven years in a location that is retrievable within a reasonable period of time."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Documents for matters reported to CIRO under 3703 kept seven years from resolution",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3785(1), L8038-8040",
+      "quote": "copies of all documents associated with matters reported to the Corporation under section 3703 for a minimum of seven years from the date of resolution of the matter."
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "3786(1): up-to-date record in central, readily accessible place",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3786(1), L8042-8045",
+      "quote": "A Dealer Member must keep an up-to-date record of all client complaints and associated documentation"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Exemption: authorized employee/Approved Person settling in normal course, not arising from own activities",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3710(3), L7828-7831",
+      "quote": "does not apply to settlement agreements entered into by an employee or Approved Person who is authorized by the Dealer Member to negotiate or enter into settlement agreements in the normal course of his/her duties and does not arise out of the activities involving the Approved Person"
+    }
+  ],
+  "gaps": [
+    "7.2 EDI: no corpus text names equity, diversity and inclusion (register G3); EDI treated as a C concept in syllabus wording only",
+    "7.4 Cash management/savings strategies: no governing text; emergency-fund 3-6 months presented as common practice (C), labelled",
+    "7.11 Provincial dividend tax credits and provincial gross-up interaction: not in corpus; worked examples are federal-only and say so",
+    "7.11 Capital gains inclusion rate for 2026: corpus states 1/2 for 2025 only (T4037 2025); guide labels the rate as 2025",
+    "7.11 Foreign tax credit limit mechanics (s.126 proportion formula) not quoted; guide says only 'within limits' and computes tax before FTC",
+    "7.4 Government pension programs: QPP now sourced from Retraite Quebec pages (research/sources/gov/qpp-...txt); G16 closed for retirement-pension features (age, early/late adjustments)",
+    "7.11 Syllabus terms 'qualifying'/'non-qualifying' dividends: no corpus text maps them; guide states the eligible/non-eligible reading as an interpretation",
+    "7.9 Corporate statutory percentages (10 2/3% additional refundable tax, 30 2/3% refundable portion, Part IV 38 1/3%) removed per scope finding S-01; RDTOH explained conceptually"
+  ],
+  "fix_rounds": [
+    {
+      "round": 1,
+      "date": "2026-10-22",
+      "note": "Applied audit findings round 1"
+    },
+    {
+      "round": 2,
+      "date": "2026-10-22",
+      "note": "Applied N-06 (NERDTOH/ERDTOH recovery split, no statutory percentages per S-01), V-01 (OBSI Quebec 60-day qualifier; claim #246 quote extended). V-02: 7.9 prose tightened (income splitting, tax-loss harvesting, RESP/FHSA paragraph, corporate bullets) to ~750 words; remaining over-length accepted as a deviation: 7.9 is an Apply outcome whose syllabus statement names 10 sub-topics, almost all R content with year-stated limits, so cutting to 350 words would drop quoted rule content."
+    }
+  ]
+}
