@@ -117,10 +117,18 @@
     {
       "outcome": "2.1",
       "kind": "R",
-      "claim": "Debt trading personnel must be properly qualified and trained",
+      "claim": "The dealer must ensure that all its debt-trading personnel are properly qualified and trained (duty on the dealer)",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 7104(1), ~L21031",
       "quote": "must ensure that all personnel trading in the debt securities markets are: (i) properly qualified and trained"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Dealer must also ensure (duty on the dealer) that debt traders are aware of CIRO requirements and applicable laws for debt trading",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7104(1)(ii), ~L21033",
+      "quote": "aware of Corporation requirements and applicable laws relating to debt securities market trading"
     },
     {
       "outcome": "2.1",
@@ -157,7 +165,7 @@
     {
       "outcome": "2.1",
       "kind": "R",
-      "claim": "Dealer must not engage in manipulative or deceptive practices in debt trading",
+      "claim": "Dealer must not, directly or indirectly, take part in a practice it knows or ought reasonably to know is manipulative or deceptive",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 7109(1), ~L21086",
       "quote": "must not, directly or indirectly, engage or participate in any act, method or practice it knows or ought reasonably to know is manipulative or deceptive."
@@ -173,7 +181,7 @@
     {
       "outcome": "2.1",
       "kind": "R",
-      "claim": "Examples: spreading false rumours",
+      "claim": "Examples: spreading, or tacitly consenting to, rumours about issuers known or ought reasonably to be known to be false or misleading",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 7109(2)(iii), ~L21093",
       "quote": "participating in or tacitly consenting to spreading rumours or information about issuers that are known, or ought reasonably to be known, to be false or misleading"
@@ -181,7 +189,7 @@
     {
       "outcome": "2.1",
       "kind": "R",
-      "claim": "Examples: collusion",
+      "claim": "Examples: collusion with another market participant to manipulate or unfairly deal in the debt markets",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 7109(2)(v), ~L21097",
       "quote": "conspiring or colluding with another market participant to manipulate or unfairly deal in the debt securities markets."
@@ -189,10 +197,42 @@
     {
       "outcome": "2.1",
       "kind": "R",
-      "claim": "Unfair advantage: proprietary trades ahead of same-side client orders without disclosure and client approval",
+      "claim": "7110 protects clients or counterparties from unfair-advantage trading practices",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7110(1), ~L21104",
+      "quote": "must not engage in trading practices that take unfair advantage of clients or counterparties"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Unfair advantage: proprietary trades ahead of same-side client orders, allowed only if the dealer first discloses its intention and obtains the client's approval",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 7110(1)(ii), ~L21111",
       "quote": "carrying out proprietary trades ahead of client orders on the same side of the market without first disclosing to the client the intention to do so and obtaining the client's approval"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Unfair advantage example: using material non-public information",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7110(1)(iv), ~L21117",
+      "quote": "using material non-public information"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Unfair advantage example: completing a trade at a price clearly outside the prevailing market due to manifest error",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7110(1)(vi), ~L21120",
+      "quote": "completing a trade when the price is clearly outside of the prevailing market and proposed or agreed to as a result of a manifest error"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Cross-reference: UMIR 4.1 is the frontrunning rule (compare 7110 unfair advantage)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1 heading, ~L5714",
+      "quote": "PART 4 - FRONTRUNNING 4.1 Frontrunning"
     },
     {
       "outcome": "2.1",
@@ -221,10 +261,56 @@
     {
       "outcome": "2.1",
       "kind": "R",
-      "claim": "Minimal-value, infrequent, non-monetary items are not consideration under both 7112(2) (accepting) and 7112(3) (offering)",
+      "claim": "7112(4): an item is not consideration under 7112(2) (accept) and 7112(3) (offer) only if it meets all four conditions: non-monetary, minimal value, infrequent, and no reasonable person would question whether it created a conflict",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 7112(4), ~L21136",
       "quote": "of minimal value and infrequent such that it will not cause a reasonable person to question whether it created a conflict of interest is not consideration under subsections 7112(2) and 7112(3)."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Cross-reference: IDPC 3115 general ban on accepting consideration from persons other than the dealer for client activities",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3115(2)(i)(a), ~L5004",
+      "quote": "accepting any consideration, including remuneration, gratuity or benefit, from any person other than the Dealer Member for any activities conducted on behalf of a client"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Breach: sanctions possible from the regulator (IIROC, now CIRO), Government of Canada, Department of Finance and provincial securities regulators",
+      "source_file": "research/sources/ciro/gn-7100-21-001-debt-market-requirements.txt",
+      "locator": "GN-7100-21-001 Regulatory sanctions, ~L48",
+      "quote": "Dealers that do not comply with IIROC requirements could face sanctions from IIROC and also from the Government of Canada, Department of Finance (Canada) and provincial securities regulatory authorities."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Breach (GoC securities): Bank of Canada can suspend or remove eligible-bidder status for auctions",
+      "source_file": "research/sources/ciro/gn-7100-21-001-debt-market-requirements.txt",
+      "locator": "GN-7100-21-001 Regulatory sanctions, ~L48",
+      "quote": "In the case of Government of Canada securities, this could include the Bank of Canada suspending or removing eligible-bidder status for auctions of Government of Canada securities."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "7109 and 7110 prohibitions also apply to trading in derivatives of debt securities",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7111(1), ~L21126",
+      "quote": "The prohibitions in sections 7109 and 7110 apply to trading in derivatives of debt securities."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Scenario (Fabrizio): mug is the first gift from that counterparty and meets all four 7112(4) conditions (non-monetary, minimal value, infrequent, no reasonable person would see a conflict) -> not consideration; holiday -> prohibited",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7112(4), ~L21136",
+      "quote": "Consideration that is non- monetary, of minimal value and infrequent such that it will not cause a reasonable person to question whether it created a conflict of interest is not consideration"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "C",
+      "claim": "OTC debt market: no exchange price, so clients depend on the dealer for fair price and treatment (context for Rule 7100)",
+      "basis": "standard market-structure description; consistent with IDPC 3122 fair-pricing rationale"
     },
     {
       "outcome": "2.2",
@@ -235,7 +321,7 @@
     {
       "outcome": "2.2",
       "kind": "C",
-      "claim": "Provincial yields above GoC (credit/liquidity spread); agencies often provincially guaranteed; municipals often serial/instalment debentures backed by taxing power",
+      "claim": "Provincial yields a spread over GoC (credit/liquidity); credit quality varies by province; agencies often provincially guaranteed; municipals often serial/instalment debentures backed by taxing power; municipal secondary market usually thinner than provincial",
       "basis": "standard"
     },
     {
@@ -249,6 +335,30 @@
       "kind": "C",
       "claim": "GICs: fixed-term deposits of banks/trust cos; non-redeemable vs cashable vs market-linked; generally non-transferable; not marked to market",
       "basis": "standard; CDIC deliberately not mentioned (not in corpus)"
+    },
+    {
+      "outcome": "2.2",
+      "kind": "C",
+      "claim": "Federal taxing power -> GoC debt highest quality, most liquid; T-bills usually one year or less, no coupon, bought at discount, par at maturity; RRB principal adjusts for inflation",
+      "basis": "standard Canadian market facts (no issuance-status claim beyond 'existing issues still trade')"
+    },
+    {
+      "outcome": "2.2",
+      "kind": "C",
+      "claim": "Secured bond types by collateral (mortgage: real property; collateral trust: pledged securities; equipment trust: equipment); debenture vs subordinated; rank and rating drive yield; commercial paper short-term unsecured, usually < 1 year",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.2",
+      "kind": "C",
+      "claim": "GIC types: non-redeemable (usually not cashable early), cashable (usually lower rate), market-linked (return tied to an index); non-transferable, no price change",
+      "basis": "standard; CDIC deliberately not mentioned"
+    },
+    {
+      "outcome": "2.2",
+      "kind": "C",
+      "claim": "Scenario (Henrietta): non-redeemable GIC vs GoC bond - liquidity vs price risk",
+      "basis": "qualitative application of the above"
     },
     {
       "outcome": "2.3",
@@ -275,7 +385,7 @@
     {
       "outcome": "2.3",
       "kind": "R",
-      "claim": "Fixed-interest securities trade on an accrued interest basis",
+      "claim": "For Part A (non-clearing-corporation) trades, fixed-interest securities trade on an accrued-interest basis, except sale and repurchase agreement transactions",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 4803(1), ~L14000",
       "quote": "All securities having interest payable as a fixed obligation, except securities in sale and repurchase agreement transactions, must be conducted on an accrued interest basis"
@@ -322,9 +432,53 @@
     },
     {
       "outcome": "2.3",
+      "kind": "R",
+      "claim": "All trades are for regular delivery unless all parties agree otherwise in writing at the time of the trade",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4805(2), ~L14136",
+      "quote": "All trades are to be considered for regular delivery , unless otherwise agreed to in writing by all of the parties to a transaction at the time of the transaction."
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "For GoC, provincial, municipal and corporate bonds, accrued interest stops on the first business day after the trade",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4805(1)(i)(b)-(c), (ii)(a), (iii)(a), ~L14108-14134",
+      "quote": "Any accrued interest must be stopped on the first business day after the transaction date."
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "Accrued-interest basis applies until maturity or a default occurs or is announced by the debtor",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4803(1), ~L14001",
+      "quote": "until maturity or a default in such payment either occurs or is announced by the debtor, whichever is the earlier event"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "After default/announcement: trades flat (no accrued interest) with all matured and unpaid coupons attached; flat trading continues until all arrears of interest are paid and one current coupon is paid when due",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4803(3), ~L14008",
+      "quote": "the securities must be handled on a flat basis with all matured and unpaid coupons attached, until such time as all arrears of interest have been paid and one current coupon has been paid"
+    },
+    {
+      "outcome": "2.3",
       "kind": "C",
-      "claim": "Inline illustration (2.3 settlement bullet): accrued interest on $10,000 par 4% bond, 73 days, actual/365 illustrative = $80",
-      "basis": "10,000 x 0.04 x 73/365 = 80.00"
+      "claim": "Coupon illustration: 4% on $10,000 par = $400 a year, two payments of $200",
+      "basis": "10,000 x 0.04 = 400; 400 / 2 = 200"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "C",
+      "claim": "Premium/discount/par rule vs coupon and market yield; accrued interest: the buyer receives the full next coupon, so pays the seller the part the seller earned (qualitative; no day-count arithmetic)",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "C",
+      "claim": "Scenario (Ines): $20,000 par at 101.25 = $20,250, premium -> coupon above market yield; regular delivery T+1 unless parties agreed otherwise in writing (4805(2))",
+      "basis": "20,000 x 1.0125 = 20,250.00"
     },
     {
       "outcome": "2.4",
@@ -407,7 +561,7 @@
     {
       "outcome": "2.4",
       "kind": "R",
-      "claim": "Compound GIC interest is paid only at maturity, not annually (so, outside a registered plan, tax can precede payment)",
+      "claim": "Compound GIC interest is paid only when the client cashes it or when it matures, not annually (so, outside a registered plan, tax can precede payment)",
       "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
       "locator": "CRA Line 12100 (2025 tax year), Term deposits/GICs, ~L104",
       "quote": "interest on a compound guaranteed investment certificate (GIC) is earned monthly and automatically reinvested. The interest is paid only when the investment is cashed or matures, and not annually."
@@ -415,7 +569,7 @@
     {
       "outcome": "2.4",
       "kind": "R",
-      "claim": "Interest must be reported each complete investment year",
+      "claim": "The client must report the interest for each complete investment year",
       "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
       "locator": "CRA Line 12100 (2025 tax year), ~L106",
       "quote": "You must report the interest earned during each complete investment year, even if you did not receive a T5 slip."
@@ -431,8 +585,100 @@
     {
       "outcome": "2.4",
       "kind": "C",
-      "claim": "Exam trap: same dollar mark-up reduces a short-term bond's yield more than a long-term bond's",
+      "claim": "Same dollar mark-up reduces a short-term strip's yield more than a long-term strip's (shown in the Anselm scenario; the separate exam-trap callout was removed for length)",
       "basis": "cost amortized over fewer years; consistent with strip statement table ($0.25 at 5.5%: 1-yr 5.229% vs 25-yr 5.460%)"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "3122(3) factor: fair market value of the securities",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3122(3)(i), ~L5202",
+      "quote": "the fair market value of the securities and of any securities exchanged or traded in connection with the transaction at the time of the transaction"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "3122(3) factor: expense of the transaction",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3122(3)(iii), ~L5209",
+      "quote": "the expense involved in effecting the transaction or transactions"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "3122(3) factor: dealer's entitlement to a profit",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3122(3)(iv), ~L5210",
+      "quote": "the fact that the Dealer Member is entitled to a profit"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Scenario (Anselm): statement table assumes 5.5% before-commission yield",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.3, ~L247",
+      "quote": "assuming a before -commission yield of 5.5%"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Scenario (Anselm): one-year strip with $0.25 commission per $100 -> 5.229% after-commission yield",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.3, ~L250",
+      "quote": "a strip bond with a term to maturity of one year and a commission of 25 cents per $100 of maturity amount has an after -commission yield of 5.229%"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Scenario (Anselm): $0.25 row of the table; 25-year column = 5.460%",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.4 table, ~L280",
+      "quote": "$0.25 5.229% 5.357% 5.433% 5.456% 5.462% 5.460%"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "T-bill sold before maturity: possible capital gain or loss in addition to accrued interest",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA capital gains FAQ 'I sold a treasury bill that had not matured', ~L2358",
+      "quote": "However, if you sell the T-bill before it matures, you may have a capital gain or loss in addition to the interest accrued at that time."
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "RRSP income usually exempt from tax while funds remain in the plan",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRSP page, ~L12",
+      "quote": "Any income you earn in the RRSP is usually exempt from tax as long as the funds remain in the plan."
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "RRSP: the client generally pays tax on payments (withdrawals) from the plan; also Scenario (Esperanza, 2.5): RRSP withdrawal is taxable income",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRSP page, ~L12",
+      "quote": "You generally have to pay tax when you receive payments from the plan."
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "TFSA interest income generally tax-free, even on withdrawal",
+      "source_file": "research/sources/cra/tfsa-pages.txt",
+      "locator": "CRA TFSA 'What is a TFSA', ~L167",
+      "quote": "any income you earn through interest, dividends or capital gains are generally tax-free, even when you make a withdrawal"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "C",
+      "claim": "Interest-rate and reinvestment risk work in opposite directions; risks stated as possibilities ('may'); returns from coupons, reinvestment, capital gains/losses",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "C",
+      "claim": "Scenario (Kwabena): one long high-coupon debenture -> high interest-rate risk, high coupon signals higher credit risk, concentrated credit risk, liquidity risk (all savings in one OTC bond), inflation risk; shorter bonds add reinvestment risk, so a ladder of maturities from several issuers balances them [cross-element consistency 2026-10-23: X07 ladder balances interest-rate and reinvestment risk; some reinvestment risk remains because a part matures each year]",
+      "basis": "qualitative application of 2.4 risk list"
     },
     {
       "outcome": "2.5",
@@ -539,6 +785,24 @@
     {
       "outcome": "2.5",
       "kind": "C",
+      "claim": "Floating rate: reset protects price from rate changes but not credit changes; if the issuer's credit weakens, the fixed spread is too low; then the price falls below par",
+      "basis": "standard floating-rate note behaviour (credit-spread risk remains)"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "C",
+      "claim": "Convertible: conversion ratio = shares per bond; price follows shares when share price is high, trades like a bond (bond floor) when low; a callable convertible can be called to force conversion",
+      "basis": "standard convertible-bond characteristics"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "C",
+      "claim": "Extendable: if the holder does not elect within the window, the bond matures on the original date; behaves like the short bond when rates rise and like the long bond when rates fall",
+      "basis": "standard extendable-bond characteristics"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "C",
       "claim": "Convertible worth at least its conversion value = shares received x share price (table note)",
       "basis": "standard definition: conversion value = conversion ratio x share price; acts as a floor on the convertible's value"
     },
@@ -547,6 +811,66 @@
       "kind": "C",
       "claim": "Sinking fund obligatory retirement (call by lot or market purchase); purchase fund buys only at or below specified price",
       "basis": "standard"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Liquidity may be limited for certain strips",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement, ~L325-330",
+      "quote": "liquidity may be limited for certain strip bonds and strip bond packages"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Purchasers should generally be prepared to hold a strip to maturity, since they may be unable to sell it",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.3, ~L233-235",
+      "quote": "as a result, purchasers should generally be prepared to hold a strip to maturity, since they may be unable to sell it"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Strip return fixed at purchase; may suit a need for a fixed amount on a specific future date",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.2, ~L138",
+      "quote": "Since the return on a strip is fixed at the time of purchase, strips may be a suitable investment where the holder requires a fixed amount of funds at a specific future date."
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Strips issued/guaranteed by GoC or issued by a province or territory are qualified investments for registered plans",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.6, ~L498",
+      "quote": "Strip bonds and strip bond packages that are issued or guaranteed by the Government of Canada or issued by a province or territory of Canada are \"qualified investments\" under the Tax Act"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Callable debt security: confirmation must include the notation 'callable'",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(b)(II), ~L9322",
+      "quote": "where the debt security is subject to call prior to maturity through any means, the notation of \"callable\" must be included"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Variable coupon debt security: confirmation must include 'The coupon rate may vary.'",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(b)(III), ~L9324",
+      "quote": "where the debt security has a variable coupon rate, the notation \"The coupon rate may vary.\" must be included"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "C",
+      "claim": "Option principle: most special features give an option to the issuer or holder; the option holder pays through the yield; floating rate and sinking/purchase funds are not options of this type; puttable lets holder sell back at par on set dates",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "C",
+      "claim": "Scenario (Esperanza): 12-year GoC strip with $50,000 maturity value fits a fixed future amount; GoC strip is a qualified investment; RRSP removes annual notional-interest tax, but RRSP withdrawals are taxable, so after-tax amount < $50,000",
+      "basis": "application of quoted strip-statement points (fixed return, notional interest, qualified investments) and CRA RRSP page ('You generally have to pay tax when you receive payments from the plan.')"
     },
     {
       "outcome": "2.6",
@@ -609,6 +933,30 @@
       "basis": "standard"
     },
     {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Approximate YTM intuition: numerator = average annual return (coupon + yearly pull to par); denominator = average amount invested",
+      "basis": "standard interpretation of the stated (F+P)/2 convention"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Worked example (Mireille): $1,000 par, 6% coupon, 5 yrs, price $1,045 -> CY 5.74%, approx YTM 4.99%, true YTM ~4.97% (semi-annual); premium: coupon > CY > YTM",
+      "basis": "60/1045 = 0.057416; (60 - 45/5)/((1000+1045)/2) = 51/1022.5 = 0.049878; bisection on semi-annual price formula (C=30, N=10): YTM = 0.049724 -> 4.97%; 6.00% > 5.74% > 4.97%"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Annual-equivalent strip yield exceeds semi-annual yield because it counts interest on interest within the year",
+      "basis": "(1 + 0.05/2)^2 - 1 = 0.050625 > 0.05; consistent with 5.00% vs 5.06% example"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Yield-curve normal shape: market expects stable or higher rates plus a term premium; Scenario (Gaspard): inverted curve -> expected rate cuts, often before a slowdown, not certain",
+      "basis": "standard expectations / liquidity-preference theory"
+    },
+    {
       "outcome": "2.7",
       "kind": "C",
       "claim": "Price-volatility relationships (inverse, term, coupon, yield level, convexity asymmetry)",
@@ -623,8 +971,52 @@
     {
       "outcome": "2.7",
       "kind": "C",
-      "claim": "Economic factors: inflation, BoC policy rate, growth, government borrowing raise yields; recession/easing lower government yields; spreads widen in weak economy",
+      "claim": "Economic factors: inflation, BoC policy rate, growth, government borrowing raise yields; recession/easing lower government yields; spreads widen in weak economy; weaker economy widens credit spreads, so weaker corporate bonds can fall when GoC yields decline",
       "basis": "standard"
+    },
+    {
+      "outcome": "2.7",
+      "kind": "R",
+      "claim": "Statement table: 6% 20-year bond falls 10.68% when rates rise from 6% to 7%",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.5 table, ~L425",
+      "quote": "6% 20 Year Bond $100.00 6.00% $112.55 + 12.55% $89.32 - 10.68%"
+    },
+    {
+      "outcome": "2.7",
+      "kind": "R",
+      "claim": "Statement table: 20-year strip falls 17.61% when rates rise from 6% to 7%",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.5 table, ~L426",
+      "quote": "20 Year Strip Bond $30.66 6.00% $37.24 + 21.49% $25.26 -17.61%"
+    },
+    {
+      "outcome": "2.7",
+      "kind": "R",
+      "claim": "Statement table: 6% 5-year bond falls 4.16% when rates rise from 6% to 7% (rule 2 vs 20-year bond -10.68%)",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.5 table, ~L423",
+      "quote": "6% 5 Year Bond $100.00 6.00% $104.38 + 4.38% $95.84 - 4.16%"
+    },
+    {
+      "outcome": "2.7",
+      "kind": "R",
+      "claim": "Statement table: 5-year strip falls 4.73% when rates rise from 6% to 7%",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.5 table, ~L424",
+      "quote": "5 Year Strip Bond $74.41 6.00% $78.12 + 4.99% $70.89 - 4.73%"
+    },
+    {
+      "outcome": "2.7",
+      "kind": "C",
+      "claim": "Rule 2/3 intuition; statement table illustrates rule 2 (5-yr 6% bond -4.16% vs 20-yr 6% bond -10.68%) and rule 3 (20-yr strip -17.61% vs 20-yr 6% bond -10.68%; 5-yr strip -4.73%) for 6%->7%",
+      "basis": "recomputed semi-annual: 100/1.035^40 / (100/1.03^40) - 1 = -0.17610; 6% 20-yr bond at 7%: price 89.3225 -> -10.68%; 5-yr strip -4.727%, 5-yr bond 95.8417 -> -4.16%"
+    },
+    {
+      "outcome": "2.7",
+      "kind": "C",
+      "claim": "Scenario (Wren): expecting rate falls, 20-yr strip gives the largest gain (longest duration) and the largest loss if wrong",
+      "basis": "duration of a zero = its term (20) > 20-yr 6% coupon bond > 3-yr bond"
     },
     {
       "outcome": "2.8",
@@ -641,13 +1033,37 @@
     {
       "outcome": "2.8",
       "kind": "C",
-      "claim": "Worked example: MacD 8.2, YTM 5% semi-annual -> ModD 8.0; -0.25% -> +2.0%",
-      "basis": "8.2/1.025 = 8.0000; -8.0 x -0.0025 = +0.020"
+      "claim": "Worked example: MacD 8.2, YTM 5% semi-annual, price $950 -> ModD 8.0; -0.25% -> +2.0% -> +$19.00 -> new price ~$969.00",
+      "basis": "8.2/1.025 = 8.0000; -8.0 x -0.0025 = +0.020; 0.020 x 950 = 19.00; 950 + 19 = 969.00"
+    },
+    {
+      "outcome": "2.8",
+      "kind": "C",
+      "claim": "Convexity error small for small yield changes, grows for large changes and long bonds; dollar change = % change x current price",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.8",
+      "kind": "C",
+      "claim": "Why ModD works: it is the slope of the price-yield curve at the current yield; for a small change the curve is almost straight, so the slope is a good first estimate; the curve bends upward (convexity)",
+      "basis": "standard first-order (tangent-line) approximation"
+    },
+    {
+      "outcome": "2.8",
+      "kind": "C",
+      "claim": "Exam trap: dy as a decimal (25 bp = 0.25% = 0.0025); a yield fall is a negative dy, so the price change is positive",
+      "basis": "unit conversion: 1 bp = 0.01% = 0.0001; -ModD x (negative dy) > 0"
+    },
+    {
+      "outcome": "2.8",
+      "kind": "C",
+      "claim": "Scenario (Ottoline): ModD 3.2 vs 11.5, +0.75% -> -2.4% vs -8.625% (~-8.6%); only Bond A inside a 3% limit",
+      "basis": "-3.2 x 0.0075 = -0.024; -11.5 x 0.0075 = -0.08625"
     },
     {
       "outcome": "2.9",
       "kind": "C",
-      "claim": "Bond price = PV annuity of coupons + PV of par; semi-annual adjustments",
+      "claim": "Bond price = PV annuity of coupons + PV of par; semi-annual adjustments; symbols in 2.9 are per period (c, r, N), distinct from 2.6 (C annual, n years)",
       "basis": "standard TVM"
     },
     {
@@ -681,19 +1097,27 @@
       "basis": "standard"
     },
     {
-      "outcome": "2.5",
-      "kind": "R",
-      "claim": "Liquidity may be limited; investors should be prepared to hold strips to maturity",
-      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
-      "locator": "Strip information statement, ~L325-330",
-      "quote": "liquidity may be limited for certain strip bonds and strip bond packages"
+      "outcome": "2.9",
+      "kind": "C",
+      "claim": "Worked example item 3: strip $10,000 in 8 yrs, 4% semi-annual -> PV $7,284.46",
+      "basis": "1.02^16 = 1.372786; 10,000 / 1.372786 = 7,284.46"
+    },
+    {
+      "outcome": "2.9",
+      "kind": "C",
+      "claim": "Check: on a coupon date, discounting at the coupon rate gives par; Scenario (Corentin): 4% bond bought at par, yields rise to 5% with 3 yrs left -> $972.46",
+      "basis": "price(C=20,r=0.02,N=6)=1000.00; price(C=20,r=0.025,N=6)=972.46 (as in first worked example)"
     }
   ],
   "gaps": [
     "2.3 settlement: debt regular delivery quoted from IDPC 4805(1) (Rule 4800 Part A, non-clearing-corporation trades); the clearing-corporation (T+1) cycle is left to 8.4 (Bulletin 23-0150)",
-    "2.3 accrued interest: day-count convention (actual/365) presented as an illustrative assumption, not as a rule",
     "2.2 GICs: CDIC deposit-insurance coverage not in corpus (source map note); deliberately not mentioned",
     "2.2 GoC programme details (benchmark terms) written as general C description; RRBs described only as 'existing issues still trade' (no corpus source on issuance status)",
-    "2.7 Macaulay duration kept conceptual per spec grounding table (no Macaulay computation)"
-  ]
+    "2.7 Macaulay duration kept conceptual per spec grounding table (no Macaulay computation)",
+    "2.1 GN-7100-21-001 is written in IIROC's name; the guide says 'the regulator (now CIRO)' rather than quoting IIROC as the current body",
+    "2.2/2.5 option-feature mechanics (puttable at par on set dates, extendable election, convertible conversion value) are C (no corpus text); stated as standard features",
+    "2.4 compound GIC: the CRA 'most investments made in 1990 or later' qualifier is not in the local corpus file; omitted",
+    "Fix round 1 (2026-10-23): for the ~5,000-word element budget, the Wenceslas (2.7) scenario, the Henrike (2.9) worked example, the 2.4 mark-up exam-trap callout and the guidance-note purpose sentence (2.1) were removed; their substance remains elsewhere in the text"
+  ],
+  "revised": "2026-10-23 (spec v1.1: ASD-STE100 rewrite + comprehensive depth; fix rounds 1-2)"
 }

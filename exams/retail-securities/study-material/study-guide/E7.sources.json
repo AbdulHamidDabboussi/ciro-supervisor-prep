@@ -3,6 +3,14 @@
   "drafted": "2026-10-22",
   "claims": [
     {
+      "outcome": "intro",
+      "kind": "R",
+      "claim": "Terms note: 'Registered Individual' in CIRO guidance means RRs, Portfolio Managers and Associate Portfolio Managers collectively (X04)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 footnote 3, L748",
+      "quote": "In this Guidance, the term “Registered Individual” refers collectively to individuals approved by IIROC as Registered Representatives, Portfolio Managers or Associate Portfolio Managers."
+    },
+    {
       "outcome": "7.1",
       "kind": "C",
       "claim": "Objectives (preservation, income, growth, values), needs (liquidity), risk profile limits, expected performance follows risk taken",
@@ -57,8 +65,82 @@
     {
       "outcome": "7.1",
       "kind": "C",
-      "claim": "Exam trap: a goal needing ~7% when a low risk profile supports ~4% does not justify more risk; change the goal, savings or timeline, not the profile",
-      "basis": "follows from the lower-of rule (1.3) and GN-3400-21-004 s. 2.3.5 'should not override a client's risk profile' (quoted under 7.5); illustrative numbers only"
+      "claim": "Exam trap: a goal that needs more return than the risk profile supports does not justify more risk; change the goal, not the profile",
+      "basis": "follows from the lower-of rule (1.3) and GN-3400-21-004 s. 2.3.5 'should not override a client's risk profile' (quoted under 7.5); illustrative numbers only",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "RR should consider setting out the return assumptions the goals need",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, L232",
+      "quote": "A Registered Individual should consider setting out investment return assumptions required to meet the client’s investment needs and objectives.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "Risk tolerance = willingness to accept risk",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, L244-246",
+      "quote": "willingness to accept risk, sometimes referred to as risk tolerance",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "Risk capacity = ability to endure financial loss",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, L246-247",
+      "quote": "ability to endure financial loss, sometimes referred to as risk capacity.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "Risk profile must not be manipulated to justify higher-risk products (quoted)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, L264",
+      "quote": "A client’s risk profile should not be manipulated to justify recommending higher-risk products",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "R",
+      "claim": "Meeting the suitability obligation does not guarantee any outcome (quoted)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.1, L436",
+      "quote": "Meeting the suitability determination obligation does not guarantee any particular client outcome.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "C",
+      "claim": "Why 'lower of': willing-but-unable client can suffer unabsorbable loss; able-but-unwilling client can panic-sell at the bottom",
+      "basis": "standard risk-profiling rationale for the GN lower-of rule",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "C",
+      "claim": "Measurable goal example ($400,000 at 65) shows a shortfall early",
+      "basis": "illustrative; follows from GN 'specific and measurable'",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "C",
+      "claim": "Benchmark example: 40/60 equity/bond portfolio vs blended benchmark of same mix, not an equity index",
+      "basis": "standard performance-measurement practice (see 9.1)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.1",
+      "kind": "C",
+      "claim": "Scenario Dagny Gallant: goal needs ~7%, low capacity -> low profile supports ~4%; no aggressive portfolio; alternatives save more/work longer/smaller target; document",
+      "basis": "application of GN lower-of rule, 'should not override' and 'explain alternatives' (quoted under 7.1/7.5); illustrative return figures only, no calculation",
+      "added": "v1.1"
     },
     {
       "outcome": "7.2",
@@ -101,10 +183,40 @@
       "basis": "practice recommendation; labelled 'In practice'"
     },
     {
+      "outcome": "7.2",
+      "kind": "C",
+      "claim": "ESG pillars: environmental (emissions, pollution, resource use), social (employees, customers, communities), governance (board independence, executive pay, shareholder rights)",
+      "basis": "standard responsible-investing definitions",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.2",
+      "kind": "C",
+      "claim": "EDI applied as tilt or exclusion; data from issuer disclosure and third-party ratings can be incomplete, so EDI products differ",
+      "basis": "standard responsible-investing concept; no regulatory text names EDI (gap G3)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.2",
+      "kind": "C",
+      "claim": "Some faith-based screens exclude interest-bearing securities, removing most fixed income; buy-Canadian adds home bias and financials/energy concentration",
+      "basis": "standard concept (e.g. Shariah screens prohibit interest); Canadian index sector weights are textbook-standard",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.2",
+      "kind": "C",
+      "claim": "Scenario Torvald Akintola: restrictions recorded; diversified screened fund fits; moving his whole portfolio into a concentrated clean-energy fund adds sector risk above a medium profile",
+      "basis": "application of suitability (IDPC 3402(1), quoted under 7.4) and impact analysis (C)",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
       "outcome": "7.3",
       "kind": "C",
       "claim": "Definitions and examples of 15 biases grouped per syllabus: representativeness, illusion of control, confirmation, hindsight; framing, anchoring, mental accounting, availability; loss aversion, overconfidence, endowment; survivorship, gambler's fallacy, herding, home country",
-      "basis": "standard behavioural finance definitions (Kahneman-Tversky, Thaler, Shefrin); grouping follows syllabus 7.3"
+      "basis": "standard behavioural finance definitions (Kahneman-Tversky, Thaler, Shefrin); grouping follows syllabus 7.3",
+      "revised": "v1.1-fix1"
     },
     {
       "outcome": "7.3",
@@ -117,6 +229,35 @@
       "kind": "C",
       "claim": "Anchoring vs loss aversion distinction",
       "basis": "standard definitions"
+    },
+    {
+      "outcome": "7.3",
+      "kind": "C",
+      "claim": "Biases can distort KYC answers (e.g. risk tolerance just after a market fall)",
+      "basis": "standard behavioural-finance observation",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.3",
+      "kind": "C",
+      "claim": "Group-level mitigation: information processing -> neutral, multi-frame presentation and whole-portfolio view; capital market -> complete data incl. closed funds, long periods, global diversification",
+      "basis": "standard behavioural-finance practice",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.3",
+      "kind": "C",
+      "claim": "Scenario Evander Quist: values own employer shares above market (endowment), fixes on old high $80 (anchoring); staged sale plan",
+      "basis": "standard bias definitions (table)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.3",
+      "kind": "C",
+      "claim": "Per-bias impact on decisions and returns (bias table Impact column)",
+      "basis": "standard behavioural finance concept (verified); e.g. representativeness -> buying popular stocks at high prices; overconfidence -> trading costs and concentration; herding -> buying near highs, selling near lows",
+      "added": "v1.1-fix1"
     },
     {
       "outcome": "7.4",
@@ -153,18 +294,20 @@
     {
       "outcome": "7.4",
       "kind": "R",
-      "claim": "Proprietary products are an inherent, almost always material conflict to be addressed in clients' best interest",
+      "claim": "Proprietary products are an inherent, almost always material conflict of interest (CSA)",
       "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
       "locator": "31-103CP, L1637-1639",
-      "quote": "It is an inherent conflict of interest for a registered firm to trade in, or recommend, proprietary products and this conflic t is, in our experience, almost always a material conflict of interest."
+      "quote": "It is an inherent conflict of interest for a registered firm to trade in, or recommend, proprietary products and this conflic t is, in our experience, almost always a material conflict of interest.",
+      "revised": "v1.1-fix1"
     },
     {
       "outcome": "7.4",
       "kind": "R",
-      "claim": "Limited model portfolios: in-depth review of alternatives not expected if only one option fits",
+      "claim": "Limited model portfolios: in-depth review of alternatives not expected if it is clear that only a limited number of options, or a single option, would be suitable",
       "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
       "locator": "GN-3400-21-004 s.3.2.4, L504",
-      "quote": "where a Dealer offers only a limited range of model portfolios, we would not expect the Registered Individual to conduct an in-depth consideration of alternatives if it is clear that only a limited number of options, or a single option, would be suitable for the client."
+      "quote": "where a Dealer offers only a limited range of model portfolios, we would not expect the Registered Individual to conduct an in-depth consideration of alternatives if it is clear that only a limited number of options, or a single option, would be suitable for the client.",
+      "revised": "v1.1-fix1"
     },
     {
       "outcome": "7.4",
@@ -417,6 +560,165 @@
       "quote": "Your pension will be decreased by 0.5% to 0.6% for each month before you turn 65. Therefore, if you apply for your pension at age 60, you will receive a pension that is 30% to 36% lower"
     },
     {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Suitability factor (a): client information collected under s.3202",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(a), L6800",
+      "quote": "the retail client’s information collected in accordance with section 3202",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Suitability factor (b): dealer assessment and Approved Person understanding of the security (quoted)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(b), L6801-6802",
+      "quote": "the Dealer Member’s assessment of and an Approved Person’s understanding of the security",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "3402(4): suitability of the resulting account portfolio of investments (quoted)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(4), L6843-6846",
+      "quote": "account portfolio of investments that would result from the investment action the Dealer Member takes, recommends or exercises discretion to take is suitable for the retail client",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Risk rating as sole input is not sufficient (quoted)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.1.1, L442",
+      "quote": "using the risk rating of a security as the only input in determining its suitability for a client is not sufficient to meet the requirements in subsection 3402(1).",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Several suitable options possible; client interest first ahead of remuneration or incentives (quoted)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.1.3, L460",
+      "quote": "must put the client’s interest first, ahead of their own interests and any other competing considerations, such as a higher level of remuneration or other incentives",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Security unsuitable for all clients should not go on the shelf (quoted)",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001, L225-226",
+      "quote": "unsuitable or inappropriate for all of its clients, it should not make the security available on its product shelf",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Relationship disclosure must include a general description of limits on products and services (IDPC 3216(5)(ii)(b); CIRO dealers exempt from NI 31-103 s.14.2(2)-(6) under s.9.3)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3216(5)(ii)(b), L5856-5857",
+      "quote": "a general description of any limits on the products and services the Dealer Member will offer to the client including:",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Proprietary-products limb of IDPC 3216(5)(ii)(b)(I) (quoted in prose)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3216(5)(ii)(b)(I), L5859-5860",
+      "quote": "whether the firm will primarily or exclusively provide proprietary products to the client",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "RR may need to ask about assets and liabilities held outside the dealer",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.2, L214",
+      "quote": "A Registered Individual may need to ask about investments, other assets and liabilities the client maintains outside the Dealer to better understand a client’s financial circumstances.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Liquidity-needs considerations (quoted in two parts in prose)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.2, L208",
+      "quote": "When assessing a client’s liquidity needs, a Registered Individual should consider whether the client has other means to cover their expenditures, whether the needs are expected or unexpected, and whether, once the need materializes, the money will be withdrawn on a regular basis.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "Risk capacity considers financial circumstances (basis for 'low net worth usually means lower capacity')",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, L256-258",
+      "quote": "other information required in clause 3202(1)(iii), particularly the client’s financial circumstances",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "C",
+      "claim": "Government pensions give a base of lifetime income, so the portfolio funds only the gap",
+      "basis": "standard retirement-planning concept; CPP 'for life'/monthly quoted",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "C",
+      "claim": "Scenario Winifred Halloran: proprietary higher-fee fund vs third-party lower-fee fund, both suitable; payout cannot decide; needs client-centred reason; document",
+      "basis": "application of 3402(1)(i)(d)-(e), GN 3.1.3 and CP 31-103 proprietary conflict (quoted)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "C",
+      "claim": "Scenario Jasper Ngata: CPP at 60 = 36% reduction; +0.7%/month after 65 to 42% at 70; OAS not before 65, +0.6%/month to 36% at 70; deferral gives a larger monthly pension for life, but total received depends on longevity",
+      "basis": "restates quoted canada.ca CPP/OAS figures (7.4 R claims); 'pays more for life' follows from the permanent percentage adjustments",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "IDPC 3404(1): suitability sections do not apply to OEO and DEA accounts, except 3402(3)(i)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3404(1), L6911-6913",
+      "quote": "Other than clauses 3402(3)(i) and 3403(4)(i), sections 3402 or 3403 do not apply in respect to: (i) an order execution only account, or (ii) a direct electronic access account.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "IDPC 3404(2): carrying-broker and execution/clearing/settlement/custody-only accounts exempt",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3404(2), L6914-6917",
+      "quote": "Sections 3402 and 3403 do not apply in respect to an account maintained at a Dealer Member who is a carrying broker for that account or who only provides trade execution, clearing, settlement or custody services",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "CSA expects firms that trade in/recommend proprietary products to show they address the conflict in clients' best interest",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP, L1637-1638",
+      "quote": "Firms that do so must be able to demonstrate that they are address ing this conflict in the best interest of their clients.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.4",
+      "kind": "R",
+      "claim": "OAS recovery threshold for 2026 income year: $95,323 (recovery period July 2027-June 2028)",
+      "source_file": "research/sources/gov/oas-gis-pages.txt",
+      "locator": "canada.ca OAS recovery tax table, L696",
+      "quote": "| July 2027 to June 2028 | 2026 | $95,323 |",
+      "added": "v1.1-fix1"
+    },
+    {
       "outcome": "7.5",
       "kind": "C",
       "claim": "Portfolio selection steps: inputs, current portfolio review, shortfall analysis, strategy (strategic mix, passive/active, laddering, DCA), implement and monitor",
@@ -433,7 +735,7 @@
     {
       "outcome": "7.5",
       "kind": "R",
-      "claim": "Discuss risk-return relationship where expectations conflict with risk profile",
+      "claim": "Discuss risk-return relationship where expectations conflict with risk profile [cross-element consistency 2026-10-23: X16 7.5 now cross-refers to the six steps in 1.3 (quoted there); main step kept: do not override the risk profile]",
       "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
       "locator": "GN-3400-21-004 s.2.3.5, L275",
       "quote": "Where the client’s expectations for returns conflict with their risk profile, the Registered Individual should consider having a detailed discussion with the client on the relationship between risk and return to reconcile such conflicts and establish more realistic expectations."
@@ -441,7 +743,7 @@
     {
       "outcome": "7.5",
       "kind": "R",
-      "claim": "Do not override risk profile to meet return expectations (quoted guidance in prose)",
+      "claim": "Do not override risk profile to meet return expectations (quoted guidance in prose) [cross-element consistency 2026-10-23: X16 7.5 now cross-refers to the six steps in 1.3 (quoted there); main step kept: do not override the risk profile]",
       "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
       "locator": "GN-3400-21-004 s.2.3.5, L277",
       "quote": "Registered Individuals should not override a client’s risk profile or other KYC information to meet a client’s expectations for returns."
@@ -449,7 +751,7 @@
     {
       "outcome": "7.5",
       "kind": "R",
-      "claim": "Explain alternatives where goals need more risk than client can take",
+      "claim": "Explain alternatives where goals need more risk than client can take [cross-element consistency 2026-10-23: X16 7.5 now cross-refers to the six steps in 1.3 (quoted there); main step kept: do not override the risk profile]",
       "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
       "locator": "GN-3400-21-004 s.2.3.5, L277",
       "quote": "If a client’s goals or return objectives cannot be achieved without taking greater risk than they are able or willing to take, the Registered Individual should clearly explain the alternatives available."
@@ -457,7 +759,7 @@
     {
       "outcome": "7.5",
       "kind": "R",
-      "claim": "Tell client expectation cannot realistically be met; document interaction",
+      "claim": "Tell client expectation cannot realistically be met; document interaction [cross-element consistency 2026-10-23: X16 7.5 now cross-refers to the six steps in 1.3 (quoted there); main step kept: do not override the risk profile]",
       "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
       "locator": "GN-3400-21-004 s.2.3.5, L279",
       "quote": "the Registered Individual should explain to the client that their need or expectation for a higher return cannot realistically be met, and as a result, the higher risk portfolio is unsuitable. The Registered Individual should properly document their interaction with the client and the end result."
@@ -473,6 +775,39 @@
       "kind": "C",
       "claim": "One-line illustration: $6,500 after-tax income - $5,500 spending = $1,000/month = $12,000/year",
       "basis": "6500-5500 = 1000; 1000 x 12 = 12000"
+    },
+    {
+      "outcome": "7.5",
+      "kind": "R",
+      "claim": "Short time horizon may mean only conservative investments are suitable",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.6, L284",
+      "quote": "Investors with a longer investment time horizon may have a greater degree of flexibility when building a portfolio, whereas a short investment time horizon may mean that conservative investments may be the only suitable option.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.5",
+      "kind": "R",
+      "claim": "Identify mismatches and revisit them with the client [cross-element consistency 2026-10-23: X16 7.5 now cross-refers to the six steps in 1.3 (quoted there); main step kept: do not override the risk profile]",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, L277",
+      "quote": "The Registered Individual should identify any mismatches between the client’s investment needs and objectives, risk tolerance and risk capacity and revisit them with the client.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.5",
+      "kind": "C",
+      "claim": "Strategy definitions: strategic mix, passive vs active, laddering (staggered maturities, regular cash, lower reinvestment risk), dollar-cost averaging (fixed amount at intervals buys more units when prices low) [cross-element consistency 2026-10-23: X07 laddering now: regular cash; balances interest-rate and reinvestment risk; some reinvestment risk remains]",
+      "basis": "standard portfolio-management definitions",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.5",
+      "kind": "C",
+      "claim": "Scenario Marisol Tkachuk: shortfall given as a fact (projection at profile-consistent return); $1,000/month surplus; do not raise profile; alternatives",
+      "basis": "6500-5500 = 1000 (same figures as the cash-flow illustration); application of GN s.2.3.5 steps (quoted)",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
     },
     {
       "outcome": "7.6",
@@ -591,6 +926,136 @@
       "basis": "application of IDPC 3402(1)(i)(d)-(e) and 3402(2) (quoted)"
     },
     {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Investment action includes a decision to hold",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.1.2, L450",
+      "quote": "An investment action also includes a recommendation or decision to hold securities, which may occur when a Registered Individual reviews the securities in a client’s account under subsection 3402(2).",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Trigger (i): securities deposited or transferred in",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(i), L6815-6816",
+      "quote": "received or delivered into the client’s account by way of deposit or transfer",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Significant change includes risk profile, time horizon, needs and objectives, or other change affecting net worth or income",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, L416-421",
+      "quote": "risk profile, investment time horizon, investments needs and objectives, or any other change that could reasonably significantly impact the client’s net worth or income.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Job loss example of significant change",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, L423",
+      "quote": "where a client’s change in employment status (e.g. job loss) results in a change to their risk profile and investment needs and objectives",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Consider restricting account to liquidating trades, transfers or disbursements until KYC re-evaluated (quoted)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, L423",
+      "quote": "the Dealer should consider restricting activities in the client’s account to liquidating trades, transfers or disbursements, until such time as the Dealer has had a chance to re-evaluate the client’s KYC information.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Over-concentration can significantly hurt risk and liquidity (quoted)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.3, L491",
+      "quote": "Over-concentration in any one security, sector or industry can have a significant negative impact on the risk and liquidity in a client’s account.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Over-concentration example: single industry or asset class",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.3, L498",
+      "quote": "securities of an issuer, or related issuers, that provides exposure to a single industry or asset class",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Higher concentration -> more steps taken and documented to show suitability",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.3, L493",
+      "quote": "Generally, the higher the concentration in a particular type of security, sector or industry, the more steps a Dealer or Registered Individual should take, and document, to demonstrate the investment was suitable for the client.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Costs can significantly impact return over time (quoted)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.5, L516",
+      "quote": "Costs can significantly impact a client’s return over time.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Must document reasonable basis for cost conclusions (quoted)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.5, L516",
+      "quote": "must document the reasonable basis for their conclusions.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "C",
+      "claim": "A fee comes off the return every year, so the loss compounds",
+      "basis": "standard compounding concept; no calculation",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "C",
+      "claim": "Scenario Bogdan Lazarev: job loss = significant change; update KYC, review all holdings, may restrict to liquidating trades/transfers/withdrawals; illiquid exempt holding problematic",
+      "basis": "application of IDPC 3402(2), 3209(3) and GN 2.11.2 (quoted)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "C",
+      "claim": "Scenario Ifeoma Nwosu (medium profile): transfer-in trigger; adding to a 70% single-issuer position does not meet 3402(1) so not recommended; if she still instructs it, 3402(5) applies",
+      "basis": "application of IDPC 3402(2)(i), 3402(1)(i)(c)-(e), 3402(5) (quoted)",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "Suitability factor (c): impact on the account incl. concentration and liquidity (Key rule)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(c), L6803-6805",
+      "quote": "the impact of the action on the retail client’s account, including the concentration of securities, derivatives or precious metals bullion, within the account and the liquidity of those securities, derivatives or precious metals bullion",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.6",
+      "kind": "R",
+      "claim": "3209(3): dealer must take reasonable steps to keep KYC current",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3209(3), L5648",
+      "quote": "A Dealer Member must take reasonable steps to keep current the information required under Part A of Rule 3200",
+      "added": "v1.1-fix1"
+    },
+    {
       "outcome": "7.7",
       "kind": "C",
       "claim": "Four-part recommendation: pros/cons, risks, what it accomplishes, securing commitment (summarize, check understanding, confirm, document)",
@@ -637,6 +1102,84 @@
       "quote": "informed the retail client of the basis for the determination that the action will not satisfy subsection 3402(1) and advised the client against proceeding with the order"
     },
     {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "Features to explain (quoted)",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001, L264",
+      "quote": "features – including potential returns, use of leverage, conflicts of interest, investment time horizon, overall complexity of the security",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "Costs to explain include commissions, sales charges, trailer fees, management fees [cross-element consistency 2026-10-23: X10 guide text uses the guide-wide term 'trailing commissions' for the source's 'trailer fees']",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001, L266",
+      "quote": "costs – including fees paid to registrants or other parties (commissions, sales charges, trailer fees, management fees",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "3402(5)(ii): recommend an alternative action that satisfies 3402(1) (quoted) [cross-element consistency 2026-10-23: X16 7.7 now summarizes the three steps and cross-refers to 1.18]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(5)(ii), L6853",
+      "quote": "recommended to the retail client an alternative action that satisfies subsection 3402(1)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "3402(5)(iii): recorded confirmation of instruction to proceed (quoted) [cross-element consistency 2026-10-23: X16 7.7 now summarizes the three steps and cross-refers to 1.18]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(5)(iii), L6854-6855",
+      "quote": "received recorded confirmation of the retail client’s instruction to proceed with the action",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "C",
+      "claim": "Securing commitment: summarize, check understanding, answer questions, confirm, document; commitment from understanding not pressure; measurable link to goal lets client judge and dealer supervise",
+      "basis": "standard advisory practice",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "C",
+      "claim": "Scenario Lars Eklund: 30% single stock unsuitable for medium-low profile at 64; explain gains/costs/risks; an instruction to keep the stock is an investment action (decision to hold) that fails 3402(1), so 3402(5) steps must be completed before acting",
+      "basis": "application of GN 3.2.1, GN-3300 KYP and IDPC 3402(5) (quoted)",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "3402(5) is permissive and conditional: dealer may carry out an unsuitable instruction only if it has done the three steps",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(5), L6847-6849",
+      "quote": "if a Dealer Member receives an instruction from a retail client to take an action that, if taken, does not satisfy subsections 3402(1), the Dealer Member may carry out the retail client’s instruction if the Dealer Member has:",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "RR not obliged to accept an order that fails suitability; marking it unsolicited is not sufficient; 3402(5) steps apply",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.10, L718",
+      "quote": "A Registered Individual is not obligated to accept a client order or instruction that does not, in the Registered Individual’s view, meet the criteria for a suitability determination. It is not sufficient for the Registered Individual to mark the order as “unsolicited”.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.7",
+      "kind": "R",
+      "claim": "A decision to hold is an investment action (basis for Lars hold instruction)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.1.2, L456",
+      "quote": "An investment action also includes a recommendation or decision to hold securities",
+      "added": "v1.1-fix1"
+    },
+    {
       "outcome": "7.8",
       "kind": "C",
       "claim": "Annuity formulas FV, PV, sinking-fund PMT, capital-recovery PMT; ordinary annuity convention; monthly r/12 assumes nominal rate compounded monthly; effective annual rate -> (1+r)^(1/12)-1; examples annual",
@@ -651,14 +1194,29 @@
     {
       "outcome": "7.8",
       "kind": "C",
-      "claim": "Worked example: $300,000 at 4% for 20 years, year-end payments => $22,074.53/yr; annuity due 22,074.53 / 1.04 = $21,225.51",
-      "basis": "1.04^-20 = 0.456387; 300000*0.04 = 12000; 12000/0.543613 = 22074.53 (python 22074.5251); due = 22074.53/1.04 = 21225.5096 -> 21225.51"
+      "claim": "Worked example: $300,000 at 4% for 20 years, year-end payments => $22,074.53/yr; annuity due from unrounded payment 22,074.5251 / 1.04 = $21,225.50",
+      "basis": "1.04^-20 = 0.456387; 300000*0.04 = 12000; 12000/0.543613 = 22074.53 (python 22074.525099); due = 22074.525099/1.04 = 21225.504902 -> 21225.50 (fix E7-CALC-01/F15)",
+      "revised": "v1.1-fix1"
     },
     {
       "outcome": "7.8",
       "kind": "C",
       "claim": "Annuity due payment smaller than ordinary for same PV; higher return/longer horizon lowers required deposit",
       "basis": "follows from formulas"
+    },
+    {
+      "outcome": "7.8",
+      "kind": "C",
+      "claim": "Scenario Hiroko Sato: PV 150,000, r 3%, n 15, year-end -> PMT $12,564.99 > $12,000 wanted",
+      "basis": "python: 1.03**-15 = 0.6418619; 150000*0.03 = 4500; 1-0.6418619 = 0.3581381; 4500/0.3581381 = 12564.987 -> 12,564.99",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.8",
+      "kind": "C",
+      "claim": "Deposits grow to more than their total because each earns interest until the goal date; optimistic rate hides a shortfall",
+      "basis": "follows from FV annuity formula",
+      "added": "v1.1"
     },
     {
       "outcome": "7.9",
@@ -943,8 +1501,9 @@
     {
       "outcome": "7.9",
       "kind": "C",
-      "claim": "Claim all deductions and credits: RRSP/FHSA deductions, DTC, FTC, pension income amount",
-      "basis": "planning summary; each item quoted elsewhere in this sidecar"
+      "claim": "Claim all deductions and credits: RRSP/FHSA contribution deductions, DTC (Canadian dividends only), FTC, pension income amount on RRIF income at 65+; a deduction reduces taxable income, a credit reduces tax",
+      "basis": "standard tax concept (deduction vs credit); each item supported by R claims 94, 102, 122, 198, 201 and the DTC line 40425 claim added in fix round 1",
+      "revised": "v1.1-fix1"
     },
     {
       "outcome": "7.9",
@@ -997,10 +1556,11 @@
     {
       "outcome": "7.9",
       "kind": "R",
-      "claim": "CRA prescribed rate for low-interest loans 3% for Oct 1-Dec 31, 2026 (presented as the published rate; test uses rate in effect when loan made per 74.5(2))",
+      "claim": "CRA Q4-2026 published rate for interest-free and low-interest loans is 3% (guide presents it only as CRA's published low-interest-loan rate for Oct-Dec 2026, not as quoted proof of the s.74.5 test; the s.74.5 test itself is quoted from the ITA)",
       "source_file": "research/sources/cra/income-splitting-attribution-pension-splitting-prescribed-rates.txt",
       "locator": "CRA prescribed rates 2026 Q4, L413",
-      "quote": "The interest rate used to calculate taxable benefits for employees and shareholders from interest free and low-interest loans will be 3%."
+      "quote": "The interest rate used to calculate taxable benefits for employees and shareholders from interest free and low-interest loans will be 3%.",
+      "revised": "v1.1-fix1"
     },
     {
       "outcome": "7.9",
@@ -1135,8 +1695,9 @@
     {
       "outcome": "7.9",
       "kind": "C",
-      "claim": "Integration: corporate + personal tax on dividends approximates tax on income earned directly; achieved via gross-up/DTC and refundable taxes",
-      "basis": "standard Canadian tax concept"
+      "claim": "Integration: corporate tax rate depends on income type (small business, general, investment); gross-up approximates pre-tax corporate income; DTC allows for corporate tax paid; general-rate income -> eligible dividends, SBD income -> non-eligible; refundable taxes on investment income",
+      "basis": "standard tax concept; mechanics supported by R claims 140-150, 165-169, 192-196 and C claims 204, 311",
+      "revised": "v1.1-fix1"
     },
     {
       "outcome": "7.9",
@@ -1305,6 +1866,180 @@
       "quote": "A private corporation’s eligible dividends generate dividend refunds from the ERDTOH. Non-eligible dividends generate dividend refunds from the NERDTOH first, and then possibly from the ERDTOH."
     },
     {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "RRSP income usually exempt while funds remain in the plan (quoted)",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA RRSP overview, L12",
+      "quote": "Any income you earn in the RRSP is usually exempt from tax as long as the funds remain in the plan.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "TFSA income does not affect federal income-tested benefits and credits (quoted)",
+      "source_file": "research/sources/cra/tfsa-pages.txt",
+      "locator": "CRA TFSA benefits, L209",
+      "quote": "Any income that you earn in your TFSA will not impact your federal income-tested benefits and credits.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "HBP withdrawals must be repaid (15-year repayment period)",
+      "source_file": "research/sources/cra/rrsp-rrif-hbp-pages.txt",
+      "locator": "CRA HBP repayment relief, L590",
+      "quote": "the start of the 15-year repayment period is deferred to the fifth year following the year of the first withdrawal",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Interest is reportable income of the recipient (lender reports loan interest)",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA line 12100, L13-15",
+      "quote": "Interest income includes amounts such as: - interest",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "RRSP withdrawals often taxed at a lower rate in retirement; TFSA suits retiree near OAS recovery threshold",
+      "basis": "standard planning concept; TFSA benefit neutrality quoted",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "Scenario Nkechi Abara: facts state Canadian residency; FHSA eligibility (resident, 18+, first-time buyer), deductible contribution, tax-free qualifying withdrawal vs HBP repayment",
+      "basis": "restates quoted CRA FHSA and HBP text",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "Scenario Ezekiel Szabo: gift to spouse attributed; loan at no less than prescribed rate with interest paid within 30 days after year-end avoids attribution; return above loan rate taxed to spouse",
+      "basis": "application of ITA 74.1, 74.2, 74.5(2) (quoted)",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "C",
+      "claim": "Superficial loss rule stops a client who keeps the same investment from claiming the loss",
+      "basis": "purpose of rule; follows from quoted conditions",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "FMV exception: debt in the consideration must bear interest at no less than the lesser of prescribed and arm's-length rate",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.5(1)(b)(i), L70-73",
+      "quote": "where the consideration received by the transferor included indebtedness, (i) interest was charged on the indebtedness at a rate equal to or greater than the lesser of (A) the prescribed rate that was in effect at the time the indebtedness was incurred, and",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Loan exception threshold is the lesser of the prescribed rate and an arm's-length rate",
+      "source_file": "research/sources/gov/ita-attribution-income-splitting.txt",
+      "locator": "ITA s.74.5(2)(a), L80-82",
+      "quote": "interest was charged on the loan at a rate equal to or greater than the lesser of (i) the prescribed rate that was in effect at the time the loan was made, and (ii) the rate that would, having regard to all the circumstances, have been agreed on, at the time the loan was made, between parties dealing with each other at arm’s length",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "CRA prescribed rates are set per quarter (Q4 2026 dates)",
+      "source_file": "research/sources/cra/income-splitting-attribution-pension-splitting-prescribed-rates.txt",
+      "locator": "CRA prescribed rates 2026 Q4, L405",
+      "quote": "These rates will be in effect from October 1, 2026 to December 31, 2026.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Holder should close all FHSAs before the maximum participation period ends",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA closing, L2557",
+      "quote": "In order to avoid unintended tax consequences, you should close all of your FHSAs before your maximum participation period ends.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Up to the end of the maximum participation period, FHSA property can generally go directly to an RRSP/RRIF tax-deferred",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA, L2563",
+      "quote": "If you have any property in your FHSA on or before the end of your maximum participation period, generally you can directly transfer the property on a tax-deferred basis into your registered retirement savings plans (RRSP) or registered retirement income funds (RRIF).",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "During the maximum participation period, remaining FHSA property can instead be withdrawn as a taxable withdrawal (included in income)",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA, L2566",
+      "quote": "If you withdraw any remaining property as a taxable withdrawal, you must include this amount as income",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Property left after the period ends: accounts lose FHSA status; FMV included in income",
+      "source_file": "research/sources/cra/fhsa-pages.txt",
+      "locator": "CRA FHSA, L2568",
+      "quote": "If property remains in your accounts after your maximum participation period ends, they lose their status as FHSAs. You must then include the fair market value (FMV) of all of the property in your FHSAs",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "NERDTOH also includes Part IV tax other than the ERDTOH portion (i.e. on non-eligible dividends received)",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.129(4) NERDTOH (b), L172",
+      "quote": "the total of the taxes payable under Part IV by the corporation for the year less the amount determined under paragraph (a) of the definition eligible refundable dividend tax on hand",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Associated CCPCs: business limit is nil unless allocated (they share one limit)",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.125(2), L61",
+      "quote": "unless the corporation is associated in the taxation year with one or more other Canadian-controlled private corporations, in which case, except as otherwise provided in this section, its business limit is nil",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Business limit allocated among associated corporations (Schedule 23)",
+      "source_file": "research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt",
+      "locator": "T4012 (2025), L1056-1057",
+      "quote": "allocating the business limit among associated corporations",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Grind uses adjusted aggregate investment income of the corporation and associated corporations for the prior year",
+      "source_file": "research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt",
+      "locator": "ITA s.125(5.1)(b) E, L81",
+      "quote": "the adjusted aggregate investment income of the corporation, or of any corporation with which it is associated at any time in the particular taxation year",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.9",
+      "kind": "R",
+      "claim": "Dividend tax credit for dividends from taxable Canadian corporations",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA line 40425, L242",
+      "quote": "You may be able to claim a dividend tax credit on line 40425 for dividends received from taxable Canadian corporations.",
+      "added": "v1.1-fix1"
+    },
+    {
       "outcome": "7.10",
       "kind": "R",
       "claim": "Capital gain = proceeds - (ACB + outlays and expenses)",
@@ -1406,9 +2141,12 @@
     },
     {
       "outcome": "7.10",
-      "kind": "C",
-      "claim": "TFSA gains and losses not reported since income in plan is tax-free, so TFSA losses cannot offset non-registered gains",
-      "basis": "derived from CRA TFSA L167 (quoted in 7.9): income including capital gains in a TFSA is generally tax-free"
+      "kind": "R",
+      "claim": "Income, including capital gains, earned in a TFSA is generally tax-free (TFSA loss point removed per F14: no CRA text quoted on TFSA losses)",
+      "source_file": "research/sources/cra/tfsa-pages.txt",
+      "locator": "CRA TFSA what, L167",
+      "quote": "Any contribution you make to your TFSA and any income you earn through interest, dividends or capital gains are generally tax-free, even when you make a withdrawal. However, unlike a registered retirement savings plan (RRSP), contributions you make to a TFSA are not tax deductible.",
+      "revised": "v1.1-fix1"
     },
     {
       "outcome": "7.10",
@@ -1429,10 +2167,68 @@
     {
       "outcome": "7.10",
       "kind": "R",
-      "claim": "Negative ACB deemed a capital gain",
+      "claim": "Negative ACB of mutual fund trust units deemed a capital gain (guide limits the statement to trust units, as the source does)",
       "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
       "locator": "CRA 'Tax treatment of mutual funds', ~L1702",
-      "quote": "If the ACB of the units of the trust is reduced below zero during the tax year, the negative amount is deemed to be a capital gain in the year."
+      "quote": "If the ACB of the units of the trust is reduced below zero during the tax year, the negative amount is deemed to be a capital gain in the year.",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Capital gain definition (sell or considered sold for more than ACB + outlays)",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA, L304",
+      "quote": "You have a capital gain when you sell or are considered to have sold a capital property for more than the total of its ACB and the outlays and expenses incurred to sell the property.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Capital loss definition",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA, L576",
+      "quote": "You have a capital loss when you sell, or are considered to have sold, a capital property for less than its adjusted cost base (ACB) plus the outlays and expenses involved in selling the property.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Allowable capital loss applied against taxable capital gain; remainder becomes part of net capital loss",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA, L582",
+      "quote": "Generally, if you had an allowable capital loss in a year, you have to apply it against your taxable capital gain for that year. If you still have a loss, it becomes part of the computation of your net capital loss for the year.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "C",
+      "claim": "Scenario Solveig Berg 2025: gain 8,000, loss 11,000 at 1/2 -> TCG 4,000, ACL 5,500, unapplied 1,500 into net capital loss",
+      "basis": "8000*0.5 = 4000; 11000*0.5 = 5500; 5500-4000 = 1500 (mirrors CRA L586 example structure)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "C",
+      "claim": "Only part of a capital gain is taxed, so it usually bears less tax than the same amount of interest",
+      "basis": "follows from inclusion rate 1/2 (2025, quoted) vs full inclusion of interest",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "R",
+      "claim": "Mutual fund units/shares of the same class or series are identical properties",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA 'Tax treatment of mutual funds', L1694",
+      "quote": "Mutual fund units or shares in the same class or series of a fund are identical properties",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.10",
+      "kind": "C",
+      "claim": "A sale does not change the average ACB per unit of the units that remain; recalculation happens after each purchase (two separate facts; no causal link)",
+      "basis": "restates R claim 173 (T4037) without the false 'because' link (fix F24/S-E7-10)",
+      "added": "v1.1-fix1"
     },
     {
       "outcome": "7.11",
@@ -1597,6 +2393,43 @@
       "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
       "locator": "CRA Line 12100 (2025 tax year), ~L108",
       "quote": "if you made a long-term investment on July 1, 2024, report the interest earned up to June 30, 2025 on your 2025 return."
+    },
+    {
+      "outcome": "7.11",
+      "kind": "R",
+      "claim": "Eligible dividend = taxable dividend designated by the corporation as eligible (quoted)",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA eligible dividends page, L520",
+      "quote": "An eligible dividend is any taxable dividend paid to a resident of Canada by a Canadian corporation that is designated by that corporation to be an eligible dividend.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "Marginal rate = rate on the next dollar; use it to compare investment income",
+      "basis": "standard tax concept",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "Gross-up and credit allow for corporate tax already paid; eligible dividends come from income taxed at higher corporate rate so larger gross-up/credit",
+      "basis": "standard integration concept",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "Scenario Wojciech Asante: $10,000 eligible dividends grossed up to $13,800 vs $10,000 interest; extra $3,800 can cost up to $570 OAS recovery tax",
+      "basis": "10000*1.38 = 13800; 13800-10000 = 3800; 3800*0.15 = 570 (15% recovery rate quoted under 7.4; he is already above the 2025 threshold so the whole increase is excess)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.11",
+      "kind": "C",
+      "claim": "Example: investment made July 1, 2024 reports interest to June 30, 2025 on the 2025 return",
+      "basis": "restates CRA line 12100 example (quoted R claim)",
+      "added": "v1.1"
     },
     {
       "outcome": "7.12",
@@ -1853,6 +2686,202 @@
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3710(3), L7828-7831",
       "quote": "does not apply to settlement agreements entered into by an employee or Approved Person who is authorized by the Dealer Member to negotiate or enter into settlement agreements in the normal course of his/her duties and does not arise out of the activities involving the Approved Person"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Part E covers complaints by a retail client or a person authorized to act on their behalf",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3721(1), L7879-7880",
+      "quote": "applies to complaints submitted by a retail client or a person authorized to act on behalf of a retail client",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Alleged misconduct also includes other inappropriate financial dealings (quoted)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3721(2)(ii), L7891",
+      "quote": "other inappropriate financial dealings with clients",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Designated complaints officer needs requisite experience and authority (quoted)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3722(2), L7898-7900",
+      "quote": "The individual must have the requisite experience and authority to oversee the complaint handling process and to act as a liaison with the Corporation",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Procedures must ensure complaints are not dismissed without proper consideration (quoted)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3723(2)(v), L7912-7913",
+      "quote": "a procedure that will ensure that complaints are not dismissed without proper consideration of the facts of each case",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Acknowledgement letter names the handler",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3725(2)(i), L7946-7947",
+      "quote": "the name, job title and full contact information of the individual at the Dealer Member handling the complaint",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Acknowledgement letter states the 90-day time line",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3725(2)(v), L7958",
+      "quote": "the 90 days time line to provide a substantive response to complainants",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Substantive response must be fair, clear and not misleading (quoted)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(3), L7975",
+      "quote": "must be presented in a manner that is fair, clear and not misleading to the client",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "C",
+      "claim": "Scenario Fenella Marsh: facts give the preliminary investigation result (no instruction on record); verbal allegation of unauthorized trading with possible merit -> Part E",
+      "basis": "application of IDPC 3721, 3725, 3726, 3703, 3728 (quoted)",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "C",
+      "claim": "Scenario Gideon Pelletier: report written complaint in 2 business days; prior written consent needed; release must not prevent complaints to regulators",
+      "basis": "application of IDPC 3702(1)(iii), 3710(1),(3), 3711 (quoted)",
+      "added": "v1.1",
+      "revised": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Alleged misconduct list is not exhaustive",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3721(2), L7886-7887",
+      "quote": "alleged misconduct includes, but is not limited to:",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Misconduct includes Dealer-related activities outside the dealer",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3721(2)(iii), L7892",
+      "quote": "engaging in Dealer Member related activities outside of the Dealer Member.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Policies: fair and thorough investigation; merits assessment",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3723(2)(i)-(ii)",
+      "quote": "procedures for a fair and thorough investigation of complaints, (ii) a process for assessing the merits of complaints,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Policies: offer process where merit; remedial actions",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3723(2)(iii)-(iv)",
+      "quote": "the process to be followed in determining what offer should be made to the client, where the complaint is assessed to have merit, (iv) a description of remedial actions which may be appropriate to be taken within the firm,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Policies: balanced approach",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3723(2)(vi)",
+      "quote": "a balanced approach to dealing with complaints that objectively considers the interests of the complainant, the Dealer Member, including the employees, Approved Persons or other relevant parties,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Policies: relevant employees, Approved Persons and their Supervisors made aware of all complaints filed by their clients; an appropriate Executive informed of any serious misconduct; monitor general nature of complaints",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3723(2)(vii)-(ix)",
+      "quote": "a process that ensures that the relevant employees, Approved Persons and their Supervisors are made aware of all complaints filed by their clients, (viii) procedures to inform an appropriate Executive of any serious misconduct, and (ix) procedures to monitor the general nature of the complaints.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "3723(3): two separate triggers (dealer determines number/severity significant; or detects frequent repetitive similar complaints that may cumulatively indicate a serious problem) -> review procedures and send recommendations to management",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3723(3)",
+      "quote": "If a Dealer Member determines that the number or severity of complaints is significant, or when a Dealer Member detects frequent and repetitive complaints made with respect to the same or similar matters which may on a cumulative basis indicate a serious problem, the Dealer Member must: (i) review its internal procedures and practices, and (ii) ensure recommendations to remedy the problem are submitted to the appropriate management level.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Substantive response accompanied by CIRO-approved brochure",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(2)",
+      "quote": "The substantive response letter must be accompanied by a copy of the complaint handling process brochure approved by the Corporation.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Options: ombudsman if request within its period; affiliate internal ombudsman; any other options",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(3)(iv)(d)-(f)",
+      "quote": "the ombudsman service, if a request is made within the period required by the ombudsman,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Affiliate internal ombudsman option, with explanation that its use is voluntary and its estimated length",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(3)(iv)(e)",
+      "quote": "the use of the internal ombudsman process is voluntary, and (II) the estimated length of time the process is expected to take based on historical data, and (f) any other applicable options.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "90-day time line includes all internal processes except an affiliate's internal ombudsman",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3726(4)(i)",
+      "quote": "the 90 days time line must include all internal processes of the Dealer Member that are made available to the client, other than the internal ombudsman process offered by an affiliate of the Dealer Member",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Approved Person reports complaints about another Approved Person alleging serious misconduct within two business days",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3702(1)(iv), L7658-7661",
+      "quote": "if the Approved Person becomes aware of a client complaint, in writing or other form, about another Approved Person involving allegations of theft, fraud, misappropriation of funds, securities or other property, forgery, money laundering, market manipulation, insider trading, misrepresentation, or unauthorized trading.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "7.12",
+      "kind": "R",
+      "claim": "Release may not prevent continuing a pending complaint or participating in further proceedings",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3711(1), L7835-7836",
+      "quote": "continuing with any pending complaint in progress, or participating in any further proceedings by such authorities.",
+      "added": "v1.1-fix1"
     }
   ],
   "gaps": [
@@ -1875,6 +2904,22 @@
       "round": 2,
       "date": "2026-10-22",
       "note": "Applied N-06 (NERDTOH/ERDTOH recovery split, no statutory percentages per S-01), V-01 (OBSI Quebec 60-day qualifier; claim #246 quote extended). V-02: 7.9 prose tightened (income splitting, tax-loss harvesting, RESP/FHSA paragraph, corporate bullets) to ~750 words; remaining over-length accepted as a deviation: 7.9 is an Apply outcome whose syllabus statement names 10 sub-topics, almost all R content with year-stated limits, so cutting to 350 words would drop quoted rule content."
+    },
+    {
+      "round": "v1.1",
+      "date": "2026-10-23",
+      "note": "Spec v1.1: rewritten in ASD-STE100 style (STE lint gate 0) and expanded to comprehensive depth: ### subsection per Consider bullet, Scenario callouts for every Apply/Analyze outcome (and 7.3), deeper why/cross-references. All v1.0 facts and citations kept. New R/C claims tagged added=v1.1."
+    },
+    {
+      "round": "v1.1-fix1",
+      "date": "2026-10-23",
+      "note": "Applied STE/meaning/scenario/R-overreach findings (E7-*, F01-F24, S-E7-01..34). Proprietary disclosure re-pointed to IDPC 3216(5)(ii)(b); 3404 exemptions, 3402(1)(i)(c), 3402(5) permissive wording, GN L718, 74.5(1)(b) debt condition, FHSA closure consequences, NERDTOH Part IV, associated-corporation business limit, Part E 3721(2)(iii)/3723(2)-(3)/3726(2)-(4)/3702(1)(iv)/3711 added with quotes. Annuity-due figure corrected to $21,225.50. Element now over the 7,500 +15% band because findings required added depth; see fix report."
+    },
+    {
+      "round": "v1.1-fix2",
+      "date": "2026-10-23",
+      "note": "Applied S-E7-31 (7.12 Process split into staffing/procedures, 3723(3), client access and acknowledgement paragraphs; Approved Person co-operation sentence already its own active-voice paragraph), V-01 (GN-3400-21-004 s.3.10 locator and Sources line), V-02 (3723(3) two separate triggers as a list; quote extended to (ii)), V-03 (FHSA end-of-period transfer keeps 'generally', 'directly' and 'on or before'; quote extended). V-04 word count left to orchestrator."
     }
-  ]
+  ],
+  "revised": "2026-10-23"
 }

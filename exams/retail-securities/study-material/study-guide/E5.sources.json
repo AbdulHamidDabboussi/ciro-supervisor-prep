@@ -61,7 +61,7 @@
     {
       "outcome": "5.1",
       "kind": "C",
-      "claim": "Descriptions of mutual fund corporation classes, income trusts, closed-end funds (units issued mainly at IPO, no continuous offering, usually exit on exchange at discount or premium to NAV, some offer periodic redemption at NAV), REITs, ETFs (listed, traded intraday, mostly index-tracking, some active), wraps/ETF wraps, pooled funds used in discretionary programs; closed-end fund vs ETF trap (no creation/redemption, persistent discount)",
+      "claim": "Descriptions of mutual fund corporation classes, income trusts, closed-end funds (units issued mainly at IPO, no continuous offering, usually exit on exchange at discount or premium to NAV, some offer redemption on prospectus dates at a price that cannot exceed NAV; many pay NAV only once a year and a lower price at other times), REITs, wraps/ETF wraps, pooled funds used in discretionary programs; closed-end fund vs ETF trap (no creation/redemption, persistent discount)",
       "basis": "standard product descriptions; ITA SIFT/REIT tax status not stated (gap G11)"
     },
     {
@@ -89,7 +89,7 @@
     {
       "outcome": "5.2",
       "kind": "R",
-      "claim": "Concentration limits do not apply to government securities, clearing-corporation securities, s.2.5 fund-of-funds holdings, IPUs",
+      "claim": "The single-issuer limits do not apply to the purchase of five listed kinds of security (s.2.1(2)(a)-(e)); the guide lists all five",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.2.1(2), ~L1043",
       "quote": "Subsections (1) and (1.1) do not apply to the purchase of any of the following:"
@@ -225,7 +225,7 @@
     {
       "outcome": "5.3",
       "kind": "R",
-      "claim": "Manager must not charge a fee for redemptions",
+      "claim": "Manager must not charge an investor a fee for a redemption; so a manager cannot charge a deferred sales charge (no transition claim made)",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.10.2.1, ~L2631",
       "quote": "A manager must not charge a fee to a securityholder of a mutual fund for a redemption by the securityholder of securities of the mutual fund."
@@ -265,7 +265,7 @@
     {
       "outcome": "5.3",
       "kind": "C",
-      "claim": "Trust: trustee holds legal title for unitholders while the custodian has physical custody; income flows through; corporation issues shares, pays dividends/capital gains dividends; front-end charge usually negotiable; new purchases cannot carry a manager-charged DSC (direct consequence of s.10.2.1, a DSC being a fee charged on redemption); short-term trading fees usually paid to the fund rather than the manager; fee-based series pay no trailer; daily pricing is industry practice",
+      "claim": "Trust: trustee holds legal title for investors while the custodian has physical custody; income flows through; corporation issues shares, pays dividends/capital gains dividends; front-end charge usually negotiable; a manager cannot charge a DSC (direct consequence of s.10.2.1, a DSC being a fee charged on redemption); short-term trading fees usually paid to the fund rather than the manager; fee-based series pay no trailing commission; daily pricing is industry practice",
       "basis": "standard industry descriptions; DSC consequence follows from NI 81-102 s.10.2.1 wording (see gaps); short-term-trading-fee recipient is industry practice"
     },
     {
@@ -295,7 +295,7 @@
     {
       "outcome": "5.4",
       "kind": "R",
-      "claim": "Mutual fund must determine risk level at least annually under Appendix F and disclose in Fund/ETF Facts",
+      "claim": "Mutual fund must determine its risk level at least annually in accordance with Appendix F (a mandatory method for every mutual fund; only flexibility is an increase under Item 1(2))",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.15.1.1, ~L3617",
       "quote": "determine its investment risk level, at least annually, in accordance with Appendix F Investment Risk Classification Methodology"
@@ -357,24 +357,24 @@
     {
       "outcome": "5.4",
       "kind": "C",
-      "claim": "Appendix F standard deviation is annualized: monthly-return sample SD × √12, over n = 120 months, expressed in %; bands apply to the annualized figure; 4% monthly SD ≈ 13.9% annualized → Medium",
-      "basis": "Appendix F Item 2(1) formula SD = √[(12/(n−1)) × Σ(Rᵢ − R̄)²], n = 120 (extraction ~L3725–3745 shows the fragments 'n = 120 months', '(11 12'); 4 × √12 = 4 × 3.4641 = 13.86 → band 11 to <16 = Medium (python-checked)"
+      "claim": "Appendix F risk level rests on the annualized standard deviation of 120 monthly returns; the guide describes the method conceptually (no √12 calculation shown, per calculation-scope table)",
+      "basis": "Appendix F Item 2(1) formula SD = √[(12/(n−1)) × Σ(Rᵢ − R̄)²], n = 120 (extraction garbled, ~L3725–3745); stated in words only"
     },
     {
       "outcome": "5.4",
       "kind": "R",
-      "claim": "Series/class with a differing attribute uses its own return history",
+      "claim": "If a series has an attribute that results in a different risk level, the series uses its own return history",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 Appendix F Item 3, ~L3760",
-      "quote": "the return on investment for that series or class of securities must be used to calculate the standard deviation of that series or class of securities."
+      "quote": "if a series or class of securities of the mutual fund has an attribute that results in a different investment risk level for the series or class than the investment risk level of the mutual fund, the return on investment for that series or class of securities must be used"
     },
     {
       "outcome": "5.4",
       "kind": "R",
-      "claim": "Currency hedging is an example of a differing attribute",
+      "claim": "Currency hedging is an example of an attribute that could result in a different risk level",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 Appendix F Item 3 Commentary, ~L3768",
-      "quote": "a series or class of securities that employs currency hedging"
+      "quote": "a series or class of securities that employs currency hedging or that is offered in the currency of the United States of America (if the mutual fund is otherwise offered in the currency of Canada) has an attribute that could result in a different investment risk level"
     },
     {
       "outcome": "5.4",
@@ -387,10 +387,19 @@
     {
       "outcome": "5.4",
       "kind": "R",
-      "claim": "Reference fund: underlying fund (clone) or another fund with same manager, portfolio manager, objectives, strategies",
+      "claim": "Matching-fund proxy: another mutual fund with 10 years of history, subject to NI 81-102, with the same manager, portfolio manager, objectives and strategies",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 Appendix F Item 4(1), ~L3778",
       "quote": "has the same fund manager, portfolio manager, investment objectives and investment strategies as the mutual fund"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "Item 4(1) is mandatory and treats the clone/underlying-fund case and the matching-fund case as equal alternatives ('in either case'; no order between them): if either exists, the mutual fund must impute that fund's return history; a reference index is used only when Item 4(1) does not apply (Item 4(2))",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 Appendix F Item 4(1), ~L3780",
+      "quote": "then in either case the mutual fund must calculate the standard deviation of the mutual fund in accordance with Item 2 by",
+      "added": "v1.1-fix2"
     },
     {
       "outcome": "5.4",
@@ -403,7 +412,7 @@
     {
       "outcome": "5.4",
       "kind": "R",
-      "claim": "Otherwise use a reference index under Item 5",
+      "claim": "Only if Item 4(1) does not apply (neither a qualifying clone/underlying fund nor a matching fund exists), use a reference index under Item 5",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 Appendix F Item 4(2), ~L3790",
       "quote": "the mutual fund must select a reference index in accordance with Item 5"
@@ -491,15 +500,15 @@
     {
       "outcome": "5.5",
       "kind": "R",
-      "claim": "Conventional fund borrowing: temporary, max 5% of NAV",
+      "claim": "Conventional fund borrowing: only as a temporary measure to meet redemptions during an orderly liquidation or to settle portfolio transactions, and total borrowings ≤ 5% of NAV",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.2.6(1)(a)(i), ~L1471",
-      "quote": "the outstanding amount of all borrowings of the investment fund does not exceed 5% of its net asset value at the time of the borrowing,"
+      "quote": "the transaction is a temporary measure to accommodate requests for the redemption of securities of the investment fund while the investment fund effects an orderly liquidation of portfolio assets, or to permit the investment fund to settle portfolio transactions"
     },
     {
       "outcome": "5.5",
       "kind": "R",
-      "claim": "Alternative mutual fund borrowing up to 50% of NAV",
+      "claim": "Alternative mutual fund or non-redeemable investment fund borrowing up to 50% of NAV",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.2.6(2)(c), ~L1540",
       "quote": "does not exceed 50% of the alternative mutual fund or non-redeemable investment fund’s net asset value."
@@ -515,8 +524,8 @@
     {
       "outcome": "5.5",
       "kind": "C",
-      "claim": "Creation/redemption by authorized participants/designated brokers with in-kind baskets; arbitrage keeps price near NAV; in-kind redemptions improve tax efficiency; ETF vs mutual fund comparison table; management styles",
-      "basis": "standard ETF mechanics"
+      "claim": "Creation/redemption by authorized dealers (including the designated broker) with in-kind baskets; arbitrage keeps price near NAV; in-kind redemptions improve tax efficiency; ETF vs mutual fund comparison table",
+      "basis": "standard ETF mechanics; Canadian terminology (designated broker / dealers) used as C description, no R claim about the roles"
     },
     {
       "outcome": "5.5",
@@ -577,10 +586,10 @@
     {
       "outcome": "5.6",
       "kind": "R",
-      "claim": "Typically unsuitable for retail investors holding longer than one session",
+      "claim": "Leveraged and inverse ETFs that reset daily are typically unsuitable for retail investors who plan to hold them longer than one trading session, particularly in volatile markets",
       "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
       "locator": "GN-3400-21-001 Executive Summary, ~L25",
-      "quote": "typically are unsuitable for retail investors who plan to hold them for longer than one trading session"
+      "quote": "leveraged and inverse ETFs that are reset daily typically are unsuitable for retail investors who plan to hold them for longer than one trading session, particularly in volatile markets."
     },
     {
       "outcome": "5.6",
@@ -975,13 +984,13 @@
     {
       "outcome": "5.8",
       "kind": "C",
-      "claim": "MWRR = IRR of investor's cash flows, sensitive to timing and size of flows; adding money before a decline makes MWRR < fund's published (time-weighted) return",
+      "claim": "MWRR = IRR of investor's cash flows, sensitive to timing and size of flows; adding money before a decline makes MWRR < fund's published (time-weighted) return; MWRR answers 'how did my own money do?'; with no deposits or withdrawals in the period MWRR equals TWRR",
       "basis": "standard definition (IRR convention)"
     },
     {
       "outcome": "5.8",
       "kind": "C",
-      "claim": "TWRR = geometric linking of sub-period returns split at each cash flow; unaffected by flows; convention for fund/manager performance; MWRR for the client's account",
+      "claim": "TWRR splits the period at each cash flow, calculates each sub-period return and links them by compounding (stated in words, no formula block); unaffected by flows; convention for fund/manager performance; MWRR for the client's account",
       "basis": "standard definition; convention stated in text (GIPS-style practice)"
     },
     {
@@ -1041,13 +1050,13 @@
     {
       "outcome": "5.9",
       "kind": "C",
-      "claim": "Worked example step 4: total return per unit 8.0%; Priya's own return 5.84%, lower due to $200 charge",
+      "claim": "Worked example step 4: total return per unit 8.0%; Anouk's own return 5.84%, lower due to $200 charge",
       "basis": "(13.10 − 12.50 + 0.40) / 12.50 = 1.00 / 12.50 = 0.08; (10,270.40 + 313.60 − 10,000) / 10,000 = 584 / 10,000 = 0.0584 (python-checked)"
     },
     {
       "outcome": "5.9",
       "kind": "R",
-      "claim": "Performance data only after 12 consecutive months of prospectus distribution",
+      "claim": "A mutual fund generally may show performance only after 12 consecutive months of prospectus distribution (other routes exist in s.15.6(1)(a))",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.15.6(1)(a)(i)(A), ~L3192",
       "quote": "the mutual fund has distributed securities under a prospectus in a jurisdiction for a period of at least 12 consecutive months;"
@@ -1071,15 +1080,15 @@
     {
       "outcome": "5.9",
       "kind": "R",
-      "claim": "Standard performance data for 10, 5, 3 and 1 year periods",
+      "claim": "Standard performance data for 10, 5, 3 and 1 year periods, to the extent applicable",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.15.8(2)(a), ~L3286",
-      "quote": "the standard performance data has been calculated for 10, 5, 3 and one year periods,"
+      "quote": "to the extent applicable, the standard performance data has been calculated for 10, 5, 3 and one year periods,"
     },
     {
       "outcome": "5.9",
       "kind": "R",
-      "claim": "Since-inception data for funds 1 to 10 years old",
+      "claim": "A mutual fund offering securities by prospectus for more than one and less than 10 years also shows since-inception data",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.15.8(2)(a.1), ~L3288",
       "quote": "in the case of a mutual fund that has been offering securities by way of prospectus for more than one and less than 10 years, the standard performance data has been calculated for the period since the inception of the mutual fund,"
@@ -1275,7 +1284,7 @@
     {
       "outcome": "5.10",
       "kind": "R",
-      "claim": "Treaty exempts U.S. dividends/interest earned by an arrangement operated exclusively to provide pension, retirement or employee benefits",
+      "claim": "Treaty Art. XXI(2): dividends and interest of an arrangement that is resident in a Contracting State, generally exempt from income tax there, and operated exclusively to provide pension, retirement or employee benefits are exempt in the other State (subject to para. 4); not applied to any named Canadian plan",
       "source_file": "research/sources/gov/canada-us-tax-convention-consolidated.txt",
       "locator": "Canada-U.S. Tax Convention Art. XXI(2), ~L578",
       "quote": "derived by a trust, company, organization or other arrangement that is a resident of a Contracting State, generally exempt from income taxation in a taxable year in that State and operated exclusively to administer or provide pension, retirement or employee benefits shall be exempt from income taxation"
@@ -1345,7 +1354,7 @@
     {
       "outcome": "5.11",
       "kind": "R",
-      "claim": "Negative ACB deemed a capital gain; ACB reset to zero",
+      "claim": "Negative ACB deemed a capital gain; ACB reset to zero (scoped to units of a mutual fund trust, as the CRA text states; cross-element consistency X05 with 7.10)",
       "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
       "locator": "CRA 'Tax treatment of mutual funds', ~L1696",
       "quote": "If the ACB of the units of the trust is reduced below zero during the tax year, the negative amount is deemed to be a capital gain in the year."
@@ -1431,7 +1440,7 @@
     {
       "outcome": "5.12",
       "kind": "R",
-      "claim": "RR recommendation must meet the IDPC 3402(1) suitability standard (factors listed in 1.17)",
+      "claim": "Under IDPC 3402(1) the Dealer Member must determine that the action is suitable and puts the client's interest first (factors in 1.17)",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3402(1), ~L6793",
       "quote": "the Dealer Member must determine, on a reasonable basis, that the action satisfies the following criteria:"
@@ -1461,13 +1470,13 @@
     {
       "outcome": "5.12",
       "kind": "C",
-      "claim": "For the managed vs direct choice, the cost and reasonable-alternatives factors usually matter most",
-      "basis": "application of IDPC 3402(1)(i)(d)-(e) to a product-structure choice; framed as 'usually'"
+      "claim": "For the managed vs direct choice, the cost and reasonable-alternatives factors usually matter most; route comparison (fund MER incl. trailing commission, small automatic purchases cost nothing extra; ETF lower MER but commission and spread per trade; direct securities no MER but commission per trade, large accounts diversify at lower total cost; managed account fee replaces MER); failure modes in each direction",
+      "basis": "application of IDPC 3402(1)(i)(c)-(e) to a product-structure choice; standard cost descriptions, framed as 'usually'"
     },
     {
       "outcome": "5.13",
       "kind": "R",
-      "claim": "Alternative mutual fund definition",
+      "claim": "Alternative mutual fund definition: objectives permit investing in commodities, crypto assets or specified derivatives, borrowing cash or short selling, in a manner not permitted for other mutual funds (the qualifier governs the whole list)",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.1.1 'alternative mutual fund', ~L220",
       "quote": "that has adopted fundamental investment objectives that permit it to invest in physical commodities, crypto assets or specified derivatives, to borrow cash or engage in short selling in a manner not permitted for other mutual funds under this Instrument;"
@@ -1537,7 +1546,7 @@
     {
       "outcome": "5.14",
       "kind": "R",
-      "claim": "Conventional mutual fund performance fee: benchmark reflecting fund's sectors",
+      "claim": "Conventional mutual fund performance fee: benchmark reflecting the fund's market sectors (s.7.1 applies to mutual funds, including alternative mutual funds under 7.1(2); not to NRIFs)",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.7.1(1)(a)(i), ~L2302",
       "quote": "the fee is calculated with reference to a benchmark or index that (i) reflects the market sectors in which the mutual fund invests according to its fundamental investment objectives,"
@@ -1561,7 +1570,7 @@
     {
       "outcome": "5.14",
       "kind": "R",
-      "claim": "Method described in prospectus (conventional)",
+      "claim": "Conventional fund: the prospectus describes the fee calculation method and the composition of the benchmark",
       "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
       "locator": "NI 81-102 s.7.1(1)(c), ~L2317",
       "quote": "the method of calculation of the fee and details of the composition of the benchmark or index are described in the prospectus of the mutual fund."
@@ -1625,17 +1634,1270 @@
       "kind": "C",
       "claim": "Accredited investor individual tests, F9 acknowledgement and financial-assets vs net-assets trap cross-referenced to 3.1 (quoted there)",
       "basis": "navigation note; R quotes for these items live in E3.sources.json outcome 3.1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "R",
+      "claim": "Pooling: investor money is pooled with other investors' money and invested by the fund manager",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA 'Tax treatment of mutual funds' — What is a mutual fund, ~L1598",
+      "quote": "When you invest in a mutual fund, your money is pooled with the money of other investors and invested on your behalf by the fund manager.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "R",
+      "claim": "By definition (NI 81-106), a non-redeemable investment fund does not invest to control another issuer or to take part actively in its management; investments in a mutual fund or NRIF are the exception (definitional test, not a conduct rule)",
+      "source_file": "research/sources/csa/ni-81-106-investment-fund-continuous-disclosure-nav-mer.txt",
+      "locator": "NI 81-106 s.1.1 'non-redeemable investment fund' (b), ~L278-284",
+      "quote": "that does not invest, (i) for the purpose of exercising or seeking to exercise control of an issuer, other than an issuer that is a mutual fund or a non-redeemable investment fund, or (ii) for the purpose of being actively involved in the management of any issuer in which it invests",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "R",
+      "claim": "'Investment fund' covers both mutual funds and non-redeemable investment funds",
+      "source_file": "research/sources/csa/ni-81-106-investment-fund-continuous-disclosure-nav-mer.txt",
+      "locator": "NI 81-106 s.1.1 'investment fund', ~L218",
+      "quote": "“investment fund” means a mutual fund or a non-redeemable investment fund",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "R",
+      "claim": "A non-redeemable investment fund may hold more illiquid assets than a mutual fund (20% purchase limit vs 10%; see 5.14)",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.4(4), ~L1246",
+      "quote": "A non-redeemable investment fund must not purchase an illiquid asset if, immediately after the purchase, more than 20% of its net asset value would be made up of illiquid assets.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "R",
+      "claim": "In law an ETF is a mutual fund in continuous distribution whose securities are listed and trade on an exchange",
+      "source_file": "research/sources/csa/ni-41-101-general-prospectus-requirements.txt",
+      "locator": "NI 41-101 s.1.1 'ETF', ~L342",
+      "quote": "“ETF” or “exchange-traded mutual fund” means a mutual fund in continuous distribution, the securities of which are (a) listed on an exchange, and (b) trading on an exchange or an alternative trading system;",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "R",
+      "claim": "Fund of funds: the top fund must not pay a management fee or incentive fee that, to a reasonable person, would duplicate a fee payable by the underlying fund for the same service",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.5(2)(d), ~L1299",
+      "quote": "no management fees or incentive fees are payable by the investment fund that, to a reasonable person, would duplicate a fee payable by the other investment fund for the same service,",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "R",
+      "claim": "Asset allocation service: an administrative service allocating an investment among mutual funds",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.1.1 'asset allocation service', ~L225",
+      "quote": "“asset allocation service” means an administrative service under which the investment of a person or company is allocated, in whole or in part, among mutual funds to which this Instrument applies",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "C",
+      "claim": "Consequence of redemption on demand: a mutual fund must keep its assets liquid and pay redemptions fast (cross-references 5.14 liquidity limits and 5.11 payment deadlines); a pool gives small investors diversification and professional management; income trust payout not guaranteed; REIT owns income-producing real estate",
+      "basis": "standard product descriptions; the liquidity/payment limits themselves are quoted R claims under 5.11 and 5.14",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.2",
+      "kind": "R",
+      "claim": "Under IDPC 3402(1), the Dealer Member must consider the impact on the account, including concentration and liquidity",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(c), ~L6803",
+      "quote": "the impact of the action on the retail client’s account, including the concentration of securities, derivatives or precious metals bullion, within the account and the liquidity of those securities, derivatives or precious metals bullion,",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.2",
+      "kind": "R",
+      "claim": "Under IDPC 3402(1), the Dealer Member must consider the potential and actual impact of costs on returns",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(d), ~L6806",
+      "quote": "the potential and actual impact of costs on the retail client’s returns, and",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.2",
+      "kind": "C",
+      "claim": "Exposure descriptions (income funds aim at regular cash flow, growth funds at capital gains with more volatility; sector funds carry one industry's return potential and risk; foreign funds add currency risk and withholding tax); single-issuer limit limits damage from one issuer's failure but counts issuers, not sectors; a fund can distribute a taxable capital gain in a year its NAV fell",
+      "basis": "standard finance concepts",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.2",
+      "kind": "C",
+      "claim": "Scenario (Soraya/Hamza): Soraya asks to buy more of a 40-stock technology fund that is already 70% of her portfolio (a trigger under 3402(1)); diversified across issuers but concentrated in one sector; before the purchase the Dealer Member, through Hamza, must consider concentration (IDPC 3402(1)(i)(c))",
+      "basis": "application of standard diversification concept and the quoted IDPC factor; no numbers computed",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "R",
+      "claim": "The manager must not act as custodian or sub-custodian",
+      "source_file": "research/sources/csa/ni-81-102-part-6-custodianship-part-11-commingling-of-cash.txt",
+      "locator": "NI 81-102 s.6.1(6), ~L84",
+      "quote": "Despite any other provisions of this Part, the manager of an investment fund must not act as custodian or sub-custodian of the investment fund.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "R",
+      "claim": "Qualified custodian for assets in Canada: a Schedule I, II or III bank",
+      "source_file": "research/sources/csa/ni-81-102-part-6-custodianship-part-11-commingling-of-cash.txt",
+      "locator": "NI 81-102 s.6.2(1), ~L91",
+      "quote": "a bank listed in Schedule I, II or III of the Bank Act (Canada);",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "R",
+      "claim": "Qualified custodian for assets in Canada: a trust company with equity of at least $10,000,000",
+      "source_file": "research/sources/csa/ni-81-102-part-6-custodianship-part-11-commingling-of-cash.txt",
+      "locator": "NI 81-102 s.6.2(2), ~L93",
+      "quote": "a trust company that is incorporated under the laws of Canada or a jurisdiction and licensed or registered under the laws of Canada or a jurisdiction, and that has equity, as reported in its most recent audited financial statements, of not less than $10,000,000;",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "R",
+      "claim": "CSA's stated purpose of the s.6.5 rules on how portfolio assets are held: protect a fund from loss on insolvency of those holding its assets (the manager–custodian split rationale is the guide's own C explanation, claim added v1.1-fix1)",
+      "source_file": "research/sources/csa/cp-81-102-part-8-custodianship-guidance.txt",
+      "locator": "81-102CP s.8.1(1), ~L52",
+      "quote": "the provisions of section 6.5 of the Instrument, designed to protect an investment fund from loss in the event of the insolvency of those holding its portfolio assets, are minimum requirements.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "R",
+      "claim": "Trailing commission is for the services and advice of the representative and firm",
+      "source_file": "research/sources/csa/form-81-101f3-fund-facts.txt",
+      "locator": "Form 81-101F3 Part II Item 1.3(6), ~L849",
+      "quote": "It is for the services and advice that your representative and their firm provide to you.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "C",
+      "claim": "Forward pricing protects remaining unitholders: buying at a known, stale price after good news would transfer value from other unitholders",
+      "basis": "standard concept (rationale for forward pricing)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "CRA list of possible mutual fund distributions, including return of capital",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA 'Tax treatment of mutual funds', ~L1606",
+      "quote": "The distributions can be capital gains, capital gains dividends, dividends, foreign income, interest, other income, return of capital, or a combination of these amounts.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "Fund Facts: value can go down as well as up; you could lose money",
+      "source_file": "research/sources/csa/form-81-101f3-fund-facts.txt",
+      "locator": "Form 81-101F3 Part I Item 4(1), ~L374",
+      "quote": "The value of the fund can go down as well as up. You could lose money.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "Fund Facts: higher-volatility funds typically have a greater chance of losing money and may have a greater chance of higher returns",
+      "source_file": "research/sources/csa/form-81-101f3-fund-facts.txt",
+      "locator": "Form 81-101F3 Part I Item 4(1), ~L379",
+      "quote": "In general, funds with higher volatility will have returns that change more over time. They typically have a greater chance of losing money and may have a greater chance of higher returns.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "Fund Facts 'No guarantees': you may not get back the amount invested",
+      "source_file": "research/sources/csa/form-81-101f3-fund-facts.txt",
+      "locator": "Form 81-101F3 Part I Item 4(3), ~L437",
+      "quote": "Like most mutual funds, this fund doesn’t have any guarantees. You may not get back the amount of money you invest.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "C",
+      "claim": "Provider risk: if many investors redeem at once, the manager must sell assets, perhaps at poor prices, and remaining investors share the cost; return of capital is the investor's own money paid back; if the Canadian dollar rises, unhedged foreign holdings fall in Canadian-dollar value",
+      "basis": "standard finance concepts",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "C",
+      "claim": "Scenario (Lucien / Tamarack, 4 years of history, no qualifying clone or matching fund): uses its own 4 years of monthly returns, selects a reference index that reasonably approximates its SD and imputes the index's returns for the other 6 years; bands the annualized 10-year SD; may raise if reasonable; keeps records; monitors the index at least annually and describes it in the prospectus",
+      "basis": "direct application of Appendix F Items 1(2)-(3), 4(2), 5(1)-(2) as quoted under 5.4; 10 − 4 = 6 years",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "ETFs hold a basket of investments like mutual funds but trade on exchanges like stocks",
+      "source_file": "research/sources/csa/form-41-101f4-etf-facts.txt",
+      "locator": "Form 41-101F4 Part I Item 6, ~L899",
+      "quote": "ETFs hold a basket of investments, like mutual funds, but trade on exchanges like stocks.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "An ETF in continuous distribution may price a redemption of fewer than the manager-prescribed number of units by reference to the closing exchange price next determined after receipt of the order",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.10.3(3), ~L2645",
+      "quote": "the redemption price of a security of an exchange-traded mutual fund that is in continuous distribution may, if a securityholder redeems fewer than the manager-prescribed number of units, be a price that is calculated by reference to the closing price of the security on the stock exchange",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "Bid definition",
+      "source_file": "research/sources/csa/form-41-101f4-etf-facts.txt",
+      "locator": "Form 41-101F4 Part I Item 6, ~L909",
+      "quote": "The bid is the highest price a buyer is willing to pay if you want to sell your ETF",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "Ask definition (guide paraphrase: the lowest price at which a holder will sell)",
+      "source_file": "research/sources/csa/form-41-101f4-etf-facts.txt",
+      "locator": "Form 41-101F4 Part I Item 6, ~L911",
+      "quote": "The ask is the lowest price a seller is willing to accept if you want to buy ETF",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "Market order vs limit order (ETF Facts wording); the guide's 'highest price to buy / lowest price to sell, may not fill' is a C elaboration (claim added v1.1-fix1)",
+      "source_file": "research/sources/csa/form-41-101f4-etf-facts.txt",
+      "locator": "Form 41-101F4 Part I Item 6, ~L919-922",
+      "quote": "A market order lets you buy or sell [units/shares] at the current market price. A limit order lets you set the price at which you are willing to buy or sell",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "ETF Facts suggests a limit order or another time of day because of volatility at the open and close",
+      "source_file": "research/sources/csa/form-41-101f4-etf-facts.txt",
+      "locator": "Form 41-101F4 Part I Item 6, ~L926",
+      "quote": "Consider using a limit order or placing a trade at another time",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "Purpose of NI 81-102 investment restrictions: in part to prevent leverage via specified derivatives",
+      "source_file": "research/sources/csa/cp-81-102-investment-funds-companion-policy.txt",
+      "locator": "81-102CP s.4.3(1), ~L895",
+      "quote": "The investment restrictions in the Instrument are in part intended to prevent the use of specified derivatives for the purpose of leveraging the assets of a mutual fund.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "ETF Facts statement of rights: cancel within 48 hours after confirmation (no two-day withdrawal right)",
+      "source_file": "research/sources/csa/form-41-101f4-etf-facts.txt",
+      "locator": "Form 41-101F4 Part II Item 2, ~L1140",
+      "quote": "Under securities law in some provinces and territories, you have the right to cancel your purchase within 48 hours after you receive confirmation of the purchase.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "C",
+      "claim": "Creation/redemption in large blocks by authorized dealers; arbitrage (create and sell above NAV, buy and redeem below NAV); price can drift from NAV if underlying securities are hard to trade; small automatic purchases with no trade commission favour a mutual fund",
+      "basis": "standard ETF mechanics; block-size point consistent with quoted s.10.3(3)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "C",
+      "claim": "Scenario (Teodor): market order one minute after open in a thinly traded ETF with the ask well above the bid and above the value of the holdings; he paid the full ask, more than the holdings were worth; check average spread, use a limit order or trade later",
+      "basis": "application of quoted Form 41-101F4 Item 6 statements",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "R",
+      "claim": "Inverse ETFs are often marketed to profit from or hedge downward-moving markets",
+      "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
+      "locator": "GN-3400-21-001 s.1, ~L44",
+      "quote": "Inverse ETFs are often marketed as a way for investors to profit from, or at least hedge their exposure to, downward-moving markets.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "R",
+      "claim": "CIRO two-day example: low-volatility path inverse ETF loses 0.02%; volatile path loses 1.82%",
+      "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
+      "locator": "GN-3400-21-001 s.1, ~L54",
+      "quote": "In the first case with low volatility, the inverse ETF loses 0.02 per cent; but in the more volatile scenario the inverse ETF loses 1.82 per cent.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "R",
+      "claim": "Compounding effect is magnified in volatile markets",
+      "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
+      "locator": "GN-3400-21-001 s.1, ~L54",
+      "quote": "This effect can be magnified in volatile markets.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "R",
+      "claim": "Firms must understand how volatility, leverage and holding period affect performance",
+      "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
+      "locator": "GN-3400-21-001 s.2, ~L56",
+      "quote": "the impact that market volatility, the ETF’s use of leverage and the client’s intended holding period will have on their performance",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "R",
+      "claim": "Client-specific suitability after product-level determination",
+      "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
+      "locator": "GN-3400-21-001 s.2, ~L58",
+      "quote": "Once a determination is made that a product is generally suitable for at least some investors, the Dealer Member must also determine that the product is suitable for specific clients.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "R",
+      "claim": "Prospectus risk disclosure does not cure deficient sales material",
+      "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
+      "locator": "GN-3400-21-001 s.3, ~L68",
+      "quote": "providing risk disclosure in a prospectus or product description does not cure otherwise deficient disclosure in sales material",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "C",
+      "claim": "GN two-day example numbers are consistent with a −1× daily-reset inverse ETF: index 100→101→100 gives 0.99 × (1 + 0.0099) − 1 = −0.02%; index 100→110→100 gives 0.90 × (1 + 0.0909) − 1 = −1.82%",
+      "basis": "python: (0.99*(1+(1-100/101)))-1 = -0.000198; (0.90*(1+(1-100/110)))-1 = -0.018182 (a −2× fund would give −0.06% on the calm path, so the guide does not state a multiple)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "C",
+      "claim": "Active aim alpha at higher cost with risk of lagging; passive aims at market return at low cost with low turnover and low tax and does not try to beat its index (after costs usually a little below the index return); smart beta weights by factors (value, size, momentum, low volatility, quality, dividend), transparent factor premiums at mid-range cost, can lag for years; leveraged purpose short-term tactical exposure; inverse purpose short-term hedge or bet on a decline",
+      "basis": "standard finance concepts (v1.0 table content restated as prose)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "C",
+      "claim": "Scenario (Elspeth): −1× inverse ETF held 6 months as a hedge can differ sharply from minus the index return, more so in volatile markets; typically unsuitable for those who plan to hold beyond one trading session, particularly in volatile markets; the Dealer Member, through the RR, makes a client-specific suitability determination; no implication of longer-period tracking",
+      "basis": "application of quoted GN-3400-21-001 statements",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "Fund Facts (and simplified prospectus) must be in plain language",
+      "source_file": "research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt",
+      "locator": "NI 81-101 s.4.1(1), ~L1636",
+      "quote": "A simplified prospectus and fund facts document must be prepared using plain language and be in a format that assists in readability and comprehension.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "Fund Facts performance sub-heading: year-by-year returns",
+      "source_file": "research/sources/csa/form-81-101f3-fund-facts.txt",
+      "locator": "Form 81-101F3 Part I Item 5(2), ~L483",
+      "quote": "Under the sub-heading “Year-by-year returns”,",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "Fund Facts performance sub-heading: best and worst 3-month returns",
+      "source_file": "research/sources/csa/form-81-101f3-fund-facts.txt",
+      "locator": "Form 81-101F3 Part I Item 5(3), ~L535",
+      "quote": "Under the sub-heading “Best and worst 3-month returns”,",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "Fund Facts performance sub-heading: average return",
+      "source_file": "research/sources/csa/form-81-101f3-fund-facts.txt",
+      "locator": "Form 81-101F3 Part I Item 5(4), ~L584",
+      "quote": "Under the sub-heading “Average return”,",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "'Who is this fund for?' describes the investors and portfolios for which the fund is and is not suited",
+      "source_file": "research/sources/csa/form-81-101f3-fund-facts.txt",
+      "locator": "Form 81-101F3 Part I Item 7, ~L668",
+      "quote": "Describe the characteristics of the investor for whom the mutual fund may or may not be an appropriate investment, and the portfolios for which the mutual fund is and is not suited.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "Exception applies only if all conditions apply",
+      "source_file": "research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt",
+      "locator": "NI 81-101 s.3.2.02(1), ~L1359",
+      "quote": "after entering into the purchase of a security of the mutual fund, if all of the following apply:",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "Conditions (c)(i)-(iii) must be met before the purchase instruction is accepted",
+      "source_file": "research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt",
+      "locator": "NI 81-101 s.3.2.02(1)(c), ~L1368",
+      "quote": "before the instruction from the purchaser for the purchase of a security of the mutual fund is accepted,",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "Mutual fund misrepresentation remedy: cancel or claim damages in some provinces/territories",
+      "source_file": "research/sources/csa/form-81-101f3-fund-facts.txt",
+      "locator": "Form 81-101F3 Part II Item 2, ~L956",
+      "quote": "In some provinces and territories, you also have the right to cancel a purchase, or in some jurisdictions, claim damages, if the simplified prospectus, Fund Facts document or financial statements contain a misrepresentation.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "ETF Facts statement of rights: 48-hour cancellation only",
+      "source_file": "research/sources/csa/form-41-101f4-etf-facts.txt",
+      "locator": "Form 41-101F4 Part II Item 2, ~L1140",
+      "quote": "Under securities law in some provinces and territories, you have the right to cancel your purchase within 48 hours after you receive confirmation of the purchase.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "ETF Facts misrepresentation remedy",
+      "source_file": "research/sources/csa/form-41-101f4-etf-facts.txt",
+      "locator": "Form 41-101F4 Part II Item 2, ~L1143",
+      "quote": "In some provinces and territories, you also have the right to cancel a purchase, or in some jurisdictions, claim damages, if the prospectus, ETF Facts or financial statements contain a misrepresentation.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.8",
+      "kind": "C",
+      "claim": "Benchmark comparison: the return difference shows what the manager added or lost; a poor benchmark misleads (small-cap fund vs large-cap index in a small-cap year); first quartile = top 25% of peers; style drift = moving away from stated style so peers no longer match; survivorship bias = closed/merged funds drop out so survivors' average looks too good",
+      "basis": "standard performance-evaluation definitions",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "R",
+      "claim": "A sales communication must not be untrue or misleading",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.15.2(1)(a), ~L2810",
+      "quote": "a sales communication must not (a) be untrue or misleading;",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "R",
+      "claim": "A sales communication comparing a fund with any benchmark or investment must meet conditions (a)-(c); (d) adds benchmark-specific conditions",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.15.3(1), ~L2832",
+      "quote": "A sales communication must not compare the performance of an investment fund or asset allocation service with the performance or change of any benchmark or investment unless",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "R",
+      "claim": "Comparison condition (a): include all facts likely to alter materially the conclusions",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.15.3(1)(a), ~L2836",
+      "quote": "it includes all facts that, if disclosed, would be likely to alter materially the conclusions reasonably drawn or implied by the comparison;",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "R",
+      "claim": "Comparison condition (b): same period or periods",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.15.3(1)(b), ~L2839",
+      "quote": "it presents data for each subject of the comparison for the same period or periods;",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "R",
+      "claim": "Comparison condition (c): explain factors to make the comparison fair and not misleading",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.15.3(1)(c), ~L2841",
+      "quote": "it explains clearly any factors necessary to make the comparison fair and not misleading;",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "R",
+      "claim": "Comparison condition (d)(i): benchmark existed and was widely recognized and available",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.15.3(1)(d)(i), ~L2846",
+      "quote": "the benchmark existed and was widely recognized and available during the period for which the comparison is made, or",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "R",
+      "claim": "Comparison condition (d)(ii): reconstruction on a consistent basis, widely recognized and available",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.15.3(1)(d)(ii), ~L2849",
+      "quote": "the benchmark did not exist for all or part of the period, but a reconstruction or calculation of what the benchmark would have been during that period, calculated on a basis consistent with its current basis of calculation, is widely recognized and available.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "R",
+      "claim": "Advertisements may compare with an index",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.15.7(c), ~L3247",
+      "quote": "allocation service to which the advertisement pertains; or (c) an index.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "C",
+      "claim": "Worked example renamed for uniqueness across elements: Birchwood Balanced Fund / Anouk (formerly Maple Balanced Fund / Priya; names reused in E2/E4); all numbers unchanged",
+      "basis": "rename only; arithmetic as in the v1.0 entries below",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "C",
+      "claim": "A benchmark chosen after the period can flatter the fund; one outside the manager's universe measures luck, not skill",
+      "basis": "standard benchmark-validity rationale",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "C",
+      "claim": "Scenario (Bram / Cedarline Canadian Small-Cap Fund): best year vs S&P 500 for a different year fails the same-period condition; an index is permitted but must be fair and not misleading; a U.S. large-cap index is not appropriate or reflective for a Canadian small-cap mandate",
+      "basis": "application of quoted s.15.3(1), 15.7 and the benchmark criteria",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "C",
+      "claim": "Scenario (Clio): 1,200 units, NAVPS $20.00 → $21.30, $0.50 cash distributions; value $25,560; total return 9.0%; 2.5 percentage points above a 6.5% benchmark",
+      "basis": "1200 × 21.30 = 25,560; (21.30 − 20.00 + 0.50) / 20.00 = 1.80 / 20.00 = 0.090; 9.0 − 6.5 = 2.5 (python-checked)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.10",
+      "kind": "R",
+      "claim": "Reinvested distributions must still be reported: the CRA considers them received before reinvestment",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA 'Tax treatment of mutual funds', ~L1614",
+      "quote": "However, you must still report the amounts shown on your slips. This is because the CRA considers you to have received these amounts before reinvesting them.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.10",
+      "kind": "C",
+      "claim": "A front-end charge means fewer units from the start; compare expense ratios only between similar funds and series; a fee-based series has a lower MER (no trailer) but the client pays an account fee instead",
+      "basis": "standard concepts; trailer inside MER per quoted Form 81-101F3 Item 1.3(2)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.10",
+      "kind": "C",
+      "claim": "Scenario (Emeka): Canadian-listed ETF of U.S. stocks — non-registered: recoverable via T3 pass-through (box 34) and foreign tax credit if the ETF is a trust; TFSA: income not reported, so nothing to claim against (unrecoverable)",
+      "basis": "application of quoted CRA FTC condition, T3 box 34 and TFSA 'generally tax-free' text (v1.0 claims)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "R",
+      "claim": "Selling outlays include redemption fees and commissions",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA 'Tax treatment of mutual funds', ~L1670",
+      "quote": "the outlays and expenses you incurred when selling your units or shares, such as redemption fees and commissions",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "R",
+      "claim": "ACB calculated separately for each class or series",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA 'Tax treatment of mutual funds', ~L1674",
+      "quote": "If you hold more than one class or series of a single fund, you must calculate the adjusted cost base (ACB) for each class or series separately for each mutual fund that you own.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "R",
+      "claim": "Switch between series of the same class of mutual fund corporation shares, differing only in fees/expenses, is not a disposition",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "CRA T4037 (2025) 'Mutual funds' tax tip, ~L1635",
+      "quote": "If you exchanged mutual fund corporation shares where the only difference is the relative management fees or expenses paid by the investor in the classes of shares (switch is between different series of the same class of shares), there is no disposition.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "R",
+      "claim": "Other switches can be dispositions with a gain or loss",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "CRA T4037 (2025) 'Mutual funds' tax tip, ~L1640",
+      "quote": "Otherwise, a disposition of the old shares or units could result in a capital gain or capital loss.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "R",
+      "claim": "ROC on mutual fund corporation shares is not reported on the T5; investor must track it for ACB",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA 'Tax treatment of mutual funds', ~L1706",
+      "quote": "Although any amounts distributed as a return of capital on such shares will not be reported on the T5 slip, you should keep track of such amounts so that you can correctly calculate the ACB of your shares.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "R",
+      "claim": "Alternative mutual fund initial lock-up: may bar redemptions up to 6 months after the initial prospectus receipt",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.10.1(2.1), ~L2552",
+      "quote": "a provision that securityholders of the alternative mutual fund may not redeem their securities for a period of up to 6 months after the date on which the receipt is issued for the initial prospectus of the alternative mutual fund.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "R",
+      "claim": "...only if disclosed in its prospectus",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.10.1(2.1), ~L2552",
+      "quote": "If disclosed in its prospectus, an alternative mutual fund may include,",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "C",
+      "claim": "Scenario (Kestrel Resource Fund): 60% of assets on one exchange that halts trading with no alternative market → suspension permitted under s.10.6(1)(a); may postpone payment; must not accept purchases; at 30% the condition fails and regulatory approval would be needed",
+      "basis": "60% > 50% threshold; 30% < 50% (comparison only)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.12",
+      "kind": "R",
+      "claim": "IDPC suitability factor: reasonable range of alternative actions",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(e), ~L6807",
+      "quote": "a consideration of a reasonable range of alternative actions available to the Registered Representative, Portfolio Manager, or Associate Portfolio Manager through the Dealer Member at the time the determination is made, and",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.12",
+      "kind": "R",
+      "claim": "IDPC suitability factor: potential and actual impact of costs on returns",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(d), ~L6806",
+      "quote": "the potential and actual impact of costs on the retail client’s returns, and",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.12",
+      "kind": "R",
+      "claim": "IDPC suitability factor: concentration within the account (Thandiwe scenario)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(c), ~L6803",
+      "quote": "the impact of the action on the retail client’s account, including the concentration of securities, derivatives or precious metals bullion, within the account",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.12",
+      "kind": "C",
+      "claim": "Investor factor explanations (managed product delegates research and monitoring; direct holder always knows holdings, fund discloses periodically; direct holder can exclude any company, fund applies its own screens; both routes can meet income or growth needs)",
+      "basis": "standard finance concepts",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.12",
+      "kind": "C",
+      "claim": "Scenario (Thandiwe: $15,000 + $200/month, little time or knowledge, asks about a few bank stocks): concentration factor, small amounts cannot diversify cheaply, diversified fund/ETF portfolio gives diversification and delegation, compare costs and alternatives, put her interest first; the Dealer Member, through the RR, compares costs and alternatives",
+      "basis": "application of IDPC 3402(1)(i)(c)-(e), (ii); no calculation",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.13",
+      "kind": "R",
+      "claim": "CSA guidance describes a general prohibition on mutual funds investing in crypto assets",
+      "source_file": "research/sources/csa/cp-81-102-investment-funds-companion-policy.txt",
+      "locator": "81-102CP s.3.3.01, ~L543",
+      "quote": "provides an exception to the general prohibition on mutual funds investing in crypto assets in paragraph 2.3(1.2)(j) to permit alternative mutual funds to invest in crypto assets",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.13",
+      "kind": "R",
+      "claim": "CP summary of the exchange conditions (the NI text, quoted separately, adds that the crypto asset must be fungible)",
+      "source_file": "research/sources/csa/cp-81-102-investment-funds-companion-policy.txt",
+      "locator": "81-102CP s.3.3.01, ~L545",
+      "quote": "provided the crypto asset is either (a) listed for trading or (b) is the underlying interest in a specified derivative that is listed for trading, on an exchange that has been recognized by a securities regulatory authority in Canada.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.13",
+      "kind": "C",
+      "claim": "Hedge fund absolute return = a positive return whether markets rise or fall; private equity: buys/invests in private companies, often to improve and sell them; investors commit money as limited partners and the fund calls it when it invests; access usually through a prospectus exemption; locked up for many years (often about 10), no market for units; risks illiquidity, debt in the companies, estimated valuations; venture capital: private equity for early-stage start-ups, access via a VC fund under an exemption or a labour-sponsored fund, long horizon, illiquid, many failures and a few large winners, so it needs many investments",
+      "basis": "standard definitions",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "NRIF illiquid holding limit 25% for 90 days or more",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.4(5), ~L1249",
+      "quote": "A non-redeemable investment fund must not hold, for a period of 90 days or more, more than 25% of its net asset value in illiquid assets.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "NRIF illiquid purchase limit 20%",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.4(4), ~L1246",
+      "quote": "A non-redeemable investment fund must not purchase an illiquid asset if, immediately after the purchase, more than 20% of its net asset value would be made up of illiquid assets.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "F9: investor must meet at least one criterion",
+      "source_file": "research/sources/csa/form-45-106f9-individual-accredited-investor-risk-acknowledgement.txt",
+      "locator": "Form 45-106F9 s.3, ~L46",
+      "quote": "You must meet at least one of the following criteria to be able to make this investment.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "F9: initial the statement that applies",
+      "source_file": "research/sources/csa/form-45-106f9-individual-accredited-investor-risk-acknowledgement.txt",
+      "locator": "Form 45-106F9 s.3, ~L46",
+      "quote": "Initial the statement that applies to you.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "F9 income test: over $200,000 in each of 2 most recent years and expected in current year",
+      "source_file": "research/sources/csa/form-45-106f9-individual-accredited-investor-risk-acknowledgement.txt",
+      "locator": "Form 45-106F9 s.3, ~L52",
+      "quote": "Your net income before taxes was more than $200,000 in each of the 2 most recent calendar years, and you expect it to be more than $200,000 in the current calendar year.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "F9 spousal income test: combined over $300,000",
+      "source_file": "research/sources/csa/form-45-106f9-individual-accredited-investor-risk-acknowledgement.txt",
+      "locator": "Form 45-106F9 s.3, ~L55",
+      "quote": "Your net income before taxes combined with your spouse’s was more than $300,000 in each of the 2 most recent calendar years",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "F9 financial assets test: more than $1 million in cash and securities net of related debt",
+      "source_file": "research/sources/csa/form-45-106f9-individual-accredited-investor-risk-acknowledgement.txt",
+      "locator": "Form 45-106F9 s.3, ~L58",
+      "quote": "Either alone or with your spouse, you own more than $1 million in cash and securities, after subtracting any debt related to the cash and securities.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "F9 net assets test: more than $5 million, real estate included",
+      "source_file": "research/sources/csa/form-45-106f9-individual-accredited-investor-risk-acknowledgement.txt",
+      "locator": "Form 45-106F9 s.3, ~L61",
+      "quote": "Either alone or with your spouse, you have net assets worth more than $5 million. (Your net assets are your total assets (including real estate) minus your total debt.)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "Rule test (l): net assets of at least $5,000,000 alone or with a spouse; the rule governs where F9 summarizes it as 'more than $5 million' (cross-element consistency X02, see 3.1)",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s.1.1 'accredited investor' (l), ~L242-243",
+      "quote": "an individual who, either alone or with a spouse, has net assets of at least $5 000 000,"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "Individual relying on (j.1) need not sign Form 45-106F9 (F9 list covers (j), (k), (l))",
+      "source_file": "research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt",
+      "locator": "45-106CP s.3.5, ~L776-778",
+      "quote": "exemption to an individual who meets the $5 000 000 financial asset test in paragraph (j.1)"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "F9 warning",
+      "source_file": "research/sources/csa/form-45-106f9-individual-accredited-investor-risk-acknowledgement.txt",
+      "locator": "Form 45-106F9 s.3 WARNING, ~L69",
+      "quote": "This investment is risky. Don’t invest unless you can afford to lose all the money you pay for this investment.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "C",
+      "claim": "Accredited investor tests use income or wealth as a sign the investor can accept risk with less disclosure (consistent with E3 3.1 wording); lock-up = period with no redemption; capital call = demand for committed money; hurdle and high-water mark mean no fee for a weak return and no second fee on the same gain",
+      "basis": "standard alternative-investment concepts; rationale matches E3 3.1",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "C",
+      "claim": "Scenario (Zofia): hedge fund lost last year, gained this year but NAV per unit still below previous peak → no performance fee under the high-water mark; hurdle matters only above the high-water mark",
+      "basis": "standard high-water-mark mechanics; no numbers",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "C",
+      "claim": "Scenario (Ingrid, single, no debts): home $3M, cash and securities $600,000, income $150,000 → fails income (<$200,000), no spouse so the $300,000 combined test does not apply, financial assets (<$1M; home excluded) and net assets ($3.6M < $5M); meets none of the four F9 statements and fails (j.1) (financial assets not over $5M); individual tests, so the dealer cannot rely on the accredited investor exemption for her on these facts; initials do not change that; the dealer must take reasonable steps to verify",
+      "basis": "3,000,000 + 600,000 = 3,600,000 < 5,000,000; 600,000 < 1,000,000; 150,000 < 200,000 (python-checked)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "R",
+      "claim": "NRIF definition limb (a): primary purpose is to invest money provided by its securityholders",
+      "source_file": "research/sources/csa/ni-81-106-investment-fund-continuous-disclosure-nav-mer.txt",
+      "locator": "NI 81-106 s.1.1 'non-redeemable investment fund' (a), ~L276",
+      "quote": "whose primary purpose is to invest money provided by its securityholders,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "R",
+      "claim": "Closed-end (non-redeemable) fund redemption price must not be more than NAV on the prospectus redemption date",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.10.3(4), ~L2649",
+      "quote": "The redemption price of a security of a non-redeemable investment fund must not be a price that is more than the net asset value of the security determined on a redemption date specified in the prospectus of the investment fund.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.1",
+      "kind": "C",
+      "claim": "Many closed-end funds pay NAV only once a year and a lower price at other times",
+      "basis": "industry practice description, framed as 'many'",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.2",
+      "kind": "R",
+      "claim": "Exemption (b): clearing-corporation securities",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.1(2)(b), ~L1052",
+      "quote": "(b) a security issued by a clearing corporation;",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.2",
+      "kind": "R",
+      "claim": "Exemption (e): equity securities bought by a fixed portfolio investment fund under its objectives",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.1(2)(e), ~L1060",
+      "quote": "an equity security if the purchase is made by a fixed portfolio investment fund in accordance with its investment objectives.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.2",
+      "kind": "R",
+      "claim": "Look-through: the fund is considered to hold directly its proportionate share of the securities held by the IPU issuer",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.1(3), ~L1063",
+      "quote": "the investment fund is considered to hold directly the underlying interest of that specified derivative or its proportionate share of the securities held by the issuer of the index participation unit.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.2",
+      "kind": "R",
+      "claim": "A security that is less than 10% of the IPU's holdings is considered not held",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.1(4), ~L1069",
+      "quote": "an investment fund is considered to not hold a security or instrument if that security or instrument is a component of, but represents less than 10% of,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "C",
+      "claim": "Access channels: an RR at an investment dealer or mutual fund dealer; a bank branch through the bank's mutual fund dealer; an order-execution-only account with no advice; a dealer affiliated with the manager; low minimums; lump sum or pre-authorized purchase plan",
+      "basis": "standard industry description",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "R",
+      "claim": "Switch between series of the same class of mutual fund corporation shares differing only in fees/expenses is not a disposition; otherwise a disposition can result",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "CRA T4037 (2025) 'Mutual funds' tax tip, ~L1635",
+      "quote": "where the only difference is the relative management fees or expenses paid by the investor in the classes of shares (switch is between different series of the same class of shares), there is no disposition.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "R",
+      "claim": "NAV frequency exception relaxes only the weekly minimum in s.14.2(3)(a) (funds that do not use specified derivatives or sell short): a fund that calculated NAV at least monthly when NI 81-106 came into force may keep that frequency; the daily minimum in (3)(b) is not affected",
+      "source_file": "research/sources/csa/ni-81-106-investment-fund-continuous-disclosure-nav-mer.txt",
+      "locator": "NI 81-106 s.14.2(5), ~L447",
+      "quote": "an investment fund that, at the date that this Instrument comes into force, calculates net asset value no less frequently than once a month may continue to calculate net asset value at least as frequently as it does at that date.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "R",
+      "claim": "The s.14.2(5) exception applies 'despite paragraph 3(a)' only, i.e. the weekly minimum",
+      "source_file": "research/sources/csa/ni-81-106-investment-fund-continuous-disclosure-nav-mer.txt",
+      "locator": "NI 81-106 s.14.2(5), ~L447",
+      "quote": "Despite paragraph 3(a), an investment fund that, at the date that this",
+      "added": "v1.1-fix2"
+    },
+    {
+      "outcome": "5.3",
+      "kind": "C",
+      "claim": "The manager–custodian split protects investors because the firm that directs the fund does not also hold its assets",
+      "basis": "the guide's own explanation (not attributed to the CSA)",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "Clone-fund proxy only if the underlying fund has 10 years of performance history",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 Appendix F Item 4(1), ~L3776",
+      "quote": "if the mutual fund is a clone fund and the underlying fund has 10 years of performance history,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "Matching-fund proxy only if the other fund has 10 years of history and is subject to NI 81-102",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 Appendix F Item 4(1), ~L3777",
+      "quote": "another mutual fund with 10 years of performance history that is subject to this Instrument,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "The fund uses its own available return history and imputes the proxy only for the rest of the 10 years",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 Appendix F Item 4(1)(a), ~L3783",
+      "quote": "using the available return history of the mutual fund,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "Reference index: monitor its reasonableness at least annually",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 Appendix F Item 5(2)(a), ~L3832",
+      "quote": "monitor the reasonableness of the reference index on an annual basis or more frequently if necessary,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.4",
+      "kind": "R",
+      "claim": "Reference index: describe it in the prospectus",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 Appendix F Item 5(2)(b), ~L3841",
+      "quote": "a brief description of the reference index,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "Alt fund / NRIF borrowing condition: lender is an entity described in s.6.2 or 6.3",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.6(2)(a)(i), ~L1534",
+      "quote": "from an entity described in section 6.2 or 6.3,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "Alt fund / NRIF borrowing condition: affiliated lender needs an IRC-approved agreement",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.6(2)(a)(ii), ~L1536",
+      "quote": "if the lender is an affiliate or associate of the investment fund manager of the alternative mutual fund or non-redeemable investment fund, under a borrowing agreement approved by the independent review committee",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "Alt fund / NRIF borrowing condition: normal industry practice and standard commercial terms",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.6(2)(b), ~L1540",
+      "quote": "the borrowing agreement is in accordance with normal industry practice and on standard commercial terms for the type of transaction;",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "ETF redemption of fewer than the prescribed number uses the closing price next determined after receipt of the order",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.10.3(3), ~L2647",
+      "quote": "next determined after the receipt by the exchange-traded mutual fund of the redemption order.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "C",
+      "claim": "ETF management styles: full replication (every index security at index weights) vs sampling (representative subset, lower cost, possible tracking error); tracking difference = ETF return minus index return, tracking error = variability of that gap (see 6.11); an active ETF's manager selects securities to beat a benchmark, usually higher MER, holdings change with the manager's decisions",
+      "basis": "standard ETF concepts",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "R",
+      "claim": "Leveraged and inverse ETFs use swaps, futures and other derivatives",
+      "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
+      "locator": "GN-3400-21-001 s.1, ~L50",
+      "quote": "pursue a range of investment strategies through the use of swaps, futures contracts and other derivative instruments.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.5",
+      "kind": "C",
+      "claim": "Leverage magnifies both gains and losses for the investor; a limit order sets the highest price to buy or lowest price to sell and may not fill; a market order fills at the best price available now",
+      "basis": "standard concepts",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "R",
+      "claim": "CIRO two-day example: low-volatility path index 100 → 101 → 100",
+      "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
+      "locator": "GN-3400-21-001 s.1, ~L48",
+      "quote": "if the index goes from 100 to close at 101 on the first day and back down to close at 100 on the next day",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.6",
+      "kind": "R",
+      "claim": "CIRO two-day example: volatile path index 100 → 110 → 100",
+      "source_file": "research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt",
+      "locator": "GN-3400-21-001 s.1, ~L48",
+      "quote": "if the index had moved up to close at 110 the first day but then back down to close at 100 on the next day.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "Automatic-plan notice: no withdrawal right for later plan purchases, but the misrepresentation right of action continues",
+      "source_file": "research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt",
+      "locator": "NI 81-101 s.3.2.03(b)(iv), ~L1436",
+      "quote": "that the purchaser will not have a right of withdrawal under securities legislation for subsequent purchases of a security of a mutual fund under the plan, but will continue to have a right of action if there is a misrepresentation",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "No Fund Facts delivery for a purchase in a managed account",
+      "source_file": "research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt",
+      "locator": "NI 81-101 s.3.2.04(a), ~L1468",
+      "quote": "(a) the purchase is made in a managed account;",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "No Fund Facts delivery if the purchaser is a permitted client that is not an individual",
+      "source_file": "research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt",
+      "locator": "NI 81-101 s.3.2.04(b), ~L1470",
+      "quote": "(b) the purchaser is a permitted client that is not an individual.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.7",
+      "kind": "R",
+      "claim": "ETF Facts length: each Part one page unless needed; four pages at most (same rule as Fund Facts)",
+      "source_file": "research/sources/csa/form-41-101f4-etf-facts.txt",
+      "locator": "Form 41-101F4 General Instruction (15), ~L93",
+      "quote": "Each of Part I and Part II must not exceed one page in length,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.8",
+      "kind": "R",
+      "claim": "IDPC annual performance report: annualized total percentage return net of charges using a money-weighted method",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3810(2)(v), ~L8773",
+      "quote": "the amount of the annualized total percentage return calculated net of charges using a money weighted rate of return calculation methodology generally accepted in the securities industry",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.9",
+      "kind": "R",
+      "claim": "Performance-data exception: communications sent only to securityholders of the fund (or of funds under common management)",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.15.6(1)(a)(iv), ~L3207",
+      "quote": "the sales communication is sent only to one of the following:",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.10",
+      "kind": "R",
+      "claim": "Treaty Art. XXI(2) is subject to para. 4",
+      "source_file": "research/sources/gov/canada-us-tax-convention-consolidated.txt",
+      "locator": "Canada-U.S. Tax Convention Art. XXI(2), ~L578",
+      "quote": "Subject to the provisions of paragraph 4, income referred to in Articles X (Dividends) and XI (Interest)",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.10",
+      "kind": "R",
+      "claim": "Treaty Art. XXI(4): the exemption does not cover income from a trade or business or from a related person",
+      "source_file": "research/sources/gov/canada-us-tax-convention-consolidated.txt",
+      "locator": "Canada-U.S. Tax Convention Art. XXI(4), ~L590",
+      "quote": "shall not apply with respect to the income of a trust, company, organization or other arrangement from carrying on a trade or business or from a related person",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.10",
+      "kind": "C",
+      "claim": "Taxes on the fund: a trust pays tax on income it keeps, so a mutual fund trust normally distributes all net income and net gains each year and investors pay the tax; a mutual fund corporation pays income only as dividends (incl. capital gains dividends), cannot pass interest or foreign income through as such, so it can pay tax inside the fund on that income unless expenses offset it; foreign withholding on the fund's own income lowers its return unless recoverable",
+      "basis": "standard Canadian fund-tax concepts (no rate or rule text stated)",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.10",
+      "kind": "C",
+      "claim": "Many foreign countries withhold tax on dividends, some also on interest; unrecoverable cases: TFSA (income 'generally tax-free'), RESP or FHSA (income not reported, so no FTC under the quoted condition); fund held in any registered plan paying tax on its own foreign holdings; foreign-listed fund not passing tax through",
+      "basis": "application of the quoted FTC condition (income reported on the Canadian return) and CRA mutual fund text excluding TFSA and tax-deferred plans",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "R",
+      "claim": "CIRO guidance: no suitability determination before each planned withdrawal; a Registered Individual should make one before establishing a plan and on a triggering event",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004, ~L634",
+      "quote": "Pre-authorized purchases or withdrawals pursuant to established plans do not require a suitability determination before each purchase or withdrawal. However, a Registered Individual should make a suitability determination before establishing a plan and when a triggering event occurs.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "C",
+      "claim": "Gate vs suspension: a gate limits redemptions paid in a period (e.g. a set % of assets per quarter); a suspension stops all redemptions for a time; investors may be queued, paid partly or late, while unit values can fall",
+      "basis": "standard industry concept",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.11",
+      "kind": "C",
+      "claim": "Scenario (Wanjiru): ACB $2,000, ROC $2,600 → first $2,000 reduces ACB to zero; the other $600 is a deemed capital gain in the year received, ACB stays zero; later sale proceeds are all capital gain",
+      "basis": "2,600 − 2,000 = 600; rule from quoted CRA negative-ACB text (python-checked)",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.12",
+      "kind": "C",
+      "claim": "Scenario (Desmond): $1.5M non-registered in high-MER equity funds; wants control and tax timing; large enough to diversify directly or with ETFs; MERs apply to all $1.5M each year; direct holdings or a managed account likely suit; selling the funds can realize capital gains, so tax cost is considered; recommend the alternative that puts his interest first",
+      "basis": "application of IDPC 3402(1)(i)(d)-(e), (ii); no calculation",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.13",
+      "kind": "R",
+      "claim": "Alternative mutual fund excludes a precious metals fund",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.1.1 'alternative mutual fund', ~L220",
+      "quote": "means a mutual fund, other than a precious metals fund,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.13",
+      "kind": "R",
+      "claim": "Alternative mutual fund crypto exception requires the crypto asset to be fungible and exchange-traded (or underlying an exchange-traded specified derivative) on a recognized exchange",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.3(1.3)(a), ~L1169",
+      "quote": "the crypto asset is fungible and either of the following applies: (i) the crypto asset trades on an exchange recognized by a securities regulatory authority in a jurisdiction of Canada;",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.13",
+      "kind": "R",
+      "claim": "Any mutual fund may enter into a specified derivative on a crypto asset if the derivative itself trades on a recognized exchange (the (1.4) test is on the derivative, not the crypto asset)",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.3(1.4), ~L1190",
+      "quote": "Paragraph (1) (j) does not apply to a mutual fund with respect to the fund entering into a specified derivative that trades on an exchange if,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.13",
+      "kind": "R",
+      "claim": "Conventional mutual fund: 10%-of-NAV cap on permitted precious metals and commodity/crypto specified derivatives",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.2.3(1)(e), ~L1133",
+      "quote": "more than 10% of the mutual fund’s net asset value would be made up of permitted precious metals, permitted precious metal certificates or specified derivatives of which the underlying interests are physical commodities and crypto assets;",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.13",
+      "kind": "R",
+      "claim": "Non-redeemable investment funds have a similar crypto exception",
+      "source_file": "research/sources/csa/cp-81-102-investment-funds-companion-policy.txt",
+      "locator": "81-102CP s.3.3.01, ~L547",
+      "quote": "Subsection 2.3(2) provides a similar exception for non-redeemable investment funds.",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.13",
+      "kind": "C",
+      "claim": "Non-principal-protected structured notes: return and repayment of principal depend on the reference asset, so principal can be lost; all structured notes carry issuer credit risk and can be hard to sell before maturity",
+      "basis": "standard product description",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "R",
+      "claim": "Conventional fund performance-fee benchmark must be available to persons other than the fund and its service providers",
+      "source_file": "research/sources/csa/ni-81-102-investment-funds.txt",
+      "locator": "NI 81-102 s.7.1(1)(a)(ii), ~L2309",
+      "quote": "is available to persons or companies other than the mutual fund and persons providing services to it,",
+      "added": "v1.1-fix1"
+    },
+    {
+      "outcome": "5.14",
+      "kind": "C",
+      "claim": "Features, sources of return and risks as vertical lists; cost list with the way each cost reduces return (commissions/spreads per trade; structuring fees lower the note's payoff; custody/storage yearly; early-redemption penalties; low return on committed but uncalled capital kept available)",
+      "basis": "standard concepts",
+      "added": "v1.1-fix1"
     }
   ],
   "gaps": [
     "5.1 (G11, partial): ITA s.122.1 SIFT / REIT tax status not in corpus; income trusts and REITs described conceptually only (no tax-status claim made).",
-    "5.3: Front-end sales charges being 'usually negotiable' is industry practice (Form 81-101F3 only requires disclosure of whether the amount is negotiable). The guide states only that new purchases cannot carry a manager-charged DSC (direct consequence of NI 81-102 s.10.2.1); the CSA DSC-ban amendment notice and the NI 81-105 upfront-commission ban are not in the corpus. 'Short-term trading fees usually paid to the fund' is industry practice (C).",
+    "5.3: Front-end sales charges being 'usually negotiable' is industry practice (Form 81-101F3 only requires disclosure of whether the amount is negotiable). The guide states only that a manager cannot charge a DSC (direct consequence of NI 81-102 s.10.2.1, which has no transition text); the CSA DSC-ban amendment notice and the NI 81-105 upfront-commission ban are not in the corpus, so no transition is described. 'Short-term trading fees usually paid to the fund' is industry practice (C).",
     "5.3 (G13 caveat): no rule requires daily NAV for all mutual funds; text states the NI 81-106 s.14.2(3) weekly/daily rule and labels daily pricing as industry practice.",
     "5.3: purchase-order cut-off provision (NI 81-102 ~L2377, s.9.x(6)) spans a PDF page break; the redemption-order equivalent s.10.2(7) is quoted instead.",
-    "5.4: Appendix F Item 2 formula is garbled in the PDF extraction (fragments 'n = 120 months', '(11 12'); the annualization (monthly SD × √12) is stated as C from the known Appendix F formula SD = √[(12/(n−1))Σ(Rᵢ − R̄)²]; 10 years / 120 months / NAV with reinvestment are quoted.",
-    "5.10: UNVERIFIED — RRSP/RRIF qualification as Art. XXI(2) arrangements (so U.S. securities held directly in them are exempt from U.S. withholding) is not stated in the corpus; the guide says 'generally treated as qualifying'. Fund-level withholding inside a Canadian fund/ETF held in an RRSP is a concept claim. TFSA non-recoverability rests on the quoted FTC condition (income reported on the Canadian return) plus TFSA income being 'generally tax-free'; RESP-specific wording removed.",
+    "5.4: Appendix F Item 2 formula is garbled in the PDF extraction (fragments 'n = 120 months', '(11 12'); the annualization (monthly SD × √12) is stated as C from the known Appendix F formula SD = √[(12/(n−1))Σ(Rᵢ − R̄)²]; 10 years / 120 months / NAV with reinvestment are quoted. v1.1-fix1: the guide now describes the annualization in words only (no √12 step or numeric example), per the calculation-scope table.",
+    "5.10 (v1.1-fix1): no corpus text classes RRSPs/RRIFs as Canada–U.S. treaty Art. XXI(2) arrangements, so the guide no longer says U.S. securities held directly in them are exempt from U.S. withholding (claim removed per audit E5-01/E5-CN-01). The guide quotes the Art. XXI(2) test with all its conditions and applies it to no named plan. Fund-level withholding inside a fund held in a registered plan, and RESP/FHSA non-recoverability, are concept claims resting on the quoted FTC condition.",
     "5.11: T-SWP / T-series product mechanics and withdrawal-plan types have no governing text; tax effects (ROC reduces ACB; negative ACB deemed gain) are quoted from CRA.",
     "5.13 (G14): PPN disclosure cited from the Bank Act (banks); the PPN Regulations SOR/2008-180 now apply only to retail associations and trust & loan companies — not separately discussed.",
-    "5.9: 'Specified in advance … investable' benchmark criteria are textbook (C); no corpus text."
-  ]
+    "5.9: 'Specified in advance … investable' benchmark criteria are textbook (C); no corpus text.",
+    "5.6 (v1.1): GN-3400-21-001's two-day example parenthetically calls the fund 'twice the inverse daily return', but its 0.02%/1.82% figures match a −1× daily-reset fund (python-checked); the guide quotes the figures and states no multiple.",
+    "5.14 (v1.1): no corpus text states the policy rationale of the accredited investor exemption; the guide gives it as a concept ('tests use income or wealth as a sign…'), matching E3 3.1.",
+    "5.5 (v1.1-fix1): Canadian ETF role terminology ('designated broker', 'authorized dealers') is used as a C description; no corpus text defines these roles.",
+    "5.13 (v1.1-fix1): s.2.3(1.3)(b) British Columbia variant (exchange recognized in BC or designated) is not spelled out; the guide says 'an exchange that a Canadian securities regulatory authority recognizes'."
+  ],
+  "revised": "2026-10-23",
+  "revision_note": "v1.1: rewritten in ASD-STE100 style (STUDY-GUIDE-SPEC v1.1) and expanded with explanations, cross-references and Scenario callouts; v1.0 claims retained; new claims tagged added=v1.1. Worked-example names changed (Maple/Priya -> Birchwood/Anouk) for cross-element name uniqueness. | 2026-10-23 v1.1-fix1: applied audit round 1 (E5-CN-*, E5-*, S-E5-*): removed the unsourced RRSP/RRIF treaty claim; restored dropped conditions (crypto fungibility and s.2.3(1)(e)/(1.4)/(2)(d) exceptions, alt-fund qualifier, all five s.2.1(2) exceptions + look-through, s.2.6 borrowing purposes and alt/NRIF conditions, Appendix F 10-year proxy conditions and reference-index duties, s.15.3 scope, s.15.6/15.8 qualifiers, s.7.1 scope and benchmark availability, s.10.3(3)/(4), NI 81-106 s.14.2(5), NI 81-101 s.3.2.03(b)(iv) and 3.2.04); Dealer Member as the suitability actor; GN-3400-21-004 replaces 31-103CP in 5.11; depth added to 5.3, 5.5, 5.8, 5.10, 5.11, 5.12, 5.13, 5.14; Henrietta scenario removed (duplicated 5.7). | 2026-10-23 v1.1-fix2: applied audit round 2 (S-E5-28, V-E5-01..04): 'seller' -> 'dealer' (one term per meaning); NAV-frequency exception tied to the weekly minimum only (s.14.2(5) 'Despite paragraph 3(a)'); Appendix F Item 4(1) proxy made mandatory; ROC trap fixed (zero ACB triggers no tax; only further ROC is a deemed gain); (1.4) crypto test attached to the derivative. | 2026-10-23 v1.1-fix3: V-E5-05: removed invented 'in this order' from the Appendix F Item 4 proxy list; clone-fund and matching-fund cases stated as equal alternatives (Item 4(1) 'in either case'), reference index only when neither applies (Item 4(2))."
 }

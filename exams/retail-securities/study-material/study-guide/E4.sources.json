@@ -29,10 +29,10 @@
     {
       "outcome": "4.1",
       "kind": "R",
-      "claim": "On a material change the issuer must immediately issue and file a news release",
+      "claim": "On a material change the issuer must immediately issue and file a news release (Key rule callout quotes this text verbatim)",
       "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
       "locator": "NI 51-102 s. 7.1(1)(a), ~line 2484",
-      "quote": "immediately issue and file a news release authorized by an executive officer disclosing the nature and substance of the change"
+      "quote": "the reporting issuer must (a) immediately issue and file a news release authorized by an executive officer disclosing the nature and substance of the change"
     },
     {
       "outcome": "4.1",
@@ -101,10 +101,10 @@
     {
       "outcome": "4.2",
       "kind": "R",
-      "claim": "Annual financial statements include statement of comprehensive income, statement of changes in equity and statement of cash flows",
+      "claim": "Annual financial statements include statement of comprehensive income, statement of changes in equity and statement of cash flows (Key rule callout quotes this text verbatim)",
       "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
       "locator": "NI 51-102 s. 4.1(1)(a), ~line 782",
-      "quote": "a statement of comprehensive income, a statement of changes in equity, and a statement of cash flows for"
+      "quote": "a reporting issuer must file annual financial statements that include (a) a statement of comprehensive income, a statement of changes in equity, and a statement of cash flows"
     },
     {
       "outcome": "4.2",
@@ -149,15 +149,7 @@
     {
       "outcome": "4.5",
       "kind": "R",
-      "claim": "Annual statements must be approved by the board before filing",
-      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
-      "locator": "NI 51-102 s. 4.5(1), ~line 980",
-      "quote": "must be approved by the board of directors before the statements are filed."
-    },
-    {
-      "outcome": "4.5",
-      "kind": "R",
-      "claim": "Annual audited statements of non-venture issuers due within 90 days of year-end (or earlier foreign filing)",
+      "claim": "NI 51-102 sets a filing deadline for annual audited statements (s. 4.2); the guide states only that deadlines exist (detail trimmed for scope, 4.5 parameters are notes and auditor's report)",
       "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
       "locator": "NI 51-102 s. 4.2(a), ~line 834",
       "quote": "in the case of a reporting issuer other than a venture issuer, on or before the earlier of (i) the 90th day after the end of its most recently completed financial year"
@@ -165,34 +157,10 @@
     {
       "outcome": "4.5",
       "kind": "R",
-      "claim": "Venture issuers: 120 days for annual statements",
-      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
-      "locator": "NI 51-102 s. 4.2(b), ~line 844",
-      "quote": "in the case of a venture issuer, on or before the earlier of (i) the 120th day after the end of its most recently completed financial year"
-    },
-    {
-      "outcome": "4.5",
-      "kind": "R",
-      "claim": "Interim reports of non-venture issuers due within 45 days",
+      "claim": "NI 51-102 sets a filing deadline for interim reports (s. 4.4); detail trimmed for scope",
       "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
       "locator": "NI 51-102 s. 4.4(a), ~line 958",
       "quote": "on or before the earlier of (i) the 45th day after the end of the interim period"
-    },
-    {
-      "outcome": "4.5",
-      "kind": "R",
-      "claim": "Venture issuers: 60 days for interim reports",
-      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
-      "locator": "NI 51-102 s. 4.4(b), ~line 965",
-      "quote": "in the case of a venture issuer, on or before the earlier of (i) the 60th day after the end of the interim period"
-    },
-    {
-      "outcome": "4.5",
-      "kind": "R",
-      "claim": "Earlier foreign filing date sets the deadline if sooner",
-      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
-      "locator": "NI 51-102 s. 4.2(a)(ii), ~line 839",
-      "quote": "the date of filing, in a foreign jurisdiction, annual financial statements for its most recently completed financial year"
     },
     {
       "outcome": "4.8",
@@ -277,22 +245,6 @@
     {
       "outcome": "4.8",
       "kind": "R",
-      "claim": "During a regulatory halt/delay/suspension under 9.1(1)(b)-(d) or (2), a Participant may make any trade outside Canada on a foreign organized regulated market if permitted by securities legislation",
-      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
-      "locator": "UMIR 9.1(4)(a), ~line 12101",
-      "quote": "a Participant may execute a trade in the security, if permitted by applicable securities legislation, outside of Canada on a foreign organized regulated market"
-    },
-    {
-      "outcome": "4.8",
-      "kind": "R",
-      "claim": "9.1(4)(a) applies to prohibitions under clauses (1)(b), (c) or (d) or subsection (2)",
-      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
-      "locator": "UMIR 9.1(4)(a), ~line 12100",
-      "quote": "with clauses (1)(b), (c) or (d) or subsection (2)"
-    },
-    {
-      "outcome": "4.8",
-      "kind": "R",
       "claim": "Definition of cease trade order",
       "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
       "locator": "NP 11-207 s. 3, ~line 100",
@@ -323,17 +275,9 @@
       "quote": "contacting the relevant exchange and asking that trading be halted pending the issuance of a news release"
     },
     {
-      "outcome": "4.8",
-      "kind": "R",
-      "claim": "Contravening the prospectus requirement through advertising or marketing could result in a CTO in respect of the preliminary prospectus",
-      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
-      "locator": "41-101CP s. 6.8, ~line 2378",
-      "quote": "Any contravention of the prospectus requirement through advertising or marketing activities is a serious matter that could result in a cease trade order in respect of the preliminary prospectus"
-    },
-    {
       "outcome": "4.1",
       "kind": "C",
-      "claim": "Company analysis blends quantitative and qualitative analysis; top-down vs bottom-up approaches",
+      "claim": "Company analysis blends quantitative and qualitative analysis (quality of management and business); top-down (economy, industry first) vs bottom-up (company first)",
       "basis": "standard equity-analysis concept"
     },
     {
@@ -345,14 +289,14 @@
     {
       "outcome": "4.1",
       "kind": "C",
-      "claim": "Explaining analysis to retail clients in plain language and consulting internal/external experts",
+      "claim": "Collaboration: ask an expert before answering beyond your knowledge; internal (research analysts, compliance, supervisors) vs external (tax advisers, lawyers); record advice and attribute views; information barriers limit contact with investment banking (cross-ref 1.13)",
       "basis": "standard professional practice; syllabus bullet (no rule asserted)"
     },
     {
       "outcome": "4.2",
       "kind": "C",
-      "claim": "Balance sheet identity, current/non-current classification (12 months or operating cycle), item lists, book value vs market value",
-      "basis": "IAS 1 classification; standard accounting"
+      "claim": "Balance sheet identity; current/non-current classification (items the company expects to realize or settle within 12 months or one operating cycle); item lists; many long-term assets (PP&E) at historical cost less depreciation and internally generated intangibles often unrecognized, so book value is not market value",
+      "basis": "IAS 1 classification; IAS 16 cost model; IAS 38 (internally generated brands not recognized); standard accounting. Fix round 1: no longer says 'most assets' (current assets are at cash/amortized cost/NRV/fair value)"
     },
     {
       "outcome": "4.2",
@@ -369,13 +313,13 @@
     {
       "outcome": "4.3",
       "kind": "C",
-      "claim": "Income statement structure: gross profit, operating income, ± other income = EBIT, − finance costs = EBT, net income, OCI, total comprehensive income; OCI items recorded outside profit, mostly unrealized",
-      "basis": "IAS 1 presentation; standard accounting (EBIT includes other income; only finance costs separate EBIT from EBT)"
+      "claim": "Income statement structure: gross profit, operating income, ± other income = EBIT, − finance costs = EBT, net income, OCI, total comprehensive income; OCI items recorded outside profit, mostly unrealized; discontinued operations (major line of business sold or closed) shown separately after profit from continuing operations",
+      "basis": "IAS 1 presentation; standard accounting (EBIT includes other income; only finance costs separate EBIT from EBT); IFRS 5 (discontinued operations presented as a single amount after continuing operations)"
     },
     {
       "outcome": "4.3",
       "kind": "C",
-      "claim": "OCI generally accumulated in AOCI; some items (pension remeasurements) may be transferred to retained earnings; EPS uses profit attributable to common shareholders",
+      "claim": "The company presents OCI outside profit and generally accumulates it in AOCI; it may transfer some items (pension remeasurements) to retained earnings; EPS uses profit attributable to common shareholders",
       "basis": "IAS 1; IAS 19 para 122 (remeasurements not reclassified, may be transferred within equity); IAS 33"
     },
     {
@@ -387,19 +331,19 @@
     {
       "outcome": "4.4",
       "kind": "C",
-      "claim": "One-line illustration (Maple Ridge data): CFO = 210 + 80 − 20 − 30 + 40 = 280",
-      "basis": "210+80=290; 290−20=270; 270−30=240; 240+40=280 (python-checked)"
+      "claim": "One-line illustration (Maple Ridge data): CFO = 210 + 80 − 20 − 30 + 40 = 280; full cash reconciliation: 280 − 150 − 30 + 20 − 84 = +36, cash 14 → 50",
+      "basis": "210+80=290; 290−20=270; 270−30=240; 240+40=280. Investing = −150 capex − 30 purchase of marketable securities = −180; financing = +20 − 84 = −64; 280 − 180 − 64 = +36; opening cash = 50 − 36 = 14 (python-checked)"
     },
     {
       "outcome": "4.5",
       "kind": "C",
-      "claim": "Content of notes; auditor's opinion types (unmodified, qualified, adverse, disclaimer); separate 'Material Uncertainty Related to Going Concern' section; audit = reasonable assurance; applicable financial reporting framework (e.g., IFRS)",
+      "claim": "Content of notes; audit gives users an independent opinion on management's statements; four opinion types; separate 'Material Uncertainty Related to Going Concern' section is a warning sign even with an unmodified opinion; audit = reasonable assurance, not a guarantee; applicable financial reporting framework (e.g., IFRS)",
       "basis": "CAS 700/705/570 (revised); standard auditing"
     },
     {
       "outcome": "4.6",
       "kind": "C",
-      "claim": "Maple Ridge data consistency: CA = 50+30+120+200 = 400; TA = 400+1,000 = 1,400; CL = 150+50+50 = 250; TL = 250+300+100 = 650; equity = 1,400 − 650 = 750; GP 800; EBIT = 800 − 500 = 300; EBT = 300 − 20 = 280; tax 25% = 70; NI = 210",
+      "claim": "Maple Ridge data consistency: CA = 50+30+120+200 = 400; TA = 400+1,000 = 1,400; CL = 150+50+50 = 250; TL = 250+300+100 = 650; equity = 1,400 − 650 = 750; GP 800; EBIT = 800 − 500 = 300; EBT = 300 − 20 = 280; tax 25% = 70; NI = 210; cash-flow reconciliation: purchase of marketable securities 30 (year-end balance 30, opening 0); 280 − 150 − 30 + 20 − 84 = 36; opening cash 14 > 0 (data set now reconciles)",
       "basis": "python-checked"
     },
     {
@@ -429,7 +373,7 @@
     {
       "outcome": "4.6",
       "kind": "C",
-      "claim": "Equity ratios: EPS 210/100 = 2.10; payout 84/210 = 40%; retention 60%; BVPS 750/100 = 7.50; FCFE 280 − 150 + 20 = 150",
+      "claim": "Equity ratios: EPS 210/100 = 2.10; payout 84/210 = 40%; retention 60%; BVPS 750/100 = 7.50; FCFE 280 − 150 + 20 = 150 (purchase of marketable securities is an investment of surplus cash, not capex, so it is not deducted)",
       "basis": "FCFE = CFO − capex + net borrowing, assuming interest paid is in CFO (if interest paid is reported in financing, subtract the full interest paid from CFO first; taxes paid in CFO already reflect the interest tax shield, so no after-tax adjustment — that belongs to the FCFF bridge); python-checked"
     },
     {
@@ -441,8 +385,8 @@
     {
       "outcome": "4.7",
       "kind": "C",
-      "claim": "Trend example: 1.85/1.60 − 1 = 15.6%; 2.10/1.85 − 1 = 13.5% (decelerating)",
-      "basis": "1.15625, 1.13514 (python-checked)"
+      "claim": "Trend illustration (qualitative, no callout): EPS 1.60 → 1.85 → 2.10 rises by 0.25 each year, so percentage growth falls (15.6% then 13.5%, not shown in the guide)",
+      "basis": "1.85/1.60 − 1 = 0.15625; 2.10/1.85 − 1 = 0.13514; growth-rate computation removed from the guide (not a listed 4.7 ratio)"
     },
     {
       "outcome": "4.7",
@@ -453,19 +397,19 @@
     {
       "outcome": "4.8",
       "kind": "C",
-      "claim": "Equity and fixed-income market data items; technical analysts treat heavy volume as confirming price moves; market cap = price × shares; example 31.50 × 100M = $3.15B",
+      "claim": "Equity data items (vertical list); volume shows how significant a price move is; fixed-income data items; market cap = price × shares; example 31.50 × 100M = $3.15B",
       "basis": "python-checked: 3,150 ($M)"
     },
     {
       "outcome": "4.8",
       "kind": "C",
-      "claim": "CTO comes from a securities regulator; halts from the market regulator (consistent with UMIR 9.1(1)(a)-(b))",
-      "basis": "structure of UMIR 9.1(1); NP 11-207 definition. Former 'general practice' sentence replaced by quoted NP 11-207 s. 7"
+      "claim": "A CTO comes from a securities regulator; a regulatory halt from the market regulator (CIRO); an exchange can also halt or delay for technical or Marketplace Rule reasons, which UMIR 9.1(3) treats as non-regulatory",
+      "basis": "structure of UMIR 9.1(1)-(3) (quoted entries) and NP 11-207 s. 12 (quoted)"
     },
     {
       "outcome": "4.9",
       "kind": "C",
-      "claim": "Index vs average (divisor-adjusted, quoted in points) vs multi-factor index; price-, cap- and equal-weighting biases; S&P/TSX Composite is float-adjusted cap-weighted; one-line illustrations ($1 move in $100 vs $10 stock; price-weighted vs cap-weighted can diverge)",
+      "claim": "Index (relative to base value) vs average (divisor-adjusted mean of prices, quoted in points) vs multi-factor index; price-, cap- and equal-weighting biases; S&P/TSX Composite is float-adjusted cap-weighted; $1 move in $100 vs $10 stock is a smaller % move for the $100 stock",
       "basis": "standard index methodology"
     },
     {
@@ -477,20 +421,20 @@
     {
       "outcome": "4.10",
       "kind": "C",
-      "claim": "Benchmark properties (full criteria cross-referenced to 5.9); blended benchmark 0.6×8.5 + 0.4×3.0 = 6.3%; relative (active) return 7.2 − 6.3 = +0.9 pp; vs equity only 7.2 − 8.5 = −1.3 pp; note that 'excess return' often means above the risk-free rate (9.3)",
+      "claim": "Benchmark properties explained (relevant incl. a U.S. index in USD does not fit a Canadian mandate; investable via index fund; measurable for the same periods; agreed in advance) (full criteria 5.9); blended benchmark 0.6×8.5 + 0.4×3.0 = 6.3%; relative return 7.2 − 6.3 = +0.9 pp; vs equity only 7.2 − 8.5 = −1.3 pp; 'excess return' often means above the risk-free rate (9.3) [cross-element consistency 2026-10-23: X10 property names aligned with 5.9: 'appropriate' (was relevant), 'specified in advance' (was agreed in advance); 'adviser' replaced by RR / portfolio manager]",
       "basis": "python-checked"
     },
     {
       "outcome": "4.11",
       "kind": "C",
-      "claim": "Fundamental, quantitative and technical analysis with assumptions; DCF, DDM (constant growth, g < r; calculation in 3.10), relative valuation; EMH reduced to one sentence with cross-reference to 6.9",
+      "claim": "Fundamental (intrinsic value; assumption; suits long-term; limit: forecasts), quantitative (factor screens, momentum example; limit: relationships stop), technical (moving average, support/resistance, breadth; useful for timing; limit: reversals); DCF, DDM (constant growth, g < r; calculation in 3.10), relative valuation; EMH: abnormal (risk-adjusted) returns, cross-ref 6.9",
       "basis": "standard finance"
     },
     {
       "outcome": "4.12",
       "kind": "C",
-      "claim": "GICS has 11 sectors and is used by S&P/TSX indices; sector groupings (autos under consumer discretionary per GICS) and valuation traits; cyclical vs defensive; industry life cycle",
-      "basis": "standard (GICS 11 sectors since 2018 Communication Services addition)"
+      "claim": "GICS has 11 sectors and is used by S&P/TSX indices; the four syllabus groupings are broad and do not cover every GICS sector (energy, real estate listed separately); capital goods is an industry group within Industrials; staples defensive / discretionary cyclical; manufacturing operating leverage, cycle-average earnings; utilities valued on yield vs bonds; banks on price-to-book; technology high multiples; life-cycle stages and their growth/payout/multiple; Canada concentrated in financials, energy, materials",
+      "basis": "GICS structure (11 sectors since 2018; Capital Goods industry group within Industrials); standard equity valuation practice"
     },
     {
       "outcome": "4.13",
@@ -507,16 +451,628 @@
     {
       "outcome": "4.14",
       "kind": "C",
-      "claim": "Asset class/volatility/sector/cycle/benchmark factors; dispersion of average annual return narrows with horizon while ending-wealth range does not; long horizon does not remove single-year loss risk",
+      "claim": "Asset class/volatility/cycle factors; dispersion of average annual return narrows with horizon while final-wealth range does not; market sector: rotation over months, growth and starting valuation over years, concentration risk; benchmarks: choose to fit horizon and mandate, short-period differences mostly chance, judge over a full cycle",
       "basis": "standard portfolio theory (time diversification)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Purpose of disclosure policy: equal access to information for everyone investing",
+      "source_file": "research/sources/csa/np-51-201-disclosure-standards.txt",
+      "locator": "NP 51-201 s. 1.1(1), ~line 76",
+      "quote": "It is fundamental that everyone investing in securities have equal access to information that may affect their investment decisions.",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Unfavourable news must be disclosed as promptly and completely as favourable news",
+      "source_file": "research/sources/csa/np-51-201-disclosure-standards.txt",
+      "locator": "NP 51-201 s. 2.1(2), ~line 127",
+      "quote": "Unfavourable news must be disclosed just as promptly and completely as favourable news.",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Selective disclosure can create opportunities for insider trading",
+      "source_file": "research/sources/csa/np-51-201-disclosure-standards.txt",
+      "locator": "NP 51-201 s. 1.1(1), ~line 83",
+      "quote": "Selective disclosure can create opportunities for insider trading",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Selective disclosure = material nonpublic information given to a few, not broadly to the public (supports 'selective disclosure to a few people')",
+      "source_file": "research/sources/csa/np-51-201-disclosure-standards.txt",
+      "locator": "NP 51-201 s. 1.1(1), ~line 81",
+      "quote": "discloses material nonpublic information to one or more individuals or companies and not broadly to the investing public",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "A dealer's research report must disclose any matter that might reasonably indicate a conflict of interest for the dealer or analyst",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3608(1), ~line 7362",
+      "quote": "must disclose any matter which might reasonably indicate an existing or potential conflict of interest for the Dealer Member or the analyst",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Required disclosure: investment banking services to the issuer for remuneration in the preceding 12 months (Brightwater scenario)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3608(2)(iv), ~line 7381",
+      "quote": "any investment banking services provided by the Dealer Member to the issuer for remuneration during the 12 months immediately preceding the date a research report or recommendation was issued",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Dealer must not issue or allow its name on advertising, sales literature or correspondence with the listed defects",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3602(1), ~line 7281",
+      "quote": "must not issue, participate in or knowingly allow the use of its name in any advertisement, sales literature or correspondence that",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Defect: opinion or forecast not clearly labelled as such",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3602(1)(iv), ~line 7288",
+      "quote": "contains any opinion or forecast of future events which is not clearly labeled as such",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Defect: fails to fairly present the potential risks to the client",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3602(1)(v), ~line 7289",
+      "quote": "fails to fairly present the potential risks to the client",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Once an issuer is in default, a failure-to-file CTO may be issued at any time (first of the two usual responses in s. 6)",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 6, ~line 207",
+      "quote": "Once an issuer is in default, a failure-to-file cease trade order may be issued by the CSA regulator at any time.",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Statutory CTO power (Ontario example): order that trading in securities cease permanently or for a specified period",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Ontario Securities Act s. 127(1) para. 2, ~line 603",
+      "quote": "An order that trading in any securities by or of a person or company or that trading in any derivatives by a person or company cease permanently or for such period as is specified in the order.",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "The Tribunal makes s. 127(1) orders if in its opinion it is in the public interest",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Ontario Securities Act s. 127(1), ~line 601",
+      "quote": "The Tribunal may make one or more of the following orders if in its opinion it is in the public interest to make the order or orders",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Commission may make a CTO without a hearing if the person or company fails to file a required record",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Ontario Securities Act s. 127(4.1), ~line 653",
+      "quote": "without giving the person or company that is subject to the order an opportunity to be heard if the person or company fails to file a record required to be filed under this Act",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "s. 127(4.1) covers orders under paragraph 2 (cease trade) of s. 127(1)",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Ontario Securities Act s. 127(4.1), ~line 653",
+      "quote": "the Commission may make an order under paragraph 2 or 2.1 of subsection (1)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Subject to s. 127(4.6), the Commission must revoke the failure-to-file order as soon as practicable after the record is filed",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Ontario Securities Act s. 127(4.3), ~line 655",
+      "quote": "Subject to subsection (4.6), the Commission shall revoke an order made under subsection (4.1) as soon as practicable after the record referred to in the order is filed",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Purpose of continuous disclosure: information so investors can make an informed investment decision",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 1, ~line 17",
+      "quote": "so that there is information in the marketplace to enable investors and prospective investors to make an informed investment decision",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Cost of a CTO: existing investors may be unable to sell; prospective investors unable to buy",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 7, ~line 240",
+      "quote": "existing investors may be unable to sell their securities and prospective investors are unable to purchase securities of the issuer while the cease trade order remains in effect",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "If a CSA regulator issues a CTO for an issuer whose securities trade on a marketplace, the market regulator (named IIROC, now CIRO) imposes a regulatory halt on all marketplaces for which it is the regulation services provider",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 12, ~line 327",
+      "quote": "if a CSA regulator issues a cease trade order with respect to an issuer whose securities are traded on a marketplace, IIROC imposes a regulatory halt on trading of those securities on all marketplaces for which IIROC acts as the regulation services provider",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.11",
+      "kind": "R",
+      "claim": "If a dealer sets a price target in a research report, it must disclose the valuation method used",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3616(1), ~line 7459",
+      "quote": "If a Dealer Member sets a price target in a research report, the Dealer Member must disclose, in that research report, the valuation method used.",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "C",
+      "claim": "Explaining analysis to clients: plain language, link to objectives, separate fact/opinion/forecast, state main risks; an email to one client is correspondence (IDPC 1201(2)), so 3602(1) applies",
+      "basis": "standard professional practice; rule support quoted under IDPC 3602(1)(iv)-(v), 3608",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "C",
+      "claim": "Scenario (Tamsworth): rumour is not a public source; 12% rise on heavy volume with no news suggests a leak; a confidential filing must give way to prompt disclosure (s. 7.1(7)) and the company should seek a halt pending a news release (NP 51-201 s. 2.3); Tobias recommends no trade on the rumour and replies by email with labelled opinion (3602(1)(iv) applies to correspondence)",
+      "basis": "applies quoted NI 51-102 s. 7.1(2), (7), NP 51-201 s. 2.3, IDPC 1201(2) 'correspondence' and 3602(1)(iv)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "C",
+      "claim": "Scenario (Brightwater): the report must disclose paid investment banking services from the dealer in the 12 months before the report (3608(2)(iv)); RR consults the analyst and explains trial risk",
+      "basis": "applies quoted IDPC 3608(2)(iv), 3602(1)(v)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "C",
+      "claim": "Balance-sheet identity rationale (creditors or owners finance every asset); equity is the residual claim; classification enables liquidity tests",
+      "basis": "standard accounting",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "C",
+      "claim": "Illustration: Maple Ridge book equity $750M vs market capitalization $3.15B (book value is not market value)",
+      "basis": "31.50 × 100 = 3,150 ($M); equity 750 from 4.6 table (python-checked)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "C",
+      "claim": "Dividends link to payout ratio; share issues/buybacks change the share count used for EPS",
+      "basis": "standard accounting",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "C",
+      "claim": "Scenario (Brask): retained earnings is accumulated undistributed profit within equity, not cash",
+      "basis": "standard accounting",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.3",
+      "kind": "C",
+      "claim": "Meaning of subtotals: gross profit (production/purchasing efficiency), operating income (core business), EBIT (before financing and tax), net income (owners); margins divide subtotals by revenue",
+      "basis": "standard financial analysis",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.3",
+      "kind": "C",
+      "claim": "Recurring operating income is usually a better guide to future earnings than one-time gains; Ptarmigan scenario: one-time gain (other income or discontinued operations) inflates net income, the division's own earnings also stop, and the P/E looks low",
+      "basis": "standard financial analysis (earnings quality)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.4",
+      "kind": "C",
+      "claim": "Accrual accounting: revenue recorded when earned, expenses when incurred, so cash timing differs from profit; investing = long-term assets; financing = lenders and shareholders",
+      "basis": "standard accounting (IAS 7 section definitions)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.4",
+      "kind": "C",
+      "claim": "Scenario (Quarrytown): rising profit with negative CFO, growing receivables/inventory, debt-funded = poor cash conversion",
+      "basis": "standard financial analysis",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "C",
+      "claim": "Notes explain assumptions behind totals; covenants inform risk ratios; options show possible EPS dilution; going-concern section means doubt about continuing in business",
+      "basis": "standard accounting/auditing (CAS 570)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "C",
+      "claim": "Scenario (Wexcombe): unmodified opinion + going-concern material uncertainty; the opinion is about fair presentation, not investment safety",
+      "basis": "CAS 700/570; standard",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.6",
+      "kind": "C",
+      "claim": "Purpose and interpretation of each ratio group (liquidity strictness order, leverage as fixed cost, margin diagnostics, turnover meaning, FCFE vs dividend)",
+      "basis": "standard financial analysis",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.6",
+      "kind": "C",
+      "claim": "Scenario (Harrow): current 600/250 = 2.4; quick (600−450)/250 = 0.6",
+      "basis": "python-checked: 2.4, 0.6",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.6",
+      "kind": "C",
+      "claim": "Scenario (Maple Ridge recession): coverage 300/20 = 15.0× → 120/20 = 6.0× (interest safe); recession NI = (120 − 20) × (1 − 0.25) = 75, EPS 0.75; payout 84/75 = 112%; cover 0.75/0.84 = 0.89× (< 1, dividend at risk)",
+      "basis": "120−20=100; 100×0.75=75; 75/100=0.75; 84/75=1.12; 0.75/0.84=0.8929 (python-checked)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.7",
+      "kind": "C",
+      "claim": "EPS lead-in: base of value ratios, trend matters, diluted EPS counts potential shares from options/convertibles so diluted ≤ basic; interpretation of P/E and cover; market price is often above book value per share; one year can mislead",
+      "basis": "IAS 33 (anti-dilutive instruments excluded, so diluted EPS ≤ basic); standard equity analysis",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.7",
+      "kind": "C",
+      "claim": "Scenario (Cobalt Bay): yield 1.60/20 = 8.0%; cover 1.20/1.60 = 0.75×; payout 1.60/1.20 = 133%",
+      "basis": "python-checked: 0.08, 0.75, 1.333",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.7",
+      "kind": "C",
+      "claim": "Scenario (peer P/E 15× vs 20×): check growth expectations and comparability before concluding relative value",
+      "basis": "standard relative valuation",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "C",
+      "claim": "Market capitalization decides weight in a cap-weighted index; most broad indices count only the public float (float-adjusted, 4.9)",
+      "basis": "standard index methodology",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "C",
+      "claim": "Scenario (Pinecrest): nobody can execute an order on a marketplace or OTC during a CTO (9.1(1)(a)); foreign sale only under 9.1(4)(b); the CTO stays until revoked; in Ontario revocation follows the filing, subject to s. 127(4.6)",
+      "basis": "applies quoted UMIR 9.1(1)(a), 9.1(4)(b), OSA s. 127(4.3), (4.6)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.9",
+      "kind": "C",
+      "claim": "Index construction: Index level = current market value ÷ base-period market value × base value; 1,250 on base 1,000 = +25%; divisor adjusted for constituent changes and corporate actions so only price changes move the level; use total return to compare income-paying and non-paying investments",
+      "basis": "standard index methodology (S&P divisor method); 1,250/1,000 − 1 = 0.25",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.10",
+      "kind": "C",
+      "claim": "Scenario (Osei/Arkwright, RR recommends holdings): 4.0 − 3.0 = +1.0 pp vs price index; 4.0 − 5.5 = −1.5 pp vs total-return index; total-return version is fairer than price-return; a Canadian dividend total-return index matches the mandate's style better than the broad Composite (5.9)",
+      "basis": "python-checked: 1.0, −1.5",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.11",
+      "kind": "C",
+      "claim": "Using several sources and cross-checking (vertical list); find the reason when methods disagree; Glenhollow scenario reconciling opposite views",
+      "basis": "standard investment analysis",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.12",
+      "kind": "C",
+      "claim": "Scenario (Ashdown): compare P/E within a sector, not across sectors with different growth and risk",
+      "basis": "standard equity analysis",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.13",
+      "kind": "C",
+      "claim": "Macro factors act through the discount rate and expected earnings; higher rates hit long-duration assets most; employment raises spending/earnings but wage growth above output raises inflation pressure and rate expectations; unemployment lags; productivity lowers unit labour costs, supports margins, lets the economy grow with less inflation and gives the central bank room to hold rates",
+      "basis": "standard economics",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.13",
+      "kind": "C",
+      "claim": "Scenario (Arundel): surprise hike raises short-term yields most; long yields usually rise too and long duration magnifies the effect, so the bond fund probably falls; rate-sensitive utility shares probably fall; scenario (jobs report): strong jobs + wage growth raise rate expectations, stocks fall",
+      "basis": "standard economics (policy-rate surprises move the short end most; curve may flatten)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.14",
+      "kind": "C",
+      "claim": "Scenario (Pettigrew): 18-month goal needs capital preservation; scenario (Kalnins): judge a cyclical sector fund against its sector benchmark over a full cycle",
+      "basis": "standard portfolio theory",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "7.1(1) does not apply in either case of s. 7.1(2) (stem)",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(2), ~line 2494",
+      "quote": "Subsection (1) does not apply if,",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Limb (b): a senior-management decision where management believes board confirmation is probable",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(2)(b), ~line 2500",
+      "quote": "the material change consists of a decision to implement a change made by senior management of the reporting issuer who believe that confirmation of the decision by the board of directors is probable",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Limb (b) also requires that management has no reason to believe that persons with knowledge traded (part 1, before page break)",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(2)(b), ~line 2503",
+      "quote": "senior management of the reporting issuer has no reason to believe that persons with knowledge of",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Limb (b) condition (part 2, after page break): persons have made use of that knowledge in trading",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(2)(b), ~line 2510",
+      "quote": "the material change have made use of that knowledge in purchasing or selling securities of the reporting issuer",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Confidential report: company must advise the regulator in writing every 10 days if it believes the report should remain confidential",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(5), ~line 2522",
+      "quote": "the reporting issuer must advise the regulator or securities regulatory authority in writing if it believes the report should continue to remain confidential, within 10 days of the date of filing of the initial report and every 10 days thereafter",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "If the company knows or reasonably believes that persons trade with knowledge of the undisclosed change, it must promptly generally disclose it",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(7), ~line 2532",
+      "quote": "the reporting issuer must promptly generally disclose the material change in the manner referred to in subsection (1) upon the reporting issuer becoming aware, or having reasonable grounds to believe, that persons or companies are purchasing or selling securities",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Material change report within 10 days (s. 7.1(1)(b)) quoted in body prose",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(1)(b), ~line 2487",
+      "quote": "as soon as practicable, and in any event within 10 days of the date on which the change occurs",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "If confidential change or rumours leak or affect the price, the company should take immediate steps for a full public announcement (Tamsworth scenario)",
+      "source_file": "research/sources/csa/np-51-201-disclosure-standards.txt",
+      "locator": "NP 51-201 s. 2.3(1), ~line 155",
+      "quote": "If the confidential material change, or rumours about it, have leaked or appear to be impacting the share price, a company should take immediate steps to ensure that a full public announcement is made.",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "'Correspondence' includes a written or electronic communication prepared for distribution to a single current or prospective client",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201(2) 'correspondence', ~line 378",
+      "quote": "Any advertisement or business related communication, including any written or electronic communication, prepared for distribution to a single current or prospective client",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "CSA regulators generally respond to a specified default in one of two ways",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 6, ~line 190",
+      "quote": "The CSA regulators will then generally respond to a specified default in one of two ways:",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "First way: a failure-to-file CTO",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 6(a), ~line 192",
+      "quote": "by issuing a failure-to-file cease trade order",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Second way: a management cease trade order if the issuer applies under NP 12-203 and shows it can comply",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 6(b), ~line 197",
+      "quote": "if an issuer applies under National Policy 12-203 Management Cease Trade Orders, and demonstrates that it is able to comply with that policy, by issuing a management cease trade order",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "'Specified default' refers to certain continuous disclosure defaults",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 1, ~line 26",
+      "quote": "respond to certain types of continuous disclosure defaults by a reporting issuer, referred to as specified defaults in this policy",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Exception: if the order has been in effect more than 90 days and the Commission considers it in the public interest, it may require additional records or information before revoking",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Ontario Securities Act s. 127(4.6), ~line 663",
+      "quote": "If an order made under subsection (4.1) has been in effect for more than 90 days and the Commission is of the opinion that it would be in the public interest to do so, the Commission may require that, before it revokes the order",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "(4.6) continued: the additional records or information that the Commission requests",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Ontario Securities Act s. 127(4.6), ~line 663",
+      "quote": "concurrently file or deliver such additional records or information about the person or company as the Commission requests",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Condition (d): for a security neither listed nor quoted, an ATS Market Regulator halt for public dissemination of material information",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(1)(d), ~line 12067",
+      "quote": "in the case of any security other than a listed security or a quoted security, a Market Regulator of an ATS on which such security may trade has halted trading for the purposes of the public dissemination of material information",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Exception (a)(i): ceased to meet listing or quotation requirements (source typo 'ceased to meeting' quoted verbatim)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(3)(a)(i), ~line 12088",
+      "quote": "ceased to meeting listing or quotation requirements established by the Exchange or QTRS",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Exception (b) covers a delay or a halt by the Exchange or QTRS",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(3)(b), ~line 12095",
+      "quote": "delayed or halted trading in the security or the derivative as a result of",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Exception (b)(ii): the application of a Marketplace Rule",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(3)(b)(ii), ~line 12106",
+      "quote": "the application of a Marketplace Rule",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "C",
+      "claim": "Scenario (Tamsworth) fix-round-1 reasoning: unusual price/volume with no news = sign of leak; RR does not solicit a trade on a rumour",
+      "basis": "applies quoted NP 51-201 s. 2.3(1) ('Any unusual market activity may mean that news of the matter has been leaked') and NI 51-102 s. 7.1(7)",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.4",
+      "kind": "C",
+      "claim": "Financing cash flow by stage: young growing company inflows (raises capital); mature company outflows (repays debt, dividends, buybacks); weak company may show inflows (borrows to cover losses); a financing inflow is not good or bad alone",
+      "basis": "standard financial analysis (life-cycle cash-flow patterns)",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.11",
+      "kind": "C",
+      "claim": "Scenario (Larchmont): RR finds the disclosed valuation method (DDM, 5% growth), tests the growth assumption against a utility's typical slow dividend growth; lower growth gives a lower DDM value",
+      "basis": "IDPC 3616(1) (quoted entry); constant-growth DDM V = D1/(r − g) falls as g falls (standard)",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.13",
+      "kind": "C",
+      "claim": "Employment and productivity lead-ins: productivity = output per hour; rising productivity can lower unit labour costs even with rising wages",
+      "basis": "standard macroeconomics (unit labour cost = wage ÷ productivity)",
+      "added": "2026-10-23 (v1.1 fix round 1)"
+    },
+    {
+      "outcome": "4.3",
+      "kind": "C",
+      "claim": "Compare subtotals with the same period of earlier years; expenses growing faster than revenue shrink margins; other income can be large one year and absent the next, so analysts separate it from operating revenue when forecasting; reliance on other income signals a weaker core business",
+      "basis": "standard financial analysis (quality of earnings)",
+      "added": "2026-10-23 (v1.1 fix round 2)"
+    },
+    {
+      "outcome": "4.4",
+      "kind": "C",
+      "claim": "Financing section = cash raised from lenders and shareholders and cash paid to them (debt repayments, dividends, share buybacks); sign: positive = raised more than paid to lenders and shareholders, negative = paid more to them than raised; young company inflow normal if invested in activities that can produce future operating cash flow; mature company outflow usually healthy (operating cash covers payments to lenders and shareholders); inflow funding operating losses or negative operating cash flow only delays the problem, and year after year it is a warning sign",
+      "basis": "standard financial analysis (IAS 7 financing-activity definition; life-cycle cash-flow patterns)",
+      "added": "2026-10-23 (v1.1 fix round 2)"
+    },
+    {
+      "outcome": "4.9",
+      "kind": "C",
+      "claim": "Purposes/uses of indices: summarize market moves, benchmark portfolio performance, basis of index funds and index ETFs, measure market risk (beta against an index)",
+      "basis": "standard finance concept",
+      "added": "2026-10-23 (v1.1 fix round 2)"
+    },
+    {
+      "outcome": "4.10",
+      "kind": "C",
+      "claim": "Market summary gives the main known cause (e.g., rate decision) and separates fact from opinion; benchmark agreed in advance = chosen by client and adviser before the period; benchmark represents the client's passive alternative, so a non-investable benchmark gives no real gain/loss signal and changing it after the period removes meaning; positive relative return = outperformance, negative = underperformance [cross-element consistency 2026-10-23: X10 property names aligned with 5.9: 'appropriate' (was relevant), 'specified in advance' (was agreed in advance); 'adviser' replaced by RR / portfolio manager]",
+      "basis": "standard performance-measurement concept (benchmark properties: CFA Institute/Bailey criteria)",
+      "added": "2026-10-23 (v1.1 fix round 2)"
+    },
+    {
+      "outcome": "4.13",
+      "kind": "C",
+      "claim": "Apply test: does the news change the expected rate path, and expected earnings; higher rates raise interest costs of highly indebted companies and make consumer loans dearer, slowing spending; inflation lowers the real value of fixed coupons; pricing power protects margins",
+      "basis": "standard economics",
+      "added": "2026-10-23 (v1.1 fix round 2)"
+    },
+    {
+      "outcome": "4.1/4.11/4.12",
+      "kind": "C",
+      "claim": "STE format fixes (no content change): internal experts as vertical list; quantitative tools as vertical list (factor screens e.g. value or momentum, regression, beta and correlation); 'price can differ from intrinsic value for a long time'; service-industry sectors as vertical list",
+      "basis": "no new claim; wording only",
+      "added": "2026-10-23 (v1.1 fix round 2)"
     }
   ],
   "gaps": [
-    "4.8 'cease trade orders': NP 11-207 is now in the corpus and is quoted (definition, s. 1, s. 7). The statutory CTO powers in the provincial Securities Acts are not in the corpus; the guide does not describe them.",
+    "4.8 'cease trade orders': NP 11-207 is in the corpus and is quoted (definition, ss. 1, 6, 7, 12). Ontario Securities Act s. 127(1) para. 2, (4.1), (4.3) and (4.6) are in the corpus (research/sources/gov/ontario-securities-act-extracts.txt) and are quoted. Other provinces' parallel statutory powers are not in the corpus; the guide uses Ontario as an example only.",
     "4.1 document contents: Forms 51-102F1 (MD&A), 51-102F2 (AIF), 51-102F5 (circular) and 51-102F6 (executive compensation) are not in the corpus (only their NI 51-102 definitions). The 4.1 table uses neutral descriptions, not form requirements.",
     "4.5 accounting framework: NI 52-107 (acceptable accounting principles) is not in the corpus; the guide says 'applicable financial reporting framework (e.g., IFRS)' without stating a rule.",
     "4.5 auditor's report content (opinion types, going-concern section) is C: Canadian Auditing Standards are not in the corpus; only the NI 51-102 audit requirement is quoted.",
-    "4.2-4.4 IFRS presentation and classification details are C: IFRS is not in the corpus."
+    "4.2-4.4 IFRS presentation and classification details are C: IFRS is not in the corpus.",
+    "4.5/4.8 management cease trade orders: NP 11-207 s. 6(b) is quoted for the existence of MCTOs (issuer applies under NP 12-203 and shows it can comply); NP 12-203 itself is not in the corpus, so the guide gives no MCTO detail.",
+    "4.5 filing deadlines (NI 51-102 ss. 4.2, 4.4): trimmed in fix round 1 to a one-line mention for scope (4.5 parameters are notes and auditor's report); the 90/120/45/60-day detail and the foreign-filing limb are no longer stated, so no R entries are needed for 4.2(b)(ii), 4.4(a)(ii), 4.4(b)(ii)."
   ],
-  "revised": "2026-10-22 (fix round 1)"
+  "revised": "2026-10-22 (fix round 1); 2026-10-23 (v1.1 fix round 2)",
+  "revised_v11": "2026-10-23: ASD-STE100 rewrite + expansion to spec v1.1 depth",
+  "revised_v11_fix1": "2026-10-23: v1.1 fix round 1 (E4 audit findings applied; deleted claims: old #18: board approval sentence removed (scope); old #20: venture annual deadline detail removed (scope); old #22: venture interim deadline detail removed (scope); old #23: foreign-filing limb removed (scope); old #34: 9.1(4)(a) no longer quoted; old #35: 9.1(4)(a) no longer quoted; old #40: 41-101CP s. 6.8 example removed (word budget); old #113: U.S.-index scenario removed; point kept in benchmark relevance bullet (C[65]))"
 }

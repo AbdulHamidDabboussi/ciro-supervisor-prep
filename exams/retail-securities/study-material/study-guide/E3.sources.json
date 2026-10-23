@@ -21,15 +21,7 @@
     {
       "outcome": "3.1",
       "kind": "R",
-      "claim": "NI 41-101 is the primary instrument regulating prospectus distributions (works with local legislation)",
-      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
-      "locator": "41-101CP s.1.2(2), ~L199",
-      "quote": "The Instrument, while being the primary instrument regulating prospectus distributions, is not exhaustive."
-    },
-    {
-      "outcome": "3.1",
-      "kind": "R",
-      "claim": "Prospectus must contain full, true and plain disclosure; statutory liability gives investors a remedy",
+      "claim": "Statutory liability gives investors a remedy if a prospectus lacks full, true and plain disclosure (liability point only; the requirement itself is cited to 41-101CP s.6.12(7))",
       "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
       "locator": "41-101CP s.2.6(1), ~L551-554",
       "quote": "Securities legislation imposes statutory liability in connection with prospectus disclosure to provide investors with a remedy if a prospectus does not contain full, true and plain disclosure of all material facts relating to the securities being distributed"
@@ -109,7 +101,7 @@
     {
       "outcome": "3.1",
       "kind": "R",
-      "claim": "Unfavourable news disclosed as promptly as favourable",
+      "claim": "Unfavourable news disclosed as promptly as favourable [cross-element consistency 2026-10-23: X14 3.1 trimmed to purpose + news release + 10-day report; this item now lives only in 4.1]",
       "source_file": "research/sources/csa/np-51-201-disclosure-standards.txt",
       "locator": "NP 51-201 s.2.1(2), ~L126",
       "quote": "Unfavourable news must be disclosed just as promptly and completely as favourable news."
@@ -165,22 +157,6 @@
     {
       "outcome": "3.1",
       "kind": "R",
-      "claim": "Commercial paper exemption: DBRS threshold R-1(low)",
-      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
-      "locator": "NI 45-106 s.2.35(1)(b)(i), ~L2650",
-      "quote": "(i) R-1(low) - DBRS Limited;"
-    },
-    {
-      "outcome": "3.1",
-      "kind": "R",
-      "claim": "Commercial paper exemption: does not apply to securitized products",
-      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
-      "locator": "NI 45-106 s.2.35(2)(a), ~L2674",
-      "quote": "(a) the note or commercial paper is a securitized product;"
-    },
-    {
-      "outcome": "3.1",
-      "kind": "R",
       "claim": "Securities under s.2.34/2.35 are free trading",
       "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
       "locator": "NI 45-106 note to s.2.34 and s.2.35, ~L2568, ~L2638",
@@ -205,10 +181,28 @@
     {
       "outcome": "3.1",
       "kind": "R",
-      "claim": "Private issuer: not more than 50 beneficial owners excluding employees and former employees",
+      "claim": "Private issuer: securities other than non-convertible debt securities beneficially owned by not more than 50 persons, not counting employees and former employees of the issuer or its affiliates",
       "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
-      "locator": "NI 45-106 s.2.4(1), ~L1258",
+      "locator": "NI 45-106 s.2.4(1)(b)(ii), ~L1260-1261",
       "quote": "are beneficially owned by not more than 50 persons, not including employees and former employees of the issuer or its affiliates"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Private issuer: the transfer-restriction and 50-owner conditions apply to securities other than non-convertible debt securities",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s.2.4(1)(b), ~L1257",
+      "quote": "the securities of which, other than non-convertible debt securities,",
+      "added": "fix-r3"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Private issuer: each person counts as one beneficial owner unless created or used solely to buy or hold the issuer's securities, then each beneficial owner or beneficiary counts separately",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s.2.4(1)(b)(ii), ~L1261-1265",
+      "quote": "each person is counted as one beneficial owner unless the person is created or used solely to purchase or hold securities of the issuer in which case each beneficial owner or each beneficiary of the person, as the case may be, must be counted as a separate beneficial owner",
+      "added": "fix-r3"
     },
     {
       "outcome": "3.1",
@@ -221,9 +215,9 @@
     {
       "outcome": "3.1",
       "kind": "R",
-      "claim": "Private issuer: transfer restrictions in constating documents or holders' agreements",
+      "claim": "Private issuer: securities other than non-convertible debt securities are subject to transfer restrictions in constating documents or security holders' agreements",
       "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
-      "locator": "NI 45-106 s.2.4(1)(b)(i), ~L1257",
+      "locator": "NI 45-106 s.2.4(1)(b)(i), ~L1258-1259",
       "quote": "are subject to restrictions on transfer that are contained in the issuer's constating documents or security holders' agreements"
     },
     {
@@ -245,7 +239,7 @@
     {
       "outcome": "3.1",
       "kind": "R",
-      "claim": "Listed category: family of directors, executive officers, founders, control persons",
+      "claim": "Listed category (c): spouse, parent, grandparent, brother, sister, child or grandchild of a director, executive officer, founder or control person (exact relatives named in prose)",
       "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
       "locator": "NI 45-106 s.2.4(2)(c), ~L1278",
       "quote": "a spouse, parent, grandparent, brother, sister, child or grandchild of a director, executive officer, founder or control person of the issuer,"
@@ -389,14 +383,6 @@
     {
       "outcome": "3.1",
       "kind": "R",
-      "claim": "Retain F9 for 8 years",
-      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
-      "locator": "NI 45-106 s.2.3(7), ~L1243",
-      "quote": "must retain the signed risk acknowledgement required in subsection (6) of this section for 8 years after the distribution."
-    },
-    {
-      "outcome": "3.1",
-      "kind": "R",
       "claim": "Person relying on exemption responsible for determining conditions met",
       "source_file": "research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt",
       "locator": "45-106CP s.1.9(1), ~L190",
@@ -525,7 +511,7 @@
     {
       "outcome": "3.2",
       "kind": "R",
-      "claim": "Limb (a): another class carries more votes per security (so multiple-voting class is not restricted; subordinate class is)",
+      "claim": "Limb (a): another class carries more votes per security (so subordinate classes are restricted; a multiple-voting class is not under limb (a))",
       "source_file": "research/sources/csa/ni-41-101-general-prospectus-requirements.txt",
       "locator": "NI 41-101 s.1.1 'restricted security' (a), ~L720",
       "quote": "there is another class of securities of the issuer that carries a greater number of votes per security relative to the equity security,"
@@ -533,10 +519,10 @@
     {
       "outcome": "3.2",
       "kind": "R",
-      "claim": "Limb (b): voting rights nullified or significantly restricted",
+      "claim": "Limb (b): class conditions, another class's conditions or constating documents nullify or significantly restrict voting rights",
       "source_file": "research/sources/csa/ni-41-101-general-prospectus-requirements.txt",
-      "locator": "NI 41-101 s.1.1 'restricted security' (b), ~L723",
-      "quote": "have provisions that nullify or significantly restrict the voting rights of the equity securities,"
+      "locator": "NI 41-101 s.1.1 'restricted security' (b), ~L723-725",
+      "quote": "the conditions attached to the class of equity securities, the conditions attached to another class of securities of the issuer, or the issuer's constating documents have provisions that nullify or significantly restrict the voting rights of the equity securities"
     },
     {
       "outcome": "3.2",
@@ -735,7 +721,7 @@
     {
       "outcome": "3.6",
       "kind": "R",
-      "claim": "Designated exchange = TSX, TSX Venture, Cboe Canada or other recognized/designated exchange",
+      "claim": "Designated exchange = TSX, TSX Venture, Cboe Canada or any other exchange recognized or designated by the regulators (prose now lists the catch-all)",
       "source_file": "research/sources/csa/ni-62-104-take-over-bids-and-issuer-bids.txt",
       "locator": "NI 62-104 s.4.8(1), ~L1335",
       "quote": "\"designated exchange\" means the Toronto Stock Exchange, the TSX Venture Exchange, Cboe Canada Inc. or other exchange recognized or designated by the securities regulatory authorities for the purpose of this Instrument."
@@ -775,14 +761,14 @@
     {
       "outcome": "3.7",
       "kind": "C",
-      "claim": "Preferred share features: cumulative, non-cumulative, callable, retractable, convertible, participating, floating, fixed-reset, perpetual; voting usually only after missed dividends; dissolution: stated amount (often par) plus any unpaid cumulative dividends, ahead of common, no share of surplus",
+      "claim": "Preferred share features split by heading: dividend rights (cumulative, non-cumulative, participating, floating/adjustable, fixed-reset) vs other features (perpetual, callable, retractable, convertible); dissolution: stated amount (often par) plus unpaid cumulative dividends, ahead of common, behind creditors; unless the terms say otherwise, no part of surplus",
       "basis": "standard description of Canadian preferred share terms (typical, issue-specific)"
     },
     {
       "outcome": "3.8",
       "kind": "C",
-      "claim": "Preferred risks: interest-rate, credit/dividend, call, reset, liquidity, inflation; retractable and floating least rate-sensitive; spreads as main cost; preferred dividends from taxable Canadian corporations qualify for the DTC (enhanced rate if designated eligible; cross-ref 3.6, 7.11)",
-      "basis": "standard fixed-income/preferred concepts"
+      "claim": "Preferred risks: interest-rate, credit/dividend, call, reset, liquidity, inflation; retractable and floating least rate-sensitive; spreads as main cost. (Tax point now stated as R from CRA: 'may qualify'; 'higher gross-up and larger federal credit per dollar' for eligible dividends derives from the quoted ITA/CRA rates in 3.6: 0.38 x 6/11 = 0.2073 vs 0.15 x 9/13 = 0.1038 per $1)",
+      "basis": "standard fixed-income/preferred concepts; per-dollar DTC arithmetic from the 3.6 R entries"
     },
     {
       "outcome": "3.9",
@@ -831,6 +817,864 @@
       "kind": "C",
       "claim": "PEG ratio = P/E / expected EPS growth in %",
       "basis": "standard definition (convention: growth expressed as a whole-number percentage)"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Regulator may refuse a receipt where not in the public interest",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.2.6(1), ~L549",
+      "quote": "Securities legislation provides the regulator with discretion to refuse a receipt for a prospectus where it is not in the public interest to issue the receipt.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Statutory liability: investor remedy AND protection of market integrity",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.2.6(1), ~L551-555",
+      "quote": "provide investors with a remedy if a prospectus does not contain  full, true and plain disclosure of all material facts relating to the securities being distributed and to protect the integrity of the Canadian public markets",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Definition of material fact",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Securities Act (Ontario) s.1(1) 'material fact', ~L175",
+      "quote": "means a fact that would reasonably be expected to have a significant effect on the market price or value of the securities",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Definition of misrepresentation (untrue statement; omission of required fact or fact necessary to make a statement not misleading)",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Securities Act (Ontario) s.1(1) 'misrepresentation', ~L177-179",
+      "quote": "an untrue statement of material fact, or (b) an omission to state a material fact that is required to be stated or that is necessary to make a statement not misleading in the light of the circumstances in which it was made",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Material change (non-fund issuer), limb (i): change in business, operations or capital with significant expected price/value effect [cross-element consistency 2026-10-23: X14 3.1 trimmed to purpose + news release + 10-day report; this item now lives only in 4.1]",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Securities Act (Ontario) s.1(1) 'material change' (a)(i), ~L166",
+      "quote": "a change in the business, operations or capital of the issuer that would reasonably be expected to have a significant effect on the market price or value of any of the securities of the issuer",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Material change limb (ii): certain decisions to implement such a change ('Certain decisions to make such a change also count') [cross-element consistency 2026-10-23: X14 3.1 trimmed to purpose + news release + 10-day report; this item now lives only in 4.1]",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Securities Act (Ontario) s.1(1) 'material change' (a)(ii), ~L167",
+      "quote": "a decision to implement a change referred to in subclause (i) made by the board of directors or other persons acting in a similar capacity or by senior management of the issuer who believe that confirmation of the decision by the board of directors",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "'Trade' includes any act, advertisement, solicitation, conduct or negotiation in furtherance",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "Securities Act (Ontario) s.1(1) 'trade' (e), ~L271",
+      "quote": "any act, advertisement, solicitation, conduct or negotiation directly or indirectly in furtherance of any of the foregoing",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Regulatory concerns behind advertising rules: equal access, conditioning of the market, tipping, insider trading",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.6.2(9), ~L1260-1262",
+      "quote": "the overriding concerns implicit and explicit in securities legislation regarding equal access to information, conditioning of the market, tipping and insider trading",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Marketing intended to promote a distribution is prohibited by the prospectus requirement (absent receipt/exemption)",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.6.3(1), ~L1290-1293",
+      "quote": "Accordingly, advertising or marketing activities intended to promote the distribution of securities, in any form, would be prohibited by virtue of the prospectus requirement.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Activities generally not subject to the prospectus requirement (lead-in)",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.6.3(2), ~L1324",
+      "quote": "The following activities would not generally be subject to the prospectus requirement:",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Not caught: product advertising / awareness campaigns",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.6.3(2), ~L1327",
+      "quote": "advertising and publicity campaigns that are aimed at either selling products or services of the issuer or raising public awareness of the issuer;",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Not caught: regular factual business information not referring to a distribution",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.6.3(2), ~L1330-1333",
+      "quote": "consistent with the regular past communications practices of the issuer if that communication does not refer to or suggest the distribution of securities;",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Not caught: required releases/filings",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.6.3(2), ~L1335",
+      "quote": "the release or filing of information that is required to be released or filed pursuant to securities legislation.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Testing-of-the-waters exemption exists for IPOs (s.13.4(2)); described only as 'narrow' in prose",
+      "source_file": "research/sources/csa/ni-41-101-general-prospectus-requirements.txt",
+      "locator": "NI 41-101 s.13.4(2), ~L1745",
+      "quote": "the prospectus requirement does not apply to a solicitation of an expression of interest in order to ascertain if there would be sufficient interest in an initial public offering of securities by an issuer pursuant to a long form prospectus if",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "After final receipt: legend 'only made by prospectus'",
+      "source_file": "research/sources/csa/ni-41-101-general-prospectus-requirements.txt",
+      "locator": "NI 41-101 s.13.2(1), ~L1700",
+      "quote": "This offering is only made by prospectus.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Purpose of timely disclosure: equal access to information",
+      "source_file": "research/sources/csa/np-51-201-disclosure-standards.txt",
+      "locator": "NP 51-201 s.1.1(1), ~L69",
+      "quote": "It is fundamental that everyone investing in securities have equal access to information that may affect their investment decisions.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Restricted period: a first trade is a distribution unless the s.2.5(2) conditions are satisfied",
+      "source_file": "research/sources/csa/ni-45-102-resale-of-securities.txt",
+      "locator": "NI 45-102 s.2.5(1), ~L146",
+      "quote": "Unless the conditions in subsection (2) are satisfied, a trade that is specified by section 2.3 or other securities legislation to be subject to this section is a distribution.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Restricted period further conditions (e.g. no unusual effort to prepare the market)",
+      "source_file": "research/sources/csa/ni-45-102-resale-of-securities.txt",
+      "locator": "NI 45-102 s.2.5(2) condition 5, ~L175",
+      "quote": "No unusual effort is made to prepare the market or to create a demand for the security that is the subject of the trade.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Private issuer first trades subject to seasoning period",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 note to s.2.4, ~L1251",
+      "quote": "Private issuer Refer to Appendix E of National Instrument 45-102 Resale of Securities. First trades are subject to a seasoning period on resale.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "OM exemption first trades subject to restricted period",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 note to s.2.9, ~L1436",
+      "quote": "Offering memorandum Refer to Appendix D of National Instrument 45-102 Resale of Securities. First trades are subject to a restricted period on resale.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Minimum amount first trades subject to restricted period",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 note to s.2.10, ~L1975",
+      "quote": "Minimum amount investment Refer to Appendix D of National Instrument 45-102 Resale of Securities. First trades are subject to a restricted period on resale.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Standard representations / initial on F9 insufficient without reasonable verification steps",
+      "source_file": "research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt",
+      "locator": "45-106CP s.1.9(3), ~L232-234",
+      "quote": "It will not be sufficient for the seller to accept standard representations in a subscription agreement or an initial beside a category on Form 45-106F9 Form for Individual Accredited Investors unless the seller has taken reasonable steps to verify the representations made by the purchaser.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Suitability still applies to exempt distributions",
+      "source_file": "research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt",
+      "locator": "45-106CP s.1.9(2), ~L207-209",
+      "quote": "the registered dealer or representative must still assess whether the investment is suitable for the purchaser.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "AI monetary thresholds are bright-line standards",
+      "source_file": "research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt",
+      "locator": "45-106CP s.3.5(2), ~L789-791",
+      "quote": "The monetary thresholds in the \"accredited investor\" definition are intended to create \"bright-line\" standards. Investors who do not satisfy these monetary thresholds do not qualify as accredited investors under the applicable paragraph.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Financial assets = cash, securities, insurance contract, deposit (CP wording, contiguous)",
+      "source_file": "research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt",
+      "locator": "45-106CP s.3.5(1), ~L779-781",
+      "quote": "to mean cash, securities, or a contract of insurance, a deposit or an evidence of a deposit that is not a security for the purposes of securities legislation.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Net assets = total assets minus total liabilities",
+      "source_file": "research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt",
+      "locator": "45-106CP s.3.5(1), ~L784-785",
+      "quote": "the net asset test under paragraph (l) means all of the purchaser's total assets minus all of the purchaser's total liabilities.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "(j.1) individuals need not sign Form 45-106F9",
+      "source_file": "research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt",
+      "locator": "45-106CP s.3.5(1), ~L774-777",
+      "quote": "an issuer distributing securities under the accredited investor exemption to an individual who meets the $5 000 000 financial asset test in paragraph (j.1) under the definition of \"accredited investor\" is not required to obtain a signed risk acknowledgement in Form 45-106F9",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Take-over bid = offer for outstanding voting or equity securities of a class",
+      "source_file": "research/sources/csa/ni-62-104-take-over-bids-and-issuer-bids.txt",
+      "locator": "NI 62-104 s.1.1 'take-over bid', ~L244",
+      "quote": "\"take-over bid\" means an offer to acquire outstanding voting securities or equity securities of a class",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Offeror must prepare and send a bid circular with the bid",
+      "source_file": "research/sources/csa/ni-62-104-take-over-bids-and-issuer-bids.txt",
+      "locator": "NI 62-104 s.2.10(1), ~L555-557",
+      "quote": "An offeror making a take-over bid or an issuer bid must prepare and send, either as part of the bid or together with the bid, a take-over bid circular or an issuer bid circular",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "C",
+      "claim": "Explanation (framed in prose as 'One way to understand the control-person limb'): a control block can reach the public like a new issue; legal effect comes from the quoted 'distribution' limb (c); primary proceeds go to issuer, secondary to the control person",
+      "basis": "explanatory rationale for the quoted 'distribution' limbs (a) and (c); standard securities-law teaching, not stated as rule text",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "C",
+      "claim": "Conditioning of the market = promotion creating demand before investors have the prospectus",
+      "basis": "plain-language gloss of the term used in 41-101CP s.6.2(9)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "C",
+      "claim": "Scenario Colette Brun: $700,000 + $400,000 = $1,100,000 > $1,000,000 -> qualifies under (j); house excluded; resale: wait four months from distribution date AND issuer must have been a reporting issuer for the four months before the trade, other s.2.5(2) conditions apply; if issuer never becomes reporting, s.2.5 route may be unavailable",
+      "basis": "700,000 + 400,000 = 1,100,000 > 1,000,000; residence excluded per 45-106CP s.3.5(1); restricted-period conditions per quoted NI 45-102 s.2.5(2) items 1-2 (R entries) and legend wording item 3(ii)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "Articles set out the classes of shares",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Share structure, ~L148",
+      "quote": "The articles are required to set out the classes and any maximum of shares that the corporation is authorized to issue.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "With more than one class, each class's rights are stated in the articles",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Classes of shares, ~L151",
+      "quote": "If there is more than one class, the rights, privileges, restrictions and conditions for each class must also be indicated in the articles.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "Shareholder right: elect and dismiss directors",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Rights and responsibilities, ~L212",
+      "quote": "elect and dismiss directors",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "Shareholder right: approve by-laws",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Rights and responsibilities, ~L213",
+      "quote": "approve by-laws and by-law changes",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "Shareholder right: appoint the auditor",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Rights and responsibilities, ~L214",
+      "quote": "appoint the auditor of the corporation (or waive the requirement for an auditor)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "Shareholder right: approve fundamental changes",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Rights and responsibilities, ~L217",
+      "quote": "approve major or fundamental changes (such as those affecting a corporation's structure or business activities).",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "Ordinary resolution = simple majority of votes cast",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Ordinary resolutions, ~L240",
+      "quote": "Ordinary resolutions require a simple majority (50 percent plus 1) of votes cast by shareholders.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "Special resolution = two thirds of votes cast",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Special resolutions, ~L245",
+      "quote": "Special resolutions must have the approval of two thirds of the votes cast.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "Fundamental changes are made by special resolution",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Special resolutions, ~L245-246",
+      "quote": "For example, shareholders usually carry out the following actions by special resolutions: - make fundamental changes",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "C",
+      "claim": "Dividend pro rata within a class; most dual-class companies share dividends equally; coattail rationale (prevents control premium going only to superior class)",
+      "basis": "standard corporate-finance description of dual-class structures",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "C",
+      "claim": "Scenario Siobhan Kerr: Class B subordinate-voting holder has equal economic rights, less control; restricted security; check coattail",
+      "basis": "applies NI 41-101 'restricted security' limb (a) (quoted R) and C coattail concept",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.3",
+      "kind": "C",
+      "claim": "Scenario Ysolde Quenneville: CDR trades in CAD, fractional exposure, hedge cost embedded, voting via depositary, suitability applies",
+      "basis": "applies C CDR description (no regulatory text on CDRs in corpus)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.4",
+      "kind": "R",
+      "claim": "Foreign dividends do not qualify for the DTC",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Foreign income, ~L92",
+      "quote": "Foreign dividends do not qualify for the dividend tax credit.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.4",
+      "kind": "R",
+      "claim": "Foreign tax paid on dividend income may give a foreign tax credit",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Foreign income, ~L76",
+      "quote": "If you paid foreign taxes on your interest or dividend income, you may be able to claim a foreign tax credit",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.4",
+      "kind": "C",
+      "claim": "Business vs financial risk; leverage magnifies earnings swings; market risk not diversifiable, company-specific risk reducible (cross-ref 6.3, 6.4)",
+      "basis": "standard investment concepts",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.4",
+      "kind": "C",
+      "claim": "Scenario Kofi Amankwah: $9.95 flat fee on a $300 trade = about 3.3%; round trip about 6.6%",
+      "basis": "9.95/300 = 0.03317 = 3.3%; 2 x 9.95 / 300 = 0.06633 = 6.6% (one-line illustration, mirrors syllabus key's flat-fee example)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.4",
+      "kind": "C",
+      "claim": "Scenario Rosalind Ferraz: direct USD purchase (conversion spread, full FX risk, she holds the voting shares herself through her dealer) vs hedged CDR (CAD trading, most FX risk removed; hedge cost, voting through depositary, possibly lower volume). Fix round 1: dividend-tax comparison removed because CDR tax treatment is not in the corpus",
+      "basis": "combines C CDR description; no tax comparison made",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.5",
+      "kind": "C",
+      "claim": "Residual claim: creditors and preferred get fixed amounts, common gets the rest; no repayment date or fixed payment so no default; equity cushion for creditors; dilution of EPS and votes",
+      "basis": "standard corporate finance",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.5",
+      "kind": "C",
+      "claim": "Scenarios Tenzin Dorje (owner) and Kettleby Brewing (issuer): qualitative trade-offs",
+      "basis": "applies table content; suitability cross-ref 1.17",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.6",
+      "kind": "R",
+      "claim": "Dividend right exists only if the board has declared one",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Share structure, ~L163",
+      "quote": "the right to receive dividends (if the board of directors has declared any)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.6",
+      "kind": "R",
+      "claim": "Split/consolidation does not change total market value or proportionate equity",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "T4037 Stock splits and consolidations, ~L1777-1780",
+      "quote": "The total market value of each investor's holdings and their proportionate equity in the company are also not affected.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.6",
+      "kind": "R",
+      "claim": "Split/consolidation: no disposition, not taxable",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "T4037 Stock splits and consolidations, ~L1795-1798",
+      "quote": "no stock dividend is considered to have been issued, no disposition or acquisition is considered to have occurred and the event is not taxable.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.6",
+      "kind": "R",
+      "claim": "Split/consolidation: ACB must be recalculated",
+      "source_file": "research/sources/cra/guide-t4037-capital-gains-2025.txt",
+      "locator": "T4037 Stock splits and consolidations, ~L1798-1800",
+      "quote": "However, the adjusted cost base (ACB) of the shares must be recalculated to reflect each split or consolidation",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.6",
+      "kind": "C",
+      "claim": "Integration rationale for gross-up and DTC (corporation already taxed on its profit); DRIP definition; buyback raises remaining holders' percentage ownership",
+      "basis": "standard Canadian tax/corporate-finance concepts; tax mechanics themselves are quoted R claims",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.6",
+      "kind": "C",
+      "claim": "Scenario Idris Kalfa: record date Friday, T+1 -> buy by Thursday; 2-for-1 split: 400 -> 800 shares at half price, ACB per share halves, not taxable",
+      "basis": "T+1 per CP 24-101 (R); Thursday trade settles Friday (assumes both business days); 400 x 2 = 800; total ACB unchanged so per-share ACB x 1/2; T4037 (R)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.7",
+      "kind": "C",
+      "claim": "Board still declares preferred dividends; missed dividend not a default; vote trigger gives holders a voice when income is at risk",
+      "basis": "standard description of preferred share terms (issue-specific)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.8",
+      "kind": "C",
+      "claim": "Price of a straight preferred falls until its yield matches market; perpetual has no maturity to pull price to par; call caps gains; market orders on thin issues can fill far from last price",
+      "basis": "standard fixed-income / trading concepts (cross-ref 2.7)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.8",
+      "kind": "C",
+      "claim": "Scenarios Hollis Nakashima (perpetual, rising rates) and Joaquim Barros (fixed-reset reset risk, thin market, limit order)",
+      "basis": "applies 3.8 risk table",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.9",
+      "kind": "C",
+      "claim": "Scenarios Margaux Vantongeren (retiree income; dividends from taxable Canadian corporations may qualify for the DTC in a taxable account), Sedgewick Ridge Energy (issuer control), Casimir Ostrowski (convertible); convertibles usually pay a lower dividend than comparable straight preferreds",
+      "basis": "standard corporate finance; replaces v1.0 'Applying it' list with the same four conclusions (young investor -> common now in 3.9 owner subsection)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.10",
+      "kind": "C",
+      "claim": "Required return reflects risk; CAPM one way to estimate it (6.8); Gordon suits stable dividend payers, fails for non-payers, very sensitive to r - g",
+      "basis": "standard valuation concepts",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.10",
+      "kind": "C",
+      "claim": "Scenario Leilani Kahale: D1 2.08; r 9% -> $41.60; r 10% -> $34.67 vs price $36.00",
+      "basis": "2.08/(0.09-0.04) = 41.60; 2.08/(0.10-0.04) = 2.08/0.06 = 34.667 -> 34.67",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.10",
+      "kind": "C",
+      "claim": "Scenario Harjit Gill: price $42.00, E1 $3.00 -> market P/E 14; justified P/E 10 -> $30.00; at g 7% justified P/E 13.33, P0 = $40.00 (still below $42); implied g from 0.40/(0.10 - g) = 14 -> g = 7.14%",
+      "basis": "42/3 = 14; 0.40/0.04 = 10; 3 x 10 = 30; 0.40/0.03 = 13.333; D1 = 0.40 x 3.00 = 1.20; 1.20/0.03 = 40.00; 0.40/14 = 0.028571; 0.10 - 0.028571 = 0.071429; check 1.20/0.028571 = 42.00",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Name of the IPO exemption: 'testing of the waters'",
+      "source_file": "research/sources/csa/ni-41-101-general-prospectus-requirements.txt",
+      "locator": "NI 41-101 s.13.4 heading, ~L1715",
+      "quote": "Testing of the waters exemption – IPO issuers",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Final prospectus must contain full, true and plain disclosure of all material facts (the requirement)",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.6.12(7), ~L2637-2639",
+      "quote": "the statutory requirement that the final prospectus contain full, true and plain disclosure of all material facts",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Generally no advertising or marketing before the preliminary receipt",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.6.4(1), ~L1381-1383",
+      "quote": "In general, any advertising or marketing activities undertaken in connection with a prospectus prior to the issuance of a receipt for the preliminary prospectus are prohibited under securities legislation by virtue of the prospectus requirement.",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Bought-deal pre-marketing: limited exemption (NI 44-101 Part 7)",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s.6.4(2), ~L1385-1386",
+      "quote": "In the context of a bought deal, a limited exemption from the prospectus requirement has been provided in Part 7 of NI 44-101.",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Material change duty is subject to the s.7.1(2) exception [cross-element consistency 2026-10-23: X14 3.1 trimmed to purpose + news release + 10-day report; this item now lives only in 4.1]",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s.7.1(1), ~L2488",
+      "quote": "Subject to subsection (2), if a material change occurs in the affairs of a reporting issuer, the reporting issuer must",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Exception case 1: disclosure would be unduly detrimental (reasonable opinion of the issuer)",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s.7.1(2)(a), ~L2500-2502",
+      "quote": "in the opinion of the reporting issuer, and if that opinion is arrived at in a reasonable manner, the disclosure required by subsection (1) would be unduly detrimental to the interests of the reporting issuer",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Exception case 2: senior-management decision, board confirmation probable, no reason to believe insiders traded",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s.7.1(2)(b), ~L2504-2507",
+      "quote": "the material change consists of a decision to implement a change made by senior management of the reporting issuer who believe that confirmation of the decision by the board of directors is probable, and senior management of the reporting issuer has no reason to believe that persons with knowledge of",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Under the exception, the issuer immediately files the report marked confidential with written reasons [cross-element consistency 2026-10-23: X14 3.1 trimmed to purpose + news release + 10-day report; this item now lives only in 4.1]",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s.7.1(2), ~L2516-2518",
+      "quote": "and the reporting issuer immediately files the report required under paragraph (1)(b) marked so as to indicate that it is confidential, together with written reasons for non-disclosure.",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Part 2 (incl. bid circular duty) applies to bids not exempt from Part 2",
+      "source_file": "research/sources/csa/ni-62-104-take-over-bids-and-issuer-bids.txt",
+      "locator": "NI 62-104 s.2.1(a), ~L407",
+      "quote": "a person making a take-over bid or an issuer bid that is not exempt from Part 2",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Part 4 exempt take-over bids are exempt from Part 2",
+      "source_file": "research/sources/csa/ni-62-104-take-over-bids-and-issuer-bids.txt",
+      "locator": "NI 62-104 s.4.1, ~L1197",
+      "quote": "A take-over bid is exempt from Part 2 if all of the following conditions are satisfied",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Private issuer: has distributed only to listed persons",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s.2.4(1)(c)(i), ~L1268",
+      "quote": "has distributed its securities only to persons described in subsection (2)",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Private issuer: no commission/finder's fee to insiders except on sales to accredited investors",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s.2.4(3), ~L1328-1329",
+      "quote": "Except for a distribution to an accredited investor, no commission or finder's fee may be paid to any director, officer, founder or control person of an issuer in connection with a distribution under subsection (2)",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Minimum amount: purchases as principal",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s.2.10(1)(b), ~L1983",
+      "quote": "that person purchases as principal",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Minimum amount: security of a single issuer",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s.2.10(1)(d), ~L1986",
+      "quote": "the distribution is of a security of a single issuer",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Minimum amount: not available to a person created or used solely to use the exemption",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s.2.10(2), ~L1995-1996",
+      "quote": "Subsection (1) does not apply to a distribution of a security to a person if the person was created, or is used, solely to purchase or hold securities in reliance on the exemption",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Restricted period condition 6: no extraordinary commission",
+      "source_file": "research/sources/csa/ni-45-102-resale-of-securities.txt",
+      "locator": "NI 45-102 s.2.5(2) item 6, ~L176",
+      "quote": "No extraordinary commission or consideration is paid to a person or company in respect of the trade.",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Restricted period condition 7: insider/officer seller has no reasonable grounds to believe issuer in default",
+      "source_file": "research/sources/csa/ni-45-102-resale-of-securities.txt",
+      "locator": "NI 45-102 s.2.5(2) item 7, ~L178-180",
+      "quote": "If the selling security holder is an insider or officer of the issuer, the selling security holder has no reasonable grounds to believe that the issuer is in default of securities legislation.",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Legend condition applies only to distributions on/after 30 March 2004 ('In most cases' in prose)",
+      "source_file": "research/sources/csa/ni-45-102-resale-of-securities.txt",
+      "locator": "NI 45-102 s.2.5(2) item 3, ~L153",
+      "quote": "If the distribution date is on or after March 30, 2004",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Legend conditions switched off for certain underlying securities ('In most cases' in prose)",
+      "source_file": "research/sources/csa/ni-45-102-resale-of-securities.txt",
+      "locator": "NI 45-102 s.2.5(3), ~L181",
+      "quote": "Items 3 and 3.1 of subsection (2) do not apply to a trade of an underlying security",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Legend for non-reporting issuer: hold until 4 months after later of distribution date and date issuer became reporting issuer (Colette scenario)",
+      "source_file": "research/sources/csa/ni-45-102-resale-of-securities.txt",
+      "locator": "NI 45-102 s.2.5(2) item 3(ii), ~L163-166",
+      "quote": "the date that is 4 months and a day after the later of (i) [insert the distribution date], and (ii) the date the issuer became a reporting issuer in any province or territory.",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "AI definition covers non-individuals, e.g. (m) net assets >= $5,000,000",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s.1.1 AI (m), ~L244",
+      "quote": "a person, other than an individual or investment fund, that has net assets of at least $5 000 000 as shown on its most recently prepared financial statements",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "C",
+      "claim": "Private placement = sale under a prospectus exemption; buyer qualifies by who they are (AI, private issuer list), how much they invest (minimum amount) or what disclosure they get (OM)",
+      "basis": "classification of the exemptions in the quoted table (ss. 2.3, 2.4, 2.9, 2.10); 45-106CP s.1.9(3) groups AI/eligible investor/relationship exemptions as purchaser-based",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "R",
+      "claim": "Limb (d): outside Ontario and BC the regulator can determine a security is restricted",
+      "source_file": "research/sources/csa/ni-41-101-general-prospectus-requirements.txt",
+      "locator": "NI 41-101 s.1.1 'restricted security' (d), ~L731",
+      "quote": "except in Ontario and British Columbia, the regulator determines that the equity security is a restricted security",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "C",
+      "claim": "Usually subordinate/restricted/non-voting classes are restricted securities; a multiple-voting class is not unless another class has greater economic rights per share (limb (c)); non-voting dividend cell changed to 'Usually equal'",
+      "basis": "applies quoted limbs (a)-(c); typical dual-class terms",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.2",
+      "kind": "C",
+      "claim": "Dissolution: residual after creditors and preferred, can be nothing; common classes usually equal per share whatever voting power; articles can set a different claim",
+      "basis": "standard capital-structure priority; ISED 'rights stated in the articles' (R claim already quoted)",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.3",
+      "kind": "C",
+      "claim": "CDR holder is not a registered shareholder of the foreign company; rights run through the depositary under CDR terms; ratio sets proportional exposure; % return ~ home-currency return less hedge cost; CDR price alone does not show cheapness",
+      "basis": "general description of CDR programmes; hedged ('under the CDR terms')",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.4",
+      "kind": "C",
+      "claim": "Currency: CAD-listed share has no direct FX risk; company with foreign revenue, costs or debt has indirect FX risk (e.g. stronger CAD reduces exporter profit)",
+      "basis": "standard international finance / economic exposure concept",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.7",
+      "kind": "R",
+      "claim": "Non-voting shareholders may vote on certain fundamental issues (CBCA)",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED Shareholders' meetings, ~L258",
+      "quote": "The Canada Business Corporations Act (CBCA) gives holders of non-voting shares the right to attend certain meetings and vote on certain fundamental issues.",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.7",
+      "kind": "C",
+      "claim": "Vote trigger: typically after a set number of missed dividends (e.g. eight quarterly); class can often elect some directors; vote usually ends when arrears are paid; issue-specific",
+      "basis": "standard description of Canadian preferred share terms (hedged as issue terms)",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.7",
+      "kind": "C",
+      "claim": "Scenario Northgate Rail / Halina Duarte: 6 missed x $0.25 x 1,000 shares = $1,500 arrears; no vote until 8 missed; no default",
+      "basis": "6 x 0.25 = 1.50; 1.50 x 1,000 = 1,500",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.8",
+      "kind": "R",
+      "claim": "Dividends from taxable Canadian corporations may qualify for the DTC",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Lines 12000/12010 Tax Tips, ~L240",
+      "quote": "You may be able to claim a dividend tax credit on line 40425 for dividends received from taxable Canadian corporations.",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.8",
+      "kind": "R",
+      "claim": "Eligible dividends grossed up to 138% (2025)",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Lines 12000/12010, ~L236",
+      "quote": "Multiply the actual amount received by 138% and include the result on line 12000",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.8",
+      "kind": "R",
+      "claim": "Other than eligible grossed up to 115% (2025)",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Lines 12000/12010, ~L236",
+      "quote": "Multiply the actual amount received by 115% and include the result on line 12000 and line 12010",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.8",
+      "kind": "C",
+      "claim": "Credit risk: preferred riskier than same issuer's bonds (ranks behind debt; dividend can be suspended without default; holder cannot force payment of arrears); fixed-reset: next reset rises if yields rise, price can still fall between resets",
+      "basis": "standard preferred-share concepts",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.8",
+      "kind": "C",
+      "claim": "Spread illustration: $25 preferred paying $1.25 with a $0.25 spread; round trip at the same quotes loses $0.25 = 20% of a year's dividend",
+      "basis": "0.25 / 1.25 = 0.20",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.9",
+      "kind": "R",
+      "claim": "Dividends from taxable Canadian corporations may qualify for the DTC",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Lines 12000/12010 Tax Tips, ~L240",
+      "quote": "You may be able to claim a dividend tax credit on line 40425 for dividends received from taxable Canadian corporations.",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.9",
+      "kind": "C",
+      "claim": "Owner reasoning: priority (before common, behind creditors), tax (after-tax income can exceed same amount of interest), features cost yield; disadvantages from fixed dividend (rate and call risk), usually no vote. Issuer reasoning: control kept, flexibility (skip not default), debt-to-equity improves vs borrowing; costs: after-tax dividends vs deductible interest, arrears block common, fixed dividend expected so less flexibility, call feature restores flexibility. 3.9 comparison table removed in fix round 1 because the subsections now cover each cell",
+      "basis": "standard corporate finance; interest deductibility stated as 'generally' (see gaps)",
+      "added": "fix-r1"
+    },
+    {
+      "outcome": "3.1",
+      "kind": "R",
+      "claim": "Private issuer alternative: after a completed transaction securities owned only by listed persons and later distributions only to them",
+      "source_file": "research/sources/csa/ni-45-106-prospectus-exemptions.txt",
+      "locator": "NI 45-106 s. 2.4(1)(c)(ii), ~L1275",
+      "quote": "has completed a transaction and immediately following the completion of the transaction, its securities were beneficially owned only by persons described in subsection (2)",
+      "added": "2026-10-23 (orchestrator close-out)"
     }
   ],
   "gaps": [
@@ -843,6 +1687,13 @@
     "3.6 Dividend gross-up/DTC: federal statutory rates quoted (ITA) and CRA 2025 factors; provincial DTC rates not stated; full tax calculations left to 7.11",
     "3.7/3.8 Preferred share terms (voting after missed dividends, fixed-reset mechanics) are typical issue terms, written as C; no governing text",
     "3.1 Formal take-over bid mechanics (NI 62-104 deposit period, minimum tender, identical consideration) removed in fix round 1 as beyond the 3.1 parameter ('application to takeovers' = s.2.16 prospectus exemption) and statute depth",
-    "3.1 Exempt-market distribution channel (exempt market dealers) not stated: NI 31-103 category text not in corpus"
-  ]
+    "3.1 Testing-of-the-waters (NI 41-101 s.13.4) mentioned only as a 'narrow' IPO exemption; its conditions (s.13.4(2)-(7)) are not listed, to stay at statute-purpose depth.",
+    "3.1 'Take-over bid' definition exclusion (offer that is a step in an amalgamation/arrangement requiring a holder vote) not stated.",
+    "3.1 NI 51-102 s.7.1(2) confidential-report exception now stated (both cases, quoted); the s.7.1(5) 10-day renewal of confidentiality is left to 4.1.",
+    "3.4 Tax treatment of CDR distributions is not in the corpus, so the Rosalind Ferraz scenario makes no dividend-tax comparison between direct U.S. shares and the CDR (fix round 1, E3-C1).",
+    "3.1 Exempt market dealer sentence (31-103CP Part 7) and commercial-paper rating detail (s.2.35(1)(b)-(c), (2)) removed in fix round 1 as beyond statute depth (E3-15); exempt-market securities kept at 'short-term, highly rated commercial paper (s.2.35)'.",
+    "3.1 Bought-deal pre-marketing conditions (NI 44-101 Part 7) not in corpus beyond 41-101CP s.6.4; named only as a narrow exception.",
+    "3.1 Private issuer listed categories given 'for example' (s.2.4(2)(b), (d), (g), (j), (k) not individually listed)."
+  ],
+  "revised": "2026-10-23 (spec v1.1: ASD-STE100 rewrite + depth expansion); 2026-10-23 fix round 1 (E3 audit findings)"
 }

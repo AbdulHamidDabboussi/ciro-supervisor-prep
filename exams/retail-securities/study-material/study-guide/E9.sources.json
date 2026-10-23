@@ -5,14 +5,16 @@
     {
       "outcome": "9.1",
       "kind": "C",
-      "claim": "Monitoring loop: compare portfolio with objectives and agreed mix, judge results against markets, then rebalance, change holdings or update profile; judge an equity portfolio's return relative to its benchmark index (−3% vs benchmark −12%; +6% vs benchmark +20%); rate, inflation, cycle and sector shifts can make holdings/mix stale; rebalance on range breaches or tactical tilt if mandate allows",
-      "basis": "standard portfolio-monitoring process; relative-return illustration: −3 − (−12) = +9 points ahead; 6 − 20 = −14 points behind"
+      "claim": "Monitoring loop: (1) compare portfolio with objectives and agreed asset mix, (2) judge results against markets, (3) rebalance, change holdings or update KYC information; judge an equity portfolio's return relative to its benchmark index (−3% vs benchmark −12%; +6% vs benchmark +20%); rate, inflation, cycle and sector changes can make holdings/mix stale; rebalance on range breaches",
+      "basis": "standard portfolio-monitoring process; relative-return illustration: −3 − (−12) = +9 points ahead; 6 − 20 = −14 points behind",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.1",
       "kind": "C",
-      "claim": "Life events (retirement, divorce, inheritance, illness) can change objectives, horizon, liquidity needs, risk profile",
-      "basis": "standard financial-planning concept"
+      "claim": "Life events (retirement, divorce, inheritance, illness) can change objectives, time horizon, liquidity needs, risk profile (table)",
+      "basis": "standard financial-planning concept",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.1",
@@ -25,10 +27,11 @@
     {
       "outcome": "9.1",
       "kind": "R",
-      "claim": "IDPC 3402(2) requires a suitability review of the account and holdings after trigger events",
+      "claim": "For a retail client's account, IDPC 3402(2) requires a review of the account and its holdings against the 3402(1) criteria after trigger events",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3402(2), ~L6811",
-      "quote": "A Dealer Member must review the retail client’s account and the securities, derivatives or precious metals bullion, in the retail client’s account to determine whether the criteria in subsection 3402(1) are met"
+      "quote": "A Dealer Member must review the retail client’s account and the securities, derivatives or precious metals bullion, in the retail client’s account to determine whether the criteria in subsection 3402(1) are met",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.1",
@@ -41,8 +44,9 @@
     {
       "outcome": "9.1",
       "kind": "C",
-      "claim": "A market/economic change usually prompts a portfolio-level review rather than a new KYC; it becomes a client (KYC) issue when it changes the client's situation, e.g. job loss in a recession",
-      "basis": "standard monitoring practice; consistent with 1.22 (GN-3300-21-001: general market change usually does not require reassessing individual securities) and the 3402(2)(iii) KYC trigger"
+      "claim": "GOOD PRACTICE (labelled as such, not a rule): a general market/economic change starts a portfolio-level review rather than a new KYC; IDPC 3402(2) does not list a general market change among its trigger events (list quoted in claims 114-118); it becomes a client (KYC) issue when it changes the client's own situation, e.g. job loss in a recession",
+      "basis": "standard monitoring practice; the trigger list in IDPC 3402(2)(i)-(v) (quoted) contains no general-market event; the GN-3300-21-001 passage is presented separately as product-due-diligence guidance, not as support for this practice point",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.2",
@@ -225,8 +229,9 @@
     {
       "outcome": "9.2",
       "kind": "C",
-      "claim": "Multi-factor regression attributes return to factors (market, size, value; Carhart adds momentum); factor-explained outperformance leaves little true alpha",
-      "basis": "standard Fama-French/Carhart attribution concept; conceptual only per spec"
+      "claim": "Multi-factor regression attributes return factor by factor (models 6.7, formula 9.3); a fund that beat the index only via small-cap value exposure shows little true alpha once those factors are included",
+      "basis": "standard Fama-French/Carhart attribution concept; conceptual only per spec",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.2",
@@ -239,20 +244,23 @@
     {
       "outcome": "9.2",
       "kind": "C",
-      "claim": "Contrast: fund standard performance data are unit-value (time-weighted) returns before sales charges; IDPC 3810 client report is money-weighted and net of charges, so the two can differ",
-      "basis": "returns computed from changes in unit value with distributions reinvested are independent of investor cash flows (time-weighted by construction); 3810 basis quoted in claim 'Annual performance report must show annualized total percentage return net of charges using money-weighted'"
+      "claim": "Contrast: fund standard performance data are unit-value (time-weighted) returns before sales charges (NI 81-102 s.15.4, quoted in claim 30, now cited in the 9.2 prose); the IDPC 3810 return is a money-weighted return for the whole account (combined account and outside holdings), net of charges",
+      "basis": "returns computed from changes in unit value with distributions reinvested are independent of investor cash flows (time-weighted by construction); 3810 basis quoted in claim 'Annual performance report must show annualized total percentage return net of charges using money-weighted'",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.3",
       "kind": "C",
       "claim": "Formulas: HPR = (P1 − P0 + D)/P0; cumulative = product of (1 + r) over k periods − 1; annualized = (1 + cumulative)^(1/t) − 1 with t = years = k ÷ periods per year; sample standard deviation (n−1, n = observations); Sharpe = (Rp−Rf)/σp; Treynor = (Rp−Rf)/βp; Jensen alpha = Rp − [Rf + βp(Rm−Rf)]; active (relative) return = Rp − R_benchmark",
-      "basis": "standard textbook formulas; σ convention stated as sample (n−1), population form (÷ n) noted as used in E6; 'excess return' also used for Rp − Rf, noted in prose"
+      "basis": "standard textbook formulas; σ convention stated as sample (n−1), population form (÷ n) noted as used in E6; annualization applied only when t > 1 (GIPS: returns for periods under one year must not be annualized); 'excess return' usually means Rp − Rf (consistent with E4), some texts use Rp − R_benchmark",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.3",
       "kind": "C",
-      "claim": "Worked example: buy $40, $1 dividend, end $43 → HPR 10%",
-      "basis": "(43 − 40 + 1)/40 = 4/40 = 0.10"
+      "claim": "Worked example (Ambrose Pemberton-Hale; renamed from Leo in v1.1 for name uniqueness): buy $40, $1 dividend, end $43 → HPR 10% [fix round 1: example moved under '### Rate of return' together with the linking/annualizing example]",
+      "basis": "(43 − 40 + 1)/40 = 4/40 = 0.10",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.3",
@@ -435,42 +443,47 @@
     {
       "outcome": "9.4",
       "kind": "R",
-      "claim": "Employee or Approved Person commenting publicly on the merits of an issuer or its securities must disclose whether the dealer has issued a relevant research report",
+      "claim": "Employee or Approved Person commenting publicly on the merits of an issuer or its securities must disclose whether the dealer has issued a relevant research report; an interview is a public comment",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3618(1), ~L7474",
-      "quote": "When giving an interview or otherwise making any public comment about the merits of an issuer or its securities , an employee or Approved Person of a Dealer Member must disclose whether or not the Dealer Member has issued a relevant research report."
+      "quote": "When giving an interview or otherwise making any public comment about the merits of an issuer or its securities , an employee or Approved Person of a Dealer Member must disclose whether or not the Dealer Member has issued a relevant research report.",
+      "revised": "fix round 2 (2026-10-23)"
     },
     {
       "outcome": "9.4",
       "kind": "R",
-      "claim": "3640(1) bars holding out that could reasonably mislead",
+      "claim": "IDPC 3640(1): an Approved Person must not hold themselves out, and a dealer must not hold itself or its Approved Persons out, in a manner that could reasonably mislead as to the listed matters",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3640(1), ~L7563",
-      "quote": "in a manner that could reasonably be expected to deceive or mislead any person or company as to any of the following matters:"
+      "quote": "in a manner that could reasonably be expected to deceive or mislead any person or company as to any of the following matters:",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.4",
       "kind": "R",
-      "claim": "Matters: proficiency, qualifications, registration category",
+      "claim": "Matters: proficiency, experience, qualifications; category of registration or approval",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3640(1)(i), ~L7566",
-      "quote": "the proficiency, experience, qualifications or category of registration or approval of the Approved Person"
+      "quote": "the proficiency, experience, qualifications or category of registration or approval of the Approved Person",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.4",
       "kind": "R",
-      "claim": "Matters: products and services",
+      "claim": "Matters: products or services provided, or to be provided",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3640(1)(iii), ~L7572",
-      "quote": "the products or services provided, or to be provided, by the Dealer Member or the Approved Person"
+      "quote": "the products or services provided, or to be provided, by the Dealer Member or the Approved Person",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.4",
       "kind": "R",
-      "claim": "Matters: nature of the relationship with the dealer or Approved Person",
+      "claim": "Matters: the relationship, or potential relationship, with the dealer or Approved Person",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3640(1)(ii), ~L7570",
-      "quote": "the nature of the person’s relationship, or potential relationship, with the Dealer Member or the Approved Person"
+      "quote": "the nature of the person’s relationship, or potential relationship, with the Dealer Member or the Approved Person",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.4",
@@ -507,10 +520,11 @@
     {
       "outcome": "9.4",
       "kind": "R",
-      "claim": "IIROC Notice 14-0073 (CIRO guidance): designation vetting criteria",
+      "claim": "IIROC Notice 14-0073 (CIRO guidance): designation criteria, given 'for example' in prose: rigorous curriculum/exam, experience requirements, ethics, continuing education, method to confirm current status, public complaint and disciplinary process",
       "source_file": "research/sources/ciro/notice-14-0073-business-titles-financial-designations.txt",
       "locator": "Notice 14-0073, ~L45",
-      "quote": "(i) a rigorous curriculum and examination process (i.e. type and length of exam); (ii) experience requirements; (iii) an emphasis on ethics; (iv) a continuing education requirement; (v) a method for determining the individual’s current status regarding the designation; (vi) a public complaint and disciplinary process"
+      "quote": "(i) a rigorous curriculum and examination process (i.e. type and length of exam); (ii) experience requirements; (iii) an emphasis on ethics; (iv) a continuing education requirement; (v) a method for determining the individual’s current status regarding the designation; (vi) a public complaint and disciplinary process",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.4",
@@ -539,10 +553,11 @@
     {
       "outcome": "9.4",
       "kind": "R",
-      "claim": "Recommendation via social media triggers suitability",
+      "claim": "A recommendation made on social media (or in written correspondence) must take the Rule 3400 suitability requirements into consideration",
       "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
       "locator": "GN-3600-21-002 'Suitability and Recommendations', ~L205",
-      "quote": "whether delivered via social media website or by way of written correspondence, must take into consideration the suitability requirements set out in Rule 3400"
+      "quote": "whether delivered via social media website or by way of written correspondence, must take into consideration the suitability requirements set out in Rule 3400",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.4",
@@ -571,18 +586,20 @@
     {
       "outcome": "9.4",
       "kind": "R",
-      "claim": "Business-related depends on content; device irrelevant",
+      "claim": "Business-related depends on content; device is irrelevant",
       "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
       "locator": "GN-3600-21-002 'Record retention', ~L277",
-      "quote": "depends on the content of the communication. The type of device used to transmit the communication or whether it is a personal device or Dealer issued device is irrelevant."
+      "quote": "depends on the content of the communication. The type of device used to transmit the communication or whether it is a personal device or Dealer issued device is irrelevant.",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.4",
       "kind": "R",
-      "claim": "Dealers must design compliant retention and retrieval for the communication methods they permit",
+      "claim": "Dealers must design retention and retrieval systems for the communication methods they permit (prose: design duty is for permitted channels; the retention duty itself depends on content)",
       "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
       "locator": "GN-3600-21-002, ~L279",
-      "quote": "Dealers must therefore design systems and programs with compliant record retention and retrieval functionalities for those methods of communication permitted by a Dealer."
+      "quote": "Dealers must therefore design systems and programs with compliant record retention and retrieval functionalities for those methods of communication permitted by a Dealer.",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.4",
@@ -699,10 +716,11 @@
     {
       "outcome": "9.5",
       "kind": "R",
-      "claim": "Document reasonable basis for cost conclusions",
+      "claim": "Registered Individuals (RRs, PMs, Associate PMs) must document the reasonable basis for their cost conclusions",
       "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
       "locator": "GN-3400-21-004 s. 3.2.5, ~L516",
-      "quote": "must document the reasonable basis for their conclusions"
+      "quote": "must document the reasonable basis for their conclusions",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.5",
@@ -747,10 +765,11 @@
     {
       "outcome": "9.5",
       "kind": "R",
-      "claim": "No prescribed format; document identification, materiality, controls",
+      "claim": "No prescribed format; document identification and assessment of each conflict, whether it is material, and — for each MATERIAL conflict — the controls that address it in the client's best interest",
       "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
       "locator": "Staff Notice 31-363 'Conflicts of interest record keeping obligations', ~L499",
-      "quote": "Although there is no prescribed format, firms must document their identification, review and analysis of conflicts of interest, their determination as to whether a conflict is material, and the controls used by the firm to ensure that material conflicts of interest have been addressed in the client’s best interest."
+      "quote": "Although there is no prescribed format, firms must document their identification, review and analysis of conflicts of interest, their determination as to whether a conflict is material, and the controls used by the firm to ensure that material conflicts of interest have been addressed in the client’s best interest.",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.5",
@@ -795,16 +814,18 @@
     {
       "outcome": "9.5",
       "kind": "R",
-      "claim": "Notice 17-0093: grids paying more for fee-based revenue",
+      "claim": "Most dealers paid the highest grid payout on fee-based revenue",
       "source_file": "research/sources/ciro/notice-17-0093-compensation-related-conflicts-review.txt",
       "locator": "IIROC Notice 17-0093, ~L275",
-      "quote": "Most Dealers provide the highest possible grid payout to representatives for fee-based revenue."
+      "quote": "Most Dealers provide the highest possible grid payout to representatives for fee-based revenue.",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.5",
       "kind": "C",
-      "claim": "Applied example: where the grid pays more on fee-based revenue, the file should show the firm's review of that incentive, why each move to a fee-based account suited the client, and ongoing monitoring",
-      "basis": "application of IDPC 3804(2)(xvi)-(xvii) record duties and Notice 17-0093 findings (L223, L275, L279); illustrative, not a quoted requirement"
+      "claim": "Scenario (Bartholomew Ravensworth / Graciela Almeida, buy-and-hold client, grid pays more on fee-based revenue): the move itself must put her interest first (GN 3.3.1; IDPC 3402(3)); for a buy-and-hold client a fee-based account means ongoing fees without commensurate service, so the move is likely not appropriate; a sound file cannot cure an unsuitable move; if it does suit her, file shows why incl. cost (GN 3.3.1) and later monitoring; file shows review of the grid incentive as compensation arrangement and conflict (3804(2)(xvi)-(xvii))",
+      "basis": "application of quoted GN-3400-21-004 s.3.3.1 (claim 160), IDPC 3402(3)(ii), IIROC Notice 17-0093 L277 (buy and hold), L279, L283 and IDPC 3804(2)(xvi)-(xvii)",
+      "revised": "fix round 1 (2026-10-23)"
     },
     {
       "outcome": "9.5",
@@ -815,26 +836,798 @@
     {
       "outcome": "9.5",
       "kind": "R",
-      "claim": "Records demonstrate compliance with complaint handling requirements",
-      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
-      "locator": "IDPC 3804(2)(xiii), ~L8362",
-      "quote": "demonstrate compliance with complaint handling requirements"
-    },
-    {
-      "outcome": "9.5",
-      "kind": "R",
       "claim": "Records document correspondence with clients",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3804(2)(xiv), ~L8363",
       "quote": "document correspondence with clients"
     },
     {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Product due diligence guidance (dealer's monitoring of approved securities under IDPC 3301(1)(iii), not client-account monitoring): CIRO generally would not consider a change in the overall market a change requiring reassessment of individual securities. Presented as guidance in prose (no longer a 'Key rule' callout)",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001 'Monitor and review significant changes', ~L185",
+      "quote": "While a change in the overall market or economic conditions may affect a Dealer’s or an Approved Person’s assessment of a security, we generally would not consider it a change requiring reassessment of individual securities.",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Exception, both branches: a change in market conditions that affects only a particular security or sector, or new information about a particular security or sector, may require reassessment of the affected securities",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001, ~L185",
+      "quote": "However, a change in market conditions that affects only a particular security, or sector, or new information regarding a particular security or sector, may require a reassessment of the affected securities.",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Fixed review cycle of suitability KYC information: at least every 36 months; managed and discretionary accounts at least every 12 months",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3209(4), ~L5652",
+      "quote": "A Dealer Member must review the information collected under clause 3202(1)(iii) no less frequently than once every 36 months, except for a managed account and a discretionary account which must be reviewed no less frequently than once every 12 months.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Some accounts, e.g. order execution only accounts, are exempt from the 3209(4) cycle",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3208(1)(i), ~L5636",
+      "quote": "Clause 3202(1)(iii) and subsection 3209(4) do not apply in respect to: (i) an order execution only account",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Review must be done by taking reasonable steps within a reasonable time after a trigger event",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2), ~L6811",
+      "quote": "and take reasonable steps, within a reasonable time, after any of the following events",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Trigger: securities come into the account by deposit or transfer-in",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(i), ~L6814",
+      "quote": "are received or delivered into the client’s account by way of deposit or transfer",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Trigger: a new Registered Representative (or Portfolio Manager / Associate PM) designated as responsible",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(ii), ~L6816",
+      "quote": "a Registered Representative, Portfolio Manager or Associate Portfolio Manager is designated as responsible for the account",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Trigger: dealer becomes aware of a change in the client's KYC information that could make a holding or account unsuitable",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(iii), ~L6818",
+      "quote": "the Dealer Member becomes aware of a change in the retail client ’s information collected in accordance with subsection 3202(1) that could result in a security",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Trigger: dealer becomes aware of a change in a security in the client's account that could make it or the account unsuitable; prose links a security-specific change to this trigger for the accounts that hold it [cross-element consistency 2026-10-23: X16 9.1 now names two trigger examples and cross-refers to 1.21 for the full list]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(iv), ~L6821",
+      "quote": "the Dealer Member becomes aware of a change in a security, derivative or precious metals bullion, in the retail client’s account that could result in the security",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Trigger: the periodic 3209(4) review of client information",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(v), ~L6824",
+      "quote": "the Dealer Member reviews the retail client’s information in accordance with subsection 3209(4)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Review applies the full 3402(1) test, including concentration and liquidity",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(c), ~L6800",
+      "quote": "the impact of the action on the retail client’s account, including the concentration of securities, derivatives or precious metals bullion, within the account and the liquidity of those securities",
+      "added": "v1.1",
+      "revised": "fix round 2 (2026-10-23): rendered as vertical list"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Guidance: conduct the trigger-event suitability determination in a timely manner, based on the nature and circumstances of the event",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s. 3.4.4, ~L604",
+      "quote": "Dealers and Registered Individuals should conduct this suitability determination in a timely manner, based on the nature and circumstances of the event.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "C",
+      "claim": "Purpose of monitoring: a portfolio suitable at purchase can move away from the client's needs",
+      "basis": "standard portfolio-monitoring rationale; continuing duty grounded in IDPC 3402(2) (quoted above)",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "C",
+      "claim": "What goes wrong: with a stale KYC, every later suitability determination uses old facts; the client can hold an unsuitable portfolio; the dealer also cannot show compliance",
+      "basis": "inference: 3402(1)(i)(a) bases suitability on KYC information collected under 3202; 3804(2)(xii) records must demonstrate KYC/suitability compliance (quoted in 9.5)",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "C",
+      "claim": "Scenario (Perpetua Lachance, 61, loses job in recession, will withdraw within a year): significant KYC change → update within reasonable time (3209(3)); trigger event → account review (3402(2)(iii)); any sale must consider tax effect (GN 3.4.3, see 9.2)",
+      "basis": "application of quoted IDPC 3209(3), 3402(2) and GN-3400-21-004 s. 3.4.3; job loss changes financial circumstances, time horizon and liquidity needs (3202(1)(iii) KYC items)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "Dealer must send an annual performance report to each retail client (meeting the conditions)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3810(1), ~L8703",
+      "quote": "A Dealer Member must send an annual performance report to each retail client who",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "Report must explain the calculation method in plain language",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3810(2)(vi)(c), ~L8800",
+      "quote": "a general explanation in plain language of what the calculation method takes into account",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "If the dealer received trailing commissions on the client's securities, the report must include a notice telling the client these fees reduce the fund's return (IDPC 3811(2)(ix))",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3811(2)(ix), ~L8945",
+      "quote": "But, these fees affect you because they reduce the amount of the fund’s return to you.",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "Guidance reads cost broadly, including trailing commissions",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s. 3.2.5, ~L506",
+      "quote": "all direct and indirect costs, fees, commissions and charges, including trailing commissions",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "Suitability test includes consideration of a reasonable range of alternative actions",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(e), ~L6807",
+      "quote": "a consideration of a reasonable range of alternative actions available to the Registered Representative",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "C",
+      "claim": "Comparative performance: compare with a benchmark (index or blend) and a peer group, often by quartile rank (first quartile = better than at least 75% of peers); same period and fee basis, peers of the same style; pitfalls: style mismatch, survivorship bias (closed, usually poor funds dropped → peer average too high), gross-vs-net fee comparison flatters the fund",
+      "basis": "standard performance-evaluation practice (CFA/GIPS: valid comparisons require identical periods and a consistent gross/net-of-fee basis; peer-group survivorship bias and style mismatch are standard textbook caveats; quartile definition)",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "C",
+      "claim": "Proper benchmark: chosen in advance and matched to the mandate; judging a balanced fund only against an equity index is misleading; a benchmark chosen after the results can make results look better",
+      "basis": "Bailey benchmark criteria (specified in advance; appropriate) — standard",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "C",
+      "claim": "Scenario (Clementine Oyelaran): her account holds ONLY this fund (so other holdings cannot explain the gap); fund shows 9% 1-year, her report shows 6%; most money invested just before a market fall; neither is wrong — fund figure is unit-value (time-weighted) before sales charges, her report is money-weighted net of charges",
+      "basis": "illustrative figures, no computation; money-weighted return gives more weight to periods with more client money invested; NI 81-102 s.15.4(6) warning and IDPC 3810(2)(v) (both quoted above)",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "C",
+      "claim": "Scenario (Thibault Thorvaldsen): switch to similar fund with slightly lower expense ratio in non-registered account with a large unrealized gain and a switch fee; consider switch fee/commission, capital gains tax now, the alternative of keeping the fund, and document the reasonable basis",
+      "basis": "application of quoted IDPC 3402(1)(i)(d)-(e) and GN-3400-21-004 s. 3.2.5; tax deferral concept: realized gain taxed now vs small annual MER saving — qualitative, no computation",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.3",
+      "kind": "C",
+      "claim": "When returns vary, the annualized (geometric) return is below the arithmetic average",
+      "basis": "AM–GM inequality applied to growth factors (1 + r); equality only when all period returns are equal; e.g. +20%/−10%: 3.92% vs 5% (worked example)",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.3",
+      "kind": "C",
+      "claim": "Standard deviation measures spread of returns around their mean; \"absolute\" because no benchmark is used",
+      "basis": "standard definition of total/absolute risk",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.3",
+      "kind": "C",
+      "claim": "Scenario (Kazimierz Weber): he will move ALL his money into one of two equity funds (X or Y); X has a higher Treynor but lower Sharpe over the same period → Sharpe fits because the chosen fund is his whole portfolio and he bears total risk incl. company-specific; Treynor ignores it",
+      "basis": "standard interpretation: Sharpe for whole/sole portfolio, Treynor for a component of a diversified portfolio",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Dealer policies must specifically address communication with the public; dealer must monitor compliance",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3601(1), ~L7264",
+      "quote": "A Dealer Member’s policies and procedures must specifically address communication with the public and the Dealer Member must monitor compliance with these policies and procedures",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Definition: advertisement",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201(2) 'advertisement', ~L252",
+      "quote": "Any commercials, commentaries and any published materials promoting a Dealer Member’s business, including materials disseminated or made available electronically.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Definition: sales literature",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201(2) 'sales literature', ~L947",
+      "quote": "Any written or electronic communication for client use which contains a recommendation relating to a security or derivative, or trading strategy",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Definition: correspondence",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201(2) 'correspondence', ~L378",
+      "quote": "Any advertisement or business related communication, including any written or electronic communication, prepared for distribution to a single current or prospective client",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Content and purpose, not distribution method, decide the category",
+      "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
+      "locator": "GN-3600-21-002 'Definitions', ~L70",
+      "quote": "Whether materials are considered correspondence, advertising or sales literature is determined by their content and purpose rather than how they are distributed.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "First use of a template advertisement needs pre-approval",
+      "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
+      "locator": "GN-3600-21-002 'Original and Template Advertisements', ~L164",
+      "quote": "The first use of a template advertisement requires pre-approval.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Minor template changes (e.g. RR name, branch location) need no approval",
+      "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
+      "locator": "GN-3600-21-002, ~L164",
+      "quote": "minor changes to the template such as the name of the Registered Representative or location of the branch do not require approval",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Cross-supervision: no one approves or supervises their own materials",
+      "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
+      "locator": "GN-3600-21-002 'Reviews', ~L115",
+      "quote": "An individual should not be responsible for approval or supervision of their own materials.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "3602(1) lead-in: must not issue, participate in or knowingly allow use of its name",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3602(1), ~L7282",
+      "quote": "A Dealer Member must not issue, participate in or knowingly allow the use of its name in any advertisement, sales literature or correspondence that:",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Unrepresentative statistics, including failure to identify material assumptions",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3602(1)(iii), ~L7287",
+      "quote": "uses unrepresentative statistics to suggest unwarranted or exaggerated conclusions, or fails to identify the material assumptions made in arriving at these conclusions",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Detrimental to the interests of the public, CIRO or its Dealer Members",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3602(1)(vi), ~L7291",
+      "quote": "is detrimental to the interests of the public, the Corporation or its Dealer Members",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Fails to comply with CIRO requirements or applicable laws",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3602(1)(vii), ~L7292",
+      "quote": "fails to comply with Corporation requirements or any applicable laws",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Records must demonstrate compliance with misleading communications requirements; prose links this to IDPC 3640 (Part C 'Misleading communications') as well as 3602(1)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3804(2)(xviii), ~L8372",
+      "quote": "demonstrate compliance with misleading communications requirements",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "C",
+      "claim": "Explanation (not a stated rule purpose): communications shape what clients believe, which is one reason the dealer must supervise them; clients use titles to judge expertise; harm of a misleading message comes before any trade",
+      "basis": "purpose statements; consistent with Notice 14-0073 (vulnerable/less sophisticated investors) and IDPC 3640(1)",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "C",
+      "claim": "Off-channel consequence: an uncaptured chat about a client's account is a retention and supervision risk; the dealer cannot use it to show compliance",
+      "basis": "inference from GN-3600-21-002 retention/retrieval passages (L277-279), IDPC 3804(2)(xiii)-(xiv) record duties and Compliance Report 2026 s.3.5 (all quoted)",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "C",
+      "claim": "Scenario (Seraphine Taillefer, 'President's Circle Advisor' on LinkedIn; award given to top revenue producers): barred by 3640(2)(i); profile is static content needing pre-approval",
+      "basis": "application of quoted IDPC 3640(2)(i) and GN-3600-21-002 static-content passage (L232)",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "C",
+      "claim": "Scenario (Radomir Volkov texts sell instruction to RR's personal messaging app, unapproved): business record on any device; she must preserve it in the dealer's records as firm policy directs; she should confirm the instruction through an approved channel before acting; tell client to use approved channels (guidance: discourage e-mail orders)",
+      "basis": "application of quoted GN-3600-21-002 L277 (content decides; device irrelevant; 'captured by this requirement'), GN-3600-21-002 'Client Orders' L203 and Compliance Report 2026 s.3.5; 'confirm before acting' is presented as the prudent step (should), not as a quoted rule",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
       "outcome": "9.5",
       "kind": "R",
-      "claim": "Records demonstrate compliance with temporary hold conditions",
+      "claim": "Records must properly record business activities, financial position, operating results and client transactions",
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
-      "locator": "IDPC 3804(2)(xix), ~L8373",
-      "quote": "demonstrate compliance with the conditions for temporary holds"
+      "locator": "IDPC 3804(1)(i), ~L8321",
+      "quote": "properly record its business activities, financial position, financial operating results and client transactions",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Records must demonstrate compliance with securities laws and CIRO requirements",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3804(1)(ii), ~L8323",
+      "quote": "demonstrate the Dealer Member’s compliance with securities laws and Corporation requirements",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Internal controls: records correct, clear and accurate, current",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3804(3), ~L8377",
+      "quote": "A Dealer Member must maintain appropriate internal controls to provide reasonable assurance that its records: (i) are correct, (ii) provide clear and accurate information, and (iii) remain current.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Account appropriateness determination before opening an account, on a reasonable basis, client interest first",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3211(1), ~L5671",
+      "quote": "Before a Dealer Member opens an account for a person , the Dealer Member must determine, on a reasonable basis and putting the person’ s interest first, that:",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Appropriateness covers the account itself",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3211(1)(i), ~L5677",
+      "quote": "this action is appropriate for the person",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Appropriateness covers scope of products, services and account relationships",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3211(1)(ii), ~L5678",
+      "quote": "the scope of products, services and account relationships which the person would have access to within the account are appropriate for the person",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "OEO and DEA accounts exempt from the scope test",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3211(2), ~L5680",
+      "quote": "Clause 3211(1)(ii) does not apply in respect to: (i) an order execution only account, or (ii) a direct electronic access account.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Dealers must explain account types' features and costs (fee-based vs commission-based) and recommend the type that puts client interest first",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s. 3.3.1, ~L524",
+      "quote": "also explain the features and associated costs of the different types of accounts that are available to the client at the Dealer, such as, for example, fee-based and commission-based accounts, as applicable, and recommend the type of account that puts the client’s interest first.",
+      "added": "v1.1"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Records must demonstrate KYC (and KYP/PDD) compliance, so KYC updates, periodic reviews and the client's confirmation belong on file; KYP and PDD both named in 3804(2)(xii)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3804(2)(xii), ~L8360",
+      "quote": "demonstrate compliance with know-your -client, account appropriateness, product due diligence, know-your-product and suitability determination requirements",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Disclosure alone never satisfies the conflicts rule (3111(1)/3112(1)); cross-element consistency X03 with E1 1.23",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3113(3), ~line 4982",
+      "quote": "A Dealer Member and an Approved Person do not satisfy subsections 3111(1) or 3112(1) solely by providing disclosure to the client."
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Supporting history (pre-dates IDPC 3113(3)): specific measures such as firm-wide controls and documented best-interest assessments",
+      "source_file": "research/sources/ciro/notice-17-0093-compensation-related-conflicts-review.txt",
+      "locator": "IIROC Notice 17-0093 'Disclosure', ~L191",
+      "quote": "In most cases, conflicts cannot be addressed through disclosure alone; Dealers should take specific measures such as firm-wide controls and/or documenting best-interest assessments made by the Dealer’s representatives.",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "The notice generally considers a product-neutral grid a best practice",
+      "source_file": "research/sources/ciro/notice-17-0093-compensation-related-conflicts-review.txt",
+      "locator": "IIROC Notice 17-0093 'Compensation bias in favour of fee-based accounts', ~L285",
+      "quote": "Most Dealers stated that their compensation grid is product-neutral, which we generally consider to be a best practice.",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "C",
+      "claim": "Scenario (client inherited shares and transferred them into her account; supervisor queries the concentration; RR answers by phone; nothing written): review not complete — the transfer-in was a 3402(2)(i) trigger, so a suitability review must cover the concentration (3402(1)(i)(c)) and the sale plan; the dealer must record and keep evidence of the inquiry and its resolution (3927(2))",
+      "basis": "application of quoted IDPC 3402(2)(i) (claim 114), 3402(1)(i)(c) (claim 119) and 3927(2) (claim 96)",
+      "added": "v1.1",
+      "revised": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.3",
+      "kind": "C",
+      "claim": "Annualize only a period longer than one year; for a shorter period report the cumulative (not annualized) return",
+      "basis": "GIPS convention (returns for periods of less than one year must not be annualized); annualizing a 5% quarter as (1.05)^4 − 1 = 21.6% would overstate performance",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "Product due diligence includes monitoring approved securities for significant changes (context for the GN-3300-21-001 passage)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3301(1)(iii), ~L6743",
+      "quote": "monitor the securities or derivatives for significant changes",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "3402 (incl. the 3402(2) trigger-event review) does not apply to order execution only or direct electronic access accounts, other than 3402(3)(i)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3404(1), ~L6911",
+      "quote": "Other than clauses 3402(3)(i) and 3403(4)(i), sections 3402 or 3403 do not apply in respect to: (i) an order execution only account, or (ii) a direct electronic access account.",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.1",
+      "kind": "R",
+      "claim": "The 3402(1) test includes that the action puts the retail client's interest first",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(ii), ~L6810",
+      "quote": "the action puts the retail client’s interest first",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "Performance report condition: account with a debit or credit balance or positions, or reportable outside holdings",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3810(1)(i)-(ii), ~L8705",
+      "quote": "holds one or more outside holdings for which quarterly reporting pursuant to section 3809 is required",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "Performance report condition: account with a debit or credit balance",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3810(1)(i)(a), ~L8706",
+      "quote": "a debit or credit balance, or",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "Performance report condition: at least one position or outside holding with a determinable market value",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3810(1)(iii), ~L8711",
+      "quote": "there is at least one position in the account or at least one outside holding for which quarterly reporting pursuant to section 3809 is required, for which a market value can be determined",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "The performance report gives combined information about the client's account and outside holdings (account-level, not per fund)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3810(2), ~L8719",
+      "quote": "The annual performance report must include all of the following combined information about the client’s account and outside holdings",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.2",
+      "kind": "R",
+      "claim": "The trailing commission notice is required only if the dealer received trailing commissions on the client's securities",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3811(2)(ix), ~L8938",
+      "quote": "if the Dealer Member received trailing commissions related to securities owned by the client during the period covered by the report",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Who 3640(1) binds: the Approved Person, and the dealer (itself or its Approved Persons), including through a trade name",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3640(1), ~L7564",
+      "quote": "An Approved Person must not hold themselves out, and a Dealer Member must not hold itself or its Approved Persons out, including through the use of a trade name",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "IDPC 3640 is the IDPC section titled 'Misleading communications' (Part C)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC Part C, s. 3640 heading, ~L7563",
+      "quote": "3640. Misleading communications",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Dealers should at least monitor or prohibit electronic communications that are recommendations",
+      "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
+      "locator": "GN-3600-21-002 'Suitability and Recommendations', ~L207",
+      "quote": "At the very least Dealers should implement measures to monitor and/or prohibit electronic communications that constitute a recommendation",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Performance material should be reviewed for compliance with NI 81-102 (replaces unsupported 'fund sales communications have their own rules')",
+      "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
+      "locator": "GN-3600-21-002 'Performance reports', ~L168",
+      "quote": "These materials should be reviewed for compliance with section 3603 and NI 81-102.",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "A business-related communication is captured by the retention requirement whatever the device",
+      "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
+      "locator": "GN-3600-21-002 'Record retention', ~L277",
+      "quote": "and therefore captured by this requirement, depends on the content of the communication",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.4",
+      "kind": "R",
+      "claim": "Dealers should discourage clients and RRs from sending orders by e-mail",
+      "source_file": "research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt",
+      "locator": "GN-3600-21-002 'Client Orders', ~L203",
+      "quote": "Dealers should discourage clients and Registered Representatives from using e-mails to communicate orders.",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Account appropriateness: some accounts are fully exempt from 3211(1), e.g. accounts held by a bank",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3211(3)(ii), ~L5689",
+      "quote": "an account held by a Dealer Member , regulated entity, exempt market dealer, portfolio manager, bank, trust company or insurance company",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Client must be asked to confirm the accuracy of KYC information within a reasonable time",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3202(3), ~L5521",
+      "quote": "Within a reasonable time after receiving the information collected under subsection 3202(1), a Dealer Member must take reasonable steps to have a client confirm the accuracy of such information.",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Unsuitable client instruction: the dealer may carry it out only after the 3402(5) steps",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(5), ~L6846",
+      "quote": "if a Dealer Member receives an instruction from a retail client to take an action that, if taken, does not satisfy subsections 3402(1), the Dealer Member may carry out the retail client’s instruction if the Dealer Member has",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Step 1: inform the client of the basis for the determination and advise against proceeding",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(5)(i), ~L6849",
+      "quote": "informed the retail client of the basis for the determination that the action will not satisfy subsection 3402(1) and advised the client against proceeding with the order",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Step 2: recommend an alternative action that satisfies 3402(1)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(5)(ii), ~L6851",
+      "quote": "recommended to the retail client an alternative action that satisfies subsection 3402(1)",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Step 3: recorded confirmation of the client's instruction to proceed",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(5)(iii), ~L6852",
+      "quote": "received recorded confirmation of the retail client’s instruction to proceed with the action",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Definition: Registered Individuals = Registered Representatives, Portfolio Managers and Associate Portfolio Managers",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004, ~L748",
+      "quote": "the term “Registered Individual” refers collectively to individuals approved by IIROC as Registered Representatives, Portfolio Managers or Associate Portfolio Managers",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Product due diligence is the dealer's duty",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3301(1), ~L6738",
+      "quote": "A Dealer Member must not make securities or derivatives available to clients unless the Dealer Member has taken reasonable steps to",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "KYP is the Approved Person's own duty: take steps to understand the security before buying, selling or recommending",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3302(1), ~L6748",
+      "quote": "An Approved Person of a Dealer Member must not purchase or sell securities or transact in derivatives for, or recommend securities or derivatives to, a client unless the Approved Person takes steps to understand the securities",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Ongoing suitability of the scope of account relationships (account type), on a reasonable basis and client interest first",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(3)(ii), ~L6835",
+      "quote": "the scope of products, services and account relationships which the retail client has access to within the account are suitable for the retail client",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Buy-and-hold clients in fee-based accounts can pay ongoing fees without commensurate service",
+      "source_file": "research/sources/ciro/notice-17-0093-compensation-related-conflicts-review.txt",
+      "locator": "IIROC Notice 17-0093 'Compensation bias in favour of fee-based accounts', ~L277",
+      "quote": "there are other cases such as “buy and hold” where the client will be paying ongoing fees without receiving a commensurate level of ongoing service",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Sales practices: overly aggressive sales targets can lead to inappropriate sales activity",
+      "source_file": "research/sources/ciro/notice-17-0093-compensation-related-conflicts-review.txt",
+      "locator": "IIROC Notice 17-0093, ~L353",
+      "quote": "It is also possible that inappropriate sales activity will result from a Dealer setting overly aggressive sales targets that representatives must meet.",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Sales practices: examiners will ask for the rationale behind sales targets and the controls on them",
+      "source_file": "research/sources/ciro/notice-17-0093-compensation-related-conflicts-review.txt",
+      "locator": "IIROC Notice 17-0093, ~L353",
+      "quote": "BCC will ask Dealers to explain the rationale behind sales targets and controls they have implemented to guard against inappropriate sales activity.",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "A neutral grid gives no financial motive to favour a product or account type",
+      "source_file": "research/sources/ciro/notice-17-0093-compensation-related-conflicts-review.txt",
+      "locator": "IIROC Notice 17-0093, ~L285",
+      "quote": "Compensation programs should be designed in such a way that there is no financial motivation to bias a representative towards either specific products or specific account types.",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "Many dealers paid performance bonuses linked to fee-based assets",
+      "source_file": "research/sources/ciro/notice-17-0093-compensation-related-conflicts-review.txt",
+      "locator": "IIROC Notice 17-0093, ~L275",
+      "quote": "a significant number of Dealers provide additional incentives to representatives in the form of performance bonuses linked to fee-based assets",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "R",
+      "claim": "A biased incentive favouring related-party products magnifies a conflict rather than addressing it",
+      "source_file": "research/sources/ciro/notice-17-0093-compensation-related-conflicts-review.txt",
+      "locator": "IIROC Notice 17-0093 'Related-party products', ~L314",
+      "quote": "by providing a biased financial incentive to favour related-party products over comparable third-party products, the Dealer is magnifying, rather than addressing, a conflict of interest",
+      "added": "fix round 1 (2026-10-23)"
+    },
+    {
+      "outcome": "9.5",
+      "kind": "C",
+      "claim": "Why sales/compensation/incentive records matter: pay can bias advice, so a biased incentive creates a conflict (explanation, not rule text); separately, records must demonstrate compliance with conflicts requirements (3804(2)(xvi), see R claim)",
+      "basis": "explanation linking quoted IDPC 3804(2)(xvi)-(xvii) and Notice 17-0093 findings",
+      "added": "fix round 1 (2026-10-23)",
+      "revised": "fix round 2 (2026-10-23): explanation separated from citation"
     }
   ],
   "gaps": [
@@ -842,7 +1635,12 @@
     "9.4 GN-3600-21-002 cites legacy subsections 3603(3) and 3603(6); the guide cites the current IDPC 3602(3) and 3602(6) (crosswalk: 3603-3605 now reserved).",
     "9.4 IIROC Notice 14-0073 (listed by CIRO as Series 2000 guidance; CIRO index says it will be updated in a separate project) cites legacy IIROC DMR 29.1/18.16; the operative title rule is quoted from current IDPC 3640.",
     "9.2 tax implications of recommendations: only the GN-3400-21-004 s. 3.4.3 'mindful of any tax' passage is regulatory; the capital-gains/after-tax framing is C (see Element 7 for tax mechanics).",
-    "9.2 comparative performance, benchmarks and multi-factor regression are C (no regulatory text); NI 81-102 fund-advertising performance rules not used.",
-    "9.5 'sales practices' / compensation records: covered by IDPC 3804(2)(xvii)(a)-(b) plus IIROC Notice 17-0093 (CIRO Series 3000 guidance) findings; the notice is legacy IIROC guidance citing the former Conflicts Rule (DMR 42). 31-103CP s.11.5 is referenced by Staff Notice 31-363 but not in the corpus excerpt used."
-  ]
+    "9.5 'sales practices' / compensation records: covered by IDPC 3804(2)(xvii)(a)-(b) plus IIROC Notice 17-0093 (CIRO Series 3000 guidance) findings; the notice is legacy IIROC guidance citing the former Conflicts Rule (DMR 42). 31-103CP s.11.5 is referenced by Staff Notice 31-363 but not in the corpus excerpt used.",
+    "v1.1 (2026-10-23): 9.4 'off-channel' remains a guide-defined label (CIRO text says 'non-approved channels'); 9.2 comparative performance, benchmark choice and multi-factor regression remain C; scenario names chosen to be unique across E1-E8 at time of drafting.",
+    "9.2 comparative performance, benchmarks and multi-factor regression are C (no regulatory text). NI 81-102 s.15.4 is used only for the basis of fund standard performance data (claim 30, now cited in the 9.2 prose); its fund-advertising rules are otherwise not used.",
+    "fix round 1 (2026-10-23): 9.5 complaint-handling and temporary-hold record duties (IDPC 3804(2)(xiii), (xix)) removed from the 9.5 prose as scope drift (they belong to 1.5/1.6/7.12); correspondence with clients (xiv) kept in the Remember box. Removed claims: Records demonstrate compliance with temporary hold conditions | Records demonstrate compliance with complaint handling requirements",
+    "fix round 1: 9.4 Radomir scenario's 'confirm the instruction through an approved channel before acting' is presented as the prudent step (should), not a quoted rule; GN-3600-21-002 'Client Orders' covers e-mail orders only.",
+    "fix round 1: 9.1 'portfolio-level review first' is labelled good practice; no rule makes a general market change a trigger event."
+  ],
+  "revised": "2026-10-23 (v1.1: ASD-STE100 rewrite + comprehensive depth); fix round 1 2026-10-23; fix round 2 2026-10-23"
 }

@@ -49,3 +49,23 @@
 - **Sidecars:** about 1,400 attributed quotes of ≤ 50 words each (4 run 51–61), kept as provenance, the same pattern as `source_quote` in the Supervisor bank.
 - **`syllabus.json`:** the 9 element summaries had been copied verbatim from the CIRO syllabus. They were rewritten in our own words; outcome statements remain condensed topic lists.
 - Every full-text source copy (PDF/TXT/HTML/XML) is gitignored and local only.
+
+## 2026-10-23: Study guide v1.1 (comprehensive depth, ASD-STE100)
+
+**User decisions:**
+- Depth changed from "in between" to **comprehensive**, with the extra depth in applied scenarios and deeper explanations.
+- All prose follows the **ASD-STE100** writing rules.
+- The final length of about 76.6k words (target 60k) was **accepted by the user**.
+
+**Process:** one expander per element, then three independent adversarial auditors (concepts/numbers/scenarios; rules/sources/coverage/depth; STE and meaning preservation against the v1.0 text in git), then fix and re-verify for up to two rounds, then a cross-element consistency pass. 74 agents, 0 errors. 578 audit findings plus 18 consistency findings were fixed.
+- 12 items were still open afterwards, mostly rule qualifiers dropped by late word-budget trims (e.g. the OSA s. 76(2) "necessary course of business" exception, IDPC 3816(2)(vi)(c), Form 1 Note 7(vi)(b), NI 45-106 s. 2.4(1)(b)). A targeted fix pass restored all 12, and an independent verifier confirmed each.
+- The orchestrator then fixed 5 small items and paraphrased one 66-word near-verbatim passage (E3 3.2).
+
+**Final state:**
+- **Words:** 76,565.
+- **Coverage:** 395 Consider bullets, each in its own subsection; 131 scenarios; every Apply/Analyze outcome has at least one.
+- **Quotes:** 2,163 of 2,163 verify against the sources.
+- **STE lint:** 0 gate violations.
+- **Structure:** `npm run validate` passes.
+- **Calculation scope:** the only hit outside the table is 3.4, the syllabus-grounded fee example.
+- **Verbatim overlap:** at most 52 words in any run.
