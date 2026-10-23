@@ -11,8 +11,9 @@
     {
       "outcome": "6.1",
       "kind": "C",
-      "claim": "Strategic = long-run policy mix with targets/ranges (may change on a schedule over the client's life, e.g. target-date glide path); tactical = temporary deliberate tilts; dynamic = rule-based continuous adjustment as market values change (constant-mix, portfolio insurance); rebalancing = restoring drifted weights by calendar or tolerance band",
-      "basis": "standard definitions (dynamic asset allocation per Perold-Sharpe constant-mix/CPPI usage; glide path as scheduled change to policy mix)"
+      "claim": "Strategic = long-run policy mix with targets/ranges (may change on a schedule over the client's life, e.g. target-date glide path); tactical = temporary deliberate tilts (an active forecast); dynamic = rule-based mix that changes automatically as market values change (portfolio insurance/CPPI: more equities after gains, fewer after losses); rebalancing = restoring drifted weights to fixed targets by calendar or tolerance band",
+      "basis": "standard definitions (Perold-Sharpe: CPPI is the dynamic strategy whose risky weight moves with values; constant-mix trades back to fixed weights, i.e. rebalancing); glide path as scheduled change to policy mix",
+      "revised": "2026-10-23 (fix round 1)"
     },
     {
       "outcome": "6.1",
@@ -181,10 +182,11 @@
     {
       "outcome": "6.2",
       "kind": "R",
-      "claim": "Key rule callout: PCMLTFA requires reporting of attempted and completed suspicious transactions",
+      "claim": "Body text (no longer the callout): CIRO guidance states the PCMLTFA requires reporting of attempted and completed suspicious transactions",
       "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
       "locator": "GN-3200-23-001 s. 6.1, ~line 515",
-      "quote": "The PCMLTFA requires that Investment Dealers report attempted and completed suspicious transactions."
+      "quote": "The PCMLTFA requires that Investment Dealers report attempted and completed suspicious transactions.",
+      "revised": "2026-10-23 (fix round 1)"
     },
     {
       "outcome": "6.3",
@@ -219,8 +221,9 @@
     {
       "outcome": "6.4",
       "kind": "C",
-      "claim": "One-line illustration: 60/40 equities (sigma 16%) / bonds (sigma 6%), rho 0.2 -> portfolio sigma about 10.4% vs 12% weighted average",
-      "basis": "sigma_p^2 = 0.36*256 + 0.16*36 + 2*0.6*0.4*0.2*16*6 = 92.16 + 5.76 + 9.216 = 107.136; sqrt = 10.35 -> about 10.4; 0.6*16 + 0.4*6 = 12.0"
+      "claim": "Qualitative illustration (no computed figure shown; not an exam calculation): 60/40 equities (sigma 16%) / bonds (sigma 6%) has weighted-average sigma 12%; with a low correlation the portfolio sigma is well below 12%",
+      "basis": "0.6 x 16 + 0.4 x 6 = 12.0; e.g. at rho 0.2: sigma_p^2 = 92.16 + 5.76 + 9.216 = 107.136 -> 10.35% (not shown in guide)",
+      "revised": "2026-10-23 (fix round 1)"
     },
     {
       "outcome": "6.4",
@@ -231,8 +234,9 @@
     {
       "outcome": "6.5",
       "kind": "C",
-      "claim": "Short-sale mechanics (borrow, deliver, cover, return; seller pays dividends and borrow fees) and risks (unlimited loss, recall, squeeze, costs, margin calls)",
-      "basis": "standard concept"
+      "claim": "Short-sale mechanics (borrow, deliver, cover, return; seller pays dividends and borrow fees) and risks (unlimited loss, recall, squeeze, costs, margin calls) (carry costs now stated once, in the risk list)",
+      "basis": "standard concept",
+      "revised": "2026-10-23 (fix round 2)"
     },
     {
       "outcome": "6.5",
@@ -341,8 +345,9 @@
     {
       "outcome": "6.5",
       "kind": "C",
-      "claim": "Plain-terms explanation and one-line illustration: at a 50% rate, $20,000 of stock held long supports a $10,000 loan; a short needs a credit of 150% of the shares' value, which rises as the price rises",
-      "basis": "(1 - 0.50) x 20,000 = 10,000; (1 + 0.50) = 150% of market value, increasing in price; applies IDPC 5113(2)-(4)"
+      "claim": "Plain-terms illustration: at a 50% rate, $20,000 of stock held long supports a $10,000 loan; at a 50% rate a short needs a credit of 150% of the shares' value; the requirement rises as the price rises and the rate is higher in the lower price bands (60/80/100%)",
+      "basis": "(1 - 0.50) x 20,000 = 10,000; (1 + 0.50) = 150% of market value, increasing in price; applies IDPC 5113(2)-(4)",
+      "revised": "2026-10-23 (fix round 1)"
     },
     {
       "outcome": "6.5",
@@ -467,8 +472,9 @@
     {
       "outcome": "6.6",
       "kind": "C",
-      "claim": "MPT/mean-variance: risk-averse investors, efficient frontier; efficient vs naive (1/N) diversification; industry and issuer concentration",
-      "basis": "standard MPT (Markowitz 1952)"
+      "claim": "MPT/mean-variance: risk-averse investors, efficient frontier; needs expected return, sigma and correlation estimates; efficient diversification uses those estimates, seeks low correlations and so gets more risk reduction per holding than 1/N, aiming at (or near) the frontier; naive (1/N) diversification: each new holding adds less benefit; industry and issuer concentration; an efficient mix with the same number of holdings across sectors and bonds has lower sigma than ten bank stocks",
+      "basis": "standard MPT (Markowitz 1952)",
+      "revised": "2026-10-23 (fix round 1)"
     },
     {
       "outcome": "6.6",
@@ -521,42 +527,607 @@
     {
       "outcome": "6.11",
       "kind": "C",
-      "claim": "Buy-and-hold; indexing by full replication, sampling, optimization; tracking difference (return gap) vs tracking error (std dev of the gap), both from fees, cash drag, sampling, rebalancing; advantages (little security-selection risk; underperformance limited to costs and tracking error)/disadvantages; index funds carry full market risk; passive largely removes manager (security-selection) risk",
-      "basis": "standard concepts (tracking error defined as standard deviation of active return)"
+      "claim": "Buy-and-hold; indexing by full replication, sampling, optimization; tracking difference (return gap) vs tracking error (std dev of the gap); fees cause most tracking difference (steady lag), sampling/cash drag/trade timing cause most tracking error (variable); securities-lending income and withholding tax also affect the gap; advantages (little risk of underperformance from poor security selection)/disadvantages; index funds carry full market risk",
+      "basis": "standard concepts (tracking error defined as standard deviation of active return)",
+      "revised": "2026-10-23 (fix round 1)"
     },
     {
       "outcome": "6.12",
       "kind": "C",
-      "claim": "Passive buy-and-hold/ladder; index matching by sampling; immunization = match Macaulay duration to horizon, price and reinvestment effects offset, needs rebalancing",
-      "basis": "standard fixed-income concepts (Redington immunization)"
+      "claim": "Passive buy-and-hold/ladder (reinvestment risk and issuer/credit risk remain; default means par is not repaid); index matching by sampling on duration, sector, credit quality (main risk: tracking error); immunization = match Macaulay duration to horizon, price and reinvestment effects offset in both directions, needs rebalancing [cross-element consistency 2026-10-23: X07 ladder balances interest-rate and reinvestment risk; some reinvestment risk remains]",
+      "basis": "standard fixed-income concepts (Redington immunization)",
+      "revised": "2026-10-23 (fix round 1)"
     },
     {
       "outcome": "6.12",
       "kind": "C",
-      "claim": "Active: duration management (lengthen when rates expected to fall, shorten when expected to rise); bond swaps (substitution, intermarket/yield-spread, rate anticipation, tax-loss); sector rotation on credit spread expectations",
-      "basis": "standard fixed-income concepts"
+      "claim": "Active: duration management (lengthen when rates expected to fall, shorten when expected to rise; a wrong forecast increases the loss); bond swaps (substitution, intermarket/yield-spread, rate anticipation, tax-loss); sector rotation on credit spread expectations (wrong forecast means more credit risk at the wrong time)",
+      "basis": "standard fixed-income concepts",
+      "revised": "2026-10-23 (fix round 1)"
     },
     {
       "outcome": "6.12",
       "kind": "R",
-      "claim": "Tax-loss swap: replacement must not be identical property, or the superficial loss rule applies (full rule in 7.9)",
+      "claim": "Superficial loss condition 1: the client or an affiliated person buys (or has a right to buy) identical property within 30 calendar days before or after the sale [cross-element consistency 2026-10-23: X15 6.12 now gives one sentence and cross-refers to 7.9 for the full conditions]",
       "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
       "locator": "CRA superficial loss page, ~line 728",
-      "quote": "buys, or has a right to buy, the same or identical property (called \"substituted property\") during the period starting 30 calendar days before the sale and ending 30 calendar days after the sale"
+      "quote": "buys, or has a right to buy, the same or identical property (called \"substituted property\") during the period starting 30 calendar days before the sale and ending 30 calendar days after the sale",
+      "revised": "2026-10-23 (fix round 1)"
     },
     {
       "outcome": "6.12",
       "kind": "R",
-      "claim": "A superficial loss cannot be deducted",
+      "claim": "A superficial loss cannot be deducted [cross-element consistency 2026-10-23: X15 6.12 now gives one sentence and cross-refers to 7.9 for the full conditions]",
       "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
       "locator": "CRA superficial loss page, ~line 742",
-      "quote": "you cannot deduct it when you calculate your income for the year"
+      "quote": "you cannot deduct it when you calculate your income for the year",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Why asset allocation comes first: security selection cannot repair a mix that does not fit the client; tactical tilt = forecast (underperforms strategic mix if wrong); dynamic rules need no forecast but can trade heavily in fast markets",
+      "basis": "standard portfolio-management concepts (strategic/tactical/dynamic allocation)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Rebalancing discipline: sells assets that rose/buys assets that fell; costs = spread, commission, time (in a large or illiquid trade the price can move against the client before the trade completes), plus realized capital gains in taxable accounts; hence tolerance bands",
+      "basis": "standard concept",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Scenario (Brandvold): advisory account; 60/40 strategic mix with +/-5 percentage-point band; 66/34 is outside the 55-65 equity band -> RR recommends rebalancing to 60/40 and gets the client's instruction before trading (advisory account, IDPC 1201 quote below); check the capital gain first in a taxable account",
+      "basis": "60 - 5 = 55; 60 + 5 = 65; 66 > 65 -> outside band",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "C",
+      "claim": "Each risk explained with its cause and who is most exposed: interest rate risk (new bonds pay higher rate, so old bond prices fall; longer term/lower coupon move more; holding to maturity returns par if the issuer does not default); inflation risk; liquidity risk (matters for short-notice cash needs); capital risk (more serious with a short time horizon); income risk (dividend cuts, reinvestment at lower rates); issuer risk (reduced by diversification)",
+      "basis": "standard definitions",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "C",
+      "claim": "Every account is exposed to financial crime risk; it has two sides: client as victim (fraud, financial exploitation) and account as tool (money laundering or market abuse); money laundering makes criminal proceeds look legal",
+      "basis": "standard definition; v1.0 table row 'All accounts' / 'fraud, exploitation, money laundering or market abuse'",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "PCMLTFA object includes detecting and deterring money laundering and terrorist financing",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s. 3(a), ~line 17",
+      "quote": "to implement specific measures to detect and deter money laundering and the financing of terrorist activities",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "PCMLTFA Part 1 applies to persons authorized under provincial legislation to deal in securities (dealers are reporting entities)",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s. 5(g), ~line 37",
+      "quote": "persons and entities authorized under provincial legislation to engage in the business of dealing in securities or any other financial instruments",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Key rule callout (PCMLTFA s. 7): report every completed or attempted financial transaction where there are reasonable grounds to suspect that it relates to the listed offences [cross-element consistency 2026-10-23: X16 6.2 now summarizes s. 7 in one sentence (\"reasonable grounds to suspect\", money laundering as example) and cross-refers to 8.2 for the full list]",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s. 7, ~line 78",
+      "quote": "report to the Centre every financial transaction that occurs or that is attempted in the course of their activities and in respect of which there are reasonable grounds to suspect that",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "STR limb: money laundering offence [cross-element consistency 2026-10-23: X16 6.2 now summarizes s. 7 in one sentence (\"reasonable grounds to suspect\", money laundering as example) and cross-refers to 8.2 for the full list]",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s. 7(a), ~line 79",
+      "quote": "the transaction is related to the commission or the attempted commission of a money laundering offence",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "STR limb: terrorist activity financing offence [cross-element consistency 2026-10-23: X16 6.2 now summarizes s. 7 in one sentence (\"reasonable grounds to suspect\", money laundering as example) and cross-refers to 8.2 for the full list]",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s. 7(b), ~line 80",
+      "quote": "the transaction is related to the commission or the attempted commission of a terrorist activity financing offence",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "STR limb: sanctions evasion offence [cross-element consistency 2026-10-23: X16 6.2 now summarizes s. 7 in one sentence (\"reasonable grounds to suspect\", money laundering as example) and cross-refers to 8.2 for the full list]",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s. 7(c), ~line 81",
+      "quote": "the transaction is related to the commission or the attempted commission of a sanctions evasion offence",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "C",
+      "claim": "Scenario (Marchetti): physical certificates of an inactive OTC issuer, sold two days later, proceeds as certified cheque -> four separate GN-3200-23-001 indicators: physical certificates (5.3.2), OTC security (5.2.1), inactive issuer (5.2.4), certified cheque (5.3.4). The quick sale adds concern but is one sale, not the 'frequent trading in low-priced securities' of 5.2.3. RR escalates (GN s. 6.2 quote below); dealer must report if reasonable grounds to suspect (PCMLTFA s. 7 quote above; 8.2)",
+      "basis": "application of the GN indicator quotes in this sidecar (5.2.1, 5.2.4, 5.3.2, 5.3.4); 5.2.3 condition ('frequently trades in low-priced securities') not met on the facts; escalation from GN s. 6.2; reporting duty from PCMLTFA s. 7",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.3",
+      "kind": "C",
+      "claim": "Limits of risk measures: sigma treats large gains as risk like losses; beta is from past data and one chosen index so it can change; in a diversified portfolio diversification removes most unsystematic risk so beta is the remaining risk; a factor loading works like a separate beta per factor; two funds with the same beta can react differently to rates",
+      "basis": "standard concepts",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.3",
+      "kind": "C",
+      "claim": "Drawdown recovery illustration: after a 25% fall, a gain of about 33% returns the portfolio to its peak; deep drawdowns can make clients sell at the bottom",
+      "basis": "1 / 0.75 - 1 = 0.3333 -> about 33%",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.3",
+      "kind": "C",
+      "claim": "Scenario (Varga): Fund A sigma 24%, beta 0.6, MDD 40% vs Fund B sigma 18%, beta 1.1, MDD 30%; in a diversified portfolio beta is relevant -> B adds more systematic risk; A's high sigma is largely unsystematic and other holdings remove most of it; alone, A has larger swings in value",
+      "basis": "inputs internally consistent (systematic sigma = beta x market sigma <= total sigma): at market sigma 15%, A = 9% <= 24%, B = 16.5% <= 18%; at 16%, B = 17.6% <= 18%",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.4",
+      "kind": "C",
+      "claim": "Risk-return trade-off; judge an asset on return per unit of risk and on its effect on total portfolio risk; a risky asset can lower portfolio risk if its returns move differently; each added holding gives a smaller extra (marginal) reduction in risk; hedging targets one named risk and can reduce systematic risk, unlike diversification",
+      "basis": "standard concepts",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.4",
+      "kind": "C",
+      "claim": "Scenario (Tanaka): four Canadian bank stocks are highly correlated (one-industry risk); adding bonds and other sectors with lower correlations reduces portfolio sigma by more than the weights alone suggest; new expected return = weighted average of all holdings' expected returns, so if bonds have a lower expected return than bank shares it falls a little",
+      "basis": "E(Rp) = sum of w_i E(R_i); change = weight moved x (E(R_new) - E(R_bank)); sigma_p < weighted-average sigma when rho < 1",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.4",
+      "kind": "C",
+      "claim": "Scenario (Achterberg): sale removes issuer risk but realizes the capital gain; a protective put gives the right to sell at the strike until expiry, so it sets a minimum value for the shares (strike less premium); he keeps all the upside less the premium; the hedge costs money and expires, so it suits a temporary concern with a tax reason not to sell; to remove issuer risk permanently, diversify by selling over time",
+      "basis": "standard protective-put payoff: net floor = K - premium; upside = S_T - S_0 - premium",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.4",
+      "kind": "R",
+      "claim": "Options need their own account documents: signed derivatives trading agreement before the initial derivatives transaction",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3251(1)(ii), ~line 6360",
+      "quote": "obtain a completed and signed derivatives trading agreement from the client",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Short Sale Ineligible Security definition: designated by a Market Regulator; short-sale orders may not be entered for a particular trading day or days",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 \"Short Sale Ineligible Security\", ~line 2530",
+      "quote": "designated by a Market Regulator to be a security in respect of which an order that on execution would be a short sale may not be entered on a marketplace for a particular trading day or trading days",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Market Regulator may designate a Pre-Borrow Security (borrowing arranged before order entry)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 1.1 Part 2.1, ~line 2908",
+      "quote": "the Market Regulator may designate a security in respect of which an order that on execution would be a short sale may not be entered on a marketplace unless the Participant or Access Person entering the order has made arrangements to borrow the securities",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "C",
+      "claim": "Client methods to manage short-sale risk: stop-buy order (not price-guaranteed if the stock opens much higher), buying a call option to cap the loss at the cost of the premium, small position size; gain cannot exceed the sale price",
+      "basis": "standard concepts",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Margin agreement must describe the dealer's right to sell assets and make purchases to cover short sales",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3247(2)(v), ~line 6315",
+      "quote": "the Dealer Member’s right to sell assets in the client’s account and make purchases to cover short sales",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Dealer may buy or sell for credit risk protection",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5116(1), ~line 14821",
+      "quote": "If a Dealer Member considers it necessary for its credit risk protection, it may:",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "... buy securities held short for an indebted client",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5116(1)(i), ~line 14822",
+      "quote": "buy securities held short for an indebted client",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "... sell securities it holds for an indebted client",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5116(1)(ii), ~line 14823",
+      "quote": "sell securities it holds for an indebted client",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Margin account agreement: before opening a margin account, deliver the agreement and obtain a signed copy",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3247(1), ~line 6303",
+      "quote": "Prior to opening a margin account, a Dealer Member must:",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "... obtain a copy of the margin account agreement signed by the client",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3247(1)(ii), ~line 6305",
+      "quote": "obtain a copy of the margin account agreement signed by the client",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Positive and negative loan values in the account are totalled",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(4)(i), ~line 14792",
+      "quote": "The positive and negative loan values in a client margin account must be totalled.",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "If the client does not restore good standing, 5111(2) applies",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(4)(iv), ~line 14799",
+      "quote": "If a client does not bring its account into good standing by depositing the required amount of margin into its account, subsection 5111(2) applies.",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Dealer must provide margin against the client's shortfall",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5111(2), ~line 14751",
+      "quote": "if such margin is not provided by the client, the Dealer Member must provide margin against the shortfall",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "C",
+      "claim": "Scenario (Leclair): 1,000 shares bought at $2.40 at 50% with maximum loan; price falls to $1.80 -> market value down 25%; rate band moves to 60% so loan value falls from 50% to 40% of market value; debit now exceeds loan value -> undermargined; deposit cash, deposit marginable securities or sell shares; dealer may sell (5116); no withdrawal of funds or securities (Note 5(iv)); within 20 business days the account is restricted to trades that reduce the deficiency (Note 5(iii))",
+      "basis": "(2.40 - 1.80) / 2.40 = 0.25; 100% - 60% = 40%; loan at purchase = 50% of 2,400 = 1,200 > new loan value 40% of 1,800 = 720 (numbers not shown in guide; qualitative)",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.6",
+      "kind": "C",
+      "claim": "MPT limits: needs return, sigma and correlation estimates for every asset; small estimate errors change the weights a lot; Black-Litterman as a two-step fix (equilibrium returns, then confidence-weighted views); Monte Carlo 78% success implies about 22% of paths run out",
+      "basis": "standard concepts; 100 - 78 = 22",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.7",
+      "kind": "C",
+      "claim": "APT no-arbitrage intuition: two portfolios with the same factor exposures must have the same expected return, otherwise a riskless profit exists; multi-factor models arose from return patterns (size, value) that CAPM missed; factor definitions SMB, HML, RMW, CMA, momentum (winners minus losers)",
+      "basis": "standard definitions (Ross 1976; Fama-French 1993/2015; Carhart 1997)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.7",
+      "kind": "C",
+      "claim": "Scenario (Wolstenholme): small-cap value fund with positive CAPM alpha but near-zero Fama-French alpha -> outperformance came from size/value factor exposure, not stock-selection skill",
+      "basis": "standard performance-attribution interpretation",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.8",
+      "kind": "C",
+      "claim": "Scenario (Ruiz): gold fund with high sigma and beta ~0.3 has a CAPM required return close to the risk-free rate because CAPM rewards only systematic risk",
+      "basis": "CAPM concept; e.g. Rf 3%, premium 5% -> 3 + 0.3x5 = 4.5% (not shown in guide)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.9",
+      "kind": "C",
+      "claim": "EMH logic: competition among analysts moves prices to fair value quickly; new information arrives at random. Weak-form efficiency does not rule out excess returns from fundamental analysis; semi-strong rules them out, and so does strong form (which includes semi-strong) [cross-element consistency 2026-10-23: X08 guide text now says \"alpha\" (6.7) / \"abnormal returns\" (6.9); \"excess return\" is reserved guide-wide for Rp − Rf]",
+      "basis": "standard EMH definitions (nested forms: strong includes semi-strong includes weak)",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.9",
+      "kind": "C",
+      "claim": "Scenario (Vasquez): chart-pattern newsletter uses past prices/volume; under at least weak-form efficiency it cannot give consistent excess returns; trades add spreads and commissions [cross-element consistency 2026-10-23: X08 guide text now says \"alpha\" (6.7) / \"abnormal returns\" (6.9); \"excess return\" is reserved guide-wide for Rp − Rf]",
+      "basis": "standard EMH implication",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.10",
+      "kind": "C",
+      "claim": "Technique explanations: top-down/bottom-up strengths and weaknesses; rotation adds value at turning points but wrong forecasts mean wrong sectors plus turnover costs; growth: P/E and earnings can both fall when growth slows, investor pays a premium; value trap; market timing must be right twice and can miss a few very strong days that make up a large part of long-run returns",
+      "basis": "standard concepts (textbook; v1.0 table content moved into prose)",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.10",
+      "kind": "C",
+      "claim": "Scenario (Dumont/Oduya/Kingsley): rate forecast -> sector overweights = top-down + sector rotation; low P/B + high yield in any sector = bottom-up value; 90% to 40% equity on recession forecast = market timing",
+      "basis": "classification by standard definitions",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.10",
+      "kind": "C",
+      "claim": "Scenario (Okonedo): growth-only portfolio faces double hit (lower earnings and lower P/E) if earnings disappoint; add value or broad index fund to diversify style",
+      "basis": "standard style-risk concept",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.11",
+      "kind": "C",
+      "claim": "Buy-and-hold is not indexing (manager still selected the securities); passive rests on hard-to-beat markets (EMH) and low costs",
+      "basis": "standard concept",
+      "added": "2026-10-23 (v1.1)"
+    },
+    {
+      "outcome": "6.11",
+      "kind": "C",
+      "claim": "Scenario (Andreou): ETF X TD -0.10%, TE 0.05% vs ETF Y TD -0.40%, TE 0.30% -> X lags less, probably because of lower costs (inference, not proof), and tracks more consistently",
+      "basis": "comparison of stated figures; no calculation",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.11",
+      "kind": "C",
+      "claim": "Scenario (Valdane): 15 stocks held 20 years in a non-registered account, one now 40% -> buy-and-hold drift created issuer concentration; reducing it involves trading costs and a taxable capital gain",
+      "basis": "standard concept",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.12",
+      "kind": "C",
+      "claim": "Scenario (Duval): a single 7-year coupon bond does not immunize a 7-year liability because its Macaulay duration is shorter than its maturity; simplest immunizer = 7-year strip (zero-coupon) bond, whose duration equals its maturity and which has no coupons to reinvest (no rebalancing); with coupon bonds, build a 7-year portfolio duration and rebalance as it drifts",
+      "basis": "standard duration properties: Macaulay duration of a zero-coupon bond = maturity; coupon bond duration < maturity",
+      "added": "2026-10-23 (v1.1)",
+      "revised": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Principles of portfolio construction: fit to the client's objectives and constraints; diversification so no single loss decides the result; cost control (fees, spreads, taxes reduce net return)",
+      "basis": "standard portfolio-management principles",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Strategies for setting the mix: dealer model portfolios matched to the client's profile (conservative to aggressive); time-horizon/life-stage approach (longer horizon permits more equities; equity weight usually falls as a goal comes near); target weights with permitted ranges",
+      "basis": "standard asset-allocation practice",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Band conventions: absolute band of +/-5 percentage points on a 60% target = 55%-65%; relative band of +/-5% of the target = 57%-63%",
+      "basis": "60 - 5 = 55, 60 + 5 = 65; 60 x 0.95 = 57, 60 x 1.05 = 63",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "R",
+      "claim": "Advisory account: the client is responsible for all investment decisions (so the RR recommends and gets the client's instruction)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201 'advisory account', ~line 256",
+      "quote": "the client is responsible for all investment decisions but is able to rely on advice given by a Registered Representative",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Dealers should tell employees that they must escalate and report suspicious activity",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 6.2, ~line 528",
+      "quote": "they must escalate and report any suspicious activity to FINTRAC",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "C",
+      "claim": "Short positions are carried in a margin account",
+      "basis": "standard industry practice; consistent with IDPC 5113(3)-(4), which compute short loan value and the required credit 'in the margin account' for client margin accounts",
+      "added": "2026-10-23 (fix round 1)",
+      "revised": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "UMIR 3.3(2): the reasonable-expectation-to-settle duty applies to a person deemed to own the security unless the Participant has been reasonably informed that the person expects to deliver (condition kept on the exception; stated condition-first)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.3(2)(a), ~line 5582",
+      "quote": "a person that is deemed to own the security, provided that the Participant has been reasonably informed that the person has a reasonable expectation to deliver such security",
+      "added": "2026-10-23 (fix round 1)",
+      "revised": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "... the expected delivery: as soon as all restrictions on delivery are removed (first limb of the proviso)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.3(2)(a)(i), ~line 5584",
+      "quote": "as soon as all restrictions on delivery have been removed",
+      "added": "2026-10-23 (fix round 1)",
+      "revised": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "... and no later than 35 consecutive calendar days after the trade date (second limb; reference point = trade date; same wording in IDPC 4782(2))",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4782(2)(i)(b), ~line 13962",
+      "quote": "by no later than thirty-five consecutive calendar days following the trade date",
+      "added": "2026-10-23 (fix round 1)",
+      "revised": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "IDPC 4782(1): same reasonable-expectation-to-settle duty for a Dealer Member that is not a Participant",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4782(1), ~line 13954",
+      "quote": "a Dealer Member that is not a Participant must have a reasonable expectation to settle any resulting trade on the intended settlement date",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "IDPC 4782(2): same deemed-to-own exception",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4782(2), ~line 13957",
+      "quote": "Subsection 4782(1) does not apply to the short sale of a listed security by:",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Margin agreement: if the client requires prior notice, the agreement must also set out both the notice and the client's obligations to remedy a deficiency (both duties kept under the condition in one sentence)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3247(2)(v), ~line 6316",
+      "quote": "If the client requires prior notice, the Dealer Member must set out the nature of the notice and the client’s obligations to remedy any deficiency",
+      "added": "2026-10-23 (fix round 1)",
+      "revised": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Loan value is 'generally calculated' by the formula",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(2), ~line 14784",
+      "quote": "The loan value of a long position is generally calculated according to the formula:",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "... or by any alternative method specified in CIRO requirements",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(2)(ii) and (3)(ii), ~lines 14786 and 14790",
+      "quote": "by any alternative method specified in the Corporation requirements",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.6",
+      "kind": "C",
+      "claim": "Black-Litterman limit: the result depends on the views and confidence levels the manager enters; poor views still give a poor portfolio",
+      "basis": "standard critique of Black-Litterman inputs",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.9",
+      "kind": "C",
+      "claim": "Implications by form: weak -> technical analysis fails, fundamental and private information may still give an edge; semi-strong -> fundamental analysis of public data also fails, only private information may give an edge; strong -> no information gives an edge. Clients who think markets are easy to beat overtrade and chase recent winners, adding costs and (in taxable accounts) realized gains",
+      "basis": "standard EMH implications",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.9",
+      "kind": "C",
+      "claim": "Limits of the EMH: anomalies (size, value, momentum) may be risk premiums or disappear after publication; behavioural finance shows over- and underreaction; large heavily followed markets close to semi-strong efficient, less-followed segments may leave room for active managers",
+      "basis": "standard EMH literature (Fama-French; behavioural finance)",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.10",
+      "kind": "C",
+      "claim": "Market timing is the extreme form of tactical allocation: large, frequent switches between equities and cash on forecasts; a tactical tilt is a smaller move within set ranges around the strategic mix. Bottom-up managers pay little attention to the economy",
+      "basis": "standard definitions; v1.0 wording 'with little regard to the economy' restored",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.12",
+      "kind": "R",
+      "claim": "Condition 1 (affiliated persons included)",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA superficial loss page, ~line 728",
+      "quote": "You, or a person affiliated with you, buys, or has a right to buy, the same or identical property",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.12",
+      "kind": "R",
+      "claim": "Superficial loss condition 2: the client or an affiliated person (either party, whoever made the purchase) still owns (or has a right to buy) the substituted property 30 calendar days after the sale [cross-element consistency 2026-10-23: X15 6.12 now gives one sentence and cross-refers to 7.9 for the full conditions]",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA superficial loss page, ~line 730",
+      "quote": "You, or a person affiliated with you, still owns, or has a right to buy, the substituted property 30 calendar days after the sale",
+      "added": "2026-10-23 (fix round 1)",
+      "revised": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "6.12",
+      "kind": "R",
+      "claim": "If the client acquired the substituted property, the superficial loss can usually be added to its ACB [cross-element consistency 2026-10-23: X15 6.12 now gives one sentence and cross-refers to 7.9 for the full conditions]",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA superficial loss page, ~line 742",
+      "quote": "if you are the person who acquires the substituted property, you can usually add the amount of the superficial loss to the adjusted cost base of the substituted property",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "6.12",
+      "kind": "R",
+      "claim": "Year of the CRA text: 2025 [cross-element consistency 2026-10-23: X15 6.12 now gives one sentence and cross-refers to 7.9 for the full conditions]",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA superficial loss page, ~line 742",
+      "quote": "If you have a superficial loss in 2025, you cannot deduct it when you calculate your income for the year.",
+      "added": "2026-10-23 (fix round 1)"
     }
   ],
   "gaps": [
-    "6.2 financial crime risk (gap register G15, PARTIAL): the PCMLTFA, its Regulations and FINTRAC guidance are not in the corpus; statutory AML duties are stated only as described in CIRO GN-3200-23-001 (e.g. STR reporting), not from the statute itself.",
+    "6.2 financial crime risk (gap register G15, OK): PCMLTFA ss. 3(a), 5(g) and 7 quoted from gov/pcmltfa-extracts.txt; escalation quoted from GN-3200-23-001 s. 6.2. STR content, timing, tipping-off and penalties are left to 8.2. TCP/temporary holds are a pure cross-reference to 1.6.",
     "6.5 margin calls: the corpus gives the 20-business-day restriction for undermargined accounts (Form 1 Sch. 4 Note 5(iii)) but no specific deadline for meeting a margin call; the guide does not state one.",
-    "6.5 short-sale costs (dividend payments in lieu, stock-borrow fees, recall/buy-in) are presented as C (industry mechanics); no governing rule text quoted.",
-    "6.5 IDPC 5310 table cells are split by PDF layout; the 30% reduced-margin client rate and the long-side 50% rate are quoted from the layout-normalized extraction (short-table wording for 50%)."
-  ]
+    "6.5 short-sale costs (dividend payments in lieu, stock-borrow fees, recall/buy-in) and client risk-control methods (stop-buy, call option, position size) are presented as C (industry mechanics); no governing rule text quoted. The dealer's buy-in right is R (IDPC 3247(2)(v), 5116).",
+    "6.5 IDPC 5310 table cells are split by PDF layout; the 30% reduced-margin client rate and the long-side 50% rate are quoted from the layout-normalized extraction (short-table wording for 50%).",
+    "6.5 margin scenarios are qualitative (margin is outside the calculation-scope table); the Leclair loan-value arithmetic is recorded in the sidecar basis only.",
+    "6.5 no corpus text states that short positions must be held in a margin account; the guide states it as concept (C) at the start of the margin subsection, and the dealer duties that follow are R (IDPC 3246, 3247(1)). The designation criteria in UMIR Policy 1.1 are no longer paraphrased (fix round 1, beyond outcome scope).",
+    "Fix round 2 (2026-10-23): 6.5 shortened for the element word budget. Removed: the IDPC 5110(1) purposes of margin (not named in the syllabus statement), the 'why the duty exists' sentence, and the Halloway scenario (it only restated the UMIR 3.2(1)/3.3(1) list); 6.8 second worked example (Engebretsen) removed. No rule condition, exception or threshold was dropped."
+  ],
+  "revised": "2026-10-23 (fix round 2)",
+  "spec": "STUDY-GUIDE-SPEC v1.1 (comprehensive depth; ASD-STE100 writing rules)"
 }

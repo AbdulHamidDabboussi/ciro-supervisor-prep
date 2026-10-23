@@ -1,10 +1,49 @@
-# Study guide spec v1.0 — Retail Securities Exam
+# Study guide spec v1.1 — Retail Securities Exam
 
 The study guide is written and audited **before** any questions (user instruction, 2026-10-22). Questions are later drafted against the same corpus, and the guide must be sufficient to answer them. Source policy: `../../README.md` ("Source policy") — regulatory content quoted (R), concept content relaxed but independently verified (C).
 
-## Depth ("in between")
+## Depth: comprehensive (v1.1, user instruction 2026-10-23; replaces v1.0 "in between")
 
-Not a textbook, not a cheat sheet. Per outcome, roughly **150–350 words** (Remember/Understand at the low end; Apply/Analyze and calculation outcomes at the high end, plus their worked examples). Target about **22–30k words** across 9 elements, scaled to exam weight (E1 = 27 questions → the longest element; E8/E9 = 7 → the shortest). Every **"Consider" bullet** in the outcome's syllabus statement is covered explicitly. Scope is closed: nothing outside the syllabus parameters.
+The guide should be thorough enough to study from **without other resources**, while staying strictly inside the syllabus. Target about **60,000 words** across 9 elements, roughly **450–700 words per outcome**: Remember/Understand outcomes sit at the low end, Apply/Analyze outcomes at the high end. The user asked for the extra depth to go into two things:
+
+1. **Deeper explanations.** For every rule or concept, cover the *why* (the investor-protection or market purpose behind a rule; the intuition behind a concept), how it connects to neighbouring outcomes (with "see 4.6" style cross-references), the full definitions, and what goes wrong when it is breached or misapplied.
+2. **Applied scenarios.** Every Apply/Analyze outcome gets at least one `> **Scenario**` callout, and the larger outcomes get two or three. Each scenario is a short client or Registered Representative situation with invented names: the facts, the question it raises, and the resolution, reasoned step by step from the rule or concept. Understand outcomes get a scenario where it helps comprehension.
+
+**Structure within an outcome:** give each "Consider" bullet its own `###` subsection, or a clearly bolded lead-in for very small bullets, so a reader can find any syllabus parameter at a glance. Keep the existing callout types and add `Scenario`.
+
+**What does NOT change:**
+- Scope is closed. Extra depth goes *into* the syllabus parameters, never beyond them, and the syllabus stays the golden standard.
+- The calculation-scope table below is unchanged. Scenarios are qualitative unless the outcome is a calculation outcome; there are no new multi-step calculations elsewhere.
+- Every new regulatory statement still needs a quoted R claim in the sidecar.
+- Existing correct content is kept and built upon, not rewritten for its own sake.
+
+## Writing standard: ASD-STE100 Simplified Technical English (v1.1, user instruction 2026-10-23)
+
+All prose follows the **writing rules** of ASD-STE100, so the text is easy to understand, including for readers whose first language is not English. The STE dictionary itself is licensed by ASD and is not available to us. So we apply the writing rules, prefer the plainest common word, and treat finance and regulatory terms as STE **technical names**, which are permitted (e.g. "suitability determination", "modified duration", "trusted contact person", "Investment Dealer"). This is STE-style writing, not dictionary-certified STE.
+
+**Words**
+- Use one word for one meaning, and one meaning for each word. After you choose a term, use only that term (e.g. always "client", not alternately "customer" or "investor" for the same person).
+- Prefer simple, common words: "use", not "utilize"; "start", not "commence"; "help", not "facilitate"; "about", not "approximately"; "must", not "is required to".
+- Use simple verb tenses: present, simple past, simple future. Do not use "-ing" words as nouns or to make complex verb forms; keep "-ing" only in technical names (e.g. "front running", "short selling").
+- Do not use phrasal verbs or idioms when a single verb is available ("find", not "find out"; "do", not "carry out").
+- Keep articles ("a", "the"). Do not join more than three nouns in a cluster unless it is a technical name.
+
+**Sentences**
+- Descriptive sentences: **25 words maximum**. Instructions: **20 words maximum**.
+- One topic per sentence. If a sentence needs "and" twice, make two sentences.
+- Use the active voice. Use the passive only when the actor is unknown or not important.
+- Write instructions and callout commands in the imperative ("Get the client's consent before…").
+- Put conditions first: "If the client refuses, record the refusal."
+- Use vertical lists for three or more items, conditions or steps.
+
+**Paragraphs**
+- One topic per paragraph, with the topic sentence first. **Six sentences maximum.**
+
+**Exempt (do not rewrite):** verbatim quotations of rules or instruments (inside quotation marks), formulas and code blocks, table cells (but keep them short), technical names, and headings that repeat syllabus wording.
+
+**Meaning comes first.** Simplifying must never change what a rule requires or what a concept means. When a rule has conditions or exceptions, keep all of them and split them into a list. Do not drop them to shorten a sentence.
+
+**Lint:** `python3 -I exams/retail-securities/tools/ste_lint.py <E*.md>` reports sentences over 25 words, paragraphs over six sentences, likely passive voice and "-ing" use per outcome. The gate is **0 sentences over 25 words and 0 paragraphs over 6 sentences**, excluding the exempt material. The passive and "-ing" counts are review signals for the auditors.
 
 ## Grounding & calculation scope (BINDING — added 2026-10-22 on user instruction; overrides any orchestrator element note)
 
@@ -71,6 +110,7 @@ One or two short paragraphs: what the element covers, its exam weight (indicativ
   - `> **Worked example**` followed by a scenario with numbers, the formula, the substitution, and the answer, step by step
   - `> **Key rule:** …` (a short verbatim quote of rule text in quotation marks + citation; ≤ 50 words)
   - `> **Remember:** …` (a compact list of must-know items)
+  - `> **Scenario**` followed by a short applied situation (invented names): the facts, the question, and the reasoned resolution citing the rule or concept. It is qualitative unless the outcome is in the calculation table.
 - **Formulas** go in fenced code blocks as plain text (Unicode is fine: `×`, `÷`, `Σ`, `√`, superscripts like `(1 + r)^n`). Define every symbol on first use.
 - Tables (GFM) for comparisons (e.g. cash vs margin account, trust vs corporate fund, eligible vs non-eligible dividends).
 - End every outcome section with an italic sources line: `*Sources: IDPC 3202(1); NI 31-103 s. 13.2; CRA T4037 (2025)*`. Concept-only sections cite `*Sources: standard finance concept (verified)*`.

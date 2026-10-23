@@ -1,6 +1,8 @@
 {
   "element": 1,
   "drafted": "2026-10-22",
+  "revised": "2026-10-23",
+  "revision_note": "Spec v1.1: prose rewritten in ASD-STE100 style (STE lint gate 0) and expanded to comprehensive depth (why/connections/breach, Scenario callouts, one ### per Consider bullet). All v1.0 claims kept; new R/C claims tagged with \"added\". Fix round 1 (2026-10-23): audit findings applied (see claims tagged 'fix round 1'); nine lower-value scenarios and some duplicate callouts removed to keep the element within about +15% of 12,500 words. Fix round 2 (2026-10-23): findings E1-14 and V-01 applied (claims tagged \"2026-10-23 (fix round 2)\"): scenarios Aurelie (1.9), Thaddeus (1.20), Svetlana (1.22) and the branch-manager approval (1.26) restored; depth added to 1.5, 1.7, 1.24, 1.26, 1.27; 1.1 and 1.6 condensed (some 1.1 emigrant/TFSA detail and 1.6 duplicates dropped; their claims kept as provenance). Fix round 3 (2026-10-23): findings V-02 and V-03 applied (claims tagged \"2026-10-23 (fix round 3)\"): 1.21 Hyun-woo resolution restates the 3215(2) steps in full; 1.21 transfer-in scenario (Priya Raman) added; stale 'scenario removed' claims for 1.9 and 1.20 corrected to say the scenarios were restored in fix round 2.",
   "claims": [
     {
       "outcome": "intro",
@@ -40,7 +42,8 @@
       "claim": "Rationale for relationship disclosure (IDPC 3216): clients should understand the services they will receive when opening an account (attributed to s.3216, not the CRM as a whole)",
       "source_file": "research/sources/ciro/gn-3100-21-001-client-relationship-model.txt",
       "locator": "GN-3100-21-001, Relationship Disclosure Requirements, ~L57",
-      "quote": "all clients should have a good understanding of the services they will be provided when they open an account"
+      "quote": "all clients should have a good understanding of the services they will be provided when they open an account",
+      "note": "Sentence removed from 1.1 prose in fix round 1 (word budget); kept as provenance."
     },
     {
       "outcome": "1.1",
@@ -67,7 +70,7 @@
     {
       "outcome": "1.1",
       "kind": "C",
-      "claim": "Trust: client relies on the RR's competence and honesty, which is why regulation imposes KYC, suitability and conflict duties (non-normative; no sliding-duty claim)",
+      "claim": "Trust: client relies on the RR's competence and honesty; this reliance helps explain the KYC, suitability and conflict duties (framed as the guide's explanation, labelled concept)",
       "basis": "standard concept; descriptive only, no statement of a legal standard of care (source map caveat 5)"
     },
     {
@@ -245,6 +248,81 @@
       "quote": "For non-residents of Canada, withholding is 25% unless reduced by a treaty."
     },
     {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Each CRM requirement is part of the broader obligation to deal fairly, honestly and in good faith with clients",
+      "source_file": "research/sources/ciro/gn-3100-21-001-client-relationship-model.txt",
+      "locator": "GN-3100-21-001 Executive Summary, ~L35",
+      "quote": "each of these requirements is a part of the broader fundamental obligation of the Dealer and its representatives under securities legislation to deal fairly, honestly and in good faith with clients",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Mobility exemption client limits apply in each other jurisdiction",
+      "source_file": "research/sources/csa/cp-31-103-parts-2-7-8-11-categories-mobility-records-guidance.txt",
+      "locator": "31-103CP s.2.2 Limits on the number of clients, ~L82",
+      "quote": "The limits in sections 2.2 and 8.30 are per jurisdiction.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Mobility condition: individual acts fairly, honestly and in good faith with the eligible client",
+      "source_file": "research/sources/csa/cp-31-103-parts-2-7-8-11-categories-mobility-records-guidance.txt",
+      "locator": "31-103CP s.2.2 Conditions, ~L72",
+      "quote": "they act fairly, honestly and in good faith in their dealings with the eligible client",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Firm supervises individuals who rely on the mobility exemption",
+      "source_file": "research/sources/csa/cp-31-103-parts-2-7-8-11-categories-mobility-records-guidance.txt",
+      "locator": "31-103CP s.8.30, ~L570",
+      "quote": "The registered firm must have appropriate policies and procedures for supervising individuals who rely on a mobility",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Firm keeps records showing compliance with mobility exemption conditions",
+      "source_file": "research/sources/csa/cp-31-103-parts-2-7-8-11-categories-mobility-records-guidance.txt",
+      "locator": "31-103CP s.8.30, ~L571",
+      "quote": "Registered firms must also keep appropriate records to demonstrate they are complying with the conditions of the mobility",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Emigrant must notify Canadian payers and financial institutions of non-resident status",
+      "source_file": "research/sources/cra/emigrants-leaving-canada-departure-tax-pages.txt",
+      "locator": "CRA 'Leaving Canada (emigrants)' - What you need to do, ~L46",
+      "quote": "you are required to notify any Canadian payers and your financial institutions that you are no longer a resident of Canada",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "C",
+      "claim": "Intuition: registration where clients reside lets the client's regulator have authority over the firm that serves the client",
+      "basis": "Plain-language rationale for IDPC 2551(1); labelled 'The intuition'; no rule claim",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "C",
+      "claim": "Principal trades put the firm on the other side of the client's trade; client usually cannot check advice",
+      "basis": "Standard agency/principal concept; non-normative",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "C",
+      "claim": "Scenario Astrid Lunde: ON client (an individual) retires to BC; RR has 3 eligible clients there, 4th within limit of 5; firm registered in BC (else firm exemption, 10 or fewer); disclosure before first acting, F3 as soon as possible; retirement (income/horizon) is the significant KYC change",
+      "basis": "Applies NI 31-103 ss.1.1, 2.2(1)(a)-(g), 8.30; IDPC 2551(1); GN-3400 s.2.11.2 significant change; 3+1=4 <= 5. Revised fix round 1 (F02, F03, F04).",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.2",
       "kind": "R",
       "claim": "Firm must learn and remain informed of essential facts about every order, account and client",
@@ -379,6 +457,141 @@
       "quote": "Dealers and Registered Individuals must not manipulate KYC information to correspond or match with a security, account, portfolio or otherwise be manipulated to lead to a pre-determined outcome."
     },
     {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "KYC also collected as gatekeepers incl. AML",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.1, ~L133",
+      "quote": "Dealers are also required to collect KYC information as part of their role as gatekeepers of our financial markets, including complying with their anti-money laundering (AML) regulatory obligations",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Without adequate and timely KYC the firm cannot meet suitability obligations (used in 1.2 and 1.7)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.1, ~L406",
+      "quote": "Without adequate and timely KYC information, a Dealer cannot meet their suitability determination obligations and other regulatory obligations.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "KYC specific to each client; do not attribute spouse's knowledge",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.1, ~L135",
+      "quote": "should not attribute characteristics of the client’s family members to the client, such as attributing a spouse’s investment experience and knowledge.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Insider status: explain what an insider is, then ask",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.2.4, ~L156",
+      "quote": "Dealers should explain to the client what an insider is and what it means for securities to be publicly traded and then ask the client whether they are an insider.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "RR may need to ask about assets and liabilities held outside the firm",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.2, ~L209",
+      "quote": "A Registered Individual may need to ask about investments, other assets and liabilities the client maintains outside the Dealer",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Entity personal circumstances: constating documents",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.1, ~L184",
+      "quote": "form and details regarding the organization of the legal entity, i.e. articles of incorporation, trust deed, or other constating documents",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Entity personal circumstances: persons authorized to instruct and limits on authority",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.1, ~L186",
+      "quote": "persons authorized to provide instructions on the account and details of any restrictions on their authority",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Inconsistent knowledge answers: make further inquiries",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.4, ~L244",
+      "quote": "Registered Individuals should always make further inquiries if the information provided by a client appears to be inconsistent with their apparent level of investment knowledge.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Example: limited knowledge but willing to take high risk",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.4, ~L244",
+      "quote": "a client may indicate that they have limited investment knowledge and experience, while also indicating a willingness to take on a high level of risk",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Clients express objectives in meaningful terms",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, ~L228",
+      "quote": "Dealers should provide their clients with the opportunity to express their investment needs and objectives in terms that are meaningful to them",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Objective examples: retirement lifestyle, home purchase",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, ~L228",
+      "quote": "saving for retirement to maintain a certain lifestyle",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Short horizon may mean only conservative investments suitable",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.6, ~L283",
+      "quote": "a short investment time horizon may mean that conservative investments may be the only suitable option",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Do not pre-populate KYC questionnaires before interacting (exam trap)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.12, ~L431",
+      "quote": "pre-populate questionnaires with the KYC information required under clause 3202(1)(iii) before interacting with the client",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Do not combine multiple KYC variables in one question (exam trap)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.12, ~L432",
+      "quote": "combine multiple KYC variables into one question",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.2",
+      "kind": "R",
+      "claim": "Loan stays due when securities fall (supports 'leverage magnifies losses')",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3217(3) leverage risk disclosure statement, ~L5998",
+      "quote": "your responsibility to repay the loan and pay interest as required by its terms remains the same even if the value of the securities purchased declines",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.3",
       "kind": "R",
       "claim": "Risk profile = willingness (tolerance) and ability (capacity)",
@@ -465,6 +678,14 @@
     {
       "outcome": "1.3",
       "kind": "R",
+      "claim": "Resolving conflicts: identify mismatches between needs/objectives, tolerance and capacity and revisit with client (list aligned item for item with 7.5, X16)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.6, L284",
+      "quote": "The Registered Individual should identify any mismatches between the client’s investment needs and objectives, risk tolerance and risk capacity and revisit them with the client."
+    },
+    {
+      "outcome": "1.3",
+      "kind": "R",
       "claim": "Explain alternatives",
       "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
       "locator": "GN-3400-21-004 s.2.3.5, ~L277",
@@ -491,6 +712,72 @@
       "kind": "C",
       "claim": "Exam trap: eager 68-year-old with retirement-dependent savings: high tolerance, low capacity, low profile",
       "basis": "application of the lower-of rule"
+    },
+    {
+      "outcome": "1.3",
+      "kind": "R",
+      "claim": "Tolerance and capacity separate considerations that together make up the risk profile",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, ~L254",
+      "quote": "Risk tolerance and risk capacity are separate considerations that together make up the client’s overall risk profile.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.3",
+      "kind": "R",
+      "claim": "RR should consider setting out return assumptions required by objectives (risk need link)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.3, ~L232",
+      "quote": "A Registered Individual should consider setting out investment return assumptions required to meet the client’s investment needs and objectives.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.3",
+      "kind": "R",
+      "claim": "Thorough process: check products in account fit tolerance and capacity",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, ~L260",
+      "quote": "determining whether the products and services the client has access to within their account are appropriate for them based on their assessed risk tolerance and risk capacity",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.3",
+      "kind": "R",
+      "claim": "Risk questions fair, clear, not misleading",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, ~L271",
+      "quote": "The questions should be fair, clear and not misleading.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.3",
+      "kind": "R",
+      "claim": "RR must not influence client's answers to risk questions",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.3.5, ~L271",
+      "quote": "clients should not be influenced by a Registered Individual as to the way they respond to questions related to their risk tolerance or risk capacity",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.3",
+      "kind": "C",
+      "claim": "Why the lower of tolerance and capacity: panic selling (tolerance failure) or damage to essential goal (capacity failure)",
+      "basis": "Standard risk-profiling rationale; consistent with GN-3400 s.2.3.5 'lower of' rule",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.3",
+      "kind": "C",
+      "claim": "Tolerance can be overstated after rises/understated after falls; check against knowledge and past behaviour",
+      "basis": "Standard behavioural-finance concept (recency, framing); see 7.3",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.3",
+      "kind": "C",
+      "claim": "Scenario Tomasz Wierzbicki: stated high tolerance contradicted by past selling; low capacity; profile low; 9% target is risk need",
+      "basis": "Applies GN-3400 s.2.3.5 lower-of rule and resolution steps (existing claims 57-61)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.4",
@@ -669,6 +956,40 @@
       "quote": "There are exceptions to this general rule for certain types of personal holding corporations, partnerships and unincorporated organizations"
     },
     {
+      "outcome": "1.4",
+      "kind": "R",
+      "claim": "Business ends when owner dies for non-corporate structures",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED 'Benefits of incorporating' - Continuous existence, ~L76",
+      "quote": "With other business structures, a business stops existing when the owner dies.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.4",
+      "kind": "R",
+      "claim": "Corporate tax rates generally lower than personal rates",
+      "source_file": "research/sources/gov/business-structures-corporations-cooperatives-ised.txt",
+      "locator": "ISED 'Benefits of incorporating' - Lower tax rates, ~L68",
+      "quote": "Corporate tax rates are generally lower than personal income tax rates.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.4",
+      "kind": "R",
+      "claim": "Corporation's beneficial owners are separate persons from the corporation (scenario)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.7.2, ~L379",
+      "quote": "The beneficial owner(s) of a corporation are separate and distinct persons from the corporate legal entity.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.4",
+      "kind": "C",
+      "claim": "Why structure matters (whose money, who instructs, who controls); lower corporate tax lets more profit stay invested",
+      "basis": "Inference from ISED tax statement and IDPC 3203/3204; labelled concept",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.5",
       "kind": "R",
       "claim": "Firm must take reasonable steps to have client confirm accuracy of KYC",
@@ -723,6 +1044,31 @@
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3804(2)(xii), ~L8360",
       "quote": "account appropriateness, product due diligence, know-your-product and suitability determination requirements"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "Extra controls for name, address or banking changes (fraud risk)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.6.1, ~L338",
+      "quote": "Dealers should consider implementing additional controls for changes in client name, address or banking information or other areas where there is an increased risk of fraud.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "RR documents disclosure of material positive and negative factors",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.1, ~L483",
+      "quote": "We expect the Registered Individual to document this disclosure.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "C",
+      "claim": "Why documentation matters: client can check understanding; firm can show compliance",
+      "basis": "Plain-language rationale; non-normative",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.6",
@@ -1093,6 +1439,65 @@
       "quote": "must not use a temporary hold for inappropriate reasons, for example, to delay a disbursement for fear of losing a client"
     },
     {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "Purpose of TCP: resource to help protect client's financial interests",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP App. G, Purpose of the trusted contact person, ~L4560",
+      "quote": "A TCP is intended to be a resource for a registrant to assist in protecting a client’s financial interests or assets",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "Registrants often in a unique position to notice warning signs",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP App. G, Mental capacity, ~L4512",
+      "quote": "Registrants can be in a unique position to notice the warning signs that a client lacks mental capacity",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "One warning sign alone may not indicate exploitation",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP App. G, Financial exploitation, ~L4496",
+      "quote": "One warning sign alone may not be indicative of financial exploitation.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "Registrants not expected to determine mental capacity",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP App. G, Mental capacity, ~L4514",
+      "quote": "we do not expect registrants to make such a determination",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "When reasonable belief ends, the hold must end",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP App. G, Conditions for temporary hold, ~L4770",
+      "quote": "or no longer has a reasonable belief that their client does not have the mental capacity to make decisions involving financial matters, the temporary hold must end",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "C",
+      "claim": "Why the hold exists: exploitation can drain an account in one transfer; a short hold gives time to check facts",
+      "basis": "Plain-language rationale consistent with 31-103CP App. G general principles",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "C",
+      "claim": "Scenario Odette Lamarche: speak alone, escalate, contact non-suspected TCP within consent, hold specific transfer on reasonable belief, notify, 30-day review, document",
+      "basis": "Applies IDPC 3222 and 31-103CP App. G (existing claims 111-138)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.7",
       "kind": "R",
       "claim": "KYC primarily responsibility of assigned RR/PM/APM (Key rule)",
@@ -1171,6 +1576,42 @@
       "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
       "locator": "GN-3400-21-004 s.2.11.1, ~L408",
       "quote": "the Dealer must retain documented evidence that a review was conducted as required"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Suitability KYC may not come from third party because it is an input to suitability",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.5, ~L329",
+      "quote": "Because this information is an input into the suitability determination analysis",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "RR must not delegate the suitability determination",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3406(2), ~L6948",
+      "quote": "must not delegate their responsibility for suitability assessment obligations to any other person",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Procedures for verifying significant changes independent of the RR",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3213(2)(iv), ~L5737",
+      "quote": "for verifying significant changes to client information",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Independence of verification procedures from the RR",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3213(2)(iv), ~L5736",
+      "quote": "have policies and procedures independent of the Registered Representative",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.8",
@@ -1309,6 +1750,40 @@
       "quote": "take specific action to obtain required documents that have not been received within 25 business days of opening the account"
     },
     {
+      "outcome": "1.8",
+      "kind": "R",
+      "claim": "Identifying a client is the first step in knowing the client",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.2.2, ~L148",
+      "quote": "Identifying a client is the first step in knowing the client.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.8",
+      "kind": "R",
+      "claim": "Identity not established within 30 days: restrict account",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3206(4), ~L5590",
+      "quote": "cannot be established within 30 days of opening an account, the Dealer Member must restrict the account solely to liquidating trades, transfers, paying out funds or delivering securities",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.8",
+      "kind": "R",
+      "claim": "Leverage risk disclosure statement wording",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3217(3), ~L5996",
+      "quote": "Using borrowed money to finance the purchase of securities involves greater risk than using cash resources only.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.8",
+      "kind": "C",
+      "claim": "Why client account records matter: prove correct opening; complete file for Supervisor approval",
+      "basis": "Plain-language rationale; non-normative",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.9",
       "kind": "R",
       "claim": "Account appropriateness: reasonable basis, person's interest first (Key rule, part 1)",
@@ -1409,6 +1884,48 @@
       "kind": "C",
       "claim": "Scenario: novice with low capacity wanting margin/options: restrict those relationships",
       "basis": "application of 3211(1)(ii) and GN s.3.3.4 restriction"
+    },
+    {
+      "outcome": "1.9",
+      "kind": "R",
+      "claim": "Compensation option: conflict must be addressed in client's best interest",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.3.1, ~L112",
+      "quote": "the Dealer or Registered Individual must ensure any conflict or potential conflict has been addressed in the best interest of the client",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.9",
+      "kind": "R",
+      "claim": "Carried accounts: introducing broker meets appropriateness obligation",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.3.3, ~L141",
+      "quote": "where the introducing broker and not the carrying broker is responsible for meeting the account appropriateness obligation",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.9",
+      "kind": "R",
+      "claim": "Institutional exemption reason: sophistication",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.3.3, ~L142",
+      "quote": "there is no appropriateness assessment obligation because of the sophistication of the clients opening the accounts",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.9",
+      "kind": "C",
+      "claim": "Why appropriateness exists: wrong account can harm before any trade (e.g. margin access for a novice)",
+      "basis": "Plain-language rationale",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.9",
+      "kind": "C",
+      "claim": "Scenario Lev Antonov (restrict margin/options, open cash account); Aurelie Gagnon scenario removed in fix round 1 (word budget), restored in fix round 2",
+      "basis": "Apply IDPC 3211 and GN-3400 s.3.3.1/3.3.3-3.3.4 (existing claims 169-178) and claim above on compensation conflicts",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)",
+      "note": "Removed scenario restored in fix round 2 (see the C claim added 2026-10-23 fix round 2)."
     },
     {
       "outcome": "1.10",
@@ -1625,6 +2142,22 @@
       "quote": "applying the loan value of securities to be deposited"
     },
     {
+      "outcome": "1.10",
+      "kind": "R",
+      "claim": "Discretionary account must not hold publicly traded securities of the firm or affiliates",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3276(1), ~L6600",
+      "quote": "A discretionary account must not hold any publicly traded securities of the Dealer Member or its affiliates.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.10",
+      "kind": "C",
+      "claim": "Scenarios Gustavo Pereira (discretionary accommodation under the rules above, 12 months, not renewable; managed for long term) and Farida Rahimi (margin account, agreement, risk awareness, leverage risk disclosure + positive acknowledgement under 3217)",
+      "basis": "Apply IDPC 1201, 3217(1), 3273-3275, 3246-3247 (existing claims and fix-round-1 3217 claim)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.11",
       "kind": "R",
       "claim": "KYC depth varies by business model, relationships, products",
@@ -1733,6 +2266,49 @@
       "kind": "C",
       "claim": "Typical advisory account-opening package list",
       "basis": "summary of documents required elsewhere in this element (IDPC 3202, 3206, 3202(4), 3216, 3113, 3218, 3724, 3247, 3217, 3254, 3274, 3278)"
+    },
+    {
+      "outcome": "1.11",
+      "kind": "R",
+      "claim": "Depth of KYC may vary with relationship and securities/services",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.2.5, ~L160",
+      "quote": "The depth of enquiries made and information collected/maintained may vary depending on the Registered Individual’s relationship with the client",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.11",
+      "kind": "R",
+      "claim": "Joint account separate application: different beneficial owners",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.7.2, ~L378",
+      "quote": "because the account’s beneficial owners are not identical to the beneficial owner of an individual account",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.11",
+      "kind": "R",
+      "claim": "Corporate account: the corporation owns the account",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.7.2, ~L379",
+      "quote": "as the corporate account’s owner is the corporation and not the corporation’s beneficial owner",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.11",
+      "kind": "R",
+      "claim": "Trust: separate entity; objectives usually set by trustee",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.7.2, ~L380",
+      "quote": "the trust is a separate legal entity from its beneficiary(ies) and may have different investment objectives, which are usually determined by the trustee",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.11",
+      "kind": "C",
+      "claim": "Scenario Zainab Yusuf: cash/RRSP/margin share one application if the firm can supervise them together and she acknowledges multi-account suitability assessment; joint and holding company need separate applications",
+      "basis": "Applies GN-3400 s.2.7 (existing claims 213-218)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.12",
@@ -1957,6 +2533,22 @@
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3216(6)(i), ~L5967",
       "quote": "If the relationship disclosure information is a customized for each client, the designated Supervisor must approve each document."
+    },
+    {
+      "outcome": "1.12",
+      "kind": "R",
+      "claim": "Intent of RDI: all clients have answers to basic questions on the account relationship",
+      "source_file": "research/sources/ciro/gn-3100-21-001-client-relationship-model.txt",
+      "locator": "GN-3100-21-001 Discussion of relationship disclosure, ~L80",
+      "quote": "The intent of the relationship disclosure is to ensure that all clients have answers to some basic questions on the account relationship, whether or not the client raises these questions with their representative.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.12",
+      "kind": "C",
+      "claim": "A client who knows what to expect can see when the firm falls short",
+      "basis": "Plain-language rationale",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.13",
@@ -2207,6 +2799,29 @@
       "kind": "C",
       "claim": "Exam trap: RR overhearing takeover must not trade/tip/hint; issuer likely on grey list; report to compliance",
       "basis": "application of IDPC 3508 and GN-3500-21-001"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "R",
+      "claim": "Aim of containment: prevent use for illegal insider trading",
+      "source_file": "research/sources/ciro/gn-3500-21-001-confidential-information-containment.txt",
+      "locator": "GN-3500-21-001 Executive Summary, ~L30",
+      "quote": "so as to prevent it being used for illegal insider trading",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "C",
+      "claim": "Why grey list is secret and restricted list circulates; four-question containment analysis",
+      "basis": "Concept inferred from GN-3500 list definitions (existing claims 260-263)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "C",
+      "claim": "Scenarios Theo Brannigan (overheard takeover: no trade/tip, report to compliance) and phishing breach (CIRO 3 and 30 calendar days; PIPEDA report/notify)",
+      "basis": "Apply IDPC 3508, 3703(2)(vii), PIPEDA s.10.1 (existing claims 250-278)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.14",
@@ -2495,6 +3110,13 @@
       "basis": "margin and TFSA are both general accounts sharing one $1,000,000 limit (CIPF page); 1,200,000 > 1,000,000 → 1,000,000 covered; RRSP falls under the separate registered-retirement limit"
     },
     {
+      "outcome": "1.14",
+      "kind": "C",
+      "claim": "Why the welcome package exists; CIPF protects against firm failure, not investment losses",
+      "basis": "Plain-language rationale consistent with CIPF 'does not cover' claims 305-309",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.15",
       "kind": "R",
       "claim": "PDD: assess structure, features, risks, costs and impact (Key rule)",
@@ -2647,6 +3269,58 @@
       "quote": "product due diligence is focused on ensuring that the products a Dealer makes available are appropriate, or suitable, for its client base"
     },
     {
+      "outcome": "1.15",
+      "kind": "R",
+      "claim": "PDD lets firm identify securities for certain classes or no client",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001 What is product due diligence?, ~L70",
+      "quote": "By conducting product due diligence, Dealers can identify securities that should be made available to only certain classes of clients, or in certain cases, not be made available to any client.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.15",
+      "kind": "R",
+      "claim": "Do not assume little review because similar to existing product",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001 risk-based approach, ~L120",
+      "quote": "Dealers should not assume that little or no review is necessary if a security is similar to one already in the marketplace, or on the Dealer’s product shelf.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.15",
+      "kind": "R",
+      "claim": "Complex/novel securities: documented review by committee from relevant departments",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001 Components of effective PDD, ~L185",
+      "quote": "a detailed and documented review by an appropriately qualified and experienced committee or working group of representatives from all relevant Dealer departments, including compliance, legal, finance, marketing, sales, and operations",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.15",
+      "kind": "R",
+      "claim": "Formal decision by new product committee with senior staff",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001 Components of effective PDD, ~L186",
+      "quote": "A formal decision on the security by a new product committee or other authorized group that includes senior staff.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.15",
+      "kind": "R",
+      "claim": "Post-approval follow-up includes training needs",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001 Components of effective PDD, ~L189",
+      "quote": "reassessment of training needs on a continuing basis",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.15",
+      "kind": "C",
+      "claim": "Scenarios: 3x leveraged inverse ETF (complex, own analysis, committee, restrict, train, monitor); Callum Whitlock private bond not on shelf (no recommendation; client-directed needs assessment and suitability)",
+      "basis": "Apply IDPC 3301 and GN-3300 (existing claims 316-332 and claims above)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.16",
       "kind": "R",
       "claim": "KYP rule (Key rule)",
@@ -2731,6 +3405,31 @@
       "kind": "C",
       "claim": "Cost illustration: $100,000, 20 years, 6% gross; 1% cost → ~$265,330; 2% cost → ~$219,112; gap ~$46,218 (convention: net = gross − annual cost, annual compounding)",
       "basis": "100000*1.05**20 = 265,329.77; 100000*1.04**20 = 219,112.31; difference 46,217.46 (python-verified)"
+    },
+    {
+      "outcome": "1.16",
+      "kind": "R",
+      "claim": "KYP extension of duty to deal fairly, honestly, good faith",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001 What is KYP?, ~L240",
+      "quote": "KYP is also an extension of each Approved Person’s general duty to deal fairly, honestly and in good faith with their clients",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.16",
+      "kind": "R",
+      "claim": "Understand how product helps objectives and how volatility affects returns",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001 What is KYP?, ~L236",
+      "quote": "they can assist the client in achieving their investment objective(s), and market volatility could affect potential returns",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.16",
+      "kind": "C",
+      "claim": "PPN scenario: protection usually only at maturity and depends on issuer credit; return may be capped; long term; early sale may return less than principal; limited liquidity; embedded fees",
+      "basis": "Textbook-standard description of principal-protected notes; labelled concept",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.17",
@@ -2909,6 +3608,65 @@
       "quote": "disclosure or client consent cannot be viewed as a means to justify excessive trading"
     },
     {
+      "outcome": "1.17",
+      "kind": "R",
+      "claim": "Suitability fundamental obligation critical to investor protection",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3, ~L441",
+      "quote": "The suitability determination is a fundamental obligation Dealers and Registered Individuals owe to their clients and is critical to investor protection.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.17",
+      "kind": "R",
+      "claim": "Suitability does not guarantee a particular outcome",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.1, ~L445",
+      "quote": "Meeting the suitability determination obligation does not guarantee any particular client outcome.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.17",
+      "kind": "R",
+      "claim": "Professional judgement on weight of factors",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.2, ~L492",
+      "quote": "Dealers and Registered Individuals should use their professional judgement to determine the weight to put on each of the specific factors in clause 3402(1)(i)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.17",
+      "kind": "R",
+      "claim": "Meet objectives while staying within risk profile",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.1, ~L480",
+      "quote": "meeting the client’s investment objectives while staying within that client’s risk profile",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.17",
+      "kind": "R",
+      "claim": "Higher concentration: more steps and documentation",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.3, ~L498",
+      "quote": "Generally, the higher the concentration in a particular type of security, sector or industry, the more steps a Dealer or Registered Individual should take, and document, to demonstrate the investment was suitable for the client.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.17",
+      "kind": "C",
+      "claim": "Churning harms client: each trade adds costs that compound",
+      "basis": "Standard cost-compounding concept (see 1.16 illustration)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.17",
+      "kind": "C",
+      "claim": "Scenarios Piotr Nowak (similar-fund switch for higher trailer + redemption fee on the old fund: unsuitable, consent does not change this) and Ximena Vanier (sells other holdings to fund a 20% position: energy 30% + 20% = 50% of the account)",
+      "basis": "Apply 31-103CP switch guidance, MSN-0065 ('redemption charges' as a switch consequence; DSC example replaced because DSC purchase options were banned in 2022) and GN-3400 s.3.2.3; funded by sales so the account size is unchanged: (30+20)/100 = 50%",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.18",
       "kind": "R",
       "claim": "Suitability applies to client instructions",
@@ -2987,6 +3745,20 @@
       "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
       "locator": "IDPC 3945(2)(i), ~L10004",
       "quote": "must specifically address the detection of: (i) unsuitable trading"
+    },
+    {
+      "outcome": "1.18",
+      "kind": "C",
+      "claim": "Why 3402(5) balance: respects client's right to decide, ensures informed decision, records warning",
+      "basis": "Plain-language rationale",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.18",
+      "kind": "C",
+      "claim": "Scenario Nadia Haddad: explain, advise against, alternative, recorded confirmation or decline; accepted order reviewed by trade supervision",
+      "basis": "Applies IDPC 3402(5), 3945(2)(i) (existing claims)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.19",
@@ -3075,6 +3847,38 @@
       "basis": "application of 3402(1) factors"
     },
     {
+      "outcome": "1.19",
+      "kind": "R",
+      "claim": "Illiquid securities with no redemption: reassessment may be limited",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.4, ~L216",
+      "quote": "When a client’s account contains illiquid securities that have no redemption features, the suitability reassessment may be limited due to the illiquid nature of the securities.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "R",
+      "claim": "Consider illiquid holdings in future recommendations",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.4, ~L216",
+      "quote": "However, the Registered Individual should consider this fact when making future recommendations for the client.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "C",
+      "claim": "Withdrawal from the safe part of a portfolio leaves a riskier mix (Ngozi Okonjo scenario removed in fix round 1, word budget)",
+      "basis": "Standard asset-allocation concept; applies IDPC 3402(1) 'withdraws'",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "C",
+      "claim": "Scenario Ravi Subramanian: transfer-in trigger, restrict until review, KYP each holding, tax-aware liquidation, limited review of non-redeemable fund",
+      "basis": "Applies GN-3400 ss.3.4.1, 3.4.3, 3.4.4 (existing claims 382-385 and claims above)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.20",
       "kind": "R",
       "claim": "Appropriateness is one-time before opening",
@@ -3119,6 +3923,39 @@
       "kind": "C",
       "claim": "Scenario classification (retiree in fee-based account = account question; speculative stock = trade question)",
       "basis": "application of 3211/3402 distinction"
+    },
+    {
+      "outcome": "1.20",
+      "kind": "R",
+      "claim": "Ongoing account suitability when circumstances change or new products/account types offered",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.3.2, ~L120",
+      "quote": "To the extent that a client’s circumstances change or new products, services or account types are made available by a Dealer after the opening of the account, the Dealer must",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.20",
+      "kind": "R",
+      "claim": "OEO red flag: client no longer capable of online activities",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.4, ~L200",
+      "quote": "if it becomes obvious that a client is no longer capable of conducting online activities (e.g., persistent difficulties in accessing the Dealer’s online platform to place trades)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.20",
+      "kind": "C",
+      "claim": "Why two obligations: gate at opening vs ongoing check",
+      "basis": "Plain-language rationale",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.20",
+      "kind": "C",
+      "claim": "Scenario Maren Lindqvist (OEO red flags -> account question 3402(3)(i)); Thaddeus Quill scenario removed in fix round 1 (word budget), restored in fix round 2",
+      "basis": "Apply IDPC 3402(3) and GN-3400 s.3.4.4 (existing claims 389-393)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)",
+      "note": "Removed scenario restored in fix round 2 (see the C claim added 2026-10-23 fix round 2)."
     },
     {
       "outcome": "1.21",
@@ -3233,6 +4070,23 @@
       "quote": "a statement indicating whether or not the suitability of the investments held in the account will be reviewed in the case of other triggering events"
     },
     {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "New RR verifies client information as soon as practicable",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3215(2)(i), ~L5768",
+      "quote": "verify the client information in the account application with the client as soon as practicable to ensure the information is correct",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "C",
+      "claim": "Why monitoring: client, securities and RR change; scenario Hyun-woo Park (new RR trigger; review against 3402(1) within a reasonable time; new RR verifies client information as soon as practicable; new RR and designated Supervisor acknowledge in writing; extent depends on circumstances; 3215(2) steps restated in fix round 3). Supervision-flag scenario removed in fix round 1 (word budget)",
+      "basis": "Apply IDPC 3402(2)(ii), 3215(2)(i)-(ii); GN-3400 s.3.4.4",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)",
+      "note": "Resolution restated in full in fix round 3 (finding V-02)."
+    },
+    {
       "outcome": "1.22",
       "kind": "R",
       "claim": "Material change example: job loss changes risk profile and objectives",
@@ -3263,6 +4117,13 @@
       "kind": "C",
       "claim": "Three-step analysis (what changed; which KYC factor/holding; does portfolio still meet 3402(1))",
       "basis": "analytical framework applying IDPC 3402(1)-(2)"
+    },
+    {
+      "outcome": "1.22",
+      "kind": "C",
+      "claim": "Scenario Leonor Batista: rate rise is not a listed 3402(2) trigger (RDI states whether market fluctuations trigger review); her higher loan payments are a KYC change that could make the account unsuitable -> 3402(2)(iii). Svetlana scenario removed (word budget)",
+      "basis": "Apply IDPC 3402(2), 3216(5)(ii)(d)(IV); PDD guidance (GN-3300) kept only as a firm-level note. Revised fix round 1 (F09).",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.23",
@@ -3481,6 +4342,51 @@
       "quote": "relationship pricing or other beneficial selling arrangements"
     },
     {
+      "outcome": "1.23",
+      "kind": "R",
+      "claim": "Some compensation practices can lead to behaviour not in client's best interest",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363 Internal compensation, ~L99",
+      "quote": "some compensation practices can result in behaviour that is not in the best interest of clients",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.23",
+      "kind": "R",
+      "claim": "Best interest: put client's interests first ahead of own",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363 Section A, ~L91",
+      "quote": "a registered firm and its registered individuals must put the interests of their clients first, ahead of their own interests and any other competing considerations",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.23",
+      "kind": "R",
+      "claim": "Control example: pay that does not differ by product",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363 suggested controls, ~L112",
+      "quote": "maintaining internal compensation arrangements that do not differ by product or service sold or by account or client type",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.23",
+      "kind": "R",
+      "claim": "Proprietary products subject to same selection process",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363 proprietary products, ~L156",
+      "quote": "ensuring that proprietary products are subject to the same know your product processes and selection criteria",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.23",
+      "kind": "R",
+      "claim": "Conflict from owning a recommended security should be disclosed before or at recommendation (Orla scenario)",
+      "source_file": "research/sources/ciro/gn-3100-21-001-client-relationship-model.txt",
+      "locator": "GN-3100-21-001 Conflict of interest disclosure, ~L176",
+      "quote": "this may constitute a material conflict which should be disclosed to the client before or at the time of the recommendation",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.24",
       "kind": "R",
       "claim": "Outside activity definition incl. uncompensated",
@@ -3629,6 +4535,22 @@
       "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
       "locator": "GN-2500-22-001 s.5, ~L170",
       "quote": "A registered individual in a position of influence is prohibited from purchasing or selling securities or derivatives for, or recommending the purchase, sale or holding of securities or derivatives to"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Insurance activities must be disclosed as an outside activity",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.5, ~L93",
+      "quote": "is also required to be disclosed as an outside activity under items 10 of Form 33-109F4",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "C",
+      "claim": "Why outside activities need control (time, conflicts, client information, confusion); scenario Kenji Morimoto (diploma-granting college; disclosure; no trading/advice for susceptible students or their known spouse/parent/sibling/grandparent/child). Sigrun scenario removed (word budget)",
+      "basis": "Rationale summarizing GN-2500 s.3 considerations (existing claims 449-454, 457-459)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
     },
     {
       "outcome": "1.25",
@@ -3819,6 +4741,40 @@
       "basis": "application of IDPC 3115(2)(ii)-(v)"
     },
     {
+      "outcome": "1.25",
+      "kind": "R",
+      "claim": "Borrowing from a client raises a conflict that in almost all cases cannot be addressed (MFDA staff guidance)",
+      "source_file": "research/sources/ciro/mfda-msn-0047-personal-financial-dealings-with-clients.txt",
+      "locator": "MFDA MSN-0047 (a), ~L27",
+      "quote": "Borrowing from a client by either the Member or an Approved Person raises a material conflict that, in almost all cases, cannot be addressed in the best interest of the client.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.25",
+      "kind": "R",
+      "claim": "Gifts/benefits can be used to negotiate private settlements concealing a breach",
+      "source_file": "research/sources/ciro/mfda-msn-0047-personal-financial-dealings-with-clients.txt",
+      "locator": "MFDA MSN-0047 (e), ~L53",
+      "quote": "they can be used as a way of negotiating private settlements aimed at concealing a breach",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.25",
+      "kind": "R",
+      "claim": "Related persons definition (CRA)",
+      "source_file": "research/sources/cra/business-structures-sole-proprietorship-partnership.txt",
+      "locator": "CRA business definitions 'Arm's length', ~L265",
+      "quote": "Related persons include individuals connected by blood relationship, marriage, common-law partnership or adoption (legal or in fact).",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.25",
+      "kind": "C",
+      "claim": "Why prohibition: trusting client may find it hard to refuse; scenarios RR's mother executor (Related Person with approval) and personal payment of error loss. Cornelius scenario removed (word budget)",
+      "basis": "Apply IDPC 3115(2)(ii)-(v) (existing claims 460-477)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.26",
       "kind": "R",
       "claim": "P&P must address identifying, disclosing, avoiding/addressing conflicts",
@@ -3955,6 +4911,33 @@
       "quote": "attendance logs to track which employees attended and completed the training sessions"
     },
     {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Firms expected to take the lead on conflicts incl. shelf and compensation",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363 intro, ~L22",
+      "quote": "We expect firms to take the lead in addressing material conflicts of interest, including those related to the firm’s product shelf and compensation structures.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Annual outside activity canvass of employees",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.3.5, ~L65",
+      "quote": "An annual “outside activity” canvas of their employees.",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Approval records include conditions and how compliance monitored",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.3.5, ~L66",
+      "quote": "including any special conditions, policies, procedures and controls that have been imposed and how compliance will be monitored",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
       "outcome": "1.27",
       "kind": "R",
       "claim": "Standards of conduct (Key rule part 1)",
@@ -4063,6 +5046,1137 @@
       "kind": "C",
       "claim": "Other breach examples (misstating risk, using client money/info, steering risk answers, promising returns, off-book trading, falsifying records, hiding complaints/conflicts/outside activities, misleading supervisors)",
       "basis": "application of IDPC 1402 standards to scenarios"
+    },
+    {
+      "outcome": "1.27",
+      "kind": "R",
+      "claim": "Rule 3100 intended to underpin investor confidence",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3101(1), ~L4908",
+      "quote": "The requirements are intended to underpin the Corporation’s objectives of maintaining investor confidence in securities markets",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.27",
+      "kind": "C",
+      "claim": "General standard catches misconduct that no specific rule names; scenarios (unauthorized trades in advisory accounts; hidden complaint + personal refund)",
+      "basis": "Apply IDPC 1402, 3221, 3115(2)(ii) (existing claims 197, 501-510, 464-465)",
+      "added": "2026-10-23 (v1.1 STE rewrite + depth)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "IDPC 'securities laws' = Canadian federal, provincial and territorial law (2551(1) scope is Canadian jurisdictions) [F01]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201 'securities laws', ~L956",
+      "quote": "in Canada enacted by the government of Canada or any province or territory in Canada",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Mobility condition (c): individual acts in local jurisdiction only as permitted by principal-jurisdiction registration [F02, E1-01, S-M04]",
+      "source_file": "research/sources/csa/ni-31-103-parts-2-7-8-11-categories-exemptions-records.txt",
+      "locator": "NI 31-103 s.2.2(1)(c), ~L107",
+      "quote": "the individual does not act as a dealer, underwriter or adviser in the local jurisdiction other than as he or she is permitted to in his or her principal jurisdiction according to the individual’s registration in that jurisdiction",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Disclosure covers the firm too if the firm relies on s.8.30",
+      "source_file": "research/sources/csa/ni-31-103-parts-2-7-8-11-categories-exemptions-records.txt",
+      "locator": "NI 31-103 s.2.2(1)(g), ~L118",
+      "quote": "and if the firm is relying on section 8.30 Client mobility exemption – firms, the firm,",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Individual and firm exemptions are independent",
+      "source_file": "research/sources/csa/cp-31-103-parts-2-7-8-11-categories-mobility-records-guidance.txt",
+      "locator": "31-103CP s.2.2 Limits on the number of clients, ~L83",
+      "quote": "Sections 2.2 and 8.30 are independent of each other",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Firm over the 10-client limit must register in the local jurisdiction [F03]",
+      "source_file": "research/sources/csa/cp-31-103-parts-2-7-8-11-categories-mobility-records-guidance.txt",
+      "locator": "31-103CP s.2.2 Limits on the number of clients, ~L93",
+      "quote": "If the firm exceeds the 10 client limit, the firm must be registered in the local jurisdiction.",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "Significant change includes any change that could reasonably significantly impact net worth or income (move is only significant through such effects) [F04, E1-02]",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, ~L423",
+      "quote": "any other change that could reasonably significantly impact the client’s net worth or income",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "KYC change is a trigger only if it could result in the account/security not satisfying 3402(1)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(iii), ~L5896",
+      "quote": "becomes aware of a change in the retail client",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "R",
+      "claim": "TFSA non-resident contribution tax excludes qualifying transfers and exempt contributions",
+      "source_file": "research/sources/cra/tfsa-pages.txt",
+      "locator": "CRA TFSA non-resident page, ~L1690",
+      "quote": "except for a qualifying transfer or an exempt contribution",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.1",
+      "kind": "C",
+      "claim": "Snowbird usually stays resident in Canada; province of residence unchanged; client who moves abroad changes residence (foreign rules outside sources; firm cross-border policy; CRA emigrant rules)",
+      "basis": "Standard residency concept, labelled (concept); foreign-law content kept conceptual per gap G1 [E1-03]",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "Recording the date of collection is a best practice",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.6.1, ~L340",
+      "quote": "As a best practice, Dealers should record the date on which information is collected under subsection 3202(1)",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "Review at least at the 3209(4) frequency",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.6.1, ~L340",
+      "quote": "At a minimum, Dealers should review, and if necessary update KYC information, at the frequency set out in subsection 3209(4)",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "KYC is not a tick-the-box exercise",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.6.2, ~L344",
+      "quote": "KYC is not a “tick the box” exercise.",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "Meaningful interaction regardless of tools",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.6.2, ~L65",
+      "quote": "Need for meaningful interaction with the client regardless of tools or technology",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "C",
+      "claim": "Why confirmation and dating matter: without confirmation a client can later deny the KYC; date shows the KYC was current and when the 3209(4) review is due",
+      "basis": "Plain-language rationale, labelled (concept) [E1-14]",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "Purpose (iv): client's contact information [E1-05]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3202(4)(iv), ~L5541",
+      "quote": "(iv) the client’s contact information.",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "TCP may be asked to confirm client's contact information when client unreachable [F06, E1-06]",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP App. G, Contacting the TCP, ~L4630",
+      "quote": "A registrant might also contact the TCP to confirm the client’s contact information if the",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "Registrants not the final arbiter of capacity/exploitation [F07]",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP App. G, Temporary holds, ~L4689",
+      "quote": "We do not expect registered firms and their registered individuals to be the final arbiter in matters of vulnerability",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "Whole-account hold may be reasonable if all assets involved, without limiting regular expenses [F08]",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP App. G, Temporary holds, ~L4695",
+      "quote": "it may be reasonable to place a temporary hold on the entire account while not limiting the payment of regular expenses",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "R",
+      "claim": "Review relevant facts as soon as possible after placing the hold, then reasonably frequently [E1-06]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3222(3)(iii), ~L6094",
+      "quote": "review the relevant facts as soon as possible after placing the",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.6",
+      "kind": "C",
+      "claim": "Scenario Odette: notify with reasons ASAP; review facts promptly and often; within 30 days and each 30 days revoke or notify continuation with reasons",
+      "basis": "Applies IDPC 3222(3)(ii)-(iv) [S-M08]",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Significant change list: risk profile, horizon, needs and objectives",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, ~L418",
+      "quote": "For the purposes of subsection 3209(3), a “significant change” in a client’s information includes changes to the client’s",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Significant change: any other change that could reasonably significantly impact net worth or income",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, ~L423",
+      "quote": "any other change that could reasonably significantly impact the client’s net worth or income",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Firm makes reasonable enquiries to find significant changes",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, ~L416",
+      "quote": "Dealers should make reasonable enquiries to determine if there has been a significant change to a client’s KYC information.",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "RR may ask at portfolio reviews or other account contacts",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, ~L416",
+      "quote": "A Registered Individual may make such inquiries when they meet a client to review their portfolio, otherwise corresponds with the client to discuss other account related matters",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Significant changes approved like a new account application",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3215(1), ~L5764",
+      "quote": "any significant changes to client information are approved in the same manner that an account application is approved for a new account",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.8",
+      "kind": "R",
+      "claim": "Identity established as soon as practicable, within 30 days [S-M06]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3206(3), ~L5588",
+      "quote": "must be established as soon as practicable but not more than 30 days after opening the account",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.8",
+      "kind": "R",
+      "claim": "Restriction applies to 3206(1) individuals",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3206(4), ~L5590",
+      "quote": "If the identity of such individual referred to in subsection 3206(1) cannot be established within 30",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.8",
+      "kind": "R",
+      "claim": "Restriction stays until identity established [S-M06]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3206(4), ~L5592",
+      "quote": "These account restrictions must remain in place until the Dealer Member establishes the individual’s identity.",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.10",
+      "kind": "R",
+      "claim": "Leverage risk disclosure when first aware of intention to buy with borrowed money [F12]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3217(1), ~L5988",
+      "quote": "when first becoming aware of a retail client’s intention to purchase securities using borrowed money",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.10",
+      "kind": "R",
+      "claim": "Positive acknowledgement of receipt",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3217(1)(ii), ~L5991",
+      "quote": "obtain the retail client’s positive acknowledgement that they are in receipt of the disclosure statement",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.11",
+      "kind": "R",
+      "claim": "Client acknowledges multi-account suitability use of one application [S-M07]",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.7.1, ~L373",
+      "quote": "the client understands and acknowledges that the Dealer may use the information collected in the one application to assess and determine suitability on a multiple-account basis",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.11",
+      "kind": "C",
+      "claim": "Business model bullet: OEO-only business makes no recommendations so needs no suitability KYC; full-service advisory needs full suitability KYC [E1-15]",
+      "basis": "Applies GN-3400 ss.2.3.7 and 2.4 (existing claims on depth variation and OEO/DEA/institutional KYC)",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.12",
+      "kind": "R",
+      "claim": "OEO omission only if 3241 disclosure made [E1-07]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3216(5)(iii), ~L5961",
+      "quote": "provided that disclosure is made in compliance with the requirements in section 3241",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "R",
+      "claim": "PIPEDA principle 2: identifying purposes",
+      "source_file": "research/sources/gov/opc-pipeda-fair-information-principles-pages.txt",
+      "locator": "OPC fair information principles, Principle 2, ~L35",
+      "quote": "Principle 2 – Identifying purposes",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "R",
+      "claim": "PIPEDA principle 3: consent",
+      "source_file": "research/sources/gov/opc-pipeda-fair-information-principles-pages.txt",
+      "locator": "OPC fair information principles, Principle 3, ~L39",
+      "quote": "Principle 3 – Consent",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "R",
+      "claim": "PIPEDA principle 4: limiting collection",
+      "source_file": "research/sources/gov/opc-pipeda-fair-information-principles-pages.txt",
+      "locator": "OPC fair information principles, Principle 4, ~L43",
+      "quote": "Principle 4 – Limiting collection",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "R",
+      "claim": "PIPEDA principle 6: accuracy",
+      "source_file": "research/sources/gov/opc-pipeda-fair-information-principles-pages.txt",
+      "locator": "OPC fair information principles, Principle 6, ~L51",
+      "quote": "Principle 6 – Accuracy",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "R",
+      "claim": "PIPEDA principle 7: safeguards",
+      "source_file": "research/sources/gov/opc-pipeda-fair-information-principles-pages.txt",
+      "locator": "OPC fair information principles, Principle 7, ~L55",
+      "quote": "Principle 7 – Safeguards",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "R",
+      "claim": "PIPEDA principle 8: openness",
+      "source_file": "research/sources/gov/opc-pipeda-fair-information-principles-pages.txt",
+      "locator": "OPC fair information principles, Principle 8, ~L59",
+      "quote": "Principle 8 – Openness",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.13",
+      "kind": "R",
+      "claim": "PIPEDA principle 9: individual access",
+      "source_file": "research/sources/gov/opc-pipeda-fair-information-principles-pages.txt",
+      "locator": "OPC fair information principles, Principle 9, ~L63",
+      "quote": "Principle 9 – Individual access",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.14",
+      "kind": "R",
+      "claim": "CIPF limits prescribed in the CIPF Coverage Policy (page retrieved 2026-10-22, stated as at October 2026) [E1-16]",
+      "source_file": "research/sources/ciro/cipf-about-cipf-coverage.txt",
+      "locator": "CIPF coverage page (retrieved 2026-10-22), ~L48",
+      "quote": "up to the limits prescribed in the CIPF Coverage Policy",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.17",
+      "kind": "R",
+      "claim": "Key rule verbatim lead-in of 3402(1) [E1-17]",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1), ~L5671",
+      "quote": "the Dealer Member must determine, on a reasonable basis, that the action satisfies the following criteria",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.17",
+      "kind": "R",
+      "claim": "Switch consequences can include redemption charges (scenario fee, replacing DSC) [F15]",
+      "source_file": "research/sources/ciro/mfda-msn-0065-excessive-trading.txt",
+      "locator": "MFDA MSN-0065, ~L37",
+      "quote": "the consequences to the client may include tax implications, redemption charges",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.18",
+      "kind": "R",
+      "claim": "RR must follow 3402(5): advise against and recommend an alternative",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.10, ~L718",
+      "quote": "The Registered Individual must follow the steps set out in subsection 3402(5) and advise the client against proceeding and recommend an alternative action.",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.18",
+      "kind": "R",
+      "claim": "Records demonstrate compliance with suitability requirements",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3804(2)(xii), ~L8360",
+      "quote": "account appropriateness, product due diligence, know-your-product and suitability determination requirements",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.18",
+      "kind": "R",
+      "claim": "Supervision detects excessive trading",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3945(2)(iii), ~L10008",
+      "quote": "excessive trading,",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.18",
+      "kind": "R",
+      "claim": "Supervision policies outline actions for problems identified",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3945(1), ~L10000",
+      "quote": "These policies and procedures must outline actions to deal with problems or issues identified by the review.",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.18",
+      "kind": "C",
+      "claim": "3402(5) Key rule moved under the Investment Dealer heading (the rule addresses the Dealer Member); RR steps from GN-3400 s.3.10 kept under the RR heading",
+      "basis": "Structure fix [E1-12]",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "R",
+      "claim": "Purchase: suitability judged on the resulting account portfolio",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(4), ~L6845",
+      "quote": "account portfolio of investments that would result from the investment action",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "R",
+      "claim": "Higher concentration: more steps and documentation",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.3, ~L493",
+      "quote": "Generally, the higher the concentration in a particular type of security, sector or industry, the more steps a Dealer or Registered Individual should take, and document",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "R",
+      "claim": "Over-concentration in illiquid exempt market securities",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.2.3, ~L497",
+      "quote": "illiquid exempt market securities as compared to more liquid publicly traded securities",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "R",
+      "claim": "Professional judgement when liquidating",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.3, ~L487",
+      "quote": "Registered Individuals should use their professional judgement when liquidating securities for clients",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "R",
+      "claim": "Transfers-in: complete the determination within a reasonable time",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.1, ~L581",
+      "quote": "complete the suitability determination within a reasonable time after opening the account",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "R",
+      "claim": "Exchange: switch disclosure of charges, dealer incentives",
+      "source_file": "research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt",
+      "locator": "31-103CP 'Switch or change transactions', ~L3260",
+      "quote": "of charges associated with the transaction, dealers’ incentives for such a transaction",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.19",
+      "kind": "C",
+      "claim": "Per-action points: purchase (KYC fit, concentration, liquidity, costs/alternatives on resulting portfolio); sale (which position given gain/loss, costs, what remains); exchange = sale + purchase, compare old/new; alike holdings mainly add cost",
+      "basis": "Application of 3402(1) factors and 3402(4); tax lot choice is standard concept (7.10)",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "New RR and designated Supervisor acknowledge in writing that application reviewed and updated if necessary",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3215(2)(ii), ~L5785",
+      "quote": "the designated Supervisor acknowledge, in writing, that the account application was reviewed and, if necessary, updated",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "Review under 3402(2) is to determine whether the 3402(1) criteria are met",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2), ~L6812",
+      "quote": "review the retail client’s account and the securities, derivatives or precious metals bullion, in the retail client’s account to determine whether the criteria in subsection 3402(1) are met",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "Trigger: deposit or transfer-in of securities",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(i), ~L6815",
+      "quote": "are received or delivered into the client’s account by way of deposit or transfer",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "3402(1) factor (c): concentration and liquidity",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(i)(c), ~L6803",
+      "quote": "the impact of the action on the retail client’s account, including the concentration of securities, derivatives or precious metals bullion, within the account and the liquidity",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "3402(1)(ii): action puts the client's interest first",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(1)(ii), ~L6810",
+      "quote": "the action puts the retail client’s interest first",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "Transfer-in: CIRO expects determination completed within a reasonable time after opening the account",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.1, ~L579",
+      "quote": "complete the suitability determination within a reasonable time after opening the account",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "Transfer-in: restrict investment actions until determination completed (e.g. liquidating trades, transfers or disbursements)",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.1, ~L582",
+      "quote": "restrict the investment actions in that account until the suitability determination has been completed (for example, by restricting the accounts to liquidating trades, transfers or disbursements)",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "Suitability criteria apply to reviews under 3402(2), including decisions or recommendations to continue to hold",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.2, ~L587",
+      "quote": "including decisions or recommendations to continue to hold securities",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "Liquidating transferred-in securities: client's interest first, mindful of tax or other consequences",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.3, ~L598",
+      "quote": "must do so in a way that puts the client’s interest first, being mindful of any tax or other consequences",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "New RR: extent of the determination depends on the circumstances",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.3.4.4, ~L637",
+      "quote": "When a new Registered Individual becomes responsible for a client’s account, the extent of the suitability determination will depend on the circumstances",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "C",
+      "claim": "Scenario Priya Raman (transfer-in with a concentrated small-cap position: 3402(2)(i) trigger; review against 3402(1) within a reasonable time; restrict investment actions until done; continue-to-hold is a suitability decision; liquidation puts client first with tax in mind)",
+      "basis": "Apply IDPC 3402(1)-(2) and GN-3400 ss.3.4.1-3.4.3 (claims above)",
+      "added": "2026-10-23 (fix round 3)"
+    },
+    {
+      "outcome": "1.22",
+      "kind": "R",
+      "claim": "RDI states whether market fluctuations trigger a suitability review (market events are not a listed 3402(2) trigger)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3216(5)(ii)(d)(IV), ~L5906",
+      "quote": "in the event of significant market fluctuations",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.22",
+      "kind": "R",
+      "claim": "PDD guidance: general market change usually not a reassessment of individual securities (firm-level note)",
+      "source_file": "research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt",
+      "locator": "GN-3300-21-001 Monitor and review, ~L185",
+      "quote": "we generally would not consider it a change requiring reassessment of individual securities",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Position of influence: reasonable person would consider the individual to have influence",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.5, ~L161",
+      "quote": "an individual in that position would be considered by a reasonable person to have influence over another individual",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Examples include teacher at a degree or diploma granting institution",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.5, ~L166",
+      "quote": "a professor, instructor or teacher at a degree or diploma granting institution",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Prohibited persons (1): relationship arising from the position, susceptible to influence",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.5, ~L172",
+      "quote": "an individual who has a relationship with the registered individual arising from the position of influence",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Prohibited persons (2): known spouse, parent, sibling, grandparent or child",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.5, ~L173",
+      "quote": "an Approved Person knows is a spouse, parent, sibling, grandparent or child of the foregoing individual",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Changes reported within 30 days under NI 33-109 s.4.1",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.5, ~L149",
+      "quote": "must be reported within 30 days of the change, pursuant to section 4.1 of NI 33-109",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Outside activities disclosed on NRD",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.5, ~L147",
+      "quote": "all Approved Persons are required to disclose their outside activities on NRD",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.25",
+      "kind": "R",
+      "claim": "Consideration exception requires that a reasonable person would not question conflict or improper influence",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3115(2)(i)(a)(I), ~L5007",
+      "quote": "infrequent such that it will not cause a reasonable person to question whether it created a conflict of interest or otherwise improperly influenced the Dealer Member",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.25",
+      "kind": "R",
+      "claim": "Exception: compensation from client for services through approved outside activity",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3115(2)(i)(a)(II), ~L5012",
+      "quote": "Compensation received from a client in exchange for services provided through an approved outside activity",
+      "added": "2026-10-23 (fix round 1)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "Confirmation covers significant changes to client information",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.6.1, ~L334",
+      "quote": "including any significant changes to the client’s information",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "KYC obligation does not vary with the medium of interaction",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.6.2, ~L344",
+      "quote": "The KYC obligation does not vary depending on the medium through which a Dealer interacts with its client to gather the necessary information.",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "Firm may use questionnaires/tools but stays responsible for the KYC process",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.6.2, ~L344",
+      "quote": "Although the Dealer may use standardized questionnaires or other tools to collect and document KYC information, the Dealer is responsible for the KYC process.",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "R",
+      "claim": "Tools must accurately reflect client information",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.6.2, ~L346",
+      "quote": "they should ensure these tools accurately reflect the client’s information",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.5",
+      "kind": "C",
+      "claim": "Scenario Bianca Russo: job loss reported by phone -> confirm in writing with chance to correct, keep dated evidence (signature or file note), approve like a new account application, record shows what firm knew",
+      "basis": "Apply GN-3400 s.2.6.1 (existing claims: verify in writing, signature/file notes, date, evidence), s.2.11.2 (significant change incl. income impact) and IDPC 3215(1) (approval like new account application, claim under 1.7)",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "KYC is current if sufficiently up-to-date to support suitability and other obligations",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.1, ~L404",
+      "quote": "We consider information to be current if it is sufficiently up-to-date to support a suitability determination and meet the Dealer’s other regulatory obligations.",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Significant change may make KYC insufficient for suitability",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, ~L425",
+      "quote": "A significant change to the client’s KYC information may result in the information no longer being sufficient to enable the Dealer and Registered Individual to meet the suitability determination obligation",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Job-loss example: change to risk profile and objectives",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, ~L425",
+      "quote": "where a client’s change in employment status (e.g. job loss) results in a change to their risk profile and investment needs and objectives",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Consider restricting to liquidating trades, transfers or disbursements until KYC re-evaluated",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.2, ~L425",
+      "quote": "the Dealer should consider restricting activities in the client’s account to liquidating trades, transfers or disbursements, until such time as the Dealer has had a chance to re-evaluate the client’s KYC information",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "More frequent updates: exempt market securities",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.1, ~L404",
+      "quote": "Dealers should consider more frequent updates when they are distributing exempt market securities",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "More frequent updates: significant position in high-risk, complex or illiquid products",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.11.1, ~L404",
+      "quote": "for client accounts that contain a significant position in securities or products that are high risk, complex or illiquid",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "R",
+      "claim": "Team approach: multiple RRs may be assigned to one account",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s.2.5, ~L331",
+      "quote": "A Dealer may assign multiple Registered Individuals to the same client’s account.",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.7",
+      "kind": "C",
+      "claim": "Why no delegation: third-party information can be incomplete, out of date or collected for another purpose",
+      "basis": "plain-language rationale for IDPC 3209(2) and GN-3400 s.2.5 (KYC is an input into suitability)",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.9",
+      "kind": "C",
+      "claim": "Scenario Aurelie Gagnon (restored in fix round 2): infrequent trader offered fee-based account -> RR should consider whether a commission-based account is more appropriate; higher RR pay is a conflict addressed in her best interest; firm explains options and costs and recommends the one that puts her first",
+      "basis": "Apply GN-3400 s.3.3.3 (commission-based for infrequent traders, existing claim), s.3.3.1 (explain features/costs, recommend client-first option; compensation conflict addressed in best interest, existing claims)",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.20",
+      "kind": "R",
+      "claim": "Ongoing account suitability: continue to have an account (3402(3)(i))",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(3)(i), ~L6839",
+      "quote": "it is suitable for the retail client to continue having an account with the Dealer Member",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.20",
+      "kind": "R",
+      "claim": "Suitability of the resulting account portfolio (3402(4))",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(4), ~L6844",
+      "quote": "account portfolio of investments that would result from the investment action",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.20",
+      "kind": "C",
+      "claim": "Scenario Thaddeus Quill (restored in fix round 2): retired, trades once a year in fee-based account and asks to buy bank shares -> account question (3402(3)) vs action question (3402(1),(4)); answered separately",
+      "basis": "Apply IDPC 3402(1), (3), (4); GN-3400 s.3.3.2 (suitability tracks appropriateness when circumstances change, existing claim) and s.3.3.3 (commission-based for infrequent traders)",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.22",
+      "kind": "R",
+      "claim": "KYC change trigger (3402(2)(iii))",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3402(2)(iii), ~L6819",
+      "quote": "the Dealer Member becomes aware of a change in the retail client",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.22",
+      "kind": "R",
+      "claim": "KYC updated within a reasonable time after significant change (3209(3))",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3209(3), ~L5649",
+      "quote": "updating the information within a reasonable time after the Dealer Member becomes aware of a significant change in the client’s information",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.22",
+      "kind": "C",
+      "claim": "Scenario Svetlana Ivanova (restored in fix round 2): inheritance raises net worth, early retirement shortens horizon and creates income needs -> 3402(2)(iii) trigger; update KYC (3209(3)), client confirms (3202(3)); check portfolio vs 3402(1)",
+      "basis": "Apply IDPC 3402(2)(iii), 3209(3), 3202(3); GN-3400 s.2.11.2 significant-change list (horizon, needs and objectives, net worth or income)",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Regulator acknowledgement of NRD notice is not approval of the outside activity",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.5, ~L157",
+      "quote": "acknowledgement of these notices, via NRD, does not represent our approval of the individual’s outside activity",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Policies: require disclosure of outside activities before engaging",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.4, ~L131",
+      "quote": "require all of their Approved Persons to disclose their outside activities to the Dealer, prior to engaging in such activities",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Policies: ability to identify conflicts",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.4, ~L132",
+      "quote": "ensure that the Dealer has the ability to identify conflicts of interest",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Policies: determine risks and respond to conflicts",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.4, ~L133",
+      "quote": "determine the risks that may arise from a conflict and respond appropriately to the conflict of interest",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Conflicts addressed by avoidance or disclosure and supervision, in clients' best interests",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.4, ~L135",
+      "quote": "Once identified, conflicts can be addressed either through avoidance or by disclosure and supervision. Conflicts of interest must be addressed in the best interests of the client(s).",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Monitoring: training incl. reporting changes",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.4 (citing 31-103CP s.13.4), ~L139",
+      "quote": "providing training or education on outside activities, including the need to report on changes in outside activities",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Monitoring: records documenting supervision",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.4 (citing 31-103CP s.13.4), ~L141",
+      "quote": "maintaining records documenting its supervision of its individuals’ outside activities",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Monitoring: supervisory action on no or late reporting",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.4 (citing 31-103CP s.13.4), ~L142",
+      "quote": "taking appropriate supervisory actions when the Dealer identifies non-compliance with its policies on outside activities, such as no or late reporting of an outside activity",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Monitoring: alternate representative where necessary",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.4 (citing 31-103CP s.13.4), ~L143",
+      "quote": "where necessary, having an alternate representative available for the client",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.24",
+      "kind": "R",
+      "claim": "Monitoring: lifestyle commensurate with known activities; alert to fraud",
+      "source_file": "research/sources/ciro/gn-2500-22-001-outside-activities.txt",
+      "locator": "GN-2500-22-001 s.4 (citing 31-103CP s.13.4), ~L144",
+      "quote": "assessing whether the Dealer’s knowledge of its registered individual’s lifestyle is commensurate with its knowledge of the registered individual’s activities and stay alert to other indicators of possible fraudulent activity",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Periodic review at least annually or more often if business/products change",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, policies and procedures, ~L472",
+      "quote": "or more frequently as needed (e.g., if the firm’s business structure, model, product or service offering changes)",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inadequate training: too generic",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, training, ~L482",
+      "quote": "it was too generic and not specific or tailored to the firm’s business operations or size",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inadequate training: no examples of firm's material conflicts",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, training, ~L483",
+      "quote": "it did not provide descriptions or examples of the material conflicts of interest that exist at the firm",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inadequate training: not all who should be included were included",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, training, ~L484",
+      "quote": "all individuals that should have been included in the training were not included",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inadequate training: no reporting/escalation process details",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, training, ~L485",
+      "quote": "it did not mention or provide details of the reporting or escalation process at the firm",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Train all registered individuals and supervisory staff",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, training, ~L487",
+      "quote": "This would include all registered individuals and supervisory staff",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Expect compliance staff included",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, training, ~L487",
+      "quote": "We expect that this would include compliance staff.",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "More material conflict -> more detailed records",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, record keeping, ~L503",
+      "quote": "As the materiality of a conflict increases, there should be greater detail in the records maintained to demonstrate compliance.",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inventory: description of each material conflict",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, record keeping, ~L508",
+      "quote": "a description of each material conflict of interest identified by the firm",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inventory: materiality assessment and criteria",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, record keeping, ~L509",
+      "quote": "a description of the firm’s assessment for concluding whether or not the conflict is material, including the criteria considered in making the assessment",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inventory: potential impact and risk",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, record keeping, ~L510",
+      "quote": "the potential impact and risk that the conflict can pose",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inventory: who identified and assessed",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, record keeping, ~L511",
+      "quote": "who at the firm was involved in identifying the conflict and making the assessment of whether it is material",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inventory: controls and why sufficient in clients' best interest",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, record keeping, ~L512",
+      "quote": "the controls the firm has in place to manage or address each material conflict of interest, and how these controls are sufficient to address the material conflict in the best interest of clients",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Inventory: how disclosed to clients",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, record keeping, ~L513",
+      "quote": "how the firm has disclosed the conflict to clients",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Periodic reviews include testing of controls",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, record keeping, ~L516",
+      "quote": "periodic reviews should include testing by the firm of the controls implemented and their effectiveness",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Training records: modules/content",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, training, ~L491",
+      "quote": "copies of the training modules / content",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "R",
+      "claim": "Training records: how employees who missed sessions were trained later",
+      "source_file": "research/sources/ciro/csa-ciro-staff-notice-31-363-conflicts-of-interest-page.txt",
+      "locator": "CSA/CIRO SN 31-363, training, ~L493",
+      "quote": "for employees that missed the scheduled / organized training sessions, details with respect to how they were trained at a subsequent date",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.26",
+      "kind": "C",
+      "claim": "Scenario branch manager (restored in fix round 2): approval of a private-company directorship with no review record or monitoring plan -> no evidence of due diligence, no record of conditions/monitoring, cannot show effective controls and qualified supervision",
+      "basis": "Apply GN-2500-22-001 ss.1, 2, 3.5 (existing claims: evidence of due diligence, records of conditions and monitoring, effective controls and qualified supervision)",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.27",
+      "kind": "R",
+      "claim": "1402(2) list does not limit the general standard",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1402(2), ~L1194",
+      "quote": "Without limiting the generality of the foregoing",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.27",
+      "kind": "C",
+      "claim": "Table of examples per 1402(2) limb (wrong-account order unchecked = negligent; unreported complaint against firm policy = failure to comply incl. firm policy; signing a form for the client = unreasonable departure; promising a guaranteed return = likely to diminish investor confidence)",
+      "basis": "application of IDPC 1402(2)(i)-(iv) (existing claims) to typical conduct; illustrative, not rule text",
+      "added": "2026-10-23 (fix round 2)"
+    },
+    {
+      "outcome": "1.21",
+      "kind": "R",
+      "claim": "Registered Individuals use professional judgement when liquidating securities, client interest first, mindful of tax",
+      "source_file": "research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt",
+      "locator": "GN-3400-21-004 s. 3.4.3, ~L599",
+      "quote": "Registered Individuals should use their professional judgement when liquidating securities for clients",
+      "added": "2026-10-23 (orchestrator close-out)"
     }
   ],
   "gaps": [
