@@ -1,0 +1,1604 @@
+{
+  "element": 8,
+  "drafted": "2026-10-22",
+  "claims": [
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Best execution definition",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3119(1) 'best execution', ~line 5114",
+      "quote": "Obtaining the most advantageous execution terms reasonably available under the circumstances."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Dealer policies must specifically address best execution",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3120(1), ~line 5146",
+      "quote": "A Dealer Member's policies and procedures must specifically address achieving best execution for client orders and transactions."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Broad best-execution factors for listed securities: price, speed, certainty, overall cost",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3121(1), ~lines 5149-5156",
+      "quote": "the price of the security or derivative, (ii) the speed of execution of the client order, (iii) the certainty of execution of the client order, and (iv) the overall cost of the transaction, when costs are passed on to clients."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "OTC best-execution policies must ensure fair pricing",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3122(1), ~line 5185",
+      "quote": "over-the-counter derivatives must be designed to ensure fair pricing."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Best-execution process must consider client instructions",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3123(1)(i)(a), ~line 5225",
+      "quote": "requiring the Dealer Member to consider the instructions of the client, subject to its obligations under Corporation requirements and securities laws"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Best-execution policies must be disclosed to clients in writing",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3129(1), ~line 5306",
+      "quote": "A Dealer Member must disclose to its clients in writing the following:"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Best execution may not be achieved on every single trade",
+      "source_file": "research/sources/ciro/gn-urpart6-25-0003-best-execution-idpc-umir.txt",
+      "locator": "GN-URPART6-25-0003 Q&A, ~line 104",
+      "quote": "may not be able to achieve best execution for every single trade it executes on behalf of a client."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "UMIR 2.2(1) standard is 'knows or ought reasonably to know' (deliberate purpose generally not needed)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 2.2(1), ~line 4111",
+      "quote": "if the Participant or Access Person knows or ought reasonably to know the nature of the method, act or practice."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "UMIR 2.1(1)(a) uses the 'knows or ought reasonably' standard",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 2.1(1)(a), ~line 3461",
+      "quote": "with Rule 7.10 if the Participant or Access Person knows or ought reasonably"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "UMIR 2.3 uses the 'knows or ought reasonably to know' standard",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 2.3, ~line 5083",
+      "quote": "if the Participant or Access Person knows or ought reasonably to know that that the entry of the order or the execution of the trade would not comply with"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "UMIR 2.1(1)(b) requires intentional entry of orders",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 2.1(1)(b), ~line 3464",
+      "quote": "intentionally entering on that marketplace on a particular trading day two or more orders"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "UMIR 2.1(1)(a): trade to rectify a failed trade when it will itself result in a failed trade",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 2.1(1)(a), ~line 3460",
+      "quote": "enter into a transaction for the purpose of rectifying a failure in connection with a failed trade prior to the time that a report must be filed in accordance with Rule 7.10"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "UMIR 2.2(1) prohibits manipulative or deceptive method, act or practice",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 2.2(1), ~line 4109",
+      "quote": "shall not, directly or indirectly, engage in or participate in the use of any manipulative or deceptive method, act or practice in connection with any order or trade on a marketplace"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Policy 2.2 Part 1: fictitious trade; no change in beneficial ownership (wash trade)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 1(a)-(b), ~lines 4137-4141",
+      "quote": "(a) making a fictitious trade; (b) effecting a trade in a security or a derivative which involves no change in the beneficial or economic ownership;"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Policy 2.2 Part 1(c): cornering requires 'intent of limiting the supply'",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 1(c), ~line 4142",
+      "quote": "effecting trades by a single interest or group with the intent of limiting the supply of a security or a derivative for settlement of trades made by other persons"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "UMIR 2.2(2): false or misleading appearance of trading activity or artificial price",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 2.2(2), ~lines 4115-4122",
+      "quote": "a false or misleading appearance of trading activity in or interest in the purchase or sale of the security"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Policy 2.2 Part 2(a): matched orders",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 2(a), ~line 4165",
+      "quote": "an order or orders of substantially the same size, at substantially the same time and at substantially the same price for the sale of that security"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Policy 2.2 Part 2(c): successively higher prices",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 2(c), ~line 4175",
+      "quote": "making purchases of, or offers to purchase, a security or a derivative at successively higher prices"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Policy 2.2 Part 2(e)(ii): setting the close",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 2(e)(ii), ~line 4181",
+      "quote": "effect a high or low closing sale price, ask price or bid price"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Policy 2.2 Part 2(f): orders not intended to be executed",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 2(f), ~line 4183",
+      "quote": "entering an order or a series of orders for a security or a derivative that are not intended to be executed;"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Spoofing named as contrary to UMIR 2.2(2) and Policy 2.2 Part 2(f)",
+      "source_file": "research/sources/ciro/gn-urpart7-26-0007-manipulative-deceptive-trading-practices.txt",
+      "locator": "GN-URPART7-26-0007, ~line 92",
+      "quote": "may contravene Rule 2.2(2) and Policy 2.2, Part 2(f)."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "UMIR 2.3: improper orders — breach of securities legislation, SRO, marketplace rules, UMIR",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 2.3, ~lines 5082-5092",
+      "quote": "would not comply with or would result in the violation of: (a) applicable securities legislation;"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Artificial price: not justified by real demand or supply",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 3, ~line 4223",
+      "quote": "an ask price, bid price or sale price will be considered artificial if it is not justified by real demand or supply in a security or a derivative."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Artificial-price factors: preceding/succeeding trade prices, price change, liquidity, time, motivation",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 3(a)-(d), ~lines 4227-4237",
+      "quote": "the recent liquidity of the security or derivative;"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Artificial-price factor: prices of preceding and succeeding trades",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 3(a), ~line 4227",
+      "quote": "the prices of the preceding trades and succeeding trades;"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Artificial-price factor: motivation to establish an artificial price",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 2.2 Part 3(e)(i), ~line 4240",
+      "quote": "has any motivation to establish an artificial price"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Front running: knowledge of client order that could reasonably be expected to affect market price",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1(1), ~line 5714",
+      "quote": "A Participant with knowledge of a client order that on entry could reasonably be expected to affect the market price of a security or a derivative, shall not, prior to the entry of such client order,"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Front running 4.1(1)(a): enter a principal or non-client order in the security or related security/derivative",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1(1)(a), ~lines 5717-5720",
+      "quote": "market, for the purchase or sale of the security, derivative or any related security or related derivative;"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Exception 4.1(2)(a): no decision-maker had actual knowledge",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1(2)(a), ~line 5728",
+      "quote": "had actual knowledge of the client order;"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Exception 4.1(2)(b): order for the benefit of the client",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1(2)(b), ~line 5730",
+      "quote": "an order is entered or trade made for the benefit of the client for whose account the order is to be made;"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Exception 4.1(2)(c): order solicited to facilitate the client order",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1(2)(c), ~line 5731",
+      "quote": "an order is solicited to facilitate the trade of the client order;"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Exception 4.1(2)(d): hedge of a position assumed before actual knowledge",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1(2)(d), ~lines 5732-5733",
+      "quote": "a principal order is entered to hedge a position that the Participant had assumed or agreed to assume before having actual knowledge of the client order"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Exception 4.1(2)(e): pre-existing legally binding obligation",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1(2)(e), ~line 5738",
+      "quote": "a principal order is made to fulfil a legally binding obligation entered into by the Participant before having actual knowledge of the client order"
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Exception 4.1(2)(f): arbitrage account",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1(2)(f), ~line 5740",
+      "quote": "the order is entered for an arbitrage account."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Front running prohibitions include related securities/derivatives, soliciting, informing others",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 4.1(1)(b)-(c), ~lines 5721-5724",
+      "quote": "solicit an order from any other person for the purchase or sale of the security, the derivative, or any related security or related derivative; or (c) inform any other person, other than in the necessary course of business, of the client order."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Rumours/non-specific information are not front running",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 4.1 Part 2, ~line 5781",
+      "quote": "Trading based on non-specific pieces of market information, including rumours, does not constitute frontrunning."
+    },
+    {
+      "outcome": "8.1",
+      "kind": "R",
+      "claim": "Options transaction with knowledge of unentered client order for the underlying is front running",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Policy 4.1 Part 1(a), ~line 5761",
+      "quote": "a transaction in an option, including an option where the underlying interest is an index, when the Participant has knowledge of the unentered client order for the underlying securities;"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Gatekeeper purpose: act on red flags and report",
+      "source_file": "research/sources/ciro/gn-urpart10-26-0003-gatekeeper-reporting-obligation.txt",
+      "locator": "GN-URPART10-26-0003 s.1, ~line 75",
+      "quote": "each Participant or Access Person is expected to act on \"red flags\" which may be indicative of possible improper behaviour"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "UMIR 10.16(1) forthwith report to supervisor or compliance",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 10.16(1), ~line 14073",
+      "quote": "shall forthwith report to their supervisor or the compliance department of the Participant upon becoming aware of activity in a principal account, non-client account or client account"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Listed rules include 2.1(1), 2.2, 2.3, 3.3(1), 4.1, best execution, 5.3, 6.4",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 10.16(1)(e)-(g), ~lines 14084-14088",
+      "quote": "Rule 5.3 respecting client priority; (g) Rule 6.4 respecting trades to be on a marketplace;"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Listed rules include short-sale settlement expectation 3.3(1)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 10.16(1)(c.1), ~line 14081",
+      "quote": "Subsection (1) of Rule 3.3 respecting a reasonable expectation to settle prior to the entry of an order for a short sale;"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Compliance must record, investigate diligently, record findings",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 10.16(4)(a)-(c), ~lines 14124-14128",
+      "quote": "diligently investigate the activity that is the subject of the report and review; (c) make a written record of the findings of the investigation;"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Report to CIRO no later than 15th day of following month",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 10.16(4)(d), ~line 14131",
+      "quote": "such report shall be made not later than the 15th day of the month following the month in which the findings are made."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Client risk assessment considers characteristics, activities and transaction patterns",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s.4.3.4, ~line 271",
+      "quote": "the client's characteristics, activities and transaction patterns."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Deviation from anticipated activity triggers reassessment (supports 'departs from the client's usual pattern'; red flags in 6.2)",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s.4.3.3, ~line 255",
+      "quote": "Investment Dealers may notice a deviation from anticipated client activity triggering them to reassess the client's risk level."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "STR obligation: completed or attempted transactions, reasonable grounds to suspect, ML/TF/sanctions evasion",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s.7, ~lines 77-82",
+      "quote": "report to the Centre every financial transaction that occurs or that is attempted in the course of their activities and in respect of which there are reasonable grounds to suspect that"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "STR covers sanctions evasion",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s.7(c), ~line 82",
+      "quote": "the transaction is related to the commission or the attempted commission of a sanctions evasion offence."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Securities dealers are reporting entities",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s.5(g), ~line 37",
+      "quote": "securities dealers"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Reasonable grounds to suspect is a step above simple suspicion",
+      "source_file": "research/sources/gov/fintrac-str-guidance.txt",
+      "locator": "FINTRAC STR guidance, ~line 201",
+      "quote": "Reasonable grounds to suspect is the required threshold to submit a Suspicious Transaction Report to FINTRAC and is a step above simple suspicion"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "No monetary threshold for STRs",
+      "source_file": "research/sources/gov/fintrac-str-guidance.txt",
+      "locator": "FINTRAC STR guidance, ~line 239",
+      "quote": "There is no monetary threshold associated with the reporting of a suspicious transaction."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "STR sent as soon as practicable",
+      "source_file": "research/sources/gov/pcmltf-str-regulations-sor-2001-317.txt",
+      "locator": "PCMLTF STR Regulations s.9(2), ~line 93",
+      "quote": "The person or entity shall send the report to the Centre as soon as practicable after they have taken measures that enable them to establish that there are reasonable grounds to suspect"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "PCMLTFA s.8 offence: disclosing a report with intent to prejudice a criminal investigation",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s.8, ~line 96",
+      "quote": "No person or entity shall disclose that they have made, are making or will make a report under section 7, or disclose the contents of such a report, with the intent to prejudice a criminal investigation"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "FINTRAC guidance (not the statute) is the source of the instruction not to tip off the client",
+      "source_file": "research/sources/gov/fintrac-str-guidance.txt",
+      "locator": "FINTRAC STR guidance, ~line 147",
+      "quote": "It is important to not tip off your client about the fact that you are filing a Suspicious Transaction Report"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Employee defence when reported to superior",
+      "source_file": "research/sources/gov/pcmltfa-extracts.txt",
+      "locator": "PCMLTFA s.75(2), ~line 144",
+      "quote": "No employee of a person or an entity shall be convicted of an offence under subsection (1) in respect of a transaction or proposed transaction that they reported to their superior"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Insider trading prohibition (Ontario s.76(1))",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.76(1), ~line 401",
+      "quote": "No person or company in a special relationship with an issuer shall purchase or sell securities of the issuer with the knowledge of a material fact or material change with respect to the issuer that has not been generally disclosed."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Tipping prohibition except in necessary course of business",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.76(2), ~line 403",
+      "quote": "No issuer and no person or company in a special relationship with an issuer shall inform, other than in the necessary course of business, another person or company of a material fact or material change"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Recommendation prohibition",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.76(3.1), ~line 411",
+      "quote": "shall recommend or encourage, other than in the necessary course of business, another person or company to purchase or sell securities of the issuer"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Special relationship: insiders/affiliates/associates",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.76(5) (a), ~line 422",
+      "quote": "a person or company that is an insider, affiliate or associate of,"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Special relationship: business or professional activity with the issuer",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.76(5)(b), ~line 426",
+      "quote": "a person or company that is engaging in any business or professional activity"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Special relationship: directors, officers, employees",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.76(5)(c), ~line 429",
+      "quote": "a person who is a director, officer or employee of,"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Special relationship: tippees who know or ought reasonably to have known",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.76(5)(e), ~line 434",
+      "quote": "learns of a material fact or material change with respect to the issuer from any other person or company described in this subsection"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Retail supervision must detect insider trading",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3945(2)(xvii), ~line 10037",
+      "quote": "insider trading."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Approved Person reports to dealer within two business days: own possible contravention",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3702(1)(ii), ~line 7653",
+      "quote": "has reason to believe that he or she has or may currently be contravening any Corporation requirements"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Approved Person reports being the subject of a written client complaint",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3702(1)(iii), ~line 7655",
+      "quote": "if the Approved Person is the subject of a written client complaint"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Approved Person reports complaint about another AP alleging manipulation/insider trading",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3702(1)(iv), ~line 7656",
+      "quote": "about another Approved Person involving allegations of theft, fraud, misappropriation of funds, securities or other property, forgery, money laundering, market manipulation, insider trading, misrepresentation, or unauthorized trading."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Two business days deadline",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3702(1), ~line 7650",
+      "quote": "An Approved Person must report to the Dealer Member any of the following matters within two business days:"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Dealer reports listed matters to CIRO",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3703(2), ~line 7681",
+      "quote": "A Dealer Member must report to the Corporation any of the following matters"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Dealer reports all client complaints except service complaints",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3703(2)(i), ~line 7683",
+      "quote": "all client complaints, against the Dealer Member or any current or former Approved Person, except service complaints."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Dealer reports commencement of internal investigations",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3703(2)(ii), ~line 7687",
+      "quote": "whenever an internal investigation is commenced by the Dealer Member"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Dealer reports results of internal investigations",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3703(2)(iii), ~line 7689",
+      "quote": "the results of the internal investigation"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Dealer reports charges/proceedings, e.g. criminal charges, securities-law proceedings",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3703(2)(iv)(a)-(b), ~lines 7695-7697",
+      "quote": "charged with, convicted of, plead guilty or no contest to, any criminal offence,"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "CIRO Whistleblower: confidential to fullest extent possible",
+      "source_file": "research/sources/ciro/ciro-whistleblower-service.txt",
+      "locator": "CIRO Whistleblower Service page, ~line 26",
+      "quote": "All information received from a whistleblower will be treated in confidence to the fullest extent possible."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "CIRO Whistleblower: no financial award",
+      "source_file": "research/sources/ciro/ciro-whistleblower-service.txt",
+      "locator": "CIRO Whistleblower Service page, ~line 34",
+      "quote": "Please note that we do not offer any financial award to whistleblowers."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "OSC award 5% to 15% of monetary sanctions and/or voluntary payments, max $5 million",
+      "source_file": "research/sources/csa/osc-whistleblower-program-web-pages.txt",
+      "locator": "OSC whistleblower pages, ~line 201",
+      "quote": "The amount of an award ranges from 5% to 15% of the total monetary sanctions ordered by the Commission"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "OSC award maximum $5 million",
+      "source_file": "research/sources/csa/osc-whistleblower-program-web-pages.txt",
+      "locator": "OSC whistleblower pages, ~line 305",
+      "quote": "Whistleblowers who meet certain criteria may be eligible for a financial award of up to $5 million."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "OSC eligibility threshold: over $1 million in sanctions and/or voluntary payments",
+      "source_file": "research/sources/csa/osc-whistleblower-program-web-pages.txt",
+      "locator": "OSC whistleblower pages, ~line 305",
+      "quote": "To qualify, your information must lead to an administrative proceeding in which over $1 million in total monetary sanctions is ordered and/or voluntary payments are made to the OSC."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "OSC anonymous submissions through a lawyer",
+      "source_file": "research/sources/csa/osc-whistleblower-program-web-pages.txt",
+      "locator": "OSC whistleblower pages, ~line 313",
+      "quote": "If you prefer to report anonymously, you must be represented by a lawyer."
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "OSA s.121.6(2) no reprisal for providing info to Commission, recognized SRO, law enforcement",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.121.6(2), ~line 490",
+      "quote": "shall take a reprisal against a specified individual because the specified individual has,"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Reporting recipients include the Commission, a recognized SRO, law enforcement",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.121.6(2)(a), ~line 491",
+      "quote": "the Commission, a recognized self-regulatory organization or a law enforcement agency"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Reprisal protection also covers information provided to the employer (the person or company)",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.121.6(2)(a), ~line 491",
+      "quote": "provided information to the person or company, the Commission, a recognized self-regulatory organization or a law enforcement agency"
+    },
+    {
+      "outcome": "8.2",
+      "kind": "R",
+      "claim": "Agreements void only to the extent they preclude providing information to the Commission, a recognized SRO or law enforcement (s.121.6(4))",
+      "source_file": "research/sources/gov/ontario-securities-act-extracts.txt",
+      "locator": "OSA s.121.6(4), ~line 504",
+      "quote": "A provision in an agreement, including a confidentiality agreement, is void to the extent that it precludes or purports to preclude a specified individual from,"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Market order definition",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 'market order', ~line 1631",
+      "quote": "buy a security or a derivative to be executed upon entry to a marketplace at the best ask price; or"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Market sell at best bid",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 'market order' (b), ~line 1634",
+      "quote": "sell a security or a derivative to be executed upon entry to a marketplace at the best bid price."
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Limit order definition",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 'limit order', ~line 1552",
+      "quote": "buy a security or derivative to be executed at a specified maximum price; or"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Limit sell at specified minimum",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 'limit order' (b), ~line 1554",
+      "quote": "to be executed at a specified minimum price."
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Limit buy at specified maximum price",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 'limit order' (a), ~line 1553",
+      "quote": "buy a security or derivative to be executed at a specified maximum price"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Short sale definition",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 'short sale', ~line 2463",
+      "quote": "means a sale of a security, other than a derivative instrument, which the seller does not own either directly or through an agent or trustee"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Disclosed volume counts only displayed orders (supports: iceberg hidden reserve not in UMIR disclosed volume)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 'disclosed volume', ~line 941",
+      "quote": "entered on a protected marketplace and displayed in a consolidated market display"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Triggered stop-loss without limit becomes a market order",
+      "source_file": "research/sources/ciro/gn-urpart7-25-0003-management-of-stop-loss-orders.txt",
+      "locator": "GN-URPART7-25-0003 Q1, ~line 85",
+      "quote": "entering a stop loss order on a marketplace that, when triggered, will become a \"market order\"."
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Stop-loss without limit may execute at unanticipated price in fast markets",
+      "source_file": "research/sources/ciro/gn-urpart7-25-0003-management-of-stop-loss-orders.txt",
+      "locator": "GN-URPART7-25-0003 s.1, ~line 69",
+      "quote": "in fast moving markets a stop loss order entered on a marketplace without a reasonable limit price may execute at a price the client would not anticipate"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "CIRO encourages limit prices on all stop-loss orders",
+      "source_file": "research/sources/ciro/gn-urpart7-25-0003-management-of-stop-loss-orders.txt",
+      "locator": "GN-URPART7-25-0003 Q1, ~line 85",
+      "quote": "Participants are encouraged to require limit prices on all stop loss orders."
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Short sale orders must be marked",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.2(1)(a), ~line 5438",
+      "quote": "unless the order is marked as a short sale in accordance with subclause 6.2(1)(b)(viii);"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Pre-Borrow Security must be borrowed first",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.2(1)(c), ~line 5442",
+      "quote": "has made arrangements for the borrowing of the securities necessary to settle any resulting trade prior to the entry of the order."
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Reasonable expectation to settle before short sale",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.3(1), ~line 5577",
+      "quote": "a Participant or Access Person must have a reasonable expectation to settle any resulting trade on the date contemplated on the execution of the trade."
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Former short-sale price restriction (at or above last sale price)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Rule 3.1 regulatory history, ~line 5188",
+      "quote": "shall not make a short sale of a security on a marketplace unless the price is at or above the last sale price."
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Rule 3.1 repealed effective October 15, 2012",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR Rule 3.1 regulatory history, ~line 5180",
+      "quote": "approved amendments to repeal Rule 3.1 and Policy 3.1 effective October 15, 2012."
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Margin agreement covers dealer's right to make purchases to cover short sales (short sales are carried in margin accounts)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3247(2)(v), ~line 6314",
+      "quote": "the Dealer Member's right to sell assets in the client's account and make purchases to cover short sales."
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Short client positions are margined in the margin account: loan value of short positions",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(3), ~line 14787",
+      "quote": "The loan value of a short client position is generally calculated according to the formula:"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "R",
+      "claim": "Net negative loan value (e.g. from shorts) must be covered by a credit in the margin account",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(4)(iii), ~lines 14794-14796",
+      "quote": "the cash balance in the margin account must be a credit equal to or larger than the net negative loan value"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "C",
+      "claim": "A limit order executes at the limit price or better (at or below the maximum for a buy, at or above the minimum for a sell)",
+      "basis": "standard order-type mechanics; follows from UMIR 1.1 'specified maximum/minimum price'"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "C",
+      "claim": "Stop-loss / stop-limit mechanics: trigger then becomes market or limit; sell stop below market, buy stop above",
+      "basis": "standard order-type definitions"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "C",
+      "claim": "IOC: fills immediately available quantity, cancels balance; FOK: entire quantity immediately or cancel; iceberg: displays part of size with hidden reserve that replenishes",
+      "basis": "standard marketplace order-type definitions; UMIR/IDPC do not define these terms (gap G21/G20)"
+    },
+    {
+      "outcome": "8.3",
+      "kind": "C",
+      "claim": "Matching order types to client needs (certainty vs price control; partial fill tolerance; market impact)",
+      "basis": "standard market concept"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Marketplace includes exchange, QTRS, ATS-type facility, internalizing dealer",
+      "source_file": "research/sources/csa/ni-21-101-marketplace-operation.txt",
+      "locator": "NI 21-101 s.1.1 'marketplace', ~lines 82-99",
+      "quote": "a dealer that executes a trade of an exchange-traded security outside of a marketplace"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Marketplace includes exchange and quotation and trade reporting system",
+      "source_file": "research/sources/csa/ni-21-101-marketplace-operation.txt",
+      "locator": "NI 21-101 s.1.1 'marketplace' (a)(i)-(ii), ~line 83",
+      "quote": "an exchange, (ii) a quotation and trade reporting system,"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "ATS definition",
+      "source_file": "research/sources/csa/ni-21-101-marketplace-operation.txt",
+      "locator": "NI 21-101 s.1.1 'alternative trading system', ~line 22",
+      "quote": "means a marketplace that (i) is not a recognized quotation and trade reporting system or a recognized exchange"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Trades to be on a marketplace",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 6.4(1), ~line 7579",
+      "quote": "may not trade nor participate in a trade in a security by means other than the entry of an order on a marketplace."
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Best-ex: consider order and trade information from all appropriate marketplaces",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3121(2)(iv), ~line 5166",
+      "quote": "how order and trade information from all appropriate marketplaces"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Order records: terms, modification or cancellation, time of entry",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3815(1)(i), ~line 9200",
+      "quote": "the terms and conditions of the order, transaction or instruction and of any modification or cancellation thereof,"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Order records: time of entry",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3815(1)(iii), ~line 9202",
+      "quote": "the time of entry of the order, transaction or instruction"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Error adjustment by journal entry permitted",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 6.4(2)(c), ~line 7592",
+      "quote": "to adjust by a journal entry an error in connection with a client order;"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Supervision detects excessive transfers and cancellations",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3945(2)(vi), ~line 10013",
+      "quote": "excessive transaction transfers and trade cancellations indicating possible unauthorized trading,"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Standard T+1 settlement for most equity and long-term debt",
+      "source_file": "research/sources/csa/cp-24-101-institutional-trade-matching-and-settlement-companion-policy.txt",
+      "locator": "24-101CP s.5.1, ~line 461",
+      "quote": "Current SRO and marketplace rules mandate a standard T+1 settlement cycle period for most transactions in equity and long term debt securities."
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "T+1 defined",
+      "source_file": "research/sources/csa/ni-24-101-institutional-trade-matching-and-settlement.txt",
+      "locator": "NI 24-101 s.1.1, ~line 82",
+      "quote": "\"T+1\" means the next business day following T;"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "T defined as trade date (supports T+1 meaning)",
+      "source_file": "research/sources/csa/ni-24-101-institutional-trade-matching-and-settlement.txt",
+      "locator": "NI 24-101 s.1.1, ~line 81",
+      "quote": "\"T\" means the day on which a trade is executed;"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "GoC T-bills regular delivery same day",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4805(1)(i)(a), ~line 14104",
+      "quote": "The same day as the transaction date for Government of Canada Treasury Bills."
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "CIRO recommends FX rate disclosure for foreign fills on confirmations",
+      "source_file": "research/sources/ciro/gn-3800-21-003-marketplace-average-price-disclosure-trade-confirmations.txt",
+      "locator": "GN-3800-21-003, ~line 65",
+      "quote": "IIROC recommends that the disclosure include the quantity of securities traded on the foreign organized regulated market together with the applicable foreign exchange rate for any currency conversion."
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Cash accounts settle by payment or delivery on settlement date",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(i), ~lines 124-130",
+      "quote": "be made by payment or delivery on the settlement date."
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "If cash account does not settle, capital will be provided (Note 8)",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(i), ~line 130",
+      "quote": "In the event the account does not settle as required, capital will be provided as prescribed in note 8."
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Payment by cash or immediately available funds",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(iv)(a), ~line 143",
+      "quote": "cash or other immediately available funds;"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Payment by sale proceeds of securities held long in cash account, equity permitting",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(iv)(b), ~line 144",
+      "quote": "the application of the proceeds of the sale of the same or other securities held long in any cash account of the customer with the Dealer Member provided that the equity"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Payment by transfer from margin account with adequate margin",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(iv)(c), ~line 147",
+      "quote": "the transfer of funds from a margin account of the customer with the Dealer Member provided adequate margin is maintained in such account immediately before and after the transfer."
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Cash account restriction at 20 business days after settlement date, all accounts, liquidating trades allowed",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(vi)(a), ~line 158",
+      "quote": "is outstanding 20 business days or more after settlement date the customer shall be restricted from entering into any other transactions (other than liquidating transactions) in any account of the customer"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Restriction lifts on a liquidating transaction that leaves no money balance outstanding 20 business days or more",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(vi)(a)(I)-(III), ~lines 160-163",
+      "quote": "the customer has executed a liquidating transaction in the account with the effect that no portion of the money balance in the account is outstanding 20 business days or more after settlement date."
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "Restriction lifts on transfer of all open and unsettled cash-account transactions in accordance with note 7(vii)",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(vi)(a)(II), ~line 161",
+      "quote": "all open and unsettled transactions in any cash account of the customer with the Dealer Member have been transferred in accordance with note 7(vii)"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "7(vii) transfer route only for a customer with no margin account",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(vii)(a), ~line 175",
+      "quote": "do not have a margin account with the Dealer Member"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "7(vii) transfer of all open and unsettled cash-account transactions to newly established margin accounts",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(vii)(b), ~lines 175-177",
+      "quote": "transfers all open and unsettled transactions in any cash account of the customer with the Dealer Member to one or more newly established margin accounts"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "DAP accounts restricted when balance outstanding 5 business days or more",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(vi)(b), ~line 166",
+      "quote": "When any portion of the money balance for a DAP account transaction of a customer is outstanding 5 business days or more"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "DAP: 15 business days for customers outside continental North America",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(vi)(b), ~lines 166-167",
+      "quote": "(or, in the case of transactions of customers situated other than in continental North America, 15 business days)"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "DAP count runs from the required settlement date under note 7(ii)",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(vi)(b), ~line 167",
+      "quote": "from the date on which the transaction is required to be settled in accordance with note 7(ii)"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "R",
+      "claim": "DAP settlement date: later of settlement date or notice that securities are available",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch.4 Note 7(ii), ~lines 133-134",
+      "quote": "later of (a) settlement date or (b) the date on which the Dealer Member gives notice to the customer that the securities"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "C",
+      "claim": "Examples of marketplaces: TSX (exchange)",
+      "basis": "standard market knowledge"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "C",
+      "claim": "Delivery is normally book-entry through the clearing agency",
+      "basis": "standard settlement practice in Canada (CDS)"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "C",
+      "claim": "FX: dealer converts at its rate including a spread; USD account avoids repeated conversions but not currency risk",
+      "basis": "standard market practice"
+    },
+    {
+      "outcome": "8.4",
+      "kind": "C",
+      "claim": "Purpose of cash account rule: limit dealer credit exposure",
+      "basis": "inference from Note 7(i)/Note 8 (dealer provides capital when an account does not settle)"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Margin purpose: appropriate leverage",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5110(1)(i), ~line 14738",
+      "quote": "ensure that the maximum leverage levels extended to clients through the execution of a transaction or a trading strategy are appropriate,"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Client must be aware of risks and benefits of margin",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3246(1), ~line 6301",
+      "quote": "the client is aware of the risks and benefits associated with trading on margin."
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Margin agreement delivered and signed before opening",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3247(1), ~line 6304",
+      "quote": "Prior to opening a margin account, a Dealer Member must: (i) deliver a margin account agreement to the client, and (ii) obtain a copy of the margin account agreement signed by the client."
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Loan value of long positions formula",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(2), ~line 14783",
+      "quote": "[100% - applicable margin rate %] x positive market value of the security"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Loan value of short positions formula",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(3), ~line 14787",
+      "quote": "[100% + applicable margin rate %] x negative market value of security"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Net negative loan value requires credit balance",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(4)(iii), ~line 14796",
+      "quote": "the cash balance in the margin account must be a credit equal to or larger than the net negative loan value"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "LSERM reduced rate 30% for client positions",
+      "source_file": "research/sources/ciro/ciro-lserm-list-securities-eligible-reduced-margin-page.txt",
+      "locator": "LSERM page, ~line 12",
+      "quote": "qualify for a reduced margin rate of 30% for client positions"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "5310 rates are minimums",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1), ~line 16148",
+      "quote": "minimum Dealer Member inventory margin and client account margin rates"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Dealers may set higher house margin rates",
+      "source_file": "research/sources/ciro/ciro-lserm-list-securities-eligible-reduced-margin-page.txt",
+      "locator": "LSERM page, ~line 18",
+      "quote": "Investment Dealer Members may set higher \"house\" margin rates at their discretion."
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "LSERM 30% client rate applies to short positions too",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1) short table, ~lines 16188-16191",
+      "quote": "Short positions: Market value of $2.00 or more per share and 25% for Dealer Member positions; qualifying for inclusion on the List of Securities 30% for client account positions"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Other positions $2.00+ at 50%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1), ~line 16162",
+      "quote": "All other positions with a market value of $2.00 or more per share 50%"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Rates rise: $1.75-1.99 60%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1), ~line 16164",
+      "quote": "Market value of $1.75 per share to $1.99 per share 60%"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Rates rise: $1.50-1.74 80%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1), ~line 16166",
+      "quote": "Market value of $1.50 per share to $1.74 per share 80%"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Long below $1.50 at 100%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1), ~line 16168",
+      "quote": "Market value of below $1.50 per share 100%"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Short positions $0.25-$1.49 at 100%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1) short table, ~line 16201",
+      "quote": "Market value of $0.25 per share to $1.49 per share 100%"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Short positions below $0.25 at $0.25 per share",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1) short table, ~line 16203",
+      "quote": "Market value of below $0.25 per share $0.25 per share"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Dealer may sell securities or buy back shorts for credit risk protection",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5116(1), ~line 14825",
+      "quote": "If a Dealer Member considers it necessary for its credit risk protection, it may: (i) buy securities held short for an indebted client, or (ii) sell securities it holds for an indebted client."
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Control blocks margined at 100%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5340(1), ~line 16376",
+      "quote": "client account margin rates for control blocks are 100%"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Concentrated positions: reduce loan value",
+      "source_file": "research/sources/ciro/gn-5300-21-001-loan-value-significant-security-positions.txt",
+      "locator": "GN-5300-21-001, ~line 72",
+      "quote": "What adjustments to the loan value granted for a particular security position should be considered when single account securities concentration risk is present?"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Convertibles into LSERM securities: conversion loss added to reduced rate",
+      "source_file": "research/sources/ciro/ciro-lserm-list-securities-eligible-reduced-margin-page.txt",
+      "locator": "LSERM page, ~line 34",
+      "quote": "which adds the conversion loss, if any, to the reduced margin rate requirement."
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Registered account debits: cash-account rules apply where identifiable to a transaction",
+      "source_file": "research/sources/ciro/gn-form1-22-001-margin-registered-account-debit-balances.txt",
+      "locator": "GN-FORM1-22-001, ~line 30",
+      "quote": "where the debit balance is identifiable to a particular security transaction, the cash account rules"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Registered account debits: margin account rules for trust-agreement items",
+      "source_file": "research/sources/ciro/gn-form1-22-001-margin-registered-account-debit-balances.txt",
+      "locator": "GN-FORM1-22-001, ~line 30",
+      "quote": "then the margin account rules should be applied,"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Registered account debits: otherwise unsecured, 100% margin",
+      "source_file": "research/sources/ciro/gn-form1-22-001-margin-registered-account-debit-balances.txt",
+      "locator": "GN-FORM1-22-001, ~line 31",
+      "quote": "the balance should be treated as unsecured and 100% margin provided."
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Guarantor told suitability not reviewed in relation to guarantor",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5820(1)(ii), ~line 20625",
+      "quote": "the suitability of transactions in the guaranteed client's accounts will not be reviewed in relation to the guarantor,"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Guarantor told in writing of contingent liability",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5820(1)(i), ~line 20623",
+      "quote": "the Dealer Member informs the guarantor in writing of the initial contingent liability"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Guarantees provide margin relief",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5824(2), ~line 20700",
+      "quote": "may only use a client guarantee for margin relief with respect to client accounts directly guaranteed by the guarantor."
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Dealer must keep a signed trading authorization from the account holder for any other person giving trading instructions (record-keeping duty)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3220(1)(iii), ~line 6046",
+      "quote": "a signed trading authorization from the account holder authorizing a person"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Dealer keeps a record of persons with trading authorization",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3220(4), ~line 6056",
+      "quote": "A Dealer Member must maintain a record of persons with trading authorization over one or more client accounts"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Discretionary trading only in discretionary or managed accounts",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3221(1), ~line 6062",
+      "quote": "do not engage in any discretionary trading, including time and price discretion, unless discretion is exercised in a discretionary account or managed account"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Time-and-price discretion exception applies to best execution",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3221(2), ~line 6065",
+      "quote": "Subsection 3221(1) does not apply to time and price discretion exercised in fulfilling the Dealer Member's best execution obligation"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Exception limited to a client order for a specific amount or a specific security",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3221(2), ~lines 6065-6066",
+      "quote": "relating to a client order for a specific amount or a specific security."
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Designated Supervisor must approve discretionary account",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3273(1)(v), ~line 6567",
+      "quote": "the designated Supervisor must approve the account as a discretionary account and approve the discretionary account agreement signed by the client"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Discretionary agreement max 12 months, not renewable",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3274(1)(iii)-(iv), ~line 6581",
+      "quote": "have a maximum term of no longer than 12 months, (iv) not be renewable, and"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "R",
+      "claim": "Signed derivatives trading agreement before initial derivatives trade",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3251(1)(ii), ~line 6360",
+      "quote": "obtain a completed and signed derivatives trading agreement from the client,"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "C",
+      "claim": "Illustration: 1,000 shares at $20, 50% rate: long loan value $10,000, client deposit $10,000; short credit required $30,000",
+      "basis": "MV = 1,000 × 20 = 20,000; long loan value = (1 − 0.50) × 20,000 = 10,000; client equity = 20,000 − 10,000 = 10,000; short required credit = (1 + 0.50) × 20,000 = 30,000 = 20,000 proceeds + 10,000 deposit"
+    },
+    {
+      "outcome": "8.5",
+      "kind": "C",
+      "claim": "Long margin call if price falls; short margin call if price rises",
+      "basis": "standard margin concept: long loan value falls with price; short required credit rises with price"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Dealer must promptly send written confirmation of all purchases and sales",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(1), ~line 9220",
+      "quote": "A Dealer Member must promptly send the client a written confirmation of all purchases and sales of securities"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Confirmation contents: day, marketplace, regulatory fee, salesperson, settlement date",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2), ~lines 9225-9230",
+      "quote": "the day and the marketplace or marketplaces where the trade took place, or marketplace disclosure language acceptable to the Corporation; the fee or other charge, if any, levied by any securities regulatory authority"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Confirmation contents: name of salesperson",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2), ~line 9228",
+      "quote": "the name of the salesperson, if any, involved in the transaction;"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Confirmation contents: settlement date",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2), ~line 9229",
+      "quote": "the settlement date of the trade:"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Confirmation contents: quantity and description; consideration",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(i)(a)-(b), ~lines 9232-9233",
+      "quote": "the quantity and description, (b) the consideration,"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Confirmation contents: principal or agent",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(i)(c), ~line 9244",
+      "quote": "whether or not the person or company that executed the trade acted as principal or agent"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Accepted marketplace disclosure wording",
+      "source_file": "research/sources/ciro/gn-3800-21-003-marketplace-average-price-disclosure-trade-confirmations.txt",
+      "locator": "GN-3800-21-003, ~line 35",
+      "quote": "Traded on one or more marketplaces or markets, details available upon request."
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Separate average-price wording may be combined with marketplace wording",
+      "source_file": "research/sources/ciro/gn-3800-21-003-marketplace-average-price-disclosure-trade-confirmations.txt",
+      "locator": "GN-3800-21-003, ~line 38",
+      "quote": "This acceptable marketplace and average price disclosure language may be combined on trade confirmations"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Confirmation includes any commission charged (s.3816)",
+      "source_file": "research/sources/ciro/gn-3800-21-003-marketplace-average-price-disclosure-trade-confirmations.txt",
+      "locator": "GN-3800-21-003, ~line 56",
+      "quote": "any commission charged in respect of the trade"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Debt trade fee disclosure applies to retail clients, non-primary-market trades",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(c), ~lines 9325-9326",
+      "quote": "where the debt security trade is not a primary market transaction and the trade confirmation is being sent to a retail client"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Debt option (I): total mark-up/mark-down, commission or other service charges",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(c)(I), ~line 9327",
+      "quote": "the total amount of any mark-up or mark"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Debt option (II): commission plus remuneration notification",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(c)(II), ~lines 9329-9330",
+      "quote": "the total amount of any commission charged to the client by the Dealer"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Remuneration notification wording",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(c)(II), ~lines 9341-9342",
+      "quote": "Dealer firm remuneration has been added to the price of this security (in the case of a purchase) or deducted from the price of this security"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Retail OTC non-debt: each charge and total",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(v)(a), ~lines 9300-9303",
+      "quote": "where the confirmation is sent to a retail client"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Retail OTC non-debt: total amount of all charges",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(v)(a)(II), ~line 9303",
+      "quote": "the total amount of all charges in respect of the transaction,"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Monthly statement: requested, or transaction / cash or position modification other than dividends or interest",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3808(2), ~lines 8507-8512",
+      "quote": "requests to receive a client account statement on a monthly basis, or (ii) at the end of the month has in their account: (a) had a transaction during the month, (b) has experienced a cash or account position modification, other than dividend or interest payments,"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Quarterly statement where debit or credit balance, or securities/derivatives/bullion, held at quarter-end",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3808(3), ~line 8517",
+      "quote": "A Dealer Member must send a quarterly statement to each client who, at the end of the quarter has: (i) a debit or credit balance, or (ii) one or more securities"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Monthly statement where account holds unexpired and unexercised options at month-end",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3808(2)(ii)(c), ~line 8512",
+      "quote": "an unexpired and unexercised option contract"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Monthly statement where account holds open futures, forward or CFD position at month-end",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3808(2)(ii)(d), ~line 8514",
+      "quote": "an open futures contract, forward contract, contract for difference or similar derivative position."
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Quarterly trigger includes securities, derivatives or bullion",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3808(3)(ii), ~line 8520",
+      "quote": "one or more securities, derivatives or precious metals bullion"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Statement contents: opening/closing cash, deposits/withdrawals, positions",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3808(4), ~lines 8521-8525",
+      "quote": "the opening cash balance in the account, (ii) all deposits, credits, withdrawals and debits made to the account, (iii) the closing cash balance in the account,"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Statement contents: market value of positions",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3808(4)(v), ~line 8527",
+      "quote": "where the market value is determinable:"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Quarterly report on outside holdings to retail clients",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3809(1), ~line 8648",
+      "quote": "A Dealer Member must send a quarterly report on outside holdings"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Outside holdings report recipients",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3809(1), ~line 8650",
+      "quote": "to each retail client who, at the end of the quarter has one or more outside holdings"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "'Outside holdings' defined: client positions not held at or under control of the dealer",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201 'outside holdings', ~line 8210",
+      "quote": "Client positions that are neither held at or under the control of the Dealer Member:"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Outside holdings (i): scholarship plan/mutual fund/LSIF securities where dealer is dealer of record",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201 'outside holdings' (i), ~lines 8212-8215",
+      "quote": "in securities issued by a scholarship plan, a mutual fund or an"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Outside holdings: dealer of record on the issuer's records",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201 'outside holdings' (i), ~line 8214",
+      "quote": "applicable laws and the Dealer Member is the dealer of record for"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "Outside holdings (ii): positions on which dealer receives continuing compensation",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 1201 'outside holdings' (ii), ~line 8218",
+      "quote": "on which the Dealer Member receives continuing compensation"
+    },
+    {
+      "outcome": "8.6",
+      "kind": "R",
+      "claim": "All confirmations and statements sent promptly",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3845(1), ~line 9559",
+      "quote": "All confirmations, statements, reports and other documents that are required to be sent to clients under sections 3803 through 3819 must be sent promptly to clients."
+    },
+    {
+      "outcome": "8.6",
+      "kind": "C",
+      "claim": "Dormant account still receives quarterly statements only where it holds a cash balance or securities at quarter-end",
+      "basis": "follows from IDPC 3808(3) quarterly trigger based on holdings, not activity"
+    }
+  ],
+  "gaps": [
+    "8.3 IOC / FOK: no definition in UMIR, IDPC or corpus guidance (gap G21); written as C (standard market terms) and labelled 'market terms, not UMIR definitions'.",
+    "8.3 Iceberg: UMIR has no 'iceberg' term (gap G20); written as C, with UMIR 'disclosed volume' quoted only to note hidden volume is not displayed.",
+    "8.3 Stop-order mechanics (trigger, buy-stop above / sell-stop below market) are C; GN-URPART7-25-0003 quoted only for triggered-stop-becomes-market-order and limit-price encouragement.",
+    "8.4 Order-error correction process: no CIRO rule or guidance in corpus (gap G22); prose limited to UMIR 6.4(2)(c) journal-entry adjustment, IDPC 3815 recording of modifications/cancellations and IDPC 3945 supervision of excessive cancellations. Unsourced 'industry practice' sentence removed in fix round 1.",
+    "8.4 Client FX conversion: no CIRO rule on dealer conversion rates/spreads in corpus (gap G22); written as C; only GN-3800-21-003 FX-rate disclosure recommendation is quoted.",
+    "8.4 Marketplace examples (TSX) and book-entry delivery through the clearing agency (CDS) are C; NI 21-101 defines 'marketplace' but names no marketplaces.",
+    "8.5 'Special margin situations' has no defining text (gap G24); presented as an umbrella with each example quoted separately (control blocks, concentration, LSERM convertibles, registered-account debits, guarantees).",
+    "8.2 Insider trading: Ontario Securities Act used as the example; other provinces' statutes and the AMF whistleblower programme are not in the corpus, so no claim is made about them.",
+    "8.6 NI 31-103 s.14.12 dropped: CIRO investment dealer members are exempt from it under NI 31-103 s.9.3(1)(q); confirmation fee content now sourced to IDPC 3816 and GN-3800-21-003.",
+    "8.2 OSC collection contingency above $1.5M (osc-whistleblower-program-web-pages.txt ~lines 203-205) omitted for length."
+  ]
+}

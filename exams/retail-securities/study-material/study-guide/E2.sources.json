@@ -1,0 +1,699 @@
+{
+  "element": 2,
+  "drafted": "2026-10-22",
+  "claims": [
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Rule 7100 sets trading and settlement practices to promote fair and efficient debt markets",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7101(1), ~L20974",
+      "quote": "Rule 7100 establishes trading and settlement practices to promote fair and efficient debt securities markets."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Rule 7100 applies to institutional and retail markets alike unless stated otherwise",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7101(1), ~L20975",
+      "quote": "Unless expressly indicated, Rule 7100 makes no distinction between institutional and retail markets."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Dealer must ensure debt trading does not breach laws/directions incl. Bank of Canada and Dept of Finance, binding or not",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7102(1), ~L20988",
+      "quote": "must ensure that its trading in the debt securities markets does not contravene any applicable laws, regulation, direction, or requirement, whether or not such requirement is binding or has the force of law, including without limitation the directions or requirements of the Bank of Canada or the Department of Finance (Canada)."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Dealer must not condone or knowingly facilitate breaches by affiliates, clients or counterparties",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7102(2), ~L20993",
+      "quote": "must not condone or knowingly facilitate conduct by its affiliates , clients, or counterparties that contravenes Rule 7100."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "P&P must specifically address debt-market trading and conduct to give reasonable assurance of compliance",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7103(1), ~L20996",
+      "quote": "policies and procedures must specifically address trading and conduct in the debt securities market to provide reasonable assurance of compliance with securities laws and Corporation requirements"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "P&P must address restrictions/controls on non-client account trading",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7103(2)(i), ~L21001",
+      "quote": "restrictions of, and controls over, trading in non- client accounts"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "P&P must prohibit use of inside information",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7103(2)(ii), ~L21002",
+      "quote": "a prohibition on the use of inside information,"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "P&P must prohibit front-running and set standards for fair allocation of new issues",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7103(2)(iii)-(iv), ~L21003",
+      "quote": "a prohibition of front-running, (iv) standards for fair allocation of new issues among clients"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "P&P must set standards for prompt and accurate conflict disclosure",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7103(2)(v), ~L21005",
+      "quote": "standards for prompt and accurate disclosure to clients and counterparties if any conflict of interest arises"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Retail: written mark-up/mark-down/commission guidelines for Registered Representatives",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7103(2)(vi)(a), ~L21017",
+      "quote": "written policies or guidelines issued to its Registered Representatives on the Dealer Member's mark-ups, mark-downs and commissions on debt securities sold to clients or purchased from clients"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Retail: monitoring to detect mark-ups/mark-downs/commissions exceeding the firm's maximums",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7103(2)(vi)(b), ~L21020",
+      "quote": "reasonable monitoring procedures to detect mark-ups, mark-downs or commissions that exceed the maximums specified by the Dealer Member , and to ensure any deviation is justified."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "P&P must address restricting confidential information to personnel who need it, confining trading by designated personnel to restricted-access office areas, and secure communications",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7105(2), ~L21051",
+      "quote": "restricting access to confidential information to the personnel that require it for their jobs, (ii) confining trading by designated personnel to restricted-access office areas, and (iii) using secure forms of communications and technology."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "An Executive of the business group must approve the P&P",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7103(3), ~L21023",
+      "quote": "An Executive responsible for the appropriate business group of the Dealer Member must approve the policies, procedures and internal controls"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "P&P reviewed regularly for size, nature and complexity of the business",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7103(4), ~L21025",
+      "quote": "must regularly review its policies and procedures to ensure they are appropriate for the size, nature, and complexity of the Dealer Member's business."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Debt trading personnel must be properly qualified and trained",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7104(1), ~L21031",
+      "quote": "must ensure that all personnel trading in the debt securities markets are: (i) properly qualified and trained"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Trading activities must be supervised by a Supervisor",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7104(4), ~L21040",
+      "quote": "A Supervisor in the appropriate business group of the Dealer Member must supervise its trading activities."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Duties to clients come before the dealer's or its personnel's interests",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7107(2), ~L21076",
+      "quote": "A Dealer Member must fulfill its duties to clients before its own interests or those of its personnel."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Dealer must monitor employees' and agents' debt-market trading and conduct",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7113(1), ~L21141",
+      "quote": "A Dealer Member must monitor the trading and conduct of its employees and agents in the debt securities markets."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Prompt reporting of breaches or suspicious/irregular conduct to CIRO or other authority incl. Bank of Canada",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7113(2), ~L21143",
+      "quote": "must promptly report to the Corporation or other authority having jurisdiction, including the Bank of Canada: (i) any breaches of Corporation requirements, or (ii) suspicious or irregular market conduct."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Dealer must not engage in manipulative or deceptive practices in debt trading",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7109(1), ~L21086",
+      "quote": "must not, directly or indirectly, engage or participate in any act, method or practice it knows or ought reasonably to know is manipulative or deceptive."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Examples: trades to artificially increase volumes or change prices",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7109(2)(i)-(ii), ~L21091",
+      "quote": "carrying out trades intended to artificially increase trading volumes, (ii) carrying out trades intended to artificially change trading prices"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Examples: spreading false rumours",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7109(2)(iii), ~L21093",
+      "quote": "participating in or tacitly consenting to spreading rumours or information about issuers that are known, or ought reasonably to be known, to be false or misleading"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Examples: collusion",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7109(2)(v), ~L21097",
+      "quote": "conspiring or colluding with another market participant to manipulate or unfairly deal in the debt securities markets."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Unfair advantage: proprietary trades ahead of same-side client orders without disclosure and client approval",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7110(1)(ii), ~L21111",
+      "quote": "carrying out proprietary trades ahead of client orders on the same side of the market without first disclosing to the client the intention to do so and obtaining the client's approval"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Dealer must not accept an order or trade it knows/has reasonable grounds to believe breaches requirements or law",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7112(1), ~L21127",
+      "quote": "must not accept any order or carry out any trade where the Dealer Member knows, or has reasonable grounds to believe, the result would contravene Corporation requirements or any applicable laws"
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Key rule: Approved Person/employee must not accept outside material consideration for client activities",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7112(2), ~L21130",
+      "quote": "An Approved Person or employee of a Dealer Member must not accept any material consideration, including remuneration, gratuity or benefit, from any person other than the Dealer Member for any activities conducted on behalf of a client."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Dealer must not offer consideration to any partner, director, officer, employee, agent or shareholder of a client, or their associates, without the client's prior written consent",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7112(3), ~L21133",
+      "quote": "must not offer any consideration, including remuneration, gratuity, or benefit, to any partner, director, officer, employee, agent or shareholder of a client or any associate of such persons, unless the prior written consent of the client has been obtained."
+    },
+    {
+      "outcome": "2.1",
+      "kind": "R",
+      "claim": "Minimal-value, infrequent, non-monetary items are not consideration under both 7112(2) (accepting) and 7112(3) (offering)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 7112(4), ~L21136",
+      "quote": "of minimal value and infrequent such that it will not cause a reasonable person to question whether it created a conflict of interest is not consideration under subsections 7112(2) and 7112(3)."
+    },
+    {
+      "outcome": "2.2",
+      "kind": "C",
+      "claim": "GoC: T-bills sold at discount and mature at par, benchmark bonds ~2-30 yrs, inflation-indexed Real Return Bonds (existing issues still trade; GoC ceased new RRB issuance in Nov 2022); most liquid, benchmark curve",
+      "basis": "standard Canadian fixed-income market structure; RRB qualifier per Government of Canada Fall Economic Statement 2022 (issuance discontinued) - stated only as 'existing issues still trade'"
+    },
+    {
+      "outcome": "2.2",
+      "kind": "C",
+      "claim": "Provincial yields above GoC (credit/liquidity spread); agencies often provincially guaranteed; municipals often serial/instalment debentures backed by taxing power",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.2",
+      "kind": "C",
+      "claim": "Corporate: secured (mortgage, collateral trust, equipment trust) vs debentures vs subordinated debentures; priority and yield inversely related; trust indenture",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.2",
+      "kind": "C",
+      "claim": "GICs: fixed-term deposits of banks/trust cos; non-redeemable vs cashable vs market-linked; generally non-transferable; not marked to market",
+      "basis": "standard; CDIC deliberately not mentioned (not in corpus)"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "C",
+      "claim": "Definitions: par, coupon (semi-annual in Canada), maturity vs term to maturity, premium/discount vs coupon-yield relationship, YTM assumptions (hold to maturity, reinvest at YTM), settlement as exchange of cash for securities with accrued interest to the payment date, positive/negative covenants",
+      "basis": "standard definitions"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "Purchase confirmation for a non-strip debt security must show YTM per market conventions",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(b)(I), ~L9319",
+      "quote": "the yield to maturity calculated in a manner consistent with market conventions for the security traded"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "Rule 4800 Part A applies to transactions not cleared and settled through a clearing corporation",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4802(1), ~L13995",
+      "quote": "Part A of Rule 4800 sets out additional requirements applicable to transactions that are not cleared and settled through a clearing corporation."
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "Fixed-interest securities trade on an accrued interest basis",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4803(1), ~L14000",
+      "quote": "All securities having interest payable as a fixed obligation, except securities in sale and repurchase agreement transactions, must be conducted on an accrued interest basis"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "Regular delivery for GoC T-bills: same day",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4805(1)(i)(a), ~L14105",
+      "quote": "The same day as the transaction date for Government of Canada Treasury Bills."
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "Regular delivery for GoC bonds with 3 years or less to maturity: first business day after the transaction date",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4805(1)(i)(b), ~L14106",
+      "quote": "The first business day after the transaction date for Government of Canada Bonds and Government of Canada Guaranteed Bonds (except Treasury Bills)"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "Regular delivery for GoC bonds longer than 3 years: first business day after the transaction date",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4805(1)(i)(c), ~L14121",
+      "quote": "The first business day after the transaction date for Government of Canada Bonds and Government of Canada Guaranteed Bonds having an unexpired term to maturity of longer than three years"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "Regular delivery for provincial bonds: first business day after; accrued interest stopped that day",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4805(1)(ii)(a), ~L14127",
+      "quote": "The first business day after the transaction date for all provincial bonds or debentures. Any accrued interest must be stopped on the first business day after the transaction date."
+    },
+    {
+      "outcome": "2.3",
+      "kind": "R",
+      "claim": "Regular delivery for municipal and corporate bonds: first business day after",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 4805(1)(iii)(a), ~L14131",
+      "quote": "The first business day after the transaction date for all municipal, corporation and other bonds or debentures"
+    },
+    {
+      "outcome": "2.3",
+      "kind": "C",
+      "claim": "Inline illustration (2.3 settlement bullet): accrued interest on $10,000 par 4% bond, 73 days, actual/365 illustrative = $80",
+      "basis": "10,000 x 0.04 x 73/365 = 80.00"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "C",
+      "claim": "Investor/issuer advantages and disadvantages table; risk list (interest-rate, reinvestment, credit, inflation, liquidity, call, currency); sources of return",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "As principal, a dealer must not buy OTC securities from / sell OTC securities to a client (subject to 3122(3))",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3122(2), ~L5194",
+      "quote": "to ensure fair pricing when acting as principal, a Dealer Member must not: (i) purchase over-the-counter securities for its own account from a client, or (ii) sell over- the-counter securities from its own account to a client"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Exception: aggregate price incl. mark-up/mark-down fair and reasonable, taking into consideration all relevant factors",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3122(3), ~L5199",
+      "quote": "Subsection 3122(2) does not apply when a transaction is executed at an aggregate price (including any mark-up or mark-down) that is fair and reasonable, taking into consideration all relevant factors"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "As agent, commission or service charge must not exceed a fair and reasonable amount",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3122(4), ~L5212",
+      "quote": "To ensure fair pricing when acting as agent, a Dealer Member must not purchase over- the-counter securities, sell over-the-counter securities, or transact in over -the-counter derivatives on behalf of a client for a commission or service charge in excess of a fair and reasonable amount"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Mark-ups reduce effective yield (buy) or net proceeds (sell)",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement, p.3",
+      "quote": "since such commissions will reduce the effective yield (if buying) or the net proceeds (if selling)"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Retail secondary-market debt confirmations: disclosure applies when not a primary market transaction and sent to a retail client",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(c), ~L9326",
+      "quote": "where the debt security trade is not a primary market transaction and the trade confirmation is being sent to a retail client"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Option 1: total mark-up/mark-down, commission or other service charges",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(c)(I), ~L9328",
+      "quote": "the total amount of any mark-up or mark -down, commission or other service charges the Dealer Member applied to the transaction"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Option 2: total commission and, if a mark-up/mark-down was applied, ...",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(c)(II), ~L9330",
+      "quote": "the total amount of any commission charged to the client by the Dealer Member and, if the Dealer Member applied a mark-up"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "... or other non-commission service charge, the notification or a substantially similar one",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(c)(II), ~L9341",
+      "quote": "service charge other than a commission, the following notification or a notification that is substantially similar"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Option 2: prescribed (or substantially similar) dealer-remuneration notice - text of the notification",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(c)(II), ~L9346",
+      "quote": "Dealer firm remuneration has been added to the price of this security (in the case of a purchase) or deducted from the price of this security (in the case of a sale)."
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Compound GIC interest is paid only at maturity, not annually (so, outside a registered plan, tax can precede payment)",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Line 12100 (2025 tax year), Term deposits/GICs, ~L104",
+      "quote": "interest on a compound guaranteed investment certificate (GIC) is earned monthly and automatically reinvested. The interest is paid only when the investment is cashed or matures, and not annually."
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "Interest must be reported each complete investment year",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Line 12100 (2025 tax year), ~L106",
+      "quote": "You must report the interest earned during each complete investment year, even if you did not receive a T5 slip."
+    },
+    {
+      "outcome": "2.4",
+      "kind": "R",
+      "claim": "T-bill that matures: difference between price paid and proceeds reported as interest (taxed at maturity/disposition, not before)",
+      "source_file": "research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt",
+      "locator": "CRA Line 12100 (2025 tax year), Treasury bills, ~L120",
+      "quote": "If a treasury bill matured in 2025, report as interest the difference between:"
+    },
+    {
+      "outcome": "2.4",
+      "kind": "C",
+      "claim": "Exam trap: same dollar mark-up reduces a short-term bond's yield more than a long-term bond's",
+      "basis": "cost amortized over fewer years; consistent with strip statement table ($0.25 at 5.5%: 1-yr 5.229% vs 25-yr 5.460%)"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Strip sold at discount to face value, matures at par",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.2",
+      "quote": "sold at a discount to face value and matures at par"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "No interest paid; yield compounds semi-annually and is paid at maturity",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.2",
+      "quote": "Strips do not pay interest, but rather, the yield at the time of purchase is compounded semi-annually and paid at maturity."
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Created by separating a bond into interest and principal components",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.2",
+      "quote": "is separated into its \"interest\" and \"principal\" component parts for resale"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Coupon = interest portion; residual = principal portion",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.2",
+      "quote": "The \"residual\": the principal portion."
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Strip bond package = two or more components; annuity-like income possible",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.2",
+      "quote": "A strip bond package is a security comprised of two or more strip components. Strip bond packages can be created to provide holders with a regular income stream, similar to an annuity"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Longer-term strip more price-volatile than shorter-term (same issuer and yield)",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.2",
+      "quote": "a strip with a longer term to maturity will generally be subject to greater price fluctuations than a strip of the same issuer and yield but with a shorter term to maturity"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Per the statement, the higher strip yield reflects greater price volatility",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.3",
+      "quote": "the higher yield offered by strips reflects their greater price volatility"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Strips typically yield more than conventional bonds of same issuer, term and credit rating",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.2",
+      "quote": "strips typically offer higher yields over T -Bills, GICs and term deposits, and over conventional bonds of the same issuer, term and credit rating"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "No dealer obligation to maintain a secondary market in strips",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.3",
+      "quote": "there is no requirement or obligation for investment dealers or financial institutions to maintain a secondary market for strips sold by or through them"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "CRA: strips are prescribed debt obligations",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.6",
+      "quote": "The Canada Revenue Agency takes the position that strip bonds are a \"prescribed debt obligation\" within the meaning of the Tax Act."
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Notional interest included in income annually though none paid; strips may be more attractive in non-taxable accounts such as self-directed registered plans",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.6",
+      "quote": "a purchaser will be required to include in income in each year a notional amount of interest, notwithstanding that no interest will be paid or received in the year. Strips may therefore be more attractive when purchased and held in non -taxable accounts"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Information statement must be provided before trading strips of GoC, provincial, certain foreign government bonds",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.1",
+      "quote": "We are required by provincial securities regulations to provide you with this Information Statement before you can trade in strip bonds or strip bond packages based on bonds of the Government of Canada, a Canadian province, or certain foreign governments"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "C",
+      "claim": "Floating-rate, callable, puttable/retractable, extendible, convertible features and risk-return effects (table); holder options lower yield, issuer call raises yield",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "C",
+      "claim": "Convertible worth at least its conversion value = shares received x share price (table note)",
+      "basis": "standard definition: conversion value = conversion ratio x share price; acts as a floor on the convertible's value"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "C",
+      "claim": "Sinking fund obligatory retirement (call by lot or market purchase); purchase fund buys only at or below specified price",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Current yield = C/P; approximate YTM convention [C + (F-P)/n] / [(F+P)/2]; alternative (F+2P)/3 noted",
+      "basis": "standard; convention stated"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Worked example: $1,000 par, 5% coupon paid semi-annually ($50/yr), 10-yr at $920: CY 5.43%, AYTM 6.04%, true YTM ~6.08% (semi-annual compounding, bond-equivalent 2 x half-year rate)",
+      "basis": "50/920 = 0.054348; (50+8)/960 = 0.060417; bisection on semi-annual price formula (C=25, N=20): P(0.060794)=920 -> 6.08%; (annual-pay would give 6.09%, not used)"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Discount bond: coupon rate < current yield < YTM",
+      "basis": "5.00% < 5.43% < 6.04%/6.08%"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Zero-coupon yield: semi-annual 2[(F/P)^(1/2n)-1], annual (F/P)^(1/n)-1",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "R",
+      "claim": "Canadian strips: yield compounded semi-annually (basis for semi-annual quoting)",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement p.2",
+      "quote": "the yield at the time of purchase is compounded semi-annually and paid at maturity"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Worked example: 10-yr strip $61.03 per $100 -> 5.00% semi-annual, 5.06% annual",
+      "basis": "100/1.025^20 = 61.027; 2 x ((100/61.03)^(1/20) - 1) = 0.049995; (100/61.03)^(1/10) - 1 = 0.050620"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "R",
+      "claim": "Strip purchase confirmation must show semi-annual yield",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(a)(I), ~L9311",
+      "quote": "the yield thereon calculated on a semi-annual basis in a manner consistent with the yield calculation for the debt instrument which has been stripped"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "R",
+      "claim": "Strip purchase confirmation must also show annual yield comparable with GICs",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3816(2)(vi)(a)(II), ~L9313",
+      "quote": "the yield thereon calculated on an annual basis in a manner consistent with the yield calculation for other debt securities which are commonly regarded as being competitive in the market with such coupons or residuals such as guaranteed investment certificates"
+    },
+    {
+      "outcome": "2.6",
+      "kind": "C",
+      "claim": "Yield curve shapes and theories (expectations, liquidity preference, market segmentation); spreads over GoC",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.7",
+      "kind": "C",
+      "claim": "Price-volatility relationships (inverse, term, coupon, yield level, convexity asymmetry)",
+      "basis": "standard bond price theorems"
+    },
+    {
+      "outcome": "2.7",
+      "kind": "C",
+      "claim": "Macaulay duration = PV-weighted average time; zero duration = term; coupon bond duration < term; duration generally rises with term (always for zeros and par/premium bonds; deep-discount coupon bonds can peak then decline) and falls as coupon or yield rises; ModD = MacD/(1+y/k), k = 2 Canadian, 1 annual-pay",
+      "basis": "standard; convention k = payments per year stated"
+    },
+    {
+      "outcome": "2.7",
+      "kind": "C",
+      "claim": "Economic factors: inflation, BoC policy rate, growth, government borrowing raise yields; recession/easing lower government yields; spreads widen in weak economy",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.8",
+      "kind": "C",
+      "claim": "%dP ~ -ModD x dy; convexity: overstates loss when yields rise, understates gain when they fall",
+      "basis": "standard first-order approximation"
+    },
+    {
+      "outcome": "2.8",
+      "kind": "C",
+      "claim": "Worked example: ModD 7.5, +0.40% -> -3.0%, $1,040 -> -$31.20 -> $1,008.80",
+      "basis": "-7.5 x 0.004 = -0.030; 0.030 x 1,040 = 31.20; 1,040 - 31.20 = 1,008.80"
+    },
+    {
+      "outcome": "2.8",
+      "kind": "C",
+      "claim": "Worked example: MacD 8.2, YTM 5% semi-annual -> ModD 8.0; -0.25% -> +2.0%",
+      "basis": "8.2/1.025 = 8.0000; -8.0 x -0.0025 = +0.020"
+    },
+    {
+      "outcome": "2.9",
+      "kind": "C",
+      "claim": "Bond price = PV annuity of coupons + PV of par; semi-annual adjustments",
+      "basis": "standard TVM"
+    },
+    {
+      "outcome": "2.9",
+      "kind": "C",
+      "claim": "Worked example: $1,000 4% semi-annual 3-yr at 5% -> $972.46",
+      "basis": "annuity factor (1-1.025^-6)/0.025 = 5.508125; 20 x 5.508125 = 110.16; 1.025^6 = 1.159693; 1000/1.159693 = 862.30; total 972.46"
+    },
+    {
+      "outcome": "2.9",
+      "kind": "C",
+      "claim": "Worked example: $10,000 -> $14,000 in 6 yrs: r = 5.77%",
+      "basis": "1.4^(1/6) = 1.057681 -> 5.77%"
+    },
+    {
+      "outcome": "2.9",
+      "kind": "C",
+      "claim": "Worked example: doubling at 6%: n = 11.9 years",
+      "basis": "ln 2 = 0.693147; ln 1.06 = 0.058269; ratio = 11.8957"
+    },
+    {
+      "outcome": "2.9",
+      "kind": "C",
+      "claim": "Level payment from PV: PMT = PV x r / [1 - (1+r)^-n]",
+      "basis": "standard ordinary-annuity rearrangement of PV = PMT x [1 - (1+r)^-n]/r"
+    },
+    {
+      "outcome": "2.9",
+      "kind": "C",
+      "claim": "YTM has no closed form; use approx YTM then iterate price formula",
+      "basis": "standard"
+    },
+    {
+      "outcome": "2.5",
+      "kind": "R",
+      "claim": "Liquidity may be limited; investors should be prepared to hold strips to maturity",
+      "source_file": "research/sources/ciro/brochure-strip-bonds-information-statement.txt",
+      "locator": "Strip information statement, ~L325-330",
+      "quote": "liquidity may be limited for certain strip bonds and strip bond packages"
+    }
+  ],
+  "gaps": [
+    "2.3 settlement: debt regular delivery quoted from IDPC 4805(1) (Rule 4800 Part A, non-clearing-corporation trades); the clearing-corporation (T+1) cycle is left to 8.4 (Bulletin 23-0150)",
+    "2.3 accrued interest: day-count convention (actual/365) presented as an illustrative assumption, not as a rule",
+    "2.2 GICs: CDIC deposit-insurance coverage not in corpus (source map note); deliberately not mentioned",
+    "2.2 GoC programme details (benchmark terms) written as general C description; RRBs described only as 'existing issues still trade' (no corpus source on issuance status)",
+    "2.7 Macaulay duration kept conceptual per spec grounding table (no Macaulay computation)"
+  ]
+}

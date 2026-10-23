@@ -1,0 +1,522 @@
+{
+  "element": 4,
+  "drafted": "2026-10-22",
+  "claims": [
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Definition of material change (change in business, operations or capital reasonably expected to have a significant effect on market price or value)",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 1.1 'material change', ~line 334",
+      "quote": "a change in the business, operations or capital of the reporting issuer that would reasonably be expected to have a significant effect on the market price or value of any of the securities of the reporting issuer"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Material change also includes a board decision, or a senior-management decision where board confirmation is believed probable, to implement such a change (limb (b))",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 1.1 'material change' (b), ~line 340",
+      "quote": "senior management of the reporting issuer who believe that confirmation of the decision by the board of directors or any other persons acting in a similar capacity is probable"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Limb (b) covers a decision to implement a change made by the board of directors",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 1.1 'material change' (b), ~line 340",
+      "quote": "a decision to implement a change referred to in paragraph (a) made by the board of directors"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "On a material change the issuer must immediately issue and file a news release",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(1)(a), ~line 2484",
+      "quote": "immediately issue and file a news release authorized by an executive officer disclosing the nature and substance of the change"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Material change report must be filed as soon as practicable and in any event within 10 days",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(1)(b), ~line 2487",
+      "quote": "as soon as practicable, and in any event within 10 days of the date on which the change occurs, file a Form 51-102F3 Material Change Report"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "s. 7.1(1) is subject to s. 7.1(2)",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(1), ~line 2484",
+      "quote": "Subject to subsection (2), if a material change occurs in the affairs of a reporting issuer, the reporting issuer must"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Exception: disclosure would be unduly detrimental to the issuer (reasonably arrived-at opinion)",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(2)(a), ~line 2496",
+      "quote": "in the opinion of the reporting issuer, and if that opinion is arrived at in a reasonable manner, the disclosure required by subsection (1) would be unduly detrimental to the interests of the reporting issuer"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "Under the exception, the issuer files the report marked confidential with written reasons for non-disclosure",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 7.1(2), ~line 2516",
+      "quote": "immediately files the report required under paragraph (1)(b) marked so as to indicate that it is confidential, together with written reasons for non-disclosure"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "SEDAR+ is the official site for public documents filed by issuers with Canadian securities regulators",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.5.1(2) prescribed wording, ~line 1009",
+      "quote": "the official site to access public documents filed by issuers with Canadian securities regulators"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "MD&A is filed for annual financial statements and each interim financial report",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 5.1(1), ~line 2186",
+      "quote": "A reporting issuer must file MD&A relating to its annual financial statements and each interim financial report required under Part 4."
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "AIF is required of non-venture issuers",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 6.1, ~line 2464",
+      "quote": "A reporting issuer that is not a venture issuer must file an AIF."
+    },
+    {
+      "outcome": "4.1",
+      "kind": "R",
+      "claim": "MD&A is a completed Form 51-102F1 (definition only; form content not in corpus)",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 1.1 'MD&A', ~line 306",
+      "quote": "means a completed Form 51-102F1 Management's Discussion & Analysis"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "R",
+      "claim": "Annual financial statements include statement of comprehensive income, statement of changes in equity and statement of cash flows",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.1(1)(a), ~line 782",
+      "quote": "a statement of comprehensive income, a statement of changes in equity, and a statement of cash flows for"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "R",
+      "claim": "Annual financial statements include a statement of financial position",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.1(1)(b), ~line 790",
+      "quote": "a statement of financial position as at the end of each of the periods referred to in paragraph (a)"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "R",
+      "claim": "Annual financial statements include notes (also supports 4.5: notes are part of the statements)",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.1(1)(e), ~line 815",
+      "quote": "notes to the annual financial statements"
+    },
+    {
+      "outcome": "4.3",
+      "kind": "R",
+      "claim": "A separate income statement, if presented, is displayed immediately before the statement of comprehensive income",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.1(3), ~line 825",
+      "quote": "the separate income statement must be displayed immediately before the statement of comprehensive income filed under subsection (1)"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Annual financial statements must be audited",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.1(2), ~line 822",
+      "quote": "Annual financial statements filed under subsection (1) must be audited."
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Interim report not reviewed by an auditor must be accompanied by a notice saying so",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.3(3)(a), ~line 890",
+      "quote": "accompanied by a notice indicating that the interim financial report has not been reviewed by an auditor"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Annual statements must be approved by the board before filing",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.5(1), ~line 980",
+      "quote": "must be approved by the board of directors before the statements are filed."
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Annual audited statements of non-venture issuers due within 90 days of year-end (or earlier foreign filing)",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.2(a), ~line 834",
+      "quote": "in the case of a reporting issuer other than a venture issuer, on or before the earlier of (i) the 90th day after the end of its most recently completed financial year"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Venture issuers: 120 days for annual statements",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.2(b), ~line 844",
+      "quote": "in the case of a venture issuer, on or before the earlier of (i) the 120th day after the end of its most recently completed financial year"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Interim reports of non-venture issuers due within 45 days",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.4(a), ~line 958",
+      "quote": "on or before the earlier of (i) the 45th day after the end of the interim period"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Venture issuers: 60 days for interim reports",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.4(b), ~line 965",
+      "quote": "in the case of a venture issuer, on or before the earlier of (i) the 60th day after the end of the interim period"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "R",
+      "claim": "Earlier foreign filing date sets the deadline if sooner",
+      "source_file": "research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt",
+      "locator": "NI 51-102 s. 4.2(a)(ii), ~line 839",
+      "quote": "the date of filing, in a foreign jurisdiction, annual financial statements for its most recently completed financial year"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "No order may be executed on a marketplace or OTC while a halt/CTO condition applies",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(1), ~line 12057",
+      "quote": "No order for the purchase or sale of a security or a derivative shall be executed on a marketplace or over-the-counter, at any time while:"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Condition: a securities regulatory authority's cease trade order remains in effect",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(1)(a), ~line 12060",
+      "quote": "an order of a securities regulatory authority to cease trading in the security, derivative, related security or related derivative remains in effect"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Condition: the listing exchange's Market Regulator has halted or suspended trading",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(1)(b), ~line 12062",
+      "quote": "the Market Regulator of the Exchange on which the security or derivative is listed has halted or suspended trading in the security or derivative while such halt or suspension remains in effect"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "During a CTO a Participant may only execute a sale on a foreign organized regulated market, if the order's conditions are met and securities legislation permits",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(4)(b), ~line 12105",
+      "quote": "a Participant may execute a sale in the security on a foreign organized regulated market if: (i) all conditions set forth in the order of a securities regulatory authority are met, and (ii) the sale is in accordance with applicable securities legislation."
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Parallel ban for quoted securities halted/suspended by the QTRS Market Regulator",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(1)(c), ~line 12065",
+      "quote": "in the case of a quoted security, the Market Regulator of the QTRS has halted or suspended trading in the security while such halt or suspension remains in effect"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Parallel ban during a regulatory delay",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(2), ~line 12072",
+      "quote": "Regulatory Delay - No order for the purchase or sale of a security or derivative shall be executed on a marketplace or over-the-counter, at any time while:"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Exception: suspension by reason only of failing listing requirements or unpaid listing fees",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(3)(a), ~line 12086",
+      "quote": "suspended trading in the security or derivative by reason only that the issuer of the security or underlying security has:"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Exception (a)(ii): failure to pay listing fees",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(3)(a)(ii), ~line 12093",
+      "quote": "failed to pay to the Exchange or QTRS any fees in respect of the listing or quotation of securities of the issuer"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Exception (b): halt or delay due to technical problems (or a Marketplace Rule)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(3)(b)(i), ~line 12104",
+      "quote": "technical problems affecting only the trading system of the Exchange or QTRS"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Despite (1) and (2), an order may be entered or trade on a marketplace in those non-regulatory cases",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(3), ~line 12083",
+      "quote": "Despite subsections (1) and (2), an order may be entered on a marketplace or an order may trade on a marketplace, if the Exchange or QTRS has:"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "During a regulatory halt/delay/suspension under 9.1(1)(b)-(d) or (2), a Participant may make any trade outside Canada on a foreign organized regulated market if permitted by securities legislation",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(4)(a), ~line 12101",
+      "quote": "a Participant may execute a trade in the security, if permitted by applicable securities legislation, outside of Canada on a foreign organized regulated market"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "9.1(4)(a) applies to prohibitions under clauses (1)(b), (c) or (d) or subsection (2)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 9.1(4)(a), ~line 12100",
+      "quote": "with clauses (1)(b), (c) or (d) or subsection (2)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Definition of cease trade order",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 3, ~line 100",
+      "quote": "that one or more persons or companies must not trade in securities of a reporting issuer, whether directly or indirectly"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "NP 11-207 addresses certain continuous disclosure defaults called specified defaults",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 1, ~line 26",
+      "quote": "certain types of continuous disclosure defaults by a reporting issuer, referred to as specified defaults"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "CSA regulators generally respond to a specified default with a failure-to-file CTO",
+      "source_file": "research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt",
+      "locator": "NP 11-207 s. 7, ~line 213",
+      "quote": "In the event of a specified default, the CSA regulators generally respond by issuing a failure-to-file cease trade order."
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "If confidential material news leaks, company should contact the exchange and ask for a halt pending a news release (also anchors halts being used while news is disseminated)",
+      "source_file": "research/sources/csa/np-51-201-disclosure-standards.txt",
+      "locator": "NP 51-201 s. 2.3(1), ~line 158",
+      "quote": "contacting the relevant exchange and asking that trading be halted pending the issuance of a news release"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "R",
+      "claim": "Contravening the prospectus requirement through advertising or marketing could result in a CTO in respect of the preliminary prospectus",
+      "source_file": "research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt",
+      "locator": "41-101CP s. 6.8, ~line 2378",
+      "quote": "Any contravention of the prospectus requirement through advertising or marketing activities is a serious matter that could result in a cease trade order in respect of the preliminary prospectus"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "C",
+      "claim": "Company analysis blends quantitative and qualitative analysis; top-down vs bottom-up approaches",
+      "basis": "standard equity-analysis concept"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "C",
+      "claim": "MD&A and AIF are management documents; the audit opinion covers the financial statements, not MD&A",
+      "basis": "standard auditing scope (auditor's opinion is on the financial statements)"
+    },
+    {
+      "outcome": "4.1",
+      "kind": "C",
+      "claim": "Explaining analysis to retail clients in plain language and consulting internal/external experts",
+      "basis": "standard professional practice; syllabus bullet (no rule asserted)"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "C",
+      "claim": "Balance sheet identity, current/non-current classification (12 months or operating cycle), item lists, book value vs market value",
+      "basis": "IAS 1 classification; standard accounting"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "C",
+      "claim": "Statement of changes in equity reconciles equity; links net income to retained earnings",
+      "basis": "standard accounting"
+    },
+    {
+      "outcome": "4.2",
+      "kind": "C",
+      "claim": "One-line illustration (Maple Ridge data): retained earnings 500 + 210 − 84 = 626",
+      "basis": "500 + 210 = 710; 710 − 84 = 626 (python-checked)"
+    },
+    {
+      "outcome": "4.3",
+      "kind": "C",
+      "claim": "Income statement structure: gross profit, operating income, ± other income = EBIT, − finance costs = EBT, net income, OCI, total comprehensive income; OCI items recorded outside profit, mostly unrealized",
+      "basis": "IAS 1 presentation; standard accounting (EBIT includes other income; only finance costs separate EBIT from EBT)"
+    },
+    {
+      "outcome": "4.3",
+      "kind": "C",
+      "claim": "OCI generally accumulated in AOCI; some items (pension remeasurements) may be transferred to retained earnings; EPS uses profit attributable to common shareholders",
+      "basis": "IAS 1; IAS 19 para 122 (remeasurements not reclassified, may be transferred within equity); IAS 33"
+    },
+    {
+      "outcome": "4.4",
+      "kind": "C",
+      "claim": "Three sections of cash flow statement; indirect method adjustments",
+      "basis": "IAS 7 paras 10, 18 (classification-choice sentence removed: IFRS 18, effective 2027, changes it and spec limits accounting to terminology)"
+    },
+    {
+      "outcome": "4.4",
+      "kind": "C",
+      "claim": "One-line illustration (Maple Ridge data): CFO = 210 + 80 − 20 − 30 + 40 = 280",
+      "basis": "210+80=290; 290−20=270; 270−30=240; 240+40=280 (python-checked)"
+    },
+    {
+      "outcome": "4.5",
+      "kind": "C",
+      "claim": "Content of notes; auditor's opinion types (unmodified, qualified, adverse, disclaimer); separate 'Material Uncertainty Related to Going Concern' section; audit = reasonable assurance; applicable financial reporting framework (e.g., IFRS)",
+      "basis": "CAS 700/705/570 (revised); standard auditing"
+    },
+    {
+      "outcome": "4.6",
+      "kind": "C",
+      "claim": "Maple Ridge data consistency: CA = 50+30+120+200 = 400; TA = 400+1,000 = 1,400; CL = 150+50+50 = 250; TL = 250+300+100 = 650; equity = 1,400 − 650 = 750; GP 800; EBIT = 800 − 500 = 300; EBT = 300 − 20 = 280; tax 25% = 70; NI = 210",
+      "basis": "python-checked"
+    },
+    {
+      "outcome": "4.6",
+      "kind": "C",
+      "claim": "Liquidity: current 400/250 = 1.60; quick (400−200)/250 = 0.80; cash 80/250 = 0.32",
+      "basis": "python-checked; quick ratio excludes inventory (no prepaids in example)"
+    },
+    {
+      "outcome": "4.6",
+      "kind": "C",
+      "claim": "Risk: D/E 350/750 = 0.467 ≈ 0.47; debt/assets 350/1,400 = 0.25; coverage 300/20 = 15×",
+      "basis": "Convention: debt = interest-bearing debt (bank loan 50 + LTD 300 = 350); python-checked"
+    },
+    {
+      "outcome": "4.6",
+      "kind": "C",
+      "claim": "Profitability: GM 800/2,000 = 40%; pre-tax 280/2,000 = 14%; net 210/2,000 = 10.5%; ROA 210/1,400 = 15%; ROIC 300×0.75 = 225 / (350+750 = 1,100) = 20.45% ≈ 20.5%",
+      "basis": "Convention: ROIC = NOPAT ÷ (debt + equity); equivalently (NI + interest×(1−t)) = 210 + 15 = 225; python-checked"
+    },
+    {
+      "outcome": "4.6",
+      "kind": "C",
+      "claim": "Efficiency: FAT 2,000/1,000 = 2.0; inventory 1,200/200 = 6.0; receivables 2,000/120 = 16.67; payables 1,200/150 = 8.0; WC turnover 2,000/(400−250=150) = 13.3",
+      "basis": "Convention: COGS for inventory and payables turnover, revenue otherwise; year-end balances (averages noted as alternative); python-checked"
+    },
+    {
+      "outcome": "4.6",
+      "kind": "C",
+      "claim": "Equity ratios: EPS 210/100 = 2.10; payout 84/210 = 40%; retention 60%; BVPS 750/100 = 7.50; FCFE 280 − 150 + 20 = 150",
+      "basis": "FCFE = CFO − capex + net borrowing, assuming interest paid is in CFO (if interest paid is reported in financing, subtract the full interest paid from CFO first; taxes paid in CFO already reflect the interest tax shield, so no after-tax adjustment — that belongs to the FCFF bridge); python-checked"
+    },
+    {
+      "outcome": "4.7",
+      "kind": "C",
+      "claim": "Value ratios at $31.50: P/E 31.50/2.10 = 15.0; yield 0.84/31.50 = 2.67%; cover 2.10/0.84 = 2.5; payout 0.84/2.10 = 40%; equity per common share 750/100 = 7.50; DPS = 84/100 = 0.84",
+      "basis": "'Equity to common share' interpreted as equity (book value) per common share; python-checked"
+    },
+    {
+      "outcome": "4.7",
+      "kind": "C",
+      "claim": "Trend example: 1.85/1.60 − 1 = 15.6%; 2.10/1.85 − 1 = 13.5% (decelerating)",
+      "basis": "1.15625, 1.13514 (python-checked)"
+    },
+    {
+      "outcome": "4.7",
+      "kind": "C",
+      "claim": "Trend analysis and external (peer/industry) comparisons; interpretation of high P/E, high yield, cover < 1",
+      "basis": "standard equity analysis"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "C",
+      "claim": "Equity and fixed-income market data items; technical analysts treat heavy volume as confirming price moves; market cap = price × shares; example 31.50 × 100M = $3.15B",
+      "basis": "python-checked: 3,150 ($M)"
+    },
+    {
+      "outcome": "4.8",
+      "kind": "C",
+      "claim": "CTO comes from a securities regulator; halts from the market regulator (consistent with UMIR 9.1(1)(a)-(b))",
+      "basis": "structure of UMIR 9.1(1); NP 11-207 definition. Former 'general practice' sentence replaced by quoted NP 11-207 s. 7"
+    },
+    {
+      "outcome": "4.9",
+      "kind": "C",
+      "claim": "Index vs average (divisor-adjusted, quoted in points) vs multi-factor index; price-, cap- and equal-weighting biases; S&P/TSX Composite is float-adjusted cap-weighted; one-line illustrations ($1 move in $100 vs $10 stock; price-weighted vs cap-weighted can diverge)",
+      "basis": "standard index methodology"
+    },
+    {
+      "outcome": "4.9",
+      "kind": "C",
+      "claim": "Total vs price return: $50 → $45 with $1 dividend: (45 + 1 − 50)/50 = −8% vs −10%",
+      "basis": "python-checked"
+    },
+    {
+      "outcome": "4.10",
+      "kind": "C",
+      "claim": "Benchmark properties (full criteria cross-referenced to 5.9); blended benchmark 0.6×8.5 + 0.4×3.0 = 6.3%; relative (active) return 7.2 − 6.3 = +0.9 pp; vs equity only 7.2 − 8.5 = −1.3 pp; note that 'excess return' often means above the risk-free rate (9.3)",
+      "basis": "python-checked"
+    },
+    {
+      "outcome": "4.11",
+      "kind": "C",
+      "claim": "Fundamental, quantitative and technical analysis with assumptions; DCF, DDM (constant growth, g < r; calculation in 3.10), relative valuation; EMH reduced to one sentence with cross-reference to 6.9",
+      "basis": "standard finance"
+    },
+    {
+      "outcome": "4.12",
+      "kind": "C",
+      "claim": "GICS has 11 sectors and is used by S&P/TSX indices; sector groupings (autos under consumer discretionary per GICS) and valuation traits; cyclical vs defensive; industry life cycle",
+      "basis": "standard (GICS 11 sectors since 2018 Communication Services addition)"
+    },
+    {
+      "outcome": "4.13",
+      "kind": "C",
+      "claim": "Macro factor effects on bonds and equities (productivity eases inflation pressure, supporting bond prices); markets react to surprises vs expectations; unemployment lagging",
+      "basis": "standard economics"
+    },
+    {
+      "outcome": "4.13",
+      "kind": "C",
+      "claim": "One-line illustration: real ≈ nominal − inflation: 6 − 2.5 = 3.5%",
+      "basis": "Fisher approximation; exact 3.41% (not shown)"
+    },
+    {
+      "outcome": "4.14",
+      "kind": "C",
+      "claim": "Asset class/volatility/sector/cycle/benchmark factors; dispersion of average annual return narrows with horizon while ending-wealth range does not; long horizon does not remove single-year loss risk",
+      "basis": "standard portfolio theory (time diversification)"
+    }
+  ],
+  "gaps": [
+    "4.8 'cease trade orders': NP 11-207 is now in the corpus and is quoted (definition, s. 1, s. 7). The statutory CTO powers in the provincial Securities Acts are not in the corpus; the guide does not describe them.",
+    "4.1 document contents: Forms 51-102F1 (MD&A), 51-102F2 (AIF), 51-102F5 (circular) and 51-102F6 (executive compensation) are not in the corpus (only their NI 51-102 definitions). The 4.1 table uses neutral descriptions, not form requirements.",
+    "4.5 accounting framework: NI 52-107 (acceptable accounting principles) is not in the corpus; the guide says 'applicable financial reporting framework (e.g., IFRS)' without stating a rule.",
+    "4.5 auditor's report content (opinion types, going-concern section) is C: Canadian Auditing Standards are not in the corpus; only the NI 51-102 audit requirement is quoted.",
+    "4.2-4.4 IFRS presentation and classification details are C: IFRS is not in the corpus."
+  ],
+  "revised": "2026-10-22 (fix round 1)"
+}

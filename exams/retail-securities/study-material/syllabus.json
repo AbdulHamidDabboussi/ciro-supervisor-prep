@@ -1,0 +1,629 @@
+{
+  "meta": {
+    "title": "CIRO Retail Securities Exam Syllabus — structured content model",
+    "syllabus_version": "2025-05-08",
+    "source": "Retail-Securities-Exam-Syllabus-EN.pdf",
+    "note": "Official CIRO syllabus 'Last updated May 8, 2025' (PDF in official/; download URL not yet recorded). Outcome statements condensed from the official syllabus (verbatim-faithful scope: each outcome sentence plus all its 'Consider' bullets/sub-bullets, official terminology kept). Reading-order text extracted per column from the PDF in research/sources/syllabus-raw.txt (the layout-mode research/sources/Retail-Securities-Exam-Syllabus-EN.txt interleaves columns). All 109 outcome IDs and taxonomy levels checked against the PDF extraction on 2026-10-22. Independently re-verified 2026-10-22 from a fresh pdfplumber per-column extraction of the PDF (IDs/order, leading verb = taxonomy for all 109, every Consider bullet and sub-bullet present with no cross-column bleed — incl. column-top continuations of 1.6 and 7.3 — element titles, question counts and summaries verbatim). Taxonomy levels are cumulative (Remember < Understand < Apply < Analyze). Element titles, indicative question counts and summaries are verbatim. Source wording kept as printed, including apparent errors: 5.7 'EFT fact sheets' (ETF); 1.25 'comingling' (commingling); 4.5 'Note for the financial statements' (notes to the financial statements); 5.11 'T-swps' (T-SWPs, tax-efficient systematic withdrawal plans); 8.3 'immediate and cancel' (conventionally 'immediate or cancel'); 6.7 lists 'Fama–French five-factor model' and 'Fama–French five-factor model + momentum' (the three-factor model may have been intended for the first); 4.7 'equity to common share' (unclear ratio); Element 6 summary refers to 'this information' without antecedent. Corrected only: 4.6 'Earning per share' → 'earnings per share'; 4.6 'Efficiency ratio' (heading over five ratios) → 'efficiency ratios'; 7.9 'Claiming all deduction and credits' → 'deductions'; NI numbers 41–101/45–106 printed with en dashes normalised to hyphens (41-101, 45-106). Indicative question counts sum to 120 (27/10/12/14/16/13/14/7/7). Element summaries are our own descriptions of each element's scope (rewritten 2026-10-22 so the file carries no CIRO prose; the official wording is in the syllabus PDF, linked in exam-meta.json).",
+    "total_questions": 120,
+    "total_outcomes": 109
+  },
+  "elements": [
+    {
+      "id": 1,
+      "title": "Know-Your-Client (KYC) & suitability",
+      "questions": 27,
+      "summary": "The client relationship at the heart of retail advice: collecting and maintaining KYC information, assessing risk profile, account appropriateness, product due diligence and KYP, suitability determinations, conflicts of interest, outside activities and standards of conduct.",
+      "outcomes": [
+        {
+          "id": "1.1",
+          "taxonomy": "Understand",
+          "statement": "Key aspects of the firm–client relationship: the client relationship model; concepts of trust, agency and conflicts of interest; procedures and requirements for working with clients residing in the United States, including snowbirds and other foreign jurisdictions as applicable; considerations for changes in residence."
+        },
+        {
+          "id": "1.2",
+          "taxonomy": "Understand",
+          "statement": "Importance and content required of KYC information — the client’s financial circumstances (income, liquidity needs, financial assets, liabilities, net worth, whether the client is borrowing to invest); personal circumstances; investment knowledge; risk profile; investment objectives and needs; investment constraints and restrictions (equity, diversity and inclusion considerations; environmental, social and governance criteria; other relevant personal preferences); investment time horizon."
+        },
+        {
+          "id": "1.3",
+          "taxonomy": "Understand",
+          "statement": "Importance of thorough processes for assessing a client’s risk profile: willingness to accept risk or risk tolerance (including behavioural aspects that can influence it, e.g. preference, knowledge, experience); ability to endure financial loss or risk capacity (financial situation, current investments, investment horizon, need for liquidity); how much risk is needed to achieve the client’s goals or risk need (required rates of return, market risk environment, consequence of failure); resolving conflicts between a client’s expectations and risk profile."
+        },
+        {
+          "id": "1.4",
+          "taxonomy": "Understand",
+          "statement": "Different types of business structures and their impact on investment opportunities: sole proprietorship, partnership, corporation (private vs. public), co-operative."
+        },
+        {
+          "id": "1.5",
+          "taxonomy": "Remember",
+          "statement": "The need to accurately document discussions with clients and have the client confirm the accuracy of the information."
+        },
+        {
+          "id": "1.6",
+          "taxonomy": "Apply",
+          "statement": "Requirements around a trusted contact person in specific scenarios: how to establish a trusted contact person; what this permits and what it does not permit; actions if the client refuses to provide one; when to contact a trusted contact person; how to recognize potential capacity concerns and financial exploitation issues; conditions for using temporary holds; documenting the discussion."
+        },
+        {
+          "id": "1.7",
+          "taxonomy": "Understand",
+          "statement": "The primary responsibility, prohibition on KYC delegation and obligation to keep KYC information current."
+        },
+        {
+          "id": "1.8",
+          "taxonomy": "Understand",
+          "statement": "Types of client account records and information collected: verification of identity, account appropriateness assessment, KYC information, acknowledgement of disclosures, record of trusted contact person refusal."
+        },
+        {
+          "id": "1.9",
+          "taxonomy": "Apply",
+          "statement": "The account appropriateness obligation in specific scenarios."
+        },
+        {
+          "id": "1.10",
+          "taxonomy": "Apply",
+          "statement": "Key features, advantages and disadvantages of various types of accounts to meet client requirements: advisory (non-managed) account (fee-based and commission-based), managed account, discretionary account, cash account vs. margin account."
+        },
+        {
+          "id": "1.11",
+          "taxonomy": "Understand",
+          "statement": "Account-related documentation in the account opening process and the amount and type of information collected, considering: the Investment Dealer’s business model; relationship with clients; investment products and services offered by the Investment Dealer; conditions for when to collect one set of KYC information for multiple accounts."
+        },
+        {
+          "id": "1.12",
+          "taxonomy": "Understand",
+          "statement": "Objective and content of the Relationship Disclosure document: objective, frequency of provision, form and format, content, review."
+        },
+        {
+          "id": "1.13",
+          "taxonomy": "Analyze",
+          "statement": "Importance of containment of confidential information: information barriers and firewalls; grey and restricted lists; the role of investment banking, the research department and corporate finance; cybersecurity; privacy."
+        },
+        {
+          "id": "1.14",
+          "taxonomy": "Understand",
+          "statement": "Purpose of the required documents in the Investment Dealer’s Welcome Package: fee schedule; CIRO brochures that must or can be disclosed to the client (CIRO Complaints Brochure, How CIRO protects investors, Opening an Investment Account); Canadian Investor Protection Fund; Derivative Risk Disclosure; Investment Dealer conflict of interest disclosures; Investment Dealer complaint handling procedures."
+        },
+        {
+          "id": "1.15",
+          "taxonomy": "Apply",
+          "statement": "The product due diligence obligation, in specific situations, on the Investment Dealer and on the Approved Person."
+        },
+        {
+          "id": "1.16",
+          "taxonomy": "Apply",
+          "statement": "The Know-Your-Product (KYP) obligation to all investments purchased, sold or recommended for a client, considering the investment’s structure, features (including initial and ongoing costs) and risks (including impact of costs)."
+        },
+        {
+          "id": "1.17",
+          "taxonomy": "Apply",
+          "statement": "Retail client suitability determination requirements in specific situations: the relationship of KYC to recommendations; the need to avoid excessive switches (churning)."
+        },
+        {
+          "id": "1.18",
+          "taxonomy": "Understand",
+          "statement": "Obligations of the Registered Representative and of the Investment Dealer where client instructions are unsolicited or are not suitable."
+        },
+        {
+          "id": "1.19",
+          "taxonomy": "Apply",
+          "statement": "Types of investment action for a client’s account in specific situations: purchasing, selling, holding a position, depositing, exchanging or transferring securities."
+        },
+        {
+          "id": "1.20",
+          "taxonomy": "Analyze",
+          "statement": "The difference between the account appropriateness obligation and the suitability determination."
+        },
+        {
+          "id": "1.21",
+          "taxonomy": "Analyze",
+          "statement": "Investment Dealer and regulatory requirements for monitoring and maintaining accounts, including undergoing a suitability determination when there are triggering events."
+        },
+        {
+          "id": "1.22",
+          "taxonomy": "Analyze",
+          "statement": "Potential impact on the suitability determination for a client’s portfolio when relevant changes and updates occur: material change to the client’s circumstances; product and market research; economic, political and social events; emerging issues, financial trends, economic trends and world news."
+        },
+        {
+          "id": "1.23",
+          "taxonomy": "Apply",
+          "statement": "Regulatory requirements governing the management of conflicts of interest in the best interests of the client, in specific situations: identifying, avoiding, addressing, disclosure."
+        },
+        {
+          "id": "1.24",
+          "taxonomy": "Apply",
+          "statement": "Requirements relating to outside activities in specific situations: definition, pre-approval, disclosure."
+        },
+        {
+          "id": "1.25",
+          "taxonomy": "Apply",
+          "statement": "Requirements relating to personal financial dealings with clients in specific situations — prohibition and action relating to: accepting any consideration; settlement agreements; borrowing from clients; lending to clients; control or authority; comingling of assets or funds (business partnerships, investment clubs)."
+        },
+        {
+          "id": "1.26",
+          "taxonomy": "Understand",
+          "statement": "Application of the Investment Dealer’s policies and procedures relating to the management of conflicts of interest: effective controls and qualified supervision; applicable due diligence process for approvals; appropriate record-keeping."
+        },
+        {
+          "id": "1.27",
+          "taxonomy": "Apply",
+          "statement": "The CIRO standards of conduct in specific situations involving a Registered Representative and their client, or a Registered Representative and their firm."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Fixed income",
+      "questions": 10,
+      "summary": "Government, corporate and other debt securities: their features, risks and rewards for issuers and holders, plus bond pricing and yield calculations, duration, and the factors that move fixed-income prices.",
+      "outcomes": [
+        {
+          "id": "2.1",
+          "taxonomy": "Understand",
+          "statement": "Regulatory requirements for debt markets: general requirements (to promote fair and efficient debt markets); policies and procedures (the requirement, the content); prohibited practices (obligations on the Investment Dealer, obligations on the Approved Person)."
+        },
+        {
+          "id": "2.2",
+          "taxonomy": "Understand",
+          "statement": "Types and features of fixed-income products: Government of Canada securities, provincial and municipal government securities, corporate securities, guaranteed income certificates (GIC)."
+        },
+        {
+          "id": "2.3",
+          "taxonomy": "Apply",
+          "statement": "Terminology of fixed-income products in specific situations: par value, coupon rate, maturity date, term to maturity, bond price, yield to maturity, settlement, covenants."
+        },
+        {
+          "id": "2.4",
+          "taxonomy": "Analyze",
+          "statement": "Characteristics of fixed-income products: advantages and disadvantages to the investor and to the issuer; sources of risks and potential returns; impact of the costs associated with acquiring and holding fixed-income products."
+        },
+        {
+          "id": "2.5",
+          "taxonomy": "Understand",
+          "statement": "Characteristics of the following instruments and the conditions that affect their risk–return profile: strips, floating rate, callable/puttable, convertible, extendable, sinking/purchase funds."
+        },
+        {
+          "id": "2.6",
+          "taxonomy": "Apply",
+          "statement": "Standard calculations of bond yields: income (or current) yield, (approximate) yield to maturity, yield on a zero-coupon instrument, yield curves."
+        },
+        {
+          "id": "2.7",
+          "taxonomy": "Apply",
+          "statement": "In specific situations, the relationships between: coupon, yield, term-to-maturity and price volatility; Macaulay duration, modified duration and price sensitivity; changes in economic factors and price of fixed-income products."
+        },
+        {
+          "id": "2.8",
+          "taxonomy": "Apply",
+          "statement": "Modified duration calculation to assess the change in a bond’s price for a given change in yields."
+        },
+        {
+          "id": "2.9",
+          "taxonomy": "Apply",
+          "statement": "Time value of money in investment calculations: the present value of a fixed-income security given the par value, coupon rate, term to maturity and discount rate; the calculation of any missing variable in a time value of money calculation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Equities",
+      "questions": 12,
+      "summary": "Common and preferred shares and depositary receipts: holder rights, risks and rewards for issuers and investors, prospectus requirements and exemptions, corporate actions, and equity valuation calculations.",
+      "outcomes": [
+        {
+          "id": "3.1",
+          "taxonomy": "Understand",
+          "statement": "Requirement for and purpose of a prospectus under National Instrument 41-101 General Prospectus Requirements, and when this requirement may not apply under National Instrument 45-106 Prospectus Exemptions: application to primary and secondary distributions; application to takeovers; comprehensive disclosure; advertising and marketing; timely disclosure requirements; exempt market securities; private placements; accredited investor."
+        },
+        {
+          "id": "3.2",
+          "taxonomy": "Understand",
+          "statement": "Types and key features of different classes of common shares: dividend rights, voting rights, rights to surplus on dissolution."
+        },
+        {
+          "id": "3.3",
+          "taxonomy": "Understand",
+          "statement": "Types and key features of Canadian depositary receipts (CDRs): rights to holder, CDR ratio."
+        },
+        {
+          "id": "3.4",
+          "taxonomy": "Analyze",
+          "statement": "Characteristics of investing into different classes of common shares and depositary receipts: source of risks and potential returns; impact of the costs associated with acquiring and holding common shares and depositary receipts."
+        },
+        {
+          "id": "3.5",
+          "taxonomy": "Analyze",
+          "statement": "Features of common share ownership: advantages and disadvantages of common share ownership; advantages and disadvantages to the issuer of common shares."
+        },
+        {
+          "id": "3.6",
+          "taxonomy": "Understand",
+          "statement": "How corporate actions can affect the shareholder’s position: how dividends are declared, claimed and taxed; the impact of stock splits and consolidations; share buyback."
+        },
+        {
+          "id": "3.7",
+          "taxonomy": "Understand",
+          "statement": "Types and key features of different classes of preferred shares: dividend rights, voting rights, rights on dissolution."
+        },
+        {
+          "id": "3.8",
+          "taxonomy": "Analyze",
+          "statement": "Characteristics of investing into different classes of preferred shares: source of risks and potential returns; impact of the costs associated with acquiring and holding preferred shares."
+        },
+        {
+          "id": "3.9",
+          "taxonomy": "Apply",
+          "statement": "The distinction between common share and preferred share ownership in specific situations: advantages and disadvantages to the owners of preferred shares; advantages and disadvantages to the issuer of preferred shares."
+        },
+        {
+          "id": "3.10",
+          "taxonomy": "Apply",
+          "statement": "Time value of money in investment calculations: the present value of an equity security using appropriate models, including discounted cash flow and price–earnings growth models."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Securities analysis",
+      "questions": 14,
+      "summary": "Company and economic analysis for valuing investments: financial statements, ratio calculations and their interpretation, market data and indices, analysis methods, and macroeconomic influences on prices.",
+      "outcomes": [
+        {
+          "id": "4.1",
+          "taxonomy": "Analyze",
+          "statement": "Factors involved in performing company analysis to determine whether a company represents a good investment: all relevant documents and sources of information; clear explanations of company analysis to retail clients when requested; collaboration and consultation with both internal and external subject matter experts as required, in relation to company analysis matters."
+        },
+        {
+          "id": "4.2",
+          "taxonomy": "Understand",
+          "statement": "Purpose and content of a company’s statement of financial position: format and items included and how they are classified; purpose of the statement of changes in equity and its relation to both the balance sheet and earnings statement."
+        },
+        {
+          "id": "4.3",
+          "taxonomy": "Understand",
+          "statement": "Purpose and content of the statement of comprehensive income, including sources of income."
+        },
+        {
+          "id": "4.4",
+          "taxonomy": "Understand",
+          "statement": "Purpose and content of the statement of cash flows: cash flow from operating activities, from investing activities and from financing activities."
+        },
+        {
+          "id": "4.5",
+          "taxonomy": "Understand",
+          "statement": "Other factors regarding company financial statements: note for the financial statements; auditor’s report."
+        },
+        {
+          "id": "4.6",
+          "taxonomy": "Analyze",
+          "statement": "Information from basic financial statements to give meaningful responses on the company in question (may involve calculations): liquidity ratios (current, quick and cash ratios); risk analysis ratios (debt to equity, debt to assets, interest coverage); profitability ratios (gross, pre-tax and net profit margins; return on assets; return on invested capital); efficiency ratios (fixed asset turnover, inventory turnover, receivables turnover, payables turnover, working capital turnover); equity ratios (dividend payout, retention rate, earnings per share, book value per share, free cash flow to equity)."
+        },
+        {
+          "id": "4.7",
+          "taxonomy": "Analyze",
+          "statement": "Information from basic financial statements to give meaningful responses on the investment in question (may involve calculations): value ratios (earnings per share, price to earnings, dividend yield, dividend cover, dividend payout, equity to common share); the use of trend analysis and external comparisons."
+        },
+        {
+          "id": "4.8",
+          "taxonomy": "Understand",
+          "statement": "Types and uses of information for equities and fixed income provided by exchanges and regulators: price, volumes, yields and market capitalization; restrictions including cease trade orders (CTOs)."
+        },
+        {
+          "id": "4.9",
+          "taxonomy": "Understand",
+          "statement": "Purpose and uses of market indices: how index values are constructed; index vs. average vs. multi-factor; market-value-weighted vs. price-weighted vs. equal-weighted index; price return vs. total return; asset class, sector, country, international."
+        },
+        {
+          "id": "4.10",
+          "taxonomy": "Apply",
+          "statement": "Use of indices when providing a market summary and when calculating performance versus a benchmark."
+        },
+        {
+          "id": "4.11",
+          "taxonomy": "Analyze",
+          "statement": "Methods of assessing stock market behaviour: the importance of using different sources of company analysis and company information; fundamental analysis; quantitative analysis; technical/statistical analysis; the assumptions and valuation approaches which may be used."
+        },
+        {
+          "id": "4.12",
+          "taxonomy": "Understand",
+          "statement": "How industries can be classified into sectors and how these classifications are interpreted in a company’s stock valuation: consumer products, manufacturing industries, service industries, technologies."
+        },
+        {
+          "id": "4.13",
+          "taxonomy": "Apply",
+          "statement": "Macroeconomic factors to investor expectations of the price of securities and market movements: interest rates, inflation, employment, productivity."
+        },
+        {
+          "id": "4.14",
+          "taxonomy": "Analyze",
+          "statement": "Other factors that impact performance expectations over various time horizons: asset class, volatility, market sector, economic cycle, benchmarks."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Managed products and other investments",
+      "questions": 16,
+      "summary": "Managed products compared with direct investing: mutual funds, ETFs, other pooled and alternative products, how they are structured, priced and disclosed, what they cost, and how their performance is measured, including valuation calculations.",
+      "outcomes": [
+        {
+          "id": "5.1",
+          "taxonomy": "Understand",
+          "statement": "Types of managed products: mutual fund trusts, mutual fund corporations, income trusts, closed-end funds, real estate investment trusts (REITs), exchange-traded funds (ETFs), wrap funds/fund of funds/ETF wrap, pooled funds."
+        },
+        {
+          "id": "5.2",
+          "taxonomy": "Analyze",
+          "statement": "Main considerations affecting an investor or potential investor in managed products: range of exposures available (income and growth, asset classes, sectors, geography, ethical and ESG considerations, diversification/concentration); advantages and disadvantages of managed products."
+        },
+        {
+          "id": "5.3",
+          "taxonomy": "Understand",
+          "statement": "Main features of mutual funds: access to mutual funds in Canada; structure (trust vs. corporate); participants – trustee, manager, distributor, custodian; fee structures; daily pricing."
+        },
+        {
+          "id": "5.4",
+          "taxonomy": "Analyze",
+          "statement": "Main considerations affecting an investor or potential investor in mutual funds: advantages and disadvantages to the investor and to the provider; source of risks and potential returns, including risk-ranking methodologies."
+        },
+        {
+          "id": "5.5",
+          "taxonomy": "Analyze",
+          "statement": "Main considerations affecting an investor or potential investor in ETFs: access to ETFs; creation; pricing (market price vs. net asset value (NAV)); ETF management styles; the use of leverage; advantages and disadvantages of ETFs over mutual funds; cost structures."
+        },
+        {
+          "id": "5.6",
+          "taxonomy": "Understand",
+          "statement": "Features and purpose of fund management styles: active and passive management; smart beta/factor investing; leveraged funds; inverse funds."
+        },
+        {
+          "id": "5.7",
+          "taxonomy": "Understand",
+          "statement": "Information sources on mutual funds, ETFs and other managed products, including the requirement for the fund fact document and EFT fact sheets."
+        },
+        {
+          "id": "5.8",
+          "taxonomy": "Understand",
+          "statement": "Typical criteria for the evaluation of a fund’s performance: measuring return (holding period return, money-weighted rate of return, time-weighted rate of return); comparing return (benchmark, peer group)."
+        },
+        {
+          "id": "5.9",
+          "taxonomy": "Apply",
+          "statement": "Methods of valuation for investment in and performance of managed funds (may include calculations): pricing of mutual fund units or shares, including a fund’s net asset value per share (NAVPS); measurement and comparisons of fund performance — standard performance data and total return; use of comparisons and appropriate benchmarks (specified in advance, appropriate, measurable, unambiguous, reflective, accountable, investable)."
+        },
+        {
+          "id": "5.10",
+          "taxonomy": "Understand",
+          "statement": "Impact of costs on the performance of managed products: loads and charges; turnover; taxes (on the fund; on the investor; withholding tax — recoverable and unrecoverable); assessing expense ratios (management expense ratio, trading expense ratio)."
+        },
+        {
+          "id": "5.11",
+          "taxonomy": "Analyze",
+          "statement": "Implications of redemptions: tax consequences (T-swps); withdrawal plans; suspension of redemptions – gating."
+        },
+        {
+          "id": "5.12",
+          "taxonomy": "Apply",
+          "statement": "Factors to consider when deciding between managed products or non-managed products: the investor’s decisions; the Registered Representative’s recommendation."
+        },
+        {
+          "id": "5.13",
+          "taxonomy": "Understand",
+          "statement": "Types of alternative strategy funds and alternative assets: hedge funds, structured products, alternative investment funds, crypto-assets, private equity, venture capital."
+        },
+        {
+          "id": "5.14",
+          "taxonomy": "Analyze",
+          "statement": "Characteristics of alternative strategy funds and other types of investments: structure; features; fees (management, performance, hurdle rates); advantages and disadvantages to the investor and to the provider; source of risks and potential returns; impact of the costs associated with acquiring and holding other investments; accredited investor requirement."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Portfolio construction",
+      "questions": 13,
+      "summary": "Building portfolios: asset allocation, types and measures of risk, short selling and margin, portfolio theory and asset pricing models (with CAPM calculations), market efficiency, and active versus passive equity and fixed-income management.",
+      "outcomes": [
+        {
+          "id": "6.1",
+          "taxonomy": "Understand",
+          "statement": "Process of asset allocation decisions: principles of portfolio construction; categories, process and importance of asset allocation; types and key aspects of asset allocation (tactical, strategic, rebalancing, etc.); asset mix categories and strategies for setting the asset mix; the benefits of different stock selection techniques; benefits of a rebalancing strategy; costs of implementation and rebalancing (spread, commission, time)."
+        },
+        {
+          "id": "6.2",
+          "taxonomy": "Understand",
+          "statement": "Different types of risk: interest rate risk, inflation risk, liquidity risk, capital risk, income risk, issuer risk, financial crime risk."
+        },
+        {
+          "id": "6.3",
+          "taxonomy": "Understand",
+          "statement": "What different measures of risk indicate about an asset or portfolio: standard deviation and variance; beta; multi-factor; drawdown."
+        },
+        {
+          "id": "6.4",
+          "taxonomy": "Apply",
+          "statement": "Risk management processes to deal with risk and return: the role of risk in asset selection; hedging and diversification; factors that affect the expected return and risk of a portfolio."
+        },
+        {
+          "id": "6.5",
+          "taxonomy": "Apply",
+          "statement": "Methods of risk management processes to deal with short selling: the process of short selling and the associated risks; margin requirements for long and short positions."
+        },
+        {
+          "id": "6.6",
+          "taxonomy": "Understand",
+          "statement": "Concepts of portfolio recommendations: modern portfolio theory/mean variance theory; efficient diversification, naïve diversification and industry or issuer concentration; Black–Litterman model; Monte Carlo simulation."
+        },
+        {
+          "id": "6.7",
+          "taxonomy": "Understand",
+          "statement": "Purpose, advantages and disadvantages of asset pricing models: capital asset pricing model; arbitrage pricing theory; multi-factor models (Fama–French five-factor model; Fama–French five-factor model + momentum; Carhart four-factor model)."
+        },
+        {
+          "id": "6.8",
+          "taxonomy": "Apply",
+          "statement": "The capital asset pricing model to calculate the expected return and risk on a portfolio or asset."
+        },
+        {
+          "id": "6.9",
+          "taxonomy": "Understand",
+          "statement": "Implications of the efficient markets hypothesis (EMH) on portfolio management."
+        },
+        {
+          "id": "6.10",
+          "taxonomy": "Analyze",
+          "statement": "Active portfolio management techniques for equity managers: top–down vs. bottom–up; sector rotation; growth investing; value investing; market timing."
+        },
+        {
+          "id": "6.11",
+          "taxonomy": "Analyze",
+          "statement": "Passive portfolio management techniques for equity managers: buy and hold; tracking/indexing."
+        },
+        {
+          "id": "6.12",
+          "taxonomy": "Understand",
+          "statement": "Passive and active fixed-income portfolio management techniques: passive buy and hold; index matching; immunization; duration management; bond swaps; sector rotation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Investment recommendations",
+      "questions": 14,
+      "summary": "Applying the whole syllabus to client situations: matching recommendations to objectives, constraints and risk profile, behavioural biases, goal-funding calculations, Canadian tax planning and tax calculations, and complaint handling.",
+      "outcomes": [
+        {
+          "id": "7.1",
+          "taxonomy": "Analyze",
+          "statement": "The relationship between a client’s investment objectives and needs, risk profile and performance."
+        },
+        {
+          "id": "7.2",
+          "taxonomy": "Analyze",
+          "statement": "Impact of a client placing non-financial constraints and restrictions on their own investment choices: equity, diversity and inclusion considerations; environmental, social and governance criteria; other personal preferences."
+        },
+        {
+          "id": "7.3",
+          "taxonomy": "Understand",
+          "statement": "Principles of behavioural finance and the potential impact on a client’s decisions and returns — behavioural biases: cognitive errors (representativeness, illusion of control, confirmation, hindsight); information processing biases (framing, anchoring, mental accounting, availability); emotional biases (loss aversion, overconfidence, endowment); capital market biases (survivorship, gambler’s fallacy, herding, home country)."
+        },
+        {
+          "id": "7.4",
+          "taxonomy": "Apply",
+          "statement": "Retail client suitability determination requirements in specific situations: selection of suitable products; the impact of the Investment Dealer’s product shelf; the client’s net worth and liquidity needs; cash management planning and savings strategies; features of government pension programs."
+        },
+        {
+          "id": "7.5",
+          "taxonomy": "Apply",
+          "statement": "Relevant processes to choose a portfolio for the client based on their know-your-client (KYC) information: the client’s investment needs and objectives and risk profile; current investment portfolio compositions, risk level and potential shortfall; relevant investment management strategies; solutions to resolve conflicts between a client’s expectations and risk profile; the benefit of cash flow analysis."
+        },
+        {
+          "id": "7.6",
+          "taxonomy": "Apply",
+          "statement": "Relevant factors in addressing investment actions for a client in specific situations: the impact of significant changes to a client’s KYC information; the potentially unexpected impact of the investment action on the client account (concentration, liquidity); the potential and actual impact of costs on the client’s returns; consideration of a reasonable range of alternative actions."
+        },
+        {
+          "id": "7.7",
+          "taxonomy": "Analyze",
+          "statement": "Key requirements of the investment action recommendation process: the pros and cons of each product and recommended investment action; the risks involved for each product and recommended investment action; what the recommended investment action can accomplish for the client; the process for securing the client’s commitment to the recommended investment action."
+        },
+        {
+          "id": "7.8",
+          "taxonomy": "Apply",
+          "statement": "Time value of money calculations in setting financial goals for the client: regular investment required to meet a known future objective/liability; regular future income acquired from a single investment (i.e. the present value of an annuity)."
+        },
+        {
+          "id": "7.9",
+          "taxonomy": "Apply",
+          "statement": "Basics of personal and corporate tax planning in investment recommendation scenarios — basic knowledge of tax planning strategies and their advantages: tax preferential accounts and their uses (FHSAs, RRSPs, RESPs and TFSAs); strategies for minimizing tax liabilities (claiming all deductions and credits, income splitting, tax loss harvesting); corporations (active vs. passive income, integration, notional accounts — CDA, RDTOH, GRIP)."
+        },
+        {
+          "id": "7.10",
+          "taxonomy": "Apply",
+          "statement": "Basics of the Canadian capital gains tax system applied to a client’s investment gains: calculation of capital gains and capital losses; tax treatment of gains and losses; strategies for minimizing capital gains tax liabilities."
+        },
+        {
+          "id": "7.11",
+          "taxonomy": "Apply",
+          "statement": "Basics of the Canadian income tax system applied to income from a client’s investments: calculation of income tax payable; tax treatment of interest; tax treatment of dividends (qualifying, non-qualifying, foreign)."
+        },
+        {
+          "id": "7.12",
+          "taxonomy": "Apply",
+          "statement": "Regulatory requirements governing complaints handling in specific situations: recognition, process, resolution, reporting, prohibited practices."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Execution and market integrity",
+      "questions": 7,
+      "summary": "Execution and market integrity under UMIR: recognizing abusive trading, gatekeeper responsibilities, order types, the execution and settlement process, cash and margin accounts, and client confirmations and statements.",
+      "outcomes": [
+        {
+          "id": "8.1",
+          "taxonomy": "Apply",
+          "statement": "UMIR in specific situations, covering: best execution; abusive trading (specific unacceptable activities, manipulative and deceptive practices, artificial pricing, improper orders and trades); front running."
+        },
+        {
+          "id": "8.2",
+          "taxonomy": "Apply",
+          "statement": "Regulatory requirements in relation to the UMIR gatekeeping responsibilities in specific situations: the purpose of the UMIR gatekeeping obligations; the client’s typical financial activity and patterns, to identify suspicious transactions; how to identify and escalate suspicious transactions; possible insider trading activity and violations; applicable regulatory frameworks on whistleblowers; applicable reporting obligations to firms and regulators."
+        },
+        {
+          "id": "8.3",
+          "taxonomy": "Apply",
+          "statement": "Features of different types of orders to specific client requirements: limit order, market order, immediate and cancel, fill or kill, on-stop orders, iceberg orders, short sales."
+        },
+        {
+          "id": "8.4",
+          "taxonomy": "Apply",
+          "statement": "Important aspects of the trade execution and settlement process to specific client requirements: awareness of the various marketplaces; placing orders, including processes for handling order errors and changes; the settlement and delivery process; considerations for foreign exchange transactions and currency conversions to facilitate transactions; the purpose and application of the cash account rule; the restriction process on overdue cash accounts."
+        },
+        {
+          "id": "8.5",
+          "taxonomy": "Understand",
+          "statement": "Use of long and short margin accounts, including special margin situations and the need for specialized trading authorizations."
+        },
+        {
+          "id": "8.6",
+          "taxonomy": "Understand",
+          "statement": "Reporting requirements to clients: requirements to confirm orders with clients, including fees and commissions; Investment Dealer responsibility for trade confirmations and account statements to be sent to clients."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Monitoring, reporting and maintaining client relationships",
+      "questions": 7,
+      "summary": "Ongoing client service: monitoring and measuring portfolio performance (including risk-adjusted return calculations), performance disclosure, communications with clients and the public, and record-keeping requirements.",
+      "outcomes": [
+        {
+          "id": "9.1",
+          "taxonomy": "Apply",
+          "statement": "Process of monitoring and evaluating portfolio performance in specific situations, considering the market and the economy and client needs and circumstances."
+        },
+        {
+          "id": "9.2",
+          "taxonomy": "Apply",
+          "statement": "Process of investment performance disclosure and measurement in specific situations: how performance is measured; how comparative performance is determined; the use of multi-factor regression; the proper use of benchmarks in assessing portfolio performance; transaction costs and tax implications of investment recommendations; fees and charges for the product and the impact on client returns."
+        },
+        {
+          "id": "9.3",
+          "taxonomy": "Analyze",
+          "statement": "Investment performance calculations for individual securities or portfolios over any timeframe: rate of return; absolute risk/standard deviation; risk-adjusted returns (Sharpe, Treynor, Jensen); performance against benchmarks; multi-factor regression."
+        },
+        {
+          "id": "9.4",
+          "taxonomy": "Apply",
+          "statement": "CIRO requirements when Investment Dealers communicate with clients and/or the public, in specific situations: awareness of obligations and best practices; the appropriate use of professional titles; misleading communications; restrictions and guidelines regarding social media and other communications with the public; off-channel communication issues."
+        },
+        {
+          "id": "9.5",
+          "taxonomy": "Apply",
+          "statement": "Requirements, in specific situations, to maintain all client responses/records in respect of: account appropriateness; suitability determination; know-your-client (KYC); know-your-product (KYP); conflict of interest; sales practices; compensation arrangements; incentive practices and other compensation arrangements; incentive practices which may benefit the Investment Dealer or Registered Representative."
+        }
+      ]
+    }
+  ]
+}

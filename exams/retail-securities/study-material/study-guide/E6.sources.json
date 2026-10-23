@@ -1,0 +1,562 @@
+{
+  "element": 6,
+  "drafted": "2026-10-22",
+  "claims": [
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Asset allocation starts from objectives (safety, income, growth) and constraints (time horizon, liquidity, tax, legal/unique, risk tolerance); mix explains most variation in diversified portfolio returns",
+      "basis": "standard portfolio-management process; Brinson-Hood-Beebower style attribution finding"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Strategic = long-run policy mix with targets/ranges (may change on a schedule over the client's life, e.g. target-date glide path); tactical = temporary deliberate tilts; dynamic = rule-based continuous adjustment as market values change (constant-mix, portfolio insurance); rebalancing = restoring drifted weights by calendar or tolerance band",
+      "basis": "standard definitions (dynamic asset allocation per Perold-Sharpe constant-mix/CPPI usage; glide path as scheduled change to policy mix)"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Asset mix categories cash/fixed income/equity (+alternatives) and their roles; stock selection techniques (screening, fundamental, top-down/bottom-up) and their benefits; indexing as the passive alternative to selection",
+      "basis": "standard definitions"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "Rebalancing keeps the agreed risk level; without it the best performer's weight grows and risk drifts from target (usually upward in rising equity markets); costs are spread, commission and time, plus tax on realized gains in taxable accounts",
+      "basis": "standard concept"
+    },
+    {
+      "outcome": "6.1",
+      "kind": "C",
+      "claim": "One-line illustration: 60/40 portfolio, equities +20%, bonds flat, drifts to about 64/36; rebalancing sells excess equity and buys bonds",
+      "basis": "60 x 1.20 = 72; 72 + 40 = 112; 72/112 = 64.3%, 40/112 = 35.7% -> about 64/36"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "C",
+      "claim": "Definitions of interest rate, inflation (purchasing-power), liquidity, capital, income and issuer (credit/business) risk and who is most exposed",
+      "basis": "standard definitions"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "C",
+      "claim": "A GIC has no price risk but carries inflation risk; a bond held to maturity avoids price risk but keeps reinvestment/income risk",
+      "basis": "standard concept"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "C",
+      "claim": "Financial crime risk includes the investor as victim of investment fraud",
+      "basis": "standard concept; GN-3200-23-001 s. 5.2.3 notes low-priced securities 'could also be associated with fraudulent or potentially fraudulent companies'"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Financial exploitation defined (IDPC 3201): the use or control of, or deprivation of the use or control of, an individual's financial asset by a person through undue influence, unlawful conduct or another wrongful act",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3201 definition \"financial exploitation\", ~line 5474",
+      "quote": "the use or control of, or deprivation of the use or control of, a financial asset of an individual by a person through undue influence, unlawful conduct or another wrongful act"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Complex ownership structures that obscure beneficial owners are a key risk indicator",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.1.1, ~line 407",
+      "quote": "Some non-individual clients (such as trusts or corporations) can have complex ownership structures that obscure the true beneficial owners of the account."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "An account used for undeclared purposes warrants further investigation",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.1.2, ~line 419",
+      "quote": "it can be challenging to monitor whether the client is using its account for undeclared purposes"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "OTC securities are a risk indicator (low cost or risky OTC securities are attractive to those moving funds)",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.2.1, ~line 426",
+      "quote": "There is little demand for low cost or risky OTC securities, which are attractive to individuals, who can use them to move funds."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "OTC securities: little financial disclosure required",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.2.1, ~line 426",
+      "quote": "Companies with OTC securities are not required to provide much financial information."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Stock manipulation is a trading risk indicator",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.2.2, ~line 430",
+      "quote": "Some forms of stock manipulation occur when a client, acting alone or with an Approved Person, artificially inflates or deflates the price of securities to make a profit."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Frequent trading in low-priced securities is a risk indicator, especially with immediate liquidation/transfer of proceeds or no reasonable rationale",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.2.3, ~line 434",
+      "quote": "If a client frequently trades in low-priced securities this could indicate suspicious activity, especially if:"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "... especially if the client immediately liquidates or transfers the proceeds",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.2.3, ~line 436",
+      "quote": "the client immediately liquidates or transfers the proceeds, or"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "... or the client gives no reasonable rationale",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.2.3, ~line 437",
+      "quote": "the client does not provide a reasonable rationale for the trade."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Inactive issuers and shell companies are a risk indicator",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.2.4, ~line 449",
+      "quote": "Trading in shell companies or inactive issues could indicate potential money laundering or fraud."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Shell companies are often used to launder money",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.2.4, ~line 457",
+      "quote": "Shell companies are often used by individuals to launder money."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Cash deposits/withdrawals directly with the dealer are a risk indicator",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.3.1, ~line 467",
+      "quote": "If a client requests a cash deposit or withdrawal directly from the Investment Dealer, this could be an indicator of potential money laundering or terrorist financing"
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Deposits of physical certificates carry little source-of-funds information",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.3.2, ~line 471",
+      "quote": "When physical certificates are deposited into a brokerage account, there is little information confirming the source of funds or how the client obtained them."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Early redemption incurring fees without a plausible explanation is a risk indicator",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.3.3, ~line 475",
+      "quote": "If a client is selling securities early and incurring a fee without a plausible explanation, this could indicate money laundering."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Requests for proceeds as bank drafts or certified cheques are a risk indicator",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.3.4, ~line 479",
+      "quote": "Individuals might instead ask for the proceeds using bank drafts or certified cheques to disguise the true source and ownership of the funds."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Frequent transfers between accounts without real securities trading are a risk indicator",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 5.3.5, ~line 483",
+      "quote": "Investment Dealers should be suspicious of accounts used solely as conduits to transfer funds without legitimate securities transactions."
+    },
+    {
+      "outcome": "6.2",
+      "kind": "R",
+      "claim": "Key rule callout: PCMLTFA requires reporting of attempted and completed suspicious transactions",
+      "source_file": "research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt",
+      "locator": "GN-3200-23-001 s. 6.1, ~line 515",
+      "quote": "The PCMLTFA requires that Investment Dealers report attempted and completed suspicious transactions."
+    },
+    {
+      "outcome": "6.3",
+      "kind": "C",
+      "claim": "Variance = average squared deviation from the mean; standard deviation = its square root, in return units; measures total risk; ~68% within 1 sigma and ~95% within 2 sigma for a normal distribution",
+      "basis": "standard statistics"
+    },
+    {
+      "outcome": "6.3",
+      "kind": "C",
+      "claim": "One-line illustration: mean 8%, sigma 10% -> about two years in three between -2% and 18%",
+      "basis": "8 - 10 = -2; 8 + 10 = 18; ~68% of a normal distribution lies within +/-1 sigma (about 2 in 3)"
+    },
+    {
+      "outcome": "6.3",
+      "kind": "C",
+      "claim": "Beta measures systematic risk; market beta = 1; beta >1 aggressive, <1 defensive, <0 moves against the market; beta says nothing about company-specific risk; sigma is total risk, beta systematic only",
+      "basis": "standard CAPM definitions"
+    },
+    {
+      "outcome": "6.3",
+      "kind": "C",
+      "claim": "Multi-factor measures = loadings on several risk factors; drawdown = peak-to-trough decline; example $120,000 -> $90,000 = 25%",
+      "basis": "(120,000-90,000)/120,000 = 0.25"
+    },
+    {
+      "outcome": "6.4",
+      "kind": "C",
+      "claim": "Diversification reduces unsystematic but not systematic risk; hedging = offsetting position at a cost; portfolio expected return = weighted average; portfolio risk depends on weights, sigmas and correlations and is below the weighted-average sigma when rho < 1",
+      "basis": "standard MPT"
+    },
+    {
+      "outcome": "6.4",
+      "kind": "C",
+      "claim": "One-line illustration: 60/40 equities (sigma 16%) / bonds (sigma 6%), rho 0.2 -> portfolio sigma about 10.4% vs 12% weighted average",
+      "basis": "sigma_p^2 = 0.36*256 + 0.16*36 + 2*0.6*0.4*0.2*16*6 = 92.16 + 5.76 + 9.216 = 107.136; sqrt = 10.35 -> about 10.4; 0.6*16 + 0.4*6 = 12.0"
+    },
+    {
+      "outcome": "6.4",
+      "kind": "C",
+      "claim": "rho=+1 no risk reduction; rho=0 substantial reduction; rho=-1 risk can theoretically be eliminated",
+      "basis": "two-asset variance formula"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "C",
+      "claim": "Short-sale mechanics (borrow, deliver, cover, return; seller pays dividends and borrow fees) and risks (unlimited loss, recall, squeeze, costs, margin calls)",
+      "basis": "standard concept"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "UMIR definition: a short sale is a sale of a security the seller does not own",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 \"short sale\", ~line 2463",
+      "quote": "means a sale of a security, other than a derivative instrument, which the seller does not own either directly or through an agent or trustee"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Borrowed shares do not count as owned unless the seller is otherwise considered to own the security under the definition",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 \"short sale\" (f), ~line 2482",
+      "quote": "the seller has borrowed the security to be delivered on the settlement of the trade and the seller is not otherwise considered to own the security in accordance with this definition"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Deemed ownership example: purchased but not yet received",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 1.1 \"short sale\" (a), ~line 2467",
+      "quote": "has purchased or has entered into an unconditional contract to purchase the security, but has not yet received delivery of the security"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "UMIR 3.2(1): a Participant or Access Person may not enter an order on a marketplace that would be a short sale (unless marked / SSI / Pre-Borrow)",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.2(1), ~line 5436",
+      "quote": "A Participant or Access Person shall not enter an order to sell a security on a marketplace that on execution would be a short sale"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "UMIR 3.2: short-sale order must be marked short",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.2(1)(a), ~line 5438",
+      "quote": "unless the order is marked as a short sale in accordance with subclause 6.2(1)(b)(viii)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Short-marking exempt orders are excused from the marking requirement",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.2(2), ~line 5447",
+      "quote": "Clause (a) of subsection (1) does not apply to an order that has been designated as a \"short-marking exempt order\""
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "No short-sale order if the security is a Short Sale Ineligible Security",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.2(1)(b), ~line 5441",
+      "quote": "if the security is a Short Sale Ineligible Security at the time of the entry of the order"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "UMIR 3.2(3): limited exceptions to the SSI prohibition",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.2(3), ~line 5451",
+      "quote": "Clause (b) of subsection (1) does not apply to an order entered on a marketplace:"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Pre-Borrow Security: borrowing arrangements required before order entry",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.2(1)(c), ~line 5443",
+      "quote": "has made arrangements for the borrowing of the securities necessary to settle any resulting trade prior to the entry of the order"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Key rule callout: UMIR 3.3(1) reasonable expectation to settle",
+      "source_file": "research/sources/ciro/umir-2026-08-11.txt",
+      "locator": "UMIR 3.3(1), ~line 5577",
+      "quote": "a Participant or Access Person must have a reasonable expectation to settle any resulting trade on the date contemplated on the execution of the trade"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Dealer must ensure the client is aware of risks and benefits of margin trading",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 3246(1), ~line 6301",
+      "quote": "a Dealer Member must ensure that the client is aware of the risks and benefits associated with trading on margin"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Loan value of long position = (100% - margin rate) x market value",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(2), ~line 14786",
+      "quote": "[100% - applicable margin rate %] x positive market value of the security"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Loan value of short position = (100% + margin rate) x negative market value",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(3), ~line 14790",
+      "quote": "[100% + applicable margin rate %] x negative market value of security"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "C",
+      "claim": "Plain-terms explanation and one-line illustration: at a 50% rate, $20,000 of stock held long supports a $10,000 loan; a short needs a credit of 150% of the shares' value, which rises as the price rises",
+      "basis": "(1 - 0.50) x 20,000 = 10,000; (1 + 0.50) = 150% of market value, increasing in price; applies IDPC 5113(2)-(4)"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Net positive loan value permits a debit no larger than that value",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(4)(ii), ~line 14793",
+      "quote": "the client may have a debit cash balance no larger than the positive loan value amount for the account to be in good standing"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Net negative loan value requires a credit at least equal to it",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5113(4)(iii), ~line 14796",
+      "quote": "the cash balance in the margin account must be a credit equal to or larger than the net negative loan value for the account to be in good standing"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "IDPC 5310(1) sets minimum client account margin rates where a security is eligible to be margined using the basic approach",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1), ~line 16149",
+      "quote": "Where a security is eligible to be margined using the basic margin requirement approach, the minimum Dealer Member inventory margin and client account margin rates (or dollar amounts per share) are as follows:"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "IDPC 5311(1): basic requirements apply to Canada/US listed equities eligible for margin",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5311(1), ~line 16207",
+      "quote": "client account margin rates (or dollar amounts per share) for Canada and United States listed equity securities eligible for margin are the basic margin requirements in section 5310."
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "IDPC 5311(2): basic requirements apply to Canada/US unlisted equities eligible for margin",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5311(2), ~line 16210",
+      "quote": "client account margin rates (or dollar amounts per share) for Canada and United States unlisted equity securities eligible for margin are the basic margin requirements in section 5310."
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Securities >= $2.00 and qualifying for inclusion on the List of Securities Eligible for Reduced Margin: 30% for client accounts (long and short tables)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1) tables, ~lines 16157 and 16180 (layout-split cell)",
+      "quote": "qualifying for inclusion on the List of Securities 30% for client account positions"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Reduced-margin row wording: 'qualifying for inclusion on the List'",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1) long table, ~line 16155",
+      "quote": "Market value of $2.00 or more per share and"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Other positions >= $2.00: 50% (short table; long table identical but layout-split)",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1) short table, ~line 16187",
+      "quote": "All other positions with a market value of $2.00 or more per share 50%"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "$1.75-$1.99: 60%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1), ~lines 16165/16190",
+      "quote": "Market value of $1.75 per share to $1.99 per share 60%"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "$1.50-$1.74: 80%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1), ~lines 16167/16192",
+      "quote": "Market value of $1.50 per share to $1.74 per share 80%"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Long positions below $1.50: 100%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1) long table, ~line 16169",
+      "quote": "Market value of below $1.50 per share 100%"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Short positions $0.25-$1.49: 100%",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1) short table, ~line 16194",
+      "quote": "Market value of $0.25 per share to $1.49 per share 100%"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Short positions below $0.25: $0.25 per share",
+      "source_file": "research/sources/ciro/idpc-rules-2026-08-11.txt",
+      "locator": "IDPC 5310(1) short table, ~line 16196",
+      "quote": "Market value of below $0.25 per share $0.25 per share"
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "Undermargined account restricted within 20 business days to trades reducing the deficiency, until fully margined",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch. 4 Note 5(iii), ~line 111",
+      "quote": "shall within 20 business days of the account becoming undermargined be restricted only to trades, which reduce the margin deficiency in the account. Such restriction shall apply until the account is fully margined."
+    },
+    {
+      "outcome": "6.5",
+      "kind": "R",
+      "claim": "No advances of funds or securities while undermargined, or if the advance would make the account undermargined",
+      "source_file": "research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt",
+      "locator": "Form 1 Sch. 4 Note 5(iv), ~line 114",
+      "quote": "Advancing funds or delivering securities from the account of a customer shall not be permitted as long as the account is undermargined or if such advance or delivery would cause the account to become undermargined."
+    },
+    {
+      "outcome": "6.6",
+      "kind": "C",
+      "claim": "MPT/mean-variance: risk-averse investors, efficient frontier; efficient vs naive (1/N) diversification; industry and issuer concentration",
+      "basis": "standard MPT (Markowitz 1952)"
+    },
+    {
+      "outcome": "6.6",
+      "kind": "C",
+      "claim": "Black-Litterman starts from market-equilibrium implied returns (reverse optimization from cap weights) and blends investor views weighted by confidence; addresses MVO input sensitivity and extreme weights",
+      "basis": "Black & Litterman (1992), standard description"
+    },
+    {
+      "outcome": "6.6",
+      "kind": "C",
+      "claim": "Monte Carlo simulation generates many random return paths from assumed inputs and reports a probability distribution of outcomes",
+      "basis": "standard concept"
+    },
+    {
+      "outcome": "6.7",
+      "kind": "C",
+      "claim": "CAPM single factor (beta); APT multiple unspecified systematic factors via no-arbitrage (Ross); FF5 = market, SMB, HML, RMW, CMA; Carhart = FF3 + momentum; FF5 + momentum = six factors; advantages/disadvantages",
+      "basis": "Sharpe 1964; Ross 1976; Fama & French 2015; Carhart 1997"
+    },
+    {
+      "outcome": "6.8",
+      "kind": "C",
+      "claim": "CAPM: E(Ri) = Rf + beta(E(Rm)-Rf); SML; portfolio beta is weighted average",
+      "basis": "standard CAPM"
+    },
+    {
+      "outcome": "6.8",
+      "kind": "C",
+      "claim": "Worked example: Rf 3%, E(Rm) 8%, beta 1.2 -> 9%; forecast 10% -> above SML, expected (ex-ante) alpha +1%; ex-post equivalent is Jensen's alpha (9.3)",
+      "basis": "3 + 1.2*(8-3) = 3 + 6 = 9; 10 - 9 = 1"
+    },
+    {
+      "outcome": "6.8",
+      "kind": "C",
+      "claim": "Worked example portfolio: 50% beta 1.2, 30% beta 0.8, 20% T-bills beta 0 -> beta_p 0.84, E(Rp) 7.2%",
+      "basis": "0.5*1.2=0.6; 0.3*0.8=0.24; 0.2*0=0; sum 0.84; 3 + 0.84*5 = 7.2"
+    },
+    {
+      "outcome": "6.9",
+      "kind": "C",
+      "claim": "EMH weak/semi-strong/strong forms and implications (technical analysis, fundamental analysis, insider information; case for passive indexing; manager's role)",
+      "basis": "standard EMH (Fama 1970)"
+    },
+    {
+      "outcome": "6.10",
+      "kind": "C",
+      "claim": "Top-down vs bottom-up, sector rotation (textbook cycle mapping, stated as convention), growth vs value characteristics, market timing pros/cons",
+      "basis": "standard concepts"
+    },
+    {
+      "outcome": "6.11",
+      "kind": "C",
+      "claim": "Buy-and-hold; indexing by full replication, sampling, optimization; tracking difference (return gap) vs tracking error (std dev of the gap), both from fees, cash drag, sampling, rebalancing; advantages (little security-selection risk; underperformance limited to costs and tracking error)/disadvantages; index funds carry full market risk; passive largely removes manager (security-selection) risk",
+      "basis": "standard concepts (tracking error defined as standard deviation of active return)"
+    },
+    {
+      "outcome": "6.12",
+      "kind": "C",
+      "claim": "Passive buy-and-hold/ladder; index matching by sampling; immunization = match Macaulay duration to horizon, price and reinvestment effects offset, needs rebalancing",
+      "basis": "standard fixed-income concepts (Redington immunization)"
+    },
+    {
+      "outcome": "6.12",
+      "kind": "C",
+      "claim": "Active: duration management (lengthen when rates expected to fall, shorten when expected to rise); bond swaps (substitution, intermarket/yield-spread, rate anticipation, tax-loss); sector rotation on credit spread expectations",
+      "basis": "standard fixed-income concepts"
+    },
+    {
+      "outcome": "6.12",
+      "kind": "R",
+      "claim": "Tax-loss swap: replacement must not be identical property, or the superficial loss rule applies (full rule in 7.9)",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA superficial loss page, ~line 728",
+      "quote": "buys, or has a right to buy, the same or identical property (called \"substituted property\") during the period starting 30 calendar days before the sale and ending 30 calendar days after the sale"
+    },
+    {
+      "outcome": "6.12",
+      "kind": "R",
+      "claim": "A superficial loss cannot be deducted",
+      "source_file": "research/sources/cra/capital-gains-losses-superficial-loss-pages.txt",
+      "locator": "CRA superficial loss page, ~line 742",
+      "quote": "you cannot deduct it when you calculate your income for the year"
+    }
+  ],
+  "gaps": [
+    "6.2 financial crime risk (gap register G15, PARTIAL): the PCMLTFA, its Regulations and FINTRAC guidance are not in the corpus; statutory AML duties are stated only as described in CIRO GN-3200-23-001 (e.g. STR reporting), not from the statute itself.",
+    "6.5 margin calls: the corpus gives the 20-business-day restriction for undermargined accounts (Form 1 Sch. 4 Note 5(iii)) but no specific deadline for meeting a margin call; the guide does not state one.",
+    "6.5 short-sale costs (dividend payments in lieu, stock-borrow fees, recall/buy-in) are presented as C (industry mechanics); no governing rule text quoted.",
+    "6.5 IDPC 5310 table cells are split by PDF layout; the 30% reduced-margin client rate and the long-side 50% rate are quoted from the layout-normalized extraction (short-table wording for 50%)."
+  ]
+}
