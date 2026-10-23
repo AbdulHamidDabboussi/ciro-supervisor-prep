@@ -42,7 +42,7 @@ GitHub Pages forces the constraints: no backend, no server-side code, no writing
 4. **Mock-exam mode** — 90-question form via `element_weights` (10/10/9/20/15/8/6/7/5), item-sets drawn whole and capped near the exam's real ratio (`questions_item_set` = 30 ≈ 33%; lands ~27–28 given whole-set granularity), remainder filled with standard items. 180-min pausable timer (persisted), auto-submit at 0. Acknowledged limitation: the bank has only 17 item-sets, so only ~3 fully distinct forms are possible before reuse.
 5. **Mock result** — overall + per-element + per-taxonomy %, **no pass line**; review incorrect with rationales; saved to history.
 6. **Flashcards** — per-element decks from `cards.json`; flip UI; mark known/again; CTA to drill the element. Keep the 5 deliberate cross-element duplicate pairs.
-7. **About** — facts/links from `exam-meta.json`; do not state the two unconfirmed facts (calculator policy; `GN-2600-25-001…004`) as fact; never show a pass threshold.
+7. **About** — facts/links from `exam-meta.json`; do not state the unconfirmed fact (`GN-2600-25-001…004` numbering) as fact (calculator policy confirmed 2026-10-22 — see CLAUDE.md); never show a pass threshold.
 
 ## Invariants honored
 

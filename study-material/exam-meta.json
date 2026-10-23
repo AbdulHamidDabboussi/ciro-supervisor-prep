@@ -17,7 +17,8 @@
     "languages": ["en", "fr"],
     "closed_book": true,
     "scratch_paper": "not permitted; remote exams use in-platform scratch pad",
-    "calculator_policy": "UNCONFIRMED — no official statement found",
+    "calculator_policy": "Personal calculators not permitted under any circumstances; an on-screen Prometric calculator (Basic and Scientific modes) is provided — not a financial/TVM calculator (Fitch Learning Support, \"Can I use a physical calculator during the exam?\", updated 2026-10-17, applies to all CIRO exams). The article describes the ProProctor (remote) calculator; the test-centre interface is not separately described.",
+    "calculator_policy_source": "https://fitchlearning-na.zendesk.com/hc/en-ca/articles/6075272480799-Can-I-use-a-physical-calculator-during-the-exam",
     "taxonomy_levels": ["Remember", "Understand", "Apply", "Analyze"],
     "taxonomy_note": "Levels are cumulative: an Apply-level outcome may also be tested at Understand and Remember levels."
   },
