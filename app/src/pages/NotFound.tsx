@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link } from '../components/ExamLink'
 
 export default function NotFound() {
   return (

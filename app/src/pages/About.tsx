@@ -8,11 +8,20 @@ export default function About() {
   const fees = examMeta.fees_cad
   const a = examMeta.attempts
   const r = examMeta.official_resources
+  const approval = examMeta.approval_requirements ?? examMeta.approval_requirements_supervisor
+  const money = (n: number | null) => (n == null ? 'Not confirmed' : `$${n} CAD`)
+  const links = [
+    [r.exam_page, 'Exam page'],
+    [examMeta.administration.enrolment_portal, 'Enrolment portal'],
+    [r.syllabus_pdf, 'Syllabus (PDF)'],
+    [r.study_guide_pdf, 'Study guide (PDF)'],
+    [r.practice_exam_pdf, 'Official practice exam (PDF)'],
+  ].filter((l): l is [string, string] => Boolean(l[0] && /^https?:\/\//.test(l[0])))
 
   return (
     <div className="space-y-8">
       <PageHeading
-        title="About the CIRO Supervisor Exam"
+        title={`About the ${examMeta.exam}`}
         subtitle={`${examMeta.regulator} · proficiency model effective ${examMeta.effective_date}`}
       />
 
@@ -20,8 +29,8 @@ export default function About() {
         <h2 className="mb-4 font-display font-semibold">Format</h2>
         <dl className="grid gap-x-8 gap-y-3 sm:grid-cols-2">
           <Row label="Questions">
-            {f.questions_total} multiple-choice ({f.questions_standard} standalone +{' '}
-            {f.questions_item_set} item-set)
+            {f.questions_total} multiple-choice
+            {f.questions_item_set > 0 && ` (${f.questions_standard} standalone + ${f.questions_item_set} item-set)`}
           </Row>
           <Row label="Time">{f.duration_minutes} minutes ({f.duration_minutes / 60} hours)</Row>
           <Row label="Delivery">{f.delivery}</Row>
@@ -29,10 +38,16 @@ export default function About() {
           <Row label="Languages">{f.languages.map((l) => l.toUpperCase()).join(', ')}</Row>
           <Row label="Closed book">{f.closed_book ? 'Yes' : 'No'} · {f.scratch_paper}</Row>
         </dl>
-        <div className="mt-4 rounded-2xl bg-amber-50 p-3 text-xs text-amber-700 dark:bg-amber-500/10 dark:text-amber-300">
-          <Badge tone="amber">Not officially confirmed</Badge>{' '}
-          <span className="ml-1">Calculator policy: {f.calculator_policy}.</span>
-        </div>
+        {/^UNCONFIRMED/i.test(f.calculator_policy) ? (
+          <div className="mt-4 rounded-2xl bg-amber-50 p-3 text-xs text-amber-700 dark:bg-amber-500/10 dark:text-amber-300">
+            <Badge tone="amber">Not officially confirmed</Badge>{' '}
+            <span className="ml-1">Calculator policy: {f.calculator_policy}.</span>
+          </div>
+        ) : (
+          <dl className="mt-4">
+            <Row label="Calculator">{f.calculator_policy}</Row>
+          </dl>
+        )}
       </section>
 
       <section className="card p-6">
@@ -49,10 +64,15 @@ export default function About() {
         <div className="card p-6">
           <h2 className="mb-4 font-display font-semibold">Fees &amp; attempts</h2>
           <dl className="space-y-3">
-            <Row label="First attempt">${fees.first_attempt} CAD ({fees.taxes})</Row>
-            <Row label="Retake">${fees.retake} CAD</Row>
+            <Row label="First attempt">
+              {money(fees.first_attempt)}
+              {fees.first_attempt != null && ` (${fees.taxes})`}
+            </Row>
+            <Row label="Retake">{money(fees.retake)}</Row>
             <Row label="Attempts">
-              up to {a.max_per_enrolment_period} per {a.enrolment_period_months}-month enrolment
+              {a.max_per_enrolment_period == null
+                ? 'Not confirmed'
+                : `up to ${a.max_per_enrolment_period}${a.enrolment_period_months ? ` per ${a.enrolment_period_months}-month enrolment` : ''}`}
             </Row>
             <Row label="Cooling-off">{a.cooling_off}</Row>
             <Row label="No-show">{a.no_show}</Row>
@@ -65,8 +85,12 @@ export default function About() {
             <Row label="Sponsorship to write">
               {examMeta.eligibility.dealer_sponsorship_to_write ? 'Required' : 'Not required'}
             </Row>
-            <Row label="Experience for approval">{examMeta.approval_requirements_supervisor.experience}</Row>
-            <Row label="Exam validity">{examMeta.validity.exam_validity_years} years ({examMeta.validity.rule})</Row>
+            {approval?.experience && <Row label="Experience for approval">{approval.experience}</Row>}
+            {examMeta.validity.exam_validity_years != null && (
+              <Row label="Exam validity">
+                {examMeta.validity.exam_validity_years} years ({examMeta.validity.rule})
+              </Row>
+            )}
           </dl>
         </div>
       </section>
@@ -78,21 +102,11 @@ export default function About() {
           {examMeta.administration.delivery_vendor}.
         </p>
         <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-sm text-indigo-600 dark:text-indigo-300">
-          <a className="hover:underline" href={r.exam_page} target="_blank" rel="noreferrer">
-            Exam hub
-          </a>
-          <a className="hover:underline" href={examMeta.administration.enrolment_portal} target="_blank" rel="noreferrer">
-            Enrolment portal
-          </a>
-          <a className="hover:underline" href={r.syllabus_pdf} target="_blank" rel="noreferrer">
-            Syllabus (PDF)
-          </a>
-          <a className="hover:underline" href={r.study_guide_pdf} target="_blank" rel="noreferrer">
-            Study guide (PDF)
-          </a>
-          <a className="hover:underline" href={r.practice_exam_pdf} target="_blank" rel="noreferrer">
-            Official practice exam (PDF)
-          </a>
+          {links.map(([href, label]) => (
+            <a key={label} className="hover:underline" href={href} target="_blank" rel="noreferrer">
+              {label}
+            </a>
+          ))}
         </div>
       </section>
     </div>

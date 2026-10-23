@@ -1,0 +1,37 @@
+{
+  "site_title": "CIRO Exam Prep",
+  "default_exam": "supervisor",
+  "exams": [
+    {
+      "id": "supervisor",
+      "name": "CIRO Supervisor Exam",
+      "short": "Supervisor",
+      "storage_prefix": "ciro",
+      "root": ".",
+      "files": {
+        "syllabus": "study-material/syllabus.json",
+        "exam_meta": "study-material/exam-meta.json",
+        "bank": "question-bank/bank.json",
+        "bank_schema": "question-bank/schema.json",
+        "cards": "study-material/flashcards/cards.json",
+        "cards_schema": "study-material/flashcards/schema.json"
+      }
+    },
+    {
+      "id": "retail-securities",
+      "name": "CIRO Retail Securities Exam",
+      "short": "Retail Securities",
+      "storage_prefix": "rse",
+      "root": "exams/retail-securities",
+      "files": {
+        "syllabus": "study-material/syllabus.json",
+        "exam_meta": "study-material/exam-meta.json",
+        "study_guide": "study-material/study-guide",
+        "bank": "question-bank/bank.json",
+        "bank_schema": "question-bank/schema.json",
+        "cards": "study-material/flashcards/cards.json",
+        "cards_schema": "study-material/flashcards/schema.json"
+      }
+    }
+  ]
+}

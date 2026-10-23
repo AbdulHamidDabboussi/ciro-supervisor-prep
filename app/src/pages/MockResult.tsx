@@ -1,5 +1,5 @@
 import { useEffect, useMemo } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useExamNavigate as useNavigate } from '../components/ExamLink'
 import { useData } from '../data/DataContext'
 import { useMock } from '../store/mock'
 import { useProgress } from '../store/progress'

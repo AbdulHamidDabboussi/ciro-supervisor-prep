@@ -1,44 +1,57 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from '../components/ExamLink'
 import { useData } from '../data/DataContext'
+import type { ExamMeta, Manifest } from '../types'
 import { useProgress } from '../store/progress'
 import { useMock } from '../store/mock'
-import { Badge, Modal } from '../components/ui'
+import { Badge, Modal, ProgressBar } from '../components/ui'
 import { formatDate, formatClock } from '../lib/format'
 
-const MODES = [
-  {
-    to: '/drill',
-    title: 'Drill mode',
-    blurb: 'Practice by element and outcome with instant explanations and rule references.',
-    icon: '🎯',
-  },
-  {
-    to: '/mock',
-    title: 'Mock exam',
-    blurb: '90 questions, 180-minute timer, weighted exactly like the real form.',
-    icon: '⏱️',
-  },
-  {
-    to: '/flashcards',
-    title: 'Flashcards',
-    blurb: 'Crash-course decks — refresh an element fast before you drill it.',
-    icon: '🃏',
-  },
-  {
-    to: '/about',
-    title: 'About the exam',
-    blurb: 'Format, fees, attempts, and the official CIRO resources.',
-    icon: 'ℹ️',
-  },
-]
+function modes(manifest: Manifest, examMeta: ExamMeta) {
+  const f = examMeta.format
+  return [
+    manifest.study_guide && {
+      to: '/study',
+      title: 'Study guide',
+      blurb: 'Every learning outcome explained, with worked examples and the traps to avoid.',
+      icon: '📘',
+    },
+    manifest.questions > 0 && {
+      to: '/drill',
+      title: 'Drill mode',
+      blurb: 'Practice by element and outcome with instant explanations and rule references.',
+      icon: '🎯',
+    },
+    manifest.questions > 0 && {
+      to: '/mock',
+      title: 'Mock exam',
+      blurb: `${f.questions_total} questions, ${f.duration_minutes}-minute timer, weighted like the real form.`,
+      icon: '⏱️',
+    },
+    manifest.cards > 0 && {
+      to: '/flashcards',
+      title: 'Flashcards',
+      blurb: 'Crash-course decks — refresh an element fast before you drill it.',
+      icon: '🃏',
+    },
+    {
+      to: '/about',
+      title: 'About the exam',
+      blurb: 'Format, fees, attempts, and the official CIRO resources.',
+      icon: 'ℹ️',
+    },
+  ].filter((m): m is { to: string; title: string; blurb: string; icon: string } => Boolean(m))
+}
 
 export default function Home() {
-  const { manifest, examMeta } = useData()
+  const { manifest, examMeta, syllabus } = useData()
+  const elementCount = syllabus.elements.length
   const drill = useProgress((s) => s.drill)
   const cardStatus = useProgress((s) => s.cards)
   const mockHistory = useProgress((s) => s.mockHistory)
   const resetAll = useProgress((s) => s.resetAll)
+  const guidePosition = useProgress((s) => s.guidePosition)
+  const guideRead = useProgress((s) => s.guideRead)
 
   const mockStatus = useMock((s) => s.status)
   const mockAnswered = useMock((s) => Object.keys(s.answers).length)
@@ -54,7 +67,23 @@ export default function Home() {
   const attempted = Object.keys(drill).length
   const cardsReviewed = Object.keys(cardStatus).length
   const lastMock = mockHistory[0]
-  const hasProgress = attempted > 0 || mockHistory.length > 0 || cardsReviewed > 0
+  const totalOutcomes = syllabus.elements.reduce((n, el) => n + el.outcomes.length, 0)
+  const outcomesRead = syllabus.elements.reduce(
+    (n, el) => n + el.outcomes.filter((o) => guideRead[o.id]).length,
+    0,
+  )
+  const hasProgress = attempted > 0 || mockHistory.length > 0 || cardsReviewed > 0 || outcomesRead > 0
+  const stats = [
+    manifest.study_guide && { label: 'Study guide', value: `${outcomesRead}`, sub: `of ${totalOutcomes} outcomes read` },
+    manifest.questions > 0 && { label: 'Questions attempted', value: `${attempted}`, sub: `of ${manifest.questions}` },
+    manifest.cards > 0 && { label: 'Flashcards reviewed', value: `${cardsReviewed}`, sub: `of ${manifest.cards}` },
+    manifest.questions > 0 && {
+      label: 'Last mock score',
+      value: lastMock ? `${lastMock.overallPct}%` : '—',
+      sub: lastMock ? formatDate(lastMock.finishedAt) : 'no attempts yet',
+    },
+    manifest.questions > 0 && { label: 'Mock exams taken', value: `${mockHistory.length}`, sub: 'saved on this device' },
+  ].filter((x): x is { label: string; value: string; sub: string } => Boolean(x))
   const [confirmReset, setConfirmReset] = useState(false)
 
   return (
@@ -74,6 +103,31 @@ export default function Home() {
         </section>
       )}
 
+      {manifest.study_guide && guidePosition && (
+        <section className="card flex flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between">
+          <div className="min-w-0 flex-1">
+            <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Continue where you left off</p>
+            <p className="mt-1 font-display font-semibold sm:truncate">
+              {guidePosition.outcome} {guidePosition.title}
+            </p>
+            <div className="mt-2 flex items-center gap-3">
+              <div className="flex-1 sm:max-w-xs">
+                <ProgressBar value={outcomesRead} max={totalOutcomes} />
+              </div>
+              <span className="shrink-0 text-xs text-slate-500 dark:text-slate-400">
+                {outcomesRead}/{totalOutcomes} outcomes read
+              </span>
+            </div>
+          </div>
+          <Link
+            to={`/study?element=${guidePosition.element}&outcome=${guidePosition.outcome}`}
+            className="btn-primary w-full sm:w-auto"
+          >
+            Continue reading →
+          </Link>
+        </section>
+      )}
+
       {/* Hero — the aurora glow comes from the global backdrop in App.tsx */}
       <section className="relative">
         <div className="relative mx-auto max-w-3xl py-16 text-center sm:py-20">
@@ -81,23 +135,35 @@ export default function Home() {
             <span className="h-1.5 w-1.5 rounded-full bg-indigo-500" /> {examMeta.exam}
           </span>
           <h1 className="mx-auto max-w-2xl text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl">
-            Pass the CIRO Supervisor Exam{' '}
+            Pass the {examMeta.exam}{' '}
             <span className="bg-gradient-to-r from-indigo-500 via-violet-500 to-fuchsia-500 bg-clip-text text-transparent">
-              with practice that explains every answer
+              {manifest.questions > 0 ? 'with practice that explains every answer' : 'with a study guide built on the syllabus'}
             </span>
             .
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-lg text-slate-500 dark:text-slate-400">
-            {manifest.questions} original practice questions and {manifest.cards} flashcards, mapped to
-            all 9 syllabus elements. Free, no account needed — your progress stays on this device.
+            {manifest.questions > 0
+              ? `${manifest.questions.toLocaleString()} original practice questions${manifest.cards > 0 ? ` and ${manifest.cards} flashcards` : ''}, mapped to all ${elementCount} syllabus elements.`
+              : `A study guide covering all ${elementCount} syllabus elements, outcome by outcome. Practice questions are in production.`}{' '}
+            Free, no account needed — your progress stays on this device.
           </p>
           <div className="mt-8 flex flex-wrap justify-center gap-3">
-            <Link to="/drill" className="btn-primary">
-              Start drilling →
-            </Link>
-            <Link to="/mock" className="btn-secondary">
-              Take a mock exam
-            </Link>
+            {manifest.questions > 0 ? (
+              <>
+                <Link to="/drill" className="btn-primary">
+                  Start drilling →
+                </Link>
+                <Link to="/mock" className="btn-secondary">
+                  Take a mock exam
+                </Link>
+              </>
+            ) : (
+              manifest.study_guide && (
+                <Link to="/study" className="btn-primary">
+                  Open the study guide →
+                </Link>
+              )
+            )}
           </div>
         </div>
       </section>
@@ -105,19 +171,18 @@ export default function Home() {
       {hasProgress && (
         <section>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            <Stat label="Questions attempted" value={`${attempted}`} sub={`of ${manifest.questions}`} />
-            <Stat label="Flashcards reviewed" value={`${cardsReviewed}`} sub={`of ${manifest.cards}`} />
-            <Stat
-              label="Last mock score"
-              value={lastMock ? `${lastMock.overallPct}%` : '—'}
-              sub={lastMock ? formatDate(lastMock.finishedAt) : 'no attempts yet'}
-            />
-            <Stat label="Mock exams taken" value={`${mockHistory.length}`} sub="saved on this device" />
+            {stats.map((st) => (
+              <Stat key={st.label} {...st} />
+            ))}
           </div>
           <div className="mt-4 flex items-center justify-between border-t border-white/60 pt-3 dark:border-white/5">
-            <Link to="/progress" className="text-xs font-medium text-indigo-600 hover:underline dark:text-indigo-300">
-              View detailed progress →
-            </Link>
+            {manifest.questions > 0 || manifest.cards > 0 ? (
+              <Link to="/progress" className="text-xs font-medium text-indigo-600 hover:underline dark:text-indigo-300">
+                View detailed progress →
+              </Link>
+            ) : (
+              <span />
+            )}
             <button
               onClick={() => setConfirmReset(true)}
               className="text-xs font-medium text-slate-500 transition hover:text-red-600 dark:text-slate-400 dark:hover:text-red-400"
@@ -130,7 +195,7 @@ export default function Home() {
 
       <section>
         <div className="grid gap-4 sm:grid-cols-2">
-          {MODES.map((m) => (
+          {modes(manifest, examMeta).map((m) => (
             <Link
               key={m.to}
               to={m.to}
@@ -164,8 +229,8 @@ export default function Home() {
         <Modal onClose={() => setConfirmReset(false)}>
           <p className="font-display text-lg font-semibold">Reset all progress?</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            This clears your drill history, flashcard marks, and saved mock scores on this device. It
-            can’t be undone.
+            This clears your drill history, flashcard marks, saved mock scores, and study-guide reading
+            progress for this exam on this device. It can’t be undone.
           </p>
           <div className="mt-5 flex justify-center gap-3">
             <button className="btn-secondary" onClick={() => setConfirmReset(false)}>

@@ -1,55 +1,83 @@
-// Copies the FOUR ingest artifacts from the repo's source-of-truth data folders
-// into app/public/data/ so Vite can serve them. This is the ONLY data the site ships.
+// Copies each exam's ingest artifacts (per ../../exams.json) into app/public/data/<exam-id>/
+// so Vite can serve them. This is the ONLY data the site ships.
 //
 // Invariants (see ../../CLAUDE.md):
-//   - Only these four files are copied. NEVER copy question-bank/batches/ or
-//     flashcards/batches/ — those hold draft and killed provenance.
+//   - Only the declared ingest artifacts are copied. NEVER copy batches/ folders — those
+//     hold draft and killed provenance. Study guides ship only their E<n>.md files,
+//     compiled into one study-guide.json (provenance sidecars stay behind).
 //   - bank.json / cards.json are generated, QA'd artifacts: copied verbatim, read-only.
 //
 // Run automatically by `npm run dev` and `npm run build`.
 
-import { mkdirSync, copyFileSync, existsSync, statSync, readFileSync, writeFileSync } from 'node:fs'
+import { mkdirSync, copyFileSync, statSync, readFileSync, writeFileSync, rmSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
+import { loadRegistry, examPath, has, isShippable, studyGuideFiles, readJson } from './exams.mjs'
 
-const repoRoot = new URL('../../', import.meta.url)
-const outDir = new URL('../public/data/', import.meta.url)
+const outRoot = fileURLToPath(new URL('../public/data/', import.meta.url))
+rmSync(outRoot, { recursive: true, force: true })
+mkdirSync(outRoot, { recursive: true })
 
-const FILES = [
-  ['question-bank/bank.json', 'bank.json'],
-  ['study-material/flashcards/cards.json', 'cards.json'],
-  ['study-material/syllabus.json', 'syllabus.json'],
-  ['study-material/exam-meta.json', 'exam-meta.json'],
-]
+const registry = loadRegistry()
+const shipped = []
 
-mkdirSync(fileURLToPath(outDir), { recursive: true })
-
-let copied = 0
-for (const [src, dest] of FILES) {
-  const from = new URL(src, repoRoot)
-  const to = new URL(dest, outDir)
-  const fromPath = fileURLToPath(from)
-  if (!existsSync(fromPath)) {
-    console.error(`✗ missing source data file: ${src}`)
-    process.exit(1)
+for (const exam of registry.exams) {
+  if (!isShippable(exam)) {
+    console.warn(`⚠ ${exam.id}: syllabus.json / exam-meta.json not found — exam not shipped yet`)
+    continue
   }
-  copyFileSync(fromPath, fileURLToPath(to))
-  const kb = (statSync(fileURLToPath(to)).size / 1024).toFixed(0)
-  console.log(`✓ ${src} → public/data/${dest} (${kb} KB)`)
-  copied++
+  const outDir = `${outRoot}${exam.id}/`
+  mkdirSync(outDir, { recursive: true })
+
+  const copy = (key, dest) => {
+    if (!has(exam, key)) return false
+    copyFileSync(examPath(exam, key), outDir + dest)
+    const kb = (statSync(outDir + dest).size / 1024).toFixed(0)
+    console.log(`✓ ${exam.id}: ${exam.files[key]} → public/data/${exam.id}/${dest} (${kb} KB)`)
+    return true
+  }
+
+  copy('syllabus', 'syllabus.json')
+  copy('exam_meta', 'exam-meta.json')
+  const hasBank = copy('bank', 'bank.json')
+  const hasCards = copy('cards', 'cards.json')
+
+  const guide = studyGuideFiles(exam)
+  if (guide.length) {
+    const metaPath = `${examPath(exam, 'study_guide')}/meta.json`
+    let meta = {}
+    try {
+      meta = readJson(metaPath)
+    } catch {}
+    const elements = guide.map((g) => ({ id: g.element, markdown: readFileSync(g.path, 'utf8') }))
+    writeFileSync(outDir + 'study-guide.json', JSON.stringify({ meta, elements }))
+    console.log(`✓ ${exam.id}: study guide (${guide.length} element files) → public/data/${exam.id}/study-guide.json`)
+  }
+
+  // Tiny per-exam manifest so Home renders counts without fetching the heavy bank.
+  const bank = hasBank ? readJson(examPath(exam, 'bank')) : null
+  const cards = hasCards ? readJson(examPath(exam, 'cards')) : null
+  const manifest = {
+    questions: bank ? (bank.meta?.count ?? bank.questions.length) : 0,
+    cards: cards ? (cards.meta?.count ?? cards.cards.length) : 0,
+    study_guide: guide.length > 0,
+    updated: bank?.meta?.updated ?? null,
+    completion: bank?.meta?.completion ?? null,
+  }
+  writeFileSync(outDir + 'manifest.json', JSON.stringify(manifest, null, 2))
+  console.log(`✓ ${exam.id}: manifest (${manifest.questions} questions, ${manifest.cards} cards, study guide: ${manifest.study_guide})`)
+
+  shipped.push({
+    id: exam.id,
+    name: exam.name,
+    short: exam.short,
+    storage_prefix: exam.storage_prefix,
+    ...manifest,
+  })
 }
 
-console.log(`Copied ${copied} data files into public/data/.`)
-
-// Emit a tiny manifest so the app can render Home (counts) without fetching the 2.3 MB
-// bank up front — the bank + cards are then loaded lazily in the background.
-const readJson = (rel) => JSON.parse(readFileSync(fileURLToPath(new URL(rel, repoRoot)), 'utf8'))
-const bank = readJson('question-bank/bank.json')
-const cards = readJson('study-material/flashcards/cards.json')
-const manifest = {
-  questions: bank.meta?.count ?? bank.questions.length,
-  cards: cards.meta?.count ?? cards.cards.length,
-  updated: bank.meta?.updated ?? null,
-  completion: bank.meta?.completion ?? null,
-}
-writeFileSync(fileURLToPath(new URL('manifest.json', outDir)), JSON.stringify(manifest, null, 2))
-console.log(`Wrote manifest.json (${manifest.questions} questions, ${manifest.cards} cards).`)
+const defaultExam = shipped.some((e) => e.id === registry.default_exam) ? registry.default_exam : shipped[0]?.id
+writeFileSync(
+  `${outRoot}exams.json`,
+  JSON.stringify({ site_title: registry.site_title, default_exam: defaultExam, exams: shipped }, null, 2),
+)
+console.log(`Wrote exams.json (${shipped.length} exam(s): ${shipped.map((e) => e.id).join(', ')}).`)

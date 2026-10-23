@@ -32,19 +32,25 @@ interface MockState {
   remainingAt: (now: number) => number
 }
 
+// Initial (idle) data — also the base for hydration, so switching to an exam with no
+// saved mock starts idle (see examScope.ts).
+const IDLE_MOCK = {
+  questions: [],
+  answers: {},
+  flags: {},
+  index: 0,
+  status: 'idle' as MockStatus,
+  durationMs: 0,
+  endsAt: null,
+  remainingMs: 0,
+  startedAt: null,
+  autoSubmitted: false,
+}
+
 export const useMock = create<MockState>()(
   persist(
     (set, get) => ({
-      questions: [],
-      answers: {},
-      flags: {},
-      index: 0,
-      status: 'idle',
-      durationMs: 0,
-      endsAt: null,
-      remainingMs: 0,
-      startedAt: null,
-      autoSubmitted: false,
+      ...IDLE_MOCK,
 
       start: (questions, durationMs) => {
         const now = Date.now()
@@ -97,19 +103,7 @@ export const useMock = create<MockState>()(
           autoSubmitted: auto,
         })),
 
-      reset: () =>
-        set({
-          questions: [],
-          answers: {},
-          flags: {},
-          index: 0,
-          status: 'idle',
-          durationMs: 0,
-          endsAt: null,
-          remainingMs: 0,
-          startedAt: null,
-          autoSubmitted: false,
-        }),
+      reset: () => set(IDLE_MOCK),
 
       remainingAt: (now) => {
         const s = get()
@@ -117,6 +111,10 @@ export const useMock = create<MockState>()(
         return s.remainingMs
       },
     }),
-    { name: 'ciro-mock' },
+    {
+      // Per-exam key; re-pointed on exam switch by examScope.ts ("ciro" = Supervisor exam).
+      name: 'ciro-mock',
+      merge: (persisted, current) => ({ ...current, ...IDLE_MOCK, ...(persisted as Partial<MockState>) }),
+    },
   ),
 )

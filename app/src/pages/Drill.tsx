@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useSearchParams } from 'react-router-dom'
+import { useSearchParams } from 'react-router-dom'
+import { Link } from '../components/ExamLink'
 import { useData, QuestionsStatus } from '../data/DataContext'
 import { useProgress } from '../store/progress'
 import type { Focus } from '../store/progress'

@@ -46,3 +46,95 @@
     @apply pointer-events-none absolute -top-40 left-1/2 h-[34rem] w-[60rem] -translate-x-1/2 rounded-full bg-gradient-to-br from-indigo-400/30 via-violet-400/20 to-fuchsia-400/30 blur-3xl dark:from-indigo-600/20 dark:via-violet-600/15 dark:to-fuchsia-600/20;
   }
 }
+
+/* Study-guide Markdown (pages/StudyGuide.tsx). Callouts are blockquotes that start with a
+   bold label, e.g. "> **Exam trap:** …" or "> **Worked example**". */
+@layer components {
+  .guide-prose {
+    @apply space-y-3 text-[0.95rem] leading-relaxed text-slate-700 dark:text-slate-300;
+  }
+  .guide-prose h3 {
+    @apply pt-2 font-display text-base font-semibold text-slate-900 dark:text-slate-100;
+  }
+  .guide-prose h4 {
+    @apply pt-1 text-sm font-semibold text-slate-900 dark:text-slate-100;
+  }
+  .guide-prose ul {
+    @apply list-disc space-y-1 pl-5;
+  }
+  .guide-prose ol {
+    @apply list-decimal space-y-1 pl-5;
+  }
+  .guide-prose li > ul,
+  .guide-prose li > ol {
+    @apply mt-1;
+  }
+  .guide-prose strong {
+    @apply font-semibold text-slate-900 dark:text-slate-100;
+  }
+  .guide-prose a {
+    @apply text-indigo-600 hover:underline dark:text-indigo-300;
+  }
+  .guide-prose code {
+    @apply rounded-md bg-slate-100 px-1.5 py-0.5 font-mono text-[0.85em] text-slate-800 dark:bg-white/10 dark:text-slate-100;
+  }
+  .guide-prose pre {
+    @apply overflow-x-auto rounded-xl bg-slate-900 p-4 text-sm leading-relaxed text-slate-100 dark:bg-black/40;
+  }
+  .guide-prose pre code {
+    @apply bg-transparent p-0 text-inherit;
+  }
+  .guide-prose blockquote {
+    @apply space-y-2 rounded-2xl border border-amber-200/70 bg-amber-50/70 p-4 text-sm dark:border-amber-500/20 dark:bg-amber-500/10;
+  }
+  .guide-prose table {
+    @apply block w-full overflow-x-auto text-sm;
+  }
+  .guide-prose th {
+    @apply border-b border-slate-200 px-3 py-2 text-left font-semibold text-slate-900 dark:border-white/10 dark:text-slate-100;
+  }
+  .guide-prose td {
+    @apply border-b border-slate-100 px-3 py-2 align-top dark:border-white/5;
+  }
+  .guide-prose hr {
+    @apply border-slate-200 dark:border-white/10;
+  }
+}
+
+/* Study guide on phones: formula blocks wrap instead of scrolling sideways, and tables get
+   tighter cells plus edge shadows that show there is more to scroll. The shadow "covers"
+   travel with the content (background-attachment: local) and hide the shadow at each end. */
+.guide-prose table {
+  --sg-cover: rgb(255 255 255);
+  --sg-shadow: rgb(15 23 42 / 0.25);
+  background:
+    linear-gradient(to right, var(--sg-cover) 30%, rgb(255 255 255 / 0)) left center / 32px 100% no-repeat local,
+    linear-gradient(to left, var(--sg-cover) 30%, rgb(255 255 255 / 0)) right center / 32px 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, var(--sg-shadow), transparent) left center / 16px 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, var(--sg-shadow), transparent) right center / 16px 100% no-repeat scroll;
+}
+.dark .guide-prose table {
+  --sg-cover: rgb(20 26 42);
+  --sg-shadow: rgb(0 0 0 / 0.5);
+  background:
+    linear-gradient(to right, var(--sg-cover) 30%, rgb(20 26 42 / 0)) left center / 32px 100% no-repeat local,
+    linear-gradient(to left, var(--sg-cover) 30%, rgb(20 26 42 / 0)) right center / 32px 100% no-repeat local,
+    radial-gradient(farthest-side at 0 50%, var(--sg-shadow), transparent) left center / 16px 100% no-repeat scroll,
+    radial-gradient(farthest-side at 100% 50%, var(--sg-shadow), transparent) right center / 16px 100% no-repeat scroll;
+}
+@media (max-width: 639px) {
+  .guide-prose pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+    font-size: 0.78rem;
+    padding: 0.75rem 0.875rem;
+  }
+  .guide-prose table {
+    font-size: 0.8rem;
+  }
+  .guide-prose th,
+  .guide-prose td {
+    padding: 0.4rem 0.5rem;
+    min-width: 6.5rem;
+  }
+}
