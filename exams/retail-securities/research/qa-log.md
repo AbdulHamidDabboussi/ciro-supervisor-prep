@@ -63,7 +63,7 @@
 
 **Final state:**
 - **Words:** 76,565.
-- **Coverage:** 365 Consider bullets, each in its own subsection; 131 scenarios; every Apply/Analyze outcome has at least one.
+- **Coverage:** 395 Consider bullets, each in its own subsection; 131 scenarios; every Apply/Analyze outcome has at least one.
 - **Quotes:** 2,163 of 2,163 verify against the sources.
 - **STE lint:** 0 gate violations.
 - **Structure:** `npm run validate` passes.
