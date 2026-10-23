@@ -52,6 +52,7 @@ export default function Home() {
   const resetAll = useProgress((s) => s.resetAll)
   const guidePosition = useProgress((s) => s.guidePosition)
   const guideRead = useProgress((s) => s.guideRead)
+  const guideFlags = useProgress((s) => s.guideFlags)
 
   const mockStatus = useMock((s) => s.status)
   const mockAnswered = useMock((s) => Object.keys(s.answers).length)
@@ -70,6 +71,10 @@ export default function Home() {
   const totalOutcomes = syllabus.elements.reduce((n, el) => n + el.outcomes.length, 0)
   const outcomesRead = syllabus.elements.reduce(
     (n, el) => n + el.outcomes.filter((o) => guideRead[o.id]).length,
+    0,
+  )
+  const flaggedCount = syllabus.elements.reduce(
+    (n, el) => n + el.outcomes.filter((o) => guideFlags[o.id]).length,
     0,
   )
   const hasProgress = attempted > 0 || mockHistory.length > 0 || cardsReviewed > 0 || outcomesRead > 0
@@ -118,6 +123,14 @@ export default function Home() {
                 {outcomesRead}/{totalOutcomes} outcomes read
               </span>
             </div>
+            {flaggedCount > 0 && (
+              <Link
+                to="/study"
+                className="mt-2 inline-flex text-xs font-medium text-amber-700 hover:underline dark:text-amber-300"
+              >
+                ⚑ {flaggedCount} outcome{flaggedCount === 1 ? '' : 's'} flagged to review →
+              </Link>
+            )}
           </div>
           <Link
             to={`/study?element=${guidePosition.element}&outcome=${guidePosition.outcome}`}
@@ -230,7 +243,7 @@ export default function Home() {
           <p className="font-display text-lg font-semibold">Reset all progress?</p>
           <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
             This clears your drill history, flashcard marks, saved mock scores, and study-guide reading
-            progress for this exam on this device. It can’t be undone.
+            progress and review flags for this exam on this device. It can’t be undone.
           </p>
           <div className="mt-5 flex justify-center gap-3">
             <button className="btn-secondary" onClick={() => setConfirmReset(false)}>
