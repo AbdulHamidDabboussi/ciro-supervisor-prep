@@ -1,0 +1,895 @@
+{
+  "meta": {
+    "batch": "E3-003b",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E3-0073",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Settlement for most equity trades is T+1. Which statement correctly describes a share's ex-dividend date?",
+      "options": {
+        "A": "It is the first day the share trades without the dividend, normally the record date",
+        "B": "It is the day the board declares the dividend and sets the record date",
+        "C": "It is the day the company pays the dividend to the holders of record",
+        "D": "It is one business day after the record date, when settlement ends"
+      },
+      "answer": "A",
+      "rationale": "The ex-dividend date is the first day the share trades without the dividend. With T+1 settlement, a trade on the record date settles too late. So the ex-dividend date is normally the record date itself.",
+      "rule_refs": [
+        "24-101CP s. 5.1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Current SRO and marketplace rules mandate a standard T+1 settlement cycle period for most transactions in equity and long term debt securities.\" — research/sources/csa/cp-24-101-institutional-trade-matching-and-settlement-companion-policy.txt 24-101CP s.5.1, ~L461"
+    },
+    {
+      "id": "RSE-E3-0074",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Kestrel Bay Telecom Inc. shares close at $40.00. They go ex-dividend the next day for a $0.50 dividend. Other things equal, what usually happens to the price that day?",
+      "options": {
+        "A": "It decreases by about $0.50",
+        "B": "It increases by about $0.50, because buyers now get the dividend",
+        "C": "It does not change until the dividend payment date",
+        "D": "It decreases by about $0.50 only for holders in a DRIP"
+      },
+      "answer": "A",
+      "rationale": "From the ex-dividend date, a buyer no longer gets the dividend. So the price usually decreases by about the dividend amount on that day. The change does not wait for the payment date, and it applies to all holders.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.6 (claimed: price decreases by about the dividend on the ex-dividend date)"
+    },
+    {
+      "id": "RSE-E3-0075",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Rufus Achebe holds common shares of Alderbrook Cement Ltd. The company had a very profitable year. When does Rufus have a right to a dividend?",
+      "options": {
+        "A": "Automatically, once the company reports a profit for the year",
+        "B": "Only after the shareholders vote for a dividend at the annual meeting",
+        "C": "Only after the board of directors declares a dividend",
+        "D": "Automatically each quarter, at a rate that the articles set"
+      },
+      "answer": "C",
+      "rationale": "A shareholder has a right to a dividend only if the board declares one. Profit alone does not create the right. The board, not the shareholders, declares dividends and sets the record and payment dates.",
+      "rule_refs": [
+        "Corporations Canada, Share structure and shareholders"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"the right to receive dividends (if the board of directors has declared any)\" — research/sources/gov/business-structures-corporations-cooperatives-ised.txt ISED Share structure, ~L163"
+    },
+    {
+      "id": "RSE-E3-0076",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Solveig Marangoni gets a taxable dividend from a Canadian corporation in her non-registered account. The payer does not designate it as an eligible dividend. Which federal treatment applies?",
+      "options": {
+        "A": "She includes 138% of the dividend in income and claims a credit of 6/11 of the gross-up",
+        "B": "She includes 115% of the dividend in income and claims a credit of 6/11 of the gross-up",
+        "C": "She includes 100% of the dividend in income and claims no dividend tax credit",
+        "D": "She includes 115% of the dividend in income and claims a credit of 9/13 of the gross-up"
+      },
+      "answer": "D",
+      "rationale": "A dividend that is not eligible has a 15% gross-up, so 115% goes into income. The federal credit is 9/13 of the gross-up. The 138% and 6/11 figures apply only to eligible dividends.",
+      "rule_refs": [
+        "ITA s. 82(1)",
+        "ITA s. 121"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Multiply the actual amount received by 115% and include the result on line 12000 and line 12010\" — research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt CRA Lines 12000/12010, ~L236"
+    },
+    {
+      "id": "RSE-E3-0077",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client asks what makes a dividend from a Canadian corporation an eligible dividend. Which answer is correct?",
+      "options": {
+        "A": "The shareholder chooses eligible status on the tax return",
+        "B": "The paying corporation designates the dividend as eligible",
+        "C": "Any dividend on shares listed on a Canadian exchange is eligible",
+        "D": "CRA designates the dividend after the payer files its tax return"
+      },
+      "answer": "B",
+      "rationale": "An eligible dividend is a taxable dividend that the paying Canadian corporation designates as eligible. The shareholder does not choose the status, and CRA does not assign it. An exchange listing alone does not make a dividend eligible.",
+      "rule_refs": [
+        "CRA, Eligible dividends"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"An eligible dividend is any taxable dividend paid to a resident of Canada by a Canadian corporation that is designated by that corporation to be an eligible dividend.\" — research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt CRA Eligible dividends, ~L524"
+    },
+    {
+      "id": "RSE-E3-0078",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Benedikt Oyelaran receives $500 of dividends from a U.S. corporation in his non-registered account. How does the dividend gross-up apply to these dividends?",
+      "options": {
+        "A": "No gross-up applies, because it covers only dividends from corporations resident in Canada",
+        "B": "A 38% gross-up applies, because the U.S. corporation is a large public company",
+        "C": "A 15% gross-up applies, because the U.S. corporation cannot designate them as eligible",
+        "D": "A gross-up applies only if he holds the U.S. shares for more than one year"
+      },
+      "answer": "A",
+      "rationale": "The ITA gross-up applies to taxable dividends from corporations resident in Canada. A U.S. corporation is not resident in Canada, so no gross-up applies. Foreign dividends also do not qualify for the dividend tax credit.",
+      "rule_refs": [
+        "ITA s. 82(1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"received by the taxpayer in the taxation year from corporations resident in Canada as, on account of, in lieu of payment of or in satisfaction of, taxable dividends,\" — research/sources/gov/ita-dividends-gross-up-dtc.txt ITA s.82(1)(a)(i), ~L5"
+    },
+    {
+      "id": "RSE-E3-0079",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Cosimo Taveira holds 2,000 shares of Talus Peak Mining Inc. at $0.50 each. The company does a 1-for-4 consolidation. Which statement describes his position right after it?",
+      "options": {
+        "A": "He holds 500 shares at about $2.00, and his total value stays about $1,000",
+        "B": "He holds 8,000 shares at about $0.125, and his total value stays about $1,000",
+        "C": "He holds 500 shares at about $0.50, and his total value falls to about $250",
+        "D": "He holds 500 shares at about $2.00, and he has a taxable disposition"
+      },
+      "answer": "A",
+      "rationale": "A 1-for-4 consolidation divides the share count by 4 and multiplies the price by 4. So 2,000 shares at $0.50 become 500 shares at $2.00. Total value and proportionate equity do not change, and the event is not taxable.",
+      "rule_refs": [
+        "CRA T4037"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The total market value of each investor's holdings and their proportionate equity in the company are also not affected.\" — research/sources/cra/guide-t4037-capital-gains-2025.txt T4037 Stock splits and consolidations, ~L1777-1780"
+    },
+    {
+      "id": "RSE-E3-0080",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Esme Kowalczyk bought 500 shares for a total cost of $10,000. The company later does a 2-for-1 split. How does the split affect her adjusted cost base (ACB)?",
+      "options": {
+        "A": "Her total ACB doubles to $20,000, and her ACB per share stays $20",
+        "B": "She reports a capital gain, and her new ACB becomes the market value",
+        "C": "Her total ACB stays $10,000, and her ACB per share becomes $10",
+        "D": "Her total ACB stays $10,000, and her ACB per share stays $20"
+      },
+      "answer": "C",
+      "rationale": "A split is not a disposition, so no gain arises. But she must recalculate her ACB per share. Her total cost of $10,000 now covers 1,000 shares, so her ACB per share is $10.",
+      "rule_refs": [
+        "CRA T4037"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"However, the adjusted cost base (ACB) of the shares must be recalculated to reflect each split or consolidation\" — research/sources/cra/guide-t4037-capital-gains-2025.txt T4037 Stock splits and consolidations, ~L1798-1800"
+    },
+    {
+      "id": "RSE-E3-0081",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Larkspur Pharma Corp. shares trade at $640. The board approves a 10-for-1 stock split. What is the usual purpose of this split?",
+      "options": {
+        "A": "To increase the total market value of each shareholder's holding",
+        "B": "To raise new capital for the company from its current shareholders",
+        "C": "To bring the share price into a more popular trading range",
+        "D": "To increase each shareholder's percentage ownership of the company"
+      },
+      "answer": "C",
+      "rationale": "A split divides the price and multiplies the share count in the same proportion. It brings a high price into a popular trading range. It does not change total value or percentage ownership, and it raises no capital.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.6 (impact of stock splits and consolidations)"
+    },
+    {
+      "id": "RSE-E3-0082",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Brindle Logistics Ltd. plans a normal-course issuer bid through the TSX Venture Exchange. When is the bid exempt from the formal bid rules in Part 2 of NI 62-104?",
+      "options": {
+        "A": "Only when the issuer first files a take-over bid circular with the regulators",
+        "B": "Only when the shareholders approve the bid by a special resolution",
+        "C": "Never, because the TSX Venture Exchange is not a designated exchange",
+        "D": "When it follows the bylaws, rules, regulations and policies of that exchange"
+      },
+      "answer": "D",
+      "rationale": "The TSX Venture Exchange is a designated exchange under s. 4.8(1). A normal-course issuer bid through a designated exchange is exempt from Part 2 if it follows that exchange's bylaws, rules, regulations and policies.",
+      "rule_refs": [
+        "NI 62-104 s. 4.8"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"An issuer bid that is made in the normal course through the facilities of a designated exchange is exempt from Part 2 if the bid is made in accordance with the bylaws, rules, regulations and policies of that exchange.\" — research/sources/csa/ni-62-104-take-over-bids-and-issuer-bids.txt NI 62-104 s.4.8(2), ~L1342"
+    },
+    {
+      "id": "RSE-E3-0083",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which transaction is an issuer bid under NI 62-104?",
+      "options": {
+        "A": "An investor offers to buy all the common shares of Quarry Hill Power Inc.",
+        "B": "Quarry Hill Power Inc. offers to buy back some of its own common shares",
+        "C": "Quarry Hill Power Inc. issues new common shares to the public",
+        "D": "A dealer buys Quarry Hill Power Inc. shares for its own inventory"
+      },
+      "answer": "B",
+      "rationale": "An issuer bid is an offer by an issuer to acquire or redeem its own securities. An investor's offer for all of a company's shares is a take-over bid. An issue of new shares is a distribution, not a bid.",
+      "rule_refs": [
+        "NI 62-104 s. 1.1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"\"issuer bid\" means an offer to acquire or redeem securities of an issuer made by the issuer to one or more persons\" — research/sources/csa/ni-62-104-take-over-bids-and-issuer-bids.txt NI 62-104 s.1.1 'issuer bid', ~L190"
+    },
+    {
+      "id": "RSE-E3-0084",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Norrland Shipping Inc. buys back 10% of its shares. It pays a price well above what the shares are worth. Which group does this high price most likely harm?",
+      "options": {
+        "A": "The shareholders who keep their shares",
+        "B": "The shareholders who sell their shares to the company",
+        "C": "The company's bondholders, whose interest rate falls",
+        "D": "No group, because a buyback always increases EPS"
+      },
+      "answer": "A",
+      "rationale": "A buyback at a high price pays the selling shareholders more than the shares are worth. The company pays that extra value, so the shareholders who stay lose value. EPS may rise, but that does not prevent the loss.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 3.6 (share buyback: a buyback at a high price can reduce value for the shareholders who stay)"
+    },
+    {
+      "id": "RSE-E3-0085",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Coppervale Foods Inc. has non-cumulative preferred shares. The board skips two quarterly preferred dividends in a weak year. What happens to the two skipped dividends?",
+      "options": {
+        "A": "They accumulate as arrears that must be paid before any common dividend",
+        "B": "They become a debt, and the holders can sue the company for payment",
+        "C": "They are added to the stated amount that holders get on dissolution",
+        "D": "They are lost, and the holders have no later claim to them"
+      },
+      "answer": "D",
+      "rationale": "On a non-cumulative preferred, a skipped dividend is lost for good. Arrears accumulate only on cumulative shares. A missed preferred dividend is never a debt or a default.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.7 (dividend rights: non-cumulative)"
+    },
+    {
+      "id": "RSE-E3-0086",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which preferred share feature lets the holder receive extra dividends beyond the fixed rate, alongside the common shareholders?",
+      "options": {
+        "A": "Convertible",
+        "B": "Cumulative",
+        "C": "Retractable",
+        "D": "Participating"
+      },
+      "answer": "D",
+      "rationale": "A participating preferred pays extra dividends beyond its fixed rate, alongside the common shares. A cumulative feature only keeps missed dividends as arrears. Convertible and retractable features do not change the dividend.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.7 (dividend rights: participating)"
+    },
+    {
+      "id": "RSE-E3-0087",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Fergus Nakamura buys a fixed-reset preferred share. How is its dividend rate usually set after the first fixed period?",
+      "options": {
+        "A": "It changes every quarter with a reference interest rate, such as a Treasury bill rate",
+        "B": "It resets periodically, often every five years, to a Government of Canada yield plus a fixed spread",
+        "C": "It stays at the first fixed rate for as long as the shares are outstanding",
+        "D": "It resets each year to the issuer's latest growth rate in earnings per share"
+      },
+      "answer": "B",
+      "rationale": "A fixed-reset preferred resets its rate periodically, commonly every five years. The new rate is a Government of Canada yield plus a fixed spread. A rate that changes every quarter describes a floating-rate preferred.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.7 (dividend rights: fixed-reset vs floating)"
+    },
+    {
+      "id": "RSE-E3-0088",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Lucia Strand's preferred shares get a vote after eight missed quarterly dividends. The issuer missed eight, and the class elected two directors. The issuer now pays all the arrears. What usually happens next?",
+      "options": {
+        "A": "The class keeps the vote permanently, because it was triggered once",
+        "B": "The class gets full common share voting rights in place of that vote",
+        "C": "The class must vote again to approve the payment of the arrears",
+        "D": "The class usually loses the vote that the missed dividends triggered"
+      },
+      "answer": "D",
+      "rationale": "A vote that missed dividends trigger usually ends when the issuer pays the arrears. This is an issue term, so check each issue. The triggered vote does not become permanent or change into common voting rights.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.7 (voting rights: vote usually ends when the issuer pays the arrears)"
+    },
+    {
+      "id": "RSE-E3-0089",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Hamish Okonkwo holds non-voting preferred shares of a CBCA corporation. The issue terms give no vote. The corporation proposes a fundamental change. Which statement about his vote is correct?",
+      "options": {
+        "A": "He can never vote, because the issue terms give him no vote",
+        "B": "He can vote only after the issuer misses eight dividends",
+        "C": "The CBCA can still give him a vote on certain fundamental issues",
+        "D": "He gets a vote on every matter at each annual meeting"
+      },
+      "answer": "C",
+      "rationale": "The CBCA gives holders of non-voting shares a right to vote on certain fundamental issues. This statutory right is separate from any vote in the issue terms. A missed-dividend trigger is an issue term, not this statutory right.",
+      "rule_refs": [
+        "CBCA (Corporations Canada, Shareholders' meetings)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"The Canada Business Corporations Act (CBCA) gives holders of non-voting shares the right to attend certain meetings and vote on certain fundamental issues.\" — research/sources/gov/business-structures-corporations-cooperatives-ised.txt ISED Shareholders' meetings, ~L258"
+    },
+    {
+      "id": "RSE-E3-0090",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Marek Abernathy holds cumulative preferred shares with a $25 stated amount. The issuer dissolves with $1.50 a share of unpaid preferred dividends. A surplus remains after all prior claims. The terms say nothing more. What does Marek get per share?",
+      "options": {
+        "A": "$25.00, with no part of the remaining surplus",
+        "B": "$26.50, with no part of the remaining surplus",
+        "C": "$26.50, plus an equal part of the surplus with the common shares",
+        "D": "$25.00, plus an equal part of the surplus with the common shares"
+      },
+      "answer": "B",
+      "rationale": "On dissolution, a preferred holder generally gets the stated amount plus unpaid cumulative dividends: $25.00 + $1.50 = $26.50. Unless the terms say otherwise, the preferred holder gets no part of the surplus.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 3.7 (rights on dissolution); 25.00 + 1.50 = 26.50"
+    },
+    {
+      "id": "RSE-E3-0091",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Talbot Ferries Ltd. has cumulative preferred shares. It misses three quarterly dividends. Ottilie Ramaswamy, a holder, asks what legal action she can take. Which answer is correct?",
+      "options": {
+        "A": "She can claim a default, because cumulative dividends are a debt of the issuer",
+        "B": "She can force payment, because the arrears are more than one quarter's dividend",
+        "C": "She can make the issuer redeem her shares at par, because dividends stopped",
+        "D": "She cannot claim a default, because a missed preferred dividend is not a default"
+      },
+      "answer": "D",
+      "rationale": "The board must declare each preferred dividend, and a missed dividend is not a default. The cumulative feature only keeps the arrears as a priority ahead of common dividends. The holder cannot force payment.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.7 (missed dividend is not a default) and 3.8 exam trap"
+    },
+    {
+      "id": "RSE-E3-0092",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement correctly contrasts a retractable preferred with a redeemable (callable) preferred?",
+      "options": {
+        "A": "Retractable lets the issuer buy back at a set price; callable lets the holder sell back",
+        "B": "Both let the holder sell back, but only callable shares have set dates for it",
+        "C": "Both let the issuer buy back, but only retractable shares pay a premium for it",
+        "D": "Retractable lets the holder sell back at a set price; callable lets the issuer buy back"
+      },
+      "answer": "D",
+      "rationale": "A retractable feature is a put for the holder, who can sell back at a set price on set dates. A callable feature is a call for the issuer, who can buy back at a set price. The closest distractor reverses the two.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.7 (other features; Remember box)"
+    },
+    {
+      "id": "RSE-E3-0093",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Zainab Quillen wants to buy a thinly traded preferred share for income. Its quotes show a wide bid-ask spread. Which approach best limits her trading costs?",
+      "options": {
+        "A": "Use a market order so that the trade fills right away",
+        "B": "Use a limit order and avoid frequent trading",
+        "C": "Trade often to capture small changes in the price",
+        "D": "Buy small lots with market orders over many days"
+      },
+      "answer": "B",
+      "rationale": "On a thin preferred, the bid-ask spread can cost a large part of one year's dividend. A limit order controls the price. A market order can fill far from the last price, and each extra trade pays the spread again.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (impact of the costs of acquiring and holding)"
+    },
+    {
+      "id": "RSE-E3-0094",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Yusuf Brannigan holds a fixed-reset preferred. At its next reset date, the Government of Canada yield is much lower than at issue. What happens to his dividend, and what is this risk called?",
+      "options": {
+        "A": "The dividend falls; this is reset risk",
+        "B": "The dividend rises; this is call risk",
+        "C": "The dividend stays the same; this is liquidity risk",
+        "D": "The dividend falls; this is inflation risk"
+      },
+      "answer": "A",
+      "rationale": "At each reset, the new rate is the Government of Canada yield plus the fixed spread. A lower yield gives a lower dividend, which is reset risk. Inflation risk is the loss of purchasing power on a fixed dividend.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (reset risk)"
+    },
+    {
+      "id": "RSE-E3-0095",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Priya Castellanos holds a fixed-reset preferred. Its next reset is three years away. Government of Canada yields then rise sharply. Which outcome is most likely?",
+      "options": {
+        "A": "The price is protected now, because the dividend resets right away",
+        "B": "The price can fall now, but the next reset rate will likely be higher",
+        "C": "The price rises now, because the next reset rate will be higher",
+        "D": "The dividend falls at the next reset, because yields have risen"
+      },
+      "answer": "B",
+      "rationale": "A fixed-reset rate changes only at each reset. If yields rise, the next reset rate also rises. Between resets the dividend stays fixed, so the price can still fall. The protection is only partial.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (fixed-reset partial protection)"
+    },
+    {
+      "id": "RSE-E3-0096",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Dmitri Halloran compares the bonds of Wexford Grain Corp. with its preferred shares. Which statement about their credit risk is correct?",
+      "options": {
+        "A": "The preferred has less, because preferred holders rank ahead of the bondholders on dissolution",
+        "B": "Both have the same, because the same issuer must make all of the payments on both",
+        "C": "The preferred has more, because it ranks behind all debt and its dividend can stop without a default",
+        "D": "The bond has more, because a missed interest payment is not a default by the issuer"
+      },
+      "answer": "C",
+      "rationale": "A preferred ranks behind all of the issuer's debt. The board can also suspend its dividend without a legal default. So the preferred carries more credit risk than the same issuer's bonds.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (credit risk vs the same issuer's bonds)"
+    },
+    {
+      "id": "RSE-E3-0097",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Amara Lindgren expects interest rates to rise. She wants the preferred share with the least price risk from rising rates. All choices have similar credit quality. Which share fits best?",
+      "options": {
+        "A": "A straight perpetual preferred with a fixed 5% dividend",
+        "B": "A fixed-rate callable preferred that trades near its call price",
+        "C": "A fixed-rate non-cumulative perpetual preferred",
+        "D": "A floating-rate preferred whose dividend moves with a reference rate"
+      },
+      "answer": "D",
+      "rationale": "A floating-rate dividend rises with rates, so its price changes little. Fixed-rate perpetuals have no maturity to anchor the price, so they fall most. A call feature caps gains but gives no protection when rates rise.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (interest-rate risk: retractable and floating-rate issues carry the least)"
+    },
+    {
+      "id": "RSE-E3-0098",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Beatriz Thorne is retired and holds a fixed-rate preferred share for income. She worries that her living costs will keep rising. Which risk does she describe?",
+      "options": {
+        "A": "Call risk",
+        "B": "Reset risk",
+        "C": "Liquidity risk",
+        "D": "Inflation risk"
+      },
+      "answer": "D",
+      "rationale": "A fixed dividend buys less as prices rise. This loss of purchasing power is inflation risk. Reset risk applies to fixed-reset issues, and call risk applies when the issuer can redeem the shares.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (inflation risk)"
+    },
+    {
+      "id": "RSE-E3-0099",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Two preferred shares of taxable Canadian corporations pay the same dividend in a taxable account. One pays eligible dividends, and the other does not. Which statement about the federal treatment is correct?",
+      "options": {
+        "A": "The non-eligible dividend gets a higher gross-up and a larger federal credit per dollar",
+        "B": "Both get the same gross-up, but only the eligible dividend gets a federal credit",
+        "C": "The eligible dividend gets a higher gross-up and a larger federal credit per dollar",
+        "D": "Both get the same federal credit, because both payers are Canadian corporations"
+      },
+      "answer": "C",
+      "rationale": "Eligible dividends are grossed up to 138%, with a credit of 6/11 of the gross-up: about 20.7 cents per dollar. Other dividends are grossed up to 115%, with a credit of 9/13: about 10.4 cents per dollar.",
+      "rule_refs": [
+        "CRA, Lines 12000/12010",
+        "ITA ss. 82, 121"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Multiply the actual amount received by 138% and include the result on line 12000\" — research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt CRA Lines 12000/12010, ~L236"
+    },
+    {
+      "id": "RSE-E3-0100",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Gideon Marsh buys a straight preferred share that is not convertible. What is usually the main source of his return?",
+      "options": {
+        "A": "Price gains that follow the company's earnings growth",
+        "B": "The fixed dividend, with small price gains",
+        "C": "Interest payments that the issuer must make by law",
+        "D": "A part of the company's surplus profits each year"
+      },
+      "answer": "B",
+      "rationale": "A straight preferred's return comes mainly from its fixed dividend. Unless the share is convertible, price gains are usually small. A preferred dividend is not interest, and only participating issues share in extra profits.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (sources of return)"
+    },
+    {
+      "id": "RSE-E3-0101",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Four preferred shares pay similar yields. Which share is most exposed to the risk of losing dividend income for good?",
+      "options": {
+        "A": "A non-cumulative preferred of a weak issuer",
+        "B": "A cumulative preferred of a weak issuer",
+        "C": "A non-cumulative preferred of a strong issuer",
+        "D": "A cumulative preferred of a strong issuer"
+      },
+      "answer": "A",
+      "rationale": "A weak issuer is more likely to suspend dividends. On a non-cumulative issue, a skipped dividend is lost for good. A cumulative issue keeps the arrears as a priority claim, so the holder may still get them later.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (credit / dividend risk: non-cumulative issues and weaker issuers)"
+    },
+    {
+      "id": "RSE-E3-0102",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ivo Pellegrini wants dividend income with priority over common shareholders. He also wants to benefit if the common share price rises. Which security fits both wishes best?",
+      "options": {
+        "A": "A straight perpetual preferred, which pays a higher fixed dividend than a convertible",
+        "B": "A convertible preferred, which usually pays a lower dividend than a straight preferred",
+        "C": "A retractable preferred, which he can sell back to the issuer at a set price",
+        "D": "A common share of the same company, which pays a dividend that can change"
+      },
+      "answer": "B",
+      "rationale": "A convertible preferred pays a preferred dividend with priority over common. If the common price rises, he can convert at the set ratio. The conversion right usually costs some yield. Common shares give growth but no dividend priority.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.9 (features: convertible adds growth; usually lower dividend)"
+    },
+    {
+      "id": "RSE-E3-0103",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Tamsin Oduya is 26 and invests for growth over 30 years. She asks whether to buy a company's preferred shares or its common shares. Which choice fits her goal, and why?",
+      "options": {
+        "A": "Preferred shares, because their prices rise with the company's growth",
+        "B": "Common shares, because they share in growth that a fixed preferred dividend does not",
+        "C": "Preferred shares, because their fixed dividends grow with the earnings",
+        "D": "Common shares, because they rank ahead of preferred shares on dissolution"
+      },
+      "answer": "B",
+      "rationale": "A preferred owner accepts less growth in exchange for priority and steady income. Common shares share in the company's growth, so they fit a young growth investor. Common shares rank behind preferred shares, not ahead.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.9 (owners: common shares are better for a young investor who wants growth)"
+    },
+    {
+      "id": "RSE-E3-0104",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Elmstead Robotics Inc. needs equity capital. Its founders hold most of the votes and want to keep control. Which reason best supports issuing preferred shares instead of new common shares?",
+      "options": {
+        "A": "Preferred shares usually carry no vote, so the founders keep control",
+        "B": "Preferred dividends are deductible, so they cost less than common dividends",
+        "C": "Preferred shares never pay dividends, so all the cash stays in the company",
+        "D": "Preferred shares rank behind common, so investors accept a lower return"
+      },
+      "answer": "A",
+      "rationale": "Preferred shares add equity without new votes, so the common shareholders keep control. Preferred dividends come from after-tax profit and are not deductible. Preferred shares rank ahead of common shares, not behind.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.9 (issuer: equity without new votes)"
+    },
+    {
+      "id": "RSE-E3-0105",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Saltire Forest Products Ltd. has earnings that change a lot with the economy. It compares an issue of preferred shares with an issue of bonds. Which advantage of the preferred shares matters most in a weak year?",
+      "options": {
+        "A": "A skipped preferred dividend is not a default",
+        "B": "Preferred dividends are a deductible expense",
+        "C": "Preferred holders have no claim ahead of common",
+        "D": "Preferred shares must be repaid at a set maturity"
+      },
+      "answer": "A",
+      "rationale": "The board can skip a preferred dividend without a default, so the issuer keeps flexibility in a bad year. Missed bond interest is a default. Interest is generally deductible, but preferred dividends come from after-tax profit.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.9 (issuer: a skipped dividend is not a default)"
+    },
+    {
+      "id": "RSE-E3-0106",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ravenmoor Utilities Inc. plans a fixed-rate preferred issue. Its CFO thinks interest rates may fall in later years. Which feature lets the company benefit if rates fall?",
+      "options": {
+        "A": "A retractable feature, so holders can sell the shares back on set dates",
+        "B": "A call feature, so it can redeem the shares and replace them at a lower rate",
+        "C": "A cumulative feature, so any missed dividends are kept as arrears",
+        "D": "A participating feature, so holders share in any extra profits"
+      },
+      "answer": "B",
+      "rationale": "A callable feature lets the issuer redeem the shares at a set price. If rates fall, the issuer can replace the issue with cheaper capital. A retractable feature is a right for the holder, not for the issuer.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.9 (issuer: a callable feature gives back some flexibility)"
+    },
+    {
+      "id": "RSE-E3-0107",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Henrike Solberg holds preferred shares of taxable Canadian corporations in her RRSP. A friend says the dividend tax credit is a key reason to hold them there. Which response is correct?",
+      "options": {
+        "A": "The credit applies in her RRSP, but only to the dividends that are eligible",
+        "B": "The dividend tax credit helps in a taxable account, but gives no benefit in her RRSP",
+        "C": "The credit is larger in her RRSP, because the income there is tax-deferred",
+        "D": "The credit applies in her RRSP, because the payers are Canadian corporations"
+      },
+      "answer": "B",
+      "rationale": "Dividends from taxable Canadian corporations may qualify for the dividend tax credit in a taxable account. Income inside an RRSP is not taxed as it is earned, so the credit gives no benefit there.",
+      "rule_refs": [
+        "CRA, Lines 12000/12010"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"You may be able to claim a dividend tax credit on line 40425 for dividends received from taxable Canadian corporations.\" — research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt CRA Lines 12000/12010 Tax Tips, ~L240"
+    },
+    {
+      "id": "RSE-E3-0108",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Callum Ferreira buys a straight preferred share of a fast-growing company. He expects its price to rise as the company's earnings grow. Which comment is most accurate?",
+      "options": {
+        "A": "Its price follows earnings growth more closely than the common shares do",
+        "B": "Its price stays at par, because the preferred share has a stated amount",
+        "C": "Its price follows interest rates more than it follows the company's growth",
+        "D": "Its dividend rises with earnings, so its price grows with the company"
+      },
+      "answer": "C",
+      "rationale": "A preferred is legally equity, but it behaves like fixed income. Its fixed dividend makes its price follow interest rates more than company growth. Only a convertible or participating feature adds a link to growth.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 3.9 (exam trap: a preferred behaves like fixed income)"
+    },
+    {
+      "id": "RSE-E3-0109",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Teodora Vasquez expects a share to pay dividends of $2.00 in one year and $2.20 in two years. She expects to sell it for $50.00 at the end of year 2. She requires 8%. What is its value today by discounted cash flow?",
+      "options": {
+        "A": "$50.03",
+        "B": "$54.20",
+        "C": "$46.61",
+        "D": "$42.87"
+      },
+      "answer": "C",
+      "rationale": "Discount each cash flow at 8%: 2.00 ÷ 1.08 + (2.20 + 50.00) ÷ 1.08². This gives 1.85 + 44.75 = $46.61. Discounting the sale price for only one year gives $50.03, and no discounting gives $54.20.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 2.00/1.08 + 2.20/1.08^2 + 50.00/1.08^2 = 1.852 + 1.886 + 42.867 = 46.605 -> 46.61; distractors 2/1.08 + 2.2/1.1664 + 50/1.08 = 50.03, 2 + 2.2 + 50 = 54.20, 50/1.1664 = 42.87"
+    },
+    {
+      "id": "RSE-E3-0110",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Lars Brodeur plans to hold a share for one year. He expects a $1.20 dividend and a $42.00 selling price at year-end. He requires a 12% return. What is the share's value today?",
+      "options": {
+        "A": "$43.20",
+        "B": "$37.50",
+        "C": "$38.57",
+        "D": "$43.07"
+      },
+      "answer": "C",
+      "rationale": "P₀ = (1.20 + 42.00) ÷ 1.12 = 43.20 ÷ 1.12 = $38.57. The $43.20 figure leaves out the discounting. The $37.50 figure discounts the selling price but leaves out the dividend.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: (1.20 + 42.00)/1.12 = 38.571 -> 38.57; distractors 1.20 + 42.00 = 43.20, 42.00/1.12 = 37.50, 1.20/1.12 + 42.00 = 43.07"
+    },
+    {
+      "id": "RSE-E3-0111",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Analysts expect Ironbark Water Ltd. to pay a dividend of $3.00 next year. Dividends then grow 3% a year forever, and the required return is 8%. What is the share's value by the constant-growth model?",
+      "options": {
+        "A": "$60.00",
+        "B": "$61.80",
+        "C": "$37.50",
+        "D": "$100.00"
+      },
+      "answer": "A",
+      "rationale": "The $3.00 dividend is already next year's dividend (D₁), so do not grow it again. P₀ = 3.00 ÷ (0.08 − 0.03) = $60.00. The $61.80 figure grows D₁ again and counts one year of growth twice.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 3.00/(0.08 - 0.03) = 60.00; distractors 3.00*1.03/0.05 = 61.80, 3.00/0.08 = 37.50, 3.00/0.03 = 100.00"
+    },
+    {
+      "id": "RSE-E3-0112",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An analyst wants to value four common shares with the constant-growth dividend model. For which share is the model unsuitable?",
+      "options": {
+        "A": "A utility share whose dividend grows steadily at 3% a year",
+        "B": "A bank share with a 9% required return and 4% dividend growth",
+        "C": "A pipeline share whose dividend grows at a steady 2% a year",
+        "D": "A share whose expected dividend growth rate is higher than its required return"
+      },
+      "answer": "D",
+      "rationale": "The constant-growth model needs the required return to be higher than the growth rate. If g is equal to or higher than r, the model gives no sensible value. The model suits stable companies with steady dividend growth.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.10 (Gordon fails when g >= r; suits stable companies with steady dividend growth)"
+    },
+    {
+      "id": "RSE-E3-0113",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A common share's next dividend is expected to be $2.00, with growth of 4% a year forever. What is its value by the constant-growth model at a required return of 8%, and at 10%?",
+      "options": {
+        "A": "$50.00 at 8%, and $33.33 at 10%",
+        "B": "$25.00 at 8%, and $20.00 at 10%",
+        "C": "$52.00 at 8%, and $34.67 at 10%",
+        "D": "$33.33 at 8%, and $50.00 at 10%"
+      },
+      "answer": "A",
+      "rationale": "P₀ = 2.00 ÷ (0.08 − 0.04) = $50.00, and 2.00 ÷ (0.10 − 0.04) = $33.33. A higher required return gives a lower value. The $52.00 and $34.67 figures grow next year's dividend again.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 2.00/0.04 = 50.00; 2.00/0.06 = 33.33; distractors 2/0.08 = 25.00 and 2/0.10 = 20.00; 2.08/0.04 = 52.00 and 2.08/0.06 = 34.67; reversed pair"
+    },
+    {
+      "id": "RSE-E3-0114",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ashgrove Retail Inc. trades at $37.50. Its forecast EPS for next year is $2.50, and its payout ratio is 60%. The required return is 11%. What growth rate does the price imply under the justified P/E model?",
+      "options": {
+        "A": "4.0%",
+        "B": "4.3%",
+        "C": "7.0%",
+        "D": "8.3%"
+      },
+      "answer": "C",
+      "rationale": "The market P/E is 37.50 ÷ 2.50 = 15. Set 0.60 ÷ (0.11 − g) = 15, so 0.11 − g = 0.04 and g = 7.0%. The 4.0% figure is the gap between r and g, not the growth rate.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: P/E = 37.50/2.50 = 15; 0.60/(0.11 - g) = 15 -> g = 0.11 - 0.04 = 0.07; distractors r - g = 4.0%, 0.11 - 1/15 = 4.3% (payout ignored), 0.11 - 0.40/15 = 8.3% (retention used)"
+    },
+    {
+      "id": "RSE-E3-0115",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Bramblewood Software Inc. has a P/E ratio of 18. Its expected EPS growth is 12% a year. What is its PEG ratio?",
+      "options": {
+        "A": "0.67",
+        "B": "2.16",
+        "C": "1.50",
+        "D": "6.00"
+      },
+      "answer": "C",
+      "rationale": "The PEG ratio is the P/E divided by expected EPS growth in percent: 18 ÷ 12 = 1.50. The 0.67 figure inverts the ratio. The 2.16 figure multiplies the P/E by the growth rate as a decimal.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: 18/12 = 1.50; distractors 12/18 = 0.67, 18*0.12 = 2.16, 18 - 12 = 6.00"
+    }
+  ]
+}

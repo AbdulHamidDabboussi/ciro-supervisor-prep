@@ -1,0 +1,972 @@
+{
+  "meta": {
+    "batch": "E6-003b",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E6-0079",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Which task is a main purpose of an asset pricing model?",
+      "options": {
+        "A": "To calculate a fund's management expense ratio",
+        "B": "To set the discount rate used to value a security",
+        "C": "To measure the largest fall from a peak to a later low",
+        "D": "To set the client's time horizon and liquidity needs"
+      },
+      "answer": "B",
+      "rationale": "An asset pricing model estimates the return that investors require for an asset's risk. Managers use that return as a discount rate, to judge fair price and to test alpha. Time horizon and liquidity come from the client's KYC information. Drawdown is a risk measure.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 purpose"
+    },
+    {
+      "id": "RSE-E6-0080",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Why does the CAPM give a reward only for systematic risk?",
+      "options": {
+        "A": "Systematic risk is always larger than unsystematic risk",
+        "B": "Standard deviation cannot measure unsystematic risk",
+        "C": "Investors can remove unsystematic risk by diversification at no cost",
+        "D": "Regulators require models to ignore company-specific risk"
+      },
+      "answer": "C",
+      "rationale": "In the CAPM, diversification removes unsystematic risk at no cost, so the market pays no premium for it. Only beta, the exposure to market risk, earns a reward. The relative size of the two risks is not the reason.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 CAPM"
+    },
+    {
+      "id": "RSE-E6-0081",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement describes a disadvantage of the CAPM?",
+      "options": {
+        "A": "The true market portfolio that it needs cannot be observed",
+        "B": "It does not say which factors or how many factors to use",
+        "C": "It needs data on size, value, profitability and investment",
+        "D": "It rewards unsystematic risk that diversification can remove"
+      },
+      "answer": "A",
+      "rationale": "The CAPM needs the true market portfolio, which no one can observe. Its other weaknesses are unrealistic assumptions and a single beta that often explains returns poorly. The failure to name the factors is a weakness of the APT, not of the CAPM.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 CAPM disadvantages"
+    },
+    {
+      "id": "RSE-E6-0082",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Gisela Castellano prefers arbitrage pricing theory (APT) to the CAPM, because the APT needs fewer assumptions. Which drawback of the APT must she accept?",
+      "options": {
+        "A": "The theory needs the true market portfolio, which no one can observe",
+        "B": "The theory does not name the factors or say how many to use",
+        "C": "The theory allows only one factor, which is beta to the market",
+        "D": "The theory adds momentum, which is volatile and costly to trade"
+      },
+      "answer": "B",
+      "rationale": "The APT explains return with several systematic factors but does not name them or their number. So the choice of factors is subjective. An unobservable market portfolio is a CAPM weakness. Costly momentum trading is a weakness of the Carhart model.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 APT"
+    },
+    {
+      "id": "RSE-E6-0083",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Two well-diversified portfolios have the same exposures to inflation, GDP growth and interest rates. Under arbitrage pricing theory, what must be true?",
+      "options": {
+        "A": "The portfolio with more holdings must have the higher expected return",
+        "B": "Their expected returns can differ because of their unsystematic risk",
+        "C": "The portfolio with the lower price must have the lower expected return",
+        "D": "They must have the same expected return"
+      },
+      "answer": "D",
+      "rationale": "The APT rests on no-arbitrage. Portfolios with the same factor exposures must have the same expected return. Otherwise, traders could buy one, sell the other and earn a riskless profit. Unsystematic risk earns no extra return.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 APT no-arbitrage"
+    },
+    {
+      "id": "RSE-E6-0084",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which factor is in the Fama–French five-factor model but not in the Carhart four-factor model?",
+      "options": {
+        "A": "Momentum (winners minus losers)",
+        "B": "Profitability (robust minus weak)",
+        "C": "Value (high minus low)",
+        "D": "Size (small minus big)"
+      },
+      "answer": "B",
+      "rationale": "Carhart uses the market, size and value factors plus momentum. The Fama–French five-factor model uses market, size and value plus profitability and investment. So profitability is only in the five-factor model. Momentum is only in Carhart, and size and value are in both.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 multi-factor table and exam trap"
+    },
+    {
+      "id": "RSE-E6-0085",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A researcher adds a momentum factor to the Fama–French five-factor model. Which statement about the new model is correct?",
+      "options": {
+        "A": "It has four factors and is the same as the Carhart model",
+        "B": "It has six factors and is the simplest multi-factor model",
+        "C": "It has five factors, because momentum replaces investment",
+        "D": "It has six factors and the greatest risk of data-mining"
+      },
+      "answer": "D",
+      "rationale": "Five factors plus momentum give six factors. This model covers the most known anomalies, but it is the most complex and has the greatest risk of data-mining. The Carhart model has four factors: the three original Fama–French factors plus momentum.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 table (FF5 + momentum)"
+    },
+    {
+      "id": "RSE-E6-0086",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "In a multi-factor model, what does the value factor (HML) measure?",
+      "options": {
+        "A": "Returns of high book-to-market stocks minus low book-to-market stocks",
+        "B": "Returns of firms with robust profitability minus firms with weak profitability",
+        "C": "Returns of stocks with high recent returns minus those with low recent returns",
+        "D": "Returns of large companies minus returns of small companies"
+      },
+      "answer": "A",
+      "rationale": "HML means high minus low book-to-market, so it compares cheap (value) stocks with expensive ones. Winners minus losers is the momentum factor. Robust minus weak profitability is RMW. The size factor is small minus big, not large minus small.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 factor list"
+    },
+    {
+      "id": "RSE-E6-0087",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Use a T-bill yield of 3.5% and a market risk premium of 6%. Shares of Norlake Corp. have a beta of 1.25. What return does the CAPM require for them?",
+      "options": {
+        "A": "7.5%",
+        "B": "11.0%",
+        "C": "11.9%",
+        "D": "9.5%"
+      },
+      "answer": "B",
+      "rationale": "Required return = 3.5% + 1.25 × 6% = 11.0%. The premium is already given, so do not subtract the risk-free rate again. The 7.5% result omits the risk-free rate. The 9.5% result ignores beta.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: 3.5 + 1.25 x 6 = 11.0; distractors 1.25x6=7.5, 1.25x(6+3.5)=11.875~11.9, 3.5+6=9.5"
+    },
+    {
+      "id": "RSE-E6-0088",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Vasco Lombardi's analyst forecasts an 11.5% return for a stock with a beta of 1.6. T-bills yield 2%, and the market should return 7%. What should Vasco conclude?",
+      "options": {
+        "A": "Alpha is −1.5%, so the stock is overvalued",
+        "B": "Alpha is −1.7%, so the stock is overvalued",
+        "C": "Alpha is +1.5%, so the stock is undervalued",
+        "D": "Alpha is +0.3%, so the stock is fairly priced"
+      },
+      "answer": "C",
+      "rationale": "The CAPM return is 2% + 1.6 × (7% − 2%) = 10.0%. The forecast is 1.5% higher, so the stock plots above the SML and is undervalued. The +0.3% result multiplies beta by the market return, not by the premium.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 2 + 1.6 x 5 = 10.0; alpha 11.5-10.0=+1.5; distractors 11.5-1.6x7=0.3, 11.5-(2+11.2)=-1.7"
+    },
+    {
+      "id": "RSE-E6-0089",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Tavish Vandermeer splits his money: 30% in a stock (beta 1.4), 50% in an equity fund (beta 1.0) and 20% in T-bills. What is his portfolio's beta?",
+      "options": {
+        "A": "1.15",
+        "B": "1.20",
+        "C": "0.92",
+        "D": "0.80"
+      },
+      "answer": "C",
+      "rationale": "Portfolio beta is the weighted average: 0.3 × 1.4 + 0.5 × 1.0 + 0.2 × 0 = 0.92. T-bills have a beta of zero but still count in the weights. The 0.80 result is a simple average, and 1.15 leaves the T-bills out.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: 0.3x1.4 + 0.5x1.0 + 0.2x0 = 0.92; distractors (1.4+1+0)/3=0.80, 0.92/0.8=1.15, (1.4+1)/2=1.20"
+    },
+    {
+      "id": "RSE-E6-0090",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An analyst says that a stock must return 12% to compensate for its risk under the CAPM. T-bills yield 3%, and the market should return 9%. What beta does this imply?",
+      "options": {
+        "A": "0.67",
+        "B": "1.00",
+        "C": "1.33",
+        "D": "1.50"
+      },
+      "answer": "D",
+      "rationale": "Solve 12% = 3% + β × (9% − 3%). So β = 9% ÷ 6% = 1.50. The 1.33 result divides 12% by the market return. The 1.00 result divides the 9% excess return by the market return instead of by the premium.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: (12-3)/(9-3) = 1.50; distractors 12/9=1.33, 9/9=1.00, 6/9=0.67"
+    },
+    {
+      "id": "RSE-E6-0091",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Yannick Abelard wants a CAPM expected return of 7%. He will mix a market index fund (beta 1.0) with T-bills. T-bills yield 3%, and the market should return 8%. What weight goes in the index fund?",
+      "options": {
+        "A": "87.5%",
+        "B": "20%",
+        "C": "80%",
+        "D": "57.1%"
+      },
+      "answer": "C",
+      "rationale": "He needs a beta of (7% − 3%) ÷ (8% − 3%) = 0.80. The index fund has a beta of 1.0 and T-bills have a beta of zero, so 80% goes in the fund. The 87.5% result divides 7% by 8%. The 20% result is the T-bill weight.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: (7-3)/(8-3) = 0.80 -> 80% in index fund; distractors 7/8=87.5%, 1-0.8=20%, 4/7=57.1%"
+    },
+    {
+      "id": "RSE-E6-0092",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ulla Ferreiro wants a higher CAPM expected return for her portfolio. The risk-free rate and the expected market return stay the same. What must she accept?",
+      "options": {
+        "A": "A higher portfolio beta, which means more market risk",
+        "B": "A higher standard deviation with the same beta",
+        "C": "A larger share of T-bills in her portfolio",
+        "D": "More unsystematic risk from fewer holdings"
+      },
+      "answer": "A",
+      "rationale": "In the CAPM, expected return rises only with beta, so she must accept more market risk. The CAPM pays nothing for unsystematic risk or for volatility that does not come from beta. More T-bills lower beta and so lower the expected return.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.8 expected return and risk of a portfolio"
+    },
+    {
+      "id": "RSE-E6-0093",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "T-bills yield 3%, and the market should return 8%. Stock X has a standard deviation of 45% and a beta of 0.4. Stock Y has a standard deviation of 20% and a beta of 1.3. Which stock has the higher CAPM required return?",
+      "options": {
+        "A": "Stock Y, because a lower standard deviation always earns more",
+        "B": "Neither, because both must return only the 3% risk-free rate",
+        "C": "Stock X, because the CAPM rewards its higher standard deviation",
+        "D": "Stock Y, at 9.5%, because the CAPM prices only beta"
+      },
+      "answer": "D",
+      "rationale": "Stock X requires 3% + 0.4 × 5% = 5.0%. Stock Y requires 3% + 1.3 × 5% = 9.5%. The CAPM rewards only systematic risk, which beta measures. Most of Stock X's high volatility is unsystematic, and diversification can remove it.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: X 3 + 0.4x5 = 5.0; Y 3 + 1.3x5 = 9.5"
+    },
+    {
+      "id": "RSE-E6-0094",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "T-bills yield 4%, and the market should return 9%. Which stock below is undervalued under the CAPM?",
+      "options": {
+        "A": "Stock S: beta 1.0, forecast return 8.5%",
+        "B": "Stock R: beta 1.5, forecast return 11.0%",
+        "C": "Stock Q: beta 0.6, forecast return 8.0%",
+        "D": "Stock P: beta 1.2, forecast return 10.0%"
+      },
+      "answer": "C",
+      "rationale": "Required returns are 4% + β × 5%: P 10.0%, Q 7.0%, R 11.5% and S 9.0%. Only Stock Q has a forecast above its required return, so it plots above the SML. Stock P plots on the SML. Stocks R and S plot below it.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: required = 4 + b x 5 -> P 10.0 (fcst 10.0), Q 7.0 (fcst 8.0), R 11.5 (fcst 11.0), S 9.0 (fcst 8.5)"
+    },
+    {
+      "id": "RSE-E6-0095",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Bronwen Tallis puts half her money in an index fund (beta 1.0), 30% in a stock (beta 1.6) and the rest in T-bills. T-bills yield 2.5%, and the market should return 8.5%. What is her CAPM expected return?",
+      "options": {
+        "A": "8.38%",
+        "B": "10.83%",
+        "C": "5.88%",
+        "D": "7.70%"
+      },
+      "answer": "A",
+      "rationale": "Portfolio beta = 0.5 × 1.0 + 0.3 × 1.6 + 0.2 × 0 = 0.98. Expected return = 2.5% + 0.98 × 6% = 8.38%. The 5.88% result omits the risk-free rate. The 10.83% result multiplies beta by the market return, not by the premium.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: beta 0.5+0.48 = 0.98; 2.5 + 0.98x6 = 8.38; distractors 0.98x6=5.88, 2.5+0.98x8.5=10.83, simple avg beta 0.8667 -> 2.5+5.2=7.70"
+    },
+    {
+      "id": "RSE-E6-0096",
+      "element": 6,
+      "outcome": "6.9",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Under weak-form efficiency, which information do market prices already reflect?",
+      "options": {
+        "A": "All past price and volume data",
+        "B": "All public information, including financial statements",
+        "C": "All information, both public and private",
+        "D": "Only the information in company press releases"
+      },
+      "answer": "A",
+      "rationale": "Weak-form efficiency means that prices reflect all past price and volume data, so technical analysis cannot earn abnormal returns. The semi-strong form adds all public information. The strong form adds private information too.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.9 EMH table"
+    },
+    {
+      "id": "RSE-E6-0097",
+      "element": 6,
+      "outcome": "6.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Suppose a market is strong-form efficient. Which statement is correct?",
+      "options": {
+        "A": "Only insider information can give consistent abnormal returns",
+        "B": "Only fundamental analysis of public data can give abnormal returns",
+        "C": "Technical analysis can give abnormal returns, but fundamental analysis cannot",
+        "D": "Not even insider information can give consistent abnormal returns"
+      },
+      "answer": "D",
+      "rationale": "Strong-form prices reflect all information, public and private, so no information gives an edge. Insider information gives an edge only if the market is semi-strong but not strong-form efficient. The strong form includes the weaker forms, so technical and fundamental analysis also fail.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.9 implications (strong form)"
+    },
+    {
+      "id": "RSE-E6-0098",
+      "element": 6,
+      "outcome": "6.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Henrik Brannock buys software that finds buy signals in past stock prices and trading volume. The market is weak-form efficient. What should he expect?",
+      "options": {
+        "A": "Lower risk, because the signals avoid all market declines",
+        "B": "No abnormal returns, but lower costs than an index fund",
+        "C": "Consistent abnormal returns, because the software is faster than analysts",
+        "D": "No consistent abnormal returns, and higher trading costs"
+      },
+      "answer": "D",
+      "rationale": "Weak-form efficiency means that prices already reflect past price and volume data. So signals from those data cannot give consistent abnormal returns. Each extra trade adds spreads and commissions, so his costs rise above those of a low-cost index fund.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.9 weak form; chart-pattern scenario"
+    },
+    {
+      "id": "RSE-E6-0099",
+      "element": 6,
+      "outcome": "6.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Petra Hargreaves believes that large Canadian stocks are close to semi-strong efficient. Which approach best fits this belief for her core holdings?",
+      "options": {
+        "A": "A fund that rotates sectors on public economic forecasts",
+        "B": "A fund that picks stocks from public financial statements",
+        "C": "A low-cost fund that tracks a broad index",
+        "D": "A fund that trades on chart patterns each week"
+      },
+      "answer": "C",
+      "rationale": "In a semi-strong efficient market, prices adjust quickly to all public information. Research on public data is then unlikely to earn more than its cost. So the EMH favours passive, low-cost indexing. The other funds rely on public data that prices already reflect.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.9 implications (passive indexing)"
+    },
+    {
+      "id": "RSE-E6-0100",
+      "element": 6,
+      "outcome": "6.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Suppose markets are efficient. How can a portfolio manager still add value for a client?",
+      "options": {
+        "A": "By setting the asset mix and controlling costs and taxes",
+        "B": "By moving to cash when chart signals show a peak",
+        "C": "By buying the funds with the best returns last year",
+        "D": "By picking stocks that look cheap in published reports"
+      },
+      "answer": "A",
+      "rationale": "If prices already reflect information, security selection is unlikely to beat its cost. The manager adds value in other ways: set the asset mix, manage risk, control costs and taxes, and fit the portfolio to the client. Published reports and charts are data that prices already reflect.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.9 implications for portfolio management"
+    },
+    {
+      "id": "RSE-E6-0101",
+      "element": 6,
+      "outcome": "6.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "According to the EMH, why are future price changes hard to predict?",
+      "options": {
+        "A": "Prices change only on private information that the public never sees",
+        "B": "New information arrives at random, and competing analysts quickly move prices to fair value",
+        "C": "Most investors ignore news, so prices drift slowly toward fair value over time",
+        "D": "Regulators stop analysts from trading on new public information until it is old"
+      },
+      "answer": "B",
+      "rationale": "The EMH rests on competition. Many analysts search for mispriced securities, and their trades quickly move prices to fair value. New information arrives at random, so the next price change is hard to predict. A slow drift would make prices predictable.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.9 EMH logic"
+    },
+    {
+      "id": "RSE-E6-0102",
+      "element": 6,
+      "outcome": "6.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Where does the evidence suggest that active managers have the most room to add value?",
+      "options": {
+        "A": "In less-followed segments, such as small-cap stocks",
+        "B": "In large stocks that many analysts follow closely",
+        "C": "In markets that are strong-form efficient",
+        "D": "In the stocks with the most daily news coverage"
+      },
+      "answer": "A",
+      "rationale": "Most observers see large, heavily followed markets as close to semi-strong efficient. Fewer analysts follow small caps and some bonds, so these segments may leave more room for active managers. In a strong-form efficient market, no information gives an edge.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.9 limits of the EMH"
+    },
+    {
+      "id": "RSE-E6-0103",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Yorick Haverford starts with a forecast of strong GDP growth. Next, he picks the sectors likely to gain most. Last, he picks companies in those sectors. Which weakness is most specific to his approach?",
+      "options": {
+        "A": "He can pay a premium for growth that later slows",
+        "B": "He can overlook sector and economic risk in his holdings",
+        "C": "He can buy cheap stocks whose businesses are in permanent decline",
+        "D": "He can miss good companies in the sectors that he does not favour"
+      },
+      "answer": "D",
+      "rationale": "Economy first, then sectors, then companies is a top-down approach. Top-down captures macro and sector trends, but it can miss good companies in the wrong sectors. Overlooking sector or economic risk is the typical weakness of a bottom-up manager.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 top-down vs bottom-up"
+    },
+    {
+      "id": "RSE-E6-0104",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Winnie Sandoval picks 20 stocks only on company fundamentals and pays little attention to the economy. Later, 65% of her fund is in one sector. Which risk does this show?",
+      "options": {
+        "A": "Cap-weighted indexing concentrates in the largest companies",
+        "B": "Market timing needs two correct forecasts to succeed",
+        "C": "Bottom-up selection can overlook sector and economic risk",
+        "D": "Top-down selection can miss good companies in weak sectors"
+      },
+      "answer": "C",
+      "rationale": "Winnie studies companies first, so she is a bottom-up manager. Bottom-up finds individual mispricings but can overlook sector or macro risk. Here her stock choices built a large sector bet that she did not plan. Missing good companies in weak sectors is the top-down weakness.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 top-down vs bottom-up"
+    },
+    {
+      "id": "RSE-E6-0105",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rafferty Montague expects the economy to enter a contraction. He keeps his fund fully invested in equities but moves into consumer staples, utilities and health care. Which technique does he use?",
+      "options": {
+        "A": "Buy and hold",
+        "B": "Market timing",
+        "C": "Sector rotation",
+        "D": "Value investing"
+      },
+      "answer": "C",
+      "rationale": "Rafferty overweights the sectors that he expects to lead in the next phase of the cycle, so he uses sector rotation. Defensive sectors fit a contraction. He is not a market timer, because he does not switch out of equities into cash or bonds.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 sector rotation vs market timing"
+    },
+    {
+      "id": "RSE-E6-0106",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Which list matches the common textbook pattern of sector rotation over the business cycle?",
+      "options": {
+        "A": "Early expansion: energy; late expansion: utilities; contraction: financials",
+        "B": "Early expansion: utilities; late expansion: financials; contraction: energy",
+        "C": "Early expansion: financials; late expansion: energy; contraction: utilities",
+        "D": "Early expansion: financials; late expansion: utilities; contraction: energy"
+      },
+      "answer": "C",
+      "rationale": "In the textbook pattern, cyclicals such as consumer discretionary and financials lead in early expansion. Energy and materials lead in late expansion. Defensives such as staples, utilities and health care lead in contraction. Actual leadership varies from cycle to cycle.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 sector rotation pattern"
+    },
+    {
+      "id": "RSE-E6-0107",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Dov Szymanski buys a stock with a P/E ratio of 4 and a dividend yield of 9%. A new technology is replacing the company's main product. Which risk matters most here?",
+      "options": {
+        "A": "Growth risk: both earnings and a high P/E multiple can fall at the same time",
+        "B": "Timing risk: he must be right about both the exit and the re-entry",
+        "C": "A value trap: the stock is cheap because its business is in permanent decline",
+        "D": "Tracking error: the stock can move differently from its benchmark index"
+      },
+      "answer": "C",
+      "rationale": "A low P/E and a high yield make this a value purchase. The main danger in value investing is a value trap, a stock that is cheap because its business is in permanent decline. A falling high P/E is a growth-stock risk, and this multiple is already low.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 value investing"
+    },
+    {
+      "id": "RSE-E6-0108",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which pair of traits is most typical of the stocks that a growth manager buys?",
+      "options": {
+        "A": "Low P/E ratios and high dividend yields",
+        "B": "Low P/E ratios and low earnings growth",
+        "C": "High P/E ratios and low dividend yields",
+        "D": "Low price-to-book ratios and high dividend yields"
+      },
+      "answer": "C",
+      "rationale": "Growth managers buy companies with above-average earnings growth. Their prices already include that growth, so P/E ratios are high, and their dividends are often low. Low P/E, low price-to-book and high dividend yield are value traits.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 growth investing"
+    },
+    {
+      "id": "RSE-E6-0109",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Two managers act on the same forecast. Eulalie Drummond raises equities from 60% to 65%, inside her policy range. Umberto Quarles cuts equities from 80% to 20% and holds cash. Which statement is correct?",
+      "options": {
+        "A": "Both make tactical tilts, because both keep some equities",
+        "B": "Umberto is a market timer, and Eulalie makes a tactical tilt",
+        "C": "Both are market timers, because both act on a forecast",
+        "D": "Eulalie is a market timer, and Umberto makes a tactical tilt"
+      },
+      "answer": "B",
+      "rationale": "Market timing is the extreme form of tactical allocation: large switches between equities and cash on market forecasts. A tactical tilt is a smaller move inside set ranges around the strategic mix. Both moves use a forecast, so the size and the range decide the label.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 market timing vs tactical allocation"
+    },
+    {
+      "id": "RSE-E6-0110",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Xiomara Underhill moved her equities to cash before a market fall. She will wait for clear signs of recovery before she buys again. Why can this cost her much of her long-run return?",
+      "options": {
+        "A": "She can miss a few very strong days, which give a large part of long-run returns",
+        "B": "Recoveries are always slower than the falls that come before them",
+        "C": "Cash always loses value faster than equities lose value during a market fall",
+        "D": "Equities pay no dividends during a recovery, so she loses no income by waiting"
+      },
+      "answer": "A",
+      "rationale": "Out of the market, a timer can miss a few very strong days, and those days give a large part of long-run returns. If she waits for clear signs of recovery, she can be in cash on those days. This risk adds to the risk of a wrong exit.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 market timing"
+    },
+    {
+      "id": "RSE-E6-0111",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Valka Prentice says: \"I am a value manager, so I must use a bottom-up process.\" Which reply is correct?",
+      "options": {
+        "A": "Incorrect: value is a style, which a manager can run top-down or bottom-up",
+        "B": "Incorrect: value managers must always start with an economic forecast",
+        "C": "Correct: value managers must study company ratios before the economy",
+        "D": "Correct: only growth managers can use a top-down process"
+      },
+      "answer": "A",
+      "rationale": "Growth and value are styles. Top-down and bottom-up describe the order of analysis. A manager can combine either style with either approach. So a value manager can choose favoured sectors first and then buy the cheapest companies in them.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 styles vs approaches"
+    },
+    {
+      "id": "RSE-E6-0112",
+      "element": 6,
+      "outcome": "6.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement correctly distinguishes a buy-and-hold portfolio from an index portfolio?",
+      "options": {
+        "A": "The buy-and-hold portfolio has high turnover; the index portfolio has none",
+        "B": "The buy-and-hold manager chose the securities; the index manager copies a benchmark",
+        "C": "The buy-and-hold manager rebalances to targets; the index manager never trades",
+        "D": "The buy-and-hold portfolio has no market risk; the index portfolio has full market risk"
+      },
+      "answer": "B",
+      "rationale": "Both are passive and trade little. But a buy-and-hold manager still selected the original securities, while an index manager copies a benchmark such as the S&P/TSX Composite. A buy-and-hold manager does not rebalance, so the mix drifts. Both carry market risk.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.11 buy and hold"
+    },
+    {
+      "id": "RSE-E6-0113",
+      "element": 6,
+      "outcome": "6.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Folasade Eriksen bought 12 stocks 18 years ago and never traded or rebalanced. One stock is now 35% of her portfolio. Which statement best describes her risk?",
+      "options": {
+        "A": "Her risk now equals the risk of a broad market index",
+        "B": "Her risk has drifted into a large concentration in one issuer",
+        "C": "Her risk is unchanged, because she still holds the same 12 stocks",
+        "D": "Her risk is low, because buy and hold removes market risk"
+      },
+      "answer": "B",
+      "rationale": "Without rebalancing, a buy-and-hold mix drifts, so its risk changes over time. The best performer grew to 35%, which is an issuer concentration. The same names do not keep the same weights or risk. Buy and hold does not remove market risk.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.11 buy and hold drift"
+    },
+    {
+      "id": "RSE-E6-0114",
+      "element": 6,
+      "outcome": "6.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An index fund holds 140 of the 220 stocks in its index. The manager chose them as a representative subset and uses no optimization model. Which indexing method is this?",
+      "options": {
+        "A": "Optimization",
+        "B": "Full replication",
+        "C": "Sector rotation",
+        "D": "Sampling"
+      },
+      "answer": "D",
+      "rationale": "Sampling holds a representative subset of the index. Full replication holds every index stock at its index weight. Optimization uses a model to minimize the deviation from the index. Sector rotation is an active technique, not an indexing method.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.11 tracking/indexing methods"
+    },
+    {
+      "id": "RSE-E6-0115",
+      "element": 6,
+      "outcome": "6.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An index ETF trails its index by close to the same amount every year. Which cause best explains most of this tracking difference?",
+      "options": {
+        "A": "The timing of trades during the year",
+        "B": "Cash drag that changes with fund flows",
+        "C": "Sampling of the index stocks",
+        "D": "The fund's fees"
+      },
+      "answer": "D",
+      "rationale": "Fees reduce the return by about the same amount each year, so they cause most of the tracking difference. Sampling, cash drag and trade timing have effects that change from period to period. They cause most of the tracking error.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.11 tracking difference vs tracking error"
+    },
+    {
+      "id": "RSE-E6-0116",
+      "element": 6,
+      "outcome": "6.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "An index fund's return gap with its index swings between −0.6% and +0.5% from month to month. On average, the gap is small. Which cause best fits this pattern?",
+      "options": {
+        "A": "The fund holds only a sample of the index stocks",
+        "B": "The fund carries full market risk, like its index",
+        "C": "The fund's index is weighted by market capitalization",
+        "D": "The fund charges a fixed annual management fee"
+      },
+      "answer": "A",
+      "rationale": "A gap that changes a lot but is small on average shows high tracking error, not a large tracking difference. Sampling, cash drag and trade timing cause most tracking error. A steady fee mainly causes a steady tracking difference. Market risk affects the fund and the index alike.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.11 tracking error causes"
+    },
+    {
+      "id": "RSE-E6-0117",
+      "element": 6,
+      "outcome": "6.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Ansel Jankowski holds a cap-weighted Canadian equity index fund. He sees that a few sectors and the largest stocks make up much of the fund. Which disadvantage of indexing does this show?",
+      "options": {
+        "A": "Index funds carry security-selection risk from manager choices",
+        "B": "Cap weighting concentrates the fund in the largest stocks and sectors",
+        "C": "Full replication increases tracking error over time",
+        "D": "Index funds have high turnover and poor tax efficiency"
+      },
+      "answer": "B",
+      "rationale": "A cap-weighted index gives the most weight to the largest companies, which are sometimes overvalued. So the fund can concentrate in a few stocks or sectors. Indexing has low turnover and good tax efficiency, and it largely removes security-selection risk.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.11 advantages and disadvantages"
+    },
+    {
+      "id": "RSE-E6-0118",
+      "element": 6,
+      "outcome": "6.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Hedda Yamamoto wants an index fund that beats the S&P/TSX Composite in rising markets. Which reply is accurate?",
+      "options": {
+        "A": "The fund beats the index if it uses full replication",
+        "B": "The fund beats the index in rising markets because its fees are low",
+        "C": "The fund's return is capped at the index return less costs",
+        "D": "The fund can beat the index whenever its tracking error is high"
+      },
+      "answer": "C",
+      "rationale": "Passive management accepts the market return and does not try to beat it. The index return less costs is the ceiling. Low fees narrow the gap but do not lift the fund above the index. High tracking error means less consistent tracking, not a reliable gain.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.11 disadvantages (ceiling)"
+    },
+    {
+      "id": "RSE-E6-0119",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "A bond manager expects interest rates to rise. Which step fits this forecast?",
+      "options": {
+        "A": "Move into long-term strip bonds",
+        "B": "Set duration equal to the client's horizon",
+        "C": "Lengthen the portfolio's duration",
+        "D": "Shorten the portfolio's duration"
+      },
+      "answer": "D",
+      "rationale": "Bond prices fall when rates rise, and a longer duration means a larger price fall. So a manager who expects higher rates shortens duration. Long strip bonds lengthen duration. Matching duration to a horizon is immunization, a passive technique with no rate forecast.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.12 duration management and exam trap"
+    },
+    {
+      "id": "RSE-E6-0120",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A manager lengthens duration because she expects interest rates to fall. Instead, rates rise. What is the result?",
+      "options": {
+        "A": "Prices rise, because longer bonds pay higher coupons",
+        "B": "Higher reinvestment income fully offsets the price loss",
+        "C": "Nothing changes, because duration affects only cash flows",
+        "D": "Prices fall more than they would have at the old duration"
+      },
+      "answer": "D",
+      "rationale": "Duration management gains if the rate forecast is right and loses more if it is wrong. With a longer duration, a rise in rates causes a larger price fall than at the old duration. A full offset from reinvestment income is the aim of immunization, not of a rate bet.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.12 duration management risk"
+    },
+    {
+      "id": "RSE-E6-0121",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "A manager sells a bond and buys a nearly identical bond that offers a slightly higher yield. Which technique is this?",
+      "options": {
+        "A": "A substitution swap",
+        "B": "Immunization",
+        "C": "A rate anticipation swap",
+        "D": "An intermarket spread swap"
+      },
+      "answer": "A",
+      "rationale": "A substitution swap exchanges a bond for a near-identical bond at a better yield. A rate anticipation swap changes maturity or duration to match a rate forecast. An intermarket swap moves between sectors when a spread looks too wide or too narrow.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.12 bond swaps"
+    },
+    {
+      "id": "RSE-E6-0122",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Mattias Fairweather sells a bond at a capital loss in a tax-loss swap. He wants similar exposure and a deductible loss. Which replacement fits?",
+      "options": {
+        "A": "The identical bond, bought 25 days before the sale and still held",
+        "B": "The identical bond, bought by his spouse 10 days after the sale",
+        "C": "The identical bond, bought back 20 days after the sale",
+        "D": "A similar but not identical bond, bought right after the sale"
+      },
+      "answer": "D",
+      "rationale": "A tax-loss swap buys a similar, not identical, bond. The superficial loss rule denies the loss if he or an affiliated person buys identical property within 30 days before or after the sale. A spouse is an affiliated person.",
+      "rule_refs": [
+        "CRA superficial loss"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"You, or a person affiliated with you, buys, or has a right to buy, the same or identical property\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA superficial loss page, ~line 728",
+      "qa_note": "regulatory: guide 6.12 tax-loss swap; 7.9 conditions (affiliated incl. spouse)"
+    },
+    {
+      "id": "RSE-E6-0123",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A manager thinks that the yield spread between provincial and corporate bonds is too wide. She sells provincial bonds and buys corporate bonds. Which swap is this?",
+      "options": {
+        "A": "An intermarket (yield-spread) swap",
+        "B": "A rate anticipation swap",
+        "C": "A tax-loss swap",
+        "D": "A substitution swap"
+      },
+      "answer": "A",
+      "rationale": "An intermarket swap moves between bond sectors when a spread looks too wide or too narrow. She expects the spread to narrow, so corporates should gain against provincials. A substitution swap uses a near-identical bond, and a rate anticipation swap acts on a rate forecast.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.12 bond swaps"
+    },
+    {
+      "id": "RSE-E6-0124",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A bond index holds too many issues for a manager to buy them all. How does an index-matching manager usually build the portfolio?",
+      "options": {
+        "A": "Hold only the index's largest issues, whatever their duration",
+        "B": "Hold a sample that matches the index's duration, sector and credit quality",
+        "C": "Hold a ladder of bonds with staggered maturities to the horizon",
+        "D": "Set the portfolio's duration equal to the client's horizon"
+      },
+      "answer": "B",
+      "rationale": "Index matching copies a bond index at low cost. The index holds too many issues, so the manager holds a sample that matches it in duration, sector and credit quality. The main risk is tracking error. A ladder is buy and hold, and horizon matching is immunization.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.12 index matching"
+    },
+    {
+      "id": "RSE-E6-0125",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A portfolio is immunized for a five-year horizon. Interest rates then rise. What offsets the fall in bond prices?",
+      "options": {
+        "A": "A matching rise in the bonds' par values",
+        "B": "Higher income from reinvesting coupons at the new rates",
+        "C": "Higher prices on the longer bonds in the portfolio",
+        "D": "A rise in the portfolio's credit quality"
+      },
+      "answer": "B",
+      "rationale": "Immunization sets the portfolio's Macaulay duration equal to the horizon. If rates rise, prices fall, but coupons are reinvested at higher rates. If rates fall, higher prices offset the lower reinvestment income. Par values do not change, and longer bonds fall most when rates rise.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.12 immunization"
+    },
+    {
+      "id": "RSE-E6-0126",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Zelda Calloway holds a ladder of corporate bonds to maturity. She believes that she will get par back on every bond. Which risk can make her wrong?",
+      "options": {
+        "A": "Interest rate risk",
+        "B": "Issuer (credit) risk",
+        "C": "Reinvestment risk",
+        "D": "Inflation risk"
+      },
+      "answer": "B",
+      "rationale": "Held to maturity, each bond repays par whatever the level of interest rates. Reinvestment risk affects the rate on the money that matures, and inflation affects its buying power. But if an issuer defaults, she does not get par back. A ladder keeps issuer risk.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.12 buy and hold ladder"
+    }
+  ]
+}

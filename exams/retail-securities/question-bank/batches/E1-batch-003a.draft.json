@@ -1,0 +1,1472 @@
+{
+  "meta": {
+    "batch": "E1-003a",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E1-0063",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "According to CIRO guidance, the client relationship model (CRM) project addressed which element?",
+      "options": {
+        "A": "Product due diligence",
+        "B": "Trusted contact person rules",
+        "C": "Account appropriateness",
+        "D": "Account performance reporting"
+      },
+      "answer": "D",
+      "rationale": "The CRM project addressed four elements: relationship disclosure, conflicts management and disclosure, suitability assessment and account performance reporting. Account appropriateness and product due diligence are separate obligations that the CRM list does not name.",
+      "rule_refs": [
+        "GN-3100-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Relationship disclosure; Conflicts of interest management/disclosure; Suitability assessment; and Account performance reporting.\" — research/sources/ciro/gn-3100-21-001-client-relationship-model.txt GN-3100-21-001 Executive Summary, ~L28-33"
+    },
+    {
+      "id": "RSE-E1-0064",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Corvin Ashdale buys a corporate bond. The dealer sells it to him from its own inventory at a markup. Which statement is correct?",
+      "options": {
+        "A": "The dealer acts as agent and earns a commission on the trade.",
+        "B": "The dealer acts as agent, so the trade creates no conflict.",
+        "C": "The dealer acts as principal, so it owes the client no duties.",
+        "D": "The dealer acts as principal and is on the other side of the trade."
+      },
+      "answer": "D",
+      "rationale": "When a dealer sells from its own inventory at a markup or spread, it acts as principal and is the counterparty to the client. An agent executes the client's order for a commission. Acting as principal is a conflict to identify, not a release from client duties.",
+      "rule_refs": [
+        "IDPC 3110"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 1.1 (agent vs principal)"
+    },
+    {
+      "id": "RSE-E1-0065",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Rosalind Petrakis lives in Ontario. She spends each January to March in Arizona and stays resident in Ontario. How does IDPC 2551(1) apply to her account?",
+      "options": {
+        "A": "It needs the RR to use the mobility exemption each winter.",
+        "B": "It needs the account to close during her time abroad.",
+        "C": "It needs registration in Ontario, where she still resides.",
+        "D": "It needs registration in Arizona while she is there."
+      },
+      "answer": "C",
+      "rationale": "IDPC 2551(1) looks to the jurisdiction where the client resides, and IDPC \"securities laws\" are Canadian laws. A snowbird usually stays resident in Canada, so Ontario registration applies. The mobility exemption is for a client who becomes resident in another Canadian jurisdiction.",
+      "rule_refs": [
+        "IDPC 2551(1)",
+        "IDPC 1201"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"in Canada enacted by the government of Canada or any province or territory in Canada\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 1201 'securities laws', ~L956"
+    },
+    {
+      "id": "RSE-E1-0066",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer is not registered in Nova Scotia. After several client moves, it now serves 11 eligible clients who reside there. What must the dealer do?",
+      "options": {
+        "A": "Nothing, because the limit counts only the RRs' clients.",
+        "B": "Nothing, because each client was a client before the move.",
+        "C": "Close the accounts of the clients who moved most recently.",
+        "D": "Register in Nova Scotia, because it exceeds the firm limit."
+      },
+      "answer": "D",
+      "rationale": "The firm mobility exemption permits a dealer to serve 10 or fewer eligible clients in a jurisdiction. With 11, the firm exceeds the limit and must register there. Eligible-client status alone does not remove the per-jurisdiction cap.",
+      "rule_refs": [
+        "NI 31-103 s. 8.30",
+        "31-103CP s. 2.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"If the firm exceeds the 10 client limit, the firm must be registered in the local jurisdiction.\" — research/sources/csa/cp-31-103-parts-2-7-8-11-categories-mobility-records-guidance.txt 31-103CP s.2.2 Limits on the number of clients, ~L93"
+    },
+    {
+      "id": "RSE-E1-0067",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Teodor Malinowski, a client of a Saskatchewan RR, moves to Alberta. His wife was not a client. She now wants the same RR to open an account for her. How does the individual mobility exemption treat her?",
+      "options": {
+        "A": "She is eligible only after she lives in Alberta for one year.",
+        "B": "She is an eligible client, as the spouse of an eligible client.",
+        "C": "She is not eligible, because only children of clients qualify.",
+        "D": "She is not eligible, because she was not a client before the move."
+      },
+      "answer": "B",
+      "rationale": "An eligible client is an individual who was a client immediately before the move, or that client's spouse or child. Teodor is eligible, so his wife is also eligible. She does not need to have been a client herself.",
+      "rule_refs": [
+        "NI 31-103 s. 1.1"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the client is the spouse or a child of a client referred to in paragraph (a)\" — research/sources/csa/ni-31-103-registration-requirements.txt NI 31-103 s.1.1 'eligible client' (b), ~L388"
+    },
+    {
+      "id": "RSE-E1-0068",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Fenwick Oduya is an RR registered only in Manitoba. He moves to Saskatchewan and wants to use the mobility exemption to take on new Saskatchewan residents. Which statement is correct?",
+      "options": {
+        "A": "He can, if his dealer files Form 31-103F3 before the trades.",
+        "B": "He cannot, because the exemption depends on a move by the client.",
+        "C": "He can, because his own move starts the exemption period.",
+        "D": "He can, if he serves 5 or fewer clients in Saskatchewan."
+      },
+      "answer": "B",
+      "rationale": "The mobility exemption becomes available when the client, not the registrant, moves to another jurisdiction. New Saskatchewan residents were not his clients before a move, so they are not eligible clients. The limit of 5 applies only to eligible clients.",
+      "rule_refs": [
+        "NI 31-103 s. 2.2",
+        "31-103CP s. 2.2"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"The exemption becomes available when the client (not the registrant) moves to another jurisdiction.\" — research/sources/csa/cp-31-103-parts-2-7-8-11-categories-mobility-records-guidance.txt 31-103CP s.2.2, ~L59"
+    },
+    {
+      "id": "RSE-E1-0069",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An RR plans to rely on the individual mobility exemption for an eligible client. What must happen before the RR first acts for that client?",
+      "options": {
+        "A": "The client signs a consent to an exemption from Part 13 duties.",
+        "B": "The sponsoring firm discloses to the client that the RR relies on the exemption.",
+        "C": "The RR registers in the client's new province for one year.",
+        "D": "The sponsoring firm gets approval from the new province's regulator."
+      },
+      "answer": "B",
+      "rationale": "Before the individual first acts, the sponsoring firm must disclose that the individual is exempt and not subject to some local requirements. The individual must still comply with Part 13. The firm files Form 31-103F3 after the individual first relies on the exemption, without prior approval.",
+      "rule_refs": [
+        "NI 31-103 s. 2.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"before first acting as a dealer or adviser for an eligible client, the individual’s sponsoring firm has disclosed to the client that the individual\" — research/sources/csa/ni-31-103-parts-2-7-8-11-categories-exemptions-records.txt NI 31-103 s.2.2(1)(g), ~L117"
+    },
+    {
+      "id": "RSE-E1-0070",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Marguerite Vasseur holds a TFSA. She plans to emigrate to Portugal and become a non-resident of Canada. Which statement is correct?",
+      "options": {
+        "A": "She must collapse the TFSA before she leaves Canada.",
+        "B": "She may keep the TFSA, but each withdrawal becomes taxable.",
+        "C": "She may keep the TFSA and contribute as before, with no tax.",
+        "D": "She may keep the TFSA, but a new contribution can attract a monthly tax."
+      },
+      "answer": "D",
+      "rationale": "A client who leaves Canada may keep a TFSA, and withdrawals stay tax-free. A contribution made while non-resident is generally subject to a tax for each month it stays in the account. The move also changes her KYC.",
+      "rule_refs": [
+        "CRA TFSA non-resident rules"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Any non-resident contribution you make, except for a qualifying transfer or an exempt contribution, is subject to a 1% tax for each month the contribution remains in the account.\" — research/sources/cra/tfsa-pages.txt CRA TFSA non-resident page, 'How non-resident contributions are taxed', ~L1690"
+    },
+    {
+      "id": "RSE-E1-0071",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Hamish Corrigan has emigrated and is now a non-resident of Canada. He withdraws money from his RRSP. What is the withholding rate?",
+      "options": {
+        "A": "30%, with no reduction by any treaty",
+        "B": "10%, unless a tax treaty reduces it",
+        "C": "15%, unless a tax treaty raises it",
+        "D": "25%, unless a tax treaty reduces it"
+      },
+      "answer": "D",
+      "rationale": "For non-residents of Canada, RRSP withholding is 25% unless a tax treaty reduces it. This tax effect can change the client's income and liquidity, so it is also a significant KYC change.",
+      "rule_refs": [
+        "CRA RRSP withholding rules"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"For non-residents of Canada, withholding is 25% unless reduced by a treaty.\" — research/sources/cra/rrsp-rrif-hbp-pages.txt CRA RRSP withdrawals and withholding, ~L510"
+    },
+    {
+      "id": "RSE-E1-0072",
+      "element": 1,
+      "outcome": "1.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Leopold Hartigan is leaving Canada. Which of his holdings is excluded from the departure-tax deemed disposition?",
+      "options": {
+        "A": "His registered retirement savings plan",
+        "B": "His corporate bonds in a non-registered account",
+        "C": "His mutual fund units in a margin account",
+        "D": "His common shares in a cash account"
+      },
+      "answer": "A",
+      "rationale": "On emigration, CRA treats the client as if he sold certain property at fair market value. Registered plans and pensions, such as an RRSP, are excluded. Non-registered shares, fund units and bonds are not on the list of exceptions.",
+      "rule_refs": [
+        "CRA emigrant rules"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"pension plans, annuities, registered retirement savings plans, pooled registered pension plans, registered retirement income funds, registered education savings plans, registered disability savings plans, tax-free savings accounts\" — research/sources/cra/emigrants-leaving-canada-departure-tax-pages.txt CRA emigrant pages, exceptions to deemed disposition, ~L242"
+    },
+    {
+      "id": "RSE-E1-0073",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "During account opening, Basilio Moretti answers \"no\" when asked if he is an insider. He then says he is not sure what the term means. What should the RR do?",
+      "options": {
+        "A": "Record his answer as given, because KYC uses the client's own words.",
+        "B": "Mark him as an insider, because an unclear answer needs caution.",
+        "C": "Explain what an insider is, and what publicly traded means, then ask again.",
+        "D": "Skip the question, because insider status is not a KYC requirement."
+      },
+      "answer": "C",
+      "rationale": "The dealer must establish whether the client is an insider of a publicly traded issuer. Guidance says to explain what an insider is and what publicly traded means, and then to ask. An uninformed answer does not meet this step.",
+      "rule_refs": [
+        "IDPC 3202(1)(ii)",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Dealers should explain to the client what an insider is and what it means for securities to be publicly traded and then ask the client whether they are an insider.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.2.4, ~L156"
+    },
+    {
+      "id": "RSE-E1-0074",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "When must the dealer establish a client's creditworthiness?",
+      "options": {
+        "A": "When the client names a trusted contact person",
+        "B": "When the client opens any account with more than $100,000",
+        "C": "When the client asks for an order-execution-only account",
+        "D": "When the dealer finances the client's purchase of a security"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3202(1) requires the dealer to establish creditworthiness if it finances the client's acquisition of a security, such as in a margin account. Account size, a trusted contact person or the service type does not trigger this step.",
+      "rule_refs": [
+        "IDPC 3202(1)(iv)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"establish the creditworthiness of the client if the Dealer Member is financing the client’s acquisition of a security\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3202(1)(iv), ~L5517"
+    },
+    {
+      "id": "RSE-E1-0075",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "On her KYC form, Ottilie Brannagh says she knows little about investing. She also says she wants a high level of risk. What should the RR do?",
+      "options": {
+        "A": "Record a low risk profile without further discussion with her.",
+        "B": "Make further inquiries, because her answers appear inconsistent.",
+        "C": "Refuse to open the account until she takes a course.",
+        "D": "Record a high risk profile, because the client chose it."
+      },
+      "answer": "B",
+      "rationale": "Guidance gives this exact mismatch as a case where the RR should ask more questions. The RR must not simply accept the stated risk level. Nor should the RR set a profile without a discussion with the client.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"a client may indicate that they have limited investment knowledge and experience, while also indicating a willingness to take on a high level of risk\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.4, ~L244"
+    },
+    {
+      "id": "RSE-E1-0076",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer's KYC form asks: \"How much loss can you accept, and how long will you invest?\" What is the problem with this question?",
+      "options": {
+        "A": "It combines two KYC factors into one question.",
+        "B": "It uses a question that only a supervisor may ask.",
+        "C": "It asks about risk before it asks about objectives.",
+        "D": "It asks about time horizon, which KYC does not need."
+      },
+      "answer": "A",
+      "rationale": "Guidance warns against combining multiple KYC variables into one question. This question mixes risk tolerance and time horizon, so one answer cannot record each factor clearly. Time horizon is one of the required KYC factors.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"combine multiple KYC variables into one question\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.12, ~L432"
+    },
+    {
+      "id": "RSE-E1-0077",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Severin Albescu states a 20-year investment horizon. He also says that he needs most of the money in two years to buy a house. What is the dealer's responsibility?",
+      "options": {
+        "A": "Assess whether the stated horizon is feasible given his liquidity needs.",
+        "B": "Record the 20-year horizon, because the client stated it.",
+        "C": "Record a two-year horizon without discussion with the client.",
+        "D": "Ignore the house purchase, because it is a personal matter."
+      },
+      "answer": "A",
+      "rationale": "The dealer must assess whether the stated time horizon is feasible and reasonable. It considers the client's liquidity needs, age, objectives and risk profile. A near-term house purchase conflicts with a 20-year horizon, so the RR discusses it with the client.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the Dealer has the responsibility to assess its feasibility and reasonableness relative to the client’s liquidity needs, age, investment objectives, risk profile, and other particular circumstances\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.6, ~L283"
+    },
+    {
+      "id": "RSE-E1-0078",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ingeborg Talvik tells her RR that she uses a home equity line of credit to fund her investments. What should the RR gather next?",
+      "options": {
+        "A": "Information on the lender's credit rating and fees",
+        "B": "Information on her ability to meet the debt obligations",
+        "C": "A copy of her mortgage title from the land registry",
+        "D": "A written promise that she will not borrow again"
+      },
+      "answer": "B",
+      "rationale": "Borrowing to invest is part of financial circumstances. When a client borrows to invest, guidance says the dealer should gather information on the client's ability to meet debt obligations. Leverage magnifies losses, so this affects suitability.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"When a client uses leverage or borrows money to invest, the Dealer should gather information on the client’s ability to meet debt obligations.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.2, ~L213"
+    },
+    {
+      "id": "RSE-E1-0079",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Aurelio Fontaine wants no fossil fuel producers in his account. He also prefers issuers with diverse boards. How should the RR handle these wishes?",
+      "options": {
+        "A": "Ignore them, because no rule requires personal preferences.",
+        "B": "Record them as investment constraints that each recommendation respects.",
+        "C": "Record them only if the dealer offers an ESG fund.",
+        "D": "Treat them as his risk profile in place of tolerance and capacity."
+      },
+      "answer": "B",
+      "rationale": "Guidance recognizes investing by ESG criteria or other personal preferences. EDI preferences, such as diverse boards, are also recorded as a client preference or restriction. Every recommendation must then respect them.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"investing in accordance with environmental, social and governance criteria or other personal preferences\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.3, ~L228"
+    },
+    {
+      "id": "RSE-E1-0080",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An RR wants to sell a high-risk product to a client with a medium risk profile. He changes the client's risk tolerance in the file to \"high\" so that the product fits. Which statement is correct?",
+      "options": {
+        "A": "This is permitted if the client signs the new KYC form later.",
+        "B": "This is prohibited manipulation of KYC to reach a pre-determined outcome.",
+        "C": "This is permitted if the supervisor approves the trade first.",
+        "D": "This is permitted because risk tolerance changes over time."
+      },
+      "answer": "B",
+      "rationale": "Guidance says dealers and RRs must not manipulate KYC information to match a security or to lead to a pre-determined outcome. A later signature or supervisor approval does not fix false KYC. A real change in tolerance needs a real discussion with the client.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Dealers and Registered Individuals must not manipulate KYC information to correspond or match with a security, account, portfolio or otherwise be manipulated to lead to a pre-determined outcome.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.2.5, ~L160"
+    },
+    {
+      "id": "RSE-E1-0081",
+      "element": 1,
+      "outcome": "1.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Apart from suitability, why does a dealer collect KYC information?",
+      "options": {
+        "A": "To decide the CIPF coverage limit for the client's accounts",
+        "B": "To set the commission rate that the dealer charges the client",
+        "C": "To act as a gatekeeper of the markets, including for anti-money laundering",
+        "D": "To report the client's net worth to the Canada Revenue Agency"
+      },
+      "answer": "C",
+      "rationale": "KYC has two purposes. It is the input to suitability, and it supports the dealer's role as a gatekeeper of the markets, such as AML compliance. KYC does not set commission rates or CIPF limits.",
+      "rule_refs": [
+        "IDPC 3202(1)",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Dealers are also required to collect KYC information as part of their role as gatekeepers of our financial markets, including complying with their anti-money laundering (AML) regulatory obligations\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.1, ~L133"
+    },
+    {
+      "id": "RSE-E1-0082",
+      "element": 1,
+      "outcome": "1.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "After two years of strong market gains, Kasimir Dunleavy says that his risk tolerance is now very high. He has little investment experience. What should the RR do?",
+      "options": {
+        "A": "Raise his risk capacity to match his stated tolerance.",
+        "B": "Record very high tolerance and review it in 36 months.",
+        "C": "Record very high tolerance, because recent gains support it.",
+        "D": "Check his stated tolerance against his knowledge and past behaviour."
+      },
+      "answer": "D",
+      "rationale": "Behavioural factors, such as recent market moves and overconfidence, influence stated tolerance. So the RR checks the stated tolerance against the client's knowledge and past behaviour. Tolerance never changes capacity, which depends on financial facts.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 1.3 (behavioural factors in risk tolerance)"
+    },
+    {
+      "id": "RSE-E1-0083",
+      "element": 1,
+      "outcome": "1.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which fact relates to a client's risk capacity, not to risk tolerance?",
+      "options": {
+        "A": "How the client felt during the last market decline",
+        "B": "How confident the client feels about choosing stocks",
+        "C": "How much of the client's total investments the account represents",
+        "D": "How much volatility the client says that he will accept"
+      },
+      "answer": "C",
+      "rationale": "Risk capacity is the ability to endure financial loss. Guidance lists facts such as how much of the client's total investments an account or position represents. Feelings about past declines and stated comfort with volatility describe willingness, which is risk tolerance.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"how much of a client’s total investments an account or a particular securities position represents\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, ~L266"
+    },
+    {
+      "id": "RSE-E1-0084",
+      "element": 1,
+      "outcome": "1.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which inputs determine a client's risk need?",
+      "options": {
+        "A": "Liquidity needs, current investments and investment horizon",
+        "B": "Required rate of return, market risk environment and consequence of failure",
+        "C": "Loss aversion, overconfidence and the framing of questions",
+        "D": "Age, income and net worth of the client and the client's spouse"
+      },
+      "answer": "B",
+      "rationale": "Risk need is a planning concept that asks how much risk the client's goals require. It depends on the required return, the market risk environment and the consequence of failure. Liquidity and horizon are capacity facts, and biases affect tolerance.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 1.3 (risk need)"
+    },
+    {
+      "id": "RSE-E1-0085",
+      "element": 1,
+      "outcome": "1.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Philippa Strand says that she cannot accept any loss of capital, even a small one. Under CIRO guidance, how should a thorough risk process treat her?",
+      "options": {
+        "A": "Record a medium profile, because some loss is always possible.",
+        "B": "Place her in a balanced fund to teach her about volatility.",
+        "C": "Identify her as better suited to cash deposits or guaranteed products.",
+        "D": "Refuse her as a client, because she cannot accept risk."
+      },
+      "answer": "C",
+      "rationale": "A thorough process identifies clients more suited to cash deposits or guaranteed products. These clients are unwilling or unable to accept the risk of loss of capital. The RR must not override her answers to fit a product.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"identifying clients that are more suited to placing their money in cash deposits or guaranteed products because they are unwilling or unable to accept the risk of loss of capital\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, ~L261"
+    },
+    {
+      "id": "RSE-E1-0086",
+      "element": 1,
+      "outcome": "1.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "While a client completes a risk questionnaire, RR Damaris Kettering says, \"Most clients your age choose aggressive.\" What is the problem?",
+      "options": {
+        "A": "The RR asks about tolerance before asking about capacity.",
+        "B": "The RR uses a questionnaire instead of a face-to-face meeting.",
+        "C": "The RR fails to record the date of the questionnaire.",
+        "D": "The RR influences how the client answers the risk questions."
+      },
+      "answer": "D",
+      "rationale": "Guidance says that clients should not be influenced by the RR in how they answer risk tolerance or risk capacity questions. Questions must also be fair, clear and not misleading. A questionnaire is an acceptable tool.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"clients should not be influenced by a Registered Individual as to the way they respond to questions related to their risk tolerance or risk capacity\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, ~L271"
+    },
+    {
+      "id": "RSE-E1-0087",
+      "element": 1,
+      "outcome": "1.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer's risk tool sets each client's profile from one answer: how the client would react to a 20% decline. Which weakness does CIRO guidance identify?",
+      "options": {
+        "A": "It relies on a hypothetical market decline of 20%.",
+        "B": "It fails to ask for the client's preferred benchmark.",
+        "C": "It gives inappropriate weight to a single answer.",
+        "D": "It measures risk capacity in place of investment knowledge."
+      },
+      "answer": "C",
+      "rationale": "A thorough process interprets client responses appropriately and does not give inappropriate weight to certain answers. It must assess both tolerance and capacity. One reaction question measures only part of tolerance, so the tool cannot support the profile.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"appropriately interpreting client responses to questions and not attributing inappropriate weight to certain answers\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, ~L259"
+    },
+    {
+      "id": "RSE-E1-0088",
+      "element": 1,
+      "outcome": "1.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "In CIRO guidance, what does \"risk capacity\" mean?",
+      "options": {
+        "A": "The return that the client's goals require",
+        "B": "The client's knowledge of investment products",
+        "C": "The client's willingness to accept risk",
+        "D": "The client's ability to endure financial loss"
+      },
+      "answer": "D",
+      "rationale": "Guidance splits the risk profile into willingness to accept risk, called risk tolerance, and ability to endure financial loss, called risk capacity. The return that goals require is risk need, a planning concept.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"willingness to accept risk, sometimes referred to as risk tolerance, and ability to endure financial loss, sometimes referred to as risk capacity\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, ~L251"
+    },
+    {
+      "id": "RSE-E1-0089",
+      "element": 1,
+      "outcome": "1.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Oriana Delacroix, 32, is an experienced trader and comfortable with large swings. Her savings are a down payment that she will need in one year. What risk profile should the RR record?",
+      "options": {
+        "A": "Low, because her risk capacity is low.",
+        "B": "Medium, as an average of tolerance and capacity.",
+        "C": "High, because her risk tolerance is high.",
+        "D": "High, because her investment knowledge is high."
+      },
+      "answer": "A",
+      "rationale": "The risk profile should reflect the lower of tolerance and capacity. Her tolerance is high, but she needs the money in one year, so a loss would harm an essential goal. Her capacity is low, so the profile is low.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The client’s risk profile should reflect the lower of the client’s assessed risk tolerance and risk capacity.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, ~L269"
+    },
+    {
+      "id": "RSE-E1-0090",
+      "element": 1,
+      "outcome": "1.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Jasper Wollaston is a sole proprietor. His bakery has a large bank loan. He opens a personal investment account. Why does the business loan matter to his KYC?",
+      "options": {
+        "A": "The business needs a separate corporate account with its own KYC.",
+        "B": "The business debt is his own, so it affects his capacity and liquidity.",
+        "C": "The business debt belongs to the bakery, so it does not affect him.",
+        "D": "The bank loan makes him an insider of a public company."
+      },
+      "answer": "B",
+      "rationale": "A sole proprietorship is an unincorporated business owned by one person, and the owner has unlimited liability. Its debts and cash needs are the owner's. So they shape his risk capacity and liquidity needs. Only a corporation is a separate legal entity.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"An unincorporated business entirely owned by one person.\" — research/sources/cra/business-structures-sole-proprietorship-partnership.txt CRA business definitions 'Sole proprietorship', ~L931"
+    },
+    {
+      "id": "RSE-E1-0091",
+      "element": 1,
+      "outcome": "1.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A partnership opens an account with a dealer. Which step does IDPC 3203 require?",
+      "options": {
+        "A": "Identify each partner who holds 25% or more of the voting shares.",
+        "B": "Use the general partner's personal account application for the account.",
+        "C": "Establish the partnership's existence and business, and identify those who control it.",
+        "D": "Obtain the names of all directors of the partnership within 30 days."
+      },
+      "answer": "C",
+      "rationale": "For a partnership, the dealer establishes its existence and the nature of its business. It also identifies each individual who controls its affairs. Director names and the 25% voting test apply to corporations under IDPC 3204.",
+      "rule_refs": [
+        "IDPC 3203"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"establish the existence of the partnership or trust and the nature of its business\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3203(1)(ii), ~L5548"
+    },
+    {
+      "id": "RSE-E1-0092",
+      "element": 1,
+      "outcome": "1.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ilaria Benedetti owns all the shares of a private corporation. She asks her RR to open a corporate account under her existing personal account application. What should the RR do?",
+      "options": {
+        "A": "Use her personal application, because she owns all the shares.",
+        "B": "Use a joint application that names her and the corporation.",
+        "C": "Use a separate application with the corporation's own KYC.",
+        "D": "Use her personal application, plus a copy of the articles."
+      },
+      "answer": "C",
+      "rationale": "The corporate account's owner is the corporation, not its beneficial owner. So the dealer cannot use the owner's application for it. The corporate account needs a separate application with the corporation's own KYC.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"a Dealer cannot use the same account application to open a corporate account, as the corporate account’s owner is the corporation and not the corporation’s beneficial owner\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.7.2, ~L379"
+    },
+    {
+      "id": "RSE-E1-0093",
+      "element": 1,
+      "outcome": "1.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which feature generally makes a corporation a public corporation for tax purposes?",
+      "options": {
+        "A": "It is controlled by Canadian residents and has no listed shares.",
+        "B": "It has more than 50 shareholders who are Canadian residents.",
+        "C": "It reports its annual results to all of its shareholders.",
+        "D": "It has a class of shares listed on a designated Canadian stock exchange."
+      },
+      "answer": "D",
+      "rationale": "A public corporation is generally a Canadian-resident corporation with a class of shares listed on a designated Canadian exchange. A private corporation, such as a CCPC, has no listed shares. Owners of a public company may be insiders with trading restrictions.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"it has a class of shares listed on a designated Canadian stock exchange\" — research/sources/cra/corporations-tax-rates-types-pages.txt CRA 'Type of corporation' - Public corporation, ~L156"
+    },
+    {
+      "id": "RSE-E1-0094",
+      "element": 1,
+      "outcome": "1.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A farm co-operative opens an investment account. Which feature of a co-operative should the RR keep in mind?",
+      "options": {
+        "A": "It is owned by one person, who has unlimited liability for its debts.",
+        "B": "It is controlled democratically, and its member shares are usually illiquid.",
+        "C": "It gives voting control to the members with the largest share stakes.",
+        "D": "It must list its member shares on a designated Canadian exchange."
+      },
+      "answer": "B",
+      "rationale": "A co-operative is a member-based business, typically with one member, one vote. It returns surpluses to members, and member shares are usually illiquid. Investment authority comes from its by-laws and board.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 1.4 (co-operative)"
+    },
+    {
+      "id": "RSE-E1-0095",
+      "element": 1,
+      "outcome": "1.5",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Which evidence can show that a client confirmed the accuracy of KYC information?",
+      "options": {
+        "A": "The client's signature, or file notes of the client's instructions",
+        "B": "The RR's own statement that the client agreed by phone",
+        "C": "A blank KYC form that the client took home to read",
+        "D": "An email that the dealer sent with no reply from the client"
+      },
+      "answer": "A",
+      "rationale": "Guidance says that dealers may evidence confirmation with the client's handwritten, electronic or digital signature. They may also keep notes in the file detailing the client's instructions to change the information. An unanswered email does not show confirmation.",
+      "rule_refs": [
+        "IDPC 3202(3)",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Dealers may evidence this confirmation by obtaining the client’s signature (handwritten, electronic or digital signature), or by maintaining notes in the client file detailing any client instructions to change the information.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.6.1, ~L336"
+    },
+    {
+      "id": "RSE-E1-0096",
+      "element": 1,
+      "outcome": "1.5",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "A client tells her RR about a change in her income. How should the dealer verify the change?",
+      "options": {
+        "A": "Ask her employer to confirm her new income in writing.",
+        "B": "Record it in the system without telling the client.",
+        "C": "Wait until the next 36-month review to confirm it with her.",
+        "D": "Confirm it with her in writing and let her correct it."
+      },
+      "answer": "D",
+      "rationale": "Guidance says dealers should verify any change to client information by confirming it with the client in writing. They should also give the client an opportunity to correct any changes. The review cycle is a minimum, not a reason to delay.",
+      "rule_refs": [
+        "IDPC 3202(3)",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Dealers should verify any change to client information by confirming it with the client in writing and providing the client with an opportunity to correct any changes.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.6.1, ~L336"
+    },
+    {
+      "id": "RSE-E1-0097",
+      "element": 1,
+      "outcome": "1.5",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "For which KYC changes should a dealer consider additional controls because of a higher fraud risk?",
+      "options": {
+        "A": "Changes to the client's ESG preferences or restrictions",
+        "B": "Changes to the client's investment objectives or time horizon",
+        "C": "Changes to the client's name, address or banking information",
+        "D": "Changes to the client's investment knowledge or experience"
+      },
+      "answer": "C",
+      "rationale": "Guidance says dealers should consider additional controls for changes in client name, address or banking information, where fraud risk is higher. Changes to objectives or knowledge are significant changes, but guidance does not single them out for fraud controls.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Dealers should consider implementing additional controls for changes in client name, address or banking information or other areas where there is an increased risk of fraud.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.6.1, ~L338"
+    },
+    {
+      "id": "RSE-E1-0098",
+      "element": 1,
+      "outcome": "1.5",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "As a best practice, which detail should a dealer record when it collects KYC information?",
+      "options": {
+        "A": "The date on which it collected the information",
+        "B": "The time the client spent on the form",
+        "C": "The branch manager's opinion of the client",
+        "D": "The name of the client's previous dealer"
+      },
+      "answer": "A",
+      "rationale": "Guidance says that, as a best practice, dealers should record the date on which they collect KYC information. The date shows that the KYC was current and when the next review is due.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"As a best practice, Dealers should record the date on which information is collected under subsection 3202(1)\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.6.1, ~L340"
+    },
+    {
+      "id": "RSE-E1-0099",
+      "element": 1,
+      "outcome": "1.5",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "A dealer collects KYC information through an online form. Which statement is correct?",
+      "options": {
+        "A": "The KYC obligation applies only to the questions the client answers.",
+        "B": "The KYC obligation passes to the provider of the online tool.",
+        "C": "The KYC obligation is the same as for a meeting or a phone call.",
+        "D": "The KYC obligation is lighter because the client types the answers."
+      },
+      "answer": "C",
+      "rationale": "Guidance says that the KYC obligation does not vary with the medium through which the dealer gathers information. KYC is not a \"tick the box\" exercise. The dealer stays responsible for the process when it uses tools.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The KYC obligation does not vary depending on the medium through which a Dealer interacts with its client to gather the necessary information.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.6.2, ~L344"
+    },
+    {
+      "id": "RSE-E1-0100",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Henrietta Volkov opens an account. She wants to name her RR on the account as her trusted contact person. What should the dealer do?",
+      "options": {
+        "A": "Accept the RR, if a supervisor also signs the TCP form.",
+        "B": "Encourage her to name someone else, because the TCP should not be her RR.",
+        "C": "Accept the RR, because the RR knows her finances best.",
+        "D": "Refuse to open the account until she names a family member."
+      },
+      "answer": "B",
+      "rationale": "CSA guidance says that a TCP should not be the client's dealing or advising representative on the account. The dealer can still open the account if she names no one else, but it must take reasonable steps to get a suitable TCP.",
+      "rule_refs": [
+        "IDPC 3202(4)",
+        "31-103CP Appendix G"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"A TCP should not be the client’s dealing representative or advising representative on the account.\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Trusted contact person, ~L4573"
+    },
+    {
+      "id": "RSE-E1-0101",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ambrose Nakagawa holds a power of attorney for his mother. She wants to name him as her trusted contact person. Which statement is correct?",
+      "options": {
+        "A": "He may not be named, because an attorney under a POA cannot be a TCP.",
+        "B": "He may be named, and he may then give trade instructions as the TCP.",
+        "C": "He may, but she should be encouraged to pick someone outside account decisions.",
+        "D": "He must be named, because a POA attorney is automatically the TCP."
+      },
+      "answer": "C",
+      "rationale": "CSA guidance allows the attorney under a POA to be named as a TCP. But clients should be encouraged to choose someone not involved in account decisions. Being a TCP gives no authority to transact on the account.",
+      "rule_refs": [
+        "31-103CP Appendix G"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"attorney under a POA can be named as a TCP, but clients should be encouraged to select an individual who is not involved in making decisions with respect to the client’s account\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Trusted contact person, ~L4571"
+    },
+    {
+      "id": "RSE-E1-0102",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Cosima Rutherford's trusted contact person phones the dealer. He asks the dealer to sell her bond fund because he thinks it is too risky. What should the dealer do?",
+      "options": {
+        "A": "Place a temporary hold on the account until Cosima responds.",
+        "B": "Not act on the request, because a TCP cannot transact on the account.",
+        "C": "Sell the fund, because the TCP has authority over the account.",
+        "D": "Sell the fund, if the TCP confirms the request in writing."
+      },
+      "answer": "B",
+      "rationale": "A TCP has no authority to transact on the client's account or to make decisions for the client by being named a TCP. A TCP acts like an emergency contact. A temporary hold needs a reasonable belief of exploitation or lost capacity.",
+      "rule_refs": [
+        "IDPC 3201(3)",
+        "31-103CP Appendix G"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"nor does a TCP have the authority to transact on the client’s account or to make any other decision on behalf of the client by virtue of being named a TCP\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Trusted contact person, ~L4570"
+    },
+    {
+      "id": "RSE-E1-0103",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "RR Lucian Grigorescu notices that his client, 79, repeats questions and forgets an instruction that she gave last week. She has a TCP. What should Lucian do first?",
+      "options": {
+        "A": "Close the account, because she may lack mental capacity.",
+        "B": "Call the TCP right away and describe the client's account activity.",
+        "C": "Place a hold on all transactions until a doctor assesses her.",
+        "D": "Speak with the client about his concerns before he contacts the TCP."
+      },
+      "answer": "D",
+      "rationale": "CSA guidance says registrants should speak with the client about their concerns before they contact others, including the TCP. Memory loss is a warning sign, but one sign alone may not show a problem. The dealer is not the final arbiter of capacity.",
+      "rule_refs": [
+        "31-103CP Appendix G"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"registrants should speak with the client about concerns they have with the client’s account or wellbeing before contacting others, including the TCP\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Contacting the TCP, ~L4619"
+    },
+    {
+      "id": "RSE-E1-0104",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Wendell Abernathy, 86, named his nephew as TCP. Recently, the nephew attends every meeting and pushes for large withdrawals to his own account. The RR suspects exploitation. What should the dealer do?",
+      "options": {
+        "A": "Contact the nephew, but only about the client's contact details.",
+        "B": "Not contact the nephew, and consider the police or the public guardian.",
+        "C": "Contact the nephew, because the client consented to TCP contact.",
+        "D": "Ask the nephew to confirm the withdrawals in writing first."
+      },
+      "answer": "B",
+      "rationale": "If the TCP is suspected of being involved in the financial exploitation, the TCP should not be contacted. The dealer considers others, such as the police, the public guardian and trustee or an alternative TCP, if named.",
+      "rule_refs": [
+        "31-103CP Appendix G"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"If the TCP is suspected of being involved in the financial exploitation of the client, the TCP should not be contacted\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Contacting the TCP, ~L4627"
+    },
+    {
+      "id": "RSE-E1-0105",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rosamund Ellery usually returns calls the same day. For three weeks, the RR's repeated calls and emails to her get no reply. She has a TCP. What may the dealer do?",
+      "options": {
+        "A": "Ask the TCP to approve the trades in her account.",
+        "B": "Place a temporary hold on her account for 30 days.",
+        "C": "Ask the TCP to confirm her contact information.",
+        "D": "Close her account and send the assets by cheque."
+      },
+      "answer": "C",
+      "rationale": "If repeated attempts to reach the client fail, and the failure is unusual, the dealer may contact the TCP to confirm the client's contact information. This is one of the four matters in the client's consent. The TCP cannot approve trades.",
+      "rule_refs": [
+        "IDPC 3202(4)",
+        "31-103CP Appendix G"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"if the registrant is unsuccessful in contacting the client after repeated attempts and where failure to contact the client would be unusual\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Contacting the TCP, ~L4630"
+    },
+    {
+      "id": "RSE-E1-0106",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer reasonably believes that a vulnerable client's grandson is trying to exploit her through one large transfer. She also has a regular monthly withdrawal for rent. How should the dealer use a temporary hold?",
+      "options": {
+        "A": "Hold the whole account, including the rent withdrawals.",
+        "B": "Hold nothing until the grandson agrees to the review.",
+        "C": "Hold the large transfer and let the rent withdrawals continue.",
+        "D": "Hold the rent withdrawals and let the large transfer proceed."
+      },
+      "answer": "C",
+      "rationale": "CSA guidance says transactions unrelated to the suspected exploitation should not be subject to the temporary hold. The hold covers the specific transaction. The dealer does not stop the payment of regular expenses.",
+      "rule_refs": [
+        "IDPC 3222",
+        "31-103CP Appendix G"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Transactions unrelated to the suspected financial exploitation or lack of mental capacity should not be subject to the temporary hold.\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Temporary holds, ~L4693"
+    },
+    {
+      "id": "RSE-E1-0107",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Lorcan Fitzwilliam, 55, is alert and capable. He insists on buying a speculative stock that his RR believes is unsuitable. No one influences him. May the dealer place a temporary hold?",
+      "options": {
+        "A": "No, because a hold is not the tool for an unsuitable instruction.",
+        "B": "Yes, because the order could cause him a large financial loss.",
+        "C": "Yes, if the dealer notifies him of the hold within 30 days.",
+        "D": "Yes, if his trusted contact person agrees with the hold."
+      },
+      "answer": "A",
+      "rationale": "A temporary hold needs a reasonable belief of exploitation of a vulnerable client, or lost mental capacity. CSA guidance says it is not for an order that does not meet suitability criteria. That case falls under IDPC 3402(5).",
+      "rule_refs": [
+        "IDPC 3222",
+        "IDPC 3402(5)",
+        "31-103CP Appendix G"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"A temporary hold contemplated under section 13.19 is not intended to be available where a registrant has decided not to accept a client order or instruction that does not, in their view, meet the criteria for a suitability determination.\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Temporary holds, ~L4698"
+    },
+    {
+      "id": "RSE-E1-0108",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Seraphina Ludlow, 74, is capable and asks to transfer her whole account to another dealer. Her RR wants to hold the transfer to have time to persuade her to stay. Which statement is correct?",
+      "options": {
+        "A": "The hold is not permitted, because fear of losing a client is an improper reason.",
+        "B": "The hold is permitted, because she is over 70 and therefore vulnerable.",
+        "C": "The hold is permitted, if the dealer reviews it every 30 days.",
+        "D": "The hold is permitted, if the dealer documents the reason for it."
+      },
+      "answer": "A",
+      "rationale": "CSA guidance says a registrant must not use a temporary hold for an inappropriate reason. One example is to delay a disbursement for fear of losing a client. Age alone does not make a client vulnerable. Documentation does not make an improper hold valid.",
+      "rule_refs": [
+        "IDPC 3222",
+        "31-103CP Appendix G"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"must not use a temporary hold for inappropriate reasons, for example, to delay a disbursement for fear of losing a client\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Temporary holds, ~L4683"
+    },
+    {
+      "id": "RSE-E1-0109",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Benedict Arkwright, 88, asks to sell all his bonds and buy one penny stock. He cannot say what he owns and is confused about basic terms. No one else appears involved. May the dealer place a temporary hold?",
+      "options": {
+        "A": "No, because no person is suspected of exploiting him.",
+        "B": "Yes, if it reasonably believes he lacks mental capacity.",
+        "C": "Yes, but only after his trusted contact person approves it.",
+        "D": "No, because a hold needs a court finding of incapacity."
+      },
+      "answer": "B",
+      "rationale": "IDPC 3222 permits a hold on either of two grounds. One is a reasonable belief that a vulnerable client is exploited. The other is a reasonable belief that the client lacks mental capacity. Exploitation is not needed for the second ground. The dealer need not be the final arbiter of capacity.",
+      "rule_refs": [
+        "IDPC 3222(2)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"unless the Dealer Member reasonably believes that the client does not have the mental capacity to make decisions involving financial matters\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3222(2), ~L6086"
+    },
+    {
+      "id": "RSE-E1-0110",
+      "element": 1,
+      "outcome": "1.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Thornbury Logistics Inc., a corporation, opens an account. Must the dealer take reasonable steps to get a trusted contact person for this account?",
+      "options": {
+        "A": "No, unless the corporation has fewer than five directors.",
+        "B": "No, because the TCP requirement applies only to individual clients.",
+        "C": "Yes, and it must name the corporation's largest shareholder.",
+        "D": "Yes, and it must name one of the corporation's directors."
+      },
+      "answer": "B",
+      "rationale": "IDPC 3202(5) states that the TCP requirement in 3202(4) does not apply to a client that is not an individual. A corporation is not an individual, so the dealer need not seek a TCP for this account.",
+      "rule_refs": [
+        "IDPC 3202(4)-(5)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Subsection 3202(4) does not apply to a Dealer Member in respect of a client that is not an individual.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3202(5), ~L5542"
+    },
+    {
+      "id": "RSE-E1-0111",
+      "element": 1,
+      "outcome": "1.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer assigns three RRs as a team to serve Delphina Marchetti's account. Which statement about collecting her suitability KYC is correct?",
+      "options": {
+        "A": "Each of the three RRs must collect it separately.",
+        "B": "The team's unregistered assistant may collect it for them.",
+        "C": "Only the most senior RR on the team may collect it.",
+        "D": "Any one of the RRs assigned to her account may collect it."
+      },
+      "answer": "D",
+      "rationale": "Guidance says that a dealer may assign multiple RRs to the same account. Then any one of them may collect the suitability KYC. An unregistered assistant may not collect it, because KYC delegation is prohibited.",
+      "rule_refs": [
+        "IDPC 3209(2)",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"any one of the Registered Individuals assigned to the client’s account may collect the information required in clause 3202(1)(iii)\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.5, ~L331"
+    },
+    {
+      "id": "RSE-E1-0112",
+      "element": 1,
+      "outcome": "1.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A new client is referred from the dealer's affiliated bank. The bank offers the client's identification records and its own risk profile of the client. On which may the dealer rely?",
+      "options": {
+        "A": "The identification records, but not the bank's risk profile",
+        "B": "The bank's risk profile, but not the identification records",
+        "C": "Neither, because only the RR may verify identity",
+        "D": "Both, because the bank is an affiliate of the dealer"
+      },
+      "answer": "A",
+      "rationale": "Dealers may not rely on a third party, such as an affiliate, for suitability KYC. Guidance says they may rely on third parties for other information, including client identification. So the RR must collect the risk profile directly.",
+      "rule_refs": [
+        "IDPC 3209",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Dealers and Registered Individuals may rely on third parties or unregistered individuals for other types of information, including client identification information.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.5, ~L329"
+    },
+    {
+      "id": "RSE-E1-0113",
+      "element": 1,
+      "outcome": "1.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Gustav Lindqvist has a commission-based advisory account that nobody manages for him. What is the longest gap allowed between his scheduled KYC reviews?",
+      "options": {
+        "A": "36 months",
+        "B": "24 months",
+        "C": "60 months",
+        "D": "12 months"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3209(4) requires a review at least every 36 months. Managed and discretionary accounts need a review at least every 12 months. A non-managed advisory account follows the 36-month cycle, and the dealer keeps evidence of the review.",
+      "rule_refs": [
+        "IDPC 3209(4)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"no less frequently than once every 36 months, except for a managed account and a discretionary account which must be reviewed no less frequently than once every 12 months\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3209(4), ~L5652"
+    },
+    {
+      "id": "RSE-E1-0114",
+      "element": 1,
+      "outcome": "1.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Barnaby Thistlewood tells his RR that he lost his job. This changes his risk profile and objectives. The dealer has not yet updated his KYC. What should the dealer consider meanwhile?",
+      "options": {
+        "A": "Close the account until the next scheduled KYC review.",
+        "B": "Restrict the account to liquidating trades, transfers or disbursements.",
+        "C": "Move the account to a managed account until he finds work.",
+        "D": "Continue to accept purchases that fit his old risk profile."
+      },
+      "answer": "B",
+      "rationale": "A significant change can make the KYC insufficient for suitability. Guidance gives job loss as an example. The dealer should consider restricting activity to liquidating trades, transfers or disbursements until it re-evaluates the KYC.",
+      "rule_refs": [
+        "IDPC 3209(3)",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the Dealer should consider restricting activities in the client’s account to liquidating trades, transfers or disbursements, until such time as the Dealer has had a chance to re-evaluate the client’s KYC information\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.11.2, ~L425"
+    },
+    {
+      "id": "RSE-E1-0115",
+      "element": 1,
+      "outcome": "1.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "In which case does CIRO guidance say that a dealer should consider updating KYC more often than the minimum cycle?",
+      "options": {
+        "A": "When the client's account has had no trades for one year",
+        "B": "When it distributes exempt market securities to the client",
+        "C": "When the client holds only GICs and Canada Savings Bonds",
+        "D": "When the client prefers to receive statements by email"
+      },
+      "answer": "B",
+      "rationale": "Guidance says dealers should consider more frequent updates when they distribute exempt market securities. They should also consider it for accounts with a significant position in high-risk, complex or illiquid products. Low-risk or inactive accounts do not raise this concern.",
+      "rule_refs": [
+        "IDPC 3209(4)",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Dealers should consider more frequent updates when they are distributing exempt market securities\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.11.1, ~L404"
+    },
+    {
+      "id": "RSE-E1-0116",
+      "element": 1,
+      "outcome": "1.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under IDPC 3210, what are client account records?",
+      "options": {
+        "A": "Research reports the dealer gives the client before a recommendation",
+        "B": "Trade confirmations and monthly statements the dealer sends after each trade",
+        "C": "Internal compliance notes the dealer keeps about its supervisory reviews",
+        "D": "Information, disclosures and agreements the dealer must give to or get from the client"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3210 defines client account records as any information, disclosure statement or agreement the dealer must provide to or obtain from the client. They include identity verification, the account appropriateness assessment and KYC information.",
+      "rule_refs": [
+        "IDPC 3210"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Any information, disclosure statement or agreement the Dealer Member is required to provide to or obtain from the client\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3210(1), ~L5659"
+    },
+    {
+      "id": "RSE-E1-0117",
+      "element": 1,
+      "outcome": "1.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A new account is missing the client's account appropriateness documentation. May the designated Supervisor approve the account?",
+      "options": {
+        "A": "Yes, because only the KYC form is needed for approval.",
+        "B": "Yes, if the RR promises to collect the record within 25 days.",
+        "C": "No, because approval needs all client account records.",
+        "D": "Yes, if the client has not yet placed a first trade."
+      },
+      "answer": "C",
+      "rationale": "IDPC 3214(2) states that the designated Supervisor must not approve a new account unless all client account records have been collected. The appropriateness documentation is a client account record. The 25-day deadline is a follow-up rule, not an approval window.",
+      "rule_refs": [
+        "IDPC 3214(2)",
+        "IDPC 3210"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The designated Supervisor must not approve a new account unless all client account records have been collected.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3214(2), ~L5749"
+    },
+    {
+      "id": "RSE-E1-0118",
+      "element": 1,
+      "outcome": "1.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client places her first trade in a new account on a Tuesday. By when must the designated Supervisor approve the account?",
+      "options": {
+        "A": "No later than one business day after that initial trade",
+        "B": "No later than 25 business days after the account opens",
+        "C": "No later than five business days after that initial trade",
+        "D": "No later than 30 calendar days after the account opens"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3214 requires the designated Supervisor to approve each new account no later than one business day after the initial trade. The 25-business-day rule is a follow-up deadline for missing documents.",
+      "rule_refs": [
+        "IDPC 3214"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"must approve each new account no later than one business day after completing the initial trade for the account\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3214(3), ~L5751"
+    },
+    {
+      "id": "RSE-E1-0119",
+      "element": 1,
+      "outcome": "1.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client trades in a new account, but the designated Supervisor does not approve the account after the initial trade. What must the dealer do?",
+      "options": {
+        "A": "Restrict it to liquidating trades, transfers out, payouts or deliveries to the client.",
+        "B": "Allow normal trading while it waits for the approval.",
+        "C": "Close the account and report it to CIRO within 30 days.",
+        "D": "Reverse the initial trade and return any funds to the client."
+      },
+      "answer": "A",
+      "rationale": "If the designated Supervisor does not approve the account after the initial trade, IDPC 3214(5) requires a restriction. The account is limited to liquidating trades, transfers out, paying out funds or delivering securities to the client, until final approval.",
+      "rule_refs": [
+        "IDPC 3214(5)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the Dealer Member must restrict the account to only liquidating trades, transfers out, paying out funds or delivering securities to the client\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3214(5), ~L5755"
+    },
+    {
+      "id": "RSE-E1-0120",
+      "element": 1,
+      "outcome": "1.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Some supporting documents for a new account are still missing 25 business days after opening. What does this deadline mean?",
+      "options": {
+        "A": "The designated Supervisor now has a last chance to approve the account.",
+        "B": "The dealer must close the account and return the client's assets.",
+        "C": "The client may keep trading normally until the next KYC review.",
+        "D": "The dealer must take specific action to obtain the missing documents."
+      },
+      "answer": "D",
+      "rationale": "IDPC 3213(2)(iii) requires specific action to obtain documents not received within 25 business days of opening. It is a follow-up deadline, not an approval window. Approval is due one business day after the initial trade.",
+      "rule_refs": [
+        "IDPC 3213(2)(iii)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"take specific action to obtain required documents that have not been received within 25 business days of opening the account\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3213(2)(iii), ~L5739"
+    },
+    {
+      "id": "RSE-E1-0121",
+      "element": 1,
+      "outcome": "1.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An individual client refuses to name a trusted contact person. Which record requirement applies to the dealer?",
+      "options": {
+        "A": "NI 31-103 requires records that show TCP compliance.",
+        "B": "No record is needed, because the client may lawfully refuse.",
+        "C": "IDPC requires a refusal form that the client signs before any trade.",
+        "D": "IDPC requires the designated Supervisor to approve the refusal in writing."
+      },
+      "answer": "A",
+      "rationale": "No IDPC section names a record of TCP refusal. NI 31-103 requires firms to keep records that demonstrate compliance with the TCP section. So the dealer records its reasonable steps and the refusal.",
+      "rule_refs": [
+        "NI 31-103 s. 11.5(2)(l)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Registered firms are reminded of the requirement to maintain records which demonstrate compliance with section 13.2.01\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP App. G, Obtaining TCP information, ~L4605"
+    },
+    {
+      "id": "RSE-E1-0122",
+      "element": 1,
+      "outcome": "1.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer offers only discretionary managed accounts. Valentin Szabo wants to approve every trade himself. What should the dealer do?",
+      "options": {
+        "A": "Not open an account, because no account it offers is appropriate.",
+        "B": "Open a managed account if he signs a waiver of appropriateness.",
+        "C": "Open a managed account, because it is the dealer's only service.",
+        "D": "Open a managed account and ask him to approve each trade."
+      },
+      "answer": "A",
+      "rationale": "If no appropriate products, services or account relationships are available, guidance says the dealer should not open an account. A client who wants to direct his own trades should generally not have a managed account. A waiver cannot replace the assessment.",
+      "rule_refs": [
+        "IDPC 3211"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"In circumstances where there are no appropriate products, services or account relationships available for the person, the Dealer should not open an account for that person.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.3.4, ~L564"
+    },
+    {
+      "id": "RSE-E1-0123",
+      "element": 1,
+      "outcome": "1.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "During account opening, Philomena Garrow asks whether another firm's account would cost her less. Under the account appropriateness obligation, what must the dealer consider?",
+      "options": {
+        "A": "The cheapest account available at any Canadian dealer",
+        "B": "The account types of the dealer's main competitors",
+        "C": "Only the account types that the dealer itself offers",
+        "D": "The account types of all dealers in her province"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3211 requires the dealer to recommend the account at the dealer that puts the client's interest first. Guidance says it does not expect dealers to consider account alternatives outside the dealer.",
+      "rule_refs": [
+        "IDPC 3211"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"We do not expect Dealers to consider account alternatives outside of the Dealer.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.3.1, ~L527"
+    },
+    {
+      "id": "RSE-E1-0124",
+      "element": 1,
+      "outcome": "1.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Cornelius Ravenscroft applies for an order-execution-only account. How does the account appropriateness obligation apply?",
+      "options": {
+        "A": "The dealer reviews the account's appropriateness every 12 months.",
+        "B": "The dealer assesses each product he may buy, as in an advisory account.",
+        "C": "The dealer does no assessment, because OEO accounts are fully exempt.",
+        "D": "The dealer determines only whether he may appropriately open this account there."
+      },
+      "answer": "D",
+      "rationale": "For OEO and direct electronic access accounts, the obligation is limited. The dealer decides only whether the person may appropriately open this account at the dealer. Full exemption applies to accounts of regulated entities, such as banks and insurers.",
+      "rule_refs": [
+        "IDPC 3211"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"where the obligation is limited to determining whether it would be appropriate for the person to open this account at the Dealer\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.3.3, ~L558"
+    },
+    {
+      "id": "RSE-E1-0125",
+      "element": 1,
+      "outcome": "1.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An introducing broker opens a client account that a carrying broker carries. Which firm meets the account appropriateness obligation?",
+      "options": {
+        "A": "The introducing broker",
+        "B": "Neither firm, as it is exempt",
+        "C": "Both firms, each in full",
+        "D": "The carrying broker"
+      },
+      "answer": "A",
+      "rationale": "Guidance describes carried accounts where the introducing broker, not the carrying broker, is responsible for the account appropriateness obligation. The introducing broker deals with the client directly.",
+      "rule_refs": [
+        "IDPC 3211"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"where the introducing broker and not the carrying broker is responsible for meeting the account appropriateness obligation\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.3.3, ~L141"
+    },
+    {
+      "id": "RSE-E1-0126",
+      "element": 1,
+      "outcome": "1.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A trust company opens an account with a dealer. How does the account appropriateness obligation apply?",
+      "options": {
+        "A": "No assessment, because the client is sophisticated.",
+        "B": "The assessment is required only for the first trade.",
+        "C": "A full assessment is required, as for a retail client.",
+        "D": "Only the question of margin access must be assessed."
+      },
+      "answer": "A",
+      "rationale": "Accounts of dealers, banks, trust companies and insurers are exempt. Guidance says there is no appropriateness assessment obligation because these clients are sophisticated.",
+      "rule_refs": [
+        "IDPC 3211"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"there is no appropriateness assessment obligation because of the sophistication of the clients opening the accounts\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.3.3, ~L142"
+    },
+    {
+      "id": "RSE-E1-0127",
+      "element": 1,
+      "outcome": "1.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Gideon Farrow is choosing between account types at a dealer. What does CIRO guidance expect the dealer to explain?",
+      "options": {
+        "A": "The features and costs of the dealer's own account types",
+        "B": "The past returns of each account type over five years",
+        "C": "The account types and fees offered by other dealers",
+        "D": "The commission rates its RRs earn on each product"
+      },
+      "answer": "A",
+      "rationale": "Guidance expects the dealer to explain the features and associated costs of the different account types available at the dealer. It then recommends the one that puts the client first. It need not consider other dealers' accounts.",
+      "rule_refs": [
+        "IDPC 3211"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"also explain the features and associated costs of the different types of accounts that are available to the client at the Dealer\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.3.1, ~L529"
+    },
+    {
+      "id": "RSE-E1-0128",
+      "element": 1,
+      "outcome": "1.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "When must the dealer determine that an account is appropriate for a person?",
+      "options": {
+        "A": "At the first annual account review",
+        "B": "Within 30 days after it opens the account",
+        "C": "Before it opens the account",
+        "D": "Before the first suitability review"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3211(1) requires the determination before the dealer opens the account. It must be made on a reasonable basis and put the person's interest first. The dealer reassesses later if the client's situation changes.",
+      "rule_refs": [
+        "IDPC 3211(1)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"the Dealer Member must determine, on a reasonable basis and putting the person\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3211(1), ~L5671"
+    }
+  ]
+}

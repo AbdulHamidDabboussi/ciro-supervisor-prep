@@ -1,0 +1,1049 @@
+{
+  "meta": {
+    "batch": "E4-003b",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E4-0085",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Stock data for Corbett Mills Inc. shows its market capitalization. How do exchanges and data vendors calculate this figure?",
+      "options": {
+        "A": "Daily trading volume multiplied by the last share price",
+        "B": "Share price multiplied by the common shares outstanding",
+        "C": "Total assets minus total liabilities on the balance sheet",
+        "D": "Share price multiplied by the shares that insiders hold"
+      },
+      "answer": "B",
+      "rationale": "Market capitalization equals the share price times the common shares outstanding, and it measures company size. Price times daily volume gives the dollar value traded. Total assets minus total liabilities is book equity, not a market value.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.8 market capitalization"
+    },
+    {
+      "id": "RSE-E4-0086",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Shares of Tamsin Robotics Inc. rise 5% in one day. The volume is four times the stock's daily average. What does the high volume tell an analyst?",
+      "options": {
+        "A": "The company issued new shares to the public that day",
+        "B": "The bid-ask spread on the stock became wider that day",
+        "C": "The stock now trades above its intrinsic value",
+        "D": "Many investors took part, so the price move is more significant"
+      },
+      "answer": "D",
+      "rationale": "Volume counts the shares traded, and it shows how significant a price move is. A move on heavy volume has wide participation. Volume alone says nothing about intrinsic value, which needs fundamental analysis.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.8 volume; 4.11"
+    },
+    {
+      "id": "RSE-E4-0087",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A data vendor quotes a Government of Canada bond at a price of 98.50. What does this price mean?",
+      "options": {
+        "A": "The bond trades at $98.50 for each $100 of face value",
+        "B": "The bond trades at $98.50 for each $1,000 of face value",
+        "C": "The bond pays a coupon equal to 98.50% of its face value",
+        "D": "The bond has a yield to maturity of 9.85% a year"
+      },
+      "answer": "A",
+      "rationale": "Bond prices are quoted per $100 of face value. So 98.50 means $98.50 per $100, a small discount to face value. The quote is not a coupon rate, and the yield to maturity is a separate data item.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.8 fixed-income data (price per $100 of face value)"
+    },
+    {
+      "id": "RSE-E4-0088",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Halloway Minerals Ltd., an Ontario reporting issuer, does not file a record that the Securities Act requires. What can the Ontario Securities Commission do?",
+      "options": {
+        "A": "Only ask CIRO to fine the company's directors",
+        "B": "Issue a cease trade order, but only after a full hearing",
+        "C": "Order that trading stop, without first giving the company a hearing",
+        "D": "Only issue a public warning, because a missed filing is not a trading matter"
+      },
+      "answer": "C",
+      "rationale": "Ontario Securities Act s. 127(4.1) covers a company that fails to file a required record. The Commission can then order that trading cease without a hearing. A hearing is not a precondition for this failure-to-file order.",
+      "rule_refs": [
+        "Ontario Securities Act s. 127(4.1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"without giving the person or company that is subject to the order an opportunity to be heard if the person or company fails to file a record required to be filed under this Act\" — research/sources/gov/ontario-securities-act-extracts.txt Ontario Securities Act s. 127(4.1), ~line 653"
+    },
+    {
+      "id": "RSE-E4-0089",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The Ontario Securities Commission issued a failure-to-file CTO against Quenby Textiles Inc. 40 days ago. Quenby now files the missing annual statements. What must the Commission do?",
+      "options": {
+        "A": "Revoke the order as soon as practicable after the filing",
+        "B": "Keep the order in effect for at least 90 days in total",
+        "C": "Require more records from Quenby before it revokes the order",
+        "D": "Hold a hearing before it decides to revoke the order"
+      },
+      "answer": "A",
+      "rationale": "Ontario Securities Act s. 127(4.3) requires the Commission to revoke the order as soon as practicable after the record is filed. It can require more records first only if the order is more than 90 days old. This order is 40 days old.",
+      "rule_refs": [
+        "Ontario Securities Act s. 127(4.3)",
+        "Ontario Securities Act s. 127(4.6)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Subject to subsection (4.6), the Commission shall revoke an order made under subsection (4.1) as soon as practicable after the record referred to in the order is filed\" — research/sources/gov/ontario-securities-act-extracts.txt Ontario Securities Act s. 127(4.3), ~line 655"
+    },
+    {
+      "id": "RSE-E4-0090",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A failure-to-file CTO against Ostrander Biotech Inc. has been in effect in Ontario for 120 days. Ostrander now files the missing record. Which statement is correct?",
+      "options": {
+        "A": "The Commission must revoke the order on the same day as the filing",
+        "B": "The order cannot be revoked, because it has been in effect over 90 days",
+        "C": "The order ends automatically, because the record is now filed",
+        "D": "The Commission may first require more records if this is in the public interest"
+      },
+      "answer": "D",
+      "rationale": "This order is more than 90 days old. So under s. 127(4.6), the Commission may require more records before it revokes the order, if this is in the public interest. Otherwise s. 127(4.3) applies. Revocation is never automatic.",
+      "rule_refs": [
+        "Ontario Securities Act s. 127(4.6)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"If an order made under subsection (4.1) has been in effect for more than 90 days and the Commission is of the opinion that it would be in the public interest to do so, the Commission may require that, before it revokes the order\" — research/sources/gov/ontario-securities-act-extracts.txt Ontario Securities Act s. 127(4.6), ~line 663"
+    },
+    {
+      "id": "RSE-E4-0091",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The TSX suspends trading in Wexcombe Foods Inc. only because Wexcombe did not pay its listing fees. No regulator issued a CTO. Can a client's order trade on a marketplace?",
+      "options": {
+        "A": "No, because UMIR bans every trade while any suspension applies",
+        "B": "Yes, because UMIR 9.1(3) excludes this suspension from the trading ban",
+        "C": "No, until CIRO confirms the suspension in a public notice",
+        "D": "Yes, but only over-the-counter and not on any marketplace"
+      },
+      "answer": "B",
+      "rationale": "UMIR 9.1(3)(a) lets an order be entered and trade on a marketplace if the exchange suspended trading only for unpaid listing fees. This is a non-regulatory stop. A CTO or a regulatory halt would ban trading under 9.1(1).",
+      "rule_refs": [
+        "UMIR 9.1(3)(a)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"failed to pay to the Exchange or QTRS any fees in respect of the listing or quotation of securities of the issuer\" — research/sources/ciro/umir-2026-08-11.txt UMIR 9.1(3)(a)(ii), ~line 12093"
+    },
+    {
+      "id": "RSE-E4-0092",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under UMIR 9.1, which trading stop still lets an order trade on a marketplace?",
+      "options": {
+        "A": "A securities regulator's cease trade order that remains in effect",
+        "B": "A halt by the Market Regulator of the listing exchange",
+        "C": "An exchange halt caused only by problems in its own trading system",
+        "D": "A regulatory delay on trading in the security"
+      },
+      "answer": "C",
+      "rationale": "UMIR 9.1(3)(b) lets orders trade on a marketplace when an exchange halts because of technical problems that affect only its own system. A CTO, a Market Regulator halt and a regulatory delay all ban execution under 9.1(1) and 9.1(2).",
+      "rule_refs": [
+        "UMIR 9.1(3)(b)",
+        "UMIR 9.1(1)",
+        "UMIR 9.1(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"technical problems affecting only the trading system of the Exchange or QTRS\" — research/sources/ciro/umir-2026-08-11.txt UMIR 9.1(3)(b)(i), ~line 12104"
+    },
+    {
+      "id": "RSE-E4-0093",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "During trading hours, Fernhill Copper Corp. learns that news of its confidential merger talks has leaked. Its share price rises fast. What does NP 51-201 suggest that it do?",
+      "options": {
+        "A": "Contact the exchange and ask for a trading halt until it issues a news release",
+        "B": "Wait until the merger is final before it tells the market anything",
+        "C": "Ask its dealer to buy shares to keep the price stable until the close",
+        "D": "Ask the securities regulator to issue a cease trade order on its shares"
+      },
+      "answer": "A",
+      "rationale": "NP 51-201 s. 2.3 tells a company with leaked confidential news to contact the exchange and ask for a halt pending a news release. Silence while the price moves on leaked news is not acceptable. A CTO is a regulator's order, not a company disclosure tool.",
+      "rule_refs": [
+        "NP 51-201 s. 2.3"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"contacting the relevant exchange and asking that trading be halted pending the issuance of a news release\" — research/sources/csa/np-51-201-disclosure-standards.txt NP 51-201 s. 2.3(1), ~line 158"
+    },
+    {
+      "id": "RSE-E4-0094",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A CTO is in effect against Rothwell Uranium Ltd. Its shares also trade on a foreign organized regulated market. Client Ingrid Solberg wants to sell her shares. Which statement is correct?",
+      "options": {
+        "A": "The Participant can sell on the TSX if Ingrid signs a waiver",
+        "B": "The Participant may sell on the foreign market if the CTO's conditions and securities law permit",
+        "C": "No sale is possible anywhere until the regulator revokes the CTO",
+        "D": "The Participant can sell over-the-counter in Canada at a negotiated price"
+      },
+      "answer": "B",
+      "rationale": "UMIR 9.1(4)(b) lets a Participant execute a sale on a foreign organized regulated market. The CTO's conditions must be met, and the sale must follow securities legislation. Trades on a Canadian marketplace or over-the-counter stay banned under 9.1(1)(a).",
+      "rule_refs": [
+        "UMIR 9.1(4)(b)",
+        "UMIR 9.1(1)(a)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"a Participant may execute a sale in the security on a foreign organized regulated market if: (i) all conditions set forth in the order of a securities regulatory authority are met, and (ii) the sale is in accordance with applicable securities legislation.\" — research/sources/ciro/umir-2026-08-11.txt UMIR 9.1(4)(b), ~line 12105"
+    },
+    {
+      "id": "RSE-E4-0095",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Regulators issue failure-to-file CTOs to protect the information that investors rely on. According to NP 11-207, what is the main cost of such an order?",
+      "options": {
+        "A": "The company must pay a penalty for each day that the order is in effect",
+        "B": "The company loses its status as a reporting issuer at once",
+        "C": "The company's auditor must resign, and the company must appoint a new one",
+        "D": "Existing investors may be unable to sell, and new investors cannot buy"
+      },
+      "answer": "D",
+      "rationale": "NP 11-207 s. 7 says that existing investors may be unable to sell, and prospective investors cannot buy, while the CTO is in effect. A CTO is an order that stops trading. It is not a daily penalty, and it does not remove reporting-issuer status.",
+      "rule_refs": [
+        "NP 11-207 s. 7"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"existing investors may be unable to sell their securities and prospective investors are unable to purchase securities of the issuer while the cease trade order remains in effect\" — research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt NP 11-207 s. 7, ~line 240"
+    },
+    {
+      "id": "RSE-E4-0096",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A cap-weighted equity index started at a base value of 1,000. Today its level is 1,250. What does this level show?",
+      "options": {
+        "A": "The index contains 1,250 stocks, up from 1,000 at the start",
+        "B": "The average share price in the index is now $1,250",
+        "C": "The market value of the basket rose 25% since the base period",
+        "D": "The index gained 1,250 points since the base period"
+      },
+      "answer": "C",
+      "rationale": "An index level is relative to its base value. A level of 1,250 on a base of 1,000 means that the basket's market value rose 25%. The level is not a count of stocks or an average price, and the gain is 250 points.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 index construction; 1250/1000 - 1 = 25%"
+    },
+    {
+      "id": "RSE-E4-0097",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An index provider adds Kelvington Energy Ltd. to a cap-weighted index and removes another company. Why does the provider adjust the index divisor?",
+      "options": {
+        "A": "So that only changes in market prices move the index level",
+        "B": "So that the new constituent gets the same weight as every other stock",
+        "C": "So that the index level returns to its original base value",
+        "D": "So that the index includes the dividends that constituents pay"
+      },
+      "answer": "A",
+      "rationale": "The provider adjusts the divisor when constituents change or after a corporate action. Then the substitution itself does not move the index, and only market price changes do. Equal weights and dividend reinvestment are separate design choices.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 divisor"
+    },
+    {
+      "id": "RSE-E4-0098",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An ETF tracks a multi-factor index. Which statement best describes how this index differs from a standard cap-weighted index?",
+      "options": {
+        "A": "It gives every constituent the same weight and rebalances each quarter",
+        "B": "It weights each constituent by its share price, not its company size",
+        "C": "It holds stocks, bonds and commodities together in one basket",
+        "D": "It selects or weights stocks by traits such as value, momentum or low volatility"
+      },
+      "answer": "D",
+      "rationale": "A multi-factor, or smart beta, index selects or weights constituents by traits such as value, size, momentum or low volatility. Market cap alone does not decide. Equal weights and price weights are other weighting methods, not factor methods.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 index vs average vs multi-factor"
+    },
+    {
+      "id": "RSE-E4-0099",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A price-weighted index includes Stock X at $100 and Stock Y at $10. On one day, each stock rises by $1. Which statement is correct?",
+      "options": {
+        "A": "Stock X moves the index ten times as much as Stock Y",
+        "B": "Both moves change the index equally, but X's percentage gain is far smaller",
+        "C": "Stock Y moves the index ten times as much as Stock X",
+        "D": "Neither move changes the index, because only market caps count"
+      },
+      "answer": "B",
+      "rationale": "In a price-weighted index, a $1 move in a $100 stock moves the index as much as a $1 move in a $10 stock. But $1 is 1% of X and 10% of Y. Market caps matter only in a cap-weighted index.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 price-weighted; 1/100 = 1%, 1/10 = 10%"
+    },
+    {
+      "id": "RSE-E4-0100",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Founders hold 60% of the shares of Calverley Brewing Corp. as a long-term strategic block. How does a float-adjusted index, such as the S&P/TSX Composite, treat Calverley?",
+      "options": {
+        "A": "It uses all shares outstanding, so the founders' block counts in full",
+        "B": "It excludes Calverley, because most of its shares are not available to the public",
+        "C": "It counts only the shares available to the public, so Calverley's weight is lower",
+        "D": "It gives Calverley the same weight as every other constituent"
+      },
+      "answer": "C",
+      "rationale": "Float-adjusted indices count only the shares available to the public. They leave out blocks that insiders or strategic holders keep. So Calverley's weight reflects about 40% of its shares, not its full market capitalization.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 float adjustment"
+    },
+    {
+      "id": "RSE-E4-0101",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Client Reuben Castellanos compares a dividend fund with a growth fund that pays no dividends. Which return measure gives a fair comparison?",
+      "options": {
+        "A": "Total return, because it includes reinvested dividends as well as price changes",
+        "B": "Price return, because dividends do not change the value of the investment",
+        "C": "Price return, because total return counts the growth fund's gains twice",
+        "D": "Total return, because it removes the effect of price changes"
+      },
+      "answer": "A",
+      "rationale": "Total return adds reinvested dividends and interest to price changes. Price return ignores income, so it understates the dividend fund's result. Use total return to compare an investment that pays income with one that does not.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 price return vs total return"
+    },
+    {
+      "id": "RSE-E4-0102",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "On one day, a price-weighted index of 30 stocks rises. A cap-weighted index of the same 30 stocks falls. What most likely explains the difference?",
+      "options": {
+        "A": "Large-cap stocks rose, while the high-priced stocks fell",
+        "B": "The cap-weighted index reinvested dividends, but the price-weighted one did not",
+        "C": "The price-weighted index uses a float adjustment that the other index does not use",
+        "D": "A high-priced stock with a small market cap rose, while large-cap stocks fell"
+      },
+      "answer": "D",
+      "rationale": "In a price-weighted index, high-priced stocks dominate regardless of company size. In a cap-weighted index, the largest companies dominate. So one high-priced, smaller company can lift the price-weighted index while large caps pull the other index down.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 exam trap (price-weighted vs cap-weighted)"
+    },
+    {
+      "id": "RSE-E4-0103",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Which index is an example of an international regional index?",
+      "options": {
+        "A": "The S&P/TSX Composite Index",
+        "B": "The MSCI EAFE Index",
+        "C": "A Canadian universe bond index",
+        "D": "An S&P/TSX energy sector index"
+      },
+      "answer": "B",
+      "rationale": "MSCI EAFE covers an international region, as MSCI World does. The S&P/TSX Composite is a country index for Canada. A universe bond index is an asset-class index, and an energy index is a sector index.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 asset class, sector, country, international"
+    },
+    {
+      "id": "RSE-E4-0104",
+      "element": 4,
+      "outcome": "4.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Client Yusra Haddad's target mix is 50% Canadian equity, 20% global equity and 30% bonds. The matching total-return indices gained 9.0%, 12.0% and 1.0%. Her portfolio returned 6.9%. How did it perform?",
+      "options": {
+        "A": "It outperformed the blended benchmark by 0.3 percentage points",
+        "B": "It underperformed the Canadian equity index by 2.1 percentage points",
+        "C": "It underperformed the blended benchmark by 0.3 percentage points",
+        "D": "It outperformed the bond index by 5.9 percentage points"
+      },
+      "answer": "C",
+      "rationale": "Blended benchmark = 0.50 × 9.0% + 0.20 × 12.0% + 0.30 × 1.0% = 7.2%. Relative return = 6.9% − 7.2% = −0.3 points. A single index ignores her target mix, so it gives a misleading comparison.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 0.5*9 + 0.2*12 + 0.3*1 = 7.2; 6.9 - 7.2 = -0.3; distractors: sign error +0.3, vs Canadian equity 6.9-9.0 = -2.1, vs bonds 6.9-1.0 = +5.9"
+    },
+    {
+      "id": "RSE-E4-0105",
+      "element": 4,
+      "outcome": "4.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "At year-end, RR Oriel Fairbanks sees that his client's portfolio trailed its agreed benchmark. He proposes to use a different index with a lower return in the report. What is the main problem?",
+      "options": {
+        "A": "A benchmark must be set before the period, so this change makes the comparison meaningless",
+        "B": "Nothing, because a new benchmark is acceptable if it has the same asset class",
+        "C": "The client must first sign a new account agreement for any benchmark change",
+        "D": "Only the portfolio manager, not the RR, can choose a replacement index"
+      },
+      "answer": "A",
+      "rationale": "A good benchmark is specified in advance, before the period starts. If someone changes it after the results, the comparison loses its meaning. A matching asset class does not cure a change made after the results are known.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.10 benchmark properties (specified in advance)"
+    },
+    {
+      "id": "RSE-E4-0106",
+      "element": 4,
+      "outcome": "4.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Client Bartholomew Achterberg wants to measure his RR's results against a benchmark. Which property makes sure that the benchmark stands for a real passive choice that he had?",
+      "options": {
+        "A": "It is measurable, with returns published for the same periods",
+        "B": "It is investable, so he could have bought it through an index fund",
+        "C": "It is popular, so the media quote it in daily market reports",
+        "D": "It is volatile, so it shows how much risk the RR avoided"
+      },
+      "answer": "B",
+      "rationale": "An investable benchmark is one that the client could buy through an index fund. So it is a real alternative, and a gap against it shows real value added or lost. Measurability is also needed, but it does not make the benchmark a real alternative.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.10 benchmark properties (investable)"
+    },
+    {
+      "id": "RSE-E4-0107",
+      "element": 4,
+      "outcome": "4.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Wilhelmina Strand has a Canadian large-cap equity mandate in Canadian dollars. Her RR reports performance against the S&P 500 in U.S. dollars. Why is this benchmark weak?",
+      "options": {
+        "A": "It is not investable, because no fund tracks the S&P 500",
+        "B": "It is not measurable, because its returns are not published each period",
+        "C": "It is too broad, because it holds more stocks than her portfolio",
+        "D": "It is not appropriate, because its region and currency differ from the mandate"
+      },
+      "answer": "D",
+      "rationale": "An appropriate benchmark matches the mandate's asset class, region, style and currency. A U.S. index in U.S. dollars does not fit a Canadian mandate. The S&P 500 is investable and measurable, so those properties are not the problem.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.10 benchmark properties (appropriate)"
+    },
+    {
+      "id": "RSE-E4-0108",
+      "element": 4,
+      "outcome": "4.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "RR Fenella Okoro writes a weekly market summary for clients. Which sentence follows good practice for a market summary?",
+      "options": {
+        "A": "The S&P/TSX Composite price return was +1.4% this week, led by financials after a rate cut.",
+        "B": "Canadian stocks were strong this week, and they will probably keep rising next month.",
+        "C": "Stocks rose about 2% recently, so clients should add more money to their equity positions.",
+        "D": "The index rose this week, and bonds also did well, just as everyone expected."
+      },
+      "answer": "A",
+      "rationale": "A good summary names the index and the period, and it says whether it uses price or total return. It gives the known cause and keeps facts separate from opinion. The other sentences omit the index or period, or they add forecasts or advice.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.10 market summaries"
+    },
+    {
+      "id": "RSE-E4-0109",
+      "element": 4,
+      "outcome": "4.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Client Darius Wexley's 60/40 balanced portfolio returned 5.0%. The equity total-return index gained 9.0%, and the bond total-return index fell 1.0%. Darius says that he trailed equities by 4 points. What is the correct assessment?",
+      "options": {
+        "A": "He underperformed by 4.0 points, because equities are his main asset class",
+        "B": "He outperformed by 6.0 points, because the bond index lost money",
+        "C": "He matched the blended benchmark, so his relative return is zero",
+        "D": "He underperformed the blended benchmark by 1.0 percentage point"
+      },
+      "answer": "C",
+      "rationale": "Blended benchmark = 0.60 × 9.0% + 0.40 × (−1.0%) = 5.4% − 0.4% = 5.0%. Relative return = 5.0% − 5.0% = 0. A comparison with the equity index alone ignores his 40% bond target.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 0.6*9 + 0.4*(-1) = 5.0; 5.0 - 5.0 = 0; distractors: vs equity -4.0, vs bonds +6.0, wrong -1.0"
+    },
+    {
+      "id": "RSE-E4-0110",
+      "element": 4,
+      "outcome": "4.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Client Saoirse Lindgren's Canadian equity portfolio had a total return of −3.0% this year. The S&P/TSX Composite total return was −5.0%. How did the portfolio perform against its benchmark?",
+      "options": {
+        "A": "It underperformed by 3.0 percentage points, because its return was negative",
+        "B": "It outperformed by 2.0 percentage points, despite its loss",
+        "C": "It underperformed the index by 2.0 percentage points",
+        "D": "It outperformed the index by 8.0 percentage points"
+      },
+      "answer": "B",
+      "rationale": "Relative return = portfolio return − benchmark return = −3.0% − (−5.0%) = +2.0 points. A positive relative return shows outperformance, even when the portfolio lost money. The benchmark shows the result of the passive choice.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: -3.0 - (-5.0) = +2.0; distractors: sign error -2.0, added magnitudes 8.0"
+    },
+    {
+      "id": "RSE-E4-0111",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Analyst Corwin Eastwood estimates the intrinsic value of Penhallow Brewing Inc. from its statements, management, industry and the economy. Which assumption underlies his method?",
+      "options": {
+        "A": "Prices adjust gradually to information, so trends persist",
+        "B": "Statistical relationships in past data will continue",
+        "C": "Prices already reflect all information, so no stock is mispriced",
+        "D": "The market price moves toward intrinsic value over time"
+      },
+      "answer": "D",
+      "rationale": "Fundamental analysis estimates intrinsic value, and it assumes that the price moves toward that value over time. Gradual price adjustment and persistent trends are technical assumptions. Continuing statistical relationships are a quantitative assumption.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.11 fundamental analysis"
+    },
+    {
+      "id": "RSE-E4-0112",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A dealer's quantitative model buys the stocks with the highest 12-month returns each quarter. What is the main limit of this approach?",
+      "options": {
+        "A": "A relationship found in past data can stop working",
+        "B": "It depends heavily on forecasts of future cash flows",
+        "C": "It needs audited financial statements for every stock",
+        "D": "It ignores price history and uses only company news"
+      },
+      "answer": "A",
+      "rationale": "A momentum screen is a quantitative tool. It assumes that relationships in past data continue, so its main limit is that a relationship can stop. Dependence on cash-flow forecasts is the main limit of fundamental analysis.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.11 quantitative analysis (momentum screen)"
+    },
+    {
+      "id": "RSE-E4-0113",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement correctly compares technical analysts and quantitative analysts?",
+      "options": {
+        "A": "Both groups rely mainly on intrinsic-value estimates from company statements",
+        "B": "Technical analysts need financial statements, but quantitative analysts do not",
+        "C": "Technical analysts do not need financial statements, but quantitative analysts may use them",
+        "D": "Quantitative analysts study only charts, while technical analysts run regressions"
+      },
+      "answer": "C",
+      "rationale": "Technical analysts study price and volume history, so they do not need financial statements. Quantitative analysts may use fundamental data, but they process it statistically, for example with regression. Option B reverses this.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.11 exam trap"
+    },
+    {
+      "id": "RSE-E4-0114",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "The S&P/TSX Composite reaches a new high. On the same day, declining stocks outnumber advancing stocks by two to one. What does this breadth reading suggest?",
+      "options": {
+        "A": "The rise is broad, because the index level sets the trend",
+        "B": "Few stocks take part in the rise, so the market move is narrow",
+        "C": "The index is now above the intrinsic value of its stocks",
+        "D": "Trading volume on the exchange must have fallen that day"
+      },
+      "answer": "B",
+      "rationale": "Breadth, or the advance-decline measure, shows whether many stocks join a market move. Here most stocks fell while the index rose, so a few large stocks drove the gain. Breadth does not measure intrinsic value.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 4.11 technical analysis (breadth)"
+    },
+    {
+      "id": "RSE-E4-0115",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Two analysts value Tregaron Pipelines Inc. with a discounted cash flow model and the same cash flow forecasts. One uses a discount rate of 8%, and the other uses 10%. What result is most likely?",
+      "options": {
+        "A": "Both find the same value, because the cash flow forecasts are identical",
+        "B": "The analyst who uses 10% finds a higher value, because the rate measures growth",
+        "C": "The analyst who uses 10% finds a lower value, because DCF depends on the discount rate",
+        "D": "The values differ only slightly, because the rate affects only the final year"
+      },
+      "answer": "C",
+      "rationale": "A DCF value is the present value of expected future cash flows. So it depends heavily on the forecasts and on the discount rate. A higher rate lowers present values, so the analyst who uses 10% finds a lower value.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.11 valuation approaches (DCF)"
+    },
+    {
+      "id": "RSE-E4-0116",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "For which company is the constant-growth dividend discount model most suitable?",
+      "options": {
+        "A": "A software start-up that pays no dividends and reinvests all its cash",
+        "B": "A mining company whose dividend changes sharply with metal prices",
+        "C": "A biotech company that expects its first profit in five years",
+        "D": "A mature utility that has raised its dividend steadily for decades"
+      },
+      "answer": "D",
+      "rationale": "The constant-growth dividend discount model assumes steady dividend growth below the required return. So it suits mature dividend payers such as a utility. A company with no dividend or a volatile dividend breaks the model's assumptions.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.11 valuation approaches (DDM)"
+    },
+    {
+      "id": "RSE-E4-0117",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Client Tobias Mwangi sees that Ashcombe Software Inc. trades at a P/E of 20, against a peer average of 32. Valuations look stretched across the whole sector. What is the main weakness of calling Ashcombe cheap?",
+      "options": {
+        "A": "P/E ratios cannot be compared between companies in the same sector",
+        "B": "A lower P/E always shows that a company's earnings are falling",
+        "C": "Relative valuation assumes that the peers are fairly priced, which may be false",
+        "D": "Relative valuation ignores the company's current share price"
+      },
+      "answer": "C",
+      "rationale": "Relative valuation compares P/E or price-to-book with peers, and it assumes that the peer group is fairly priced. If the whole sector is overvalued, a stock that is cheap against its peers can still be expensive. Comparison within a sector is normally correct.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 4.11 valuation approaches (relative valuation)"
+    },
+    {
+      "id": "RSE-E4-0118",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A fundamental analysis says that Braemore Foods Inc. trades 25% below intrinsic value. But its price trend is down, and its latest filing is three months old. How should RR Ilse Varga use this for a client?",
+      "options": {
+        "A": "Find why the methods disagree, check for recent news, and explain the timing risk",
+        "B": "Buy at once, because fundamental value always overrides the market's view",
+        "C": "Ignore the fundamental view, because the price trend is the only current data",
+        "D": "Wait for the next filing, because only financial statements are reliable"
+      },
+      "answer": "A",
+      "rationale": "No single source is complete: filings can be late, and market data shows only what investors do now. When methods disagree, find the reason before you act. Neither the fundamental view nor the trend alone decides the matter.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 4.11 importance of different sources"
+    },
+    {
+      "id": "RSE-E4-0119",
+      "element": 4,
+      "outcome": "4.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The economy enters a recession. Which company's earnings are most likely to fall the least?",
+      "options": {
+        "A": "A car manufacturer that sells mainly new vehicles",
+        "B": "A maker of packaged food and household cleaning products",
+        "C": "A cruise line that depends on holiday travel",
+        "D": "A retailer of luxury clothing and jewellery"
+      },
+      "answer": "B",
+      "rationale": "Consumer staples, such as food and household goods, sell in good and bad times, so their earnings are defensive. Autos, travel and luxury retail are consumer discretionary. Their earnings follow income and confidence, so they are cyclical.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.12 consumer products"
+    },
+    {
+      "id": "RSE-E4-0120",
+      "element": 4,
+      "outcome": "4.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Hargrove Steel Corp. trades at a P/E of 5 after a record year at the top of the economic cycle. Client Nadia Petrakis calls it a bargain. What is the main risk?",
+      "options": {
+        "A": "A low P/E in a manufacturing company always shows accounting problems",
+        "B": "The P/E is low because the company pays no dividends to shareholders",
+        "C": "Steel companies have low fixed costs, so their profits cannot rise further",
+        "D": "Peak-cycle earnings are likely to fall, so the low P/E can be a trap"
+      },
+      "answer": "D",
+      "rationale": "Manufacturing and materials companies have high fixed costs, so profits swing widely with sales. At the top of the cycle, earnings are temporarily high, so a low P/E can be a trap. Option C reverses the cost structure.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.12 manufacturing industries (top-of-cycle trap)"
+    },
+    {
+      "id": "RSE-E4-0121",
+      "element": 4,
+      "outcome": "4.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Why do analysts often value a bank with the price-to-book ratio?",
+      "options": {
+        "A": "A bank's assets are mainly financial, so their book value is meaningful",
+        "B": "Banks pay no dividends, so dividend models do not apply to them",
+        "C": "Bank earnings are too stable for the P/E ratio to be useful",
+        "D": "Banks have no debt, so their book value equals their market value"
+      },
+      "answer": "A",
+      "rationale": "Analysts often value banks on price-to-book, because their assets are mainly financial. Banks commonly pay dividends and carry large liabilities, so options B and D are false. Stable earnings do not make the P/E ratio useless.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.12 service industries (banks on price-to-book)"
+    },
+    {
+      "id": "RSE-E4-0122",
+      "element": 4,
+      "outcome": "4.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Client Leontyne Abara holds utility shares for income. Why do investors often compare utility dividend yields with bond yields?",
+      "options": {
+        "A": "Utilities must pay dividends equal to the Government of Canada bond yield",
+        "B": "Utility shares are a type of fixed-income security under securities law",
+        "C": "Utilities pay high, steady dividends, so they compete with bonds for income investors",
+        "D": "Utility earnings rise when interest rates rise, just as bond yields do"
+      },
+      "answer": "C",
+      "rationale": "Utilities have regulated, recurring revenue, high debt and high dividends. So income investors compare their yields with bond yields. When bond yields rise, utilities become less attractive, and their high debt costs more.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.12 service industries (utilities); 4.13"
+    },
+    {
+      "id": "RSE-E4-0123",
+      "element": 4,
+      "outcome": "4.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Velmont Semiconductor Inc. trades at a P/E of 45. It reports that sales growth slowed from 30% to 12%. Its shares fall 35%, though it is still profitable. What best explains the large drop?",
+      "options": {
+        "A": "The company must now pay a dividend, which lowers its value",
+        "B": "Its high multiple reflected expected growth, so slower growth cuts the multiple fast",
+        "C": "Technology companies must report under a different accounting standard",
+        "D": "Its P/E is now negative, because its earnings growth slowed"
+      },
+      "answer": "B",
+      "rationale": "Investors pay high P/E multiples for the expected growth of technology companies. If growth slows, these multiples can fall fast, so the price drops more than earnings. Slower growth does not make a profitable company's P/E negative.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.12 technologies"
+    },
+    {
+      "id": "RSE-E4-0124",
+      "element": 4,
+      "outcome": "4.12",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "An industry has steady but slower growth. Its companies pay out a larger share of earnings as dividends, and their shares trade at moderate P/E multiples. Which life-cycle stage is it most likely in?",
+      "options": {
+        "A": "Growth",
+        "B": "Introduction",
+        "C": "Decline",
+        "D": "Maturity"
+      },
+      "answer": "D",
+      "rationale": "In maturity, an industry has steady growth, a higher payout and a moderate multiple. The growth stage has fast growth and a low payout. Introduction has little or no profit, and decline has low growth and a low multiple.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.12 industry life cycle"
+    },
+    {
+      "id": "RSE-E4-0125",
+      "element": 4,
+      "outcome": "4.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Economists expect the monthly CPI report to show annual inflation of 3.1%. The report shows exactly 3.1%, up from 2.6% last month. Bond and stock prices barely move. Why?",
+      "options": {
+        "A": "Inflation affects bond prices, but it never affects stock prices",
+        "B": "Markets react only to employment data, not to inflation data",
+        "C": "The result matched the consensus, so prices already reflected it",
+        "D": "A rise in inflation always pushes bond and stock prices up together"
+      },
+      "answer": "C",
+      "rationale": "Markets price expectations. A surprise against the consensus forecast moves prices, not the news alone. Here the report matched the forecast, so prices had already adjusted. Inflation can affect both bonds and stocks.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.13 expectations and surprises"
+    },
+    {
+      "id": "RSE-E4-0126",
+      "element": 4,
+      "outcome": "4.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The central bank raises its policy rate by more than economists expected. Which of these holdings will most likely fall the most in price?",
+      "options": {
+        "A": "A 90-day Government of Canada treasury bill",
+        "B": "A money market fund that holds short-term deposits",
+        "C": "A grocery chain with steady current earnings and no debt",
+        "D": "A software firm that expects most profits more than ten years from now"
+      },
+      "answer": "D",
+      "rationale": "A higher rate makes future cash flows worth less today, so stocks with distant earnings react most. Short-term instruments barely change in price. A debt-free grocer with current earnings is less sensitive to the discount rate.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.13 interest rates (distant earnings react most)"
+    },
+    {
+      "id": "RSE-E4-0127",
+      "element": 4,
+      "outcome": "4.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Inflation rises sharply, and input costs climb across the economy. Which company is best placed to protect its profit margins?",
+      "options": {
+        "A": "A manufacturer that sells a commodity at fixed long-term contract prices",
+        "B": "A company with a strong brand that can raise prices without losing customers",
+        "C": "An airline that cannot pass higher fuel costs on to its customers",
+        "D": "A builder that agreed fixed prices on projects that end in three years"
+      },
+      "answer": "B",
+      "rationale": "When inflation rises, input costs rise. Companies with pricing power can raise their prices, so they protect their margins better than others. Fixed contract prices or weak pricing power leave margins exposed to the higher costs.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.13 inflation (pricing power)"
+    },
+    {
+      "id": "RSE-E4-0128",
+      "element": 4,
+      "outcome": "4.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Client Anouk Dessaline holds a bond with a fixed 5% coupon. Over the year, inflation rises from 2% to 4%. What happens to the real return from her coupon?",
+      "options": {
+        "A": "It falls, because inflation lowers the real value of fixed coupons",
+        "B": "It rises, because higher inflation raises the coupon payments",
+        "C": "It stays the same, because the coupon rate does not change",
+        "D": "It rises, because bond prices go up when inflation rises"
+      },
+      "answer": "A",
+      "rationale": "Real return is about equal to the nominal return minus inflation. Her coupon is fixed, so higher inflation lowers its real value, from about 3% to about 1%. Rising inflation usually pushes yields up and bond prices down.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.13 inflation (real return); 5 - 2 = 3, 5 - 4 = 1"
+    },
+    {
+      "id": "RSE-E4-0129",
+      "element": 4,
+      "outcome": "4.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "GDP has grown for two quarters after a recession, but the unemployment rate still rises. Client Ewan Halvorsen says that the recession must be getting worse. What should his RR explain?",
+      "options": {
+        "A": "Rising unemployment always shows that a new recession has started",
+        "B": "Unemployment is a leading indicator, so GDP will soon fall again",
+        "C": "Unemployment is a lagging indicator, and it often rises after a recovery starts",
+        "D": "GDP data is unreliable, so only employment data shows the cycle"
+      },
+      "answer": "C",
+      "rationale": "Unemployment is a lagging indicator. It often continues to rise after a recovery starts. Option B wrongly calls it a leading indicator. Leading indicators, such as stock prices, turn before the economy.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.13 employment (lagging indicator); 4.14"
+    },
+    {
+      "id": "RSE-E4-0130",
+      "element": 4,
+      "outcome": "4.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Consumer spending and wage growth both come in far above economists' forecasts. That day, bond yields jump and stock indices fall. What best explains the fall in stocks?",
+      "options": {
+        "A": "Strong consumer spending always lowers company earnings",
+        "B": "Investors now expect the central bank to raise rates, which lowers valuations",
+        "C": "Higher wages always reduce productivity, so earnings will fall",
+        "D": "Stock prices fall whenever data differs from the forecast, in either direction"
+      },
+      "answer": "B",
+      "rationale": "Strong spending supports earnings, but fast wage growth adds to inflation pressure. Investors expect rate hikes, and higher rates lower valuations. Here the rate effect outweighs the earnings effect, so good economic news pushes stocks down.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 4.13 exam trap (good news, rate expectations)"
+    },
+    {
+      "id": "RSE-E4-0131",
+      "element": 4,
+      "outcome": "4.14",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Client Priyanka Rasmussen needs $40,000 for tuition in 12 months. She wants to hold it in equities, because stocks have averaged about 9% a year. What is the best response?",
+      "options": {
+        "A": "Equities suit her, because their long-run average applies to any horizon",
+        "B": "Equities suit her if she picks a fund with a low management fee",
+        "C": "A balanced fund is ideal, because its bonds remove the risk of a loss",
+        "D": "Cash or short-term bonds suit her, because one-year equity results include large losses"
+      },
+      "answer": "D",
+      "rationale": "One-year equity outcomes are widely spread, including large losses. A short-horizon investor cannot expect the long-run average return of equities. Money needed within a year or two usually belongs in cash or short-term bonds.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.14 volatility and exam trap"
+    },
+    {
+      "id": "RSE-E4-0132",
+      "element": 4,
+      "outcome": "4.14",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Client Lorcan Abernethy reads that equities become less risky the longer you hold them. Which statement about a longer holding period is correct?",
+      "options": {
+        "A": "The spread of average annual returns narrows, but the range of final dollar wealth does not",
+        "B": "The range of final dollar wealth narrows, and so does the spread of annual returns",
+        "C": "Both spreads stay the same, because volatility does not depend on the horizon",
+        "D": "The spread of average annual returns widens, while final wealth becomes certain"
+      },
+      "answer": "A",
+      "rationale": "Over long horizons, the spread of average annual returns narrows. But the range of final dollar wealth does not narrow. So a long horizon reduces uncertainty about the average return, not about the final dollar amount.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 4.14 volatility (average annual returns vs final wealth)"
+    },
+    {
+      "id": "RSE-E4-0133",
+      "element": 4,
+      "outcome": "4.14",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "The economy moves from a trough into recovery. Which sectors usually lead the market in this phase?",
+      "options": {
+        "A": "Consumer staples and utilities, because their earnings are defensive",
+        "B": "Real estate and utilities, because they pay regular income",
+        "C": "Cyclical sectors, such as consumer discretionary and industrials",
+        "D": "Health care services, because demand for them stays fixed"
+      },
+      "answer": "C",
+      "rationale": "Over months, sector leadership rotates through the cycle. Cyclical sectors lead in recoveries, because their earnings follow the economy. Defensive sectors, such as staples and utilities, stand out mainly by losing less in downturns.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.14 market sector; 4.12"
+    },
+    {
+      "id": "RSE-E4-0134",
+      "element": 4,
+      "outcome": "4.14",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Which pair are leading economic indicators that tend to turn before the economy does?",
+      "options": {
+        "A": "The unemployment rate and stock prices",
+        "B": "Stock prices and building permits",
+        "C": "The unemployment rate and building permits",
+        "D": "Last quarter's GDP and the unemployment rate"
+      },
+      "answer": "B",
+      "rationale": "Leading indicators, such as stock prices and building permits, turn before the economy. Lagging indicators, such as unemployment, turn after it. So every pair that includes the unemployment rate is wrong.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.14 economic cycle"
+    },
+    {
+      "id": "RSE-E4-0135",
+      "element": 4,
+      "outcome": "4.14",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Client Odalys Brennan holds an energy-sector fund. In one quarter, oil prices drop, and the fund falls 12% while the broad market falls 3%. The energy sector index falls 11%. She wants to sell. What is the best assessment?",
+      "options": {
+        "A": "The fund did about as well as its sector, so judge it against that benchmark over a full cycle",
+        "B": "The fund failed, because it trailed the broad market by 9 points in one quarter",
+        "C": "The fund outperformed, because it fell less than the broad market",
+        "D": "The fund should track the broad market, so its manager took too much risk"
+      },
+      "answer": "A",
+      "rationale": "A sector fund can differ widely from the broad market in the short term. Against its sector benchmark, this fund did about as expected. Over a quarter, results can differ by chance, so judge performance over a full cycle.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 4.14 benchmarks and market sector; -12 vs -11 sector, -3 market"
+    }
+  ]
+}

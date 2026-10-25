@@ -1,0 +1,997 @@
+{
+  "meta": {
+    "batch": "E6-003a",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E6-0031",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "In the usual order of portfolio construction, which step comes directly after the manager identifies the client's constraints?",
+      "options": {
+        "A": "Select the securities in each asset class",
+        "B": "Monitor the portfolio and rebalance it",
+        "C": "Choose the asset mix",
+        "D": "Set the client's objectives"
+      },
+      "answer": "C",
+      "rationale": "The order is objectives, constraints, asset mix, security selection, then monitoring and rebalancing. Security selection comes after the mix, because the mix decides how much goes into each asset class.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 (construction order)"
+    },
+    {
+      "id": "RSE-E6-0032",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Marisol Ekwueme manages a portfolio with a strategic mix of 60% equities. She expects strong earnings next quarter. She raises equities to 68% for that quarter only. Which type of asset allocation is this?",
+      "options": {
+        "A": "Strategic asset allocation",
+        "B": "Dynamic asset allocation",
+        "C": "Rebalancing to target weights",
+        "D": "Tactical asset allocation"
+      },
+      "answer": "D",
+      "rationale": "A temporary, deliberate tilt from the strategic mix, based on a forecast, is tactical allocation. Dynamic allocation follows a fixed rule as market values change and needs no forecast.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 (types table: tactical)"
+    },
+    {
+      "id": "RSE-E6-0033",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A target-date fund lowers its equity weight on a fixed schedule as its target year comes near. The schedule does not depend on market moves. Which type of allocation does this schedule show?",
+      "options": {
+        "A": "Tactical allocation based on a market forecast",
+        "B": "Dynamic allocation driven by changes in market values",
+        "C": "Rebalancing back to one fixed target mix",
+        "D": "Strategic allocation that changes over the investor's life"
+      },
+      "answer": "D",
+      "rationale": "A glide path is a scheduled change to the long-run policy mix, so it is strategic. Dynamic allocation changes automatically with market values. This schedule ignores market moves.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 (types table: strategic, glide path)"
+    },
+    {
+      "id": "RSE-E6-0034",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A manager rebalances a portfolio to its fixed targets after a large market move. Which trading pattern does rebalancing cause?",
+      "options": {
+        "A": "The manager sells assets that rose and buys assets that fell",
+        "B": "The manager buys more of the assets that rose most",
+        "C": "The manager moves the targets toward the best performer",
+        "D": "The manager holds all assets and lets the weights drift"
+      },
+      "answer": "A",
+      "rationale": "Rebalancing restores drifted weights to fixed targets. The asset that rose is now overweight, so the manager sells it and buys the asset that fell. Moving the targets changes the strategic mix.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 (benefits of rebalancing)"
+    },
+    {
+      "id": "RSE-E6-0035",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Florian Abara must sell a large block of a thinly traded stock to rebalance a client portfolio. Which statement about the cost of this trade is correct?",
+      "options": {
+        "A": "The price can move against the client before the trade is complete",
+        "B": "The trade has no spread cost because the block is large",
+        "C": "The trade cannot realize a capital gain in a taxable account",
+        "D": "The trade costs only the commission, because time has no cost"
+      },
+      "answer": "A",
+      "rationale": "Each trade costs the spread, a commission and time. In a large or illiquid trade, the price can move against the client before the trade is complete. A taxable sale can also realize a capital gain.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 (costs of implementation)"
+    },
+    {
+      "id": "RSE-E6-0036",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Henrike Dube's portfolio has a 60/40 target of equities and bonds. Equities rise strongly for three years. She never rebalances. What happens to her portfolio's risk?",
+      "options": {
+        "A": "It rises above the level that she agreed to",
+        "B": "It stays at the level that she agreed to",
+        "C": "It falls below the level that she agreed to",
+        "D": "It falls, because her equity gains offset bond risk"
+      },
+      "answer": "A",
+      "rationale": "Without rebalancing, the best performer grows into a larger share. After an equity rally, the equity weight exceeds 60%, so risk drifts above the agreed level. Rebalancing keeps the agreed risk.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 (drift without rebalancing)"
+    },
+    {
+      "id": "RSE-E6-0037",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A manager wants a cheap and consistent way to choose stocks from a large list of companies. Which stock selection technique fits this goal best?",
+      "options": {
+        "A": "Company-by-company fundamental analysis",
+        "B": "Detailed meetings with each company's management",
+        "C": "A separate analyst forecast for each company",
+        "D": "Quantitative screens"
+      },
+      "answer": "D",
+      "rationale": "Quantitative screens apply the same rules to every company at low cost. Company-by-company fundamental analysis, including management meetings and forecasts, can find mispriced stocks, but it costs more.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 (stock selection techniques)"
+    },
+    {
+      "id": "RSE-E6-0038",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Viveka Mensah saves for a home purchase. Ten years ago, her goal was 15 years away. Now it is two years away. Under a time-horizon strategy, how does her asset mix usually change?",
+      "options": {
+        "A": "Her equity weight rises as the goal comes near",
+        "B": "Her mix stays fixed until the goal date",
+        "C": "Her cash weight falls to fund more equities",
+        "D": "Her equity weight falls as the goal comes near"
+      },
+      "answer": "D",
+      "rationale": "A longer horizon permits more equities. As a goal comes near, the client has less time to recover from a loss, so the equity weight usually falls.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 (time horizon or life stage strategy)"
+    },
+    {
+      "id": "RSE-E6-0039",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Lucan Ishikawa has an advisory account. His equity weight is now outside its tolerance band. His RR wants to sell equities and buy bonds. What must the RR do first?",
+      "options": {
+        "A": "Make the trade, because the band breach authorizes it",
+        "B": "Get Lucan's instruction before the trade",
+        "C": "Make the trade and tell Lucan at the next review",
+        "D": "Wait until the next scheduled annual rebalancing date"
+      },
+      "answer": "B",
+      "rationale": "In an advisory account, the client is responsible for all investment decisions. So the RR recommends the rebalance and gets the client's instruction first. A band breach does not give the RR discretion.",
+      "rule_refs": [
+        "IDPC 1201"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the client is responsible for all investment decisions but is able to rely on advice given by a Registered Representative\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 1201 'advisory account', ~line 256"
+    },
+    {
+      "id": "RSE-E6-0040",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Interest rates rise sharply. Which holding most likely has the largest fall in price?",
+      "options": {
+        "A": "A short-term bond with a high coupon",
+        "B": "A 90-day Treasury bill",
+        "C": "A long-term bond with a low coupon",
+        "D": "A long-term bond with a high coupon"
+      },
+      "answer": "C",
+      "rationale": "Bond prices fall when rates rise. Longer terms and lower coupons make the price move more. So a long-term, high-coupon bond moves less than a long-term, low-coupon bond.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.2 (interest rate risk)"
+    },
+    {
+      "id": "RSE-E6-0041",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Saoirse Nadeau holds a five-year bond to maturity, and the issuer pays in full. At maturity, rates are much lower. She must reinvest at the lower rate. Which risk affects her?",
+      "options": {
+        "A": "Capital risk",
+        "B": "Liquidity risk",
+        "C": "Income risk",
+        "D": "Issuer risk"
+      },
+      "answer": "C",
+      "rationale": "When a bond matures and the client must reinvest at a lower rate, her income falls. This is income (reinvestment) risk. Capital risk does not apply, because she got par back.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.2 (income risk; exam trap)"
+    },
+    {
+      "id": "RSE-E6-0042",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Gideon Farrow may need cash at short notice for a business deal. Most of his portfolio is in exempt-market securities that trade rarely. Which risk is most serious for him?",
+      "options": {
+        "A": "Inflation risk",
+        "B": "Interest rate risk",
+        "C": "Income risk",
+        "D": "Liquidity risk"
+      },
+      "answer": "D",
+      "rationale": "Liquidity risk is the risk that a client cannot sell quickly at a price near fair value. Thinly traded and exempt-market securities carry it. It matters most when cash may be needed at short notice.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.2 (liquidity risk)"
+    },
+    {
+      "id": "RSE-E6-0043",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Esperanza Kowal needs her savings for a down payment in 12 months. She plans to invest them in high-yield bonds and small-cap stocks. Which risk is most serious for her?",
+      "options": {
+        "A": "Inflation risk",
+        "B": "Income risk",
+        "C": "Capital risk",
+        "D": "Interest rate risk"
+      },
+      "answer": "C",
+      "rationale": "Capital risk is the risk that value falls below the amount invested. Equities and high-yield debt carry the most. With a 12-month horizon, she has little time to recover from a loss.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.2 (capital risk)"
+    },
+    {
+      "id": "RSE-E6-0044",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which client is most exposed to income risk?",
+      "options": {
+        "A": "A young saver who reinvests all dividends for 30 years",
+        "B": "A retiree who pays living costs from dividends and interest",
+        "C": "A client who holds only growth stocks that pay no dividends",
+        "D": "An executive who holds cash for a purchase next month"
+      },
+      "answer": "B",
+      "rationale": "Income risk is the risk that portfolio income falls, from a dividend cut or reinvestment at lower rates. Retirees who live on portfolio income are most exposed. A saver who reinvests does not depend on it.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.2 (income risk)"
+    },
+    {
+      "id": "RSE-E6-0045",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Bartholomew Yeung holds most of his bond portfolio in bonds of one lower-rated company. Which step most directly reduces his issuer risk?",
+      "options": {
+        "A": "Buy longer-term bonds of the same company",
+        "B": "Hold the same bonds to maturity",
+        "C": "Buy higher-coupon bonds of the same company",
+        "D": "Spread the bonds across many issuers"
+      },
+      "answer": "D",
+      "rationale": "Issuer risk comes from problems at one issuer, such as a default or a downgrade. Single-issuer holdings carry the most. Diversification across issuers reduces it. Holding to maturity does not prevent a default.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.2 (issuer risk)"
+    },
+    {
+      "id": "RSE-E6-0046",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under IDPC 3201, which situation is an example of financial exploitation of a client?",
+      "options": {
+        "A": "A client loses 20% of her portfolio value in a broad market decline",
+        "B": "A client's long-term bond falls in price after interest rates rise",
+        "C": "A relative uses undue influence to take control of an older client's savings",
+        "D": "A client redeems a fund early and pays the fee that the fund charges"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3201 defines financial exploitation as the use or control of a person's financial asset through undue influence, unlawful conduct or another wrongful act. Market losses and rate changes are investment risks.",
+      "rule_refs": [
+        "IDPC 3201"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the use or control of, or deprivation of the use or control of, a financial asset of an individual by a person through undue influence, unlawful conduct or another wrongful act\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3201 definition \"financial exploitation\", ~line 5474"
+    },
+    {
+      "id": "RSE-E6-0047",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which activity does CIRO's AML guidance list as a sign that may indicate money laundering?",
+      "options": {
+        "A": "A client rebalances her portfolio back to its target mix once a year",
+        "B": "A client sells securities early and pays a fee, with no plausible explanation",
+        "C": "A client buys a broad-market ETF in a registered retirement account",
+        "D": "A client reinvests a maturing GIC in a new five-year GIC"
+      },
+      "answer": "B",
+      "rationale": "GN-3200-23-001 says that early sales that cause a fee, with no plausible explanation, could indicate money laundering. Routine rebalancing, index purchases and reinvestment have a clear investment purpose.",
+      "rule_refs": [
+        "GN-3200-23-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"If a client is selling securities early and incurring a fee without a plausible explanation, this could indicate money laundering.\" — research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt GN-3200-23-001 s. 5.3.3, ~line 475"
+    },
+    {
+      "id": "RSE-E6-0048",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A new client deposits physical share certificates into a brokerage account. Why does CIRO's AML guidance treat this as a sign that needs more investigation?",
+      "options": {
+        "A": "Physical certificates always show that the shares are stolen",
+        "B": "Physical certificates cannot legally be held in a margin account",
+        "C": "There is little information that confirms the source of the funds",
+        "D": "Physical certificates prevent the dealer from settling trades on time"
+      },
+      "answer": "C",
+      "rationale": "GN-3200-23-001 notes that certificate deposits give little information about the source of funds or how the client got them. The guidance treats this as an indicator, not as proof of a crime.",
+      "rule_refs": [
+        "GN-3200-23-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"When physical certificates are deposited into a brokerage account, there is little information confirming the source of funds or how the client obtained them.\" — research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt GN-3200-23-001 s. 5.3.2, ~line 471"
+    },
+    {
+      "id": "RSE-E6-0049",
+      "element": 6,
+      "outcome": "6.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A single stock has a high standard deviation and a low beta. What does this combination show?",
+      "options": {
+        "A": "Most of its risk is company-specific, not market risk",
+        "B": "Most of its risk comes from market movements",
+        "C": "It has little total risk but high market risk",
+        "D": "It tends to move opposite to the market"
+      },
+      "answer": "A",
+      "rationale": "Standard deviation measures total risk, systematic and unsystematic. Beta measures systematic risk only. A high standard deviation with a low beta means that most of the risk is unsystematic.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.3 (exam trap: sigma vs beta)"
+    },
+    {
+      "id": "RSE-E6-0050",
+      "element": 6,
+      "outcome": "6.3",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Returns on a fund are roughly normal. About what share of its annual returns fall within one standard deviation of the mean?",
+      "options": {
+        "A": "About 50%",
+        "B": "About 95%",
+        "C": "About 99%",
+        "D": "About 68%"
+      },
+      "answer": "D",
+      "rationale": "For roughly normal returns, about 68% of outcomes fall within one standard deviation of the mean. About 95% fall within two standard deviations.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.3 (standard deviation ranges)"
+    },
+    {
+      "id": "RSE-E6-0051",
+      "element": 6,
+      "outcome": "6.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement describes a limit of standard deviation as a risk measure?",
+      "options": {
+        "A": "It measures only systematic risk and ignores company risk",
+        "B": "It treats a large gain as risk in the same way as a large loss",
+        "C": "It cannot be calculated for a portfolio of many assets",
+        "D": "It is in squared units, so it cannot be compared to returns"
+      },
+      "answer": "B",
+      "rationale": "Standard deviation measures how widely returns scatter around the mean, in both directions. So a large gain counts as risk just like a large loss. It measures total risk, and it is in return units.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.3 (limit of standard deviation)"
+    },
+    {
+      "id": "RSE-E6-0052",
+      "element": 6,
+      "outcome": "6.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A security has a beta of −0.4. How does it tend to behave?",
+      "options": {
+        "A": "It tends to move with the market, but by less",
+        "B": "It has no relationship with the market",
+        "C": "It tends to move against the market",
+        "D": "It tends to move more than the market"
+      },
+      "answer": "C",
+      "rationale": "The market has a beta of 1. A beta between 0 and 1 means that the security moves with the market, but less. A beta below zero means that it tends to move against the market.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.3 (beta)"
+    },
+    {
+      "id": "RSE-E6-0053",
+      "element": 6,
+      "outcome": "6.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Amadou Sorensen holds a broad, diversified portfolio. He wants to know how much market risk one new stock adds to it. Which measure fits this decision best?",
+      "options": {
+        "A": "Beta",
+        "B": "Standard deviation",
+        "C": "Variance",
+        "D": "Maximum drawdown"
+      },
+      "answer": "A",
+      "rationale": "Inside a diversified portfolio, the other holdings remove most company-specific risk. So beta, which measures systematic risk, shows the risk that the stock adds. Standard deviation and variance measure total risk.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.3 (beta in a diversified portfolio)"
+    },
+    {
+      "id": "RSE-E6-0054",
+      "element": 6,
+      "outcome": "6.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A portfolio has a drawdown from its peak. Which statement about the gain that it needs to return to that peak is correct?",
+      "options": {
+        "A": "The gain needed equals the percentage fall",
+        "B": "The gain needed is larger than the percentage fall",
+        "C": "The gain needed is smaller than the percentage fall",
+        "D": "The gain needed depends only on the portfolio's beta"
+      },
+      "answer": "B",
+      "rationale": "After the fall, the gain applies to a smaller base. For example, a 25% drawdown needs a gain of about 33% to return to the peak. So the needed gain is larger than the fall.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.3 (drawdown; 1/0.75 - 1 = 0.333)"
+    },
+    {
+      "id": "RSE-E6-0055",
+      "element": 6,
+      "outcome": "6.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Corentin Abiola holds 40 Canadian stocks from many sectors. A recession causes the whole market to fall 20%. His portfolio falls about as much. Why did diversification not protect him?",
+      "options": {
+        "A": "Diversification cannot remove systematic risk that all stocks share",
+        "B": "He held too few stocks to remove market risk",
+        "C": "Diversification removes only interest rate risk",
+        "D": "Diversification works only for bond portfolios"
+      },
+      "answer": "A",
+      "rationale": "Diversification reduces company-specific risk. It cannot remove systematic risk, because all stocks share exposure to the economy. More holdings would not have prevented the market fall.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.4 (diversification limits)"
+    },
+    {
+      "id": "RSE-E6-0056",
+      "element": 6,
+      "outcome": "6.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Wilhelmina Sato has a diversified Canadian equity portfolio. She fears a market fall over the next two months. She does not want to sell. Which action reduces her market risk most directly?",
+      "options": {
+        "A": "Take a short position in stock index futures",
+        "B": "Add more Canadian stocks from other sectors",
+        "C": "Buy call options on a Canadian stock index",
+        "D": "Replace low-beta stocks with high-beta stocks"
+      },
+      "answer": "A",
+      "rationale": "A hedge takes an offsetting position against one named risk, and it can reduce systematic risk. A short index futures position gains when the market falls. More stocks from the same market cannot remove market risk.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.4 (hedging)"
+    },
+    {
+      "id": "RSE-E6-0057",
+      "element": 6,
+      "outcome": "6.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Thandiwe Rousseau holds U.S. stocks in her Canadian-dollar account. She wants to keep the stocks. She fears that the U.S. dollar will fall against the Canadian dollar. Which action fits her concern?",
+      "options": {
+        "A": "Add a currency hedge on her U.S. investments",
+        "B": "Buy put options on each of her U.S. stocks",
+        "C": "Sell her U.S. stocks and buy Canadian bonds",
+        "D": "Add more U.S. stocks from other sectors"
+      },
+      "answer": "A",
+      "rationale": "A hedge targets one named risk. Her concern is currency risk, not the stocks, so a currency hedge fits. Puts protect against falls in stock prices. A sale removes holdings that she wants to keep.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.4 (hedging: currency hedge)"
+    },
+    {
+      "id": "RSE-E6-0058",
+      "element": 6,
+      "outcome": "6.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A portfolio holds 50% in Asset X (standard deviation 20%) and 50% in Asset Y (standard deviation 10%). Their correlation is +0.2. Which statement about the portfolio's standard deviation is correct?",
+      "options": {
+        "A": "It is less than 15%",
+        "B": "It is exactly 15%",
+        "C": "It is more than 15%",
+        "D": "It is exactly 20%"
+      },
+      "answer": "A",
+      "rationale": "The weighted-average standard deviation is 15%. Portfolio risk is not a weighted average. When the correlation is below +1, portfolio standard deviation is less than the weighted average.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.4 (risk not a weighted average); check sqrt(0.25*400+0.25*100+2*0.25*0.2*200)=12.04%"
+    },
+    {
+      "id": "RSE-E6-0059",
+      "element": 6,
+      "outcome": "6.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Two equity funds have a correlation of +1. Linnea Castellanos splits her money equally between them. Which statement about her portfolio is correct?",
+      "options": {
+        "A": "Its standard deviation is lower than either fund's",
+        "B": "Its standard deviation equals the average of the two funds",
+        "C": "Its risk can, in theory, be eliminated",
+        "D": "Its expected return is higher than either fund's"
+      },
+      "answer": "B",
+      "rationale": "With a correlation of +1, the funds always move together, so there is no risk reduction. Portfolio standard deviation equals the weighted average. Elimination of risk needs a correlation of −1, in theory.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.4 (Remember box: rho = +1)"
+    },
+    {
+      "id": "RSE-E6-0060",
+      "element": 6,
+      "outcome": "6.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An RR rejects a commodity fund for Oswin Mbeki because the fund's standard deviation alone is high. Its returns have a low correlation with his other holdings. Which reply is most accurate?",
+      "options": {
+        "A": "A small weight in the fund can lower his total portfolio risk",
+        "B": "The fund will always raise his total portfolio risk",
+        "C": "The fund's risk alone is the only relevant measure",
+        "D": "The fund will raise his expected return with no added risk"
+      },
+      "answer": "A",
+      "rationale": "Judge an asset by how it changes the risk of the whole portfolio, not only by its risk alone. A risky asset with low correlation to the other holdings can lower portfolio risk.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.4 (role of risk in asset selection)"
+    },
+    {
+      "id": "RSE-E6-0061",
+      "element": 6,
+      "outcome": "6.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Perpetua Lindgren holds shares of one company. She buys a put option on them with a strike price below the current price. Which statement describes her position until expiry?",
+      "options": {
+        "A": "Minimum value of the strike price; the hedge has no cost",
+        "B": "Minimum value of strike less premium; upside kept, less the premium",
+        "C": "Minimum value of the current price; all upside given up",
+        "D": "No minimum value; all upside kept, less the premium"
+      },
+      "answer": "B",
+      "rationale": "A protective put gives the right to sell at the strike price until expiry. So it sets a minimum value of the strike less the premium. If the price rises, she keeps the upside, less the premium paid.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.4 (protective put scenario)"
+    },
+    {
+      "id": "RSE-E6-0062",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Yusuf Brannigan has an open short position in a stock. How does he close (cover) the position?",
+      "options": {
+        "A": "He sells more shares, and the dealer cancels the loan",
+        "B": "He deposits cash equal to the original sale price",
+        "C": "He buys the shares, and the dealer returns them to the lender",
+        "D": "He waits until the lender sells the shares for him"
+      },
+      "answer": "C",
+      "rationale": "In a short sale, the dealer borrows shares to deliver to the buyer. To cover, the client buys the shares back, and the dealer returns them to the lender. A cash deposit does not return the shares.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.5 (process of short selling)"
+    },
+    {
+      "id": "RSE-E6-0063",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A Participant enters an order to sell shares for a client. On execution, the sale will be a short sale. The order is not a short-marking exempt order. What does UMIR 3.2 require?",
+      "options": {
+        "A": "The order must be held until the trade settles",
+        "B": "The order must be entered as a limit order only",
+        "C": "The order needs no marking if the client has a margin account",
+        "D": "The order must be marked as a short sale"
+      },
+      "answer": "D",
+      "rationale": "Under UMIR 3.2(1), a Participant must not enter a short-sale order on a marketplace unless the order is marked short. Only short-marking exempt orders are excepted. A margin account does not remove this duty.",
+      "rule_refs": [
+        "UMIR 3.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"unless the order is marked as a short sale in accordance with subclause 6.2(1)(b)(viii)\" — research/sources/ciro/umir-2026-08-11.txt UMIR 3.2(1)(a), ~line 5438"
+    },
+    {
+      "id": "RSE-E6-0064",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The Market Regulator has designated a stock as a Short Sale Ineligible Security for today. Ottilie Faraday asks her dealer to sell it short today. What does UMIR 3.2 provide?",
+      "options": {
+        "A": "The Participant may enter the order if it is marked short",
+        "B": "The Participant must not enter the order, subject to limited exceptions",
+        "C": "The Participant may enter the order if it arranges a borrow first",
+        "D": "The Participant may enter the order at a price above the last sale"
+      },
+      "answer": "B",
+      "rationale": "UMIR 3.2(1) bars a short-sale order if the security is a Short Sale Ineligible Security at the time of entry. Only the exceptions in UMIR 3.2(3) apply. A prior borrow is the condition for a Pre-Borrow Security.",
+      "rule_refs": [
+        "UMIR 3.2",
+        "UMIR Policy 1.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"if the security is a Short Sale Ineligible Security at the time of the entry of the order\" — research/sources/ciro/umir-2026-08-11.txt UMIR 3.2(1)(b), ~line 5441"
+    },
+    {
+      "id": "RSE-E6-0065",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A stock is designated as a Pre-Borrow Security. A Participant wants to enter a short-sale order in it for a client. When may the Participant enter the order?",
+      "options": {
+        "A": "Only after the trade settles and the shares are delivered",
+        "B": "At any time, if the order is marked as a short sale",
+        "C": "Only after it arranges to borrow the shares needed for settlement",
+        "D": "Never, because the rules bar all short sales in the stock"
+      },
+      "answer": "C",
+      "rationale": "For a Pre-Borrow Security, UMIR 3.2(1) permits a short-sale order only if the Participant arranged the borrowing before it entered the order. Marking alone is not enough. A full bar applies to a Short Sale Ineligible Security.",
+      "rule_refs": [
+        "UMIR 3.2",
+        "UMIR Policy 1.1"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"has made arrangements for the borrowing of the securities necessary to settle any resulting trade prior to the entry of the order\" — research/sources/ciro/umir-2026-08-11.txt UMIR 3.2(1)(c), ~line 5443"
+    },
+    {
+      "id": "RSE-E6-0066",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rafferty Nkemelu does not own a stock. His dealer arranges to borrow the shares for him, and he then sells them. How does UMIR treat this sale?",
+      "options": {
+        "A": "It is not a short sale, because he has the shares to deliver",
+        "B": "It is not a short sale, because the borrow was arranged first",
+        "C": "It is a short sale only if the price later rises",
+        "D": "It is a short sale, because borrowed shares do not count as owned"
+      },
+      "answer": "D",
+      "rationale": "A UMIR short sale is a sale of a security that the seller does not own. A seller who borrowed the security for delivery is not considered to own it. So a sale of borrowed shares is a short sale.",
+      "rule_refs": [
+        "UMIR 1.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the seller has borrowed the security to be delivered on the settlement of the trade and the seller is not otherwise considered to own the security in accordance with this definition\" — research/sources/ciro/umir-2026-08-11.txt UMIR 1.1 \"short sale\" (f), ~line 2482"
+    },
+    {
+      "id": "RSE-E6-0067",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Cosimo Albrecht holds a short position. The lender of the shares asks for them back. No other shares are available to borrow. Which short-sale risk does this show?",
+      "options": {
+        "A": "Short-squeeze risk, from many short sellers covering at once",
+        "B": "Recall risk, which can force a cover at a bad time",
+        "C": "Carry-cost risk, from dividends on the borrowed shares",
+        "D": "Margin-call risk, from a rise in the share price"
+      },
+      "answer": "B",
+      "rationale": "The lender can ask for the shares back. If no other shares are available, the client must cover, possibly at a bad time. A short squeeze needs many short sellers to cover at once.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.5 (short-sale risks: recall)"
+    },
+    {
+      "id": "RSE-E6-0068",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ingrid Valcourt is short a stock. The company pays a dividend while her position is open. What effect does the dividend have on her?",
+      "options": {
+        "A": "She receives the dividend because she sold the shares",
+        "B": "The dividend goes to the buyer, so it has no effect on her",
+        "C": "She pays the dividend amount on the borrowed shares",
+        "D": "The dividend reduces her margin requirement on the position"
+      },
+      "answer": "C",
+      "rationale": "While a short position is open, the client pays any dividends and borrowing fees on the borrowed shares. These carry costs reduce her profit. She does not receive the dividend, because she does not own the shares.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.5 (short-sale risks: carry costs)"
+    },
+    {
+      "id": "RSE-E6-0069",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Zuzanna Eklund is short a volatile stock. She wants a firm maximum on her loss, and she accepts a cost for it. Which action fits best?",
+      "options": {
+        "A": "Place a stop-buy order above the current price",
+        "B": "Buy a put option on the stock",
+        "C": "Sell more shares short at a higher price",
+        "D": "Buy a call option on the stock"
+      },
+      "answer": "D",
+      "rationale": "A call option sets a maximum loss, but it costs a premium. A stop-buy order can limit the loss. But if the stock opens much higher, the loss can be larger than the stop price suggests.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.5 (managing short-sale risks)"
+    },
+    {
+      "id": "RSE-E6-0070",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Anselm Okoro sells short a margin-eligible stock listed on a Canadian exchange. The stock trades at $0.20 per share. What is the minimum client margin requirement?",
+      "options": {
+        "A": "$0.25 per share",
+        "B": "100% of market value",
+        "C": "80% of market value",
+        "D": "50% of market value"
+      },
+      "answer": "A",
+      "rationale": "For short positions, the IDPC 5310 table sets $0.25 per share when the price is below $0.25. A long position at that price has a 100% rate. The 80% rate applies from $1.50 to $1.74.",
+      "rule_refs": [
+        "IDPC 5310",
+        "IDPC 5311"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Market value of below $0.25 per share $0.25 per share\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 5310(1) short table, ~line 16196"
+    },
+    {
+      "id": "RSE-E6-0071",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Mireille Okonjo's margin account becomes undermargined after a price move. Before she fixes the deficiency, she asks to withdraw $5,000 in cash. What must the dealer do?",
+      "options": {
+        "A": "Permit it if she fixes the deficiency within 20 business days",
+        "B": "Refuse the withdrawal while the account is undermargined",
+        "C": "Permit it if the amount is under 10% of the account value",
+        "D": "Permit it and issue a margin call for the same amount"
+      },
+      "answer": "B",
+      "rationale": "Form 1, Schedule 4, Note 5 bars advancing funds or delivering securities while the account is undermargined. The 20-business-day period applies to restricting the account to trades that reduce the deficiency.",
+      "rule_refs": [
+        "IDPC Form 1 Schedule 4"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Advancing funds or delivering securities from the account of a customer shall not be permitted as long as the account is undermargined or if such advance or delivery would cause the account to become undermargined.\" — research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt Form 1 Sch. 4 Note 5(iv), ~line 114"
+    },
+    {
+      "id": "RSE-E6-0072",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Lior Haddad is short a stock in his margin account. The price rises sharply, and he is now indebted to the dealer. The dealer considers action necessary for its credit risk protection. What may it do?",
+      "options": {
+        "A": "Lend him more shares to extend the position",
+        "B": "Freeze the account but take no trading action",
+        "C": "Cancel the short sale and reverse the trade",
+        "D": "Buy the securities that Lior holds short"
+      },
+      "answer": "D",
+      "rationale": "IDPC 5116 lets a dealer buy securities held short for an indebted client when it considers this necessary for its credit risk protection. The margin agreement must describe this right to cover short sales.",
+      "rule_refs": [
+        "IDPC 5116",
+        "IDPC 3247"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"buy securities held short for an indebted client\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 5116(1)(i), ~line 14822"
+    },
+    {
+      "id": "RSE-E6-0073",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Bjorn Tveit sells a stock short in his margin account and receives $10,000 in proceeds. He asks to withdraw the $10,000. Which statement is correct?",
+      "options": {
+        "A": "The proceeds stay in the account as part of the required credit",
+        "B": "He may withdraw the proceeds because the sale has settled",
+        "C": "He may withdraw half, because the margin rate is 50%",
+        "D": "He may withdraw them if he enters a stop-buy order"
+      },
+      "answer": "A",
+      "rationale": "A short position needs a credit balance at least equal to its net negative loan value. At a 50% rate, that credit is 150% of the shares' value. So the proceeds stay in the account and are not free cash.",
+      "rule_refs": [
+        "IDPC 5113"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the cash balance in the margin account must be a credit equal to or larger than the net negative loan value for the account to be in good standing\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 5113(4)(iii), ~line 14796"
+    },
+    {
+      "id": "RSE-E6-0074",
+      "element": 6,
+      "outcome": "6.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A portfolio plots below the efficient frontier. What does this position show?",
+      "options": {
+        "A": "The portfolio has the lowest risk of all possible portfolios",
+        "B": "The portfolio suits only investors with a high risk tolerance",
+        "C": "Another portfolio gives a higher expected return for the same risk",
+        "D": "The portfolio has no unsystematic risk left in it"
+      },
+      "answer": "C",
+      "rationale": "The efficient frontier is the set of portfolios with the highest expected return for each level of risk. A portfolio below it is inefficient, because another portfolio gives more return for the same risk.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.6 (efficient frontier)"
+    },
+    {
+      "id": "RSE-E6-0075",
+      "element": 6,
+      "outcome": "6.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement describes a main weakness of plain mean–variance optimization?",
+      "options": {
+        "A": "It ignores the correlations between the assets",
+        "B": "It assumes that investors prefer more risk",
+        "C": "It needs no estimate of expected returns",
+        "D": "Small errors in its estimates can change the weights a lot"
+      },
+      "answer": "D",
+      "rationale": "MPT needs an expected return, a standard deviation and correlations for each asset. Small errors in these estimates can change the weights a lot, often to extreme ones. MPT assumes that investors are risk averse.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.6 (MPT; Black-Litterman motivation)"
+    },
+    {
+      "id": "RSE-E6-0076",
+      "element": 6,
+      "outcome": "6.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Two portfolios each hold 20 assets. One uses equal weights. The other picks weights from estimates of return, risk and correlation. What is the main advantage of the second approach?",
+      "options": {
+        "A": "It removes all systematic risk from the portfolio",
+        "B": "It gets more risk reduction per holding by using correlations",
+        "C": "It guarantees a higher return than equal weights",
+        "D": "It needs no estimates of the assets' returns"
+      },
+      "answer": "B",
+      "rationale": "Efficient diversification chooses weights from expected return, standard deviation and correlation. It seeks low-correlation assets, so it gets more risk reduction per holding than equal weights. No diversification removes systematic risk.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.6 (efficient vs naive diversification)"
+    },
+    {
+      "id": "RSE-E6-0077",
+      "element": 6,
+      "outcome": "6.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A Monte Carlo simulation reports an 82% probability that Gwendolyn Oyelaran's savings last to age 92. What does this result also show?",
+      "options": {
+        "A": "Her savings are certain to last to age 92",
+        "B": "The savings run out before age 92 in about 18% of the paths",
+        "C": "Her savings last to age 82 in every path",
+        "D": "Her portfolio earns 82% of its expected return"
+      },
+      "answer": "B",
+      "rationale": "Monte Carlo runs thousands of random return paths and reports a distribution of outcomes. An 82% success rate means that the savings run out in about 18% of the paths. It gives probabilities, not a guarantee.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.6 (Monte Carlo)"
+    },
+    {
+      "id": "RSE-E6-0078",
+      "element": 6,
+      "outcome": "6.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement describes the main limit of the Black–Litterman model?",
+      "options": {
+        "A": "It always gives extreme, concentrated weights",
+        "B": "It ignores market-capitalization weights",
+        "C": "Its result depends on the views and confidence levels that the manager enters",
+        "D": "It cannot include any views of the manager"
+      },
+      "answer": "C",
+      "rationale": "Black–Litterman blends the manager's views, weighted by confidence, into market equilibrium returns. This gives more stable weights than plain optimization. But poor views or confidence levels still give a poor portfolio.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.6 (Black-Litterman limit)"
+    }
+  ]
+}

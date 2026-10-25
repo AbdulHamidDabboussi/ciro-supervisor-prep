@@ -1,0 +1,1244 @@
+{
+  "meta": {
+    "batch": "E5-003b",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E5-0098",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement about the holding period return (HPR) of an investment is correct?",
+      "options": {
+        "A": "It includes income received, and it is not annualized.",
+        "B": "It excludes income, and it shows only the change in value.",
+        "C": "It is annualized, so it allows direct comparison across periods.",
+        "D": "It adjusts for the timing of deposits and withdrawals."
+      },
+      "answer": "A",
+      "rationale": "HPR is (ending value − beginning value + income) ÷ beginning value. It includes income and covers the whole period without annualization. It assumes no deposits or withdrawals, so it does not adjust for their timing. A money-weighted return does that.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.8 HPR"
+    },
+    {
+      "id": "RSE-E5-0099",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A fund company wants to measure the skill of its portfolio manager. Investors bought and sold large amounts of units during the year. Which return measure should the company use?",
+      "options": {
+        "A": "Money-weighted rate of return, because it reflects investor cash flows",
+        "B": "Time-weighted rate of return, because investor cash flows do not affect it",
+        "C": "Holding period return, because it ignores the income of the portfolio",
+        "D": "Money-weighted rate of return, because it links sub-period returns"
+      },
+      "answer": "B",
+      "rationale": "TWRR splits the period at each cash flow and links the sub-period returns. Cash flows do not affect it, so it measures the manager, who does not control investor trades. MWRR reflects the timing of cash flows, so it suits the client's own account.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.8 TWRR"
+    },
+    {
+      "id": "RSE-E5-0100",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Harlan bought fund units at the start of the year. He made no other deposits or withdrawals during the year. How do the money-weighted and time-weighted rates of return for his account compare?",
+      "options": {
+        "A": "The money-weighted return is always higher.",
+        "B": "The time-weighted return is always higher.",
+        "C": "The two measures give the same result.",
+        "D": "The two measures differ by the fund's MER."
+      },
+      "answer": "C",
+      "rationale": "MWRR differs from TWRR only because of the timing and size of deposits and withdrawals. With no cash flows in the period, the two measures give the same result. The MER affects both measures equally.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.8 (no cash flows -> MWRR = TWRR)"
+    },
+    {
+      "id": "RSE-E5-0101",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under IDPC rules, how must a dealer calculate the annualized total percentage return in a client's annual performance report?",
+      "options": {
+        "A": "Before charges, with a time-weighted rate of return method",
+        "B": "Net of charges, with a time-weighted rate of return method",
+        "C": "Before charges, with a holding period return method",
+        "D": "Net of charges, with a money-weighted rate of return method"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3810 requires the return net of charges, with a money-weighted method that the industry generally accepts. The report shows how the client's own money did. A time-weighted return measures the manager, not the client's account.",
+      "rule_refs": [
+        "IDPC 3810(2)(v)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the amount of the annualized total percentage return calculated net of charges using a money weighted rate of return calculation methodology generally accepted in the securities industry\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3810(2)(v), ~L8773"
+    },
+    {
+      "id": "RSE-E5-0102",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A Canadian small-cap fund beat a large-cap index by 6 percentage points. Small-cap stocks led the market that year. What is the best conclusion?",
+      "options": {
+        "A": "The benchmark does not match the fund's style, so the result can overstate skill.",
+        "B": "The fund beat a broad index, so the result proves the skill of the manager.",
+        "C": "The manager added 6 percentage points, so the fund is in the first quartile.",
+        "D": "The comparison is valid, because both returns cover the same year."
+      },
+      "answer": "A",
+      "rationale": "A benchmark must match the fund's asset class, style and region. In a year when small caps lead, a small-cap fund can beat a large-cap index without skill. The same period is necessary, but it is not enough for a fair comparison.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.8 benchmark"
+    },
+    {
+      "id": "RSE-E5-0103",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A fund calls itself a Canadian large-cap value fund. Over two years, its manager moved most of the portfolio into small-cap growth stocks. Which problem does this cause for a peer-group comparison?",
+      "options": {
+        "A": "Survivorship bias, because closed funds drop out of the data",
+        "B": "Style drift, because the fund no longer matches its peer group",
+        "C": "Benchmark error, because the index was chosen after the period",
+        "D": "Timing bias, because investor cash flows changed the fund's return"
+      },
+      "answer": "B",
+      "rationale": "Style drift occurs when a fund moves away from its stated style. Its peers then no longer match it, so its quartile rank can mislead. Survivorship bias is a different problem: closed or merged funds leave the data.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.8 peer group"
+    },
+    {
+      "id": "RSE-E5-0104",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Mireille bought a fund at the start of the year and made no other deposits or withdrawals. She holds the series that the fund reports. Her return for the year is below the fund's published return. What is the most likely cause?",
+      "options": {
+        "A": "The fund's MER reduced her return, but the published return excludes it.",
+        "B": "The timing of her cash flows lowered her money-weighted return.",
+        "C": "She paid a front-end sales charge, and the published return excludes it.",
+        "D": "The manager performed poorly, and only her return shows this."
+      },
+      "answer": "C",
+      "rationale": "Published returns exclude sales charges, so a front-end charge lowers her own return. Published returns are already net of the MER. She had no cash flows during the year, so timing cannot explain the gap. Manager results affect both returns equally.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 5.8 exam trap"
+    },
+    {
+      "id": "RSE-E5-0105",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The Fernbrook Dividend Fund has total assets of $64,800,000 and total liabilities of $800,000. It has 5,000,000 units outstanding. Tobias holds 1,250 units. What is the value of his holding?",
+      "options": {
+        "A": "$16,200.00",
+        "B": "$16,400.00",
+        "C": "$15,800.00",
+        "D": "$16,000.00"
+      },
+      "answer": "D",
+      "rationale": "NAVPS = (64,800,000 − 800,000) ÷ 5,000,000 = $12.80. Value = 1,250 × 12.80 = $16,000. The $16,200 answer ignores the liabilities. The $16,400 answer adds the liabilities instead of subtracting them.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: (64,800,000 - 800,000) / 5,000,000 = 12.80; 1,250 x 12.80 = 16,000; distractors 64.8M/5M x 1,250 = 16,200; 65.6M/5M x 1,250 = 16,400; liabilities subtracted twice = 15,800"
+    },
+    {
+      "id": "RSE-E5-0106",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Nkechi holds 1,000 units of a fund at a NAVPS of $14.00. The fund pays a distribution of $0.50 per unit, which she reinvests. The NAVPS then falls to $13.50. What is her holding worth just after the reinvestment?",
+      "options": {
+        "A": "$14,000.00",
+        "B": "$13,500.00",
+        "C": "$14,500.00",
+        "D": "$14,518.52"
+      },
+      "answer": "A",
+      "rationale": "The reinvestment buys 500 ÷ 13.50 = 37.04 units, so she holds 1,037.04 units. Value = 1,037.04 × 13.50 = $14,000. The $13,500 answer ignores the new units. The distribution moves value from the NAVPS into new units, so it adds no value.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 1,000 x 0.50 = 500; 500 / 13.50 = 37.037 units; 1,037.037 x 13.50 = 14,000.00; distractors 1,000 x 13.50 = 13,500; 14,000 + 500 = 14,500; 1,037.037 x 14.00 = 14,518.52"
+    },
+    {
+      "id": "RSE-E5-0107",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rafael invests $20,000 in a fund and pays a 5% front-end sales charge. The NAVPS is $10.00. One year later the NAVPS is $10.60, after cash distributions of $0.20 per unit. What is Rafael's own return for the year?",
+      "options": {
+        "A": "8.0%",
+        "B": "2.6%",
+        "C": "0.7%",
+        "D": "2.7%"
+      },
+      "answer": "B",
+      "rationale": "He gets 19,000 ÷ 10.00 = 1,900 units. His holding is 1,900 × 10.60 = $20,140, and he received $380 of cash distributions. His return = (20,140 + 380 − 20,000) ÷ 20,000 = 2.6%. The 8.0% per-unit return ignores his $1,000 charge.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: units = (20,000 x 0.95) / 10.00 = 1,900; value = 1,900 x 10.60 = 20,140; cash = 1,900 x 0.20 = 380; (20,140 + 380 - 20,000) / 20,000 = 0.026; distractors per-unit (0.60 + 0.20)/10 = 8.0%; no distributions 140/20,000 = 0.7%; divides by net 520/19,000 = 2.7%"
+    },
+    {
+      "id": "RSE-E5-0108",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Greta's equity fund started the year at a NAVPS of $18.00 and ended it at $17.10. It paid $0.36 per unit in cash during the year. Its benchmark returned −4.5%. How did the fund perform against its benchmark?",
+      "options": {
+        "A": "It returned −5.0% and lagged the benchmark by 0.5 percentage points.",
+        "B": "It returned −3.0% and lagged the benchmark by 1.5 percentage points.",
+        "C": "It returned −3.0% and beat the benchmark by 1.5 percentage points.",
+        "D": "It returned +2.0% and beat the benchmark by 6.5 percentage points."
+      },
+      "answer": "C",
+      "rationale": "Total return = (17.10 − 18.00 + 0.36) ÷ 18.00 = −3.0%. Against −4.5%, the fund beat its benchmark by 1.5 percentage points, although it lost money. The −5.0% answer ignores the distributions.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: (17.10 - 18.00 + 0.36) / 18.00 = -0.030; -0.030 - (-0.045) = +0.015; distractors -0.90/18 = -5.0%; 0.36/18 = +2.0%"
+    },
+    {
+      "id": "RSE-E5-0109",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Under NI 81-106, how must an investment fund value its assets and liabilities when it calculates its NAV?",
+      "options": {
+        "A": "At original cost, including only the income that the fund received in cash",
+        "B": "At market value at month-end, excluding the expenses accrued to that date",
+        "C": "At the lower of cost and market, excluding the income accrued to that date",
+        "D": "At fair value, including income and expenses accrued to the calculation date"
+      },
+      "answer": "D",
+      "rationale": "NI 81-106 requires NAV at the fair value of the fund's assets and liabilities. NAV must also include the income and expenses accrued to the date of calculation. Cost-based or month-end methods do not meet these rules.",
+      "rule_refs": [
+        "NI 81-106 s. 14.2"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The net asset value of an investment fund must be calculated using the fair value of the investment fund’s assets and liabilities.\" — research/sources/csa/ni-81-106-investment-fund-continuous-disclosure-nav-mer.txt NI 81-106 s.14.2(1), ~L408"
+    },
+    {
+      "id": "RSE-E5-0110",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A balanced mutual fund has offered units by prospectus for 4 years. Its sales communication includes standard performance data. Which returns must the data show?",
+      "options": {
+        "A": "3-year and 1-year returns, plus a return since inception",
+        "B": "10-, 5-, 3- and 1-year returns, with zero for the missing years",
+        "C": "A 1-year return only, because the fund is less than 5 years old",
+        "D": "3-year and 1-year returns, with no return since inception"
+      },
+      "answer": "A",
+      "rationale": "Standard performance data covers 10, 5, 3 and 1 years only to the extent that they apply. A fund with more than 1 and less than 10 years of prospectus history also shows a return since inception. So this fund shows 3-year, 1-year and since-inception returns.",
+      "rule_refs": [
+        "NI 81-102 s. 15.8(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"in the case of a mutual fund that has been offering securities by way of prospectus for more than one and less than 10 years, the standard performance data has been calculated for the period since the inception of the mutual fund,\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.15.8(2)(a.1), ~L3288"
+    },
+    {
+      "id": "RSE-E5-0111",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A money market fund wants to include standard performance data in a sales communication. What must the data show?",
+      "options": {
+        "A": "Annual compounded total returns for the 10-, 5-, 3- and 1-year periods",
+        "B": "A current yield, with an optional effective yield, for the latest seven-day period",
+        "C": "A total return since inception, with no yield figures for any period",
+        "D": "An effective yield alone, for the latest 30-day period of the fund"
+      },
+      "answer": "B",
+      "rationale": "For a money market fund, standard performance data is the current yield, or the current and effective yields. It covers the most recent seven-day period. The 10, 5, 3 and 1-year returns apply to other funds.",
+      "rule_refs": [
+        "NI 81-102 s. 15.8(1)",
+        "NI 81-102 s. 15.10"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the standard performance data has been calculated for the most recent seven day period for which it is practicable to calculate\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.15.8(1)(a), ~L3277"
+    },
+    {
+      "id": "RSE-E5-0112",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The Halyard Growth Fund began to distribute units by prospectus 8 months ago. Its manager wants a newspaper advertisement that shows the fund's 8-month return. May the manager do this?",
+      "options": {
+        "A": "Yes, if the advertisement states that past performance may not be repeated.",
+        "B": "Yes, if the advertisement compares the return with an index for the same 8 months.",
+        "C": "No, the fund generally needs 12 consecutive months of prospectus distribution first.",
+        "D": "No, the fund needs at least 3 years of history before it shows any return."
+      },
+      "answer": "C",
+      "rationale": "A mutual fund generally may show performance in a sales communication only after 12 consecutive months of prospectus distribution. A warning or an index comparison does not remove this condition. The rule sets 12 months, not 3 years.",
+      "rule_refs": [
+        "NI 81-102 s. 15.6(1)(a)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the mutual fund has distributed securities under a prospectus in a jurisdiction for a period of at least 12 consecutive months;\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.15.6(1)(a)(i)(A), ~L3192"
+    },
+    {
+      "id": "RSE-E5-0113",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Saoirse compares a fund's standard performance data with her own account statement. Which assumption does the standard performance data use?",
+      "options": {
+        "A": "Distributions are paid in cash, and sales charges are deducted from the return.",
+        "B": "All distributions are reinvested, and income taxes are deducted from the return.",
+        "C": "Distributions are paid in cash, and the MER is added back to the return.",
+        "D": "All distributions are reinvested, and sales charges and income taxes are ignored."
+      },
+      "answer": "D",
+      "rationale": "Standard performance data shows annual compounded total returns with the reinvestment of all distributions. It does not take into account sales, redemption, distribution or optional charges, or income taxes payable. So it can differ from her own return.",
+      "rule_refs": [
+        "NI 81-102 s. 15.4(6)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The indicated rate[s] of return is [are] the historical annual compounded total return[s] including changes in [share or unit] value and reinvestment of all [dividends or distributions] and does [do] not take into account sales, redemption, distribution or optional charges or income taxes payable\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.15.4(6) required warning, ~L3031"
+    },
+    {
+      "id": "RSE-E5-0114",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A sales communication compares a fund's 10-year return with an index that its provider launched 6 years ago. When is this comparison permitted?",
+      "options": {
+        "A": "When a reconstruction of the earlier years, on a consistent basis, is widely recognized and available",
+        "B": "When the communication shows the index return for its 6 years of existence only",
+        "C": "Never, because a benchmark must exist for the whole period of the comparison",
+        "D": "When the fund manager calculates the earlier index returns on any reasonable basis"
+      },
+      "answer": "A",
+      "rationale": "A benchmark that did not exist for part of the period may still be used. A reconstruction on a basis consistent with its current calculation must be widely recognized and available. Data for 6 years only would break the same-period condition.",
+      "rule_refs": [
+        "NI 81-102 s. 15.3(1)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the benchmark did not exist for all or part of the period, but a reconstruction or calculation of what the benchmark would have been during that period, calculated on a basis consistent with its current basis of calculation, is widely recognized and available.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.15.3(1)(d)(ii), ~L2849"
+    },
+    {
+      "id": "RSE-E5-0115",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An advertisement for a Canadian equity mutual fund will compare the fund's performance with something else. Which comparison does NI 81-102 permit?",
+      "options": {
+        "A": "The return on a five-year GIC from a bank",
+        "B": "A widely recognized index of Canadian equities",
+        "C": "The rise in value of a local real estate project",
+        "D": "A fund under other management with a different objective"
+      },
+      "answer": "B",
+      "rationale": "An advertisement may compare a mutual fund only with funds under common management, funds with similar objectives, or an index. A GIC and a real estate project are other investments. A fund with a different objective under other management is not permitted.",
+      "rule_refs": [
+        "NI 81-102 s. 15.7"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"An advertisement for a mutual fund or asset allocation service must not compare the performance of the mutual fund or asset allocation service with any benchmark or investment other than\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.15.7, ~L3229"
+    },
+    {
+      "id": "RSE-E5-0116",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "At year-end, a manager reviews five indexes and chooses the one that the fund beat by the most. He then reports it as the fund's benchmark. Which benchmark property does this break?",
+      "options": {
+        "A": "Investable",
+        "B": "Measurable",
+        "C": "Specified in advance",
+        "D": "Unambiguous"
+      },
+      "answer": "C",
+      "rationale": "A valid benchmark is specified in advance, before the evaluation period. An index chosen after the period can make the fund look better than it is. The chosen index can still be investable, measurable and unambiguous.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.9 appropriate benchmarks"
+    },
+    {
+      "id": "RSE-E5-0117",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A Fund Facts document shows a fund's MER and its trading expense ratio (TER). How does it state the fund's total expenses?",
+      "options": {
+        "A": "MER only, as a percentage of the fund's average NAV for the year",
+        "B": "MER minus TER, as dollars per $1,000 invested in the fund",
+        "C": "TER only, as a percentage of the fund's purchase price",
+        "D": "MER plus TER, as a percentage and as dollars per $1,000 invested"
+      },
+      "answer": "D",
+      "rationale": "Fund Facts adds the MER and the TER to get the fund expenses. It states them as a percentage of value and as a dollar amount for every $1,000 invested. The MER alone excludes trading costs.",
+      "rule_refs": [
+        "Form 81-101F3 Part II Item 1.3"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The amount included for fund expenses is the amount arrived at by adding the MER and the trading expense ratio.\" — research/sources/csa/form-81-101f3-fund-facts.txt Form 81-101F3 Part II Item 1.3 Instruction (4), ~L889"
+    },
+    {
+      "id": "RSE-E5-0118",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Series A of a fund has an MER of 2.1%. Series F of the same fund, for fee-based accounts, has an MER of 1.1%. What best explains the difference?",
+      "options": {
+        "A": "Series F pays no trailing commission, but the client pays a separate account fee.",
+        "B": "Series F holds different securities, so its trading costs are lower.",
+        "C": "Series F excludes operating expenses, which the client pays at redemption.",
+        "D": "Series F is cheaper in total, because the client pays no other fees."
+      },
+      "answer": "A",
+      "rationale": "The MER includes the management fee, with any trailing commission, plus operating expenses. A fee-based series pays no trailing commission, so its MER is lower. The client pays an account fee instead, so Series F is not always cheaper in total.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.10 expense ratios"
+    },
+    {
+      "id": "RSE-E5-0119",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Fund X has a much higher portfolio turnover rate than Fund Y, which has the same mandate. Which effect is most likely for a client who holds Fund X in a non-registered account?",
+      "options": {
+        "A": "A higher MER, because the MER includes the trading commissions",
+        "B": "Higher trading costs, and more taxable capital gains distributions",
+        "C": "Lower taxes, because the fund realizes its losses more often",
+        "D": "Lower trading costs, because frequent trades narrow the spreads"
+      },
+      "answer": "B",
+      "rationale": "High turnover means more trading, which raises the TER and the spread costs. It also realizes more capital gains, which the fund distributes as taxable income in non-registered accounts. Trading commissions are in the TER, not the MER.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.10 turnover"
+    },
+    {
+      "id": "RSE-E5-0120",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Why does a mutual fund trust normally distribute all its net income and net capital gains each year?",
+      "options": {
+        "A": "Securities law requires each fund to pay out its income every quarter.",
+        "B": "Distributions lower the MER, because the fund then holds less cash.",
+        "C": "A trust pays tax on income it keeps, so the investors pay the tax instead.",
+        "D": "A trust cannot hold any cash, so it must pay out all its cash monthly."
+      },
+      "answer": "C",
+      "rationale": "A trust pays tax on the income that it keeps. So a mutual fund trust distributes its net income and net capital gains, and the investors pay the tax. No rule requires quarterly payouts, and distributions do not change the MER.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.10 taxes on the fund"
+    },
+    {
+      "id": "RSE-E5-0121",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A mutual fund corporation holds a large bond portfolio that earns interest. Its expenses do not fully offset this income. Why can the corporation pay tax inside the fund?",
+      "options": {
+        "A": "It must keep all its interest income until the investors redeem their shares.",
+        "B": "Canadian tax law taxes all bond interest at the fund level, never at the investor level.",
+        "C": "It cannot pay capital gains dividends, so all its income stays taxable in the fund.",
+        "D": "It pays income to investors only as dividends, so it cannot pass interest through as interest."
+      },
+      "answer": "D",
+      "rationale": "A mutual fund corporation pays income only as dividends, including capital gains dividends. It cannot pass interest or foreign income through as such. So it can pay tax on that income, unless its expenses offset it. That tax lowers the fund's return.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 5.10 taxes on the fund (corporation)"
+    },
+    {
+      "id": "RSE-E5-0122",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Under the Canada–U.S. tax treaty, what is the maximum U.S. tax on dividends paid to an individual resident in Canada?",
+      "options": {
+        "A": "15% of the gross dividends",
+        "B": "10% of the gross dividends",
+        "C": "25% of the gross dividends",
+        "D": "30% of the gross dividends"
+      },
+      "answer": "A",
+      "rationale": "The treaty limits the U.S. tax on dividends paid to a Canadian-resident individual to 15% of the gross amount. In a non-registered account, the investor can then claim a foreign tax credit for this tax.",
+      "rule_refs": [
+        "Canada-U.S. Tax Convention Art. X(2)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"15 per cent of the gross amount of the dividends in all other cases.\" — research/sources/gov/canada-us-tax-convention-consolidated.txt Canada-U.S. Tax Convention Art. X(2)(b), ~L277"
+    },
+    {
+      "id": "RSE-E5-0123",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Soren holds units of a Canadian mutual fund trust that owns U.S. stocks. He holds them in a non-registered account. How can he recover the U.S. tax withheld on the dividends?",
+      "options": {
+        "A": "He asks the U.S. for a refund, because the treaty exempts him from U.S. tax.",
+        "B": "He claims a foreign tax credit on Form T2209 with the amount in T3 box 34.",
+        "C": "He cannot recover it, because the fund paid the tax on its own holdings.",
+        "D": "He deducts it from the ACB of his units when he redeems them later."
+      },
+      "answer": "B",
+      "rationale": "A fund trust passes the foreign tax through on the T3 slip, in box 34. In a non-registered account, he reports the foreign income and claims a foreign tax credit on Form T2209. The treaty limits the U.S. tax but does not remove it.",
+      "rule_refs": [
+        "Form T2209"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Foreign non-business income tax paid | T3 slip | Box 34 | Include these amounts on line 43100 of Form T2209\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA 'Tax treatment of mutual funds' reporting table, ~L1660"
+    },
+    {
+      "id": "RSE-E5-0124",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "In which situation is the foreign withholding tax unrecoverable for the investor?",
+      "options": {
+        "A": "An investor holds U.S. stocks directly in a non-registered account and reports the dividends.",
+        "B": "A fund trust held in a non-registered account passes U.S. tax through on a T3 slip.",
+        "C": "A Canadian fund held in an RRSP pays U.S. tax on its own U.S. holdings.",
+        "D": "An investor holds foreign bonds in a non-registered account and reports the interest."
+      },
+      "answer": "C",
+      "rationale": "When a fund held in any registered plan pays foreign tax on its own holdings, no foreign tax credit is possible. The tax is a permanent cost. In a non-registered account, the investor reports the foreign income and can claim a foreign tax credit.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.10 withholding tax table (unrecoverable cases)"
+    },
+    {
+      "id": "RSE-E5-0125",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which cost is a load or charge that reduces the amount invested or the return, and is not part of the MER?",
+      "options": {
+        "A": "The trailing commission that the manager pays to the dealer",
+        "B": "The management fee that the manager charges to the fund",
+        "C": "The operating expenses of the fund, such as legal and audit costs",
+        "D": "A short-term trading fee on a redemption soon after purchase"
+      },
+      "answer": "D",
+      "rationale": "Loads and charges include front-end charges, switch fees, short-term trading fees and fee-based account fees. The investor pays them directly. The management fee, including any trailing commission, and the operating expenses are part of the MER.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.10 loads and charges, MER table"
+    },
+    {
+      "id": "RSE-E5-0126",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Tamsin redeems mutual fund units in a non-registered account and pays a redemption fee. How does the fee affect her capital gain?",
+      "options": {
+        "A": "It is a selling cost, so it reduces her capital gain.",
+        "B": "It increases her ACB for the units that she still holds.",
+        "C": "It is a deduction from her employment income instead.",
+        "D": "It has no effect, because only the proceeds and the ACB count."
+      },
+      "answer": "A",
+      "rationale": "A capital gain or loss equals the proceeds minus the ACB minus the selling costs. Selling costs include redemption fees and commissions. So the fee reduces her gain on these units. It does not change the ACB of her other units.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"the outlays and expenses you incurred when selling your units or shares, such as redemption fees and commissions\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA 'Tax treatment of mutual funds', ~L1670"
+    },
+    {
+      "id": "RSE-E5-0127",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Arjun bought units of one fund series at three different prices over two years. He now redeems some of the units. How does he find the ACB of the units that he redeems?",
+      "options": {
+        "A": "He uses the cost of the units that he bought first, until those units are used up.",
+        "B": "He multiplies the average cost per unit of all units held by the number redeemed.",
+        "C": "He uses the cost of the units that he bought most recently, before older units.",
+        "D": "He chooses the specific purchase lots that give him the lowest capital gain."
+      },
+      "answer": "B",
+      "rationale": "The CRA treats units in the same class or series of a fund as identical properties. So the ACB of redeemed units uses the average cost per unit of all units held just before the redemption. First-in or chosen-lot methods do not apply.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"multiply the average cost per unit of all units or shares held immediately before the sale or redemption by the number of units or shares redeemed\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA 'Tax treatment of mutual funds', ~L1688"
+    },
+    {
+      "id": "RSE-E5-0128",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Beatriz holds Series A shares of a mutual fund corporation in a non-registered account. She switches to Series F shares of the same class. The series differ only in fees and expenses. What is the tax result?",
+      "options": {
+        "A": "The switch is a disposition, so it realizes a capital gain or loss.",
+        "B": "The switch is a disposition, but the CRA denies any capital loss.",
+        "C": "The switch is not a disposition, so it realizes no gain or loss.",
+        "D": "The switch is not a disposition, but her ACB resets to zero."
+      },
+      "answer": "C",
+      "rationale": "A switch between series of the same class of mutual fund corporation shares is not a disposition if only the fees or expenses differ. So it realizes no gain or loss. Other switches, such as one to a different fund, can be dispositions.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"If you exchanged mutual fund corporation shares where the only difference is the relative management fees or expenses paid by the investor in the classes of shares (switch is between different series of the same class of shares), there is no disposition.\" — research/sources/cra/guide-t4037-capital-gains-2025.txt CRA T4037 (2025) 'Mutual funds' tax tip, ~L1635"
+    },
+    {
+      "id": "RSE-E5-0129",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Corwin received monthly return of capital (ROC) from T-series units in a non-registered account for five years. His ACB stayed above zero. He now sells all the units. What effect does the past ROC have?",
+      "options": {
+        "A": "It has no effect, because ROC is tax-free income to the investor.",
+        "B": "He now pays income tax on all the ROC at his marginal tax rate.",
+        "C": "His capital gain is smaller, because the ROC increased his ACB.",
+        "D": "His capital gain is larger, because the ROC reduced his ACB."
+      },
+      "answer": "D",
+      "rationale": "ROC is not taxed when he receives it, but it reduces the ACB. A lower ACB gives a larger capital gain at the sale. So ROC defers the tax and does not remove it. He pays the deferred tax as a capital gain, not as income.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A return of capital will reduce the adjusted cost base (ACB) of your units or shares\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA 'Tax treatment of mutual funds', ~L1604"
+    },
+    {
+      "id": "RSE-E5-0130",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Dagny, 70, takes $2,000 a month from her mutual funds through a fixed-dollar withdrawal plan. The payouts are more than the funds earn, and markets now fall. Which risk is greatest for her?",
+      "options": {
+        "A": "The plan reduces her capital, and sales in a falling market make losses permanent.",
+        "B": "The plan stops, because funds suspend withdrawal plans when markets fall.",
+        "C": "Her payments rise, because a fixed-dollar plan adjusts to the value of the funds.",
+        "D": "She has no risk, because withdrawal plans pay only from the income of the funds."
+      },
+      "answer": "A",
+      "rationale": "When payouts are more than the fund's return, they reduce the capital. Units sold in a falling market turn paper losses into permanent losses. A fixed-dollar plan pays the same amount whatever the value. A ratio plan adjusts to the value.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.11 withdrawal plans"
+    },
+    {
+      "id": "RSE-E5-0131",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A hedge fund announces that it will pay redemptions of no more than 5% of its assets each quarter. Which term describes this measure, and what is its effect?",
+      "options": {
+        "A": "A suspension, so the fund stops all redemptions for a time",
+        "B": "A gate, so investors may get only part of their request, or get it late",
+        "C": "A lock-up, so new investors cannot redeem in their first year",
+        "D": "A capital call, so investors must add their committed money"
+      },
+      "answer": "B",
+      "rationale": "A gate limits the redemptions that a fund pays in a period, such as a set percentage of assets each quarter. Requests can wait in a queue, and payment can be partial or late. A suspension stops all redemptions.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.11 gating"
+    },
+    {
+      "id": "RSE-E5-0132",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A clone fund tracks the performance of an underlying mutual fund. The underlying fund suspends redemptions. The clone fund has no regulatory approval. What may the clone fund do?",
+      "options": {
+        "A": "Suspend its own redemptions, and keep accepting purchase orders",
+        "B": "Nothing, because it needs regulatory approval to suspend redemptions",
+        "C": "Suspend its own redemptions, and stop accepting purchase orders",
+        "D": "Suspend redemptions only if its own exchange halts normal trading"
+      },
+      "answer": "C",
+      "rationale": "A clone fund may suspend redemptions when the fund that it tracks has suspended redemptions. This case needs no approval. During any suspension, the fund must not accept purchase orders.",
+      "rule_refs": [
+        "NI 81-102 s. 10.6"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"in the case of a clone fund, the investment fund whose performance it tracks has suspended redemptions.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.10.6(1)(b), ~L2780"
+    },
+    {
+      "id": "RSE-E5-0133",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Under NI 81-102, within what time must these funds pay redemption proceeds after the NAV or valuation date?",
+      "options": {
+        "A": "Conventional mutual fund: 15 business days; alternative mutual fund: 2 business days",
+        "B": "Conventional mutual fund: 2 business days; alternative mutual fund: 6 months",
+        "C": "Conventional mutual fund: 5 business days; alternative mutual fund: 30 business days",
+        "D": "Conventional mutual fund: 2 business days; alternative mutual fund: 15 business days"
+      },
+      "answer": "D",
+      "rationale": "Conventional mutual funds pay within two business days of the NAV date. Alternative mutual funds and non-redeemable funds pay within 15 business days of the valuation date. The 6-month period is a separate initial lock-up for alternative funds.",
+      "rule_refs": [
+        "NI 81-102 s. 10.4"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"an exchange-traded mutual fund that is not in continuous distribution or an alternative mutual fund must pay the redemption proceeds for securities that are the subject of a redemption order no later than 15 business days after the valuation date\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.10.4(1.1), ~L2689"
+    },
+    {
+      "id": "RSE-E5-0134",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A new alternative mutual fund wants to bar redemptions for a time after its launch. Under NI 81-102, what is permitted?",
+      "options": {
+        "A": "Up to 6 months after the receipt for its initial prospectus, if the prospectus discloses it",
+        "B": "Up to 12 months after the launch, if the manager approves the lock-up in writing",
+        "C": "Up to 6 months after the launch, with no disclosure in the prospectus",
+        "D": "No lock-up, because a mutual fund must always pay redemptions on demand"
+      },
+      "answer": "A",
+      "rationale": "If its prospectus discloses it, an alternative mutual fund may bar redemptions for up to 6 months after the receipt for its initial prospectus. Without that disclosure, the lock-up is not permitted. Twelve months is longer than the rule allows.",
+      "rule_refs": [
+        "NI 81-102 s. 10.1(2.1)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"a provision that securityholders of the alternative mutual fund may not redeem their securities for a period of up to 6 months after the date on which the receipt is issued for the initial prospectus of the alternative mutual fund.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.10.1(2.1), ~L2552"
+    },
+    {
+      "id": "RSE-E5-0135",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Esme wants to avoid every company with any link to fossil fuels, by her own strict list. She has a large account and time to manage it. Which feature of direct holdings best meets this need?",
+      "options": {
+        "A": "She pays no commissions, while a fund charges a sales commission.",
+        "B": "She can exclude any company, while a fund applies its own screens.",
+        "C": "She gets professional research, which a fund cannot give her.",
+        "D": "She can diversify more cheaply than a fund, at any account size."
+      },
+      "answer": "B",
+      "rationale": "A direct holder chooses each security and can exclude any company. Even an ESG fund applies its own screens, which may not match her list. Direct holdings have commissions, and small accounts cannot diversify cheaply with individual securities.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.12 investor's decisions (values)"
+    },
+    {
+      "id": "RSE-E5-0136",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Farid wants to know every security in his portfolio at all times. He compares a mutual fund with direct holdings. Which statement is correct?",
+      "options": {
+        "A": "A fund shows him all holdings daily, while direct holdings are reported quarterly.",
+        "B": "Both show him all holdings at all times, so neither route has an advantage.",
+        "C": "Direct holdings show him all holdings, while a fund discloses them only periodically.",
+        "D": "Neither shows him the holdings, because the dealer keeps them confidential."
+      },
+      "answer": "C",
+      "rationale": "A direct holder always knows the holdings. A fund discloses its holdings only periodically. So direct holdings meet his need for transparency better.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.12 investor's decisions (transparency)"
+    },
+    {
+      "id": "RSE-E5-0137",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Hiro wants to invest $100 each week. His dealer charges a commission on each ETF trade but no charge for mutual fund purchases. He compares a low-MER ETF with a similar mutual fund. Which cost factor matters most?",
+      "options": {
+        "A": "The lower MER of the ETF always makes it the cheaper choice for any purchase size.",
+        "B": "The mutual fund has no ongoing fees, because his purchases cost nothing extra.",
+        "C": "The ETF has no trading costs, because ETF trades always take place at NAV.",
+        "D": "Each small ETF purchase pays a commission and a spread, which can outweigh the lower MER."
+      },
+      "answer": "D",
+      "rationale": "An ETF usually has a lower MER, but each trade pays a commission and a spread. For small, frequent purchases these costs can be large. Small automatic mutual fund purchases cost nothing extra, but the fund still has an MER.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 5.12 RR's recommendation (mutual fund vs ETF)"
+    },
+    {
+      "id": "RSE-E5-0138",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An RR recommends whether a client should buy mutual funds or individual securities. Under IDPC 3402(1), which two factors usually matter most for this choice?",
+      "options": {
+        "A": "The impact of costs on returns, and a reasonable range of alternatives",
+        "B": "The revenue of the dealer, and the product preferences of the RR",
+        "C": "The past returns of the fund, and the tax bracket of the client only",
+        "D": "The request of the client, and the lowest-cost product in the market"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3402(1) requires an action that is suitable and puts the client's interest first. For this choice, the cost impact on returns and a reasonable range of alternatives usually matter most. The alternatives are those available through the dealer, not the whole market.",
+      "rule_refs": [
+        "IDPC 3402(1)(i)(d)",
+        "IDPC 3402(1)(i)(e)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the potential and actual impact of costs on the retail client’s returns, and\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(1)(i)(d), ~L6806"
+    },
+    {
+      "id": "RSE-E5-0139",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ilse has $18,000 and insists on putting it all in two technology stocks. Her RR determines that this action is not suitable. What must the RR do first?",
+      "options": {
+        "A": "Refuse the order, because the dealer may never accept an unsuitable order.",
+        "B": "Tell her the basis for the determination, and advise her not to proceed.",
+        "C": "Process the order, because the client's instruction overrides suitability.",
+        "D": "Buy a diversified fund instead, and tell her about it after the trade."
+      },
+      "answer": "B",
+      "rationale": "Under IDPC 3402(5), the dealer must inform the client of the basis for the determination and advise her against the order. Only then can the further steps apply. The RR must not ignore the instruction or trade without her approval.",
+      "rule_refs": [
+        "IDPC 3402(5)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"informed the retail client of the basis for the determination that the action will not satisfy subsection 3402(1) and advised the client against proceeding with the order,\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(5)(i), ~L6851"
+    },
+    {
+      "id": "RSE-E5-0140",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Joaquin has a large account. He wants a professional to manage individual securities held in his own account, not in a fund. He accepts an account fee instead of an MER. Which route fits best?",
+      "options": {
+        "A": "A mutual fund with a monthly purchase plan",
+        "B": "An ETF portfolio that he trades himself",
+        "C": "A managed account with a portfolio manager",
+        "D": "A self-directed account of individual stocks"
+      },
+      "answer": "C",
+      "rationale": "In a managed account, a portfolio manager manages individual securities for the client. An account fee replaces the MER. A mutual fund or ETF holds a pooled portfolio, and a self-directed account gives no professional management.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.12 RR's recommendation (managed account)"
+    },
+    {
+      "id": "RSE-E5-0141",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "What is the usual investment aim of a hedge fund?",
+      "options": {
+        "A": "A return that matches a broad market index over time",
+        "B": "A fixed return that the fund manager guarantees",
+        "C": "A return linked to an index, with the principal repaid",
+        "D": "An absolute return, positive whether markets rise or fall"
+      },
+      "answer": "D",
+      "rationale": "A hedge fund uses leverage, short sales and derivatives to aim for an absolute return. That is a positive return in rising or falling markets. A return that matches an index is passive management. A return linked to an index with principal repaid describes a PPN.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.13 hedge funds"
+    },
+    {
+      "id": "RSE-E5-0142",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A bank plans to issue a principal-protected note (PPN) that is not eligible for CDIC deposit insurance. Under the Bank Act, what must the bank disclose before issuance?",
+      "options": {
+        "A": "The risks of the product, and the fact that CDIC does not cover it",
+        "B": "The guaranteed interest rate that the note will pay each year",
+        "C": "Only the index, because the principal of a PPN is always repaid",
+        "D": "The CDIC coverage limit that applies to the principal of the note"
+      },
+      "answer": "A",
+      "rationale": "Before issuance, the bank must disclose the risks of the product, including, if applicable, the risk that no interest may accrue. If the note is not eligible for CDIC coverage, the bank must disclose that fact. A PPN has no guaranteed interest rate.",
+      "rule_refs": [
+        "Bank Act s. 627.78"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"if the product relates to a deposit that is not eligible for deposit insurance coverage by the Canada Deposit Insurance Corporation, the fact that it is not eligible;\" — research/sources/gov/bank-act-ppn-disclosure-extracts.txt Bank Act s.627.78(1)(f), ~L77"
+    },
+    {
+      "id": "RSE-E5-0143",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Keziah buys a structured note that is not principal-protected. Its payoff is linked to an equity index. Which statement is correct?",
+      "options": {
+        "A": "She always gets her principal back, but the interest can be zero.",
+        "B": "She can lose part of her principal, and she has the issuer's credit risk.",
+        "C": "CDIC insures her principal, because the note links to an index.",
+        "D": "She can sell it at any time at its full value before maturity."
+      },
+      "answer": "B",
+      "rationale": "In a note that is not principal-protected, both the return and the principal depend on the reference asset. So she can lose part of her principal. All structured notes carry the issuer's credit risk, and they can be hard to sell before maturity.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.13 structured products"
+    },
+    {
+      "id": "RSE-E5-0144",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The objectives of a mutual fund permit it to invest in physical commodities beyond the limits for other mutual funds. In which case is it NOT an alternative mutual fund under NI 81-102?",
+      "options": {
+        "A": "Its objectives also permit short selling.",
+        "B": "Its objectives also permit cash borrowing.",
+        "C": "It is a precious metals fund.",
+        "D": "Its name includes the word \"alternative\"."
+      },
+      "answer": "C",
+      "rationale": "NI 81-102 excludes a precious metals fund from the definition of an alternative mutual fund. Other funds whose objectives permit these activities beyond the usual limits are alternative mutual funds. Short selling and borrowing are also alternative activities. A name does not decide the status.",
+      "rule_refs": [
+        "NI 81-102 s. 1.1"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"means a mutual fund, other than a precious metals fund,\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.1.1 'alternative mutual fund', ~L220"
+    },
+    {
+      "id": "RSE-E5-0145",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A conventional mutual fund wants exposure to a crypto asset. Under NI 81-102, which route is permitted?",
+      "options": {
+        "A": "A direct purchase of the crypto asset, up to 20% of NAV",
+        "B": "A direct purchase of any fungible crypto asset, with no limit",
+        "C": "An over-the-counter derivative, within a 10%-of-NAV limit",
+        "D": "An exchange-traded specified derivative, within a 10%-of-NAV limit"
+      },
+      "answer": "D",
+      "rationale": "A conventional mutual fund may use a specified derivative on a crypto asset if the derivative trades on a recognized exchange. After the purchase, these derivatives, commodity derivatives and permitted precious metals must not exceed 10% of NAV. Direct crypto holdings are an exception for alternative funds.",
+      "rule_refs": [
+        "NI 81-102 s. 2.3(1)(e)",
+        "NI 81-102 s. 2.3(1.4)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"more than 10% of the mutual fund’s net asset value would be made up of permitted precious metals, permitted precious metal certificates or specified derivatives of which the underlying interests are physical commodities and crypto assets;\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.3(1)(e), ~L1133"
+    },
+    {
+      "id": "RSE-E5-0146",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Lorcan commits $250,000 to a private equity fund as a limited partner. Which statement best describes this investment?",
+      "options": {
+        "A": "The fund calls his money as it invests, and locks it up for many years.",
+        "B": "He pays all $250,000 at once, and he can redeem monthly at NAV.",
+        "C": "The units trade on an exchange, so their price is a market price.",
+        "D": "The fund buys public stocks, so its valuations use daily prices."
+      },
+      "answer": "A",
+      "rationale": "Private equity investors usually commit money as limited partners. The fund calls the money when it invests and locks it up for many years, often about 10. The units have no market, and the valuations are estimates.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.13 private equity"
+    },
+    {
+      "id": "RSE-E5-0147",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Why does a venture capital fund usually invest in many early-stage companies?",
+      "options": {
+        "A": "Securities law sets a minimum of 50 holdings for each venture capital fund.",
+        "B": "Many of the companies fail, and a few large winners give most of the return.",
+        "C": "Each company pays a fixed dividend, so more holdings give more income.",
+        "D": "Early-stage companies are liquid, so the fund can trade them often."
+      },
+      "answer": "B",
+      "rationale": "Venture capital is private equity for start-ups. Many of the companies fail, and a few large winners provide most of the return. So the fund needs many investments to spread this risk. The holdings are illiquid.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.13 venture capital"
+    },
+    {
+      "id": "RSE-E5-0148",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Maren holds a hedge fund with a 20% performance fee, a 6% hurdle rate and a high-water mark. The fund fell 25% last year. This year it rose 18%, but its NAVPS is still below its earlier peak. Does the manager earn a performance fee?",
+      "options": {
+        "A": "Yes, because the 18% return is above the 6% hurdle rate.",
+        "B": "Yes, but only on the 12% of return above the hurdle rate.",
+        "C": "No, because the NAVPS has not recovered to its earlier peak.",
+        "D": "No, because a hurdle rate removes all fees after a loss year."
+      },
+      "answer": "C",
+      "rationale": "Under a high-water mark, the manager earns no performance fee until the fund recovers its earlier losses. The NAVPS is still below the peak. The hurdle rate matters only above the high-water mark.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 5.14 fees (high-water mark); check 0.75 x 1.18 = 0.885 < 1"
+    },
+    {
+      "id": "RSE-E5-0149",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A conventional Canadian equity mutual fund plans to charge a performance fee. The manager proposes to measure it against a price-only index of Canadian stocks. Is this permitted under NI 81-102?",
+      "options": {
+        "A": "Yes, because any index of Canadian stocks reflects the fund's sectors.",
+        "B": "Yes, if the fee uses the fund's own return with no benchmark at all.",
+        "C": "No, because conventional mutual funds may not charge performance fees.",
+        "D": "No, because the fee must use a total-return benchmark or index."
+      },
+      "answer": "D",
+      "rationale": "The performance fee of a conventional mutual fund must use a total-return benchmark or index. The index must also reflect the fund's sectors and be available to others. Only an alternative mutual fund bases its fee on its own cumulative total return.",
+      "rule_refs": [
+        "NI 81-102 s. 7.1"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"is a total return benchmark or index;\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.7.1(1)(a)(iii), ~L2311"
+    },
+    {
+      "id": "RSE-E5-0150",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The Ridgeway Income Fund, a conventional mutual fund, has 8% of its NAV in illiquid assets. Its manager plans a purchase of private debt that would raise this to 11%. Is the purchase permitted?",
+      "options": {
+        "A": "No, because more than 10% of NAV would then be illiquid.",
+        "B": "Yes, because the limit for mutual funds is 15% of NAV.",
+        "C": "Yes, because the limit for mutual funds is 20% at purchase.",
+        "D": "No, because a mutual fund may not hold any illiquid assets."
+      },
+      "answer": "A",
+      "rationale": "A mutual fund must not buy an illiquid asset if more than 10% of its NAV would then be illiquid. The 15% limit applies to holdings for 90 days or more. The 20% purchase limit applies to non-redeemable investment funds.",
+      "rule_refs": [
+        "NI 81-102 s. 2.4"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A mutual fund must not purchase an illiquid asset if, immediately after the purchase, more than 10% of its net asset value would be made up of illiquid assets.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.4(1), ~L1235",
+      "qa_note": "assumes the private debt is an illiquid asset, as the stem states"
+    },
+    {
+      "id": "RSE-E5-0151",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which item is an advantage of an alternative fund to the provider, not to the investor?",
+      "options": {
+        "A": "Low correlation with traditional assets",
+        "B": "Capital that lock-ups keep in the fund",
+        "C": "Access to private markets",
+        "D": "Redemption pressure in a crisis"
+      },
+      "answer": "B",
+      "rationale": "For the provider, lock-ups keep capital in the fund, and two-layer fees add revenue. Low correlation and access to private markets are advantages to the investor. Redemption pressure in a crisis is a disadvantage to the provider.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.14 advantages and disadvantages table"
+    },
+    {
+      "id": "RSE-E5-0152",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A private equity fund reports its NAV each quarter. Its holdings are private companies with no market price, so the manager estimates their values. Which risk does this create for an investor?",
+      "options": {
+        "A": "Counterparty risk",
+        "B": "Issuer credit risk",
+        "C": "Valuation risk",
+        "D": "Currency risk"
+      },
+      "answer": "C",
+      "rationale": "Illiquid assets have no market price, so their values are estimates. This is valuation risk. Counterparty risk comes from derivatives, and issuer credit risk applies to structured notes.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.14 sources of risk"
+    },
+    {
+      "id": "RSE-E5-0153",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Nils commits $500,000 to a private equity fund. After two years, the fund has called $150,000. Which cost does the uncalled amount create for him?",
+      "options": {
+        "A": "A storage fee on the uncalled amount, which he pays each year",
+        "B": "A penalty for early redemption that applies to the uncalled amount",
+        "C": "A structuring fee that lowers the payoff of the fund",
+        "D": "A low return on money that he must keep available for capital calls"
+      },
+      "answer": "D",
+      "rationale": "An investor must keep committed but uncalled money available, often in low-return assets. This low return is a cost of the investment. Storage fees apply to commodities and crypto assets, and structuring fees apply to notes.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.14 impact of costs"
+    },
+    {
+      "id": "RSE-E5-0154",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Odile and her spouse own $1,300,000 in cash and securities. They used a $400,000 investment loan to buy the securities. Their income and net assets meet no other test. Does Odile meet the accredited investor financial assets test?",
+      "options": {
+        "A": "No, because the net amount of $900,000 is not more than $1 million.",
+        "B": "Yes, because the gross amount of $1,300,000 is more than $1 million.",
+        "C": "Yes, because only debt on a home counts against this test.",
+        "D": "No, because the test counts only the assets that she holds alone."
+      },
+      "answer": "A",
+      "rationale": "Form 45-106F9 requires more than $1 million in cash and securities, alone or with a spouse, after related debt. The loan relates to the securities, so the net amount is $900,000. The test allows assets held with a spouse.",
+      "rule_refs": [
+        "NI 45-106 s. 1.1",
+        "Form 45-106F9"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Either alone or with your spouse, you own more than $1 million in cash and securities, after subtracting any debt related to the cash and securities.\" — research/sources/csa/form-45-106f9-individual-accredited-investor-risk-acknowledgement.txt Form 45-106F9 s.3, ~L58",
+      "qa_note": "calc: 1,300,000 - 400,000 = 900,000 < 1,000,000"
+    },
+    {
+      "id": "RSE-E5-0155",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Pavel and his spouse have net assets of exactly $5,000,000, including their home. Form 45-106F9 describes this test as net assets of more than $5 million. Does Pavel meet the net assets test?",
+      "options": {
+        "A": "No, because the form requires net assets of more than $5 million.",
+        "B": "Yes, because the rule says at least $5,000,000, and the rule governs.",
+        "C": "No, because the net assets test excludes the value of real estate.",
+        "D": "Yes, but only if his income is also more than $200,000 a year."
+      },
+      "answer": "B",
+      "rationale": "NI 45-106 test (l) requires net assets of at least $5,000,000, alone or with a spouse. The form summarizes it as more than $5 million, but the rule is the authority. Real estate counts in net assets.",
+      "rule_refs": [
+        "NI 45-106 s. 1.1"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"an individual who, either alone or with a spouse, has net assets of at least $5 000 000,\" — research/sources/csa/ni-45-106-prospectus-exemptions.txt NI 45-106 s.1.1 'accredited investor' (l), ~L242-243"
+    },
+    {
+      "id": "RSE-E5-0156",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Quinn initials the accredited investor statement on Form 45-106F9 for a hedge fund purchase. The dealer has no other information about her finances. May the dealer rely on the exemption?",
+      "options": {
+        "A": "Yes, because her initials on the form prove her status.",
+        "B": "Yes, if she also signs the risk acknowledgement on the form.",
+        "C": "No, it must first take reasonable steps to verify her status.",
+        "D": "No, because hedge funds need a prospectus for all investors."
+      },
+      "answer": "C",
+      "rationale": "A seller cannot rely only on an initial beside a category on Form 45-106F9. It must take reasonable steps to verify the purchaser's representations. The signed risk acknowledgement does not replace verification. Hedge funds are usually sold under prospectus exemptions.",
+      "rule_refs": [
+        "NI 45-106 s. 2.3",
+        "45-106CP s. 1.9(3)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"It will not be sufficient for the seller to accept standard representations in a subscription agreement or an initial beside a category on Form 45-106F9 Form for Individual Accredited Investors unless the seller has taken reasonable steps to verify the representations made by the purchaser.\" — research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt 45-106CP s.1.9(3), ~L231"
+    }
+  ]
+}

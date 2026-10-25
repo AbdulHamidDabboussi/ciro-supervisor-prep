@@ -1,0 +1,1053 @@
+{
+ "meta": {
+  "batch": "E4-003a",
+  "drafted": "2026-10-25",
+  "source": "study guide v1.1"
+ },
+ "questions": [
+  {
+   "id": "RSE-E4-0034",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Which event at Marlowe Freightways Inc. best fits the NI 51-102 meaning of a material change?",
+   "options": {
+    "A": "An analyst at another dealer lowers its rating on Marlowe shares",
+    "B": "Marlowe shares rise 8% on the same day as a broad market rally",
+    "C": "A competitor of Marlowe reports higher quarterly earnings",
+    "D": "The Marlowe board decides to sell the company's main operating division"
+   },
+   "answer": "D",
+   "rationale": "A material change is a change in the company's business, operations or capital that can significantly affect its share price. A board decision to make such a change also counts. A rating change by an outside analyst is not a change in Marlowe's business.",
+   "rule_refs": [
+    "NI 51-102 s. 1.1"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"a decision to implement a change referred to in paragraph (a) made by the board of directors\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 1.1 'material change' (b), ~line 340"
+  },
+  {
+   "id": "RSE-E4-0035",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Pendrell Oil Corp. is in talks to buy a rival. In its reasonable opinion, disclosure now would be unduly detrimental to its interests. What does NI 51-102 let Pendrell do?",
+   "options": {
+    "A": "File the material change report marked confidential, with written reasons for non-disclosure",
+    "B": "Wait until the deal closes, and file nothing with the regulator until then",
+    "C": "Tell its five largest shareholders about the talks, but issue no news release",
+    "D": "Issue the news release now, but leave out the name of the rival company"
+   },
+   "answer": "A",
+   "rationale": "Under NI 51-102 s. 7.1(2), the company can skip the news release. But it must immediately file the report marked confidential, with written reasons. Filing nothing is not allowed, and telling a few shareholders is selective disclosure.",
+   "rule_refs": [
+    "NI 51-102 s. 7.1(2)"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"immediately files the report required under paragraph (1)(b) marked so as to indicate that it is confidential, together with written reasons for non-disclosure\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 7.1(2), ~line 2516"
+  },
+  {
+   "id": "RSE-E4-0036",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Remember",
+   "type": "standard",
+   "stem": "Ashcombe Lithium Ltd. filed a confidential material change report. The change is still not public. What must Ashcombe do while the report stays confidential?",
+   "options": {
+    "A": "File a new material change report each month until the board approves the change",
+    "B": "Tell the regulator in writing every 10 days if it believes the report should stay confidential",
+    "C": "Ask the exchange to halt trading in its shares until it discloses the change",
+    "D": "Send a private summary of the change to its auditor every 30 days"
+   },
+   "answer": "B",
+   "rationale": "NI 51-102 s. 7.1(5) requires written advice to the regulator within 10 days of the filing and every 10 days after that. The rule does not require monthly reports or notices to the auditor.",
+   "rule_refs": [
+    "NI 51-102 s. 7.1(5)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"the reporting issuer must advise the regulator or securities regulatory authority in writing if it believes the report should continue to remain confidential, within 10 days of the date of filing of the initial report and every 10 days thereafter\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 7.1(5), ~line 2522"
+  },
+  {
+   "id": "RSE-E4-0037",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Senior management of Grantley Mills Inc. decides to close its largest plant. They expect the board to confirm the decision next week. Which fact stops Grantley from keeping the change confidential?",
+   "options": {
+    "A": "The board has not yet met to confirm the decision",
+    "B": "Management believes that the board will probably confirm the decision",
+    "C": "Management has reason to believe that two employees bought shares because they knew of the decision",
+    "D": "The plant closure would reasonably be expected to affect the share price"
+   },
+   "answer": "C",
+   "rationale": "The senior-management exception applies only if management has no reason to believe that people traded with knowledge of the change. The pending board vote and the expected board approval are conditions of the exception, not obstacles to it.",
+   "rule_refs": [
+    "NI 51-102 s. 7.1(2)(b)"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"senior management of the reporting issuer has no reason to believe that persons with knowledge of\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 7.1(2)(b), ~line 2503"
+  },
+  {
+   "id": "RSE-E4-0038",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Ravensholt Foods Inc. learns that it will lose its largest customer. Its CEO wants to delay the news until the company can also announce a new contract. Which principle does this plan break?",
+   "options": {
+    "A": "Unfavourable news must be disclosed just as promptly and completely as favourable news",
+    "B": "A company can delay bad news if the board expects good news within one quarter",
+    "C": "A company discloses material news only in its next interim financial report",
+    "D": "Bad news needs disclosure only when the share price has already started to fall"
+   },
+   "answer": "A",
+   "rationale": "NP 51-201 s. 2.1(2) says that unfavourable news must be disclosed just as promptly and completely as favourable news. A company cannot hold bad news to pair it with good news. The other options describe delays that the policy does not allow.",
+   "rule_refs": [
+    "NP 51-201 s. 2.1(2)"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"Unfavourable news must be disclosed just as promptly and completely as favourable news.\" — research/sources/csa/np-51-201-disclosure-standards.txt NP 51-201 s. 2.1(2), ~line 127"
+  },
+  {
+   "id": "RSE-E4-0039",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Before any news release, the CFO of Dunmore Textiles Ltd. tells three institutional analysts that quarterly earnings will be lower than expected. What is the main concern?",
+   "options": {
+    "A": "Selective disclosure of material nonpublic information can create opportunities for insider trading",
+    "B": "The CFO must first get the auditor's approval of the quarterly earnings",
+    "C": "The analysts must publish the information in a research report within 10 days",
+    "D": "The CFO gave a forecast that the AIF must label as an opinion"
+   },
+   "answer": "A",
+   "rationale": "The CFO gave material nonpublic information to a few people, not to the public. NP 51-201 s. 1.1 says that selective disclosure can create opportunities for insider trading. The analysts have no duty to publish it.",
+   "rule_refs": [
+    "NP 51-201 s. 1.1"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"Selective disclosure can create opportunities for insider trading\" — research/sources/csa/np-51-201-disclosure-standards.txt NP 51-201 s. 1.1(1), ~line 83"
+  },
+  {
+   "id": "RSE-E4-0040",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Client Severin Okafor wants management's own explanation of the reasons for Ellery Tools Inc.'s weak results last quarter. Which filed document should his RR use?",
+   "options": {
+    "A": "The Annual Information Form (AIF) from last year",
+    "B": "The auditor's report on last year's annual financial statements",
+    "C": "The MD&A filed with the interim financial report for the quarter",
+    "D": "The information circular for the next shareholder meeting"
+   },
+   "answer": "C",
+   "rationale": "NI 51-102 s. 5.1(1) requires MD&A with the annual statements and each interim report. It gives management's discussion of results. The AIF is an annual overview, and the auditor's report covers only the annual statements.",
+   "rule_refs": [
+    "NI 51-102 s. 5.1(1)"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"A reporting issuer must file MD&A relating to its annual financial statements and each interim financial report required under Part 4.\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 5.1(1), ~line 2186"
+  },
+  {
+   "id": "RSE-E4-0041",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "Client Liesl Varga sees a clean audit opinion on the statements of Thornwick Media. She says that this proves the MD&A's growth forecast is reliable. How should her RR respond?",
+   "options": {
+    "A": "The forecast is reliable, because the auditor's opinion covers every document in the annual filing",
+    "B": "The forecast is reliable, because the MD&A must use the same numbers as the audited statements",
+    "C": "The forecast is unreliable, because a clean opinion means that the auditor found errors in the MD&A",
+    "D": "The auditor's opinion covers the financial statements, not management's commentary in the MD&A"
+   },
+   "answer": "D",
+   "rationale": "The MD&A is a management document. The auditor's opinion covers the financial statements only. So a clean opinion does not test management's forecast. A clean opinion also does not mean that the auditor found errors.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.1 exam trap (MD&A and AIF are management documents; audit covers the statements)"
+  },
+  {
+   "id": "RSE-E4-0042",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "Client Anselm Kowal asks his RR how a foreign dividend will be taxed in his account. The RR is not sure of the tax rules. What should the RR do?",
+   "options": {
+    "A": "Give his best estimate now, and correct it later if a tax adviser disagrees",
+    "B": "Consult a tax expert before he answers, record the advice and name its source to Anselm",
+    "C": "Tell Anselm that tax questions are outside the RR's role, and close the request",
+    "D": "Ask the dealer's investment banking staff, because they deal with foreign issuers"
+   },
+   "answer": "B",
+   "rationale": "If a question goes beyond the RR's knowledge, he asks an expert before he answers, records the advice and tells the client the source. A guess can lead to a decision on wrong information. Information barriers limit contacts with investment banking staff.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 4.1 collaboration with internal and external experts"
+  },
+  {
+   "id": "RSE-E4-0043",
+   "element": 4,
+   "outcome": "4.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A dealer's newsletter to all clients praises the 9% yield on Halloway Energy Trust units. It does not mention that the trust cut its payout twice in two years. Which IDPC 3602(1) defect does it have?",
+   "options": {
+    "A": "It uses a yield figure that the dealer did not calculate",
+    "B": "It names an issuer that the dealer does not cover with research",
+    "C": "It is correspondence that went to more than one client",
+    "D": "It fails to fairly present the potential risks to the client"
+   },
+   "answer": "D",
+   "rationale": "IDPC 3602(1)(v) prohibits sales literature that fails to fairly present the potential risks. The newsletter hides the payout cuts that put the yield at risk. A newsletter to all clients is sales literature, not correspondence to a single client.",
+   "rule_refs": [
+    "IDPC 3602(1)(v)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"fails to fairly present the potential risks to the client\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3602(1)(v), ~line 7289"
+  },
+  {
+   "id": "RSE-E4-0044",
+   "element": 4,
+   "outcome": "4.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Fernleigh Brewing Ltd. has a market capitalization four times its book equity. Which reason best explains the gap?",
+   "options": {
+    "A": "Many assets stay at historical cost less depreciation, and internal brands are often not recorded",
+    "B": "Accountants record all assets at current market value, and investors then add a premium",
+    "C": "Book equity includes all liabilities, so it is always much smaller than the share price total",
+    "D": "Retained earnings are paid out as dividends, so they do not appear in book equity"
+   },
+   "answer": "A",
+   "rationale": "Plant and equipment often stay at historical cost less depreciation. The company often does not record internally built intangibles, such as a brand. So book value is not market value. Assets are not all recorded at market value.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.2 book value is not market value"
+  },
+  {
+   "id": "RSE-E4-0045",
+   "element": 4,
+   "outcome": "4.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Which statement about retained earnings on a company's balance sheet is correct?",
+   "options": {
+    "A": "It is a cash reserve that the company keeps in the bank to pay future dividends",
+    "B": "It is a current asset that the company can use to pay its suppliers",
+    "C": "It is the total of past profits that the company kept, and it is part of equity, not cash",
+    "D": "It is the amount of profit that the company must pay as dividends next year"
+   },
+   "answer": "C",
+   "rationale": "Retained earnings is the total of past profits that the company did not pay as dividends. It is a source of financing inside equity, not an amount of cash. The company has already used that money to buy assets.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 4.2 retained earnings scenario"
+  },
+  {
+   "id": "RSE-E4-0046",
+   "element": 4,
+   "outcome": "4.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "On a statement of financial position, which item is part of shareholders' equity?",
+   "options": {
+    "A": "Deferred tax liabilities",
+    "B": "Goodwill from a past acquisition",
+    "C": "Prepaid expenses",
+    "D": "Accumulated other comprehensive income (AOCI)"
+   },
+   "answer": "D",
+   "rationale": "Equity includes share capital, contributed surplus, retained earnings and AOCI. Deferred tax liabilities are non-current liabilities. Goodwill is a non-current asset, and prepaid expenses are a current asset.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 4.2 classification table"
+  },
+  {
+   "id": "RSE-E4-0047",
+   "element": 4,
+   "outcome": "4.2",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Which items does the statement of changes in equity deduct when it moves from opening equity to closing equity?",
+   "options": {
+    "A": "Depreciation and interest expense",
+    "B": "Dividends and share buybacks",
+    "C": "Capital expenditures and acquisitions",
+    "D": "Repayments of long-term debt"
+   },
+   "answer": "B",
+   "rationale": "The statement adds net income, OCI and share issues, and it deducts dividends and share buybacks. Depreciation and interest reduce net income on the income statement. Capex and debt repayments are cash flows that do not change equity.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.2 statement of changes in equity"
+  },
+  {
+   "id": "RSE-E4-0048",
+   "element": 4,
+   "outcome": "4.2",
+   "taxonomy": "Remember",
+   "type": "standard",
+   "stem": "Under NI 51-102, which set of statements must a reporting issuer's annual financial statements include?",
+   "options": {
+    "A": "Comprehensive income, changes in equity, cash flows, financial position and notes",
+    "B": "Comprehensive income, financial position, cash flows and the MD&A",
+    "C": "Financial position, comprehensive income and the Annual Information Form",
+    "D": "Financial position, cash flows and notes, without a statement of changes in equity"
+   },
+   "answer": "A",
+   "rationale": "NI 51-102 s. 4.1(1) lists a statement of comprehensive income, a statement of changes in equity and a statement of cash flows. It also lists a statement of financial position and notes. The MD&A and AIF are separate filings.",
+   "rule_refs": [
+    "NI 51-102 s. 4.1(1)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"a reporting issuer must file annual financial statements that include (a) a statement of comprehensive income, a statement of changes in equity, and a statement of cash flows\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 4.1(1)(a), ~line 782"
+  },
+  {
+   "id": "RSE-E4-0049",
+   "element": 4,
+   "outcome": "4.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "On the statement of comprehensive income, which subtotal best shows how efficiently a company makes or buys the products that it sells?",
+   "options": {
+    "A": "Net income",
+    "B": "Earnings before tax",
+    "C": "Gross profit",
+    "D": "Total comprehensive income"
+   },
+   "answer": "C",
+   "rationale": "Gross profit is revenue minus cost of goods sold, so it shows the efficiency of making or buying products. Net income and earnings before tax also include overhead, interest and other costs.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 4.3 subtotals"
+  },
+  {
+   "id": "RSE-E4-0050",
+   "element": 4,
+   "outcome": "4.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "During the year, Harcastle Retail Inc. sold a major line of business. How does it show that line's result on the statement of comprehensive income?",
+   "options": {
+    "A": "As part of operating revenue, together with the continuing business",
+    "B": "On a separate line, after profit from continuing operations",
+    "C": "In other comprehensive income, outside profit",
+    "D": "Only in the statement of cash flows, not in profit"
+   },
+   "answer": "B",
+   "rationale": "A company shows the result of a major line of business that it sold or closed on a separate line, after profit from continuing operations. OCI holds items such as currency translation, not discontinued operations.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.3 sources of income (discontinued operations)"
+  },
+  {
+   "id": "RSE-E4-0051",
+   "element": 4,
+   "outcome": "4.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Over the last year, gains on asset sales gave Corrigan Chemicals Ltd. 30% of its pre-tax profit. An analyst forecasts next year's earnings. What is the best approach?",
+   "options": {
+    "A": "Use this year's net income as the base, because all income has equal quality",
+    "B": "Add the asset-sale gains to operating revenue, because they increase profit",
+    "C": "Ignore operating income, because one-time gains drive the share value",
+    "D": "Separate the gains from operating revenue, because recurring operating income is a better guide"
+   },
+   "answer": "D",
+   "rationale": "Other income, such as gains on asset sales, can be large in one year and absent in the next. Recurring operating income is usually a better guide to future earnings. So analysts separate the gains when they forecast.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.3 sources of income (recurring vs other income)"
+  },
+  {
+   "id": "RSE-E4-0052",
+   "element": 4,
+   "outcome": "4.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Which amount is the basis for a company's earnings per share (EPS)?",
+   "options": {
+    "A": "Profit attributable to common shareholders",
+    "B": "Total comprehensive income",
+    "C": "Operating income before other income",
+    "D": "Earnings before interest and taxes (EBIT)"
+   },
+   "answer": "A",
+   "rationale": "EPS uses profit attributable to common shareholders. It does not use total comprehensive income, which also includes OCI items that the company records outside profit. EBIT and operating income come before interest and tax.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.3 exam trap (EPS uses profit, not total comprehensive income)"
+  },
+  {
+   "id": "RSE-E4-0053",
+   "element": 4,
+   "outcome": "4.3",
+   "taxonomy": "Remember",
+   "type": "standard",
+   "stem": "Lindqvale Paper Corp. shows profit or loss in a separate income statement. Under NI 51-102, where must that statement appear?",
+   "options": {
+    "A": "Immediately after the statement of cash flows",
+    "B": "In the notes, after the accounting policies",
+    "C": "Immediately before the statement of comprehensive income",
+    "D": "Inside the MD&A, with management's discussion"
+   },
+   "answer": "C",
+   "rationale": "NI 51-102 s. 4.1(3) says that the separate income statement must be displayed immediately before the statement of comprehensive income. The other placements do not follow the rule.",
+   "rule_refs": [
+    "NI 51-102 s. 4.1(3)"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"the separate income statement must be displayed immediately before the statement of comprehensive income filed under subsection (1)\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 4.1(3), ~line 825"
+  },
+  {
+   "id": "RSE-E4-0054",
+   "element": 4,
+   "outcome": "4.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Under the indirect method, why does a company add back depreciation to net income to get operating cash flow?",
+   "options": {
+    "A": "Depreciation is a cash payment that the company makes in the next year",
+    "B": "Depreciation is a financing cost, so it belongs in the financing section",
+    "C": "Depreciation increases the company's cash when the assets get older",
+    "D": "Depreciation reduced net income but did not use any cash in the period"
+   },
+   "answer": "D",
+   "rationale": "The indirect method starts with net income and adds back non-cash charges, such as depreciation and amortization. Depreciation reduces profit, but no cash leaves the company for it in the period. It is not a financing cost.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 4.4 indirect method"
+  },
+  {
+   "id": "RSE-E4-0055",
+   "element": 4,
+   "outcome": "4.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Over the year, unpaid supplier bills at Westbury Cabinets Inc. rose by $15M. Where and how does this change appear in the statement of cash flows?",
+   "options": {
+    "A": "In the operating section, as an addition to net income",
+    "B": "In the financing section, as new borrowing",
+    "C": "In the operating section, as a deduction from net income",
+    "D": "In the investing section, as a cash inflow"
+   },
+   "answer": "A",
+   "rationale": "Higher accounts payable keep cash in the company, so the indirect method adds the increase in the operating section. Trade payables are a working-capital item, not interest-bearing borrowing in the financing section.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.4 working-capital adjustments (payables)"
+  },
+  {
+   "id": "RSE-E4-0056",
+   "element": 4,
+   "outcome": "4.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Which transaction does a company report in the financing section of its statement of cash flows?",
+   "options": {
+    "A": "Buying marketable securities with excess cash",
+    "B": "Paying suppliers for raw materials",
+    "C": "Selling a used delivery truck",
+    "D": "Buying back its own common shares"
+   },
+   "answer": "D",
+   "rationale": "Financing activities are cash flows with lenders and shareholders, such as share buybacks, dividends and debt. Buying securities and selling equipment are investing activities. Payments to suppliers are operating activities.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 4.4 section table"
+  },
+  {
+   "id": "RSE-E4-0057",
+   "element": 4,
+   "outcome": "4.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Kilbride Utilities Inc. is a mature company. It has large positive operating cash flow, and its financing cash flow is negative from dividends and debt repayment. What does this pattern usually show?",
+   "options": {
+    "A": "A warning sign, because the company pays out more cash than it raises",
+    "B": "A healthy pattern, because operating cash flow is large enough to pay lenders and shareholders",
+    "C": "A sign of fast growth, because the company invests all of its cash in new assets",
+    "D": "A liquidity problem, because negative financing cash flow reduces profit"
+   },
+   "answer": "B",
+   "rationale": "In a mature company, a financing outflow is usually healthy. It means that operating cash flow is large enough to repay debt and pay dividends. A negative financing number alone is not a warning sign, and it does not reduce profit.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.4 financing activities by company stage"
+  },
+  {
+   "id": "RSE-E4-0058",
+   "element": 4,
+   "outcome": "4.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Over three years, Norland Robotics Ltd., a young company, raised new equity each year. It spent the cash on new plants, and its operating cash flow is starting to grow. How should an analyst view the financing inflows?",
+   "options": {
+    "A": "As a warning sign, because any financing inflow means that the business is weak",
+    "B": "As a problem, because a company should pay for new plants only from profit",
+    "C": "As normal, because the cash goes into investing activities that can produce future operating cash flow",
+    "D": "As a sign that the company has more cash than it needs for its operations"
+   },
+   "answer": "C",
+   "rationale": "A young company that grows fast often shows financing inflows. This is normal if the cash goes into investing activities that can produce future operating cash flow. An inflow becomes a warning sign when it pays for operating losses year after year.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "concept: guide 4.4 financing activities by company stage"
+  },
+  {
+   "id": "RSE-E4-0059",
+   "element": 4,
+   "outcome": "4.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Strathmore Packaging Corp. reports negative cash flow from investing activities each year. What does this usually mean?",
+   "options": {
+    "A": "The company reinvests in long-term assets to grow or to replace worn-out assets",
+    "B": "The company loses money on its core business and borrows to cover the losses",
+    "C": "The company pays more in dividends and buybacks than it raises from lenders",
+    "D": "The company collects cash from customers more slowly than it pays suppliers"
+   },
+   "answer": "A",
+   "rationale": "The investing section shows spending on long-term assets and investments. A negative number usually means that the company reinvests to grow or to replace worn-out assets. Dividends and buybacks are financing items, and collections are operating items.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 4.4 investing activities"
+  },
+  {
+   "id": "RSE-E4-0060",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "An auditor concludes that a company's financial statements are not fairly presented. Which type of opinion does the auditor give?",
+   "options": {
+    "A": "An unmodified opinion",
+    "B": "A qualified opinion",
+    "C": "An adverse opinion",
+    "D": "A disclaimer of opinion"
+   },
+   "answer": "C",
+   "rationale": "An adverse opinion says that the statements are not fairly presented. A qualified opinion says that they are fair except for a specific matter. A disclaimer means that the auditor could not obtain enough evidence to give an opinion.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 4.5 four opinion types"
+  },
+  {
+   "id": "RSE-E4-0061",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "The auditor of Tavistock Diagnostics Ltd. gives an unmodified opinion. The report also has a \"Material Uncertainty Related to Going Concern\" section. What does this show?",
+   "options": {
+    "A": "The statements contain a material error that management refused to correct",
+    "B": "The statements are fairly presented, but the company's ability to continue in business is in doubt",
+    "C": "The auditor could not get enough evidence, so the opinion is not reliable",
+    "D": "The company is safe, because an unmodified opinion removes any going-concern doubt"
+   },
+   "answer": "B",
+   "rationale": "An unmodified opinion means only that the statements are fairly presented. A separate going-concern section is a warning sign that the company's ability to continue in business is in doubt. It does not mean an error or a lack of evidence.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.5 going-concern section"
+  },
+  {
+   "id": "RSE-E4-0062",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "An analyst studies Brookhaven Cement Inc. Which information will she most likely find in the notes, and not as a number on the balance sheet?",
+   "options": {
+    "A": "The total value of inventory at year-end",
+    "B": "A pending lawsuit that the company discloses as a contingency",
+    "C": "The balance of accounts receivable at year-end",
+    "D": "The amount of share capital at year-end"
+   },
+   "answer": "B",
+   "rationale": "The notes disclose contingencies, such as lawsuits, plus debt covenants and other commitments. Many such risks never appear as a balance-sheet number. Inventory, receivables and share capital are balance-sheet amounts.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.5 notes to the financial statements"
+  },
+  {
+   "id": "RSE-E4-0063",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Remember",
+   "type": "standard",
+   "stem": "Under NI 51-102, which statement about audits of a reporting issuer's financial statements is correct?",
+   "options": {
+    "A": "Annual financial statements must be audited, but auditors usually do not audit interim reports",
+    "B": "Annual and interim financial statements must both have a full audit",
+    "C": "Only the MD&A and the AIF must be audited each year",
+    "D": "Audits are optional if the company files its statements on time"
+   },
+   "answer": "A",
+   "rationale": "NI 51-102 s. 4.1(2) says that annual financial statements must be audited. Auditors usually do not audit interim reports. If no auditor reviewed an interim report, it carries a notice that says so.",
+   "rule_refs": [
+    "NI 51-102 s. 4.1(2)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"Annual financial statements filed under subsection (1) must be audited.\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 4.1(2), ~line 822"
+  },
+  {
+   "id": "RSE-E4-0064",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Ridgeway Cobalt Corp. does not file its annual audited financial statements by the deadline. How do the CSA regulators generally respond to this specified default?",
+   "options": {
+    "A": "They delist the company from all exchanges at the end of the month",
+    "B": "They fine each director, but trading in the shares continues as normal",
+    "C": "They issue a failure-to-file CTO, or a management CTO if the company applies and can comply",
+    "D": "They wait for the next annual filing and take no action until then"
+   },
+   "answer": "C",
+   "rationale": "NP 11-207 s. 6 says that the CSA regulators generally respond in one of two ways. They issue a failure-to-file CTO, or a management CTO if the company applies under NP 12-203 and shows that it can comply.",
+   "rule_refs": [
+    "NP 11-207 s. 6"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"The CSA regulators will then generally respond to a specified default in one of two ways:\" — research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt NP 11-207 s. 6, ~line 190"
+  },
+  {
+   "id": "RSE-E4-0065",
+   "element": 4,
+   "outcome": "4.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Client Jorund Hallam says that a clean audit opinion guarantees that a company's statements contain no fraud. Which response is correct?",
+   "options": {
+    "A": "He is right, because the auditor checks every transaction in the year",
+    "B": "He is right, because the regulator also reviews each audit before filing",
+    "C": "He is wrong, because an audit tests only the MD&A, not the statements",
+    "D": "He is wrong, because an audit gives reasonable assurance, not a guarantee against fraud or error"
+   },
+   "answer": "D",
+   "rationale": "An audit gives reasonable assurance that the statements are fairly presented. It is not a guarantee against fraud or error. The audit covers the financial statements, not the MD&A.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.5 exam trap (reasonable assurance)"
+  },
+  {
+   "id": "RSE-E4-0066",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Ivybridge Instruments Ltd. has cash of $45M, marketable securities of $35M, receivables of $90M and inventory of $150M. Its current liabilities are $200M. What is its cash ratio?",
+   "options": {
+    "A": "1.60",
+    "B": "0.85",
+    "C": "0.40",
+    "D": "0.23"
+   },
+   "answer": "C",
+   "rationale": "Cash ratio = (cash + marketable securities) ÷ current liabilities = 80 ÷ 200 = 0.40. The value 0.85 is the quick ratio, which also counts receivables. The value 1.60 is the current ratio.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: (45+35)/200 = 0.40; distractors current 320/200 = 1.60, quick 170/200 = 0.85, cash only 45/200 = 0.225"
+  },
+  {
+   "id": "RSE-E4-0067",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "Pellworth Ltd. and Quinlan Corp. each have current assets of $500M and current liabilities of $250M. Pellworth holds $100M of inventory, and Quinlan holds $350M. Which statement is correct?",
+   "options": {
+    "A": "Both are equally liquid, because both have a current ratio of 2.0",
+    "B": "Pellworth is more liquid; its quick ratio is 1.6, against 0.6 for Quinlan",
+    "C": "Quinlan is more liquid, because inventory is the most liquid current asset",
+    "D": "Quinlan is more liquid; its quick ratio is 1.4, against 0.4 for Pellworth"
+   },
+   "answer": "B",
+   "rationale": "Quick ratio = (current assets − inventory) ÷ current liabilities. Pellworth: 400 ÷ 250 = 1.6. Quinlan: 150 ÷ 250 = 0.6. Equal current ratios hide the difference, because inventory can be slow to sell.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: P (500-100)/250 = 1.6; Q (500-350)/250 = 0.6; D swaps and uses inventory/CL (350/250 = 1.4, 100/250 = 0.4)"
+  },
+  {
+   "id": "RSE-E4-0068",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Kingsbarrow Transit Inc. has a bank loan of $40M, long-term debt of $260M, accounts payable of $90M and equity of $600M. Use interest-bearing debt. What is its debt-to-equity ratio?",
+   "options": {
+    "A": "0.65",
+    "B": "0.43",
+    "C": "2.00",
+    "D": "0.50"
+   },
+   "answer": "D",
+   "rationale": "Debt-to-equity = interest-bearing debt ÷ equity = (40 + 260) ÷ 600 = 0.50. The value 0.65 wrongly adds accounts payable, which is not interest-bearing. The value 0.43 leaves out the bank loan.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: (40+260)/600 = 0.50; distractors 390/600 = 0.65 (adds payables), 260/600 = 0.43 (omits loan), 600/300 = 2.00 (inverted)"
+  },
+  {
+   "id": "RSE-E4-0069",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Oakhurst Ceramics Ltd. has revenue of $800M, COGS of $520M, operating expenses of $160M and interest expense of $20M. Its tax rate is 25%. What is its pre-tax margin?",
+   "options": {
+    "A": "15.0%",
+    "B": "12.5%",
+    "C": "9.4%",
+    "D": "35.0%"
+   },
+   "answer": "B",
+   "rationale": "EBIT = 800 − 520 − 160 = 120. EBT = 120 − 20 = 100. Pre-tax margin = EBT ÷ revenue = 100 ÷ 800 = 12.5%. The value 15.0% uses EBIT, before interest. The value 9.4% is the net margin, after tax.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: (800-520-160-20)/800 = 0.125; distractors 120/800 = 0.15, 75/800 = 0.094, 280/800 = 0.35"
+  },
+  {
+   "id": "RSE-E4-0070",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Sandgate Logistics Inc. has net income of $90M, EBIT of $140M, total assets of $1,200M and equity of $600M. What is its return on assets?",
+   "options": {
+    "A": "7.5%",
+    "B": "11.7%",
+    "C": "15.0%",
+    "D": "23.3%"
+   },
+   "answer": "A",
+   "rationale": "Return on assets = net income ÷ total assets = 90 ÷ 1,200 = 7.5%. The value 15.0% divides net income by equity, not by assets. The value 11.7% uses EBIT, not net income.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: 90/1200 = 0.075; distractors 140/1200 = 0.117, 90/600 = 0.15, 140/600 = 0.233"
+  },
+  {
+   "id": "RSE-E4-0071",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Tremont Aggregates Corp. has EBIT of $200M, interest expense of $30M and a tax rate of 25%. Its total debt is $400M, and its equity is $800M. What is its return on invested capital (ROIC)?",
+   "options": {
+    "A": "16.7%",
+    "B": "18.8%",
+    "C": "12.5%",
+    "D": "10.6%"
+   },
+   "answer": "C",
+   "rationale": "ROIC = EBIT × (1 − t) ÷ (debt + equity) = 200 × 0.75 ÷ 1,200 = 12.5%. The value 16.7% ignores tax. The value 10.6% uses net income, which deducts interest, so it understates the return to all capital.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: 200*0.75/1200 = 0.125; distractors 200/1200 = 0.167, 150/800 = 0.1875, (200-30)*0.75/1200 = 0.106"
+  },
+  {
+   "id": "RSE-E4-0072",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "Last year, Upton Dairy Ltd. had receivables turnover of 9.0×. This year, revenue is $1,800M, COGS is $1,200M and year-end receivables are $300M. What does the change show?",
+   "options": {
+    "A": "Turnover is 6.0×; customers pay more slowly than last year",
+    "B": "Turnover is 6.0×; customers pay faster than last year",
+    "C": "Turnover is 4.0×; customers pay more slowly than last year",
+    "D": "Turnover is 0.17×; the company cannot collect from its customers"
+   },
+   "answer": "A",
+   "rationale": "Receivables turnover = revenue ÷ receivables = 1,800 ÷ 300 = 6.0×. A fall from 9.0× means slower collection. The value 4.0× wrongly uses COGS, which the convention keeps for inventory and payables turnover.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: 1800/300 = 6.0; distractors 1200/300 = 4.0 (COGS), 300/1800 = 0.17 (inverted)"
+  },
+  {
+   "id": "RSE-E4-0073",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "Vellacombe Hardware Inc. has receivables turnover of 6× and payables turnover of 12×. What does this comparison suggest?",
+   "options": {
+    "A": "It collects from customers faster than it pays suppliers, which helps liquidity",
+    "B": "It turns over its inventory twice as fast as its receivables",
+    "C": "It collects from customers more slowly than it pays suppliers, which strains liquidity",
+    "D": "It uses its fixed assets twice as efficiently as its peers"
+   },
+   "answer": "C",
+   "rationale": "A receivables turnover of 6× is slower than a payables turnover of 12×. So cash leaves for suppliers faster than it comes in from customers, which strains liquidity. The comparison says nothing about inventory or fixed assets.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept/calc: guide 4.6 efficiency ratios (collect 16.7x vs pay 8.0x helps liquidity; inverse here)"
+  },
+  {
+   "id": "RSE-E4-0074",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Winsford Printing Ltd. has revenue of $2,400M, current assets of $700M and current liabilities of $400M. What is its working capital turnover?",
+   "options": {
+    "A": "3.4×",
+    "B": "6.0×",
+    "C": "2.2×",
+    "D": "8.0×"
+   },
+   "answer": "D",
+   "rationale": "Working capital turnover = revenue ÷ (current assets − current liabilities) = 2,400 ÷ 300 = 8.0×. The value 3.4× divides by current assets only. The value 6.0× divides by current liabilities only.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: 2400/(700-400) = 8.0; distractors 2400/700 = 3.43, 2400/400 = 6.0, 2400/1100 = 2.18"
+  },
+  {
+   "id": "RSE-E4-0075",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Yarrowby Foods Inc. has net income of $66M and pays preferred dividends of $6M. It has a weighted average of 30M common shares, and 32M at year-end. What is its EPS?",
+   "options": {
+    "A": "$2.20",
+    "B": "$2.00",
+    "C": "$1.88",
+    "D": "$2.06"
+   },
+   "answer": "B",
+   "rationale": "EPS = (net income − preferred dividends) ÷ weighted average common shares = 60 ÷ 30 = $2.00. The value $2.20 does not deduct preferred dividends. The value $1.88 uses year-end shares, not the weighted average.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: (66-6)/30 = 2.00; distractors 66/30 = 2.20, 60/32 = 1.875, 66/32 = 2.0625"
+  },
+  {
+   "id": "RSE-E4-0076",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "Abbotsford Glassworks Ltd. has revenue of $3,000M and net PP&E of $1,200M. Its peers average a fixed asset turnover of 4.0×. What does the comparison suggest?",
+   "options": {
+    "A": "Its turnover is 2.5×; it produces less revenue per dollar of plant than its peers",
+    "B": "Its turnover is 2.5×; it produces more revenue per dollar of plant than its peers",
+    "C": "Its turnover is 0.4×; it uses only a small part of its plant",
+    "D": "Its turnover is 4.0×; it uses its plant as efficiently as its peers"
+   },
+   "answer": "A",
+   "rationale": "Fixed asset turnover = revenue ÷ net PP&E = 3,000 ÷ 1,200 = 2.5×. This is below the peer average of 4.0×, so it produces less revenue from each dollar of plant. A higher turnover usually means better use of assets.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: 3000/1200 = 2.5 vs peers 4.0; distractor 1200/3000 = 0.4 (inverted)"
+  },
+  {
+   "id": "RSE-E4-0077",
+   "element": 4,
+   "outcome": "4.6",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Bellhaven Textiles Corp. earns net income of $160M and pays common dividends of $40M. It has no preferred shares. What is its retention rate, and what does it show?",
+   "options": {
+    "A": "25%; it keeps a small part of its profit to reinvest in the business",
+    "B": "75%; it pays most of its profit to shareholders as dividends",
+    "C": "33%; it keeps one-third of its profit to reinvest in the business",
+    "D": "75%; it keeps most of its profit to reinvest in the business"
+   },
+   "answer": "D",
+   "rationale": "Payout = dividends ÷ net income = 40 ÷ 160 = 25%. Retention rate = 1 − payout = 75%, so the company keeps most of its profit. The value 25% is the payout ratio, not the retention rate.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: 1 - 40/160 = 0.75; distractors 40/160 = 0.25 (payout), 40/120 = 0.33 (dividends / retained)"
+  },
+  {
+   "id": "RSE-E4-0078",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Carbury Insurance Ltd. has EPS of $3.60 and pays dividends of $1.20 a share. Its shares trade at $48.00. What is its dividend cover, and what does it show?",
+   "options": {
+    "A": "0.33×; the dividend is three times earnings, so a cut is likely",
+    "B": "3.0×; earnings are three times the dividend, so the dividend looks safe",
+    "C": "2.5×; earnings cover the dividend with a moderate margin",
+    "D": "33%; earnings cover only one-third of the dividend"
+   },
+   "answer": "B",
+   "rationale": "Dividend cover = EPS ÷ DPS = 3.60 ÷ 1.20 = 3.0×. Earnings pay for the dividend three times, so the payout of about 33% looks safe. The value 0.33× inverts the formula. The value 2.5 is the yield in percent.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: 3.60/1.20 = 3.0; distractors 1.20/3.60 = 0.33 (inverted), 1.20/48 = 2.5% (yield), payout 33% misread as cover"
+  },
+  {
+   "id": "RSE-E4-0079",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Denholm Rail Corp. has total equity of $900M, which includes $100M of preferred shares. It has 40M common shares, which trade at $35.00. What is its equity per common share?",
+   "options": {
+    "A": "$22.50; the market price is above book value",
+    "B": "$25.00; the market price is above book value",
+    "C": "$20.00; the market price is below book value",
+    "D": "$20.00; the market price is above book value"
+   },
+   "answer": "D",
+   "rationale": "Equity per common share = (total equity − preferred equity) ÷ common shares = 800 ÷ 40 = $20.00. The $35.00 price is above it. The value $22.50 wrongly keeps the preferred equity in the common equity.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: (900-100)/40 = 20.00 < 35.00; distractors 900/40 = 22.50, (900+100)/40 = 25.00"
+  },
+  {
+   "id": "RSE-E4-0080",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "Last year, Elmstead Chemicals Inc. traded at $27 with EPS of $1.50. This year the price is still $27, but EPS is $0.60. Which statement best explains the change in its P/E?",
+   "options": {
+    "A": "The P/E fell from 18× to 4×, so the shares now look cheap",
+    "B": "The P/E rose from 18× to 45×, so investors clearly expect much faster growth",
+    "C": "The P/E rose from 18× to 45×, mainly because earnings fell, not because of growth hopes",
+    "D": "The P/E did not change, because the share price stayed at $27"
+   },
+   "answer": "C",
+   "rationale": "P/E = price ÷ EPS: 27 ÷ 1.50 = 18× and 27 ÷ 0.60 = 45×. The price did not move, so the higher P/E comes from lower earnings. A high P/E can reflect temporarily low earnings, not only expected growth.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: 27/1.5 = 18, 27/0.6 = 45; concept guide 4.7 (high P/E may reflect temporarily low earnings)"
+  },
+  {
+   "id": "RSE-E4-0081",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Which statement about a company's diluted EPS is correct?",
+   "options": {
+    "A": "It counts only the shares outstanding at year-end, so it is higher than basic EPS",
+    "B": "It also counts shares that options and convertible securities could add, so it is equal to or lower than basic EPS",
+    "C": "It uses total comprehensive income, so it is usually higher than basic EPS",
+    "D": "It excludes preferred dividends, so it is always lower than basic EPS"
+   },
+   "answer": "B",
+   "rationale": "Diluted EPS also counts the shares that options and convertible securities could add. More shares share the same earnings, so diluted EPS is equal to or lower than basic EPS. Neither EPS measure uses total comprehensive income.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 4.7 EPS (diluted EPS)"
+  },
+  {
+   "id": "RSE-E4-0082",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "Over four years, Fallowfield Marine Ltd.'s debt-to-equity rose from 0.3 to 0.9. Its interest coverage fell from 12× to 4×. What does this trend show?",
+   "options": {
+    "A": "Lower risk, because more debt lets the company grow faster",
+    "B": "Better operations, because the company uses its assets more efficiently",
+    "C": "No change in risk, because the coverage is still above 1×",
+    "D": "Higher financial risk, because the company depends more on debt and covers interest less"
+   },
+   "answer": "D",
+   "rationale": "Trend analysis compares a company with itself over several periods. Higher debt-to-equity with lower interest coverage points to more risk. Coverage above 1× still covers interest, but the safety margin is much thinner than before.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.7 trend analysis (higher D/E with lower coverage = more risk)"
+  },
+  {
+   "id": "RSE-E4-0083",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "An analyst sees that a utility has debt-to-equity of 1.5, and a software company has 0.2. She concludes that the utility carries too much debt. What is the main flaw in her method?",
+   "options": {
+    "A": "Normal debt levels differ widely by sector, so she should compare the utility with utility peers",
+    "B": "Debt-to-equity is not a risk ratio, so she should use the current ratio instead",
+    "C": "She should compare the two companies' P/E ratios before she looks at their debt",
+    "D": "A utility always has less risk than a software company, whatever its debt"
+   },
+   "answer": "A",
+   "rationale": "External comparisons use peers in the same sector, because normal ratio levels differ widely. A utility's normal leverage would alarm you in a software company. Debt-to-equity is a risk ratio, and sector alone does not make a company safe.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.7 external comparisons (utility vs software leverage)"
+  },
+  {
+   "id": "RSE-E4-0084",
+   "element": 4,
+   "outcome": "4.7",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "An analyst compares Glenarm Steel Corp.'s ratios with a peer's ratios. Which comparison follows good practice for external comparisons?",
+   "options": {
+    "A": "Glenarm's ratios for this year against the peer's ratios from two years ago",
+    "B": "Glenarm's ratios against a peer in the same sector, for the same fiscal period and accounting basis",
+    "C": "Glenarm's ratios against a bank's ratios, because banks publish more data",
+    "D": "Glenarm's ratios under one accounting basis against the peer's under a different basis"
+   },
+   "answer": "B",
+   "rationale": "External comparisons must compare like with like: a similar business mix, the same fiscal period and the same accounting basis. Different years, sectors or accounting bases make the gaps between ratios misleading.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 4.7 external comparisons (like with like)"
+  }
+ ]
+}
