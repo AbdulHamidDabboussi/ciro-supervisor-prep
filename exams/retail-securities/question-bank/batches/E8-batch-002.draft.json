@@ -1,0 +1,75 @@
+{
+ "meta": {
+  "batch": "E8-002",
+  "drafted": "2026-10-25",
+  "source": "study guide v1.1"
+ },
+ "questions": [
+  {
+   "id": "RSE-E8-0018",
+   "element": 8,
+   "outcome": "8.1",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Which statement about an Investment Dealer's best execution obligation is correct?",
+   "options": {
+    "A": "The dealer must get the best available price on every single client trade.",
+    "B": "The dealer must have best execution policies and review them at least once a year.",
+    "C": "The dealer has no best execution obligation for order-execution-only accounts.",
+    "D": "The dealer must follow all client instructions, even if they break CIRO requirements."
+   },
+   "answer": "B",
+   "rationale": "Best execution is a policies-and-procedures duty. The dealer's policies must address best execution, and the dealer reviews them at least annually (IDPC 3120, 3126). A is wrong because a dealer may not achieve best execution on every single trade. The duty also applies to OEO accounts.",
+   "rule_refs": [
+    "IDPC 3120",
+    "IDPC 3126",
+    "GN-URPART6-25-0003"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"A Dealer Member must review its best execution policies and procedures at least annually\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3126(1), ~line 5269"
+  },
+  {
+   "id": "RSE-E8-0019",
+   "element": 8,
+   "outcome": "8.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Desmond Okonkwo wants to buy exactly 4,000 shares of a stock now. He does not want a partial fill. If the full 4,000 shares cannot fill at once, he wants no shares at all. Which order type best meets his needs?",
+   "options": {
+    "A": "An iceberg order",
+    "B": "An immediate-or-cancel order",
+    "C": "A stop-limit order",
+    "D": "A fill-or-kill order"
+   },
+   "answer": "D",
+   "rationale": "A fill-or-kill order fills the whole quantity at once, or nothing. This is all-or-nothing, as Desmond wants. B is wrong because an immediate-or-cancel order fills what it can at once and cancels the rest, so it can leave a partial fill.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 8.3 order table (FOK: fills the whole quantity at once, or nothing; IOC: fills what it can at once and cancels the rest)"
+  },
+  {
+   "id": "RSE-E8-0020",
+   "element": 8,
+   "outcome": "8.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Imogen Thackeray is an RR. A client wants her to trade his account on a discretionary basis. Which condition must Imogen meet before she can trade a discretionary account?",
+   "options": {
+    "A": "She must have at least one year of active experience in any one product type.",
+    "B": "She must get the client's verbal approval before she enters each trade.",
+    "C": "She must have at least two years of active experience in all product types traded.",
+    "D": "She must hold the discretionary account at a dealer other than her own dealer."
+   },
+   "answer": "C",
+   "rationale": "IDPC 3275 requires the RR to have at least two years of active experience in trading, advising or analysis for all product types traded. The account must also be at the RR's own dealer, so D is wrong. B describes a non-discretionary account, not a discretionary condition.",
+   "rule_refs": [
+    "IDPC 3275"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"has at least two years of active experience in trading, advising or performing analysis with respect to all types of products that are to be traded on a discretionary basis\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3275(1)(i), ~lines 6594-6595"
+  }
+ ]
+}

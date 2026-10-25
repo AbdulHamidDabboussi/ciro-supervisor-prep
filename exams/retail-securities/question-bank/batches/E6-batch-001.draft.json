@@ -1,0 +1,622 @@
+{
+  "meta": {
+    "batch": "E6-001",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E6-0001",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "In a diversified portfolio, which decision usually explains most of the variation in returns over time?",
+      "options": {
+        "A": "The choice of asset mix",
+        "B": "The choice of individual securities",
+        "C": "The timing of each trade",
+        "D": "The commission rate on each trade"
+      },
+      "answer": "A",
+      "rationale": "The asset mix explains most of the variation in a diversified portfolio's returns, more than security selection does. So careful security selection cannot repair a mix that does not fit the client.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 (importance of asset allocation)"
+    },
+    {
+      "id": "RSE-E6-0002",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A manager uses a fixed rule. The rule raises the equity weight after markets gain and cuts it after markets fall. The manager makes no forecast. Which type of asset allocation is this?",
+      "options": {
+        "A": "Tactical asset allocation",
+        "B": "Strategic asset allocation",
+        "C": "Dynamic asset allocation",
+        "D": "Rebalancing to fixed targets"
+      },
+      "answer": "C",
+      "rationale": "Dynamic allocation is a rule-based mix that changes automatically as market values change, such as portfolio insurance. Rebalancing does the opposite: it sells assets that rose to restore fixed targets. Tactical allocation needs a forecast.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 types table"
+    },
+    {
+      "id": "RSE-E6-0003",
+      "element": 6,
+      "outcome": "6.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A portfolio has an equity target of 60%. Its policy sets a relative band of ±5% of the target weight, not ±5 percentage points. Which equity weight is outside the band?",
+      "options": {
+        "A": "62%",
+        "B": "64%",
+        "C": "58%",
+        "D": "57.5%"
+      },
+      "answer": "B",
+      "rationale": "A relative band of ±5% of a 60% target is ±3 percentage points, so the band is 57% to 63%. Only 64% is outside it. The weights 62%, 58% and 57.5% are inside the band.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.1 band illustration; 0.05 x 60 = 3 -> 57% to 63%"
+    },
+    {
+      "id": "RSE-E6-0004",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Each client below holds one type of asset for ten years. Which client is most exposed to inflation risk?",
+      "options": {
+        "A": "A client who holds fixed-rate GICs",
+        "B": "A client who holds a broad equity fund",
+        "C": "A client who holds thinly traded exempt shares",
+        "D": "A client who holds small-cap growth stocks"
+      },
+      "answer": "A",
+      "rationale": "Fixed-rate GICs pay amounts that do not increase with prices, so inflation can reduce their real value. Thinly traded exempt shares mainly carry liquidity risk. Equities mainly carry capital risk.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.2 inflation risk"
+    },
+    {
+      "id": "RSE-E6-0005",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Odalys Brennan opens an account and deposits funds. She makes no trades. Some days later, she moves all the funds to another institution. Which type of risk does this pattern show?",
+      "options": {
+        "A": "Liquidity risk",
+        "B": "Issuer risk",
+        "C": "Income risk",
+        "D": "Financial crime risk"
+      },
+      "answer": "D",
+      "rationale": "An account used only to move funds, with no securities transactions, is an AML indicator. It shows financial crime risk, with the account as the tool. Issuer risk comes from problems at one issuer, not from how an account is used.",
+      "rule_refs": [
+        "GN-3200-23-001 s. 5.3.5"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Investment Dealers should be suspicious of accounts used solely as conduits to transfer funds without legitimate securities transactions.\" — research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt GN-3200-23-001 s. 5.3.5, ~line 483"
+    },
+    {
+      "id": "RSE-E6-0006",
+      "element": 6,
+      "outcome": "6.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under the PCMLTFA, when must a securities dealer report a financial transaction to FINTRAC?",
+      "options": {
+        "A": "When there are reasonable grounds to suspect a link to money laundering, even if the transaction is only attempted",
+        "B": "Only when a completed transaction is above a set dollar threshold and the client is a new client",
+        "C": "Only when the client admits that the funds come from crime and the transaction is complete",
+        "D": "Only after CIRO reviews the transaction and tells the dealer that a report to FINTRAC is necessary"
+      },
+      "answer": "A",
+      "rationale": "PCMLTFA s. 7 requires a report of every transaction, completed or attempted, that gives reasonable grounds to suspect a listed offence. Money laundering is one such offence. The test is suspicion, not proof, an admission or CIRO approval.",
+      "rule_refs": [
+        "PCMLTFA s. 7",
+        "GN-3200-23-001 s. 6.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"report to the Centre every financial transaction that occurs or that is attempted in the course of their activities and in respect of which there are reasonable grounds to suspect that\" — research/sources/gov/pcmltfa-extracts.txt PCMLTFA s. 7, ~line 78"
+    },
+    {
+      "id": "RSE-E6-0007",
+      "element": 6,
+      "outcome": "6.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which risk measure shows the largest fall from a previous peak to a later low that a client actually lived through?",
+      "options": {
+        "A": "Beta",
+        "B": "Variance",
+        "C": "Maximum drawdown",
+        "D": "A multi-factor loading"
+      },
+      "answer": "C",
+      "rationale": "Maximum drawdown is the largest decline from a previous peak to a later trough in a period. Variance measures how widely returns scatter around their mean. Beta measures sensitivity to the market.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.3 drawdown"
+    },
+    {
+      "id": "RSE-E6-0008",
+      "element": 6,
+      "outcome": "6.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Two bond-heavy balanced funds have the same market beta. When interest rates rise, one fund falls much more than the other. Which measure shows this difference?",
+      "options": {
+        "A": "The market beta of each fund",
+        "B": "Separate loadings on each risk factor",
+        "C": "The ratio of each fund's beta to the market",
+        "D": "The weighted-average beta of the two funds"
+      },
+      "answer": "B",
+      "rationale": "Multi-factor measures give a separate loading, like a beta, for each risk source, such as interest rates. Two funds with the same market beta can react very differently to rates. A single beta hides that difference.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.3 multi-factor measures"
+    },
+    {
+      "id": "RSE-E6-0009",
+      "element": 6,
+      "outcome": "6.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rosalind Achebe holds a Canadian equity fund. She can add one of four assets with the same expected return and standard deviation. Which correlation with her fund lowers her portfolio risk most?",
+      "options": {
+        "A": "+0.9",
+        "B": "+0.4",
+        "C": "0.0",
+        "D": "−0.3"
+      },
+      "answer": "D",
+      "rationale": "The lower the correlation, the larger the reduction in portfolio standard deviation. A correlation of −0.3 is the lowest of the four. A correlation near +1 gives almost no risk reduction.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.4 factors (correlation)"
+    },
+    {
+      "id": "RSE-E6-0010",
+      "element": 6,
+      "outcome": "6.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ewan Szabo has a large position in one stock with a large unrealized capital gain. He fears a sharp fall in the next three months. He does not want to sell this year. Which action best fits?",
+      "options": {
+        "A": "Sell the shares and buy a broad index fund",
+        "B": "Buy more shares if the price falls",
+        "C": "Buy put options on the shares he holds",
+        "D": "Sell short shares of an unrelated company"
+      },
+      "answer": "C",
+      "rationale": "A protective put sets a minimum value for his shares and keeps his upside, less the premium. It suits a temporary concern when he has a tax reason not to sell. A sale and index purchase would diversify, but it realizes the capital gain.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.4 hedging scenario"
+    },
+    {
+      "id": "RSE-E6-0011",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A client buys a margin-eligible Canadian listed stock at $1.60 per share. It is not on the List of Securities Eligible for Reduced Margin. What is the minimum client margin rate?",
+      "options": {
+        "A": "80%",
+        "B": "50%",
+        "C": "60%",
+        "D": "100%"
+      },
+      "answer": "A",
+      "rationale": "Under IDPC 5310, applied by IDPC 5311, a stock priced from $1.50 to $1.74 has a minimum margin rate of 80%. The 60% rate applies from $1.75 to $1.99. The 100% rate applies below $1.50.",
+      "rule_refs": [
+        "IDPC 5310",
+        "IDPC 5311"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Market value of $1.50 per share to $1.74 per share 80%\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 5310(1), ~lines 16167/16192"
+    },
+    {
+      "id": "RSE-E6-0012",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Matthias Ferreira sells a stock short in his margin account. The price of the stock then rises a lot. What happens to the credit balance that his account must hold?",
+      "options": {
+        "A": "It decreases, because the short-sale proceeds grow with the price of the stock",
+        "B": "It stays fixed, because the requirement is set on the day of the short sale",
+        "C": "It increases, because the requirement is a percentage of the current market value",
+        "D": "It falls to zero, because the dealer has already borrowed the shares to deliver"
+      },
+      "answer": "C",
+      "rationale": "A short position has a negative loan value equal to (100% + margin rate) times its market value. The account must hold a credit at least equal to that value (IDPC 5113). So the required credit rises with the price.",
+      "rule_refs": [
+        "IDPC 5113(3)",
+        "IDPC 5113(4)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the cash balance in the margin account must be a credit equal to or larger than the net negative loan value for the account to be in good standing\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 5113(4)(iii), ~line 14796"
+    },
+    {
+      "id": "RSE-E6-0013",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Priyanka Holloway bought 500 shares yesterday. The trade has not settled, so she has not received the shares. Today she sells them. How does UMIR treat this sale?",
+      "options": {
+        "A": "It is a short sale, because she has not yet received the shares",
+        "B": "It is not a short sale, because she is deemed to own the shares",
+        "C": "It is a short sale, unless the dealer borrows the shares first",
+        "D": "It is not a short sale, but only if she holds a margin account"
+      },
+      "answer": "B",
+      "rationale": "Under the UMIR definition, a seller who purchased a security but has not yet received delivery is deemed to own it. So the sale is not a short sale. Borrowed shares, by contrast, do not count as owned.",
+      "rule_refs": [
+        "UMIR 1.1 \"short sale\""
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"has purchased or has entered into an unconditional contract to purchase the security, but has not yet received delivery of the security\" — research/sources/ciro/umir-2026-08-11.txt UMIR 1.1 \"short sale\" (a), ~line 2467"
+    },
+    {
+      "id": "RSE-E6-0014",
+      "element": 6,
+      "outcome": "6.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Which risk applies to a client who sells a stock short but not to a client who buys the same stock?",
+      "options": {
+        "A": "The loss can equal the full amount invested",
+        "B": "The client receives dividends from the issuer",
+        "C": "The value falls if the issuer cuts its profits",
+        "D": "The loss has no upper limit if the price rises"
+      },
+      "answer": "D",
+      "rationale": "A short seller loses as the price rises, and the price can rise without limit. A buyer can lose at most the amount invested. A short seller pays dividends on borrowed shares and does not receive them.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.5 short-sale risks"
+    },
+    {
+      "id": "RSE-E6-0015",
+      "element": 6,
+      "outcome": "6.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "What is the starting point of the Black–Litterman model before the manager adds any views?",
+      "options": {
+        "A": "The market's equilibrium returns implied by market-capitalization weights",
+        "B": "The historical average return of each asset in the portfolio",
+        "C": "An equal weight in each asset, with no regard to correlations",
+        "D": "A distribution of outcomes from thousands of random return paths"
+      },
+      "answer": "A",
+      "rationale": "Black–Litterman starts from market equilibrium (implied) returns from market-capitalization weights. It then blends in the manager's views, weighted by confidence. It does not start from historical averages. Random return paths describe Monte Carlo simulation.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.6 Black-Litterman"
+    },
+    {
+      "id": "RSE-E6-0016",
+      "element": 6,
+      "outcome": "6.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Leontyne Park holds 12 stocks in equal amounts. All 12 companies are Canadian oil and gas producers. Which statement describes her portfolio?",
+      "options": {
+        "A": "Efficient diversification near the frontier",
+        "B": "Naive diversification with industry concentration",
+        "C": "Issuer concentration in one company",
+        "D": "An allocation from the Black–Litterman model"
+      },
+      "answer": "B",
+      "rationale": "She spreads money equally across many holdings with no regard to correlations, which is naive diversification. All 12 companies react to the same news, so she has industry concentration. Issuer concentration means one oversized holding.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.6 naive diversification and concentration"
+    },
+    {
+      "id": "RSE-E6-0017",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Which asset pricing model adds a momentum factor to the three Fama–French factors of market, size and value?",
+      "options": {
+        "A": "The Fama–French five-factor model",
+        "B": "The arbitrage pricing theory",
+        "C": "The Carhart four-factor model",
+        "D": "The capital asset pricing model"
+      },
+      "answer": "C",
+      "rationale": "The Carhart model is the three Fama–French factors plus momentum. The Fama–French five-factor model adds profitability and investment, not momentum. The CAPM uses only the market factor.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 multi-factor table"
+    },
+    {
+      "id": "RSE-E6-0018",
+      "element": 6,
+      "outcome": "6.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A small-cap value fund has a positive CAPM alpha. With a Fama–French model, its alpha is close to zero. What does this difference most likely show?",
+      "options": {
+        "A": "Its extra return came mostly from size and value factor exposure",
+        "B": "Its manager has stock-selection skill that the Fama–French model hides",
+        "C": "Its beta to the market is negative, so the CAPM understates its return",
+        "D": "Its returns came from momentum, which the Fama–French model ignores"
+      },
+      "answer": "A",
+      "rationale": "The CAPM counts only market risk, so it labels extra return from small-cap and value stocks as alpha. The Fama–French model counts size and value as factors, and little extra return remains. So the result came from factor exposure, not skill.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.7 scenario (CAPM vs Fama-French alpha)"
+    },
+    {
+      "id": "RSE-E6-0019",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The risk-free rate is 2.5% and the expected market return is 9%. A stock has a beta of 1.4. What is its expected return under the CAPM?",
+      "options": {
+        "A": "9.1%",
+        "B": "12.6%",
+        "C": "11.6%",
+        "D": "15.1%"
+      },
+      "answer": "C",
+      "rationale": "The market risk premium is 9% − 2.5% = 6.5%. Expected return = 2.5% + 1.4 × 6.5% = 11.6%. The 12.6% result multiplies beta by the market return, not by the premium. The 9.1% result omits the risk-free rate.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: 0.025 + 1.4 x (0.09 - 0.025) = 0.116; distractors 1.4x0.065=0.091, 1.4x0.09=0.126, 0.025+0.126=0.151"
+    },
+    {
+      "id": "RSE-E6-0020",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A portfolio holds 40% in a stock with a beta of 1.5, 35% in a stock with a beta of 0.9 and 25% in T-bills. The risk-free rate is 3% and the expected market return is 8%. What is the portfolio's CAPM expected return?",
+      "options": {
+        "A": "7.00%",
+        "B": "7.58%",
+        "C": "7.32%",
+        "D": "9.10%"
+      },
+      "answer": "B",
+      "rationale": "Portfolio beta = 0.40(1.5) + 0.35(0.9) + 0.25(0) = 0.915. Expected return = 3% + 0.915 × 5% = 7.58%. The 7.00% result uses a simple average of the three betas. T-bills have a beta of zero but still count in the weights.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: bp=0.4*1.5+0.35*0.9+0.25*0=0.915; 0.03+0.915*0.05=0.07575 -> 7.58%; distractors: avg beta 0.8 -> 7.00%; 0.915*0.08=7.32%; renormalized beta 1.22 -> 9.10%"
+    },
+    {
+      "id": "RSE-E6-0021",
+      "element": 6,
+      "outcome": "6.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The risk-free rate is 4% and the expected market return is 10%. A stock has a beta of 0.8. An analyst forecasts an 8.0% return for it. Which conclusion is correct?",
+      "options": {
+        "A": "Required return is 8.8%; the stock plots above the SML and is undervalued",
+        "B": "Required return is 8.8%; the stock plots below the SML and is overvalued",
+        "C": "Required return is 8.0%; the stock plots on the SML and is fairly priced",
+        "D": "Required return is 12.0%; the stock plots below the SML and is overvalued"
+      },
+      "answer": "B",
+      "rationale": "Required return = 4% + 0.8 × (10% − 4%) = 8.8%. The 8.0% forecast is below the required return, so the stock plots below the SML and is overvalued. The 8.0% figure multiplies beta by the market return.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 0.04 + 0.8 x (0.10 - 0.04) = 0.088; forecast 0.08 < 0.088 -> below SML; distractors 0.8x0.10=0.08, 0.04+0.08=0.12"
+    },
+    {
+      "id": "RSE-E6-0022",
+      "element": 6,
+      "outcome": "6.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Suppose the market is semi-strong efficient but not strong-form efficient. Which approach can still give consistent abnormal returns?",
+      "options": {
+        "A": "Trading on material private information",
+        "B": "Technical analysis of past prices",
+        "C": "Fundamental analysis of public reports",
+        "D": "Purchases of recent top performers"
+      },
+      "answer": "A",
+      "rationale": "Semi-strong efficiency means prices reflect all public information, so technical and fundamental analysis of public data fail. Only private information can still give an edge. The strong form rules out even that.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.9 EMH forms table"
+    },
+    {
+      "id": "RSE-E6-0023",
+      "element": 6,
+      "outcome": "6.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Suppose the market is weak-form efficient but not semi-strong efficient. Which statement is correct?",
+      "options": {
+        "A": "Technical analysis of price patterns can still give abnormal returns",
+        "B": "No approach can give abnormal returns, not even private information",
+        "C": "Only a passive index fund can match the return of the market",
+        "D": "Fundamental analysis of public data can still give abnormal returns"
+      },
+      "answer": "D",
+      "rationale": "Weak-form efficiency means prices reflect past price and volume data, so technical analysis fails. It does not rule out abnormal returns from fundamental analysis. Only the semi-strong form rules those out.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.9 exam trap (weak vs semi-strong)"
+    },
+    {
+      "id": "RSE-E6-0024",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Caspian Moreau buys any stock with a low price-to-book ratio and a high dividend yield. He pays no attention to the sector or the economy. Which technique does he use?",
+      "options": {
+        "A": "Top-down sector rotation",
+        "B": "Bottom-up growth investing",
+        "C": "Market timing",
+        "D": "Bottom-up value investing"
+      },
+      "answer": "D",
+      "rationale": "Company ratios such as low price-to-book and high dividend yield drive his choices, so he is a bottom-up value manager. A sector rotator starts from a forecast of the business cycle and overweights sectors.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 value investing and exam trap"
+    },
+    {
+      "id": "RSE-E6-0025",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Ines Kowalczyk cuts her fund's equity weight from 85% to 30% because she expects a recession. She plans to buy equities again at the recovery. Which risk is most specific to her technique?",
+      "options": {
+        "A": "She can buy a cheap stock whose business is in permanent decline",
+        "B": "She must be right about both the exit and the return to equities",
+        "C": "Her stocks can lose both earnings and P/E multiple if growth slows",
+        "D": "Her fund's return can differ from the index because of sampling"
+      },
+      "answer": "B",
+      "rationale": "This is market timing: a large switch out of equities on a forecast. A timer must be right twice, and out of the market can miss a few very strong days. A value trap is the main risk of value investing.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 market timing"
+    },
+    {
+      "id": "RSE-E6-0026",
+      "element": 6,
+      "outcome": "6.10",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Radomir Ellison holds only a growth fund. Its stocks trade at high P/E multiples. Economists now forecast slower earnings growth. Why can the fund's price fall sharply?",
+      "options": {
+        "A": "The stocks can become value traps with low P/E",
+        "B": "The fund holds too much in defensive sectors",
+        "C": "Both the earnings and the P/E multiple can fall",
+        "D": "The fund's dividends must rise to keep investors"
+      },
+      "answer": "C",
+      "rationale": "Growth stock prices already include the expected growth. If growth slows, earnings fall and investors pay a lower P/E multiple, so the price drops from two sources. A value trap is a cheap, low-P/E stock in permanent decline.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.10 growth investing"
+    },
+    {
+      "id": "RSE-E6-0027",
+      "element": 6,
+      "outcome": "6.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Two ETFs track the same index. ETF P has a tracking difference of −0.15% and a tracking error of 0.40%. ETF Q has a tracking difference of −0.35% and a tracking error of 0.08%. Which statement is correct?",
+      "options": {
+        "A": "Q lags the index less on average, but P follows the index more consistently",
+        "B": "P lags the index less on average, but Q follows the index more consistently",
+        "C": "P lags the index less and also follows the index more consistently",
+        "D": "Q lags the index less and also follows the index more consistently"
+      },
+      "answer": "B",
+      "rationale": "Tracking difference is the gap between fund and index returns, so P's smaller gap means it lags less. Tracking error is the variability of that gap, so Q's lower figure means it follows the index more consistently.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 6.11 tracking difference vs tracking error"
+    },
+    {
+      "id": "RSE-E6-0028",
+      "element": 6,
+      "outcome": "6.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Tobiah Lindqvist says that his S&P/TSX Composite index fund is safe because it is passive. Which reply is accurate?",
+      "options": {
+        "A": "The fund carries full market risk; passive management mainly removes security-selection risk",
+        "B": "The fund carries no market risk; its only risk is tracking error against the index",
+        "C": "The fund moves to cash when the market falls, so it protects the client from declines",
+        "D": "The fund removes systematic risk, because it holds every stock in the index"
+      },
+      "answer": "A",
+      "rationale": "Index funds are not risk-free. They carry full market (systematic) risk and give no protection when the market falls. Passive management largely removes manager (security-selection) risk, not market risk. Diversification cannot remove systematic risk.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 6.11 exam trap"
+    },
+    {
+      "id": "RSE-E6-0029",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A manager must fund a fixed payment due in six years. Which step immunizes the bond portfolio against changes in interest rates?",
+      "options": {
+        "A": "Set the portfolio's average maturity equal to six years",
+        "B": "Buy one six-year coupon bond and hold it to maturity",
+        "C": "Set the portfolio's duration as short as possible",
+        "D": "Set the portfolio's Macaulay duration equal to six years"
+      },
+      "answer": "D",
+      "rationale": "Immunization matches duration, not maturity, to the horizon. A coupon bond's duration is shorter than its maturity, so a six-year coupon bond does not immunize a six-year payment. The manager must also rebalance as duration drifts.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.12 immunization and exam trap"
+    },
+    {
+      "id": "RSE-E6-0030",
+      "element": 6,
+      "outcome": "6.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A bond manager expects credit spreads to narrow. The manager has no view on the general level of interest rates. Which active technique fits this forecast?",
+      "options": {
+        "A": "Move from corporate bonds toward government bonds",
+        "B": "Lengthen the portfolio's duration",
+        "C": "Build a ladder of staggered maturities",
+        "D": "Move from government bonds toward corporate bonds"
+      },
+      "answer": "D",
+      "rationale": "This is bond sector rotation. When spreads narrow, corporate bonds gain relative to government bonds, so the manager moves toward corporates. Lengthening duration is a bet on falling rates, and the manager has no rate view.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 6.12 sector rotation"
+    }
+  ]
+}

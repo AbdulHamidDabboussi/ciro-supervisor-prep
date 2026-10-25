@@ -1,0 +1,695 @@
+{
+  "meta": {
+    "batch": "E4-001",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E4-0001",
+      "element": 4,
+      "outcome": "4.1",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Kestrel Grain Corp., a reporting issuer, has a material change. Under NI 51-102, when must it file its material change report?",
+      "options": {
+        "A": "Within 45 days after the end of the current quarter",
+        "B": "Within 90 days after the end of its financial year",
+        "C": "As soon as practicable, and within 10 days of the change",
+        "D": "Only after the board of directors confirms the change"
+      },
+      "answer": "C",
+      "rationale": "NI 51-102 s. 7.1(1)(b) requires the report as soon as practicable, and in any event within 10 days of the change. The 45-day and 90-day periods are deadlines for interim and annual statements.",
+      "rule_refs": [
+        "NI 51-102 s. 7.1(1)(b)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"as soon as practicable, and in any event within 10 days of the date on which the change occurs\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 7.1(1)(b), ~line 2487"
+    },
+    {
+      "id": "RSE-E4-0002",
+      "element": 4,
+      "outcome": "4.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Lodestar Cobalt Inc. signs a contract that would reasonably be expected to have a significant effect on its share price. What must it do immediately?",
+      "options": {
+        "A": "Tell its largest shareholders first, then issue a news release within 10 days",
+        "B": "Ask the exchange for a trading halt and wait for the next interim report",
+        "C": "Describe the change in its next MD&A and its next Annual Information Form",
+        "D": "Issue and file a news release, authorized by an executive officer, on the change"
+      },
+      "answer": "D",
+      "rationale": "A material change requires an immediate news release on its nature and substance (NI 51-102 s. 7.1(1)(a)). An executive officer must authorize it. Telling large shareholders first is selective disclosure, which can create insider trading opportunities.",
+      "rule_refs": [
+        "NI 51-102 s. 7.1(1)(a)",
+        "NP 51-201 s. 1.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the reporting issuer must (a) immediately issue and file a news release authorized by an executive officer disclosing the nature and substance of the change\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 7.1(1)(a), ~line 2484"
+    },
+    {
+      "id": "RSE-E4-0003",
+      "element": 4,
+      "outcome": "4.1",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Thornbury Metals Ltd. filed a confidential material change report on a planned takeover. A week later, it learns that some people trade its shares with knowledge of the deal. What must Thornbury do?",
+      "options": {
+        "A": "Keep the report confidential and mention the trading in its next 10-day update",
+        "B": "Keep the report confidential until the board confirms the planned takeover",
+        "C": "Promptly make general disclosure of the material change to the public",
+        "D": "Tell only the people who traded to stop trading in its shares"
+      },
+      "answer": "C",
+      "rationale": "People trade with knowledge of the change. So the issuer must promptly generally disclose it (NI 51-102 s. 7.1(7)). Confidentiality with 10-day updates (s. 7.1(5)) is then no longer an option.",
+      "rule_refs": [
+        "NI 51-102 s. 7.1(7)",
+        "NI 51-102 s. 7.1(5)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the reporting issuer must promptly generally disclose the material change in the manner referred to in subsection (1) upon the reporting issuer becoming aware, or having reasonable grounds to believe, that persons or companies are purchasing or selling securities\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 7.1(7), ~line 2532"
+    },
+    {
+      "id": "RSE-E4-0004",
+      "element": 4,
+      "outcome": "4.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "RR Oksana Vellacott emails one client: \"Halberd Tech shares will reach $40 by June.\" The email gives no other context. Which rule problem does this email have?",
+      "options": {
+        "A": "It states a forecast of future events that is not clearly labelled as such",
+        "B": "It is correspondence, so the dealer content rules do not apply to it",
+        "C": "It is a research report, so it must first disclose the valuation method",
+        "D": "It gives material nonpublic information to a single client only"
+      },
+      "answer": "A",
+      "rationale": "An email to one client is correspondence (IDPC 1201(2)). IDPC 3602(1)(iv) bans correspondence with an opinion or forecast that is not clearly labelled as such. So the content rules do apply to correspondence.",
+      "rule_refs": [
+        "IDPC 3602(1)(iv)",
+        "IDPC 1201(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"contains any opinion or forecast of future events which is not clearly labeled as such\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3602(1)(iv), ~line 7288"
+    },
+    {
+      "id": "RSE-E4-0005",
+      "element": 4,
+      "outcome": "4.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer's research report rates Fenwick Solar Inc. a buy. The dealer was paid to underwrite a Fenwick share issue ten months before the report. What does IDPC 3608 require?",
+      "options": {
+        "A": "The report needs no disclosure, because the fee was paid over six months ago",
+        "B": "The report discloses the paid investment banking services as a possible conflict",
+        "C": "The dealer withdraws the rating until 12 months pass after the share issue",
+        "D": "The RR discloses the services only if a client asks about conflicts"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3608(2)(iv) requires disclosure of paid investment banking services from the dealer to the issuer in the 12 months before the report. Ten months is inside that period. The rule requires disclosure, not withdrawal of the rating.",
+      "rule_refs": [
+        "IDPC 3608(1)",
+        "IDPC 3608(2)(iv)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"any investment banking services provided by the Dealer Member to the issuer for remuneration during the 12 months immediately preceding the date a research report or recommendation was issued\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3608(2)(iv), ~line 7381"
+    },
+    {
+      "id": "RSE-E4-0006",
+      "element": 4,
+      "outcome": "4.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "How does the statement of changes in equity link a company's financial statements?",
+      "options": {
+        "A": "Operating cash flow flows into share capital, and closing equity equals cash",
+        "B": "Revenue flows into contributed surplus, and closing equity equals market capitalization",
+        "C": "Net income flows into retained earnings, and closing equity equals balance-sheet equity",
+        "D": "Dividends flow into net income, and closing equity equals total assets"
+      },
+      "answer": "C",
+      "rationale": "The statement adds net income and OCI, deducts dividends, and adjusts for share issues and buybacks. Its closing totals equal equity on the balance sheet. Equity is a book amount, not cash or market capitalization.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.2 statement of changes in equity"
+    },
+    {
+      "id": "RSE-E4-0007",
+      "element": 4,
+      "outcome": "4.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "On a statement of financial position, which item is a current liability?",
+      "options": {
+        "A": "Long-term debt that is due in five years",
+        "B": "The portion of long-term debt that is due within 12 months",
+        "C": "Deferred tax liabilities that reverse in later years",
+        "D": "Lease liabilities that are due after the next 12 months"
+      },
+      "answer": "B",
+      "rationale": "Current items are items that the company expects to settle within 12 months or one operating cycle. So the current portion of long-term debt is current. Deferred tax liabilities and debt due in five years are non-current.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.2 classification table"
+    },
+    {
+      "id": "RSE-E4-0008",
+      "element": 4,
+      "outcome": "4.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "On the statement of comprehensive income, which subtotal shows the result before the effect of debt financing and tax?",
+      "options": {
+        "A": "Gross profit (revenue less cost of goods sold)",
+        "B": "EBIT (operating income plus or minus other income)",
+        "C": "Earnings before tax (EBIT less finance costs)",
+        "D": "Net income (earnings before tax less income tax)"
+      },
+      "answer": "B",
+      "rationale": "EBIT comes before finance costs and income tax, so it shows the result before debt financing and tax. Earnings before tax already deducts interest. Gross profit shows only the cost of making or buying products.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.3 subtotals"
+    },
+    {
+      "id": "RSE-E4-0009",
+      "element": 4,
+      "outcome": "4.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which item does a company record in other comprehensive income (OCI), outside profit?",
+      "options": {
+        "A": "A gain on the sale of one of its business divisions",
+        "B": "Foreign-currency translation differences on its foreign operations",
+        "C": "Interest that it earns on its cash balances",
+        "D": "Royalties that it earns from licensing its patents"
+      },
+      "answer": "B",
+      "rationale": "OCI items, such as foreign-currency translation differences, are recorded outside profit and are mostly unrealized. Interest earned is other income, and royalties are operating revenue. A gain on the sale of a division stays inside profit.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.3 sources of income"
+    },
+    {
+      "id": "RSE-E4-0010",
+      "element": 4,
+      "outcome": "4.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under the indirect method, how does an increase in accounts receivable affect cash flow from operating activities?",
+      "options": {
+        "A": "It is subtracted, because the company has not yet collected the cash",
+        "B": "It is added, because credit sales increase the net income",
+        "C": "It is added back, because it is a non-cash charge like depreciation",
+        "D": "It is excluded, because receivables belong in investing activities"
+      },
+      "answer": "A",
+      "rationale": "An increase in receivables uses cash, so the indirect method subtracts it from net income. The company recorded the revenue, but customers have not paid. Depreciation is a non-cash charge, but a receivables increase is a working-capital change.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.4 indirect method"
+    },
+    {
+      "id": "RSE-E4-0011",
+      "element": 4,
+      "outcome": "4.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which cash flow pattern is the strongest warning sign about a company?",
+      "options": {
+        "A": "Negative investing cash flow from capital spending in a growing company",
+        "B": "Negative financing cash flow from dividends and debt repayment in a mature company",
+        "C": "Negative operating cash flow every year, with new borrowing each year to cover it",
+        "D": "Positive financing cash flow in a young company that builds new plant"
+      },
+      "answer": "C",
+      "rationale": "A financing inflow that pays for operating losses does not fix the business. It only delays the problem. A young company that raises cash to invest, or a mature company that pays lenders and shareholders, shows a normal pattern.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.4 financing activities"
+    },
+    {
+      "id": "RSE-E4-0012",
+      "element": 4,
+      "outcome": "4.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An auditor's report says that the financial statements present fairly, except for one specific matter. What type of opinion is this?",
+      "options": {
+        "A": "A qualified opinion",
+        "B": "An unmodified opinion",
+        "C": "An adverse opinion",
+        "D": "A disclaimer of opinion"
+      },
+      "answer": "A",
+      "rationale": "A qualified opinion means that the statements are fair except for a specific matter. An unmodified opinion has no exception. An adverse opinion says that the statements are not fairly presented. A disclaimer means the auditor lacked evidence.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.5 opinion types"
+    },
+    {
+      "id": "RSE-E4-0013",
+      "element": 4,
+      "outcome": "4.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ravensworth Foods Inc. files an interim financial report. No auditor reviewed it. What does NI 51-102 require?",
+      "options": {
+        "A": "A full audit of the report before the company can file it",
+        "B": "A notice with the report that says no auditor reviewed it",
+        "C": "A qualified audit opinion that the company attaches to the report",
+        "D": "A delay of the filing until the annual audit is complete"
+      },
+      "answer": "B",
+      "rationale": "If no auditor reviewed an interim report, NI 51-102 s. 4.3(3) requires a notice that says so. Only annual financial statements must be audited (s. 4.1(2)). So a full audit of the interim report is not required.",
+      "rule_refs": [
+        "NI 51-102 s. 4.3(3)",
+        "NI 51-102 s. 4.1(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"accompanied by a notice indicating that the interim financial report has not been reviewed by an auditor\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s. 4.3(3)(a), ~line 890"
+    },
+    {
+      "id": "RSE-E4-0014",
+      "element": 4,
+      "outcome": "4.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ashgrove Tools Ltd. has cash of $60M, marketable securities of $40M, receivables of $140M and inventory of $300M. Its current liabilities are $360M. What is its quick ratio?",
+      "options": {
+        "A": "0.67",
+        "B": "0.28",
+        "C": "0.83",
+        "D": "1.50"
+      },
+      "answer": "A",
+      "rationale": "Quick ratio = (current assets − inventory) ÷ current liabilities = (540 − 300) ÷ 360 = 0.67. The value 1.50 is the current ratio, which includes inventory. The value 0.28 is the cash ratio.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: CA = 60+40+140+300 = 540; quick (540-300)/360 = 0.67; cash 100/360 = 0.28; inv/CL 300/360 = 0.83; current 540/360 = 1.50"
+    },
+    {
+      "id": "RSE-E4-0015",
+      "element": 4,
+      "outcome": "4.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Brackenridge Freight Inc. has EBIT of $96M and interest expense of $24M. In a recession, assume that EBIT falls by 50% and interest does not change. What is the new interest coverage, and what does it show?",
+      "options": {
+        "A": "4.0×; profit covers interest with a wide safety margin",
+        "B": "0.5×; profit is too low to cover the interest expense",
+        "C": "2.0×; profit still covers interest, but the safety margin is thin",
+        "D": "3.0×; profit covers interest with a moderate safety margin"
+      },
+      "answer": "C",
+      "rationale": "Interest coverage = EBIT ÷ interest = (96 × 0.5) ÷ 24 = 2.0×. EBIT still covers interest twice, but a further fall would threaten payment. The value 4.0× is the coverage before the recession.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 96*0.5/24 = 2.0; distractors 96/24 = 4.0, 24/48 = 0.5 (inverted), 72/24 = 3.0 (25% fall)"
+    },
+    {
+      "id": "RSE-E4-0016",
+      "element": 4,
+      "outcome": "4.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Over three years, Corvallis Brands Inc. keeps a gross margin near 38%. Its net margin falls from 9% to 6%. What is the most likely cause?",
+      "options": {
+        "A": "Price cuts on its products to win market share",
+        "B": "Higher overhead, interest or income tax costs",
+        "C": "Higher purchase costs for its raw materials",
+        "D": "A sales shift toward its low-margin products"
+      },
+      "answer": "B",
+      "rationale": "Gross margin reflects prices, input costs and product mix. It is stable, so these did not change much. A lower net margin with a stable gross margin points to overhead, interest or tax.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.6 profitability ratios"
+    },
+    {
+      "id": "RSE-E4-0017",
+      "element": 4,
+      "outcome": "4.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Delmore Home Goods Inc. had inventory turnover of 7.0× and then 6.0× in the last two years. This year, COGS is $960M and year-end inventory is $240M. What does the trend suggest?",
+      "options": {
+        "A": "Turnover is 4.0×; inventory sells faster, which helps liquidity",
+        "B": "Turnover is 6.0×; the company uses its inventory as before",
+        "C": "Turnover is 4.0×; weaker demand or obsolete inventory is possible",
+        "D": "Turnover is 0.25×; the company holds too little inventory"
+      },
+      "answer": "C",
+      "rationale": "Inventory turnover = COGS ÷ inventory = 960 ÷ 240 = 4.0×. It fell from 7.0× to 6.0× to 4.0×, so inventory sells more slowly. Lower turnover over several periods signals weaker demand or obsolete inventory.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 960/240 = 4.0; inverted 240/960 = 0.25"
+    },
+    {
+      "id": "RSE-E4-0018",
+      "element": 4,
+      "outcome": "4.6",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Ellesmere Packaging Ltd. reports operating cash flow of $420M and capex of $310M. It repaid a net $40M of debt and paid dividends of $90M. What is its FCFE, and does it cover the dividend?",
+      "options": {
+        "A": "$150M; FCFE covers the dividend with room to spare",
+        "B": "$110M; FCFE covers the dividend with a small margin",
+        "C": "−$20M; the company cannot pay any dividend at all",
+        "D": "$70M; FCFE does not cover the $90M dividend"
+      },
+      "answer": "D",
+      "rationale": "FCFE = operating cash flow − capex + net borrowing = 420 − 310 − 40 = $70M. Net debt repayment is negative borrowing, so it reduces FCFE. FCFE of $70M is below the $90M dividend.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 420-310-40 = 70; distractors 420-310+40 = 150, 420-310 = 110, 70-90 = -20"
+    },
+    {
+      "id": "RSE-E4-0019",
+      "element": 4,
+      "outcome": "4.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Fairhaven Grocers Inc. trades at $27.00. Its EPS is $1.80, and its dividends per share are $0.54. What is its P/E ratio?",
+      "options": {
+        "A": "50.0×",
+        "B": "3.3×",
+        "C": "6.7×",
+        "D": "15.0×"
+      },
+      "answer": "D",
+      "rationale": "P/E = price ÷ EPS = 27.00 ÷ 1.80 = 15.0×. The value 50.0× divides the price by the dividend, not by EPS. The value 3.3× is the dividend cover, EPS ÷ DPS.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: 27/1.80 = 15.0; 27/0.54 = 50.0; 1.80/0.54 = 3.33; 1.80/27 = 6.67%"
+    },
+    {
+      "id": "RSE-E4-0020",
+      "element": 4,
+      "outcome": "4.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Glenbrook Steel Corp. shares fell from $36 to $18. It pays dividends of $1.26 a share, and its EPS is $0.90. Client Ottilie Marchetti wants to buy for the yield. What is the best assessment?",
+      "options": {
+        "A": "Yield is 3.5% and cover is 1.40×, so the dividend is safe",
+        "B": "Yield is 7.0% and cover is 0.71×, so a dividend cut is a real risk",
+        "C": "Yield is 7.0% and cover is 1.40×, so earnings cover the dividend well",
+        "D": "Yield is 5.0% and cover is 0.71×, so the yield is below average"
+      },
+      "answer": "B",
+      "rationale": "Dividend yield = 1.26 ÷ 18 = 7.0%. Dividend cover = EPS ÷ DPS = 0.90 ÷ 1.26 = 0.71×, so the dividend exceeds earnings. The high yield comes from the price fall. The value 1.40× inverts the cover formula.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 1.26/18 = 7.0%; 1.26/36 = 3.5%; 0.90/1.26 = 0.71; 1.26/0.90 = 1.40; 0.90/18 = 5.0%"
+    },
+    {
+      "id": "RSE-E4-0021",
+      "element": 4,
+      "outcome": "4.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Harwick Software Inc. reported EPS of $2.00, $2.40 and $2.76 over the last three years. Which statement about the trend is correct?",
+      "options": {
+        "A": "EPS rises each year, by a larger percentage each year",
+        "B": "EPS rises each year, by the same 20% each year",
+        "C": "EPS rises each year, by the same $0.40 each year",
+        "D": "EPS rises each year, but by a smaller percentage each year"
+      },
+      "answer": "D",
+      "rationale": "EPS growth is (2.40 − 2.00) ÷ 2.00 = 20%, then (2.76 − 2.40) ÷ 2.40 = 15%. EPS rises, but the rate of growth slows. The dollar increase also falls, from $0.40 to $0.36.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 0.40/2.00 = 20%; 0.36/2.40 = 15%"
+    },
+    {
+      "id": "RSE-E4-0022",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A securities regulator issued a cease trade order (CTO) against Ironvale Gold Ltd. The CTO is still in effect. Client Leopold Haverty asks his RR to buy the shares over-the-counter. What should the RR tell him?",
+      "options": {
+        "A": "The RR can execute the order over-the-counter, because the CTO applies only to exchanges",
+        "B": "The RR can execute the order on the TSX if the client accepts the risk in writing",
+        "C": "No order can be executed on a marketplace or over-the-counter while the CTO is in effect",
+        "D": "The RR can execute the order once the company files a news release on the CTO"
+      },
+      "answer": "C",
+      "rationale": "UMIR 9.1(1)(a) bans the execution of any order on a marketplace or over-the-counter while a CTO remains in effect. Client consent does not override the ban. The CTO stays until the regulator revokes it.",
+      "rule_refs": [
+        "UMIR 9.1(1)(a)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"an order of a securities regulatory authority to cease trading in the security, derivative, related security or related derivative remains in effect\" — research/sources/ciro/umir-2026-08-11.txt UMIR 9.1(1)(a), ~line 12060"
+    },
+    {
+      "id": "RSE-E4-0023",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The TSX suspended trading in Juniper Ridge Corp. only because the company did not pay its listing fees. No regulator issued a CTO or a halt. Can an order in its shares trade on a marketplace?",
+      "options": {
+        "A": "No, because every exchange suspension bans all trading under UMIR 9.1",
+        "B": "No, unless the company pays its fees and files a new prospectus",
+        "C": "Yes, but only on a foreign organized regulated market under UMIR 9.1(4)",
+        "D": "Yes, because a suspension only for unpaid listing fees is not a regulatory stop"
+      },
+      "answer": "D",
+      "rationale": "UMIR 9.1(3)(a) lets an order be entered or trade on a marketplace if the Exchange suspended trading only for unpaid listing fees. This stop is not regulatory. The foreign-market exception in 9.1(4)(b) concerns sales under a CTO.",
+      "rule_refs": [
+        "UMIR 9.1(3)(a)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"failed to pay to the Exchange or QTRS any fees in respect of the listing or quotation of securities of the issuer\" — research/sources/ciro/umir-2026-08-11.txt UMIR 9.1(3)(a)(ii), ~line 12093"
+    },
+    {
+      "id": "RSE-E4-0024",
+      "element": 4,
+      "outcome": "4.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement correctly describes who imposes each type of trading stop?",
+      "options": {
+        "A": "CIRO issues a CTO, and a securities regulator imposes a regulatory halt",
+        "B": "The exchange issues a CTO, and the company imposes a regulatory halt",
+        "C": "A securities regulator issues a CTO, and CIRO imposes a regulatory halt",
+        "D": "The company issues a CTO, and the exchange imposes a regulatory halt"
+      },
+      "answer": "C",
+      "rationale": "A CTO comes from a securities regulator. After a CSA regulator issues a CTO, CIRO, the market regulator, imposes a regulatory halt (NP 11-207 s. 12).",
+      "rule_refs": [
+        "NP 11-207 s. 12",
+        "NP 11-207 s. 3"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"if a CSA regulator issues a cease trade order with respect to an issuer whose securities are traded on a marketplace, IIROC imposes a regulatory halt on trading of those securities on all marketplaces for which IIROC acts as the regulation services provider\" — research/sources/csa/np-11-207-failure-to-file-cease-trade-orders.txt NP 11-207 s. 12, ~line 327"
+    },
+    {
+      "id": "RSE-E4-0025",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "In a price-weighted index, which constituent stock has the largest effect on the index level?",
+      "options": {
+        "A": "The stock with the highest share price",
+        "B": "The stock with the largest market capitalization",
+        "C": "The stock with the largest public float",
+        "D": "The stock with the most trading volume"
+      },
+      "answer": "A",
+      "rationale": "In a price-weighted index, each stock's weight is proportional to its share price, regardless of company size. Market capitalization and float decide weights in a cap-weighted, float-adjusted index such as the S&P/TSX Composite.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 weighting table"
+    },
+    {
+      "id": "RSE-E4-0026",
+      "element": 4,
+      "outcome": "4.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement about an equal-weighted index is correct?",
+      "options": {
+        "A": "It gives the largest companies the most weight in the index",
+        "B": "It sets each stock's weight in proportion to its share price",
+        "C": "It never needs rebalancing, because its weights stay equal",
+        "D": "It needs regular rebalancing and tilts toward smaller companies"
+      },
+      "answer": "D",
+      "rationale": "An equal-weighted index gives every stock the same weight. Prices move apart, so it needs rebalancing to restore equal weights. Compared with a cap-weighted index, it tilts toward smaller companies.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 4.9 weighting table"
+    },
+    {
+      "id": "RSE-E4-0027",
+      "element": 4,
+      "outcome": "4.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Client Rosalind Achebe has a 70/30 balanced portfolio that returned 7.0% last year. The equity total-return index gained 10.0%, and the bond universe total-return index gained 2.0%. How did the portfolio perform against a blended benchmark?",
+      "options": {
+        "A": "It underperformed by 0.6 percentage points",
+        "B": "It outperformed by 1.0 percentage point",
+        "C": "It underperformed by 3.0 percentage points",
+        "D": "It outperformed by 5.0 percentage points"
+      },
+      "answer": "A",
+      "rationale": "Blended benchmark = 0.70 × 10.0% + 0.30 × 2.0% = 7.6%. Relative return = 7.0% − 7.6% = −0.6 points. A comparison with the equity index alone (−3.0 points) ignores the 30% bond weight.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 0.7*10 + 0.3*2 = 7.6; 7.0-7.6 = -0.6; distractors vs 50/50 6.0 = +1.0, vs equity -3.0, vs bonds +5.0"
+    },
+    {
+      "id": "RSE-E4-0028",
+      "element": 4,
+      "outcome": "4.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "RR Casimir Lindqvist manages a broad Canadian equity portfolio with a total return of 6.5%. The S&P/TSX Composite had a price return of 4.0% and a total return of 7.0%. What is the correct relative return?",
+      "options": {
+        "A": "+2.5 points, against the price-return index",
+        "B": "−0.5 points, against the total-return index",
+        "C": "+0.5 points, against the total-return index",
+        "D": "−2.5 points, against the price-return index"
+      },
+      "answer": "B",
+      "rationale": "The portfolio's 6.5% includes dividends, so compare it with the total-return index: 6.5% − 7.0% = −0.5 points. A price-return benchmark omits dividends and makes the portfolio look 2.5 points better.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 6.5-7.0 = -0.5; 6.5-4.0 = +2.5"
+    },
+    {
+      "id": "RSE-E4-0029",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Analyst Wendeline Ostrowski says that Kingsmere Rail's shares are below their 200-day moving average and near a support level. She does not use financial statements. Which assumption underlies her method?",
+      "options": {
+        "A": "Prices move toward intrinsic value, which depends on forecast cash flows",
+        "B": "The peer group is fairly priced, so a relative P/E shows value",
+        "C": "Markets are efficient, so no method can earn abnormal returns",
+        "D": "Prices adjust gradually to information, so trends persist and patterns repeat"
+      },
+      "answer": "D",
+      "rationale": "Moving averages and support levels are technical analysis tools. Technical analysis assumes that prices adjust gradually, so they move in trends and patterns repeat. The intrinsic-value assumption belongs to fundamental analysis.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.11 technical analysis"
+    },
+    {
+      "id": "RSE-E4-0030",
+      "element": 4,
+      "outcome": "4.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A dealer's research report sets a $75 price target on Lakehurst Pipelines Inc., which trades at $58. Client Thaddeus Nkemelu asks whether the target is reliable. What should his RR do?",
+      "options": {
+        "A": "Accept the target, because a dealer's research report is a public filing",
+        "B": "Find the disclosed valuation method, then test the key assumptions behind it",
+        "C": "Compare the target with the stock's 200-day moving average only",
+        "D": "Tell the client that targets need no stated method, so none can be tested"
+      },
+      "answer": "B",
+      "rationale": "If a dealer sets a price target in a research report, IDPC 3616(1) requires the report to disclose the valuation method. The RR can then test assumptions such as growth or the discount rate. Research is opinion, not a filing.",
+      "rule_refs": [
+        "IDPC 3616(1)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"If a Dealer Member sets a price target in a research report, the Dealer Member must disclose, in that research report, the valuation method used.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3616(1), ~line 7459"
+    },
+    {
+      "id": "RSE-E4-0031",
+      "element": 4,
+      "outcome": "4.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Why do analysts often value a manufacturing company on its average earnings over a full cycle?",
+      "options": {
+        "A": "High fixed costs make profits swing widely, so one year's P/E can mislead",
+        "B": "Its assets are mainly financial, so price-to-book is a better measure",
+        "C": "Regulation fixes its revenue, so one year's earnings show the full picture",
+        "D": "It pays no dividends, so the P/E ratio cannot be calculated for it"
+      },
+      "answer": "A",
+      "rationale": "Manufacturers have high fixed costs, so a small change in sales gives a large change in profit. One year's P/E can mislead at the top of the cycle. Price-to-book suits banks, whose assets are mainly financial.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.12 manufacturing industries"
+    },
+    {
+      "id": "RSE-E4-0032",
+      "element": 4,
+      "outcome": "4.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A quarterly report shows that productivity rose faster than economists expected, while wages grew steadily. What is the most likely market effect?",
+      "options": {
+        "A": "Margins improve and inflation pressure eases, giving the central bank room to hold rates",
+        "B": "Inflation pressure rises, so the central bank must raise rates sooner",
+        "C": "Unit labour costs rise, so company margins and earnings fall",
+        "D": "Bond prices fall, because higher output always pushes yields up"
+      },
+      "answer": "A",
+      "rationale": "Productivity is output per hour of work. If it rises faster than wages, unit labour costs fall, so margins improve without higher prices. The economy can grow with less inflation, so the central bank has room to hold rates.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.13 productivity"
+    },
+    {
+      "id": "RSE-E4-0033",
+      "element": 4,
+      "outcome": "4.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Client Benedikt Szabo plans to hold equities for 25 years. Which statement about his long time horizon is correct?",
+      "options": {
+        "A": "It removes the risk of a loss in any single year of the period",
+        "B": "It narrows the range of final dollar wealth that he can expect",
+        "C": "It makes his expected equity return equal to the return on bonds",
+        "D": "It narrows the spread of average annual returns, but not the risk of a loss in any year"
+      },
+      "answer": "D",
+      "rationale": "Over long horizons, the spread of average annual returns narrows. But the range of final dollar wealth does not narrow, and a loss can still occur in any single year. Equities keep the highest expected return.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 4.14 volatility and exam trap"
+    }
+  ]
+}

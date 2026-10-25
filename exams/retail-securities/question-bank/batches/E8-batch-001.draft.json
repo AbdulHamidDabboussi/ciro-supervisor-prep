@@ -1,0 +1,390 @@
+{
+ "meta": {
+  "batch": "E8-001",
+  "drafted": "2026-10-25",
+  "source": "study guide v1.1"
+ },
+ "questions": [
+  {
+   "id": "RSE-E8-0001",
+   "element": 8,
+   "outcome": "8.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Oskar Lindqvist is a trader at a Participant. A pension fund client tells him that it will sell 400,000 shares of a thinly traded company. Before Oskar enters the client order, he buys put options on that company for his own account. Which statement is correct?",
+   "options": {
+    "A": "Oskar front ran the client order, because a put is a related derivative.",
+    "B": "Oskar did not break UMIR, because front running covers only the same security.",
+    "C": "Oskar made a wash trade, because there was no change in beneficial ownership.",
+    "D": "Oskar did not break UMIR, because he traded for himself and not for the firm."
+   },
+   "answer": "A",
+   "rationale": "Oskar knew of an unentered client order that could affect the price. UMIR 4.1(1) then bars trades in the security or a related derivative. UMIR 10.4 applies this rule to employees. A put is a related derivative, so B is wrong. No exception applies.",
+   "rule_refs": [
+    "UMIR 4.1",
+    "UMIR 10.4"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"market, for the purchase or sale of the security, derivative or any related security or related derivative;\" — research/sources/ciro/umir-2026-08-11.txt UMIR 4.1(1)(a), ~lines 5717-5720"
+  },
+  {
+   "id": "RSE-E8-0002",
+   "element": 8,
+   "outcome": "8.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Henrike Absalon is an RR. On the trading floor, she hears an unconfirmed rumour that a mining company will receive a takeover bid. She knows of no client order in the stock. She buys the shares for her own account. Under UMIR 4.1, is this front running?",
+   "options": {
+    "A": "Yes, because she traded before the takeover bid became public.",
+    "B": "Yes, because any employee trade based on market information is front running.",
+    "C": "No, because she had no knowledge of a specific unentered client order.",
+    "D": "No, because front running applies only to options, not to shares."
+   },
+   "answer": "C",
+   "rationale": "Front running needs knowledge of a specific client order that is not yet entered. UMIR Policy 4.1 says that trading on non-specific market information, including rumours, is not front running. A is wrong because the timing of a public bid is not the UMIR 4.1 test.",
+   "rule_refs": [
+    "UMIR 4.1",
+    "UMIR Policy 4.1"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"Trading based on non-specific pieces of market information, including rumours, does not constitute frontrunning.\" — research/sources/ciro/umir-2026-08-11.txt UMIR Policy 4.1 Part 2, ~line 5781"
+  },
+  {
+   "id": "RSE-E8-0003",
+   "element": 8,
+   "outcome": "8.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A client has a genuine order to sell 5,000 shares at $8.10. At the same time, he enters large buy orders at several prices on the other side of the market. He does not intend to fill them. Other traders react and buy from his sell order. He then cancels the buy orders. Which practice is this?",
+   "options": {
+    "A": "Spoofing",
+    "B": "Layering",
+    "C": "Quote stuffing",
+    "D": "Wash trading"
+   },
+   "answer": "B",
+   "rationale": "Layering puts a genuine order on one side and non-genuine orders on the other side to bait others to trade at an artificial price (GN-URPART7-26-0007). Spoofing is wrong because it uses pre-open orders to change the Calculated Opening Price. Both breach UMIR 2.2.",
+   "rule_refs": [
+    "UMIR 2.2",
+    "GN-URPART7-26-0007"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"Placing a bona fide order on one side of the market while simultaneously \"layering\" orders in the consolidated market display on the other side of the market without intention to trade\" — research/sources/ciro/gn-urpart7-26-0007-manipulative-deceptive-trading-practices.txt GN-URPART7-26-0007 Q2.1 'Layering', ~line 86"
+  },
+  {
+   "id": "RSE-E8-0004",
+   "element": 8,
+   "outcome": "8.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Rupert Eskildsen asks his RR to enter a large buy order one minute before the market closes on the last day of the quarter. The order price is well above the last sale price. Rupert wants his quarter-end account value to look higher. Which UMIR concern does this order raise most directly?",
+   "options": {
+    "A": "Front running of a client order that is not yet entered",
+    "B": "Trading ahead of a client's expression of interest",
+    "C": "Trading to fix a failed trade before the report is due",
+    "D": "Artificial pricing by setting a high closing price"
+   },
+   "answer": "D",
+   "rationale": "UMIR 2.2(2) prohibits orders that could reasonably be expected to create an artificial price. Policy 2.2 lists setting the close as an example. The time of entry and the motive point to an artificial price. A is wrong because there is no other client order to trade ahead of.",
+   "rule_refs": [
+    "UMIR 2.2(2)",
+    "UMIR Policy 2.2"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"effect a high or low closing sale price, ask price or bid price\" — research/sources/ciro/umir-2026-08-11.txt UMIR Policy 2.2 Part 2(e)(ii), ~line 4181"
+  },
+  {
+   "id": "RSE-E8-0005",
+   "element": 8,
+   "outcome": "8.2",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Leontyne Abara is an RR. Two accounts of one client often trade the same thinly traded stock with each other. Leontyne believes that the activity may violate UMIR 2.2. What must she do?",
+   "options": {
+    "A": "Report the activity to CIRO by the 15th day of the next month",
+    "B": "Watch the accounts for another month to confirm a pattern",
+    "C": "Report the activity forthwith to her supervisor or the compliance department",
+    "D": "Tell the client to stop the trades and record the warning in the file"
+   },
+   "answer": "C",
+   "rationale": "Under UMIR 10.16(1), an employee who believes activity may violate a listed rule, such as UMIR 2.2, reports forthwith to a supervisor or compliance. The firm, not the RR, reports findings to CIRO under UMIR 10.16(4). So A is wrong.",
+   "rule_refs": [
+    "UMIR 10.16"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"shall forthwith report to their supervisor or the compliance department of the Participant upon becoming aware of activity in a principal account, non-client account or client account\" — research/sources/ciro/umir-2026-08-11.txt UMIR 10.16(1), ~line 14073"
+  },
+  {
+   "id": "RSE-E8-0006",
+   "element": 8,
+   "outcome": "8.2",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Gideon Mbatha is an RR. A client with a modest stated income makes many cash deposits of about $3,000 each. The client then wires the money abroad. Gideon has reasonable grounds to suspect money laundering, but he cannot prove it. Which statement is correct?",
+   "options": {
+    "A": "No report is necessary, because each deposit is below $10,000.",
+    "B": "Gideon must verify the facts before anyone reports to FINTRAC.",
+    "C": "Gideon should ask the client to explain before he escalates the matter.",
+    "D": "The dealer must report the transactions to FINTRAC as soon as practicable."
+   },
+   "answer": "D",
+   "rationale": "PCMLTFA s. 7 requires a report when there are reasonable grounds to suspect money laundering. There is no dollar minimum, and the reporter does not have to verify the facts. Gideon escalates to AML compliance and does not tell the client. So C is wrong.",
+   "rule_refs": [
+    "PCMLTFA s. 7",
+    "STR Regulations"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"report to the Centre every financial transaction that occurs or that is attempted in the course of their activities and in respect of which there are reasonable grounds to suspect that\" — research/sources/gov/pcmltfa-extracts.txt PCMLTFA s.7, ~lines 77-82"
+  },
+  {
+   "id": "RSE-E8-0007",
+   "element": 8,
+   "outcome": "8.2",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Corentin Abiodun's close friend is the CFO of a listed company. The friend tells Corentin that the company will soon announce a takeover. The news is not public. Corentin asks his RR to buy call options on the company. What should the RR do?",
+   "options": {
+    "A": "Decline and report it, because Corentin is a tippee with a material fact",
+    "B": "Accept it, because call options are not securities of the issuer",
+    "C": "Accept it, because only insiders of the issuer are in a special relationship",
+    "D": "Accept it, but put the insider marker 'IA' on the order"
+   },
+   "answer": "A",
+   "rationale": "Corentin learned an undisclosed material fact from an officer, so he is a tippee in a special relationship (OSA s. 76(5)). OSA s. 76(6) treats calls as securities of the issuer. UMIR 2.3 bars an order that breaks securities law. A marker does not make the order legal, so D is wrong.",
+   "rule_refs": [
+    "OSA s. 76",
+    "UMIR 2.3",
+    "UMIR 10.16"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"a put, call, option or other right or obligation to purchase or sell securities of the issuer\" — research/sources/gov/ontario-securities-act-extracts.txt OSA s.76(6)(a), ~line 437"
+  },
+  {
+   "id": "RSE-E8-0008",
+   "element": 8,
+   "outcome": "8.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Ilse Brandvold wants to buy 3,000 shares at $25.00 or less. She accepts any part of the order that fills at once. She wants the unfilled part cancelled immediately. Which order type best meets her needs?",
+   "options": {
+    "A": "Fill-or-kill order",
+    "B": "Immediate-or-cancel order",
+    "C": "Iceberg order",
+    "D": "Market order"
+   },
+   "answer": "B",
+   "rationale": "An immediate-or-cancel order fills what it can at once and cancels the rest. A fill-or-kill order fills the whole quantity at once or nothing, so it does not accept a partial fill. A market order gives no price control.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 8.3 order table (IOC vs FOK; market terms, not UMIR definitions)"
+  },
+  {
+   "id": "RSE-E8-0009",
+   "element": 8,
+   "outcome": "8.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "An institutional client wants to buy 300,000 shares of a mid-cap stock during the day. She worries that a large visible order will push the price up. Which order type best addresses her concern?",
+   "options": {
+    "A": "A fill-or-kill order for the full quantity",
+    "B": "A market order for the full quantity",
+    "C": "An iceberg order that displays only part of the size",
+    "D": "An immediate-or-cancel order for the full quantity"
+   },
+   "answer": "C",
+   "rationale": "An iceberg order displays part of the size, and a hidden reserve refills it. This limits market impact. A market order shows the full demand at once and can fill far from the last price.",
+   "rule_refs": [
+    "GN-URPART7-26-0007"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"disclosed or partially disclosed (i.e., iceberg orders)\" — research/sources/ciro/gn-urpart7-26-0007-manipulative-deceptive-trading-practices.txt GN-URPART7-26-0007 Q2.1 'Abusive Liquidity Detection', ~line 94"
+  },
+  {
+   "id": "RSE-E8-0010",
+   "element": 8,
+   "outcome": "8.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Wilhelmina Asante holds a volatile small-cap stock that trades at $6.00. She asks for a stop-loss order with a trigger price of $5.40 and no limit price. Which risk should her RR explain?",
+   "options": {
+    "A": "The order cancels automatically when the price reaches $5.40.",
+    "B": "The order fills at exactly $5.40, even in a fast market.",
+    "C": "The order becomes a limit order at $5.40 and may never fill.",
+    "D": "The order becomes a market order and may fill well below $5.40."
+   },
+   "answer": "D",
+   "rationale": "A triggered stop-loss order with no limit becomes a market order (GN-URPART7-25-0003). In a fast or thin market, it can fill far from the trigger price. C describes a stop-limit order, which controls the price but may not fill.",
+   "rule_refs": [
+    "GN-URPART7-25-0003"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"entering a stop loss order on a marketplace that, when triggered, will become a \"market order\".\" — research/sources/ciro/gn-urpart7-25-0003-management-of-stop-loss-orders.txt GN-URPART7-25-0003 Q1, ~line 85"
+  },
+  {
+   "id": "RSE-E8-0011",
+   "element": 8,
+   "outcome": "8.4",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Amadou Thorsby buys $12,000 of shares in his cash account and does not pay. On the 22nd business day after settlement date, he pays $9,000. He then asks to buy shares in his TFSA. Which statement is correct?",
+   "options": {
+    "A": "Not allowed, because part of the balance is still 20 or more business days overdue.",
+    "B": "Allowed, because he paid most of the overdue balance.",
+    "C": "Allowed, because the restriction does not cover registered accounts.",
+    "D": "Not allowed until 20 business days pass after his partial payment."
+   },
+   "answer": "A",
+   "rationale": "Part of the cash-account balance is 20 or more business days past settlement date. So Amadou can enter only liquidating trades in any account (Note 7(vi)(a)). A partial payment does not lift the restriction. The rule covers any account, so C is wrong.",
+   "rule_refs": [
+    "Form 1 Schedule 4 Note 7"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"When any portion of the money balance for a cash account of a customer is outstanding 20 business days or more after settlement date the customer shall be restricted from entering into any other transactions (other than liquidating transactions) in any account of the customer\" — research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt Form 1 Sch.4 Note 7(vi)(a), ~line 158"
+  },
+  {
+   "id": "RSE-E8-0012",
+   "element": 8,
+   "outcome": "8.4",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Benedikt Osei buys TSX-listed shares in his cash account on a Thursday. The next day, Friday, is a business day. When is the regular settlement date for this trade?",
+   "options": {
+    "A": "Thursday, the trade date",
+    "B": "Friday, the next business day",
+    "C": "The following Monday",
+    "D": "The following Tuesday"
+   },
+   "answer": "B",
+   "rationale": "Since May 27, 2024, most equity trades settle T+1, the next business day after the trade date (NI 24-101). Monday would be T+2, the former cycle. Tuesday would be T+3.",
+   "rule_refs": [
+    "NI 24-101",
+    "CIRO Bulletin 23-0150"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"\"T+1\" means the next business day following T;\" — research/sources/csa/ni-24-101-institutional-trade-matching-and-settlement.txt NI 24-101 s.1.1, ~line 82"
+  },
+  {
+   "id": "RSE-E8-0013",
+   "element": 8,
+   "outcome": "8.4",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A client asks her RR to buy 100 shares. The RR enters 1,000 shares by mistake, and the order fills. The dealer wants to correct the client's account. Which statement is correct under UMIR 6.4?",
+   "options": {
+    "A": "The dealer must sell 900 shares on a marketplace for the client's account.",
+    "B": "The client must keep all 1,000 shares, because the order filled.",
+    "C": "The dealer may adjust the error by a journal entry, without a new marketplace trade.",
+    "D": "The dealer must ask CIRO to cancel the trade before it adjusts the account."
+   },
+   "answer": "C",
+   "rationale": "UMIR 6.4 permits a dealer to adjust by a journal entry an error in connection with a client order. So the dealer can correct the wrong quantity without a new marketplace trade. A is wrong because the rule does not require a marketplace trade.",
+   "rule_refs": [
+    "UMIR 6.4"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"to adjust by a journal entry an error in connection with a client order;\" — research/sources/ciro/umir-2026-08-11.txt UMIR 6.4(2)(c), ~line 7592"
+  },
+  {
+   "id": "RSE-E8-0014",
+   "element": 8,
+   "outcome": "8.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Felicity Achterberg sold short 1,000 shares in her margin account. Which change would most likely cause a margin call in her account?",
+   "options": {
+    "A": "A fall in the share price",
+    "B": "No change in the share price",
+    "C": "A move of the stock onto the LSERM",
+    "D": "A rise in the share price"
+   },
+   "answer": "D",
+   "rationale": "A short position loses value when the price rises. The required credit is (100% + rate) × market value, so a rise increases it and can cause a margin call. A fall in price helps a short seller. Falling prices cause margin calls on long positions.",
+   "rule_refs": [
+    "IDPC 5113"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 8.5 long/short margin table (margin call if the price rises for short)"
+  },
+  {
+   "id": "RSE-E8-0015",
+   "element": 8,
+   "outcome": "8.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Ruben Kowalczyk tells his RR to buy 500 shares of a named bank stock today. He lets the RR choose when to enter the order and at what price. Ruben does not have a discretionary account. Which statement is correct?",
+   "options": {
+    "A": "The RR may choose the time and price, because Ruben named the security and amount.",
+    "B": "The RR needs a signed discretionary account agreement before entering the order.",
+    "C": "The RR may choose the time and price only after a Supervisor approves each order.",
+    "D": "The RR may also choose a different bank stock, if it gives better execution."
+   },
+   "answer": "A",
+   "rationale": "IDPC 3221(2) exempts time-and-price discretion used for best execution on a client order for a specific amount or a specific security. So Ruben needs no discretionary account. D is wrong because a choice of security is account discretion, which needs a discretionary account.",
+   "rule_refs": [
+    "IDPC 3221",
+    "IDPC 3273"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"relating to a client order for a specific amount or a specific security.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3221(2), ~lines 6065-6066"
+  },
+  {
+   "id": "RSE-E8-0016",
+   "element": 8,
+   "outcome": "8.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Marguerite Lindahl's account holds shares and has a credit balance. In May, the only activity is a dividend payment. She did not ask for monthly statements. Must the dealer send her a monthly statement for May?",
+   "options": {
+    "A": "Yes, because any credit to the account triggers a monthly statement.",
+    "B": "No, because a dividend alone does not trigger a monthly statement.",
+    "C": "Yes, because the RR must send a statement after every cash movement.",
+    "D": "No, because the dealer sends statements only when a client asks."
+   },
+   "answer": "B",
+   "rationale": "IDPC 3808(2) requires a monthly statement on request, or after a transaction or a cash or position change. Dividend or interest payments do not count. So a dividend alone does not qualify. D is wrong because quarterly statements are still required for an account with a balance or securities.",
+   "rule_refs": [
+    "IDPC 3808"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"requests to receive a client account statement on a monthly basis, or (ii) at the end of the month has in their account: (a) had a transaction during the month, (b) has experienced a cash or account position modification, other than dividend or interest payments,\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3808(2), ~lines 8507-8512"
+  },
+  {
+   "id": "RSE-E8-0017",
+   "element": 8,
+   "outcome": "8.6",
+   "taxonomy": "Remember",
+   "type": "standard",
+   "stem": "A dealer sends a client a trade confirmation for a purchase of common shares. Which item must the confirmation show?",
+   "options": {
+    "A": "The client's risk tolerance from the KYC form",
+    "B": "The RR's share of the commission",
+    "C": "Whether the dealer acted as principal or agent",
+    "D": "The client's total account value after the trade"
+   },
+   "answer": "C",
+   "rationale": "IDPC 3816(2) sets the minimum contents of a confirmation. They include whether the dealer acted as principal or agent, the settlement date, the quantity and the consideration. The account statement, not the confirmation, shows the total market value of positions.",
+   "rule_refs": [
+    "IDPC 3816"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"whether or not the person or company that executed the trade acted as principal or agent\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3816(2)(i)(c), ~line 9244"
+  }
+ ]
+}

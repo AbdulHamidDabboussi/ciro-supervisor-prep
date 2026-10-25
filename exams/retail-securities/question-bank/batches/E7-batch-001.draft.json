@@ -1,0 +1,745 @@
+{
+  "meta": {
+    "batch": "E7-001",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E7-0001",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rosalind Okafor is 59 and plans to retire in two years. She says she enjoys market swings. Her savings are small compared with her retirement needs. Which risk profile should her RR record?",
+      "options": {
+        "A": "A high risk profile, because her stated willingness to accept risk decides the profile",
+        "B": "A medium risk profile, because the RR averages her risk tolerance and her risk capacity",
+        "C": "A low risk profile, because the profile reflects the lower of her risk tolerance and risk capacity",
+        "D": "A high risk profile, because her retirement goal needs a higher return than her savings earn"
+      },
+      "answer": "C",
+      "rationale": "The risk profile reflects the lower of risk tolerance and risk capacity. Her small savings give her low capacity, so her profile is low. Her high tolerance does not decide it. The guidance does not average the two parts.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.5"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The client’s risk profile should reflect the lower of the client’s assessed risk tolerance and risk capacity.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, ~L262"
+    },
+    {
+      "id": "RSE-E7-0002",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Mateus Ferreira wants $500,000 in eight years. His goal needs about 8% a year. His risk profile is medium-low and supports about 4.5%. What should his RR do?",
+      "options": {
+        "A": "Raise his risk profile to medium-high so that the portfolio can target the 8% return",
+        "B": "Discuss other ways to close the gap, such as higher savings, a later date or a smaller target",
+        "C": "Put him in an aggressive equity portfolio if he signs a letter that accepts the extra risk",
+        "D": "Keep his profile and use borrowed money in the account to increase the expected return"
+      },
+      "answer": "B",
+      "rationale": "The goal must change, not the risk profile. The guidance says a risk profile should not be manipulated to justify higher-risk products. A signed letter does not make a portfolio above his profile suitable.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.5"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"A client’s risk profile should not be manipulated to justify recommending higher-risk products\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, L264"
+    },
+    {
+      "id": "RSE-E7-0003",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Priya Raman holds a portfolio of 40% equity and 60% bonds that matches her risk profile. In a strong stock market year, her return is below the S&P/TSX Composite Index. How should her RR assess the performance?",
+      "options": {
+        "A": "Compare the return with a blended benchmark of 40% equity and 60% bonds",
+        "B": "Treat the lower return as proof that the portfolio is unsuitable for her",
+        "C": "Move the portfolio to 100% equity so that it can match the equity index",
+        "D": "Compare the return with the S&P/TSX Composite Index because it is the main market"
+      },
+      "answer": "A",
+      "rationale": "Judge performance against a benchmark that matches the agreed asset mix. An equity index is not a fair benchmark for a 40/60 portfolio. A lower return alone does not prove that a portfolio is unsuitable.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.1 Performance"
+    },
+    {
+      "id": "RSE-E7-0004",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Linnea Haugen has a growth objective and a medium risk profile. She asks her RR to exclude all fossil-fuel companies from her portfolio. Which statement about this restriction is correct?",
+      "options": {
+        "A": "The restriction lets the RR go above her risk profile if few suitable products remain",
+        "B": "The restriction makes the broad Canadian index the only fair benchmark for her portfolio",
+        "C": "The restriction removes the need for a suitability determination on each later trade",
+        "D": "The restriction narrows her choices, but the portfolio must still fit her risk profile"
+      },
+      "answer": "D",
+      "rationale": "Clients can invest in accordance with ESG criteria or other personal preferences. A values-based restriction narrows the choices but never relaxes suitability. An energy exclusion can also make a broad Canadian index an unfair benchmark.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.3"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"or investing in accordance with environmental, social and governance criteria or other personal preferences.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.3, L228"
+    },
+    {
+      "id": "RSE-E7-0005",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Cedric Fontaine wants an equity fund that holds companies in every sector. In each sector, he wants only the issuers with the best ESG scores. Which ESG approach matches his request?",
+      "options": {
+        "A": "An exclusion screen",
+        "B": "A thematic fund",
+        "C": "An impact fund",
+        "D": "A best-in-class approach"
+      },
+      "answer": "D",
+      "rationale": "A best-in-class approach keeps every sector but holds the issuers with the best ESG scores. An exclusion screen removes whole industries, so it does not keep every sector.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.2 ESG criteria"
+    },
+    {
+      "id": "RSE-E7-0006",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Odile Mercer bought a stock last year. Its highest price last spring was $42. She says she will sell only at $42 and changes this target very little when news arrives. Which bias does she show?",
+      "options": {
+        "A": "Gambler's fallacy",
+        "B": "Confirmation bias",
+        "C": "Anchoring",
+        "D": "Survivorship bias"
+      },
+      "answer": "C",
+      "rationale": "Anchoring is a fixation on a reference number, such as a past high, with too little adjustment. Gambler's fallacy is the expectation of a reversal after a run of price changes.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 information processing biases"
+    },
+    {
+      "id": "RSE-E7-0007",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Barnaby Coyle gets a $3,000 tax refund and spends it on a holiday. He calls it \"free money\". He has a credit card balance at 20% interest. Which bias does this show?",
+      "options": {
+        "A": "Mental accounting",
+        "B": "Overconfidence",
+        "C": "Herding",
+        "D": "Hindsight bias"
+      },
+      "answer": "A",
+      "rationale": "Mental accounting treats money differently by its source. Barnaby spends the refund and ignores the cost of his card debt. Overconfidence is the over-rating of one's own skill or information.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 information processing biases"
+    },
+    {
+      "id": "RSE-E7-0008",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client often keeps losing investments to avoid the pain of a realized loss. Which approach usually works best to manage this type of bias?",
+      "options": {
+        "A": "Give the client more research reports that show the facts about each holding",
+        "B": "Show the client one holding at a time so that each decision is easier",
+        "C": "Describe each choice to the client only as a chance of gain",
+        "D": "Agree on a written plan with automatic contributions and rebalancing rules"
+      },
+      "answer": "D",
+      "rationale": "Loss aversion is an emotional bias, so it is harder to change with information. A written plan, automatic contributions and rebalancing rules usually help. More information helps more with cognitive errors.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 emotional biases"
+    },
+    {
+      "id": "RSE-E7-0009",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An investor studies the past returns of a fund category. His data includes only the funds that still exist today. What is the most likely effect on his expectations?",
+      "options": {
+        "A": "He expects returns that are too low, because of home country bias",
+        "B": "He expects returns that are too high, because of survivorship bias",
+        "C": "He expects returns that are too high, because of the gambler's fallacy",
+        "D": "He expects returns that are too low, because of loss aversion"
+      },
+      "answer": "B",
+      "rationale": "Survivorship bias judges a category only by surviving funds. Funds that closed are often poor performers, so the investor expects returns that are too high. The gambler's fallacy is an expectation of a reversal after a run.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 capital market biases"
+    },
+    {
+      "id": "RSE-E7-0010",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Two balanced funds fit Henrietta Lund's KYC. The dealer's own fund has a higher fee and pays her RR more. A third-party fund has a lower fee. Which statement is correct?",
+      "options": {
+        "A": "The RR can recommend the dealer's fund because both funds are on the product shelf",
+        "B": "The RR can recommend the dealer's fund because the dealer discloses proprietary products",
+        "C": "The RR can recommend the dealer's fund only if it puts Henrietta's interest first",
+        "D": "The RR must recommend the third-party fund because proprietary funds are not allowed"
+      },
+      "answer": "C",
+      "rationale": "The RR must put the client's interest first, ahead of a higher level of remuneration. The higher payout cannot decide the choice. Proprietary funds are allowed, but this choice needs a client-centred reason.",
+      "rule_refs": [
+        "IDPC 3402(1)",
+        "GN-3400-21-004 s.3.1.3"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"must put the client’s interest first, ahead of their own interests and any other competing considerations, such as a higher level of remuneration or other incentives\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.1.3, L460"
+    },
+    {
+      "id": "RSE-E7-0011",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Kwabena Asare is 61, lives outside Quebec and has just retired. He has made CPP contributions and has lived in Canada all his adult life. Which statement about his government pensions is correct?",
+      "options": {
+        "A": "He can start CPP now with a permanent reduction, but OAS cannot start before 65",
+        "B": "He can start CPP and OAS now, and each pension has a reduction for each month before 65",
+        "C": "He can start OAS now with a reduction, but CPP cannot start before 65",
+        "D": "He cannot start CPP or OAS before 65, but each pension increases if he waits"
+      },
+      "answer": "A",
+      "rationale": "CPP can start as early as 60, with a reduction of 0.6% for each month before 65. The earliest start for OAS is 65. So he can take CPP now but must wait for OAS.",
+      "rule_refs": [
+        "CPP",
+        "OAS"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"If you are eligible for the Canada Pension Plan (CPP), you can start your CPP as early as age 60. However, the earliest you can start your OAS pension is age 65.\" — research/sources/gov/oas-gis-pages.txt canada.ca OAS when-start, L280"
+    },
+    {
+      "id": "RSE-E7-0012",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ines Moreau is 67 and has a low income. She receives OAS and the Guaranteed Income Supplement (GIS). Which statement about her GIS is correct?",
+      "options": {
+        "A": "GIS is taxable, and a 15% recovery tax applies above the OAS threshold",
+        "B": "GIS is income-tested and is not taxable income",
+        "C": "GIS is a fixed amount that every OAS pensioner receives",
+        "D": "GIS replaces CPP for people who made no CPP contributions"
+      },
+      "answer": "B",
+      "rationale": "GIS tops up low-income OAS pensioners and is income-tested. GIS payments are not taxable income. The 15% recovery tax applies to the OAS pension, not to GIS.",
+      "rule_refs": [
+        "OAS",
+        "GIS"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Payment amounts for the Guaranteed Income Supplement, the Allowance and the Allowance for the Survivor are not considered taxable income.\" — research/sources/gov/oas-gis-pages.txt canada.ca OAS, L564"
+    },
+    {
+      "id": "RSE-E7-0013",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Yusuf Demir, 38, has a medium risk profile and no emergency fund. He needs $40,000 for a home renovation in 18 months. What should his RR recommend for this money?",
+      "options": {
+        "A": "Invest the $40,000 in an equity fund because it has a higher expected return",
+        "B": "Invest the $40,000 in an exempt real estate fund because it pays a higher yield",
+        "C": "Invest the $40,000 in a balanced fund because its risk rating matches his profile",
+        "D": "Hold the $40,000 and an emergency fund in low-volatility assets such as short GICs"
+      },
+      "answer": "D",
+      "rationale": "Money needed within a few years belongs in low-volatility assets. An emergency fund is also a common practice. The balanced fund's risk rating alone is not enough, because his short horizon and liquidity need also count.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.2",
+        "GN-3400-21-004 s.2.3.6"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Investors with a longer investment time horizon may have a greater degree of flexibility when building a portfolio, whereas a short investment time horizon may mean that conservative investments may be the only suitable option.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.6, L284"
+    },
+    {
+      "id": "RSE-E7-0014",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An RR builds a new portfolio for Gwendolyn Shaw. The RR compares her after-tax income with her spending. What is the main benefit of this cash flow analysis?",
+      "options": {
+        "A": "It shows the surplus she can invest and whether her goal is realistic",
+        "B": "It sets her risk tolerance from her past investment returns",
+        "C": "It measures her portfolio return against a matching benchmark",
+        "D": "It replaces the need to update her KYC information"
+      },
+      "answer": "A",
+      "rationale": "Cash flow analysis compares after-tax income with spending to find the surplus to invest. It shows whether a goal is realistic and how much liquidity the portfolio must supply. It does not measure performance.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.5 cash flow analysis"
+    },
+    {
+      "id": "RSE-E7-0015",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Aurelio Vance is retired and has a low risk profile. He wants fixed-income cash each year. He also wants to balance interest-rate risk and reinvestment risk. Which strategy fits best?",
+      "options": {
+        "A": "Dollar-cost averaging into an equity fund",
+        "B": "Active sector rotation in a bond fund",
+        "C": "A single long-term bond held to maturity",
+        "D": "A ladder of bonds or GICs with staggered maturities"
+      },
+      "answer": "D",
+      "rationale": "A ladder of bonds or GICs with staggered maturities gives regular cash. It balances interest-rate risk and reinvestment risk. A single long-term bond has more interest-rate risk and gives no regular maturities.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.5 laddering"
+    },
+    {
+      "id": "RSE-E7-0016",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Delphine Okoro tells her RR that she lost her job. She will need most of her savings within a year. The dealer has not yet updated her KYC. What should the dealer consider doing now?",
+      "options": {
+        "A": "Restrict the account to liquidating trades, transfers or disbursements until the KYC review",
+        "B": "Continue to accept all types of trades until her next annual KYC update",
+        "C": "Close her account at once because her KYC information is no longer current",
+        "D": "Sell all her holdings for cash at once without an instruction from her"
+      },
+      "answer": "A",
+      "rationale": "A job loss is a significant change. The guidance says the dealer should consider restricting the account to liquidating trades, transfers or disbursements until it re-evaluates the KYC. It must update the KYC within a reasonable time.",
+      "rule_refs": [
+        "IDPC 3209(3)",
+        "GN-3400-21-004 s.2.11.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the Dealer should consider restricting activities in the client’s account to liquidating trades, transfers or disbursements, until such time as the Dealer has had a chance to re-evaluate the client’s KYC information.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.11.2, L423"
+    },
+    {
+      "id": "RSE-E7-0017",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Tobias Wren transfers an account of securities into his dealer. His RR plans to check only the new purchases that Tobias makes later. Which statement is correct?",
+      "options": {
+        "A": "The transfer needs no review because the dealer did not recommend the securities",
+        "B": "The transfer is a trigger, so the dealer must review the existing holdings in the account",
+        "C": "The transfer needs a review only if Tobias asks for one in writing",
+        "D": "The transfer is a trigger only if a security in it has a high risk rating"
+      },
+      "answer": "B",
+      "rationale": "A deposit or transfer of securities into the account is a trigger event under IDPC 3402(2). The review covers the existing holdings, not only new purchases. No client request is needed.",
+      "rule_refs": [
+        "IDPC 3402(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"received or delivered into the client’s account by way of deposit or transfer\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(2)(i), L6815-6816"
+    },
+    {
+      "id": "RSE-E7-0018",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Two funds give Halima Yusuf the same exposure. One fund has a management fee of 0.25%, and the other has 1.50%. How must her RR treat this cost difference?",
+      "options": {
+        "A": "Consider only the fees that Halima pays directly, not compensation paid to the dealer",
+        "B": "Ignore the difference because both funds are on the dealer's product shelf",
+        "C": "Consider the potential and actual impact of the costs on her returns and document the basis",
+        "D": "Consider the difference only if Halima asks about fees before the trade"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3402(1) makes the potential and actual impact of costs a suitability factor. Cost includes indirect fees and compensation to the dealer or RR. The RR must document the reasonable basis for the conclusion.",
+      "rule_refs": [
+        "IDPC 3402(1)(i)(d)",
+        "GN-3400-21-004 s.3.2.5"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the potential and actual impact of costs on the retail client’s returns\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(1)(i)(d), L6806"
+    },
+    {
+      "id": "RSE-E7-0019",
+      "element": 7,
+      "outcome": "7.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "An RR recommends a structured note to Ottilie Brandt, who has limited investment experience. Which approach best meets the guidance for this recommendation?",
+      "options": {
+        "A": "Describe the potential returns and leave the risk details to the offering document",
+        "B": "Describe the benefits and ask her to sign a form that she accepts all risks",
+        "C": "Disclose the material positive and negative factors, check that she understands the risks, and document this",
+        "D": "Disclose the risks only if she asks, because the note is on the dealer's shelf"
+      },
+      "answer": "C",
+      "rationale": "The guidance asks the RR to disclose any material negative and positive factors. The RR must make sure the client understands the risks and document this. A recommendation that shows only benefits fails this standard.",
+      "rule_refs": [
+        "GN-3400-21-004 s.3.2.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"a Registered Individual should disclose any material negative and positive factors involved in the transaction to the client to assist the client in making an informed decision.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.2.1, L482"
+    },
+    {
+      "id": "RSE-E7-0020",
+      "element": 7,
+      "outcome": "7.7",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Ragnar Holt has a medium-low risk profile. He tells his dealer to keep a stock that is 35% of his account. This decision does not meet the suitability requirement. What must the dealer do?",
+      "options": {
+        "A": "Follow the instruction because a decision to hold is not an investment action",
+        "B": "Mark the instruction as unsolicited and then follow it without other steps",
+        "C": "Sell the stock because the dealer cannot follow an unsuitable instruction",
+        "D": "Complete the IDPC 3402(5) steps, including recorded confirmation, before following it"
+      },
+      "answer": "D",
+      "rationale": "A decision to hold is an investment action. The dealer may follow an unsuitable instruction only after the 3402(5) steps. Marking the order as unsolicited is not sufficient.",
+      "rule_refs": [
+        "IDPC 3402(5)",
+        "GN-3400-21-004 s.3.10"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"A Registered Individual is not obligated to accept a client order or instruction that does not, in the Registered Individual’s view, meet the criteria for a suitability determination. It is not sufficient for the Registered Individual to mark the order as “unsolicited”.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.10, L718"
+    },
+    {
+      "id": "RSE-E7-0021",
+      "element": 7,
+      "outcome": "7.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Siddharth Rao needs $80,000 in 12 years. He can earn 6% a year, compounded annually. He makes equal deposits at the end of each year. What deposit does he need each year?",
+      "options": {
+        "A": "$4,473.74",
+        "B": "$4,742.16",
+        "C": "$6,666.67",
+        "D": "$9,542.16"
+      },
+      "answer": "B",
+      "rationale": "Use PMT = FV × r ÷ ((1 + r)^n − 1). So 80,000 × 0.06 ÷ (1.06^12 − 1) = $4,742.16. $6,666.67 ignores interest. $4,473.74 assumes deposits at the start of each year.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: PMT = 80000×0.06/(1.06^12−1) = 4800/1.012196 = 4742.16; distractors: annuity due 4473.74, 80000/12 = 6666.67, PV formula 9542.16"
+    },
+    {
+      "id": "RSE-E7-0022",
+      "element": 7,
+      "outcome": "7.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Marguerite Doyle invests $250,000 at 5% a year, compounded annually. She wants equal payments at the end of each year for 25 years. The balance is zero after the last payment. What is each payment?",
+      "options": {
+        "A": "$5,238.11",
+        "B": "$10,000.00",
+        "C": "$16,893.44",
+        "D": "$17,738.11"
+      },
+      "answer": "D",
+      "rationale": "Use PMT = PV × r ÷ (1 − (1 + r)^−n). So 250,000 × 0.05 ÷ (1 − 1.05^−25) = $17,738.11. $16,893.44 assumes payments at the start of each year. $10,000.00 ignores interest.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: PMT = 250000×0.05/(1−1.05^−25) = 12500/0.704702 = 17738.11; distractors: annuity due 16893.44, 250000/25 = 10000, FV formula 5238.11"
+    },
+    {
+      "id": "RSE-E7-0023",
+      "element": 7,
+      "outcome": "7.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Bartholomew Achebe is 70 and receives OAS. His net income is close to the OAS recovery threshold. He has $20,000 to invest for extra income. Which account helps him most to protect his OAS?",
+      "options": {
+        "A": "A TFSA, because its income does not affect federal income-tested benefits",
+        "B": "An RRSP, because its withdrawals are not included in net income",
+        "C": "An FHSA, because its withdrawals are always tax-free",
+        "D": "A non-registered account, because dividends are grossed down for the OAS test"
+      },
+      "answer": "A",
+      "rationale": "TFSA income does not affect federal income-tested benefits and credits. So it does not increase the OAS recovery tax. RRSP withdrawals are taxable income, and he must also convert an RRSP by the end of the year he turns 71.",
+      "rule_refs": [
+        "CRA TFSA"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Any income that you earn in your TFSA will not impact your federal income-tested benefits and credits.\" — research/sources/cra/tfsa-pages.txt CRA TFSA benefits, L209"
+    },
+    {
+      "id": "RSE-E7-0024",
+      "element": 7,
+      "outcome": "7.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Celestine Moreau gives growth shares to her 12-year-old son. In later years, the shares pay dividends and she sells none of them. Then her son sells them at a gain. How are these amounts taxed?",
+      "options": {
+        "A": "The dividends and the capital gain are both taxed to Celestine",
+        "B": "The dividends and the capital gain are both taxed to her son",
+        "C": "The dividends are taxed to her son, and the capital gain is taxed to Celestine",
+        "D": "The dividends are taxed to Celestine, and the capital gain is taxed to her son"
+      },
+      "answer": "D",
+      "rationale": "Income on property given to a related minor under 18 is attributed back to the transferor. A minor's capital gains are not attributed. So the dividends are Celestine's income, and the gain is her son's.",
+      "rule_refs": [
+        "ITA s.74.1(2)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"to or for the benefit of a person who was under 18 years of age\" — research/sources/gov/ita-attribution-income-splitting.txt ITA s.74.1(2), L10"
+    },
+    {
+      "id": "RSE-E7-0025",
+      "element": 7,
+      "outcome": "7.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Florian Kask sells shares at a $6,000 loss to offset a gain. Two weeks later, his spouse buys the same shares and still holds them 30 days after his sale. What happens to the loss?",
+      "options": {
+        "A": "Florian can claim the loss because his spouse is a separate taxpayer",
+        "B": "Florian cannot claim the loss because his spouse is an affiliated person",
+        "C": "Florian can claim the loss because his spouse bought after 14 days",
+        "D": "Florian cannot claim the loss, and the loss is lost permanently for everyone"
+      },
+      "answer": "B",
+      "rationale": "A spouse is an affiliated person. The superficial loss rule denies the loss if an affiliated person buys identical property within 30 days. The rule also needs that person to still own it 30 days after the sale.",
+      "rule_refs": [
+        "CRA superficial loss"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"You, or a person affiliated with you, buys, or has a right to buy, the same or identical property (called \"substituted property\") during the period starting 30 calendar days before the sale and ending 30 calendar days after the sale\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA capital gains pages, L727"
+    },
+    {
+      "id": "RSE-E7-0026",
+      "element": 7,
+      "outcome": "7.9",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A Canadian-controlled private corporation sells an investment at a capital gain. Which notional account tracks the non-taxable part of the gain that it can pay out as a tax-free capital dividend?",
+      "options": {
+        "A": "The general rate income pool (GRIP)",
+        "B": "The eligible refundable dividend tax on hand (ERDTOH)",
+        "C": "The capital dividend account (CDA)",
+        "D": "The non-eligible refundable dividend tax on hand (NERDTOH)"
+      },
+      "answer": "C",
+      "rationale": "The CDA tracks mainly the non-taxable part of capital gains. The corporation pays it out by election as tax-free capital dividends. GRIP tracks income taxed at the general rate, which it pays as eligible dividends.",
+      "rule_refs": [
+        "ITA s.89(1)",
+        "ITA s.83(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"exceeds the total of (B) the portion of the capital gain referred to in clause (A) that is the corporation’s taxable capital gain\" — research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt ITA s.89(1) CDA, L197-199"
+    },
+    {
+      "id": "RSE-E7-0027",
+      "element": 7,
+      "outcome": "7.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "In 2025, Leopold Haas buys 300 shares at $15 with a $30 commission. Later he buys 200 shares at $18 with a $30 commission. He sells 250 shares at $20 with a $40 commission. What is his taxable capital gain?",
+      "options": {
+        "A": "$440.00",
+        "B": "$460.00",
+        "C": "$592.50",
+        "D": "$880.00"
+      },
+      "answer": "A",
+      "rationale": "Average ACB = 8,160 ÷ 500 = $16.32. Gain = 5,000 − 4,080 − 40 = $880. At the 2025 inclusion rate of 1/2, the taxable capital gain is $440. $880 is the full gain, not the taxable part.",
+      "rule_refs": [
+        "CRA T4037 (2025)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: ACB=(4500+30+3600+30)/500=16.32; 250×16.32=4080; gain=5000−4080−40=880; ×1/2=440. Distractors: 460 omits sale commission; 592.50 uses first-bought cost (FIFO); 880 full gain"
+    },
+    {
+      "id": "RSE-E7-0028",
+      "element": 7,
+      "outcome": "7.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "In 2025, Agnieszka Wolff realizes a $6,000 capital gain on shares and a $9,000 capital loss on fund units. Her salary is $85,000. Which statement about her 2025 result is correct?",
+      "options": {
+        "A": "She can deduct the remaining $1,500 allowable capital loss from her salary in 2025",
+        "B": "She can carry the remaining $1,500 back three years against any type of income",
+        "C": "Her remaining $1,500 is a net capital loss for use against taxable capital gains",
+        "D": "Her remaining $1,500 expires if she has no capital gains within seven years"
+      },
+      "answer": "C",
+      "rationale": "The allowable loss of $4,500 reduces the $3,000 taxable gain to zero. The remaining $1,500 is part of her net capital loss. She can use it against taxable capital gains in the three previous years or any future year.",
+      "rule_refs": [
+        "CRA T4037 (2025)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"You can use a net capital loss to reduce your taxable capital gain in any of the three previous years or in any future year.\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA, L582"
+    },
+    {
+      "id": "RSE-E7-0029",
+      "element": 7,
+      "outcome": "7.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Corinne Dube has 2026 taxable income of $90,000. Use the 2026 federal rates: 14% up to $58,523 and 20.5% from $58,523.01 to $117,045. What is her federal tax before credits?",
+      "options": {
+        "A": "$12,600.00",
+        "B": "$14,646.01",
+        "C": "$16,377.24",
+        "D": "$18,450.00"
+      },
+      "answer": "B",
+      "rationale": "Each rate applies only to the income in its bracket. 58,523 × 14% = 8,193.22, and 31,477 × 20.5% = 6,452.79. The total is $14,646.01. $18,450.00 wrongly applies 20.5% to all income.",
+      "rule_refs": [
+        "CRA tax rates (2026)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 58523×0.14=8193.22; (90000−58523)×0.205=31477×0.205=6452.79; total 14646.01. Distractors: 90000×0.14=12600; 2nd slice at 26% gives 16377.24; 90000×0.205=18450"
+    },
+    {
+      "id": "RSE-E7-0030",
+      "element": 7,
+      "outcome": "7.11",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Emeric Laval is in the 26% federal bracket in 2026. He receives a $2,000 eligible dividend. The gross-up is 38%, and the federal dividend tax credit is 6/11 of the gross-up. What is his federal tax on the dividend?",
+      "options": {
+        "A": "$303.05",
+        "B": "$390.31",
+        "C": "$520.00",
+        "D": "$717.60"
+      },
+      "answer": "A",
+      "rationale": "Grossed-up amount = 2,000 × 1.38 = 2,760. Tax = 2,760 × 26% = 717.60. The credit is 6/11 × 760 = 414.55, so the tax is $303.05. $520.00 treats the dividend like interest.",
+      "rule_refs": [
+        "ITA s.82(1)",
+        "ITA s.121"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 2760×0.26=717.60; DTC=6/11×760=414.545; tax=303.05. Distractors: non-eligible 2300×0.26−9/13×300=390.31; 2000×0.26=520 (interest); 717.60 omits DTC"
+    },
+    {
+      "id": "RSE-E7-0031",
+      "element": 7,
+      "outcome": "7.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A client sends her dealer an email. It alleges that her RR misrepresented the risk of an investment. How soon must the dealer send her an acknowledgement letter?",
+      "options": {
+        "A": "Within two business days of receipt",
+        "B": "Within five business days of receipt",
+        "C": "Within 30 days of receipt",
+        "D": "Within 90 days of receipt"
+      },
+      "answer": "B",
+      "rationale": "The dealer must send an acknowledgement letter within five business days of receipt of a complaint. Two business days is the time for an Approved Person to report a complaint to the dealer.",
+      "rule_refs": [
+        "IDPC 3725(1)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The Dealer Member must send an acknowledgement letter to the complainant within five business days of receipt of a complaint.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3725(1), L7943-7944"
+    },
+    {
+      "id": "RSE-E7-0032",
+      "element": 7,
+      "outcome": "7.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Desmond Achterberg, an RR, gets a written complaint about an unsuitable trade. He offers to refund his commission. In return, the client must sign a release that stops her from complaining to CIRO. Which statement is correct?",
+      "options": {
+        "A": "He can settle on his own if he pays the refund from his own money",
+        "B": "He can settle if the dealer later approves the release as written",
+        "C": "He needs the dealer's prior written consent, and the release cannot stop a complaint to CIRO",
+        "D": "He can settle if the client agrees, because the release is a private contract"
+      },
+      "answer": "C",
+      "rationale": "An Approved Person needs the dealer's written consent before any settlement, whatever its form. A release must not stop a client from complaining to securities regulators or SROs. So the dealer cannot approve this term.",
+      "rule_refs": [
+        "IDPC 3710(1)",
+        "IDPC 3711(1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"An Approved Person must obtain the Dealer Member's written consent before entering into any settlement agreement with a client, regardless of the form of the settlement and regardless of whether the settlement is the result of a client complaint\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3710(1), L7822-7825"
+    },
+    {
+      "id": "RSE-E7-0033",
+      "element": 7,
+      "outcome": "7.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer outside Quebec receives a client complaint. On day 85, it knows that it cannot give a final response within 90 days. What must the dealer do?",
+      "options": {
+        "A": "Tell the client the reasons and a new estimated date, and tell CIRO the reasons",
+        "B": "Tell the client to wait, because the 90 days stop while the investigation continues",
+        "C": "Tell CIRO only, because the client has no right to know the reasons for the delay",
+        "D": "Close the file and ask the client to send the complaint to OBSI"
+      },
+      "answer": "A",
+      "rationale": "The dealer must tell the client the reasons for the delay and the new estimated time of completion. It must also tell CIRO the reasons. The client can also go to OBSI after 90 days with no final response.",
+      "rule_refs": [
+        "IDPC 3726(4)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the Dealer Member must inform the client if the Dealer Member is unable to provide the client with a final response within the 90 days time line and must include the reasons for the delay and the new estimated time of completion\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3726(4)(ii), L7998-8000"
+    }
+  ]
+}

@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "batch": "E2-001",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E2-0001",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under IDPC 7112(2), from whom can an Approved Person accept material consideration for activities on behalf of a client?",
+      "options": {
+        "A": "From the client, with the client's written consent",
+        "B": "Only from the Dealer Member",
+        "C": "From the issuer, if the client gets disclosure",
+        "D": "From a counterparty, if the amount is below a set limit"
+      },
+      "answer": "B",
+      "rationale": "IDPC 7112(2) prohibits material consideration from any person other than the Dealer Member. The client is also a person other than the dealer, so written client consent does not permit it. Disclosure and dollar limits are not exceptions in the rule.",
+      "rule_refs": [
+        "IDPC 7112(2)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"An Approved Person or employee of a Dealer Member must not accept any material consideration, including remuneration, gratuity or benefit, from any person other than the Dealer Member for any activities conducted on behalf of a client.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7112(2), ~L21130"
+    },
+    {
+      "id": "RSE-E2-0002",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A counterparty gives Approved Person Rosalind a box of pens with its logo. It is the first gift from this counterparty. Under IDPC 7112(4), when is this item not consideration?",
+      "options": {
+        "A": "When it is non-monetary, of minimal value and infrequent, and raises no reasonable question of a conflict of interest",
+        "B": "When her Supervisor approves the item in writing before she accepts it from the counterparty",
+        "C": "When she discloses the item to each affected client on the next trade confirmation she sends",
+        "D": "When its value is below the annual gift limit that the dealer's policies and procedures set"
+      },
+      "answer": "A",
+      "rationale": "IDPC 7112(4) gives four conditions: non-monetary, minimal value, infrequent, and no reasonable question of a conflict. All four must apply. The rule does not use Supervisor approval, client disclosure or a dealer dollar limit as the test.",
+      "rule_refs": [
+        "IDPC 7112(4)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Consideration that is non- monetary, of minimal value and infrequent such that it will not cause a reasonable person to question whether it created a conflict of interest is not consideration\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7112(4), ~L21136"
+    },
+    {
+      "id": "RSE-E2-0003",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer wants to make a proprietary bond trade ahead of a client order on the same side of the market. Under IDPC 7110, what must the dealer do first?",
+      "options": {
+        "A": "Fill the proprietary trade at the same price as the client order",
+        "B": "Get written approval from the Supervisor of the debt trading desk",
+        "C": "Make sure that the client order is smaller than the dealer's trade",
+        "D": "Disclose its intention to the client and get the client's consent"
+      },
+      "answer": "D",
+      "rationale": "IDPC 7110(1)(ii) treats a proprietary trade ahead of a same-side client order as unfair advantage. The exception: the dealer first discloses its intention and gets client consent. Supervisor approval alone does not satisfy the rule.",
+      "rule_refs": [
+        "IDPC 7110(1)(ii)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"carrying out proprietary trades ahead of client orders on the same side of the market without first disclosing to the client the intention to do so and obtaining the client's approval\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7110(1)(ii), ~L21111"
+    },
+    {
+      "id": "RSE-E2-0004",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer sells bonds to retail clients. Its RRs set mark-ups on each trade without written guidance. Which IDPC 7103 requirement does the dealer most clearly fail?",
+      "options": {
+        "A": "A fixed maximum mark-up that CIRO publishes for each type of debt security sold to retail clients",
+        "B": "A competing quote from two other dealers before each retail bond trade, kept on file for review",
+        "C": "Written mark-up, mark-down and commission guidelines for RRs, with monitoring to detect charges above its maximums",
+        "D": "A quarterly report to each retail client of the dealer's total profit on its bond inventory"
+      },
+      "answer": "C",
+      "rationale": "IDPC 7103(2)(vi) requires written mark-up, mark-down and commission guidelines for RRs on retail debt sales. It also requires monitoring to detect charges above the dealer's own maximums. The dealer sets the maximums; CIRO does not publish a fixed mark-up.",
+      "rule_refs": [
+        "IDPC 7103(2)(vi)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"written policies or guidelines issued to its Registered Representatives on the Dealer Member's mark-ups, mark-downs and commissions on debt securities sold to clients or purchased from clients\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7103(2)(vi)(a), ~L21017"
+    },
+    {
+      "id": "RSE-E2-0005",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "After a corporate issuer defaults, which of these debt securities usually ranks last for payment?",
+      "options": {
+        "A": "Mortgage bonds",
+        "B": "Collateral trust bonds",
+        "C": "Debentures",
+        "D": "Subordinated debentures"
+      },
+      "answer": "D",
+      "rationale": "Subordinated debentures rank after the other debt of the issuer. Debentures have no specific security, but they rank ahead of subordinated debentures. Mortgage bonds and collateral trust bonds are secured, so they rank first.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.2 (corporate securities, rank)"
+    },
+    {
+      "id": "RSE-E2-0006",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Marisol holds a non-redeemable GIC from a bank. Market interest rates then rise. What is the result for her GIC?",
+      "options": {
+        "A": "Its market price falls, as the price of a bond falls when rates rise",
+        "B": "Its value does not change, and she usually cannot cash it before maturity",
+        "C": "She can sell it in the secondary market, but at a discount to its cost",
+        "D": "The bank raises its rate to the new market rate for the remaining term"
+      },
+      "answer": "B",
+      "rationale": "A GIC is generally non-transferable and has no secondary market, so its value does not change with interest rates. A non-redeemable GIC usually cannot be cashed early. The issuer sets the return, so the rate does not reset.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.2 (GIC)"
+    },
+    {
+      "id": "RSE-E2-0007",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The trust indenture of Lyndale Corp. bonds limits the dividends that the company can pay while the bonds are outstanding. What is this term?",
+      "options": {
+        "A": "A positive covenant",
+        "B": "A sinking fund provision",
+        "C": "A negative covenant",
+        "D": "A call provision"
+      },
+      "answer": "C",
+      "rationale": "Covenants are issuer promises in the trust indenture that protect bondholders. A negative covenant restricts actions, such as dividends or new debt. A positive covenant requires actions, such as to maintain insurance.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.3 (covenants)"
+    },
+    {
+      "id": "RSE-E2-0008",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Dmitri buys Government of Canada T-bills on a Tuesday. The trade is not cleared through a clearing corporation, and the parties made no written agreement. When is regular delivery?",
+      "options": {
+        "A": "On Tuesday, the same day as the trade",
+        "B": "On Wednesday, the first business day after the trade",
+        "C": "On Thursday, the second business day after the trade",
+        "D": "On Friday, the third business day after the trade"
+      },
+      "answer": "A",
+      "rationale": "IDPC 4805 sets regular delivery for GoC T-bills on the same day as the trade. The first business day after the trade applies to GoC, provincial, municipal and corporate bonds, not to T-bills.",
+      "rule_refs": [
+        "IDPC 4805(1)(i)(a)",
+        "IDPC 4805(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The same day as the transaction date for Government of Canada Treasury Bills.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 4805(1)(i)(a), ~L14105"
+    },
+    {
+      "id": "RSE-E2-0009",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The issuer of a corporate bond announces that it will not pay the next coupon. The bond trades outside a clearing corporation. How must dealers trade it now?",
+      "options": {
+        "A": "On an accrued-interest basis until the missed coupon date, and then flat with the coupons detached",
+        "B": "Flat, with all matured and unpaid coupons attached, until the issuer pays all arrears and one current coupon",
+        "C": "Flat, with the matured and unpaid coupons detached and kept by the seller of the bond",
+        "D": "On an accrued-interest basis until the trustee confirms the default in writing to the bondholders"
+      },
+      "answer": "B",
+      "rationale": "Under IDPC 4803, accrued-interest trading stops when a default occurs or the debtor announces it, whichever is first. The bond then trades flat with unpaid coupons attached. This continues until all arrears and one current coupon are paid.",
+      "rule_refs": [
+        "IDPC 4803(1)",
+        "IDPC 4803(3)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the securities must be handled on a flat basis with all matured and unpaid coupons attached, until such time as all arrears of interest have been paid and one current coupon has been paid\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 4803(3), ~L14008"
+    },
+    {
+      "id": "RSE-E2-0010",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Sunniva holds a one-year, high-coupon callable bond. She expects interest rates to fall. Which risk is the largest for her?",
+      "options": {
+        "A": "Interest-rate risk",
+        "B": "Inflation risk",
+        "C": "Currency risk",
+        "D": "Reinvestment risk"
+      },
+      "answer": "D",
+      "rationale": "Reinvestment risk is highest for short, high-coupon and callable bonds. If rates fall, the issuer can call the bond, and she must reinvest at lower rates. Interest-rate risk is highest for long, low-coupon bonds, and falling rates raise prices.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.4 (sources of risk)"
+    },
+    {
+      "id": "RSE-E2-0011",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer sells a bond from inventory to a retail client in a secondary-market trade. It charges a mark-up and no commission. Which disclosure on the trade confirmation meets IDPC 3816?",
+      "options": {
+        "A": "The total amount of the mark-up or other service charges applied to the trade",
+        "B": "Only the yield to maturity, because a mark-up is part of the net price",
+        "C": "The dealer's cost of the bond and the date on which it bought the bond",
+        "D": "A notice that the client can cancel the trade within two business days"
+      },
+      "answer": "A",
+      "rationale": "This is a non-primary debt trade with a retail client. Under IDPC 3816(2)(vi)(c), the confirmation can show the total mark-up, mark-down, commission or other service charges. The other choice is total commission plus a remuneration notice. Yield alone, dealer cost or a cancel notice does not meet the rule.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(c)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the total amount of any mark-up or mark -down, commission or other service charges the Dealer Member applied to the transaction\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3816(2)(vi)(c)(I), ~L9328"
+    },
+    {
+      "id": "RSE-E2-0012",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Bertrand buys a five-year compound GIC in a non-registered account. The GIC pays all interest at maturity. How must he report the interest for tax?",
+      "options": {
+        "A": "He reports all the interest in the year that the GIC matures and pays him",
+        "B": "He reports the interest as a capital gain in the year that the GIC matures",
+        "C": "He reports the interest earned in each complete investment year, before he receives it",
+        "D": "He reports nothing, because interest in a GIC is tax-free until cashed"
+      },
+      "answer": "C",
+      "rationale": "The CRA requires interest on a compound GIC to be reported for each complete investment year, even if it is not paid. So outside a registered plan, the tax comes before the cash. GIC interest is interest income, not a capital gain.",
+      "rule_refs": [
+        "CRA Line 12100"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"You must report the interest earned during each complete investment year, even if you did not receive a T5 slip.\" — research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt CRA Line 12100 (2025 tax year), ~L106"
+    },
+    {
+      "id": "RSE-E2-0013",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Four bonds from the same issuer have the same term. Each has one special feature. Which bond usually offers the highest yield?",
+      "options": {
+        "A": "A callable bond",
+        "B": "A retractable bond",
+        "C": "An extendable bond",
+        "D": "A convertible bond"
+      },
+      "answer": "A",
+      "rationale": "An option has value, and the party that holds it pays through the yield. The call is the issuer's option, so a callable bond pays a higher yield. Retractable, extendable and convertible features are holder options, so they lower the yield.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.5 (option held by; yield vs plain bond)"
+    },
+    {
+      "id": "RSE-E2-0014",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The credit rating of a floating-rate note's issuer falls sharply. Market interest rates do not change. What usually happens to the note's price?",
+      "options": {
+        "A": "It stays at par, because the coupon resets to the reference rate on each date",
+        "B": "It rises above par, because the coupon resets higher after the rating change",
+        "C": "It stays at par, because the reference rate rises to offset the credit change",
+        "D": "It falls below par, because the fixed spread is now too low for the credit risk"
+      },
+      "answer": "D",
+      "rationale": "The coupon reset protects the price from changes in rates, but not from changes in credit. The spread over the reference rate is fixed. If the issuer's credit weakens, the spread is too low, so the price falls below par.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 2.5 (floating rate)"
+    },
+    {
+      "id": "RSE-E2-0015",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "How does a purchase fund differ from a sinking fund?",
+      "options": {
+        "A": "A purchase fund requires the issuer to retire a set amount of bonds each year",
+        "B": "A purchase fund buys bonds only when they trade at or below a set price",
+        "C": "A purchase fund lets the holder sell the bonds back to the issuer at par",
+        "D": "A purchase fund lets the issuer repay all of the bonds early at a call price"
+      },
+      "answer": "B",
+      "rationale": "A purchase fund buys bonds if they trade at or below a set price, which supports the price. A sinking fund requires the issuer to retire a set amount each year. The sell-back right describes a retractable bond, and early repayment describes a callable bond.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.5 (sinking/purchase funds)"
+    },
+    {
+      "id": "RSE-E2-0016",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An 8-year strip costs $72.00 per $100 of maturity value. What is its yield, calculated on a semi-annual basis?",
+      "options": {
+        "A": "4.19%",
+        "B": "4.86%",
+        "C": "4.15%",
+        "D": "8.38%"
+      },
+      "answer": "C",
+      "rationale": "Semi-annual yield = 2 × [(100 ÷ 72)^(1/16) − 1] = 4.15%. The figure 4.19% is the annual-basis yield, (100 ÷ 72)^(1/8) − 1. The figure 4.86% ignores compounding, and 8.38% uses 8 periods instead of 16.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 2*((100/72)**(1/16)-1)=0.041487; annual (100/72)**(1/8)-1=0.041918; simple (100/72-1)/8=0.048611; 2*((100/72)**(1/8)-1)=0.083836"
+    },
+    {
+      "id": "RSE-E2-0017",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Yusra buys a $1,000 par bond with a 3% annual coupon and 6 years to maturity. She pays $940. What is its approximate yield to maturity?",
+      "options": {
+        "A": "4.12%",
+        "B": "3.19%",
+        "C": "3.09%",
+        "D": "4.26%"
+      },
+      "answer": "A",
+      "rationale": "Approximate YTM = [30 + (1,000 − 940) ÷ 6] ÷ [(1,000 + 940) ÷ 2] = 40 ÷ 970 = 4.12%. The figure 3.19% is the current yield, 30 ÷ 940. It ignores the pull to par. The figure 4.26% divides by the price, not the average investment.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: (30+60/6)/((1000+940)/2)=40/970=0.041237; CY 30/940=0.031915; 30/970=0.030928; 40/940=0.042553"
+    },
+    {
+      "id": "RSE-E2-0018",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Yields on all four bonds below rise by 1 percentage point. All have the same issuer and the same initial yield. Which bond's price falls the most?",
+      "options": {
+        "A": "A 20-year bond with a 7% coupon",
+        "B": "A 5-year bond with a 7% coupon",
+        "C": "A 5-year bond with a 3% coupon",
+        "D": "A 20-year bond with a 3% coupon"
+      },
+      "answer": "D",
+      "rationale": "For a given yield change, a longer term and a lower coupon each give a larger price change. The 20-year 3% bond has both, so it has the longest duration. The 20-year 7% bond has the same term but a higher coupon, so it falls less.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.7 (price-volatility rules 2 and 3)"
+    },
+    {
+      "id": "RSE-E2-0019",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Cormac holds bonds of a low-rated corporate issuer. A recession starts, and Government of Canada yields fall. What can happen to the price of his bonds?",
+      "options": {
+        "A": "It must rise, because all bond yields move with Government of Canada yields",
+        "B": "It can fall, because wider credit spreads can offset the lower GoC yields",
+        "C": "It stays the same, because the coupon on his bonds is fixed until maturity",
+        "D": "It must rise, because a recession always lowers corporate credit spreads"
+      },
+      "answer": "B",
+      "rationale": "A recession usually lowers GoC yields. But a weaker economy widens credit spreads. So the yield on weaker corporate bonds can rise, and their price can fall. A fixed coupon does not fix the price, because the price moves with the market yield.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 2.7 (economic factors; credit spreads)"
+    },
+    {
+      "id": "RSE-E2-0020",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A bond has a price of $1,060 and a modified duration of 6.4. Yields rise by 0.50%. What is the estimated new price?",
+      "options": {
+        "A": "$1,028.00",
+        "B": "$1,093.92",
+        "C": "$1,026.08",
+        "D": "$720.80"
+      },
+      "answer": "C",
+      "rationale": "% change ≈ −6.4 × 0.0050 = −3.2%. Then −0.032 × 1,060 = −$33.92, so the new price is about $1,026.08. The figure $1,028.00 applies the change to par, not the price. The figure $1,093.92 has the wrong sign.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: -6.4*0.005=-0.032; -0.032*1060=-33.92; 1060-33.92=1026.08; par-based 1060-32=1028.00; sign error 1093.92; decimal error 0.05 -> 1060*(1-0.32)=720.80"
+    },
+    {
+      "id": "RSE-E2-0021",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A semi-annual bond has a Macaulay duration of 6.15 years and a yield to maturity of 5%. Yields fall by 0.30%. What is the estimated percentage change in its price?",
+      "options": {
+        "A": "+1.80%",
+        "B": "+1.85%",
+        "C": "−1.80%",
+        "D": "+18.00%"
+      },
+      "answer": "A",
+      "rationale": "ModD = 6.15 ÷ (1 + 0.05 ÷ 2) = 6.0. Then % change ≈ −6.0 × (−0.0030) = +1.80%. The figure +1.85% uses the Macaulay duration without conversion. A fall in yields gives a price rise, so −1.80% has the wrong sign.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 6.15/1.025=6.0; -6.0*(-0.003)=+0.018; unconverted 6.15*0.003=0.01845; decimal error 6.0*0.03=0.18"
+    },
+    {
+      "id": "RSE-E2-0022",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A $1,000 par bond has a 6% coupon, paid semi-annually, and 4 years to maturity. The market yield is 5%. What is its price on a coupon date?",
+      "options": {
+        "A": "$1,000.00",
+        "B": "$1,035.85",
+        "C": "$870.74",
+        "D": "$1,250.95"
+      },
+      "answer": "B",
+      "rationale": "Use c = 30, r = 0.025 and N = 8. P = 30 × [1 − 1.025^(−8)] ÷ 0.025 + 1,000 ÷ 1.025^8 = $1,035.85. The coupon is above the yield, so the bond trades at a premium. A price of par would need a 6% discount rate.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 30*(1-1.025**-8)/0.025 + 1000/1.025**8 = 1035.85; r=0.05 per half-year -> 870.74; c=60 per half-year -> 1250.95; par if discounted at coupon rate"
+    },
+    {
+      "id": "RSE-E2-0023",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Priyanka invested $8,000. Five years later, the investment is worth $11,000. What annual rate of return, compounded annually, did she earn?",
+      "options": {
+        "A": "7.50%",
+        "B": "6.47%",
+        "C": "6.37%",
+        "D": "6.58%"
+      },
+      "answer": "D",
+      "rationale": "r = (11,000 ÷ 8,000)^(1/5) − 1 = 6.58%. The figure 7.50% is simple interest: $3,000 ÷ $8,000 ÷ 5. It ignores compounding. The figure 6.47% is a rate compounded semi-annually, and 6.37% is a continuous rate.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 1.375**0.2-1=0.065763; simple 3000/8000/5=0.075; semi-annual 2*(1.375**0.1-1)=0.064716; continuous ln(1.375)/5=0.063691"
+    }
+  ]
+}

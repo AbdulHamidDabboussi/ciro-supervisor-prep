@@ -1,0 +1,381 @@
+{
+  "meta": {
+    "batch": "E9-001",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E9-0001",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ingrid Halvorsen, 54, tells her Registered Representative (RR) that she received a large inheritance. She now plans to retire next year. What must the dealer do?",
+      "options": {
+        "A": "Update her KYC information within a reasonable time after it learns of the change",
+        "B": "Wait for her next scheduled 36-month KYC review to record the change",
+        "C": "Update her KYC information only if she signs a new account application",
+        "D": "Take no action because her current holdings were suitable when bought"
+      },
+      "answer": "A",
+      "rationale": "An inheritance and a new retirement date are significant changes. IDPC 3209(3) requires a KYC update within a reasonable time after the dealer learns of them. The 36-month cycle in IDPC 3209(4) is a minimum and does not delay this update.",
+      "rule_refs": [
+        "IDPC 3209(3)",
+        "IDPC 3209(4)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"updating the information within a reasonable time after the Dealer Member becomes aware of a significant change in the client’s information required under section 3202\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3209(3), ~L5650"
+    },
+    {
+      "id": "RSE-E9-0002",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Equity markets fall 15% in a broad correction. Oswin Marchetti's personal situation is the same. His diversified blue-chip holdings have no company-specific news. Which statement is correct?",
+      "options": {
+        "A": "The market fall is a trigger event that requires a new KYC update for Oswin",
+        "B": "The dealer must reassess every approved security because of the market fall",
+        "C": "The market fall alone is not a trigger event, so a portfolio-level review comes first",
+        "D": "The dealer needs to do nothing because the holdings were suitable when bought"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3402(2) does not list a general market change as a trigger event. CIRO guidance generally does not require reassessment of individual securities for it. Good practice is a portfolio-level review. Doing nothing ignores the monitoring loop.",
+      "rule_refs": [
+        "IDPC 3402(2)",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"While a change in the overall market or economic conditions may affect a Dealer’s or an Approved Person’s assessment of a security, we generally would not consider it a change requiring reassessment of individual securities.\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 'Monitor and review significant changes', ~L185"
+    },
+    {
+      "id": "RSE-E9-0003",
+      "element": 9,
+      "outcome": "9.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Dariusz Okafor holds a retail account with an Investment Dealer. Which event requires the dealer to review his account for suitability under IDPC 3402(2)?",
+      "options": {
+        "A": "The central bank raises its policy interest rate by half a point",
+        "B": "Dariusz transfers a block of shares into the account from another dealer",
+        "C": "The dealer sends Dariusz his regular quarterly account statement",
+        "D": "Dariusz asks for a copy of his annual fee/charge report"
+      },
+      "answer": "B",
+      "rationale": "A deposit or transfer of securities into the account is a trigger event under IDPC 3402(2)(i). The dealer must then review the account against IDPC 3402(1). A general interest rate change is not a listed trigger event.",
+      "rule_refs": [
+        "IDPC 3402(2)(i)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"are received or delivered into the client’s account by way of deposit or transfer\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(2)(i), ~L6814"
+    },
+    {
+      "id": "RSE-E9-0004",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Marisol Lindqvist's account holds only one mutual fund. The fund reports a 1-year return of 8%. Her annual performance report shows 4% for the same year. She invested most of her money just before a market fall. What explains the difference?",
+      "options": {
+        "A": "Her report is wrong, because it must use the same time-weighted method as the fund",
+        "B": "The fund figure includes sales charges, but her report shows returns before charges",
+        "C": "Her report leaves out income, but the fund figure includes reinvested distributions",
+        "D": "Her report uses a money-weighted return net of charges, which reflects her cash flows"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3810(2) requires a money-weighted return net of charges. It reflects the timing and size of her deposits. The fund figure is a time-weighted unit-value return before sales charges. So the two figures can differ, and neither is wrong.",
+      "rule_refs": [
+        "IDPC 3810(2)",
+        "NI 81-102 s. 15.4"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the amount of the annualized total percentage return calculated net of charges using a money weighted rate of return calculation methodology generally accepted in the securities industry for the following periods:\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3810(2)(v), ~L8773"
+    },
+    {
+      "id": "RSE-E9-0005",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Tobias Nakamura opened an account seven months ago. The account holds positions with market values that the dealer can determine. Which statement about his annual performance report is correct?",
+      "options": {
+        "A": "The dealer does not have to send it yet, because the account is not 12 months old",
+        "B": "The dealer must send it now, because the account holds positions with known values",
+        "C": "The dealer must send it only if Tobias asks for one in writing",
+        "D": "The dealer must send it within three months of the account opening date"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3810(1) requires the report only for a client whose account was opened at least 12 months ago. Positions with known values are a separate condition, and all conditions must apply. The dealer may send the first report within 24 months.",
+      "rule_refs": [
+        "IDPC 3810(1)",
+        "IDPC 3810(4)(i)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"the client’s account was opened at least 12 months ago\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3810(1)(iv), ~L8717"
+    },
+    {
+      "id": "RSE-E9-0006",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A balanced fund has a mandate of 60% Canadian equities and 40% Canadian bonds. Which benchmark is the most appropriate to judge its performance?",
+      "options": {
+        "A": "A Canadian equity index, because equities cause most of the fund's return",
+        "B": "Whichever index the fund did better than at the end of the year",
+        "C": "A 60/40 blend of a Canadian equity index and a Canadian bond index, set in advance",
+        "D": "The 91-day Treasury bill rate, because it is the risk-free rate of return"
+      },
+      "answer": "C",
+      "rationale": "A benchmark must match the mandate and be chosen in advance. A 60/40 blend of equity and bond indices does this. An equity index alone gives a misleading comparison. A benchmark chosen after the results makes them look better than they are.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 9.2 'The proper use of benchmarks'"
+    },
+    {
+      "id": "RSE-E9-0007",
+      "element": 9,
+      "outcome": "9.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Henrietta Osei holds an equity fund with a large unrealized gain in a non-registered account. Her RR suggests a switch to a similar fund with a lower expense ratio. The switch has a fee. What must the RR consider?",
+      "options": {
+        "A": "Only the lower expense ratio, because it saves Henrietta money every year",
+        "B": "The switch fee and the tax on the realized gain, compared with keeping the fund",
+        "C": "Only the switch fee, because the tax effect is Henrietta's own personal matter",
+        "D": "Only the past 1-year returns of the two funds, because returns include costs"
+      },
+      "answer": "B",
+      "rationale": "Suitability includes the impact of costs on returns (IDPC 3402(1)(i)(d)) and a reasonable range of alternatives, such as keeping the fund. The sale also realizes a taxable capital gain. The lower expense ratio alone ignores the fee and the tax.",
+      "rule_refs": [
+        "IDPC 3402(1)(i)(d)",
+        "IDPC 3402(1)(i)(e)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the potential and actual impact of costs on the retail client’s returns\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(1)(i)(d), ~L6806"
+    },
+    {
+      "id": "RSE-E9-0008",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Leopold Vance buys a stock at $25.00. He receives a dividend of $0.75 during the year. At year end the stock trades at $27.25. What is his holding-period return?",
+      "options": {
+        "A": "9.0%",
+        "B": "3.0%",
+        "C": "11.0%",
+        "D": "12.0%"
+      },
+      "answer": "D",
+      "rationale": "HPR = (27.25 − 25.00 + 0.75) ÷ 25.00 = 12.0%. The 9.0% result leaves out the dividend. The 11.0% result divides by the ending price instead of the starting price.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: (27.25 - 25 + 0.75) / 25 = 0.12; price only 2.25/25 = 0.09; dividend only 0.75/25 = 0.03; wrong base 3/27.25 = 0.110"
+    },
+    {
+      "id": "RSE-E9-0009",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A portfolio returns +15% in year 1, −8% in year 2 and +6% in year 3. What is its annualized return over the three years?",
+      "options": {
+        "A": "3.90%",
+        "B": "4.33%",
+        "C": "4.05%",
+        "D": "12.15%"
+      },
+      "answer": "A",
+      "rationale": "Link the returns: 1.15 × 0.92 × 1.06 − 1 = 12.15% cumulative. Annualize: 1.12148^(1/3) − 1 = 3.90%. The 4.33% figure is the arithmetic average. The 4.05% figure divides the cumulative return by three and ignores compounding.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 1.15*0.92*1.06 - 1 = 0.12148; 1.12148**(1/3) - 1 = 0.03896; arithmetic mean (15-8+6)/3 = 4.33; 0.12148/3 = 0.0405"
+    },
+    {
+      "id": "RSE-E9-0010",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A fund returns 2%, 8% and 14% over three years. What is the sample standard deviation of these returns, with division by n − 1?",
+      "options": {
+        "A": "8.00%",
+        "B": "4.90%",
+        "C": "6.00%",
+        "D": "36.00%"
+      },
+      "answer": "C",
+      "rationale": "The mean is 8%. The squared deviations are 36 + 0 + 36 = 72. Divide by n − 1: 72 ÷ 2 = 36, and √36 = 6.00%. The 4.90% figure uses the population form, √(72 ÷ 3). The 36.00% figure is the variance.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: mean 8; sum sq dev 72; sqrt(72/2) = 6.00; population sqrt(72/3) = 4.899; variance 36"
+    },
+    {
+      "id": "RSE-E9-0011",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Wilhelmina Strand will put all her savings into one fund. The risk-free rate is 2.5%. Fund P returned 11%, with σ 18% and β 0.9. Fund Q returned 9.5%, with σ 12% and β 1.3. Which fund is the better risk-adjusted choice for her?",
+      "options": {
+        "A": "Fund P, because its Treynor ratio is about 9.44 against 5.38 for Fund Q",
+        "B": "Fund Q, because its Sharpe ratio is about 0.58 against 0.47 for Fund P",
+        "C": "Fund P, because its return is 1.5 percentage points higher than Fund Q",
+        "D": "Fund Q, because its higher beta gives it more return for each unit of risk"
+      },
+      "answer": "B",
+      "rationale": "The fund will be her whole portfolio, so she bears total risk. Use Sharpe: P = 8.5 ÷ 18 = 0.47; Q = 7 ÷ 12 = 0.58. Treynor counts only systematic risk, so it ignores company-specific risk that she bears.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: Sharpe P 8.5/18 = 0.472, Q 7/12 = 0.583; Treynor P 8.5/0.9 = 9.44, Q 7/1.3 = 5.38. concept: guide 9.3 Sharpe for a client's only fund"
+    },
+    {
+      "id": "RSE-E9-0012",
+      "element": 9,
+      "outcome": "9.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A portfolio returned 12% with a beta of 1.4. The risk-free rate was 3% and the market returned 9%. What is the portfolio's Jensen's alpha?",
+      "options": {
+        "A": "+3.0%",
+        "B": "+9.0%",
+        "C": "−0.6%",
+        "D": "+0.6%"
+      },
+      "answer": "D",
+      "rationale": "Required return = 3 + 1.4 × (9 − 3) = 11.4%. Alpha = 12 − 11.4 = +0.6%. The +3.0% figure compares the portfolio with the market and ignores beta. The −0.6% figure multiplies beta by the market return without the risk-free rate.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 12 - (3 + 1.4*(9-3)) = 0.6; 12 - 9 = 3.0; 12 - 3 = 9.0; 12 - 1.4*9 = -0.6"
+    },
+    {
+      "id": "RSE-E9-0013",
+      "element": 9,
+      "outcome": "9.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Lucan Ferreira, an RR, wants his business card to say \"Vice-President, Wealth\". His dealer has not appointed him to that corporate office. Which statement is correct?",
+      "options": {
+        "A": "He must not use the title, because he does not hold that corporate office",
+        "B": "He can use the title if the card also says that the title is honorary",
+        "C": "He can use the title if his clients do not rely on it to choose him",
+        "D": "He can use the title, because CIRO rules do not cover business cards"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3640(2)(ii) prohibits a corporate officer title unless the dealer appointed the Approved Person to that office. A note that the title is honorary does not cure this. The rule applies to how he presents himself in any form.",
+      "rule_refs": [
+        "IDPC 3640(2)(ii)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"a corporate officer title, unless their Dealer Member has appointed that Approved Person to that corporate office pursuant to applicable corporate law\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3640(2)(ii), ~L7578"
+    },
+    {
+      "id": "RSE-E9-0014",
+      "element": 9,
+      "outcome": "9.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Which item must a designated Supervisor approve before the dealer uses it?",
+      "options": {
+        "A": "An e-mail to one client that confirms the time of a meeting",
+        "B": "The text of an educational seminar about how bonds work",
+        "C": "A new script that RRs will read when they telephone prospects",
+        "D": "A previously approved template advertisement with a new branch address"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3602(3) lists telemarketing scripts for pre-approval. Educational seminar texts are excluded. A minor change to an approved template, such as the branch location, needs no approval. Single-client correspondence gets one of the IDPC 3602(4) review methods.",
+      "rule_refs": [
+        "IDPC 3602(3)",
+        "IDPC 3602(4)",
+        "GN-3600-21-002"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"A Dealer Member must ensure that the following items are approved by a designated Supervisor before use or publication:\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3602(3), ~L7295"
+    },
+    {
+      "id": "RSE-E9-0015",
+      "element": 9,
+      "outcome": "9.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Casimir Duval, an RR, discusses a client's rebalancing plan on a messaging app on his personal phone. His dealer has not approved the app. Which statement is correct?",
+      "options": {
+        "A": "The messages are outside the retention rules, because the phone is his own",
+        "B": "The messages are business records that the dealer must keep, because content decides this",
+        "C": "The messages need retention only if they contain an actual order to buy or sell",
+        "D": "The messages are acceptable without retention, because the client started the chat"
+      },
+      "answer": "B",
+      "rationale": "CIRO guidance says the content of a message decides whether retention applies, not the device. A message about a client's account is a business record. An uncaptured chat on a non-approved channel is also a supervision gap.",
+      "rule_refs": [
+        "GN-3600-21-002",
+        "IDPC 3804"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"depends on the content of the communication. The type of device used to transmit the communication or whether it is a personal device or Dealer issued device is irrelevant.\" — research/sources/ciro/gn-3600-21-002-advertisements-sales-literature-correspondence-social-media.txt GN-3600-21-002 'Record retention', ~L277"
+    },
+    {
+      "id": "RSE-E9-0016",
+      "element": 9,
+      "outcome": "9.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Annika Bergstrom tells her RR to buy a speculative stock. The RR decides that the trade does not meet the suitability criteria. What must the dealer do before it carries out her instruction?",
+      "options": {
+        "A": "Get a branch manager's approval, and then mark the order as unsolicited",
+        "B": "Refuse the order, because a dealer can never carry out an unsuitable trade",
+        "C": "Carry out the order at once, because the client has the final decision",
+        "D": "Tell her why and advise against it, recommend a suitable alternative, and record her confirmation"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3402(5) lets the dealer act on an unsuitable instruction only after three steps. It must explain and advise against the action, recommend a suitable alternative, and receive recorded confirmation. Refusal is not mandatory, but the steps are.",
+      "rule_refs": [
+        "IDPC 3402(5)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"received recorded confirmation of the retail client’s instruction to proceed with the action\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(5)(iii), ~L6852"
+    },
+    {
+      "id": "RSE-E9-0017",
+      "element": 9,
+      "outcome": "9.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer's grid pays RRs a higher payout on fee-based revenue and on related-party funds. Which statement about its records is correct?",
+      "options": {
+        "A": "Its records must document these arrangements and show how it complies with conflicts requirements",
+        "B": "Disclosure of the grid to clients is sufficient, so the dealer needs no other records",
+        "C": "Compensation records are internal staff matters, so CIRO record rules do not apply",
+        "D": "Its records must cover only incentives that give a direct benefit to the client"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3804(2)(xvii) requires records of compensation arrangements and incentive practices. IDPC 3804(2)(xvi) requires records that show compliance with conflicts requirements. Disclosure alone never satisfies the conflicts rule (IDPC 3113(3)).",
+      "rule_refs": [
+        "IDPC 3804(2)(xvi)",
+        "IDPC 3804(2)(xvii)",
+        "IDPC 3113(3)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the Dealer Member’s sales practices, compensation arrangements and incentive practices\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3804(2)(xvii)(a), ~L8367"
+    }
+  ]
+}

@@ -1,0 +1,809 @@
+{
+  "meta": {
+    "batch": "E5-001",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E5-0001",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under securities law, which feature makes an investment fund a mutual fund, and not a non-redeemable investment fund?",
+      "options": {
+        "A": "Its securities give the holder a right to redeem on demand at an amount based on net assets.",
+        "B": "Its securities trade on a stock exchange at a price that supply and demand set.",
+        "C": "It invests money from many investors under the direction of a professional manager.",
+        "D": "It distributes all of its net income and net capital gains to investors each year."
+      },
+      "answer": "A",
+      "rationale": "A mutual fund's securities entitle the holder to receive, on demand, an amount based on the fund's net assets. A non-redeemable investment fund also pools investor money under a manager. So pooling does not separate the two, but the redemption right does.",
+      "rule_refs": [
+        "Securities Act (Ontario) s. 1(1)",
+        "NI 81-106 s. 1.1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"“mutual fund” means an issuer whose primary purpose is to invest money provided by its security holders and whose securities entitle the holder to receive on demand, or within a specified period after demand, an amount computed by reference to the value of a proportionate interest\" — research/sources/gov/ontario-securities-act-extracts.txt Securities Act (Ontario) s.1(1) 'mutual fund', ~L180"
+    },
+    {
+      "id": "RSE-E5-0002",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A closed-end fund and an ETF both trade on a stock exchange. Why can the closed-end fund trade at a persistent discount to NAV, while the ETF usually does not?",
+      "options": {
+        "A": "The ETF must calculate its NAV each hour, but the closed-end fund calculates it once a year.",
+        "B": "The closed-end fund must hold only illiquid assets, but the ETF must hold only index securities.",
+        "C": "The ETF has a creation and redemption process that lets authorized dealers keep its price near NAV.",
+        "D": "The closed-end fund cannot pay distributions, but the ETF must pay distributions each month."
+      },
+      "answer": "C",
+      "rationale": "Only an ETF has a creation and redemption process. Authorized dealers use it for arbitrage when the price moves away from NAV. A closed-end fund issues units mainly at its IPO, so supply does not adjust and a discount can persist.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.1 exam trap and 5.5 creation and redemption"
+    },
+    {
+      "id": "RSE-E5-0003",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Priya buys shares of a mutual fund corporation in a non-registered account. Which tax slip does she receive for the fund's distributions?",
+      "options": {
+        "A": "A T3 slip, because the fund passes its income through to her as a trust",
+        "B": "A T5 slip, because the corporation pays dividends and capital gains dividends",
+        "C": "No slip, because the corporation pays the tax on all income inside the fund",
+        "D": "Both a T3 slip and a T5 slip, because she holds both units and shares"
+      },
+      "answer": "B",
+      "rationale": "A mutual fund corporation issues shares and pays dividends and capital gains dividends, which it reports on a T5 slip. A mutual fund trust issues units and gives a T3 slip. Priya holds shares of a corporation, so the T3 answer is wrong.",
+      "rule_refs": [
+        "CRA Tax treatment of mutual funds"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"If you own units of a mutual fund trust, the trust will give you a T3 slip, Statement of Trust Income Allocations and Designations. If you own shares of a mutual fund corporation, the corporation will give you a T5 slip\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA 'Tax treatment of mutual funds' — How income is taxed, ~L1604"
+    },
+    {
+      "id": "RSE-E5-0004",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A conventional mutual fund holds 9% of its NAV in securities of one issuer. The portfolio manager wants to buy more, which would take the position to 12% of NAV. For which issuer is this purchase permitted?",
+      "options": {
+        "A": "A Canadian chartered bank, through its common shares",
+        "B": "A utility company, through its senior bonds",
+        "C": "A mining company, through its preferred shares",
+        "D": "The Government of Canada, through its bonds"
+      },
+      "answer": "D",
+      "rationale": "A conventional mutual fund must not buy a security if more than 10% of its NAV would then be in one issuer. The limit does not apply to a government security. A corporate bond is still a security of one issuer, so the utility purchase breaks the limit.",
+      "rule_refs": [
+        "NI 81-102 s. 2.1(1)",
+        "NI 81-102 s. 2.1(2)(a)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"(a) a government security;\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.1(2)(a), ~L1050"
+    },
+    {
+      "id": "RSE-E5-0005",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Malik holds 75% of his account in one energy fund with 50 stocks. He asks his RR to buy more and says, \"A fund is always diversified.\" Which assessment is most accurate?",
+      "options": {
+        "A": "The fund holds 50 stocks, so the account is diversified, and concentration is not a suitability factor here.",
+        "B": "The fund obeys the 10% single-issuer limit, so the dealer may treat the whole account as diversified.",
+        "C": "The fund spreads risk over many issuers, but the account is concentrated in one sector, and the dealer must consider this.",
+        "D": "Concentration applies only to individual stocks, so the dealer may accept the order with no further review."
+      },
+      "answer": "C",
+      "rationale": "A sector fund spreads money over many issuers, but one sector shock hits the whole holding. The single-issuer limit counts issuers, not sectors. Under IDPC 3402(1), the dealer must consider the concentration of securities in the account.",
+      "rule_refs": [
+        "IDPC 3402(1)(i)(c)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the impact of the action on the retail client’s account, including the concentration of securities, derivatives or precious metals bullion, within the account and the liquidity of those securities, derivatives or precious metals bullion,\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(1)(i)(c), ~L6803"
+    },
+    {
+      "id": "RSE-E5-0006",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement about who holds a mutual fund's portfolio assets is correct?",
+      "options": {
+        "A": "A custodian holds them, and the manager must not act as custodian of the fund.",
+        "B": "The manager holds them, because the manager directs the business of the fund.",
+        "C": "The principal distributor holds them, because it sells the units of the fund.",
+        "D": "Each participating dealer holds the assets that belong to its own clients."
+      },
+      "answer": "A",
+      "rationale": "The portfolio assets are held under the custodianship of one custodian. NI 81-102 says that the manager must not act as custodian or sub-custodian. This split protects investors, because the firm that directs the fund does not also hold its assets.",
+      "rule_refs": [
+        "NI 81-102 s. 6.1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Despite any other provisions of this Part, the manager of an investment fund must not act as custodian or sub-custodian of the investment fund.\" — research/sources/csa/ni-81-102-part-6-custodianship-part-11-commingling-of-cash.txt NI 81-102 s.6.1(6), ~L84"
+    },
+    {
+      "id": "RSE-E5-0007",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ravi places an order to buy units of a mutual fund on Tuesday, after the daily cut-off time. The fund treats late orders as received on the next business day. At which price does the fund fill his order?",
+      "options": {
+        "A": "The NAVPS that the fund calculated at the close on Monday",
+        "B": "The NAVPS that the fund calculates at the close on Tuesday",
+        "C": "The market price at the time that the fund receives the order",
+        "D": "The NAVPS that the fund calculates at the close on Wednesday"
+      },
+      "answer": "D",
+      "rationale": "Under forward pricing, the fund uses the NAVPS next determined after it receives the order. The fund treats Ravi's late order as received on Wednesday, so Wednesday's NAVPS applies. Forward pricing stops investors from buying at a known, stale price.",
+      "rule_refs": [
+        "NI 81-102 s. 9.3"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The issue price of a security of a mutual fund to which a purchase order pertains must be the net asset value per security of that class, or series of a class, next determined after the receipt by the mutual fund of the order.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.9.3(1), ~L2408"
+    },
+    {
+      "id": "RSE-E5-0008",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A mutual fund uses specified derivatives to hedge its currency risk. Under NI 81-106, what is the minimum frequency at which it must calculate its NAV?",
+      "options": {
+        "A": "Once a week",
+        "B": "Every business day",
+        "C": "Once a month",
+        "D": "At each quarter end"
+      },
+      "answer": "B",
+      "rationale": "NI 81-106 sets a weekly minimum for a fund that does not use specified derivatives or sell short. A fund that uses specified derivatives or sells short must calculate NAV every business day. The monthly exception applies only to the weekly minimum.",
+      "rule_refs": [
+        "NI 81-106 s. 14.2(3)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"(a) if the investment fund does not use specified derivatives or sell securities short, once a week; (b) if the investment fund uses specified derivatives or sells securities short, once every business day.\" — research/sources/csa/ni-81-106-investment-fund-continuous-disclosure-nav-mer.txt NI 81-106 s.14.2(3), ~L439"
+    },
+    {
+      "id": "RSE-E5-0009",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Under the NI 81-102 risk classification method, a mutual fund's 10-year annualized standard deviation is exactly 16.0%. Which risk level applies to the fund?",
+      "options": {
+        "A": "Medium",
+        "B": "Medium to high",
+        "C": "High",
+        "D": "Low to medium"
+      },
+      "answer": "B",
+      "rationale": "The medium band is 11 to less than 16. The medium-to-high band is 16 to less than 20. A standard deviation of exactly 16.0% is therefore in the medium-to-high band, not the medium band.",
+      "rule_refs": [
+        "NI 81-102 Appendix F Item 1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"0 to less than 6 Low 6 to less than 11 Low to medium 11 to less than 16 Medium 16 to less than 20 Medium to high 20 or greater High\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 Appendix F Item 1(1) table, ~L3655-3685"
+    },
+    {
+      "id": "RSE-E5-0010",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A new mutual fund has 3 years of returns. It is a clone fund, and its underlying fund has 12 years of history. The manager prefers to use a broad reference index for the missing years. What must the manager do?",
+      "options": {
+        "A": "Use the reference index, because the manager may choose any proxy.",
+        "B": "Use only the 3 years of returns that the fund itself has earned.",
+        "C": "Use the returns of the underlying fund for the missing 7 years.",
+        "D": "Wait until the fund has 10 years of returns before it sets a level."
+      },
+      "answer": "C",
+      "rationale": "A fund with less than 10 years of history fills the missing years from a proxy. A clone fund whose underlying fund has 10 years of history must use that fund's returns. A reference index applies only when no clone or matching fund exists.",
+      "rule_refs": [
+        "NI 81-102 Appendix F Item 4"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"if the mutual fund is a clone fund and the underlying fund has 10 years of performance history,\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 Appendix F Item 4(1), ~L3776"
+    },
+    {
+      "id": "RSE-E5-0011",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Nadia sees a \"Low\" risk rating in a fund's Fund Facts. She tells her RR that the fund cannot lose money. Which reply is correct?",
+      "options": {
+        "A": "The rating reflects past volatility, and a low-rated fund can still lose money.",
+        "B": "The rating guarantees that the fund will not fall in value over 10 years.",
+        "C": "The rating measures the chance of loss, so a loss is very unlikely.",
+        "D": "The rating is fixed at launch, so it shows the fund's future volatility."
+      },
+      "answer": "A",
+      "rationale": "The risk level comes from the annualized standard deviation of past returns. Fund Facts must say that the rating does not show future volatility and that a low-rated fund can still lose money. The rating does not measure the chance of loss.",
+      "rule_refs": [
+        "Form 81-101F3 Part I Item 4"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"It doesn’t tell you how volatile the fund will be in the future. The rating can change over time. A fund with a low risk rating can still lose money.\" — research/sources/csa/form-81-101f3-fund-facts.txt Form 81-101F3 Part I Item 4(2)(b), ~L395"
+    },
+    {
+      "id": "RSE-E5-0012",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "During the day, an ETF's market price rises well above the NAV of its holdings. Which action by authorized dealers usually moves the price back toward NAV?",
+      "options": {
+        "A": "They buy units on the exchange and return them to the ETF in exchange for the basket.",
+        "B": "They ask the manager to suspend trading in the ETF until its market price falls.",
+        "C": "They ask the manager to calculate a new NAV for the ETF at a higher value.",
+        "D": "They deliver a basket of securities for new units and sell those units on the exchange."
+      },
+      "answer": "D",
+      "rationale": "When the price is above NAV, authorized dealers create units with a basket and sell them, which adds supply. Buying units and redeeming them is the correct action when the price is below NAV, not above it.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.5 creation and redemption, arbitrage"
+    },
+    {
+      "id": "RSE-E5-0013",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Oskar wants to buy a thinly traded ETF. He plans to place a market order two minutes after the market opens. Which advice best protects him from paying too much?",
+      "options": {
+        "A": "Use a market order, because a market order always fills at the ETF's NAV.",
+        "B": "Check the average bid-ask spread, and use a limit order or trade later in the day.",
+        "C": "Place the order after the close, so that it fills at the next calculated NAV.",
+        "D": "Buy a larger number of units, because a larger order narrows the spread."
+      },
+      "answer": "B",
+      "rationale": "Prices can be more volatile near the open, and a thin market has a wide spread. A market order fills at the best price available now, not at NAV. ETF Facts suggests a limit order or a trade at another time of day.",
+      "rule_refs": [
+        "Form 41-101F4 Part I Item 6"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Consider using a limit order or placing a trade at another time\" — research/sources/csa/form-41-101f4-etf-facts.txt Form 41-101F4 Part I Item 6, ~L926"
+    },
+    {
+      "id": "RSE-E5-0014",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A conventional mutual fund receives unusually large redemption requests. Which cash borrowing is permitted for the fund?",
+      "options": {
+        "A": "A temporary loan of up to 5% of NAV to pay redemptions while it sells assets in an orderly way",
+        "B": "A temporary loan of up to 50% of NAV from a lender that can act as a fund custodian",
+        "C": "A permanent loan of up to 5% of NAV to buy more securities for the portfolio",
+        "D": "A loan of up to 300% of NAV, if the fund also sells securities short"
+      },
+      "answer": "A",
+      "rationale": "A conventional mutual fund may borrow only as a temporary measure, to meet redemptions or settle trades. Its total borrowing must not exceed 5% of NAV. The 50% limit applies to alternative mutual funds and non-redeemable investment funds.",
+      "rule_refs": [
+        "NI 81-102 s. 2.6(1)(a)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the transaction is a temporary measure to accommodate requests for the redemption of securities of the investment fund while the investment fund effects an orderly liquidation of portfolio assets, or to permit the investment fund to settle portfolio transactions\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.6(1)(a)(i), ~L1471"
+    },
+    {
+      "id": "RSE-E5-0015",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which feature best describes a smart-beta ETF?",
+      "options": {
+        "A": "It weights securities by market capitalization, like a standard broad index.",
+        "B": "Its manager selects securities freely to beat a benchmark each year.",
+        "C": "It follows rules that weight securities by factors such as value or low volatility.",
+        "D": "It uses swaps to deliver twice the daily return of an index."
+      },
+      "answer": "C",
+      "rationale": "A smart-beta index follows rules, like a passive index, but it weights securities by factors, not by market capitalization. An active manager selects securities freely. A fund that seeks a multiple of the daily return is a leveraged fund.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.6 smart beta and factor investing"
+    },
+    {
+      "id": "RSE-E5-0016",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Hugo holds a 2x leveraged ETF that resets daily. He holds it for one year, and its index rises over that year. Which outcome is possible?",
+      "options": {
+        "A": "The ETF returns exactly two times the annual return of its index.",
+        "B": "The ETF returns at least the annual return of its index.",
+        "C": "The ETF returns the index return minus two times its MER.",
+        "D": "The ETF falls in value, because its daily returns compound over the year."
+      },
+      "answer": "D",
+      "rationale": "A leveraged ETF that resets daily has a daily objective. Daily returns compound, so the return over a longer period can differ sharply from the multiple. CIRO notes that a 2x ETF may fall over a year while its index rises.",
+      "rule_refs": [
+        "CIRO GN-3400-21-001 s. 1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"an ETF that seeks to deliver twice the daily return of a specific index may decrease in value over a one or two year period while the underlying index may increase in value over the same period.\" — research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt GN-3400-21-001 s.1, ~L52"
+    },
+    {
+      "id": "RSE-E5-0017",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer acts as agent for a client who buys units of an ETF for the first time. When must the dealer deliver the ETF Facts?",
+      "options": {
+        "A": "Before the dealer accepts the purchase instruction from the client",
+        "B": "Not later than midnight on the second business day after the purchase",
+        "C": "Within 30 days after the end of the month in which the client bought",
+        "D": "Only if the client asks the dealer for the document in writing"
+      },
+      "answer": "B",
+      "rationale": "For an ETF, the dealer must deliver the ETF Facts not later than midnight on the second business day after the purchase. Delivery before the dealer accepts the instruction is the normal rule for Fund Facts, not for ETF Facts.",
+      "rule_refs": [
+        "NI 41-101 s. 3C.2"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"deliver or send to the purchaser the most recently filed ETF facts document for the applicable class or series of securities of the ETF not later than midnight on the second business day after entering into the purchase of the security.\" — research/sources/csa/ni-41-101-general-prospectus-requirements.txt NI 41-101 s.3C.2(2), ~L1330"
+    },
+    {
+      "id": "RSE-E5-0018",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Lena tells her dealer that her mutual fund purchase must be completed immediately. Delivery of the Fund Facts before then is not reasonably practicable. What else must the dealer do before it accepts the order?",
+      "options": {
+        "A": "Get her blanket written consent to later delivery of Fund Facts for all of her future purchases.",
+        "B": "Deliver the simplified prospectus at once, because it replaces the Fund Facts for urgent orders.",
+        "C": "Explain the Fund Facts, get her consent to later delivery for this purchase, and give a verbal summary.",
+        "D": "Nothing more, because an urgent instruction from the client removes the Fund Facts delivery rule."
+      },
+      "answer": "C",
+      "rationale": "The urgent-purchase exception needs more than the client's instruction. Before it accepts the order, the dealer explains Fund Facts and its delivery duty. It gets consent for that specific purchase and gives a verbal summary. A blanket consent is not valid.",
+      "rule_refs": [
+        "NI 81-101 s. 3.2.02"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the purchaser instructs the dealer that the purchase must be completed immediately or by a specified time;\" — research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt NI 81-101 s.3.2.02(1)(a), ~L1362"
+    },
+    {
+      "id": "RSE-E5-0019",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Marco bought units of an ETF yesterday and has changed his mind. Under securities law in some provinces and territories, which right does the ETF Facts describe?",
+      "options": {
+        "A": "A right to cancel the purchase within 48 hours after he receives the confirmation",
+        "B": "A right to withdraw within two business days after he receives the ETF Facts",
+        "C": "A right to redeem the units at NAV with no fee within 30 days of the purchase",
+        "D": "A right to cancel the purchase at any time before the next distribution date"
+      },
+      "answer": "A",
+      "rationale": "ETF Facts describes a right to cancel within 48 hours after the confirmation, in some provinces and territories. It gives no two-day withdrawal right. That right applies to a mutual fund purchase after receipt of a simplified prospectus or Fund Facts.",
+      "rule_refs": [
+        "Form 41-101F4 Part II Item 2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Under securities law in some provinces and territories, you have the right to cancel your purchase within 48 hours after you receive confirmation of the purchase.\" — research/sources/csa/form-41-101f4-etf-facts.txt Form 41-101F4 Part II Item 2, ~L1140"
+    },
+    {
+      "id": "RSE-E5-0020",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Thea added a large sum to a fund just before the market fell. Her annual report shows a return well below the fund's published return. Which statement best explains the gap?",
+      "options": {
+        "A": "Her report uses a time-weighted return, which removes the effect of her cash flows.",
+        "B": "The fund's published return includes sales charges, but her own return excludes them.",
+        "C": "The manager's poor decisions affected her units more than the units of other investors.",
+        "D": "Her report uses a money-weighted return, which reflects the timing of her cash flows."
+      },
+      "answer": "D",
+      "rationale": "A money-weighted return depends on the timing and size of deposits, so money added before a decline lowers it. The fund's published return is time-weighted, and cash flows do not affect it. Published returns also exclude sales charges.",
+      "rule_refs": [
+        "IDPC 3810(2)(v)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.8 MWRR vs TWRR and exam trap"
+    },
+    {
+      "id": "RSE-E5-0021",
+      "element": 5,
+      "outcome": "5.8",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A rating service compares a fund with the average of its peer group. Some funds in the group closed during the period and dropped out of the data. Which problem does this cause?",
+      "options": {
+        "A": "Style drift, because the fund moved away from its stated investment style",
+        "B": "Survivorship bias, because only the surviving funds remain in the average",
+        "C": "Tracking difference, because the fund's return differed from its index return",
+        "D": "Concentration, because the peer group now holds too few funds to compare"
+      },
+      "answer": "B",
+      "rationale": "Closed or merged funds drop out of the data, so only survivors remain, and their average looks too good. Style drift is a different problem: a fund moves away from its stated style, so its peers no longer match it.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.8 peer group, survivorship bias"
+    },
+    {
+      "id": "RSE-E5-0022",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The Larchmont Income Fund has total assets of $82,400,000 and total liabilities of $1,400,000. It has 6,000,000 units outstanding. What is its NAVPS?",
+      "options": {
+        "A": "$13.73",
+        "B": "$13.97",
+        "C": "$13.50",
+        "D": "$13.27"
+      },
+      "answer": "C",
+      "rationale": "NAVPS = (total assets - total liabilities) / units outstanding = (82,400,000 - 1,400,000) / 6,000,000 = $13.50. The $13.73 answer ignores the liabilities, and the $13.97 answer adds them.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: (82,400,000 - 1,400,000) / 6,000,000 = 13.50; distractors 82.4/6 = 13.73 (no liabilities), 83.8/6 = 13.97 (adds liabilities), 79.6/6 = 13.27 (subtracts twice)"
+    },
+    {
+      "id": "RSE-E5-0023",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Wren invests $25,000 in a mutual fund. She pays a 4% front-end sales charge, which the dealer deducts from the amount invested. The NAVPS is $16.00. How many units does she receive?",
+      "options": {
+        "A": "1,500.00 units",
+        "B": "1,562.50 units",
+        "C": "1,625.00 units",
+        "D": "1,437.50 units"
+      },
+      "answer": "A",
+      "rationale": "The charge is 0.04 x 25,000 = $1,000, so the net amount invested is $24,000. Units issued = 24,000 / 16.00 = 1,500. The 1,562.50 answer ignores the sales charge.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 25,000 x 0.96 / 16.00 = 1,500; distractors 25,000/16 = 1,562.50 (no charge), 26,000/16 = 1,625 (adds charge), 25,000 x 0.92 / 16 = 1,437.50 (deducts twice)"
+    },
+    {
+      "id": "RSE-E5-0024",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "One year ago, a fund's NAVPS was $15.00. Today it is $15.90, after cash distributions of $0.60 per unit. What is the fund's total return per unit for the year?",
+      "options": {
+        "A": "6.0%",
+        "B": "4.0%",
+        "C": "9.4%",
+        "D": "10.0%"
+      },
+      "answer": "D",
+      "rationale": "Total return = (ending NAVPS - beginning NAVPS + distributions) / beginning NAVPS = (15.90 - 15.00 + 0.60) / 15.00 = 10.0%. The 6.0% answer ignores the distributions, and 9.4% wrongly divides by the ending NAVPS.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: (15.90 - 15.00 + 0.60) / 15.00 = 0.100; distractors 0.90/15 = 6.0%, 0.60/15 = 4.0%, 1.50/15.90 = 9.4%"
+    },
+    {
+      "id": "RSE-E5-0025",
+      "element": 5,
+      "outcome": "5.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Dmitri held 800 units of a fund one year ago at a NAVPS of $25.00. Today the NAVPS is $26.00, after cash distributions of $0.75 per unit. The fund's benchmark returned 8.5%. Which statement is correct?",
+      "options": {
+        "A": "His holding is worth $20,800, and the fund beat its benchmark by 1.5 percentage points.",
+        "B": "His holding is worth $20,800, and the fund lagged its benchmark by 1.5 percentage points.",
+        "C": "His holding is worth $21,400, and the fund lagged its benchmark by 1.5 percentage points.",
+        "D": "His holding is worth $20,800, and the fund lagged its benchmark by 4.5 percentage points."
+      },
+      "answer": "B",
+      "rationale": "Value = 800 x 26.00 = $20,800, because the distributions were paid in cash. Total return = (26.00 - 25.00 + 0.75) / 25.00 = 7.0%. This is 1.5 points below the 8.5% benchmark. The 4.5 answer ignores the distributions.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 800 x 26.00 = 20,800; (26.00 - 25.00 + 0.75) / 25.00 = 0.07; 8.5 - 7.0 = 1.5; distractors 800 x 26.75 = 21,400, 1.00/25 = 4.0% -> 4.5 lag"
+    },
+    {
+      "id": "RSE-E5-0026",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which cost is excluded from a mutual fund's MER and shown instead in its trading expense ratio (TER)?",
+      "options": {
+        "A": "The trailing commission that the fund pays to the client's dealer",
+        "B": "The management fee that the fund pays to the fund manager",
+        "C": "Commissions that the fund pays to buy and sell its portfolio securities",
+        "D": "The legal, audit and other operating expenses of the fund"
+      },
+      "answer": "C",
+      "rationale": "The MER covers the management fee, including any trailing commission, plus operating expenses. The fund's trading costs, such as commissions on portfolio trades, are excluded from the MER and appear in the TER.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.10 MER and TER table"
+    },
+    {
+      "id": "RSE-E5-0027",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Kofi holds a Canadian-listed ETF of U.S. dividend stocks in his TFSA. The ETF is a trust, and U.S. tax is withheld on the dividends. What is true about this withholding tax?",
+      "options": {
+        "A": "It is unrecoverable, because he does not report the income and so has no foreign tax credit.",
+        "B": "It is recoverable, because the trust passes the foreign tax through to him on a T3 slip.",
+        "C": "It is recoverable, because the tax treaty exempts all registered plans from U.S. tax.",
+        "D": "It does not apply, because U.S. law exempts every TFSA from withholding tax on dividends."
+      },
+      "answer": "A",
+      "rationale": "Income in a TFSA is generally tax-free, so Kofi does not report the foreign income on his return. Without reported income, he cannot claim a foreign tax credit. The T3 pass-through helps only in a non-registered account.",
+      "rule_refs": [
+        "CRA What is a TFSA",
+        "CRA Foreign tax credit"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"any income you earn through interest, dividends or capital gains are generally tax-free\" — research/sources/cra/tfsa-pages.txt CRA 'What is a TFSA', ~L167"
+    },
+    {
+      "id": "RSE-E5-0028",
+      "element": 5,
+      "outcome": "5.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Sana holds a mutual fund in a non-registered account and reinvests all distributions in new units. How are the distributions taxed?",
+      "options": {
+        "A": "They are tax-free, because she did not receive any cash from the fund.",
+        "B": "They are taxable only when she redeems the new units that she received.",
+        "C": "They reduce her ACB, so the tax is deferred until she sells her units.",
+        "D": "They are taxable in the year she receives them, as if she had received cash."
+      },
+      "answer": "D",
+      "rationale": "In a non-registered account, distributions are taxable whether she gets them in cash or reinvests them. The CRA considers that she received the amounts before the reinvestment. Only a return of capital reduces the ACB.",
+      "rule_refs": [
+        "Form 81-101F3 Part I Item 8",
+        "CRA Tax treatment of mutual funds"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Keep in mind that if you hold your fund in a non-registered account, fund distributions are included in your taxable income, whether you get them in cash or have them reinvested.\" — research/sources/csa/form-81-101f3-fund-facts.txt Form 81-101F3 Part I Item 8, ~L695"
+    },
+    {
+      "id": "RSE-E5-0029",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Yusuf holds T-series units of a mutual fund trust in a non-registered account. Return of capital has already reduced his ACB to zero. This year he receives another $900 of return of capital. What is the tax effect?",
+      "options": {
+        "A": "The $900 is not taxed now, and his ACB becomes negative $900.",
+        "B": "The $900 is taxed as interest income, and his ACB stays at zero.",
+        "C": "The $900 is a deemed capital gain this year, and his ACB stays at zero.",
+        "D": "The $900 is not taxed now, and he pays tax on it only at a sale."
+      },
+      "answer": "C",
+      "rationale": "Return of capital reduces the ACB and defers tax. For mutual fund trust units, an ACB below zero gives a deemed capital gain in the year. The ACB then resets to zero, so the tax is not deferred to the sale.",
+      "rule_refs": [
+        "CRA Tax treatment of mutual funds"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"If the ACB of the units of the trust is reduced below zero during the tax year, the negative amount is deemed to be a capital gain in the year.\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA 'Tax treatment of mutual funds', ~L1696"
+    },
+    {
+      "id": "RSE-E5-0030",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A conventional mutual fund holds 45% of its assets in securities listed on one foreign exchange. That exchange halts all trading for two days, and no other market trades the securities. The fund has no regulatory approval. May it suspend redemptions?",
+      "options": {
+        "A": "Yes, because any exchange halt lets a mutual fund suspend redemptions.",
+        "B": "No, because the halted exchange lists less than 50% of the fund's assets.",
+        "C": "Yes, if the fund continues to accept purchases during the suspension.",
+        "D": "No, because a mutual fund may never suspend redemptions for any reason."
+      },
+      "answer": "B",
+      "rationale": "Without approval, a mutual fund may suspend redemptions if trading halts on an exchange that lists more than 50% of its assets. No practical alternative market must exist. At 45%, that condition fails. A permitted suspension also bars new purchases.",
+      "rule_refs": [
+        "NI 81-102 s. 10.6"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"represent more than 50% by value, or underlying market exposure, of the total assets of the investment fund without allowance for liabilities and if those securities or specified derivatives are not traded on any other exchange that represents a reasonably practical alternative\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.10.6(1)(a), ~L2774"
+    },
+    {
+      "id": "RSE-E5-0031",
+      "element": 5,
+      "outcome": "5.11",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Ama sets up a monthly withdrawal plan from her mutual funds with her Registered Individual. Under CIRO guidance, when should a suitability determination take place?",
+      "options": {
+        "A": "When the plan is established, and when a triggering event occurs",
+        "B": "Before each monthly withdrawal that the plan makes from her funds",
+        "C": "Only at the annual account review, and not when the plan starts",
+        "D": "At no time, because planned withdrawals are outside the suitability rule"
+      },
+      "answer": "A",
+      "rationale": "CIRO guidance says planned withdrawals need no suitability determination before each withdrawal. The Registered Individual should make one before the plan starts and when a triggering event occurs. So a review before each monthly payment is not required.",
+      "rule_refs": [
+        "CIRO GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Pre-authorized purchases or withdrawals pursuant to established plans do not require a suitability determination before each purchase or withdrawal. However, a Registered Individual should make a suitability determination before establishing a plan and when a triggering event occurs.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004, ~L634"
+    },
+    {
+      "id": "RSE-E5-0032",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ines has $8,000 to invest and can add $150 each month. She has little time or investment knowledge. Which choice is most likely suitable for her?",
+      "options": {
+        "A": "Three bank stocks, with a commission on each monthly purchase",
+        "B": "A single sector fund that holds only technology stocks",
+        "C": "An ETF bought each month, with a commission on each $150 trade",
+        "D": "A diversified mutual fund with a pre-authorized monthly purchase plan"
+      },
+      "answer": "D",
+      "rationale": "Her small amounts cannot buy a diversified portfolio of stocks at a low cost. A diversified fund gives diversification and professional management. Small automatic purchases cost nothing extra in a mutual fund, but each ETF trade has a commission and a spread.",
+      "rule_refs": [
+        "IDPC 3402(1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.12 investor decisions and RR recommendation"
+    },
+    {
+      "id": "RSE-E5-0033",
+      "element": 5,
+      "outcome": "5.12",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Felix has $2 million in a non-registered account, all in high-MER equity funds. He follows markets closely and wants to decide when to realize capital gains. Which recommendation best puts his interest first?",
+      "options": {
+        "A": "Keep the funds, because a large account gains the most from pooled management and fees.",
+        "B": "Consider direct holdings or a managed account, and weigh the tax cost of selling the funds.",
+        "C": "Switch to other high-MER funds that pay a higher trailing commission to the dealer.",
+        "D": "Sell all the funds at once, because tax costs are not a factor in a recommendation."
+      },
+      "answer": "B",
+      "rationale": "The MERs apply to his whole $2 million each year, so costs have a large impact on his returns. Direct holdings give him control of trades and of the timing of gains. The dealer must consider costs and a reasonable range of alternatives.",
+      "rule_refs": [
+        "IDPC 3402(1)(i)(d)",
+        "IDPC 3402(1)(i)(e)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the potential and actual impact of costs on the retail client’s returns, and\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(1)(i)(d), ~L6806"
+    },
+    {
+      "id": "RSE-E5-0034",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement about a principal-protected note (PPN) that a bank issues is correct?",
+      "options": {
+        "A": "It pays a fixed rate of interest each year, whatever the index does.",
+        "B": "It has no credit risk, because the issuer guarantees the principal.",
+        "C": "Its payments link to an index, and it repays at least the amount paid for it.",
+        "D": "It can be sold before maturity for the full amount paid, at any time."
+      },
+      "answer": "C",
+      "rationale": "Under the Bank Act, a PPN pays amounts linked to an index or reference point and repays at least the amount paid. It may pay no interest. It still carries the issuer's credit risk, and it can be hard to sell before maturity.",
+      "rule_refs": [
+        "Bank Act s. 627.01"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"provides that the principal amount that the institution is obligated to repay at or before the note’s maturity is equal to or greater than the total paid by the person for the note.\" — research/sources/gov/bank-act-ppn-disclosure-extracts.txt Bank Act s.627.01 'principal-protected note', ~L41"
+    },
+    {
+      "id": "RSE-E5-0035",
+      "element": 5,
+      "outcome": "5.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which feature defines an alternative mutual fund (a \"liquid alt\")?",
+      "options": {
+        "A": "Its objectives let it borrow, sell short or use derivatives beyond conventional fund limits.",
+        "B": "It sells its units only to accredited investors under a prospectus exemption.",
+        "C": "Its units trade only on an exchange, and investors have no right to redeem them.",
+        "D": "It invests only in private companies, through a limited partnership structure."
+      },
+      "answer": "A",
+      "rationale": "An alternative mutual fund is a public mutual fund with a prospectus. Its objectives permit commodities, crypto assets, specified derivatives, borrowing or short selling in a manner not permitted for other mutual funds. Hedge funds, not liquid alts, use prospectus exemptions.",
+      "rule_refs": [
+        "NI 81-102 s. 1.1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"that has adopted fundamental investment objectives that permit it to invest in physical commodities, crypto assets or specified derivatives, to borrow cash or engage in short selling in a manner not permitted for other mutual funds under this Instrument;\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.1.1 'alternative mutual fund', ~L220"
+    },
+    {
+      "id": "RSE-E5-0036",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A hedge fund charges a 20% performance fee above an 8% hurdle rate and uses a high-water mark. This year its NAVPS starts above its previous peak and rises 6%. Does the manager earn a performance fee?",
+      "options": {
+        "A": "Yes, because the NAVPS is above its high-water mark for the year.",
+        "B": "Yes, on the full 6% return, because the fund had no losses this year.",
+        "C": "No, because a performance fee applies only in the year after a loss.",
+        "D": "No, because the return for the year is below the 8% hurdle rate."
+      },
+      "answer": "D",
+      "rationale": "A hurdle rate is the minimum return before the manager earns any performance fee. The fund is above its high-water mark, so that test passes. But the 6% return is below the 8% hurdle, so the manager earns no performance fee.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 5.14 fees: management, performance, hurdle rate, high-water mark"
+    },
+    {
+      "id": "RSE-E5-0037",
+      "element": 5,
+      "outcome": "5.14",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Jonah had net income before taxes of $180,000 in each of the last 2 calendar years. His spouse had $140,000 in each year, and they expect similar income this year. Does Jonah meet an accredited investor income test?",
+      "options": {
+        "A": "No, because his own net income is below $200,000.",
+        "B": "No, because his financial assets are not shown to exceed $1 million.",
+        "C": "Yes, because their combined net income is more than $300,000.",
+        "D": "Yes, because his own net income is more than $150,000."
+      },
+      "answer": "C",
+      "rationale": "Form 45-106F9 has a combined test with a spouse. Combined net income must exceed $300,000 in each of the 2 most recent years, and be expected this year. Their total is $320,000. He fails the $200,000 individual test, but one test is enough.",
+      "rule_refs": [
+        "NI 45-106 s. 1.1(k)",
+        "Form 45-106F9"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Your net income before taxes combined with your spouse’s was more than $300,000 in each of the 2 most recent calendar years\" — research/sources/csa/form-45-106f9-individual-accredited-investor-risk-acknowledgement.txt Form 45-106F9 s.3, ~L55"
+    }
+  ]
+}
