@@ -1,0 +1,1157 @@
+{
+  "meta": {
+    "batch": "E8-003",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E8-0021",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Thaddeus Moravec complains that one of his fills was a few cents worse than a price on another marketplace. His dealer has best execution policies and follows them. Which statement is correct?",
+      "options": {
+        "A": "The dealer can meet its duty even if one trade does not get the best price.",
+        "B": "The dealer breached its duty, because every fill must get the best available price.",
+        "C": "The dealer must refund the difference, because best execution guarantees the price.",
+        "D": "The dealer has no best execution duty, because price is not one of the factors."
+      },
+      "answer": "A",
+      "rationale": "Best execution is a policies-and-procedures duty. CIRO says a dealer may not achieve best execution for every single trade. The dealer follows its policies, so one worse fill is not by itself a breach. Price is one of four factors, but the duty does not guarantee the best price on each fill.",
+      "rule_refs": [
+        "IDPC 3120",
+        "IDPC 3121",
+        "GN-URPART6-25-0003"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"may not be able to achieve best execution for every single trade it executes on behalf of a client.\" — research/sources/ciro/gn-urpart6-25-0003-best-execution-idpc-umir.txt GN-URPART6-25-0003 Q&A, ~line 104"
+    },
+    {
+      "id": "RSE-E8-0022",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Priya Aaltonen-Reyes tells her dealer to route her order in a way that would cause the dealer to break a CIRO requirement. How must the dealer treat this instruction?",
+      "options": {
+        "A": "The dealer must follow it, because client instructions always come first.",
+        "B": "The dealer must not follow the instruction.",
+        "C": "The dealer may follow it if Priya signs a written waiver.",
+        "D": "The dealer may follow it if the order is in an OEO account."
+      },
+      "answer": "B",
+      "rationale": "The dealer must consider client instructions in its best execution process (IDPC 3123). But CIRO says a dealer must not follow client instructions that would cause it to contravene CIRO requirements and securities laws. A waiver or an OEO account does not change this.",
+      "rule_refs": [
+        "IDPC 3123",
+        "GN-URPART6-25-0003"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"a Dealer must not follow client instructions that would cause the Dealer to contravene CIRO requirements and securities laws\" — research/sources/ciro/gn-urpart6-25-0003-best-execution-idpc-umir.txt GN-URPART6-25-0003 Q1.3.11, ~line 298"
+    },
+    {
+      "id": "RSE-E8-0023",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ignatius Ezeanya has an order-execution-only (OEO) account. He enters his own orders and gets no recommendations. Which statement about best execution for his orders is correct?",
+      "options": {
+        "A": "The dealer has no best execution obligation, because it gives no advice.",
+        "B": "Ignatius must find the best marketplace himself, because the account is OEO.",
+        "C": "The dealer keeps its best execution obligation for his orders.",
+        "D": "Best execution applies to his orders only above a set dollar amount."
+      },
+      "answer": "C",
+      "rationale": "CIRO says dealers retain a best execution obligation for orders from a client with an OEO account. The duty does not depend on whether the dealer gives advice. The rule sets no dollar minimum, and the client does not take over the dealer's duty.",
+      "rule_refs": [
+        "IDPC 3120",
+        "GN-URPART6-25-0003"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Dealers retain a best execution obligation with respect to orders from a client with an order execution only account\" — research/sources/ciro/gn-urpart6-25-0003-best-execution-idpc-umir.txt GN-URPART6-25-0003 Q1.4.1, ~line 319"
+    },
+    {
+      "id": "RSE-E8-0024",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Marisol Venkataraman enters a buy order and a sell order for the same stock at the same time. Both orders are for her own accounts at two dealers. Which term best describes the resulting trade?",
+      "options": {
+        "A": "Layering",
+        "B": "Cornering",
+        "C": "Front running",
+        "D": "A wash trade"
+      },
+      "answer": "D",
+      "rationale": "A trade with no change in beneficial or economic ownership is a wash trade. Policy 2.2 Part 1 treats it as manipulative by its very nature. Cornering needs trades with the intent of limiting supply. Layering uses non-genuine orders on the other side of the market.",
+      "rule_refs": [
+        "UMIR 2.2",
+        "UMIR Policy 2.2 Part 1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"(a) making a fictitious trade; (b) effecting a trade in a security or a derivative which involves no change in the beneficial or economic ownership;\" — research/sources/ciro/umir-2026-08-11.txt UMIR Policy 2.2 Part 1(a)-(b), ~lines 4137-4141"
+    },
+    {
+      "id": "RSE-E8-0025",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Bartholomew Quarshie places a genuine order to sell 5,000 shares. At the same time, he displays several large buy orders that he does not intend to fill. He wants others to buy from him at a higher price. Which practice is this?",
+      "options": {
+        "A": "Layering",
+        "B": "Quote stuffing",
+        "C": "Spoofing",
+        "D": "Abusive liquidity detection"
+      },
+      "answer": "A",
+      "rationale": "Layering puts a genuine order on one side of the market and non-genuine orders on the other side. The non-genuine orders bait others to trade with the genuine order at an artificial price. Spoofing uses non-genuine orders before the open to change the Calculated Opening Price.",
+      "rule_refs": [
+        "UMIR 2.2",
+        "GN-URPART7-26-0007"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Placing a bona fide order on one side of the market while simultaneously \"layering\" orders in the consolidated market display on the other side of the market without intention to trade\" — research/sources/ciro/gn-urpart7-26-0007-manipulative-deceptive-trading-practices.txt GN-URPART7-26-0007 Q2.1 'Layering', ~line 86"
+    },
+    {
+      "id": "RSE-E8-0026",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Before the market opens, Odalys Ashworth enters large buy orders that she does not intend to fill. She cancels them just before the open. She wants a higher Calculated Opening Price for her sell order. Which practice is this?",
+      "options": {
+        "A": "Layering",
+        "B": "Spoofing",
+        "C": "Quote manipulation",
+        "D": "A wash trade"
+      },
+      "answer": "B",
+      "rationale": "Spoofing is the entry of non-genuine orders in the pre-opening to affect the Calculated Opening Price to the advantage of the person who enters them. Quote manipulation changes the best bid or best ask during trading to get a better price on a dark trade.",
+      "rule_refs": [
+        "UMIR 2.2",
+        "GN-URPART7-26-0007"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The entry of non-bona fide orders in the pre-opening on a marketplace that displays a \"Calculated Opening Price\"\" — research/sources/ciro/gn-urpart7-26-0007-manipulative-deceptive-trading-practices.txt GN-URPART7-26-0007 Q2.1 'Spoofing', ~line 92"
+    },
+    {
+      "id": "RSE-E8-0027",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Kasimir Adebayo sends many small orders in a stock to find out if a large buyer is present. When he finds one, he buys ahead of that buyer. Which practice is this?",
+      "options": {
+        "A": "Quote stuffing",
+        "B": "Layering",
+        "C": "Abusive liquidity detection",
+        "D": "Spoofing"
+      },
+      "answer": "C",
+      "rationale": "Abusive liquidity detection uses orders to detect a large buyer or seller, with the intention to trade ahead of that interest. Quote stuffing floods systems with excessive market data messages to get an information advantage. CIRO treats both as manipulative and deceptive practices.",
+      "rule_refs": [
+        "UMIR 2.2",
+        "GN-URPART7-26-0007"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"to detect the existence of a large buyer or seller with the intention to trade ahead of, rather than with, the large buyer or seller\" — research/sources/ciro/gn-urpart7-26-0007-manipulative-deceptive-trading-practices.txt GN-URPART7-26-0007 Q2.1 'Abusive Liquidity Detection', ~line 94"
+    },
+    {
+      "id": "RSE-E8-0028",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Leocadia Brunner has $3,000 in her cash account and no other assets at the dealer. She enters an order to buy $250,000 of a stock. She has no reasonable expectation to pay for it. Which UMIR concern does this order raise?",
+      "options": {
+        "A": "Front running, because the order is large for the account",
+        "B": "Cornering, because the order limits the supply of the stock",
+        "C": "No concern, because the trade settles on the next business day",
+        "D": "Artificial pricing, because she cannot reasonably expect to pay"
+      },
+      "answer": "D",
+      "rationale": "Policy 2.2 Part 2 lists a buy order entered without the ability or the reasonable expectation to make the payment. This activity breaches UMIR 2.2(2). Front running needs knowledge of an unentered client order, and cornering needs the intent of limiting supply.",
+      "rule_refs": [
+        "UMIR 2.2(2)",
+        "UMIR Policy 2.2 Part 2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"entering an order for the purchase of a security or a derivative without, at the time of entering the order, having the ability or the reasonable expectation to make the payment\" — research/sources/ciro/umir-2026-08-11.txt UMIR Policy 2.2 Part 2(g), ~lines 4189-4191"
+    },
+    {
+      "id": "RSE-E8-0029",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Tobias Nwachukwu, an RR, enters a client's purchases at successively higher prices to push a stock up. Other sellers absorb the orders, and the price does not change. Did Tobias breach UMIR 2.2(2)?",
+      "options": {
+        "A": "Yes, because a listed activity breaches the rule whether or not the price changes.",
+        "B": "No, because no artificial price resulted from the orders.",
+        "C": "No, because the orders were for a client and not for the firm.",
+        "D": "Yes, but only if CIRO proves that he meant to defraud a client."
+      },
+      "answer": "A",
+      "rationale": "Purchases at successively higher prices are a listed activity in Policy 2.2 Part 2. A person who knows or ought reasonably to know of the activity breaches UMIR 2.2(2), irrespective of whether an artificial price results. Client orders are covered, and CIRO need not prove an intent to defraud.",
+      "rule_refs": [
+        "UMIR 2.2(2)",
+        "UMIR Policy 2.2 Part 2",
+        "UMIR 10.4"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"will be in breach of subsection (2) of Rule 2.2 irrespective of whether such activity results in a false or misleading appearance of trading activity\" — research/sources/ciro/umir-2026-08-11.txt UMIR Policy 2.2 Part 2 (closing words), ~lines 4217-4219"
+    },
+    {
+      "id": "RSE-E8-0030",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Esperanza Lindahl, a trader, holds a client buy order. She enters it so that the firm's own buy order at the same price executes first. The client did not consent. Which statement is correct?",
+      "options": {
+        "A": "She made a wash trade, because both orders were buy orders.",
+        "B": "She breached UMIR 2.1(2)(c) by seeking priority for the principal order.",
+        "C": "She broke no rule, because both orders were at the same price.",
+        "D": "She committed cornering, because the firm bought before the client."
+      },
+      "answer": "B",
+      "rationale": "Without the client's specific consent, a Participant must not try to get a principal order executed ahead of the client order (UMIR 2.1(2)(c)). A wash trade needs a trade with no change in beneficial ownership, which did not occur here.",
+      "rule_refs": [
+        "UMIR 2.1(2)(c)",
+        "UMIR 10.4"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"without the specific consent of the client, enter client orders and principal orders in such a manner as to attempt to obtain execution of a principal order in priority to the client order\" — research/sources/ciro/umir-2026-08-11.txt UMIR 2.1(2)(c), ~lines 3482-3484"
+    },
+    {
+      "id": "RSE-E8-0031",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Yesterday, Florian Lindgaard's firm agreed to sell a large block to an institution. Today a client gives Florian a large order in the same stock. Florian then enters a principal hedge for the block, sized to its risk, as usual. Which statement is correct?",
+      "options": {
+        "A": "The hedge is front running, because Florian now knows of the client order.",
+        "B": "The hedge is allowed only after Florian enters the client order.",
+        "C": "The hedge is allowed, because the firm took on the position before it knew of the client order.",
+        "D": "The hedge is front running, unless the client consents in writing."
+      },
+      "answer": "C",
+      "rationale": "UMIR 4.1(2) allows a principal hedge of a position that the firm agreed to take on before it knew of the client order. The hedge must be commensurate with the risk and follow ordinary practice. Both conditions are met, so the exception applies.",
+      "rule_refs": [
+        "UMIR 4.1(2)",
+        "UMIR Policy 4.1"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"a principal order is entered to hedge a position that the Participant had assumed or agreed to assume before having actual knowledge of the client order\" — research/sources/ciro/umir-2026-08-11.txt UMIR 4.1(2)(d), ~lines 5732-5733"
+    },
+    {
+      "id": "RSE-E8-0032",
+      "element": 8,
+      "outcome": "8.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Genoveva Park, an RR, receives a large client sell order that could affect the price. Before she enters it, she tells a friend at another firm about it. She does not trade herself. Which statement is correct?",
+      "options": {
+        "A": "She did not breach UMIR 4.1, because she did not trade for herself.",
+        "B": "She breached only a duty of confidentiality, not a UMIR rule.",
+        "C": "She did not breach UMIR 4.1, because the friend works at another firm.",
+        "D": "She breached UMIR 4.1, because she told another person before entry."
+      },
+      "answer": "D",
+      "rationale": "UMIR 4.1(1) bars more than trading. Before the client order is entered, a Participant must not inform any other person of it, except in the necessary course of business. A tip to a friend is not in the necessary course of business. UMIR 10.4 applies the rule to Genoveva as an employee.",
+      "rule_refs": [
+        "UMIR 4.1(1)",
+        "UMIR 10.4"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"solicit an order from any other person for the purchase or sale of the security, the derivative, or any related security or related derivative; or (c) inform any other person, other than in the necessary course of business, of the client order.\" — research/sources/ciro/umir-2026-08-11.txt UMIR 4.1(1)(b)-(c), ~lines 5721-5724"
+    },
+    {
+      "id": "RSE-E8-0033",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "On March 10, a dealer's compliance department finds that an employee violated UMIR 2.2. By when must the dealer report the findings to CIRO?",
+      "options": {
+        "A": "By April 15",
+        "B": "By March 15",
+        "C": "By March 31",
+        "D": "By June 30"
+      },
+      "answer": "A",
+      "rationale": "UMIR 10.16(4) requires the report not later than the 15th day of the month after the month in which the findings are made. The findings were made in March, so the deadline is April 15. March 15 is the 15th of the same month, which is too early.",
+      "rule_refs": [
+        "UMIR 10.16(4)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"such report shall be made not later than the 15th day of the month following the month in which the findings are made.\" — research/sources/ciro/umir-2026-08-11.txt UMIR 10.16(4)(d), ~line 14131"
+    },
+    {
+      "id": "RSE-E8-0034",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer's investigation finds that a client account made a wash trade in breach of UMIR. The violation happened only once, and the amount was small. Which statement is correct?",
+      "options": {
+        "A": "The dealer need not report it, because it happened only once.",
+        "B": "The dealer must still report the finding to CIRO.",
+        "C": "The dealer must report it only if the client made a profit.",
+        "D": "The dealer need not report it, because the amount was small."
+      },
+      "answer": "B",
+      "rationale": "Under UMIR 10.16(4), the dealer reports a finding of a UMIR violation to CIRO. CIRO expects the report even if the investigation concludes that the violation occurred only once. The rule has no profit test and no dollar test.",
+      "rule_refs": [
+        "UMIR 10.16(4)",
+        "GN-URPART10-26-0003"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"even if the investigation concludes that the violation has occurred only once\" — research/sources/ciro/gn-urpart10-26-0003-gatekeeper-reporting-obligation.txt GN-URPART10-26-0003 Q2.7, ~line 153"
+    },
+    {
+      "id": "RSE-E8-0035",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Horatio Ilunga's RR escalated his unusual cash deposits to AML compliance. Horatio asks the RR if the dealer will report him to FINTRAC. What should the RR do?",
+      "options": {
+        "A": "Confirm the report, so that he can explain the deposits",
+        "B": "Tell him that reports apply only above $10,000",
+        "C": "Not tell him about any possible report",
+        "D": "Ask him to sign a consent before any report"
+      },
+      "answer": "C",
+      "rationale": "FINTRAC guidance says not to tip off the client about a suspicious transaction report. Disclosure of a report to prejudice a criminal investigation is also an offence (PCMLTFA s. 8). Suspicious transaction reports have no dollar threshold, and the dealer needs no client consent.",
+      "rule_refs": [
+        "PCMLTFA s. 8",
+        "FINTRAC STR guidance"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"It is important to not tip off your client about the fact that you are filing a Suspicious Transaction Report\" — research/sources/gov/fintrac-str-guidance.txt FINTRAC STR guidance, ~line 147"
+    },
+    {
+      "id": "RSE-E8-0036",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ingrid Valdivieso is an RR. A client's $600 transaction gives her reasonable grounds to suspect terrorist financing. A colleague says that the amount is too small to report. Which statement is correct?",
+      "options": {
+        "A": "The dealer need not report it, because it is below $10,000.",
+        "B": "The dealer must report it only after a second similar transaction.",
+        "C": "The dealer need not report it until it has proof of an offence.",
+        "D": "The dealer must report it, because suspicious transaction reports have no dollar threshold."
+      },
+      "answer": "D",
+      "rationale": "There is no monetary threshold for a suspicious transaction report. The test is reasonable grounds to suspect a link to money laundering, terrorist financing or sanctions evasion. The dealer does not have to verify the facts or prove an offence.",
+      "rule_refs": [
+        "PCMLTFA s. 7",
+        "FINTRAC STR guidance"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"There is no monetary threshold associated with the reporting of a suspicious transaction.\" — research/sources/gov/fintrac-str-guidance.txt FINTRAC STR guidance, ~line 239"
+    },
+    {
+      "id": "RSE-E8-0037",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Jovan Mukherjee wants to deposit a large bank draft. When his RR asks about the source of funds, Jovan gives a vague answer and cancels the deposit. The RR has reasonable grounds to suspect money laundering. Which statement is correct?",
+      "options": {
+        "A": "The dealer must report the attempted transaction to FINTRAC.",
+        "B": "No report is needed, because the deposit did not occur.",
+        "C": "The dealer must report it only if Jovan tries the deposit again.",
+        "D": "The RR must ask Jovan to complete the deposit before any report."
+      },
+      "answer": "A",
+      "rationale": "PCMLTFA s. 7 requires a report of every financial transaction that occurs or that is attempted, if there are reasonable grounds to suspect. The cancelled deposit is an attempted transaction, so it is reportable. A second attempt is not a condition.",
+      "rule_refs": [
+        "PCMLTFA s. 7"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"report to the Centre every financial transaction that occurs or that is attempted in the course of their activities and in respect of which there are reasonable grounds to suspect that\" — research/sources/gov/pcmltfa-extracts.txt PCMLTFA s.7, ~lines 77-82"
+    },
+    {
+      "id": "RSE-E8-0038",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Kalinda Sorensen, an RR, has reasonable grounds to suspect that a client's trades relate to money laundering. She reports the trades to her superior, as the dealer's procedures require. Which statement about Kalinda is correct?",
+      "options": {
+        "A": "She must also file her own separate report directly with FINTRAC.",
+        "B": "She has a defence, because she reported the transaction to her superior.",
+        "C": "She commits an offence unless she also tells the client.",
+        "D": "She has a defence only after the dealer files the report."
+      },
+      "answer": "B",
+      "rationale": "Under PCMLTFA s. 75(2), an employee who reports a suspicious transaction to a superior has a defence. The defence comes from her own report to the superior, not from the dealer's later filing. Telling the client would be a tip-off, which FINTRAC guidance says to avoid.",
+      "rule_refs": [
+        "PCMLTFA s. 75(2)",
+        "PCMLTFA s. 7"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"No employee of a person or an entity shall be convicted of an offence under subsection (1) in respect of a transaction or proposed transaction that they reported to their superior\" — research/sources/gov/pcmltfa-extracts.txt PCMLTFA s.75(2), ~line 144"
+    },
+    {
+      "id": "RSE-E8-0039",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Lucian Ogunwale is an officer of a listed company. He tells his brother about a merger that is not yet public. He does not tell him in the necessary course of business. The brother does not trade. Which statement is correct?",
+      "options": {
+        "A": "No breach occurred, because no securities were bought or sold.",
+        "B": "Only the brother breached the law, because he received the fact.",
+        "C": "Lucian breached OSA s. 76(2), even though no one traded.",
+        "D": "No breach occurred, because the brother is a family member."
+      },
+      "answer": "C",
+      "rationale": "A person in a special relationship must not tell others an undisclosed material fact. The only exception is the necessary course of business (OSA s. 76(2)). As an officer, Lucian is in a special relationship. The tip itself is the breach, so no trade is needed.",
+      "rule_refs": [
+        "OSA s. 76(2)",
+        "OSA s. 76(5)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"No issuer and no person or company in a special relationship with an issuer shall inform, other than in the necessary course of business, another person or company of a material fact or material change\" — research/sources/gov/ontario-securities-act-extracts.txt OSA s.76(2), ~line 403"
+    },
+    {
+      "id": "RSE-E8-0040",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "On a train, Nikolai Esposito overhears two strangers discuss a possible takeover of a listed company. He has no way to know who they are or how they learned it. Is Nikolai in a special relationship with the issuer?",
+      "options": {
+        "A": "Yes, because anyone who learns of a takeover is a tippee.",
+        "B": "Yes, because a takeover is always a material fact.",
+        "C": "No, because only insiders and employees can be in a special relationship.",
+        "D": "No, because he cannot reasonably know that his source is in a special relationship."
+      },
+      "answer": "D",
+      "rationale": "A tippee is in a special relationship only if they know, or ought to know, that their source is in one. Nikolai cannot know this. The special relationship is not limited to insiders and employees. It also covers tippees and persons who do business with the issuer.",
+      "rule_refs": [
+        "OSA s. 76(5)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"knows or ought reasonably to have known that the other person or company is a person or company in such a relationship\" — research/sources/gov/ontario-securities-act-extracts.txt OSA s.76(5)(e), ~line 434"
+    },
+    {
+      "id": "RSE-E8-0041",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "UMIR 6.2 requires an 'IA' or 'SS' marker on some orders. What is the main purpose of these markers?",
+      "options": {
+        "A": "To help regulators find possible insider trading",
+        "B": "To give these orders priority over other client orders",
+        "C": "To show that the order is a short sale",
+        "D": "To exempt these orders from best execution"
+      },
+      "answer": "A",
+      "rationale": "UMIR 6.2 requires a marker on an order for the account of an insider (IA) or a significant shareholder (SS). CIRO says these markers help regulators identify possible insider trading. A short sale has its own short-sale marker.",
+      "rule_refs": [
+        "UMIR 6.2",
+        "GN-URPART6-26-0004"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"These markers help securities regulators identify potential violations of securities laws, specifically related to insider trading.\" — research/sources/ciro/gn-urpart6-26-0004-insider-significant-shareholder-markers.txt GN-URPART6-26-0004 s.1.1, ~line 71"
+    },
+    {
+      "id": "RSE-E8-0042",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Pascal Ruangsri has information about a market manipulation scheme at his employer. He wants to report it and be eligible for a financial award. Which program should he use?",
+      "options": {
+        "A": "The CIRO Whistleblower Service",
+        "B": "The OSC Whistleblower Program",
+        "C": "A FINTRAC suspicious transaction report",
+        "D": "An internal report under UMIR 10.16"
+      },
+      "answer": "B",
+      "rationale": "The OSC Whistleblower Program can pay an award of 5% to 15% of sanctions and/or voluntary payments, to a maximum of $5 million. The CIRO Whistleblower Service treats tips in confidence, but it offers no financial award. Internal and FINTRAC reports carry no award.",
+      "rule_refs": [
+        "OSC Whistleblower Program",
+        "CIRO Whistleblower Service"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The amount of an award ranges from 5% to 15% of the total monetary sanctions ordered by the Commission\" — research/sources/csa/osc-whistleblower-program-web-pages.txt OSC whistleblower pages, ~line 201"
+    },
+    {
+      "id": "RSE-E8-0043",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Quintessa Moyo reports a suspected securities law breach by her employer to the OSC. Two weeks later, her employer demotes her. She starts a court action for reprisal. Which statement is correct?",
+      "options": {
+        "A": "Quintessa must prove that the demotion was a reprisal.",
+        "B": "The protection applies only if she reported internally first.",
+        "C": "The employer must prove that the demotion was not a reprisal.",
+        "D": "No protection applies, because a demotion is not a dismissal."
+      },
+      "answer": "C",
+      "rationale": "OSA s. 121.6 protects a report to the OSC, and a reprisal includes a demotion. In a court action or arbitration, the employer has the burden of proof that it took no reprisal. The law does not require an internal report first.",
+      "rule_refs": [
+        "OSA s. 121.6"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the burden of proof that the person or company did not take a reprisal against a specified individual in contravention of subsection (2) lies on that person or company\" — research/sources/gov/ontario-securities-act-extracts.txt OSA s.121.6(6), ~line 516"
+    },
+    {
+      "id": "RSE-E8-0044",
+      "element": 8,
+      "outcome": "8.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rasmus Montclair opened an account to save for retirement with modest monthly deposits. Six months later, large wires arrive from several unrelated third parties and leave within days. What does CIRO expect the dealer to do?",
+      "options": {
+        "A": "Close the account at once, without any review",
+        "B": "Take no action, because the KYC form is already on file",
+        "C": "Report the activity to CIRO as a UMIR 10.16 finding",
+        "D": "Investigate further, because the activity does not match the stated use"
+      },
+      "answer": "D",
+      "rationale": "CIRO expects the recorded intended use of an account to be consistent with the client's KYC and transactions. If it is not, the dealer should investigate further. UMIR 10.16 deals with UMIR breaches such as manipulation. Suspected money laundering goes to FINTRAC.",
+      "rule_refs": [
+        "GN-3200-23-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"If not, the Investment Dealer should conduct further investigation.\" — research/sources/ciro/gn-3200-23-001-aml-compliance-guidance.txt GN-3200-23-001 s.5.1.2, ~line 421"
+    },
+    {
+      "id": "RSE-E8-0045",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Saoirse Abubakar wants to buy 800 shares of a stock that trades near $41. She will pay no more than $40. She accepts that the order may not fill. Which order type fits her needs?",
+      "options": {
+        "A": "A limit order at $40",
+        "B": "A market order",
+        "C": "A buy stop order at $40",
+        "D": "A fill-or-kill order at the market"
+      },
+      "answer": "A",
+      "rationale": "A limit order buys at no more than a set maximum price. It gives price control, but it may not fill. A market order buys at the best ask on entry, so she would pay about $41. A buy stop sits above the market, not below it.",
+      "rule_refs": [
+        "UMIR 1.1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"buy a security or derivative to be executed at a specified maximum price\" — research/sources/ciro/umir-2026-08-11.txt UMIR 1.1 'limit order' (a), ~line 1553"
+    },
+    {
+      "id": "RSE-E8-0046",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Tiberius Strandqvist wants to sell 6,000 shares of a thinly traded stock at once. He asks for a market order. Which risk should his RR explain?",
+      "options": {
+        "A": "The order may not fill at all, even when buyers are present.",
+        "B": "The order may fill at prices well below the last sale price.",
+        "C": "The order will fill only at the last sale price or better.",
+        "D": "The order will be cancelled if it cannot fill in full."
+      },
+      "answer": "B",
+      "rationale": "A market order sells at the best bid on entry. It gives certainty of execution, but not of price. In a thin market, it can fill far from the last price. A limit order, not a market order, carries the risk of no fill.",
+      "rule_refs": [
+        "UMIR 1.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"sell a security or a derivative to be executed upon entry to a marketplace at the best bid price.\" — research/sources/ciro/umir-2026-08-11.txt UMIR 1.1 'market order' (b), ~line 1634"
+    },
+    {
+      "id": "RSE-E8-0047",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ulrike Mensah sold short 1,000 shares at $30. She wants to limit her loss if the price rises sharply. Which order best meets her goal?",
+      "options": {
+        "A": "A sell stop order with a trigger at $27",
+        "B": "A buy limit order at $27",
+        "C": "A buy stop order with a trigger at $33",
+        "D": "A sell limit order at $33"
+      },
+      "answer": "C",
+      "rationale": "A short seller loses money when the price rises. A buy stop sits above the market and, at the trigger, becomes an order to buy back the shares. A sell stop sits below the market and protects a long position. A buy limit at $27 fills only if the price falls.",
+      "rule_refs": [
+        "UMIR 1.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 8.3 order table (stop orders: sell stops below the market, buy stops above; short sale loss on a rise)"
+    },
+    {
+      "id": "RSE-E8-0048",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Viggo Takahashi holds a stock at $22. He has a stop-limit sell order with a $20 trigger and a $19.50 limit. After bad news, the stock opens at $17. What most likely happens?",
+      "options": {
+        "A": "The order fills at $17, because the price reached the trigger.",
+        "B": "The order fills at $20, because that is the trigger price.",
+        "C": "The order fills at $19.50, because the limit price is guaranteed.",
+        "D": "The order triggers but does not fill, because the price is below the limit."
+      },
+      "answer": "D",
+      "rationale": "At the trigger, a stop-limit order becomes a limit order to sell at $19.50 or better. The price fell past the limit in one jump, so the order may not fill. A stop-loss order with no limit would become a market order and could fill near $17.",
+      "rule_refs": [
+        "GN-URPART7-25-0003"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 8.3 on-stop orders (stop-limit controls price but may not fill if the price jumps past the limit)"
+    },
+    {
+      "id": "RSE-E8-0049",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer allows market stop-loss orders only when CIRO's conditions are met. Which client order meets all of them?",
+      "options": {
+        "A": "A very liquid, low-volatility stock; trigger near the market; normal order size",
+        "B": "A very liquid, low-volatility stock; trigger far below the market; normal order size",
+        "C": "A thinly traded, low-volatility stock; trigger near the market; normal order size",
+        "D": "A very liquid, low-volatility stock; trigger near the market; size ten times average"
+      },
+      "answer": "A",
+      "rationale": "CIRO lists three conditions for a market stop-loss order. The security is very liquid, with relatively low historic volatility. The trigger is near the market at entry. The size is not much greater than the average trade size. Each other order fails one condition.",
+      "rule_refs": [
+        "GN-URPART7-25-0003"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the use should be limited to orders for the purchase or sale of a particular security which meets all of the following conditions\" — research/sources/ciro/gn-urpart7-25-0003-management-of-stop-loss-orders.txt GN-URPART7-25-0003 Q1, ~line 100"
+    },
+    {
+      "id": "RSE-E8-0050",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Wanjiru Kaarlsen's RR says that her short sale can execute only at or above the last sale price. Is the RR correct?",
+      "options": {
+        "A": "Yes, because UMIR 3.2 still contains this price test.",
+        "B": "No, because that restriction was repealed effective October 15, 2012.",
+        "C": "Yes, but only for a Short Sale Ineligible Security.",
+        "D": "No, because a short sale must execute below the last sale price."
+      },
+      "answer": "B",
+      "rationale": "The former rule allowed a short sale only at or above the last sale price. It was repealed effective October 15, 2012, so there is no tick test. A Short Sale Ineligible Security cannot be sold short at all. No rule requires a price below the last sale.",
+      "rule_refs": [
+        "UMIR 3.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"approved amendments to repeal Rule 3.1 and Policy 3.1 effective October 15, 2012.\" — research/sources/ciro/umir-2026-08-11.txt UMIR Rule 3.1 regulatory history, ~line 5180"
+    },
+    {
+      "id": "RSE-E8-0051",
+      "element": 8,
+      "outcome": "8.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Xavier Ndiaye wants to sell short a TSX stock in his margin account. The stock is not a Pre-Borrow Security or a Short Sale Ineligible Security. Which steps does UMIR require before entry?",
+      "options": {
+        "A": "Arrange to borrow the shares, then mark the order short.",
+        "B": "Mark the order short and set a price at or above the last sale.",
+        "C": "Mark the order short and have a reasonable expectation to settle.",
+        "D": "Get Market Regulator approval, then mark the order short."
+      },
+      "answer": "C",
+      "rationale": "UMIR 3.2 requires a short-sale marker, and UMIR 3.3 requires a reasonable expectation to settle. A borrowing arrangement before entry is required only for a Pre-Borrow Security. The last-sale-price test was repealed in 2012.",
+      "rule_refs": [
+        "UMIR 3.2",
+        "UMIR 3.3"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"if the security is a Pre-Borrow Securit y, unless the Participant or Access Person has made arrangements for the borrowing\" — research/sources/ciro/umir-2026-08-11.txt UMIR 3.2(1)(c), ~line 5442 (corpus extraction splits the word as \"Securit y\"; quoted as extracted)"
+    },
+    {
+      "id": "RSE-E8-0052",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Yolanda Kristiansen asks how an alternative trading system (ATS) differs from an exchange. Which statement is correct?",
+      "options": {
+        "A": "An ATS lists issuers, but it has no power to discipline its subscribers.",
+        "B": "An ATS is not a marketplace, so UMIR does not apply to its trades.",
+        "C": "An ATS can trade only securities that no exchange lists.",
+        "D": "An ATS does not list issuers, and it disciplines subscribers only by exclusion."
+      },
+      "answer": "D",
+      "rationale": "Under NI 21-101, an exchange lists issuers and disciplines its members. An ATS does not list issuers, and it disciplines subscribers only by exclusion from the marketplace. An ATS is one of the four types of marketplace, so its trades are marketplace trades.",
+      "rule_refs": [
+        "NI 21-101"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"discipline subscribers other than by exclusion from participation in the marketplace\" — research/sources/csa/ni-21-101-marketplace-operation.txt NI 21-101 s.1.1 'alternative trading system' (a)(ii)(D), ~lines 34-35"
+    },
+    {
+      "id": "RSE-E8-0053",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Zbigniew Afolabi, an RR, has one client who wants to sell a TSX-listed stock and another who wants to buy it. He suggests that they trade privately at an agreed price. No exemption applies. What does UMIR require?",
+      "options": {
+        "A": "The trade must occur by entry of an order on a marketplace.",
+        "B": "The trade may occur privately if both clients sign a consent.",
+        "C": "The trade may occur privately if the price is the last sale price.",
+        "D": "The trade must occur through the dealer's own inventory account."
+      },
+      "answer": "A",
+      "rationale": "UMIR 6.4 says that, unless an exemption applies, a trade must occur by the entry of an order on a marketplace. Client consent or a fair price does not create an exemption. Use of another person to trade off a marketplace without an exemption also breaches UMIR 2.1(2)(a).",
+      "rule_refs": [
+        "UMIR 6.4",
+        "UMIR 2.1(2)(a)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"may not trade nor participate in a trade in a security by means other than the entry of an order on a marketplace.\" — research/sources/ciro/umir-2026-08-11.txt UMIR 6.4(1), ~line 7579"
+    },
+    {
+      "id": "RSE-E8-0054",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Anneliese Vukovic enters a limit order to buy at $15.00. An hour later, she phones her RR and changes the limit to $15.25. What must the dealer's order record show?",
+      "options": {
+        "A": "Only the final terms, because the first order did not fill",
+        "B": "The original terms and the change to the limit price",
+        "C": "Only the original terms, because a change needs a new order ticket",
+        "D": "Nothing until the order fills, because open orders need no record"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3815(1) requires a record of each order, executed or unexecuted. The record shows the terms of the order and of any modification or cancellation. So the record must show both the original limit and the change.",
+      "rule_refs": [
+        "IDPC 3815(1)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"the terms and conditions of the order, transaction or instruction and of any modification or cancellation thereof,\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3815(1)(i), ~line 9200"
+    },
+    {
+      "id": "RSE-E8-0055",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Barnaby Chukwu asks his RR to buy 500 shares. The RR enters 5,000 shares by mistake, and the order fills. How may the dealer correct the error?",
+      "options": {
+        "A": "Leave all 5,000 shares in the account, because the trade is final",
+        "B": "Cross the extra shares with another client off a marketplace",
+        "C": "Adjust the error by a journal entry, without a new marketplace trade",
+        "D": "Cancel the trade and keep no record of the error"
+      },
+      "answer": "C",
+      "rationale": "UMIR 6.4 lets a dealer adjust by a journal entry an error in connection with a client order. Crosses off a marketplace need an exemption. Supervision watches for excessive transfers and cancellations, so the dealer keeps a record of the correction.",
+      "rule_refs": [
+        "UMIR 6.4",
+        "IDPC 3945"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"to adjust by a journal entry an error in connection with a client order;\" — research/sources/ciro/umir-2026-08-11.txt UMIR 6.4(2)(c), ~line 7592"
+    },
+    {
+      "id": "RSE-E8-0056",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client trade on a marketplace does not settle on the expected settlement date. When must the Participant notify CIRO if the trade stays unsettled?",
+      "options": {
+        "A": "On the first business day after the expected settlement date",
+        "B": "After it fails to settle for 20 business days past trade date",
+        "C": "Only if the client closes the account before the trade settles",
+        "D": "After it fails to settle for 10 trading days past settlement date"
+      },
+      "answer": "D",
+      "rationale": "A trade that does not settle on the expected settlement date is a failed trade. CIRO guidance says the Participant must notify CIRO after the trade fails to settle for 10 trading days past settlement date. The 20-business-day count applies to overdue cash-account balances.",
+      "rule_refs": [
+        "GN-URPART3-24-0002"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"must notify CIRO after a trade on a marketplace fails to settle for 10 trading days past settlement date\" — research/sources/ciro/gn-urpart3-24-0002-short-selling-and-failed-trades.txt GN-URPART3-24-0002 Q3.2, ~line 186"
+    },
+    {
+      "id": "RSE-E8-0057",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Clementine Brzezinski buys a bond in her DAP account. The regular settlement date is Tuesday. On Thursday, the dealer gives her notice that the securities are available. When does the DAP trade settle?",
+      "options": {
+        "A": "Thursday, the date of the notice",
+        "B": "Tuesday, the regular settlement date",
+        "C": "Monday, the business day before settlement date",
+        "D": "Ten business days after the regular settlement date"
+      },
+      "answer": "A",
+      "rationale": "A DAP trade settles on the later of the settlement date and the date the dealer gives notice that the securities are available. Notice came on Thursday, after the Tuesday settlement date. So the trade settles on Thursday.",
+      "rule_refs": [
+        "Form 1 Schedule 4 Note 7"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"later of (a) settlement date or (b) the date on which the Dealer Member gives notice to the customer that the securities\" — research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt Form 1 Sch.4 Note 7(ii), ~lines 133-134"
+    },
+    {
+      "id": "RSE-E8-0058",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Dariusz Krzyzanowski often buys and sells US-listed stocks. He holds only a CAD account at his dealer. Which statement about opening a USD account is correct?",
+      "options": {
+        "A": "It removes all currency risk on his US-dollar holdings.",
+        "B": "It avoids repeated currency conversions, but not currency risk.",
+        "C": "It means that the dealer charges no spread on any conversion.",
+        "D": "It removes the best execution duty on his US trades."
+      },
+      "answer": "B",
+      "rationale": "In a CAD account, each USD trade converts at the dealer's rate, which includes a spread. A USD account avoids repeated conversions. But the holdings stay in US dollars, so their CAD value still moves with the exchange rate.",
+      "rule_refs": [
+        "GN-URPART6-25-0003"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 8.4 FX (USD account avoids repeated conversions but not currency risk; conversions include a dealer spread)"
+    },
+    {
+      "id": "RSE-E8-0059",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Eulalia Grimsson's cash-account purchase is unpaid 22 business days after settlement date. She pays half of the balance. She then asks to buy a new stock in the same account. Can the RR enter the order?",
+      "options": {
+        "A": "Yes, because her partial payment lifts the restriction.",
+        "B": "Yes, because the restriction applies only to her other accounts.",
+        "C": "No, because part of the balance is still 20 or more business days overdue.",
+        "D": "Yes, because the restriction starts only at 30 business days."
+      },
+      "answer": "C",
+      "rationale": "When any portion of a cash-account money balance is outstanding 20 business days or more after settlement date, the client can enter only liquidating transactions. Half the balance is still overdue, so the restriction stays. It covers any account of the client.",
+      "rule_refs": [
+        "Form 1 Schedule 4 Note 7(vi)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"When any portion of the money balance for a cash account of a customer is outstanding 20 business days or more after settlement date the customer shall be restricted from entering into any other transactions (other than liquidating transactions) in any account of the customer\" — research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt Form 1 Sch.4 Note 7(vi)(a), ~line 158"
+    },
+    {
+      "id": "RSE-E8-0060",
+      "element": 8,
+      "outcome": "8.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Fergus Adeyemi lives in Europe and has a DAP account with a Canadian dealer. A DAP purchase stays unpaid after its required settlement date. After how many business days is he restricted to liquidating transactions?",
+      "options": {
+        "A": "5 business days",
+        "B": "10 business days",
+        "C": "20 business days",
+        "D": "15 business days"
+      },
+      "answer": "D",
+      "rationale": "A DAP balance unpaid 5 business days or more after the required DAP settlement date causes a restriction. For clients outside continental North America, the period is 15 business days. The 20-business-day period applies to regular cash-account balances.",
+      "rule_refs": [
+        "Form 1 Schedule 4 Note 7(vi)(b)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"(or, in the case of transactions of customers situated other than in continental North America, 15 business days)\" — research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt Form 1 Sch.4 Note 7(vi)(b), ~lines 166-167"
+    },
+    {
+      "id": "RSE-E8-0061",
+      "element": 8,
+      "outcome": "8.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Giselle Rautio holds a control block of a listed company in her margin account. The position is not part of an underwriting commitment. What client margin rate applies?",
+      "options": {
+        "A": "100%",
+        "B": "50%",
+        "C": "30%",
+        "D": "80%"
+      },
+      "answer": "A",
+      "rationale": "Control blocks have a 100% client margin rate unless the position is part of an underwriting commitment (IDPC 5340). A control block can be hard to sell without a large price drop. The 30% and 50% rates are the regular rates at $2.00 or more.",
+      "rule_refs": [
+        "IDPC 5340"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"client account margin rates for control blocks are 100% unless the position is part of an underwriting commitment\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 5340(1), ~line 16376"
+    },
+    {
+      "id": "RSE-E8-0062",
+      "element": 8,
+      "outcome": "8.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Hamish Oyelowo's RRSP has a debit balance. The debit comes from an administrative fee under the trust agreement. Which rules apply to this debit?",
+      "options": {
+        "A": "Cash account rules",
+        "B": "Margin account rules",
+        "C": "Unsecured treatment with 100% margin",
+        "D": "No rules, because an RRSP debit needs no margin"
+      },
+      "answer": "B",
+      "rationale": "CIRO guidance sorts registered-account debits by source. A debit from items in the trust agreement, such as administrative fees, uses margin account rules. A debit from a specific security trade uses cash account rules. Any other debit is unsecured, with 100% margin.",
+      "rule_refs": [
+        "GN-FORM1-22-001"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"then the margin account rules should be applied,\" — research/sources/ciro/gn-form1-22-001-margin-registered-account-debit-balances.txt GN-FORM1-22-001, ~line 30"
+    },
+    {
+      "id": "RSE-E8-0063",
+      "element": 8,
+      "outcome": "8.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Isidora Moriyama signs a discretionary account agreement with her dealer. Which statement about the term of the agreement is correct?",
+      "options": {
+        "A": "It lasts 24 months and renews automatically.",
+        "B": "It lasts 12 months and renews automatically each year.",
+        "C": "It lasts 12 months or less and cannot be renewed.",
+        "D": "It has no fixed term and lasts until the client revokes it."
+      },
+      "answer": "C",
+      "rationale": "IDPC 3274 says a discretionary account agreement has a maximum term of 12 months and is not renewable. So a new agreement is needed to continue. A designated Supervisor approves the account and the signed agreement (IDPC 3273).",
+      "rule_refs": [
+        "IDPC 3274",
+        "IDPC 3273"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"have a maximum term of no longer than 12 months, (iv) not be renewable, and\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3274(1)(iii)-(iv), ~line 6581"
+    },
+    {
+      "id": "RSE-E8-0064",
+      "element": 8,
+      "outcome": "8.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Lorcan Abernethy guarantees his daughter's margin account, so that the account gets margin relief. What must the dealer tell him in writing?",
+      "options": {
+        "A": "Each of her trades will be reviewed for suitability against his KYC.",
+        "B": "His guarantee cannot give her account any margin relief.",
+        "C": "He becomes the account holder and decides all of her trades.",
+        "D": "Suitability of her trades will not be reviewed in relation to him."
+      },
+      "answer": "D",
+      "rationale": "A guarantee can give margin relief (IDPC 5824). The dealer must tell the guarantor in writing that it will not review trades in the account for suitability in relation to him (IDPC 5820). The daughter stays the account holder.",
+      "rule_refs": [
+        "IDPC 5820",
+        "IDPC 5824"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the Dealer Member discloses to the guarantor in writing that the suitability of transactions\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 5820(1)(ii), ~line 20626"
+    },
+    {
+      "id": "RSE-E8-0065",
+      "element": 8,
+      "outcome": "8.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Mireille Haugland buys a stock at $18 on margin. The stock is on the List of Securities Eligible for Reduced Margin (LSERM). What is the minimum client margin rate?",
+      "options": {
+        "A": "30%",
+        "B": "50%",
+        "C": "100%",
+        "D": "25%"
+      },
+      "answer": "A",
+      "rationale": "At $2.00 or more, the minimum client margin rate is 30% for an LSERM security and 50% for other securities (IDPC 5310). The dealer may set a higher house rate. The 100% rate applies to control blocks, not to this position.",
+      "rule_refs": [
+        "IDPC 5310"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"qualify for a reduced margin rate of 30% for client positions\" — research/sources/ciro/ciro-lserm-list-securities-eligible-reduced-margin-page.txt LSERM page, ~line 12"
+    },
+    {
+      "id": "RSE-E8-0066",
+      "element": 8,
+      "outcome": "8.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Normand Ekwueme wants his spouse to place orders in his individual account. What must the dealer have before it accepts her orders?",
+      "options": {
+        "A": "A verbal approval from Normand by phone",
+        "B": "A signed trading authorization from Normand",
+        "C": "A discretionary account agreement for his RR",
+        "D": "A signed margin agreement from his spouse"
+      },
+      "answer": "B",
+      "rationale": "Another person needs written authority to trade an account. The dealer keeps a signed trading authorization from the account holder and a record of everyone with trading authority (IDPC 3220). A discretionary agreement gives discretion to the RR, not to a spouse.",
+      "rule_refs": [
+        "IDPC 3220"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"a signed trading authorization from the account holder authorizing a person\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3220(1)(iii), ~line 6046"
+    },
+    {
+      "id": "RSE-E8-0067",
+      "element": 8,
+      "outcome": "8.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Oriana Feldmann holds only common shares. In June, her account had no trades, deposits or withdrawals. The only activity was a dividend payment. She has not asked for monthly statements. Does she get a June statement?",
+      "options": {
+        "A": "Yes, because any cash change triggers a monthly statement.",
+        "B": "Yes, because every client gets a statement each month.",
+        "C": "No, because a dividend alone does not trigger a monthly statement.",
+        "D": "No, because she gets statements only once a year."
+      },
+      "answer": "C",
+      "rationale": "A monthly statement goes out on request, after a transaction, or after a cash or position change other than dividends or interest (IDPC 3808). An open derivative position at month-end also triggers one. A dividend alone does not qualify, but she still gets a quarterly statement.",
+      "rule_refs": [
+        "IDPC 3808"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"requests to receive a client account statement on a monthly basis, or (ii) at the end of the month has in their account: (a) had a transaction during the month, (b) has experienced a cash or account position modification, other than dividend or interest payments,\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3808(2), ~lines 8507-8512"
+    },
+    {
+      "id": "RSE-E8-0068",
+      "element": 8,
+      "outcome": "8.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer prepares the quarterly statement for a retail client. Which item must this statement include that a monthly statement need not include?",
+      "options": {
+        "A": "The opening and closing cash balance",
+        "B": "The description and quantity of each position",
+        "C": "The market value of each position",
+        "D": "The cost of each position and the cost method used"
+      },
+      "answer": "D",
+      "rationale": "All statements show cash balances, account activity, positions and market values (IDPC 3808(4)). Only a retail client's quarterly statement must also show position cost, a notation that defines the cost method, and the total cost of all positions.",
+      "rule_refs": [
+        "IDPC 3808(4)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"where the client is a retail client and the statement is a quarterly statement, the statement must also include:\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3808(4)(vi), ~line 8549"
+    },
+    {
+      "id": "RSE-E8-0069",
+      "element": 8,
+      "outcome": "8.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Piotr Ansah, a retail client, holds mutual fund units directly at the fund company. His dealer is the dealer of record for these units. Which report must the dealer send him?",
+      "options": {
+        "A": "A quarterly report on outside holdings",
+        "B": "A monthly statement that shows the units as held at the dealer",
+        "C": "No report, because the dealer does not hold the units",
+        "D": "Only an annual report, because the units are off-book"
+      },
+      "answer": "A",
+      "rationale": "Outside holdings are positions not held at the dealer, where the dealer is the dealer of record or receives continuing compensation. The dealer must send a quarterly report on outside holdings to each retail client who has them (IDPC 3809).",
+      "rule_refs": [
+        "IDPC 3809"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A Dealer Member must send a quarterly report on outside holdings\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3809(1), ~line 8648"
+    },
+    {
+      "id": "RSE-E8-0070",
+      "element": 8,
+      "outcome": "8.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Quillon Rasmussen buys a bond that the issuer can call before maturity. It is not a strip, and the coupon is fixed. What must the trade confirmation show?",
+      "options": {
+        "A": "The yield to call only, with no other notation",
+        "B": "The yield to maturity and the notation 'callable'",
+        "C": "Two yields, one semi-annual and one annual",
+        "D": "The notation 'The coupon rate may vary.'"
+      },
+      "answer": "B",
+      "rationale": "For a debt purchase that is not a strip, the confirmation shows the yield to maturity. If the issuer can call the bond before maturity, it must also show 'callable'. Two yields apply to strips. The variable-coupon notation applies only to a variable rate.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"the notation of “callable” must be included\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3816(2)(vi)(b)(II), ~line 9322"
+    },
+    {
+      "id": "RSE-E8-0071",
+      "element": 8,
+      "outcome": "8.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer sells a corporate bond from inventory to a retail client in the secondary market. It charges a commission and also adds a mark-up. Which confirmation disclosure meets IDPC 3816?",
+      "options": {
+        "A": "Only the net price, with no information on dealer remuneration",
+        "B": "The commission only, because a mark-up never needs disclosure",
+        "C": "The total commission, plus a notice that dealer remuneration was added to the price",
+        "D": "The mark-up only, with the commission left out"
+      },
+      "answer": "C",
+      "rationale": "For a retail client's debt trade that is not a primary market transaction, the confirmation shows the total mark-up, commission and other charges. Or it shows the total commission with a notice that dealer remuneration was added to the price. A mark-up always needs one of these disclosures.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(c)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Dealer firm remuneration has been added to the price of this security\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3816(2)(vi)(c)(II), ~line 9341"
+    }
+  ]
+}

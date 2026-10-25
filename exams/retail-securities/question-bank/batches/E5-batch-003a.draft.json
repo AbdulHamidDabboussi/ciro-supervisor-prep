@@ -1,0 +1,1301 @@
+{
+  "meta": {
+    "batch": "E5-003a",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E5-0038",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An investor buys units of a listed trust. The trust holds an operating business and pays out most of its cash flow. Which product is this?",
+      "options": {
+        "A": "An income trust",
+        "B": "A real estate investment trust",
+        "C": "A closed-end bond fund",
+        "D": "A mutual fund trust"
+      },
+      "answer": "A",
+      "rationale": "An income trust is a listed trust that holds an operating business and pays out most of its cash flow. A REIT is the closest distractor, but a REIT owns income-producing real estate, not an operating business. The income trust payout is not guaranteed.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.1 (income trust vs REIT)"
+    },
+    {
+      "id": "RSE-E5-0039",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A closed-end fund lets investors redeem units once a year, on a date set in its prospectus. Which limit applies to the redemption price?",
+      "options": {
+        "A": "It must equal the closing market price on the exchange.",
+        "B": "It must not be more than the net asset value of the unit.",
+        "C": "It must not be less than the net asset value of the unit.",
+        "D": "It must equal the issue price of the unit at the IPO."
+      },
+      "answer": "B",
+      "rationale": "NI 81-102 says the redemption price of a non-redeemable investment fund must not be more than NAV. So the fund may pay NAV or less. A minimum of NAV is wrong, because many such funds pay NAV only once a year and a lower price at other times.",
+      "rule_refs": [
+        "NI 81-102 s. 10.3(4)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The redemption price of a security of a non-redeemable investment fund must not be a price that is more than the net asset value of the security determined on a redemption date specified in the prospectus of the investment fund.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.10.3(4), ~L2649"
+    },
+    {
+      "id": "RSE-E5-0040",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An investment fund wants to buy a controlling stake in a private manufacturer so that it can direct the company's management. How does this purpose relate to the NI 81-106 definition of a non-redeemable investment fund?",
+      "options": {
+        "A": "The definition allows control, because the fund need not redeem units on demand.",
+        "B": "The definition allows control only up to 20% of the fund's net asset value.",
+        "C": "The definition excludes a fund that invests to control an issuer, other than another investment fund.",
+        "D": "The definition allows control if the fund's units trade on an exchange."
+      },
+      "answer": "C",
+      "rationale": "By definition, a non-redeemable investment fund does not invest to control an issuer or to take an active part in its management. The exception is an investment in another investment fund. The 20% figure is a distractor from the single-issuer and illiquid-asset limits, not the definition.",
+      "rule_refs": [
+        "NI 81-106 s. 1.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"that does not invest, (i) for the purpose of exercising or seeking to exercise control of an issuer, other than an issuer that is a mutual fund or a non-redeemable investment fund, or (ii) for the purpose of being actively involved in the management of any issuer in which it invests\" — research/sources/csa/ni-81-106-investment-fund-continuous-disclosure-nav-mer.txt NI 81-106 s.1.1 'non-redeemable investment fund' (b), ~L278-284"
+    },
+    {
+      "id": "RSE-E5-0041",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A fund of funds invests in units of an underlying fund. Under NI 81-102 s. 2.5, which fee would break the rules?",
+      "options": {
+        "A": "A fee the underlying fund pays for its own audit and its own legal work",
+        "B": "A management fee that the underlying fund includes in its own MER",
+        "C": "An operating expense that the top fund pays for its own custody",
+        "D": "A management fee that duplicates a fee the underlying fund pays for the same service"
+      },
+      "answer": "D",
+      "rationale": "The top fund must not pay a management or incentive fee that duplicates a fee of the underlying fund for the same service. The test is the view of a reasonable person. The underlying fund's own management fee inside its MER is normal. Only the duplicate fee at the top fund breaks the rule.",
+      "rule_refs": [
+        "NI 81-102 s. 2.5(2)(d)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"no management fees or incentive fees are payable by the investment fund that, to a reasonable person, would duplicate a fee payable by the other investment fund for the same service,\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.5(2)(d), ~L1299"
+    },
+    {
+      "id": "RSE-E5-0042",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement about a pooled fund is correct?",
+      "options": {
+        "A": "It has no public prospectus, and dealers sell it under exemptions, such as to accredited investors.",
+        "B": "It files a prospectus, and the dealer must deliver Fund Facts before each purchase.",
+        "C": "It trades on an exchange, and authorized dealers create and redeem its units.",
+        "D": "It files a prospectus, and only registered accounts such as RRSPs may hold it."
+      },
+      "answer": "A",
+      "rationale": "A pooled fund has no public prospectus. Dealers sell it under prospectus exemptions, for example to accredited investors, or managers use it inside discretionary programs. Fund Facts delivery applies to prospectus-qualified mutual funds, so the Fund Facts option is wrong.",
+      "rule_refs": [
+        "NI 45-106 s. 2.3"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The prospectus requirement does not apply to a distribution of a security if the purchaser purchases the security as principal and is an accredited investor.\" — research/sources/csa/ni-45-106-prospectus-exemptions.txt NI 45-106 s.2.3(1), ~L1217"
+    },
+    {
+      "id": "RSE-E5-0043",
+      "element": 5,
+      "outcome": "5.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under NI 41-101, which description of an ETF is correct?",
+      "options": {
+        "A": "A non-redeemable investment fund whose units are listed and trade on an exchange",
+        "B": "A mutual fund in continuous distribution whose units are listed and trade on an exchange",
+        "C": "A pooled fund that sells its units only to accredited investors on an exchange",
+        "D": "A mutual fund that issues units only once, at its initial public offering"
+      },
+      "answer": "B",
+      "rationale": "In law, an ETF is a mutual fund in continuous distribution whose securities are listed and trade on an exchange. A listed non-redeemable investment fund is a closed-end fund, not an ETF. A closed-end fund issues units mainly at its IPO.",
+      "rule_refs": [
+        "NI 41-101 s. 1.1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"“ETF” or “exchange-traded mutual fund” means a mutual fund in continuous distribution, the securities of which are (a) listed on an exchange, and (b) trading on an exchange or an alternative trading system;\" — research/sources/csa/ni-41-101-general-prospectus-requirements.txt NI 41-101 s.1.1 'ETF', ~L342"
+    },
+    {
+      "id": "RSE-E5-0044",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An alternative mutual fund holds 14% of its NAV in the shares of one corporation. A new purchase would take the position to 18% of NAV. Is the purchase permitted?",
+      "options": {
+        "A": "No, because the single-issuer limit for every mutual fund is 10% of NAV.",
+        "B": "No, because an alternative mutual fund must keep each issuer below 15% of NAV.",
+        "C": "Yes, because the single-issuer limit for an alternative mutual fund is 20% of NAV.",
+        "D": "Yes, because an alternative mutual fund has no single-issuer limit at all."
+      },
+      "answer": "C",
+      "rationale": "The 10% single-issuer limit applies to a conventional mutual fund. For an alternative mutual fund or a non-redeemable investment fund, the limit is 20% of NAV. An 18% position is below that limit, so the purchase is permitted.",
+      "rule_refs": [
+        "NI 81-102 s. 2.1(1.1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"immediately after the transaction, more than 20% of its net asset value would be invested in securities of any one issuer.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.1(1.1), ~L1037"
+    },
+    {
+      "id": "RSE-E5-0045",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A conventional mutual fund buys an index participation unit (IPU). How does the fund treat the IPU for the 10% single-issuer limit?",
+      "options": {
+        "A": "The purchase is exempt, and the fund ignores the securities that the IPU holds.",
+        "B": "The fund counts the IPU as one issuer, so it can hold at most 10% of NAV in it.",
+        "C": "The fund counts the full value of each security in the index as its own holding.",
+        "D": "The purchase is exempt, but the fund counts its proportionate share of the securities the IPU holds."
+      },
+      "answer": "D",
+      "rationale": "The limit does not apply to the purchase of an IPU of an investment fund. But the fund looks through the IPU. It is considered to hold directly its proportionate share of the securities that the IPU issuer holds. So the IPU is not simply ignored.",
+      "rule_refs": [
+        "NI 81-102 s. 2.1(2)(d), 2.1(3)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the investment fund is considered to hold directly the underlying interest of that specified derivative or its proportionate share of the securities held by the issuer of the index participation unit.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.1(3), ~L1063"
+    },
+    {
+      "id": "RSE-E5-0046",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A conventional mutual fund holds 9.5% of its NAV directly in shares of Northgate Mining. It also holds an IPU. Northgate Mining is 6% of the IPU's holdings. Does the IPU add to the fund's Northgate position for the 10% limit?",
+      "options": {
+        "A": "No, because a security that is less than 10% of the IPU's holdings is considered not held.",
+        "B": "Yes, because the fund must always add its proportionate share of each IPU holding.",
+        "C": "No, because the fund never looks through an IPU for the single-issuer limit.",
+        "D": "Yes, because a direct holding above 9% makes every indirect holding count."
+      },
+      "answer": "A",
+      "rationale": "The fund looks through an IPU to its proportionate share of the holdings. But a security that is less than 10% of the IPU's holdings is considered not held. Northgate is 6%, so it does not count. The no-look-through option is wrong, because look-through is the normal rule.",
+      "rule_refs": [
+        "NI 81-102 s. 2.1(4)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"an investment fund is considered to not hold a security or instrument if that security or instrument is a component of, but represents less than 10% of,\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.1(4), ~L1069"
+    },
+    {
+      "id": "RSE-E5-0047",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A conventional mutual fund wants to raise one position above 10% of its NAV. For which kind of security does the single-issuer limit not apply?",
+      "options": {
+        "A": "Common shares of a large Canadian bank listed on the TSX",
+        "B": "Units of another investment fund, bought in line with s. 2.5",
+        "C": "Bonds of a corporation that holds an AAA credit rating",
+        "D": "Shares of a company that is part of a major stock index"
+      },
+      "answer": "B",
+      "rationale": "The single-issuer limit does not apply to five listed kinds of purchase. One is a security of another investment fund, if the purchase meets s. 2.5. A high credit rating or index membership gives no exemption. A bank's common shares are also subject to the limit.",
+      "rule_refs": [
+        "NI 81-102 s. 2.1(2)(c)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"a security issued by an investment fund if the purchase is made in accordance with the requirements of section 2.5;\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.1(2)(c), ~L1054"
+    },
+    {
+      "id": "RSE-E5-0048",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Vesna wants a fund that excludes fossil-fuel producers. Two funds that she likes both use the word \"sustainable\" in their names. What should her RR do first?",
+      "options": {
+        "A": "Recommend either fund, because the label means that both exclude fossil fuels.",
+        "B": "Recommend the fund with the lower MER, because the two mandates are the same.",
+        "C": "Compare each fund's objectives and holdings, because ESG mandates differ.",
+        "D": "Recommend the fund with the higher risk rating, because ESG funds lag."
+      },
+      "answer": "C",
+      "rationale": "ESG mandates can screen out industries, integrate ESG factors into analysis, or target an impact. Labels vary. So the RR must read each fund's objectives and holdings to find out if it excludes fossil-fuel producers. A name alone does not prove an exclusion screen.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.2 (ESG labels vary; read objectives and holdings)"
+    },
+    {
+      "id": "RSE-E5-0049",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Zoltan has $5,000. He wants exposure to emerging-market government bonds, which are hard for him to buy directly. Which advantage of a managed product is most relevant to him?",
+      "options": {
+        "A": "Control over each holding and the timing of each gain",
+        "B": "Protection from all losses through a guarantee of principal",
+        "C": "Freedom from all ongoing fees that reduce annual returns",
+        "D": "Access to markets that are hard for a small investor to reach"
+      },
+      "answer": "D",
+      "rationale": "A fund gives access to hard-to-reach markets, with diversification and professional management for a small sum. A fund does not give control over holdings or gains. Ongoing fees (the MER) reduce returns every year. Most funds have no guarantee.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.2 (advantages and disadvantages table)"
+    },
+    {
+      "id": "RSE-E5-0050",
+      "element": 5,
+      "outcome": "5.2",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Two funds have the same mandate and similar holdings. One fund has an MER that is 1.2 percentage points higher. Under IDPC 3402(1), which factor must the dealer consider before it recommends that fund?",
+      "options": {
+        "A": "The potential and actual impact of costs on the client's returns",
+        "B": "Only the risk rating, because the two mandates are the same",
+        "C": "Only the amount of the minimum investment for each fund",
+        "D": "The revenue that the dealer earns from each of the funds"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3402(1) makes the dealer consider the potential and actual impact of costs on the retail client's returns. A higher MER reduces the client's return every year. The same risk rating does not remove the cost factor. Dealer revenue is not a suitability factor.",
+      "rule_refs": [
+        "IDPC 3402(1)(i)(d)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the potential and actual impact of costs on the retail client’s returns, and\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(1)(i)(d), ~L6806"
+    },
+    {
+      "id": "RSE-E5-0051",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which product may a mutual fund dealer sell to its clients?",
+      "options": {
+        "A": "Common shares of a company listed on the TSX",
+        "B": "Shares of a labour-sponsored investment fund corporation",
+        "C": "Bonds that a large Canadian corporation issues",
+        "D": "Options on the shares of a listed company"
+      },
+      "answer": "B",
+      "rationale": "An investment dealer may deal in any security. A mutual fund dealer may deal only in mutual funds and certain other investment funds, such as labour-sponsored funds. Listed shares, corporate bonds and options are outside its category.",
+      "rule_refs": [
+        "NI 31-103 s. 7.1(2)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"an investment fund that is a labour-sponsored investment fund corporation or labour-sponsored venture capital corporation\" — research/sources/csa/ni-31-103-parts-2-7-8-11-categories-exemptions-records.txt NI 31-103 s.7.1(2)(b)(ii), ~L224"
+    },
+    {
+      "id": "RSE-E5-0052",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "In a mutual fund trust, which participant holds legal title to the portfolio assets for the investors?",
+      "options": {
+        "A": "The custodian",
+        "B": "The manager",
+        "C": "The trustee",
+        "D": "The principal distributor"
+      },
+      "answer": "C",
+      "rationale": "In a trust, the trustee holds legal title to the assets for the investors. The custodian is the closest distractor, but it has physical custody of the assets, not legal title. The manager directs the fund's business.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.3 (trustee holds legal title; custodian physical custody)"
+    },
+    {
+      "id": "RSE-E5-0053",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A mutual fund needs a custodian for its assets in Canada. Which institution qualifies under NI 81-102?",
+      "options": {
+        "A": "A licensed trust company with equity of $6,000,000",
+        "B": "The fund's own manager, if it holds enough capital",
+        "C": "Any firm that the manager selects, if it discloses this",
+        "D": "A licensed trust company with equity of $25,000,000"
+      },
+      "answer": "D",
+      "rationale": "For assets in Canada, the custodian must be a qualified institution. Examples are a Schedule I, II or III bank and a trust company with equity of not less than $10,000,000. A $6,000,000 trust company is too small. The manager must not act as custodian.",
+      "rule_refs": [
+        "NI 81-102 s. 6.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"a trust company that is incorporated under the laws of Canada or a jurisdiction and licensed or registered under the laws of Canada or a jurisdiction, and that has equity, as reported in its most recent audited financial statements, of not less than $10,000,000;\" — research/sources/csa/ni-81-102-part-6-custodianship-part-11-commingling-of-cash.txt NI 81-102 s.6.2(2), ~L93"
+    },
+    {
+      "id": "RSE-E5-0054",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "According to Fund Facts, what is the trailing commission for?",
+      "options": {
+        "A": "The services and advice that the representative and the firm give to the investor",
+        "B": "The trading costs that the fund pays when it buys and sells its securities",
+        "C": "A one-time payment to the dealer when the investor first buys the fund",
+        "D": "The fees that the custodian charges to hold the assets of the fund"
+      },
+      "answer": "A",
+      "rationale": "Fund Facts says the trailing commission is for the services and advice that the representative and their firm provide. It is paid for as long as the investor owns the fund, out of the management fee. It is not a one-time payment.",
+      "rule_refs": [
+        "Form 81-101F3 Part II Item 1.3"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"It is for the services and advice that your representative and their firm provide to you.\" — research/sources/csa/form-81-101f3-fund-facts.txt Form 81-101F3 Part II Item 1.3(6), ~L849"
+    },
+    {
+      "id": "RSE-E5-0055",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Silas wants to redeem his mutual fund units. A friend tells him the manager will charge him a deferred sales charge (DSC). Which statement is correct under NI 81-102?",
+      "options": {
+        "A": "The manager may charge a DSC if he redeems within seven years of purchase.",
+        "B": "The manager must not charge him a fee for the redemption, so no DSC applies.",
+        "C": "The manager may charge a DSC if the Fund Facts discloses the schedule.",
+        "D": "The manager may charge a DSC, but only if he redeems after the cut-off time."
+      },
+      "answer": "B",
+      "rationale": "NI 81-102 says a manager must not charge a securityholder a fee for a redemption. So a manager cannot charge a DSC. Disclosure in Fund Facts does not make a prohibited fee permitted. Short-term trading fees are a separate matter.",
+      "rule_refs": [
+        "NI 81-102 s. 10.2.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A manager must not charge a fee to a securityholder of a mutual fund for a redemption by the securityholder of securities of the mutual fund.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.10.2.1, ~L2631"
+    },
+    {
+      "id": "RSE-E5-0056",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Keziah holds Series A shares of one class of a mutual fund corporation. She switches to Series F of the same class. The two series differ only in fees. What is the tax effect?",
+      "options": {
+        "A": "The switch is a disposition, so she must report any capital gain.",
+        "B": "The switch is a disposition, but only if the series NAVPS differ.",
+        "C": "The switch is not a disposition, so it does not trigger a capital gain.",
+        "D": "The switch is not a disposition, but she must restart her ACB at zero."
+      },
+      "answer": "C",
+      "rationale": "If only the fees or expenses differ, a switch between series of the same class is not a disposition. A switch between different classes of a mutual fund corporation can be a taxable disposition. Her switch stays within one class.",
+      "rule_refs": [
+        "CRA T4037"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"where the only difference is the relative management fees or expenses paid by the investor in the classes of shares (switch is between different series of the same class of shares), there is no disposition.\" — research/sources/cra/guide-t4037-capital-gains-2025.txt CRA T4037 (2025) 'Mutual funds' tax tip, ~L1635"
+    },
+    {
+      "id": "RSE-E5-0057",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An investment fund does not use specified derivatives or sell short. It calculated its NAV monthly when NI 81-106 came into force, and it still does. What is its minimum NAV frequency?",
+      "options": {
+        "A": "Weekly, because no fund may calculate NAV less often than weekly",
+        "B": "Every business day, because all mutual funds must price daily",
+        "C": "Quarterly, because it uses no specified derivatives or short sales",
+        "D": "Monthly, because the transition exception lets it keep that frequency"
+      },
+      "answer": "D",
+      "rationale": "The normal minimum for such a fund is weekly. But a fund that calculated NAV at least monthly when NI 81-106 came into force may keep that frequency. This exception applies only to the weekly minimum. Daily pricing is industry practice, not a universal rule.",
+      "rule_refs": [
+        "NI 81-106 s. 14.2(3), (5)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"an investment fund that, at the date that this Instrument comes into force, calculates net asset value no less frequently than once a month may continue to calculate net asset value at least as frequently as it does at that date.\" — research/sources/csa/ni-81-106-investment-fund-continuous-disclosure-nav-mer.txt NI 81-106 s.14.2(5), ~L447"
+    },
+    {
+      "id": "RSE-E5-0058",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement describes a fee-based series of a mutual fund?",
+      "options": {
+        "A": "It pays no trailing commission, and investors hold it in a fee-based account.",
+        "B": "It pays a higher trailing commission, and investors hold it in any account.",
+        "C": "It charges a deferred sales charge, and investors hold it in a fee-based account.",
+        "D": "It pays no management fee, and investors hold it only in a registered account."
+      },
+      "answer": "A",
+      "rationale": "A fee-based series pays no trailing commission. To buy it, the investor must take part in a fee-based arrangement with the dealer. The series still pays a management fee, so the no-management-fee option is wrong.",
+      "rule_refs": [
+        "Form 81-101F3 Part II Item 1.4"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"requirement for an investor to participate in a fee-based arrangement with their dealer in order to be eligible to purchase the particular class or series\" — research/sources/csa/form-81-101f3-fund-facts.txt Form 81-101F3 Part II Item 1.4 Instruction (1), ~L933"
+    },
+    {
+      "id": "RSE-E5-0059",
+      "element": 5,
+      "outcome": "5.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which cost forms part of a mutual fund's management expense ratio (MER)?",
+      "options": {
+        "A": "The front-end sales charge that the investor pays",
+        "B": "The trailing commission paid out of the management fee",
+        "C": "The switch fee that the investor pays to the dealer",
+        "D": "The short-term trading fee that the investor pays"
+      },
+      "answer": "B",
+      "rationale": "The MER is the total of the management fee, including the trailing commission, and the operating expenses. The fund pays these costs. A front-end sales charge, a switch fee and a short-term trading fee are paid by the investor directly, so they are not in the MER.",
+      "rule_refs": [
+        "Form 81-101F3 Part II Item 1.3"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"This is the total of the fund’s management fee (including the trailing commission) and operating expenses.\" — research/sources/csa/form-81-101f3-fund-facts.txt Form 81-101F3 Part II Item 1.3(2), ~L782"
+    },
+    {
+      "id": "RSE-E5-0060",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under NI 81-102 Appendix F, which data does a mutual fund use to set its investment risk level?",
+      "options": {
+        "A": "Annual returns over the most recent 5 years, with distributions paid in cash",
+        "B": "The largest decline in NAV over the life of the fund, with no reinvestment",
+        "C": "Monthly returns over the most recent 10 years, with distributions reinvested",
+        "D": "The fund's beta against its benchmark over the most recent 3 years"
+      },
+      "answer": "C",
+      "rationale": "Appendix F uses one mandatory method. The fund takes its monthly returns over the most recent 10 years, calculated from NAV with all distributions reinvested. It then finds the annualized standard deviation and places it in one of five bands.",
+      "rule_refs": [
+        "NI 81-102 Appendix F Items 1-2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A mutual fund must calculate its standard deviation for the most recent 10 years as follows:\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 Appendix F Item 2(1), ~L3725"
+    },
+    {
+      "id": "RSE-E5-0061",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A fund's standard deviation places it in the \"Low to medium\" band. The manager believes this understates the fund's risk. What may the manager do?",
+      "options": {
+        "A": "Nothing, because the band from the calculation is final and cannot change",
+        "B": "Lower the risk level if that is reasonable, and tell investors in a notice",
+        "C": "Replace the fund's own returns with a reference index that has more volatility",
+        "D": "Raise the risk level if that is reasonable, and keep records of how it set the level"
+      },
+      "answer": "D",
+      "rationale": "Under Appendix F, the manager may increase the investment risk level if that is reasonable in the circumstances. The manager must keep records of how it set the level. The rule permits an increase, not a decrease, so the lower-level option is wrong.",
+      "rule_refs": [
+        "NI 81-102 Appendix F"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the investment risk level of a mutual fund may be increased if doing so is reasonable in the circumstances.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 Appendix F Item 1(2), ~L3688"
+    },
+    {
+      "id": "RSE-E5-0062",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A U.S. equity fund offers an unhedged series and a currency-hedged series. The hedging results in a different risk level for the hedged series. How does the hedged series set its risk level?",
+      "options": {
+        "A": "It uses its own returns to calculate its own risk level.",
+        "B": "It uses the risk level that the unhedged series calculated.",
+        "C": "It uses the higher of the two levels for both series.",
+        "D": "It uses a reference index chosen for the hedged series."
+      },
+      "answer": "A",
+      "rationale": "If a series has an attribute that results in a different risk level, the series uses its own returns. Currency hedging is an example of such an attribute. A reference index applies only to missing history when no qualifying proxy fund exists.",
+      "rule_refs": [
+        "NI 81-102 Appendix F"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"if a series or class of securities of the mutual fund has an attribute that results in a different investment risk level for the series or class than the investment risk level of the mutual fund, the return on investment for that series or class of securities must be used\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 Appendix F Item 3, ~L3760"
+    },
+    {
+      "id": "RSE-E5-0063",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A new fund has 3 years of returns. No underlying fund exists. Another fund has 12 years of history and the same manager, objectives and strategies, but a different portfolio manager. Which returns fill the missing 7 years?",
+      "options": {
+        "A": "The returns of the other fund, because it has the same manager and objectives",
+        "B": "The returns of a reference index that reasonably approximates the fund's standard deviation",
+        "C": "The returns of the other fund, but only for the most recent 7 of its 12 years",
+        "D": "No returns, because the fund uses only its own 3 years until it has 10"
+      },
+      "answer": "B",
+      "rationale": "The matching-fund proxy needs the same manager, portfolio manager, objectives and strategies. A different portfolio manager means it does not qualify. With no clone or matching fund, the fund must use a reference index for the missing years. It cannot use only its own 3 years.",
+      "rule_refs": [
+        "NI 81-102 Appendix F Items 4-5"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the mutual fund must select a reference index in accordance with Item 5\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 Appendix F Item 4(2), ~L3790"
+    },
+    {
+      "id": "RSE-E5-0064",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A fund uses a reference index to fill in missing years of its risk calculation. Which further duty applies to the manager?",
+      "options": {
+        "A": "Replace the index each year with the fund's own most recent returns",
+        "B": "Get unitholder approval for the index before the fund can use it",
+        "C": "Monitor the index at least annually and describe it in the prospectus",
+        "D": "Show the index returns as the fund's own returns in its Fund Facts"
+      },
+      "answer": "C",
+      "rationale": "If a fund uses a reference index, it must monitor the reasonableness of the index at least annually. It must also give a brief description of the index in its prospectus. The rule needs no unitholder vote.",
+      "rule_refs": [
+        "NI 81-102 Appendix F Item 5"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"monitor the reasonableness of the reference index on an annual basis or more frequently if necessary,\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 Appendix F Item 5(2)(a), ~L3832"
+    },
+    {
+      "id": "RSE-E5-0065",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Thaddeus holds an unhedged U.S. equity fund. This year U.S. stock prices are flat, and the Canadian dollar rises against the U.S. dollar. What happens to his holding in Canadian-dollar terms?",
+      "options": {
+        "A": "Its value rises, because a stronger Canadian dollar buys more U.S. shares.",
+        "B": "Its value stays the same, because U.S. stock prices did not change.",
+        "C": "Its value stays the same, because funds hedge currency risk by law.",
+        "D": "Its value falls, because the U.S. holdings are worth fewer Canadian dollars."
+      },
+      "answer": "D",
+      "rationale": "Currency is a source of risk for foreign funds. If the Canadian dollar rises, unhedged foreign holdings fall in Canadian-dollar value. Flat U.S. prices do not offset the currency loss. No rule makes funds hedge currency risk.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.4 (currency risk example)"
+    },
+    {
+      "id": "RSE-E5-0066",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Which item is a disadvantage of a mutual fund to its provider, the fund manager?",
+      "options": {
+        "A": "Redemptions can force asset sales, and disclosure costs are high.",
+        "B": "The fund earns asset-based fee income for the manager each year.",
+        "C": "Recurring contributions add to the assets that the manager runs.",
+        "D": "Scale lets the manager spread its fixed costs over more assets."
+      },
+      "answer": "A",
+      "rationale": "For the provider, the disadvantages are redemptions that force asset sales, disclosure and compliance costs, and fee pressure from ETFs. Asset-based fee income, recurring contributions and scale are advantages to the provider.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 5.4 (provider advantages and disadvantages)"
+    },
+    {
+      "id": "RSE-E5-0067",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Tamsin's mutual fund pays her a return of capital distribution. Which statement about this distribution is correct?",
+      "options": {
+        "A": "It is interest that the fund earned on its bond holdings this year.",
+        "B": "It pays back part of her own money, not a return on her investment.",
+        "C": "It is a capital gain that the fund realized on its portfolio sales.",
+        "D": "It is a dividend that the fund received from Canadian corporations."
+      },
+      "answer": "B",
+      "rationale": "Return comes from income distributions, capital gains distributions and NAV growth. A return of capital is different. It is the investor's own money paid back, not a return on it. Interest, capital gains and dividends are returns on the investment.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.4 (sources of return; return of capital)"
+    },
+    {
+      "id": "RSE-E5-0068",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "During a market sell-off, many investors redeem units of a bond mutual fund at the same time. The manager must sell bonds at poor prices. Who bears the cost of these sales?",
+      "options": {
+        "A": "The manager pays it out of its own management fee.",
+        "B": "The redeeming investors pay it through a redemption fee to the manager.",
+        "C": "The investors who remain in the fund share that cost.",
+        "D": "The custodian pays it, because it holds the fund's assets."
+      },
+      "answer": "C",
+      "rationale": "If many investors redeem at once, the manager must sell assets, perhaps at poor prices. The remaining investors share that cost. A manager must not charge a fee for a redemption, so the redemption-fee option is wrong.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.4 (redemptions force asset sales; remaining investors bear cost)"
+    },
+    {
+      "id": "RSE-E5-0069",
+      "element": 5,
+      "outcome": "5.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "According to Fund Facts, what is typically true of a fund with higher volatility?",
+      "options": {
+        "A": "It has a smaller chance of losing money and a greater chance of higher returns.",
+        "B": "It has a greater chance of losing money and no chance of higher returns.",
+        "C": "It has the same chance of losing money as a fund with lower volatility.",
+        "D": "It has a greater chance of losing money and may have a greater chance of higher returns."
+      },
+      "answer": "D",
+      "rationale": "Fund Facts says that funds with higher volatility typically have a greater chance of losing money. They may also have a greater chance of higher returns. Volatility works in both directions, so a one-sided option is wrong.",
+      "rule_refs": [
+        "Form 81-101F3 Part I Item 4"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"In general, funds with higher volatility will have returns that change more over time. They typically have a greater chance of losing money and may have a greater chance of higher returns.\" — research/sources/csa/form-81-101f3-fund-facts.txt Form 81-101F3 Part I Item 4(1), ~L379"
+    },
+    {
+      "id": "RSE-E5-0070",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Esme buys ETF units through her dealer, which acts as her agent. The dealer has not given her the ETF Facts before. When must it deliver the ETF Facts?",
+      "options": {
+        "A": "Not later than midnight on the second business day after the purchase",
+        "B": "Before it accepts her instruction to buy the ETF units",
+        "C": "Within 10 days after the purchase, with her account statement",
+        "D": "Only if she asks for the document after the purchase"
+      },
+      "answer": "A",
+      "rationale": "A dealer that acts as agent for an ETF purchaser must deliver the ETF Facts. The deadline is midnight on the second business day after the purchase. Delivery before the trade is the Fund Facts rule for conventional mutual funds, not the ETF rule.",
+      "rule_refs": [
+        "NI 41-101 s. 3C.2"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"deliver or send to the purchaser the most recently filed ETF facts document for the applicable class or series of securities of the ETF not later than midnight on the second business day after entering into the purchase of the security.\" — research/sources/csa/ni-41-101-general-prospectus-requirements.txt NI 41-101 s.3C.2(2), ~L1330"
+    },
+    {
+      "id": "RSE-E5-0071",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ulric buys units of an ETF through his dealer. He expects to receive the ETF's full prospectus with his purchase. Which statement is correct?",
+      "options": {
+        "A": "The dealer must deliver the full prospectus before it accepts the purchase order.",
+        "B": "No prospectus delivery applies to an ETF, so the dealer delivers the ETF Facts instead.",
+        "C": "The dealer must deliver the full prospectus within two business days after the trade.",
+        "D": "The dealer must deliver the full prospectus only for his first purchase of the ETF."
+      },
+      "answer": "B",
+      "rationale": "The obligation to deliver a prospectus under securities legislation does not apply to an ETF. Instead, the dealer delivers the ETF Facts within two business days after the purchase. The two-day timing belongs to the ETF Facts, not the prospectus.",
+      "rule_refs": [
+        "NI 41-101 s. 3C.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The obligation to deliver or send a prospectus under securities legislation does not apply in respect of an ETF.\" — research/sources/csa/ni-41-101-general-prospectus-requirements.txt NI 41-101 s.3C.2(1), ~L1321"
+    },
+    {
+      "id": "RSE-E5-0072",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Heavy selling pushes an ETF's exchange price to a discount to the value of its basket. How do authorized dealers usually profit from this gap and close it?",
+      "options": {
+        "A": "They deliver a basket of securities to the ETF for a block of new units.",
+        "B": "They ask the manager to suspend trading until the price returns to NAV.",
+        "C": "They buy units on the exchange and redeem them for the basket of securities.",
+        "D": "They sell units short and ask the ETF to calculate a new NAV at once."
+      },
+      "answer": "C",
+      "rationale": "Arbitrage keeps the market price near NAV. When the price falls below NAV, authorized dealers buy the cheap units and redeem them for the more valuable basket. Creating new units is the action when the price rises above NAV.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.5 (creation/redemption arbitrage, below-NAV direction)"
+    },
+    {
+      "id": "RSE-E5-0073",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "One ETF holds thinly traded corporate bonds. Another holds large-cap stocks. Why can the bond ETF's market price drift further from its NAV?",
+      "options": {
+        "A": "Its NAV is calculated only once a month, so the market price has no daily reference.",
+        "B": "It has no creation and redemption process, so it trades like a closed-end fund.",
+        "C": "Its authorized dealers must buy units at NAV, so the market price cannot adjust.",
+        "D": "Its underlying securities are hard to trade, which weakens the arbitrage that keeps price near NAV."
+      },
+      "answer": "D",
+      "rationale": "Authorized dealers create and redeem units to keep the market price near NAV. If the underlying securities are hard to trade, this arbitrage is harder, so the price can drift from NAV. A bond ETF still has a creation and redemption process.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 5.5 (price can drift from NAV when underlying hard to trade)"
+    },
+    {
+      "id": "RSE-E5-0074",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An investor redeems fewer than the manager-prescribed number of units directly with an ETF in continuous distribution. Which redemption price may the ETF use?",
+      "options": {
+        "A": "A closing exchange price next determined after it receives the redemption order",
+        "B": "The NAVPS that the ETF calculated at the close on the day before the order",
+        "C": "The highest exchange price for the units during the day of the order",
+        "D": "The average exchange price for the units over the 10 previous days"
+      },
+      "answer": "A",
+      "rationale": "If an investor redeems fewer than the prescribed number of units, an ETF in continuous distribution may use a closing exchange price. That price is the one next determined after the receipt of the order. A price set before the order is not forward pricing.",
+      "rule_refs": [
+        "NI 81-102 s. 10.3(3)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the redemption price of a security of an exchange-traded mutual fund that is in continuous distribution may, if a securityholder redeems fewer than the manager-prescribed number of units, be a price that is calculated by reference to the closing price of the security on the stock exchange\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.10.3(3), ~L2645"
+    },
+    {
+      "id": "RSE-E5-0075",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "An index ETF tracks an index of 2,000 securities, but it holds a representative subset of 400 of them. Which trade-off does this method create?",
+      "options": {
+        "A": "It costs more than full replication, but it removes tracking error.",
+        "B": "It costs less than full replication, but it can add tracking error.",
+        "C": "It costs less than full replication, and it makes the ETF an active fund.",
+        "D": "It costs more than full replication, and it raises the bid-ask spread."
+      },
+      "answer": "B",
+      "rationale": "This method is sampling. It holds a representative subset, which costs less than full replication but can add tracking error. Full replication holds every security at the index weights. Sampling is still passive indexing, not active management.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.5 (full replication vs sampling)"
+    },
+    {
+      "id": "RSE-E5-0076",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "An alternative mutual fund plans to borrow cash equal to 40% of its NAV. The lender is an affiliate of the fund's manager. Which approval must the borrowing agreement have?",
+      "options": {
+        "A": "Approval from a vote of the fund's unitholders",
+        "B": "No approval, because any lender is permitted",
+        "C": "Approval from the fund's independent review committee",
+        "D": "No approval, because affiliate loans are banned"
+      },
+      "answer": "C",
+      "rationale": "An alternative mutual fund may borrow up to 50% of NAV under conditions. If the lender is an affiliate or associate of the manager, the fund's independent review committee must approve the agreement. The lender must also qualify as a custodian, and the terms must be standard.",
+      "rule_refs": [
+        "NI 81-102 s. 2.6(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"if the lender is an affiliate or associate of the investment fund manager of the alternative mutual fund or non-redeemable investment fund, under a borrowing agreement approved by the independent review committee\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.6(2)(a)(ii), ~L1536"
+    },
+    {
+      "id": "RSE-E5-0077",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Which limit applies to an alternative mutual fund's total exposure to cash borrowing, short selling and specified derivatives?",
+      "options": {
+        "A": "50% of the fund's net asset value",
+        "B": "100% of the fund's net asset value",
+        "C": "5% of the fund's net asset value",
+        "D": "300% of the fund's net asset value"
+      },
+      "answer": "D",
+      "rationale": "An alternative mutual fund's aggregate exposure to cash borrowing, short sales and specified derivatives must not exceed 300% of NAV. The 50% figure is the limit on cash borrowing alone. The 5% figure is the borrowing limit for a conventional mutual fund.",
+      "rule_refs": [
+        "NI 81-102 s. 2.9.1(1)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"aggregate exposure to cash borrowing, short selling and specified derivatives transactions must not exceed 300% of the fund’s net asset value.\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.9.1(1), ~L1787"
+    },
+    {
+      "id": "RSE-E5-0078",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "The manager of a conventional mutual fund expects bank shares to rise. He wants the fund to borrow 4% of NAV to buy more of them. Is this borrowing permitted?",
+      "options": {
+        "A": "No, because the fund may borrow only temporarily, to meet redemptions or settle trades.",
+        "B": "Yes, because the borrowing is below the 5% of NAV limit for the fund.",
+        "C": "Yes, because a conventional fund may borrow up to 50% of NAV for purchases.",
+        "D": "No, because a conventional mutual fund may never borrow cash at all."
+      },
+      "answer": "A",
+      "rationale": "A conventional mutual fund may borrow cash only as a temporary measure, to meet redemptions or to settle portfolio trades. The 5% limit caps that borrowing, but it does not permit borrowing for leverage. NI 81-102 restricts leverage in mutual funds.",
+      "rule_refs": [
+        "NI 81-102 s. 2.6(1)(a)(i)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the transaction is a temporary measure to accommodate requests for the redemption of securities of the investment fund while the investment fund effects an orderly liquidation of portfolio assets, or to permit the investment fund to settle portfolio transactions\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.2.6(1)(a)(i), ~L1471"
+    },
+    {
+      "id": "RSE-E5-0079",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Which ETF feature usually leads to fewer capital gains distributions than a conventional mutual fund pays?",
+      "options": {
+        "A": "Daily NAV calculation, which spreads capital gains over the year",
+        "B": "In-kind redemptions, which mean fewer taxable sales inside the fund",
+        "C": "Trailing commissions, which reduce the gains that the fund realizes",
+        "D": "Intraday trading, which lets investors avoid each year's distribution"
+      },
+      "answer": "B",
+      "rationale": "Authorized dealers redeem ETF units in kind, for a basket of securities. So the ETF makes fewer taxable sales inside the fund. A conventional fund may have to sell assets to pay redemptions, and those sales can create capital gains.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.5 (in-kind redemptions; ETF vs mutual fund tax row)"
+    },
+    {
+      "id": "RSE-E5-0080",
+      "element": 5,
+      "outcome": "5.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Philippa compares an ETF with a no-load mutual fund that has the same mandate. Which cost does she usually pay on the ETF but not on the mutual fund?",
+      "options": {
+        "A": "A management fee that the fund includes in its MER",
+        "B": "Operating expenses that the fund pays out of its assets",
+        "C": "A commission on each trade, plus the bid-ask spread",
+        "D": "A trading expense ratio for the fund's portfolio trades"
+      },
+      "answer": "C",
+      "rationale": "An ETF investor may have to pay a commission every time she buys and sells, plus the bid-ask spread. Both products have an MER, operating expenses and a TER. So only the trade commission and spread are specific to the ETF.",
+      "rule_refs": [
+        "Form 41-101F4 Part II Item 1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"You may have to pay a commission every time you buy and sell [units/shares] of the ETF.\" — research/sources/csa/form-41-101f4-etf-facts.txt Form 41-101F4 Part II Item 1.2, ~L982"
+    },
+    {
+      "id": "RSE-E5-0081",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Rufus buys a passive index fund. Which result should he expect from the fund over time, after costs?",
+      "options": {
+        "A": "A return that is usually a little above the return of its index",
+        "B": "A return that always equals the return of its index exactly",
+        "C": "A return that beats its index in falling markets",
+        "D": "A return that is usually a little below the return of its index"
+      },
+      "answer": "D",
+      "rationale": "A passive fund holds the index's securities in substantially the same proportion, or replicates its performance. It does not try to beat its index. After costs, its return is usually a little below the index return.",
+      "rule_refs": [
+        "NI 81-102 s. 1.1"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"hold the securities that are included in a permitted index or permitted indices of the mutual fund in substantially the same proportion as those securities are reflected in that permitted index\" — research/sources/csa/ni-81-102-investment-funds.txt NI 81-102 s.1.1 'index mutual fund', ~L508"
+    },
+    {
+      "id": "RSE-E5-0082",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Over one year, an index rises 5%. Which outcome is possible for a 2x leveraged ETF on that index that resets daily?",
+      "options": {
+        "A": "The ETF falls in value over the year.",
+        "B": "The ETF rises exactly 10% over the year.",
+        "C": "The ETF rises at least 5% over the year.",
+        "D": "The ETF can fall only if the index falls."
+      },
+      "answer": "A",
+      "rationale": "Most leveraged ETFs reset daily, so their objective is a daily one. Daily returns compound, so the longer-period return can differ sharply from the multiple. A 2x fund can fall in a year in which its index rises.",
+      "rule_refs": [
+        "CIRO GN-3400-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"an ETF that seeks to deliver twice the daily return of a specific index may decrease in value over a one or two year period while the underlying index may increase in value over the same period.\" — research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt GN-3400-21-001 s.1, ~L52"
+    },
+    {
+      "id": "RSE-E5-0083",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An index rises 10% one day and falls back to its starting level the next day. What happens to a -1x inverse ETF on that index that resets daily?",
+      "options": {
+        "A": "It ends unchanged, because the index ends where it started.",
+        "B": "It loses value, and the loss is larger than it would be on a calmer path.",
+        "C": "It gains value, because the index fell on the second day.",
+        "D": "It loses exactly 10%, because the index first rose by 10%."
+      },
+      "answer": "B",
+      "rationale": "CIRO gives a two-day example in which the index ends where it started. The inverse ETF loses 0.02% on a calm path and 1.82% on a volatile path. More volatility gives a larger loss, although the index is unchanged.",
+      "rule_refs": [
+        "CIRO GN-3400-21-001"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"In the first case with low volatility, the inverse ETF loses 0.02 per cent; but in the more volatile scenario the inverse ETF loses 1.82 per cent.\" — research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt GN-3400-21-001 s.1, ~L54"
+    },
+    {
+      "id": "RSE-E5-0084",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement in a dealer's sales material about a daily-reset leveraged ETF breaks CIRO guidance?",
+      "options": {
+        "A": "The fund seeks twice the daily return of its index.",
+        "B": "The fund resets daily, so long-term returns can differ.",
+        "C": "The fund delivers twice the index return over any holding period.",
+        "D": "The fund suits short-term tactical exposure only."
+      },
+      "answer": "C",
+      "rationale": "CIRO guidance says sales materials may not imply that the fund tracks its index over a longer period. The fund's objective is a daily one. The statement about any holding period implies long-term tracking, so it breaks the guidance.",
+      "rule_refs": [
+        "CIRO GN-3400-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"may not omit that fact or imply that the fund is designed to track the underlying index or benchmark over a longer period of time.\" — research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt GN-3400-21-001 s.3, ~L74"
+    },
+    {
+      "id": "RSE-E5-0085",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer's brochure for an inverse ETF does not say that the fund resets daily. The prospectus explains the daily reset in full. Is the brochure acceptable?",
+      "options": {
+        "A": "Yes, because the prospectus discloses the daily reset in full.",
+        "B": "Yes, because a brochure need not describe how a product works.",
+        "C": "No, because a dealer may not prepare any material on inverse ETFs.",
+        "D": "No, because risk disclosure in a prospectus does not cure deficient sales material."
+      },
+      "answer": "D",
+      "rationale": "CIRO guidance says that risk disclosure in a prospectus or product description does not cure otherwise deficient disclosure in sales material. Sales material must be fair. Dealers may prepare it, but it must not omit the daily reset.",
+      "rule_refs": [
+        "CIRO GN-3400-21-001"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"providing risk disclosure in a prospectus or product description does not cure otherwise deficient disclosure in sales material\" — research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt GN-3400-21-001 s.3, ~L68"
+    },
+    {
+      "id": "RSE-E5-0086",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A smart-beta fund weights its stocks by a value factor. Which risk is most specific to this style?",
+      "options": {
+        "A": "The value factor can lag the market for several years.",
+        "B": "The manager can pick stocks at random, with no rules.",
+        "C": "The fund must reset daily, so long-term returns differ.",
+        "D": "The fund cannot publish the rules that set its weights."
+      },
+      "answer": "A",
+      "rationale": "A smart-beta index follows transparent rules, like a passive index, but weights securities by factors such as value. The aim is factor premiums at a mid-range cost, but a factor can lag for years. A daily reset applies to leveraged and inverse funds.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.6 (smart beta; factor can lag for years)"
+    },
+    {
+      "id": "RSE-E5-0087",
+      "element": 5,
+      "outcome": "5.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under CIRO guidance, for which clients are leveraged and inverse ETFs that reset daily typically unsuitable?",
+      "options": {
+        "A": "Retail investors who plan to sell them before the end of the trading day",
+        "B": "Retail investors who plan to hold them longer than one trading session",
+        "C": "Institutional investors who use them to hedge for part of one day",
+        "D": "Any investor who buys them in a registered account such as a TFSA"
+      },
+      "answer": "B",
+      "rationale": "CIRO guidance says daily-reset leveraged and inverse ETFs typically are unsuitable for retail investors who plan to hold them longer than one trading session. This is particularly so in volatile markets. The account type does not decide the point.",
+      "rule_refs": [
+        "CIRO GN-3400-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"leveraged and inverse ETFs that are reset daily typically are unsuitable for retail investors who plan to hold them for longer than one trading session, particularly in volatile markets.\" — research/sources/ciro/gn-3400-21-001-leveraged-inverse-etfs-sales-practices.txt GN-3400-21-001 Executive Summary, ~L25"
+    },
+    {
+      "id": "RSE-E5-0088",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "What length limit applies to a Fund Facts document?",
+      "options": {
+        "A": "Each Part is normally two pages, and the document has eight pages at most.",
+        "B": "The document has one page in total, with no Part II at all.",
+        "C": "Each Part is normally one page, and the document has four pages at most.",
+        "D": "The document has no length limit if it uses plain language."
+      },
+      "answer": "C",
+      "rationale": "Each of Part I and Part II must normally not exceed one page. The document has four pages at most. Fund Facts must also use plain language, but plain language does not remove the length limit.",
+      "rule_refs": [
+        "Form 81-101F3 General Instructions (14)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Each of Part I and Part II must not exceed one page in length, unless the required information in any section causes the disclosure to exceed this limit. Where this is the case, a fund facts document must not exceed a total of four pages in length.\" — research/sources/csa/form-81-101f3-fund-facts.txt Form 81-101F3 General Instruction (14), ~L94"
+    },
+    {
+      "id": "RSE-E5-0089",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Inge receives the Fund Facts on Monday and agrees to buy a mutual fund. Under securities law in some provinces and territories, which right does she have?",
+      "options": {
+        "A": "To withdraw within 30 days after she receives the Fund Facts",
+        "B": "To withdraw within 10 business days after the trade settles",
+        "C": "No right to withdraw once the dealer accepts her order",
+        "D": "To withdraw within two business days after she receives the Fund Facts"
+      },
+      "answer": "D",
+      "rationale": "Under securities law in some provinces and territories, an investor may withdraw from an agreement to buy mutual funds. The investor must act within two business days after receiving a simplified prospectus or Fund Facts. A separate right lets the investor cancel within 48 hours after the confirmation.",
+      "rule_refs": [
+        "Form 81-101F3 Part II Item 2"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"withdraw from an agreement to buy mutual funds within two business days after you receive a simplified prospectus or Fund Facts document\" — research/sources/csa/form-81-101f3-fund-facts.txt Form 81-101F3 Part II Item 2, ~L950"
+    },
+    {
+      "id": "RSE-E5-0090",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "How does the statement of rights in ETF Facts differ from the one in Fund Facts?",
+      "options": {
+        "A": "It gives a right to cancel within 48 hours after the confirmation, but no two-day withdrawal right.",
+        "B": "It gives a two-day withdrawal right, but no right to cancel after the confirmation.",
+        "C": "It gives no rights at all, because the investor buys ETF units on an exchange.",
+        "D": "It gives the same two rights, plus a 30-day right to a full refund at cost."
+      },
+      "answer": "A",
+      "rationale": "In some provinces and territories, the ETF Facts statement of rights gives a right to cancel within 48 hours after the confirmation. It gives no two-day withdrawal right. It also describes the remedy for a misrepresentation. Fund Facts gives both rights.",
+      "rule_refs": [
+        "Form 41-101F4 Part II Item 2"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Under securities law in some provinces and territories, you have the right to cancel your purchase within 48 hours after you receive confirmation of the purchase.\" — research/sources/csa/form-41-101f4-etf-facts.txt Form 41-101F4 Part II Item 2, ~L1140"
+    },
+    {
+      "id": "RSE-E5-0091",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Saoirse sets up a pre-authorized purchase plan for a mutual fund. Must the dealer deliver the Fund Facts before her first purchase under the plan?",
+      "options": {
+        "A": "No, because no purchase under a pre-authorized plan needs a Fund Facts.",
+        "B": "Yes, because the plan exception does not cover the first purchase under the plan.",
+        "C": "No, because the dealer can send the Fund Facts with her annual reminder.",
+        "D": "Yes, and the dealer must also deliver a new one before every later purchase."
+      },
+      "answer": "B",
+      "rationale": "A purchase under a pre-authorized purchase plan needs no new Fund Facts only if conditions apply. One condition is that the purchase is not the first under the plan. Later purchases can use the exception, so a new document before every purchase is not needed.",
+      "rule_refs": [
+        "NI 81-101 s. 3.2.03"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the purchase is not the first purchase under the plan;\" — research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt NI 81-101 s.3.2.03(a), ~L1423"
+    },
+    {
+      "id": "RSE-E5-0092",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Casimir signs a form that consents to later delivery of Fund Facts for all his future urgent purchases. A month later he makes an urgent purchase. Does this form meet the urgent-purchase exception?",
+      "options": {
+        "A": "Yes, because he gave his consent in writing before the purchase.",
+        "B": "Yes, because a written consent stays valid for 12 months.",
+        "C": "No, because the consent must relate to that specific purchase instruction.",
+        "D": "No, because the exception never applies to a written consent."
+      },
+      "answer": "C",
+      "rationale": "Under the urgent-purchase exception, the client must consent to later delivery for that specific purchase. A blanket consent is not valid. A written form does not fix this. The dealer must also explain the Fund Facts and give a verbal summary.",
+      "rule_refs": [
+        "NI 81-101 s. 3.2.02"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the consent must be given in respect of a specific instruction to purchase a security of a mutual fund and, for greater certainty, cannot be in the form of blanket consent from the purchaser.\" — research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt NI 81-101 s.3.2.02(2), ~L1408"
+    },
+    {
+      "id": "RSE-E5-0093",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Mireille has a managed account. Her portfolio manager buys units of a mutual fund for the account. Must the dealer deliver the Fund Facts for this purchase?",
+      "options": {
+        "A": "Yes, because every mutual fund purchase needs Fund Facts before the trade.",
+        "B": "Yes, but the dealer may deliver it within two business days after the trade.",
+        "C": "No, but only if Mireille is a permitted client that is not an individual.",
+        "D": "No, because a purchase in a managed account needs no Fund Facts delivery."
+      },
+      "answer": "D",
+      "rationale": "A dealer need not deliver Fund Facts for a purchase in a managed account. A separate exception covers a permitted client that is not an individual. Mireille is an individual, so that second exception does not apply. The managed account exception alone is enough.",
+      "rule_refs": [
+        "NI 81-101 s. 3.2.04"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"(a) the purchase is made in a managed account;\" — research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt NI 81-101 s.3.2.04(a), ~L1468"
+    },
+    {
+      "id": "RSE-E5-0094",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which information appears in ETF Facts but not in Fund Facts?",
+      "options": {
+        "A": "The average daily volume and the average bid-ask spread",
+        "B": "The MER and the year-by-year returns of the fund",
+        "C": "The risk rating and a description of what the fund invests in",
+        "D": "The trailing commission and the investor's rights"
+      },
+      "answer": "A",
+      "rationale": "ETF Facts adds trading and pricing data: ticker symbol and exchange, average daily volume, market price and NAV, and average bid-ask spread. Fund Facts also shows the MER, past returns, risk rating, holdings, trailing commission and rights.",
+      "rule_refs": [
+        "Form 41-101F4 Part I Item 2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Market price (see instruction 12) Net asset value (NAV) (see instruction 13) Average bid-ask spread\" — research/sources/csa/form-41-101f4-etf-facts.txt Form 41-101F4 Part I Item 2(3), ~L274"
+    },
+    {
+      "id": "RSE-E5-0095",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Edda asks her mutual fund for a copy of its latest annual management report of fund performance. Which rule applies to the fund?",
+      "options": {
+        "A": "It must send the report within 30 days, for a small fee.",
+        "B": "It must send the report within three business days, free of charge.",
+        "C": "It must send the report only if she buys more units.",
+        "D": "It may refuse, because the report is only for the regulators."
+      },
+      "answer": "B",
+      "rationale": "The simplified prospectus incorporates the MRFP by reference. On request, the fund must send it within three business days of receipt of the request and free of charge. The fund may not charge a fee or refuse.",
+      "rule_refs": [
+        "NI 81-101 s. 3.3(3)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"within three business days of receipt of the request and free of charge.\" — research/sources/csa/ni-81-101-mutual-fund-prospectus-disclosure.txt NI 81-101 s.3.3(3), ~L1612"
+    },
+    {
+      "id": "RSE-E5-0096",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Aurelio buys units of a hedge fund under a prospectus exemption. Which document is his main source of information about the fund?",
+      "options": {
+        "A": "The simplified prospectus that the fund files with regulators",
+        "B": "The Fund Facts that the dealer delivers before the purchase",
+        "C": "The offering memorandum or other offering documents",
+        "D": "The ETF Facts that the dealer delivers after the purchase"
+      },
+      "answer": "C",
+      "rationale": "Pooled and hedge funds sold under prospectus exemptions have no prospectus or Fund Facts. Investors rely on the offering memorandum or other offering documents and on the manager's reports. ETF Facts applies only to ETFs.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 5.7 (pooled and hedge funds: offering memorandum)"
+    },
+    {
+      "id": "RSE-E5-0097",
+      "element": 5,
+      "outcome": "5.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which continuous disclosure documents does a listed REIT file?",
+      "options": {
+        "A": "Annual financial statements and an MRFP, as an investment fund under NI 81-106",
+        "B": "A Fund Facts for each series, as a mutual fund under NI 81-101",
+        "C": "No continuous disclosure, because REITs sell units only under exemptions",
+        "D": "Annual financial statements and MD&A, as a reporting issuer under NI 51-102"
+      },
+      "answer": "D",
+      "rationale": "REITs and income trusts are reporting issuers. They file annual financial statements and MD&A under NI 51-102. Listed closed-end funds are investment funds, so they file under NI 81-106. A REIT is not an investment fund.",
+      "rule_refs": [
+        "NI 51-102 s. 5.1(1)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"A reporting issuer must file MD&A relating to its annual financial statements\" — research/sources/csa/ni-51-102-continuous-disclosure-obligations.txt NI 51-102 s.5.1(1), ~L2188"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+ "meta": {
+  "batch": "E8-004",
+  "drafted": "2026-10-25",
+  "source": "study guide v1.1"
+ },
+ "questions": [
+  {
+   "id": "RSE-E8-0072",
+   "element": 8,
+   "outcome": "8.1",
+   "taxonomy": "Remember",
+   "type": "standard",
+   "stem": "For listed securities, which factors must a dealer's best execution policies weigh?",
+   "options": {
+    "A": "Price, client net worth, account size and the RR's experience",
+    "B": "Price, speed of execution, certainty of execution and overall cost",
+    "C": "Price only, because best execution means the best price on each fill",
+    "D": "Speed of execution, the client's tax position and dealer profitability"
+   },
+   "answer": "B",
+   "rationale": "IDPC 3121 lists four broad factors for listed securities: price, speed of execution, certainty of execution and overall cost when costs pass to clients. Price is only one factor, so a price-only view is wrong. Client net worth, tax position and dealer profit are not best execution factors.",
+   "rule_refs": [
+    "IDPC 3121"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"the price of the security or derivative, (ii) the speed of execution of the client order, (iii) the certainty of execution of the client order, and (iv) the overall cost of the transaction, when costs are passed on to clients.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3121(1), ~lines 5149-5156"
+  },
+  {
+   "id": "RSE-E8-0073",
+   "element": 8,
+   "outcome": "8.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Ingeborg Halvorsen, an RR, receives a client order to buy 150,000 shares of a thinly traded stock. Before she enters it, she phones two other clients who hold the stock. She asks if they will sell to fill the order. Did she breach UMIR 4.1?",
+   "options": {
+    "A": "Yes, because UMIR 4.1 bars all solicitation of other persons before entry",
+    "B": "Yes, because only the firm's own account may take the other side of the order",
+    "C": "No, because she solicited the orders to facilitate the trade of the client order",
+    "D": "No, because the front running rule applies only to principal orders of the firm"
+   },
+   "answer": "C",
+   "rationale": "UMIR 4.1(1) bars soliciting others to trade before a market-moving client order is entered. But UMIR 4.1(2)(c) excepts an order solicited to facilitate the trade of the client order. The rule is not limited to principal orders, because it also covers solicitation and disclosure.",
+   "rule_refs": [
+    "UMIR 4.1"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"an order is solicited to facilitate the trade of the client order;\" — research/sources/ciro/umir-2026-08-11.txt UMIR 4.1(2)(c), ~line 5731"
+  },
+  {
+   "id": "RSE-E8-0074",
+   "element": 8,
+   "outcome": "8.1",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Radomir Kovacevic and a small group of associates buy almost all available shares of a thinly traded stock. Many short sellers must buy shares to settle their trades. The group wants to limit the supply so that those short sellers must pay high prices. Which practice is this?",
+   "options": {
+    "A": "A wash trade",
+    "B": "Quote stuffing",
+    "C": "Setting the close",
+    "D": "Cornering"
+   },
+   "answer": "D",
+   "rationale": "In cornering, a single interest or group trades with the intent of limiting the supply of a security. Others then cannot easily settle their trades (UMIR Policy 2.2 Part 1(c)). A wash trade has no change in beneficial ownership. Setting the close targets the closing price, and quote stuffing floods systems with messages.",
+   "rule_refs": [
+    "UMIR 2.2",
+    "UMIR Policy 2.2"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"effecting trades by a single interest or group with the intent of limiting the supply of a security or a derivative for settlement of trades made by other persons\" — research/sources/ciro/umir-2026-08-11.txt UMIR Policy 2.2 Part 1(c), ~line 4142"
+  },
+  {
+   "id": "RSE-E8-0075",
+   "element": 8,
+   "outcome": "8.2",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Bartholomew Szabo is a director of a listed company. He knows of an undisclosed plan to sell the company at a premium. He tells his neighbour, 'You should buy shares now,' but gives no reason. Which statement is correct?",
+   "options": {
+    "A": "He breached OSA s. 76 by encouraging the purchase.",
+    "B": "He did not breach OSA s. 76, because he did not disclose the fact.",
+    "C": "He did not breach OSA s. 76, because he did not trade himself.",
+    "D": "Only the neighbour can breach OSA s. 76, if she buys the shares."
+   },
+   "answer": "A",
+   "rationale": "As a director, Bartholomew is in a special relationship with the issuer. OSA s. 76(3.1) bars him from recommending or encouraging a purchase while he knows an undisclosed material fact. The ban applies even if he does not tell the fact and does not trade. The neighbour does not know the fact.",
+   "rule_refs": [
+    "OSA s. 76"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"shall recommend or encourage, other than in the necessary course of business, another person or company to purchase or sell securities of the issuer\" — research/sources/gov/ontario-securities-act-extracts.txt OSA s.76(3.1), ~line 411"
+  },
+  {
+   "id": "RSE-E8-0076",
+   "element": 8,
+   "outcome": "8.3",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Lorenza Castellanos plans to sell short a stock at $40. She asks her RR about her maximum possible loss on the position. Which answer is correct?",
+   "options": {
+    "A": "$40 per share, if the price falls to zero",
+    "B": "The amount of the margin deposit that she puts up",
+    "C": "The margin rate multiplied by $40 per share",
+    "D": "There is no limit, because the price can rise without limit"
+   },
+   "answer": "D",
+   "rationale": "A short seller must buy the shares back later. The price can rise without limit, so the loss on a short sale has no limit. A fall to zero is the best case for a short seller, not the worst. The margin deposit does not cap the loss, because the dealer can call for more margin.",
+   "rule_refs": [
+    "UMIR 1.1",
+    "IDPC 5113"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 8.3 Short sales ('The loss has no limit, because the price can rise without limit')"
+  },
+  {
+   "id": "RSE-E8-0077",
+   "element": 8,
+   "outcome": "8.3",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Kwabena Oyelaran bought shares at $30. They now trade at $45. He wants to keep most of his gain if the price falls, but stay invested if it rises. Which order best meets his goal?",
+   "options": {
+    "A": "A buy stop order with a trigger price of $48",
+    "B": "A sell stop order with a trigger price of $42",
+    "C": "A sell limit order with a limit price of $48",
+    "D": "A market order to sell all the shares now"
+   },
+   "answer": "B",
+   "rationale": "A sell stop order sits below the market. If the price falls to $42, it triggers and sells, which protects most of the gain. If the price rises, he stays invested. A sell limit at $48 sells only after a rise, so it gives no protection. A market sell order ends his position now.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 8.3 order table (stop-loss: limit a loss or protect a gain; sell stops sit below the market)"
+  },
+  {
+   "id": "RSE-E8-0078",
+   "element": 8,
+   "outcome": "8.4",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Each cash-account trade must settle by payment or delivery on settlement date. If it does not, the dealer must provide capital. What is the main purpose of this rule?",
+   "options": {
+    "A": "To limit the risk to the dealer's own capital from unpaid client trades",
+    "B": "To give cash-account clients a short interest-free loan before they pay",
+    "C": "To make sure that each client trade executes at the best available price",
+    "D": "To let the dealer charge margin interest on cash-account balances"
+   },
+   "answer": "A",
+   "rationale": "An unpaid trade puts the dealer's own capital at risk. So the cash account rule requires settlement on settlement date. The dealer sets aside capital against an unpaid balance (Form 1 Schedule 4 Notes 7 and 8). Best execution is a different duty, and the rule does not create a loan or margin interest.",
+   "rule_refs": [
+    "Form 1 Schedule 4 Note 7",
+    "Form 1 Schedule 4 Note 8"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"In the event the account does not settle as required, capital will be provided as prescribed in note 8.\" — research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt Form 1 Sch.4 Note 7(i), ~line 130"
+  },
+  {
+   "id": "RSE-E8-0079",
+   "element": 8,
+   "outcome": "8.4",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Solveig Amundsen buys shares in her cash account. She wants to pay for them with a transfer of funds from her margin account at the same dealer. When can the dealer accept this payment?",
+   "options": {
+    "A": "Never, because cash and margin accounts must always stay separate",
+    "B": "Only after a designated Supervisor approves each transfer in writing",
+    "C": "If adequate margin stays in the margin account before and after the transfer",
+    "D": "Only if the margin account holds no securities positions at the time"
+   },
+   "answer": "C",
+   "rationale": "Form 1 Schedule 4 Note 7(iv)(c) lets a client pay for a cash-account trade by a transfer of funds from a margin account. The condition is that adequate margin stays in the margin account immediately before and after the transfer. The rule does not require Supervisor approval or an account with no positions.",
+   "rule_refs": [
+    "Form 1 Schedule 4 Note 7"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"the transfer of funds from a margin account of the customer with the Dealer Member provided adequate margin is maintained in such account immediately before and after the transfer.\" — research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt Form 1 Sch.4 Note 7(iv)(c), ~line 147"
+  },
+  {
+   "id": "RSE-E8-0080",
+   "element": 8,
+   "outcome": "8.4",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Cyprian Wolanski's cash-account purchase is unpaid 23 business days after settlement date. He has no margin account. He asks his RR to sell shares that he holds in the cash account. Can the RR enter the sell order?",
+   "options": {
+    "A": "No, because the account allows no trades until he pays in full",
+    "B": "Yes, because a restricted client can still enter liquidating trades",
+    "C": "No, because only the dealer, not the client, may sell the shares",
+    "D": "Yes, but only after a designated Supervisor lifts the restriction"
+   },
+   "answer": "B",
+   "rationale": "A balance 20 business days or more overdue restricts the client in all accounts (Note 7(vi)(a)). But the client can still enter liquidating transactions. A sale of shares he holds is a liquidating trade, so the RR can enter it. No Supervisor approval is needed for a liquidating trade.",
+   "rule_refs": [
+    "Form 1 Schedule 4 Note 7"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"When any portion of the money balance for a cash account of a customer is outstanding 20 business days or more after settlement date the customer shall be restricted from entering into any other transactions (other than liquidating transactions) in any account of the customer\" — research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt Form 1 Sch.4 Note 7(vi)(a), ~line 158"
+  },
+  {
+   "id": "RSE-E8-0081",
+   "element": 8,
+   "outcome": "8.5",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Joaquim Ferreira sells short 1,000 shares in his margin account. Which statement best describes how the dealer margins this short position?",
+   "options": {
+    "A": "The dealer lends him part of the market value of the shares as a debit.",
+    "B": "He receives the sale proceeds in cash at settlement, free to withdraw.",
+    "C": "He needs no deposit, because the sale proceeds fully cover the position.",
+    "D": "The account must hold a credit of the sale proceeds plus his margin deposit."
+   },
+   "answer": "D",
+   "rationale": "For a short position, the loan value is (100% + margin rate) × market value. The margin account must hold a credit at least equal to that amount. So the sale proceeds stay in the account, and the client adds a margin deposit. A loan of part of the market value describes a long margin position.",
+   "rule_refs": [
+    "IDPC 5113"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"the cash balance in the margin account must be a credit equal to or larger than the net negative loan value\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 5113(4)(iii), ~line 14796"
+  },
+  {
+   "id": "RSE-E8-0082",
+   "element": 8,
+   "outcome": "8.6",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Which party is responsible for sending trade confirmations and account statements to a client?",
+   "options": {
+    "A": "The client's RR, personally",
+    "B": "The marketplace where the trade executed",
+    "C": "The Investment Dealer that holds the account",
+    "D": "CIRO, as the self-regulatory organization"
+   },
+   "answer": "C",
+   "rationale": "IDPC 3816 requires the Dealer Member to promptly send a written confirmation of all purchases and sales. IDPC 3808 requires the Dealer Member to send account statements. The duty belongs to the dealer, not the RR, the marketplace or CIRO.",
+   "rule_refs": [
+    "IDPC 3808",
+    "IDPC 3816",
+    "IDPC 3845"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"A Dealer Member must promptly send the client a written confirmation of all purchases and sales of securities\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3816(1), ~line 9220"
+  }
+ ]
+}

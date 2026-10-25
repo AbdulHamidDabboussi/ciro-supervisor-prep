@@ -1,0 +1,1084 @@
+{
+ "meta": {
+  "batch": "E7-003b",
+  "drafted": "2026-10-25",
+  "source": "study guide v1.1"
+ },
+ "questions": [
+  {
+   "id": "RSE-E7-0085",
+   "element": 7,
+   "outcome": "7.7",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "An RR recommends a Canadian dividend fund to Lucian Ferrante in his advisory account. The RR explains its income, its growth and its past returns. The RR does not mention its fees or risks. How should you assess this recommendation?",
+   "options": {
+    "A": "It meets the standard, because the fund suits Lucian's income objective",
+    "B": "It meets the standard if Lucian can find the fees in the fund facts later",
+    "C": "It fails the standard, because it discloses only the positive factors",
+    "D": "It fails the standard, because an RR cannot recommend a dividend fund"
+   },
+   "answer": "C",
+   "rationale": "The RR must disclose the material negative and positive factors of the transaction, so that the client can make an informed decision. A recommendation that shows only the benefits fails, even if the fund suits Lucian.",
+   "rule_refs": [
+    "GN-3400-21-004 s. 3.2.1"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"a Registered Individual should disclose any material negative and positive factors involved in the transaction to the client to assist the client in making an informed decision.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.2.1, L482"
+  },
+  {
+   "id": "RSE-E7-0086",
+   "element": 7,
+   "outcome": "7.7",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "CIRO guidance groups the facts that an Approved Person must explain about a security into features, risks and costs. Which item does the guidance list as a feature?",
+   "options": {
+    "A": "Use of leverage",
+    "B": "Redemption risk",
+    "C": "Trailing commissions",
+    "D": "Possible loss of principal"
+   },
+   "answer": "A",
+   "rationale": "The guidance lists use of leverage as a feature, with potential returns, conflicts of interest, time horizon and complexity. Redemption risk and loss of principal are risks. Trailing commissions are a cost.",
+   "rule_refs": [
+    "GN-3300-21-001"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"features – including potential returns, use of leverage, conflicts of interest, investment time horizon, overall complexity of the security\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001, L264"
+  },
+  {
+   "id": "RSE-E7-0087",
+   "element": 7,
+   "outcome": "7.7",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "An RR recommends a new asset mix to Wilhelmina Strand after her retirement. Which statement best explains what the recommended action can accomplish for her?",
+   "options": {
+    "A": "\"This fund has beaten its peer group in each of the last five years.\"",
+    "B": "\"This mix is the most popular choice among our retired clients.\"",
+    "C": "\"This mix has the lowest total fee of all the funds on our shelf.\"",
+    "D": "\"This change moves you from 75% to 55% equity, which matches your new risk profile.\""
+   },
+   "answer": "D",
+   "rationale": "A sound recommendation ties the action to the client's goal in measurable terms. Then the client can judge the advice and the dealer can supervise it. Past returns, popularity or a low fee do not show what the action does for her goal.",
+   "rule_refs": [
+    "GN-3400-21-004"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 7.7 (what the recommended action can accomplish)"
+  },
+  {
+   "id": "RSE-E7-0088",
+   "element": 7,
+   "outcome": "7.7",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Rhea Castellano's RR summarizes a recommendation and its reasons. The RR checks that Rhea understands it and answers her questions. Rhea then confirms that she wants to proceed. What should the RR do next?",
+   "options": {
+    "A": "Enter the order and mark it as unsolicited",
+    "B": "Document the recommendation, the disclosure and her decision",
+    "C": "Ask her to sign a waiver of the suitability requirement",
+    "D": "Wait for CIRO to approve the recommendation before trading"
+   },
+   "answer": "B",
+   "rationale": "The last step to secure a client's commitment is to document the recommendation, the disclosure and the client's decision. The order was recommended by the RR, so marking it as unsolicited is incorrect.",
+   "rule_refs": [
+    "GN-3400-21-004"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 7.7 (securing the client's commitment, steps 1-5)"
+  },
+  {
+   "id": "RSE-E7-0089",
+   "element": 7,
+   "outcome": "7.7",
+   "taxonomy": "Analyze",
+   "type": "standard",
+   "stem": "Ambrose Kettle has a low risk profile. He tells his RR to buy a speculative junior mining stock. The purchase does not meet the suitability requirement. The RR marks the order as unsolicited. Which statement is correct?",
+   "options": {
+    "A": "The unsolicited mark removes the dealer's suitability obligation for this order",
+    "B": "The RR must accept the order, because the client gave the instruction",
+    "C": "The dealer can proceed after Ambrose signs a general risk waiver",
+    "D": "The unsolicited mark is not sufficient, and the IDPC 3402(5) steps still apply"
+   },
+   "answer": "D",
+   "rationale": "Guidance says that it is not sufficient to mark such an order as unsolicited. The dealer can carry it out only after the three IDPC 3402(5) steps. The RR also does not have to accept an order that fails suitability.",
+   "rule_refs": [
+    "IDPC 3402(5)",
+    "GN-3400-21-004 s. 3.10"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"A Registered Individual is not obligated to accept a client order or instruction that does not, in the Registered Individual’s view, meet the criteria for a suitability determination. It is not sufficient for the Registered Individual to mark the order as “unsolicited”.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.10, L718"
+  },
+  {
+   "id": "RSE-E7-0090",
+   "element": 7,
+   "outcome": "7.7",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Thaddeus Lowe instructs his dealer to make a trade that does not meet IDPC 3402(1). The dealer told him why and advised him against it. It also has his recorded confirmation to proceed. Which other step must it complete first?",
+   "options": {
+    "A": "Get approval for the trade from CIRO",
+    "B": "Get a written legal opinion that the trade is permitted",
+    "C": "Reduce the trade to half of the amount that Thaddeus asked for",
+    "D": "Recommend an alternative action that meets IDPC 3402(1)"
+   },
+   "answer": "D",
+   "rationale": "IDPC 3402(5) has three steps. The dealer explains the basis and advises against the action. It recommends an alternative action that meets 3402(1). It gets recorded confirmation of the instruction to proceed. CIRO approval is not a step.",
+   "rule_refs": [
+    "IDPC 3402(5)"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"recommended to the retail client an alternative action that satisfies subsection 3402(1)\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(5)(ii), L6853"
+  },
+  {
+   "id": "RSE-E7-0091",
+   "element": 7,
+   "outcome": "7.7",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "An RR wants Sunniva Dahl to agree quickly to a recommendation. The RR tells her that she must decide today, before she fully understands the product. Which statement is correct?",
+   "options": {
+    "A": "The RR acts correctly, because a fast decision reduces market risk",
+    "B": "The RR acts incorrectly, because the commitment must follow her understanding",
+    "C": "The RR acts correctly if the RR documents the date of her decision",
+    "D": "The RR acts incorrectly only if the product has a deferred sales charge"
+   },
+   "answer": "B",
+   "rationale": "The RR must not put pressure on the client. The RR gets the commitment only after the client understands the recommendation. Documentation does not correct a commitment obtained under pressure.",
+   "rule_refs": [
+    "GN-3400-21-004"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 7.7 (do not put pressure on the client; commitment only after understanding)"
+  },
+  {
+   "id": "RSE-E7-0092",
+   "element": 7,
+   "outcome": "7.8",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Teodora Vlasic needs $30,000 in 6 years for a known liability. She can earn 4% a year, compounded annually. She will make equal deposits at the end of each year. What deposit does she need each year?",
+   "options": {
+    "A": "$4,348.90",
+    "B": "$4,522.86",
+    "C": "$5,000.00",
+    "D": "$5,722.86"
+   },
+   "answer": "B",
+   "rationale": "PMT = FV × r ÷ ((1 + r)^n − 1) = 30,000 × 0.04 ÷ (1.04^6 − 1) = $4,522.86. $5,000 ignores interest. $4,348.90 assumes deposits at the start of each year.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: 1.04^6 = 1.265319; PMT = 1,200 / 0.265319 = 4,522.86. Distractors: annuity due 4,522.86/1.04 = 4,348.90; no interest 30,000/6 = 5,000; PV-annuity formula misused 30,000×0.04/(1−1.04^−6) = 5,722.86"
+  },
+  {
+   "id": "RSE-E7-0093",
+   "element": 7,
+   "outcome": "7.8",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Casimir Nowak invests $120,000 at 6% a year, compounded annually. He wants equal payments at the end of each year for 10 years. The balance is zero after the last payment. What is each payment?",
+   "options": {
+    "A": "$9,104.15",
+    "B": "$12,000.00",
+    "C": "$15,381.28",
+    "D": "$16,304.15"
+   },
+   "answer": "D",
+   "rationale": "PMT = PV × r ÷ (1 − (1 + r)^−n) = 120,000 × 0.06 ÷ (1 − 1.06^−10) = $16,304.15. $15,381.28 is the payment if payments start immediately. $12,000 ignores interest.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: 1.06^-10 = 0.558395; PMT = 7,200 / 0.441605 = 16,304.15. Distractors: annuity due 16,304.15/1.06 = 15,381.28; 120,000/10 = 12,000; FV formula misused 7,200/(1.06^10−1) = 9,104.15"
+  },
+  {
+   "id": "RSE-E7-0094",
+   "element": 7,
+   "outcome": "7.8",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Ingeborg Falk invests $200,000 at a nominal 6% a year, compounded monthly. She wants equal payments at the end of each month for 20 years. The balance is zero after the last payment. What is each monthly payment?",
+   "options": {
+    "A": "$833.33",
+    "B": "$1,000.00",
+    "C": "$1,432.86",
+    "D": "$1,453.08"
+   },
+   "answer": "C",
+   "rationale": "Use r = 0.06 ÷ 12 = 0.005 and n = 20 × 12 = 240. PMT = 200,000 × 0.005 ÷ (1 − 1.005^−240) = $1,432.86. $1,453.08 is the annual payment divided by 12, which uses the wrong period.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: 1.005^-240 = 0.302096; PMT = 1,000 / 0.697904 = 1,432.86. Distractors: annual PMT 17,436.91/12 = 1,453.08; interest only 200,000×0.005 = 1,000; 200,000/240 = 833.33"
+  },
+  {
+   "id": "RSE-E7-0095",
+   "element": 7,
+   "outcome": "7.8",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Gaspard Lemaire is 72 and has $200,000. A 4% annual return fits his risk profile. He wants $15,000 at the end of each year for 20 years, with a zero balance at the end. Which statement is correct?",
+   "options": {
+    "A": "The sum supports about $14,716 a year, so his goal is not quite realistic",
+    "B": "The sum supports about $16,000 a year, so his goal is realistic",
+    "C": "The sum supports exactly $10,000 a year, so his goal is far too high",
+    "D": "The sum supports about $15,400 a year, so his goal is realistic"
+   },
+   "answer": "A",
+   "rationale": "PMT = 200,000 × 0.04 ÷ (1 − 1.04^−20) = $14,716.35. This is less than $15,000. The RR should discuss a lower income, a shorter period or other changes, not more risk.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: 1.04^-20 = 0.456387; PMT = 8,000 / 0.543613 = 14,716.35. Distractors: 200,000/20 = 10,000; others are invented over-estimates"
+  },
+  {
+   "id": "RSE-E7-0096",
+   "element": 7,
+   "outcome": "7.8",
+   "taxonomy": "Understand",
+   "type": "standard",
+   "stem": "Rosamund and Piet each invest $100,000 at the same rate for the same term. Each wants equal annual payments that use up the money. Rosamund wants payments at the start of each year. Piet wants them at each year-end. Which statement is correct?",
+   "options": {
+    "A": "Their payments are the same, because the sum, rate and term are the same",
+    "B": "Rosamund's payments are smaller, because each payment earns less interest first",
+    "C": "Rosamund's payments are larger, because she receives the money sooner",
+    "D": "Piet's payments are smaller, because his money stays invested for longer"
+   },
+   "answer": "B",
+   "rationale": "For the same present value, an annuity due has smaller payments than an ordinary annuity. Each of Rosamund's payments comes one period earlier, so the money earns less interest before it is paid out.",
+   "rule_refs": [],
+   "difficulty": "easy",
+   "status": "draft",
+   "qa_note": "concept: guide 7.8 exam trap (annuity due payments smaller for same PV)"
+  },
+  {
+   "id": "RSE-E7-0097",
+   "element": 7,
+   "outcome": "7.8",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Benedikt Aalto has a low risk profile and saves for a goal in 15 years. His RR uses a 9% annual return to calculate the deposit that he needs. What is the main problem with this assumption?",
+   "options": {
+    "A": "It makes the deposit look too large, so Benedikt saves more than he needs",
+    "B": "It has no effect, because the deposit depends only on the goal and the term",
+    "C": "It makes the deposit look too small and can hide a shortfall",
+    "D": "It is correct, because a long horizon permits the highest historical return"
+   },
+   "answer": "C",
+   "rationale": "A higher assumed return reduces the deposit needed. A return that is too high for a low risk profile makes the deposit look small and hides a shortfall. The RR should use realistic after-fee returns that fit the profile.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "concept: guide 7.8 (optimistic rate makes deposit look small and hides a shortfall)"
+  },
+  {
+   "id": "RSE-E7-0098",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Ottoline Brisebois is a resident of Canada and has never owned a home. She turns 73 this year and wants to open an FHSA. Which statement is correct?",
+   "options": {
+    "A": "She cannot open one, because she must be 71 or younger on December 31 of that year",
+    "B": "She can open one, but her contributions are not deductible",
+    "C": "She can open one, because she is a first-time home buyer",
+    "D": "She cannot open one, because she must have earned income in the previous year"
+   },
+   "answer": "A",
+   "rationale": "To open an FHSA, a person must be 71 or younger on December 31 of the year that they open it. Being a first-time buyer is not enough. Earned income is not a condition.",
+   "rule_refs": [
+    "Income Tax Act s. 146.6"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"You are 71 years or younger as of December 31 of the year you open your FHSA\" — research/sources/cra/fhsa-pages.txt CRA FHSA, L106"
+  },
+  {
+   "id": "RSE-E7-0099",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Mireille Gauthier earned $90,000 in 2025 and belongs to her employer's registered pension plan. Which item reduces the new RRSP room that she gets for 2026?",
+   "options": {
+    "A": "Her pension adjustment for 2025",
+    "B": "Her TFSA contributions in 2025",
+    "C": "Her taxable capital gains in 2025",
+    "D": "Her CPP contributions in 2025"
+   },
+   "answer": "A",
+   "rationale": "New RRSP room is the lesser of 18% of prior-year earned income and the dollar limit, minus the prior-year pension adjustment. TFSA contributions do not affect RRSP room.",
+   "rule_refs": [
+    "Income Tax Act s. 146(1)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"the taxpayer's pension adjustment for the preceding taxation year in respect of an employer\" — research/sources/gov/ita-registered-plans-rrsp-tfsa-fhsa-resp.txt ITA s.146(1) RRSP deduction limit, L59"
+  },
+  {
+   "id": "RSE-E7-0100",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Lorcan Byrne makes an RRSP contribution on February 20, 2027. He has enough deduction room. For which year can he deduct it?",
+   "options": {
+    "A": "Only for 2027, the year that he made the contribution",
+    "B": "For 2026, because it is within 60 days after the end of 2026",
+    "C": "Only for 2028, because RRSP deductions apply to the next year",
+    "D": "For any year that he chooses from 2024 to 2027"
+   },
+   "answer": "B",
+   "rationale": "A contribution made up to 60 days after the year-end can count for that year. February 20, 2027 is within 60 days after December 31, 2026. He could also choose to deduct it later.",
+   "rule_refs": [
+    "Income Tax Act s. 146(5)(a)"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"a premium paid by the taxpayer after 1990 and on or before the day that is 60 days after the end of the year under a registered retirement savings plan\" — research/sources/gov/ita-registered-plans-rrsp-tfsa-fhsa-resp.txt ITA s.146(5)(a), L97"
+  },
+  {
+   "id": "RSE-E7-0101",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Annika Sorensen has used all her TFSA room. In March 2026, she withdraws $10,000 from her TFSA. In June 2026, she wants to put the $10,000 back. Which statement is correct?",
+   "options": {
+    "A": "She can put it back at any time, because the withdrawal restores her room at once",
+    "B": "She can put it back only after she files her 2026 tax return",
+    "C": "She can never put it back, because TFSA withdrawals permanently reduce her room",
+    "D": "She gets the room back on January 1, 2027, so a June deposit is an excess amount"
+   },
+   "answer": "D",
+   "rationale": "A TFSA withdrawal adds the same amount of room on January 1 of the next year. A June 2026 deposit is an excess amount, which is taxed at 1% per month while it stays in the account.",
+   "rule_refs": [
+    "Income Tax Act s. 207.02"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"When you withdraw from your TFSA, you will regain the same amount as new available contribution room on January 1 of the following year.\" — research/sources/cra/tfsa-pages.txt CRA TFSA room, L386"
+  },
+  {
+   "id": "RSE-E7-0102",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Paloma Reyes contributes $4,000 to an RESP for her daughter this year. Her daughter is eligible for the CESG and has no unused grant room from earlier years. What is the maximum CESG for this contribution?",
+   "options": {
+    "A": "$400",
+    "B": "$500",
+    "C": "$800",
+    "D": "$7,200"
+   },
+   "answer": "B",
+   "rationale": "The CESG adds 20% of the first $2,500 contributed each year, so the maximum is $500. A grant of $800 would be 20% of the full $4,000. $7,200 is the lifetime maximum.",
+   "rule_refs": [
+    "Canada Education Savings Act"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"If eligible, beneficiaries can receive up to 20% of the first $2,500 contributed to the RESP.\" — research/sources/gov/resp-cesg-clb-esdc-pages.txt ESDC RESP, L158"
+  },
+  {
+   "id": "RSE-E7-0103",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Florentin Duval lives in Ontario. His son decides not to go to college. Florentin takes the RESP growth as an accumulated income payment. How is this payment taxed?",
+   "options": {
+    "A": "At Florentin's regular rate plus an extra 20%",
+    "B": "At his son's regular rate, as an educational assistance payment",
+    "C": "Tax-free, because it is a return of Florentin's contributions",
+    "D": "At Florentin's regular rate plus an extra 12%"
+   },
+   "answer": "A",
+   "rationale": "An accumulated income payment is taxed at the subscriber's regular rate plus 20%. The extra rate is 12% only for subscribers in Quebec. Only contributions come back tax-free.",
+   "rule_refs": [
+    "Income Tax Act s. 204.94"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"It is taxed at the regular income tax rate of the subscriber, plus an additional 20% (or 12% for subscribers residing in Quebec).\" — research/sources/gov/resp-cesg-clb-esdc-pages.txt ESDC RESP, L586"
+  },
+  {
+   "id": "RSE-E7-0104",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Lionel Okonjo contributed to a spousal RRSP for his wife in 2024 and 2025. She has a low income. She withdraws $20,000 from the plan in 2026. Which statement is correct?",
+   "options": {
+    "A": "The withdrawal is always taxed to his wife, because the plan is in her name",
+    "B": "The withdrawal is split equally between Lionel and his wife for tax",
+    "C": "The withdrawal is tax-free, because Lionel already paid tax on the contributions",
+    "D": "Lionel may have to include all or part of the withdrawal in his income"
+   },
+   "answer": "D",
+   "rationale": "A contribution to a spousal RRSP in the year of a withdrawal or the two years before can matter. Then the contributor may have to include all or part of the withdrawal in income.",
+   "rule_refs": [
+    "Income Tax Act s. 146(8.3)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"If you contributed to your spouse’s or common law partner’s RRSPs or your spouse’s account under an SPP in 2023, 2024, or 2025, you may have to include in your 2025 income all or part of:\" — research/sources/cra/guide-t4040-rrsps-other-registered-plans-retirement-2025.txt T4040 (2025), L3311-3314"
+  },
+  {
+   "id": "RSE-E7-0105",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Matilda Orrin was 66 on December 31, 2026. She received RRIF income during 2026. Which credit can she claim on that RRIF income?",
+   "options": {
+    "A": "The dividend tax credit",
+    "B": "The foreign tax credit",
+    "C": "The pension income amount",
+    "D": "The Canada caregiver amount"
+   },
+   "answer": "C",
+   "rationale": "A client can claim the pension income amount on RRIF income if they were 65 or older on December 31 of the year. The dividend tax credit applies to dividends from taxable Canadian corporations, not RRIF income.",
+   "rule_refs": [
+    "Income Tax Act s. 118(3)"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"You can claim the pension income amount when you receive RRIF income if you were 65 or older on December 31 of the year\" — research/sources/cra/rrsp-rrif-hbp-pages.txt CRA RRIF, L782"
+  },
+  {
+   "id": "RSE-E7-0106",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Tamsin Rourke sells shares of a company at a $4,000 loss. Ten days later, she buys the same shares again for $9,000. She still owns them 30 days after the sale. What is the result?",
+   "options": {
+    "A": "She claims the $4,000 loss, and her new shares have an ACB of $9,000",
+    "B": "She claims half of the loss, and her new shares have an ACB of $11,000",
+    "C": "The loss is denied, and her new shares have an ACB of $9,000",
+    "D": "The loss is denied, and her new shares have an ACB of $13,000"
+   },
+   "answer": "D",
+   "rationale": "This is a superficial loss, so the loss is denied. Because Tamsin bought the substituted property herself, she can usually add the denied loss to its ACB: $9,000 + $4,000 = $13,000.",
+   "rule_refs": [
+    "Income Tax Act s. 54",
+    "Income Tax Act s. 53(1)(f)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"However, if you are the person who acquires the substituted property, you can usually add the amount of the superficial loss to the adjusted cost base of the substituted property.\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA, L741"
+  },
+  {
+   "id": "RSE-E7-0107",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "In 2025, Valentin Roux lends $150,000 to his wife at the prescribed rate in effect at that time. She invests it. She pays the interest for 2026 on February 15, 2027. Which statement is correct?",
+   "options": {
+    "A": "The income for 2026 is taxed to Valentin, because she paid the interest late",
+    "B": "The income is taxed to his wife, because the loan rate met the prescribed rate",
+    "C": "The income is taxed to his wife, because she paid the interest before her return was due",
+    "D": "The income is split equally, because she paid part of the year late"
+   },
+   "answer": "A",
+   "rationale": "The loan exception needs a rate of no less than the prescribed rate. The borrower must also pay each year's interest within 30 days after the year-end. February 15 is more than 30 days late, so attribution applies.",
+   "rule_refs": [
+    "Income Tax Act s. 74.5(2)"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"the amount of interest that was payable in respect of the particular year in respect of the loan was paid not later than 30 days after the end of the particular year\" — research/sources/gov/ita-attribution-income-splitting.txt ITA s.74.5(2)(b), L84"
+  },
+  {
+   "id": "RSE-E7-0108",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A CCPC and its associated corporations had adjusted aggregate investment income of $160,000 in the prior year. What is the effect on the CCPC's business limit for the small business deduction this year?",
+   "options": {
+    "A": "The business limit is reduced to nil",
+    "B": "The business limit is reduced by $160,000",
+    "C": "The business limit is not affected by investment income",
+    "D": "The business limit is reduced by half, to $250,000"
+   },
+   "answer": "A",
+   "rationale": "Each $1 of adjusted aggregate investment income over $50,000 reduces the $500,000 business limit by $5. So the limit is gone at $150,000. At $160,000, the business limit is nil.",
+   "rule_refs": [
+    "Income Tax Act s. 125(5.1)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"D/$500,000 × 5(E − $50,000)\" — research/sources/gov/ita-corporate-integration-rdtoh-grip-cda.txt ITA s.125(5.1)(b), L77"
+  },
+  {
+   "id": "RSE-E7-0109",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A CCPC has a NERDTOH balance from the refundable tax on its investment income. It wants a dividend refund from this balance. Which dividends must it pay?",
+   "options": {
+    "A": "Eligible dividends",
+    "B": "Capital dividends",
+    "C": "Non-eligible taxable dividends",
+    "D": "Any dividends, including capital dividends"
+   },
+   "answer": "C",
+   "rationale": "Only non-eligible dividends recover NERDTOH. Eligible dividends draw only on ERDTOH. A capital dividend is tax-free and comes from the CDA, so it does not give a dividend refund.",
+   "rule_refs": [
+    "Income Tax Act s. 129(1)"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"A private corporation’s eligible dividends generate dividend refunds from the ERDTOH. Non-eligible dividends generate dividend refunds from the NERDTOH first, and then possibly from the ERDTOH.\" — research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt T4012 (2025), L8943-8946"
+  },
+  {
+   "id": "RSE-E7-0110",
+   "element": 7,
+   "outcome": "7.9",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A CCPC earns active business income that uses the small business deduction. It pays this income out to its owner as dividends. Which type of dividend normally fits this income?",
+   "options": {
+    "A": "Eligible dividends paid from its GRIP",
+    "B": "Non-eligible dividends",
+    "C": "Capital dividends paid from its CDA",
+    "D": "Eligible dividends paid from its ERDTOH"
+   },
+   "answer": "B",
+   "rationale": "GRIP reflects income that did not get the small business deduction, so it supports eligible dividends. Small-business income pays non-eligible dividends, with the smaller gross-up and credit. This keeps total tax close to direct earnings.",
+   "rule_refs": [
+    "Income Tax Act s. 89(1)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"A CCPC or a deposit insurance corporation may pay eligible dividends to the extent of its GRIP—a balance generally reflecting taxable income that has not benefited from the small business deduction or any other special tax rate\" — research/sources/cra/guide-t4012-t2-corporation-income-tax-2025.txt T4012 (2025), L10251-10254"
+  },
+  {
+   "id": "RSE-E7-0111",
+   "element": 7,
+   "outcome": "7.10",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Hamish Calder buys 400 shares at $10 with a $40 commission. Later he buys 600 shares at $15 with a $60 commission. He then sells 300 shares. What is the ACB per share of the 700 shares that remain?",
+   "options": {
+    "A": "$12.50",
+    "B": "$12.60",
+    "C": "$13.00",
+    "D": "$13.10"
+   },
+   "answer": "D",
+   "rationale": "Average cost includes commissions: (4,040 + 9,060) ÷ 1,000 = $13.10. A sale does not change the average ACB of the shares that remain. $13.00 leaves out the commissions.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: (400×10+40) + (600×15+60) = 4,040 + 9,060 = 13,100; /1,000 = 13.10. Distractors: simple price average 12.50; simple average incl. commission (10.10+15.10)/2 = 12.60; no commissions 13,000/1,000 = 13.00"
+  },
+  {
+   "id": "RSE-E7-0112",
+   "element": 7,
+   "outcome": "7.10",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "In 2025, Odalys Ferreira sells 1,000 shares at $6.50 with a $50 commission. She bought them at $8.00 with a $50 commission. What is her allowable capital loss?",
+   "options": {
+    "A": "$750",
+    "B": "$775",
+    "C": "$800",
+    "D": "$1,600"
+   },
+   "answer": "C",
+   "rationale": "Capital loss = 6,500 − 8,050 − 50 = −$1,600. At the 2025 inclusion rate of 1/2, the allowable capital loss is $800. $1,600 is the full capital loss before the inclusion rate.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: proceeds 6,500; ACB 8,000+50 = 8,050; selling expense 50; loss 1,600; × 1/2 = 800. Distractors: one commission ignored 1,550/2 = 775; both ignored 1,500/2 = 750; full loss 1,600"
+  },
+  {
+   "id": "RSE-E7-0113",
+   "element": 7,
+   "outcome": "7.10",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Ingrid Vasquez holds mutual fund trust units with an ACB of $10,000. She receives a $600 return of capital on them. Later she sells all the units for $11,000, with no costs. What is her capital gain?",
+   "options": {
+    "A": "$400",
+    "B": "$1,000",
+    "C": "$1,600",
+    "D": "$2,200"
+   },
+   "answer": "C",
+   "rationale": "A return of capital reduces the ACB to 10,000 − 600 = $9,400. The capital gain is 11,000 − 9,400 = $1,600. $1,000 ignores the return of capital.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: ACB 10,000 − 600 = 9,400; gain 11,000 − 9,400 = 1,600. Distractors: ROC ignored 1,000; ROC added to ACB 400; ROC added to proceeds 2,200"
+  },
+  {
+   "id": "RSE-E7-0114",
+   "element": 7,
+   "outcome": "7.10",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Desmond Fairweather buys U.S. shares for US$10,000 when US$1 = C$1.30. He sells them for US$11,000 when US$1 = C$1.40. There are no costs. What is his capital gain in Canadian dollars?",
+   "options": {
+    "A": "C$1,000",
+    "B": "C$1,300",
+    "C": "C$1,400",
+    "D": "C$2,400"
+   },
+   "answer": "D",
+   "rationale": "Convert each amount at the rate when it arose. Cost = 10,000 × 1.30 = C$13,000. Proceeds = 11,000 × 1.40 = C$15,400. Gain = C$2,400. C$1,400 converts only the U.S. dollar gain.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: 11,000×1.40 − 10,000×1.30 = 15,400 − 13,000 = 2,400. Distractors: unconverted 1,000; 1,000×1.30 = 1,300; 1,000×1.40 = 1,400"
+  },
+  {
+   "id": "RSE-E7-0115",
+   "element": 7,
+   "outcome": "7.10",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Cordelia Hawthorne wants to give $20,000 to a registered charity. She holds listed shares worth $20,000 that have a large accrued gain. Which approach gives the best tax result on the gain?",
+   "options": {
+    "A": "Donate the shares directly to the charity",
+    "B": "Sell the shares, then donate the cash proceeds",
+    "C": "Transfer the shares to her RRSP, then donate the cash",
+    "D": "Gift the shares to her spouse, who then sells them"
+   },
+   "answer": "A",
+   "rationale": "A donation of listed securities to a qualified donee can get a zero inclusion rate on the gain. If she sells first, the normal inclusion rate applies to the gain.",
+   "rule_refs": [
+    "Income Tax Act s. 38(a.1)"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"You may be entitled to an inclusion rate of zero on any capital gain resulting from the donation of any of the following properties to a qualified donee\" — research/sources/cra/guide-t4037-capital-gains-2025.txt T4037 (2025), L1045-1047"
+  },
+  {
+   "id": "RSE-E7-0116",
+   "element": 7,
+   "outcome": "7.10",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Fintan Sheehy sells a stock in his RRSP at a $5,000 loss. In the same year, he realizes a $5,000 capital gain in his non-registered account. Which statement is correct?",
+   "options": {
+    "A": "The RRSP loss offsets the gain, so he has no taxable capital gain",
+    "B": "Half of the RRSP loss offsets the gain, as an allowable capital loss",
+    "C": "The RRSP loss cannot offset the gain, so the gain is taxable",
+    "D": "The RRSP loss becomes a net capital loss to carry forward"
+   },
+   "answer": "C",
+   "rationale": "A client cannot claim a deduction for capital losses within an RRSP. So a loss in the RRSP cannot offset a gain in a non-registered account, and the gain is taxable.",
+   "rule_refs": [
+    "Income Tax Act s. 146"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"claim a deduction for capital losses within your RRSP\" — research/sources/cra/guide-t4040-rrsps-other-registered-plans-retirement-2025.txt T4040 (2025), L1229"
+  },
+  {
+   "id": "RSE-E7-0117",
+   "element": 7,
+   "outcome": "7.10",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Saoirse Kinsella has unused room in both her TFSA and her RRSP. She will buy a growth stock that she expects to sell at a large gain in 10 years. Where should she hold it to minimize tax on the gain?",
+   "options": {
+    "A": "In her RRSP, because the withdrawal is taxed at the capital gains inclusion rate",
+    "B": "In her TFSA, because the gain and the withdrawal are generally tax-free",
+    "C": "In a non-registered account, because only part of a capital gain is taxed",
+    "D": "In her RRSP, because the deduction removes all tax on the future gain"
+   },
+   "answer": "B",
+   "rationale": "Capital gains in a TFSA are generally tax-free, even on withdrawal. An RRSP only defers tax, and its withdrawals are fully taxable income, so the inclusion-rate advantage is lost.",
+   "rule_refs": [
+    "Income Tax Act s. 146.2"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"You generally have to pay tax when you receive payments from the plan.\" — research/sources/cra/rrsp-rrif-hbp-pages.txt CRA RRSP overview, L12"
+  },
+  {
+   "id": "RSE-E7-0118",
+   "element": 7,
+   "outcome": "7.11",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Leontyne Abbott has 2026 taxable income of $130,000. Use the 2026 federal rates: 14% to $58,523, 20.5% to $117,045 and 26% above. What is her federal tax before credits?",
+   "options": {
+    "A": "$22,846.01",
+    "B": "$23,558.53",
+    "C": "$26,777.24",
+    "D": "$33,800.00"
+   },
+   "answer": "B",
+   "rationale": "Each rate applies only to its bracket: 8,193.22 + 11,997.01 + 3,368.30 = $23,558.53. $33,800 applies 26% to all income. $22,846.01 leaves out the 26% bracket.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: 58,523×0.14 = 8,193.22; (117,045−58,523)×0.205 = 58,522×0.205 = 11,997.01; (130,000−117,045)×0.26 = 12,955×0.26 = 3,368.30; total 23,558.53. Distractors: no 26% bracket 22,846.01; 14% then 26% 26,777.24; 26% on all 33,800"
+  },
+  {
+   "id": "RSE-E7-0119",
+   "element": 7,
+   "outcome": "7.11",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Isadora Quint is in the 20.5% federal bracket in 2026. She receives a $3,000 non-eligible dividend. The gross-up is 15%. The federal dividend tax credit is 9/13 of the gross-up. What is her federal tax on the dividend?",
+   "options": {
+    "A": "$395.71",
+    "B": "$461.80",
+    "C": "$615.00",
+    "D": "$707.25"
+   },
+   "answer": "A",
+   "rationale": "Grossed-up dividend = 3,000 × 1.15 = 3,450. Tax = 3,450 × 20.5% = 707.25. Credit = 9/13 × 450 = 311.54. Net tax = $395.71. $707.25 leaves out the credit.",
+   "rule_refs": [],
+   "difficulty": "hard",
+   "status": "draft",
+   "qa_note": "calc: 3,450×0.205 = 707.25; 9/13×450 = 311.54; 707.25 − 311.54 = 395.71. Distractors: 6/11 credit used 707.25 − 245.45 = 461.80; taxed as interest 615.00; no credit 707.25"
+  },
+  {
+   "id": "RSE-E7-0120",
+   "element": 7,
+   "outcome": "7.11",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Remy Achterhof is in the 29% federal bracket in 2026. He receives a C$2,000 dividend from a foreign corporation. What is his federal tax on it before any foreign tax credit?",
+   "options": {
+    "A": "$385.85",
+    "B": "$459.31",
+    "C": "$580.00",
+    "D": "$800.40"
+   },
+   "answer": "C",
+   "rationale": "Foreign dividends get no gross-up and no dividend tax credit. They are taxed in full, like interest: 2,000 × 29% = $580. $385.85 wrongly treats the dividend as an eligible Canadian dividend.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: 2,000×0.29 = 580. Distractors: eligible treatment 2,760×0.29 − 6/11×760 = 385.85; non-eligible treatment 2,300×0.29 − 9/13×300 = 459.31; gross-up with no credit 2,760×0.29 = 800.40"
+  },
+  {
+   "id": "RSE-E7-0121",
+   "element": 7,
+   "outcome": "7.11",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "On September 1, 2025, Aurelie Mbeki buys a 3-year compound GIC. It pays all interest at maturity. What interest must she report on her 2026 tax return?",
+   "options": {
+    "A": "No interest, because she receives no cash until 2028",
+    "B": "The interest earned from September 1, 2025 to August 31, 2026",
+    "C": "The interest earned from January 1, 2026 to December 31, 2026",
+    "D": "One third of the total interest that she receives at maturity"
+   },
+   "answer": "B",
+   "rationale": "For a multi-year investment, the client reports the interest earned in each complete investment year, from anniversary to anniversary. The first investment year ends on August 31, 2026, so she reports it on her 2026 return.",
+   "rule_refs": [
+    "Income Tax Act s. 12(4)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"if you made a long-term investment on July 1, 2024, report the interest earned up to June 30, 2025 on your 2025 return.\" — research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt CRA Line 12100 (2025 tax year), ~L108"
+  },
+  {
+   "id": "RSE-E7-0122",
+   "element": 7,
+   "outcome": "7.11",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Bastien Marchetti has 2026 federal taxable income of $100,000. He earns another $1,000 of interest. At which federal rate is this extra interest taxed?",
+   "options": {
+    "A": "14%, the lowest federal rate",
+    "B": "20.5%, the rate of his current bracket",
+    "C": "26%, the next federal rate",
+    "D": "His average federal rate on all income"
+   },
+   "answer": "B",
+   "rationale": "Each rate applies only to its bracket. The next dollar of his income falls in the $58,523.01 to $117,045 bracket, so his marginal rate is 20.5%. Interest is fully taxable at the marginal rate.",
+   "rule_refs": [
+    "Income Tax Act s. 117"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"Provincial or territorial income tax rates apply in addition to federal income tax rates. The tax rates are split up into income brackets. Each rate applies only to the corresponding income bracket, not to all income.\" — research/sources/cra/tax-rates-brackets-individuals-2025-2026.txt CRA 2026 rates, L13"
+  },
+  {
+   "id": "RSE-E7-0123",
+   "element": 7,
+   "outcome": "7.11",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Philippa Sandoval is 69 and her net income is above the OAS recovery threshold. She replaces $5,000 of interest with $5,000 of eligible dividends. What happens to her net income?",
+   "options": {
+    "A": "It stays the same, because she receives the same cash",
+    "B": "It falls, because the dividend tax credit reduces net income",
+    "C": "It rises by $1,900, because $6,900 of grossed-up dividends replaces $5,000 of interest",
+    "D": "It falls by $1,900, because eligible dividends are taxed below interest"
+   },
+   "answer": "C",
+   "rationale": "Eligible dividends are grossed up by 38%, so 5,000 × 1.38 = $6,900 goes into net income. The credit reduces tax, not net income. The higher net income can increase her OAS recovery tax.",
+   "rule_refs": [
+    "Income Tax Act s. 82(1)"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"Multiply the actual amount received by 138% and include the result on line 12000 | Multiply the actual amount received by 115% and include the result on line 12000 and line 12010\" — research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt CRA lines 12000/12010, L236"
+  },
+  {
+   "id": "RSE-E7-0124",
+   "element": 7,
+   "outcome": "7.11",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Solange Bertrand is in the 20.5% federal bracket in 2026. Which $1,000 of investment income gives her the lowest federal tax? Assume a capital gain has a 1/2 inclusion rate.",
+   "options": {
+    "A": "$1,000 of interest from a GIC",
+    "B": "$1,000 of eligible dividends",
+    "C": "$1,000 of non-eligible dividends",
+    "D": "$1,000 of capital gains"
+   },
+   "answer": "B",
+   "rationale": "At 20.5%, federal tax is $205 on interest, $131.90 on non-eligible dividends, $102.50 on capital gains and $75.63 on eligible dividends. The eligible dividend has the largest dividend tax credit.",
+   "rule_refs": [],
+   "difficulty": "medium",
+   "status": "draft",
+   "qa_note": "calc: interest 1,000×0.205 = 205.00; eligible 1,380×0.205 − 6/11×380 = 282.90 − 207.27 = 75.63; non-eligible 1,150×0.205 − 9/13×150 = 235.75 − 103.85 = 131.90; capital gain 500×0.205 = 102.50"
+  },
+  {
+   "id": "RSE-E7-0125",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Constance Pryor phones her dealer. She says that her RR made a trade without her permission. She sends nothing in writing. A preliminary investigation finds her signed instruction on file. Which statement is correct?",
+   "options": {
+    "A": "It is a Part E complaint, because any allegation of misconduct is a complaint",
+    "B": "It is a Part E complaint, because she made it by telephone",
+    "C": "It is not a Part E complaint, because the investigation shows no merit",
+    "D": "It is not a Part E complaint, because unauthorized trading is not misconduct"
+   },
+   "answer": "C",
+   "rationale": "A verbal complaint is a Part E complaint only if a preliminary investigation indicates that the allegation may have merit. Her signed instruction shows no merit. Unauthorized trading is misconduct.",
+   "rule_refs": [
+    "IDPC 3721(1)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"a verbal expression of dissatisfaction with the Dealer Member or employee alleging misconduct where a preliminary investigation indicates that the allegation may have merit.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3721(1)(ii), L7884-7885"
+  },
+  {
+   "id": "RSE-E7-0126",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Marcellus Grey emails his dealer. He complains that the call centre made him wait on hold for 40 minutes. He alleges no misconduct. Which statement is correct?",
+   "options": {
+    "A": "The dealer must follow its policies for complaints that do not allege misconduct",
+    "B": "The dealer must respond within 90 days, as for any Part E complaint",
+    "C": "The dealer can ignore the email, because it is not a complaint",
+    "D": "The dealer must report it to CIRO, as it does for all complaints"
+   },
+   "answer": "A",
+   "rationale": "Part E covers complaints that allege misconduct. Dealers also need policies for complaints that allege no misconduct. A service complaint is not reported to CIRO.",
+   "rule_refs": [
+    "IDPC 3720(1)",
+    "IDPC 3703"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"retail client complaints alleging misconduct, and (ii) retail client complaints that do not allege misconduct.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3720(1), L7874-7876"
+  },
+  {
+   "id": "RSE-E7-0127",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Wendell Ashby has started a civil action against his dealer about unsuitable investments. He then sends the dealer a letter on the same matter. Which statement is correct?",
+   "options": {
+    "A": "It is a Part E complaint, because it alleges unsuitable investments",
+    "B": "It is not a Part E complaint, because it was not made in person",
+    "C": "It is a Part E complaint only if he withdraws his civil action later",
+    "D": "It is not a Part E complaint, because it is the subject of a civil action"
+   },
+   "answer": "D",
+   "rationale": "A matter that is the subject of a civil action or arbitration is not a complaint under Part E. A recorded allegation of unsuitable investments would otherwise be a complaint.",
+   "rule_refs": [
+    "IDPC 3721(3)"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"Any matter which is the subject of a civil action or arbitration is not considered to be a complaint for the purpose of section 3721.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3721(3), L7893"
+  },
+  {
+   "id": "RSE-E7-0128",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A client tells Esperanza Vidal, an RR, that another RR at the dealer forged her signature. The client makes the complaint verbally. What must Esperanza do?",
+   "options": {
+    "A": "Report it to the dealer within two business days",
+    "B": "Report it to the dealer only if the client puts it in writing",
+    "C": "Report it to CIRO directly within five business days",
+    "D": "Report it to the dealer within 90 days"
+   },
+   "answer": "A",
+   "rationale": "An Approved Person must report certain complaints about another Approved Person to the dealer within two business days. Forgery is one of these allegations. A complaint in writing or other form is enough.",
+   "rule_refs": [
+    "IDPC 3702(1)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"if the Approved Person becomes aware of a client complaint, in writing or other form, about another Approved Person involving allegations of theft, fraud, misappropriation of funds, securities or other property, forgery, money laundering, market manipulation, insider trading, misrepresentation, or unauthorized trading.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3702(1)(iv), L7658-7661"
+  },
+  {
+   "id": "RSE-E7-0129",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Gwilym Pryce receives his dealer's final response to his complaint on March 1. He is not satisfied. How long does he have to take his complaint to OBSI?",
+   "options": {
+    "A": "30 days after the final response",
+    "B": "90 days after the final response",
+    "C": "180 days after the final response",
+    "D": "Two years after the final response"
+   },
+   "answer": "C",
+   "rationale": "A client has 180 days after the dealer's final response to take the complaint to OBSI. The 90-day limit applies to the dealer's response, not to the client.",
+   "rule_refs": [
+    "OBSI"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"You have 180 days to bring your complaint to us after the firm has given you a final response.\" — research/sources/ciro/obsi-how-the-complaint-process-works.txt OBSI how it works, L21"
+  },
+  {
+   "id": "RSE-E7-0130",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Henrike Vos says that unsuitable advice cost her $500,000. She takes her complaint to OBSI. Which statement about OBSI is correct?",
+   "options": {
+    "A": "OBSI can recommend up to $500,000, and the dealer must pay it",
+    "B": "OBSI can recommend up to $350,000, and the dealer must pay it",
+    "C": "OBSI can award any amount, but only after an arbitration hearing",
+    "D": "OBSI can recommend up to $350,000, but its recommendation is not binding"
+   },
+   "answer": "D",
+   "rationale": "OBSI can recommend up to $350,000 for a single complaint. Its recommendations are not binding, so the dealer does not have to follow them.",
+   "rule_refs": [
+    "OBSI"
+   ],
+   "difficulty": "easy",
+   "status": "draft",
+   "source_quote": "\"We can recommend up to $350,000 for a single complaint.\" — research/sources/ciro/obsi-consumer-faqs.txt OBSI FAQ, L48"
+  },
+  {
+   "id": "RSE-E7-0131",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Josette Lavoie lives in Quebec. She made a complaint to her dealer 65 days ago and has no response. There are no exceptional circumstances. Which statement is correct?",
+   "options": {
+    "A": "She must wait until day 90 before she can go to OBSI",
+    "B": "She can go to OBSI now, because the limit for Quebec residents is 60 days",
+    "C": "She can go to OBSI only after the dealer sends its final response",
+    "D": "She must wait 180 days before she can go to OBSI"
+   },
+   "answer": "B",
+   "rationale": "A client can go to OBSI with no final response after 90 days. For Quebec residents, the dealer has 60 days, extendable to 90 only in exceptional circumstances. So Josette can go now.",
+   "rule_refs": [
+    "OBSI"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"your investment firm or provincial credit union has not provided a response to your complaint in 90 days, unless you are a Quebec resident, then they have 60 days (with exceptional circumstances allowing it to extend to 90 days).\" — research/sources/ciro/obsi-how-the-complaint-process-works.txt OBSI how it works, L18"
+  },
+  {
+   "id": "RSE-E7-0132",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A dealer resolved a client complaint three years ago. The complaint was not reported to CIRO. How long must the dealer keep a copy of the complaint file?",
+   "options": {
+    "A": "Two years from the date of receipt",
+    "B": "Three years from the date of resolution",
+    "C": "Five years from the date of receipt",
+    "D": "Seven years"
+   },
+   "answer": "D",
+   "rationale": "The dealer keeps an up-to-date central record for two years from receipt. It must keep a copy of each client complaint file for seven years. Two years is only for the central, readily accessible record.",
+   "rule_refs": [
+    "IDPC 3786(2)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"For each client complaint file, a Dealer Member must maintain a copy for seven years in a location that is retrievable within a reasonable period of time.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3786(2), ~L8052"
+  },
+  {
+   "id": "RSE-E7-0133",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "A dealer's compliance officer sees many complaints over six months about the same switching practice in one branch. What must the dealer do?",
+   "options": {
+    "A": "Review its internal procedures and send recommendations to the appropriate management",
+    "B": "Close the complaints, because each one alone is not serious",
+    "C": "Wait until OBSI tells it that the complaints show a serious problem",
+    "D": "Move the RRs in that branch to another branch, then close the files"
+   },
+   "answer": "A",
+   "rationale": "Frequent and repeated complaints on similar matters may together show a serious problem. Then the dealer must review its internal procedures and practices. It must also send recommendations to the appropriate management level.",
+   "rule_refs": [
+    "IDPC 3723(3)"
+   ],
+   "difficulty": "medium",
+   "status": "draft",
+   "source_quote": "\"If a Dealer Member determines that the number or severity of complaints is significant, or when a Dealer Member detects frequent and repetitive complaints made with respect to the same or similar matters which may on a cumulative basis indicate a serious problem, the Dealer Member must: (i) review its internal procedures and practices, and (ii) ensure recommendations to remedy the problem are submitted to the appropriate management level.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3723(3)"
+  },
+  {
+   "id": "RSE-E7-0134",
+   "element": 7,
+   "outcome": "7.12",
+   "taxonomy": "Apply",
+   "type": "standard",
+   "stem": "Thibault Renard's complaint went through his dealer's internal review. He then used the internal ombudsman offered by an affiliate of the dealer. Which time does the 90-day response limit include?",
+   "options": {
+    "A": "The dealer's internal review and the affiliate's ombudsman process",
+    "B": "Only the affiliate's internal ombudsman process",
+    "C": "The dealer's internal review, but not the affiliate's ombudsman process",
+    "D": "Neither process, because the limit starts after both are complete"
+   },
+   "answer": "C",
+   "rationale": "The 90 days include all internal processes that the dealer makes available to the client. The only exception is an internal ombudsman process that an affiliate of the dealer offers.",
+   "rule_refs": [
+    "IDPC 3726(4)"
+   ],
+   "difficulty": "hard",
+   "status": "draft",
+   "source_quote": "\"the 90 days time line must include all internal processes of the Dealer Member that are made available to the client, other than the internal ombudsman process offered by an affiliate of the Dealer Member\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3726(4)(i)"
+  }
+ ]
+}

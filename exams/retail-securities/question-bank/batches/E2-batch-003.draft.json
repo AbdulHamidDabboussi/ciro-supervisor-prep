@@ -1,0 +1,1553 @@
+{
+  "meta": {
+    "batch": "E2-003",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E2-0024",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer trades bonds only with institutional clients. Its compliance officer says that Rule 7100 does not apply to the dealer. Is the officer correct?",
+      "options": {
+        "A": "Yes. Rule 7100 applies only to debt trades with retail clients of the dealer.",
+        "B": "Yes. Institutional debt trades follow only the directions of the Bank of Canada.",
+        "C": "No. Unless a provision says otherwise, Rule 7100 applies to institutional and retail markets alike.",
+        "D": "No. But for institutional trades, only the retail mark-up provisions of Rule 7100 apply."
+      },
+      "answer": "C",
+      "rationale": "IDPC 7101(1) says that, unless a provision states otherwise, Rule 7100 makes no distinction between institutional and retail markets. So an institutional-only dealer is in scope. The mark-up guideline provision is a retail provision, so it is the least likely part to apply.",
+      "rule_refs": [
+        "IDPC 7101(1)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Unless expressly indicated, Rule 7100 makes no distinction between institutional and retail markets.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7101(1), ~L20975"
+    },
+    {
+      "id": "RSE-E2-0025",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The Bank of Canada issues a direction on trading in Government of Canada bonds. The direction does not have the force of law. Under IDPC 7102(1), what must a dealer do?",
+      "options": {
+        "A": "Obey the direction only after CIRO adopts it as one of its own rules",
+        "B": "Obey the direction only for trades that settle through a clearing corporation",
+        "C": "Make sure that its debt trading does not breach the direction, whether or not it is binding",
+        "D": "Record the direction, but trade against it if each client gives consent"
+      },
+      "answer": "C",
+      "rationale": "IDPC 7102(1) requires debt trading that does not breach any applicable direction or requirement, binding or not. It names the Bank of Canada and the Department of Finance. The rule has no exception for CIRO adoption, settlement method or client consent.",
+      "rule_refs": [
+        "IDPC 7102(1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"must ensure that its trading in the debt securities markets does not contravene any applicable laws, regulation, direction, or requirement, whether or not such requirement is binding or has the force of law, including without limitation the directions or requirements of the Bank of Canada or the Department of Finance (Canada).\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7102(1), ~L20988"
+    },
+    {
+      "id": "RSE-E2-0026",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer learns that its affiliate plans bond trades that break Rule 7100. The dealer will not trade for itself, but it will route the affiliate's orders. What does IDPC 7102(2) say?",
+      "options": {
+        "A": "The dealer may route the orders after it tells the affiliate's clients",
+        "B": "The dealer is responsible only for breaches in its own proprietary trades",
+        "C": "The dealer must not condone or knowingly facilitate the affiliate's conduct",
+        "D": "The dealer may route the orders, because the affiliate is a separate legal entity"
+      },
+      "answer": "C",
+      "rationale": "IDPC 7102(2) prohibits a dealer from condoning or knowingly facilitating conduct by its affiliates, clients or counterparties that breaches Rule 7100. To route orders that the dealer knows are improper is to facilitate them. A separate legal entity does not remove this duty.",
+      "rule_refs": [
+        "IDPC 7102(2)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"must not condone or knowingly facilitate conduct by its affiliates , clients, or counterparties that contravenes Rule 7100.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7102(2), ~L20993"
+    },
+    {
+      "id": "RSE-E2-0027",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer wrote its debt-market procedures when it had one bond trader. It now runs a large bond desk with retail and institutional business. What does IDPC 7103(4) require?",
+      "options": {
+        "A": "A review of the procedures only after a breach of CIRO requirements occurs",
+        "B": "A new CIRO approval each time that the number of its bond traders changes",
+        "C": "A regular review, so that the procedures fit the size, nature and complexity of its business",
+        "D": "No change, because approved procedures stay valid until CIRO asks for a new version"
+      },
+      "answer": "C",
+      "rationale": "IDPC 7103(4) requires the dealer to review its policies and procedures regularly. The test is that they stay appropriate for the size, nature and complexity of the business. The rule does not wait for a breach or a CIRO request, and it does not require CIRO approval.",
+      "rule_refs": [
+        "IDPC 7103(4)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"must regularly review its policies and procedures to ensure they are appropriate for the size, nature, and complexity of the Dealer Member's business.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7103(4), ~L21025"
+    },
+    {
+      "id": "RSE-E2-0028",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which item must a dealer's debt-market policies and procedures contain under IDPC 7103(2)?",
+      "options": {
+        "A": "A minimum credit rating for all bonds that RRs sell to retail clients",
+        "B": "One fixed maximum mark-up that CIRO sets for all dealers",
+        "C": "A complete ban on all trading in the dealer's non-client accounts",
+        "D": "Standards for the fair allocation of new issues among clients"
+      },
+      "answer": "D",
+      "rationale": "IDPC 7103(2)(iv) lists standards for the fair allocation of new issues among clients. For non-client accounts, the rule requires restrictions and controls, not a complete ban. Each dealer sets its own mark-up maximums, and the rule sets no minimum credit rating.",
+      "rule_refs": [
+        "IDPC 7103(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"a prohibition of front-running, (iv) standards for fair allocation of new issues among clients\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7103(2)(iii)-(iv), ~L21003"
+    },
+    {
+      "id": "RSE-E2-0029",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer's bond traders sit in an open office area. Visitors and staff from other departments walk through it. Which IDPC 7105(2) requirement does this arrangement most clearly fail?",
+      "options": {
+        "A": "Written mark-up and mark-down guidelines for the dealer's RRs",
+        "B": "Trading by designated personnel only in restricted-access office areas",
+        "C": "Fair allocation of new issues among the dealer's clients",
+        "D": "Approval of the procedures by an Executive of the business group"
+      },
+      "answer": "B",
+      "rationale": "IDPC 7105(2) requires the dealer to confine trading by designated personnel to restricted-access office areas. An open area that visitors walk through fails this control. Allocation, mark-up guidelines and Executive approval are other requirements, and the facts do not show a failure of them.",
+      "rule_refs": [
+        "IDPC 7105(2)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"restricting access to confidential information to the personnel that require it for their jobs, (ii) confining trading by designated personnel to restricted-access office areas, and (iii) using secure forms of communications and technology.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7105(2), ~L21051"
+    },
+    {
+      "id": "RSE-E2-0030",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer's surveillance finds a pattern of irregular bond trades by one of its employees. Under IDPC 7113(2), what must the dealer do?",
+      "options": {
+        "A": "Report the conduct only if a client of the dealer makes a complaint about it",
+        "B": "Close the employee's personal account and keep the matter inside the firm",
+        "C": "Include the conduct in its next annual compliance report to the board",
+        "D": "Promptly report the conduct to CIRO or another authority with jurisdiction, such as the Bank of Canada"
+      },
+      "answer": "D",
+      "rationale": "IDPC 7113(2) requires a prompt report of breaches and of suspicious or irregular market conduct. The report goes to CIRO or another authority with jurisdiction, including the Bank of Canada. An annual report is not prompt, and the duty does not depend on a complaint.",
+      "rule_refs": [
+        "IDPC 7113"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"must promptly report to the Corporation or other authority having jurisdiction, including the Bank of Canada: (i) any breaches of Corporation requirements, or (ii) suspicious or irregular market conduct.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7113(2), ~L21143"
+    },
+    {
+      "id": "RSE-E2-0031",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A bond trader knows that a rumour about an issuer's default is false. He does not repeat it, but he lets colleagues pass it to clients without objection. How does IDPC 7109 apply?",
+      "options": {
+        "A": "It is a prohibited practice, because tacit consent to a false rumour is manipulative or deceptive",
+        "B": "There is no breach, if the rumour does not change the price of the bond",
+        "C": "There is no breach, because the trader did not spread the rumour himself",
+        "D": "It is a breach only if the trader also trades the bond for his own account"
+      },
+      "answer": "A",
+      "rationale": "IDPC 7109(2)(iii) names a manipulative or deceptive practice: participation in, or tacit consent to, false or misleading rumours about issuers. The trader knew the rumour was false and tacitly consented. The rule does not require a price change or a personal trade.",
+      "rule_refs": [
+        "IDPC 7109"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"participating in or tacitly consenting to spreading rumours or information about issuers that are known, or ought reasonably to be known, to be false or misleading\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7109(2)(iii), ~L21093"
+    },
+    {
+      "id": "RSE-E2-0032",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A counterparty bids for a bond at a price clearly outside the prevailing market. The bid comes from a manifest error. What does IDPC 7110 require of the dealer?",
+      "options": {
+        "A": "It must not complete the trade, because that takes unfair advantage of the counterparty",
+        "B": "It may complete the trade, because the counterparty set the price itself",
+        "C": "It may complete the trade if the trade settles through a clearing corporation",
+        "D": "It may complete the trade if it reports the price to CIRO on the same day"
+      },
+      "answer": "A",
+      "rationale": "IDPC 7110(1)(vi) prohibits a trade at a price clearly outside the prevailing market that results from a manifest error. Such a trade takes unfair advantage of the counterparty. The rule does not let the dealer rely on the counterparty's own error, the settlement method or a report.",
+      "rule_refs": [
+        "IDPC 7110"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"completing a trade when the price is clearly outside of the prevailing market and proposed or agreed to as a result of a manifest error\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7110(1)(vi), ~L21120"
+    },
+    {
+      "id": "RSE-E2-0033",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer trades a derivative whose underlying interest is a corporate bond. A trader says that IDPC 7109 and 7110 cover only the bond itself. Is the trader correct?",
+      "options": {
+        "A": "Yes. Derivatives of debt securities follow only the UMIR rule on front running.",
+        "B": "Yes. Only the Bank of Canada can regulate derivatives of debt securities.",
+        "C": "No. But only 7110 applies to the derivatives, and 7109 does not apply.",
+        "D": "No. The prohibitions in 7109 and 7110 also apply to trading in derivatives of debt securities."
+      },
+      "answer": "D",
+      "rationale": "IDPC 7111(1) applies the prohibitions in sections 7109 and 7110 to trading in derivatives of debt securities. So both the manipulation ban and the unfair-advantage ban cover the derivative. UMIR 4.1 is a separate front-running rule and does not remove this coverage.",
+      "rule_refs": [
+        "IDPC 7111"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"The prohibitions in sections 7109 and 7110 apply to trading in derivatives of debt securities.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7111(1), ~L21126"
+    },
+    {
+      "id": "RSE-E2-0034",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer wants to give a paid golf trip to the treasurer of a pension-fund client, to win more bond orders. Under IDPC 7112(3), what must the dealer have first?",
+      "options": {
+        "A": "The prior written consent of the pension-fund client",
+        "B": "The written approval of the treasurer's own Supervisor",
+        "C": "A note about the trip on the next trade confirmation",
+        "D": "Approval of the trip from CIRO before the trip occurs"
+      },
+      "answer": "A",
+      "rationale": "IDPC 7112(3) prohibits an offer of consideration to an officer or employee of a client unless the client gives prior written consent. A treasurer is an officer of the pension fund. Approval from a person other than the client, or later disclosure, does not meet the rule.",
+      "rule_refs": [
+        "IDPC 7112(3)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"must not offer any consideration, including remuneration, gratuity, or benefit, to any partner, director, officer, employee, agent or shareholder of a client or any associate of such persons, unless the prior written consent of the client has been obtained.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 7112(3), ~L21133"
+    },
+    {
+      "id": "RSE-E2-0035",
+      "element": 2,
+      "outcome": "2.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer seriously breaches the requirements for trading Government of Canada securities. According to CIRO guidance, what can the Bank of Canada do?",
+      "options": {
+        "A": "Cancel the dealer's CIRO membership without a CIRO hearing",
+        "B": "Suspend or remove the dealer's eligible-bidder status at Government of Canada auctions",
+        "C": "Cancel the Government of Canada bonds that the dealer's clients hold",
+        "D": "Impose fines directly on the dealer's Registered Representatives"
+      },
+      "answer": "B",
+      "rationale": "GN-7100-21-001 says that, for Government of Canada securities, the Bank of Canada can suspend or remove eligible-bidder status for auctions. CIRO membership is a CIRO matter. The guidance does not give the Bank of Canada power to fine RRs or to cancel bonds that clients hold.",
+      "rule_refs": [
+        "GN-7100-21-001"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"In the case of Government of Canada securities, this could include the Bank of Canada suspending or removing eligible-bidder status for auctions of Government of Canada securities.\" — research/sources/ciro/gn-7100-21-001-debt-market-requirements.txt GN-7100-21-001 Regulatory sanctions, ~L48"
+    },
+    {
+      "id": "RSE-E2-0036",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "How does a Government of Canada T-bill give its return to a client?",
+      "options": {
+        "A": "The client buys it at a discount and receives par at maturity",
+        "B": "Its principal adjusts each year for the rate of inflation",
+        "C": "It pays a fixed coupon twice a year and returns par at maturity",
+        "D": "It pays a coupon that resets each month to a reference rate"
+      },
+      "answer": "A",
+      "rationale": "A T-bill pays no coupon. The client buys it below par and receives par at maturity, so the difference is the return. Semi-annual fixed coupons describe marketable bonds, inflation-adjusted principal describes Real Return Bonds, and a reset coupon describes a floating-rate note.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.2 (Government of Canada securities)"
+    },
+    {
+      "id": "RSE-E2-0037",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which Government of Canada product has a principal amount that adjusts for inflation?",
+      "options": {
+        "A": "A marketable bond with a fixed coupon",
+        "B": "A Real Return Bond",
+        "C": "A serial debenture",
+        "D": "A Treasury bill"
+      },
+      "answer": "B",
+      "rationale": "A Real Return Bond adjusts its principal for inflation, and existing issues still trade. A T-bill is a discount instrument with no coupon. A marketable bond has fixed coupons and a fixed principal. Serial debentures are a municipal structure.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.2 (Government of Canada securities)"
+    },
+    {
+      "id": "RSE-E2-0038",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A city issues debt so that a part of the issue matures in each year of its life. Which type of debt is this?",
+      "options": {
+        "A": "Collateral trust bonds",
+        "B": "Serial (instalment) debentures",
+        "C": "Real Return Bonds",
+        "D": "Extendable bonds"
+      },
+      "answer": "B",
+      "rationale": "Municipalities often issue serial (instalment) debentures, so a part of the issue matures each year. Collateral trust bonds are secured by pledged securities. An extendable bond gives the holder an option to extend one maturity date. Real Return Bonds adjust principal for inflation.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.2 (municipal securities)"
+    },
+    {
+      "id": "RSE-E2-0039",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A province and the Government of Canada each issue a 10-year bond. Why does the provincial bond usually have the higher yield?",
+      "options": {
+        "A": "Provincial bonds pay coupons once a year, so clients receive their income later",
+        "B": "Provincial bonds have no secondary market, so clients must hold them to maturity",
+        "C": "The federal government guarantees all provincial bonds, so they need a premium",
+        "D": "The federal government has the widest taxing power, so provincial credit quality is lower"
+      },
+      "answer": "D",
+      "rationale": "The federal government has the widest taxing power in Canada, so its debt has the highest quality. Provincial yields are a spread over GoC yields, and credit quality varies by province. Provinces do have a secondary market, and the federal government does not guarantee their bonds.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.2 (GoC; provincial securities)"
+    },
+    {
+      "id": "RSE-E2-0040",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A corporation pledges shares and bonds that it owns as security for a new bond issue. Which type of bond is this?",
+      "options": {
+        "A": "An equipment trust certificate",
+        "B": "A mortgage bond",
+        "C": "A subordinated debenture",
+        "D": "A collateral trust bond"
+      },
+      "answer": "D",
+      "rationale": "A collateral trust bond is secured by pledged securities. A mortgage bond is secured by real property. An equipment trust certificate is secured by equipment. A subordinated debenture has no specific security and ranks after the issuer's other debt.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.2 (corporate securities)"
+    },
+    {
+      "id": "RSE-E2-0041",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client says she never buys debentures, because a debenture is always a weak investment. Which reply is most accurate?",
+      "options": {
+        "A": "She is correct, because only corporations with a low credit rating can issue debentures in Canada",
+        "B": "A debenture is always safe, because a trustee guarantees the payments if the issuer defaults",
+        "C": "A debenture has no specific security, but its risk depends on the issuer; GoC bonds are unsecured and the safest in Canada",
+        "D": "She is correct, because a debenture always ranks after the issuer's subordinated debt after a default"
+      },
+      "answer": "C",
+      "rationale": "A debenture relies only on the general credit of the issuer, so its risk depends on that issuer. GoC bonds are unsecured yet the safest in Canada. A debenture ranks ahead of subordinated debentures. A trustee acts for bondholders but does not guarantee payments.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.2 (corporate securities; exam trap)"
+    },
+    {
+      "id": "RSE-E2-0042",
+      "element": 2,
+      "outcome": "2.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Tobias wants a GIC, but he may need the money before maturity. Which GIC type lets him cash it early, usually at a lower rate?",
+      "options": {
+        "A": "A compound GIC",
+        "B": "A cashable GIC",
+        "C": "A non-redeemable GIC",
+        "D": "A market-linked GIC"
+      },
+      "answer": "B",
+      "rationale": "A cashable GIC lets the client cash it before maturity, usually at a lower rate. A non-redeemable GIC usually cannot be cashed early. A market-linked GIC ties the return to a market index. Compound describes how interest is paid, not early access.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.2 (GIC types)"
+    },
+    {
+      "id": "RSE-E2-0043",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Darius holds a bond with a fixed 4% coupon. Market yields for similar bonds then rise to 6%. What happens to his coupon payments?",
+      "options": {
+        "A": "They rise by half of the change in market yields",
+        "B": "They fall, so that the bond's yield stays at 4%",
+        "C": "They stay the same, and the bond's price falls instead",
+        "D": "They rise to 6% of par at the next payment date"
+      },
+      "answer": "C",
+      "rationale": "For a fixed-coupon bond, the coupon stays the same when market yields change. The price moves so that a buyer earns the current market yield. So the price falls below par. A coupon that changes with rates describes a floating-rate bond.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.3 (coupon rate; bond price)"
+    },
+    {
+      "id": "RSE-E2-0044",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A bond with a 6% coupon trades at 104.20 on a coupon date. What does this price show about the market yield for this bond?",
+      "options": {
+        "A": "The market yield is exactly 6%",
+        "B": "The market yield is above 6%",
+        "C": "The market yield is below 6%",
+        "D": "The market yield is 4.20%"
+      },
+      "answer": "C",
+      "rationale": "A bond trades at a premium, above 100, when its coupon rate is above the market yield. The price of 104.20 is a premium, so the market yield is below 6%. A yield above 6% gives a discount, and a yield of 6% gives par.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.3 (bond price: premium/discount)"
+    },
+    {
+      "id": "RSE-E2-0045",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Tamsin sells Government of Canada T-bills on a Tuesday. The trade does not settle through a clearing corporation, and there is no written agreement on settlement. When is regular delivery?",
+      "options": {
+        "A": "On the Thursday, the second business day after the trade",
+        "B": "On the Wednesday, the first business day after the trade",
+        "C": "On the maturity date of the T-bills",
+        "D": "On the Tuesday, the same day as the trade"
+      },
+      "answer": "D",
+      "rationale": "IDPC 4805(1) sets regular delivery for GoC T-bills on the same day as the trade. The first business day after the trade applies to GoC, provincial, municipal and corporate bonds. Without a written agreement, regular delivery applies.",
+      "rule_refs": [
+        "IDPC 4805(1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The same day as the transaction date for Government of Canada Treasury Bills.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 4805(1)(i)(a), ~L14105"
+    },
+    {
+      "id": "RSE-E2-0046",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "At the time of a provincial bond trade, a dealer and a client agree in writing to settle five business days later. The trade does not go through a clearing corporation. Is this allowed?",
+      "options": {
+        "A": "Yes, but only if CIRO approves the longer settlement period in advance.",
+        "B": "Yes. Trades are for regular delivery unless all parties agree otherwise in writing at the time of the trade.",
+        "C": "No. Only Government of Canada T-bills can have special settlement terms.",
+        "D": "No. Provincial bonds must always settle on the first business day after the trade."
+      },
+      "answer": "B",
+      "rationale": "IDPC 4805(2) makes regular delivery the default, unless all parties agree otherwise in writing at the time of the trade. Here both parties agreed in writing at the time of the trade. The rule does not require CIRO approval or limit special terms to T-bills.",
+      "rule_refs": [
+        "IDPC 4805(2)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"All trades are to be considered for regular delivery , unless otherwise agreed to in writing by all of the parties to a transaction at the time of the transaction.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 4805(2), ~L14136"
+    },
+    {
+      "id": "RSE-E2-0047",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Leopold buys a corporate bond between coupon dates. The trade does not settle through a clearing corporation. He will receive the full next coupon. What does he pay in addition to the price?",
+      "options": {
+        "A": "The interest that the seller earned since the last coupon date",
+        "B": "The full amount of the next coupon payment",
+        "C": "No other amount, because the price includes all interest",
+        "D": "The interest from settlement to the next coupon date"
+      },
+      "answer": "A",
+      "rationale": "IDPC 4803(1) requires an accrued-interest basis for fixed-interest securities. The buyer pays the price plus accrued interest since the last coupon date. He then receives the full next coupon, so he repays the seller only the part that the seller earned.",
+      "rule_refs": [
+        "IDPC 4803(1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"All securities having interest payable as a fixed obligation, except securities in sale and repurchase agreement transactions, must be conducted on an accrued interest basis\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 4803(1), ~L14000"
+    },
+    {
+      "id": "RSE-E2-0048",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer trades fixed-interest bonds outside a clearing corporation. For which transaction does IDPC 4803(1) not require an accrued-interest basis?",
+      "options": {
+        "A": "A purchase of a corporate debenture from another dealer",
+        "B": "A sale of a provincial bond to a retail client",
+        "C": "A sale of a municipal serial debenture to an institution",
+        "D": "A sale and repurchase agreement transaction"
+      },
+      "answer": "D",
+      "rationale": "IDPC 4803(1) requires an accrued-interest basis for all securities with interest payable as a fixed obligation. The one exception is securities in sale and repurchase agreement transactions. The other three trades are ordinary fixed-interest trades, so accrued interest applies to them.",
+      "rule_refs": [
+        "IDPC 4803(1)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"All securities having interest payable as a fixed obligation, except securities in sale and repurchase agreement transactions, must be conducted on an accrued interest basis\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 4803(1), ~L14000"
+    },
+    {
+      "id": "RSE-E2-0049",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The trust indenture of Brackwater Ltd. bonds requires the company to keep insurance on all of its plants. What is this term called?",
+      "options": {
+        "A": "A negative covenant",
+        "B": "A call provision",
+        "C": "A positive covenant",
+        "D": "A sinking fund provision"
+      },
+      "answer": "C",
+      "rationale": "Covenants are promises of the issuer in the trust indenture. A positive covenant requires an action, such as to maintain insurance. A negative covenant restricts an action, such as new debt or dividends. Sinking fund and call provisions deal with early retirement of the bonds.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.3 (covenants)"
+    },
+    {
+      "id": "RSE-E2-0050",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ximena buys a bond and plans to sell it in two years. Her RR quoted the bond's yield to maturity. Which assumption behind that yield does her plan not meet?",
+      "options": {
+        "A": "That the issuer pays the coupons once a year",
+        "B": "That the client holds the bond until maturity",
+        "C": "That the client buys the bond at par value",
+        "D": "That the issuer can call the bond before maturity"
+      },
+      "answer": "B",
+      "rationale": "YTM assumes that the client holds the bond to maturity and reinvests each coupon at the YTM. A sale after two years breaks the first assumption, so her return can differ from the YTM. YTM does not assume a par price, annual coupons or a call.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.3 (yield to maturity)"
+    },
+    {
+      "id": "RSE-E2-0051",
+      "element": 2,
+      "outcome": "2.3",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Baptiste buys a corporate bond that is not a strip. Under IDPC 3816, which yield must his purchase confirmation show?",
+      "options": {
+        "A": "Both a semi-annual yield and an annual yield, for comparison with GICs",
+        "B": "The yield to maturity, calculated in line with market conventions for the security",
+        "C": "Only the coupon rate, because the yield changes after the purchase",
+        "D": "The current yield, calculated as the annual coupon divided by the price"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3816(2)(vi)(b) requires the yield to maturity, calculated in a manner consistent with market conventions for the security. The two-yield requirement, semi-annual and annual, applies to strip coupons and residuals. The current yield and the coupon rate do not meet the rule.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(b)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the yield to maturity calculated in a manner consistent with market conventions for the security traded\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3816(2)(vi)(b)(I), ~L9319"
+    },
+    {
+      "id": "RSE-E2-0052",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Hollis Corp. needs long-term capital. Its founders want to keep control. Why can a bond issue suit Hollis better than a new share issue?",
+      "options": {
+        "A": "Bondholders share in the growth of Hollis, so the coupon can be low",
+        "B": "A missed bond payment has no legal result, unlike a missed dividend",
+        "C": "Bond covenants give Hollis more flexibility than shareholders would",
+        "D": "Interest is generally tax-deductible, and bonds do not dilute the founders' control"
+      },
+      "answer": "D",
+      "rationale": "For an issuer, the advantages of bonds are generally tax-deductible interest and no dilution of control. A missed bond payment is a default, so the obligation is strict. Covenants restrict flexibility. Bondholders do not share in growth.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.4 (advantages and disadvantages, issuer)"
+    },
+    {
+      "id": "RSE-E2-0053",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Gunnar holds a bond that pays interest and principal in US dollars. The Canadian dollar then rises against the US dollar. What is the effect on his bond?",
+      "options": {
+        "A": "Its coupon rate rises to offset the change",
+        "B": "Its value in Canadian dollars falls",
+        "C": "Its credit rating falls because of the change",
+        "D": "Its value in Canadian dollars rises"
+      },
+      "answer": "B",
+      "rationale": "Currency risk means that, if the Canadian dollar rises, a foreign-currency bond loses value in Canadian dollars. Each US dollar received buys fewer Canadian dollars. The fixed coupon rate does not change, and an exchange-rate move does not change the issuer's credit rating.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.4 (sources of risk: currency risk)"
+    },
+    {
+      "id": "RSE-E2-0054",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Saoirse builds a bond ladder with equal amounts maturing in each of the next ten years. Which statement best analyzes the ladder's effect on her risks?",
+      "options": {
+        "A": "It removes credit risk, because the bonds mature on different dates",
+        "B": "It increases interest-rate risk, because some bonds have long terms",
+        "C": "It removes both interest-rate risk and reinvestment risk from her bond holdings",
+        "D": "It balances interest-rate risk and reinvestment risk, but some reinvestment risk remains"
+      },
+      "answer": "D",
+      "rationale": "Interest-rate risk and reinvestment risk work in opposite directions. Short bonds bring reinvestment risk, and long bonds bring interest-rate risk. A ladder balances the two. Some reinvestment risk remains, because a part matures each year. Different maturity dates do not remove credit risk.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 2.4 (sources of risk; ladder in scenario)"
+    },
+    {
+      "id": "RSE-E2-0055",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Ruairi puts all of his savings into one corporate bond that trades over the counter. He may need cash at short notice. Which risk is most significant for this need?",
+      "options": {
+        "A": "Liquidity risk",
+        "B": "Call risk",
+        "C": "Reinvestment risk",
+        "D": "Currency risk"
+      },
+      "answer": "A",
+      "rationale": "Liquidity risk is the risk that the client cannot sell quickly at a fair price. All savings in one OTC bond give high liquidity risk when cash can be needed at short notice. Reinvestment, call and currency risks do not relate to a fast sale.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.4 (sources of risk: liquidity risk)"
+    },
+    {
+      "id": "RSE-E2-0056",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A dealer acts as principal and sells a bond from its inventory to a client. It adds a mark-up to the price. What is the effect on the client?",
+      "options": {
+        "A": "The client pays a higher price, so the client's yield is lower",
+        "B": "The client pays the same price, but the coupon is lower",
+        "C": "The client pays a lower price, so the client's yield is higher",
+        "D": "The client pays a separate commission in place of the mark-up"
+      },
+      "answer": "A",
+      "rationale": "When the dealer acts as principal, its compensation is a mark-up in the price. A higher price on the same cash flows gives a lower yield. The mark-up does not change the coupon. A commission is the agent's form of compensation, not a principal's.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.4 (impact of costs of acquiring)"
+    },
+    {
+      "id": "RSE-E2-0057",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A dealer sells an OTC bond to a client as principal. Under IDPC 3122(3), which factor is one of the relevant factors for a fair and reasonable aggregate price?",
+      "options": {
+        "A": "The coupon rate of the dealer's own bond issues",
+        "B": "The fact that the dealer is entitled to a profit",
+        "C": "The client's marginal tax rate on interest income",
+        "D": "The monthly sales target of the client's RR"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3122(3) lists relevant factors. They include the fair market value of the securities, the expense of the trade and the dealer's entitlement to a profit. The client's tax rate, the RR's sales target and the dealer's own coupons are not factors in the rule.",
+      "rule_refs": [
+        "IDPC 3122(3)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the fact that the Dealer Member is entitled to a profit\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3122(3)(iv), ~L5210"
+    },
+    {
+      "id": "RSE-E2-0058",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A dealer acts as agent and buys an OTC bond for a client. Under IDPC 3122(4), what limits the commission that it can charge?",
+      "options": {
+        "A": "The commission must not exceed a fair and reasonable amount",
+        "B": "The commission must equal the mark-up that a principal would charge",
+        "C": "The commission must not exceed a fixed percentage that CIRO sets",
+        "D": "The commission has no limit if the dealer discloses it in advance"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3122(4) prohibits an agency trade in OTC securities for a commission or service charge above a fair and reasonable amount. CIRO does not set a fixed percentage. Disclosure does not remove the limit, and the rule does not tie the commission to a principal's mark-up.",
+      "rule_refs": [
+        "IDPC 3122(4)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"To ensure fair pricing when acting as agent, a Dealer Member must not purchase over- the-counter securities, sell over-the-counter securities, or transact in over -the-counter derivatives on behalf of a client for a commission or service charge in excess of a fair and reasonable amount\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3122(4), ~L5212"
+    },
+    {
+      "id": "RSE-E2-0059",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A dealer charges a retail client a commission and also applies a mark-up on a secondary-market bond trade. Its confirmation shows only the total commission. What else must the confirmation include?",
+      "options": {
+        "A": "A statement that the client can cancel the trade within two business days",
+        "B": "The price at which the dealer bought the bond for its inventory",
+        "C": "A prescribed notice, or a substantially similar one, that dealer remuneration was added to the price",
+        "D": "No other item, because the commission total meets the rule on its own"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3816(2)(vi)(c) lets the dealer show the total commission. If it also applied a mark-up, the confirmation must add the prescribed notice, or a substantially similar one. The notice says that dealer remuneration was added to the price. The rule does not require the dealer's cost.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(c)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Dealer firm remuneration has been added to the price of this security (in the case of a purchase) or deducted from the price of this security (in the case of a sale).\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3816(2)(vi)(c)(II), ~L9346"
+    },
+    {
+      "id": "RSE-E2-0060",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Odalys buys a T-bill in a non-registered account and sells it before maturity. The sale price is above the purchase price plus the interest accrued to the sale date. How is the result taxed?",
+      "options": {
+        "A": "As interest accrued to the sale date, plus a capital gain on the rest",
+        "B": "As a capital gain only, because she sold before maturity",
+        "C": "As interest only, because T-bills cannot give a capital gain",
+        "D": "As tax-free proceeds, because a T-bill pays no coupon"
+      },
+      "answer": "A",
+      "rationale": "CRA says that, if a client sells a T-bill before maturity, there can be a capital gain or loss in addition to the accrued interest. Here the proceeds exceed cost plus accrued interest, so the excess is a capital gain. A T-bill held to maturity gives interest only.",
+      "rule_refs": [
+        "CRA capital gains (T-bills)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"However, if you sell the T-bill before it matures, you may have a capital gain or loss in addition to the interest accrued at that time.\" — research/sources/cra/capital-gains-losses-superficial-loss-pages.txt CRA capital gains FAQ 'I sold a treasury bill that had not matured', ~L2358"
+    },
+    {
+      "id": "RSE-E2-0061",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A dealer adds the same commission per $100 of maturity amount to a 2-year strip and to a 20-year strip. Both have the same yield before commission. Which result is most likely?",
+      "options": {
+        "A": "The commission lowers the 20-year strip's yield more, because it has more price volatility",
+        "B": "The commission lowers the 2-year strip's yield more, because its cost falls on fewer years",
+        "C": "The commission does not change either yield, because strips mature at par",
+        "D": "The commission lowers both yields by the same amount, because the commission is the same"
+      },
+      "answer": "B",
+      "rationale": "A commission reduces the effective yield. On a short strip, the cost falls on few years of return. CIRO's information statement shows a $0.25 commission that cuts a one-year strip's yield from 5.5% to 5.229%. The same commission cuts a 25-year strip's yield only to 5.460%.",
+      "rule_refs": [
+        "CIRO Strip Information Statement"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"a strip bond with a term to maturity of one year and a commission of 25 cents per $100 of maturity amount has an after -commission yield of 5.229%\" — research/sources/ciro/brochure-strip-bonds-information-statement.txt Strip information statement p.3, ~L250"
+    },
+    {
+      "id": "RSE-E2-0062",
+      "element": 2,
+      "outcome": "2.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Elowen wants a compound GIC. She does not want to pay tax on the interest each year or when she takes the money out. Which account best meets her aim?",
+      "options": {
+        "A": "A non-registered account",
+        "B": "An RRSP",
+        "C": "A joint non-registered account",
+        "D": "A TFSA"
+      },
+      "answer": "D",
+      "rationale": "TFSA interest is generally tax-free, even on withdrawal. In a non-registered account, she reports compound GIC interest for each complete investment year. An RRSP removes the annual tax, but she generally pays tax on payments from the plan.",
+      "rule_refs": [
+        "CRA TFSA"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"any income you earn through interest, dividends or capital gains are generally tax-free, even when you make a withdrawal\" — research/sources/cra/tfsa-pages.txt CRA TFSA 'What is a TFSA', ~L167"
+    },
+    {
+      "id": "RSE-E2-0063",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A strip pays no interest. How does a client who holds a strip to maturity earn a return?",
+      "options": {
+        "A": "The client receives the coupons in cash twice a year, and par at maturity",
+        "B": "The client receives a coupon that resets to a reference rate plus a spread",
+        "C": "The client converts it into common shares of the issuer at maturity",
+        "D": "The client buys it below face value, and the yield compounds semi-annually and is paid at maturity"
+      },
+      "answer": "D",
+      "rationale": "CIRO's information statement says that strips do not pay interest. The yield at purchase compounds semi-annually and is paid at maturity. The client buys at a discount and receives par. Cash coupons, a reset coupon and conversion describe other instruments.",
+      "rule_refs": [
+        "CIRO Strip Information Statement"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Strips do not pay interest, but rather, the yield at the time of purchase is compounded semi-annually and paid at maturity.\" — research/sources/ciro/brochure-strip-bonds-information-statement.txt Strip information statement p.2"
+    },
+    {
+      "id": "RSE-E2-0064",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer separates a bond into its interest components and its principal component. What is the principal component called?",
+      "options": {
+        "A": "The coupon",
+        "B": "The residual",
+        "C": "The accrual",
+        "D": "The package"
+      },
+      "answer": "B",
+      "rationale": "When a bond is stripped, the interest components are the coupons and the principal portion is the residual. A strip bond package combines two or more components. Accrual is not a strip component.",
+      "rule_refs": [
+        "CIRO Strip Information Statement"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The \"residual\": the principal portion.\" — research/sources/ciro/brochure-strip-bonds-information-statement.txt Strip information statement p.2"
+    },
+    {
+      "id": "RSE-E2-0065",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Florentyna wants a regular income stream, similar to an annuity, from strip components. Which product fits this need?",
+      "options": {
+        "A": "An extendable bond",
+        "B": "A floating-rate note",
+        "C": "A single residual strip",
+        "D": "A strip bond package"
+      },
+      "answer": "D",
+      "rationale": "A strip bond package combines two or more strip components. It can give a regular income stream similar to an annuity. A single residual pays one amount at maturity. A floating-rate note and an extendable bond are not built from strip components.",
+      "rule_refs": [
+        "CIRO Strip Information Statement"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A strip bond package is a security comprised of two or more strip components. Strip bond packages can be created to provide holders with a regular income stream, similar to an annuity\" — research/sources/ciro/brochure-strip-bonds-information-statement.txt Strip information statement p.2"
+    },
+    {
+      "id": "RSE-E2-0066",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Strips typically yield more than conventional bonds of the same issuer, term and credit rating. According to CIRO's information statement, why?",
+      "options": {
+        "A": "The higher yield offsets the tax-free status of strip income",
+        "B": "The higher yield pays for the issuer's right to call the strip",
+        "C": "The higher yield reflects the greater price volatility of strips",
+        "D": "The higher yield reflects a lower credit quality of strip issuers"
+      },
+      "answer": "C",
+      "rationale": "CIRO's information statement says that the higher yield of strips reflects their greater price volatility. The issuer, term and rating are the same, so credit is not the reason. Strips have no call feature, and the CRA taxes notional interest on them each year.",
+      "rule_refs": [
+        "CIRO Strip Information Statement"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the higher yield offered by strips reflects their greater price volatility\" — research/sources/ciro/brochure-strip-bonds-information-statement.txt Strip information statement p.3"
+    },
+    {
+      "id": "RSE-E2-0067",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Leocadia buys a strip through her dealer. She asks whether the dealer must buy it back from her before maturity. What does CIRO's information statement say?",
+      "options": {
+        "A": "There is no obligation for dealers to maintain a secondary market, so she should be prepared to hold it to maturity",
+        "B": "The dealer must buy it back at any time, at a price equal to her purchase cost",
+        "C": "The Bank of Canada buys back all strips at fair value on each business day",
+        "D": "The dealer must buy it back at par value, but only on the original coupon dates"
+      },
+      "answer": "A",
+      "rationale": "The information statement says that dealers have no requirement or obligation to maintain a secondary market for strips. Liquidity may be limited. So clients should generally be prepared to hold a strip to maturity. No buy-back at cost or par exists.",
+      "rule_refs": [
+        "CIRO Strip Information Statement"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"there is no requirement or obligation for investment dealers or financial institutions to maintain a secondary market for strips sold by or through them\" — research/sources/ciro/brochure-strip-bonds-information-statement.txt Strip information statement p.3"
+    },
+    {
+      "id": "RSE-E2-0068",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Torvald holds a Government of Canada strip in a non-registered account. The strip pays nothing until maturity. What is the tax result each year?",
+      "options": {
+        "A": "He pays no tax at any time, because GoC strips are tax-exempt",
+        "B": "He must include a notional amount of interest in income, although he receives no cash",
+        "C": "He reports a capital loss each year, because the strip trades below par",
+        "D": "He pays no tax until maturity, when he reports the full gain as a capital gain"
+      },
+      "answer": "B",
+      "rationale": "The CRA treats strips as prescribed debt obligations. The holder must include notional interest in income each year, even though no interest is paid. So strips may be more attractive in non-taxable accounts. GoC strips are not tax-exempt.",
+      "rule_refs": [
+        "CIRO Strip Information Statement"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"a purchaser will be required to include in income in each year a notional amount of interest, notwithstanding that no interest will be paid or received in the year. Strips may therefore be more attractive when purchased and held in non -taxable accounts\" — research/sources/ciro/brochure-strip-bonds-information-statement.txt Strip information statement p.6"
+    },
+    {
+      "id": "RSE-E2-0069",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ambrose buys a corporate bond that the issuer can redeem before maturity. Under IDPC 3816, what must his purchase confirmation include?",
+      "options": {
+        "A": "Both a semi-annual yield and an annual yield",
+        "B": "The issuer's call price for each future year",
+        "C": "The notation \"The coupon rate may vary.\"",
+        "D": "The notation \"callable\""
+      },
+      "answer": "D",
+      "rationale": "IDPC 3816(2)(vi)(b)(II) requires the notation \"callable\" when a debt security is subject to call before maturity. \"The coupon rate may vary.\" is the notation for a variable coupon. Two yields apply to strips. The rule does not require a call schedule.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(b)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"where the debt security is subject to call prior to maturity through any means, the notation of \"callable\" must be included\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3816(2)(vi)(b)(II), ~L9322"
+    },
+    {
+      "id": "RSE-E2-0070",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Isadora holds a retractable bond. Market interest rates rise sharply after she buys it. What is she most likely to do with her option?",
+      "options": {
+        "A": "Convert the bond into common shares of the issuer",
+        "B": "Extend the bond's maturity to keep her coupon for longer",
+        "C": "Hold the bond, because the issuer will now call it",
+        "D": "Sell the bond back to the issuer at par and reinvest at the higher rates"
+      },
+      "answer": "D",
+      "rationale": "A retractable (puttable) bond lets the holder sell it back to the issuer at par on set dates. When rates rise, the holder uses this option and reinvests at the higher rates. Extension suits falling rates. An issuer calls when rates fall, not when they rise.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.5 (callable/puttable)"
+    },
+    {
+      "id": "RSE-E2-0071",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Cosimo holds an extendable bond. The election window passes, and he does not elect to extend. What happens?",
+      "options": {
+        "A": "The bond converts into a floating-rate bond for the extra term",
+        "B": "The bond extends automatically to the longer maturity date",
+        "C": "The issuer can call the bond at any time after the window",
+        "D": "The bond matures on its original maturity date"
+      },
+      "answer": "D",
+      "rationale": "An extendable bond lets the holder extend the maturity. If the holder does not elect within the window, the bond matures on the original date. So it behaves like the short bond when rates rise. No automatic extension, call right or floating-rate conversion applies.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.5 (extendable)"
+    },
+    {
+      "id": "RSE-E2-0072",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "The issuer's share price falls far below the conversion price of its convertible debenture. How does the convertible usually behave now?",
+      "options": {
+        "A": "It converts into shares automatically at the conversion ratio",
+        "B": "Its price follows the share price down with no floor",
+        "C": "It trades like a bond, and its bond value acts as a floor",
+        "D": "It loses its rank as debt and ranks with the common shares"
+      },
+      "answer": "C",
+      "rationale": "When the share price is low, a convertible trades like a bond, and its bond value acts as a floor. Its price follows the shares only when the share price is high. Conversion is the holder's choice. The convertible keeps the income and rank of debt.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 2.5 (convertible)"
+    },
+    {
+      "id": "RSE-E2-0073",
+      "element": 2,
+      "outcome": "2.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Market interest rates rise sharply. The credit quality of a floating-rate bond's issuer does not change. What usually happens to the bond?",
+      "options": {
+        "A": "Its coupon falls at the next reset, and its price rises above par",
+        "B": "Its coupon stays the same, and its price falls well below par",
+        "C": "Its coupon rises at the next reset, and its price stays near par",
+        "D": "Its coupon stays the same, and the issuer calls it at par"
+      },
+      "answer": "C",
+      "rationale": "A floating-rate bond resets its coupon to a reference rate plus a spread. So higher rates raise the coupon, and the price stays near par. The reset protects the price from rate changes, but not from credit changes. Here credit does not change.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.5 (floating rate)"
+    },
+    {
+      "id": "RSE-E2-0074",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ingrid buys a $1,000 par bond with a 4.5% annual coupon for $960. What is its current yield?",
+      "options": {
+        "A": "4.33%",
+        "B": "2.34%",
+        "C": "4.50%",
+        "D": "4.69%"
+      },
+      "answer": "D",
+      "rationale": "Current yield = annual coupon ÷ price = $45 ÷ $960 = 4.69%. The figure 4.50% is the coupon rate, which uses par, not the price. The figure 4.33% divides by $1,040, which is not the price. The figure 2.34% uses only one semi-annual payment.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: 45/960=0.046875; 45/1040=0.043269; 22.5/960=0.023438"
+    },
+    {
+      "id": "RSE-E2-0075",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A bond trades far below par. Why does its current yield understate the return to a client who holds it to maturity?",
+      "options": {
+        "A": "It ignores the coupon income that the client receives each year",
+        "B": "It uses par value, not the price, as its denominator",
+        "C": "It ignores the gain from the price rising to par by maturity",
+        "D": "It assumes that the issuer calls the bond before maturity"
+      },
+      "answer": "C",
+      "rationale": "Current yield shows the cash income per dollar invested today. It ignores the gain or loss from now to maturity. For a discount bond, the pull to par adds a gain, so the current yield understates the return. Current yield does use the price and the coupon.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.6 (income or current yield)"
+    },
+    {
+      "id": "RSE-E2-0076",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Wilhelmina pays $900 for a bond that matures at $1,000 in 8 years. It pays $40 of interest a year. Estimate her yield with the approximate YTM formula.",
+      "options": {
+        "A": "5.53%",
+        "B": "4.21%",
+        "C": "5.83%",
+        "D": "4.44%"
+      },
+      "answer": "A",
+      "rationale": "Approximate YTM = [40 + (1,000 − 900) ÷ 8] ÷ [(1,000 + 900) ÷ 2] = 52.50 ÷ 950 = 5.53%. The figure 5.83% divides by the price, not the average amount invested. The figure 4.44% is the current yield. The figure 4.21% ignores the pull to par.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: (40+100/8)/950=0.055263; (40+12.5)/900=0.058333; 40/900=0.044444; 40/950=0.042105"
+    },
+    {
+      "id": "RSE-E2-0077",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Osric buys a $1,000 par bond with a 7% coupon and 4 years to maturity for $1,060. What is its approximate yield to maturity?",
+      "options": {
+        "A": "5.19%",
+        "B": "5.34%",
+        "C": "8.25%",
+        "D": "6.60%"
+      },
+      "answer": "B",
+      "rationale": "Approximate YTM = [70 + (1,000 − 1,060) ÷ 4] ÷ [(1,000 + 1,060) ÷ 2] = 55 ÷ 1,030 = 5.34%. The figure 8.25% adds the premium, but the client loses it by maturity. The figure 6.60% is the current yield. The figure 5.19% divides by the price only.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: (70-60/4)/1030=0.053398; (70+15)/1030=0.082524; 70/1060=0.066038; 55/1060=0.051887"
+    },
+    {
+      "id": "RSE-E2-0078",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A bond has a 3% coupon and trades at 92. How do its coupon rate, current yield and yield to maturity compare?",
+      "options": {
+        "A": "Current yield < coupon rate < yield to maturity",
+        "B": "Coupon rate = current yield < yield to maturity",
+        "C": "Yield to maturity < current yield < coupon rate",
+        "D": "Coupon rate < current yield < yield to maturity"
+      },
+      "answer": "D",
+      "rationale": "The bond trades at a discount, so the current yield (3 ÷ 92) is above the 3% coupon rate. The YTM also includes the pull to par, so it is the highest. For a premium bond the order reverses: coupon rate > current yield > YTM.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.6 worked examples (discount bond ordering); 3/92=0.0326"
+    },
+    {
+      "id": "RSE-E2-0079",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Fenella wants to compare a strip with a GIC. The strip matures in 15 years, and she pays $55.00 per $100 of face value. What is its annual-basis yield?",
+      "options": {
+        "A": "2.01%",
+        "B": "4.07%",
+        "C": "4.03%",
+        "D": "5.45%"
+      },
+      "answer": "B",
+      "rationale": "Annual yield = (100 ÷ 55)^(1/15) − 1 = 4.07%. The figure 4.03% is the semi-annual-basis yield, 2 × [(100 ÷ 55)^(1/30) − 1]. The figure 5.45% ignores compounding. The figure 2.01% is the yield for one half-year period only.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: (100/55)**(1/15)-1=0.040661; 2*((100/55)**(1/30)-1)=0.040256; (100/55-1)/15=0.054545; (100/55)**(1/30)-1=0.020128"
+    },
+    {
+      "id": "RSE-E2-0080",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Under IDPC 3816, which yield or yields must a purchase confirmation for a strip coupon or residual show?",
+      "options": {
+        "A": "Only an annual yield, so that the client can compare it with GICs",
+        "B": "Only the current yield, because a strip has no coupon to report",
+        "C": "A semi-annual yield and an annual yield, each calculated as the rule describes",
+        "D": "Only the yield to maturity, calculated in line with market conventions"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3816(2)(vi)(a) requires two yields for strips. One is on a semi-annual basis, consistent with the stripped instrument. The other is on an annual basis, consistent with competing products such as GICs. The single YTM requirement applies to non-strip debt securities.",
+      "rule_refs": [
+        "IDPC 3816(2)(vi)(a)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the yield thereon calculated on an annual basis in a manner consistent with the yield calculation for other debt securities which are commonly regarded as being competitive in the market with such coupons or residuals such as guaranteed investment certificates\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3816(2)(vi)(a)(II), ~L9313"
+    },
+    {
+      "id": "RSE-E2-0081",
+      "element": 2,
+      "outcome": "2.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "The yield spread of a corporate bond over Government of Canada bonds widens from 1.2% to 2.0%. What does the wider spread show?",
+      "options": {
+        "A": "The market sees more credit or liquidity risk in the corporate bond",
+        "B": "The corporate bond's coupon rate rose by 0.8 percentage points",
+        "C": "The market sees less credit risk in the corporate bond",
+        "D": "The Government of Canada yield curve is now inverted"
+      },
+      "answer": "A",
+      "rationale": "Dealers quote corporate and provincial yields as spreads over GoC yields. A wider spread shows more credit or liquidity risk. A spread change does not show the shape of the GoC curve. A fixed coupon does not change when the spread changes.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.6 (yield curves: spreads)"
+    },
+    {
+      "id": "RSE-E2-0082",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Two bonds have the same term and coupon. Bond P has an initial yield of 2%, and Bond Q has an initial yield of 8%. Yields on both rise by 1 percentage point. Which statement is correct?",
+      "options": {
+        "A": "Bond P has the larger percentage price change",
+        "B": "Bond Q has the larger percentage price change",
+        "C": "Both bonds have the same percentage price change",
+        "D": "Neither price changes, because the coupons are the same"
+      },
+      "answer": "A",
+      "rationale": "The lower the initial yield, the larger the price change for a given yield change. So Bond P, at 2%, changes more. The coupons are fixed, so the prices must move to give buyers the new yields.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 2.7 (price-volatility rule 4)"
+    },
+    {
+      "id": "RSE-E2-0083",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A bond's yield can either fall by 1 percentage point or rise by 1 percentage point. How do the two price changes compare?",
+      "options": {
+        "A": "The price rise from the fall in yield is larger than the price fall from the rise in yield",
+        "B": "The price rises in both cases, because the bond moves toward par",
+        "C": "The two price changes are equal in size but opposite in direction",
+        "D": "The price fall from the rise in yield is larger than the price rise from the fall in yield"
+      },
+      "answer": "A",
+      "rationale": "Convexity means that a fall in yields raises the price more than an equal rise lowers it. So the two changes are not equal. Price moves inversely to yield, so the price cannot rise in both cases.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.7 (price-volatility rule 5)"
+    },
+    {
+      "id": "RSE-E2-0084",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Valentin holds a 7-year strip. What is its Macaulay duration?",
+      "options": {
+        "A": "7 years",
+        "B": "3.5 years",
+        "C": "More than 7 years",
+        "D": "Less than 7 years"
+      },
+      "answer": "A",
+      "rationale": "A zero-coupon bond's Macaulay duration equals its term, because all its cash flow comes at maturity. A coupon bond's duration is shorter than its term. A strip has no coupons, so its duration is the full 7 years.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.7 (Macaulay duration)"
+    },
+    {
+      "id": "RSE-E2-0085",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Two 15-year bonds have the same yield. One has a 2% coupon and the other has an 8% coupon. Which bond has the higher duration, and why?",
+      "options": {
+        "A": "The 8% bond, because a higher coupon raises price sensitivity",
+        "B": "Both bonds, equally, because they have the same term",
+        "C": "The 8% bond, because it pays more cash each year",
+        "D": "The 2% bond, because more of its value comes at maturity"
+      },
+      "answer": "D",
+      "rationale": "Duration falls as the coupon rises. A low-coupon bond receives more of its value at maturity, so its weighted average time is longer. So the 2% bond has the higher duration and the higher price sensitivity. The same term does not give the same duration.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.7 (Macaulay duration; rule 3)"
+    },
+    {
+      "id": "RSE-E2-0086",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "New data show that inflation is much higher than the market expected. What is the usual effect on the prices of existing fixed-coupon bonds?",
+      "options": {
+        "A": "Yields rise, so bond prices rise",
+        "B": "Yields rise, so bond prices fall",
+        "C": "Yields and bond prices do not change",
+        "D": "Yields fall, so bond prices rise"
+      },
+      "answer": "B",
+      "rationale": "Higher inflation, or higher expected inflation, pushes yields up and bond prices down. Price moves inversely to yield. Recession, lower inflation and rate cuts usually do the reverse.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 2.7 (changes in economic factors)"
+    },
+    {
+      "id": "RSE-E2-0087",
+      "element": 2,
+      "outcome": "2.7",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "In CIRO's strip statement, rates rise from 6% to 7%. A 20-year strip falls 17.61%, but a 20-year 6% bond falls 10.68%. Which relationship does this show?",
+      "options": {
+        "A": "The lower the initial yield, the larger the price change",
+        "B": "The longer the term, the larger the price change for the same coupon",
+        "C": "The lower the coupon, the larger the price change for the same term",
+        "D": "A fall in yields raises the price more than an equal rise lowers it"
+      },
+      "answer": "C",
+      "rationale": "Both bonds have a 20-year term, so term does not explain the gap. The strip has no coupon and receives all its value at maturity. So it falls more. This is the coupon rule. Initial yields are the same, and the example shows only a rise.",
+      "rule_refs": [
+        "CIRO Strip Information Statement"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"20 Year Strip Bond $30.66 6.00% $37.24 + 21.49% $25.26 -17.61%\" — research/sources/ciro/brochure-strip-bonds-information-statement.txt Strip information statement p.5 table, ~L426"
+    },
+    {
+      "id": "RSE-E2-0088",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A bond has a price of $980 and a modified duration of 5.2. Yields fall by 0.60%. What is the estimated new price?",
+      "options": {
+        "A": "$983.12",
+        "B": "$1,010.58",
+        "C": "$1,011.20",
+        "D": "$949.42"
+      },
+      "answer": "B",
+      "rationale": "% change ≈ −5.2 × (−0.0060) = +3.12%. Dollar change ≈ 0.0312 × $980 = +$30.58, so the new price ≈ $1,010.58. The figure $949.42 uses the wrong sign. The figure $1,011.20 applies 3.12% to par, not the price. The figure $983.12 treats 3.12 as dollars.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 5.2*0.006=0.0312; 0.0312*980=30.576; 980+30.576=1010.58; 980-30.576=949.42; 980+31.20=1011.20; 980+3.12=983.12"
+    },
+    {
+      "id": "RSE-E2-0089",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A semi-annual bond has a Macaulay duration of 9.27 years and a yield to maturity of 3%. What is its modified duration?",
+      "options": {
+        "A": "9.00",
+        "B": "9.27",
+        "C": "9.13",
+        "D": "9.41"
+      },
+      "answer": "C",
+      "rationale": "ModD = Macaulay duration ÷ (1 + y ÷ k) = 9.27 ÷ (1 + 0.03 ÷ 2) = 9.27 ÷ 1.015 = 9.13. The figure 9.00 divides by 1.03, which ignores semi-annual payments. The figure 9.27 is the Macaulay duration, and 9.41 multiplies in place of dividing.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 9.27/1.015=9.1330; 9.27/1.03=9.0000; 9.27*1.015=9.4090"
+    },
+    {
+      "id": "RSE-E2-0090",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A bond has a price of $1,120 and a modified duration of 8.0. Yields rise by 25 basis points. What is the estimated dollar change in its price?",
+      "options": {
+        "A": "+$22.40",
+        "B": "−$20.00",
+        "C": "−$22.40",
+        "D": "−$2,240.00"
+      },
+      "answer": "C",
+      "rationale": "% change ≈ −8.0 × 0.0025 = −2.0%. Dollar change ≈ −0.020 × $1,120 = −$22.40. The figure −$2,240.00 enters 0.25 in place of 0.0025. The positive figure has the wrong sign. The figure −$20.00 applies 2% to $1,000 par, not the price.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 8*0.0025=0.02; 0.02*1120=22.40; 8*0.25*1120=2240; 0.02*1000=20"
+    },
+    {
+      "id": "RSE-E2-0091",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Delphine's bond has a modified duration of 6.0. She wants to know what rise in yields gives an estimated price fall of about 3%. What is the yield rise?",
+      "options": {
+        "A": "0.50%",
+        "B": "0.05%",
+        "C": "18.00%",
+        "D": "2.00%"
+      },
+      "answer": "A",
+      "rationale": "From % change ≈ −ModD × Δy, Δy = 3% ÷ 6.0 = 0.50%. The figure 0.05% misplaces the decimal. The figure 2.00% divides 6.0 by 3. The figure 18.00% multiplies in place of dividing.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 0.03/6=0.005 (0.50%); 0.003/6=0.0005 (0.05%); 6/3=2; 3*6=18"
+    },
+    {
+      "id": "RSE-E2-0092",
+      "element": 2,
+      "outcome": "2.8",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Bond X has a price of $900 and a modified duration of 7.0. Bond Y has a price of $1,200 and a modified duration of 5.5. Yields on both rise by 1 percentage point. Which statement is correct?",
+      "options": {
+        "A": "Bond Y has the larger estimated dollar loss and the larger percentage loss",
+        "B": "Bond Y has the larger estimated dollar loss, but Bond X has the larger percentage loss",
+        "C": "Bond X has the larger estimated dollar loss and the larger percentage loss",
+        "D": "Both bonds have the same estimated dollar loss, because the yield change is the same"
+      },
+      "answer": "B",
+      "rationale": "Bond X: −7.0 × 0.01 = −7.0%, and 0.07 × $900 = −$63. Bond Y: −5.5 × 0.01 = −5.5%, and 0.055 × $1,200 = −$66. So Bond Y loses more dollars, but Bond X loses the larger percentage.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: 900*7*0.01=63.00; 1200*5.5*0.01=66.00; pct 7.0% vs 5.5%"
+    },
+    {
+      "id": "RSE-E2-0093",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rasmus wants to buy a bond with five years left. It pays $15 every six months and repays $1,000 at maturity. Buyers now require 4%. What should he pay today?",
+      "options": {
+        "A": "$955.09",
+        "B": "$820.35",
+        "C": "$1,000.00",
+        "D": "$797.23"
+      },
+      "answer": "A",
+      "rationale": "c = 15, r = 0.02, N = 10. PV of coupons = 15 × [1 − 1.02^(−10)] ÷ 0.02 = $134.74. PV of par = 1,000 ÷ 1.02^10 = $820.35. Price = $955.09. The figure $820.35 omits the coupons, and $1,000.00 discounts at the coupon rate.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 15*(1-1.02**-10)/0.02=134.74; 1000/1.02**10=820.35; total 955.09; 797.23 = c=15,r=0.04,N=10 (annual rate per half-year)"
+    },
+    {
+      "id": "RSE-E2-0094",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ottavio invests $5,000 at 4.5% a year, compounded semi-annually. What is the investment worth after 6 years?",
+      "options": {
+        "A": "$8,479.41",
+        "B": "$6,530.25",
+        "C": "$6,350.00",
+        "D": "$6,511.30"
+      },
+      "answer": "B",
+      "rationale": "FV = PV × (1 + r)^N, with r = 0.045 ÷ 2 = 0.0225 and N = 12. FV = 5,000 × 1.0225^12 = $6,530.25. The figure $6,511.30 uses annual compounding. The figure $6,350.00 is simple interest. The figure $8,479.41 uses the full annual rate for 12 periods.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 5000*1.0225**12=6530.25; 5000*1.045**6=6511.30; 5000*(1+0.045*6)=6350.00; 5000*1.045**12=8479.41"
+    },
+    {
+      "id": "RSE-E2-0095",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Mehmet has $20,000. It earns 5% a year, compounded annually. About how many years does it take to grow to $30,000?",
+      "options": {
+        "A": "8.3 years",
+        "B": "16.4 years",
+        "C": "14.4 years",
+        "D": "10.0 years"
+      },
+      "answer": "A",
+      "rationale": "N = ln(FV ÷ PV) ÷ ln(1 + r) = ln(1.5) ÷ ln(1.05) = 0.4055 ÷ 0.0488 = 8.3 years. The figure 10.0 years uses simple interest. The figure 16.4 years uses 2.5% per year. The figure 14.4 years is the rule-of-72 doubling time, not a 50% gain.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: ln(1.5)/ln(1.05)=8.310; 0.5/0.05=10; ln(1.5)/ln(1.025)=16.42; 72/5=14.4"
+    },
+    {
+      "id": "RSE-E2-0096",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A strip pays $25,000 in 10 years. The yield is 3.6%, compounded semi-annually. What is its present value?",
+      "options": {
+        "A": "$17,497.84",
+        "B": "$16,000.00",
+        "C": "$12,323.81",
+        "D": "$17,552.64"
+      },
+      "answer": "A",
+      "rationale": "PV = FV ÷ (1 + r)^N, with r = 0.018 and N = 20. PV = 25,000 ÷ 1.018^20 = $17,497.84. The figure $17,552.64 uses annual compounding. The figure $12,323.81 uses 3.6% per half-year. The figure $16,000.00 uses simple interest.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "calc: 25000/1.018**20=17497.84; 25000/1.036**10=17552.64; 25000/1.036**20=12323.81; 25000*(1-0.36)=16000"
+    },
+    {
+      "id": "RSE-E2-0097",
+      "element": 2,
+      "outcome": "2.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ingeborg tests a trial rate in the bond price formula to find a bond's yield to maturity. The calculated price is above the market price. What must she do next?",
+      "options": {
+        "A": "Use the coupon rate, because it equals the yield to maturity",
+        "B": "Lower the trial rate and calculate the price again",
+        "C": "Raise the trial rate and calculate the price again",
+        "D": "Keep the trial rate, because the formula overstates price"
+      },
+      "answer": "C",
+      "rationale": "A bond's YTM has no closed form, so you test rates in the price formula. A higher discount rate lowers the price. If the calculated price is too high, raise the rate. If it is too low, lower the rate. The coupon rate equals the YTM only at par.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 2.9 (YTM trial and error)"
+    }
+  ]
+}

@@ -93,3 +93,23 @@
 - `npm run validate` passes.
 - In the app, a Retail mock assembles 120 questions in the official 27/10/12/14/16/13/14/7/7 split; Drill works.
 - About 1.44M agent tokens in total (drafting 1.06M, solving 0.24M, top-up 0.14M).
+
+## 2026-10-25: Question bank, wave 2 (lean pipeline, toward 9 mock forms)
+
+**User decision:** continue to 9 mock forms (1,080 reviewed) using the same lean pipeline.
+
+**Drafting:** 16 drafter lanes (large elements split by disjoint outcome ranges) wrote **878 items** from study guide v1.1. Each lane read a digest of the element's existing reviewed items to avoid duplicates. No lane reported a shortfall.
+
+**Scripted gates:** 0 errors, 0 near-duplicates (within the wave and against the bank), 506/506 quotes verified.
+
+**Gate 1 (8 Sonnet solvers, stems and options only):**
+- 839/878 passed. 39 killed (4.4%): 18 solver-wrong, 21 low-confidence or ambiguous. Record: `question-bank/batches/gate1-wave2-grade.json`.
+- Element 8 lost 11/51, mostly niche specifics (DAP dates and restrictions, control-block margin, gatekeeper timing) plus spoofing vs layering. It ended 7 short (56/63).
+- An 11-item Element 8 top-up avoided those angles; 11/11 passed (`gate1-e8-topup2-grade.json`).
+
+**Result:** `bank.json` = **1,121 reviewed items**.
+- Per element: E1 247 · E2 94 · E3 112 · E4 133 · E5 152 · E6 124 · E7 129 · E8 67 · E9 63.
+- **Every element meets the 9-form target** (243/90/108/126/144/117/126/63/63).
+- `npm run validate` passes.
+- A Retail mock assembles 120 unique questions in the official split.
+- Wave 2 used about 2.9M agent tokens (drafting 2.1M, solving 0.64M, top-up 0.16M).

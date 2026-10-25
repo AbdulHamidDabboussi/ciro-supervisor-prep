@@ -1,0 +1,1136 @@
+{
+  "meta": {
+    "batch": "E7-003a",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E7-0034",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Henrik Solberg is 50 and has a large, secure net worth. He tells his RR that a 10% fall in value would make him sell everything. Which risk profile should his RR record?",
+      "options": {
+        "A": "A high risk profile, because his large net worth gives him a high risk capacity",
+        "B": "A low risk profile, because a client who is able but not willing can sell at the bottom of a fall",
+        "C": "A medium risk profile, because the profile is the average of tolerance and capacity",
+        "D": "A high risk profile, because risk capacity always outranks his stated risk tolerance"
+      },
+      "answer": "B",
+      "rationale": "The risk profile reflects the lower of risk tolerance and risk capacity. Henrik's capacity is high, but his tolerance is low. A profile above his tolerance can cause him to panic and sell at the bottom of a fall. The profile is not an average.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.5"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The client’s risk profile should reflect the lower of the client’s assessed risk tolerance and risk capacity.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, ~L262"
+    },
+    {
+      "id": "RSE-E7-0035",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Annika Brandvold and her RR want to record her goal in an investment policy statement. Which goal best meets CIRO's guidance on agreed goals?",
+      "options": {
+        "A": "Grow her savings as much as possible over time",
+        "B": "Earn a better return than her friends and family",
+        "C": "Have $350,000 in her RRSP by age 63",
+        "D": "Retire in comfort with no worries about money"
+      },
+      "answer": "C",
+      "rationale": "CIRO's guidance says that agreed investment goals should be specific and measurable. A dollar target at a stated age is measurable, so it shows a shortfall early. The other goals have no amount or date, so the RR cannot measure progress against them.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.3"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"If a Registered Individual and their client agree upon certain investment goals, they should be specific and measurable.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.3, L232"
+    },
+    {
+      "id": "RSE-E7-0036",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rafael Quintero and his RR agree on a goal of $500,000 by age 65 in an investment policy statement. What should the RR do after they set this goal?",
+      "options": {
+        "A": "Report on the goal only when Rafael asks the RR for a review",
+        "B": "Raise the risk of the portfolio in each year that the goal is behind",
+        "C": "Change the goal each year so that it matches the portfolio's return",
+        "D": "Update Rafael on his progress toward the goal at regular intervals"
+      },
+      "answer": "D",
+      "rationale": "If investment goals are set, the RR should periodically update the client on progress toward them. Regular reports show a shortfall while there is still time to correct it. A goal that falls behind does not justify more risk than the risk profile allows.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.3"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"If investment goals are set, the Registered Individual should periodically update the client on their progress towards these goals.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.3, L232"
+    },
+    {
+      "id": "RSE-E7-0037",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Siobhan Kearney needs $600,000 at age 60. Her RR writes this goal into her file. Which other item should the RR consider setting out in writing?",
+      "options": {
+        "A": "The investment return assumptions that the goal needs",
+        "B": "A promise that the portfolio will reach the goal",
+        "C": "The highest return that a peer group expects to earn",
+        "D": "A guarantee of a minimum return in each year"
+      },
+      "answer": "A",
+      "rationale": "The guidance says an RR should consider setting out the investment return assumptions required to meet the client's needs and objectives. This makes the goal testable. Suitability does not guarantee any client outcome, so the RR cannot promise or guarantee a result.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.3"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A Registered Individual should consider setting out investment return assumptions required to meet the client’s investment needs and objectives.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.3, L232"
+    },
+    {
+      "id": "RSE-E7-0038",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Theodora Vass has a medium risk profile and a balanced portfolio that fits it. A market fall cuts her account by 9% in one year. She says the loss proves that the portfolio was unsuitable. Which assessment is most accurate?",
+      "options": {
+        "A": "The loss proves unsuitability, because a suitable portfolio does not lose value in a year",
+        "B": "The loss alone does not prove unsuitability, because suitability does not guarantee an outcome",
+        "C": "The loss proves unsuitability, because her portfolio fell more than cash in the same year",
+        "D": "The loss does not matter, because performance is not part of a review of her account"
+      },
+      "answer": "B",
+      "rationale": "The guidance says that meeting the suitability obligation does not guarantee any particular client outcome. A balanced portfolio can fall in a weak market. Performance still matters, so the RR measures it against a matching benchmark and reports it to her.",
+      "rule_refs": [
+        "GN-3400-21-004 s.3.1"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Meeting the suitability determination obligation does not guarantee any particular client outcome.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.1, L436"
+    },
+    {
+      "id": "RSE-E7-0039",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Margit Roux has a capital preservation objective and a low risk profile. Her portfolio returned 3% in a year when equity markets returned 15%. She asks why her return was so low. Which explanation is best?",
+      "options": {
+        "A": "Her RR must move her to equities so that her return can catch up",
+        "B": "Her portfolio is unsuitable, because it trailed the equity market",
+        "C": "Her low-risk portfolio is not expected to earn equity-like returns",
+        "D": "Her risk profile must rise, because her return is below the market"
+      },
+      "answer": "C",
+      "rationale": "Expected performance follows from the risk taken. A capital preservation portfolio has less risk, so it should not be expected to earn equity-like returns. Her result alone does not show unsuitability. A higher return target never justifies a riskier portfolio or a changed risk profile.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.1 Performance"
+    },
+    {
+      "id": "RSE-E7-0040",
+      "element": 7,
+      "outcome": "7.1",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Casimir Nowak wants to buy a high-risk technology fund. His KYC shows a low risk profile. His RR suggests that they redo the risk questionnaire with bolder answers so that the fund will fit. Which statement is correct?",
+      "options": {
+        "A": "The RR can change the answers if Casimir signs the new questionnaire",
+        "B": "The RR can change the answers if the fund has a strong past return",
+        "C": "The RR can change the answers if the fund is a small part of the account",
+        "D": "The RR must not manipulate the risk profile to justify a higher-risk product"
+      },
+      "answer": "D",
+      "rationale": "The guidance says that a client's risk profile should not be manipulated to justify recommending higher-risk products. A signature, a strong past return or a small position does not make a manipulated profile acceptable. The RR discusses risk and return and keeps the true profile.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.5"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A client’s risk profile should not be manipulated to justify recommending higher-risk products\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, L264"
+    },
+    {
+      "id": "RSE-E7-0041",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ottoline Gray wants a fund that aims for a measurable environmental result, such as lower carbon emissions, together with a financial return. Which type of fund matches her request?",
+      "options": {
+        "A": "An impact fund",
+        "B": "An exclusion-screen fund",
+        "C": "A best-in-class fund",
+        "D": "A broad market index fund"
+      },
+      "answer": "A",
+      "rationale": "An impact fund aims for a measurable social or environmental result together with a financial return. An exclusion screen removes whole industries. A best-in-class approach holds the issuers with the best ESG scores in each sector. A broad index fund applies no ESG criteria.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.2 ESG criteria (impact fund)"
+    },
+    {
+      "id": "RSE-E7-0042",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Fenwick Adeyemi has a growth objective and a medium risk profile. He asks to put his whole portfolio in one fund that holds only clean-energy companies. Which statement best describes this request?",
+      "options": {
+        "A": "It is an impact fund, so it removes the need to check his risk profile",
+        "B": "It is a thematic fund, and as his whole portfolio it adds sector risk",
+        "C": "It is a best-in-class fund, so it keeps exposure to every sector",
+        "D": "It is a broad ESG fund, so its risk is the same as the whole market"
+      },
+      "answer": "B",
+      "rationale": "A thematic fund holds one theme, such as clean energy. As a whole portfolio, it is concentrated in one sector, which adds unsystematic risk. A values match never relaxes suitability. A best-in-class fund keeps every sector, so it does not describe this fund.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.2 ESG criteria (thematic) and Analyzing the impact"
+    },
+    {
+      "id": "RSE-E7-0043",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Zainab Rahimi has a low risk profile and an income objective. Her faith-based screen excludes all interest-bearing securities. Which challenge does this screen most likely create?",
+      "options": {
+        "A": "It removes most equities, so her income will rise above her needs",
+        "B": "It adds interest-rate risk, because she must hold long-term bonds",
+        "C": "It removes most fixed income, so a low-risk mix is harder to build",
+        "D": "It lowers her fees, because faith-based funds cost less than others"
+      },
+      "answer": "C",
+      "rationale": "Some faith-based screens exclude interest-bearing securities, which removes most fixed income. Fixed income usually lowers the risk of a portfolio. So the RR must find other ways to fit her low risk profile. Specialized funds often charge higher fees, not lower fees.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 7.2 Other personal preferences (faith-based screens)"
+    },
+    {
+      "id": "RSE-E7-0044",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Gustave Lemaire tells his RR to hold only Canadian securities, because he wants to 'buy Canadian'. What is the most likely effect on his portfolio?",
+      "options": {
+        "A": "Less unsystematic risk, because Canadian issuers are well diversified",
+        "B": "More exposure to technology and health care issuers than before",
+        "C": "A return that must match a global equity index each year",
+        "D": "More concentration in financials and energy, from home country bias"
+      },
+      "answer": "D",
+      "rationale": "A 'buy Canadian' rule adds home country bias. The Canadian market is heavy in financials and energy, so the portfolio becomes more concentrated. Fewer eligible securities usually mean more unsystematic risk, not less.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.2 Other personal preferences ('buy Canadian')"
+    },
+    {
+      "id": "RSE-E7-0045",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Imelda Sorensen excludes tobacco, weapons, fossil fuels, mining and gambling from her equity portfolio. Which type of risk most likely increases as a result?",
+      "options": {
+        "A": "Unsystematic risk, because fewer securities are eligible",
+        "B": "Systematic risk, because the exclusions remove market risk",
+        "C": "Inflation risk, because equities no longer protect her",
+        "D": "Reinvestment risk, because her dividends become larger"
+      },
+      "answer": "A",
+      "rationale": "Fewer eligible securities usually mean less diversification, so unsystematic risk increases. Exclusions do not remove systematic (market) risk, which affects all securities. The RR records the restrictions and explains this trade-off.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.2 Analyzing the impact (diversification)"
+    },
+    {
+      "id": "RSE-E7-0046",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Aurelie Bjorn compares two funds that both claim to favour equity, diversity and inclusion (EDI). Their holdings are very different. What is the most likely reason?",
+      "options": {
+        "A": "Securities law requires each EDI fund to hold a different set of issuers",
+        "B": "EDI data from issuer disclosure and third-party ratings can be incomplete",
+        "C": "EDI funds must hold equal weights in every sector of the market",
+        "D": "One of the two funds must have broken its investment objectives"
+      },
+      "answer": "B",
+      "rationale": "EDI data comes from issuer disclosure and third-party ratings. These sources can be incomplete, so two EDI products can hold very different securities. Different holdings do not alone show that a fund broke its objectives. The RR checks what each product actually holds.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.2 Equity, diversity and inclusion considerations"
+    },
+    {
+      "id": "RSE-E7-0047",
+      "element": 7,
+      "outcome": "7.2",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Marek Dvorak wants his money invested in line with his personal values. His dealer's KYC form offers only 'income', 'growth' and 'preservation' as objectives. What does CIRO's guidance expect?",
+      "options": {
+        "A": "Record growth as his objective and leave his stated values out of the file",
+        "B": "Refuse the account, because personal values are not a valid objective",
+        "C": "Let clients express their needs and objectives in terms that are meaningful to them",
+        "D": "Tell him to open an order-execution-only account for values investing"
+      },
+      "answer": "C",
+      "rationale": "The guidance says dealers should give clients the opportunity to express their investment needs and objectives in terms that are meaningful to them. It accepts personal values as a valid objective. So the dealer records his values-based objective and still applies suitability.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.3"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Dealers should provide their clients with the opportunity to express their investment needs and objectives in terms that are meaningful to them\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.3, L228"
+    },
+    {
+      "id": "RSE-E7-0048",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Jorunn Eklund says, 'Northgate makes the best phones on the market, so its shares must be a great investment.' Which bias does she show?",
+      "options": {
+        "A": "Herding",
+        "B": "Availability",
+        "C": "Gambler's fallacy",
+        "D": "Representativeness"
+      },
+      "answer": "D",
+      "rationale": "Representativeness is a cognitive error that judges by stereotype, such as 'a great company must be a great stock'. It can lead clients to buy popular stocks at high prices. Herding means following the crowd, which Jorunn does not mention.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 cognitive errors (representativeness)"
+    },
+    {
+      "id": "RSE-E7-0049",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An RR sees that a client shows the illusion of control bias. Which statement about this bias is correct?",
+      "options": {
+        "A": "It is a cognitive error, and information and education can often correct it",
+        "B": "It is an emotional bias, so it is harder to change than a cognitive error",
+        "C": "It is a capital market bias, and global diversification usually reduces it",
+        "D": "It is an information processing bias that comes from the framing of choices"
+      },
+      "answer": "A",
+      "rationale": "Illusion of control is a cognitive error: the belief that one can influence or predict largely random outcomes. Cognitive errors are faults in reasoning, so information and education can often correct them. Emotional biases, such as loss aversion, are harder to change.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 cognitive errors (illusion of control)"
+    },
+    {
+      "id": "RSE-E7-0050",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Piers Whitlock owns shares of a mining company. He reads every positive report about it. He skips an analyst report that warns about the company's debt. Which bias does he show?",
+      "options": {
+        "A": "Hindsight",
+        "B": "Confirmation",
+        "C": "Endowment",
+        "D": "Framing"
+      },
+      "answer": "B",
+      "rationale": "Confirmation bias means seeking evidence that supports one's view and ignoring the rest. Its impact is that the client ignores warning signs, such as the debt report. Endowment means valuing owned assets above market value, which Piers does not state.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 cognitive errors (confirmation)"
+    },
+    {
+      "id": "RSE-E7-0051",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "After a market fall, Maelle Durand says that she knew all along that the fall would come. Which impact does this bias most likely have on her future decisions?",
+      "options": {
+        "A": "She keeps losing investments, because a realized loss hurts more than a gain",
+        "B": "She over-weights Canadian stocks, because she knows the domestic market best",
+        "C": "She takes too much risk, because past events seem more predictable than they were",
+        "D": "She trades against a trend, because she expects a reversal after a long run"
+      },
+      "answer": "C",
+      "rationale": "Maelle shows hindsight bias: past events seem more predictable than they were. The guide links it to taking too much risk. Keeping losers because a loss hurts more describes loss aversion, not hindsight.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 cognitive errors (hindsight)"
+    },
+    {
+      "id": "RSE-E7-0052",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client accepts a fund when the RR says it had a gain in 80% of years. The same client rejects it when the RR says it had a loss in 20% of years. How should the RR reduce this bias?",
+      "options": {
+        "A": "Describe each product only by its chance of a gain",
+        "B": "Show the client only the best holding in the account",
+        "C": "Use automatic contributions so that the client does not decide",
+        "D": "Present the information neutrally and in more than one way"
+      },
+      "answer": "D",
+      "rationale": "This is framing, an information processing bias: the wording, not the facts, drives the choice. The guide recommends neutral presentation in more than one way and a view of the whole portfolio. Automatic contributions mainly help to manage emotional biases.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 information processing biases (framing)"
+    },
+    {
+      "id": "RSE-E7-0053",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Benedikt Kraus reads many news stories about a cyber attack on a bank. He sells all his bank shares the same day and does not check the bank's results. Which bias does he show?",
+      "options": {
+        "A": "Availability",
+        "B": "Anchoring",
+        "C": "Representativeness",
+        "D": "Overconfidence"
+      },
+      "answer": "A",
+      "rationale": "Availability bias over-weights recent or vivid information, such as headlines. It leads clients to sell after bad news. Anchoring is a fixation on a reference number, such as a purchase price, which Benedikt does not show.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 information processing biases (availability)"
+    },
+    {
+      "id": "RSE-E7-0054",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Cornelius Abara believes that his stock-picking skill is far above average. He trades many times each week and holds only three stocks. Which result is most likely from this bias?",
+      "options": {
+        "A": "A portfolio with too much cash and fixed income",
+        "B": "Higher trading costs and a concentrated portfolio",
+        "C": "Lower costs, because he pays nothing for advice",
+        "D": "A portfolio that follows a broad index closely"
+      },
+      "answer": "B",
+      "rationale": "Cornelius shows overconfidence, an emotional bias that over-rates one's skill or information. The guide links it to higher trading costs and concentration. Frequent trades add costs, and three stocks give little diversification.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 emotional biases (overconfidence)"
+    },
+    {
+      "id": "RSE-E7-0055",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Henrike Vogel inherited bank shares from her father, and they are half of her portfolio. She values them well above their market price because they were his. Which bias does she show?",
+      "options": {
+        "A": "Anchoring",
+        "B": "Gambler's fallacy",
+        "C": "Endowment",
+        "D": "Confirmation"
+      },
+      "answer": "C",
+      "rationale": "The endowment bias values what one owns, such as inherited shares, above market value. It leads to a concentrated position. Anchoring needs a fixation on a reference number, such as a past high, which Henrike does not state.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 emotional biases (endowment)"
+    },
+    {
+      "id": "RSE-E7-0056",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A stock has fallen for six days in a row. Lucian Petrov buys it because he says, 'It is due to rise now.' Which bias does he show?",
+      "options": {
+        "A": "Herding",
+        "B": "Survivorship",
+        "C": "Home country",
+        "D": "Gambler's fallacy"
+      },
+      "answer": "D",
+      "rationale": "The gambler's fallacy expects a reversal after a run of results, such as a rise after six days of falls. It leads clients to trade against a trend for no reason. Herding means following the crowd, which Lucian does not do.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 capital market biases (gambler's fallacy)"
+    },
+    {
+      "id": "RSE-E7-0057",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Most of Elodie Fournier's co-workers buy units of one popular crypto asset fund. She buys a large amount too, because 'everyone is doing it'. Which bias does she show, and what is its usual impact?",
+      "options": {
+        "A": "Survivorship, which leads to return expectations that are too high",
+        "B": "Herding, which can lead to buying near highs and selling near lows",
+        "C": "Home country bias, which leads to less diversification",
+        "D": "Mental accounting, which causes her to ignore the cost of debt"
+      },
+      "answer": "B",
+      "rationale": "Herding means following the crowd into popular assets, which feeds bubbles and panics. Its usual impact is buying near highs and selling near lows. Survivorship bias comes from judging a category only by the funds that still exist.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 capital market biases (herding)"
+    },
+    {
+      "id": "RSE-E7-0058",
+      "element": 7,
+      "outcome": "7.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Kristoffer Lund holds only Canadian stocks because he feels he knows them best. His RR explains that this gives him less diversification. Which approach usually reduces this bias?",
+      "options": {
+        "A": "More Canadian bank stocks with higher dividends",
+        "B": "A focus on the most recent news about each holding",
+        "C": "Global diversification across countries and sectors",
+        "D": "A rule to sell each stock after six days of losses"
+      },
+      "answer": "C",
+      "rationale": "Kristoffer shows home country bias, a capital market bias. The guide says global diversification reduces it. More Canadian bank stocks would add to his concentration in financials, not reduce it.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.3 capital market biases (home country)"
+    },
+    {
+      "id": "RSE-E7-0059",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ingrid Halvorsen has a medium risk profile. Her RR picks a fund only because its risk rating is 'medium', and he checks no other factor. Which statement is correct?",
+      "options": {
+        "A": "The risk rating alone is not sufficient to determine suitability",
+        "B": "The matching risk rating meets the suitability requirement",
+        "C": "The match is enough if the fund is on the dealer's product shelf",
+        "D": "The match is enough if Ingrid agrees to the fund in writing"
+      },
+      "answer": "A",
+      "rationale": "The guidance says that a security's risk rating as the only input is not sufficient to meet IDPC 3402(1). The RR also considers liquidity, complexity, cost and the resulting account portfolio. Shelf approval or client consent does not replace this.",
+      "rule_refs": [
+        "IDPC 3402(1)",
+        "GN-3400-21-004 s.3.1.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"using the risk rating of a security as the only input in determining its suitability for a client is not sufficient to meet the requirements in subsection 3402(1).\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.1.1, L442"
+    },
+    {
+      "id": "RSE-E7-0060",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ambrose Kettering holds an order-execution-only (OEO) account. He enters an order for a speculative stock. Must the dealer make the IDPC 3402(1) suitability determination for this order?",
+      "options": {
+        "A": "Yes, because every order for a retail client needs a suitability determination",
+        "B": "No, because IDPC 3404 exempts OEO accounts from section 3402, with limited exceptions",
+        "C": "Yes, because a speculative stock always needs a suitability determination",
+        "D": "No, because OEO accounts are exempt from all CIRO rules on client accounts"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3404 says that, other than clause 3402(3)(i), section 3402 does not apply to an OEO account. So the dealer does not make a suitability determination for each order. Other CIRO rules still apply to OEO accounts, so the last option overstates the exemption.",
+      "rule_refs": [
+        "IDPC 3404(1)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Other than clauses 3402(3)(i) and 3403(4)(i), sections 3402 or 3403 do not apply in respect to: (i) an order execution only account, or (ii) a direct electronic access account.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3404(1), L6911-6913"
+    },
+    {
+      "id": "RSE-E7-0061",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which account is exempt from the suitability requirements in IDPC section 3402?",
+      "options": {
+        "A": "An advisory account of a client who has a very high net worth and a high income",
+        "B": "A managed account in which a Portfolio Manager exercises discretion over the trades",
+        "C": "An account at a dealer that only provides trade execution, clearing, settlement or custody services",
+        "D": "An advisory account of a client who has many years of experience with securities"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3404(2) says sections 3402 and 3403 do not apply to some accounts. One is an account at a dealer that only provides execution, clearing, settlement or custody services. Wealth, experience and discretion do not create an exemption.",
+      "rule_refs": [
+        "IDPC 3404(2)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Sections 3402 and 3403 do not apply in respect to an account maintained at a Dealer Member who is a carrying broker for that account or who only provides trade execution, clearing, settlement or custody services\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3404(2), L6914-6917"
+    },
+    {
+      "id": "RSE-E7-0062",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rupert Calloway, an RR, finds a new bond fund that would suit his client. His dealer has not approved the fund. What can Rupert do?",
+      "options": {
+        "A": "He can recommend the fund if he documents why it suits the client",
+        "B": "He can buy the fund for the client if the client asks for it by name",
+        "C": "He can recommend the fund if its fees are lower than the approved funds",
+        "D": "He cannot recommend or buy the fund for the client until the dealer approves it"
+      },
+      "answer": "D",
+      "rationale": "CIRO's product due diligence guidance says Approved Persons must not purchase for, or recommend securities to, a client unless the dealer has approved those securities. Documentation, a client request or lower fees does not replace dealer approval.",
+      "rule_refs": [
+        "GN-3300-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Approved Persons must not purchase for, or recommend securities to, a client unless the Dealer has approved those securities.\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001, L255"
+    },
+    {
+      "id": "RSE-E7-0063",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "A dealer will offer mostly its own proprietary funds to its clients. What must its relationship disclosure tell the client?",
+      "options": {
+        "A": "Whether the firm will primarily or exclusively provide proprietary products",
+        "B": "The names of all third-party funds that the firm decided not to offer",
+        "C": "The personal compensation of each RR on every proprietary fund",
+        "D": "A promise that proprietary funds will outperform third-party funds"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3216(5) requires a general description of any limits on the products the dealer offers. This includes whether the firm will primarily or exclusively provide proprietary products. The CSA calls proprietary products an inherent conflict of interest, almost always a material one.",
+      "rule_refs": [
+        "IDPC 3216(5)(ii)(b)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"whether the firm will primarily or exclusively provide proprietary products to the client\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3216(5)(ii)(b)(I), L5859-5860"
+    },
+    {
+      "id": "RSE-E7-0064",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Celia Marchetti's dealer offers only four model portfolios. Her KYC makes it clear that only one model is suitable for her. How much review of alternatives does CIRO expect from her RR?",
+      "options": {
+        "A": "A full review of all four models and of third-party funds",
+        "B": "No in-depth review, because only one option is clearly suitable",
+        "C": "A review of every security that the dealer has approved",
+        "D": "A review of at least three alternatives before any purchase"
+      },
+      "answer": "B",
+      "rationale": "The guidance says that if a dealer offers only a limited range of model portfolios, CIRO does not expect an in-depth consideration of alternatives. This applies when it is clear that one or a few options are suitable. The reasonable range depends on what the dealer offers.",
+      "rule_refs": [
+        "GN-3400-21-004 s.3.2.4"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"where a Dealer offers only a limited range of model portfolios, we would not expect the Registered Individual to conduct an in-depth consideration of alternatives if it is clear that only a limited number of options, or a single option, would be suitable for the client.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.2.4, L504"
+    },
+    {
+      "id": "RSE-E7-0065",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Damaris Lindqvist opens an account with $80,000. She tells her RR that she also has a mortgage and a pension plan at other firms. Why should the RR ask about these outside items?",
+      "options": {
+        "A": "The RR must transfer all of her outside assets into the new account",
+        "B": "The dealer must make a suitability determination for the outside accounts",
+        "C": "Net worth includes assets and liabilities outside the dealer, and it affects risk capacity",
+        "D": "Outside items matter only if they are larger than the new account"
+      },
+      "answer": "C",
+      "rationale": "The guidance says the RR may need to ask about investments, other assets and liabilities outside the dealer. Net worth is assets minus liabilities, and low net worth usually means lower risk capacity. The dealer does not determine suitability for accounts at other firms.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A Registered Individual may need to ask about investments, other assets and liabilities the client maintains outside the Dealer to better understand a client’s financial circumstances.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.2, L214"
+    },
+    {
+      "id": "RSE-E7-0066",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ewan Fairbanks will pay university fees for his daughter in each of the next four years. His RR assesses his liquidity needs. Which question best follows CIRO's guidance?",
+      "options": {
+        "A": "Which past fund has given Ewan the highest return in recent years?",
+        "B": "How many trades does Ewan want to make in his account each month?",
+        "C": "Which industries does Ewan want to exclude for personal reasons?",
+        "D": "Does Ewan have other means to cover these payments when they come due?"
+      },
+      "answer": "D",
+      "rationale": "For liquidity needs, the guidance says to consider whether the client has other means to cover expenditures. The RR also asks if the needs are expected and if withdrawals will be regular. Ewan's fees are expected and regular, so the RR keeps enough liquid assets for them.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"When assessing a client’s liquidity needs, a Registered Individual should consider whether the client has other means to cover their expenditures, whether the needs are expected or unexpected, and whether, once the need materializes, the money will be withdrawn on a regular basis.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.2, L208"
+    },
+    {
+      "id": "RSE-E7-0067",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Maximilian Ortega receives the OAS pension. His 2026 net income is above the OAS recovery threshold. Which statement about the recovery tax is correct?",
+      "options": {
+        "A": "He repays 15% of the amount by which his net income exceeds the threshold",
+        "B": "He repays 15% of his whole net income for the year",
+        "C": "He loses his whole OAS pension for the year",
+        "D": "He repays 15% of his OAS pension, whatever his income"
+      },
+      "answer": "A",
+      "rationale": "OAS is taxable and has a recovery tax. The pensioner repays 15% of the amount by which net income is higher than the threshold, which is $95,323 for 2026 income. The tax applies to the excess only, not to all income or the whole pension.",
+      "rule_refs": [
+        "canada.ca OAS recovery tax"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The first step is to figure out how much higher your income is than the threshold. You must repay 15% of that amount.\" — research/sources/gov/oas-gis-pages.txt canada.ca OAS recovery tax, L702"
+    },
+    {
+      "id": "RSE-E7-0068",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rosalia Ferrante is 62 and has a low income. Her husband is 67 and receives OAS and the Guaranteed Income Supplement (GIS). Which program may give Rosalia a benefit now?",
+      "options": {
+        "A": "The OAS pension",
+        "B": "The Allowance",
+        "C": "The Allowance for the Survivor",
+        "D": "The GIS"
+      },
+      "answer": "B",
+      "rationale": "The Allowance is for a 60-to-64-year-old with low income whose spouse or common-law partner receives GIS. Rosalia cannot get OAS or GIS before 65. The Allowance for the Survivor is for a person whose spouse or partner has died.",
+      "rule_refs": [
+        "canada.ca Allowance"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"your spouse or common-law partner receives the Guaranteed Income Supplement (GIS)\" — research/sources/gov/oas-gis-pages.txt canada.ca Allowance eligibility, L538"
+    },
+    {
+      "id": "RSE-E7-0069",
+      "element": 7,
+      "outcome": "7.4",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Thibault Gagnon works in Quebec. He plans to start his Quebec Pension Plan (QPP) retirement pension after age 65. What is the largest increase that a later start can give him?",
+      "options": {
+        "A": "42%, for a pension that starts at age 70",
+        "B": "36%, for a pension that starts at age 70",
+        "C": "58.8%, for a pension that starts at age 72",
+        "D": "30%, for a pension that starts at age 68"
+      },
+      "answer": "C",
+      "rationale": "Under the QPP, the pension increases by 0.7% for each month after 65, up to 58.8% at age 72. The CPP increase stops at 42% at age 70. OAS deferral adds up to 36% at age 70.",
+      "rule_refs": [
+        "Retraite Quebec QPP"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"It will increase by 0.7% for each month that has passed since you turned 65, up to a maximum of 58.8% for a pension that begins when you turn 72.\" — research/sources/gov/qpp-quebec-pension-plan-retraite-quebec-pages.txt Retraite Quebec QPP, L199"
+    },
+    {
+      "id": "RSE-E7-0070",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Leander Moss, an RR, judges each new trade for a client only on its own merits. He does not look at the rest of the account. Which statement is correct?",
+      "options": {
+        "A": "This approach is acceptable if each security has a suitable risk rating",
+        "B": "This approach is acceptable if the client approves each trade in advance",
+        "C": "Suitability must be judged only on the largest holdings in the account",
+        "D": "Suitability must be judged on the client's overall account portfolio"
+      },
+      "answer": "D",
+      "rationale": "The guidance says that dealers and RRs cannot determine suitability on an individual trade or position basis. They must base it on the overall account portfolio. A suitable risk rating or the client's approval of each trade does not change this.",
+      "rule_refs": [
+        "GN-3400-21-004 s.3.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Dealers and Registered Individuals cannot determine suitability on an individual trade/position basis, but must make a suitability determination based on the overall client’s account portfolio of investments\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.1, L470"
+    },
+    {
+      "id": "RSE-E7-0071",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Noor Haddad and Bastien Leclerc have the same medium risk profile. Noor needs her money in two years. Bastien needs his money in 20 years. Which statement best applies CIRO's guidance on time horizon?",
+      "options": {
+        "A": "Noor's short horizon may make conservative investments her only suitable option",
+        "B": "Both clients must hold the same portfolio, because their risk profiles match",
+        "C": "Bastien's long horizon means that he must hold only equities in his account",
+        "D": "Noor's short horizon lets her take more risk, because she can recover quickly"
+      },
+      "answer": "A",
+      "rationale": "The guidance says a longer time horizon gives more flexibility, but a short horizon may mean that conservative investments are the only suitable option. The time horizon controls how much risk the portfolio can take. A long horizon allows more risk but does not require only equities.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.6"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Investors with a longer investment time horizon may have a greater degree of flexibility when building a portfolio, whereas a short investment time horizon may mean that conservative investments may be the only suitable option.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.6, L284"
+    },
+    {
+      "id": "RSE-E7-0072",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An RR builds a portfolio for Gideon Farrow. She has his KYC inputs and has reviewed his current holdings. What is the next step in the process?",
+      "options": {
+        "A": "Buy suitable products from the shelf and start to monitor them",
+        "B": "Project his current plan to the goal date to find any shortfall",
+        "C": "Raise his risk profile so that the plan can meet the goal",
+        "D": "Choose strategies such as laddering or passive management"
+      },
+      "answer": "B",
+      "rationale": "The process has five steps: inputs, current portfolio, shortfall, strategy, then implement and monitor. After the review of holdings, the RR projects the plan with realistic returns to find the shortfall. The strategy comes after that. The RR never raises the profile to meet a goal.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 7.5 five-step process (shortfall step)"
+    },
+    {
+      "id": "RSE-E7-0073",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Philippa Strand needs 10% a year to reach her goal. Her risk capacity is low, and her risk profile supports about 5%. After a discussion of risk and return, she still asks for a high-risk portfolio. What should her RR do?",
+      "options": {
+        "A": "Build the high-risk portfolio, because she made the request after a discussion",
+        "B": "Update her risk profile to high, because she now says she accepts more risk",
+        "C": "Explain that the higher-risk portfolio is unsuitable, and document the interaction",
+        "D": "Build a portfolio with a risk level halfway between her profile and her request"
+      },
+      "answer": "C",
+      "rationale": "The guidance says the RR should explain that the need for a higher return cannot realistically be met, so the higher-risk portfolio is unsuitable. The RR documents the interaction and the result. RRs must not override the risk profile to meet return expectations.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.5"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the Registered Individual should explain to the client that their need or expectation for a higher return cannot realistically be met, and as a result, the higher risk portfolio is unsuitable. The Registered Individual should properly document their interaction with the client and the end result.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, L279"
+    },
+    {
+      "id": "RSE-E7-0074",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Anselm Kowalczyk has $800 a month left after his spending. He worries that he will invest at the wrong time. Which strategy fits his concern best?",
+      "options": {
+        "A": "Laddering, which staggers the maturities of bonds or GICs",
+        "B": "Active management, which tries to beat the index return",
+        "C": "A single lump-sum purchase at the start of each year",
+        "D": "Dollar-cost averaging, which buys more units when prices are low"
+      },
+      "answer": "D",
+      "rationale": "Dollar-cost averaging invests a fixed amount at regular intervals. It buys more units when prices are low, so the client does not need to pick the right time. Laddering gives regular cash from staggered maturities, which does not address his concern about timing.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.5 investment management strategies (dollar-cost averaging)"
+    },
+    {
+      "id": "RSE-E7-0075",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Solveig Arnesen wants her equity holdings to follow the market at a low cost. She does not want to pay for attempts to beat the index. Which approach fits her best?",
+      "options": {
+        "A": "Passive management with an index fund",
+        "B": "Active management with a stock-picking fund",
+        "C": "A ladder of GICs with staggered maturities",
+        "D": "A thematic fund that holds one sector"
+      },
+      "answer": "A",
+      "rationale": "Passive management follows an index at low cost. Active management tries to get a higher return than the index, usually at a higher cost. A GIC ladder holds no equities, and a thematic fund does not follow the broad market.",
+      "rule_refs": [
+        "Standard finance concept"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 7.5 investment management strategies (passive or active)"
+    },
+    {
+      "id": "RSE-E7-0076",
+      "element": 7,
+      "outcome": "7.5",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Tarquin Oduya's KYC shows an aggressive growth objective, a high risk tolerance and a low risk capacity. What should his RR do with this information?",
+      "options": {
+        "A": "Use the growth objective to set an aggressive portfolio",
+        "B": "Identify the mismatch and revisit it with Tarquin",
+        "C": "Ignore the risk capacity, because Tarquin accepts high risk",
+        "D": "Average the three items to find a medium risk profile"
+      },
+      "answer": "B",
+      "rationale": "The guidance says the RR should identify any mismatches between needs and objectives, risk tolerance and risk capacity, and revisit them with the client. His risk profile is the lower of tolerance and capacity, so it is low. An average is not the method.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.3.5"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The Registered Individual should identify any mismatches between the client’s investment needs and objectives, risk tolerance and risk capacity and revisit them with the client.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.5, L277"
+    },
+    {
+      "id": "RSE-E7-0077",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Rowena Blackwood's RR reviews her account after a trigger event. He decides that she should keep her current holdings, and he makes no trades. Which statement is correct?",
+      "options": {
+        "A": "No suitability determination applies, because no trade takes place in the account",
+        "B": "Only a purchase or a sale counts as an investment action under the suitability rules",
+        "C": "A decision to hold securities is an investment action that needs a suitability determination",
+        "D": "A decision to hold needs a suitability determination only in a managed account"
+      },
+      "answer": "C",
+      "rationale": "The guidance says an investment action also includes a recommendation or decision to hold securities. This can occur when an RR reviews the account under IDPC 3402(2). So the hold decision needs a suitability determination, even with no trade.",
+      "rule_refs": [
+        "IDPC 3402(2)",
+        "GN-3400-21-004 s.3.1.2"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"An investment action also includes a recommendation or decision to hold securities, which may occur when a Registered Individual reviews the securities in a client’s account under subsection 3402(2).\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.1.2, L450"
+    },
+    {
+      "id": "RSE-E7-0078",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Which change in a client's information is most likely a 'significant change' that calls for a KYC update and an account review?",
+      "options": {
+        "A": "She now wants to get her account statements by email instead of mail",
+        "B": "She now prefers that her RR call her in the morning, not the afternoon",
+        "C": "She now has a new mobile phone number and a new email address",
+        "D": "She now plans to use most of her savings for a home purchase in two years"
+      },
+      "answer": "D",
+      "rationale": "The guidance says a significant change includes a change to the risk profile, the time horizon, or the needs and objectives. A home purchase in two years shortens her time horizon and adds a liquidity need. Contact and delivery preferences do not affect suitability.",
+      "rule_refs": [
+        "GN-3400-21-004 s.2.11.2"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"risk profile, investment time horizon, investments needs and objectives, or any other change that could reasonably significantly impact the client’s net worth or income.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.11.2, L416-421"
+    },
+    {
+      "id": "RSE-E7-0079",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Lorcan Healy has an RRSP account and a cash account at his dealer. His RR plans to buy a large position in one stock in the cash account. The RRSP already holds a lot of the same stock. What should the RR consider?",
+      "options": {
+        "A": "The effect on concentration and liquidity across all his accounts",
+        "B": "Only the concentration in the cash account, where the trade occurs",
+        "C": "Only the RRSP account, because it holds the larger position",
+        "D": "Only the stock's risk rating, because each account is separate"
+      },
+      "answer": "A",
+      "rationale": "The guidance says the RR should consider whether a decision for one account would materially affect concentration and liquidity across all the client's accounts. The large RRSP position adds to the concentration from the new purchase. A risk rating alone is not sufficient.",
+      "rule_refs": [
+        "GN-3400-21-004 s.3.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the Registered Individual should also consider whether a recommendation or decision for one account would materially affect the concentration and liquidity of the client’s portfolio of investments across all their accounts\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.1, L472"
+    },
+    {
+      "id": "RSE-E7-0080",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Esperanza Villalobos has a high risk profile. Her RR recommends a purchase that will make one issuer 30% of her account. The RR thinks that the purchase is still suitable. What does the guidance expect?",
+      "options": {
+        "A": "Take no extra steps, because her high risk profile allows any concentration",
+        "B": "Take and document more steps to show suitability as concentration rises",
+        "C": "Get her signature on a waiver that removes the concentration test",
+        "D": "Keep no record, because the purchase is within her risk profile"
+      },
+      "answer": "B",
+      "rationale": "The guidance says that the higher the concentration, the more steps a dealer or RR should take, and document, to show suitability. A high risk profile does not remove this. A client waiver cannot remove the concentration factor in IDPC 3402(1).",
+      "rule_refs": [
+        "GN-3400-21-004 s.3.2.3"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Generally, the higher the concentration in a particular type of security, sector or industry, the more steps a Dealer or Registered Individual should take, and document, to demonstrate the investment was suitable for the client.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.2.3, L493"
+    },
+    {
+      "id": "RSE-E7-0081",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Thaddeus Moreland needs cash for a business purchase within six months. His RR proposes an exempt-market private debt investment that has no active market. Which factor makes this recommendation a concern?",
+      "options": {
+        "A": "The lack of a published risk rating for the investment",
+        "B": "The lack of a values-based restriction in his file",
+        "C": "The liquidity impact of the investment on his account",
+        "D": "The lack of a proprietary alternative at the dealer"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3402(1) requires the RR to consider the impact of the action on the account, including concentration and liquidity. The guidance names illiquid exempt market securities as an example. Thaddeus needs cash soon, so an investment with no active market does not fit his liquidity needs.",
+      "rule_refs": [
+        "IDPC 3402(1)(i)(c)",
+        "GN-3400-21-004 s.3.2.3"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the impact of the action on the retail client’s account, including the concentration of securities, derivatives or precious metals bullion, within the account and the liquidity of those securities, derivatives or precious metals bullion\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(1)(i)(c), L6803-6805"
+    },
+    {
+      "id": "RSE-E7-0082",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ophelia Grant buys a mutual fund with no sales charge. The fund company pays her dealer a trailing commission each year from the fund. Which statement about this cost is correct?",
+      "options": {
+        "A": "The RR can ignore it, because Ophelia pays no direct fee to the dealer",
+        "B": "The RR can ignore it, because the fund company, not Ophelia, pays it",
+        "C": "The RR must assess it only if it is more than 1% of assets each year",
+        "D": "The RR must assess its impact on her return, whoever pays the compensation"
+      },
+      "answer": "D",
+      "rationale": "Cost includes all direct and indirect costs, including trailing commissions. The guidance says RRs should assess the impact on the client's return of any compensation to the dealer or RR, regardless of who pays it. No percentage threshold applies.",
+      "rule_refs": [
+        "GN-3400-21-004 s.3.2.5",
+        "IDPC 3402(1)(i)(d)"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Registered Individuals should assess the impact on the client’s return of any compensation paid, directly or indirectly, to the Dealer or Registered Individual, regardless of who pays that compensation.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.2.5, L516"
+    },
+    {
+      "id": "RSE-E7-0083",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "According to CIRO guidance, what does a 'reasonable range of alternatives' depend on?",
+      "options": {
+        "A": "The securities and services offered, the RR's skill and proficiency, and the client's circumstances",
+        "B": "The number of funds in the whole market, the client's age, and the RR's sales targets",
+        "C": "The dealer's profit on each product, the current market trend, and the RR's preference",
+        "D": "A fixed list of five alternatives that CIRO sets for each type of retail client"
+      },
+      "answer": "A",
+      "rationale": "The guidance says a reasonable range depends on the circumstances. These include the securities and services offered, the RR's skill and proficiency, and the client's particular circumstances. CIRO sets no fixed list, and the dealer's profit or sales targets are not factors.",
+      "rule_refs": [
+        "GN-3400-21-004 s.3.2.4"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"What constitutes a reasonable range of alternatives will depend upon the circumstances, including the securities and services offered, the Registered Individual's skill and proficiency, and the client's particular circumstances.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.2.4, L504"
+    },
+    {
+      "id": "RSE-E7-0084",
+      "element": 7,
+      "outcome": "7.6",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Gaspard Lindholm asks his RR about a switch from one balanced fund to a similar balanced fund. The switch has a cost, and the new fund gives the same exposure. Which alternative should the RR include in the assessment?",
+      "options": {
+        "A": "A high-risk fund with a higher expected return",
+        "B": "No action, so that Gaspard keeps his current fund",
+        "C": "Only the dealer's proprietary balanced fund",
+        "D": "Only the funds with the best return last month"
+      },
+      "answer": "B",
+      "rationale": "RRs must consider a range of alternatives available through the dealer. In practice, these can include cash, no action, or a cheaper product with the same exposure. The switch adds a cost for the same exposure, so keeping the current fund is a real alternative.",
+      "rule_refs": [
+        "GN-3400-21-004 s.3.2.4",
+        "IDPC 3402(1)(i)(e)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"consider a range of alternative recommendations or decisions available to them through the Dealer when making a suitability determination.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.2.4, L504"
+    }
+  ]
+}

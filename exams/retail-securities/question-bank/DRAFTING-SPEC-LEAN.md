@@ -51,3 +51,10 @@ Write every question **from the element's study guide** (`../study-material/stud
 | Merge | `tools/qa_questions.py merge` | Passing items become `status: "reviewed"` in `bank.json`, logged in `../research/qa-log.md` |
 
 If an element ends below its reviewed target, run one small top-up batch for that element only, through the same gates.
+
+## Wave 2 (2026-10-25): toward 9 mock forms
+
+- **Target:** 9 × the element weight, i.e. 243/90/108/126/144/117/126/63/63 = **1,080 reviewed**. Wave 1 left 809 to go, so about 878 are drafted (kill buffer of about 8%).
+- **Lanes:** large elements are split by disjoint outcome ranges. IDs continue after each element's highest used ID; killed IDs are never reused. Output goes to `batches/E<n>-batch-003<lane>.draft.json`.
+- **Novelty:** every drafter reads a digest of the element's existing reviewed items (ID, outcome, stem, key). Do not test a fact in the same way as an existing item. A new angle, the inverse direction, or a scenario that turns on a different condition is fine.
+- **Honest shortfall:** if the guide cannot support the quota with distinct, unambiguous items, write fewer and say how many and why. Never pad.

@@ -1,0 +1,1479 @@
+{
+  "meta": {
+    "batch": "E1-003b",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E1-0129",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Which requirement applies when a dealer opens a managed account?",
+      "options": {
+        "A": "The agreement must end after 12 months and cannot be renewed",
+        "B": "The client must approve each trade before the dealer enters it",
+        "C": "The designated Supervisor must approve the account in writing",
+        "D": "The RR needs only one year of trading experience to manage it"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3277 requires the designated Supervisor to approve each managed account in writing. The 12-month, non-renewable term applies to a discretionary account, not a managed account. In a managed account, a Portfolio Manager makes the decisions, so the client does not approve each trade.",
+      "rule_refs": [
+        "IDPC 3277"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"the designated Supervisor must approve each managed account in writing\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3277(1)(iv), ~L6632"
+    },
+    {
+      "id": "RSE-E1-0130",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "RR Marisol Achebe has three years of equity trading experience and six months of options experience. A client offers her discretion to trade equities and options. May she accept?",
+      "options": {
+        "A": "Yes, because her equity experience is more than two years",
+        "B": "Yes, if the client signs an agreement that renews each year",
+        "C": "No, because she needs two years of active experience with options too",
+        "D": "No, because only a Portfolio Manager may ever use discretion"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3275(1) requires at least two years of active experience with all product types that the RR will trade on discretion. Her equity experience does not cover options. A discretionary agreement is not renewable. A discretionary account is separate from a managed account, so the Portfolio Manager option is wrong.",
+      "rule_refs": [
+        "IDPC 3275"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"has at least two years of active experience in trading, advising or performing analysis with respect to all types of products that are to be traded on a discretionary basis\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3275(1)(i), ~L6594"
+    },
+    {
+      "id": "RSE-E1-0131",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which kind of discretion may an RR use in a regular advisory account?",
+      "options": {
+        "A": "Discretion to choose which security to buy for the client",
+        "B": "Time and price discretion used to meet the best execution obligation",
+        "C": "Discretion to decide how many shares to sell for the client",
+        "D": "Discretion to switch the client between two similar funds"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3221 bans discretionary trading outside discretionary and managed accounts. The only exception is time and price discretion that the dealer uses to meet its best execution obligation. A choice of security, quantity or switch is full discretion, so it is not permitted in an advisory account.",
+      "rule_refs": [
+        "IDPC 3221"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"does not apply to time and price discretion exercised in fulfilling the Dealer Member’s best execution obligation\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3221(2), ~L6065"
+    },
+    {
+      "id": "RSE-E1-0132",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which fact is a condition for a discretionary account under the IDPC 1201 definition?",
+      "options": {
+        "A": "The RR suggested discretion to save the client time on phone calls",
+        "B": "The client is available but prefers not to approve each trade",
+        "C": "The authority continues until the client cancels it in writing",
+        "D": "The client, not the dealer, started the grant of discretionary authority"
+      },
+      "answer": "D",
+      "rationale": "IDPC 1201 says that the dealer has not solicited the discretionary authority. The dealer accepts it only for a client who is frequently or temporarily unavailable. So an RR who suggests discretion breaks the condition. The authority lasts no more than 12 months, so it cannot continue until cancelled.",
+      "rule_refs": [
+        "IDPC 1201"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the Dealer Member has not solicited the discretionary authority\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 1201 'discretionary account', ~L466"
+    },
+    {
+      "id": "RSE-E1-0133",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Teodora Lindqvist makes her own decisions with her RR's advice. She trades about 40 times a year and wants predictable costs. Which account fits her best?",
+      "options": {
+        "A": "A commission-based advisory account, because per-trade pay suits active traders",
+        "B": "A managed account, because frequent trading requires a Portfolio Manager",
+        "C": "A discretionary account, because frequent trading requires discretion",
+        "D": "A fee-based advisory account, because her cost stays predictable as she trades"
+      },
+      "answer": "D",
+      "rationale": "She wants to decide herself with advice, so an advisory account fits. A fee based on assets gives a predictable cost, while commission costs rise with each trade. A managed or discretionary account takes the decisions away from her, which she does not want.",
+      "rule_refs": [
+        "IIROC Notice 17-0093"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 1.10 (commission cost rises with activity; fee-based cost predictable)"
+    },
+    {
+      "id": "RSE-E1-0134",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Compared with a cash account, which is a disadvantage of a margin account?",
+      "options": {
+        "A": "The client cannot sell short a stock that she expects to fall",
+        "B": "The client must pay the full amount by the settlement date",
+        "C": "Losses are magnified, and the client can receive margin calls",
+        "D": "The client cannot use leverage to increase her position size"
+      },
+      "answer": "C",
+      "rationale": "A margin account lets the client borrow against the loan value of securities. Leverage magnifies losses, adds interest and can lead to margin calls. Full payment by settlement date, and no leverage or short selling, are features of a cash account.",
+      "rule_refs": [
+        "IDPC Form 1 Schedule 4"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 1.10 cash vs margin table"
+    },
+    {
+      "id": "RSE-E1-0135",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Ruairi Fenwick's margin account is undermargined. He asks the dealer to withdraw $5,000 in cash from the account. What must the dealer do?",
+      "options": {
+        "A": "Pay the withdrawal if Ruairi signs a written risk waiver",
+        "B": "Pay the withdrawal if it occurs within 20 business days",
+        "C": "Pay the withdrawal if the amount is less than $10,000",
+        "D": "Refuse the withdrawal while the account stays undermargined"
+      },
+      "answer": "D",
+      "rationale": "Form 1, Schedule 4, Note 5 bans advancing funds or delivering securities while an account is undermargined. A waiver or a small amount does not change this. The 20-business-day period applies to the restriction on trading, not to withdrawals.",
+      "rule_refs": [
+        "IDPC Form 1 Schedule 4 Note 5"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Advancing funds or delivering securities from the account of a customer shall not be permitted as long as the account is undermargined or if such advance or delivery would cause the account to become undermargined\" — research/sources/ciro/idpc-form-1-schedule-4-cash-and-margin-accounts.txt Form 1 Sch. 4 Note 5(iv), ~L114"
+    },
+    {
+      "id": "RSE-E1-0136",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Leopold Varga, 58, wants a professional to manage his portfolio on a continuing basis for the next ten years. He does not want to approve each trade. Which account fits?",
+      "options": {
+        "A": "A managed account in which a Portfolio Manager makes the decisions",
+        "B": "A discretionary account that the RR renews at the end of each year",
+        "C": "A commission-based advisory account in which he approves each trade",
+        "D": "An order-execution-only account in which he places his own orders"
+      },
+      "answer": "A",
+      "rationale": "In a managed account, a Portfolio Manager or Associate Portfolio Manager makes decisions on a continuing basis. A discretionary account is a temporary accommodation of at most 12 months and is not renewable. Advisory and OEO accounts need his approval for each trade.",
+      "rule_refs": [
+        "IDPC 1201"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"investment decisions are made on a continuing basis by a Portfolio Manager or an Associate Portfolio Manager\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 1201 'managed account', ~L673"
+    },
+    {
+      "id": "RSE-E1-0137",
+      "element": 1,
+      "outcome": "1.10",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "A dealer plans to charge a managed account client a fee based on the account's performance. What does IDPC 3281 require first?",
+      "options": {
+        "A": "A written agreement from the client that sets out how the fee is charged",
+        "B": "A note in the file that records the client's verbal consent to the fee",
+        "C": "Approval from CIRO before the dealer charges each performance fee",
+        "D": "Only the general fee schedule in the client's welcome package"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3281 bans fees based on volume, value or performance unless the client gives a written agreement. The agreement sets out how the fees may be charged. Verbal consent or a general fee schedule is not enough. CIRO does not approve each fee.",
+      "rule_refs": [
+        "IDPC 3281"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"unless the client has provided the Dealer Member with a written agreement which sets out the manner in which the fees may be charged based on volume or value of transactions or contingent upon profit or performance\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3281(1), ~L6697"
+    },
+    {
+      "id": "RSE-E1-0138",
+      "element": 1,
+      "outcome": "1.11",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Under IDPC 3214, when may a dealer assign an account number to a new account?",
+      "options": {
+        "A": "Only after the designated Supervisor approves the new account",
+        "B": "Only when it knows the client's full and accurate name and address",
+        "C": "Only after the client's first trade in the account settles",
+        "D": "Only after it verifies the client's identity with photo ID"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3214(1) lets the dealer assign an account number only when it knows the client's full and accurate name and address. Supervisor approval can come up to one business day after the first trade. So approval is not a condition for the account number.",
+      "rule_refs": [
+        "IDPC 3214"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A Dealer Member may only assign an account number to a new account if the full and accurate name and address of the client who holds the account is known to the Dealer Member; the complete account application must be received no later than the following business day\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3214(1), ~L5746"
+    },
+    {
+      "id": "RSE-E1-0139",
+      "element": 1,
+      "outcome": "1.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ambrose Kettering opens an account on Monday, and his first trade is on Tuesday. Under IDPC 3214, what is the latest day for the designated Supervisor to approve the account?",
+      "options": {
+        "A": "Wednesday, one business day after the first trade",
+        "B": "Tuesday, before the dealer enters the first trade",
+        "C": "Monday, on the day that the account opens",
+        "D": "The following Monday, one week after opening"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3214(3) requires the designated Supervisor to approve each new account no later than one business day after the initial trade. The first trade is on Tuesday, so the latest day is Wednesday. The rule does not require approval before the first trade.",
+      "rule_refs": [
+        "IDPC 3214"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"must approve each new account no later than one business day after completing the initial trade for the account\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3214(3), ~L5751"
+    },
+    {
+      "id": "RSE-E1-0140",
+      "element": 1,
+      "outcome": "1.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Oskar Brennan has a personal cash account. He is also the trustee of a family trust that wants an account with the same RR. Which KYC applies to the trust account?",
+      "options": {
+        "A": "A separate application, because the trust is a separate entity",
+        "B": "Oskar's personal KYC, because he is the trustee of the trust",
+        "C": "Oskar's personal KYC, if the same RR handles both accounts",
+        "D": "A combined form that merges the KYC of all the beneficiaries"
+      },
+      "answer": "A",
+      "rationale": "Guidance requires a separate application for a trust account. A trust is a separate legal entity from its beneficiaries, and its trustee usually sets its objectives. These objectives can differ from Oskar's own. The same RR does not remove the need for a separate application.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the trust is a separate legal entity from its beneficiary(ies) and may have different investment objectives, which are usually determined by the trustee\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.7.2, ~L380"
+    },
+    {
+      "id": "RSE-E1-0141",
+      "element": 1,
+      "outcome": "1.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Kasimir Novak has cash and margin accounts with one RR. He opens a TFSA that a different RR on another team will handle. Can the dealer use one set of KYC for all three accounts?",
+      "options": {
+        "A": "Yes, because Kasimir is the beneficial owner of all three accounts",
+        "B": "No, because the same RR or team must handle all the accounts",
+        "C": "Yes, if the TFSA holds only mutual funds and GICs",
+        "D": "No, because a registered account always needs its own application"
+      },
+      "answer": "B",
+      "rationale": "One set of KYC can serve several accounts only if all the conditions apply. One condition is that the same RR or team is responsible for all the accounts. An identical owner is not enough alone. Registered accounts can share one application if the conditions apply.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"the same Registered Individual (or team of Registered Individuals, see section 2.5 of this Guidance) is designated as responsible for all of the accounts\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.7.1, ~L371"
+    },
+    {
+      "id": "RSE-E1-0142",
+      "element": 1,
+      "outcome": "1.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ingeborg Salo owns all the shares of her holding company. The company wants an account with her RR. Why does the dealer need a separate application for it?",
+      "options": {
+        "A": "A holding company cannot open an advisory account at a dealer",
+        "B": "The corporation, not Ingeborg, is the owner of the account",
+        "C": "Her personal KYC is out of date and must be collected again",
+        "D": "A corporate account always needs a different RR from its owner"
+      },
+      "answer": "B",
+      "rationale": "Guidance requires a separate application for a corporate account. The owner of a corporate account is the corporation, not its beneficial owner. So Ingeborg's personal KYC does not describe the account owner. Nothing requires a different RR or bars a holding company account.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"as the corporate account’s owner is the corporation and not the corporation’s beneficial owner\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.7.2, ~L379"
+    },
+    {
+      "id": "RSE-E1-0143",
+      "element": 1,
+      "outcome": "1.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer plans to sell illiquid, high-risk securities to retail clients. Under CIRO guidance, how might this affect its KYC enquiries?",
+      "options": {
+        "A": "It may collect less information, because the issuer gives a disclosure document",
+        "B": "It collects the same information that it collects for listed common shares",
+        "C": "It may need more information on finances, including holdings elsewhere",
+        "D": "It collects only the anti-money-laundering information for these clients"
+      },
+      "answer": "C",
+      "rationale": "Guidance says that the depth of KYC can vary with the products offered. Where securities are illiquid or highly risky, the dealer may need more information on the client's finances. This includes investments held at other institutions. Issuer disclosure does not reduce the dealer's KYC duty.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Where securities being sold are illiquid or highly risky, more information on a client’s financial circumstances, including investments held elsewhere, may need to be gathered\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.7, ~L293"
+    },
+    {
+      "id": "RSE-E1-0144",
+      "element": 1,
+      "outcome": "1.11",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer offers simple model portfolios of investment funds to clients with straightforward finances. It makes recommendations. How deep must its KYC enquiries be?",
+      "options": {
+        "A": "Less extensive enquiries may be sufficient for this service",
+        "B": "No suitability KYC is needed, because the portfolios are models",
+        "C": "The same depth as a fully customized portfolio service",
+        "D": "Only identity and anti-money-laundering information is needed"
+      },
+      "answer": "A",
+      "rationale": "Guidance says that less extensive enquiries may be sufficient for simple model portfolios for clients with straightforward finances. The dealer still makes recommendations, so it still needs suitability KYC. Only an OEO-type service needs no suitability KYC. A fully customized service calls for more detail.",
+      "rule_refs": [
+        "GN-3400-21-004"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Less extensive enquiries may be sufficient where they offer less complex model portfolios of investment funds to clients with more straightforward financial circumstances.\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.2.3.7, ~L293"
+    },
+    {
+      "id": "RSE-E1-0145",
+      "element": 1,
+      "outcome": "1.12",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Must a dealer give relationship disclosure information to an institutional client?",
+      "options": {
+        "A": "Yes, at account opening and at each significant change",
+        "B": "No, the requirement applies to retail clients only",
+        "C": "Yes, but only if the client trades derivatives",
+        "D": "No, unless the client holds a managed account"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3216(1) says that dealers are not required to provide relationship disclosure to institutional clients. The dealer must give it to retail clients at account opening and when a significant change occurs. Derivatives trading or a managed account does not create the duty for an institutional client.",
+      "rule_refs": [
+        "IDPC 3216"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Dealer Members are not required to provide relationship disclosure to institutional clients.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3216(1), ~L5801"
+    },
+    {
+      "id": "RSE-E1-0146",
+      "element": 1,
+      "outcome": "1.12",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Under IDPC 3216, what title must the relationship disclosure information have?",
+      "options": {
+        "A": "Client Account Agreement",
+        "B": "Know Your Client Summary",
+        "C": "Statement of Client Rights",
+        "D": "Relationship Disclosure"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3216(5)(i) says that the relationship disclosure information must be entitled \"Relationship Disclosure\". The other titles describe other documents or have no basis in the rule.",
+      "rule_refs": [
+        "IDPC 3216"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The relationship disclosure information must be entitled “Relationship Disclosure”.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3216(5)(i), ~L5847"
+    },
+    {
+      "id": "RSE-E1-0147",
+      "element": 1,
+      "outcome": "1.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer prepares a customized relationship disclosure document for each client. Who must approve each document?",
+      "options": {
+        "A": "The RR who serves the client",
+        "B": "The client's trusted contact person",
+        "C": "A CIRO staff reviewer",
+        "D": "The designated Supervisor"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3216(6)(i) says that the designated Supervisor must approve each customized document. For standardized documents, a partner, Director, officer or designated Supervisor approves them. The designated Supervisor then makes sure that each client gets the correct version. The RR and CIRO do not approve it.",
+      "rule_refs": [
+        "IDPC 3216"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"If the relationship disclosure information is a customized for each client, the designated Supervisor must approve each document.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3216(6)(i), ~L5967"
+    },
+    {
+      "id": "RSE-E1-0148",
+      "element": 1,
+      "outcome": "1.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which statement about the format of relationship disclosure information is correct?",
+      "options": {
+        "A": "It must be a separate document that the client signs at each trade",
+        "B": "It may be a separate document or part of the account-opening package",
+        "C": "It may be given orally if the client agrees to that method",
+        "D": "It must repeat all required content and must not refer to other documents"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3216(4) lets the dealer give the information as a separate document or with other account-opening materials. It must be written in plain language. It may give a general description and refer to other documents that contain the required content.",
+      "rule_refs": [
+        "IDPC 3216"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Dealer Members may choose to provide the relationship disclosure information as a separate document or to integrate it with other account opening materials.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3216(4)(ii), ~L5844"
+    },
+    {
+      "id": "RSE-E1-0149",
+      "element": 1,
+      "outcome": "1.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "For an order-execution-only account, which part of the relationship disclosure content may the dealer omit?",
+      "options": {
+        "A": "The description of account fees and charges, if it posts them on its website",
+        "B": "The description of the suitability process, if it makes the section 3241 disclosure",
+        "C": "The description of complaint handling, if the client gets the CIRO brochure",
+        "D": "The conflicts of interest statement, if the client makes all the decisions"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3216(5)(iii) lets the dealer omit the suitability description for OEO accounts. The condition is that the dealer makes the disclosure that section 3241 requires. Fees, complaint procedures and the conflicts statement remain required content.",
+      "rule_refs": [
+        "IDPC 3216",
+        "IDPC 3241"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"provided that disclosure is made in compliance with the requirements in section 3241\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3216(5)(iii), ~L5961"
+    },
+    {
+      "id": "RSE-E1-0150",
+      "element": 1,
+      "outcome": "1.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Brightline Securities offers mostly its own proprietary funds. Which statement must its relationship disclosure include?",
+      "options": {
+        "A": "The past five-year return of each proprietary fund it offers",
+        "B": "Whether it will primarily or exclusively provide proprietary products",
+        "C": "The names and pay of the managers of each proprietary fund",
+        "D": "A statement that CIPF guarantees the value of the funds"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3216(5) requires the disclosure to state any limits on the products offered. This includes whether the firm will primarily or exclusively provide proprietary products. Past returns and manager pay are not required content. CIPF does not guarantee investment values.",
+      "rule_refs": [
+        "IDPC 3216"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"whether the firm will primarily or exclusively provide proprietary products to the client\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3216(5)(ii)(b)(I), ~L5859"
+    },
+    {
+      "id": "RSE-E1-0151",
+      "element": 1,
+      "outcome": "1.12",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "What is CIRO's intent for relationship disclosure information?",
+      "options": {
+        "A": "Clients agree to give up some of the dealer's duties to them",
+        "B": "The dealer records and confirms each client's KYC information",
+        "C": "All clients have answers to basic questions about the account relationship",
+        "D": "Clients receive specific advice on which products to buy"
+      },
+      "answer": "C",
+      "rationale": "Guidance says that the intent is that all clients have answers to basic questions on the account relationship, even if they do not ask. It describes products, services, the account and the dealer's duties. It does not record KYC, and clients cannot waive the dealer's duties through it.",
+      "rule_refs": [
+        "GN-3100-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The intent of the relationship disclosure is to ensure that all clients have answers to some basic questions on the account relationship, whether or not the client raises these questions with their representative.\" — research/sources/ciro/gn-3100-21-001-client-relationship-model.txt GN-3100-21-001 Discussion of relationship disclosure, ~L80"
+    },
+    {
+      "id": "RSE-E1-0152",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A dealer is the lead underwriter of a public offering by Halcyon Metals. The dealer announced its role last week. How should it control trading in Halcyon?",
+      "options": {
+        "A": "Add Halcyon to the grey list and keep the list highly confidential",
+        "B": "Use no list, because the offering is already known to the public",
+        "C": "Add Halcyon to the restricted list and give it to staff who take orders",
+        "D": "Stop all research on Halcyon for at least five years after the deal"
+      },
+      "answer": "C",
+      "rationale": "The restricted list holds issuers with which the dealer has a current, publicly disclosed involvement. It goes to staff who take orders, and it restricts trading and advice. The grey list is for confidential involvement that is not yet public. A public role still needs restrictions.",
+      "rule_refs": [
+        "GN-3500-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The Restricted List is a list of issuers with whom the Dealer has a current, publicly disclosed involvement requiring restrictions on the Dealer’s trading or advising activities.\" — research/sources/ciro/gn-3500-21-001-confidential-information-containment.txt GN-3500-21-001 Restricted Lists, ~L86"
+    },
+    {
+      "id": "RSE-E1-0153",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Why does a dealer keep its grey list highly confidential?",
+      "options": {
+        "A": "CIRO forbids any staff member from seeing an issuer list",
+        "B": "The list contains the names and account numbers of clients",
+        "C": "The list restricts what retail RRs may recommend to clients",
+        "D": "The list itself could reveal deals that are not yet public"
+      },
+      "answer": "D",
+      "rationale": "The grey list holds issuers on which the dealer has confidential information. If the list circulated, it could leak the deals. So only qualified staff see it, and they monitor trading for leaks. The restricted list circulates because the involvement is already public.",
+      "rule_refs": [
+        "GN-3500-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 1.13 'Why the difference' (grey vs restricted list)"
+    },
+    {
+      "id": "RSE-E1-0154",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Which practice is part of an effective information barrier?",
+      "options": {
+        "A": "Open access to deal files for all sales and trading staff",
+        "B": "Records of who is brought over the wall and when",
+        "C": "Weekly briefings to retail RRs on new banking mandates",
+        "D": "A shared drive for bankers and research analysts"
+      },
+      "answer": "B",
+      "rationale": "Information barriers restrict confidential information to people who need to know it. They also record who gets access and when. Guidance lists logged wall-crossings, staff undertakings and physical and electronic barriers. Open access, briefings to RRs and shared drives defeat the barrier.",
+      "rule_refs": [
+        "GN-3500-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Provide for keeping records on who is brought over the wall and when\" — research/sources/ciro/gn-3500-21-001-confidential-information-containment.txt GN-3500-21-001 Information Barriers, ~L55"
+    },
+    {
+      "id": "RSE-E1-0155",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer proposes to pay its research analyst a bonus equal to 2% of the fee from one underwriting of a company that she covers. Is this permitted?",
+      "options": {
+        "A": "Yes, if the dealer discloses the bonus in the analyst's next research report",
+        "B": "Yes, if the bonus is less than 10% of the analyst's total annual pay",
+        "C": "No, because analyst pay must not be directly based on a specific banking deal",
+        "D": "No, because a research analyst must not receive any bonus at all"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3620(2) bans any bonus, salary or other pay to an analyst that is directly based on a specific investment banking transaction. Disclosure or a small size does not cure this. The rule does not ban all bonuses, only pay tied to a specific deal.",
+      "rule_refs": [
+        "IDPC 3620"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"A Dealer Member must not pay any bonus, salary or other compensation to an analyst that is directly based upon a specific investment banking transaction.\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3620(2), ~L7512"
+    },
+    {
+      "id": "RSE-E1-0156",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Investment banking reviews a draft research report on one of its banking clients. The bankers ask the analyst to raise the rating. What may investment banking do with the report?",
+      "options": {
+        "A": "Correct factual errors only",
+        "B": "Approve the report before release",
+        "C": "Change the rating to protect the client",
+        "D": "Receive the new rating before it is published"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3621 limits investment banking's role in research to the correction of factual errors. Investment banking may not approve research reports. It also must not receive advance notice of new ratings or rating changes. These rules protect the independence of research.",
+      "rule_refs": [
+        "IDPC 3621"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"limiting the investment banking department’s involvement in the production of research reports solely to the correction of factual errors\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3621(2)(ii), ~L7520"
+    },
+    {
+      "id": "RSE-E1-0157",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "On March 3, a dealer discovers a cybersecurity incident that is reasonably likely to cause substantial harm. CIRO has not agreed to a different date. When are its written reports due?",
+      "options": {
+        "A": "The first by March 6, and the follow-up by May 2",
+        "B": "The first by March 13, and the follow-up by April 2",
+        "C": "The first by March 4, and the follow-up by March 31",
+        "D": "The first by March 6, and the follow-up by April 2"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3703(2)(vii) requires a report within three calendar days of discovery, which is March 6. The follow-up is due within 30 calendar days of discovery, which is April 2. Both periods count calendar days from the date of discovery.",
+      "rule_refs": [
+        "IDPC 3703"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"within three calendar days from discovering a cybersecurity incident\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3703(2)(vii)(a), ~L7734"
+    },
+    {
+      "id": "RSE-E1-0158",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A dealer's laptop that holds client names and social insurance numbers is stolen. The dealer believes that this creates a real risk of significant harm. What does PIPEDA require?",
+      "options": {
+        "A": "Notify the affected clients only if they ask about the stolen laptop",
+        "B": "Report the breach only to CIRO, which then notifies the clients",
+        "C": "Report the breach to the Privacy Commissioner and notify the affected clients",
+        "D": "Delete the backup records and take no further step on the breach"
+      },
+      "answer": "C",
+      "rationale": "PIPEDA s. 10.1 requires a report to the Privacy Commissioner when a breach creates a real risk of significant harm. The organization must also notify the affected individuals. A report to CIRO, where it applies, does not replace these PIPEDA duties.",
+      "rule_refs": [
+        "PIPEDA s. 10.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"An organization shall report to the Commissioner any breach of security safeguards involving personal information under its control if it is reasonable in the circumstances to believe that the breach creates a real risk of significant harm to an individual.\" — research/sources/gov/pipeda-extracts-schedule-1.txt PIPEDA s.10.1(1), ~L158"
+    },
+    {
+      "id": "RSE-E1-0159",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client asks her dealer to show her the personal information that it holds about her. Which PIPEDA fair information principle applies to her request?",
+      "options": {
+        "A": "Openness",
+        "B": "Accountability",
+        "C": "Individual access",
+        "D": "Limiting collection"
+      },
+      "answer": "C",
+      "rationale": "The individual access principle gives a person the right to access the personal information that an organization holds about them. Openness concerns making the organization's policies available. Accountability concerns responsibility for compliance. Limiting collection concerns collecting only what is necessary.",
+      "rule_refs": [
+        "PIPEDA Schedule 1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Principle 9 – Individual access\" — research/sources/gov/opc-pipeda-fair-information-principles-pages.txt OPC fair information principles, Principle 9, ~L63"
+    },
+    {
+      "id": "RSE-E1-0160",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "A retail-only dealer does no investment banking. Its new manager says that confidential information containment does not matter for the dealer. Is the manager correct?",
+      "options": {
+        "A": "No, because containment is an issue for all dealers, including retail ones",
+        "B": "Yes, because containment applies only to dealers that do investment banking",
+        "C": "Yes, if the dealer has no research department and no analysts",
+        "D": "No, but only privacy rules apply, not rules on material information"
+      },
+      "answer": "A",
+      "rationale": "Guidance says that containment is an issue for all dealers, not just those in corporate finance or investment banking. A retail dealer can receive material non-public information from insider clients or board seats. So it needs controls to prevent insider trading and tipping.",
+      "rule_refs": [
+        "GN-3500-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"The containment of confidential information is an issue for all Dealers, not just those engaged in corporate finance or investment banking activities.\" — research/sources/ciro/gn-3500-21-001-confidential-information-containment.txt GN-3500-21-001 Introduction, ~L34"
+    },
+    {
+      "id": "RSE-E1-0161",
+      "element": 1,
+      "outcome": "1.13",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "An executive of a dealer is a director of Corvane Ltd., a reporting issuer. He learns of an unannounced acquisition by Corvane. He wants to warn the dealer's head of trading. Is this permitted?",
+      "options": {
+        "A": "Yes, because the head of trading works for the same dealer",
+        "B": "Yes, if the head of trading agrees not to trade for his own account",
+        "C": "No, unless disclosure to the head of trading is in the necessary course of business",
+        "D": "Yes, after the dealer adds Corvane to its restricted list"
+      },
+      "answer": "C",
+      "rationale": "IDPC 3508 bans disclosure of material undisclosed information to anyone, including the trading department, unless in the necessary course of business. A warning so the desk can prepare is not a business need. A personal promise or a list does not make the tip permitted.",
+      "rule_refs": [
+        "IDPC 3508"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"to anyone including any Directors, Executives, employees or clients, or research or trading departments of the Dealer Member unless in the necessary course of business\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3508(2)-(4), ~L7113"
+    },
+    {
+      "id": "RSE-E1-0162",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A retail client in an advisory account asks to buy a mutual fund with a deferred sales charge. What must the dealer disclose before it accepts the order?",
+      "options": {
+        "A": "Only the commission, because the fund prospectus shows the other fund fees",
+        "B": "Nothing more, if the relationship disclosure listed all fees at account opening",
+        "C": "The fund's expected return over five years and its risk rating",
+        "D": "The charges, the deferred sales charge, trailing commissions and fund ongoing fees"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3218(1) requires disclosure before the dealer accepts a retail purchase or sale instruction. It covers the charges, any deferred sales charge, trailing commissions and fund ongoing fees. The opening disclosure does not replace this pre-trade disclosure.",
+      "rule_refs": [
+        "IDPC 3218"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"might be required to pay a deferred sales charge on the subsequent sale\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3218(1)(ii), ~L6009"
+    },
+    {
+      "id": "RSE-E1-0163",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "For which type of account does the IDPC 3218 pre-trade disclosure of charges not apply?",
+      "options": {
+        "A": "A commission-based advisory account",
+        "B": "A fee-based advisory account",
+        "C": "A margin account",
+        "D": "A managed account"
+      },
+      "answer": "D",
+      "rationale": "IDPC 3218(1) applies before the dealer accepts a retail client's instruction to buy or sell, except in a managed account. In a managed account, the client does not give instructions for each trade. Advisory and margin accounts receive the pre-trade disclosure.",
+      "rule_refs": [
+        "IDPC 3218"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Before a Dealer Member accepts an instruction from a retail client to purchase or sell a security\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3218(1), ~L6001"
+    },
+    {
+      "id": "RSE-E1-0164",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Which CIRO brochure is optional for a dealer to give a new client?",
+      "options": {
+        "A": "CIRO Complaints Brochure",
+        "B": "How CIRO protects investors",
+        "C": "The dealer's complaint handling summary",
+        "D": "Opening an Investment Account"
+      },
+      "answer": "D",
+      "rationale": "CIRO lists the Complaints Brochure and How CIRO protects investors as mandatory brochures. Opening an Investment Account is optional. The dealer's written complaint handling summary is required at account opening under IDPC 3724.",
+      "rule_refs": [
+        "IDPC 3724"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Optional Brochures Opening an Investment Account\" — research/sources/ciro/ciro-official-brochures-page.txt CIRO Official Brochures page, ~L28"
+    },
+    {
+      "id": "RSE-E1-0165",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Lorcan Ashby bought a corporate bond through his dealer. The issuer defaults, and the bond loses most of its value. The dealer stays solvent. Does CIPF cover his loss?",
+      "options": {
+        "A": "Yes, up to the $1 million limit for general accounts",
+        "B": "Yes, if he files a claim within 180 days of the default",
+        "C": "No, because CIPF does not cover the default of an issuer",
+        "D": "Yes, because a CIPF member firm held the bond for him"
+      },
+      "answer": "C",
+      "rationale": "CIPF covers client property that is missing when a member firm becomes insolvent. It does not cover issuer default, market losses or poor advice. Here the dealer is solvent, and nothing is missing. So the limits and the 180-day claim period do not apply.",
+      "rule_refs": [
+        "IDPC 2284"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the insolvency or default of the company or organization that issued your security\" — research/sources/ciro/cipf-about-cipf-coverage.txt CIPF coverage page - does not cover, ~L39"
+    },
+    {
+      "id": "RSE-E1-0166",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "By when must a client file a claim with CIPF?",
+      "options": {
+        "A": "Within 30 days of the member firm's insolvency",
+        "B": "Within 180 days of the member firm's insolvency",
+        "C": "Within one year of the client's last trade",
+        "D": "Within two years of the client's last statement"
+      },
+      "answer": "B",
+      "rationale": "The CIPF coverage page says that claims must be filed within 180 days of the date of the member firm's insolvency. The other periods have no basis in the CIPF coverage rules.",
+      "rule_refs": [
+        "IDPC 2284"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Any claims to CIPF must be filed within 180 days of the date of the member firm’s insolvency\" — research/sources/ciro/cipf-about-cipf-coverage.txt CIPF coverage page - Coverage limits, ~L50"
+    },
+    {
+      "id": "RSE-E1-0167",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Valdane Holdings Inc. has a cash account and a margin account at a dealer that becomes insolvent. Property worth $1.4 million is missing. Generally, how much does CIPF cover?",
+      "options": {
+        "A": "$2 million, because each account has a $1 million limit",
+        "B": "$1.4 million, because CIPF covers all missing property",
+        "C": "$500,000, because corporations get half the individual limit",
+        "D": "$1 million for all of its accounts combined"
+      },
+      "answer": "D",
+      "rationale": "For corporations and partnerships, the CIPF limit is generally $1 million for all accounts combined. Separate limits for general, retirement and RESP accounts apply to individuals, not corporations. So CIPF generally covers $1 million of the $1.4 million.",
+      "rule_refs": [
+        "IDPC 2284"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"The limit on CIPF protection for these types of clients is generally $1 million for all accounts combined.\" — research/sources/ciro/cipf-about-cipf-coverage.txt CIPF coverage page - Limits for Corporations, ~L61"
+    },
+    {
+      "id": "RSE-E1-0168",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "When must a dealer give a retail client the Derivatives Risk Disclosure Statement?",
+      "options": {
+        "A": "Within 30 days after the client's first derivatives trade",
+        "B": "Before it accepts the client's first derivatives order",
+        "C": "Only when the client asks for a copy of the statement",
+        "D": "After the client's first margin call on a derivatives position"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3254(1) requires the dealer to give the statement before it accepts an initial derivatives order. It also gets the client's acknowledgement of receipt. The statement warns that the client may lose more than the amount deposited.",
+      "rule_refs": [
+        "IDPC 3254"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"provide each derivatives retail client with the most recent derivatives risk disclosure statement or other similar document, approved by Corporation before accepting an initial derivatives order from the client\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3254(1)(i), ~L6488"
+    },
+    {
+      "id": "RSE-E1-0169",
+      "element": 1,
+      "outcome": "1.14",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A dealer has identified a material conflict of interest before a new retail client opens an account. When and how must it disclose the conflict?",
+      "options": {
+        "A": "Before opening, in a prominent, specific and plain-language form",
+        "B": "After the first trade, in the fine print of the account agreement",
+        "C": "Only if the client asks, in an oral explanation from the RR",
+        "D": "Within 30 days of opening, in the first account statement"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3113(2) requires conflict disclosure before the dealer opens the account if it has identified the conflict then. The disclosure must be prominent, specific and in plain language to a reasonable person. Fine print, oral answers on request or later statements do not meet this.",
+      "rule_refs": [
+        "IDPC 3113"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"before opening an account for the client if the conflict has been identified at that time\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3113(2)(iii)(a), ~L4978"
+    },
+    {
+      "id": "RSE-E1-0170",
+      "element": 1,
+      "outcome": "1.15",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under a risk-based approach, which security may need only a lighter product due diligence review?",
+      "options": {
+        "A": "Common shares of a large company listed on a stock exchange",
+        "B": "A private debenture sold under a prospectus exemption",
+        "C": "A new two-times leveraged exchange-traded fund",
+        "D": "A principal-protected note with embedded options"
+      },
+      "answer": "A",
+      "rationale": "Guidance lets dealers use a less extensive review for less complex and less risky securities, such as publicly traded common shares. Prospectus-exempt, leveraged and derivative-based products call for a deeper review.",
+      "rule_refs": [
+        "IDPC 3301",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Dealers may consider a less extensive product due diligence process for less complex and less risky types of securities, such as publicly traded common shares.\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001, ~L119"
+    },
+    {
+      "id": "RSE-E1-0171",
+      "element": 1,
+      "outcome": "1.15",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer has a leveraged gold ETF on its shelf. Another issuer proposes a similar leveraged silver ETF. A staff member says that it needs no review because it is similar. Is this correct?",
+      "options": {
+        "A": "No, because similarity to a shelf product does not justify little or no review",
+        "B": "Yes, because the dealer already reviewed a leveraged ETF of the same type",
+        "C": "Yes, if the silver ETF's issuer gives the dealer an independent report",
+        "D": "No, because a dealer must never offer more than one leveraged ETF"
+      },
+      "answer": "A",
+      "rationale": "Guidance says that dealers should not assume little or no review is needed because a security is similar to one on the shelf. A leveraged ETF needs a deeper review. A report that the issuer commissioned needs caution. No rule limits the number of leveraged ETFs.",
+      "rule_refs": [
+        "IDPC 3301",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Dealers should not assume that little or no review is necessary if a security is similar to one already in the marketplace, or on the Dealer’s product shelf.\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 risk-based approach, ~L120"
+    },
+    {
+      "id": "RSE-E1-0172",
+      "element": 1,
+      "outcome": "1.15",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer approved a bond fund last year. Which event is most likely a significant change that requires the dealer to reassess the fund?",
+      "options": {
+        "A": "Major stock indexes fall 3% during one week",
+        "B": "The dealer hires a new manager for one of its branches",
+        "C": "The fund's unit price rises with a general bond market rally",
+        "D": "The fund changes its mandate so that it can use leverage"
+      },
+      "answer": "D",
+      "rationale": "Guidance treats a change to the security that may affect the dealer's assessment as a significant change. A new mandate with leverage changes the fund's risks. General market moves usually do not require reassessment of individual securities. A branch staffing change does not affect the fund.",
+      "rule_refs": [
+        "IDPC 3301",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"we would consider a modification to a security that may impact the Dealer’s assessment of that security to be a significant change\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 Monitor and review, ~L183"
+    },
+    {
+      "id": "RSE-E1-0173",
+      "element": 1,
+      "outcome": "1.15",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Equity markets fall 8% in a month, and all sectors decline about equally. Must the dealer reassess each approved equity security because of this decline?",
+      "options": {
+        "A": "Generally no, because a general market change usually needs no individual reassessment",
+        "B": "Yes, because any market fall of more than 5% requires a full shelf review",
+        "C": "Yes, because the dealer must reassess every security each month",
+        "D": "No, because the dealer has no duty to monitor securities after approval"
+      },
+      "answer": "A",
+      "rationale": "Guidance says that a general change in market conditions usually does not require reassessment of individual securities. A change that affects only one security or sector may need one. The dealer must still monitor approved securities for significant changes, so the last option is wrong.",
+      "rule_refs": [
+        "IDPC 3301",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"we generally would not consider it a change requiring reassessment of individual securities\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 Monitor and review, ~L185"
+    },
+    {
+      "id": "RSE-E1-0174",
+      "element": 1,
+      "outcome": "1.15",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Philippa Dunmore transfers in an unlisted bond that her new dealer has not approved. The dealer does not otherwise make the bond available. What does product due diligence require?",
+      "options": {
+        "A": "No shelf approval generally, but reasonable steps to assess the bond",
+        "B": "Approval of the bond before the dealer accepts the transfer",
+        "C": "An immediate sale of the bond because it is not on the shelf",
+        "D": "No steps at all, because Philippa chose the bond herself"
+      },
+      "answer": "A",
+      "rationale": "Guidance says that dealers generally need not approve transferred-in securities that they do not otherwise make available. But they must take reasonable steps to assess those securities. A forced sale is not required. Doing nothing does not meet the duty.",
+      "rule_refs": [
+        "IDPC 3301",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Generally, Dealers are not required to approve securities that are transferred-in or held as a result of a client-directed trade if they do not otherwise make those securities available to clients. They, however, must take reasonable steps to assess those securities\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 transfers-in, ~L132"
+    },
+    {
+      "id": "RSE-E1-0175",
+      "element": 1,
+      "outcome": "1.15",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "How does product due diligence differ from underwriting due diligence?",
+      "options": {
+        "A": "PDD asks about prospectus disclosure; underwriting asks about the client base",
+        "B": "PDD asks whether products fit the client base; underwriting asks about disclosure",
+        "C": "PDD applies only to new issues; underwriting applies to all securities",
+        "D": "PDD is done by the issuer; underwriting is done by the Approved Person"
+      },
+      "answer": "B",
+      "rationale": "Guidance says that underwriting due diligence deals mainly with disclosure. Product due diligence focuses on whether the products a dealer makes available are appropriate for its client base. The second option reverses the two. PDD applies to all securities the dealer makes available.",
+      "rule_refs": [
+        "GN-3300-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"product due diligence is focused on ensuring that the products a Dealer makes available are appropriate, or suitable, for its client base\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001, ~L102"
+    },
+    {
+      "id": "RSE-E1-0176",
+      "element": 1,
+      "outcome": "1.15",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "A dealer's working group finishes a documented review of a complex new structured note. Under CIRO guidance, who should make the formal decision on the note?",
+      "options": {
+        "A": "The RR who first asked the dealer to add the note to its shelf",
+        "B": "The issuer's sales team that designed and priced the note",
+        "C": "A new product committee or other authorized group that includes senior staff",
+        "D": "Each RR separately, when a client asks to buy the note"
+      },
+      "answer": "C",
+      "rationale": "For complex or novel products, guidance describes a documented review by staff from relevant departments. A new product committee or other authorized group that includes senior staff then makes a formal decision. The issuer is not independent, and RRs do not approve products for the shelf.",
+      "rule_refs": [
+        "IDPC 3301",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"A formal decision on the security by a new product committee or other authorized group that includes senior staff.\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 Components of effective PDD, ~L186"
+    },
+    {
+      "id": "RSE-E1-0177",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Severin Holt transfers a structured note into his account. His RR did not recommend it and does not know how it works. Does the know-your-product obligation apply to the RR?",
+      "options": {
+        "A": "No, because KYP applies only to securities that the RR recommends",
+        "B": "No, because the dealer's approval of the note replaces the RR's KYP",
+        "C": "Yes, but only when the note becomes worth more than $10,000",
+        "D": "Yes, because KYP covers all securities in the account, including transfers-in"
+      },
+      "answer": "D",
+      "rationale": "Guidance says that Approved Persons must understand all securities in a client's account. This includes securities held from a transfer-in or a client-directed trade. Dealer approval does not discharge KYP. No dollar threshold applies.",
+      "rule_refs": [
+        "IDPC 3302",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Approved Persons are required to have an understanding of all securities held in a client’s account, including those that are held as a result of a transfer-in or a client-directed trade\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 KYP, ~L259"
+    },
+    {
+      "id": "RSE-E1-0178",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "RR Isadora Quinn recommends a new fund to clients. Her only basis is the issuer's marketing summary. Which statement is correct?",
+      "options": {
+        "A": "She meets KYP because the dealer has already approved the fund",
+        "B": "She meets KYP if the dealer's compliance department read the summary",
+        "C": "She must not recommend a security solely on information from its issuer",
+        "D": "She breaches KYP only if the fund later loses money for a client"
+      },
+      "answer": "C",
+      "rationale": "Guidance says that Approved Persons should not recommend a security solely on information from issuers or other third parties. Dealer approval does not discharge KYP. CIRO judges KYP on the steps taken, not on later results.",
+      "rule_refs": [
+        "IDPC 3302",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Approved Persons should not recommend a security solely based on: information from issuers or other third parties, including related parties, about the security, similarities with other securities, or recommendations by other market participants\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 What should Approved Persons not do, ~L270"
+    },
+    {
+      "id": "RSE-E1-0179",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under IDPC 3302(2), which steps must an Approved Person take to understand a security?",
+      "options": {
+        "A": "The steps that are reasonable to meet the suitability obligations",
+        "B": "Every step that the issuer lists in its offering document",
+        "C": "Only the steps that the dealer took during its product review",
+        "D": "The steps that the client asks for before each purchase"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3302(2) says that the required steps are those that are reasonable to let the Approved Person meet the Rule 3400 suitability obligations. The dealer's product review is a separate duty, so it does not set the limit of KYP.",
+      "rule_refs": [
+        "IDPC 3302"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the steps required to understand the securities or derivatives are those that are reasonable to enable the Approved Person to meet their obligations under Rule 3400\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3302(2), ~L6752"
+    },
+    {
+      "id": "RSE-E1-0180",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Under KYP guidance, which item is a cost of a security that the RR should understand?",
+      "options": {
+        "A": "Liquidity risk",
+        "B": "Use of leverage",
+        "C": "Investment time horizon",
+        "D": "Trailing commissions"
+      },
+      "answer": "D",
+      "rationale": "Guidance lists costs such as commissions, sales charges, trailing commissions and management fees. Liquidity risk is a risk. Use of leverage and time horizon are features.",
+      "rule_refs": [
+        "IDPC 3302",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"costs – including fees paid to registrants or other parties (commissions, sales charges, trailer fees, management fees, incentive fees, referral fees, embedded fees, executive compensation)\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 Explain key product features, ~L267"
+    },
+    {
+      "id": "RSE-E1-0181",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "CIRO describes the know-your-product obligation as an extension of which duty?",
+      "options": {
+        "A": "The duty to keep client information confidential under privacy law",
+        "B": "The duty to deal fairly, honestly and in good faith with clients",
+        "C": "The duty to report cybersecurity incidents within three days",
+        "D": "The duty to give clients the CIPF membership disclosure"
+      },
+      "answer": "B",
+      "rationale": "Guidance calls KYP an extension of each Approved Person's general duty to deal fairly, honestly and in good faith with clients. An RR must understand a product before the RR can judge whether it fits a client.",
+      "rule_refs": [
+        "GN-3300-21-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"KYP is also an extension of each Approved Person’s general duty to deal fairly, honestly and in good faith with their clients\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 What is KYP?, ~L240"
+    },
+    {
+      "id": "RSE-E1-0182",
+      "element": 1,
+      "outcome": "1.16",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "RR Lucian Petrov knows a covered call ETF well. He recommends a new covered call ETF from another issuer only because it looks similar. Has he met KYP?",
+      "options": {
+        "A": "No, because he must not recommend it solely on its similarity to another security",
+        "B": "Yes, because his knowledge of the first ETF covers all similar ETFs",
+        "C": "Yes, if the new ETF has a lower management fee than the first ETF",
+        "D": "No, because KYP bans the recommendation of covered call strategies"
+      },
+      "answer": "A",
+      "rationale": "Guidance says that Approved Persons should not recommend a security solely because it is similar to other securities. Lucian must understand the new ETF's own structure, features, risks and costs. A lower fee does not cure this. KYP does not ban any strategy.",
+      "rule_refs": [
+        "IDPC 3302",
+        "GN-3300-21-001"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"Approved Persons should not recommend a security solely based on: information from issuers or other third parties, including related parties, about the security, similarities with other securities, or recommendations by other market participants\" — research/sources/ciro/gn-3300-21-001-product-due-diligence-kyp.txt GN-3300-21-001 What should Approved Persons not do, ~L270"
+    },
+    {
+      "id": "RSE-E1-0183",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "RR Wendell Ashgrove says that a fund is suitable because its medium risk rating matches his client's medium risk profile. He considers nothing else. Is this enough?",
+      "options": {
+        "A": "Yes, because a matching risk rating shows that the fund is suitable",
+        "B": "Yes, if the client signs a form that confirms the risk rating",
+        "C": "No, because a risk rating alone is not enough to determine suitability",
+        "D": "No, because a medium-risk fund never suits a medium-risk client"
+      },
+      "answer": "C",
+      "rationale": "Guidance says that using a security's risk rating as the only input is not sufficient. The RR must consider KYC, KYP, concentration and liquidity, costs and a reasonable range of alternatives. A client signature does not replace this analysis.",
+      "rule_refs": [
+        "IDPC 3402",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"using the risk rating of a security as the only input in determining its suitability for a client is not sufficient\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.1.1, ~L448"
+    },
+    {
+      "id": "RSE-E1-0184",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "An RR makes a well-documented, reasonable recommendation. Six months later, the stock falls 30% after an unexpected event. How will CIRO judge the suitability determination?",
+      "options": {
+        "A": "By the result, so a 30% loss shows that the recommendation was unsuitable",
+        "B": "By whether the client complained within six months of the loss",
+        "C": "By whether the stock recovers its value within one year",
+        "D": "By what a reasonable RR would have done at the time of the recommendation"
+      },
+      "answer": "D",
+      "rationale": "Guidance says that CIRO judges suitability by what a reasonable RR with a similar business model would have done. It does not review the determination based on later events. Suitability does not guarantee a particular outcome.",
+      "rule_refs": [
+        "IDPC 3402",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"We will not review whether the suitability determination has been met based on events subsequent to the determination\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.12, ~L732"
+    },
+    {
+      "id": "RSE-E1-0185",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Two funds are both suitable for Yusra Kamali. Fund X pays her RR more. Fund Y has similar features and lower costs. Which should the RR recommend?",
+      "options": {
+        "A": "Fund X, because both funds are suitable, so the RR may choose freely",
+        "B": "Fund Y, because the RR must put Yusra's interest ahead of higher pay",
+        "C": "Fund X, if the RR discloses the higher pay to Yusra in writing",
+        "D": "Either fund, because costs are not a suitability factor"
+      },
+      "answer": "B",
+      "rationale": "When several options are suitable, the RR must put the client's interest first, ahead of higher pay or other incentives. Costs are a suitability factor under 3402(1)(i)(d). Disclosure of the higher pay does not replace the duty to put the client first.",
+      "rule_refs": [
+        "IDPC 3402",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"must put the client’s interest first, ahead of their own interests and any other competing considerations, such as a higher level of remuneration or other incentives\" — research/sources/ciro/gn-3400-21-004-kyc-suitability-retail-clients.txt GN-3400-21-004 s.3.1.3, ~L466"
+    },
+    {
+      "id": "RSE-E1-0186",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Anselm Rook has a balanced profile, and most of his account is in GICs and bond funds. His RR proposes a 3% position in one higher-risk stock. How should the RR assess suitability?",
+      "options": {
+        "A": "Assess whether the resulting account portfolio is suitable, not the trade alone",
+        "B": "Reject it, because each security must match the balanced profile on its own",
+        "C": "Accept it, because any position under 5% needs no suitability determination",
+        "D": "Accept it, because the stock's risk rating does not matter in a portfolio"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3402(4) requires the dealer to determine that the account portfolio that results from the action is suitable. Guidance says that suitability is not determined trade by trade. Every investment action still needs a determination, whatever its size.",
+      "rule_refs": [
+        "IDPC 3402",
+        "GN-3400-21-004"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"account portfolio of investments that would result from the investment action the Dealer Member takes, recommends or exercises discretion to take is suitable\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(4), ~L6845"
+    },
+    {
+      "id": "RSE-E1-0187",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "CIRO's mutual fund dealer rules give examples of possible churning. Which pattern is one of these examples?",
+      "options": {
+        "A": "One rebalancing trade at the end of each year",
+        "B": "One trade in the account every three months",
+        "C": "Redemptions made within 3 months of the purchase",
+        "D": "A fund held for five years without any trade"
+      },
+      "answer": "C",
+      "rationale": "The Mutual Fund Dealer Rules list red flags such as redemptions within 3 months of a purchase and more than 5 trades a month. A yearly rebalance, a quarterly trade or a long hold are not examples of excessive trading.",
+      "rule_refs": [
+        "IDPC 3945",
+        "Mutual Fund Dealer Rule 200"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"possible issues of churning (for example, redemptions made within 3 months of a purchase, DSC purchases made within 3 months of a DSC redemption or accounts where there are more than 5 trades per month)\" — research/sources/ciro/mfdr-mutual-fund-dealer-rules-2026-04-01-excerpts.txt Mutual Fund Dealer Rule 200, VI. Identification of trends, ~L1188"
+    },
+    {
+      "id": "RSE-E1-0188",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Under CSA guidance, what must a dealer tell a client before a fund switch?",
+      "options": {
+        "A": "The charges, the dealer's incentives and the tax consequences of the switch",
+        "B": "Only the new fund's past returns compared with the old fund",
+        "C": "Only the redemption fee, because incentives are confidential",
+        "D": "The RR's annual payout grid and total yearly income"
+      },
+      "answer": "A",
+      "rationale": "CSA guidance says that the dealer tells the client the charges, the dealer's incentives and the tax or other consequences of a switch. The dealer also explains why the switch is appropriate. Incentives, such as a higher trailing commission, are not confidential.",
+      "rule_refs": [
+        "31-103CP"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"and any tax or other implications of such a transaction. In each case, we expect dealers to explain why a proposed switch or change transaction is appropriate for the client.\" — research/sources/csa/cp-31-103-registration-requirements-companion-policy.txt 31-103CP 'Switch or change transactions', ~L3261"
+    },
+    {
+      "id": "RSE-E1-0189",
+      "element": 1,
+      "outcome": "1.17",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Solange Ferrand needs $80,000 for a home down payment in eight months. Her RR proposes a five-year product that she cannot redeem early. Which 3402(1)(i) factor is most directly at issue?",
+      "options": {
+        "A": "The concentration of one industry sector in the account",
+        "B": "The impact of the action on the account's liquidity",
+        "C": "The dealer's product due diligence on the product",
+        "D": "A reasonable range of alternatives at other dealers"
+      },
+      "answer": "B",
+      "rationale": "Factor (c) covers the impact on the account, including liquidity. Solange needs the cash in eight months, and the product locks it up for five years. The alternatives factor covers alternatives available to the RR at the dealer, not at other dealers.",
+      "rule_refs": [
+        "IDPC 3402"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"the impact of the action on the retail client’s account, including the concentration of securities, derivatives or precious metals bullion, within the account and the liquidity\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(1)(i)(c), ~L6803"
+    },
+    {
+      "id": "RSE-E1-0190",
+      "element": 1,
+      "outcome": "1.18",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client insists on a trade that the dealer has found unsuitable. The dealer has explained why and advised against it. Which other step does IDPC 3402(5) require before the dealer acts?",
+      "options": {
+        "A": "Get the written consent of the client's trusted contact person",
+        "B": "Recommend an alternative action that is suitable",
+        "C": "Mark the order as unsolicited in the order system",
+        "D": "Report the client's instruction to CIRO in writing"
+      },
+      "answer": "B",
+      "rationale": "IDPC 3402(5) requires the dealer to recommend a suitable alternative action. It must also receive recorded confirmation of the client's instruction to proceed. Marking an order unsolicited is not enough. The rule does not need the trusted contact person's consent or a CIRO report.",
+      "rule_refs": [
+        "IDPC 3402"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"recommended to the retail client an alternative action that satisfies subsection 3402(1)\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3402(5)(ii), ~L6853"
+    },
+    {
+      "id": "RSE-E1-0191",
+      "element": 1,
+      "outcome": "1.18",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A client with an order-execution-only account places an order that seems unsuitable. May the dealer recommend a different security to the client?",
+      "options": {
+        "A": "Yes, because 3402(5) requires a suitable alternative for every account",
+        "B": "Yes, if the client signs a form that consents to the recommendation",
+        "C": "No, because the IDPC prohibits recommendations in an OEO account",
+        "D": "No, unless the order is larger than $50,000"
+      },
+      "answer": "C",
+      "rationale": "Guidance says that the IDPC prohibits recommendations in an OEO account. The trade suitability rules, including 3402(5), do not apply to OEO accounts. Only the duty to assess whether the account remains suitable continues.",
+      "rule_refs": [
+        "IDPC 3404",
+        "GN-3200-26-001"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"The IDPC Rules prohibit recommendations in an OEO account.\" — research/sources/ciro/gn-3200-26-001-oeo-account-services-activities.txt GN-3200-26-001 s.2.1, ~L90"
+    },
+    {
+      "id": "RSE-E1-0192",
+      "element": 1,
+      "outcome": "1.18",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Perpetua Galloway, 84, seems confused. She insists on an unsuitable wire of most of her savings to a man whom she met online. Which response best fits the situation?",
+      "options": {
+        "A": "Follow the 3402(5) steps and act once she confirms her instruction",
+        "B": "Mark the wire as unsolicited and send it on the same day",
+        "C": "Close her account at once and return all her assets to her",
+        "D": "Contact her trusted contact person and consider a temporary hold"
+      },
+      "answer": "D",
+      "rationale": "Signs of incapacity or exploitation call for the trusted contact person and the temporary hold rules, not only 3402(5). A recorded confirmation from a client who may lack capacity does not protect her. Marking the wire unsolicited or closing the account does not address the risk.",
+      "rule_refs": [
+        "IDPC 3222",
+        "IDPC 3402"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 1.18 table row 'Signs of exploitation or incapacity: TCP and temporary hold (1.6), not 3402(5)'"
+    },
+    {
+      "id": "RSE-E1-0193",
+      "element": 1,
+      "outcome": "1.18",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "After a dealer accepts an unsuitable order that a client insisted on, what must its supervision policies do?",
+      "options": {
+        "A": "Detect unsuitable and excessive trading in retail accounts",
+        "B": "Cancel the order if the price moves against the client",
+        "C": "Send the order to CIRO for approval before settlement",
+        "D": "Exclude the order from review because the client insisted"
+      },
+      "answer": "A",
+      "rationale": "IDPC 3945(2) requires retail account supervision to detect unsuitable trading and excessive trading. The policies must also outline actions to deal with problems that the review finds. An insisted-on order is not excluded from review.",
+      "rule_refs": [
+        "IDPC 3945"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"must specifically address the detection of: (i) unsuitable trading\" — research/sources/ciro/idpc-rules-2026-08-11.txt IDPC 3945(2)(i), ~L10004"
+    },
+    {
+      "id": "RSE-E1-0194",
+      "element": 1,
+      "outcome": "1.18",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Why does IDPC 3402(5) let a dealer carry out a client instruction that is not suitable?",
+      "options": {
+        "A": "It shifts all the dealer's suitability duties to the client for the account",
+        "B": "It lets the dealer avoid supervision of trades that the client starts",
+        "C": "It applies only when the dealer earns no commission on the trade",
+        "D": "It respects the client's right to decide after full information and a recorded warning"
+      },
+      "answer": "D",
+      "rationale": "The rule respects the client's right to decide. It also makes sure that the client decides with full information, and it records the warning. The dealer's supervision and record-keeping duties continue, so the dealer does not shift its duties to the client.",
+      "rule_refs": [
+        "IDPC 3402"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 1.18 'Why this balance'"
+    }
+  ]
+}
