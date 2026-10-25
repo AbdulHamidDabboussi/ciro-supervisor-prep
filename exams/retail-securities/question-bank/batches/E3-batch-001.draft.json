@@ -1,0 +1,606 @@
+{
+  "meta": {
+    "batch": "E3-001",
+    "drafted": "2026-10-25",
+    "source": "study guide v1.1"
+  },
+  "questions": [
+    {
+      "id": "RSE-E3-0001",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An issuer files a preliminary prospectus for an initial public offering, and the regulator issues a receipt for it. When can the dealer first accept a client's offer to buy the shares?",
+      "options": {
+        "A": "Now, because the regulator issued a receipt for the preliminary prospectus",
+        "B": "After the dealer sends the preliminary prospectus to the client",
+        "C": "After the issuer files the final prospectus, before any receipt for it",
+        "D": "After the regulator issues a receipt for the final prospectus"
+      },
+      "answer": "D",
+      "rationale": "The waiting period runs from the preliminary receipt to the final receipt. During it, no sale or acceptance of an offer can occur (NI 41-101 s. 13.1). The preliminary receipt starts the waiting period; it does not allow sales. Filing the final prospectus is not enough without its receipt.",
+      "rule_refs": [
+        "NI 41-101 s. 13.1",
+        "Securities Act (Ontario) s. 53(1)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"There will not be any sale or any acceptance of an offer to buy the securities until a receipt for the final prospectus has been issued.\" — research/sources/csa/ni-41-101-general-prospectus-requirements.txt NI 41-101 s.13.1(1), ~L1680"
+    },
+    {
+      "id": "RSE-E3-0002",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Viktor Ashby has $850,000 in securities with no related debt. His spouse has $100,000 in cash. They own a debt-free home worth $4,000,000. Their combined pre-tax income is $180,000 a year. Is Viktor an accredited investor as an individual?",
+      "options": {
+        "A": "Yes, because the home makes his financial assets exceed $1,000,000",
+        "B": "Yes, because his net assets with his spouse are at least $5,000,000",
+        "C": "No, because he fails each of the individual accredited investor tests",
+        "D": "Yes, because his financial assets with his spouse exceed $900,000"
+      },
+      "answer": "C",
+      "rationale": "Financial assets exclude the home, so the couple has $950,000, below the $1,000,000 test. Net assets include the home but total $4,950,000, below $5,000,000. Income of $180,000 is below the $300,000 spousal test. The thresholds are bright-line standards (45-106CP s. 3.5).",
+      "rule_refs": [
+        "NI 45-106 s. 1.1",
+        "45-106CP s. 3.5"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"The value of a purchaser's personal residence is not included in a calculation of financial assets.\" — research/sources/csa/cp-45-106-prospectus-exemptions-companion-policy.txt 45-106CP s.3.5(1), ~L783"
+    },
+    {
+      "id": "RSE-E3-0003",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Rania Okafor buys shares of a reporting issuer under the offering memorandum exemption. The issuer has been a reporting issuer for several years. When can she first resell the shares under NI 45-102 s. 2.5?",
+      "options": {
+        "A": "Immediately, because securities sold under an exemption are free trading",
+        "B": "Only after the issuer files a prospectus that qualifies her resale",
+        "C": "After at least twelve months from the distribution date, in all cases",
+        "D": "After at least four months from the distribution date, if the other conditions are met"
+      },
+      "answer": "D",
+      "rationale": "Offering memorandum securities are subject to a restricted period. A first trade is a distribution unless the s. 2.5(2) conditions are met, including at least four months from the distribution date. Only some exempt securities, such as government debt, are free trading. No twelve-month period applies.",
+      "rule_refs": [
+        "NI 45-102 s. 2.5",
+        "NI 45-106 s. 2.9"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"At least four months have elapsed from the distribution date.\" — research/sources/csa/ni-45-102-resale-of-securities.txt NI 45-102 s.2.5(2) condition 2, ~L151"
+    },
+    {
+      "id": "RSE-E3-0004",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "An issuer wants to use the minimum amount exemption under NI 45-106 s. 2.10. Each purchaser buys as principal and pays cash at the time of the distribution. Which purchaser qualifies?",
+      "options": {
+        "A": "A wealthy individual who pays $250,000 for shares of one issuer",
+        "B": "An operating company that pays $120,000 for shares of one issuer",
+        "C": "An operating company that pays $75,000 each for shares of two issuers",
+        "D": "An operating company that pays $150,000 for shares of one issuer"
+      },
+      "answer": "D",
+      "rationale": "The exemption needs a purchaser that is not an individual and pays at least $150,000 in cash for securities of a single issuer. The individual fails, whatever the amount. The $120,000 purchase is too small. The two-issuer purchase fails because each issuer gets only $75,000.",
+      "rule_refs": [
+        "NI 45-106 s. 2.10"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"(a) that person is not an individual;\" — research/sources/csa/ni-45-106-prospectus-exemptions.txt NI 45-106 s.2.10(1)(a), ~L1982"
+    },
+    {
+      "id": "RSE-E3-0005",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Brightwater Foods Inc. plans an initial public offering. It has not yet filed a preliminary prospectus. Which activity does the prospectus requirement generally allow now?",
+      "options": {
+        "A": "Its usual radio ads for its products, with no mention of the offering",
+        "B": "A news release that asks investors to watch for its share offering",
+        "C": "A dealer email that invites clients to reserve shares in the offering",
+        "D": "A public webinar that gives the expected price of the new shares"
+      },
+      "answer": "A",
+      "rationale": "Marketing that promotes a distribution is a trade, so it breaches the prospectus requirement without a receipt or an exemption (41-101CP s. 6.3). Product advertising that does not promote the distribution is generally not subject to the requirement. The news release, email and webinar all promote the offering.",
+      "rule_refs": [
+        "41-101CP s. 6.3",
+        "Securities Act (Ontario) s. 1(1)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"advertising and publicity campaigns that are aimed at either selling products or services of the issuer or raising public awareness of the issuer;\" — research/sources/csa/cp-41-101-general-prospectus-requirements-companion-policy.txt 41-101CP s.6.3(2), ~L1327"
+    },
+    {
+      "id": "RSE-E3-0006",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A control person of Hadley Corp. sells a large block of previously issued Hadley shares to the public. Which statement correctly describes this sale?",
+      "options": {
+        "A": "It is ordinary market trading, so the prospectus requirement does not apply",
+        "B": "It is a primary distribution, because Hadley Corp. receives the money",
+        "C": "It needs no prospectus, because the shares were issued before the sale",
+        "D": "It is a secondary distribution, so it needs a prospectus or an exemption"
+      },
+      "answer": "D",
+      "rationale": "A distribution includes a trade in previously issued securities from the holdings of a control person. This secondary distribution needs a prospectus or an exemption. It is not primary, because the control person, not the issuer, receives the money. Previously issued shares are not exempt when a control person sells them.",
+      "rule_refs": [
+        "Securities Act (Ontario) s. 1(1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"a trade in previously issued securities of an issuer from the holdings of any control person,\" — research/sources/gov/ontario-securities-act-extracts.txt Securities Act (Ontario) s.1(1) 'distribution' (c), ~L102"
+    },
+    {
+      "id": "RSE-E3-0007",
+      "element": 3,
+      "outcome": "3.1",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Corvane Mining Inc. makes a take-over bid for all shares of a target company. It offers its own newly issued shares as payment. How does the prospectus requirement apply to this share exchange?",
+      "options": {
+        "A": "It is a distribution, so Corvane must file a prospectus before the exchange",
+        "B": "It is not a distribution, because the target shareholders already hold shares",
+        "C": "It is a distribution, but NI 45-106 exempts it from the prospectus requirement",
+        "D": "It is exempt only if Corvane offers to buy less than 20% of the class"
+      },
+      "answer": "C",
+      "rationale": "Newly issued shares used as payment are a distribution. NI 45-106 s. 2.16 exempts a distribution in connection with a take-over bid. Target shareholders usually get a bid circular instead. An offer for less than 20% is not a take-over bid, so the s. 2.16 exemption does not apply to it.",
+      "rule_refs": [
+        "NI 45-106 s. 2.16",
+        "NI 62-104 s. 1.1"
+      ],
+      "difficulty": "hard",
+      "status": "draft",
+      "source_quote": "\"The prospectus requirement does not apply to a distribution of a security in connection with a take-over bid in a jurisdiction of Canada or an issuer bid in a jurisdiction of Canada.\" — research/sources/csa/ni-45-106-prospectus-exemptions.txt NI 45-106 s.2.16, ~L2057"
+    },
+    {
+      "id": "RSE-E3-0008",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Pinecrest Outfitters Inc. has two classes of common shares. Class X shares carry five votes each, and Class Y shares carry one vote each. Both classes get equal dividends per share. How does NI 41-101 classify the Class Y shares?",
+      "options": {
+        "A": "As ordinary common shares, because each Class Y share carries a vote",
+        "B": "As restricted securities, because another class has more votes per share",
+        "C": "As non-voting securities, because they carry fewer votes than Class X",
+        "D": "As preferred securities, because they get dividends equal to Class X"
+      },
+      "answer": "B",
+      "rationale": "Under NI 41-101 s. 1.1, an equity security is restricted if another class carries more votes per security. A vote does not prevent this status; Class Y is a subordinate voting security. It is not non-voting, because it carries a vote. Equal dividends do not make it preferred.",
+      "rule_refs": [
+        "NI 41-101 s. 1.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"there is another class of securities of the issuer that carries a greater number of votes per security relative to the equity security,\" — research/sources/csa/ni-41-101-general-prospectus-requirements.txt NI 41-101 s.1.1 'restricted security' (a), ~L720"
+    },
+    {
+      "id": "RSE-E3-0009",
+      "element": 3,
+      "outcome": "3.2",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "A federal corporation wants its shareholders to approve a fundamental change to its structure. What approval do the voting shareholders usually give?",
+      "options": {
+        "A": "An ordinary resolution, with a simple majority of the votes cast",
+        "B": "A unanimous resolution, with all of the votes cast",
+        "C": "A special resolution, with two thirds of the votes cast",
+        "D": "A board resolution, with no vote by the shareholders"
+      },
+      "answer": "C",
+      "rationale": "Shareholders usually make fundamental changes by special resolution, which needs two thirds of the votes cast (Corporations Canada). An ordinary resolution needs only 50 percent plus 1 of the votes cast. The law does not require a unanimous vote, and the board alone cannot approve a fundamental change.",
+      "rule_refs": [
+        "CBCA (Corporations Canada, Share structure and shareholders)"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"Special resolutions must have the approval of two thirds of the votes cast.\" — research/sources/gov/business-structures-corporations-cooperatives-ised.txt ISED Special resolutions, ~L245"
+    },
+    {
+      "id": "RSE-E3-0010",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Elodie Saran buys hedged Canadian depositary receipts (CDRs) on a U.S. company. Which statement correctly describes her rights?",
+      "options": {
+        "A": "She becomes a registered shareholder of the U.S. company",
+        "B": "She votes through the depositary, under the terms of the CDR",
+        "C": "She receives the U.S. company's dividends in U.S. dollars",
+        "D": "She has full exposure to changes in the USD/CAD exchange rate"
+      },
+      "answer": "B",
+      "rationale": "A CDR holder is not a registered shareholder. The depositary holds the underlying shares, and the holder votes through it under the CDR terms. Dividends are paid in Canadian dollars. The currency hedge removes most of the USD/CAD effect.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.3 (rights to holder)"
+    },
+    {
+      "id": "RSE-E3-0011",
+      "element": 3,
+      "outcome": "3.3",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A CDR trades at C$18. The underlying U.S. share trades at US$450. A client says that the CDR is a cheap way to buy the company. Which response is correct?",
+      "options": {
+        "A": "The CDR price is low because the CDR carries no currency hedge cost",
+        "B": "Each CDR is a fraction of a share, so its low price does not make the share cheap",
+        "C": "The CDR gives one full share at a discount to the U.S. market price",
+        "D": "The CDR ratio is fixed, so the CDR price shows the share's true value"
+      },
+      "answer": "B",
+      "rationale": "The CDR ratio sets how much of one share each CDR represents. A C$18 CDR is a small part of an expensive share, not a cheap share. Its percentage return is about the share's home-currency return, less the hedge cost. The ratio is not fixed; it changes with the exchange rate.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.3 (CDR ratio)"
+    },
+    {
+      "id": "RSE-E3-0012",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Anouk Delacroix plans many trades of about $250 each. Her dealer charges a flat $9.95 commission on each purchase and on each sale. Which statement best describes the effect of these costs?",
+      "options": {
+        "A": "Each fee is a large part of her trade, so the price must rise more before she profits",
+        "B": "A flat fee has the same percentage effect on a small trade as on a large trade",
+        "C": "The fees reduce her return only on the trades that she sells at a loss",
+        "D": "More frequent trading reduces her total cost per dollar that she invests"
+      },
+      "answer": "A",
+      "rationale": "A flat fee is a larger percentage of a small trade. She pays it on the purchase and again on the sale, so the price must rise more before she earns a profit. Each new trade adds the costs again. Fewer, larger trades reduce the cost per dollar invested.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.4 (impact of costs)"
+    },
+    {
+      "id": "RSE-E3-0013",
+      "element": 3,
+      "outcome": "3.4",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Oskar Lindqvist holds shares in a taxable account. He compares a taxable Canadian corporation's shares with a U.S. corporation's shares that pay the same dividend. Which statement about the tax on the dividends is correct?",
+      "options": {
+        "A": "Both dividends qualify for the dividend tax credit in a Canadian account",
+        "B": "The U.S. dividends do not qualify for the dividend tax credit",
+        "C": "The U.S. dividends get a 38% gross-up, as eligible dividends do",
+        "D": "The Canadian dividends are tax-free because the corporation paid tax"
+      },
+      "answer": "B",
+      "rationale": "Foreign dividends do not qualify for the dividend tax credit (CRA), and they get no gross-up. Canadian dividends are not tax-free; they are grossed up, and the credit then reduces the tax. A foreign tax credit may offset any foreign tax that he paid.",
+      "rule_refs": [
+        "CRA, Foreign income",
+        "ITA s. 82(1)"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Foreign dividends do not qualify for the dividend tax credit.\" — research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt CRA Foreign income, ~L92"
+    },
+    {
+      "id": "RSE-E3-0014",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Fenwick Robotics Ltd. needs new capital. Its debt is already high, and its cash flow changes a lot from year to year. Which advantage of issuing common shares, instead of borrowing, matters most here?",
+      "options": {
+        "A": "Common shares have no maturity and no fixed payment, so a weak year cannot cause a default",
+        "B": "Common shares cost less than debt, because the company can deduct dividends from income",
+        "C": "Common shares increase earnings per share for the existing owners of the company",
+        "D": "Common shares leave the voting control of the existing owners unchanged"
+      },
+      "answer": "A",
+      "rationale": "Common shares are permanent capital with no obligation to pay dividends. So a bad year does not cause a default, and debt-to-equity improves. Equity costs more than debt, because dividends come from after-tax profit. New shares dilute EPS and control.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.5 (advantages to the issuer)"
+    },
+    {
+      "id": "RSE-E3-0015",
+      "element": 3,
+      "outcome": "3.5",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Wren Achterberg is 28 and wants long-term growth. She asks about the main disadvantage of common shares compared with the same company's bonds and preferred shares. Which answer is correct?",
+      "options": {
+        "A": "Common shareholders have the last claim on assets, so they can lose the whole investment",
+        "B": "Common shareholders are personally liable for the company's debts if it fails",
+        "C": "Common shares pay a fixed dividend, so her income from them cannot grow",
+        "D": "Common shares have a maximum price, so her possible gain has a limit"
+      },
+      "answer": "A",
+      "rationale": "Common shareholders get what remains after creditors and preferred shareholders, so they can lose everything. In exchange, their possible gain has no limit. Their liability is limited to the amount that they paid for their shares. Common dividends are discretionary, not fixed.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.5 (advantages and disadvantages of ownership)"
+    },
+    {
+      "id": "RSE-E3-0016",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "A company declares a dividend with a record date on a Wednesday. Monday to Friday are business days, and settlement is T+1. What is the last day a client can buy the shares and get the dividend?",
+      "options": {
+        "A": "The Monday before the record date",
+        "B": "The Wednesday that is the record date",
+        "C": "The Tuesday before the record date",
+        "D": "The Thursday after the record date"
+      },
+      "answer": "C",
+      "rationale": "Settlement is T+1, so a trade must occur at least one business day before the record date. A Tuesday trade settles on Wednesday, in time. A Wednesday trade settles on Thursday, too late. The ex-dividend date is normally the record date itself.",
+      "rule_refs": [
+        "24-101CP s. 5.1"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"Current SRO and marketplace rules mandate a standard T+1 settlement cycle period for most transactions in equity and long term debt securities.\" — research/sources/csa/cp-24-101-institutional-trade-matching-and-settlement-companion-policy.txt 24-101CP s.5.1, ~L461"
+    },
+    {
+      "id": "RSE-E3-0017",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Ines Marchetti holds 600 shares at $90 each. The company does a 3-for-1 stock split. Which statement correctly describes her position after the split?",
+      "options": {
+        "A": "She has 1,800 shares at about $90, and her total value triples",
+        "B": "She has 200 shares at about $270, and the split is not taxable",
+        "C": "She has 1,800 shares at about $30, and the split is not taxable",
+        "D": "She has 1,800 shares at about $30, and the split is a taxable disposition"
+      },
+      "answer": "C",
+      "rationale": "A 3-for-1 split triples the number of shares and divides the price by three. Her total value and percentage ownership do not change. CRA treats a split as no disposition, so it is not taxable. She must recalculate her ACB per share.",
+      "rule_refs": [
+        "CRA T4037"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"no stock dividend is considered to have been issued, no disposition or acquisition is considered to have occurred and the event is not taxable.\" — research/sources/cra/guide-t4037-capital-gains-2025.txt T4037 Stock splits and consolidations, ~L1795-1798"
+    },
+    {
+      "id": "RSE-E3-0018",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Tobias Lund receives eligible dividends from a taxable Canadian corporation in a non-registered account. Which statement describes the federal tax treatment?",
+      "options": {
+        "A": "He reports 115% of the dividends and claims a credit of 9/13 of the gross-up",
+        "B": "He reports the actual dividends and claims no dividend tax credit",
+        "C": "He reports 138% of the dividends and claims no dividend tax credit",
+        "D": "He reports 138% of the dividends and claims a credit of 6/11 of the gross-up"
+      },
+      "answer": "D",
+      "rationale": "Eligible dividends get a 38% gross-up, so 138% is taxable (ITA s. 82). The federal dividend tax credit is 6/11 of the gross-up (s. 121). The 115% and 9/13 figures apply to dividends other than eligible dividends.",
+      "rule_refs": [
+        "ITA s. 82(1)",
+        "ITA s. 121"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "source_quote": "\"(D) for taxation years that end after 2011, 38%;\" — research/sources/gov/ita-dividends-gross-up-dtc.txt ITA s.82(1)(b)(ii)(D), ~L18"
+    },
+    {
+      "id": "RSE-E3-0019",
+      "element": 3,
+      "outcome": "3.6",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Granville Utilities Inc. buys back its own shares through a normal-course issuer bid on the TSX. Its total earnings stay the same. What is the usual effect on the shareholders who do not sell?",
+      "options": {
+        "A": "EPS usually decreases, because the bid uses the company's cash",
+        "B": "Each remaining holder owns a smaller percentage, because of dilution",
+        "C": "EPS usually increases, and each remaining holder owns a larger percentage",
+        "D": "Each remaining holder gets a taxable distribution of the bid cash"
+      },
+      "answer": "C",
+      "rationale": "A buyback reduces the number of shares outstanding. If earnings do not decrease, EPS usually increases. The remaining shareholders own a larger percentage of the company. Only the shareholders who sell receive cash. Dilution comes from new shares, not from a buyback.",
+      "rule_refs": [
+        "NI 62-104 s. 4.8"
+      ],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.6 (share buyback)"
+    },
+    {
+      "id": "RSE-E3-0020",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Understand",
+      "type": "standard",
+      "stem": "Tremont Mills Inc. has cumulative preferred shares. It skipped four quarterly preferred dividends. Its board now wants to declare a dividend on the common shares. What must Tremont do first?",
+      "options": {
+        "A": "Pay all of the unpaid preferred dividends",
+        "B": "Pay only the current quarter's preferred dividend",
+        "C": "Nothing, because skipped preferred dividends are lost",
+        "D": "Cure the default that the skipped dividends caused"
+      },
+      "answer": "A",
+      "rationale": "On cumulative preferred shares, missed dividends accumulate as arrears. The issuer must pay all arrears before any common dividend. Skipped dividends are lost only on non-cumulative shares. A missed preferred dividend is not a default.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.7 (dividend rights)"
+    },
+    {
+      "id": "RSE-E3-0021",
+      "element": 3,
+      "outcome": "3.7",
+      "taxonomy": "Remember",
+      "type": "standard",
+      "stem": "Which preferred share feature gives the holder the right to sell the shares back to the issuer at a set price on set dates?",
+      "options": {
+        "A": "Redeemable",
+        "B": "Retractable",
+        "C": "Convertible",
+        "D": "Participating"
+      },
+      "answer": "B",
+      "rationale": "A retractable feature is a put for the holder, who can sell back at a set price on set dates. A redeemable (callable) feature is the opposite: the issuer can buy the shares back. A convertible exchanges into common shares. A participating share gets extra dividends.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "concept: guide 3.7 (other features)"
+    },
+    {
+      "id": "RSE-E3-0022",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Mireille Fontaine expects interest rates to rise. She holds four preferred shares of similar credit quality. Which share is most exposed to a fall in price?",
+      "options": {
+        "A": "A floating-rate preferred tied to a reference interest rate",
+        "B": "A straight perpetual preferred with a fixed dividend",
+        "C": "A retractable preferred with a retraction date next year",
+        "D": "A fixed-reset preferred whose rate resets next month"
+      },
+      "answer": "B",
+      "rationale": "When rates rise, fixed-dividend prices fall. A straight perpetual has no maturity to pull its price back to par, so it is most exposed. A floating-rate dividend rises with rates. A retraction right lets the holder sell back at a set price. A reset next month raises the rate soon.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (interest-rate risk)"
+    },
+    {
+      "id": "RSE-E3-0023",
+      "element": 3,
+      "outcome": "3.8",
+      "taxonomy": "Analyze",
+      "type": "standard",
+      "stem": "Lukas Brenner holds a callable preferred share. It trades slightly above its call price. Interest rates then fall further. Which outcome is most likely?",
+      "options": {
+        "A": "The price rises without limit as rates continue to fall",
+        "B": "The issuer must keep the shares outstanding at least until maturity",
+        "C": "He can force the issuer to buy back the shares at par",
+        "D": "The price rises little, and the issuer may redeem the shares"
+      },
+      "answer": "D",
+      "rationale": "A call feature caps the gain, because the price rarely rises far above the call price. When rates fall, the issuer can redeem the shares: this is call risk. A forced sale back to the issuer is a retraction right, which belongs to the holder of a retractable share.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "concept: guide 3.8 (call risk)"
+    },
+    {
+      "id": "RSE-E3-0024",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Calder Freight Ltd. compares two ways to raise the same amount: preferred shares or bonds. Which disadvantage applies to the preferred shares but not to the bonds?",
+      "options": {
+        "A": "Calder pays the dividends from after-tax profit, but interest is generally deductible",
+        "B": "A skipped preferred dividend puts Calder into legal default with the holders",
+        "C": "Preferred shareholders vote on all ordinary matters at every shareholder meeting",
+        "D": "The preferred shares increase Calder's debt-to-equity ratio after the issue"
+      },
+      "answer": "A",
+      "rationale": "Preferred dividends come out of after-tax profit, whereas interest is generally a deductible expense. So preferreds usually cost more than debt. A skipped preferred dividend is not a default. Preferreds usually carry no vote, and they add equity, so debt-to-equity improves.",
+      "rule_refs": [],
+      "difficulty": "medium",
+      "status": "draft",
+      "qa_note": "concept: guide 3.9 (advantages and disadvantages to the issuer)"
+    },
+    {
+      "id": "RSE-E3-0025",
+      "element": 3,
+      "outcome": "3.9",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Noor Haddad is 67 and wants steady income in her taxable account. She also wants priority over common shareholders if the issuer has problems. Which choice fits her better, and why?",
+      "options": {
+        "A": "Common shares, because their dividends are fixed and the board cannot cut them",
+        "B": "Preferred shares, because a missed dividend lets her force the issuer into default",
+        "C": "Common shares, because they rank ahead of preferred shares on dissolution",
+        "D": "Preferred shares, because their dividends have priority and may get the dividend tax credit"
+      },
+      "answer": "D",
+      "rationale": "Preferred dividends come before any common dividend, and the stated amount ranks ahead of common on dissolution. In a taxable account, dividends from taxable Canadian corporations may qualify for the dividend tax credit. A missed preferred dividend is not a default. Common dividends are discretionary.",
+      "rule_refs": [
+        "CRA, Lines 12000/12010"
+      ],
+      "difficulty": "easy",
+      "status": "draft",
+      "source_quote": "\"You may be able to claim a dividend tax credit on line 40425 for dividends received from taxable Canadian corporations.\" — research/sources/cra/investment-income-interest-dividends-foreign-tax-credit.txt CRA Lines 12000/12010 Tax Tips, ~L240"
+    },
+    {
+      "id": "RSE-E3-0026",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Liesl Varga considers a straight perpetual preferred share that pays $1.50 a year. She requires a 6% return. What is the share's value using the zero-growth model?",
+      "options": {
+        "A": "$25.00",
+        "B": "$26.50",
+        "C": "$15.00",
+        "D": "$9.00"
+      },
+      "answer": "A",
+      "rationale": "The zero-growth model values a constant dividend paid forever: P₀ = D ÷ r = 1.50 ÷ 0.06 = $25.00. The $26.50 answer wrongly grows the dividend by 6% first. The $9.00 answer multiplies instead of divides.",
+      "rule_refs": [],
+      "difficulty": "easy",
+      "status": "draft",
+      "qa_note": "calc: 1.50 / 0.06 = 25.00; distractors 1.50*1.06/0.06 = 26.50, 1.50/0.10 = 15.00, 1.50*6 = 9.00"
+    },
+    {
+      "id": "RSE-E3-0027",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Dorian Feld looks at a common share that just paid a $1.50 dividend. He expects dividends to grow 5% a year forever and requires an 11% return. What is the share's value using the constant-growth model?",
+      "options": {
+        "A": "$25.00",
+        "B": "$26.25",
+        "C": "$14.32",
+        "D": "$9.84"
+      },
+      "answer": "B",
+      "rationale": "The Gordon model uses next year's dividend: D₁ = 1.50 × 1.05 = 1.575. So P₀ = 1.575 ÷ (0.11 − 0.05) = $26.25. The $25.00 answer wrongly uses D₀. The $14.32 answer leaves growth out of the denominator.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: D1 = 1.50*1.05 = 1.575; 1.575/(0.11-0.05) = 26.25; distractors 1.50/0.06 = 25.00, 1.575/0.11 = 14.32, 1.575/0.16 = 9.84"
+    },
+    {
+      "id": "RSE-E3-0028",
+      "element": 3,
+      "outcome": "3.10",
+      "taxonomy": "Apply",
+      "type": "standard",
+      "stem": "Analysts forecast next year's EPS for Ridgeback Tools Inc. at $4.00. The payout ratio is 50%, the required return is 12% and growth is 7%. The share trades at $46.00. What is the model value from the justified P/E, and how does the share look?",
+      "options": {
+        "A": "$40.00, so the share looks undervalued",
+        "B": "$80.00, so the share looks undervalued",
+        "C": "$40.00, so the share looks overvalued",
+        "D": "$28.57, so the share looks overvalued"
+      },
+      "answer": "C",
+      "rationale": "Justified P/E = 0.50 ÷ (0.12 − 0.07) = 10, so P₀ = 4.00 × 10 = $40.00. The market price of $46.00 is above the model value, so the share looks overvalued. The $80.00 answer leaves out the payout ratio.",
+      "rule_refs": [],
+      "difficulty": "hard",
+      "status": "draft",
+      "qa_note": "calc: P/E = 0.50/(0.12-0.07) = 10; P0 = 4.00*10 = 40.00 < 46.00 -> overvalued; distractors 4.00/0.05 = 80.00, 4.00*0.50/0.07 = 28.57"
+    }
+  ]
+}

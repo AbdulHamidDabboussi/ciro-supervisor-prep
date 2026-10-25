@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CIRO Retail Securities Exam practice question",
+  "description": "Schema for Retail Securities question-bank items: 4-option standalone MCQ (the exam has no item sets), tagged to syllabus element/outcome and taxonomy level.",
+  "type": "object",
+  "required": [
+    "id",
+    "element",
+    "outcome",
+    "taxonomy",
+    "type",
+    "stem",
+    "options",
+    "answer",
+    "rationale"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique ID, e.g. RSE-E4-0007",
+      "pattern": "^RSE-E[1-9]-\\d{4}$"
+    },
+    "element": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 9,
+      "description": "Syllabus element 1-9"
+    },
+    "outcome": {
+      "type": "string",
+      "description": "Learning outcome ID from syllabus.json, e.g. '4.19'"
+    },
+    "taxonomy": {
+      "type": "string",
+      "enum": [
+        "Remember",
+        "Understand",
+        "Apply",
+        "Analyze"
+      ]
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "standard",
+        "item_set"
+      ],
+      "description": "The Retail Securities exam is 120 standalone questions; always \"standard\""
+    },
+    "item_set_id": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Groups item_set questions sharing one scenario"
+    },
+    "scenario": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Shared scenario text (item_set only; store once per set or denormalized)"
+    },
+    "stem": {
+      "type": "string"
+    },
+    "options": {
+      "type": "object",
+      "required": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "properties": {
+        "A": {
+          "type": "string"
+        },
+        "B": {
+          "type": "string"
+        },
+        "C": {
+          "type": "string"
+        },
+        "D": {
+          "type": "string"
+        }
+      }
+    },
+    "answer": {
+      "type": "string",
+      "enum": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "rationale": {
+      "type": "string",
+      "description": "Why the answer is correct and distractors wrong"
+    },
+    "rule_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "e.g. ['IDPC 3900', 'UMIR 7.1', 'GN-3900-20-001']"
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": [
+        "easy",
+        "medium",
+        "hard"
+      ]
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "reviewed",
+        "published"
+      ],
+      "default": "draft"
+    },
+    "source_quote": {
+      "type": "string",
+      "description": "Provenance: \"verbatim quote\" — source file + locator (regulatory items); not rendered"
+    },
+    "qa_note": {
+      "type": "string"
+    }
+  }
+}

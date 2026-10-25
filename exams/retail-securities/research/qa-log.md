@@ -69,3 +69,27 @@
 - **Structure:** `npm run validate` passes.
 - **Calculation scope:** the only hit outside the table is 3.4, the syllabus-grounded fee example.
 - **Verbatim overlap:** at most 52 words in any run.
+
+## 2026-10-25: Question bank, wave 1 (lean pipeline, 2 mock forms)
+
+**User decisions:**
+- Target 2 fully distinct mock forms (240 reviewed).
+- Minimize tokens, so use the lean pipeline in `question-bank/DRAFTING-SPEC-LEAN.md`.
+- Gate 1 solvers run on Sonnet.
+
+**Process:**
+- 9 drafters (one per element) wrote 280 items **from the audited study guide v1.1**, reusing its verified quotes.
+- Scripted gates (`tools/qa_questions.py check`): 0 errors, 0 near-duplicates, 128/128 quotes verified, every sentence 25 words or fewer.
+- Gate 1 blind solve: 3 Sonnet solvers, stems and options only.
+- Failing items were killed, not rewritten.
+
+**Gate 1:**
+- 268/280 passed (12 killed; 4.3%). Kills were solver-wrong (4) or low-confidence/ambiguous (8), mostly uncertainty about specific rule details, e.g. ETF Facts delivery timing, T-bill settlement, spoofing vs layering, overdue-cash cures. Grading record: `question-bank/batches/gate1-wave1-grade.json`.
+- Element 8 ended 1 short (13/14), so a 3-item top-up was drafted (avoiding the failed angles) and blind-solved; 3/3 passed (`gate1-e8-topup-grade.json`).
+
+**Result:** `bank.json` = **271 reviewed items**.
+- Per element: E1 60 · E2 22 · E3 28 · E4 32 · E5 34 · E6 29 · E7 33 · E8 16 · E9 17.
+- Every element supports 2 distinct 120-question forms.
+- `npm run validate` passes.
+- In the app, a Retail mock assembles 120 questions in the official 27/10/12/14/16/13/14/7/7 split; Drill works.
+- About 1.44M agent tokens in total (drafting 1.06M, solving 0.24M, top-up 0.14M).
