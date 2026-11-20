@@ -4,6 +4,7 @@ import { DataProvider, useData } from './data/DataContext'
 import { RegistryProvider, useExam, useRegistry } from './data/ExamContext'
 import { Link, NavLink } from './components/ExamLink'
 import { ThemeToggle } from './components/ThemeToggle'
+import { DogEasterEgg } from './components/DogEasterEgg'
 import { bindExamStorage, boundPrefix } from './store/examScope'
 import { usePrefs } from './store/prefs'
 import { cn } from './lib/format'
@@ -400,6 +401,7 @@ export default function App() {
   return (
     <RegistryProvider>
       <Outlet />
+      <DogEasterEgg />
     </RegistryProvider>
   )
 }
