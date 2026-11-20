@@ -10,6 +10,9 @@ interface PrefsState {
   setLastExam: (id: string) => void
   setTheme: (t: Theme) => void
   toggleTheme: () => void
+  /** Easter egg: the dog that chases the cursor (see components/DogEasterEgg.tsx). */
+  dog: boolean
+  toggleDog: () => void
 }
 
 export const usePrefs = create<PrefsState>()(
@@ -22,6 +25,8 @@ export const usePrefs = create<PrefsState>()(
       setLastExam: (lastExam) => set({ lastExam }),
       setTheme: (theme) => set({ theme }),
       toggleTheme: () => set({ theme: get().theme === 'dark' ? 'light' : 'dark' }),
+      dog: false,
+      toggleDog: () => set({ dog: !get().dog }),
     }),
     { name: 'ciro-prefs' },
   ),

@@ -138,3 +138,98 @@
     min-width: 6.5rem;
   }
 }
+
+/* Easter egg: the dog (components/DogEasterEgg.tsx). Legs swing from the hip while it
+   runs; it sits still and wags its tail when it catches up. */
+.dog-svg .dog-leg {
+  transform-box: fill-box;
+  transform-origin: 50% 0;
+}
+.dog-svg .dog-tail {
+  transform-box: fill-box;
+  transform-origin: 100% 100%;
+}
+.dog-svg .dog-tongue {
+  opacity: 0;
+}
+.dog-run .leg-a {
+  animation: dog-leg 0.28s ease-in-out infinite alternate;
+}
+.dog-run .leg-b {
+  animation: dog-leg 0.28s ease-in-out infinite alternate-reverse;
+}
+.dog-run .dog-body {
+  animation: dog-bob 0.14s ease-in-out infinite alternate;
+}
+.dog-run .dog-tongue {
+  opacity: 1;
+}
+.dog-sit .dog-tail {
+  animation: dog-wag 0.25s ease-in-out infinite alternate;
+}
+.dark .dog-svg {
+  /* A soft light rim so the black coat reads on the dark background. */
+  filter: drop-shadow(0 0 1px rgb(255 255 255 / 0.75)) drop-shadow(0 0 5px rgb(255 255 255 / 0.18));
+}
+/* Paw prints left behind while he trots; each fades out and is removed. */
+.dog-paw {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 8px;
+  height: 8px;
+  background:
+    radial-gradient(circle at 50% 72%, rgb(20 20 20 / 0.38) 0 28%, transparent 30%),
+    radial-gradient(circle at 18% 34%, rgb(20 20 20 / 0.38) 0 12%, transparent 14%),
+    radial-gradient(circle at 39% 14%, rgb(20 20 20 / 0.38) 0 12%, transparent 14%),
+    radial-gradient(circle at 61% 14%, rgb(20 20 20 / 0.38) 0 12%, transparent 14%),
+    radial-gradient(circle at 82% 34%, rgb(20 20 20 / 0.38) 0 12%, transparent 14%);
+  animation: dog-paw-fade 1.6s ease-in forwards;
+}
+.dark .dog-paw {
+  filter: invert(1);
+}
+.dog-peek {
+  animation: dog-blink 4s infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+/* "Let me out!" label above the doghouse: centred, with a gentle bob to catch the eye. */
+.dog-house-label {
+  transform: translateX(-50%);
+  animation: dog-label-bob 2.4s ease-in-out infinite;
+}
+@keyframes dog-label-bob {
+  0%, 100% { transform: translate(-50%, 0); }
+  50% { transform: translate(-50%, -3px); }
+}
+@keyframes dog-paw-fade {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes dog-blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.1); }
+}
+@keyframes dog-leg {
+  from { transform: rotate(-28deg); }
+  to { transform: rotate(28deg); }
+}
+@keyframes dog-bob {
+  from { transform: translateY(0); }
+  to { transform: translateY(-1.5px); }
+}
+@keyframes dog-wag {
+  from { transform: rotate(-14deg); }
+  to { transform: rotate(16deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dog-run .leg-a,
+  .dog-run .leg-b,
+  .dog-run .dog-body,
+  .dog-sit .dog-tail,
+  .dog-peek,
+  .dog-house-label {
+    animation: none;
+  }
+}
